@@ -1,21 +1,24 @@
 <?xml version="1.0"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">144</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">173</num>, paragraphs: <num n="paragraphs">5</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">144</num>, paragraphs: <num n="paragraphs"
+          >6</num>. Translation, number of words: <num n="words">173</num>, paragraphs: <num
+          n="paragraphs">5</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>K&#xF8;benhavn</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14200323002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright &#xA9; 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright &#xA9; 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Reg. Lat. 237 fol. 249</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -111,14 +113,12 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>
-                    <q>Franciscus. X. de Agello</q>
+                  <ab>P&#xE5;skrift: <q>Franciscus. X. de Agello</q>
                   </ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty</ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -135,7 +135,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Tekst efter </ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,12 +148,12 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-03-23" notBefore="1420-03-23" notAfter="1420-03-23" cert="high">1420. 23. marts</date>
+        <date when="1420-03-23" notBefore="1420-03-23" notAfter="1420-03-23" cert="high">1420. 23.
+          marts</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Paven giver hertug Adolf af Slesvig tilladelse til at have
-                rejsealter</ab>
+        <ab>Pave Martin 5. giver hertug Adolf af Slesvig tilladelse til at have rejsealter.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -166,8 +166,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-05-31" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -177,39 +178,48 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">Martinus (episcopus seruus seruorum dei) nobili viro Adolpho duci Slevicensi
-                        salutem (et apostolicam benedictionem) &#x2666;</p>
-        <p n="a#2"> Sincere (deuotionis affectus quem ad nos et Romanam geris ecclesiam non indigne
-                        meretur ut petitionibus tuis illis presertim quas ex deuotionis feruore
-                        prodire conspicimus quantum cum deo possumus fauorabiliter annuamus &#x2666;</p>
-        <p n="a#3"> Hinc est quod nos tuis deuotis supplicationibus inclinati ut liceat tibi habere
-                        altare portabile cum debita reuerencia et honore super quo in locis ad hoc
-                        congruentibus et honestis possis per proprium uel alium sacerdotem ydoneum
-                        missam et alia diuina officia sine iuris alieni preiudicio in tua presencia
-                        facere celebrari deuotioni tue tenore presentium indulgemus. &#x2666;</p>
-        <p n="a#4"> Nulli ergo omnino hominum liceat hanc paginam nostre concessionis infringere uel
-                        ei ausu temerario contraire. &#x2666;</p>
-        <p n="a#5"> Si quis autem hoc attemptare presumpserit indignacionem omnipotentis dei et
-                        beatorum Petri et Pauli apostolorum eius se nouerit incursurum) &#x2666;</p>
-        <p n="a#6"> Datum Florentie 10. kal. aprilis anno 3</p>
+        <p><app>
+            <lem>Martinus (episcopus servus servorum dei)</lem>
+            <rdg><q>Martinus etcetera</q> Aa</rdg>
+          </app> nobili viro <persName>Adolpho</persName> duci <placeName>Slesvicensi</placeName>
+          <app>
+            <lem>salutem (et apostolicam benedictionem)</lem>
+            <rdg><q>salutem etcetera</q> Aa</rdg>
+          </app> ♦</p>
+        <p>Nobili viro <persName>Adolpho</persName> duci <placeName>Slesvicensi</placeName>.</p>
+        <p><app>
+            <lem>Sincere (devotionis affectus quem ad nos et Romanam geris ecclesiam non indigne
+              meretur ut petitionibus tuis illis presertim quas ex devotionis fervore prodire
+              conspicimus quantum cum deo possumus favorabiliter annuamus ♦ Hinc est quod nos tuis
+              devotis supplicationibus inclinati ut liceat tibi habere altare portabile cum debita
+              reverencia et honore super quo in locis ad hoc congruentibus et honestis possis per
+              proprium vel alium sacerdotem ydoneum missam et alia divina officia sine juris alieni
+              prejudicio in tua presencia facere celebrari devotioni tue tenore presentium
+              indulgemus ♦ Nulli ergo omnino hominum liceat hanc paginam nostre concessionis
+              infringere vel ei ausu temerario contraire. ♦ Si quis autem hoc attemptare
+              presumpserit indignacionem omnipotentis dei et beatorum Petri et Pauli apostolorum
+              ejus se noverit incursurum)</lem>
+            <rdg><q>Sincere etcetera</q> Aa</rdg>
+          </app> ♦</p>
+        <p>Datum <placeName>Florentie</placeName> 10. kal. aprilis anno 3.</p>
       </div>
       <div xml:lang="da">
         <p n="b#1">Martin, biskop, Guds tjeneres tjener, til velbyrdig mand hertug Adolf af Slesvig
-                        hilsen og apostolisk velsignelse.</p>
-        <p n="b#2">Den oprigtige hengivenhed og k&#xE6;rlighed, som Du n&#xE6;rer til os og den romerske
-                        kirke, fortjener, ikke med urette, at vi, s&#xE5; vidt vi form&#xE5;r med Gud, n&#xE5;digt
-                        im&#xF8;dekommer Dine beg&#xE6;ringer, s&#xE6;rlig dem, som vi ser udspringe af br&#xE6;ndende
-                        fromhed.</p>
-        <p n="b#3">Idet vi derfor b&#xF8;jer os for Dine fromme b&#xF8;nner, bevilger vi Dig, fromme s&#xF8;n, ved
-                        dette brevs ordlyd, at Du m&#xE5; have et rejsealter, ved hvilket Du i Din
-                        n&#xE6;rv&#xE6;relse og p&#xE5; steder, der egner sig og er v&#xE6;rdige til dette form&#xE5;l, med
-                        tilb&#xF8;rlig &#xE6;rb&#xF8;dighed og v&#xE6;rdighed kan lade holde messe og andre
-                        gudstjenester ved Din egen eller en anden egnet pr&#xE6;st uden skade for andres
-                        rettigheder.</p>
-        <p n="b#4">Intet menneske m&#xE5; bryde dette vort tilst&#xE5;elsesbrev eller i dumdristig forvovenhed
-                        handle derimod. Hvis nogen drister sig til at fors&#xF8;ge dette, skal han vide,
-                        at han vil p&#xE5;drage sig Gud den alm&#xE6;gtiges og hans hellige apostle Petrus' og
-                        Paulus' vrede.</p>
+          hilsen og apostolisk velsignelse.</p>
+        <p n="b#2">Den oprigtige hengivenhed og k&#xE6;rlighed, som du n&#xE6;rer til os og den
+          romerske kirke, fortjener, ikke med urette, at vi, s&#xE5; vidt vi form&#xE5;r med Gud,
+          n&#xE5;digt im&#xF8;dekommer dine beg&#xE6;ringer, s&#xE6;rlig dem, som vi ser udspringe
+          af br&#xE6;ndende fromhed.</p>
+        <p n="b#3">Idet vi derfor b&#xF8;jer os for dine fromme b&#xF8;nner, bevilger vi dig, fromme
+          s&#xF8;n, ved dette brevs ordlyd, at du m&#xE5; have et rejsealter, ved hvilket du i din
+          n&#xE6;rv&#xE6;relse og p&#xE5; steder, der egner sig og er v&#xE6;rdige til dette
+          form&#xE5;l, med tilb&#xF8;rlig &#xE6;rb&#xF8;dighed og v&#xE6;rdighed kan lade holde
+          messe og andre gudstjenester ved din egen eller en anden egnet pr&#xE6;st uden skade for
+          andres rettigheder.</p>
+        <p n="b#4">Intet menneske m&#xE5; bryde dette vort tilst&#xE5;elsesbrev eller i dumdristig
+          forvovenhed handle derimod. Hvis nogen drister sig til at fors&#xF8;ge dette, skal han
+          vide, at han vil p&#xE5;drage sig Gud den alm&#xE6;gtiges og hans hellige apostle Petrus'
+          og Paulus' vrede.</p>
         <p n="b#5">Givet i Firenze den 23. marts i vort (pontifikats) tredje &#xE5;r.</p>
       </div>
     </body>

@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14200619001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Suppl. 144 fol. 102v</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -115,8 +117,7 @@
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -133,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +147,17 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-06-19" notBefore="1420-06-19" notAfter="1420-06-19" cert="high">1420. 19. juni</date>
+        <date when="1420-06-19" notBefore="1420-06-19" notAfter="1420-06-19" cert="high">1420. 19.
+          juni</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Præsten Thidericus Grube fra Kammin stift får ærkedegneembedet i Slesvig efter Erik Dosenrode, som i lang tid uden dispensation har haft dette embede sammen med sognekirken i Ullerup</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Thidericus Grube, præst fra Cammin stift, om at få
+          provision på embedet som ærkedegn i Slesvig, ledigt ved at den hidtidige indehaver, Erik
+          Dosenrode, ulovligt har forenet det med besiddelsen af sognekirken i Ullerup, skønt
+          Thidericus i forvejen har sognekirken i Rakowo (eller Rekowo) i Cammin stift og ventebrev
+          på sognekirken i Tøndering i Viborg stift, som er forenet med landprovstiet i
+          Sallingsyssel, hvilket han dog er rede til at opgive.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,8 +170,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-04-25" who="#&gt;pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -174,10 +182,28 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Supplicat s. v. .. <persName>Thidericus Grube</persName> presbiter
+            <placeName>Caminensis</placeName> diocesis, quatinus sibi gratiam facientes specialem de
+          archidiaconatu <placeName>Slesvicensi</placeName> dignitate curata et electiva [fructus
+          10. mr. arg. puri] ex eo vacante, quod quidam <persName>Ericus Dosenrode</persName> eundem
+          archidiaconatum cum parrochiali ecclesia in <placeName>Uldorpe</placeName> Slesvicensis
+          diocesis per multa tempora absque dispensatione legitima simul obtinuit fructus
+          percipiendo ex eisdem, .... etiam si archidiaconatus ipse major dignitas post
+          pontificalem, et ille, ex cujus persona ultimo vacavit, sedis apostolice capellanus aut
+          succollector seu collector fructuum camere apostolice debitorum fuerit ..., eidem
+          Thiderico dignemini misericorditer providere non obstantibus, quod parrochialem ecclesiam
+          in <placeName>Rackow</placeName> dicte Caminensis diocesis [fructus 7 mr. arg. puri]
+          obtinet, et quod sibi de parrochiali ecclesia in <placeName>Tunderigh</placeName> ac
+          prepositura rurali insule <placeName>Salingssysel</placeName>
+          <placeName>Vibergensis</placeName> diocesis simul unitis [fructus 25 mr. arg.] provideri
+          concessum existit, cui concessionis gratie paratus est renuntiare ... .</p>
+        <p>Datum <placeName>Florentie</placeName> 13. kal. julii anno 3</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

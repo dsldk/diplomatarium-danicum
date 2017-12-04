@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
       <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +24,7 @@
         <idno type="dd">14311009001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -111,7 +111,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>empty</ab>
+                  <ab>Påskrift: <q>fl. 5 gr. 5</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -132,7 +132,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +145,21 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1431-10-09" notBefore="1431-10-09" notAfter="1431-10-09" cert="high">1431. 9. oktober</date>
+        <date when="1431-10-09" notBefore="1431-10-09" notAfter="1431-10-09" cert="high">1431. 9.
+            oktober<note>Betalingen af 50 guldfloriner svarer til <ref target="14290430001">DD 1429. 30. apr., nr.
+            14290430001</ref>, men vi har ellers hverken optegnelse om eller kvittering for betalingen af en
+            af de mindre afgifter</note></date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab> Biskop Claus (Wulf) i Slesvig betaler en del af sine servispenge til det pavelige kammer</ab>
+        <ab>Franciscus (Condulmer), pavelig vicekammermester, kvitterer Nicolaus
+                  (Wulf), biskop i Slesvig, for indtil 1429. 30. april at have betalt 38
+                  guldfloriner, 23 solidi og 1 denar som en del af hans servispenge til det pavelige
+                  kammer og for én af de mindre afgifter, og desuden for yderligere betaling af 50
+                  guldfloriner til det pavelige kammer på udstedelsesdatoen, modtaget af Daniel (de
+                  Rampi), biskop i Poreč, pavelig skatmester, og overdraget af Cosimo og Lorenzo de'
+                  Medici; endvidere udsættes fristen for betaling af resten af hans servispenge til
+                  to år efter udstedelsen af dette brev.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +172,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-01" who="#pbh">Filen etableret af #pbh 2013-10-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-05-15" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +184,32 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Universis etc. <persName>Franciscus</persName> etc., quod
+            <persName>Nicolaus</persName> episcopus Slesvicensis pridem, videlicet usque in diem
+          ultimam mensis aprilis anni 1429 proxime decursi, pro integra solutione unius minuti
+          servitii camerario et clericis apostolice camere sub certis penis et sententiis ac termino
+          tunc nondum lapso debiti fl. 38 auri de camera sol. 23 et den. 1 monete Romane, dictis
+          clericis prefati camerarii et eorum propriis nominibus recipientibus, die vero date
+          presentium in deductionem sui communis servitii, in quo ratione provisionis de dicta
+          ecclesia sibi facte dicte camere sub dictis penis et sententiis atque termino jam elapso
+          tenebatur efficaciter obligatus, fl. 50 auri similes ipsi camere Romane, <persName>Daniele
+            episcopo Parentino</persName> domini nostri pape thesaurario pro ea recipiente, per
+          manus nobilium virorum <persName>Cosme</persName> et <persName>Laurentii de
+            Medicis</persName> mercatorum Florentinorum eorumque sociorum in Romana curia
+          commorantium solvi fecit realiter cum effectu.</p>
+        <p>De quibus quidem [etc.].</p>
+        <p>Verum intellecta mole gravaminum [etc.], que ipsum ad solvendum residuum dicti communis
+          servitii necnon tria integra minuta servitia .. reddunt verisimiliter impotentem, terminum
+          faciende solutionis hujusmodi hinc ad duos annos proxime futuros tenore presentium
+          prorogamus et de novo assignamus eidem.</p>
+        <p>Ita tamen [etc.]. In quorum etc.</p>
+        <p>Datum <placeName>Rome</placeName> 1431 indictione 9. die 9. mensis oct. pontificatus anno
+          1.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende             udarbejde tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

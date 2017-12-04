@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
-        <date>2016</date>
+        <date>2017</date>
         <idno type="dd">14260709001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -111,7 +113,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>empty</ab>
+                  <ab>Påskrift: <q>Ja. XX. de Cerretanis</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,20 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1426-07-09" notBefore="1426-07-09" notAfter="1426-07-09" cert="high">1426. 9. juli</date>
+        <date when="1426-07-09" notBefore="1426-07-09" notAfter="1426-07-09" cert="high">1426. 9.
+          juli</date>
         <placeName cert="high">Rom, Santi Apostoli</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler kanniken Niels Tuvesen i Vestervig kloster i Børglum stift, som af konventet var valgt til provst dér, men senere havde ført proces om provstiet med præsten Hagen Friis fra Roskilde stift, nu at opgive provstiet, hvis besættelse var reserveret pavestolen</ab>
+        <ab>Pave Martin 5. skriver til Niels Tuesen, kannik i augustinerklostret i Vestervig. Efter
+          den tidligere provst i Vestervig kloster Peder Pedersens frivillige resignation valgte
+          konventet Niels til provst, og biskop Peder i Børglum bekræftede valget, skønt
+          ordinationsretten til alle klosterprovstier er reserveret paven. Siden er der ført proces
+          om provstiet mellem Niels og Hagen Friis, som hævdede at provstiet tilfaldt ham, og på
+          Niels' anmodning overdrog paven sagens afgørelse til sin kapellan og auditør Cunczo de
+          Zwola, som imidlertid ikke nåede frem til en afgørelse; Niels har derfor anmodet om, at
+          paven vil tage hånd om sagen. Paven fjerner enhver inhabilitet fra Niels, og pålægger ham
+          at opgive provstiet.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +173,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-07-15" who="#pbh">Filen etableret af #pbh 2014-07-15. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +185,48 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Nicolao Tuwonis</persName> canonico monasterii
+            <placeName>Westerwicensis</placeName> ordinis s. Augustini
+            <placeName>Burglanensis</placeName> diocesis.</p>
+        <p>Sedes apostolica pia mater <app>
+            <lem>(recurrentibus ad eam cum humilitate filiis post excessum libenter se propitiam
+              exhibet et benignam)</lem>
+            <rdg>tilføjet efter <ref target="14071207001">DD 1407. 7. dec., nr.
+              14071207001</ref></rdg>
+          </app>.</p>
+        <p>Dudum siquidem omnes preposituras conventuales vacantes dispositioni nostre reservavimus,
+          et deinde, sicut exhibita nobis pro parte tua petitio continebat, <app>
+            <lem>quod</lem>
+            <rdg>bør slettes</rdg>
+          </app> olim, prepositura monasterii Westerwicensis ordinis s. Augustini Burglanensis
+          diocesis, que dignitas conventualis existit, per liberam resignationem <persName>Petri
+            Petri</persName> in manibus <persName>Petri</persName> episcopi Burglanensis sponte
+          factam et per eundem episcopum auctoritate ordinaria admissam vacante, conventus ipsius
+          monasterii, ad quos cessantibus reservationibus apostolicis electio persone idonee in
+          prepositum dicti monasterii, dum vacat, de antiqua et approbata ac hactenus pacifice
+          observata consuetudine pertinet, ... te canonicum dicti monasterii, ordinem ipsum expresse
+          professum et in sacerdotio constitutum, in eorum et ipsius monasterii prepositum
+          concorditer elegerunt, licet de facto, tuque, electioni hujusmodi illius tibi presentato
+          decreto consentiens, eam ab eodem episcopo obtinuisti auctoritate prefata confirmari,
+          necnon electionis et confirmationis hujusmodi pretextu possessionem prepositure ejusdem
+          assecutus fuisti, fructus percipiens ex eadem licet paucos etiam de facto, ortaque
+          postmodum inter te et <persName>Haquinum Frisonis</persName>, qui se gerit pro presbitero
+          Roskildensis diocesis, asserentem eandem preposituram ad se spectare, materia questionis,
+          et causa hujusmodi per appellationem tuam ad sedem predictam legitime devoluta, nos causam
+          ipsam ad tui instantiam magistro <persName>Cunczoni de Zwola</persName> capellano nostro
+          et causarum palatii apostolici auditori audiendam commisimus et fine debito terminandam,
+          qui in ea ad nonnullos actus citra tamen conclusionem dicitur processisse; quare pro parte
+          tua nobis fuit supplicatum, ut tibi super hoc providere dignaremur.</p>
+        <p>Nos igitur omnem inhabilitatis et infamie maculam sive notam per te premissorum occasione
+          contractam penitus abolemus et volumus, quod preposituram predictam exnunc realiter et
+          omnino dimittas.</p>
+        <p>Datum <placeName>Rome apud ss. Apostolos</placeName> 7. id. juli anno 9.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>
