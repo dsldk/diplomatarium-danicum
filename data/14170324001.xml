@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">122</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14170324001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2631; tidl. Universitetets arkiv nr. 572 (Konsistoriums arkiv pk. 161)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.5 (plica: 1.5)</height>
+                                    <width>24</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Peder Truelsens segl af grønt voks i ufarvet i perg.rem, <ref>AS M 90</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5652</bibl>
+               <bibl>Reg. *4400</bibl>
+               <bibl>Vejledende Arkivreg. XVII 203 nr. 29</bibl>
+               <bibl>Rørdam, Kjøbenhavns Kirker og Klostre i Middelalderen, Till. 25</bibl>
+               <bibl>Københavns Dipl. IV 20-21 nr. 29</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-03-24"
+                  notBefore="1417-03-24"
+                  notAfter="1417-03-24"
+                  cert="high">1417. 24. marts</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder Truelsen, høvedsmand på Gurre, overdrager Københavns kapitel det gods i Buddinge og
+      Mørkhøj, som han har i pant af Lars (Nielsen) Vinnere, rådmand i København.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-20" who="#pbh">Filen etableret af #pbh 2014-03-20. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-04-18" who="#alk">2. korrektur af #alk 2017-04-18. </change>
+         <change when="2017-06-19" who="#alk">3. korrektur af #alk 2017-06-19. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Petrus Trugilli</persName> de
+        <placeName>Husu<ex>m</ex>mæ</placeName> armiger et <placeName>capitanius castri
+        Gurwæ</placeName> salutem in domino ♦</p>
+            <p n="a#2">Notum facio universis me honorabilibus viris et discretis dominis videlicet <placeName>decano
+        totique capitulo ecclesie beate Marie virginis Hafnis</placeName> omnia et singula bona in
+        <placeName>Buthinggæ</placeName> et <placeName>Myrkøwæ</placeName> in <placeName>parochia
+        Glathsaxæ</placeName>
+               <placeName>Syalendie</placeName> cum omnibus suis pertinenciis per discretum virum . videlicet
+      . <persName>Laurencium Wi<ex>n</ex>næræ</persName>
+               <placeName>consulem Hafnensem</placeName> mihi inpignerata prout in <cit>
+                  <quote>literis ejusdem Laurencii Wi<ex>n</ex>næræ super hoc confectis</quote>
+                  <bibl>Kendes ikke</bibl>
+               </cit> plenius patet cum omni jure meo necnon cum omni jure per uxorem meam videlicet
+        <persName>Benedictam vel Bæiænthæ</persName> inpigneracionis titulo in eisdem bonis michi
+      advoluto ex certa sciencia mea ac bona voluntate libere per presentes resignasse . ♦</p>
+            <p n="a#3">Recognoscens me a dictis honorabilibus dominis . videlicet . decano et capitulo plenam
+      pecunie summam secundum tenores literarum predicti Laurencii Wi<ex>n</ex>næræ super hujusmodi
+      bonorum inpigneracione confectarum integre sublevasse ♦</p>
+            <p n="a#4">In cujus rei evidens testimonium sigillum meum presentibus est appensum ♦</p>
+            <p n="a#5">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xvii<hi rend="sup">o</hi>
+      profesto annunciacionis dominice ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
