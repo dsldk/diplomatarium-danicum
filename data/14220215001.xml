@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">879</num>, paragraphs: <num n="paragraphs">10</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14220215001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Københavns Stadsarkiv</repository>
+                        <collection>Diplomsamlingen</collection>
+                        <idno>Diplomsamlingens arkiv. Privilegier vedr. Københavns stad og Christianshavn. 10</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>29</height>
+                                    <width>34</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Separat på to linjer i nederste højre hjørne kancellipåtegningen <q>Ad jussum
+        domini et ad relationem E Kru <ex>(= Erici Krumedige)</ex> . Jo Pe
+        <ex>(= Johannes Petri)</ex>
+                              </q>. På bagsiden (vist med samtidig hånd) <q>Køpendhaffn</q> og
+      (med senere hånd) <q>Att huer skall holde sig aff siit embed och
+      hanndtwerck</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Rester af unionssekretet i rødt voks påtrykt bagsiden, <ref>DKS 62</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Københavns Stadsarkiv</repository>
+                        <collection>Diplomsamlingen</collection>
+                        <idno>Diplomsamlingens arkiv. Privilegier vedr. Københavns stad og Christianshavn. 19</idno>
+                        <msName>Vidisse af kong Kristian 1. 1461. 18. maj</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Vidisse af kong Kristian 1. 1468. 30. november (ufuldstændigt gengivet)</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Kopi indsendt 1648 af Køge By: Rigsarkivet. Danske Kancelli (Bl. 4 b)</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab2a">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>Kall</collection>
+                        <idno>52, Fol</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5958</bibl>
+               <bibl>Reg. 3368*</bibl>
+               <bibl>Københavns Dipl. I 149-151 nr. 112</bibl>
+               <bibl>Københavns Dipl. I 198-200 nr. 151 (Aa)</bibl>
+               <bibl>Aarsberetn. fra Geheimearch. V 57-59 nr. 24</bibl>
+               <bibl>Aarsberetn. fra Geheimearch. V 66-67 nr. 30 (Aa)</bibl>
+               <bibl>Kolderup-Rosenvinge Saml. af gl. danske Love V 121-3</bibl>
+               <bibl>Huitfeldt IV 305-7, Fol. 683-4 (udtog)</bibl>
+               <bibl>Danmarks gl. Købst.lovgivn. III 73-75 nr. 20</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-02-15"
+                  notBefore="1422-02-15"
+                  notAfter="1422-02-15"
+                  cert="high">1422. 15. februar <note>Det i brevets narratio omtalte møde i Ringsted er formentlig afholdt i
+    begyndelsen af juli 1421, da kongen og rigsrådet ikke ellers forefindes der i perioden juli
+    1421-februar 1422; se <ref target="14210702001">DD 1421. 2. jul., nr. 14210702001</ref> og <ref target="14210702002">14210702002</ref>
+               </note>
+            </date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern meddeler København et privilegium for købstæderne på Sjælland.</ab>
+            <ab>Håndværkerne skal ernære sig hver af sin håndtering, og de må ikke være borgmestre og
+      rådmænd. Den, der vil optages i et lav, skal give lige så meget, som han giver for at blive
+      borger i byen.</ab>
+            <ab>Borgmestre og rådmænd må kun tage dem til borgere og bymænd, som vil være stadige og bofaste
+      borgere. Borgmestre og rådmænd kan ikke afsættes af borgerne, medmindre man beviser deres
+      udygtighed over for kongen og rigsrådet.</ab>
+            <ab>Landkøb og forprang forbydes, og al handel skal foregå i købstæderne og på markeder og
+      torve. På torvedage må indtil en vis tid kun borgerne købe på torvet, men efter kl. 10 må alle
+      gæster, og hvem der vil, købe.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-09-07" who="#alk">2. korrektur af #alk 2017-09-07. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wj <persName>Erik</persName> meth guths nathe
+        <placeName>Da<ex>n</ex>m<ex>a</ex>rcs</placeName>
+               <placeName>Swerig<ex>es</ex>
+               </placeName>
+               <placeName>Norg<ex>es</ex>
+               </placeName>
+               <placeName>Wendes</placeName> oc <placeName>Gotes</placeName> koni<ex>n</ex>g oc
+      h<ex>er</ex>tuch j <placeName>Pome<ex>re</ex>n</placeName> helsse ether oss elschelighe
+      borghemestere rathmæn oc all mene almughe<ex>n</ex> j <placeName>Køpendhaffn</placeName> /
+      kerlighe meth guth oc wor nathe / ♦</p>
+            <p n="a#2">Wider gothe wener at offte ok ithelighe hauer kær<ex>e</ex>maal wær<ex>e</ex>t for oss aff
+      wore gothe mæ<ex>n</ex> j rikit / swo oc æn nw sidherst wi wore j
+        <placeName>Ringstede</placeName> aff wort radh clerkerie oc ridderscap / vm
+      ge<ex>m</ex>merlicht oc vskiellicht regime<ex>n</ex>t meth køpma<ex>n</ex>scap oc hantering
+      th<ex>e</ex>r then ene scal berghe sik aff meth the<ex>n</ex> a<ex>n</ex>ne<ex>n</ex> oc
+      serdel<ex>es</ex> j wore køpstædher ♦</p>
+            <p n="a#3">Sa<ex>m</ex>melethis haue oc wore burghe<ex>re</ex> oc køpstædhemæ<ex>n</ex> til oss tiit oc
+      offte talet oc for oss kært / oc serdel<ex>es</ex> atter nw sidherst j Ringstædhe / at thet
+      so<ex>m</ex> the there b<ex>er</ex>ning oc køpma<ex>n</ex>scap aff sculde haue / oc holde
+      schyellicht regiment meth som j køpstædher burdhe at wær<ex>e</ex> / thet haue nw andre
+      mæ<ex>n</ex> / vppa land swo som er bønder oc wortnethe / oc forprangere j landit ./ thæt /
+      the haue falt oc hantere all køpmanscap swo som er clædhe / humle / staal / sarduch . lærit /
+      oc swo dan stycke / oc thet hwer ma<ex>n</ex> hwo th<ex>e</ex>r wil far oc wandrer til ny
+      fischelæyæ j la<ex>n</ex>d<ex>e</ex>t oc køpe th<ex>e</ex>r hwat th<ex>e</ex>m luster oc gøre
+      stoort forkøp / bothe vpa sild pa fææ . oc vpa alle hande køpma<ex>n</ex>schap / h<ex>er</ex>
+      haue bethet oss bothe clerkerie oc ridderscap swo oc køpstædhemæ<ex>n</ex> / radh oc made
+      tillfynne at thet schyellighe<ex>re</ex> / oc annerlethis matte worthe / tha bebuthethe wi
+      till oss till <placeName>Roskilde</placeName> / biscop <persName>Jenes</persName> j
+        <placeName>Syæland</placeName> oc the andre <placeName>prelate</placeName> oc ridderscap
+      th<ex>e</ex>r aff landet . oc køpstætheme<ex>n</ex>ne<ex>n</ex>e meth / the
+      fornu<ex>m</ex>pstighiste oc the beste wi wiste th<ex>e</ex>r j landit wær<ex>e</ex> / vm
+      thisse for<hi rend="sup">ne</hi> ærinde / oc beddis there radh th<ex>e</ex>r till /
+      ♦</p>
+            <p n="a#4">Tha haue the swo vnderwiist oss oc raadt / oc for thet beste keest / at wi thet swo fly oc
+      bywdhe / at alle embitzmæ<ex>n</ex> b<ex>er</ex>ghe sik oc nære aff there æmbede swo som er /
+      at burghere oc bymæ<ex>n</ex> the som eke swo dane embede haue som h<ex>er</ex>efft<ex>er</ex>
+      næfnes / the berghe sik meth there køpma<ex>n</ex>scap oc meth there brygning / oc swo dan
+      køpmans hantering / bagh<ex>er</ex>e berghe sik aff siin baghning / sudere aff hans
+      schog<ex>er</ex>ni<ex>n</ex>g / smidh aff hans smedheg<ex>er</ex>ning / gulsmidh aff hans
+      æmbede skrædere aff hans embede / krembere aff sit embede / skinnere aff sit embede / oc
+      serdel<ex>es</ex> alle embitzmæn ee hwat embede the helst haue / at hwer there berghe sik aff
+      sit embede / thok swo vm nokre aff thisse for<hi rend="sup">ne</hi> æmbede wilde thes worthe
+      eens j nogher køpstadh oc fare vschiellighe meth sin hantering entich meth brygning eller
+      baghning eller meth skog<ex>er</ex>ning eller meth noket aff thisse for<hi rend="sup">ne</hi>
+      embede tha scule borghemeste<ex>re</ex> oc rathme<ex>n</ex> meth foghedens hielp / grantzke
+      thet wt swo offte, som thet behoff gørs swo at thette for<hi rend="sup">ne</hi> jo schiellighe
+      holdes oc tilgaa effter thy som wor herre vnner oc setter tidhen j la<ex>n</ex>dit til
+      ♦</p>
+            <p n="a#5">Item scall engin j nogher <app>
+                  <lem>køpstadh</lem>
+                  <rdg wit="#A">
+                     <q>skøbstadh</q>, A</rdg>
+               </app> wær<ex>e</ex> eller h<ex>er</ex> efft<ex>er</ex> at worthe / burghemester / eller
+      rathma<ex>n</ex> / aff thisse for<hi rend="sup">ne</hi> æmbede / men thet scule wær<ex>e</ex>
+               <app>
+                  <lem>an<damage>dr</damage>e</lem>
+                  <rdg wit="#A">Lille hul og misfarvning, A</rdg>
+               </app> burghere oc køpmæ<ex>n</ex> / oc scule burgherne oc meenhede<ex>n</ex> j køpstædherne
+      engen macht haue burghemeste<ex>re</ex> aff at sette / wte<ex>n</ex> the ku<ex>n</ex>ne bewise
+      oss oc wort radh / meth schiell / at the oss oc køpstædhen oc rikit <app>
+                  <lem>jk<damage>e</damage>
+                  </lem>
+                  <rdg wit="#A">Lille hul, A</rdg>
+               </app> nuttighe ære ♦</p>
+            <p n="a#6">Item hwo th<ex>e</ex>r j nogher køpstadh noket aff thisse for<hi rend="sup">ne</hi> æmbide .
+      wil wi<ex>n</ex>ne som the kalle theræ lagh tha scall han gyue for sin ingang j æmbedet / swo
+      mekit so<ex>m</ex> han gyuer byen tha ha<ex>n</ex> worther byma<ex>n</ex> oc ey meer /
+      ♦</p>
+            <p n="a#7">Woret oc swo at noket embede sette sik h<ex>er</ex>amot oc wilde ey holdet so<ex>m</ex>
+      for<ex>e</ex>sc<ex>r</ex>euit staar tha scule burghemeste<ex>re</ex> oc rathmen haue macht at
+      rette th<ex>e</ex>r ouer meth foghedens hyelp / oc th<ex>et</ex> wi afflegge oc forbiudhe swo
+      dant landkøp oc hantering oc forprang som forescr<ex>e</ex>uit staar / a<ex>n</ex>ner stadh at
+      øwe oc hantere wte<ex>n</ex> j wore køpstædher / oc vpa wore marknethe ok torgh som aff alder
+      haue wærit / oc th<ex>et</ex> køpstædhemæ<ex>n</ex> j alle køpstædher . scule stikke eet tekn
+      wt / ee naar there torghdach er / oc then stund oc swo le<ex>n</ex>ge som thet tekn staar / at
+      engin / mæthe<ex>n</ex> køpe eller sælyæ / wte<ex>n</ex> bofaste bymæ<ex>n</ex> oc
+      burghe<ex>re</ex> / oc thet same tekn scal jntaghes oc ey leng<ex>er</ex> staa æn vpa
+      the<ex>n</ex> tiidh vm daghe<ex>n</ex> som clocken slaar ti / ♦ Th<ex>e</ex>r effter
+      genist køpe oc sælie gest / oc ee hwo th<ex>e</ex>r wil ♦</p>
+            <p n="a#8">Item at burghemeste<ex>re</ex> oc rathmen oss oc rikit th<ex>e</ex>r wti besørghe at
+      hwe<ex>m</ex> the till burghe<ex>re</ex> oc bymæ<ex>n</ex> vntfaa at the<ex>m</ex> stadhigh oc <app>
+                  <lem>bofast</lem>
+                  <rdg wit="#A">
+                     <q>bo</q> tilføjet over linjen, A</rdg>
+               </app> burghere bliue / oc thet enge<ex>n</ex> tiidh / eller køp vpa nogher stycke dyrkes /
+      for thy / hwar wi meth wort radh oc gothe mæ<ex>n</ex> ko<ex>m</ex>me j wor<ex>e</ex>
+      køpstædher / nw effter thet at the oss swo vppa wiist oc raadt haue j alle made som
+      for<ex>e</ex>scr<ex>e</ex>uit staar / tha wele wi oc biude hwer ma<ex>n</ex> thette for<hi rend="sup">ne</hi> regime<ex>n</ex>t swo atholde oc engelund h<ex>er</ex>amot
+      atgør<ex>e</ex> wither wor konu<ex>n</ex>glike heffnd oc vrethe swo lenge till thes / at oss
+      nogher / nogher a<ex>n</ex>ne<ex>n</ex> schiellighe<ex>re</ex> vnderwiisni<ex>n</ex>g
+      gør<ex>e</ex> oc bewise kan the<ex>n</ex> so<ex>m</ex> for rik<ex>e</ex>t oc landen nuttighere <app>
+                  <lem>
+                     <supplied>er</supplied>
+                  </lem>
+                  <rdg wit="#A">Hul i perg., A</rdg>
+               </app>. ♦</p>
+            <p n="a#9">Th<ex>e</ex>r meth befale wi ether guth ♦</p>
+            <p n="a#10">Scriptum Roskildis anno domini millesimo cd<hi rend="sup">o</hi> vicesimosecundo dominica
+      sexagesime nostro sub secreto tergo presencium impresso ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

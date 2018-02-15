@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
-        <date>2016</date>
+        <date>2017</date>
         <idno type="dd">14370409001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -82,7 +84,7 @@
               <msIdentifier>
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
-                <idno>Reg. Lat. 353 fol. 64 og Suppl. 329 fol. 162; også supplik (Concessum in presentia pape) i Suppl. 326 fol. 256v</idno>
+                <idno>Reg. Lat. 353 fol. 64</idno>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -111,7 +113,55 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>empty</ab>
+                  <ab>Påskrift: <q>An. LXXX. de Adria</q></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Aa1">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository>empty</repository>
+                <idno>empty</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>Optaget i <ref target="14370530002">DD 1437. 30. maj, nr.
+                    14370530002</ref></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -132,7 +182,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +195,34 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1437-04-09" notBefore="1437-04-09" notAfter="1437-04-09" cert="high">1437. 9. april</date>
+        <date when="1437-04-09" notBefore="1437-04-09" notAfter="1437-04-09" cert="high">1437. 9.
+            april<note>Jf. pave Martin 5.s ordre om kapitlets sekularisering, <ref
+              target="14261103001">DD 1426. 3. nov., nr. 14261103001</ref>. Findes også som supplik
+            (med påskriften <q>Concessum in presentia pape</q>) i Arch. Segr. Vat. Suppl. 326 fol.
+            256v</note></date>
         <placeName cert="high">Bologna</placeName>
       </creation>
       <abstract>
-        <ab> Paven befaler abbeden i Øm kloster og kantoren i Aarhus at føre kapitlet i Viborg tilbage til dets gamle skikkelse, kassere sekularisationen (jf. nr. 1512) og genindføre det regelbundne liv for kannikerne</ab>
+        <!--<ab>Pave Eugenius 4. skriver til abbeden i Øm kloster og kantoren i Århus. Provsten og
+          kapitlet i Viborg har ansøgt om at få omstødt sekulariseringen af kapitlet (jf. <ref
+            target="14261103001">DD 1426. 3. nov., nr. 14261103001</ref>), idet den havde fundet
+          sted uden kong Eriks vilje og uden kapitlets samtykke, ligesom det forhold, som var blevet
+          lagt til grund, nemlig at der ikke var et passende antal kanniker eller nogen, der ønskede
+          at blive optaget i kapitlet, ikke passede. Paven pålægger derfor brevets modtagere at
+          undersøge forholdene og, i fald det forholder sig som beskrevet, at kassere
+          sekulariseringen og føre kapitlet tilbage til sin tidligere form; desuden skal de
+          annullere eventuelle afgørelser, der er truffet mod provsten eller andre personer i
+          kapitlet</ab>-->
+        <ab>Pave Eugenius 4. pålægger efter supplik af provsten og kapitlet i Viborg abbeden i Øm
+          kloster og kantoren i Århus at undersøge indholdet af provstens og kapitlets supplik,
+          hvoraf det fremgår, at sekulariseringen af Viborg domkapitel havde fundet sted uden kong
+          Eriks vilje og uden kapitlets samtykke, og at det forhold, der var blevet lagt til grund
+          for sekulariseringen, nemlig at der ikke var et passende antal kannikker eller nogen, der
+          ønskede at blive optaget i kapitlet, ikke passede; hvis de efter at have stævnet biskop
+          Herman (Rynkeby) og andre, der bør stævnes, finder klagen begrundet, skal de med pavelig
+          autoritet annullere alle verserende sager, kassere sekulariseringen og alt, hvad deraf er
+          fulgt, og føre kapitlet tilbage til sin tidligere form; desuden skal de annullere
+          eventuelle afgørelser, der er truffet mod provsten eller andre personer i kapitlet.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +235,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-11-21" who="#pbh">Filen etableret af #pbh 2013-11-21. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-02-02" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +247,76 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Abbati monasterii <placeName>Care insule</placeName>
+          <placeName>Arusiensis</placeName> diocesis et cantori ecclesie Arusiensis.</p>
+        <p>Cunctis orbis ecclesiis (disponente domino presidentes, circa ipsarum, presertim
+          cathedralium necnon in eis potissime sub observantia regulari pie studio vite vacantium,
+          personarum statum salubriter dirigendum studiis invigilamus assiduis et eis sic utilis ope
+          provisionis suffragari cupimus, quod a detrimenti subleventur incommodis ac prosperis
+          jugiter proficiant incrementis).</p>
+        <p>Sane pro parte prepositi et capituli ecclesie <placeName>Vibergensis</placeName> ordinis
+          s. Augustini nobis nuper exhibita petitio continebat, quod, dudum pro parte
+            <persName>Erici</persName> regis <placeName>Dacie</placeName> et bone memorie
+            <persName>Lagonis</persName> episcopi Vibergensis <persName>Martino pape V</persName>
+          suggesto, quod, licet olim ipsa ecclesia largitione fidelium possessionibus, bonis,
+          fructibus pro preposito predicto necnon canonicis et aliis personis sub regulari
+          observantia divinis laudibus deditis sufficienter dotata fuisset, regularisque ibidem
+          castimonia per ipsos canonicos et personas in sacra contemplatione viguisset, tamen,
+          temporum crescente malitia et hominum frigescente devotione, religionis hujusmodi zelo
+          neglecto, possessiones bona fructus hujusmodi, quibusdam ex eis distractis et aliis
+          penitus alienatis, adeo decreverant, quod ex hiis debitus personarum numerus per plura
+          tempora non potuerat congrue sustentari, omnisque detestabiliter prospiciebatur plurimum
+          religio decrevisse, nec quisquam utilis inibi habitum vellet assumere regularem, quodque
+          canonici et persone tunc ejusdem ecclesie pauci numero sic senio gravarentur, quod pro
+          dicte ecclesie et illius status reformatione penitus inutiles censerentur, nec spes certa
+          foret eam per ipsius ordinis professores ad statum debitum posse reduci, dictus
+          predecessor hujusmodi suggestione circumventus per suas litteras archiepiscopo
+            <placeName>Lundensi</placeName>, ejus proprio nomine non expresso, dedit in mandatis, ut
+          de premissis se diligenter informaret et, si ita fore repperiret sibique expediens
+          videretur, canonicis et aliis personis dicti ordinis inibi tunc residentibus, de
+          communibus ejusdem ecclesie proventibus, quoad viverent, portionibus eis congruis
+          assignatis, cedentibus vel decedentibus, ordineque predicto per eum suppresso, collegium
+          canonicorum secularium sub certo numero canonicatuum et prebendarum juxta dicte ecclesie
+          facultatum exigentiam cum dignitatibus, personatibus, officiis aliisque beneficiis ad
+          instar aliarum ecclesiarum cathedralium illarum partium in eadem ecclesia in secularem per
+          ipsum erigenda institueret ac faceret ad canonicatus et prebendas, dignitates, personatus,
+          officia necnon beneficia hujusmodi illos, quibus ea conferrentur, ut moris esset, admitti,
+          prout in ipsis litteris plenius continetur.</p>
+        <p>Postmodum vero, sicut exhibita nobis nuper pro parte dictorum prepositi et capituli
+          petitio continebat, eis ad id non vocatis, bone memorie <persName>Petrus</persName>
+          archiepiscopus Lundensis ad ipsarum executionem litterarum dicitur processisse.</p>
+        <p>Cum autem de dicti regis, infra cuius temporale dominium ipsa ecclesia consistit,
+          voluntate nullatenus extiterit vel ad presens sit, quod suppressio, erectio et institutio
+          hujusmodi quomodolibet fierent, ipsaque ecclesia etiam tempore date litterarum earundem
+          congruenti canonicorum et personarum dicti ordinis numero fulcita fuerit, pluresque
+          reperirentur dietim, qui in canonicos ejusdem ecclesie recipi ac prefatum ordinem inibi
+          profiteri vellent, si littere ac executio predicte non emanassent et, si predictarum
+          suppressionis, erectionis et institutionis <app>
+            <lem>omnimodus</lem>
+            <rdg><q>omnimodis</q> foreslået af Gertz</rdg>
+          </app> prodierit effectus, gravia verisimiliter in partibus illis inconvenientia et
+          scandala subsequentur, pro parte prepositi et capituli predictorum asserentium, quod
+          interim prefatus episcopus de medio sublatus est, ac de persona
+            <persName>Hermanni</persName> episcopi Vibergensis dicte ecclesie auctoritate apostolica
+          provisum extitit, nobis fuit supplicatum, ut eis ac ipsi ecclesie super hiis oportune
+          providere dignaremur.</p>
+        <p>Nos itaque, qui de hujusmodi nobis expositis certam notitiam non habemus, discretioni
+          vestre mandamus, quatinus, si et postquam, vocatis Hermanno episcopo predicto necnon
+          aliis, qui fuerint evocandi, vobis de premissis expositis legitime constiterit, omnes
+          lites, si que premissorum occasione indecise pendeant, penitus auctoritate nostra
+          extinguentes, litteras predictas et quecunque inde secuta auctoritate predicta cassetis
+          necnon ecclesiam prepositum et capitulum predictos adversus litteras et executionem
+          hujusmodi in statum pristinum, quo videlicet erant, antequam dicte littere emanarent, ita
+          etiam, quod quevis ecclesiastice sententie, si que forsitan dicta occasione contra
+          prepositum predictum necnon singulares ex ipsis capitulo personas late sint, pro nullis et
+          sublatis habeantur, eadem auctoritate restituatis.</p>
+        <p>Datum <placeName>Bononie</placeName> 5. id. aprilis anno 7.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">385</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14170610003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 18952</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Gøø ♦ Desse breff lyde alle nu til vor morfars [...]</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af lyst voks i perg. rem; norsk</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Trued Jensens (Hase) segl af lyst voks i perg. rem, <ref>AS D xvii 9 (Due)</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Jens Stigsens segl af lyst voks i perg. rem, <ref>AS L xviii 5 (Thott)</ref>
+                              </ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Perg. rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Segl af lyst voks i perg. rem; forsiden mangler</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Jf. DD 1417. 6. jun., nr. 14170610001 og DD 1417. 28. jul., nr. 14170728001. Registreret i Peringskiöld, E 54</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 223-25</bibl>
+               <bibl>Rep. udat. nr. 583, måske = Rep. nr. 5661 = riksarkivet.se/SDHK nr. 18951 (hvorefter dato)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-06-10"
+                  notBefore="1417-06-10"
+                  notAfter="1417-06-10"
+                  cert="low">1417. 10. juni</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jon Hjerne, ridder, pantsætter til Niels Svendsen (Sparre), ridder, flere gårde på Gö (Listerby sogn, Medelstads herred), i Kulla, Sandbäck og Kylinge (Gammalstorps sogn), i
+      Rösjö og Gränum (Jämshögs sogn, Listers herred), samt i Klagstorp og Västanå (Näsums sogn, Villands
+      herred).</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-15" who="#pbh">Filen etableret af #pbh 2014-08-15. </change>
+         <change when="2017-09-04" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-09-04. </change>
+         <change when="2017-10-17" who="#mh">2. korrektur af #mh 2017-10-17. </change>
+         <change when="2017-11-07" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Allæ mæn th<ex>et</ex>tæ b<ex>re</ex>ff sse æll<ex>e</ex>r h[ø]ræ helssær jak <persName>Joon
+      Jærne</persName> kærlegæ m<ex>eth</ex> gwdh rydde<ex>re</ex> ♦ Thet skal alla mæn
+      wedh<ex>e</ex>rlich wara nerwa<ex>rendes</ex> ok ko<ex>m</ex>maskw<ex>lendes</ex>
+      th<ex>et</ex> jak wedh<ex>e</ex>rke<ex>n</ex>nes myk m<ex>eth</ex> th<ex>et</ex>ta myth opna
+      b<ex>re</ex>ff th<ex>et</ex> jak haw<ex>er</ex> wnth th<ex>e</ex>nna b<ex>re</ex>fføraræ
+      h<ex>e</ex>r <persName>Nielss Swenss<ex>øn</ex> rydde<ex>re</ex>
+               </persName> myn maw
+      løssni<ex>n</ex>g ppa myth gooz ssom efftæ screwyth staar ok in løøst haw<ex>er</ex> ffor hwndradha lødych mark ok han myk læth
+      haw<ex>er</ex> hw<ex>n</ex>dradha lødych mark th<ex>e</ex>r tiil aff rææth laan ssom myk
+      ffollælegæ nøyær m<ex>eth</ex> betalaskw<ex>lendes</ex> jnna<ex>n</ex> s<ex>anc</ex>te
+      Michaelss dach n[w] nest ko<ex>m</ex>mær ♦</p>
+            <p n="a#2">Ær th<ex>et</ex> ok swa ath myk wansskar th<ex>e</ex>nna b<ex>re</ex>fførara h<ex>e</ex>r
+       Nielss <app>
+                  <lem>Swenss<ex>øn</ex>
+                  </lem>
+                  <rdg wit="#A">skrevet <q>sswenss<ex>øn</ex>
+                     </q>, A</rdg>
+               </app> æll<ex>e</ex>r hans arwinge th<ex>e</ex>nna
+      ffor<hi rend="sup">de</hi> pænyæ sswm <app>
+                  <lem>at betala</lem>
+                  <rdg wit="#A">ov. l.; ifølge et henvisningstegn skulle tilføjelsen have været indføjet mellem <q>ssom</q> og <q>ffore</q>, A</rdg>
+               </app> ssom ffore screwith star tha tiil pant sættyr jak hanu<ex>m</ex> myth goz ssom ær
+      apa <placeName>Gøø</placeName> j <placeName>Sybarp</placeName> fæm gardha j
+      <placeName>Sonarp</placeName> iiij gordha j <placeName>Wætlø</placeName> j gard j
+      <placeName>Kwlla</placeName> ij gardha j <placeName>Sanbæch</placeName> j gard
+      m<ex>eth</ex> myllone och myllogardhyn fæm gardha j <placeName>Kyllynge</placeName>
+      m<ex>eth</ex> ena ffesta j <placeName>Gemssø sogn</placeName> j <placeName>Ryssyæ</placeName>
+      iij gardha j <placeName>Grænni<ex>u</ex>m</placeName> j gard ♦</p>
+            <p n="a#3">Item Westæn aa ij gardhæ j <placeName>Clawstorp</placeName> j gardh
+      badhæ ffor the hwndrathæ lødych mark han haw<ex>er</ex> in løøst th<ex>et</ex> gooz ffare och
+      swa ffore hw<ex>n</ex>dratha jak haw<ex>er</ex> rættælegæ laant aff hanu<ex>m</ex> ♦</p>
+            <p n="a#4">Item ingeen ath gywæ makt ath løsæ th<ex>et</ex> ffor<hi rend="sup">d<ex>e</ex>
+               </hi> gooz wdan jak
+      m<ex>eth</ex> myna eyna pæni<ex>n</ex>gæ ♦ Item ffor<hi rend="sup">d<ex>e</ex>
+               </hi> h<ex>e</ex>r <persName>Nielss Swenss<ex>øn</ex>
+               </persName>
+      makt hava j ath sættæ och wdaff ath s[æ]ttæ æftæ ssyn eyæn wælyæ och app ath bæræ ffrwcth och
+      langilde och al[th] th<ex>et</ex> th<ex>et</ex> gooz skylde kan ok intæ slooss j howyth
+      pæni<ex>n</ex>gana ♦</p>
+            <p n="a#5">Och løssni<ex>n</ex>ga dagh<ex>e</ex>n skal altyth wara paa s<ex>anc</ex>te Mychael dach och
+      ingeen a<ex>n</ex>nan løsni<ex>n</ex>g dach ♦ Ok æ naar th<ex>et</ex> ffor<hi rend="sup">de</hi>
+      goz løsæs tha skal langildith følyæ howyth pænigænæ th<ex>et</ex> aar næst ko<ex>m</ex>mar
+      ♦</p>
+            <p n="a#6">Item bindh<ex>e</ex>r jak myk tiil m<ex>eth</ex> my<ex>na</ex> arwingæ ffrii och hemlæ
+      th<ex>et</ex> ffor<hi rend="sup">d<ex>e</ex>
+               </hi> h<ex>e</ex>r Nielss
+        <app>
+                  <lem>Swenss<ex>øn</ex>
+                  </lem>
+                  <rdg wit="#A">skrevet <q>sswenss<ex>øn</ex>
+                     </q>, A</rdg>
+               </app> ell<ex>e</ex>r hans arwinge th<ex>et</ex> ffor<hi rend="sup">d<ex>e</ex>
+               </hi> gooz ffor hwars mans tiiltall ffor eth panth swa lenge th<ex>et</ex> ffor<hi rend="sup">d<ex>e</ex>
+               </hi> goz wordh<ex>er</ex> hanu<ex>m</ex> ell<ex>e</ex>r ha<ex>n</ex>s arwinge
+      aff myk ell<ex>e</ex>r myna arwinge aff lost for th<ex>e</ex>n ffor<hi rend="sup">d<ex>e</ex>
+               </hi> pænyæ
+      sswm ♦</p>
+            <p n="a#7">In cujus rei testimonium sigillum meum una cum sigillis nobilium virorum videlicet
+      <persName>domini Trugoti Jenss<ex>øn</ex> canonicus</persName> Lundensis <persName>Johannis
+        Styxs<ex>øn</ex>
+               </persName>
+               <persName>A<ex>n</ex>d<ex>re</ex>e Styxs<ex>øn</ex>
+               </persName> et <persName>Erici Geeth</persName> nostro sub sigillo etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

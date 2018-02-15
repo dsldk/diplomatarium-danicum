@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">279</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14240426003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift iflg. Aa: <q>Littere capituli super curia occidentaliter ab
+        ecclesia beate Marie virginia juxta pretorium</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty, <ref>niempty</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Langebek oplyser, at afskriften er sket efter <q>Orig. membr. mutil. af vor
+        Frue Kirkes Archiv 1750</q>; om seglene: <q>Det første seigl borte, de andre
+      bomerker</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6097</bibl>
+               <bibl>Reg. *4716</bibl>
+               <bibl>Københavns Dipl. II 48-49 nr. 32</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-04-26"
+                  notBefore="1424-04-26"
+                  notAfter="1424-04-26"
+                  cert="low">14[2]4. 26. april <note>Da Langebek i 1750 tog en afskrift af originalen i Vor Frue kirkes arkiv,
+    var originalen beskadiget og han angav en lille lakune i dateringens årstal. Lakunen dækkede
+    årtiet, men dette kan med en vis sandsynlighed indsnævres til 1420'erne. Rådmand Peder
+    Mikkelsen, som har medbeseglet brevet, optræder i årene 1423-1430 som vidne i andre breve, men
+    kendes ellers ikke. Den sandsynligste datering bliver derfor 14[2]4. 26.
+    april</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Abraham Sæmundsen erklærer at have lejet en gård i Rådhusstræde over for rådhuset af Lars
+      (Nielsen) Vinnere for 12 år. Den årlige leje er 12½ skilling grot, der skal betales til to
+      terminer, mikkelsdag og påske. Abraham Sæmundsens udgifter til eventuelle forbedringer og
+      udbedringer af gården skal efter fire opmænds vurdering godtgøres ham af Lars Vinnere. Abraham
+      Sæmundsen forpligter sig til at holde Lars Vinnere skadesløs for eventuelle forsinkede
+      betalinger af lejen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-17" who="#pbh">Filen etableret af #pbh 2014-06-17. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-05-30" who="#alk">2. korrektur af #alk 2017-05-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Abraham Semundi</persName>
+               <placeName>villanus Haffnensis</placeName> salutem in domino sempiternam. ♦</p>
+            <p n="a#2">Noverint universi presentes et futuri, me a discreto viro <persName>Laurencio
+        Winnere</persName>
+               <placeName>consule Haffnensi</placeName> latore presentium unam curiam sibi prius impigneratam <app>
+                  <lem>
+                     <damage>austra</damage>liter</lem>
+                  <rdg resp="#alk">I Aa er her med tre prikker markeret en lakune i A, <q>austra</q> indsat
+          efter O. Nielsen i Københavns Dipl</rdg>
+               </app> a <placeName>pretorio</placeName>, mediante tamen <placeName>communi plathea dicta
+        Rathusstræde</placeName>, in <placeName>parochia sancti Petri Haffnis</placeName> sitam,
+      quam quidem curiam cum dilecta uxore sua <persName>Katerina</persName>, quam pronunc habet,
+      habuit, cum singulis pertinentiis suis, scilicet longitudine et latitudine, sicut
+        <persName>Petrus Ørn</persName> ab ipso prius in conductu habuit, preter illam partem
+      terrule occidentalem, <app>
+                  <lem>quam</lem>
+                  <rdg wit="#Aa">Herefter to slettede, nu ulæselige bogstaver, Aa</rdg>
+               </app> a dicto Laurencio specialiter concessam habuit, a proximo festo pasche et sic ad
+      duodecim annos continuos immediate subsequentes, veraciter conduxisse, sub conditionibus
+      infrascriptis, ♦</p>
+            <p n="a#3">Primo quod ego prenominatus Abraham predicto Laurencio Wynnere de ipsa curia ratione
+      pensionis duodecim cum dimidio solidos grossorum duobus terminis anni, videlicet dimidium
+      pensionis in festo <app>
+                  <lem>sancti</lem>
+                  <rdg wit="#Aa">Tilføjet over linjen i stedet for et slettet <q>beati</q>, Aa</rdg>
+               </app> Michaelis et aliud dimidium in festo pasche persolvam expedite quolibet annorum
+      duodecim predictorum, <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med fire prikker markeret en lakune i A, Aa</rdg>
+               </app> notabile edificium in dicta curia melioravero, sive de novo construxero, aut pontes ad
+      usum <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med syv prikker markeret en lakune i A, Aa</rdg>
+               </app> elapsis predictis duodecim annis, secundum arbitrium quatuor virorum discretorum <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med ni prikker markeret en lakune i A, Aa</rdg>
+               </app> me vel heredibus meis per ipsum vel heredes suos, si sibi <app>
+                  <lem>pl<damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med seks prikker markeret en lakune i A, Aa</rdg>
+               </app> aut sibi <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med fem prikker markeret en lakune i A, Aa</rdg>
+               </app> ego prescriptus Abraham in dicta <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med ni prikker markeret en lakune i A, Aa</rdg>
+               </app> annuatim dando postea sicut prius, donec predicta edificia, ut prescriptum est, a me
+      vel heredibus meis per ipsum vel heredes suos integraliter redempta fuerint per presentes
+      ♦</p>
+            <p n="a#4">Item si ego prenominatus Abraham vel heredes mei in aliquo predictorum duodecim annorum ultra
+      prefixos terminos scilicet Michaelis et pasche in <app>
+                  <lem>sub<damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med fire prikker markeret en lakune i A, Aa</rdg>
+               </app> pensione tardaverimus et <app>
+                  <lem>pre<damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med tre prikker markeret en lakune i A, Aa</rdg>
+               </app> tarda solutione idem Laurencius Wynnere dampnum quodvis <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med tre prikker markeret en lakune i A, Aa</rdg>
+               </app> tunc ego dictus Abraham vel heredes mei ipsi Laurencio vel heredibus suis totum
+      dampnum, quod proinde ipsi fuerit, una cum annua pensione sine aliquo reclamationis scrupulo
+      reddere et refundere verissime teneamur. ♦</p>
+            <p n="a#5">In cujus rei testimonium sigillum meum una cum sigillis virorum discretorum, scilicet
+        <persName>Petri Michaelis</persName>, <placeName>consulis Haffnensis</placeName>,
+        <persName>Nicolai Jude</persName>, et <persName>Jacobi Michaelis</persName>
+               <placeName>villanorum ibidem</placeName> presentibus est appensum. ♦</p>
+            <p n="a#6">Datum anno domini <app>
+                  <lem>mcd<damage>xx</damage>iiii<hi rend="sup">o</hi>
+                  </lem>
+                  <rdg resp="#alk">Her er med to prikker markeret en lakune i A, Aa. Om dateringen, se
+          ovenfor</rdg>
+               </app>., feria quarta pasche ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

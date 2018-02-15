@@ -1,261 +1,341 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Diplomatarium Danicum</title>
-        <editor>
-          <name xml:id="smb">
-            <persName>
-              <forename type="first">Sebastian</forename>
-              <forename type="middle">Møller</forename>
-              <surname>Bak</surname>
-            </persName>
-          </name>
-        </editor>
-        <funder>Carlsbergfondet</funder>
-      </titleStmt>
-      <extent>Base text, number of words: <num n="words">429</num>, paragraphs: <num n="paragraphs">13</num>. Translation, number of words: <num n="words">408</num>,
-            paragraphs: <num n="paragraphs">13</num>
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">86</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
          </extent>
-      <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
-        <pubPlace>København</pubPlace>
-        <date>2010</date>
-        <idno type="dd">14170426001</idno>
-        <idno type="isbn">nil</idno>
-        <availability status="restricted">
-          <ab>Copyright © 2010, Danske Sprog- og Litteraturselskab</ab>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness xml:id="A">
-            <msDesc>
-              <msIdentifier>
-                <settlement>empty</settlement>
-                <repository>empty</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>empty</msName>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>empty</ab>
-              </history>
-            </msDesc>
-          </witness>
-          <witness xml:id="Aa">
-            <msDesc>
-              <msIdentifier>
-                <settlement>Wismar</settlement>
-                <repository>Stadtarchiv zu Wismar</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>Håndskrift fol. 76-76b</msName>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>empty</ab>
-              </history>
-            </msDesc>
-          </witness>
-        </listWit>
-        <listBibl>
-          <bibl>Hanserec. 6 nr. 391</bibl>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-        <ab>Tekst og arkivalske oplysninger efter Hanserec</ab>
-      </samplingDecl>
-      <projectDesc>
-        <ab>DD-5</ab>
-      </projectDesc>
-      <appInfo>
-        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
-          <desc>nil</desc>
-        </application>
-      </appInfo>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date notBefore="1417-04-26" notAfter="1417-04-26" cert="high">1417. 26. april</date>
-        <placeName cert="high">København</placeName>
-      </creation>
-      <abstract>
-        <ab>Kong Eriks klage over hansekøbmændenes overgreb på
-                           Skånemarkedet</ab>
-      </abstract>
-      <langUsage>
-        <language ident="gml">Hovedsprog: middelnedertysk</language>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term>empty</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2009-02-10" who="#th">TEI-version oprettet</change>
-      <change when="2010-02-24" who="#smb">Tekst indskrevet</change>
-      <change when="2010-09-22" who="#mh">3. korrektur</change>
-      <change when="99999999" who="#nil">Kladde: 1. korrektur mangler</change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler</change>
-      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler</change>
-    </revisionDesc>
-  </teiHeader>
-  <facsimile>
-    <graphic url="nil"/>
-  </facsimile>
-  <text>
-    <body>
-      <div xml:lang="gml">
-        <p n="a#1">Dit is de schelinge, de myn here, de koning, unde sine amptlude hebben teghen
-               de voghede unde teghen de coplude, de up <placeName>Schonen</placeName> licgen.</p>
-        <p n="a#2">1. To deme ersten male so hebben de van <placeName>Campen</placeName> mynen
-               heren entweldighet in deme <placeName>Hobe</placeName> up beiden siiden sines tynses
-               unde siner renthe; vortmer uppe deme <placeName>Schilde</placeName> den vismarkt unde
-               allerhande veilinge unde twe boden up deme Schilde, unde vortmer over deme weghe alle
-               der seckeboden, dat all to erer vitten nicht en hort. Ok hebben se vele mer kroghe
-               unde amptlude up eren vitten, wen de privilegien udwisen.</p>
-        <p n="a#3">2. Vortmer so hebben se unwonlike weghe over ere vitten unde over
-                  <placeName>dat Knee</placeName>, dar mynem heren sin tolle wert mede entvort.</p>
-        <p n="a#4">3. Vortmer so vordeghedingen se up allen vitten vele lude van allen landen,
-               de van oldinges nicht pleghen to licgende up eren vitten, unde ok de mynes heren
-               viende sin, dat teghen dat privilegium is.</p>
-        <p n="a#5">4. Vortmer so wert nicht gheholden van der mote, de men sweret, mit velen
-               st{ue}cken unde saken.</p>
-        <p n="a#6">5. Vortmer so schuet mynem heren grote ghewelde unde hom{oe}d, dat eme sine
-               voghede werden affgheslaghen up der Densschen erden, Travenstraten unde Staversschen
-               vitten, also dat se nicht moghen ghan noch spreken umme mynes heren rechticheit.</p>
-        <p n="a#7">6. Vortmer so en wert mynem heren nicht gheholden van deme koningesdaghe.</p>
-        <p n="a#8">7. Vortmer so varen vele lude van deme lande unde ghevet nicht ud ere
-               bodeghelt unde ere ertghelt unde schuteghelt.</p>
-        <p n="a#9">8. Vortmer so licgen se to <placeName>Walsterbode</placeName> up deme
-                  <placeName>Mewenreve</placeName> unde uppe der <placeName>Uggelen</placeName> mit
-               welde unde mit gewalt unde entforen mynem heren alle sinen toln unde renthe unde alle
-               sine rechticheit.</p>
-        <p n="a#10">9. Vortmer so hebben se up der <placeName>Sundesschen
-                  &lt;vitten&gt;</placeName> vorbuwet mit boden unde mit kroghen, dar de rechte
-               bundenmarket scholde wesen unde van oldinges was.</p>
-        <p n="a#11">10. Vortmer so gripen se lude up allen vitten, wiif unde man, unde stocken
-               unde blocken se, unde schutten se na erem willen, ze sin, we se sin.</p>
-        <p n="a#12">11. Vortmer so varen somelke mit welde dor dat <placeName>Hol</placeName>
-               mit ereme gude to schepe unvortollet, des vele schuet mit helpe der schipmans unde
-               vele anderer lude, unde dryven den <placeName>hoelvoghet</placeName> ute deme Hole,
-               dat he na nenem teken vraghen mach, noch en dar, eft he leven wil; dar myn here
-               groffliken an vorweldighet unde vorunrechtet werd.</p>
-        <p n="a#13">12. Vortmer so doen de schipmans up deme lande unde ok vele andere lude
-               mynem heren grote welde unde walt, roff unde brant, mort unde dotslach, dar mynem
-               heren noch ny nen recht vor schach, noch schen konde. Unde vele andere articule unde
-               sake der gheliken, de ok schen teghen Gode, recht, teghen mynen heren, den koning,
-               unde sine amptlude.</p>
-      </div>
-      <div xml:lang="da">
-        <p n="b#1">Dette er klagepunkterne, som min herre, kongen, og hans embedsfolk har mod
-               fogederne og mod købmændene, som ligger i Skåne.</p>
-        <p n="b#2">1. For det første så har dem fra Kampen berøvet min herre på Hovbakken på
-               begge sider hans afgifter og renter; desuden på Skjoldet, fiskemarkedet og alle hånde
-               falbydning og to boder på Skjoldet, og desuden over vejen alle de drikkeboder, som
-               ikke hører til feddene. Desuden har de mange flere udskænkningssteder og embedsfolk
-               på deres fed, end privilegierne tillader.</p>
-        <p n="b#3">2. Ydermere så har de ureglementerede veje over deres fed og over Knæet,
-               hvorved min herres told berøves ham.</p>
-        <p n="b#4">3. Ydermere så huser de på alle feddene mange folk fra alle lande, som fra
-               gammel tid ikke plejer at ligge på deres fed, og som også er min herres fjender,
-               hvilket er imod privilegiet.</p>
-        <p n="b#5">4. Ydermere så overholdes den del af markedsfreden ikke, som man ellers
-               bekræfter med ed, med mange punkter og sager.</p>
-        <p n="b#6">5. Desuden gøres min herre stor skade og ydmygelse, idet hans fogeder på
-               dansk jord, i Lübecks gade og på Staverens fed bliver slået ned, så de hverken kan gå
-               eller tale om min herres rettighed.</p>
-        <p n="b#7">6. Ydermere så overholdes min herres kongedag ikke.</p>
-        <p n="b#8">7. Ydermere så tager mange folk fra landet og betaler ikke deres stadeafgift,
-               deres jordafgift og beskyttelsespenge.</p>
-        <p n="b#9">8. Ydermere så ligger de på Falsterbo på Måkläppen og på
-                  Ugleodde<note>Ugleodde eller Uglenæsset – Falsterbohalvøens sydvestlige odde. I
-                  dag Nabben.</note> med vold og magt, og de stjæler min herres told og renter og
-               alle hans rettigheder.</p>
-        <p n="b#10">9. Ydermere så har de ulovligt opført boder og kroer på Stralsunds fed, dér
-               hvor det rigtige bondemarked skulle være og har været fra gammel tid.</p>
-        <p n="b#11">10. Ydermere så fanger de folk på alle feddene, kvinder og mænd, og sætter
-               dem i fængsel, og holder dem indespærret efter forgodtbefindende, uanset hvem de
-               er.</p>
-        <p n="b#12">11. Ydermere så farer nogle til skibs ufortoldet med vold gennem Höllviken,
-               alt dette sker med hjælp fra skibsfolkene og mange andre folk, og de driver
-               Höllfogeden ud af Höllviken, således at han hverken må eller tør spørge efter nogen
-               toldseddel, hvis han vil overleve; således bliver min herre groft forulempet og
-               forurettet.</p>
-        <p n="b#13">12. Ydermere så skader sømændene på land og også mange andre folk min herre,
-               med stor vold og magt, tyveri og ildspåsættelse, mord og drab, og man har hverken
-               gjort eller kunnet gøre min herres ret herfor. Og mange andre punkter og lignende
-               sager, som også er sket imod Gud, retten og imod min herre, kongen, og hans
-               embedsfolk.</p>
-      </div>
-    </body>
-  </text>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14170426001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2633b-c; tidl. Københavns kapitel; Kbh.s gårde og huse 11; L 6-20</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>8.5 (plica: 1.5)</height>
+                                    <width>20</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Beskadiget med stort teksttab til følge</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rester af perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Afskrift fra 18. årh</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Ved afskriften angives det, at <q>Tertium sigillum adest</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Renskrift af Aa fra 18. årh</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Om seglene oplyses det, at <q>Tertium sigillum adest</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Unøjagtig afskrift fra 18. årh. ved Thorkelin</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Afskriften angives at være <q>Collatum cum autographo</q>. Om seglene oplyses
+      det, at <q>Sigilla desunt</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5657</bibl>
+               <bibl>Reg. *4403</bibl>
+               <bibl>Vejledende Arkivreg. XVII 203 nr. 30</bibl>
+               <bibl>Rørdam, Kjøbenhavns Kirker og Klostre i Middelalderen, Till. 26</bibl>
+               <bibl>Københavns Dipl. IV 21 nr. 30</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A, lakuner udfyldt efter Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-04-26"
+                  notBefore="1417-04-26"
+                  notAfter="1417-04-26"
+                  cert="high">1417. 26. april</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Hemmingsen, præst på Amager, skænker skolemestrene i København en grund i
+      Klosterstræde.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-04-18" who="#alk">2. korrektur af #alk 2017-04-18. </change>
+         <change when="2017-06-20" who="#alk">3. korrektur af #alk 2017-06-20. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa1">I Aa1 emenderet <q>Omnibus presens scriptum cernentibus</q>
+                  </rdg>
+               </app>
+               <persName>
+                  <damage>Jo</damage>hannes Heminggi</persName>
+               <placeName>presbiter ecclesiarum in Amag<damage>he</damage>
+               </placeName> et <placeName>
+                  <app>
+                     <lem>perp<damage>etuus vicarius in ecclesia beate virgini</damage>s</lem>
+                     <rdg resp="#alk">Tilføjet efter Rørdam</rdg>
+                  </app> Hafnensis</placeName> / salutem in domino / ♦</p>
+            <p n="a#2">Constare volo <app>
+                  <lem>univer<damage>sis tam presentibus quam futuris me deliberato</damage>
+                  </lem>
+                  <rdg resp="#alk">Tilføjet efter Rørdam</rdg>
+               </app> animo et mature mentis consilio latoribus presencium <persName>Olavo <damage>ha
+          .....</damage>
+               </persName>
+               <persName>
+                  <damage>He</damage>mi<ex>n</ex>ggo Johannis</persName> scolaribus quendam fundum
+      meum michi <damage>ju</damage>ste empcionis tytulum <damage>advolutum .....</damage>s in vico
+        <placeName>Klossterstræde</placeName> proximo circa <placeName>fundum ecclesie beate
+        virginis</placeName> quem pronunc quidam <persName>Johannes <app>
+                     <lem>Fo<damage>s</damage>
+                     </lem>
+                     <rdg wit="#A">
+                        <q>Fo[-]</q>, A; <q>Fo...r</q>, Aa; <q>Fo.</q>, Ab; men se DgP II 286</rdg>
+                  </app>
+               </persName> inhabitat borialiter situm . quem quidem fundum inhabit<damage>a</damage>t
+      quidam <persName>Herma<ex>n</ex>nus Joha<ex>n</ex>ss<ex>øn</ex>
+               </persName> jure perpetuo
+      possidendum dedisse scotasse et / ad manus eorundem libere assignasse ♦</p>
+            <p n="a#3">In cujus rei <damage>e</damage>vi<damage>d</damage>ens testimonium sigillum meum una cum
+      sigillis honorabilium dominorum <persName>Johannis Clementis</persName> decani et
+        <persName>Johannis Conradi</persName>
+               <placeName>canonici Hafnis</placeName> presentibus est appensum ♦</p>
+            <p n="a#4">Datum Hafnis anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xvii<hi rend="sup">o</hi> feria secunda proxima / post festum sancti Marci euwangeliste (!) ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

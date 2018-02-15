@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14250518001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -111,7 +113,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Ja. XXXX. de Cerretanis</ab>
+                  <ab>Påskrift: <q>Ja. XXXX. de Cerretanis</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,18 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1425-05-18" notBefore="1425-05-18" notAfter="1425-05-18" cert="high">1425. 18. maj</date>
+        <date when="1425-05-18" notBefore="1425-05-18" notAfter="1425-05-18" cert="high">1425. 18.
+          maj</date>
         <placeName cert="high">Rom, Santi Apostoli</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler ærkebiskoppen i Riga og biskopperne i Passau og Brandenburg at sørge for, at den eetårstiende, som var bevilget kejser Sigismund, også bliver betalt af gejstligheden i Kammin og Slesvig stifter</ab>
+        <ab>Pave Martin 5. pålægger efter supplik af kong Sigismund ærkebiskoppen i Riga og
+          biskopperne i Passau og Brandenburg efter forudgående undersøgelse at føre proces mod
+          gejstligheden i Slesvig og Cammin stifter og lige så ofte, som de finder det nødvendigt,
+          at indskærpe den bandlysningsdom over dem, som de er blevet idømt ved at have nægtet at
+          betale den etårstiende, som brevets modtagere er blevet pålagt at opkræve i de tyske
+          kirkeprovinser til dækning af kong Sigismunds udgifter i hans bestræbelser på at bevare
+          kirkens enhed.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +171,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-07-01" who="#pbh">Filen etableret af #pbh 2014-07-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +183,62 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Archiepiscopo <placeName>Rigensi</placeName> et <placeName>Pataviensi</placeName>
+          ac <placeName>Brandenburgensi</placeName> episcopis.</p>
+        <p>Justis petentium <app>
+            <lem>(desideriis libenter annuimus eaque favoribus prosequimur oportunis)</lem>
+            <rdg><q>etc.</q> Aa</rdg>
+          </app>.</p>
+        <p>Exhibita nobis nuper pro parte <persName>Sigismundi Romanorum regis</persName> petitio
+          continebat, quod, licet olim decima integra unius anni omnium reddituum ecclesiasticorum
+          in provinciis civitatibus et diocesibus, terris et locis nationis
+            <placeName>Germanice</placeName> necnon civitatum et diocesium sub Romano imperio
+          consistentium, s. Romane ecclesie cardinalium et s. Johannis ac b. Marie Theutonicorum
+          Jherusolimitanorum hospitalium redditibus dumtaxat exceptis, ab omnibus archiepiscopis
+          episcopis electis administratoribus regularibus et secularibus ecclesiarum
+          metropolitanarum et cathedralium, exemptis et non exemptis, in provinciis et civitatibus
+          supradictis constitutis solvenda et auctoritate apostolica per deputandos exigenda certo
+          numero tunc expresso ac in suos usus in sublevationem onerum et expensarum <app>
+            <lem>per</lem>
+            <rdg>rettet af Gertz</rdg>
+            <rdg wit="#Aa"><q>que</q> Aa</rdg>
+          </app> ipsum occasione laborum personalium et expensarum, quos pro unione sancte matris
+          ecclesie consequenda multimodis subierat et verisimiliter subire contingeret, pro sue
+          voluntatis arbitrio convertenda, predicta auctoritate apostolica imposita ac eidem regi
+          assignata fuerit, vobis super hoc executoribus deputatis, et ab archiepiscopo Rigensi et
+          Brandeburgensi episcopo executoribus ad executionem <app>
+            <lem>ipsam</lem>
+            <rdg>rettet af Gertz</rdg>
+            <rdg wit="#Aa"><q>ipsarum</q> Aa</rdg>
+          </app> procedentibus contra universos archiepiscopos episcopos administratores et alias
+          personas ecclesiasticas regulares et seculares dicte nationis nonnulli processus diversas
+          excommunicationis suspensionis et interdicti sententias in se continentes emanaverint, in
+          quibus inter cetera archiepiscopos episcopos administratores et alias personas
+          ecclesiasticas nationis hujusmodi monuistis et mandastis eisdem, ut infra certum terminum
+          peremptorium competentem tunc expressum prefato regi sive nuntiis suis de hujusmodi
+          decimis satisfacerent, alioquin declarabantur ipsi hujusmodi excommunicationis
+          suspensionis et interdicti sententias incurrisse, ac processus monitiones et mandata
+          hujusmodi ad indubitatam notitiam cleri <placeName>Caminensis</placeName> et
+            <placeName>Slesvicensis</placeName> civitatum et diocesium pervenerint, tamen ipsi
+          clerus de hujusmodi decimis eidem regi sive nuntiis suis, quibusdam frivolis
+          appellationibus per eos interpositis, satisfacere contumaciter non curarunt hactenus neque
+          curant, hujusmodi excommunicationis suspensionis et interdicti sententias damnabiliter
+          incurrendo.</p>
+        <p>Quare pro parte dicti regis nobis fuit supplicatum, ut sibi super hoc oportune providere
+          dignaremur.</p>
+        <p>Nos igitur fraternitati vestre mandamus, quatenus, si, vocatis dictis clero et aliis, qui
+          fuerint evocandi, ita esse inveneritis, easdem excommunicationis suspensionis et
+          interdicti sententias, predictis per vos super hiis habitis et habendis servatis
+          processibus, eas, quotiens expedierit, auctoritate nostra, prout visum fuerit,
+          appellatione remota aggravare curetis, invocato ad hoc, si opus fuerit, auxilio brachii
+          secularis.</p>
+        <p>Datum <placeName>Rome apud ss. Apostolos</placeName> 15. kal. junii anno 8.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

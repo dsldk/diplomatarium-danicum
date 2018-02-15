@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">285</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14160901007</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 18799</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab/>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Kong Eriks unionssegl af lyst voks i perg.
+                                rem, <ref>DKS 62</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Peringskiöld: E 15</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 161</bibl>
+               <bibl>Svenskt Dipl. III 175 nr. 2275</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-09-01"
+                  notBefore="1416-09-01"
+                  notAfter="1416-09-01"
+                  cert="high">1416. 1. september</date>
+            <placeName cert="high">Flensborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern udsteder frelsebrev for Olof Andersson for tjenester gjort for riget,
+                        kong Erik selv, dronning Filippa og Eriks fætter og designerede efterfølger
+                        Bugislav. Således skal Olof Anderssons fædrene og mødrene arvegods såvel som skattefrit
+                        gods, han måtte have købt, være frelst; dog må han selv og hans arvinger
+                        ikke sælge dette gods, således at kronen mister sin tjeneste deraf, og han
+                        og hans arvinger må ikke erhverve bondegods, således at kronen mister sin
+                        indtægt heraf.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-05-02" who="#maria.arvidsson">Filen etableret af #maria.arvidsson 2017-05-02. </change>
+         <change when="2017-06-14" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-06-14. </change>
+         <change when="2017-06-20" who="#mh">2. korrektur af #mh 2017-06-20. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wy Erik meth guths nathe Danm<ex>a</ex>rks Sue<ex>r</ex>ig<ex>es</ex>
+                        Norg<ex>es</ex> Wendes oc God<ex>es</ex> kony<ex>n</ex>g oc h<ex>er</ex>tugh
+                        j Pome<ex>re</ex>n helsæ alla the som th<ex>e</ex>tta br<ex>e</ex>ff høra
+                        ell<ex>e</ex>r see kerlege meth guth oc wo<ex>re</ex> nathe oc kungøre at
+                        fore troskap oc thieniste som th<ex>e</ex>nne br<ex>e</ex>ffuiser<ex>e</ex>
+                        os elskeligh <persName>Olaff Anderss<ex>on</ex>
+               </persName> righet oc oss
+                        h<ex>e</ex>r til trolege giort hauer oc oss oc wore kæra husfru
+                                <persName>drotni<ex>n</ex>g Philippe</persName> etc. / oc wor
+                        fath<ex>e</ex>rbrodh<ex>e</ex>rs h<ex>er</ex>tugh .
+                                <persName>Buggislafs</persName> æchta son vm v[y] jcke selue barn
+                        effter oss lade en h<ex>e</ex>r efter trolege gøra skal bothe jnnæn lands oc
+                        wden lands huor vy thet aff hano[<ex>m</ex>] haue vele suo lenge han <app>
+                  <lem>leuer<ex>e</ex>
+                  </lem>
+                  <rdg wit="#A">vel fejl for <q>leuer</q>
+                  </rdg>
+               </app> ♦</p>
+            <p n="a#2">Tha ha[u]a vy vnt oc giue[<ex>n</ex>] honom oc hans æchta afkoma til ew[ic]h tidh
+                        . frih[et] oc frelse vppa alt hans fedh<ex>e</ex>rne ok hans
+                        møth<ex>e</ex>rne oc vm han noget gotz køft hau<ex>er</ex> som frelse [war]
+                        t[il] foren [me]th suo dant skel at han oc hans æchta afkome scole jcke
+                        afhenda ell<ex>e</ex>r selia th<ex>et</ex> gotz fran kronen suo at [kronen
+                        o]k konu<ex>n</ex>gen mister syn thie[ni]ste th<ex>e</ex>r aff / ♦ Ok
+                        skal han ell<ex>e</ex>r hans æchta afko<ex>m</ex>ma enc[h]te bonda gotz
+                        [køpa ell<ex>e</ex>r erwa] vnder sik suo at kronen myster syn skat ok andra
+                        rethzell th<ex>e</ex>r aff ♦</p>
+            <p n="a#3">Thy forbiuthe vy a[lla] wor<ex>e</ex> foghe[de æm]b[i]zmen ok all[a] andra
+                        hono<ex>m</ex> [e]ll<ex>e</ex>r hans æchta afkom[e] h<ex>e</ex>r wdj at
+                        hindra ell<ex>e</ex>r wfor[rætæ j] nogra made vnder wor<ex>e</ex>
+                        wreth[<ex>e</ex> ok] konu<ex>n</ex>glege hefnd ♦</p>
+            <p n="a#4">Datum <placeName>Fl[ensburg]</placeName> anno domini mcd<hi rend="sup">o</hi>
+                        sextodecimo die beati Egidii abbatis nostro sub secreto presentibus
+                        [apposito] inpendenti ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                                tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

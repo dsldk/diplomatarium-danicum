@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">458</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14170323001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 2630-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>14.9 (plica: 1.6)</height>
+                                    <width>27.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Jæc<ex>op</ex> Tyghess<ex>øn</ex> aff
+        Hath<ex>e</ex>rsleff quitte b<ex>re</ex>ff vm gotz so<ex>m</ex> h<ex>er</ex> Je<ex>n</ex>s Jac<ex>op</ex>ss<ex>øn</ex> køpte aff eet skipbrudh</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Bomærke af lyst voks i perg. rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Anders Lauridsens segl af lyst voks med omskriften S' AND[ERS]
+        [LAV]RENSS[ØN] i perg. rem, <ref>AS H xxxiii 1</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Henrik van Bergens segl af mørkt voks med utydelig omskrift i perg.
+        rem, <ref>AS L v 7</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 198-200</bibl>
+               <bibl>Rep. nr. 5651 (i udtog)</bibl>
+               <bibl>= Reg. *4401 (1417 03 21 001)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-03-23"
+                  notBefore="1417-03-23"
+                  notAfter="1417-03-23"
+                  cert="high">1417. 23. marts</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jakob Tygesen gør vitterligt, at Jens Jakobsen, kong Eriks klerk og tjener, havde købt en del af
+      det gods, som han og andre borgere i Haderslev havde del i, og som var blevet bjerget fra et skib,
+      der forliste i farvandet ved Vordingborg. På kongens vegne har Jens Jakobsen lavet en aftale med
+      Jakob Tygesen og de andre borgere i Haderslev om, at hr. Anders Mortensen,
+      borgmester i Malmø, skal betale dem 244 lybske mark for alt dette gods den næstkommende
+      høst.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-20" who="#pbh">Filen etableret af #pbh 2014-03-20. </change>
+         <change when="2017-09-01" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-09-01. </change>
+         <change when="2017-10-17" who="#mh">2. korrektur af #mh 2017-10-17. </change>
+         <change when="2017-11-07" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Jech <persName>Jacop Tughess<ex>øn</ex>
+               </persName> borgher<ex>e</ex> j
+        <placeName>Hathersleff</placeName> gør wit<ex>er</ex>licht m<ex>eth</ex> th<ex>æt</ex>te mit
+      opne b<ex>re</ex>ff vm th<ex>et</ex> schip thær Gudhmu<ex>n</ex>d war schipper vpa oc nw j
+      wintre bleff oc forgik j siøen hænder <placeName>Worthinghborgh</placeName> . mæn en stor deel
+      aff gotzit som thær vpa . war wardh berghet / j bland hwilket gotz haffthe bathe jæc oc
+      andr<ex>e</ex> flere borgher<ex>e</ex> aff Hathersleff gotz vpa th<ex>et</ex> sa<ex>m</ex>me
+      schip ♦</p>
+            <p n="a#2">Tha hawer iæc wæl forstandet at <persName>Jens Jacobss<ex>øn</ex>
+               </persName> myn nadheghe
+      hæres cony<ex>n</ex>gens clerk . oc thiænere køøpte for<ex>e</ex> rethe
+      pe<ex>n</ex>ny<ex>n</ex>ge en deel . aff th<ex>et</ex> gotz . som thær tha . biærghet warth . aff
+      køpmæ<ex>n</ex>nene som thær tha hoss therr<ex>e</ex> gotz war<ex>e</ex> æfft<ex>er</ex> thi
+      th<ex>et</ex> tha menlighe gaalt thær<ex>e</ex> / ♦</p>
+            <p n="a#3">Oc æfft<ex>er</ex> th<ex>et</ex> at wi aff <placeName>Hathersleff</placeName> . thær eke tha
+      sælffue nær war<ex>e</ex> / tha anamethe forscr<ex>effne</ex>
+               <persName>Jens
+        Iacobss<ex>øn</ex>
+               </persName> oc en deel aff th<ex>et</ex> gotz som wi thær tha meth j
+      haffthe / swo som ær fæmtan tø<ex>n</ex>ner syld . oc thre læst<ex>er</ex> oc halff
+      a<ex>n</ex>nen tø<ex>n</ex>ne smøør . oc jke meer swosom jæc wæl ænkit forstandit haw<ex>er</ex>
+      / ♦</p>
+            <p n="a#4">J swo made at han wilde oss æller wort wesse budh . so<ex>m</ex> wi th<ex>æ</ex>r vm
+      m<ex>eth</ex> full macht till hanw<ex>m</ex> sænde / betale hwor tø<ex>n</ex>ne smør for ix
+      skylingg<ex>er</ex> . oc hwor tø<ex>n</ex>ne syld for seex skylingg<ex>er</ex> som thelicht
+      gotz thær tha menleghe galt / ♦</p>
+            <p n="a#5">Tha haw<ex>er</ex> forscr<ex>effne</ex>
+               <persName>Jens
+        Jacobss<ex>øn</ex>
+               </persName> nw hær j <placeName>Køpendhaffn</placeName> vpa myn
+      forscr<ex>effne</ex> hær<ex>e</ex> cony<ex>n</ex>gens wæghne giort en gantze
+      ænde . vm thætte forscr<ex>effne</ex> gotz m<ex>eth</ex> mik
+      forscr<ex>effne</ex>
+               <persName>Jacob Tughess<ex>øn</ex>
+               </persName>
+      th<ex>æ</ex>r mik wæl atnøyer vpa alles war<ex>e</ex> wæghne aff
+        <placeName>Hathersleff</placeName> / som loot haffthe j th<ex>et</ex> forscr<ex>effne</ex> gotz / ♦</p>
+            <p n="a#6">J swo made / at hær <persName>Anders Martenss<ex>øn</ex>
+        burgher<ex>e</ex>mæst<ex>er</ex>
+               </persName> aff Malmøghe schal vntræte oc betale oss . j . høst
+      nw næst tilko<ex>m</ex>mende twhundrethe føretyughe oc fyre lubische m<ex>a</ex>rk / j . swo
+      dane pæ<ex>n</ex>ny<ex>n</ex>ge oc mynt som tha . j Scone ær<ex>e</ex> geffue oc gænge for alt
+      thætte forscr<ex>effne</ex> gotz . ♦</p>
+            <p n="a#7">Oc thi lader jæc forscr<ex>effne</ex>
+               <persName>Jacob
+        Tugess<ex>øn</ex>
+               </persName> myn nadheghe hær<ex>e</ex> cony<ex>n</ex>gen oc <persName>Jens
+        Jacobss<ex>øn</ex>
+               </persName> . oc alle andr<ex>e</ex> quitte lethughe . løse oc gantze orsaghe
+      for<ex>e</ex> alt thætte . forscr<ex>effne</ex> / bathe for mik oc alle
+      andr<ex>e</ex> aff <placeName>Hathersleff</placeName> som thær loot j haffthe / ♦</p>
+            <p n="a#8">Oc ær jæch / æller the / nogit plichtugh for<ex>e</ex> bergheløn . at th<ex>et</ex>
+      forscr<ex>effne</ex> gotz vpkom aff siøen æller till fracht th<ex>e</ex>r
+      for<ex>e</ex> / tha wele wi oc schule th<ex>et</ex> g<ex>er</ex>ne wæl betale oc vntræte /
+      ♦</p>
+            <p n="a#9">Oc th<ex>et</ex> loffuer jæc bathe for<ex>e</ex> mik oc them . oc wi alle till
+      sa<ex>m</ex>men m<ex>eth</ex> een sampneth hand with war gothe tro oc sa<ex>n</ex>nende /
+      ♦</p>
+            <p n="a#10">Oc till mer<ex>e</ex> bewaringh oc wissen / hær<ex>e</ex> vm haw<ex>er</ex> jæc ladit myt
+      jncigle hengis for<ex>e</ex> th<ex>æt</ex>te b<ex>re</ex>ff ♦ Oc haw<ex>er</ex> jæc
+      bethit heth<ex>e</ex>rlighe mæn swoso<ex>m</ex> ær <persName>Anders
+        Laurentss<ex>øn</ex>
+               </persName> oc <persName>Henrik <app>
+                     <lem>van</lem>
+                     <rdg wit="#A">
+                        <q>v</q> ændret fra et <q>w</q>, A</rdg>
+                  </app> B<ex>er</ex>ghen borgher<ex>e</ex>mæst<ex>er</ex>
+               </persName>
+      j <placeName>Køpendhaffn</placeName> . lade therr<ex>e</ex> jncigle hængis for<ex>e</ex>
+      th<ex>æt</ex>te b<ex>re</ex>ff ♦</p>
+            <p n="a#11">Datum Haffnie anno domini m<hi rend="sup">o</hi> cdxvij tercia feria proxima ante festum
+      anunciacionis beate Marie virginis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

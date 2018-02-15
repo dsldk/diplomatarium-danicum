@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14330400001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -32,59 +34,19 @@
           <witness xml:id="A">
             <msDesc>
               <msIdentifier>
-                <settlement>empty</settlement>
-                <repository>empty</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>Tabt</ab>
-              </history>
-            </msDesc>
-          </witness>
-          <witness xml:id="Aa">
-            <msDesc>
-              <msIdentifier>
                 <settlement>Rom</settlement>
                 <repository>Archivio di Stato</repository>
                 <idno>Tasse segret. 1431-40, upagineret</idno>
                 <msName>empty</msName>
               </msIdentifier>
+              <msContents>
+                <summary>Det pavelige kancellis optegnelser om at Gert (Pedersen (Gyldenstierne)),
+                  biskop i Børglum, har betalt forskellige afgifter: (1) 4 guldfloriner, 8 solidi og
+                  4 denarer for én af de mindre afgifter, (2) 1 guldflorin, 41 solidi og 4 denarer
+                  for ordinationsgudstjeneste (pro sacra), (3) samme beløb til vagten (servientes armorum), (4) 1
+                  guldflorin for seglafgift, (5) 1 guldflorin, 5 solidi og 7 denarer for subdiakon.</summary>
+                <msItemStruct/>
+              </msContents>
               <physDesc>
                 <objectDesc>
                   <supportDesc material="empty">
@@ -132,7 +94,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -149,7 +111,11 @@
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab> Optegnelseom, at biskop Gerhard Pedersen (Gyldenstjerne) i Børglum betaler en del af de mindre afgifter til det pavelige kammer</ab>
+        <ab>Det pavelige kancellis optegnelser om at Gert (Pedersen (Gyldenstierne)), biskop i
+          Børglum, har betalt forskellige afgifter: (1) 4 guldfloriner, 8 solidi og 4 denarer for én
+          af de mindre afgifter, (2) 1 guldflorin, 41 solidi og 4 denarer for afgiften "pro sacra",
+          (3) samme beløb til "servientes armorum", (4) 1 guldflorin for seglafgift, (5) 1
+          guldfloring, 5 solidi og 7 denarer for afgiften "pro subdiacono".</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +128,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-15" who="#pbh">Filen etableret af #pbh 2013-10-15. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-08-11" who="#pbh">Tekst indskrevet osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +140,22 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">[1433] Introitus unius minuti servitii spectantis ad camerarium et clericos
+          camere apostolice .. in mense aprilis.</p>
+        <p>In primis recepi die 1. aprilis pro minuto <persName>Gerardi</persName> episcopi
+            <placeName>Burglanensis</placeName> taxam fl. 66 et duos tertios; card. VIII in
+          promotione fl. 4 sol. 8 et den. 4.</p>
+        <p>Introitus sacre ... de mense aprilis.</p>
+        <p>In primis recepi die 1. aprilis pro ecclesia Burglanensi .. in personam Gerardi fl. 1 et
+          sol. 41 et den. 4, et tantundem receperunt servientes armorum.</p>
+        <p>Introitus sigilli .. de mense aprilis.</p>
+        <p>In primis recepi die 1. aprilis pro quitantia Gerardi episcopi Burglanensis fl. 1.</p>
+        <p>Introitus subdiaconorum ut supra. In primis recepi pro sacra Gerardi episcopi
+          Burglanensis taxati ad fl. 66 ... fl. 1 sol. 5 den. 7.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

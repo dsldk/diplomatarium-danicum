@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1727</num>, paragraphs: <num n="paragraphs">28</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14360901002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="a">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Danzig</settlement>
+                        <repository>Stadtarchiv zu Danzig</repository>
+                        <collection>receshåndskrift A</collection>
+                        <idno>f. 223-225</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Det drejer sig efter al sandsynlighed om en oversættelse af en nu tabt svensk koncept. Oversættelsen er efter alt at dømme udført
+      af en højtyskskrivende skriver, idet den bærer præg af højtysk ortografi</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>A 20 fol. 280v-281v RA 0201</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. II:1 nr. 608 p. 547-551 (efter aa)</bibl>
+               <bibl>Hadorphs Rijm-Crönikor II p. 109-115</bibl>
+               <bibl>Reg. 3589*</bibl>
+               <bibl>Sverges Traktater III nr. 475 (efter Aa)</bibl>
+               <bibl>SDHK nr. 22640</bibl>
+               <bibl>Svenska Medeltidsregester nr. 463</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l. l., hvorfra de arkivalske oplysninger om aa stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-09-01"
+                  notBefore="1436-09-01"
+                  notAfter="1436-09-01"
+                  cert="low">1436. [1. september] <note>I aa angives udelukkende brevets udstedelsesår <q>na Godes borth 1400 in dem
+      36 jare</q>. Sverges Traktater l. l., p. 165, og Hadorph l. l., p. 115, angiver imidlertid
+    hhv. <q>sancti Egidii abbatis dagh</q> og <q>s. Ægidii abbatis dagh</q>, dvs. 1. sept., som
+    brevets udstedelsesdato, hvorfor denne dato også er valgt for aa's
+    vedkommende</note>
+            </date>
+            <placeName cert="high">Kalmar</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Voldgiftsmændenes kendelse i striden mellem kong Erik 7. af Pommern og svenskerne. Heri
+      erklæres al strid for ophævet. Endvidere erklæres det, at kongen er blevet antaget på ny i
+      Sverige, idet han har forpligtet sig til at styre riget efter Sveriges lov.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-15" who="#pbh">Filen etableret af #pbh 2013-11-15. </change>
+         <change when="2017-05-01" who="#smb">1. korrektur af #smb 2017-05-01. </change>
+         <change when="2017-10-30" who="#smb">2. korrektur af #smb 2017-10-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">In Godes namen amen.</p>
+            <p n="a#2">
+               <app>
+                  <lem>Wy</lem>
+                  <rdg>Hadorph l. l., p. 110, indledes med <q>Aar {ae}pter Gudz byrdh MCDXXXVI. then fredagen
+            n{ae}st f{oe}r s. Olaffz dagh n{ae}st f{oe}rledin / ware wij</q> osv</rdg>
+               </app>
+               <persName>
+                  <app>
+                     <lem>Ulrick</lem>
+                     <rdg>
+                        <q>Erich</q>, Hadorph l. l., p. 110</rdg>
+                  </app> van der gnade Gadis, bischopp to Arhusen</persName>, <persName>Erick <app>
+                     <lem>Krummendigk</lem>
+                     <rdg>
+                        <q>Kummendigk</q>, Aa</rdg>
+                     <rdg>
+                        <q>Krummedijke</q>, Hadorph l. l., p. 110</rdg>
+                  </app>
+               </persName>, <persName>
+                  <app>
+                     <lem>Trut</lem>
+                     <rdg>
+                        <q>Curdt</q>, Aa</rdg>
+                     <rdg>
+                        <q>Truet</q>, Hadorph l. l., p. 110</rdg>
+                  </app>
+                  <app>
+                     <lem> Hasse</lem>
+                     <rdg>
+                        <q>Haasz</q>, aa</rdg>
+                     <rdg>hos Hadorph l. l., p. 110, står umiddelbart herefter <q>J{oe}ns Grym</q>
+                     </rdg>
+                  </app>
+               </persName>, <persName>Steen <app>
+                     <lem>Basse</lem>
+                     <rdg>hos Hadorph l. l., p. 110, står umiddelbart herefter <q>Luder Kabel</q>
+                     </rdg>
+                  </app>
+               </persName>, <persName>Andris Nigelsson</persName>, <persName>Esghe Brok</persName>,
+        <persName>Jones Grym</persName>, <persName>Luder Kabell</persName>, ridder etc.,
+        <persName>Age Lunge</persName>, <persName>Oleff Axelsson</persName>, <persName>Otte
+        Nigelsson</persName>, <persName>
+                  <app>
+                     <lem>Albert</lem>
+                     <rdg>
+                        <q>Albrecht</q>, Hadorph l. l., p. 110</rdg>
+                  </app> Budelsbake</persName>, <persName>Gerdt Bruseke</persName>, <persName>Herman van dem
+        Hagen</persName>, <persName>
+                  <app>
+                     <lem>Jesse Ericksson</lem>
+                     <rdg>
+                        <q>J{oe}sse Erickson aff Asala</q>, Hadorph l. l., p. 110</rdg>
+                     <rdg>
+                        <q>Jøsse Erikxson aff Asdala</q>, Sverges Traktater l. l., p. 160</rdg>
+                     <rdg>Der er her tale om den danske rigsråd Jens Eriksen (Banner) af Asdal</rdg>
+                  </app>
+               </persName>, <app>
+                  <lem>knappen</lem>
+                  <rdg>hos Hadorph l. l., p. 110, står umiddelbart herefter <q>rijkes radh aff
+          Danmarck</q>
+                  </rdg>
+               </app> etc.</p>
+            <p n="a#3">
+               <persName>Her Hinrik <app>
+                     <lem>Rapesulver</lem>
+                     <rdg>
+                        <q>Rapasilwer</q>, Hadorph l. l., p. 110</rdg>
+                  </app>
+               </persName>, <persName>her Tymme <app>
+                     <lem>Hadewerk</lem>
+                     <rdg>
+                        <q>Hardewerk</q>, Aa</rdg>
+                  </app>
+               </persName>, <app>
+                  <lem>borgermeister und ratmanne</lem>
+                  <rdg>mangler hos Hadorph l. l</rdg>
+               </app> to <placeName>Lubeke</placeName>; item <persName>Claus Meyer</persName>, her
+        <persName>Herman Lange</persName>, <app>
+                  <lem>ratman und</lem>
+                  <rdg>mangler hos Hadorph l. l</rdg>
+               </app> prester van <placeName>Hamborch</placeName>; <app>
+                  <lem>
+                     <supplied>item</supplied>
+                  </lem>
+                  <rdg>
+                     <q>item</q> mangler i Aa</rdg>
+               </app>
+               <persName>her Peter Wilde</persName>, <persName>Johan Stenbeke</persName>, <app>
+                  <lem>borgermeister und ratman</lem>
+                  <rdg>mangler hos Hadorph l. l</rdg>
+               </app>
+               <placeName>to der Wiszmer</placeName>; item <persName>her Johan Springindatgud</persName>,
+        <persName>Hartwich Schomaker</persName>, <app>
+                  <lem>beide ratmanne</lem>
+                  <rdg>mangler hos Hadorph l. l</rdg>
+               </app> van <app>
+                  <lem>
+                     <placeName>Lunenborch</placeName>
+                  </lem>
+                  <rdg>hos Hadorph l. l., p. 110, står umiddelbart herefter <q>borgmestere och
+          radhm{ae}n</q>
+                  </rdg>
+               </app>; sendeboden <app>
+                  <lem>desser vorbenomeden stede</lem>
+                  <rdg>
+                     <q>for:<hi rend="sup">de</hi> fyre st{ae}ders</q>, Hadorph l. l., p. 110</rdg>
+               </app>, alse wii alle vorbenomet to <app>
+                  <lem>schedesheren</lem>
+                  <rdg>
+                     <q>fullm{ae}cktuga och waldgifftsm{ae}n</q>, Hadorph l. l., p. 110</rdg>
+               </app> gekoren sin van <persName>heren konige Ericke</persName> in dessen nagescrevenen
+      saken.</p>
+            <p n="a#4">Na Godes borth 1400 in dem 36 jare <app>
+                  <lem>des negesten vridages na sunte Olaves dage</lem>
+                  <rdg>dvs. 27. juli</rdg>
+                  <rdg>
+                     <q>then fredagen n{ae}st f{oe}r s. Olaffz dagh n{ae}st f{oe}rledin</q>, Hadorph l. l.,
+          p. 110</rdg>
+               </app> qwemen vor uns in dem huse sunte Cristoffers to <placeName>Calmeren</placeName>, alse
+      de hochgeborne furste und here, unse gnedige here, <persName>konigh Erick van Godis gnaden
+        koning der rike Sweden, Dennemargken und Norwegen, der Wenden und Goten konigh und hertoge
+        to Pomeren</persName>, unde <app>
+                  <lem>de vulmechtigen van des riikes wegen der Sweden</lem>
+                  <rdg>
+                     <q>Sweriges rijkes fullm{ae}cktige s{ae}ndebudh</q>, Hadorph l. l., p. 110</rdg>
+               </app>, alse de erwerdigen in Gode vadere und <persName>heren Thomas, bischop to
+        Strengnisse</persName>, und <persName>her Magnus, biscopp to Abo</persName> van dersulven
+      gnade, <persName>her Kerstern Nigelsson</persName>, ridder und droste in
+        <placeName>Sweden</placeName>, <persName>Nigels <app>
+                     <lem>Eringiselsson</lem>
+                     <rdg>
+                        <q>Erigiselsson</q>, Aa</rdg>
+                     <rdg>
+                        <q>Erngiszlaszon</q>, Hadorph l. l., p. 110</rdg>
+                  </app>
+               </persName>, ridder und lachman in <placeName>Sudermannelande</placeName>,
+        <persName>Nigels Jonsson van Dursholm</persName>, <persName>Knut Karlesson</persName>,
+        <persName>Magnus Green</persName>, <app>
+                  <lem>
+                     <supplied>knappen</supplied>
+                  </lem>
+                  <rdg>rettet efter Hadorph l. l</rdg>
+                  <rdg>
+                     <q>a wapn</q>, Hadorph l. l., p. 110</rdg>
+                  <rdg>
+                     <q>und breven</q>, Aa. Dette er hos Hanserec. l. l. rettet til <q>van breven</q>, uden
+          at det dog giver mening</rdg>
+               </app>.</p>
+            <p n="a#5">Und gingen an uns de vorbenomede here konigh und desse vulmechtigen uth
+        <placeName>Sweden</placeName>, ok erbenomet, alle ere schelinge, schuldinge und twedracht
+      umme wes de here koningh vorscreven des riikes mannen to seggende hadde beth an dessen dach,
+      desgeliken wes de vorscrevenen van des riikes und des riikes inwonere wegen vor vulmechtige
+      schedesheren, alse se uns upp beiden siiden besegelde machtbreve darupp geven hebben, dede
+      clarliken utwiset in jegenwardicheit des erwerdigen in Gode vaders und heren, <persName>
+                  <app>
+                     <lem>her Nigels</lem>
+                     <rdg>nævnes ikke hos Hadorph l. l</rdg>
+                  </app>, van Godes gnaden biscopp to Wexo</persName> und sendebode des hilgen concilii dat nu
+      is to <placeName>Basele</placeName>, und der hochgebornen heren und fursten,
+        <persName>Buggeslaff hertoge to Pomeren</persName>, <persName>her Barnam hertoge to
+        Wulgast</persName>, <persName>her Barnam to Barth hertoch</persName> etc., und in velen
+      anderen beide greven, ridderen und knechten, der vorbenomeden heren rath und man, und in
+      wulduchtigen mannen <persName>Hans Kropelin</persName> und ok uth
+        <placeName>Sweden</placeName>
+               <persName>
+                  <app>
+                     <lem>Karll Bunde</lem>
+                     <rdg>
+                        <q>Karl Bonde Tordsen</q>, Hadorph l. l., p. 110</rdg>
+                  </app>
+               </persName>, <persName>
+                  <app>
+                     <lem>Gregor</lem>
+                     <rdg>
+                        <q>Gregers</q>, Hadorph l. l., p. 110</rdg>
+                  </app> Magnusson</persName>, <persName>
+                  <app>
+                     <lem>Beenth Steensson</lem>
+                     <rdg>Hadorph l. l., p. 110, læser herimod <q>Bencht Lidekeson / Bencht Uddeson</q>
+                     </rdg>
+                  </app>
+               </persName>, <app>
+                  <lem>beyde Trullen de olde und de junge</lem>
+                  <rdg>
+                     <q>Byrge Trulle then gamble / och then unge</q>, Hadorph l. l., p. 110-111</rdg>
+               </app>, vor vulmechtige schedesheren alse uns, <app>
+                  <lem>
+                     <supplied>wat</supplied>
+                  </lem>
+                  <rdg>mangler i Aa</rdg>
+                  <rdg>
+                     <q>hwad wij ther vm vtsigiande warda</q>, Hadorph l. l., p. 111</rdg>
+               </app> wii <app>
+                  <lem>darumme</lem>
+                  <rdg>
+                     <q>darumme seggende darumme</q>, Aa</rdg>
+               </app> seggende worden in fruntschopp, redlicheidt edder mit rechte, willen se und scholen dat
+      in beiden siiden also holden, umme wes se uns vorbringende werden, ansprake und entwerde er
+      een wedder den andern van beiden delen, alse se uns ogk van beiden siiden vorbracht hebben
+      beide in schriften und ok <app>
+                  <lem>mundliken</lem>
+                  <rdg>
+                     <q>med ordh</q>, Hadorph l. l., p. 111</rdg>
+               </app>, hebbe wii overwegen und vele synne uthe und verramen uff gemaket, des to vele were to
+      schrivende.</p>
+            <p n="a#6">Doch dat ende daraff und dat men dat so holden schal hirna <app>
+                  <lem>
+                     <supplied>in</supplied> tokomenden tiiden</lem>
+                  <rdg>
+                     <q>in</q> mangler i Aa</rdg>
+                  <rdg>
+                     <q>i tilkommande tijdh</q>, Hadorph l. l., p. 111</rdg>
+               </app> is, alse hir nagescreven steit, alse wii dat gedegedinget hebben mit beider er vulborth
+      und <app>
+                  <lem>tuschen <supplied>en</supplied>
+                  </lem>
+                  <rdg>
+                     <q>en</q> mangler i Aa</rdg>
+                  <rdg>
+                     <q>millam them</q>, Hadorph l. l., p. 111</rdg>
+               </app> utgespraken hebben.</p>
+            <p n="a#7">
+               <supplied>1</supplied> To dem ersten also, dat alle de inwonere des riikes to
+        <placeName>Sweden</placeName> scholen halden und hebben den vorscrevenen <persName>heren
+        konigh Erick</persName> vor enen vulmechtigen konig, de wile he levet, und to hebbende und
+      to holdende alle koninglike recht vriig und unbeworen na dessulven riikes rechte utwisinge,
+      und scholen eme wedder entwerden <app>
+                  <lem>in sine were</lem>
+                  <rdg>hos Hadorph l. l., p. 111, står umiddelbart herefter <q>of{oe}rt{oe}fradh</q>
+                  </rdg>
+               </app> alle slote, stede und land und allent dat der cronen tobehort, nichtis nicht utgenomen
+      des se sik undirwunden und in ere were genomen hebben in desser vorscrevenen twedracht, und
+      scholden eme weder holdinge und manschop don und <app>
+                  <lem>rath sweren</lem>
+                  <rdg>
+                     <q>rath sweringen</q>, Aa</rdg>
+                  <rdg>
+                     <q>radh sw{ae}ria</q>, Hadorph l. l., p. 111</rdg>
+               </app> alse ir recht utwiset, alse is <app>
+                  <lem>dem lande toboret</lem>
+                  <rdg>således rettet i Hanserec. fra <q>denne lange vorboret</q> i Aa</rdg>
+               </app> van des riikes inwoneren dat <app>
+                  <lem>to donde und to fordernde</lem>
+                  <rdg>
+                     <q>alse is - to donde und to fordernde</q>, Aa</rdg>
+                  <rdg>
+                     <q>att konungen b{oe}r att hafwa aff rijkses jnbyggerom</q>, Hadorph l. l., p.
+          111</rdg>
+               </app>, alse men dat erst endigen kan unvortogert, desglikes alle andir zake de hir
+      nafolgen.</p>
+            <p n="a#8">
+               <supplied>2</supplied> Ok schal <app>
+                  <lem>de</lem>
+                  <rdg>
+                     <q>war</q>, Hadorph l. l., p. 111</rdg>
+               </app> vorbenomede here konigh holden und hebben alle de Sweden unde de inwoner des riikes, de
+      nu sint und nach komen werden, in sine koniglike gnade und leve, se sint geistlike edder
+      weltlike, und schal se laten bruken und hebben alle ere bescrevene <app>
+                  <lem>recht</lem>
+                  <rdg>
+                     <q>lagh och r{ae}tt</q>, Hadorph l. l., p. 111</rdg>
+               </app>, alse sik dat utwiset in allen sinen articulen, privilegien und vriheiden <app>
+                  <lem>
+                     <supplied>und</supplied>
+                  </lem>
+                  <rdg>
+                     <q>und</q> mangler i Aa</rdg>
+                  <rdg>
+                     <q>och</q>, Hadorph l. l., p. 111</rdg>
+               </app> ghude olde redelike wonheid, und schal regeren und sturen <app>
+                  <lem>land und upp slote</lem>
+                  <rdg>
+                     <q>land / slott och Upsala {oe}dhe</q>, Hadorph l. l., p. 111</rdg>
+               </app> mit inlendischen mannen und <app>
+                  <lem>mit rade sines rades</lem>
+                  <rdg>
+                     <q>{ae}pter hans rijkes radz radhe i Swerige</q>, Hadorph l. l., p. 111</rdg>
+               </app>, alse des riikes recht utwiset, und dat de slotlove <app>
+                  <lem>wedder geeschet werdde</lem>
+                  <rdg>
+                     <q>igenkallas</q>, Hadorph l. l., p. 111</rdg>
+               </app> van fremder heren hande over alle dat riike und hirna geset und geentwerdet upp des
+      riikes <app>
+                  <lem>kore</lem>
+                  <rdg>hos Hadorph l. l., p. 111, står umiddelbart herefter <q>{ae}pter f{oe}rskrifna wars
+            nadigs herra konungs Erichs d{oe}dh</q>
+                  </rdg>
+               </app>, alse ere bescrevene recht utwiset, und dar nicht boven to donde, <app>
+                  <lem>it sii denne des rades wille und vulborth</lem>
+                  <rdg>
+                     <q>vthan hans radh / samtyckis och willia</q>, Hadorph l. l., p. 112</rdg>
+               </app>.</p>
+            <p n="a#9">
+               <supplied>3</supplied> Hirmede schal affgelecht wesen alle schele und twedracht tuschen <app>
+                  <lem>dem</lem>
+                  <rdg>
+                     <q>wa<supplied>r</supplied>
+                     </q>, Hadorph l. l., p. 112</rdg>
+               </app> vorscrevenen hern konige und des riikes inwoneren und alle schade, efft des rikes
+      inwoner jenighen schaden genomen hedden van vorsumenisse wegen <app>
+                  <lem>im rechte</lem>
+                  <rdg>
+                     <q>richtinge</q>, Aa</rdg>
+                  <rdg>
+                     <q>i r{ae}ttin</q>, Hadorph l. l., p. 112</rdg>
+               </app>, in siner affwesinge edder wo dat tokomen is, <app>
+                  <lem>
+                     <supplied>schal overgeven und hengelecht wesen</supplied>
+                  </lem>
+                  <rdg>
+                     <q>schal - wesen</q> mangler i Aa</rdg>
+                  <rdg>
+                     <q>skal wara alt tilgifwit och aflagdt</q>, Hadorph l. l., p. 112</rdg>
+               </app>.</p>
+            <p n="a#10">Ok so heft de here konigh und wil wedder <app>
+                  <lem>overgeven</lem>
+                  <rdg>
+                     <q>overgevenen</q>, Aa</rdg>
+               </app> und gnedichliken overseen allen <app>
+                  <lem>schaden</lem>
+                  <rdg>
+                     <q>Ok - schaden</q>, Aa</rdg>
+                  <rdg>
+                     <q>Swa hafwer och for:<hi rend="sup">da</hi> war naduge herra konung Erich nadhelijka
+            {oe}fwersedt och tilgifwit allan skadhe</q>, Hadorph l. l., p. 112</rdg>
+               </app>, de eme van der cronen gescheen is in desser vorscrevenen twedracht <app>
+                  <lem>van</lem>
+                  <rdg>
+                     <q>und</q>, Aa</rdg>
+                  <rdg>
+                     <q>aff</q>, Hadorph l. l., p. 112</rdg>
+               </app> des riikes inwoneren und allen eren medehelperen umme bede willen des riikes inwoneren,
+      dede se rede gedan hebben, dede hir nu tor tiit sin mit macht van des riikes <app>
+                  <lem>wegen</lem>
+                  <rdg>
+                     <q>wege</q>, Aa</rdg>
+               </app>, alse vorscreven is, mit dessen heren und guden luden und <app>
+                  <lem>den</lem>
+                  <rdg>
+                     <q>de</q>, Aa</rdg>
+               </app> erbaren van der stede wegen, alse de nu hir sin.</p>
+            <p n="a#11">Und alse scholen ok des riikes manne und inwoner na doen, wanner sik beste don wil laten und
+      sik limpliken wil finden, doch dat een jewelk dat sine wedderkrige deme wes entweldiget is in
+      desser vorscrevenen twedracht, alse ertgud, pant, <app>
+                  <lem>kop</lem>
+                  <rdg>mangler i Hadorph l. l</rdg>
+               </app>
+               <app>
+                  <lem>edder wat dat is</lem>
+                  <rdg>
+                     <q>eller hwad thet {ae}r som jordagodz {ae}r</q>, Hadorph l. l., p. 112</rdg>
+               </app> unvortogert.</p>
+            <p n="a#12">
+               <supplied>4</supplied> Ok is dar so ingespraken van anderem schaden, dede gescheen is van
+      beiden siiden, alse roff, <app>
+                  <lem>
+                     <supplied>den</supplied>
+                  </lem>
+                  <rdg>
+                     <q>den</q> mangler i Aa</rdg>
+               </app> jemandt een dem andern gedan <app>
+                  <lem>heft</lem>
+                  <rdg>
+                     <q>alse - heft</q>, Aa</rdg>
+                  <rdg>
+                     <q>som then eene then andre frantagit och vnta{ae}ldat hafwa</q>, Hadorph l. l., p.
+          112</rdg>
+               </app>, dat nicht sundergen van des rikes wegen gescheen is, dat malk gedan heft to syme
+      sundrigen vordele und profite und nicht van des riikes wegen efte hete des rades gescheen is,
+      dat heft des rikes rath also togesecht, de hir nu sin vulmechtich alse vorscreven is, <app>
+                  <lem>dat se und des rikes rath</lem>
+                  <rdg>hos Hadorph l. l., p. 112, står herimod <q>att war naduge herra konung Erich och
+            rijksens radh / som han nu w{ae}lliande warder</q>
+                  </rdg>
+               </app> alle darto willen und scholen helpen mit des vorscrevenen heren koniges hulpe und rath,
+      dat eme <app>
+                  <lem>
+                     <supplied>unde den</supplied>
+                  </lem>
+                  <rdg>
+                     <q>unde den</q> mangler i Aa</rdg>
+               </app> de alsulken schaden genomen hebben, alse vorgeroret is, glike und redlicheidt vor
+      schee. Dor segge wii also to, dat se to beyden siiden also holden und darto helpen, alse
+      vorscreven steit.</p>
+            <p n="a#13">Doch so aff jemand seggen wulde, de alsulken schaden gedan heft, dat it tomale van des riikes
+      wegen gescheen is und hete des rades, dar segge wii also to:</p>
+            <p n="a#14">Dat redlik und bewisliken is, dat is darbii blive, wo dat nicht en is und des riikes rad eme
+      dat nicht tostan wil, dat se ere recht darto don, dat dat so is, wat nicht bewisliken edder to
+      des rikes beste gescheen is.</p>
+            <p n="a#15">
+               <supplied>5</supplied> Item umme alle gefangen, de in desser vorscrevenen twedracht gefangen
+      sin, de ungeschattet edder borgen settet hebben vor gelt, dat sal men los laten unvortogert to
+      beident siden, edder we geschattet is und borgen vor schattinge settet hebben, dat blive by
+      sik.</p>
+            <p n="a#16">
+               <supplied>6</supplied> Item aff <app>
+                  <lem>de</lem>
+                  <rdg>
+                     <q>war naduge</q>, Hadorph l. l., p. 113</rdg>
+               </app> here koning weme wes to secgende heft umme rekenschopp edder sundrigen wor andirs umme,
+      des schal <app>
+                  <lem>sine gnade</lem>
+                  <rdg>
+                     <q>han</q>, Hadorph l. l., p. 113</rdg>
+               </app> unvorsumet wesen.</p>
+            <p n="a#17">
+               <supplied>7</supplied>
+               <app>
+                  <lem>
+                     <supplied>Item</supplied>
+                  </lem>
+                  <rdg>mangler i Aa</rdg>
+                  <rdg>
+                     <q>Item</q>, Hadorph l. l., p. 113</rdg>
+               </app> off dat schege, dat God affkere, dat hir jenighe overtredinge ane <app>
+                  <lem>schege</lem>
+                  <rdg>
+                     <q>dat hir - schege</q>, Aa</rdg>
+                  <rdg>
+                     <q>att nogor aff f{oe}r:<hi rend="sup">ne</hi> deela owirtr{ae}dde eller bruthe moot
+            thesse dagtingen</q>, Hadorph l. l., p. 113</rdg>
+               </app>, an welkem dele dat schege, an dem vorscrevenen heren konige edder des riikes
+      inwoneren, so schal men dat gudliken vorfolgen, und weme dat schut und rechtes umme begert, so
+      schal men dat vorfolgen, also sik dat <app>
+                  <lem>tob{oe}rt</lem>
+                  <rdg>hos Hadorph l. l., p. 113, står umiddelbart herefter <q>medh minne eller medh
+            r{ae}tt</q>. Resten af § 7 mangler hos Hadorph l. l</rdg>
+               </app> sunder jenegerley togrepe <app>
+                  <lem>eft</lem>
+                  <rdg>
+                     <q>aff</q>, Aa</rdg>
+               </app> unwillen to sokende, und schal dat yo vorfolgen und clagen den, de er loff entfangen,
+      alse by uns vorbenomeden schedesheren, und uns dar to esschende dat loff to manende, darto to
+      doende alse uns to bort.</p>
+            <p n="a#18">
+               <supplied>8</supplied> Ok schal de here konigh vorbenomet unvorsumet wesen, dat <persName>de
+        konigynne Margareta</persName> seliger gedechtniss <app>
+                  <lem>ingeloset edder pandet heft</lem>
+                  <rdg>
+                     <q>hefft ingeloset edder pandet heft</q>, Aa</rdg>
+               </app>, edder he gedan heft edder mach eft don wurde, it sy wat dat sy, dat he sik duncken
+      leth, dat he heft to fordernde edder to vergevende, des scholen se em gunnen na eres riikes
+      rechte <app>
+                  <lem>utwisinge</lem>
+                  <rdg>
+                     <q>Ok schal - utwisinge</q>, Aa</rdg>
+                  <rdg>mangler hos Hadorph l. l</rdg>
+               </app>. Wanner he dat weten wil, wat dat is, so scholen se dat to beydent siiden fruntliken
+      affrichten laten, sunder jenegerly verdret noch tweyinge.</p>
+            <p n="a#19">
+               <supplied>9</supplied> Alle desse vorscrevenen articule und stugke und een jewelk besundergen
+      heft <app>
+                  <lem>de</lem>
+                  <rdg>
+                     <q>war naduge</q>, Hadorph l. l., p. 113</rdg>
+               </app> here koning vorbenomet <app>
+                  <lem>allen</lem>
+                  <rdg>
+                     <q>osz alla</q>, Hadorph l. l., p. 113</rdg>
+               </app> vorgescrevenen schedesheren glovet und gesecht vor sik und <app>
+                  <lem>alle de sine</lem>
+                  <rdg>
+                     <q>alla hans medhielpara</q>, Hadorph l. l., p. 113</rdg>
+               </app> genszlik und truwlik to holdende sunder arch. Deszglik hebben uns ouch glovet desse
+      vorgescrevenen vulmechtigen ut <placeName>Sweden</placeName> und gesecht van erer und alle des
+      rikes inwoneren wegen und erer hulper wegen, truweliken to holdende <app>
+                  <lem>sunder bedrech
+          und argelist</lem>
+                  <rdg>vthan argt</rdg>, Hadorph l. l., p. 113</app>. Dit vorscrevene
+      lofte und seggent hebben <app>
+                  <lem>wii</lem>
+                  <rdg>
+                     <q>wij f{oe}r:<hi rend="sub">de</hi> waldhgifftism{ae}n</q>, Hadorph l. l., p.
+          113</rdg>
+               </app> entfangen und angenomen van beident siiden und truwliken manen willen, efte des jergen
+      worane nicht geholden wurde von dem <app>
+                  <lem>vorbenomeden</lem>
+                  <rdg>hos Hadorph l. l., p. 113, står umiddelbart herefter <q>war nadige herra konung
+            Erich</q>
+                  </rdg>
+               </app> heren koninge edder van des rikes inwoneren.</p>
+            <p n="a#20">Und sundrigen segge wii vorbenomeden des riikes rat <app>
+                  <lem>ut</lem>
+                  <rdg>
+                     <q>utt</q>, Aa</rdg>
+               </app>
+               <placeName>Dennemargken</placeName> dar also to:</p>
+            <p n="a#21">Weret sake, dat jenich van beiden vorscrevenen partien nicht halden wulde, alse vorscreven
+      steit, do God vor sy, und dar entegen deden, des wii hopen des se nicht en don, so wulden wii
+      darupp to beiden siden truweliken manen, und wulden dar inteen heren und frunde mit uns, de
+      wii darto vormogen, tegen de, de de overtredinge dede, und manen dat, also sik dat geboret,
+      und deme parte to rechte to helpende, dem dat unrecht gescheen is, tegen <app>
+                  <lem>den</lem>
+                  <rdg>
+                     <q>dem</q>, Aa</rdg>
+               </app> jennen, de dat unrecht gedan heft edder deyt, und bewisen uns doran als uns <app>
+                  <lem>van rechte</lem>
+                  <rdg>
+                     <q>aff {ae}hro och r{ae}ts w{ae}gna</q>, Hadorph l. l., p. 113</rdg>
+               </app> toboret.</p>
+            <p n="a#22">Und wii vorbenomeden <app>
+                  <lem>van den steden</lem>
+                  <rdg>hos Hadorph l. l., p. 113, står umiddelbart herefter <q>s{ae}ndebudh</q>
+                  </rdg>
+               </app>, alse wii nu hir sint, seggende aldus van unser stede wegen:</p>
+            <p n="a#23">Off de vorscrevene here konig hirane overtredende wurde, alse wii hopen dat he nicht en deyt,
+      deme dat he uns glovet heft und hir gedegedinget und uttgesproken is tuschen sinen gnaden und
+      den van <placeName>Sweden</placeName>, dat wille wii truweliken manen wedder eme, also sik dat
+      geboret, wanner uns dat vorkundiget werdt van den vorbenomeden Sweden, so dat he dem lofte
+      vuldo, dat wii entfangen hebben to erer truwen hant.</p>
+            <p n="a#24">Und off de Sweden hirane overtredende wurden, alse wii aver hopen dat se nicht en don, so
+      willen wii dem vorscrevenen heren konige desgliken truweliken bemanen helpen, alse wii <app>
+                  <lem>dat</lem>
+                  <rdg>
+                     <q>det</q>, Aa</rdg>
+               </app> lofte entfangen hebben to siner truwen handt.</p>
+            <p n="a#25">
+               <supplied>10</supplied> Des to tuchniss und <app>
+                  <lem>merer</lem>
+                  <rdg>
+                     <q>meren</q>, Aa</rdg>
+               </app> sekerheidt und wisser bewarunge alle desser vorscrevenen und jewelik artikel by sik to
+      holdende sunder jenegerley hulperede und argelist und aldus glovet is, alse vorscreven steet,
+      de here konig vorscreven den Sweden und se eme desgliken wedder, de nu hir sin mit macht, alse
+      vorgeroret is, truweliken to holdende, und wii vorscrevenen schedesheren ok glovet hebben to
+      beyden erer truwen handt, dat to bemanende, alse ok vorgerort is, so hebbe wii
+        <persName>konigh Erigke</persName> ok vorscreven <app>
+                  <lem>unse secrete</lem>
+                  <rdg>
+                     <q>wort secret jnsigli medh willia och witskap</q>, Hadorph l. l., p. 114</rdg>
+               </app> gehanget laten an dessen breff.</p>
+            <p n="a#26">Desgliken hebbe wii vulmechtigen ut <placeName>Sweden</placeName> vorscreven unse <app>
+                  <lem>ingesegel</lem>
+                  <rdg>hos Hadorph l. l., p. 114, står umiddelbart herefter <q>medh willia och
+          witskap</q>
+                  </rdg>
+               </app> ok gehenget laten an dessen breff und wii schedesheren vorbenomet ok to merer
+      betuchniss und verwaringe desses vorscrevenen, dat se gedegedinget und utgespraken hebben
+      tuschen beyden delen, also tuschen <app>
+                  <lem>dem heren koninge vorbenomet</lem>
+                  <rdg>
+                     <q>f{oe}r:<hi rend="sup">da</hi> herra konung Erich</q>, Hadorph l. l., p. 114</rdg>
+               </app> und des rikes mann in <placeName>Sweden</placeName>, und dat uns dat ok mede so gelovet
+      is, ok bemanen willen, alse vorgeroret is, efft an jemandes brok wurden an beiden delen, so
+      hebbe wii unser aller ingesegel <app>
+                  <lem>gehenget laten</lem>
+                  <rdg>hos Hadorph l. l., p. 114, står umiddelbart herefter <q>medh willie och
+          witskap</q>
+                  </rdg>
+               </app> an dessen breff mit <app>
+                  <lem>
+                     <supplied>den ingesegelen</supplied>
+                  </lem>
+                  <rdg>
+                     <q>den ingesegelen</q> mangler i Aa</rdg>
+                  <rdg>rettet efter Hadorph l. l., p. 114</rdg>
+               </app> unses gnedigen heren koniges und <app>
+                  <lem>der vorbenomeden van <placeName>Sweden</placeName> etc.</lem>
+                  <rdg>
+                     <q>mit - van Sweden etc.</q>, Aa</rdg>
+                  <rdg>
+                     <q>medh for:<hi rend="sup">de</hi> war naduge herra konung Erichs och for:<hi rend="sup">da</hi> rijksens radh aff Swerige jnsigle</q>, Hadorph l. l., p. 114</rdg>
+               </app>
+            </p>
+            <p n="a#27">
+               <supplied>11</supplied>
+               <app>
+                  <lem>Item</lem>
+                  <rdg>hos Hadorph l. l. mangler § 11. Derimod findes følgende afslutning hos Hadorph l. l.,
+          p. 114-115: <q>Item, wij f{oe}r:<hi rend="sup">de</hi> waldhgifftism{ae}n radom jdher vpa
+            badhe sijdor / f{oe}rst war naduge herra konung Erich / och swa rijkes radh / som han nu
+            w{ae}lliande warder / att i the artickla ju swa halde i allo matto som wij edher bade
+            deelana nu vppa vtskorna skripter antwarda; Och thesse breff {ae}ro tw ens lydende ordh
+            fran ordh / thet eena behalder war nadoge herra konung Erich / och thet andra rijkes
+            radh aff Swerige. Gifwin och skrifwin ahr och stadh som foreskrefwet staar vppa s.
+            Ægidii abbatis dagh</q>
+                  </rdg>
+               </app> so sint ichteswelke articule vorekomen, alse van nugen wegen van tollen umme schat to
+      mynnerende unde umme den schat upptoborende an ware, an etespise, umme dorste, umme
+      marschalke, und umme privilegia van <placeName>dem Holme</placeName>, und umme mengerley ander
+      articule, dar der kronen und des rikes inwonere macht ane is, rade wy und duncket uns nutte
+      wesen, dat gii undirenandern, alse unse gnedige here de konigh und de gii kiisende werden in
+      juwen radt, overwegen und vornemen afftorichtende umme schaden, alse vore roret is, den men
+      affrichten schal, darby <app>
+                  <lem>
+                     <supplied>men</supplied>
+                  </lem>
+                  <rdg>
+                     <q>men</q> mangler i Aa</rdg>
+               </app> unsem gnedigen heren und des rikes rade bystan schal, upp dat nene <app>
+                  <lem>tweyunge</lem>
+                  <rdg>
+                     <q>tweyuge</q>, Aa</rdg>
+               </app> werde in dem rike und desse degedinge deste beth geholden werdde; und dat unse here de
+      konigh yo hir sik to leddige und werdde enes andern dages <app>
+                  <lem>
+                     <supplied>overeen</supplied>
+                  </lem>
+                  <rdg>
+                     <q>overeen</q> mangler i Aa</rdg>
+               </app> mit den ghennen, de he hir nu mit sik heft, dar dat beth belegen is, dar aller drier
+      rike rad mach tohope komen, denne vorder dat to overwegende der rike bestant und sundrigen
+      umme de verbindunge der rike tosamende to blivende to tokomenden tiiden. Und wes men der rike
+      bestant to nutticheidt dar erkennen kan, dit dunket uns vorscrevenen schedesberen nutte und
+      rath, dat men eme also do.</p>
+            <p n="a#28">Gescreven to <placeName>Calmeren</placeName>, in dem jare alse vorgescreven steit etc.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden 1. januar 2017 til 30. juni 2021 vil redaktionen udelukkende udarbejde
+        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
