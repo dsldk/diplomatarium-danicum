@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14210714002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -111,7 +113,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Ja. XXII. XI. XI. XI. XI. XI. XI. de Cerretanis</ab>
+                  <ab>Påskrift: <q>Ja. XXII. XI. XI. XI. XI. XI. XI. de Cerretanis</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,18 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1421-07-14" notBefore="1421-07-14" notAfter="1421-07-14" cert="high">1421. 14. juli</date>
-        <placeName cert="high">Rom</placeName>
+        <date when="1421-07-14" notBefore="1421-07-14" notAfter="1421-07-14" cert="high">1421. 14.
+          juli</date>
+        <placeName cert="high">Tivoli</placeName>
       </creation>
       <abstract>
-        <ab>Paven forflytter biskop Navne Jensen (Gyrsting) fra Västerås til Odense</ab>
+        <ab>Pave Martin 5. meddeler Navne (Jensen (Gyrsting)), at han efter undersøgelse foretaget
+          af Lucidus, kardinaldiakon af Santa Maria in Cosmedin, har fundet ham egnet til embedet
+          som biskop i Odense og derfor løser ham af hans embede som biskop i Västerås og flytter
+          ham til Odense; inden Navne tager embedet i besiddelse, skal han aflægge troskabseden
+          enten til biskoppen i Roskilde eller i Ribe. Ved lignende skrivelser bekendtgøres det
+          samme for kapitlet, gejstligheden og menigheden i Odense samt domkirkens undergivne og for
+          ærkebiskoppen i Lund og kong Erik.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +171,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-09" who="#pbh">Filen etableret af #pbh 2014-05-09. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-06-12" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +183,49 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Nafnoni</persName> episcopo Ottoniensi.</p>
+        <p>Romani pontificis <app>
+            <lem>(quem pastor ille celestis et episcopus animarum potestatis sibi plenitudine
+              tradita ecclesiis pretulit universis plena vigiliis solicitudo requirit ut ipse circa
+              cujuslibet statum ecclesie sic vigilanter excogitet sicque prospiciat diligenter quod
+              per ejus providentiam circumspectam ecclesiis singulis pastor accedat ydoneus et
+              rector providus deputetur qui populum sibi commissum salubriter dirigat et informet ut
+              ecclesie ipse superni favoris auxilio suffragante votive prosperitatis successibus
+              gratulentur)</lem>
+            <rdg>tilføjet efter <ref target="14010326001">DD 1401. 26. mar., nr.
+              14010326001</ref></rdg>
+          </app>.</p>
+        <p>Dudum siquidem, ecclesia <placeName>Ottoniensi</placeName> per
+            <persName>Johannis</persName> episcopi obitum pastoris solatio destituta, capitulum
+          ipsius ecclesie ... te tunc episcopum <placeName>Arosiensem</placeName> in eorum et ipsius
+          ecclesie episcopum concorditer postulaverunt, tuque postulationi hujusmodi, illius tibi
+          presentato decreto, si et in quantum nobis placeret, consensisti, et deinde prefati
+          capitulum hujusmodi postulationis negotium proponi fecerunt in consistorio coram nobis,
+          illam <app>
+            <lem>peten<supplied>te</supplied>s</lem>
+            <rdg>således rettet i APD</rdg>
+          </app> per nos admitti, in omnibus hiis statutis a jure temporibus observatis. </p>
+        <p>Nos igitur postulationem ipsam tueque persone merita per <persName>Lucidum</persName> s.
+          Marie in Cosmedin diaconum cardinalem examinari fecimus diligenter et, quia, facta nobis
+          per ipsum cardinalem super hoc relatione plenaria et fideli, postulationem eandem
+          invenimus de persona tua fore canonicam, postulationem ipsam admittentes ..... ad te ....
+            (<q>etc. = APD II 71 nr. 873, <ref>DD 4. rk. VI nr. 89</ref></q>) direximus oculos
+          nostre mentis.</p>
+        <p>Intendentes igitur tam dicte ecclesie Ottoniensi quam ejus gregi dominico salubriter
+          providere, te a vinculo, quo dicte ecclesie Arosiensi tenebaris, absolventes, te ad
+          ecclesiam Ottoniensem transferimus ....</p>
+        <p>Volumus autem, quod, antequam possessionem administrationis bonorum dicte Ottoniensis
+          ecclesie recipias, in manibus <placeName>Roskildensis</placeName> vel
+            <placeName>Ripensis</placeName> episcoporum prestes fidelitatis debite juramentum juxta
+          formam, quam sub bulla nostra mittimus inclusam ...</p>
+        <p>Datum <placeName>Tibure</placeName> 2. id. julii anno 4.</p>
+        <p>Simili modo Capitulo ecclesie Ottoniensis. Clero civitatis et diocesis Ottoniensis.
+          Populo civitatis et diocesis Ottoniensis Universis vassallis ecclesie Ottoniensis.
+          Archiepiscopo <placeName>Lundensi</placeName>. <persName>Erico</persName> regi Dacie.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">167</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14150729001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan. Fasc. XXIII, 16</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.5 (plica: 1.4)</height>
+                                    <width>20.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Et lille stykke af brevets øvre kant mangler</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Pa G<ex>er</ex>løff</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg. rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg. rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg. rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 120</bibl>
+               <bibl>Rep. nr. 5532 (i udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-07-29"
+                  notBefore="1415-07-29"
+                  notAfter="1415-07-29"
+                  cert="empty">1415. 29. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Niels Gødekesen, væbner, i Skårup (på Sydfyn) bekendtgør at have pantsat sit gods i Gerlev, Slagelse herred,
+      som han havde i pant fra sin hustrus far, Jens Jensen Sosadel, og hvor på Niels Pedersen
+      bor, til Tetze Rosengård i Kværkeby.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-04" who="#pbh">Filen etableret af #pbh 2014-03-04. </change>
+         <change when="2017-07-04" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-07-04. </change>
+         <change when="2017-11-21" who="#mh">2. korrektur af #mh 2017-11-21. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Jæch <persName>Niels Gødekess<ex>øn</ex>
+               </persName> j Skorp awaben hels[er] allæ som [thettæ]
+      breff hører alder ser ewi<ex>n</ex>nærligæ m<ex>eth</ex> gwt ♦</p>
+            <p n="a#2">Kwngør jæk th<ex>et</ex> allæ ner[wæren]des som ko<ex>m</ex>mæskwle<ex>n</ex>des ad jæk weder
+      kennæs mek en skellig man oc ærligh thennæ nerwærendes <app>
+                  <lem>breffføræræ</lem>
+                  <rdg wit="#A">breff|føræræ, A</rdg>
+               </app>
+               <persName>Thezo Rosengard</persName> j <placeName>Querkæby</placeName> myt gooz som liger j <app>
+                  <lem>
+                     <placeName>[G]erløwæ</placeName>
+                  </lem>
+                  <rdg wit="#A">usikker læsning af <q>G</q>
+                  </rdg>
+               </app> j <placeName>Slauelsæh<ex>er</ex>r<ex>et</ex>
+               </placeName> j
+        <placeName>Syælend</placeName> hwilkæt gooz som jæk j pant hawer aff myn hwsfrwæs <app>
+                  <lem>father <persName>Jennæs</persName>
+                  </lem>
+                  <rdg wit="#A">
+                     <q>er Jennæ</q> understreget, A</rdg>
+               </app>
+               <app>
+                  <lem>
+                     <persName>Jennæss<ex>øn</ex>
+                     </persName>
+                  </lem>
+                  <rdg wit="#A">understregning begynder ved <q>s<ex>øn</ex>
+                     </q>
+                  </rdg>
+               </app> som kallæs Sosathel pa<ex>n</ex>næ hwilkæt for<hi rend="sup">de</hi> gooz som <app>
+                  <lem>pannæ</lem>
+                  <rdg wit="#A">understregning slutter efter <q>p</q>, A</rdg>
+               </app> bor <persName>Niels Pætherss<ex>øn</ex>
+               </persName> ad hawæ pant sæth oc tel for<hi rend="sup">de</hi>
+               <persName>Thezæs</persName> hender opp ad <app>
+                  <lem>h[a]wæ</lem>
+                  <rdg wit="#A">usikker læsning af <q>a</q>
+                  </rdg>
+               </app> lath<ex>et</ex> m<ex>eth</ex> allæ welkor oc obep breff som jæk pa<ex>n</ex>næ for<hi rend="sup">de</hi> gooz hawer ♦</p>
+            <p n="a#3">Fremdelæs skal for<hi rend="sup">de</hi>
+               <persName>Thezo</persName> oc hans arwinggæ for<hi rend="sup">de</hi> gooz j sinæ pant hauæ
+      m<ex>eth</ex> allæ welkor som th<ex>et</ex> oppnæ breff wd wiser som jæk <app>
+                  <lem>h[a]<ex>nu</ex>m</lem>
+                  <rdg wit="#A">usikker læsning af <q>a</q>
+                  </rdg>
+               </app> hawer opplath<ex>et</ex> alt so lengæ for<hi rend="sup">de</hi>
+               <app>
+                  <lem>gooz</lem>
+                  <rdg wit="#A">
+                     <q>oo</q> opfrisket m. andet blæk, A</rdg>
+               </app> worder aff for<hi rend="sup">de</hi>
+               <persName>Thezo</persName> alder hans <app>
+                  <lem>ar[wi]nggæ</lem>
+                  <rdg wit="#A">usikker læsning af <q>wi</q>
+                  </rdg>
+               </app> lofligæ løst ♦</p>
+            <p n="a#4">Tel got forwarelssæ ta lader jæk hengæ myt jnsiglæ <app>
+                  <lem>for[e]</lem>
+                  <rdg wit="#A">usikker læsning af <q>e</q>
+                  </rdg>
+               </app> thættæ oppnæ breff m<ex>eth</ex> andræ gothæ mæns jnsiglæ som er <persName>Harthwig
+        Trallow</persName>
+               <persName>Pæther Alfast</persName> oc <persName>Gerkæ Dyegn</persName> byme<ex>n</ex> j
+        <placeName>Ringstæthe</placeName> ♦</p>
+            <p n="a#5">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xv die sancti Olavi regis et
+      martiris ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

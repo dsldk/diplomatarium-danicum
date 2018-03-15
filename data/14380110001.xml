@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14380110001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -73,7 +75,9 @@
                 </sealDesc>
               </physDesc>
               <history>
-                <ab>Tabt</ab>
+                <ab>Tabt. Registreret af Hamsfort (efter ældre registratur?), København, KB, Kall
+                  668 oktav: <q>Eugenius IIII annihilet litteras super uno hospitali cuidam
+                    sacerdoti datas inter monasterii septa sito</q></ab>
               </history>
             </msDesc>
           </witness>
@@ -82,7 +86,7 @@
               <msIdentifier>
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
-                <idno>Reg. Lat. 352 fol. 147; jf. Rep. udat. 430</idno>
+                <idno>Reg. Lat. 352 fol. 147</idno>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -111,7 +115,8 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>empty</ab>
+                  <ab>Efter teksten registrators egenhændige bemærkning: <q>An. XXV. de
+                    Adria</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -127,12 +132,15 @@
         </listWit>
         <listBibl>
           <bibl>APD III 110 nr. 1808</bibl>
+          <bibl>Rep. nr. U430 (Hamsforts registratur)</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.; de tilføjede formuleringer, som er
+          udeladt i APD, er suppleret efter <ref target="14370424001">DD 1437. 24. apr., nr.
+            14370424001</ref>.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +153,30 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1438-01-10" notBefore="1438-01-10" notAfter="1438-01-10" cert="high">1438. 10. januar</date>
+        <date when="1438-01-10" notBefore="1438-01-10" notAfter="1438-01-10" cert="high">1438. 10.
+          januar</date>
         <placeName cert="high">Bologna</placeName>
       </creation>
       <abstract>
-        <ab> Paven befaler prioren i Dalum kloster og provsten i Odense at kassere brevet af 24. april 1437 (nr. 1786), da grunden tilhører kapitelsbordet</ab>
+        <!--        <ab>Pave Eugenius 4. skriver til prioren i Dalum kloster i Odense stift. Da Peder Jensen,
+          præst i Odense stift, anmodede om at få pavelig bekræftelse på sit nyoprettede hospital i
+          Odense og om at få tilstået det gamle, ødelagte hospitals grund og øvrige gods, undlod han
+          at oplyse, at det gamle hospital og alt dets gods hørte til kapitelsbordet. Derfor
+          pålægger paven nu brevets modtager efter foretagen undersøgelse at kassere det følgende
+          brev (<ref target="14370424001">DD 1437. 24. apr., nr. 14370424001</ref>) i den del der
+          omhandler det gamle hospitals grund og gods</ab>-->
+        <ab>Pave Eugenius 4. pålægger prioren i Dalum kloster at undersøge sagsforholdet i en
+          supplik af prioren og kapitlet i Odense, hvoraf det fremgår, at Odenses gamle hospitals
+          grund og øvrige gods tilhører domkirkens kapitelsbord; af den grund vil det være til stor
+          skade for kirken og kapitelsbordet, hvis dette gods bliver tilstået det nye hospital i
+          Odense, som Peder Jensen, præst sammesteds, har fået bevilget af paven (<ref
+            target="14370424001">DD 1437. 24. apr. nr. 14370424001</ref>), og derfor har de anmodet
+          om, at paven vil træffe afgørelse.</ab>
+        <ab>Såfremt prioren i Dalum kloster efter at have stævnet sagens parter finder, at klagen er
+          berettiget, skal han kassere den del af det tidligere pavebrev, der er til skade for
+          kirken og kapitelsbordet, og såfremt brevet er blevet eksekveret, skal han annullere
+          udførelsen og bringe det gamle hospitals grund og gods tilbage til prioren, kapitlet,
+          kirken og kapitelsbordet.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +189,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-12-03" who="#pbh">Filen etableret af #pbh 2013-12-03. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-06-15" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +201,58 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"> Priori <placeName>monasterii in Dalum</placeName> Ottoniensis diocesis et preposito ecclesie
+          Ottoniensis.</p>
+        <p>Sedis apostolice providentia <app>
+            <lem>(circumspecta circa statum omnium, presertim cathedralium, ecclesiarum ac
+              personarum in illis divinis laudibus insistentium salubriter dirigendum paterna
+              solicitudine prospicit et intendit et ea, que pro hujusmodi status conservatione ac
+              ecclesiarum et personarum ipsarum commoditate provida deliberatione facta sunt, ut
+              illibata persistant, apostolico consuevit muninime roborare)</lem>
+            <rdg>tilføjet efter Svenskt Diplomatarium från och med år 1401 nr. 2937 (SDHK nr.
+              15921)</rdg>
+          </app>.</p>
+        <p>Dudum siquidem pro parte <persName>Petri Johannis</persName> presbiteri Ottoniensis nobis exposito, quod olim
+          ipse, pie considerans hospitale <placeName>civitatis Ottoniensis</placeName> <supplied>in quo pauperes peregrini
+            infirmi et alie miserabiles persone recipi consueverant</supplied> destructum et solo
+          equatum existere <supplied>et aliud, ad quod hujusmodi pauperes et persone miserabiles ad
+            civitatem confluentes eandem declinare possent, hospitale non esse</supplied>, quoddam
+          aliud tam de propriis quam a Christi fidelibus acquisitis bonis in alio loco infra dictam
+          civitatem ad id magis congruo et honesto de licentia Naffnonis episcopi Ottoniensis cum
+          capella et cimiterio <supplied>pro inibi decedentium pauperum et infirmorum tumulandis
+            corporibus</supplied> hospitale construxerat hujusmodique capellam et cimiterium per
+          dictum episcopum consecrari obtinuerat, <supplied>ac nonnulla alia bona pro lectis,
+            lectisterniis et aliis ad usum pauperum hujusmodi acquisiverat, proponens etiam alia
+            acquirere domino concedente</supplied>, nos tunc per alias nostras litteras certo
+          dedimus judici in mandatis, ut constructionem et consecrationem <supplied>et rerum
+            bonorumque acquisitionem hujusmodi</supplied> confirmaret, necnon solum, in quo prefatum
+          destructum hospitale situm erat, et alia bona quecunque ad illud spectantia et legata per
+          Christi fideles eidem destructo hospitali facta tunc et extunc inantea facienda prefato de
+          novo erecto hospitali concederet.</p>
+        <p>Cum autem, sicut exhibita nobis nuper pro parte prioris et capituli ecclesie Ottoniensis
+          ordinis s. Benedicti petitio continebat, prefatum antiquum hospitale cum solo predicto ad
+          ecclesiam predictam sive ejus capitularem mensam pertineat ac per eosdem capitulum infra
+          septa seu emunitates dicte ecclesie fundatum fuerit, de quo in dictis litteris nulla
+          mentio facta extitit, ac propterea ille in non modicum prioris et capituli necnon ecclesie
+          et mense prefatorum prejudicium emanaverint, pro parte ipsorum prioris et capituli nobis
+          fuit supplicatum, ut super hoc eorum ac <app>
+            <lem>dictorum</lem>
+            <rdg>fejl for <q>dictarum</q></rdg>
+          </app> ecclesie et mense statui et indemnitati oportune consulere dignaremur.</p>
+        <p>Nos igitur, de premissis certam notitiam non habentes, discretioni vestre mandamus,
+          quatenus, si vocatis dicto presbitero et aliis, qui fuerint evocandi, vobis legitime
+          constiterit, quod hospitale antiquum cum solo et aliis bonis, ut prefertur, pertineat,
+          quodque illud infra septa seu emunitates hujusmodi fundatum existat, litteras predictas in
+          ea parte dumtaxat, in qua priori et capitulo necnon mense et ecclesie predictis
+          prejudiciales existant, etiam si ad illarum executionem processum sit, hujusmodique
+          processus ac omnia inde secuta auctoritate predicta cassetis necnon prefatos priorem,
+          capitulum, ecclesiam et mensam in omni jure, quod tempore date litterarum hujusmodi in
+          hospitali antiquo necnon solo aliisque bonis predictis habebant, restituatis.</p>
+        <p>Datum <placeName>Bononie</placeName> 4. id. jan. anno 7.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

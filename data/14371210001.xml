@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14371210001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,18 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1437-12-10" notBefore="1437-12-10" notAfter="1437-12-10" cert="high">1437. 10. december</date>
+        <date when="1437-12-10" notBefore="1437-12-10" notAfter="1437-12-10" cert="high">1437. 10.
+          december</date>
         <placeName cert="high">Bologna</placeName>
       </creation>
       <abstract>
-        <ab> Prioren og kapitlet ved domkirken i Odense får pavelig bekræftelse på deres privilegier og Innocens 4.s stadfæstelse af dem</ab>
+        <ab>Pave Eugenius 4. bevilger en supplik af prioren og kapitlet i Odense om at få
+          bekræftelse på alle deres tidligere privilegier samt pave Innocens 4.s stadfæstelse af dem
+          (DD 1. rk. VII nr. 164), tillige med tilladelse til at holde en festdag for kirkens
+          relikvier søndagen før Kristi legemsfest, tilladelse til, at brødrene må bære ordensdragt
+          uden for gudstjenester, at alt kirkens gods forbliver kirkens evindeligt, og forbud
+          mod at nogen bygger nogen gejstlig bygning inden for domkirkens sogne til skade for
+          domkirken.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +171,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-11-29" who="#pbh">Filen etableret af #pbh 2013-11-29. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +183,64 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Dudum <persName>Innocentius papa IV</persName> ad humilem supplicationem prioris
+          et capituli ecclesie <placeName>Ottoniensis</placeName> ordinis s. Benedicti ecclesiam
+          ipsam sub b. Petri et sua protectione gratiose suscepit et privilegio apostolico
+          communivit, in primis statuens, ut ordo monasticus, qui secundum deum et s. Benedicti
+          regulam in eadem ecclesia institutus dinoscebatur, perpetuis ibidem temporibus
+          inviolabiliter observaretur, preterea quascunque possessiones quecunque bona ipsa ecclesia
+          tunc juste et canonice possidebat aut in futurum concessione pontificum, largitione regum
+          vel principum, oblatione fidelium seu aliis justis modis prestante domino poterat
+          adipisci, firma eisdem priori et capitulo et successoribus suis et illibata permanerent,
+          in quibus propriis vocabulis duxit exprimendum, videlicet locum ipsum, in quo prefata
+          ecclesia sita erat, cum omnibus pertinentiis suis <placeName>curiam Veronis</placeName>
+          cum balneo <app>
+            <lem>colonis</lem>
+            <rdg>således Aa og DD 1. rk. VII nr. 164</rdg>
+            <rdg><q>coloniis</q> APD, efter Gertz' forslag</rdg>
+          </app> et molendinis ac aquarum decursibus, prata que dicuntur
+            <placeName>Bromath</placeName>
+          <placeName>Pamath</placeName>
+          <placeName>Akamath</placeName>, silvam que dicitur <placeName>Thorlund</placeName>,
+          redditus ad fabricam ipsius spectantes, qui denarii sancte <app>
+            <lem><supplied>Marie</supplied></lem>
+            <rdg>tilføjet efter <ref>DD 1. rk. VII nr. 164</ref></rdg>
+          </app> dicuntur etc., prohibens insuper inter alia, ut infra parrochie eorundem
+          religiosorum fines nullus sine assensu diocesani episcopi et ipsorum religiosorum
+          cappellam seu oratorium de novo constituere auderet, salvis privilegiis Romanorum
+          pontificum etc., ac alia privilegia concessit.</p>
+        <p>Et ne de premissis ab aliquibus hesitetur, et pro illorum subsistentia firmiori pro parte
+          modernorum prioris et capituli dicte ecclesie supplicatur, quatenus omnia privilegia, ut
+          prefertur, concessa necnon dictas apostolicas litteras et quecunque inde secuta ex vestra
+          certa scientia confirmare et corroborare seu etiam innovare, et nichilominus pro
+          augmentatione et utilitate ipsius ecclesie ei<supplied>s</supplied>dem priori fratribus et
+          capitulo, ut festum reliquiarum dicte ecclesie in proximo die dominico ante festum
+          corporis Christi annuatim inibi celebrari debeat, quodque prior, fratres et religiosi
+          ipsius ecclesie extra annua officia togas et capucia honestas et honesta, quas et que per
+          plures annos deferre consueverant, licite deferre possint, necnon quecunque possessiones
+          et bona dicta ecclesia juste et canonice legitima prescriptione nunc obtinet et imposterum <app>
+            <lem>obtinere</lem>
+            <rdg>rettet af Gertz</rdg>
+            <rdg><q>obtineri</q> Aa</rdg>
+          </app> contigerit, eisdem <app>
+            <lem><supplied>priori</supplied></lem>
+            <rdg>tilføjet af Gertz</rdg>
+          </app> fratribus et religiosis et successoribus <app>
+            <lem><supplied>suis</supplied></lem>
+            <rdg>tilføjet af Gertz</rdg>
+          </app> firma et illibata permaneant, nullusque <app>
+            <lem>quod</lem>
+            <rdg>bør enten slettes eller ændres til <q>quodlibet</q> el.lign</rdg>
+          </app> infra fines parrochialium ecclesiarum dicte ecclesie cathedrali subjectarum
+          campanile sive aliud edificium in prejudicium et gravamen ipsius ecclesie cathedralis
+          edificare presumat, perpetuo concedere dignemini.</p>
+        <p>Concessum de confirmatione et exhibeantur, in presentia pape. <persName>C.
+            Ariminensis</persName>.</p>
+        <p>Datum <placeName>Bononie</placeName> 4. id. dec. anno 7.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

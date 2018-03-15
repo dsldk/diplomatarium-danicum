@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
       <extent>Base text, number of words: <num n="words">57</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
-        <date>2015</date>
+        <date>2017</date>
         <idno type="dd">14200531001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +83,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Suppl. 138 fol. 128</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +93,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -115,8 +115,7 @@
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -128,12 +127,13 @@
         </listWit>
         <listBibl>
           <bibl>APD II 310 nr. 1344</bibl>
+          <bibl>Repertorium Germanicum IV nr. 1108</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +146,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-05-31" notBefore="1420-05-31" notAfter="1420-05-31" cert="high">1420. 31. maj</date>
+        <date when="1420-05-31" notBefore="1420-05-31" notAfter="1420-05-31" cert="high">1420. 31.
+          maj</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Klerken Bertoldus Quedelenborch fra Schwerin stift får et kapel i Kappel i Slesvig stift uden sjælesorg, skønt han forud har Mildsted kirke i samme stift (jf. nr. 1339)</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Bertoldus Quedlinburg, klerk
+                  fra Schwerin stift, om at få provision på et kapel i Kappel i Slesvig stift uden
+                  sjælesorg, ledigt ved den tidligere indehaver Hinricus' død, skønt han i
+                  forvejen har fået provision på sognekirken i Mildsted.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,8 +167,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-04-06" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -174,14 +179,20 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">emptySupplicat Bertoldus Quedelenborgh clericus Z^verinensis diocesis, quatenus sibi de
-		                   cappella in Cappel sine cura Slesyicensis diocesis vacante per mortem Hinrici de Cappel
-            [fructus 7 mr.] dignemini providere, non obstante quod sibi de parrochiali ecclesia in
-            Milstede dicte diocesis [fructus 6 mr.] per e. s.v. extitit concessum provideri. Fiat.
-            O. Datum Fiorentie pridie kal. junii anno 3.	</p>
+        <p n="a#1">Supplicat <persName>Bertoldus Quedelenborgh</persName> clericus
+            <placeName>Zwerinensis</placeName> diocesis, quatenus sibi de cappella in
+            <placeName>Cappel</placeName> sine cura <placeName>Slesvicensis</placeName> diocesis
+          vacante per mortem <persName>Hinrici de Cappel</persName> [fructus 7 mr.] dignemini
+          providere, non obstante quod sibi de parrochiali ecclesia in
+            <placeName>Milstede</placeName> dicte diocesis [fructus 6 mr.] per e. s. v. extitit
+          concessum provideri.</p>
+        <p>Fiat. O.</p>
+        <p>Datum <placeName>Florentie</placeName> pridie kal. junii anno 3.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende             udarbejde tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

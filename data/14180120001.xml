@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">112</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14180120001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2653-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9 (plica: 1.7)</height>
+                                    <width>22.4</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Skrevet med samme hånd som DD 1418. 7. maj, nr. 14180507001 og DD 1418. 10. mar., nr. 14180310001</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Peder Lykkes segl af lyst voks med sortindfarvet forside i perg. rem, <ref>DGS 814</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 1</bibl>
+               <bibl>Rep. nr. 5696</bibl>
+               <bibl>Reg. 2964 (med forkert år, 1398)</bibl>
+               <bibl>Reg. *4425</bibl>
+               <bibl>Molbech og Petersen, Danske Diplomer, I 74 (med forkert dato, afskrift efter kopi)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-01-20"
+                  notBefore="1418-01-20"
+                  notAfter="1418-01-20"
+                  cert="empty">1418. 20. januar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Biskop Peder af Ribe bekendtgør at hans broder Bent Bille har gjort ham fuldt regnskab for
+      alt, hvad han på hans vegne har modtaget.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
+         <change when="2017-10-11" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-10-11. </change>
+         <change when="2017-11-21" who="#mh">2. korrektur af #mh 2017-11-21. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wy <app>
+                  <lem>Pæth<ex>e</ex>r</lem>
+                  <rdg wit="#A">her begynder understregning, A</rdg>
+               </app> m<ex>eth</ex> guthz <app>
+                  <lem>nothæ</lem>
+                  <rdg wit="#A">her slutter understregning, A</rdg>
+               </app> biscop jnnæn
+      Riibæ hielssæ allæ som thættæ breff see æld<ex>e</ex>r høræ læsæ kærlig oc ewindelig
+      m<ex>eth</ex> wor hærræ ♦ Oc kungøræ at thæ<ex>n</ex>næ nærwærdæns brefuis<ex>e</ex>r <app>
+                  <lem>
+                     <persName>Beyend</persName>
+                  </lem>
+                  <rdg wit="#A">her begynder understregning, A</rdg>
+               </app>
+               <persName>Billæ</persName> wor kæræ <app>
+                  <lem>brothær</lem>
+                  <rdg wit="#A">her slutter understregning, A</rdg>
+               </app> hau<ex>e</ex>r gørd oss fult <app>
+                  <lem>rægænskab</lem>
+                  <rdg wit="#A">her begynder understregning, A</rdg>
+               </app> oc alt fra
+      the<ex>n</ex> førstæ dagh <app>
+                  <lem>han</lem>
+                  <rdg wit="#A">her slutter understregning, A</rdg>
+               </app>
+               <placeName>Bøfling</placeName> aff oss fik oc j wæræ
+      hau<ex>e</ex>r hafd til the<ex>n</ex>næ dagh aff alt th<ex>et</ex> han ponæ woræ
+      wey<ex>n</ex>næ hau<ex>e</ex>r opboræd swo at wi hanu<ex>m</ex> thakkæ ♦</p>
+            <p n="a#2">Oc ladæ wi hanu<ex>m</ex> oc hans arfwingæ qwiit oc frij for oss oc woræ
+      æftærko<ex>m</ex>meræ j allæ modæ ♦</p>
+            <p n="a#3">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xviij<hi rend="sup">o</hi>
+      die beatorum Fabiani et Sebastiani martirum nostro sub secreto presentibus appenso ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">18</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">18</num>, paragraphs: <num n="paragraphs"
+          >2</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14200704002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Reg. Lat. 237 fol. 255</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -111,29 +113,32 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Franciscus. X. de Agello</ab>
+                  <ab>Påskrift: <q>Franciscus. X. de Agello</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty</ab>
                   </seal>
                 </sealDesc>
               </physDesc>
               <history>
                 <ab>empty</ab>
               </history>
+              <additional>
+                <listBibl>
+                  <bibl>APD II 310 nr. 1346</bibl>
+                </listBibl>
+              </additional>
             </msDesc>
           </witness>
         </listWit>
-        <listBibl>
-          <bibl>APD II 310 nr. 1346</bibl>
-        </listBibl>
+        <listBibl/>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l., de udeladte formler tilføjet efter <ref
+            target="14010329006">DD 1401. 29. mar., nr. 14010329006</ref></ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +151,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-07-04" notBefore="1420-07-04" notAfter="1420-07-04" cert="high">1420. 4. juli</date>
+        <date when="1420-07-04" notBefore="1420-07-04" notAfter="1420-07-04" cert="high">1420. 4.
+          juli</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Paven giver ridderen Ivan Bryske fra Odense stift lov til at lade holde messe før daggry</ab>
+        <ab>Paven tillader Ivan Bryske, ridder fra Odense stift, at lade holde messe før
+          daggry.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,8 +170,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-06-12" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -174,12 +182,34 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">emptyAnte diem.</p>
-        <p n="a#2">Nobili viro Ywano Bryske militi Ottoniensis diocesis. Sincere etc. Datum Florentie 4.
-            non. julii anno 3.</p>
+        <p><app>
+            <lem>Martinus (episcopus servus servorum dei)</lem>
+            <rdg><q>Martinus etcetera</q> Aa</rdg>
+          </app> nobili viro <persName>Ywano Bryske</persName> militi
+            <placeName>Ottoniensis</placeName> diocesis <app>
+            <lem>salutem (et apostolicam benedictionem)</lem>
+            <rdg><q>salutem etcetera</q> Aa</rdg>
+          </app> &#9830;</p>
+        <p><app>
+            <lem>Sincere (devotionis affectus quem ad nos et Romanam geris ecclesiam promeretur / ut
+              votis tuis illis presertim favorabiliter annuamus / per que sicut pie desideras
+              divinis officiis intentus / existis et spiritualis salutis tibi proveniat incrementum
+              ♦ Hinc est quod nos tuis supplicacionibus inclinati / ut missam antequam illucescat
+              dies circa tamen diurnam lucem / cum qualitas negotiorum pro tempore ingruentium id
+              exegerit / liceat tibi per sacerdotes ydoneos / quos ad hoc duxeris eligendos coram te
+              et tua familia facere celebrari / ita quod id nec tibi nec sacerdotibus taliter
+              celebrantibus / ad culpam valeat imputari / devotioni tue auctoritate presentium de
+              speciali gratia indulgemus proviso quod parte hujusmodi concessione utaris quia cum in
+              altaris officio immoletur / dominus noster Ihesus Christus dei filius qui candor est
+              lucis eterne congruit / hoc non noctis tenebris fieri sed in luce / ♦ Nulli ergo
+              ...)</lem>
+            <rdg><q>Sincere etcetera</q> Aa</rdg>
+          </app> &#9830;</p>
+        <p>Datum <placeName>Florentie</placeName> 4. non. julii anno 3.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

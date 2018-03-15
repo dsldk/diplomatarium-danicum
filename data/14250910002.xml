@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">137</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14250910002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2934-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.5 (plica: 3.4)</height>
+                                    <width>25</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Den øverste del af brevet er brændt væk</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Peter Scherers segl i mørkt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Berthold Burammers segl i mørkt voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6213</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Rep. l.l., konfereret med A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-09-10"
+                  notBefore="1425-09-10"
+                  notAfter="1425-09-10"
+                  cert="high">1425. 10. september</date>
+            <placeName cert="high">Helsingborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peter Scherer kvitterer for at have modtaget en betaling. I forlængelse heraf lover Peter
+      Scherers medgaranter Hermann Baer (?) og Berthold Burammer, at Peter Scherer eller hans
+      arvinger ikke vil gøre flere fordringer på betalingen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-03" who="#pbh">Filen etableret af #pbh 2014-07-03. </change>
+         <change when="2018-01-08" who="#smb">1. korrektur af #smb 2018-01-08. </change>
+         <change when="2018-01-16" who="#smb">2. korrektur af #smb 2018-01-16. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">
+               <damage>.....</damage>
+            </p>
+            <p n="a#2">
+               <damage>.....</damage> qwit leddich vnde los van myner <damage>.....</damage> vp saken ofte
+      myne eruen vnde danke synen gn<damage>...</damage>
+               <damage>.....</damage> betalinghe v<damage>..</damage>
+               <damage>.....</damage>
+               <damage>..</damage>te de my geschen is . vnde hebbe des ghebeden her <damage>Hermen
+      B</damage>aer (?) vnde Bertolt <damage>Buramer</damage> se vor my louen . dat ik efte de mynen
+      / ofte nement de hir <damage>...</damage>ne hefft vp manen ofte vp saken schal to nener tyd .
+      ♦</p>
+            <p n="a#3">Des loue wy her <persName>Hermen</persName>
+               <damage>vnde</damage>
+               <persName>Buramer</persName> myt samender hant dat Peter dat truweliken holden schal ane alle
+      arch vnde schal mynes heren unde myner vrowen gnade alle tyd danken vor ghude betalinghe .
+      ♦</p>
+            <p n="a#4">Des tho ener hogher tuchnisse vnde bewaringhe so hebbe ik <persName>Peter Scherer</persName>
+      hebbe myn jngheseghel vnde myne mede lo{ue}ers ere jngheseghel ghehenghet nedden an dessen
+      breff ♦</p>
+            <p n="a#5">Ghegheuen vnde screuen to <placeName>Helsingborch</placeName> na Godes bort / dusent
+      veerhundert dar na jnde vyffvnde . twintighesten jare des mandaghes infra octavas nativitatis
+      Marie gloriose virginis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

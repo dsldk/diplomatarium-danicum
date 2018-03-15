@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
-        <date>2015</date>
+        <date>2017</date>
         <idno type="dd">14200614001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Suppl. 144 fol. 170v-171r</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -115,8 +117,7 @@
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -128,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 251 nr. 5715</bibl>
+          <bibl>Repertorium Germanicum IV nr. 1108</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +148,16 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-06-14" notBefore="1420-06-14" notAfter="1420-06-14" cert="high">1420. 14. juni</date>
+        <date when="1420-06-14" notBefore="1420-06-14" notAfter="1420-06-14" cert="high">1420. 14.
+          juni</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Klerken Bertoldus Quedelenborch fra Schwerin stift får sognekirken i Ullerup i Slesvig stift, som er ledig ved at indehaveren Ludolf Schwerin har fået sognekirken i Pederstorp (på Femern)</ab>
+        <ab> Pave Martin 5. bevilger en supplik af Bertoldus Quedlinburg, klerk fra Schwerin stift,
+          om at få provision på sognekirken i Ullerup i Slesvig stift, som er underlagt lægfolks
+          patronatsret, og som er ledig enten ved, at den tidligere indehaver Ludolphus Schwerin har
+          fået sognekirken i Petersdorf (på Femern), eller ved Erik Dosenrodes frivillige
+          resignation.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,8 +170,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-04-06" who="#pbh">Tekst indskrevet osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -174,10 +182,29 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Supplicat .. <persName>Bertoldus Quedelenborgh</persName> clericus
+            <placeName>Zwerinensis</placeName> diocesis, quatinus sibi de parrochiali ecclesia in
+            <placeName>Uldorpe</placeName>
+          <placeName>Slesvicensis</placeName> diocesis [fructus 8 mr. arg. puri etiam cotidianis
+          distributionibus computatis] ex eo vacante, quod quidam <persName>Ludolphus
+            Zwerin</persName>
+          <app>
+            <lem><supplied>eandem ecclesiam</supplied></lem>
+            <rdg>tilf. i APD</rdg>
+          </app>, que de jure patronatus laicorum existit, tunc obtinens aliam, videlicet
+          parrochialem ecclesiam in <placeName>Peterstorpe</placeName>
+          <placeName>Ottoniensis</placeName> diocesis, pacifice extitit assecutus, sive premisso
+          sive alias quovis modo vacet, etiam si per liberam resignationem <placeName>Erici
+            Dosenrode</placeName> ... sponte factam ... vacaret, ... dignemini misericorditer
+          providere.</p>
+        <p>Fiat. O.</p>
+        <p>Datum <placeName>Florentie</placeName> 18. kal. julii anno 3.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

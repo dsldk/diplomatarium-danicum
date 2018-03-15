@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14180530003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -85,7 +87,7 @@
                 <repository>Archivio Segreto Vaticano</repository>
                 <collection>empty</collection>
                 <idno>empty</idno>
-                <msName>Reg. Lat. 191 fol. 87v; også Supplik (Suppl. 113 fol. 274v)</msName>
+                <msName>Reg. Lat. 191 fol. 87v</msName>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -114,7 +116,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Antonius XXX. 17. kal. jan. anno 3. de Ponto</ab>
+                  <ab>Påskrift: <q>Antonius XXX. 17. kal. jan. anno 3. de Ponto</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -135,7 +137,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +150,21 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1418-05-30" notBefore="1418-05-30" notAfter="1418-05-30" cert="nil">1418. 30. maj</date>
+        <date when="1418-05-30" notBefore="1418-05-30" notAfter="1418-05-30" cert="high">1418. 30.
+            maj<note>Findes også som supplik i Arch. Segr. Vat. Suppl. 113 fol. 274v (ikke udgivet i
+            APD)</note></date>
         <placeName cert="high">Bern</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler abbeden i Holmekloster, ærkedegnen i Roskilde og provsten i Odense, at de, når Jens Fynsen (Ulfeld) havde opgivet provstiet i Tofte (Assens) og sognekirken i Glamtofte i Odense stift, skal give ham ny provision derpå, skønt han forud har kanonikater og præbender i Lund, Roskilde og Aarhus og Helligåndshospitalet i Assens; han skal så dog inden 5 år ombytte det ene af de to embeder med et, som er foreneligt med det andet; ellers skal han opgive kirken i Hjulby</ab>
+        <ab>Pave Martin 5. pålægger abbeden i Holmekloster i Odense stift, ærkedegnen i Roskilde og
+          provsten i Odense at overdrage Jens Finsen (Ulfeldt), kannik i Lund, provstiet i Tofte og
+          sognekirken i Hjulby, som er forenet med sognekirken i Nyborg, begge i Odense stift, så
+          snart han ifølge pavens bestemmelse (<ref target="14180530002">DD 1418. 30. maj, nr.
+            14180530002</ref>) har opgivet dem begge, skønt han i forvejen har kanonikater og
+          præbender i Roskilde og Århus stifter samt hospitalet i Assens; Jens skal have tilladelse
+          til at forene provstiet og sognekirken i 5 år, hvorefter han enten skal bortbytte
+          provstiet eller sognekirken til et embede, der er foreneligt med det andet, eller opgive
+          sognekirken i Hjulby.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,8 +172,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-03" who="#pbh">Filen etableret af #pbh 2014-04-03. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-06-12" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -171,10 +184,41 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Abbati monasterii in <placeName>Holme</placeName>
+          <placeName>Ottoniensis</placeName> diocesis et archidiacono
+            <placeName>Roskildensis</placeName> ac preposito Ottoniensis ecclesiarum.</p>
+        <p>Nobilitas generis, vite ac morum honestas <app>
+            <lem>(aliaque laudabilia probitatis et virtutum merita super quibus apud nos dilectus
+              filius Johannes Fynnonis, canonicus Lundensis, fidedigno commendatur testimonio nos
+              inducunt ut sibi reddamur ad graciam liberales)</lem>
+            <rdg>tilføjet efter <ref target="14010226001">DD 1401. 26. feb., nr.
+              14010226001</ref></rdg>
+          </app>.</p>
+        <p>Hodie siquidem (<q>etc., mutatis mutandis som <ref target="14180530002">DD 1418. 30. maj,
+              nr. 14180530002</ref></q>).</p>
+        <p>Cum autem .. dicte prepositura et ecclesia secundum premissa vacare noscantur, nos,
+          volentes <persName>Johanni Fynnonis</persName> canonico <placeName>Lundensi</placeName>
+          gratiam facere specialem, discretioni vestre mandamus, quatenus ... prefatam preposituram,
+          cui cura imminet animarum [fructus 6 mr.], ac ecclesiam in <placeName>Hywlby</placeName>,
+          cui parrochialis ecclesia in <placeName>Nyburg</placeName> etiam canonice est annexa
+          [fructus 4 mr.], eidem Johanni Fynnonis, postquam illas omnino dimiserit, ut prefertur,
+          auctoritate nostra conferre curetis, non obstante quod idem Johannes Fynnonis Lundensis
+          Roskildensis et <placeName>Arusiensis</placeName> ecclesiarum canonicatus et prebendas
+          necnon hospitale pauperum s. spiritus in <placeName>Asnes</placeName> dicte diocesis in
+          titulum perpetui beneficii clericis secularibus assignari solitum [omnium fructus 7 mr.]
+          noscitur obtinere.</p>
+        <p>Nos enim cum dicto Johanne Fynnonis, ut preposituram et ecclesiam in Hywlby .. recipere
+          et usque ad quinquennium insimul retinere libere valeat, dispensamus, ita tamen, quod ipse
+          Johannes Fynnonis infra quinquennium hujusmodi alteram ex prepositura et ecclesia in
+          Hywlby predictis pro alio beneficio cum earum reliqua compatibili permutare, alioquin
+          dictam ecclesiam in Hywlby, quam extunc vacare decernimus, omnino dimittere teneatur
+          ...</p>
+        <p>Datum <placeName>Berne</placeName>
+          <placeName>Lausanensis</placeName> diocesis 3. kal. junii anno 1.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>
