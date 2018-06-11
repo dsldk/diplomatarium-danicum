@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">276</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">276</num>, paragraphs: <num n="paragraphs"
+          >3</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14200711001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Reg. Lat. 207 fol. 49</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -111,12 +113,14 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Franciscus XII ÷ XIIII ÷ [12½. 14½] 6. id. aug. anno 3. de Agello</ab>
+                  <ab>Påskrift: <q>Franciscus <app>
+                        <lem>XII÷ XIIII÷</lem>
+                        <rdg><q>= 12½ 14½</q></rdg>
+                      </app> 6. id. aug. anno 3. de Agello</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -133,7 +137,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,12 +150,19 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-07-11" notBefore="1420-07-11" notAfter="1420-07-11" cert="high">1420. 11. juli</date>
+        <date when="1420-07-11" notBefore="1420-07-11" notAfter="1420-07-11" cert="high">1420. 11.
+          juli</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Paven reserverer provstiet i Roskilde for magister Oluf Jakobsen, skønt han forud har fået dispensation til at have to ellers uforenelige embeder og forud har kantoriet i Lund, kanonikater og præbender i Lund, Uppsala og Roskilde og dekanatet i Sankt Castors
-	                   kirke i Koblenz i Trier stift (jf. nr. 1324)</ab>
+        <ab>Pave Martin 5. reserverer provstiet i Roskilde, som er ledigt ved den tidligere
+          indehaver Jens (Jakobsens) udnævnelse til biskop i Oslo, for Oluf Jakobsen (Knop), kantor
+          i Lund, skønt han i forvejen har fået pavelig dispensation til at forene to ellers
+          uforenelige embeder og allerede besidder kantoriet i Lund, kanonikater og præbender i
+          Uppsala og Roskilde samt dekanatet i Skt. Kastor i Koblenz i Trier stift. Når han har
+          opnået besiddelsen af provstiet i Roskilde, skal han opgive kantoriet i Lund. Samtidig er
+          lignende skrivelser udstedt til ærkebiskoppen i Lund og biskopperne i Condom og
+          Lübeck.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -164,8 +175,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-08-01" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -175,35 +187,49 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">emptyOlauo Jacobi cantori ecclesie Lundensis, bacallario in decretis. Litterarum scientia vite
-            ac morum honestas [etc.]. Cum itaque prepositura ecclesie Roskildensis, quam Johannes
-            electus Asloensis tempore promotionis per nos facte de persona sua ad ecclesiam
-            Asloensem obtinebat, prout obtinet, per promotionem huiusmodi et niunus consecrationis
-            eidem electo impendendum vacare speretur, nos, volentes tibi, qui etiam magister in
-            artibus et in Romana curia causarum procurator existis, gratiam facere specialem,
-            preposituram predictam, que dignitas non tamen maior post pontificalem in dicta ecclesia
-            Roskildensi ac curata existit, et ad quam quis per electionem assumitur [fructus necnon
-            cotidiane distributiones 28 mr.], cum illam quovis modo preterquam per ipsius electi
-            obitum vacare contigerit, conferendam tibi reservamus, non obstantibus quod tu, cum quo
-            dudum, ut dignitatem personatum administrationem vel ofticium etiam cum cura, si tibi
-            aUas canonice conferretur, unacum quocunque alio beneficio curato seu ahas
-            incompatibili, quod etiam te alias canonice assequi contingeret, quoad viveres, retinere
-            illaque dimittere et loco dimissorum alia beneficia duo tantum invicem incompatibiha
-            recipere et etiam, quoad viveres, retinere valeres, apostoUca fuit auctoritate
-            dispensatum, cantoriam, que dignitas est Lundensis, et eiusdem ac Vpsalensis necnon
-            dicte Roskildensis [ecclesiarum] canonicatus et prebendas obtines, nosque dudum tibi de
-            decanatu s. Castoris in Confluentia Treverensis diocesis, qui dignitas principaUs inibi
-            et curatus existit, et ad quem quis per electionem assumitur [omnium fructus 50 mr.],
-            tunc vacante et antea dispositioni apostoUce reservato, cuiusque possessionem non habes,
-            gratiose duximus providendum. Vohimus autem, quod, quamprimum dicte prepositure
-            possessionem fueris pacificam assecutus, cantoriam ipsam, quam exlunc vacare 312 MARTJN
-            V.</p>
-        <p n="a#2">decernimus, omnino, prout ad id te etiam sponte obtulisti, dimittere tenearis. Datum
-            Florentie 5. id. julii anno 3.</p>
-        <p n="a#3">Simili modo arcliiepiscopo Lundensi et Condomiensi ac Lubicensi episcopis.</p>
+        <p n="a#1"><persName>Olavo Jacobi</persName> cantori ecclesie
+            <placeName>Lundensis</placeName>, bacallario in decretis.</p>
+        <p>Litterarum scientia vite ac morum honestas <app>
+            <lem>(aliaque laudabilia probitatis et virtutum merita super quibus apud nos fidedigno
+              commendaris testimonio nos inducunt ut te specialibus favoribus et graciis
+              prosequamur)</lem>
+            <rdg>suppleret efter <ref target="14010321001">DD 1401. 21. mar., nr.
+              14010321001</ref></rdg>
+          </app>.</p>
+        <p>Cum itaque prepositura ecclesie <placeName>Roskildensis</placeName>, quam
+            <persName>Johannes</persName> electus <placeName>Asloensis</placeName> tempore
+          promotionis per nos facte de persona sua ad ecclesiam Asloensem obtinebat, prout obtinet,
+          per promotionem hujusmodi et munus consecrationis eidem electo impendendum vacare
+          speretur, nos, volentes tibi, qui etiam magister in artibus et in Romana curia causarum
+          procurator existis, gratiam facere specialem, preposituram predictam, que dignitas non
+          tamen major post pontificalem in dicta ecclesia Roskildensi ac curata existit, et ad quam
+          quis per electionem assumitur [fructus necnon cotidiane distributiones 28 mr.], cum illam
+          quovis modo preterquam per ipsius electi obitum vacare contigerit, conferendam tibi
+          reservamus, non obstantibus quod tu, cum quo dudum, ut dignitatem personatum
+          administrationem vel officium etiam cum cura, si tibi alias canonice conferretur, unacum
+          quocunque alio beneficio curato seu alias incompatibili, quod etiam te alias canonice
+          assequi contingeret, quoad viveres, retinere illaque dimittere et loco dimissorum alia
+          beneficia duo tantum invicem incompatibilia recipere et etiam, quoad viveres, retinere
+          valeres, apostolica fuit auctoritate dispensatum, cantoriam, que dignitas est Lundensis,
+          et ejusdem ac <placeName>Upsalensis</placeName> necnon dicte Roskildensis <app>
+            <lem><supplied>ecclesiarum</supplied></lem>
+            <rdg>tilf. i APD</rdg>
+          </app> canonicatus et prebendas obtines, nosque dudum tibi de decanatu s. Castoris in
+            <placeName>Confluentia</placeName>
+          <placeName>Treverensis</placeName> diocesis, qui dignitas principalis inibi et curatus
+          existit, et ad quem quis per electionem assumitur [omnium fructus 50 mr.], tunc vacante et
+          antea dispositioni apostolice reservato, cujusque possessionem non habes, gratiose duximus
+          providendum.</p>
+        <p>Volumus autem, quod, quamprimum dicte prepositure possessionem fueris pacificam
+          assecutus, cantoriam ipsam, quam extunc vacare decernimus, omnino, prout ad id te etiam
+          sponte obtulisti, dimittere tenearis.</p>
+        <p>Datum <placeName>Florentie</placeName> 5. id. julii anno 3.</p>
+        <p>Simili modo archiepiscopo Lundensi et <placeName>Condomiensi</placeName> ac
+            <placeName>Lubicensi</placeName> episcopis.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14241216003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,24 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1424-12-16" notBefore="1424-12-16" notAfter="1424-12-16" cert="high">1424. 16. december</date>
+        <date when="1424-12-16" notBefore="1424-12-16" notAfter="1424-12-16" cert="high">1424. 16.
+          december</date>
         <placeName cert="high">Rom, Santi Apostoli</placeName>
       </creation>
       <abstract>
-        <ab>Roskildekannikerne Jens Poulsen og Jens Pedersen samt klerken Jakob Pedersen fra Roskilde stift får bekræftelse på den tilladelse, de to førstnævnte og Oluf Jakobsen, som nu var bleven biskop i Västerås, havde fået til at ombytte deres præbender</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Jens Poulsen, Jens Pedersen (Jernskæg) og Jakob
+          Pedersen, kannikker i Roskilde, om fornyet tilladelse til at bytte deres embeder.</ab>
+        <ab>Tidligere fik Jens Poulsen, Jens Pedersen og Oluf Jakobsen (Knop) tilladelse til at
+          bytte deres kanonikater og præbender (Oluf Jakobsens skulle gå til Jens Poulsen, Jens
+          Poulsens til Jens Pedersen og Jens Pedersens til Oluf Jakobsen), men inden byttet blev
+          gjort, blev Oluf Jakobsene udnævnt til biskop i Västerås. Da fik Oluf Ingevaldsson, kannik
+          i Uppsala, pavelig provision på hans kanonikat og præbende, men inden der blev udfærdiget
+          pavebrev derpå, opgav han sin ret dertil, hvorpå Jakob Pedersen, klerk fra Roskilde stift,
+          fik pavelig provision på Oluf Jakobsens kanonikat og præbende, idet han erklærede sig rede
+          til at opgive sin ret til kanonikat og præbende i Uppsala. </ab>
+        <ab>Idet de nu frygter, at tilladelsen til at bytte embeder ved Oluf Jakobsens udnævnelse
+          til biskop i Västerås ikke kan stå ved magt, beder de om, at den oprindelige tilladelse må
+          gælde for Jens Poulsen, Jens Pedersen (Jernskæg) og Jakob Pedersen.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +177,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-06-24" who="#pbh">Filen etableret af #pbh 2014-06-24. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-07-21" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +189,40 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Alias <persName>Olavo Jacobi</persName>, <persName>Johanne Pauli</persName> et
+            <persName>Johanne Petri</persName> canonicis prebendatis ecclesie
+            <placeName>Roskildensis</placeName> eorum canonicatus et prebendas ex causa
+          permutationis in manibus domini vicecancellarii dimittentibus et resignantibus, videlicet
+          ut prefati Olavi Jacobi dictus Johannes Pauli et ipsius Johannis Pauli ipse Johannes Petri
+          et ipsius Johannis Petri prefatus Olavus Jacobi hujusmodi canonicatus et prebendas ..
+          consequerentur, subsequenter vero, prefato Olavo Jacobi ad ecclesiam
+            <placeName>Arosiensem</placeName> tunc vacantem promoto, cuidam <persName>Olavo
+            Ingewaldi</persName> canonico ecclesie Upsalensis de eisdem canonicatu et prebenda, per
+          promotionem prefati Olavi seu munus consecrationis impendendum eidem vacaturis,
+          auctoritate apostolica concessum extitit provideri.</p>
+        <p>Qui Olavus Ingewaldi, litteris apostolicis desuper non confectis, omne jus sibi in eisdem
+          canonicatu et prebenda competens coram certo notario et testibus in Romana curia sponte
+          resignavit, et demum de eisdem Jacobo Petri clerico Roskildensis diocesis, offerenti se
+          dimissurum canonicatum et prebendam ecclesie <placeName>Upsalensis</placeName>, quos
+          asseruit se obtinere, licet re vera de eisdem sibi conferendis dumtaxat mandatum
+          apostolicum factum foret, simili auctoritate provisum extitit.</p>
+        <p>Timetur tamen obstantibus regulis s. v. permutationem et admissionem predictas pro eo,
+          quod ipse Olavus Jacobi ad ecclesiam Arosiensem predictam tempore hujusmodi permutationis
+          tunc vacantem promotus extitit, ac aliis causis viribus non subsistere.</p>
+        <p>Supplicant igitur prefati Johannes Pauli, Johannes Petri et Jacobus Petri, quatenus
+          permutationem hujusmodi ac omnia inde secuta perinde valere, ac si dicti defectus non
+          intervenissent, et ipsa ecclesia Arosiensis tempore resignationum predictarum minime
+          vacavisset, concedere vel saltem ipsis .. de eisdem canonicatibus et prebendis sic
+          vacantibus [fructus 18 mr.] ... de novo dignemini providere, non obstantibus canonicatibus
+          et prebendis Upsalensis et Arosiensis ecclesiarum, de quibus videlicet Upsalensis mandatum
+          et Arosiensis eidem Jacobo concessum sit provideri [fructus 10 mr.], quorum possessionem
+          non habet ..</p>
+        <p>Fiat pro omnibus tribus. O.</p>
+        <p>Datum <placeName>Rome apud ss. Apostolos</placeName> 17. kal. jan. anno 8.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14211111001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -111,7 +113,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Ja. XI. XIII. 13. kal. jan. anno 5. de Cerretanis</ab>
+                  <ab>Påskrift: <q>Ja. XI. XIII. 13. kal. jan. anno 5. de Cerretanis</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,19 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1421-11-11" notBefore="1421-11-11" notAfter="1421-11-11" cert="high">1421. 11. november</date>
+        <date when="1421-11-11" notBefore="1421-11-11" notAfter="1421-11-11" cert="high">1421. 11.
+            november<note>Jf. supplik af samme dato, <ref target="14211111003">DD 1421. 11. nov.,
+              nr. 14211111003</ref></note></date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab>Paven reserverer provstiet i Roskilde, som er ledigt ved Oluf Jakobsens promotion til biskop i Västerås, for kanniken i Sankt Peterskirken Nicolaus de Leis, som så dog skal opgive sit kantori i Lund. (cf. nr. 1374)</ab>
+        <ab>Pave Martin 5. reserverer provstiet i Roskilde domkirke, som snart bliver ledigt ved den
+          hidtidige indehaver Oluf Jakobsen (Knops) udnævnelse til biskop i Västerås, for Nicolaus
+          de Leis, kannik i Peterskirken i Rom, skønt han i forvejen har kanonikater og præbender i
+          Peterskirken, i kirkerne Santi Cosma e Damiano og Sant'Adriano i Rom og kantoriet i Lund.
+          Når han har opnået besiddelsen af provstiet, skal han opgive kantoriet i Lund. Samtidig er
+          lignende skrivelser udstedt til ærkebiskoppen i Lund, biskoppen i Spoleto og provsten i
+          Lübeck.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +172,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-09" who="#pbh">Filen etableret af #pbh 2014-05-09. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-08-02" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +184,40 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">.. <persName>Nicolao de Leis</persName> canonico basilice principis apostolorum
+          de Urbe. </p>
+        <p>Vite ac morum honestas <app>
+            <lem>(aliaque laudabilia probitatis et virtutum merita super quibus apud nos fidedigno
+              commendaris testimonio nos inducunt ut te specialibus favoribus et graciis
+              prosequamur)</lem>
+            <rdg>suppleret efter <ref target="14010321001">DD 1401. 21. mar., nr.
+              14010321001</ref></rdg>
+          </app>. </p>
+        <p>Cum itaque prepositura ecclesie <placeName>Roskildensis</placeName>, quam ..
+            <persName>Olavus</persName> electus <placeName>Arosiensis</placeName> tempore
+          promotionis per nos nuper facte de eo ad ecclesiam <app>
+            <lem>Arosiensem</lem>
+            <rdg><q>Rosiensem</q> Aa</rdg>
+          </app> ... obtinebat, prout obtinet, per hujusmodi promotionem et munus consecrationis
+          impendendum eidem electo vacare speretur, nos volentes tibi ... gratiam facere specialem
+          preposituram predictam, que curata et dignitas non tamen major post pontificalem in dicta
+          ecclesia Roskildensi existit, et ad quam consuevit quis per electionem assumi [fructus 100
+          flor. auri de camera] ... conferendam tibi donationi apostolice reservamus ..... non
+          obstante, quod, ut asseris, basilice principis apostolorum de Urbe et ss. Cosme et Damiani
+          ac s. Adriani de Urbe canonicatus et prebendas necnon cantoriam
+            <placeName>Lundensis</placeName> ecclesiarum [omnium fructus 125 flor. similium]
+          nosceris obtinere. </p>
+        <p>Volumus autem, quod, quamprimum vigore presentium dictam preposituram fueris pacifice
+          assecutus, eandem cantoriam, quam extunc vacare decernimus, omnino, prout ad id etiam te
+          sponte obtulisti, dimittere tenearis .... </p>
+        <p>Datum <placeName>Rome</placeName> 3. id. nov. anno 4. </p>
+        <p>Simili modo .. archiepiscopo Lundensi et episcopo <placeName>Spoletano</placeName> ac ..
+          preposito ecclesie <placeName>Lubicensis</placeName>.</p>
+        <p>Datum ut supra.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

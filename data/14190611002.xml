@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">145</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14190611002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2688-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>6.9 (plica: 1.1)</height>
+                                    <width>19.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Skrevet med samme hånd som 1419. 11. jun., nr. 14190611001</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Synde [E]s[be]rnss<ex>øn</ex> ær skyldegh sin so[n]
+        And<ex>e</ex>r<ex>s</ex> c lø[dh<ex>ige</ex> m<ex>a</ex>rk]</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Synde Esbernsens segl af lyst voks i perg.rem, <ref>AS L iii 2</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Segl af lyst voks med et udslidt skjold i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Niels Jensens segl af lyst voks i perg.rem, <ref>AS D xviii 1</ref>
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Holger Jensen Mosts segl af lyst voks i perg.rem, <ref>AS I viii 2</ref>
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Segl af lyst voks med et udslidt skjold i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 39</bibl>
+               <bibl>Rep. nr. 5777</bibl>
+               <bibl>Svenskt Dipl. III 455-56 nr. 2639, riksarkivet.se/SDHK nr. 19292</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-06-11"
+                  notBefore="1419-06-11"
+                  notAfter="1419-06-11"
+                  cert="high">1419. 11. juni</date>
+            <placeName cert="high">Ystad</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Synde Esbernsen (Gammelsen), væbner, i Lilla Jordberga vedkender sig at være sin
+      søn, Anders Syndesen, skyldig 100 lødige mark for det løsøre, som var tilfaldet ham efter hans mor Una,
+      Niels Pedersens datter og Synde Esbernsens hustru. Hvis Synde Esbernsen skulle afgå ved døden, skal hans søn,
+      foruden sin andel i skiftet, have de 100 lødige mark, før hans arvinger påbegynder skiftet.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-14" who="#pbh">Filen etableret af #pbh 2014-04-14. </change>
+         <change when="2017-12-11" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-12-11. </change>
+         <change when="2018-02-20" who="#jon">2. korrektur af #jon 2018-02-20. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæ<ex>n</ex> th<ex>e</ex>tta b<ex>re</ex>ff . hør<ex>e</ex> ell<ex>e</ex>r see hølsær
+      jach <app><lem><persName>Syndæ</persName></lem><rdg wit="#A">understregning begynder ved <q>n</q>, A</rdg></app>
+      <persName>Esbernss<ex>øn</ex></persName> awapn j <app><lem><placeName>Jordbiærghelilæ</placeName></lem><rdg wit="#A">understregning slutter ved <q>i(1)</q>, A</rdg></app> ewi<ex>n</ex>nelege m<ex>eth</ex> guth . oc ku<ex>n</ex>dgør allom so
+      nerware<ex>n</ex>d<ex>is</ex> so<ex>m</ex> ko<ex>m</ex>masculend<ex>is</ex> ær<ex>e</ex> . at
+      jach . skyldug<ex>er</ex> ær mi<ex>n</ex>
+      <app><lem>kær<ex>e</ex></lem><rdg wit="#A">her begynder understregning, A</rdg></app> son . <persName>Anders Syndess<ex>øn</ex></persName> j <app><lem>hu<ex>n</ex>dratha</lem><rdg wit="#A">understregning slutter ved <q>h(1)</q>, A</rdg></app> løth<ex>ige</ex> m<ex>a</ex>r<ex>c</ex> for bolpæni<ex>n</ex>gge ell<ex>e</ex>r
+      rørænddæ war<ex>e</ex> so<ex>m</ex> hano<ex>m</ex> burthe / eftær sin <app><lem>moth<ex>e</ex>rs</lem><rdg wit="#A">understregning begynder ved <q>r</q>, A</rdg></app> døøt Vnæ / <persName>Nyels Pæth<ex>e</ex>rss<ex>øns</ex></persName> dott<ex>er</ex> mi<ex>n</ex>
+      <app><lem>husf<ex>rv</ex></lem><rdg wit="#A">understregning slutter ved <q>u</q>, A</rdg></app> hoos siæl guth hafuer / ♦</p>
+            <p n="a#2" xml:space="preserve">Oc war<ex>e</ex> th<ex>e</ex>t swo at liwæt war<ex>e</ex> mich forstakkæt / tha før en
+      mi<ex>n</ex>e arfwi<ex>n</ex>ge ga<ex>n</ex>gæ tel skiftæs / tha scall the<ex>n</ex> forsc<ex>reffne</ex>
+      <app><lem>mi<ex>n</ex></lem><rdg wit="#A">her begynder understregning, A</rdg></app> so<ex>n</ex>
+      <app><lem>Anders</lem><rdg wit="#A">understregning slutter ved <q>n</q>, A</rdg></app> / vpbær<ex>e</ex> / the for<hi rend="sup">de</hi> hu<ex>n</ex>dratha løth<ex>ige</ex>
+      m<ex>a</ex>r<ex>c</ex> / wdæ<ex>n</ex> alt skiftæ / ♦</p>
+            <p n="a#3" xml:space="preserve">Oc th<ex>e</ex>r bindær jach mic tel oc mi<ex>n</ex>æ arfwi<ex>n</ex>ge m<ex>eth</ex>
+      th<ex>e</ex>tta mit nerwarend<ex>is</ex> b<ex>re</ex>ff ♦</p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis virorum discretorum
+        <persName>Most Josepss<ex>øn</ex></persName> in <placeName>Jordbiærghe</placeName> maglæ /
+        <persName>Nicholai Jenss<ex>øn</ex></persName> in <placeName>Kiwinge</placeName>
+      <persName>Holgeri Most</persName>
+      <persName>Hinrici Most armigerorum</persName> presentibus est appensum . ♦</p>
+            <p n="a#5" xml:space="preserve">Datum <placeName>Ystadis</placeName> anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi> xix<hi rend="sup">o</hi> dominica trinitatis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

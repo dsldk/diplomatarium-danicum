@@ -1,183 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader type="text">
-    <fileDesc>
-      <titleStmt>
-        <title>Diplomatarium Danicum</title>
-        <editor>
-          <name xml:id="th">
-            <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
-            </persName>
-          </name>
-        </editor>
-        <funder>Carlsbergfondet</funder>
-      </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
-      <publicationStmt>
-        <publisher>Danske Sprog- og Litteraturselskab</publisher>
-        <pubPlace>København</pubPlace>
-        <date>2016</date>
-        <idno type="dd">14310719001</idno>
-        <idno type="isbn">nil</idno>
-        <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness xml:id="A">
-            <msDesc>
-              <msIdentifier>
-                <settlement>empty</settlement>
-                <repository>empty</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>Tabt</ab>
-              </history>
-            </msDesc>
-          </witness>
-          <witness xml:id="Aa">
-            <msDesc>
-              <msIdentifier>
-                <settlement>Rom</settlement>
-                <repository>Archivio Segreto Vaticano</repository>
-                <idno>Reg. Lat. 304 fol. 6</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>B. XXX. Valuen.</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>empty</ab>
-              </history>
-            </msDesc>
-          </witness>
-        </listWit>
-        <listBibl>
-          <bibl>Acta Pont. iii 11 nr. 1612</bibl>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
-      </samplingDecl>
-      <projectDesc>
-        <ab>DD-5</ab>
-      </projectDesc>
-      <appInfo>
-        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
-          <desc>nil</desc>
-        </application>
-      </appInfo>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1431-07-19" notBefore="1431-07-19" notAfter="1431-07-19" cert="high">1431. 19. juli</date>
-        <placeName cert="high">Rom</placeName>
-      </creation>
-      <abstract>
-        <ab> Paven tillader den nyudnævnte biskop Arnold i Bergen på grund af stiftets fattigdom i tre år at beholde dekanatet i Linköping og kanonikat og præbende i Roskilde </ab>
-      </abstract>
-      <langUsage>
-        <language ident="la"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term>empty</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2013-10-01" who="#pbh">Filen etableret af #pbh 2013-10-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
-      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
-    </revisionDesc>
-  </teiHeader>
-  <facsimile>
-    <graphic url="nil"/>
-  </facsimile>
-  <text>
-    <body>
-      <div xml:lang="la">
-        <p n="a#1">empty</p>
-      </div>
-      <div xml:lang="da">
-        <p n="b#1">empty</p>
-      </div>
-    </body>
-  </text>
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Diplomatarium Danicum</title>
+                <editor>
+                    <name xml:id="pbh">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Bruun Hansen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num
+                    n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>,
+                paragraphs: <num n="paragraphs">1</num>
+            </extent>
+            <publicationStmt>
+                <publisher>Danske Sprog- og Litteraturselskab</publisher>
+                <pubPlace>København</pubPlace>
+                <date>2016</date>
+                <idno type="dd">14310719001</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>empty</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc material="empty">
+                                        <support>
+                                            <ab>empty</ab>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab>empty</ab>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab>empty</ab>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote>
+                                        <ab>empty</ab>
+                                    </handNote>
+                                </handDesc>
+                                <additions>
+                                    <ab>empty</ab>
+                                </additions>
+                                <sealDesc>
+                                    <seal n="0" type="empty">
+                                        <ab>empty</ab>
+                                    </seal>
+                                </sealDesc>
+                            </physDesc>
+                            <history>
+                                <ab>Tabt</ab>
+                            </history>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="Aa">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Rom</settlement>
+                                <repository>Archivio Segreto Vaticano</repository>
+                                <idno>Reg. Lat. 304 fol. 6</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc material="empty">
+                                        <support>
+                                            <ab>empty</ab>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab>empty</ab>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab>empty</ab>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote>
+                                        <ab>empty</ab>
+                                    </handNote>
+                                </handDesc>
+                                <additions>
+                                    <ab>Påskrift: <q>B. XXX. Valuen</q></ab>
+                                </additions>
+                                <sealDesc>
+                                    <seal n="0" type="empty">
+                                        <ab>empty</ab>
+                                    </seal>
+                                </sealDesc>
+                            </physDesc>
+                            <history>
+                                <ab>empty</ab>
+                            </history>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>APD III 11 nr. 1612</bibl>
+                    <bibl>Dipl. Norv. XVII 385 nr. 486</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <ab>Tekst efter Dipl. Norv. l.l. (tegnsætningen justeret), arkivalske oplysninger
+                    efter APD l.l.</ab>
+            </samplingDecl>
+            <projectDesc>
+                <ab>DD-5</ab>
+            </projectDesc>
+            <appInfo>
+                <application xml:id="app_nil" type="nil" subtype="nil" ident="nil"
+                    version="99999999">
+                    <desc>nil</desc>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1431-07-19" notBefore="1431-07-19" notAfter="1431-07-19" cert="high"
+                    >1431. 19. juli<note>Jf. <ref target="14340323002">DD 1434. 23. mar., nr.
+                            14340323002</ref>; den samme får forlænget denne tilladelse for
+                        yderligere fem år</note></date>
+                <placeName cert="high">Rom</placeName>
+            </creation>
+            <abstract>
+                <ab>Pave Eugenius 4. giver Arnold (Klementsen), udvalgt biskop i Bergen, tilladelse til
+                    at beholde sine hidtidige embeder, dekanatet i Linköping og kanonikat og
+                    præbende i Roskilde, i tre år efter at være blevet indviet til biskop og til i
+                    den periode at oppebære alle tre embeders indtægter, idet bispedømmets indtægter
+                    er meget lave.</ab>
+            </abstract>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>empty</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-08-08" who="#pbh">Fil oprettet, tekst og regest udfærdiget</change>
+            <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+            <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="nil"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="la">
+                <p><persName>Eugenius</persName> etc. dilecto filio <persName>Arnoldo</persName>
+                    electo <placeName>Bergensi</placeName> salutem etc.</p>
+                <p>Personam tuam nobis et apostolice sedi devotam tuis exigentibus meritis paterna
+                    benivolencia prosequentes illa tibi libenter concedimus que tuis commoditatibus
+                    fore conspicimus oportuna.</p>
+                <p>Cum itaque nos hodie de persona tua nobis et fratribus nostris ob tuorum
+                    exigenciam meritorum accepta ecclesie Bergensi tunc pastore carenti duxerimus
+                    auctoritate apostolica providendum preficiendo te illi in episcopum et pastorem
+                    prout in nostris inde confectis litteris plenius continetur, et propterea
+                    decanatus <placeName>Lincopensis</placeName> ac canonicatus et prebenda
+                        <placeName>Roskildensis</placeName> ecclesiarum quos possidebas prout
+                    possides per hujusmodi provisionem et prefectionem ac munus consecracionis tibi
+                    impendendum vacare sperentur et sicut accepimus fructus redditus et proventus
+                    dicte ecclesie Bergensis <app>
+                        <lem>adeos</lem>
+                        <rdg>fejl for <q>adeo</q></rdg>
+                    </app> sint tenues et exiles quod ex illis juxta pontificalis dignitatis
+                    decenciam statum tuum tenere non possis, nos te favore prosequi gracie specialis
+                    ac oportunitatibus tuis de alicujus subvencionis auxilio providere volentes tibi
+                    ut cum ipsa ecclesia Bergensi decanatum, qui dignitas in predicta Lyncopensi
+                    ecclesia non tamen major post pontificalem existit, eciam si ad illum
+                    consueverit quis per electionem assumi eique cura immineat animarum, necnon
+                    canonicatum et prebendam predictos, quorum fructus redditus et proventus
+                    presentibus haberi volumus pro expressis, motu proprio non ad tuam vel alterius
+                    pro te nobis super hoc oblate peticionis instanciam sed de nostra mera
+                    liberalitate, usque ad triennium a dato presencium computandum, eciam postquam
+                    hujusmodi munus susceperis, retinere illorumque fructus redditus et proventus
+                    hujusmodi dicto stante triennio recipere ac in tuos usus convertere libere et
+                    licite valeas, constitucionibus apostolicis ac statutis et consuetudinibus
+                    Lyncopensis et Roskildensis ecclesiarum predictarum juramento confirmacione
+                    apostolica vel quacunque firmitate alia roboratis, ceterisque contrariis
+                    nequaquam obstantibus auctoritate apostolica tenore presencium de speciali
+                    gracia indulgemus, proviso quod decanatus ac canonicatus et prebenda predicti
+                    debitis interim non fraudentur obsequiis et animarum cura in ipso decanatu si
+                    qua illi immineat nullatenus negligatur, sed eorum congrue supportentur omnia
+                    consueta.</p>
+                <p><app>
+                        <lem>Nulli ergo (omnino hominum liceat hanc paginam) nostre dispensacionis
+                            infringere (vel ei ausu temerario contraire). Si quis autem (hoc
+                            attemptare presumpserit indignacionem omnipotentis dei et beatorum Petri
+                            et Pauli apostolorum ejus se noverit incursurum)</lem>
+                        <rdg>suppleret efter <ref target="14020307001">DD 1402. 7. mar., nr.
+                                14020307001</ref></rdg>
+                        <rdg><q>Nulli ergo etc. nostre dispencacionis infringere etc. Si quis
+                                etc.</q> Aa</rdg>
+                    </app>.</p>
+                <p>Datum <placeName>Rome apud sanctum Petrum</placeName> anno incarnacionis dominice
+                    millesimo quadringentesimo tricesimo primo quartodecimo kal. augusti anno
+                    primo.</p>
+            </div>
+            <div xml:lang="da">
+                <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</gap></p>
+            </div>
+        </body>
+    </text>
 </TEI>
