@@ -1,129 +1,216 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ddTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/filebase/dipdan/dipred/dd-drb_5rk/xsd/ddTemplate.xsd">
-  <!--The ddTemplate is an interface
-        for the TEI header and text sections-->
-  <editorInitials>pz</editorInitials>
-  <textId>14160911001</textId>
-  <revision>
-    <established who="#pz" when="2018-01-15"/>
-    <proofFirst who="#mh" when="2018-02-01"/>
-    <proofSecond who="#pz" when="2018-02-05"/>
-    <proofThird who="#nil" when="99999999"/>
-  </revision>
-  <textCreationTimeEarliest>1416-09-11</textCreationTimeEarliest>
-  <textCreationTimeLatest>1416-09-11</textCreationTimeLatest>
-  <textCreationTimeCertainty>high</textCreationTimeCertainty>
-  <textCreationTimeNote>empty</textCreationTimeNote>
-  <textCreationPlace>Flensborg</textCreationPlace>
-  <textCreationPlaceCertainty>high</textCreationPlaceCertainty>
-  <summaryText><ab>Vidisse af kejser Sigismunds dom vedr. Slesvig, udstedt i Konstanz 14. juni 1415. Rigtigheden af afskriften bevidnes af biskopperne Bo af Århus og Peder af Ribe samt ridderne Algod Mogensen, Bent Nielsen, Ivar Nielsen, Sven Sture, Knud Odsen, Niels Gustavsen og Bent Stensen.</ab></summaryText>
-  <witness>
-    <witnessSigil>A</witnessSigil>
-    <archivePlaceName>København</archivePlaceName>
-    <archiveName>RA</archiveName>
-    <collectionName>NKR</collectionName>
-    <inventoryNumber>b-2598</inventoryNumber>
-    <manuscriptName>empty</manuscriptName>
-    <manuscriptMaterial>parch</manuscriptMaterial>
-    <manuscriptHeight>30.3</manuscriptHeight>
-    <manuscriptWidth>43.5</manuscriptWidth>
-    <manuscriptPlica>3.3</manuscriptPlica>
-    <conditionDescription>empty</conditionDescription>
-    <layoutDescription>empty</layoutDescription>
-    <handDescription>empty</handDescription>
-    <additionsToText>empty</additionsToText>
-    <seal>
-      <sealNumber>1</sealNumber>
-      <sealStatus>pendant</sealStatus>
-      <sealDescription>biskop Bo af Århus’ segl af rød voks i perg.rem </sealDescription>
-      <sealReferenceWork>DGS 733</sealReferenceWork>
-    </seal>
-    <seal>
-      <sealNumber>2</sealNumber>
-      <sealStatus>pendant</sealStatus>
-      <sealDescription>biskop Peder af Ribes segl af rød voks i perg.rem</sealDescription>
-      <sealReferenceWork>DGS 814</sealReferenceWork>
-    </seal>
-    <seal>
-      <sealNumber>3</sealNumber>
-      <sealStatus>missing</sealStatus>
-      <sealDescription>perg.rem</sealDescription>
-      <sealReferenceWork>empty</sealReferenceWork>
-    </seal>
-    <seal>
-      <sealNumber>4</sealNumber>
-      <sealStatus>missing</sealStatus>
-      <sealDescription>perg.rem</sealDescription>
-      <sealReferenceWork>empty</sealReferenceWork>
-    </seal>
-    <seal>
-      <sealNumber>5</sealNumber>
-      <sealStatus>pendant</sealStatus>
-      <sealDescription>segl af hvid voks i perg.rem</sealDescription>
-      <sealReferenceWork>empty</sealReferenceWork>
-    </seal>
-    <seal>
-      <sealNumber>6</sealNumber>
-      <sealStatus>missing</sealStatus>
-      <sealDescription>perg.rem</sealDescription>
-      <sealReferenceWork>empty</sealReferenceWork>
-    </seal>
-    <seal>
-      <sealNumber>7</sealNumber>
-      <sealStatus>pendant</sealStatus>
-      <sealDescription>seglsnit</sealDescription>
-      <sealReferenceWork>empty</sealReferenceWork>
-    </seal>
-    <seal>
-      <sealNumber>8</sealNumber>
-      <sealStatus>pendant</sealStatus>
-      <sealDescription>segl af hvid voks i perg.rem</sealDescription>
-      <sealReferenceWork>empty</sealReferenceWork>
-    </seal>
-    <seal>
-      <sealNumber>9</sealNumber>
-      <sealStatus>missing</sealStatus>
-      <sealDescription>perg.rem</sealDescription>
-      <sealReferenceWork>empty</sealReferenceWork>
-    </seal>
-    <witnessHistory>empty</witnessHistory>
-  </witness> 
-  <witness>
-    <witnessSigil>Aa</witnessSigil>
-    <archivePlaceName>København</archivePlaceName>
-    <archiveName>RA</archiveName>
-    <collectionName>Langebeks Diplomatarium</collectionName>
-    <inventoryNumber>empty</inventoryNumber>
-    <manuscriptName>empty</manuscriptName>
-    <manuscriptMaterial>empty</manuscriptMaterial>
-    <manuscriptHeight>0</manuscriptHeight>
-    <manuscriptWidth>0</manuscriptWidth>
-    <manuscriptPlica>0</manuscriptPlica>
-    <conditionDescription>empty</conditionDescription>
-    <layoutDescription>empty</layoutDescription>
-    <handDescription>empty</handDescription>
-    <additionsToText>empty</additionsToText>
-    <seal>
-      <sealNumber>0</sealNumber>
-      <sealStatus>empty</sealStatus>
-      <sealDescription>empty</sealDescription>
-      <sealReferenceWork>empty</sealReferenceWork>
-    </seal>
-    <witnessHistory>Med bemærkningen quinque adsunt sigilla</witnessHistory>
-  </witness>
-  <listBibl>
-    <bibl>Rep. 5603</bibl>
-  </listBibl>
-  <samplingMethod>
-    <textCompleteness>excerpt</textCompleteness>
-    <sourceSigil>A</sourceSigil>
-    <samplingNote>Dommen udeladt, se separat dokument (1416. 14. juni)</samplingNote>
-  </samplingMethod>
-  <textLanguage>la</textLanguage>
-  <text>
-    <p>Nos <persName>Boecius Aruciensis</persName> <persName>Petrus Rypensis</persName> dei gratia ecclesiarum episcopi . <persName>Algotus Magni</persName> . <persName>Benedictus Nicolai</persName> . <persName>Iwarus Nicolai</persName> / <persName>Sweno Stwre</persName> / <persName>Kanutus Odzssøn</persName> / <persName>Nicolaus Gøstafssøn</persName> et <persName>Benedictus Steenssøn</persName> milites constare volumus universis tam posterorum quam modernorum / quod sub anno domini mcd sextodecimo sexta feria infra octavas nativitatis beate virginis . in civitate Flensborgensi / quandam litteram imperialem pendenti sigillo majestatis Cesaree . illustrissimi principis domini / domini <persName>Sigismundi dei gratia Romanorum regis</persName> semper augusti et Ungarie regis etiam / sigillatam / non rasam / non abolitam / nec in aliqua sui parte vitiatam coram nobis legi fecimus / cujus littere tenor sequitur et est talis . &#9830; </p><p>Sigismundus dei gratia ... <ref target="14150614001">DD 1415. 14. jun., nr. 14150614001</ref> ... coronatus vero primo. &#9830;</p><p>Nos igitur prenominati sigilla nostra presentibus fecimus apponi in pendenti in omnem evidentiam premissorum . &#9830; </p><p>datum anno / loco et die superius notatis</p>
-  </text>
-  <translation>
-    <p>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
-  </translation>
-</ddTemplate>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">122</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14160911001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>b-2598</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>30.3 (plica: 3.3)</height>
+                                    <width>43.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>biskop Bo af Århus’ segl af rød voks i perg.rem , <ref>DGS 733</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>biskop Peder af Ribes segl af rød voks i perg.rem, <ref>DGS 814</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>segl af hvid voks i perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>segl af hvid voks i perg.rem</ab>
+                           </seal>
+                           <seal n="9" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Langebeks Diplomatarium</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Med bemærkningen quinque adsunt sigilla</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. 5603</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>A</ref>. Dommen udeladt, se separat dokument (1416. 14. juni).</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-09-11"
+                  notBefore="1416-09-11"
+                  notAfter="1416-09-11"
+                  cert="high">1416. 11. september</date>
+            <placeName cert="high">Flensborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Vidisse af kejser Sigismunds dom vedr. Slesvig, udstedt i Konstanz 14. juni 1415. Rigtigheden af afskriften bevidnes af biskopperne Bo af Århus og Peder af Ribe samt ridderne Algod Mogensen, Bent Nielsen, Ivar Nielsen, Sven Sture, Knud Odsen, Niels Gustavsen og Bent Stensen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-01-15" who="#pz">Filen etableret af #pz 2018-01-15. </change>
+         <change when="2018-02-01" who="#mh">1. korrektur af #mh 2018-02-01. </change>
+         <change when="2018-02-05" who="#pz">2. korrektur af #pz 2018-02-05. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Nos Boecius Aruciensis Petrus Rypensis dei gratia ecclesiarum episcopi . Algotus Magni . Benedictus Nicolai . Iwarus Nicolai / Sweno Stwre / Kanutus Odzssøn / Nicolaus Gøstafssøn et Benedictus Steenssøn milites constare volumus universis tam posterorum quam modernorum / quod sub anno domini mcd sextodecimo sexta feria infra octavas nativitatis beate virginis . in civitate Flensborgensi / quandam litteram imperialem pendenti sigillo majestatis Cesaree . illustrissimi principis domini / domini Sigismundi dei gratia Romanorum rege semper augusti et Ungarie regis etiam / sigillatam / non rasam / non abolitam / nec in aliqua sui parte vitiatam coram nobis legi fecimus / cujus littere tenor sequitur et est talis . ♦ </p>
+            <p n="a#2" xml:space="preserve">Sigismundus dei gratia ... <ref target="14150614001">DD 1415. 14. jun., nr. 14150614001</ref> ... coronatus vero primo. ♦</p>
+            <p n="a#3" xml:space="preserve">Nos igitur prenominati sigilla nostra presentibus fecimus apponi in pendenti in omnem evidentiam premissorum . ♦ </p>
+            <p n="a#4" xml:space="preserve">datum anno / loco et die superius notatis</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
