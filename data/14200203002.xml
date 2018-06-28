@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14200203002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Reg. Vat. 358 fol. 112</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -111,12 +113,11 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Franciscus L. de Agello</ab>
+                  <ab>Påskrift: <q>Franciscus L. de Agello</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -127,7 +128,7 @@
           </witness>
         </listWit>
         <listBibl>
-          <bibl>APD II 304 nr. 1327</bibl>
+          <bibl>APD II 304 nr. 1327; supplerende VII s. 248</bibl>
           <bibl>Reg. *4522</bibl>
           <bibl>Ny kirkehist. Samlinger VI 554-55</bibl>
         </listBibl>
@@ -135,7 +136,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst efter Ny kirkehist. Samlinger l.l., arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +149,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-02-03" notBefore="1420-02-03" notAfter="1420-02-03" cert="high">1420. 3. februar</date>
+        <date when="1420-02-03" notBefore="1420-02-03" notAfter="1420-02-03" cert="high">1420. 3.
+          februar<note>Findes også som supplik, Arch. Segr. Vat. Suppl. 133 fol. 166r</note></date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Paven indsætter biskopperne i Lübeck og Schwerin og Provsten i Odense til Værneherrer for Kapitlet i Roskidle; Brevet gælder for 10 Aar</ab>
+        <ab>Pave Martin 5. indsætter biskopperne i Lübeck og Schwerin og provsten i Odense til
+          værneherrer for biskoppen og kapitlet i Roskilde, som plages af gejstlige og verdslige
+          herrers uretmæssige besættelse af kirkens gods; brevet skal gælde for 10 år.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -165,8 +169,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-08-01" who="#pbh">Tekst indskrevet osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -176,10 +181,27 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Martinus</persName> etc.</p>
+        <p>Venerabilibus fratribus <placeName>Lubicensi</placeName> et
+            <placeName>Swerinensi</placeName> episcopis ac dilecto filio preposito ecclesie
+            <placeName>Ottoniensis</placeName> salutem etc.</p>
+        <p>Militanti ecclesie etc.</p>
+        <p>Sane venerabilis fratris nostri episcopi et dilectorum filiorum capituli
+            <placeName>Roskildensis</placeName> conquestione percepimus, quod nonnulli
+          archiepiscopi, episcopi aliique ecclesiarum prelati et clerici ac ecclesiastice persone
+          tam religiose quam seculares nec non duces, marchiones, comites, barones, nobiles, milites
+          et laici, comunia civitatum, universitates opidorum, castrorum, villarum et aliorum
+          locorum et alie singulares persone civitatum et diocesium et aliarum partium predictarum
+          occuparunt et occupare fecerunt castra, villas et alia loca terras, domos, possessiones,
+          jura et jurisdicciones, necnon fructus, census, redditus et proventus, et nonnulla alia
+          bona mobilia et immobilia, spiritualia et temporalia ad eosdem episcopum et capitulum
+          spectantia et ea detinent indebite occupata seu ea detinentibus prestant auxilium,
+          consilium vel favorem etc.</p>
+        <p>Ceterum etc. presentibus post decennium minime valituris.</p>
+        <p>Datum <placeName>Florentie</placeName> tertio non. februarii anno tertio.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

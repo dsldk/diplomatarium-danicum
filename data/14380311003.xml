@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14380311003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1438-03-11" notBefore="1438-03-11" notAfter="1438-03-11" cert="high">1438. 11. marts</date>
+        <date when="1438-03-11" notBefore="1438-03-11" notAfter="1438-03-11" cert="high">1438. 11.
+            marts<note>Jf. <ref target="14380321001">DD 1438. 21. mar., nr.
+          14380321001</ref></note></date>
         <placeName cert="high">Ferrara</placeName>
       </creation>
       <abstract>
-        <ab> Klerken Morten Dalmer fra Roskilde stift får et ventebrev af 11. marts 1437 udstrakt til at gælde for to beneficier</ab>
+        <ab>Pave Eugenius 4. bevilger en supplik af Martinus Dalmari, klerk fra Roskilde stift, om
+          at få det ventebrev, som han fik tildelt 11. marts 1437, udstrakt til at gælde for to
+          beneficier, idet han ikke venter at kunne få tilstrækkelig indtægt af ét beneficium.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +168,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-12-05" who="#pbh">Filen etableret af #pbh 2013-12-05. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-07-24" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +180,23 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Pridem s. v. <persName>Martino Dalmari</persName> clerico
+            <placeName>Roskildensis</placeName> diocesis <cit>
+            <quote>sub data 5. id. martii anno 7 gratiam fecit expectativam</quote>
+            <bibl>Kendes ikke</bibl>
+          </cit> ... Verum quia prefatus Martinus propter pluralitatem expectantium exilitatemque
+          beneficiorum <app>
+            <lem><supplied>ac</supplied></lem>
+            <rdg>tilføjet af Gertz</rdg>
+          </app> plerisque aliis de causis nullum ex gratia ipsa sperat posse consequi fructum,
+          supplicat igitur Martinus predictus, quatinus litteras apostolicas super ipsa gratia
+          conficiendas sub data 5. id. martii anno 7. ad duo beneficia expediri mandare
+          dignemini.</p>
+        <p>Concessum in presentia pape. <persName>C. Ariminensis</persName>.</p>
+        <p>[Datum <placeName>Ferrarie</placeName> 5. id. martii anno 8.]</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

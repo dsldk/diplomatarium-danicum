@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
@@ -7,15 +8,17 @@
         <editor>
           <name xml:id="th">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">3</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">4</num>, paragraphs: <num n="paragraphs">4</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">3</num>, paragraphs: <num n="paragraphs"
+          >3</num>. Translation, number of words: <num n="words">4</num>, paragraphs: <num
+          n="paragraphs">4</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14140401002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -114,7 +116,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>F. de mandato. de Agello</ab>
+                  <ab>Påskrift: <q>F. de mandato. de Agello</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -135,7 +137,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,13 +150,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1414-04-01" notBefore="1414-04-01" notAfter="1414-04-01" cert="high">1414. 1. april</date>
+        <date when="1414-04-01" notBefore="1414-04-01" notAfter="1414-04-01" cert="high">1414. 1.
+          april</date>
         <placeName cert="high">Bologna</placeName>
       </creation>
       <abstract>
-        <ab>Paven giver biskop Peder Jensen (Lodehat) i Roskilde lov til at tillade
-                ordensbrødre, hvis regler forbød kødspise, at nyde kød på dage, hvor det ikke var
-                forbudt andre kristne</ab>
+        <ab>Pave Johannes 23. giver Peder (Jensen (Lodehat)), biskop i Roskilde, tilladelse til at
+          give de ordensbrødre, som er i hans tjeneste, dispensation fra deres ordensreglers
+          fasteregler om kødspise, så længe den almindelige faste bliver overholdt.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +165,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-02-21" who="#pbh">Filen etableret af #pbh 2014-02-21. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-07-17" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,15 +177,24 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
-        <p n="a#2">empty</p>
-        <p n="a#3">empty</p>
+        <p n="a#1"><persName>Petro</persName> episcopo <placeName>Roskildensi</placeName>.</p>
+        <p>Sincere devotionis affectus <app>
+            <lem>(quem ad nos et Romanam ecclesiam geris merito promeretur ut votis tuis quantum cum
+              deo possumus favorabiliter annuamus)</lem>
+            <rdg>udfyldt efter <ref target="14010329003">DD 1401. 29. mar., nr.
+              14010329003</ref></rdg>
+          </app>.</p>
+        <p>Cum itaque frequenter contingat nonnullas religiosas personas presertim Cisterciensis
+          ordinis, quibus secundum statuta et consuetudines suorum ordinum est esus carnium
+          interdictus, ad te pro eorum exequendis negotiis declinare, nos, ut eisdem personis,
+          quorumcunque ordinum existant, auctoritate apostolica vescendi carnibus illis diebus
+          dumtaxat, quibus a sacris canonibus aliis Christi fidelibus esus carnium prohibitus non
+          existit, licentiam concedere et super hoc cum eis dispensare valeas, fraternitati tue
+          tenore presentium indulgemus.</p>
+        <p>Datum <placeName>Bononie</placeName> kal. aprilis anno 4.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
-        <p n="b#2">empty</p>
-        <p n="b#3">empty</p>
-        <p n="b#4">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14200130001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Reg. Lat. 206 fol. 267</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -111,12 +113,11 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>empty</ab>
+                  <ab>Påskrift: <q>Antonius. XXI. 10. kal. junii anno 3. de Ponto</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -133,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +147,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-01-30" notBefore="1420-01-30" notAfter="1420-01-30" cert="high">1420. 30. januar</date>
+        <date when="1420-01-30" notBefore="1420-01-30" notAfter="1420-01-30" cert="high">1420. 30.
+          januar</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler abbeden i Sorø Kloster at overdrage kanonikat og præbende i Roskilde til klerken Oluf Daa fra Roskilde stift</ab>
+        <ab>Pave Martin 5. pålægger abbeden i Sorø kloster at overdrage kanonikat og præbende i
+          Roskilde til Oluf Då, klerk fra samme stift, såfremt han finder ham egnet hertil.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,8 +166,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-08-01" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -174,10 +178,17 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Abbati monasterii in <placeName>Sora</placeName>
+          <placeName>Roskildensis</placeName> diocesis.</p>
+        <p>Volentes <persName>Olavum Daa</persName> clericum Roskildensis diocesis, qui ex utroque
+          parente de nobili genere procreatus existit, favore prosequi gratioso, discretioni tue
+          mandamus, quatenus, si post diligentem examinationem eundem Olavum ad hoc idoneum esse
+          reppereris, ei de canonicatu et prebenda ecclesie Roskildensis, in qua majores medie et
+          minores prebende fore noscuntur, auctoritate nostra provideas .... </p>
+        <p>Datum Florentie 3. kal. febr. anno 3.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

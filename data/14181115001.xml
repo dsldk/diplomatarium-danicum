@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14181115001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -85,7 +87,7 @@
                 <repository>Archivio Segreto Vaticano</repository>
                 <collection>empty</collection>
                 <idno>empty</idno>
-                <msName>Reg. Lat. 198 fol. 253; se også supplik (Fiat. O.) i Suppl. 114 fol. 4v</msName>
+                <msName>Reg. Lat. 198 fol. 253</msName>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -114,7 +116,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Antonius XXIII. non. jan. anno 2. de Ponto</ab>
+                  <ab>Påskrift: <q>Antonius XXIII. non. jan. anno 2. de Ponto</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -135,7 +137,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +150,17 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1418-11-15" notBefore="1418-11-15" notAfter="1418-11-15" cert="nil">1418. 15. november</date>
+        <date when="1418-11-15" notBefore="1418-11-15" notAfter="1418-11-15" cert="high">1418. 15.
+            november<note>Findes også som supplik i Arch. Segr. Vat. Suppl. 114 fol. 4v, jf. <ref
+              target="14181115002">DD 1418. 15. nov., nr. 14181115002</ref></note></date>
         <placeName cert="high">Mantua</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler abbeden i Sorø kloster at overdrage kanonikat og præbende i Roskilde til Jens Gerekesen (Lodehat), skønt han forud har andre kanonikater og præbender i Roskilde og Uppsala og sognekirken i Stege; det kanonikat og præbende i Roskilde, han allerede har, skal han så dog opgive</ab>
+        <ab>Pave Martin 5. pålægger abbeden i Sorø kloster at overdrage kanonikat og præbende i
+          Roskilde til Jens Gerekesen (Lodehat), skønt han i forvejen har kanonikater og præbender i
+          Roskilde og Uppsala og sognekirken i Stege; dog skal han opgive det kanonikat og præbende
+          i Roskilde, han allerede har. Kanonikat og præbende ventes at blive ledige ved, at den
+          hidtidige indehaver Kristian Hemmingsen er blevet udnævnt til biskop i Ribe.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,8 +168,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-08" who="#pbh">Filen etableret af #pbh 2014-04-08. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-07-31" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -171,10 +180,40 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Abbati monasterii <placeName>Sorensis</placeName>
+          <placeName>Roskildensis</placeName> diocesis.</p>
+        <p>Dignum arbitramur <app>
+            <lem>(et congruum, ut illis se reddat sedes apostolica gratiosam, quibus ad id propria
+              virtutum merita laudabiliter suffragantur)</lem>
+            <rdg>tilf. efter <ref target="14010326011">DD 1401. 26. mar., nr.
+              14010326011</ref></rdg>
+          </app>.</p>
+        <p>Cum itaque canonicatus et prebenda ecclesie Roskildensis, quos
+            <persName>Cristiernus</persName> electus <placeName>Ripensis</placeName> tempore
+          promotionis per nos de persona ipsius electi ad ecclesiam Ripensem <app>
+            <lem><supplied>facte</supplied></lem>
+            <rdg>tilf. i APD</rdg>
+          </app> obtinebat, prout obtinet, per hujusmodi promotionem et munus consecrationis
+          impendendum eidem electo vacare sperentur in brevi, nos, volentes <persName>Johannem
+            Gerechini</persName> canonicum ejusdem Roskildensis <app>
+            <lem><supplied>ecclesie</supplied></lem>
+            <rdg>tilf. i APD</rdg>
+          </app> favore prosequi gratioso, discretioni tue mandamus, quatenus, si post diligentem
+          examinationem eundem Johannem ad hoc idoneum esse reppereris, canonicatum et prebendam
+          predictos [fructus 14 mr.], cum illos quovis modo preterquam per ipsius electi obitum
+          vacare contigerit, conferendos dicto Johanni donationi tue auctoritate nostra reserves
+          ..., non obstante .. quod idem Johannes alios ejusdem Roskildensis ac
+            <placeName>Upsalensis</placeName> ecclesiarum canonicatus et prebendas necnon
+          parrochialem ecclesiam in <placeName>Steghe</placeName> Roskildensis diocesis [omnium
+          fructus 30 mr.] noscitur obtinere.</p>
+        <p>Volumus autem, quod idem Johannes, quamprimum vigore presentium conferendos fuerit
+          pacifice assecutus, obtentos canonicatus et prebendas ecclesie Roskildensis hujusmodi,
+          quos extunc vacare decernimus, omnino, prout ad id se sponte obtulit, dimittere teneatur
+          ...</p>
+        <p>Datum <placeName>Mantue</placeName> 17. kal. dec. anno 1.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

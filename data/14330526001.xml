@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,61 +26,12 @@
         <idno type="dd">14330526001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
           <witness xml:id="A">
-            <msDesc>
-              <msIdentifier>
-                <settlement>empty</settlement>
-                <repository>empty</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>Tabt</ab>
-              </history>
-            </msDesc>
-          </witness>
-          <witness xml:id="Aa">
             <msDesc>
               <msIdentifier>
                 <settlement>Rom</settlement>
@@ -132,7 +86,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +99,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1433-05-26" notBefore="1433-05-26" notAfter="1433-05-26" cert="high">1433. 26. maj</date>
+        <date when="1433-05-26" notBefore="1433-05-26" notAfter="1433-05-26" cert="high">1433. 26.
+          maj</date>
         <placeName cert="high">empty</placeName>
       </creation>
       <abstract>
-        <ab> Optegnelse om, at biskop Jens Pedersen (Jernskæg) i Roskilde betaler en del af sine servispenge til det pavelige kammer</ab>
+        <ab>Det pavelige kancellis optegnelse om at Jens (Pedersen (Jernskæg)), biskop i Roskilde, har
+          betalt en del af sine servispenge til det pavelige kammer, 40 guldfloriner, betalt gennem
+          Cosimo og Lorenzo de' Medici.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,9 +119,10 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-15" who="#pbh">Filen etableret af #pbh 2013-10-15. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
-      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-07-07" who="#pbh">Korrektur af scan osv.</change>
+      <change when="2018-04-03" who="#pbh">korrektur fra #fgj indføjet</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -173,10 +131,22 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">[1433] <app>
+            <lem>Dicta die</lem>
+            <rdg><q>= 26. mensis maji</q></rdg>
+          </app> prefatus <persName><app>
+              <lem>D</lem>
+              <rdg><q>= Daniel (Scotto)</q></rdg>
+            </app></persName> thesaurarius habuit, recipiente dicto <persName><app>
+              <lem>F</lem>
+              <rdg><q>= Francisco (Condulmaro)</q></rdg>
+            </app></persName>, a <persName>Johanne</persName> episcopo
+            <placeName>Roskildensi</placeName> pro parte sui communis servitii usque in diem ultimam
+          aprilis fl. auri de camera 40 per manus <persName>Cosme</persName> et <persName>Laurentii
+            de Medicis</persName>. </p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+         <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

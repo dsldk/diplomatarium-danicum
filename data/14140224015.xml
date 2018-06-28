@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">127</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14140224015</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2411-c, tidl. Nørrejylland  120</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>8.4 (plica: 0.9)</height>
+                                    <width>30.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>Transscriptum</q>, derunder <q>Abbotens oc co</q>n<q>uentz q</q>ui<q>tteb</q>re<q>ff aff Soræ 
+                giuet drotni</q>n<q>g Marg</q>re<q>te om Køghe</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Klaus Grubendals segl i lyst voks i perg. rem, <ref>DAS 1138</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Moleke van der Lankens segl i lyst voks i perg. rem, <ref>AS E viij 7</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Gert van der Lankens segl i lyst voks i perg. rem, <ref>AS C xxxix 1</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i Brevene paa Folen paa Kalundborg Slot (1551), trykt ÆA IV p. 8</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. 5344</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-02-24"
+                  notBefore="1414-02-24"
+                  notAfter="1414-02-24"
+                  cert="empty">1414. 24. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Klaus Grubendal, ridder, og Moleke og Gert van der Lanken, væbnere, udsteder vidisse på et brev fra 13. april 1405, i hvilket
+                abbed Niels og klostersamfundet i Sorø kvitterer dronning Margrete for 500 lødige mark, for hvilke byen Køge fordum var pantsat til klostret.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-04-05" who="#mh">Filen etableret af #mh 2017-04-05. </change>
+         <change when="2017-04-05" who="#mh">1. korrektur af #mh 2017-04-05. </change>
+         <change when="2017-10-23" who="#maria.arvidsson">2. korrektur af #maria.arvidsson 2017-10-23. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wy <persName>Clawes Grupe<ex>n</ex>dale ridde<ex>re</ex>
+               </persName>
+               <persName>Møleke</persName> oc <persName>Geridh va<ex>n</ex> der Lanken
+                                awapn</persName> gør<ex>e</ex> wit<ex>er</ex>likt oc
+                        ope<ex>n</ex>bar<ex>e</ex> alle the<ex>m</ex> so<ex>m</ex> thæ<ex>n</ex>ne
+                        sc<ex>ri</ex>ft hør<ex>e</ex> ell<ex>e</ex>r see / oss eft<ex>er</ex> wor
+                        herris føthelsis aar thusende fir<ex>e</ex>hu<ex>n</ex>dreth vpa
+                        th<ex>et</ex> fyortende pa sancti Mathie apostoli dagh / haue seet oc
+                        skothet oc hørt grangifleghe for<ex>e</ex> oss ou<ex>er</ex>læsit / eet opet
+                        perkme<ex>n</ex>s b<ex>re</ex>ff / wraghet wskrapet / oc j alle mate wfalsket
+                        oc wmisthenkelikt / m<ex>eth</ex> sa<ex>n</ex>ne oc wisse hængende
+                        jncigle jnciglet helt oc holdit oc alsthings wæl bewarit / hwilket
+                        b<ex>re</ex>ff lud<ex>er</ex> ordh fra<ex>n</ex> ordh so<ex>m</ex> h<ex>er</ex> eft<ex>er</ex> staar sc<ex>re</ex>uit / ♦</p>
+            <p n="a#2"> Wj abbot Niels (etc.
+                                = <ref target="14050413001">DD 1405. 13. apr., nr. 14050413001)</ref>
+                        ♦</p>
+            <p n="a#3"> Oc til mer<ex>e</ex> wit<ex>er</ex>ligheet h<ex>er</ex> om haue wj
+                        latit wor<ex>e</ex> jncigle he<ex>n</ex>ges for<ex>e</ex> thæ<ex>n</ex>ne
+                        sc<ex>ri</ex>ft / ♦</p>
+            <p n="a#4"> Giuet aar oc dagh so<ex>m</ex> for<ex>e</ex> sc<ex>re</ex>uit staar. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden 1. januar 2017 til 30. juni 2021 vil redaktionen udelukkende
+                                udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
