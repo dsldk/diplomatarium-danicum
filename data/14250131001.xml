@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">312</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14250131001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>NKR c-2896, tidl. Ribe Kapitels Arkiv Stk. 175</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>13.1 (plica: 2.1)</height>
+                                    <width>26.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå (med senere hånd): <q>panth br<ex>e</ex>ff paa Ies Booss<ex>øn</ex>
+        vegne</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af lyst voks i perg.rem, <ref>DAS G iii 6</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Bomærke af lyst voks i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Bomærke af lyst voks i perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Bomærke i skjold af lyst voks i perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6166</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 53-54</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-01-31"
+                  notBefore="1425-01-31"
+                  notAfter="1425-01-31"
+                  cert="high">1425. 31. januar</date>
+            <placeName cert="low">[Åbenrå]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lars Klausen skylder Jesper Bosen 40 mark lybsk, som er gangbare i Lübeck og Hamburg.
+      Halvdelen af beløbet skal betales i gode varer og halvdelen i rede penge. For denne gæld
+      pantsætter han tre af sine gårde i Hviding herred til Jesper Bosen: en i Roager, en i
+      Vesterbæk og en i Rejsby. Jesper Bosen eller hans arvinger skal modtage afkast og afgrøder af
+      disse gårde, indtil Lars Klausen eller hans arvinger vil løse godset. Da skal Lars Klausen eller hans arvinger erklære løsningen på
+      Hviding herredsting næst før sankthansdag, og godset løses ved tinget næst før den følgende
+      mikkelsdag, og da skal afgiften følge hovedsummen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-26" who="#pbh">Filen etableret af #pbh 2014-06-26. </change>
+         <change when="2018-02-23" who="#jon">1. korrektur af #jon 2018-02-23. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men th<ex>et</ex>tæ br<ex>e</ex>ff se eller høræ læse helss<ex>er</ex> iech
+        <persName>Lasse Clauess<ex>øn</ex></persName> ewi<ex>n</ex>nelighe m<ex>eth</ex> gudh
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Och schal th<ex>et</ex> alle men wid<ex>er</ex>licht wæræ so wæl the nw æræ som
+      ko<ex>m</ex>me scule at iech weth<ex>e</ex>r kenner mech och myne arui<ex>n</ex>ge en
+      walbore<ex>n</ex> ma<ex>n</ex>
+      <persName>Ies Bossøn</persName> och hans arui<ex>n</ex>ge schyldich at wæræ xl
+      lub<ex>iske</ex> m<ex>a</ex>rch jnne<ex>n</ex> so dan my<ex>n</ex>t och peni<ex>n</ex>ge som jnne<ex>n</ex>
+      <placeName>Lubke</placeName> och j <placeName>Hamborgh</placeName> æræ gefue och gengæ halft
+      jnne<ex>n</ex> gothe och gefue wæræ och halft jnne<ex>n</ex> rethe peni<ex>n</ex>ge
+      ♦</p>
+            <p n="a#3" xml:space="preserve">For hwelke peni<ex>n</ex>ge och wæræ pansætt<ex>er</ex> iech hano<ex>m</ex> thre myne gardhe inne<ex>n</ex>
+      <placeName>Hwidingeh<ex>er</ex>r<ex>et</ex></placeName> en gardh j
+        <placeName>Rudhagher</placeName> en gardh j <placeName>Westerbek</placeName> och en gardh jnne<ex>n</ex>
+      <placeName>Risby</placeName> m<ex>eth</ex> alle thesse forsc<ex>re</ex>fne gardhes och gotzes
+      tilligelsse ænktæ wnde<ex>n</ex> tagh<ex>et</ex> m<ex>eth</ex> so dant welkar at for<hi rend="sup">de</hi>
+      <persName>Ies Boss<ex>øn</ex></persName> ell<ex>e</ex>r hans arui<ex>n</ex>ge scule
+      vpbæ<ex>re</ex> frucht och aff grøthe th<ex>e</ex>r aff hwert aar / ♦</p>
+            <p n="a#4" xml:space="preserve">Och nar iech eller myne arui<ex>n</ex>ge wele løse th<ex>et</ex>tæ forsc<ex>re</ex>fne gots /
+      tha schal iech ell<ex>e</ex>r myne arui<ex>n</ex>ge kungør<ex>e</ex> for<hi rend="sup">de</hi>
+      <persName>Ies Boss<ex>øn</ex></persName> eller hans arui<ex>n</ex>ge <app><lem>losni<ex>n</ex>gen</lem><rdg wit="#A">Muligvis <q>losingen</q></rdg></app> th<ex>e</ex>r pa / pa <placeName>Hwidingeh<ex>er</ex>r<ex>ets</ex> thing</placeName> /
+      th<ex>et</ex> thing nest for sancti Iohannis dagh at metso<ex>m</ex>mer och løs<ex>et</ex>
+      th<ex>et</ex> thing nest for s<ex>an</ex>c<ex>t</ex>æ Mechels dagh th<ex>e</ex>r nest
+      æft<ex>er</ex> ko<ex>m</ex>m<ex>er</ex> och tha schal afgiften følghe houitsu<ex>m</ex>men
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Item tilbind<ex>er</ex> iech mech och myne arui<ex>n</ex>ge at fri och hemlæ for<hi rend="sup">de</hi>
+      <persName>Ies Boss<ex>øn</ex></persName> oc hans arui<ex>n</ex>ge thesse forsc<ex>re</ex>fne
+      gardhe och gots for alle men som th<ex>e</ex>r ku<ex>n</ex>ne pa tale m<ex>eth</ex> landzlogh
+      so lenge til th<ex>et</ex> wordh<ex>er</ex> for<hi rend="sup">de</hi>
+      <persName>Ies Boss<ex>øn</ex></persName> eller hans arui<ex>n</ex>ge loghlighe aff løsd for
+      th<ex>e</ex>nne forsc<ex>re</ex>fne swm peni<ex>n</ex>ge och waræ som forsc<ex>re</ex>fuet
+      star ♦</p>
+            <p n="a#6" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis discretorum virorum videlicet
+        <persName>Tidikini Kokkis</persName> in <placeName>Ope<ex>n</ex>ra</placeName> proconsulis
+        <persName>Thome Julis</persName>
+      <persName>Andree Jacobi Knaps</persName> et <persName>Henrici Kellerswen</persName> consulum
+      presentibus est appensum ♦</p>
+            <p n="a#7" xml:space="preserve">Datum anno domini millesimo quadringentesimo vicesimo quinto feria quarta proxima ante festum
+      purificacionis beate Marie virginis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

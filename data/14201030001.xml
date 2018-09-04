@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">180</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">180</num>, paragraphs: <num n="paragraphs"
+          >2</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14201030001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -38,6 +40,10 @@
                 <idno>empty</idno>
                 <msName>empty</msName>
               </msIdentifier>
+              <msContents>
+                <summary/>
+                <msItemStruct/>
+              </msContents>
               <physDesc>
                 <objectDesc>
                   <supportDesc material="empty">
@@ -83,8 +89,13 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Suppl. 140 fol. 67</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
+              <msContents>
+                <summary>Klerken Hermannus Nordam fra Bremen stift får et evigt vikariat i Bremen,
+                  skønt han forud bl.a. har sognekirken i Pederstorp i Odense stift</summary>
+                <msItemStruct/>
+              </msContents>
               <physDesc>
                 <objectDesc>
                   <supportDesc material="empty">
@@ -93,7 +104,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -115,8 +126,7 @@
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -128,12 +138,13 @@
         </listWit>
         <listBibl>
           <bibl>APD II 313 nr. 1355</bibl>
+          <bibl>Repertorium Germanicum IV nr. 5577</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +157,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-10-30" notBefore="1420-10-30" notAfter="1420-10-30" cert="high">1420. 30. oktober</date>
+        <date when="1420-10-30" notBefore="1420-10-30" notAfter="1420-10-30" cert="high">1420. 30.
+          oktober</date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab>Klerken Hermannus Nordam fra Bremen stift får et evigt vikariat i Bremen, skønt han forud bl.a. har sognekirken i Pederstorp i Odense stift</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Hermannus Nordam, klerk fra Bremen stift, om
+          provision på et evigt vikariat i Bremen, selvom han i forvejen bl.a. har sognekirken i
+          Petersdorf på Femern i Odense stift.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,7 +177,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-02" who="#pbh">Filen etableret af #pbh 2014-05-02. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -174,24 +189,14 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">emptySupplicat Hermannus Nordam clericus Bremensis, qualenus sibi de perpetua vicaria sine
-            cura ad altare s. Johannis situm ^) I Marginen: in festo b. Michaelis anno 22 transibunt
-            ambo termini, quia habuit dilationem, niliil solvit. Lidt senere: solvit L. ^) Her dog
-            med fejhigtig Overskrift. </p>
-        <p n="a#2">in parrochiali ecclesia s. Martini Bremensi, que de jure patronatus laicorum existit, per
-            obitum Henrici de Haren vacante, et que tanto tempore vacaverit, quod eius collatio ad
-            sedem apostolicam legitime devoluta existit [fructus 8 mr.], sive ut premittitur sive
-            alias quovis modo aut ex alterius cuiuscunque persona facto vel obitu aut per alicuius
-            inhabilitatem seu per liberam resignationem Henrici de Haren aut alterius cuiuscunque
-            etc. factam vacet . . dignemini providere, non obstante quod idem Hermannus super una in
-            s. Johannis baptiste Luneburgensi, quam possidet [fructus etiam 8 mr.]; in palatio
-            apostolico htigat et sibi dudum de alia in s. Petri in Buxtehud [fructus 7 mr.] perpetuis
-            vicariis sine cura necnon de parrocliiaH ecclesiis in Petersdorpe Verdensis et
-            Ottoniensis diocesium [fructus 16 mr.] per e. s. gratiose extitit concessum provideri .
-            . . Fiat . . O. Datum Rome 3. kal. nov. anno 3.</p>
+
+        <p>Pave Martin 5. bevilger en supplik af Hermannus Nordam, klerk fra Bremen stift, om
+          provision på et evigt vikariat i Bremen, selvom han i forvejen bl.a. har sognekirken i
+              <q><placeName>Petersdorpe</placeName> ... Ottoniensis diocesis</q>.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

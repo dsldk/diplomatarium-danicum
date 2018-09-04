@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14210228002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -38,6 +40,10 @@
                 <idno>empty</idno>
                 <msName>empty</msName>
               </msIdentifier>
+              <msContents>
+                <summary/>
+                <msItemStruct/>
+              </msContents>
               <physDesc>
                 <objectDesc>
                   <supportDesc material="empty">
@@ -85,6 +91,11 @@
                 <idno>Reg. Lat. 211 fol. 232</idno>
                 <msName>empty</msName>
               </msIdentifier>
+              <msContents>
+                <summary>Paven giver præsten Ivan Sasse fra Odense stift løfte om et embede
+                  (beneficium) i Skalholt stift</summary>
+                <msItemStruct/>
+              </msContents>
               <physDesc>
                 <objectDesc>
                   <supportDesc material="empty">
@@ -127,12 +138,13 @@
         </listWit>
         <listBibl>
           <bibl>APD II 317 nr. 1361</bibl>
+          <bibl>Dipl. Norv. XVII nr. 414</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +157,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1421-02-28" notBefore="1421-02-28" notAfter="1421-02-28" cert="high">1421. 28. februar</date>
+        <date when="1421-02-28" notBefore="1421-02-28" notAfter="1421-02-28" cert="high">1421. 28.
+          februar</date>
         <placeName cert="high">empty</placeName>
       </creation>
       <abstract>
-        <ab>Paven giver præsten Ivan Sasse fra Odense stift løfte om et embede (beneficium) i Skalholt stift</ab>
+        <ab>Pave Martin 5. giver Ivan Sasse, præst fra Odense stift, løfte om et embede i Skálholt
+          stift på Island.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +176,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-06" who="#pbh">Filen etableret af #pbh 2014-05-06. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,15 +188,12 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">
-			 Martinus etc. dilecto filio Ywano Sasse presbytero Ottoniensis diocesis salutem etc. Vite ac morum honestas aliaque laudabilia probitatis et uirtutum merita super quibus apud nos fidedigno commendaris testimonio nos inducunt ut tibi reddamur ad graciam liberales. Volentes itaque tibi premissorum meritorum tuorum intuitu graciam facere specialem beneficium ecclesiasticum cum cura uel sine cura cuius fructus redditus et prouentus si cum cura viginti, si vero sine cura fuerit quindecim marcharum argenti secundum taxacionem decime valorem annuum non excedunt ad collacionem prouisionem presentacionem seu quamuis aliam disposicionem venerabilis fratris nostri episcopi Schalotensis pertinens dummodo canonicatus et prebenda ecclesie cathedralis non existat si quidem vacat ad tempus uel cum vacauerit quod tu per te uel procuratorem tuum ad hoc legitime constitutum infra vnius mensis spacium postquam tibi uel eidem procuratori vacacio illius innotuerit duxeris acceptandum conferendum tibi post acceptacionem huiusmodi cum omnibus iuribus et pertinencijs suis donacioni apostolice reseruamus districtius inhibentes eidem episcopo ne de beneficijs huiusmodi interim eciam ante acceptacionem eandem nisi postquam ei constiterit quod tu uel procurator predictus illud nolueritis acceptare disponere quoquo modo presumat, ac decernentes extunc irritum et inane si secus super hijs a quoquam quauis auctoritate scienter uel ignoranter contigerit attemptari, Non obstantibus si aliqui seu si episcopo prefato mencio specialis, Aut si hodie pro alio vel alijs super equali uel equalibus gracia uel gracijs de simili beneficio ad collacionem prouisionem presentacionem seu quamuis aliam disposicionem episcopi predicti pertinente litteras nostras duximus concedendas, nos enim tam illas quam presentes effectum sortiri volumus quacumque constitucione apostolica contraria non obstante. Nulli ergo etc. nostre reseruacionis inhibicionis constitucionis et voluntatis infringere etc. Siquis autem etc. Datum Rome apud sanctum Petrum secundo kal. Marcii anno quarto.
-			 </p>
-        <p>
-			 Venerabilibus fratribus Electensi et Holensi ac Bergensi episcopis salutem etc. Vite ac morum honestas aliaque laudabilia probitatis et virtutum merita super quibus dilectus filius Ywanus Sasse presbyter etc. Quocirca discrecioni vestre per apostolica scripta mandamus quatenus uos uel duo aut vnus vestrum per vos uel alium seu alios huiusmodi beneficium per nos ut premittitur reseruatum si tempore huiusmodi nostre reseruacionis vacabat vel postea vacauit aut cum vacaverit ut prefertur eidem Ywano post acceptacionem huiusmodi cum omnibus iuribus et pertinencijs supradictis auctoritate nostra conferre et assignare curetis inducentes eum uel procuratorem suum eius nomine in corporalem possessionem beneficii iuriumque et pertinenciarum predictorum et defendentes inductum, ac facientes sibi de ipsius beneficii fructibus redditibus pertinencijs iuribus et obuencionibus vniuersis integre responderi, Non obstantibus omnibus supradictis seu si episcopo predicto uel quibusuis alijs communiter uel diuisim a dicta sit sede indultum quod interdici suspendi uel excommunicari non possint per litteras apostolicas non facientes plenam et expressam ac de uerbo ad uerbum de indulto huiusmodi mencionem. Contradictores auctoritate nostra etc.  Datum ut supra.  Pridie idus Marcii anno quarto Franciscus de Agello. 
-		 </p>
+        <p n="a#1">Pave Martin 5. giver <q><persName>Ywano Sasse</persName> presbitero Ottoniensis
+            diocesis</q> løfte om et embede i Skálholt stift på Island.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

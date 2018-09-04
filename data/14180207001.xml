@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14180207001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -114,7 +116,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Antonius. xxx. de Ponto</ab>
+                  <ab>empty</ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -135,7 +137,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +150,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1418-02-07" notBefore="1418-02-07" notAfter="1418-02-07" cert="nil">1418. 7. februar</date>
-        <placeName cert="high">nil</placeName>
+        <date when="1418-02-07" notBefore="1418-02-07" notAfter="1418-02-07" cert="high">1418. 7.
+            februar<note>Jf. <ref target="14180208002">DD 1418. 7. feb., nr.
+            14180207002</ref></note></date>
+        <placeName cert="high">empty</placeName>
       </creation>
       <abstract>
-        <ab>Optegnelse om, at sankt Jakobs kirke i Gingst (på Rügen) forenes med klostret i Grobe (?) på Usedom (jfr. nr. 1242)</ab>
+        <ab>Optegnelse om at Sankt-Jacob-Kirche i Gingst på Rügen forenes med Grobe kloster
+          (Pudagla) på Usedom i Cammin stift til evig tid.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,8 +165,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-08-16" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -171,10 +177,14 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Monasterio et conventui <placeName>Uguenaz</placeName> Premonstratensis ordinis
+            <placeName>Caminensis</placeName> diocesis parrochialis ecclesia s. Jacobi in
+            <placeName>Gingele</placeName> (!) ejusque custodia <placeName>Roskildensis</placeName>
+          diocesis [fructus 30 mr.] sub data 7. id. febr. anno 1 <persName>Martini</persName> V
+          perpetuo unita fuit.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

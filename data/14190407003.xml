@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14190407003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -135,7 +137,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +150,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1419-04-07" notBefore="1419-04-07" notAfter="1419-04-07" cert="high">1419. 7. april</date>
+        <date when="1419-04-07" notBefore="1419-04-07" notAfter="1419-04-07" cert="high">1419. 7.
+            april<note>Jf. <ref target="14190616001">DD 1419. 16. jun., nr.
+          14190616001</ref></note></date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Provsten Herman Kule fra Roskilde får ny provision på sognekirken i Sagarde på Rügen (cf. nr. 5683)</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Hermannus Kule, præst fra Roskilde stift, om
+          fornyet provision på sognekirken i Sagard på Rügen.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,8 +165,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-14" who="#pbh">Filen etableret af #pbh 2014-04-14. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-08-17" who="#pbh">Tekst indskrevet osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -171,10 +177,25 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">.. Alias .. <persName>Hermannus Kule</persName> presbiter Roskildensis diocesis
+          parrochialem ecclesiam in <placeName>Zagharde</placeName> dicte
+            <placeName>Roskildensis</placeName> diocesis, que de jure patronatus laicorum existit,
+          tunc certo modo vacante, ad quam per patronos presentatus et per ordinarium loci in ea
+          canonice <app>
+            <lem>insti<supplied>tu</supplied>tus</lem>
+            <rdg>således rettet i APD</rdg>
+          </app> existit, presentationis et institutionis hujusmodi vigore extitit pacifice
+          assecutus.</p>
+        <p>Dubitat tamen premissa et inde secuta viribus non subsistere. </p>
+        <p>Supplicat igitur e. s. dictus Hermannus, quatinus sibi de dicta ecclesia [fructus 20 mr.
+          arg.] ..... dignemini misericorditer de novo providere non obstante gratia expectativa, si
+          quam habeat, in cancellaria e. s. declaranda ...</p>
+        <p>Fiat. O.</p>
+        <p>Darum Florentie 7. id. aprilis anno 2.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

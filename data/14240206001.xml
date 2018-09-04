@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">200</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14240206001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>NKR c-2837</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>8 (plica: 1.4)</height>
+                                    <width>30.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Samme hånd som <ref target="14150118001">DD 1415. 18. januar, nr. 14150118001</ref>
+                              </ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Segl af mørkt voks i perg.rem, <ref>As L ii 18</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tidl. fandtes diplomet på Aarhus Bys Arkiv</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6074</bibl>
+               <bibl>Reg. *4680</bibl>
+               <bibl>Hübertz, Aarhus I, 10</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 5</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-02-06"
+                  notBefore="1424-02-06"
+                  notAfter="1424-02-06"
+                  cert="high">1424. 6. februar</date>
+            <placeName cert="high">Århus</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Eggert og Henneke Gørtz, væbnere, vedkender sig, at de i 9 år har modtaget den årlige skat på
+      200 mark lybsk, som betales til kong Erik af borgmester, råd og almue i Århus.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-12" who="#pbh">Filen etableret af #pbh 2014-06-12. </change>
+         <change when="2018-01-26" who="#jon">1. korrektur af #jon 2018-01-26. </change>
+         <change when="2018-02-26" who="#mh">2. korrektur af #mh 2018-02-26. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn som th<ex>et</ex>tæ breff sæ æll<ex>e</ex>r høræ læsæ hælsnæ wy <persName>Æggært
+        Ghyrzæ</persName> ogh <persName>He<ex>n</ex>nekæ Ghyrzæ</persName> som wæbner ær<ex>e</ex>
+      hælsæn m<ex>eth</ex> gwdh ♦</p>
+            <p n="a#2" xml:space="preserve">Th<ex>et</ex> skulæ allæ mæn with<ex>e</ex>rlicht we<ex>re</ex> thæ nw ær<ex>e</ex>
+      æll<ex>e</ex>r ko<ex>m</ex>mæ skulæ / th<ex>et</ex> wy with<ex>e</ex>rke<ex>n</ex>nes oss
+      m<ex>eth</ex> th<ex>et</ex>tæ wort opænæ breff / th<ex>et</ex> wy hawæ vp boræth af thæ godhæ
+      mæn so som ær<ex>e</ex> borgemest<ex>e</ex>r ogh ratmæn ogh al almowen j
+        <placeName>Arws</placeName> / thær<ex>e</ex> skat nw j ix oor / ogh two hwndærth
+      lyb<ex>iske</ex> mark hwært oor / su<ex>m</ex>men ær xviii hwndærth lyb<ex>iske</ex>
+      m<ex>a</ex>r<ex>k</ex> / ♦</p>
+            <p n="a#3" xml:space="preserve">Hwilkæ pe<ex>n</ex>nyngæ som wor nodhigæ herræ konyngh <persName>Erik</persName>
+      haw<ex>e</ex>r vnt ogh lænt oss til orligæ rænte / ogh hwær wor hwndærth lyb<ex>iske</ex>
+      m<ex>a</ex>r<ex>k</ex> af thær<ex>e</ex> skat hwælkæ som thæ skulæ vt giwæ hwært oor vm
+      s<ex>anc</ex>te Mortens dach / ♦</p>
+            <p n="a#4" xml:space="preserve">Ogh wy ogh woræ arfwingæ bindæ oss til / th<ex>e</ex>m ogh thær<ex>e</ex> æfterko<ex>m</ex>mæ
+      quit ogh fri at holdæ for al æft<ex>e</ex>r krawæ po wor nodhigæ herræ konyngens wegenæ / for
+      thæ for<hi rend="sup">dæ</hi> pe<ex>n</ex>nyngæ ♦</p>
+            <p n="a#5" xml:space="preserve">Til witnæsbwrth ogh thæs bædhær forwarelsæ so hawæ wy wor<ex>e</ex> jngesigæl hængæt for
+      th<ex>et</ex>tæ bref th<ex>et</ex> skræuet ær æft<ex>e</ex>r wors hærræ fothelsæ oor m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xxiiii<hi rend="sup">o</hi> po s<ex>anc</ex>te <app><lem>Dorothea</lem><rdg wit="#A"><q>e</q> muligvis rettet fra <q>a</q>, A</rdg></app> dach ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

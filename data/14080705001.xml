@@ -1,176 +1,286 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Diplomatarium Danicum</title>
-        <editor>
-          <name xml:id="th">
-            <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
-            </persName>
-          </name>
-        </editor>
-        <funder>Carlsbergfondet</funder>
-      </titleStmt>
-      <extent>Base text, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>. Translation, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>
-         </extent>
-      <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
-        <pubPlace>København</pubPlace>
-        <date>2010</date>
-        <idno type="dd">14080705001</idno>
-        <idno type="isbn">nil</idno>
-        <idno type="dd-4">08-071</idno>
-        <idno type="dd-4-lbnr">351</idno>
-        <idno type="dd-4-kartotek">71</idno>
-        <availability status="restricted">
-          <ab>Copyright © 2011, Danske Sprog- og Litteraturselskab</ab>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness xml:id="A"><msDesc><msIdentifier><settlement>København</settlement><repository>Rigsarkivet</repository><collection>NKR</collection><idno>2185</idno><msName> tidl. C 6 Adk. Landgods, Sjælland</msName><msName>empty</msName></msIdentifier><physDesc><objectDesc><supportDesc material="parch"><support><ab>Pergament</ab></support><extent><dimensions unit="cm"><width>28.5</width><height>11.3 (plica: )</height></dimensions></extent><condition><ab>empty</ab></condition></supportDesc></objectDesc><handDesc><handNote><ab>empty</ab></handNote></handDesc><additions><ab>Påskrift: <q>Et konu<ex>n</ex>gx b<ex>re</ex>ff</q>, rettet fra
-                                    <q>do<ex>m</ex>b<ex>re</ex>ff</q>; herefter tilf. o.l. med anden
-                              hånd: <q>giuet vpa ræter<ex>e</ex>thinget</q>; derefter atter første
-                              hånd: <q>vpa Scharssholm oc megit a<ex>n</ex>net gotz</q>. Herefter
-                              slettet <q>oc thet gots etcetera</q>. Derefter med anden hånd: <q>at
-                                 frue Ædhle h<ex>er</ex> Barnu<ex>m</ex>s æft<ex>er</ex>leue skøte
-                                    drotni<ex>n</ex>g Margr<ex>ete</ex> th<ex>et</ex>
-                                 th<ex>er</ex>
-                              </q>. Og forneden med anden hånd: <q>Translatum
-                                 est</q>
-                           </ab></additions><sealDesc><seal n="1" type="missing"><ab>seglsnit</ab></seal></sealDesc></physDesc><history><ab>empty</ab></history></msDesc> &lt;!-- RA. C 6 adk. landgods Sjælland = ny kronol. rk. 2185. Perg. 28,5
-                  × 11,3 (plica 1,1). Seglsnit. På bagsiden Et konungx breff (rettet fra dombreff;
-                  herefter tilf. o.l. med anden hånd) giuet vpa ræterethinget (derefter 1. hånd) vpa
-                  Scharssholm oc megit annet gotz (herefter slettet oc thet gots.) etcetera
-                  (derefter med 2. hånd) at frue Ædhle her Barnums æfterleue skøte drotning Margrete
-                  thet ther og forneden med anden hånd Translatum est --&gt; </witness>
-          <witness xml:id="Aa"><msDesc><msIdentifier><settlement>København</settlement><repository>Rigsarkivet</repository><collection>empty</collection><idno>empty</idno><msName>Vidisse 1414 24. februar af hr. Klaus Grubendal m.fl</msName><msName>empty</msName></msIdentifier><physDesc><objectDesc><supportDesc material="empty"><support><ab>empty</ab></support><extent><dimensions unit="cm"><width>0</width><height>0</height></dimensions></extent><condition><ab>empty</ab></condition></supportDesc></objectDesc><handDesc><handNote><ab>empty</ab></handNote></handDesc><additions><ab>empty</ab></additions><sealDesc><seal n="0" type="empty"><ab>empty</ab></seal></sealDesc></physDesc><history><ab>empty</ab></history></msDesc> &lt;!-- Vidisse 1414 24. februar af hr. Klaus Grubendal m.fl. (RA.)
-                  --&gt; </witness>
-          <witness xml:id="Ab"><msDesc><msIdentifier><settlement>København</settlement><repository>Rigsarkivet</repository><collection>empty</collection><idno>empty</idno><msName>empty</msName><msName>Langebeks Diplomatarium</msName></msIdentifier><physDesc><objectDesc><supportDesc material="empty"><support><ab>empty</ab></support><extent><dimensions unit="cm"><width>0</width><height>0</height></dimensions></extent><condition><ab>empty</ab></condition></supportDesc></objectDesc><handDesc><handNote><ab>empty</ab></handNote></handDesc><additions><ab>empty</ab></additions><sealDesc><seal n="0" type="empty"><ab>empty</ab></seal></sealDesc></physDesc><history><ab>empty</ab></history></msDesc> &lt;!-- Langebeks Diplomatarium. Rep. nr. 4983 (i udtog) - D. Kausche,
-                  Putbusser Regesten 182 nr. 665. --&gt; </witness>
-        </listWit>
-        <listBibl>
-          <bibl> Rep. nr. 4983 (i udtog) - D. Kausche, Putbusser Regesten 182 nr.
-                              665</bibl>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-        <ab>Tekst efter A: </ab>
-      </samplingDecl>
-      <projectDesc>
-        <ab>DD-4</ab>
-      </projectDesc>
-      <appInfo>
-        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
-          <desc>nil</desc>
-        </application>
-      </appInfo>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date cert="high" notBefore="1408-07-05" notAfter="1408-07-05"> 1408. 5. juli</date>
-        <placeName cert="high">Sorø</placeName>
-      </creation>
-      <abstract>
-        <ab>Kong Erik 7. af Pommern erklærer, at fru Edel, enke efter ridderen
-                           hr. Barnim Eriksen, på rettertinget har skødet Skarsholm og alt det
-                           øvrige gods på Sjælland, hun havde arvet efter sin mand og sin datter
-                           Johanne, til dronning Margrete</ab>
-      </abstract>
-      <langUsage>
-        <language ident="la"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term>empty</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2011-02-02T14:19:03.422+01:00" who="#th"> Filen etableret af #th
-            2011-02-02T14:19:03.422+01:00</change>
-      <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
-      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div xml:lang="la">
-        <p> Ericus dei gracia regnorum Dacie Swecie Norwegie Sclauorum Gothorumque rex et dux
-               Pomarensis/ omnibus presens scriptum cernentibus/ salutem in domino/ ♦ Noueritis quod
-               sub anno domini mcdviii quinta feria infra octauas uisitacionis beate Marie uirginis
-               Soræ in placito nostro iusticiario constituta domina Ethlæ relicta domini
-                  Barnu<ex>m</ex> militis bone memorie coram nobilibus uiris et discretis dominis
-               Petro Roskildensis Iacobo Asloensis dei gracia ecclesiarum episcopis/ Nicolao
-               Sorensi/ Laurencio <app><lem>Ryngstadensi</lem><rdg><q>Ringstadensi</q> Aa</rdg></app> abbatibus/ Laurencio decano. C<ex>ri</ex>stierno preposito Roskildensibus.
-               Andrea Petz milite/ Thorstano Bassæ/ Nicolao Ienss<ex>on</ex>/ Nicolao Schinkel/
-               Iohanne Krøpelin/ Laurencio Mws/ Henrico Prep Iohanne Ericss<ex>on</ex> armigeris ac
-               aliis pluribus fidedignis in multitudine copiosa/ latrici presencium illustrissime
-               principi et domine. domine Margarete dei gracia regnorum Dacie Swecie Norwegie
-               Sclauorum Gothorumque etcetera regine. domine et matri nostre carissime/ bona
-               infrascripta. uidelicet. Scharsholm et totum Scharsholmsfang in
-                  Tutzeh<ex>e</ex>re<ex>t</ex> Sielandie sita/ item Grydhemøllæ/ item Stockebergh et
-               Stockebergsfang/ item Bierstweth/ item Østhorp/ item Flinthorp/ item Ørsløff/ item
-               curiam quam Brandss<ex>on</ex> in pignore suo in Flinthorp habet/ item omne ius suum
-               in Klaby sibi post mortem domini Barnu<ex>m</ex> Ericss<ex>on</ex> et filie sue
-               Iohanne condam uxoris domini Iohannis de Pudbusch militis iure hereditario aduoluta/
-               item omnem hereditatem et iusticiam sibi eciam cum dicto domino Iohanne de Pudbusch
-               contigentes cum omnibus et singulis predictorum bonorum adiacenciis agris. pratis.
-               pascuis. siluis. piscaturis. stagnis. molendinis. molendinorum locis. dam. et
-               damsband humidis et siccis mobilibus et immobilibus nullis demptis quocumque nomine
-               censeantur pro pleno et sufficienti precio et pecunia ad uoluntatem suam <app><lem>iam actu</lem><rdg><q>actu iam</q> Aa</rdg></app> perceptis nichil inde restanti. scotauit. ingremiauit. et ad manus tradidit
-               iure perpetuo possidenda/ transferens in eandem dominam reginam Margaretam suos
-               heredes et successores/ omnem proprietatem. possessionem. ius et dominium que sibi
-               uel heredibus suis hactenus competerunt uel uncquam competere poterunt in premissis.
-               asserens et affirmans quod si alique littere super predictis bonis tangentes
-               aliquando reperte fuerint uel inuente in predicte domine nostre regine Margarete.
-               suorum heredum et successorum commodum et utilitatem proueniant et profectum/ ♦
-               Ceterum obligauit se predicta domina Ethlæ suosque heredes. dicte domine nostre
-               regine Margarete. suis heredibus et successoribus dicta bona omnia et singula cum
-               uniuersis suis attinenciis apropriare et disbrigare ab impeticionibus quorumcumque. ♦
-               Datum anno die et loco quibus supra nostro ad causas sub sigillo/ teste Iohanne
-                  Swenss<ex>on</ex> Bryms iusticiario nostro\</p>
-      </div>
-      <div xml:lang="da">
-        <p> Erik, af Guds nåde Danmarks, Sveriges og Norges konge, de venders og goters og
-               hertug af Pommern, til alle, som ser dette brev, hilsen i Herren. I skal vide, at i
-               det Herrens år 1408, på fredagen i ugen efter den hellige jomfru Marias besøgelsesdag
-               fremstod på vort retterting i Sorø fru Edel, enke efter hr. Barnim, ridder, salig
-               ihukommelse, i nærværelse af de velbyrdige mænd og gode herrer Peder af Roskilde og
-               Jakob af Oslo, af Guds nåde bisper, Niels af Sorø, Lars af Ringsted, abbeder, Lars,
-               dekan, og Kristian, præst i Roskilde, Anders Petz, ridder, Torsten Basse, Niels
-               Jensen, Niels Skinkel, Hans Krøpelin, Lars Mus, Henrik Prip, Jens Eriksen, væbnere,
-               og flere andre troværdige i stor mængde, og skødede, tilskødede og overdrog til
-               nærværende brevviserske, den højbårne fyrstinde og frue, fru Margrete, af Guds nåde
-               dronning af Danmark, Sverige og Norge, de venders og goters o.s.v., vor kæreste frue
-               og moder, nedenskrevne gods, nemlig Skarsholm og hele Skarsholm fang i Tuse herred på
-               Sjælland, fremdeles Gryde mølle, Stokkebjerg og Stokkebjerg fang, Bjergsted, Østrup,
-               Flinterup og Ørslev, fremdeles den gård, som Brandsen havde i pant i Flinterup,
-               fremdeles af sin ret i Klovby, som var tilfaldet som arv efter hr. Barnim Eriksens og
-               hans datter Johannes død, fordum hustru til hr. Hans Podebusk, ridder, fremdeles al
-               arv og ret, som også tilkommer hende sammen med nævnte hr. Hans Podebusk, tillige med
-               alle og enhver af førnævnte godsers tilliggender, marker, enge, skove, fiskevande,
-               søer, møller, møllesteder, dam og damsband, våde og tørre, rørlige og urørlige, med
-               hvilket navn de end kan nævnes, for fuld og tilfredsstillende pris og penge, som hun
-               allerede har modtaget efter sin vilje, uden at der mangler noget, til evig og
-               retmæssig besiddelse, idet hun til samme fru dronning Margrete, hendes arvinger og
-               efterkommere overdrog al ejendomsret, besiddelse, ret og højhedsret, som hidtil er
-               tilfaldet eller nogensinde vil kunne tilfalde hende eller hendes arvinger i det foran
-               omtalte, idet hun forsikrer og bekræfter, at dersom der på nogen som helst måde
-               skulle blive fundet eller fremdraget nogen breve, som vedrører fornævnte godser, da
-               skal de komme vor førnævnte frue, dronning Margrete, hendes arvinger og efterfølgere
-               til gavn, nytte og gode. Forøvrigt forpligtede førnævnte fru Edel sig og sine
-               arvinger til at hjemle vor nævnte frue, dronning Margrete, hendes arvinger og
-               efterfølgere nævnte godser, hvert og et, tillige med alle deres tilliggender og
-               fritage dem for påkrav fra hvem som helst. Givet år, dag og sted som ovenfor under
-               vort rettertingssegl og med Jens Svendsen Brims, vor justitiar, som vidne. </p>
-      </div>
-    </body>
-  </text>
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Diplomatarium Danicum</title>
+                <editor>
+                    <name xml:id="pbh">
+                        <persName>
+                            <forename>Peter</forename>
+                            <surname>Bruun Hansen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num
+                    n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>,
+                paragraphs: <num n="paragraphs">1</num>
+            </extent>
+            <publicationStmt>
+                <publisher>Danske Sprog- og Litteraturselskab</publisher>
+                <pubPlace>København</pubPlace>
+                <date>2017</date>
+                <idno type="dd">14080705005</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>empty</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc material="empty">
+                                        <support>
+                                            <ab>empty</ab>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab>empty</ab>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab>empty</ab>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote>
+                                        <ab>empty</ab>
+                                    </handNote>
+                                </handDesc>
+                                <additions>
+                                    <ab>empty</ab>
+                                </additions>
+                                <sealDesc>
+                                    <seal n="0" type="empty">
+                                        <ab>empty</ab>
+                                    </seal>
+                                </sealDesc>
+                            </physDesc>
+                            <history>
+                                <ab>Tabt</ab>
+                            </history>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="Aa">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Stockholm</settlement>
+                                <repository>Riksarkivet</repository>
+                                <collection>0201</collection>
+                                <idno>A 20 f. 41r</idno>
+                                <msName>Vadstena klosters stora kopiebok</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc material="parch">
+                                        <support>
+                                            <ab>empty</ab>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab>empty</ab>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab>empty</ab>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote>
+                                        <ab>empty</ab>
+                                    </handNote>
+                                </handDesc>
+                                <additions>
+                                    <ab>Overskrift i yngre hånd: <q>De consilio (!)
+                                        convocando</q></ab>
+                                </additions>
+                                <sealDesc>
+                                    <seal n="1" type="empty">
+                                        <ab>empty</ab>
+                                    </seal>
+                                </sealDesc>
+                            </physDesc>
+                            <history>
+                                <ab>empty</ab>
+                            </history>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>APD VI 529 nr. 5170 (efter kopi af Örnhielm?)</bibl>
+                    <bibl>SDHK nr. 17069</bibl>
+                    <bibl>tilsvarende bulle til kong Martin af Aragonien i Butllari de Catalunya
+                        vol. 3 (Barcelona 2016) nr. 1232</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <ab>Tekst efter Aa.</ab>
+            </samplingDecl>
+            <projectDesc>
+                <ab>DD-5</ab>
+            </projectDesc>
+            <appInfo>
+                <application xml:id="app_nil" type="nil" subtype="nil" ident="nil"
+                    version="99999999">
+                    <desc>nil</desc>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1408-07-05" notBefore="1408-07-05" notAfter="1408-07-05" cert="low"
+                    >[1408] 5. juli<note>Angående datering: Årstallet er ikke medtaget i Aa, men kan
+                        suppleres efter tilsvarende buller addresseret til andre regenter, her
+                        tilføjet efter den til kong Martin af Aragonien</note></date>
+                <placeName cert="high">Lucca</placeName>
+            </creation>
+            <langUsage>
+                <language ident="la">Hovedsprog: latin</language>
+            </langUsage>
+            <abstract>
+                <ab>Pave Gregor 12. meddeler (kong Erik 7. af Pommern) en transsumpt af sin bulle af
+                    5. juli 1408, hvorved han indkalder til et almindeligt koncil den kommende
+                    pinse, der skal have til formål at bringe skismaet til ende, og han opfordrer
+                    ham til at bevæge den højere gejstlighed og adelen i sit rige til at deltage i
+                    konciliet.</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-05-22" who="#pbh">Filen etableret af #pbh 2018-05-22. </change>
+            <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+            <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+            <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="nil"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="la">
+                <p n="a#1"><persName>Gregorius</persName> et cetera carissimo filio et cetera
+                    salutem et cetera &#9830;</p>
+                <p>Supremis aspirantes affectibus ad extirpacionem lugubris scismatis ac eciam
+                    diuturni quid nuper circa hanc rem decreverimus per modum generalis <app>
+                        <lem>consilii</lem>
+                        <rdg><q>= concilii</q></rdg>
+                    </app> exequendum . copiam indiccionis et convocacionis hujusmodi <app>
+                        <lem>consilii</lem>
+                        <rdg><q>= concilii</q></rdg>
+                    </app> . in celebritate futura penthecostes in <placeName>Aquilegensi
+                        provincia</placeName> seu <placeName><app>
+                            <lem>exarcatu</lem>
+                            <rdg><q>c</q> tilføjet over linjen</rdg>
+                        </app> Ravennatensi</placeName> deo actore celebrandi per nos nuper editarum
+                    presentibus duximus inserendam ut tua serenitas mentem nostram circa hujusmodi
+                    materiam deo acceptissimam et Christianitati saluberrimam possit agnoscere
+                    ferventissimam et intentam . exhortantes ut hanc determinacionem nostram
+                    prelatis ecclesiarum monasteriorum civitatum ac terrarum et locorum ac nobilibus
+                    et universitatibus principalibus regni tui placeat ad illorum noticiam celeriter
+                    eciam intimare illosque et alios ad <app>
+                        <lem>veniendum</lem>
+                        <rdg>herefter udstreget <q>in</q></rdg>
+                    </app> inducere pro conclusione saluberrima tanti boni . &#9830;</p>
+                <p>Tenor autem dicte indiccionis sequitur et est talis &#9830;</p>
+                <p>Gregorius et cetera ad futuram rei memoriam &#9830;</p>
+                <p>Cum <app>
+                        <lem>tanta</lem>
+                        <rdg>fejl for <q>tota</q> (således i bulle til Martin af Aragonien)</rdg>
+                    </app> mentis nostre intencio sit Christianorum ecclesiam integraliter reunire
+                    palpato per experienciam rerum <app>
+                        <lem>magistram</lem>
+                        <rdg>herefter udstreget <q>quod uti</q></rdg>
+                    </app> quod per viam renunciacionis obstante iniquorum malicia id efficere
+                    hucusque nequivimus quam pure et sincere obtulimus et in <app>
+                        <lem>eandem</lem>
+                        <rdg>= <q>eadem</q></rdg>
+                    </app> perseveranter <app>
+                        <lem>perstetimus</lem>
+                        <rdg> = <q>perstitimus</q></rdg>
+                    </app> et adhuc persistere non desistimus secundum formam et <app>
+                        <lem>intencionem</lem>
+                        <rdg>herefter udstreget <q>nostri v</q></rdg>
+                    </app> nostri voti et juramenti . nescientes divini secreta consilii .
+                    sepenumero per effectum demonstrantis quia vane sunt cogitaciones hominum . ad
+                    viam juribus et antiquis consvetudinibus . approbatam nos convertimus generale <app>
+                        <lem>consilium</lem>
+                        <rdg><q>= concilium</q></rdg>
+                    </app> quod omnes vias ad unionem includit nullam penitus excludendo . quodque <app>
+                        <lem><supplied>congregare</supplied></lem>
+                        <rdg>udeladt i Aa, tilføjet efter bulle til Martin af Aragonien</rdg>
+                    </app> / solius Romani pontificis esse dinoscitur sine cujus auctoritate factum
+                    . non <app>
+                        <lem>consilium</lem>
+                        <rdg><q>= concilium</q></rdg>
+                    </app> sed conventiculum seu <app>
+                        <lem>consiliabulum</lem>
+                        <rdg><q>= conciliabulum</q></rdg>
+                    </app> dicitur et diffinitur nullum existere ad festum penthecostes immediate
+                    subsequentis celebrandum et in patriarchatu Aquilegensi seu exarchatu
+                    Ravennatensi divino auxilio invocato de fratrum nostrorum consilio auctoritate
+                    apostolica tenore presencium indicimus et eciam convocamus per apostolica
+                    scripta . mandantes universis venerabilibus fratribus nostris universis et
+                    singulis patriarchis archiepiscopis et episcopis ac dilectis filiis electis et
+                    aliis ecclesiarum prelatis ac reliquis in prelaturis et dignitatibus constitutis
+                    qui solent ex dignitatibus aut prelaturis eorum in hujusmodi generalibus <app>
+                        <lem>consiliis</lem>
+                        <rdg><q>= conciliis</q></rdg>
+                    </app> interesse quatinus ad id se personaliter . in eisdem loco et tempore
+                    transferant tempore debito scituri locum quem . ex eis duxerimus eligendum .
+                    quem quidem locum nunc expresse determinare et denunciare nequimus propter
+                    varias circumstancias quibus locus talis . unitatis et pacis debet merito
+                    circumcingi . &#9830;</p>
+                <p>Et quoniam pestiferum hoc scisma <app>
+                        <lem>tollo</lem>
+                        <rdg> fejl for <q>tolli</q></rdg>
+                    </app> verisimiliter non speratur neque dari integritas unionis populo
+                    Christiano . cum effectu sine dominorum temporalium voluntate quorum honor et
+                    status tangitur carissimos in Christo filios imperatorem Romanum et alios reges
+                    et nobiles viros duces principes ceterosque potentatus necnon communitatum et
+                    universitatum regimina principalia requirimus monemus et exhortamur in domino
+                    quatinus ad idem <app>
+                        <lem>consilium</lem>
+                        <rdg><q>= concilium</q></rdg>
+                    </app> personaliter veniant aut aliquos viros sollempnes doctos et deum timentes
+                    transmittant ut fiat deo adjuvante pax et unitas <app>
+                        <lem>eodem</lem>
+                        <rdg>= <q>eadem</q> (således bulle til Martin af Aragonien)</rdg>
+                    </app> in populo Christiano &#9830;</p>
+                <p>Nulli ergo omnino hominum et cetera &#9830;</p>
+                <p>Datum Luce iii nonas julii <app>
+                        <lem><supplied>pontificatus nostri anno secundo</supplied></lem>
+                        <rdg>udeladt i Aa, tilføjet efter bulle til Martin af Aragonien</rdg>
+                    </app> . &#9830;</p>
+            </div>
+            <div xml:lang="da">
+                <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende
+                        udarbejde tekster.</gap></p>
+            </div>
+        </body>
+    </text>
 </TEI>

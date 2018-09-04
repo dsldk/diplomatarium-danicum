@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14330228003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1433-02-28" notBefore="1433-02-28" notAfter="1433-02-28" cert="high">1433. 28. februar</date>
+        <date when="1433-02-28" notBefore="1433-02-28" notAfter="1433-02-28" cert="high">1433. 28.
+          februar</date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab> Kanniken i København Jens Pedersen, som i eet år har haft Sankt Mikkels kirke i nyköping i Strengnäs stift, får lov til i fem år, medens han studerer i udlandet, ikke at lade sig præstevie</ab>
+        <ab>Pave Eugenius 4. bevilger en supplik af Jens Pedersen, kannik i København, som har været
+          i besiddelse af sognekirken Skt. Michael i Nyköping i Strängnäs stift i mere end et år, om
+          dispensation til ikke at lade sig vie til de højere gejstlige grader i fem år, mens han
+          studerer i udlandet.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +168,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-11" who="#pbh">Filen etableret af #pbh 2013-10-11. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +180,21 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Supplicat <persName>Johannes Petri</persName> canonicus
+            <placeName>Haffnensis</placeName> Roskildensis diocesis, in minoribus dumtaxat ordinibus
+          constitutus, quatenus secum, ut ratione <placeName>parrochialis s. Michaelis in opido
+            Nykoping</placeName> Strengenensis diocesis, quam per annum et ultra pacifice obtinuit,
+          vel ratione cujuscunque alterius beneficii curati compatibilis, quod ipsum obtinere
+          contigerit, in Romana curia, in qua aliquamdiu pro certis suis inibi pertractandis
+          negotiis immorari habet, residendo aut litterarum studio ibidem vel alibi insistendo, hinc
+          ad quinquennium se ad aliquem ex sacris ordinibus promoveri facere minime teneatur,
+          dispensare dignemini.</p>
+        <p>Concessum in studio in presentia pape. <persName>B. Gradensis</persName>.</p>
+        <p>Datum <placeName>Rome</placeName> pridie kal. martii anno 2.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

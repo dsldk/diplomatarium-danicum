@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14370131001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD III 90 nr. 1775</bibl>
+          <bibl>Repertorium Germanicum V nr. 8353</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1437-01-31" notBefore="1437-01-31" notAfter="1437-01-31" cert="high">1437. 31. januar</date>
+        <date when="1437-01-31" notBefore="1437-01-31" notAfter="1437-01-31" cert="high">1437. 31.
+          januar</date>
         <placeName cert="high">Bologna</placeName>
       </creation>
       <abstract>
-        <ab> Paven befaler biskoppen, provsten og dekanen i Kammin efter at have undersøgt sagen at overdrage klerken Simon Techel fra Roskilde stift Jakobskirken i Greifswald, som indehaveren Johannes Nienkerke havde forbrudt</ab>
+        <ab>Pave Eugenius 4. pålægger biskoppen, provsten og dekanen i Cammin at overdrage Skt.
+          Jakobs kirke i Greifswald i samme stift til Simon Techel, klerk fra Roskilde stift.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +167,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-11-21" who="#pbh">Filen etableret af #pbh 2013-11-21. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +179,13 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Pave Eugenius 4.</persName> pålægger biskoppen, provsten og dekanen i
+          Cammin at overdrage <placeName>Skt. Jakobs kirke i Greifswald</placeName> i samme stift
+          til <q><persName>Symone Techel</persName> clerico Roskildensis diocesis</q>.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

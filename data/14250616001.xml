@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14250616001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 280 nr. 5754</bibl>
+          <bibl>Repertorium Germanicum IV nr. 8272</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1425-06-16" notBefore="1425-06-16" notAfter="1425-06-16" cert="high">1425. 16. juni</date>
+        <date when="1425-06-16" notBefore="1425-06-16" notAfter="1425-06-16" cert="high">1425. 16.
+          juni</date>
         <placeName cert="high">Rom, Santi Apostoli</placeName>
       </creation>
       <abstract>
-        <ab>Klerken Johannes Makenisse fra Roskilde stift får suppliken om kanonikat og præbende i hildesheim (in den Scoettelkorf) bevilget med tilføjelse af, at indtægten er 3 mark (cf. nr. 5753)</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Johannes Makenisse, klerk fra Roskilde stift, om
+          at få ændret sin tidligere bevilgede supplik om provision på kanonikat og præbende (kaldet
+          et beneficium i Zum Schüsselkorb-kapellet) i Hildesheim, således at den også indeholder
+          en angivelse af embedets indtægt, 3 mark.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +169,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-07-01" who="#pbh">Filen etableret af #pbh 2014-07-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +181,16 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Pave Martin 5.</persName> bevilger en supplik af <q><persName>Johanni
+              Makenisse</persName> clerico Roskildensis diocesis</q> om at få ændret sin tidligere
+          bevilgede supplik (<ref target="14250605001">DD 1425. 5. jun., nr. 14250605001</ref>) om
+          provision på kanonikat og præbende (kaldet et beneficium i <placeName>Zum
+            Schüsselkorb-kapellet</placeName>) i <placeName>Hildesheim</placeName>, således at den
+          også indeholder en angivelse af embedets indtægt, 3 mark.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">530</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">530</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14200708002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Reg. Lat. 209 fol. 116</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -111,12 +113,11 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>xx. x. x. x. x. x. x. Franciscus de Agello</ab>
+                  <ab>Påskrift: <q>xx. x. x. x. x. x. x. Franciscus de Agello</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -134,7 +135,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter Dipl. Norv. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -147,11 +148,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-07-08" notBefore="1420-07-08" notAfter="1420-07-08" cert="high">1420. 8. juli</date>
+        <date when="1420-07-08" notBefore="1420-07-08" notAfter="1420-07-08" cert="high">1420. 8.
+          juli</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Paven udnævner provsten Jens Jakobsen i Roskilde til biskop i Oslo</ab>
+        <ab>Pave Martin 5. udnævner Jens Jakobsen, provst i Roskilde, til biskop i Oslo. Ved
+          lignende skrivelser bekendtgøres det også for kapitlet, gejstligheden og menigheden i Oslo
+          samt domkirkens undergivne og for ærkebiskoppen i Nidaros og kong Erik 7. af Pommern.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -164,7 +168,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -175,73 +180,14 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">emptya. Martinus etc. dilecto filio Johanni electo Asloensi salutem
-			etc. Apostolatus officium quamquam insufficientibus meritis nobis
-ex alto commissum quo ecclesiarum omnium regimini presidemus
-utiliter exequi coniuuante domino cupientes soliciti corde red-
-dimur et solertes ut cum de ipsarum regiminibus agitur commit-
-tendis tales eis in pastores preficere studeamus qui commissum
-sibi gregem dominicum sciant non solum doctrina uerbi sed eciam
-exemplo boni operis informare commissasque sibi ecclesias in
-statu pacifico et tranquillo uelint et valeant duce domino salu-
-briter regere et feliciter gubernare. Sane dudum ecclesia Asloensis
-cui bone memorie Jacobus episcopus Asloensis dum uiueret pre-
-sidebat per ipsius Jacobi episcopi obitum qui extra Romanam
-curiam diem clausit extremum uacante nos uacacione huiusmodi
-b.XVII s.315 	fidedignis relatibus intellecta decursoque tempore super deferen-
-dis apostolice sedi eleccionibus siue postulacionibus quas extunc
-de personis quorumlibet ad quarumuis ecclesiarum cathedralium
-in illis partibus consistencium extunc vacaturarum regimina cele-
-brari contingeret earumque petendis confirmacionibus in consti-
-tucione felicis recordacionis Nicolai pape iiij predecessoris nostri
-que incipit Cupientes ac per nos in generali Constanciensi con-
-cilio prefinito tandem cum interim aliqua de ydonei substitu-
-cione pastoris eiusdem ecclesie celebrata eleccio seu postulacio
-nobis mimine presentata fuisset, Nos ad prouisionem ipsius ec-
-clesie ad nos utique per specialem ordinacionem super hoc apud
-dictum concilium factam hac uice deuolutam ne dicta ecclesia
-longioris uacacionis subiaceret incommodis paternis et solicitis
-studijs intendentes post deliberacionem quam de preficiendo
-eidem ecclesie personam utilem et eciam fructuosam cum fratri-
-bus nostris habuimus diligentem demum ad te tunc prepositum
-ecclesie Roscildensis in sacerdocio constitutum, cui de litterarum
-sciencia uite mundicia honestate morum spiritualium prouidencia
-et temporalium circumspeccione alijsque multiplicium virtutum
-donis apud nos fidedigna testimonia perhibentur direximus oculos
-nostre mentis quibus omnibus attenta meditacione pensatis de
-persona tua nobis et eisdem fratribus ob dictorum tuorum exi-
-genciam meritorum accepta eidem ecclesie Asloensi de eorumdem
-fratrum consilio auctoritate apostolica prouidemus teque illi pre-
-ficimus in episcopum et pastorem curam et administracionem
-ipsius ecclesie Asloensis tibi in spiritualibus et temporalibus ple-
-narie committendo jn illo qui dat gracias et largitur premia
-confidentes quod dextera domini tibi assistenti propicia prefata
-ecclesia Asloensis sub tuo felici regimine prospere dirigetur ac
-grata in eisdem spiritualibus et temporalibus suscipiet incre-
-menta. Iugum igitur domini tuis impositum humeris prompta
-deuocione suscipiens curam et administracionem predictas sic
-exercere studeas soliciter fideliter et prudenter quod ipsa ecclesia
-Asloensis gubernatori prouido et fructuoso administratori gaudeat
-se commissam tuque preter eterne retribucionis premium nostram
-et dicte sedis benediccionem et graciam exinde uberius consequi
-merearis. Datum Florencie octauo jdus Julij anno tercio.
-b. Dilectis filijs capitulo Asloensi salutem etc. Apostolatus officium
-etc. Quocirca - observari. Datum ut supra.
-b.XVII s.316 	c. Dilectis filijs clero ciuitatis et diocecis Asloensis salutem etc.
-Apostolatus officum etc. Quocirca - obseruari. Datum ut supra.
-d. Dilectis filijs populo ciuitatis et diocecis Asloensis salutem
-etc. Apostolatus officum etc. Quocirca - gaudeatis. Datum u. s.
-e. Dilectis filijs vniuersis vasallis ecclesie Asloensis salutem etc.
-Apostolatus officium etc. Quocirca - obseruari. Datum ut supra.
-f. Venerabili fratri archiepiscopo Nidrosiensi salutem etc. Ad
-cumulum tue cedit salutis etc. - promereri. Datum ut supra.
-g. Carissimo in Christo filio Erico regi Norwegie illustri salu-
-tem etc. Gracie diuine premium etc. - graciarum. Datum ut
-supra.
-	</p>
+        <p n="a#1">Pave Martin 5. udnævner <q>Johanni electo Asloensi</q> til biskop i Oslo. Ved
+          lignende skrivelser bekendtgøres det også for kapitlet, gejstligheden og menigheden i Oslo
+          samt domkirkens undergivne og for ærkebiskoppen i Nidaros og <q>Erico regi
+          Norwegie</q>.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

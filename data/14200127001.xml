@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">148</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">148</num>, paragraphs: <num n="paragraphs"
+          >2</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14200127001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -82,8 +84,8 @@
               <msIdentifier>
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
-                <idno>Suppl. 133 fol. 6</idno>
-                <msName>nil</msName>
+                <idno>Suppl. 133 (<q>ifølge Repertorium Germanicum</q> Suppl. 138) fol. 6</idno>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -115,8 +117,7 @@
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -128,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD II 303 nr. 1325</bibl>
+          <bibl>Repertorium Germanicum IV nr. 14178</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +148,19 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-01-27" notBefore="1420-01-27" notAfter="1420-01-27" cert="high">1420. 27. januar</date>
+        <date when="1420-01-27" notBefore="1420-01-27" notAfter="1420-01-27" cert="high">1420. 27.
+          januar</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Klerken Tyge Jensen fra Roskilde stift får kanonikat og præbende i Linköping; kong Eriks klerk Ulrik (Stygge?) får kanonikat og præbende i Strengnäs</ab>
+        <ab>Pave Martin 5. bevilger to supplikker.</ab>
+        <ab>Den første af Tyge Jensen, klerk fra Roskilde stift og del af kongens husstand, om
+          provision på kanonikat og præbende i Linköping domkirke, skønt han i forvejen har
+          provision på kanonikat og præbende i Skt. Johannes i Haug ved Würzburg, hvorom han fører
+          proces ved kurien. Embedet er ledigt ved den tidligere indehaver Arnold (Johanssons) udnævnelse til
+          biskop i Strängnäs.</ab>
+        <ab>Den anden af Ulrik, kong Erik 7. af Pommerns klerk, om provision på kanonikat og præbende i Strängnäs,
+          ledige ved den tidligere indehaver Arnold (Johanssons) udnævnelse til biskop sammesteds.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,7 +173,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -174,37 +185,36 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">emptySupplicat Tucho Johannis clericus Roskildensis
-			diocesis ac Dacie Svecie et Norvegie regnorum
-			regis familiaris, quatenus sibi de canonicatu
-			et prebenda ecclesie Lincopensis per
-			promotionem domini Arnoldi ad ecclesiam
-			Strengenensem nuper factam vacantibus [fructus
-			cotidianis distributionibus interclusis 10
-			mr.], sive eos per munus consecrationis eidem
-			Arnoldo impendendum vel per lapsum temporis de
-			consecrandis episcopis a sacris canonibus
-			diffiniti vacare contingat, . . . dignemini
-			providere, non obstantibus canonicatu et
-			prebenda ecclesie s. Johannis in Haug extra
-			muros Herbipolenses [fructus 9 mr.], quorum
-			possessionem habet, et super quibus in Romana
-			curia Htigat, et de quibus sibi auctoritate
-			apostolica sit provisum . . .</p>
-        <p n="a#2">Item,
-			quatenus Oh'ico^)(. ^) I Marginen : Non
-			exprimitur cognomen) Erici regis Dacie etc.
-			clerico de canonicatu et prebenda ecclesie
-			Strengenensis per promotionem prefati domini
-			Arnoldi ad ecclesiam Strengenensem predictam,
-			ut premittitur, [factam] vacantibus . .
-			[fructus cotidianis distributionibus
-			interclusis 16 mr.] dignemini providere Fiat
-			pro utroque. O. Datum Florentie 6. kaL febr.
-			anno 3.</p>
+        <!--<p n="a#1">Supplicat Tucho Johannis clericus Roskildensis diocesis ac Dacie Svecie et
+          Norvegie regnorum regis familiaris, quatenus sibi de canonicatu et prebenda ecclesie
+          Lincopensis per promotionem domini Arnoldi ad ecclesiam Strengenensem nuper factam
+          vacantibus [fructus cotidianis distributionibus interclusis 10 mr.], sive eos per munus
+          consecrationis eidem Arnoldo impendendum vel per lapsum temporis de consecrandis episcopis
+          a sacris canonibus diffiniti vacare contingat, . . . dignemini providere, non obstantibus
+          canonicatu et prebenda ecclesie s. Johannis in Haug extra muros Herbipolenses [fructus 9
+          mr.], quorum possessionem habet, et super quibus in Romana curia Htigat, et de quibus sibi
+          auctoritate apostolica sit provisum . . . Item, quatenus Oh'ico^)(. ^) I Marginen : Non
+          exprimitur cognomen) Erici regis Dacie etc. clerico de canonicatu et prebenda ecclesie
+          Strengenensis per promotionem prefati domini Arnoldi ad ecclesiam Strengenensem predictam,
+          ut premittitur, [factam] vacantibus . . [fructus cotidianis distributionibus interclusis
+          16 mr.] dignemini providere Fiat pro utroque. O. Datum Florentie 6. kaL febr. anno 3.
+          Suppl. 133 fol. 6</p>-->
+        <p n="a#2">Pave Martin 5. bevilger to supplikker.</p>
+        <p>Den første af <q>Tucho Johannis clericus Roskildensis diocesis ac Dacie Svecie et
+            Norvegie regnorum regis familiaris</q> om provision på kanonikat og præbende i Linköping
+          domkirke, skønt han i forvejen har provision på kanonikat og præbende i Skt. Johannes i
+          Haug ved Würzburg, hvorom han fører proces ved kurien. Embedet er ledigt ved den tidligere
+          indehaver Arnold (Johanssons) udnævnelse til biskop i Strängnäs.</p>
+        <p>Den anden af <q><app>
+              <lem>Olrico</lem>
+              <rdg>i marginen hertil bemærket: <q>non exprimitur cognomen</q></rdg>
+            </app> Erici regis Dacie etc. clerico</q> om provision på kanonikat og præbende i
+          Strängnäs, ledige ved den tidligere indehaver Arnold (Johanssons) udnævnelse til biskop
+          sammesteds.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

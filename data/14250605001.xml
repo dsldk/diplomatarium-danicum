@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14250605001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 279 nr. 5753</bibl>
+          <bibl>Repertorium Germanicum IV nr. 8272, 10665 og 10758</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,22 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1425-06-05" notBefore="1425-06-05" notAfter="1425-06-05" cert="high">1425. 5. juni</date>
+        <date when="1425-06-05" notBefore="1425-06-05" notAfter="1425-06-05" cert="high">1425. 5.
+          juni</date>
         <placeName cert="high">Rom, Santi Apostoli</placeName>
       </creation>
       <abstract>
-        <ab>Martinus Stille får et evigt vikariat i Schwerin, som klerken Johannes Makenisse fra Roskilde stift (og forskellige andre) resignerer; Johannes Makenisse får kanonikat og præbende samt et beneficium i Hildesheim, klerken Mathias Coband fra Ratzeburg stift to evige vikariater i Sterneberg og Schwerin, som Johannes Makenisse resignerer</ab>
+        <ab>Pave Martin 5. bevilger tre supplikker: </ab>
+        <ab>Den første af Martinus Stille, klerk fra Schwerin stift, om provision på et evigt
+          vikariat i Schwerin domkirke, hvorom han har ført proces ved kurien med Johannes
+          Makenisse, klerk fra Roskilde stift, og flere andre, efter at Johannes har givet afkald
+          på sin ret. </ab>
+        <ab>Den anden af Johannes Makenisse om provision på kanonikat, præbende (også kaldet et
+          beneficium i Zum Schüsselkorb-kapellet) i Hildesheim, ledige efter Johannes Azels
+          frivillige resignation. </ab>
+        <ab>Den tredje af Mathias Coband, klerk fra Ratzeburg stift, om provision på et eller to
+          vikariater i hhv. Sternberg og Schwerin, som Johannes Makenisse har provision på, men
+          ikke kan forene, og som han derfor har givet afkald på.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +176,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-07-01" who="#pbh">Filen etableret af #pbh 2014-07-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +188,23 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p><persName>Pave Martin 5.</persName> bevilger tre supplikker: </p>
+        <p>Den første af <persName>Martinus Stille</persName>, klerk fra Schwerin stift, om
+          provision på et evigt vikariat i <placeName>Schwerin domkirke</placeName>, hvorom han har
+          ført proces ved kurien med <q><persName>Johannem Makenisse clericum Roskildensis
+              diocesis</persName></q> og flere andre, efter at Johannes har givet afkald på sin ret. </p>
+        <p>Den anden af <q>Johannes Makenissen predictus clericus dicte Roskildensis diocesis</q> om
+          provision på kanonikat, præbende (også kaldet et beneficium i <placeName>Zum
+            Schüsselkorb-kapellet</placeName>) i <placeName>Hildesheim</placeName>, ledige efter
+            <persName>Johannes Azels</persName> frivillige resignation. </p>
+        <p>Den tredje af <persName>Mathias Coband</persName>, klerk fra Ratzeburg stift, om
+          provision på et eller to vikariater i hhv. <placeName>Sternberg</placeName> og Schwerin,
+          som <q>dictus Johannes Makenisse</q> har provision på, men ikke kan forene, og som han
+          derfor har givet afkald på.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

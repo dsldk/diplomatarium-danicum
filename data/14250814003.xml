@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14250814003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -82,7 +84,54 @@
               <msIdentifier>
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
-                <idno>Suppl. 189 fol. 185v; og (II) 186 fol. 54r</idno>
+                <idno>Suppl. 189 fol. 185v</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Ab">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom</settlement>
+                <repository>Archivio Segreto Vaticano</repository>
+                <idno>Suppl. 186 fol. 54r</idno>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -127,12 +176,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 283 nr. 5758</bibl>
+          <bibl>Repertorium Germanicum IV nr. 13916</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,12 +195,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1425-08-14" notBefore="1425-08-14" notAfter="1425-08-21" cert="high">1425. 14. august - 1425. 21. august <note>I Suppl. 186 fol. 54r er dateringen <q>12. kal. sept.</q>, altså 21. august</note>
-            </date>
+        <date when="1425-08-14" notBefore="1425-08-14" notAfter="1425-08-21" cert="high">1425. 14.
+          og 21. august<note>Angående datering: Der er to enslydende supplikker hhv. dateret 14. august (Aa), og 21. august (Ab); da det herefter udstedte pavebrev ikke er bevaret, kan det ikke afgøres, hvilken af de to datoer der var juridisk gyldig. </note>
+        </date>
         <placeName cert="high">Rom, Santi Apostoli</placeName>
       </creation>
       <abstract>
-        <ab>Sognepræsten Theodericus Thirardis i Kalundborg får kanonikat og større præbende i Kammin </ab>
+        <ab>Pave Martin 5. bevilger en supplik af Theodericus Thirardis, sognepræst i Kalundborg i
+          Roskilde stift, om provision på kanonikat og præbende i Cammin, ledige ved, at den
+          hidtidige indehaver Arnoldus Rambow har fået dekanatet sammesteds.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,7 +216,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-07-01" who="#pbh">Filen etableret af #pbh 2014-07-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -174,10 +228,21 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Pave Martin 5. bevilger en supplik af <q><persName>Theodericus <app>
+                <lem>Thirardis</lem>
+                <rdg>Repertorium Germanicum angiver variantformen <q>Thitardis</q>; hans bevarede
+                  segl (DGS nr. 393*) har omskriften [S'] THEODERIC....HARDI</rdg>
+              </app></persName> rector parrochialis ecclesie in <placeName><app>
+                <lem>Calligenbergh</lem>
+                <rdg>således Aa</rdg>
+                <rdg><q>Callingeborg</q> Ab</rdg>
+              </app></placeName> Roskildensis diocesis</q> om provision på kanonikat og præbende i
+          Cammin, ledige ved, at den hidtidige indehaver Arnoldus Rambow har fået dekanatet
+          sammesteds.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">159</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14191101001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 19373</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Wiuarp</q> og m. sen. hd. <q>panthe br<ex>e</ex>ff
+        om Viiuarp</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Niels Hågensens segl af lyst voks i perg.rem, <ref>AS M 69</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 72</bibl>
+               <bibl>Rep. nr. 5810</bibl>
+               <bibl>Svenskt Dipl. III 515 nr. 2701</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-11-01"
+                  notBefore="1419-11-01"
+                  notAfter="1419-11-01"
+                  cert="high">1419. 1. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Niels Hågensen i Odenströ, væbner, giver hr. Niels Svendsen (Sparre af Skåne) i Ellinge, ridder, fuldmagt til
+      at indløse en gård i Viarp, Herslöv sogn, Rönnebergs herred. Gården var sat i pant til
+      Herslöv kirke for tretten skånske mark. Når Niels Svendsen har indløst gården, skal han og
+      hans arvinger have den i pant for den samme pengesum, indtil Niels Hågensen eller hans arvinger
+      løser den tilbage. Og når Niels Hågensen vil indløse gården, skal det gøres for de
+      tidligere nævnte tretten skånske mark.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-16" who="#pbh">Filen etableret af #pbh 2014-04-16. </change>
+         <change when="2017-11-14" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-11-14. </change>
+         <change when="2018-03-21" who="#alk">2. korrektur af #alk 2018-03-21. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve"><app><lem>For</lem><rdg wit="#A">skrevet <q>ffor</q>, A</rdg></app> alla mæn thættæ breff se ell<ex>e</ex>r høra læsit with<ex>e</ex>rkænner jac megh
+        <persName>Niels Hagenss<ex>øn</ex></persName> j <placeName>Othenstrø</placeName> awapn
+      th<ex>et</ex> jac haw<ex>er</ex> eeno<ex>m</ex> wælborno<ex>m</ex> man th<ex>e</ex>nna
+      brefføra<ex>re</ex> . h<ex>e</ex>r <persName>Niels Swenss<ex>øn</ex></persName> j
+        <placeName>Ællinge</placeName> riddar<ex>e</ex> ful makt giwet jn at løsa een min gardh j
+        <placeName>Wiuarp</placeName> j <placeName>Hærsløfwa sogn</placeName> j
+        <placeName>Rønebærghæ hær<ex>et</ex></placeName> ligge<ex>n</ex>de / hwilke<ex>n</ex> gardh
+      til pant staar fornemda <placeName>H<ex>æ</ex>rsløffwa</placeName> kirkiæ for xiij skoniska
+      mark ♦</p>
+            <p n="a#2" xml:space="preserve">Item naar for<hi rend="sup">de</hi> h<ex>e</ex>r Niels haw<ex>er</ex> th<ex>e</ex>n gard jgen
+      løst tha scal han oc hans arwinga hano<ex>m</ex> hawa til pant for<ex>e</ex> the
+      sa<ex>m</ex>ma pæni<ex>n</ex>ga . swo længe til thæs jac ell<ex>e</ex>r mina arwinga
+      th<ex>et</ex> andra mit gotz j Wiuarp jgen løse / ♦</p>
+            <p n="a#3" xml:space="preserve">Oc naar jac th<ex>et</ex> jgen løse / tha scal jac oc th<ex>e</ex>nna forsagtha gardh jgen
+      løsæ for<ex>e</ex> forsc<ex>re</ex>ffna xiij skoniska mark j swo dana pæni<ex>n</ex>ga
+      so<ex>m</ex> tha h<ex>e</ex>r j landit gildæ oc gængæ æra ♦</p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigillum meum presentibus est appensum ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi> decimonono die omnium
+      sanctorum etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

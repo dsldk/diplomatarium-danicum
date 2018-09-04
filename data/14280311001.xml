@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14280311001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1428-03-11" notBefore="1428-03-11" notAfter="1428-03-11" cert="high">1428. 11. marts</date>
+        <date when="1428-03-11" notBefore="1428-03-11" notAfter="1428-03-11" cert="high">1428. 11.
+          marts</date>
         <placeName cert="high">Rom, Santi Apostoli</placeName>
       </creation>
       <abstract>
-        <ab> Klerken Christian Klot fra Roskilde stift får sognekirken i Bergen på Rügen, skønt Johannes Frantz har indehaft den i 6 år</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Cristianus Clot, klerk fra Roskilde stift, om at
+          få provision på sognekirken i Bergen på Rügen i Roskilde stift, ledig ved Martinus Butzows
+          død, skønt Johannes Fantz har besiddet den i seks år, og skønt Cristianus Clot i forvejen har
+          ventebrev.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +168,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-07-25" who="#pbh">Filen etableret af #pbh 2014-07-25. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-09-01" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +180,19 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">.. Supplicat s. v. .. <persName>Cristianus Clot</persName> clericus
+            <placeName>Roskildensis</placeName> diocesis, quatinus sibi gratiam facientes specialem
+          de parrochiali ecclesia in opido <placeName>Berghis</placeName> in terra
+            <placeName>Rugie</placeName> dicte Roskildensis diocesis vacante per mortem
+            <persName>Martini Butzow</persName> ... [fructus 10 mr. arg.] ... eidem Cristiano
+          dignemini misericorditer providere non obstantibus, quod quidam <persName>Johannes
+            Fantz</persName> predictam ecclesiam parrochialem possedit ad sex annos et occupavit, ac
+          gratia expectativa per s. v. sibi facta in cancellaria s. v. plenius exprimenda ... </p>
+        <p>Concessum. <persName>F. Gebennensis</persName>. </p>
+        <p>Datum <placeName>Rome apud ss. Apostolos</placeName> 5. id. martii anno 11.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

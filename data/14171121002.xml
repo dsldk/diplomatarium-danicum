@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14171121002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -114,7 +116,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Antonius. XX. 6. kal. dec. anno 2. de Ponto</ab>
+                  <ab>Påskrift: <q>Antonius. XX. 6. kal. dec. anno 2. de Ponto</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -130,12 +132,13 @@
         </listWit>
         <listBibl>
           <bibl>APD II 249 nr. 1227</bibl>
+          <bibl>Repertorium Germanicum IV nr. 10950</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +151,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1417-11-21" notBefore="1417-11-21" notAfter="1417-11-21" cert="high">1417. 21. november</date>
+        <date when="1417-11-21" notBefore="1417-11-21" notAfter="1417-11-21" cert="high">1417. 21.
+          november</date>
         <placeName cert="high">Konstanz</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler kantoren i Roskilde at overdrage klerken Mikkel Henriksen fra Roskilde stift kanonikat og præbende i Erfurt (jfr. Nr. 1226)</ab>
+        <ab>Pave Martin 5. pålægger kantoren i Roskilde at overdrage kanonikat og præbende i Skt.
+          Severus i Erfurt i Mainz stift til Mikkel Henriksen, klerk fra Roskilde stift.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,7 +165,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -171,10 +177,25 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <!--<p n="a#1">Cantori ecclesie Roskildensis. Dignum arbitramur etc. Dudum siquidem Clemens IV
+          et Bonifacius VIII omnes canonicatus et prebendas ceteraque beneficia apud sedem vacantia
+          successive [dispositioni apostolice] reservarunt. Cum itaque postmodum canonicatus et
+          prebenda ecclesie s. Severi Erffordensis Maguntine diocesis, quos Helmbertus Arprot
+          obtinebat, per ipsius Helmberti obitum, qui dudum Baldassaris, tunc Johannis XXIII in sua
+          obedientia nuncupati, commensalis familiaris continuus extitit, [et]^) apud dictam sedem
+          ea vacante diem clausit extremum, apud ') add. Gz. sedem ipsam vacent, nos, volentes
+          Michaelem Henrici clericum Roskildensis diocesis favore prosequi gratioso, discretioni tue
+          mandamus, quatenus, si per diligentem examinationem eundem Michaelem ad hoc idoneum esse
+          reppereris, canonicatum et prebendam predictos [fructus 8 mr.] eidem Michaeli auctoritate
+          nostra conferas. Datum Constantie 11. kal. dec. anno 1. Antonius. XX. 6. kal. dec. anno 2.
+          de Ponto Reg. Lat. 198 fol. 244. </p>-->
+        <p>Pave Martin 5. pålægger <q>cantori ecclesie Roskildensis</q> at overdrage kanonikat og
+          præbende i Skt. Severus i Erfurt i Mainz stift til <q>Michaelem Henrici clericum
+            Roskildensis diocesis</q>.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

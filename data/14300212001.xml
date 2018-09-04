@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14300212001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 316 nr. 5800</bibl>
+          <bibl>Repertorium Germanicum IV nr. 9784</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1430-02-12" notBefore="1430-02-12" notAfter="1430-02-12" cert="high">1430. 12. februar</date>
+        <date when="1430-02-12" notBefore="1430-02-12" notAfter="1430-02-12" cert="high">1430. 12.
+          februar</date>
         <placeName cert="high">Rom, Santi Apostoli</placeName>
       </creation>
       <abstract>
-        <ab> Paven befaler abbeden i Grohe kloster i Kammin stift at overdrage Johannes Westfal provstiet ved Nicolai kirke i Greifswald og et evigt vikariat i Mariekirken sammesteds, skønt han forud har provstiet i Kammin, kanonikat og præbende i Kolberg og et evigt vikariat i Garz på Rügen; i løbet af 7 år skal han dog bortbytte det ene af de 2 provstier og ellers opgive provstiet i Kammin</ab>
+        <ab>Pave Martin 5. pålægger abbeden i Grobe (Pudagla) kloster at overdrage sognekirken Skt.
+          Nikolaj i Greifswald, som kaldes et provsti, til Johannes Westfal, provst i Cammin, skønt
+          denne i forvejen bl.a. har et evigt vikariat uden sjælesorg i sognekirken i Garz på Rügen
+          i Roskilde stift.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +169,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-09-19" who="#pbh">Filen etableret af #pbh 2013-09-19. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +181,16 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Pave Martin 5.</persName> pålægger abbeden i <placeName>Grobe (Pudagla)
+            kloster</placeName> at overdrage <placeName>sognekirken Skt. Nikolaj i
+            Greifswald</placeName>, som kaldes et provsti, til <persName>Johannes
+          Westfal</persName>, provst i <placeName>Cammin</placeName>, skønt denne i forvejen bl.a.
+          har <q>quandam perpetuam vicariam sine cura in parrochiali opidi <placeName>Garsie in
+              Rugia</placeName> ... Roskildensis dioces[is] ecclesi[a]</q>.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

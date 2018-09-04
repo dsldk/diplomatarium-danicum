@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">199</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14180521001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathssarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rester af rådet i Lübecks brevlukkende segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Bunge, Liv.-, Esth. u. Curländ. Urkundenb. V, nr. MMCCXLI. (reg. 2677), sp. 374-375</bibl>
+               <bibl>Reg. Dan. nr. *4464</bibl>
+               <bibl>Hanserec. VI, nr. 551, p. 527-528</bibl>
+               <bibl>Svenskt Diplomatarium, nr. 2481 (tryk efter Bunge l.l.)</bibl>
+               <bibl>SDHK-nr. 19094 (tryk efter Bunge l.l.)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-05-21"
+                  notBefore="1418-05-21"
+                  notAfter="1418-05-21"
+                  cert="high">[1418.] 21. maj</date>
+            <placeName cert="high">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Lübeck skriver til rådet i Reval.</ab>
+            <ab>Rådet i Lübeck meddeler, at det efter rådet i Revals ønske har skrevet til kong Erik 7. af
+      Pommern vedrørende hr. Krister Nilsson (Vasa), foged på Viborg slot, samt at det vil fortælle
+      rådet i Reval, hvad kong Erik svarer.</ab>
+            <ab>Desuden meddeler rådet i Lübeck, at det har skrevet et brev til hr. Krister, og at dette
+      brev er vedhæftet nærværende brev. I den forbindelse ønsker rådet i Lübeck, at rådet i Reval
+      sender det pågældende brev til hr. Krister ved dets eget sendebud, samt at rådet i Reval
+      fortæller rådet i Lübeck, hvad hr. Krister svarer på dette brev.</ab>
+            <ab>Endvidere indskærper rådet i Lübeck over for rådet i Reval, at det skal huske at sende
+      udsendinge til det møde, som skal holdes i Lübeck to uger før sankthans. Det er dog i orden,
+      hvis udsendingene kommer til selve sankthans eller lidt efter.</ab>
+            <ab>Endelig beder rådet i Lübeck rådet i Reval minde de andre stæder i Livland om at sende
+      udsendinge til mødet i Lübeck.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-12" who="#smb">Filen etableret af #smb 2018-04-12. </change>
+         <change when="2018-04-12" who="#smb">1. korrektur af #smb 2018-04-12. </change>
+         <change when="2018-05-17" who="#smb">2. korrektur af #smb 2018-05-17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Prudentibus et discretis viris, dominis proconsulibus et consulibus Revalliensibus, amicis <app><lem>nostris</lem><rdg><q>nostris nostris</q>, A</rdg></app> dilectis, <app><lem>dentur</lem><rdg><q>dd</q>, A; <q>dandum</q>, Hanserec. l.l.; <q>detur</q>, Svenskt Diplomatarium
+          l.l</rdg></app>.</p>
+            <p n="a#2" xml:space="preserve">Unsen vruntliken grut unde wes wii gudes vormogen tovoren.</p>
+            <p n="a#3" xml:space="preserve">Ersamen leven besunderen vrunde.</p>
+            <p n="a#4" xml:space="preserve">Also gii uns gescreven hebben van <persName>hern Kersten Nicleissone, vogede to Wiiborch
+        etc.</persName>, also hebbe wii <persName>dem heren koninge van Denemarken</persName> na
+      juwer begeringe dar umme gescreven, unde wes uns dar van weddervarende wert, dat wiille wii jw
+      benalen mit den ersten.</p>
+            <p n="a#5" xml:space="preserve">Ok, leven vrunde, hebbe wii dem ergenomeden <persName>hern Kersten</persName> dar sulves umme
+      screven na lude <cit><quote>der cedulen</quote><bibl>det pågældende dokument kendes ikke</bibl></cit> hiir ane besloten; begerende, dat gii eme den breff schicken bii juwem egenen boden;
+      unde wes jw dar van to antworde werd, latet uns weten sunder zument.</p>
+            <p n="a#6" xml:space="preserve">Vurder, leven vrunde, alse jw de stede hebben bidden laten to komende to der dachvard, de men
+      hiir holden schal verteyn dage vor Sunte Johans dage to middensomere erst to komende, also
+      dunked uns radsam, dat gii des nynewis en vorlecgen, up dat gii unde de juwen des to nynem
+      unwillen unde schaden en komen.</p>
+            <p n="a#7" xml:space="preserve">Unde komen ok juwe sendeboden hiir to <app><lem>Sunte Johans dage</lem><rdg>dvs. 24. juni 1418</rdg></app> edder dar wat na, se komen noch wol to mate.</p>
+            <p n="a#8" xml:space="preserve">Unde diit moge gii den anderen steden bii jw belegen ok vorkundigen, uppe dat see des sunder
+      schaden blyven.</p>
+            <p n="a#9" xml:space="preserve">Siit Gode bevolen.</p>
+            <p n="a#10" xml:space="preserve">Screven under unsem secrete des ersten sonnavendes na pinxsten.</p>
+            <p n="a#11" xml:space="preserve">Consules Lubicenses.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
