@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14251112001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 284 nr. 5760</bibl>
+          <bibl>Repertorium Germanicum IV nr. 11944</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1425-11-12" notBefore="1425-11-12" notAfter="1425-11-12" cert="high">1425. 12. november</date>
+        <date when="1425-11-12" notBefore="1425-11-12" notAfter="1425-11-12" cert="high">1425. 12.
+          november</date>
         <placeName cert="high">Rom, Santi Apostoli</placeName>
       </creation>
       <abstract>
-        <ab>Slesvigkanniken Claus Wulf får kanonikat og større præbende i Lübeck, skønt han forud har kanonikat og præbende samt ærkedegneembedet i Slesvig, kanonikat og præbende samt "vicedominatet" i Kammin, og kanonikat og mellemstor præbende på Øsel (cf. nr. 5740)</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Nicolaus Wulff, kannik i Slesvig, om provision på
+          kanonikat og præbende i Lübeck, skønt han i forvejen har bl.a. kanonikat og præbende i
+          Slesvig samt embedet som ærkedegn sammesteds.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +168,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-07-03" who="#pbh">Filen etableret af #pbh 2014-07-03. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +180,19 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Pave Martin 5. bevilger en supplik af <q>Nicolaus Wulf canonicus ecclesie
+            Slesvicensis</q> om provision på kanonikat og præbende i Lübeck, <q>non obstantibus ...
+            quod canonicatum et prebendam dicte ecclesie Slesvicensis cum archidiaconatu ejusdem
+            [fructus 12 mr. arg.] <app>
+              <lem><supplied>obtinet</supplied></lem>
+              <rdg>suppleret i APD</rdg>
+            </app></q>.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

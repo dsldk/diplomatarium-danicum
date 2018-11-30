@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14220102003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -81,8 +83,8 @@
             <msDesc>
               <msIdentifier>
                 <settlement>Rom</settlement>
-                <repository>Archivio di Stato</repository>
-                <idno>Annate 1421-23 fol. 79v (81v)</idno>
+                <repository>Archivio Segreto Vaticano</repository>
+                <idno>Reg. Lat. 226 fol. 53v-54r</idno>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 256 nr. 5722</bibl>
+          <bibl>Repertorium Germanicum IV nr. 5140</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1422-01-02" notBefore="1422-01-02" notAfter="1422-01-02" cert="high">1422. 2. januar</date>
+        <date when="1422-01-02" notBefore="1422-01-02" notAfter="1422-01-02" cert="high">1422. 2.
+          januar</date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab> Paven pålægger biskoppen i Ratzeburg at overdrage præsten Henricus Stolter fra Ratzeburg stift et kapel i Swartow i Lübeck stift, ledigt ved at indehaveren, Claus Sachow, havde fået kanonikat og præbende samt provstiet i Slesvig (cf. nr. 1588)</ab>
+        <ab>Pave Martin 5. pålægger biskoppen i Ratzeburg at overdrage et kapel i Bad Schwartau i
+          Lübeck stift, ledigt ved den tidligere indehaver Nicolaus Sachows opnåelse af provstiet
+          samt kanonikat og præbende i Slesvig, til Henricus Stolter, præst fra Ratzeburg
+          stift.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +169,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2018-03-21" who="#pbh">Regest og udtog</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +181,17 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Pave Martin 5. pålægger biskoppen i Ratzeburg at overdrage et kapel i Bad
+          Schwartau i Lübeck stift, ledigt ved den tidligere indehaver <persName>Nicolaus
+            Sachows</persName> opnåelse af <q>canonicatu et prebenda ac prepositura
+              <placeName>ecclesie Slesvicensis</placeName></q>, til <persName>Henricus
+            Stolter</persName>, præst fra Ratzeburg stift.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

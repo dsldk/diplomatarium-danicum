@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14250512001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -111,8 +113,9 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab><q>Ja. XX. non. julii anno 9. de Cerretanis</q> og <q>Ja. Correcta, reportata et expedita 14. kal. nov. anno 9 de Cerretanis</q>
-                           </ab>
+                  <ab>Påskrifter: <q>Ja. XX. non. julii anno 9. de Cerretanis</q> og <q>Ja.
+                      Correcta, reportata et expedita 14. kal. nov. anno 9 de Cerretanis</q>
+                  </ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -128,12 +131,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 277 nr. 5750</bibl>
+          <bibl>Repertorium Germanicum IV nr. 10703</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +150,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1425-05-12" notBefore="1425-05-12" notAfter="1425-05-12" cert="high">1425. 12. maj</date>
+        <date when="1425-05-12" notBefore="1425-05-12" notAfter="1425-05-12" cert="high">1425. 12.
+          maj</date>
         <placeName cert="high"/>
       </creation>
       <abstract>
-        <ab>Paven befaler provsterne i Lübeck, Slesvig og Schwerin at overdrage klerken Matheus Ditmari fra Brandenburg stift et evigt vikariat i Bardewick.</ab>
+        <ab>Pave Martin 5. pålægger bl.a. provsten i Slesvig at overdrage Matheus Ditmari, klerk fra
+          Brandenburg stift, et evigt vikariat i Bardowick.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,8 +169,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-07-01" who="#pbh">Filen etableret af #pbh 2014-07-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2018-03-22" who="#pbh">Regest og udtog</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -174,10 +181,15 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Pave Martin 5. pålægger <q>.. Lubicensis et <placeName>Slesvicensis</placeName>
+            et Zwerinensis ecclesiarum prepositis</q> at overdrage Matheus Ditmari, klerk fra
+          Brandenburg stift, et evigt vikariat i Bardowick.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

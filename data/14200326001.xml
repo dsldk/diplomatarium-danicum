@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">104</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">104</num>, paragraphs: <num n="paragraphs"
+          >2</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14200326001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Suppl. 135 fol. 86</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -115,8 +117,7 @@
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -128,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD II 306 nr. 1333</bibl>
+          <bibl>Repertorium Germanicum IV nr. 979</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +148,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-03-26" notBefore="1420-03-26" notAfter="1420-03-26" cert="high">1420. 26. marts</date>
+        <date when="1420-03-26" notBefore="1420-03-26" notAfter="1420-03-26" cert="high">1420. 26.
+          marts</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Biskop Johannes (Scheele) i Lübeck får bevilget, at kanniken Johannes Brunonis de Vordis i Eutin får et evigt vikariat i Hamburg, skønt han bl.a. har et vikariat i Slesvig, og at præsten Bernardus Poppe fra Lübeck stift får dette vikariat.</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Johannes Brunonis de Vordis, kannik i Eutin, om
+          provision på et evigt vikariat i Hamburg, skønt han i forvejen har bl.a. et evigt vikariat
+          i Slesvig; samtidig bevilger han, at Bernardus Poppe, præst fra Lübeck stift, får
+          provision på det samme vikariat i Slesvig.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,8 +169,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2018-03-21" who="#pbh">Udtog og regest</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -174,19 +181,28 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">emptySupplicat .lohannes electus Lubicensis, quatenus Johanni Brunonis de Vordis canonico
-            Vtinensi Lubicensis diocesis de perpetua vicaria in ecclesia b. Marie virginis
-            Hamburgensi Bremensis diocesis dignemini providere . . ., non obstantibus canonicatu et
-            prebenda in ecclesia Vtinensi Lubicensis diocesis ac una in Slesvicensi et alia in
-            Butzowensi [ecclesiis] Zwerinensis diocesis perpetuis vicariis, que obtinet [fructus 10
-            mr.]. Paratus est dimiltere illam vicariam in ecclesia Slesvicensi. Fiat.</p>
-        <p n="a#2">Dignetur s.v. Bernardo Poppe paupero(!) presbitero Lubicensi nullum benelicium habenti de
-            predicta vicaria sine cura in ipsa ecclesia Slesvicensi [fructus cum cotidianis
-            distributionibus 20 fl. auri de camera] . . . providere. Fiat pro utroque. O. Datum
-            Florentie 7. kal. aprilis anno 3.</p>
+        <p n="a#1"><persName>Pave Martin 5.</persName> bevilger en supplik af <persName>Johannes
+            Brunonis de Vordis</persName>, kannik i Eutin, om provision på et evigt vikariat i
+          Hamburg, skønt han i forvejen har bl.a. et evigt vikariat i Slesvig; samtidig bevilger
+          han, at <persName>Bernardus Poppe</persName>, præst fra Lübeck stift, får provision på
+            <q>predicta vicaria sine cura in <placeName>ipsa ecclesia Slesvicensi</placeName>
+            [fructus cum cotidianis distributionibus 20 fl. auri de camera]</q>.</p>
+        <!--<p n="a#2">Supplicat .lohannes electus Lubicensis, quatenus Johanni Brunonis de Vordis
+          canonico Vtinensi Lubicensis diocesis de perpetua vicaria in ecclesia b. Marie virginis
+          Hamburgensi Bremensis diocesis dignemini providere . . ., non obstantibus canonicatu et
+          prebenda in ecclesia Vtinensi Lubicensis diocesis ac una in Slesvicensi et alia in
+          Butzowensi [ecclesiis] Zwerinensis diocesis perpetuis vicariis, que obtinet [fructus 10
+          mr.]. Paratus est dimiltere illam vicariam in ecclesia Slesvicensi. Fiat. Dignetur s.v.
+          Bernardo Poppe paupero(!) presbitero Lubicensi nullum benelicium habenti de predicta
+          vicaria sine cura in ipsa ecclesia Slesvicensi [fructus cum cotidianis distributionibus 20
+          fl. auri de camera] . . . providere. Fiat pro utroque. O. Datum Florentie 7. kal. aprilis
+          anno 3. Suppl. 135 fol. 8(). </p>-->
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

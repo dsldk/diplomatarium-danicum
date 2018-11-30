@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">272</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14200104001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2710-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>12 (plica: 1.2)</height>
+                                    <width>23</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af lyst voks med sortindfarvet forside i perg.rem tilhørende Ingeborg
+        Keldsdatter (Krognos), <ref>AS D xxxvii 3</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Perg.rem, segl nævnt i LDipl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Brevet er registreret i København. Rigsarkivet. Arkivregistraturer. Bille,
+      Anders Bentsen og 1. hustru Pernille Olufsdatter Krognos. 1477-1555. Hr. Oluf Stigsen Krognos'
+      breve, trykt i Thiset, Adel. Brevkister 180, 184</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 81</bibl>
+               <bibl>Rep. nr. 5826</bibl>
+               <bibl>Svenskt Dipl. III 530 (= SDHK nr. 19419)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-01-04"
+                  notBefore="1420-01-04"
+                  notAfter="1420-01-04"
+                  cert="high">1420. 4. januar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ingeborg Keldsdatter (Krognos) i Fjälkestad erklærer at have givet sin guddatter, Ellen,
+      datter af hr. Aksel Pedersen (Thott) af Härlöv, alt sit gods i Fjälkestad, på den betingelse
+      at hun frit må beholde det indtil sin død.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
+         <change when="2018-05-30" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-05-30. </change>
+         <change when="2018-08-20" who="#alk">2. korrektur af #alk 2018-08-20. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn som th<ex>et</ex>te b<ex>re</ex>ff see all<ex>er</ex> hør<ex>e</ex> læse helsær jek
+        <persName>Jngeburgh Kæthælsdot<ex>er</ex></persName> af <placeName>Filkestathe</placeName>
+      ewi<ex>n</ex>nærligh<ex>e</ex>n m<ex>eth</ex> wor hærræ ♦Th<ex>et</ex> schal alle mæn
+      with<ex>e</ex>rlicht war<ex>e</ex> nærwa<ex>re</ex>nd<ex>es</ex> oc
+      ko<ex>m</ex>meschul<ex>e</ex>nd<ex>es</ex> th<ex>et</ex> jek with<ex>e</ex>rkæ<ex>n</ex>nes
+      mich m<ex>eth</ex> th<ex>et</ex>tæ mit obnæ b<ex>re</ex>ff at hafuæ gifu<ex>et</ex> oc gifuær
+      my<ex>n</ex> gwtdoth<ex>e</ex>r Eline <persName>h<ex>er</ex> Axel
+        Pæth<ex>e</ex>rss<ex>øns</ex></persName> doth<ex>e</ex>r aff <placeName>Hærdløff</placeName>
+      th<ex>en</ex>næ nærwa<ex>re</ex>nd<ex>es</ex>
+      <app><lem>br<ex>e</ex>ffwisæ[rs]ke</lem><rdg wit="#A">utydeligt; <q>ske</q> skrevet ov. l.; my<q>n</q> gwtdoth<q>e</q>r Eline
+            Pætherss<q>øns</q> doth<q>e</q>r og br<q>e</q>ffwisærske skrevet på rasur</rdg></app> alt mit gotz som jek hafuær jnnæn Filkestathæ som ær først
+      how<ex>et</ex>garth<ex>e</ex>n j <placeName>Filkestathæ</placeName> ♦ Item th<ex>e</ex>n
+      garth som <persName>Swe<ex>n</ex> Nielss<ex>øn</ex></persName> nu jbor ♦ Item en garth so<ex>m</ex>
+      <persName>Kællæ Wildæ</persName> jbor ♦ Item en garth so<ex>m</ex>
+      <persName>Tughæ Smid</persName> jbor ♦ Item en garth so<ex>m</ex>
+      <persName>Truyels Kællæss<ex>øn</ex></persName> jbor ♦ Item en garth som
+        <persName>Fyunbo</persName> j bor ♦ Item en garth so<ex>m</ex>
+      <persName>Andærs Ga<ex>m</ex>mælss<ex>øn</ex></persName> jbor ♦ Item j fæstæ som
+        <persName>Ascer</persName> jbor ♦ Item en gharth som <persName>Bæye<ex>n</ex>t
+        Tughæss<ex>øn</ex></persName> jbor ♦ Item j garth so<ex>m</ex>
+      <persName>Garryth</persName> heth<ex>e</ex>r so<ex>m</ex>
+      <persName>Broghæ</persName> jbor ♦ Item en garth so<ex>m</ex>
+      <persName>Holgær</persName> jbor ♦ Item en garth som <persName>Pær
+        Holgærss<ex>øn</ex></persName> jbor ♦ Item en jorth so<ex>m</ex> heth<ex>e</ex>r
+      Slyngæiorth ♦ Item <persName>Jens Nielss<ex>øn</ex></persName> af Eghesgarth<ex>e</ex>n
+      so<ex>m</ex> ha<ex>n</ex> sælfuær jbor ♦ Item en fæstæ so<ex>m</ex> Thorbiørn jbor
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Allt th<ex>et</ex>tæ for<hi rend="sup">dæ</hi> gotz schødær jek hæ<ex>n</ex>næ til
+      ewærthælich owæ jmod hwars mantz gensighælsæ ♦ Thoch m<ex>eth</ex> swoda<ex>n</ex>t
+      welkor at jek schal hafu<ex>et</ex> j myne lifdaghæ frit oc wbewor<ex>et</ex> / ♦ Oc nar
+      jek affgar tha schal alt th<ex>et</ex>te for<hi rend="sup">de</hi> gotz jgen ko<ex>m</ex>mæ
+      til for<hi rend="sup">dæ</hi> Eline all<ex>er</ex> hæ<ex>nne</ex>s arwi<ex>n</ex>gæ jmot hwars
+      mantz gensielsæ so<ex>m</ex> for<ex>e</ex> star sc<ex>re</ex>fu<ex>et</ex> ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis virorum nobilium ac discretorum
+      videlicet <persName>domini Nicolai Swenonis militis</persName>
+      <app><lem>et</lem><rdg wit="#A">en til synes senere tilføjelse, A</rdg></app>
+      <persName>Esberni Johannis armigeri</persName> et <persName>Laurencii Nicolai
+        presbiteri</persName> presentibus est appensum ♦</p>
+            <p n="a#4" xml:space="preserve">Datum <app><lem><placeName>Hær[t]løff</placeName></lem><rdg wit="#A">utydeligt; evt. en senere tilføjelse, A</rdg></app> anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> vicesimo feria quinta
+      proxima post festum circumcisionis domini ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

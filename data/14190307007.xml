@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">192</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14190307007</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>E don. var.</collection>
+                        <idno>1 folio, Tomus F</idno>
+                        <msName>Bartholins Collectanea F VI, s. 114</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Johannis Episcopi Confirmatio Laurentii Nicolai in Decanum Roskildensem</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. 5757</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-03-07"
+                  notBefore="1419-03-07"
+                  notAfter="1419-03-07"
+                  cert="high">1419. 7. marts</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Biskop Jens (Andersen (Lodehat)) af Roskilde bekræfter domkapitlets valg af Laurids Nielssøn (Juul) som dekan efter Laurids Jenssøns (Juul) død.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-10" who="#pbh">Filen etableret af #pbh 2014-04-10. </change>
+         <change when="2018-07-12" who="#pz">1. korrektur af #pz 2018-07-12. </change>
+         <change when="2018-08-16" who="#mh">2. korrektur af #mh 2018-08-16. </change>
+         <change when="2018-10-24" who="#pz">3. korrektur af #pz 2018-10-24. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve"><persName>Johannes Dei gratia episcopus Roskildensis</persName>, dilecto filio domino <persName>Laurentio Nicolai decano ecclesie nostre Roskildensis</persName>, paternum affectum in Domino cum salute. ♦</p>
+            <p n="a#2" xml:space="preserve">Vacante nuperrime post obitum domini <persName>Laurentii Johannis condam ecclesie nostre Roskildensis decani</persName> decanatu, qui in ipsa dignitas major post pontificalem existit, dilecti filii capitulum ejusdem ecclesie, ad quos decani ipsius ecclesie pro tempore electio de antiqua et approbata ac hactenus pacifice observata consuetudine pertinet, vocatis omnibus qui debuerunt potuerunt et voluerunt electioni hujusmodi commode interesse, die ad eligendum prefixa ut moris est convenientes in unum, te in eorum et dicte ecclesie decanum concorditer elegerunt. ♦ Tuque electioni hujusmodi, illius tibi presentato decreto, consentiens, eandem electionem de te canonice factam prenominati dilecti filii capitulum ecclesie memorate debita cum reverentia et humilitate petierunt nostra auctoritate ordinaria confirmari; ejusdemque decanatus possessionem pacificam fuisti rite et canonice assecutus. ♦ Eapropter meritorum tuorum intuitu, quibus apud nos fidedigno commendaris testimonio, et nichilominus dicti capituli nostri supplicationibus inclinati, electionem predictam et quecunque inde secuta auctoritate nostra ordinaria confirmamus, possessionemque pacificam dicti decanatus rite ut premittitur obtentam, ratam et gratam habentes, presentibus approbamus, teque auctoritate qua supra instituimus effectualiter in eadem. ♦ </p>
+            <p n="a#3" xml:space="preserve">In cujus confirmationis, ratihabitionis approbationis ac institutionis testimonium, secretum nostrum presentibus duximus appendendum. ♦ </p>
+            <p n="a#4" xml:space="preserve">Datum Roskildis anno Domini MCD decimonono, mensis martii die septima.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

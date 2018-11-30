@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14190407002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -129,13 +131,14 @@
           </witness>
         </listWit>
         <listBibl>
-          <bibl>APD VII 233 nr. 5690 (cf. Acta Pont. nr. 1229, 1239, 5696)</bibl>
+          <bibl>APD VII 232 nr. 5690</bibl>
+          <bibl>Repertorium Germanicum IV nr. 14707</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +151,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1419-04-07" notBefore="1419-04-07" notAfter="1419-04-07" cert="high">1419. 7. april</date>
+        <date when="1419-04-07" notBefore="1419-04-07" notAfter="1419-04-07" cert="high">1419. 7.
+          april</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Kanniken Vilhelm Chassepolli fra antoniterklostret i Vienne får det overdraget til kardinal Angelus (Barbadius) at give ham provision på præceptoriet i antoniterklostret i Tempzin i Schwerin stift, hvorom han har ført proces ved kurien, skønt han forud har præceptoriet i Mårkær Kloster i Slesvig stift.</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Guillelmus Chassipolli, kannik i
+          antoniterklostret i Vienne, om at få provision på embedet som præceptor i
+          antoniterklostret i Tempzin, som han har ført proces ved kurien om, skønt han i forvejen
+          er præceptor i Mårkær kloster i Slesvig stift.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,7 +167,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-14" who="#pbh">Filen etableret af #pbh 2014-04-14. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -171,10 +179,39 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <!-- <p n="a#1">.. Alias vacante preceptoria non conventuali domus s. Antonii in Temptzin ordinis
+          s. Augustini Zwerinensis diocesis ultimo, ut credebatur, per obitum quondam Petri Berlonis
+          ... Tilemannus de Franckenberg assertus preceptor domus in Gronenberg Maguntine diocesis
+          quibusdam, videlicet Paulo Surrefickich primo et deinde Troneto de Vergnis assertis,
+          necnon .. dominus Hugo, tunc pater abbas monasterii Viennensis, .. Guillelmo Chassipolli
+          monasterii, ordinis et sancti eorundem canonico, licet forsan de facto, hujusmodi domum
+          auctoritate ordinaria hincinde contulerunt provisionibus subsecutis, Guillelmo vero et
+          ejus collationi provisionique se eodem Troneto opponente inter eosdem propterea coram pie
+          memorie domino A[ngello] cardinali Veronensi desuper lite suborta idem commissarius forte
+          eandem domum per pretensam ipsius Pauli resignationem et non dicti Petri mortem, prout
+          ipse Guillelmus deduxit, vacare conspiciens seu alias quandam pretensam diffinitivam
+          sententiam cum condemnatione expensarum pro ipso Troneto promulgavit, unde appellato
+          causaque appellationis alibi in secunda instantia commissa, cujus commissarii nomen necnon
+          cause statum et sententie totius tenores presentibus pro expressis habere dignemini, verum
+          tamen, pater sancte, cum a nonnullis netutri ipsorum litigantium jus in ipsa domo adhuc
+          competere asseratur, supplicat s. v. humiliter idem Guillelmus, quatinus ipsius cause jam
+          commissario dignemini mandare, ut in eventum litis, si de hoc sibi constiterit, eandem
+          domum [fructus 180 mr. arg.] ... eidem Guillelmo auctoritate apostolica conferat et
+          provideat etiam de eadem non obstante preceptoria domus et ordinis ejusdem in Morkerke
+          Slesvicensis diocesis, quam obtinet [fructus 20 mr. arg.] et gratia expectativa in
+          cancellaria e. s. declaranda.</p>
+        <p>Fiat. O.</p>-->
+        <p>Pave Martin 5. bevilger en supplik af <persName>Guillelmus Chassipolli</persName>, kannik
+          i antoniterklostret i Vienne, om at få provision på embedet som præceptor i
+          antoniterklostret i Tempzin, som han har ført proces ved kurien om, <q>non obstante
+            preceptoria domus et ordinis ejusdem in <placeName>Morkerke</placeName> Slesvicensis
+            diocesis, quam obtinet [fructus 20 mr. arg.]</q></p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>

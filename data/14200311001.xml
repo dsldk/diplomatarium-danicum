@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">123</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14200311001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2714-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>7.1 (plica: 1.3)</height>
+                                    <width>19.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Fragment af et segl af lyst voks i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 90</bibl>
+               <bibl>Rep. nr. 5837</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-03-11"
+                  notBefore="1420-03-11"
+                  notAfter="1420-03-11"
+                  cert="high">1420. 11. marts</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kristine, Jens Madsens enke, skøder Vor Frue Kirke i Ribe sin gård i Vardesyssel
+      i Grimstrup sogn og by med halvdelen af Grisbæk, for sin og sine forældres sjæles salighed.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
+         <change when="2018-06-11" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-06-11. </change>
+         <change when="2018-08-20" who="#alk">2. korrektur af #alk 2018-08-20. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn th<ex>e</ex>r th<ex>et</ex>tæ br<ex>e</ex>ff see æll<ex>æ</ex>r høræ læsæ hielsner
+      iech <persName>Kirstinæ</persName>
+      <persName>Iesse Matsons</persName> æftær lifuær <app><lem>kerli[c]</lem><rdg wit="#A">utydeligt, A</rdg></app> m<ex>eth</ex> gwth
+      ♦ Th<ex>et</ex> skal allæ men wyth<ex>æ</ex>rlict <app><lem>w[æ]r<ex>æ</ex></lem><rdg wit="#A">utydeligt, A</rdg></app> so wal nw ær<ex>æ</ex>
+      som ko<ex>m</ex>meskulæ ath iech wpledær och skødær wor frwæ kirky ij
+        <placeName>Ripe</placeName> m<ex>eth</ex> allæ rætæ jen myn <app><lem>g[a]rdh</lem><rdg wit="#A">utydeligt, A</rdg></app> liggenæs
+      ij <placeName>Warthsysyl</placeName> ij <placeName>Grimpstrop soghen</placeName> och by ij
+      hwilk boor ien man heth<ex>æ</ex>r <persName>Nisse Sudær</persName> m<ex>eth</ex> half
+      Griisbek marc och m<ex>eth</ex> allæ andær synæ tillydæls so som ær<ex>æ</ex> agher och <app><lem>[æn]gh</lem><rdg wit="#A">utydeligt, A</rdg></app>
+      entæ wnentagh<ex>et</ex> for myn syel och mynæ forældær siælæs hielsens skyldh . ♦</p>
+            <p n="a#2" xml:space="preserve">Til hwæs things wytnæ myt jngziel m<ex>eth</ex> andær gothæ mæns ingziel som ær<ex>æ</ex>
+       <app><lem><persName>Esgy Bry<ex>n</ex>ni<ex>n</ex>g[h]</persName></lem><rdg wit="#A">utydeligt, A</rdg></app> <persName>Nisse
+        Ieips<ex>øn</ex></persName> och <persName>Claws Raphan wæpnær</persName> ær<ex>æ</ex> for
+      hengh th<ex>et</ex>tæ ner<hi rend="sup">de</hi> br<ex>e</ex>ff ♦</p>
+            <p n="a#3" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi>xx<hi rend="sup">o</hi>
+      profesto beati Gregorii pape et confessoris gloriosi ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

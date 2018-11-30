@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
         <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
@@ -23,8 +26,7 @@
         <idno type="dd">14340204001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 330 nr. 5815</bibl>
+          <bibl>Repertorium Germanicum V nr. 2904</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,17 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1434-02-04" notBefore="1434-02-04" notAfter="1434-02-04" cert="high">1434. 4. februar</date>
+        <date when="1434-02-04" notBefore="1434-02-04" notAfter="1434-02-04" cert="high">1434. 4.
+          februar</date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab> Klerken Henrik Liepman (Skriver) i Slesvig, som er sognepræst i Milsted, får, skønt præstesøn, et evigt vikariat i Lübeck .</ab>
+        <ab>Pave Eugenius 4. bevilger en supplik af Henricus Liepman, kaldet Scriptor, klerk fra
+          Slesvig, om at få ny provision på et evigt vikariat i domkirken i Lübeck, skønt han i
+          forvejen har sognekirken i Mildsted i Slesvig stift, og til trods for hans illegitime
+          fødsel, som han har dispensation for. Vikariatet var ledigt ved den tidligere indehaver
+          Henricus Pensens død, og Henricus Liepman har fået provision på det i kraft af et
+          ventebrev.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +171,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-18" who="#pbh">Filen etableret af #pbh 2013-10-18. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2018-04-23" who="#pbh">Regest og udtog</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +183,23 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Pave Eugenius 4.</persName> bevilger en supplik af
+              <q><persName>Henricus Liepman, alias <app>
+                <lem>Scriptor</lem>
+                <rdg>således APD</rdg>
+                <rdg><q>Scriptoris</q> Repertorium Germanicum</rdg>
+              </app></persName>, clericus Slesvicensis</q> om at få ny provision på et evigt
+          vikariat i domkirken i Lübeck, skønt han i forvejen har <q>parrochialem ecclesiam in
+            Milstede Slesvicensis diocesis [fructus 4 mr. arg.]</q>, og til trods for hans illegitime
+          fødsel, som han har dispensation for. Vikariatet var ledigt ved den tidligere indehaver
+          Henricus Pensens død, og Henricus Liepman har fået provision på det i kraft af et
+          ventebrev.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
       </div>
     </body>
   </text>
