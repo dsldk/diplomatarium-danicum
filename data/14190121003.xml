@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2014</date>
         <idno type="dd">14190121003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -135,7 +137,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +150,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1419-01-21" notBefore="1419-01-21" notAfter="1419-01-21" cert="high">1419. 21. januar</date>
+        <date when="1419-01-21" notBefore="1419-01-21" notAfter="1419-01-21" cert="high">1419. 21.
+          januar</date>
         <placeName cert="high">Mantua</placeName>
       </creation>
       <abstract>
-        <ab>Kong Erik får pavelig bekræftelse på alle de indulgenser, som er tilstået birgittinerordenen.</ab>
+        <ab>Pave Martin 5. bevilger en supplik af kong Erik 7. af Pommern om pavelig bekræftelse på
+          alle de afladsbreve, som er tilstået birgittinerordenen.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,7 +164,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-10" who="#pbh">Filen etableret af #pbh 2014-04-10. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -171,10 +176,29 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Cum ordo s. Augustini, s. Salvatoris nuncupatus, inspirante divina clementia ex
+          ordinatione et institutione b. Birgitte tamquam nova in ecclesia dei in divinorum nominis
+          et cultus uberius incrementum fructuosa plantatio salubriter sit institutus ipsique ordini
+          et ipsius locis et monasteriis pia sancte sedis apostolice largitione diverse et presertim
+          ad instar b. Petri apostoli ad vincula Urbis Romane alieque per diversos summos pontifices
+          indulgentie sint concesse, quarum occasione monasteria et loca dicti ordinis ex devotione
+          et piis populi christiani ad ea confluentis suffragiis plurimum reparata fuerunt,
+          officiaque divina diurna pariter et noctur[n]a non sine laboribus et diligentia studiosius
+          accreverunt, ut igitur tractu temporis ordo predictus in ipsius locis et monasteriis plus
+          valeat augeri, ipseque populus christianus eo ferventius ad loca et monasteria predicta
+          causa devotionis confluat, quo majorem suorum peccaminum remissionem et indulgentiam
+          consequatur, supplicat <persName>Ericus</persName> Dacie Svecie et Norvegie rex, quatenus,
+          omnes indulgentias predictas et inde secuta rata et grata habentes, ea ex certa scientia
+          confirmare ... ac nichilominus revocationem et annullationem indulgentiarum ad instar
+          alicujus indulgentie a tempore obitus olim <persName>Gregorii XI</persName> per quoscunque
+          v. s. predecessores concessarum ad supradictas indulgentias non extendi dignemini
+          declarare ....</p>
+        <p>[Fiat .. O.</p>
+        <p>Datum <placeName>Mantue</placeName> 12. kal. febr. anno 2.]</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

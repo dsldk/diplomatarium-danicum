@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">413</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14220905002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2785-s (tidligere RA, Slesvig, nr. 61)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Rulle bestående af fire sammensyede papirark</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Falmet, delvist beskadiget og derfor svært læselig latinsk påskrift øverst på bagsiden: <q>Copie
+          litterarum <app>
+                                    <lem>contractarum</lem>
+                                    <rdg>tilføjet over
+          linjen</rdg>
+                                 </app> de tractatu in Slesswiek 
+      per ducem Rumpoldum</q>. Herunder samtidig nedertysk påskrift: <q>Dit sint
+        aff schrifften van allen den breuen de maket wurden to Flensborch vppe de sone de hertog
+        Rumpolt dedingede</q>. Herunder påskrift på dansk fra 1500-tallet: <q>Copie aff hertog
+        Rumpoltz dagtinge emello</q>m<q> kon</q>n<q>ing Erick oc hertog Henrick aff Holsten</q>.
+      Desuden nedertysk overskrift på forsiden: <q>Dit \ is de s{ue}ne de de hochgeborne furste
+        hertoge Rumpolt van der Slesie degedingede van des Romeschen koninges wegene twisschen den
+        allerdorluchtigesten fursten heren Erike koninge to Dennemarken to Sweden to Norwegen der
+        wenden vnde der Gothen etcetera vnde hertoge Hinrik van Holsten mit sinen
+      bruederen</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Samtidig nedertyskpræget afskrift</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Antislesvigholst. Fragm. XIV, p. 107-108</bibl>
+               <bibl>Reg. Dan. nr. *4621</bibl>
+               <bibl>Rep. nr. 5976</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-09-05"
+                  notBefore="1422-09-05"
+                  notAfter="1422-09-05"
+                  cert="high">1422. 5. september</date>
+            <placeName cert="high">Nürnberg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Den romerske konge Sigismunds fuldmagt for hertug Heinrich Rumpold af Groß-Glogau til brug
+      ved forhandlingerne om en fred og forsoning imellem kong Erik 7. af Pommern, hertug Heinrich
+      af Slesvig og hansestæderne.</ab>
+            <ab>Kong Sigismund erklærer, at den uenighed, splid og krig, som eksisterer imellem kong Erik 7.
+      af Pommern, hertug Heinrich af Slesvig og hansestæderne, ikke blot er til skade og fordærv for
+      deres egne lande og folk, men tillige for hele kristenheden. Det forholder sig nemlig sådan,
+      at kætterne i Bøhmen netop nu går imod den kristne tro, hvorved de skaber stor forvirring med
+      deres hedenskab. Dette er i særdeleshed muligt på grund af kætternes hjælpere, herunder
+      særligt kong Witold af Polen, som skader kristenheden ved at hjælpe hedningene ved blandt
+      andet at lade dem komme ind i Polen udefra.</ab>
+            <ab>For at afværge den forvirring, som hedningene har skabt, har kong Sigismund indkaldt Det
+      Romerske Riges kurfyrster, fyrster, herrer og stæder til et møde i Nürnberg. På dette møde er
+      kong Sigismund og de førnævnte kurfyrster, fyrster, herrer og stæder blevet enige om at gå til
+      kamp mod kætteriet. Derfor har kong Sigismund med Det Romerske Riges kurfyrster, fyrster,
+      herrer og stæders samtykke i kraft af nærværende brev givet hertug Heinrich Rumpold af
+      Groß-Glogau fuldmagt til på kong Sigismunds og Det Romerske Riges vegne at forhandle om og
+      opnå en fred og forsoning imellem kong Erik 7. af Pommern, hertug Heinrich af Slesvig og
+      hansestæderne.</ab>
+            <ab>Endelig erklærer kong Sigismund, at han vil holde, udføre og bekræfte alt, hvad hertug
+      Heinrich Rumpold forhandler sig frem til på kong Sigismunds og Det Romerske Riges vegne,
+      ganske som hvis kong Sigismund selv havde været til stede og forhandlet sig frem til det.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-07-04" who="#smb">Filen etableret af #smb 2018-07-04. </change>
+         <change when="2018-07-05" who="#smb">1. korrektur af #smb 2018-07-05. </change>
+         <change when="2018-11-26" who="#smb">2. korrektur af #smb 2018-11-26. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Dit is de vtschrifft des breues dar ane de Romische koning hefft mechtich gemaket
+        <persName>hertogen Rumpolde</persName> de vorgescreuene s{ue}ne to degedingende vnde to
+      slutende etcetera ♦</p>
+            <p n="a#2" xml:space="preserve">Wir <persName>Sigemund von Gotis gnaden Romischer kunig</persName> zu allen zeiten merer des
+      richs vnd zu <placeName>Hungern</placeName> zu <app><lem><placeName>Beheim</placeName></lem><rdg>umiddelbart foran <q>Beheim</q> står overstreget <q>Beheim Dal</q> i Aa</rdg></app>
+      <placeName>Dalmacien</placeName>
+      <placeName>Croacien</placeName> etcetera k{ue}nig bekennen vnd t{ue}n k{ue}nd mit dissem
+      offenen brieffe allen den dei in sehen oder horen lesen ♦</p>
+            <p n="a#3" xml:space="preserve"><app><lem>Vmb</lem><rdg><q>vmme</q>, Aa</rdg></app> soliche zweitracht missehelung vnd krieg dei zwisschen <app><lem>dem</lem><rdg><q>den</q>, Antislesvigholst. Fragm. XIV, p. 107</rdg></app> durchluchtigesten <app><lem>fursten</lem><rdg><q>fursten</q> er skrevet over linjen i Aa</rdg></app> vnd heren <persName>hern Erichen k{uo}nig zu Dennemarken Sweden vnd Norwegen</persName>
+      vnserm lieben br{ue}ter / vnd <app><lem>dem</lem><rdg><q>den</q>, Aa</rdg></app> houchgebornen <persName>Heinrichen hertzugen zu Slesswych vnd graffen zu
+        Holsten</persName> vnd ouch den henssteten vfferstanden sein merken wir wol daz soliche
+      kriege nicht alleyn jren landen vnd lewten grossze <app><lem>schade</lem><rdg><q>schede</q>, Aa</rdg></app> z{ue}zewht vnd merkliche vorterben bringet sunder ouch der gantzen cristenheit / nach
+      gelegenheid alz si de sachen itzund stellen zuf{ue}get nemlichen alz sich itzund de ketzer zu
+        <placeName>Beheim</placeName> widder cristlichen glouben setzen vnd grossz jrssal mit jrem
+      vngelawben zuf{ue}gen sunderlich mit jren helffern mit <persName>dem k{ue}nige <app><lem>von</lem><rdg><q>van</q>, Aa</rdg></app> Polan dem Witolden</persName> vnd den heiden de sei zu helffe wider de gantze
+      cristenheid vnd von vssz werten landen zu in laden damit si de gantze cristenheid meynen zu
+      drucken vnd iren gewalt vnd vngelouben zu volf{ue}ren ♦</p>
+            <p n="a#4" xml:space="preserve">Vnd da von solichem <app><lem>jrrsal</lem><rdg>umiddelbart herforan står et overstreget <q>jrssal</q> i Aa</rdg></app> zu widderstehen haben wir zu vns gen <placeName>Nuremberg</placeName> ber{ue}ffet vnse
+      vnd des Heilgen Reichs k{ue}rfursten fursten heren vnd stede vnd seyn mit jn vbir eyn wurten
+      solichem vngelawben zu widderstehen vnd da von so haben wir angesehen soliche treuwe
+      vorsichticheid vnd vorn{ue}mfft de wir an dem hochgebornen <persName>Heinrichen genant
+        Rumpolten hertzugen zu Grossen Glagaw</persName> vnserem oheim vnd fursten jrkant haben jm
+      dar vmb mit wolbetachtem m{uo}te mit gutem rate vnser vnd des reichs kurfursten fursten heren
+      etcetera vnd haben mit rechter wissen jm vollen gewalt vnd macht gegeben vnd geben im de ouch
+      in krafft dissz brieffs vnd von Romischer kuniglicher macht mit <persName>dem egenanten kunige
+        von Dennemarken</persName>
+      <persName>dem herzugen zu Slesswiich</persName> vnd henssteten vmb fride vnd sune zu reden zu
+      teidingen vnd zu enden von vnser vnd des reichs wegen alsz des not dorfftig wirdet ♦</p>
+            <p n="a#5" xml:space="preserve">Vnd was er also <app><lem>von</lem><rdg><q>van</q>, Aa</rdg></app> vnser vnd des Heilgen Reichs wegen teidingen enden vnd volfuren wirdet / daz willen wir
+      stete vnd veste halden volfuren vnd besteten gleicherweis alz ob wir daz selber beredt
+      beteydingt endet vnd volfuret hetten vnd leiplich da bei gewesen weren an alles geuerde vnd
+      argelist / ♦</p>
+            <p n="a#6" xml:space="preserve">Mit vrkund disz brieffs versiglit mit vnser kuniglicher maiestatis <app><lem>jnsigel</lem><rdg>umiddelbart herforan står et overstreget <q>jngesigl</q> i Aa</rdg></app> der geben ist zu <placeName>N{ue}remberg</placeName> am samstag nach Sant Egidien tag
+      nach Cristi geburt xiiij<hi rend="sup">c</hi> vn dar nach an dem xxij<hi rend="sup">ten</hi>
+      jare vnser reiche des Hungerischen in dem xxxvj des Romischen in dem xij vnd des Beheimschen
+      an dem dritten jare ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

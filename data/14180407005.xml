@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2014</date>
         <idno type="dd">14180407005</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -114,7 +116,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Antonius. XXI. 3. kal. aug. anno 1. de Ponto</ab>
+                  <ab>Påskrift: <q>Antonius. XXI. 3. kal. aug. anno 1. de Ponto</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -135,7 +137,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +150,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1418-04-04" notBefore="1418-04-04" notAfter="1418-04-04" cert="nil">1418. 4. april</date>
+        <date when="1418-04-04" notBefore="1418-04-04" notAfter="1418-04-04" cert="high">1418. 4.
+          april</date>
         <placeName cert="high">Konstanz</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler biskoppen i Ciudad-Rodrigo og provsterne i Lund og Vesterås at overdrage kirken i Sollentuna i Uppsala stift til klerken Jakob Laurenssen fra Viborg stift, skønt han har et kanonikat med ventebrev på præbende i Uppsala.</ab>
+        <ab>Pave Martin 5. pålægger biskoppen i Ciudad-Rodrigo og provsterne i Lund og Västerås at
+          overdrage kirken i Sollentuna i Uppsala stift til Jakob Larsen, klerk fra Viborg stift,
+          skønt han har pavelig provision på et kanonikat med ventebrev på præbende i Uppsala.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,7 +165,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-01" who="#pbh">Filen etableret af #pbh 2014-04-01. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -171,10 +177,22 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Episcopo <placeName>Civitatensi</placeName> et <placeName>Lundensis</placeName>
+          ac <placeName>Arosiensis</placeName> ecclesiarum prepositis.</p>
+        <p>Vite ac morum honestas [etc.].</p>
+        <p>Hodie siquidem <q>(etc., af samme indhold som <ref target="14180407004">DD 1418. 7. apr.,
+              nr. 14180407004</ref>)</q>.</p>
+        <p>Cum itaque dicta ecclesia in <placeName>Solentwna</placeName> per hujusmodi vero (!)
+          promotionem vacet, nos discretioni vestre mandamus, quatenus ecclesiam de
+            <placeName>Solentwna</placeName> [fructus 4 mr.] <persName>Jacobo Laurentii clerico
+            Vibergensis diocesis</persName>, postquam illam omnino dimiserit, auctoritate nostra
+          conferre curetis, non obstante quod nos nuper dicto Jacobo de canonicatu sub expectatione
+          prebende <placeName>ecclesie Upsalensis</placeName> concessimus provideri.</p>
+        <p>Datum <placeName>Constantie</placeName> 7. id. aprilis anno 1.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">270</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250409001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="a">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Den Tyske Ordens arkiv i Königsberg (nu Berlin, Geheimes Staatsarchiv Preußischer Kulturbesitz)</repository>
+                        <collection>XX. HA, Ordensbriefarchiv (OBA)</collection>
+                        <idno>nr. 04414 (tidligere signaturnr. XIX LS Nr. 9)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med overskrift: <q>Gebitiger czu Lyfflant</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Koncept</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Napiersky, Index corporis historico-diplomatici Livoniae, Esthoniae, Curoniae, nr. 1172,
+      p. 256 (regest)</bibl>
+               <bibl>Reg. Dan. nr. *4729</bibl>
+               <bibl>Hildebrand, Liv-, Est- u. Curländisches Urkundenb. VII, nr. 269, p. 194-195</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Hildebrand l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-04-09"
+                  notBefore="1425-04-09"
+                  notAfter="1425-04-09"
+                  cert="high">1425. 9. april</date>
+            <placeName cert="high">Marienburg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Højmesteren for Den Tyske Orden skriver til den livlandske ordensmester.</ab>
+            <ab>Højmesteren meddeler, at dennes udsending Niclas Redwitz netop er vendt tilbage fra den
+      romerske konge i Ungarn. Niclas Redwitz har kunnet berette, at kong Erik 7. af Pommern
+      alligevel ikke vil mødes med højmesteren i Thorn. Derimod er kong Erik rejst fra Ungarn til
+      Krakow, og han befinder sig nu i Kalisch sammen med kongen af Polen. Højmesteren bemærker
+      hertil, at den livlandske ordensmester således selv kan se, at et møde med kong Erik - uanset
+      hvordan det kommer til at foregå - ikke vil kunne komme i stand uden møje og besvær og store
+      omkostninger. Endvidere frygter højmesteren, at det samme vil gøre sig gældende, når den
+      polske konge kommer til Danzig.</ab>
+            <ab>Endvidere har Niclas Redwitz kunnet berette for højmesteren, at biskoppen af Dorpats
+      udsendinge har været hos den romerske konge i Ungarn med store gaver og hædersbevisninger.
+      Disse udsendinge har i Niclas Redwitz' tilstedeværelse over for den romerske konge nægtet, at
+      Dorpat stift skulle have valgt hertug Witold af Litauen som dets beskytter. Herefter hyldede
+      udsendingene den romerske konge. Efter hyldningen udnævnte den romerske konge kong Erik, den
+      polske konge og hertugerne af Stettin til Dorpat stifts beskyttere.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-08-10" who="#smb">Filen etableret af #smb 2018-08-10. </change>
+         <change when="2018-08-13" who="#smb">1. korrektur af #smb 2018-08-13. </change>
+         <change when="2019-02-18" who="#smb">2. korrektur af #smb 2019-02-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Unsern gar fruntlichin grus czuvor und alle gute.</p>
+            <p n="a#2" xml:space="preserve">Ersamer lieber her gebitiger.</p>
+            <p n="a#3" xml:space="preserve">Alleine wir in <cit><quote>dem andern unserm brife</quote><bibl><ref target="14250407001">DD 1425. 7. apr., nr. 14250407001</ref></bibl></cit> euch geschreben haben, wie <persName>unser gnediger herre koning czu
+        Denenmarke</persName> etc. willen hatte uff <placeName>Thorun</placeName> czu uns czu
+      treffen etc., so ist als nechten gar spete czu uns komen unser dyner <persName>Niclos
+        Redewicz</persName>, den wir vor dessen vorgangen <app><lem>wynachten</lem><rdg>dvs. 25. december</rdg></app> in nemlichin unsers ordens sachen hatten gesant czu unserm alliirgnedigsten herren
+      Romisschem koninge ken <placeName>Hungern</placeName>.</p>
+            <p n="a#4" xml:space="preserve">Derselbe unser dyner hat uns gesagt, das her us <placeName>Hungern</placeName> bis ken
+        <placeName>Crokow</placeName> habe geczogen mit dem vorbenumpten <persName>unserm herren
+        koninge czu Denenmarke</persName>, der bey <persName>dem hern koninge czu Polan</persName>
+      itczunt ist czu <placeName>Calis</placeName> und hat uns durch feerlichkeit der wege ane
+      benumunge synes namens und wirdikeit eynen briff gesant, des abeschrift ir hirinne fyndet; in
+      der werdet ir vornemen syne meynunge; idoch an welchen enden wir mit synen gnaden czusampne
+      komen, so konnet ir selber dirkennen, das is ane grose koste, mw und usrichtunge nicht mag
+      volendet werden.</p>
+            <p n="a#5" xml:space="preserve">Dergleichen wir uns ouch besorgen, das wir thun werden mit <persName>dem herren koninge czu
+        Polan</persName>, wen der wirt ken <placeName>Danczk</placeName> komen.</p>
+            <p n="a#6" xml:space="preserve">Ouch wisset, das unser vorgedochter dyner uns vorbrocht hat, wie die botschaft von
+        <placeName>Darapt</placeName>, von der ir uns vormals habt geschreben, mit grosen giften,
+      goben und erungen seyn gewest bey unserm herren Romisschen koninge in Ungern, und in
+      kegenwertikeit unsers dyners loukenten sie, das sie <persName>herczog Wytout</persName> ny czu
+      eym beschutczer genomen hetten, und boten sich des czu eyden, die doch nicht geschegen, sunder
+      sie taten em holdunge mit semelichin eyden, als sich das geboret. Noch der holdunge gap her en
+      czu beschutzern unsere herren, den von <placeName>Denenmarke</placeName>, den von
+        <placeName>Polan</placeName> konynge, und <persName>die herczogen von Stetyn</persName> und
+      sprach czu en, das seyn vater das vormals getan hette, das welde her ouch nu thun in der
+      obengeschreben weise.</p>
+            <p n="a#7" xml:space="preserve">[.....]</p>
+            <p n="a#8" xml:space="preserve">Gegeben czu <placeName>Marienburg</placeName> am montage in den oster heilgen tagen im
+        1425<hi rend="sup">ten</hi> jore.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

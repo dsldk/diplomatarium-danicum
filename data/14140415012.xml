@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">169</num>, paragraphs: <num
+               n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14140415012</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR 2467-c, tidl. Kongens Arkiv (Nørrejylland 166)</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>18.9 (plica: 1.2)</height>
+                                    <width>24.4</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>Transscriptum trium litterarum prima littera Gheuardi
+                                 Parliin dimittentis Nicolao Myg terras desolatas in campo
+                                 Su</q>n<q>dby <app>
+                                    <lem>&lt;in&gt;</lem>
+                                    <rdg resp="#mh"><q>et,</q> A</rdg>
+                                 </app> provincia Hu</q>n<q>db</q>or<q>gh&lt;eret&gt; sibi jure
+                                 hereditario post mortem domini Nicolai Esgiss</q>øn <q> militis
+                                 advolutas ♦ Item littera Thorkilli Pee inpignerantis Nicholao Myg
+                                 bona in Aas pro vi marchis argenti ♦ Item littera Nicholai
+                                 Smalstethe inpignerantis Nicholao Myg bona sua in parochia
+                                 Sundbyrky pro xxiiii marchis puri</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Klaus Grubendals segl i lyst voks i perg.rem, <ref>DAS 1138</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Moleke van der Lankens segl i lyst voks i perg.rem, <ref>AS E
+                                    viii 7</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Gert van der Lankens segl i lyst voks i perg.rem, <ref>AS C xxxix
+                                    1</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5391</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-04-15" notBefore="1414-04-15" notAfter="1414-04-15" cert="high">1414.
+               15. april</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Klaus Grubendal, ridder, og Moleke og Gert van der Lanken, væbnere, udsteder vidisse
+               på tre breve. I det første fra 2. februar 1390 overdrager Gevert Berlin, væbner, alle
+               sine øde jorder på Sundby mark, som han har arvet efter ridderen Niels Esgesen, til
+               Niels Myg. I det andet fra 25. februar 1388 pantsætter Terkel Pe, væbner, sine øde
+               jorder i Ås til Niels Myg for fire mark sølv i penge og de tilhørende bygninger for
+               yderligere to mark sølv. I det tredje fra 12. december 1382 pantsætter Niels
+               Smalstede alt sit gods i Sindbjerg sogn til væbneren Niels Myg for 24 mark lødigt
+               sølv.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-11-02" who="#mh">Filen etableret af #mh 2017-11-02. </change>
+         <change when="2017-11-02" who="#mh">1. korrektur af #mh 2017-11-02. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1"> Wy Clawes <app>
+                  <lem>Grupe<ex>n</ex>dale</lem>
+                  <rdg resp="#mh">nasalstreg over <q>e</q>synes at mangle, hvorfor læsemåden
+                     muligvis skal være <q>Grupedale,</q> A</rdg>
+               </app> ridde<ex>re</ex> Møleke oc Gerith van der Lanke<ex>n</ex> awap<ex>n</ex> gøre
+                  wit<ex>er</ex>licht oc [op]e<ex>n</ex>bar alle the so<ex>m</ex> the<ex>n</ex>ne
+                  sc<ex>ri</ex>fft høre ell<ex>e</ex>r se oss æft<ex>er</ex> wor
+                  h<ex>er</ex>r<ex>es</ex> føthelses aar thusende firehu<ex>n</ex>dræthæ vpæ
+                  th<ex>et</ex> fiorte<ex>n</ex>de aar vpæ quasimodogeniti søndagh hafue seet oc
+               skoet oc hørt grangifflighe ffore oss ow<ex>er</ex>læs[n]æ opnæ p<ex>er</ex>mæns
+                  b<ex>re</ex>ff w raghedhe [oc w scrap]edhe oc j alle made w falskedhe oc w
+               mistenkelighe m<ex>eth</ex> sa<ex>n</ex>ne oc wisse henge<ex>n</ex>de jncigle
+               jncigledhe hele oc holdne [oc] alsthings welbewaredhe hwilke b<ex>re</ex>ff lude ordh
+                  fra<ex>n</ex> ordh æft<ex>er</ex> th[y] &lt;som&gt; h<ex>er</ex> æft<ex>er</ex>
+                  følgh<ex>e</ex>r ♦</p>
+            <p n="a#2"> Omnibus presens scriptum cernentibus <ex>(etc. = DD 4. rk. IV nr. 188)</ex> ♦</p>
+            <p n="a#3"> Omnibus presens scriptum cernentibus <ex>(etc. = DD 4. rk. III nr. 348)</ex> ♦</p>
+            <p n="a#4"> Omnibus presens scriptum cernentibus <ex>(etc. = DD 4. rk. II nr. 287)</ex> ♦</p>
+            <p n="a#5">Ok til me<ex>re</ex> witerlicheet hær vm hafue wy ladet wore jncigle
+                  he<ex>n</ex>ges ffor the<ex>n</ex>ne sc<ex>ri</ex>fft ♦</p>
+            <p n="a#6">Datum anno et die supradictis. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+               tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

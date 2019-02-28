@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="fgj">
+                  <persName>
+                     <forename>Finn Gredal</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250109001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Det Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab/>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal>
+                              <ab> </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>                        
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer. Silkeborgske reg. A (1558), s. 139, W. 60, med overskriften <q>Essendbeck closters breffue paa gotz vdi Galtenherrit findis vdi sam<ex>m</ex>e skufflade som W paa stander oc effther følger</q> (overskriften findes foran indførslen W. 59). Endvidere registreret i Silkeborgske reg. B (1558). Der er i dette tilfælde ingen betydningsmæssig varians mellem A-reg. og B-reg</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>             
+            <listBibl>
+               <bibl>ÆA II 98 nr. W. 60</bibl>   
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter
+               <ref>A-reg.</ref></ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-01-09"
+                  notBefore="1425-01-09"
+                  notAfter="1425-01-09"
+                  cert="high">1425. 9. januar<note>Vidissen fra 1425 er i Silkeborgske reg. indført sammen med en vidisse fra 1466</note></date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract><ab>En vidisse af kong Erik 7. af Pommerns dom, hvorefter abbeden af Essenbæk kloster tildømmes Astrup i Galten herred.</ab></abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-26" who="#pbh">Filen etableret af #pbh 2014-06-26. </change>
+         <change when="2018-12-05" who="#fgj">Kladde: 1. korrektur #fgj 2019-01-03. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Item thuene<!-- rettet in scribendo fra E --> latins vidisser aff koning <persName>Ericks</persName> dom paa all <placeName>Astrup</placeName> j <placeName>Galthenherrit</placeName> liggend<ex>i</ex>s er dømpt abbeden <app><lem>ab</lem><rdg>således i A-reg., formodentlig en afsmitning fra det foregående <q>abbeden</q>; i B-reg. læses <q>aff</q>, hvortil der rettes i ÆA</rdg></app> <placeName>Essendbeck</placeName> tiill / thet ene datum mcdxxv<hi rend="sup">o</hi> feria 3<hi rend="sup">a</hi> infra 8<hi rend="sup">as</hi> epiphaniæ domini / (.....)<!--thet andet datum mcdlxvj<hi rend="sup">o</hi> then tisdag nest for<ex>e</ex> sancti Valentini dag :--> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

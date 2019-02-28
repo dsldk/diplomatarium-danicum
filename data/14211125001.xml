@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">363</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14211125001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK</collection>
+                        <idno>19746</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Gøø</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jens Skullesens segl af lyst voks i perg.rem, <ref>AS L xxiii 1</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Jakob Pedersens segl af lyst voks med sortindfarvet forside i
+        perg.rem, <ref>DGS 60</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglrem med samtidig påskrift: <q>[m]it opna breff eno<ex>m</ex>
+          welborno[<ex>m</ex>] man h<ex>e</ex>r Niel[s] [Su]enss<ex>øn</ex> i
+        Ell[inge]</q>
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Mogens Båds segl af lyst voks med sortindfarvet forside i
+        perg.rem, <ref>AS K iii 7</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 174-75</bibl>
+               <bibl>Rep. nr. 5946</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-11-25"
+                  notBefore="1421-11-25"
+                  notAfter="1421-11-25"
+                  cert="high">1421. 25. november</date>
+            <placeName cert="unknown">Skåne landsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Skullesen (Huitfeld), væbner, pantsætter for 60 lødige mark gods i Blekinge til hr.
+      Niels Svendsen (Sparre af Skåne) i Ellinge, ridder. Indløsning kan kun ske til 12. dag jul (5.
+      januar); indtil dette sker skal Niels Svendsen have det i sin retmæssige besiddelse, uden at
+      indtægterne fraregnes i gældens hovedstol. Såfremt Niels Svendsen mister godset, forpligter
+      Jens Skullesen sig til at erstatte ham det til værdien.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
+         <change when="2018-09-06" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-09-06. </change>
+         <change when="2018-11-13" who="#alk">2. korrektur af #alk 2018-11-13. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alla men th<ex>et</ex>ta breff se ell<ex>e</ex>r høra læsit helsar jac <app><lem><persName>Jenes Scullass<ex>øn</ex></persName></lem><rdg wit="#A"><q>es Sc</q> understreget, A</rdg></app> awapn ewi<ex>n</ex>neliga m<ex>eth</ex> gwdh ♦ Th<ex>et</ex> scal alla men
+      wid<ex>e</ex>rlict wara nærwarende oc ko<ex>m</ex>masculande th<ex>et</ex> jac
+      with<ex>e</ex>rkæ<ex>n</ex>ner megh m<ex>eth</ex> th<ex>et</ex>ta mit opna breff eno<ex>m</ex>
+      welborno<ex>m</ex> man h<ex>e</ex>r <app><lem>Niels</lem><rdg wit="#A">understregning begynder ved <q>e</q>, A</rdg></app> Suenss<ex>øn</ex> i <app><lem><placeName>Ellinge</placeName></lem><rdg wit="#A">understregning slutter ved <q>e(1)</q>, A</rdg></app> riddare skyldigh atwara thresintyugho løthicm<ex>a</ex>rk gilda pæni<ex>n</ex>ga oc
+      gænga so<ex>m</ex> en godh man gør andrum fult m<ex>eth</ex> oc enkte a<ex>n</ex>nat wærdh /
+      ♦</p>
+            <p n="a#2" xml:space="preserve"><app><lem>For</lem><rdg wit="#A">skrevet <q>ffor</q>, A</rdg></app> huilka pæninga jac for<hi rend="sup">de</hi> h<ex>e</ex>r <persName>Niels
+        Suenssone</persName> til <app><lem>pant sæt<ex>er</ex></lem><rdg wit="#A">understreget, A</rdg></app> alt mit gotz so<ex>m</ex> jac haw<ex>e</ex>r <app><lem>pa</lem><rdg wit="#A">her begynder understregning, A</rdg></app>
+      <placeName>Gø</placeName> oc j <app><lem><placeName>Liister</placeName></lem><rdg wit="#A">her slutter understregning, A</rdg></app> soso<ex>m</ex> ær først howidh garthen j <placeName>Gardhstorp</placeName> j
+      Liist<ex>er</ex>by sogn liggende aff huilken gardh giffs fem sconiska m<ex>a</ex>rk oc en
+      halff ty<ex>n</ex>na aal til langilde ♦ Item tua gartha j <placeName>Kulhøya</placeName>
+      oc en gardh j <placeName>Ha<ex>m</ex>mundahøy</placeName> j th<ex>e</ex>n sa<ex>m</ex>ma sogn
+      liggende aff huilkæ thre gartha giffs fem sconiska m<ex>a</ex>rk oc en halff ty<ex>n</ex>na
+      aal til langilde ♦ Item j <placeName>Agharum</placeName> j Gamalstorpa sogn fira bygda
+      gortha oc thre øthe j sa<ex>m</ex>ma sogn liggende m<ex>eth</ex> alla fforsc<ex>re</ex>ffna
+      gotz til liggelse engte vndan taget / ♦</p>
+            <p n="a#3" xml:space="preserve">M<ex>eth</ex> suo dan skæl th<ex>et</ex> for<hi rend="sup">de</hi>
+      <persName>h<ex>e</ex>r Niels Suenss<ex>øn</ex></persName> scal the forsagtha gotz frij j sine
+      wæro hawa wardhnatha th<ex>e</ex>r j oc vdaff at sætya oc opbæra langilde oc hwadh the gotz
+      skylda oc engte affsla j howidpæni<ex>n</ex>gena so længe til thæs the wortha hano<ex>m</ex>
+      ell<ex>e</ex>r hans arwinga laglega affløsda pa tolta dagh julæ oc engen a<ex>n</ex>nar
+      løsninga dagh scal wara æn th<ex>e</ex>n sa<ex>m</ex>me ♦</p>
+            <p n="a#4" xml:space="preserve">Item bind<ex>e</ex>r jac megh til oc mina arwinga at frij oc he<ex>m</ex>la for<hi rend="sup">da</hi>
+      <persName>h<ex>e</ex>r Niels Suenss<ex>øn</ex></persName> oc hans arwinga forsagtha gotz for
+      et pant for huars mantz til taal so længe til thæs the wortha hano<ex>m</ex> ell<ex>e</ex>r
+      hans arwinga laglega affløsdæ som for<ex>e</ex> screwit staar ♦ Item skeer th<ex>et</ex>
+      so at thisse for<hi rend="sup">de</hi> gotz hano<ex>m</ex> affga m<ex>eth</ex> noger ræt
+      for<ex>e</ex> min wanhemel skyld tha bind<ex>e</ex>r jac megh til oc mina arwinga
+      hano<ex>m</ex> so got gotz j gen at fanga ♦</p>
+            <p n="a#5" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis virorum bonorum videlicet dominorum
+        <persName>Jacobi Petri</persName> et <persName>Nicolai Ysakss<ex>øn</ex></persName>
+      canonicorum <placeName>Lundensium</placeName> necnon <persName>Magni Badh</persName> advocati
+      placiti generalis Scanie presentibus est appensum ♦</p>
+            <p n="a#6" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi>cd vicesimo primo die beate Katerine virginis et <app><lem>martiris</lem><rdg wit="#A">herefter udfyldningstegn, A</rdg></app> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

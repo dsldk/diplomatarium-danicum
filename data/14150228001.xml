@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">6</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">5</num>, paragraphs: <num n="paragraphs">5</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">6</num>, paragraphs: <num n="paragraphs"
+          >6</num>. Translation, number of words: <num n="words">5</num>, paragraphs: <num
+          n="paragraphs">5</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2014</date>
         <idno type="dd">14150228001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -114,7 +116,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Franciscus. XII. de Agello</ab>
+                  <ab>Påskrift: <q>Franciscus. XII. de Agello</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -135,7 +137,8 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l., formlerne udfyldt efter <ref
+            target="14030701001">DD 1403. 1. jul., nr. 14030701001</ref>.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,12 +151,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1415-02-28" notBefore="1415-02-28" notAfter="1415-02-28" cert="nil">1415. 28. februar</date>
+        <date when="1415-02-28" notBefore="1415-02-28" notAfter="1415-02-28" cert="high">1415. 28.
+          februar</date>
         <placeName cert="high">Konstanz</placeName>
       </creation>
       <abstract>
-        <ab>Paven giver ridderen Erik Nielsen (Gyldenstjerne) fra Aarhus stift og hans
-                hustru (Gerver) tilladelse til at have rejsealter.</ab>
+        <ab>Pave Johannes 23. tillader ridderen Erik Nielsen (Gyldenstierne) fra Århus stift og hans
+          hustru Gerver (Andersdatter (Lunge)) at have et rejsealter.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -161,8 +165,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-02-27" who="#pbh">Filen etableret af #pbh 2014-02-27. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2018-06-19" who="#pbh">Tekst og regest </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -172,19 +177,26 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
-        <p n="a#2">empty</p>
-        <p n="a#3">empty</p>
-        <p n="a#4">empty</p>
-        <p n="a#5">empty</p>
-        <p n="a#6">empty</p>
+        <p n="a#1"><persName>Johannes</persName> (episcopus servus servorum dei) dilecto filio
+          nobili viro <persName>Erico Nicolai</persName> militi <placeName>Arusiensis
+            diocesis</placeName> et dilecte filie nobili mulieri <persName>Gorkeer</persName> ejus
+          uxori salutem (et apostolicam benedictionem) &#9830;</p>
+        <p>Sincere (devotionis affectus quem ad nos et Romanam geritis ecclesiam non indigne meretur
+          ut petitionibus vestris illis presertim quas ex devotionis fervore prodire conspicimus
+          quantum cum deo possumus favorabiliter annuamus ♦</p>
+        <p>Hinc est quod nos vestris devotis supplicationibus inclinati ut liceat vobis habere
+          altare portatile cum debita reverencia et honore super quo in locis ad hoc congruentibus
+          et honestis possitis per proprium vel alium sacerdotem ydoneum missam et alia divina
+          officia sine juris alieni prejudicio in vestra presencia facere celebrari devotioni vestre
+          tenore presentium indulgemus. ♦ </p>
+        <p>Nulli ergo omnino hominum liceat hanc paginam nostre concessionis infringere vel ei ausu
+          temerario contraire. ♦ </p>
+        <p>Si quis autem hoc attemptare presumpserit indignacionem omnipotentis dei et beatorum
+          Petri et Pauli apostolorum ejus se noverit incursurum) &#9830;</p>
+        <p>Datum <placeName>Constantie</placeName> 2. kal. martii anno 5. &#9830;</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
-        <p n="b#2">empty</p>
-        <p n="b#3">empty</p>
-        <p n="b#4">empty</p>
-        <p n="b#5">empty</p>
+        <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">189</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14200410001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 19462</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Scotacio partis fundi extra
+      ferrum</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Lund bys segl af lyst voks i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Magnus Båds segl af mørkt voks i perg.rem, <ref>AS K iii 7</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Jens Pedersens bomærke af mørkt voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 92</bibl>
+               <bibl>Rep. nr. 5842</bibl>
+               <bibl>Svenskt Dipl. III 554 (= SDHK nr. 19462)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-04-10"
+                  notBefore="1420-04-10"
+                  notAfter="1420-04-10"
+                  cert="high">1420. 10. april</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Mogens Båd, foged, Jens Pedersen, borgmester, samt rådmænd og borgere i Lund sælger en jord
+      samme sted til skt. Laurentius kirke.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
+         <change when="2018-06-19" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-06-19. </change>
+         <change when="2018-10-08" who="#alk">2. korrektur af #alk 2018-10-08. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men som th<ex>et</ex>ta bref se eller høra læses . helsa wi <persName>Magn<ex>us</ex>
+        Baad fowodh j Lund</persName>
+      <persName>Jønis Pætersson borghomæstare</persName> oc alle raadmen oc bymen j samma staadh .
+      kerleca m<ex>æth</ex> woor herra . ♦ Th<ex>et</ex> scal alle men . widirlict wara .
+      nerwarinde oc ko<ex>m</ex>masculendes at wi wetherke<ex>n</ex>nes os m<ex>æth</ex> beraad oc
+      gothir wilia til wor bys nytta . at hawa solt . skøt . oc afhænt til sancti Laurens kirkio j
+      Lund . then joord som liggir . mellen steenhuzit <persName>Ha<ex>n</ex>nes Belko</persName> nw
+      vt j boor . oc then bothin som sancti Laurens til hørir . næst vdan fore jærnyt
+      wæstan wethir wæghin som <persName>Jønis Pæt<ex>er</ex>sson</persName> vt j boor oc then
+      joordhin mæth . som wæstan næst the sa<ex>m</ex>ma bothin liggir . atta alna laankt . oc tolf
+      alna breet . m<ex>æth</ex> een ewynnerlik ræt æghaskulandes wethirke<ex>n</ex>nendes os . folt
+      oc alt . vpathawa borit fore the forsauthe joord swa at os nøghir j alle mada / ♦</p>
+            <p n="a#2" xml:space="preserve">Bynda vi os til oc wora æftirko<ex>m</ex>mare at fri oc heemla fornefnda s<ex>anc</ex>ti
+      Laurencii kirkio then fornæfnda joord . for hwars mans hindrilse ellir til taal ♦</p>
+            <p n="a#3" xml:space="preserve">Til mere forwaring ær wort bys jnsigle m<ex>æth</ex> wora jnsigle hæghnt fore th<ex>et</ex>ta
+      bref / ♦</p>
+            <p n="a#4" xml:space="preserve">Datum Lundis anno domini millesimo quadringentesimo vicesimo feria quarta pasche \
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">143</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14310929001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>or. perg. RA 0101, SDHK-nr. 21660</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>11.9 (plica: 2.2)</height>
+                                    <width>18.6</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften <q>Recognicio domini Trugoti decani Lundensis etcetera super bonis fabrice etcetera in Musheddinge</q>, og arkivsignaturen <q>K</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Trued Jensen (Dues) segl af mørkt voks i ufarvet i perg.rem, <ref>AS D xvij 9</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Gregers Jensen (Dues) segl af ufarvet voks i perg.rem, <ref>AS D xvij 10</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Jens Jakobsen (Rosensparres) segl af ufarvet voks i perg.rem, <ref>AS F xlvij 3</ref>
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Trued Jakobsen (Rosensparres) segl af grønt voks i ufarvet i perg.rem, <ref>AS F xlvij 4</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i Sv. RA, B 30 fol. 54 nr. 351.; B 29 fol. 27v nr. 187 (Skånebrevsfortegnelsen)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. 6523; </bibl>
+               <bibl>Weibull, Dipl. Dioc. Lund. III 104 nr. 109</bibl>
+               <bibl>SDHK nr. 21660</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-09-29"
+                  notBefore="1431-09-29"
+                  notAfter="1431-09-29"
+                  cert="high">1431. 29. september</date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Brødrene Trued Jensen (Due), kannik i Lund, og Gregers Jensen (Due) forpagter alle domkirkens bygningsfonds ejendomme i Mossheddinge af bygningsfondens prokurator, ærkedegn Jens Povlsen, for en årlig afgift på seks skilling grot. Det stilles som betingelse, at de genopbygger og vedligeholder ejendommene.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-01" who="#pbh">Filen etableret af #pbh 2013-10-01. </change>
+         <change when="2018-09-26" who="#pz">1. korrektur af #pz 2018-09-26. </change>
+         <change when="2018-10-22" who="#alk">2. korrektur af #alk 2018-10-22. </change>
+         <change when="2018-12-18" who="#pz">3. korrektur af #pz 2018-12-18. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus <persName>Trogotus Johannis canonicus Lundensis</persName> et <persName>Gregorius Johannis</persName> fratres salutem in Domino ♦</p>
+            <p n="a#2" xml:space="preserve">Notum facimus omnibus presentibus et futuris nos ab honorabili viro domino <persName>Johanne Pauli archidiacono</persName> et procuratore fabrice ecclesie <placeName>Lundis</placeName> unico omnia et singula bona in <placeName>Mushedinghe</placeName> situata et ad fabricam predicte ecclesie pertinencia pro annua pensione videlicet sex solidorum grossorum infra festum nativitatis beate virginis Lundis quolibet anno solvendorum ad dies nostros in conductum habere tali condicione quod predicta bona <app><lem>&lt;omnia&gt;</lem><rdg>mangler i A</rdg></app> et singula de novo edificemus pro posse nostro et edificata in bono statu teneamus nec cuiquam de dictis bonis vel terris injuriam aut molestiam inferamus ♦ Et si in dicto solucionis termino in solvendo defecerimus extunc predictus archidiaconus et successorres sui predicta bona revocandi plenariam habeant potestatem ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium sigilla nostra una cum sigillis nobilium virorum videlicet <persName>Johannis Jacobi justiciarii placiti generalis Skanee</persName> et <persName>Trogoti Jacobi</persName> fratrum presentibus sunt appensa ♦</p>
+            <p n="a#4" xml:space="preserve">Datum Lundis ipso die beati Michaelis archangeli anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxxprimo.
+    </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

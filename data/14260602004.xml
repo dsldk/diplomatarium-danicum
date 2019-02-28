@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">236</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14260602004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Ikke forefundet 2018</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Lünig, Teutsches Reichs-Archiv XVII, Spicil. eccles. II, p. 412-413</bibl>
+               <bibl>Reg. Dan. nr. *4768</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Lünig l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-06-02"
+                  notBefore="1426-06-02"
+                  notAfter="1426-06-02"
+                  cert="high">1426. 2. juni <note>Den trykte version af dette brev, som findes hos Lünig l.l., bærer stærkt
+    præg af misforståelser, forvanskninger og højtysk ortografi</note>
+            </date>
+            <placeName cert="high">Bornhöved</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>De slesvigske hertuger Heinrich, Adolf og Gerhard bekræfter Joachim og Benedictus v. Kührens
+      salg af landsbyen Meynerstorp til Johann (Schele), biskop i Lübeck.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-10" who="#pbh">Filen etableret af #pbh 2014-07-10. </change>
+         <change when="2018-09-27" who="#smb">1. korrektur af #smb 2018-09-27. </change>
+         <change when="2019-01-18" who="#smb">2. korrektur af #smb 2019-01-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><persName>Hinrich</persName>, <persName>Adolph</persName> unde <persName>Gherd</persName>,
+      brodere, hertoghen to <placeName>Sleswick</placeName>, greven to
+        <placeName>Holsten</placeName>, <placeName>Stormern</placeName> und
+        <placeName>Schowenborck</placeName>, bekennen und bet{ue}ghen openbare in desem breve, dat
+      de d{ue}chtighen knapen, unse man, <persName>Joachim</persName> und <persName>Benedictus van
+        Kuren</persName>, brodere, mit wolberaden <app><lem>mode</lem><rdg><q>mode</q> mangler hos Lünig l.l.; jf. <ref target="14260602003">DD 1426. 2. jun., nr.
+            14260602003</ref></rdg></app>, und mit vrigem willen und unser und erer erven und vrunde vulbort hebben rechtes unde
+      redelickes kopes verkoft und verkopen, in krafft desses breves, dat gantze dorp to
+        <placeName>Meynerstorpe</placeName> beleghen in deme kerspele to
+        <placeName>Plone</placeName>, in deme stichte to <placeName>L{ue}becke</placeName>, mit al
+      synen husinghen, koten, burschoppen, ackeren, weyden, wyschen, watern, d{ue}cken und
+      holtinghen, weghen, unweghen, brucken, rechtigheyden und tobehoringhen, droghe und nat, edder
+      wo se syn, in dessulven dorpes schedinghen beleghen und uterken, myt alleme rechte und richte
+      hoghem und sydestem in hant in hals, und myt aller vryheit, nichtes utgenommen, also dat en
+      toghehort heft dem erwerdyghen in God vadere und herrn, herrn <persName>Johanne</persName>,
+      bischoppe der kerken to <placeName>Lubeck</placeName>, und synen nakomelynghen, und al
+      denghennen, de dessen bref myt syneme edder syn <app><lem>nakomelinghe</lem><rdg><q>nackomelinghe</q>, Lünig l.l</rdg></app> willen hebbende werden, edder hebben, se syn ghestlick edder werlick, vor veerhundert
+      und veer und sowentig marck guter lubescher penninghe, de <persName>Joachim</persName> unde
+        <persName>Benedictus</persName>
+      <app><lem>vorbenomed</lem><rdg>Lünig l.l. læser <q>vorbenente</q></rdg></app> in reden tellende ghelde van dem <app><lem>vorscreven</lem><rdg>Lünig l.l. læser <q>vorscrebene</q></rdg></app> kopere upgheboret und ere nut und notrofft gekehret hebben.</p>
+            <p n="a#2" xml:space="preserve">[.....]</p>
+            <p n="a#3" xml:space="preserve">Al desse vorscrevene st{ue}cke volborden und belenen wy <persName>Hinrick</persName>
+      <persName><app><lem>Alph</lem><rdg>Lünig l.l. læser blot <q>Aph</q></rdg></app></persName> und <persName>Gerd</persName>, hertoghen <app><lem>vorbenomed</lem><rdg>Lünig l.l. læser <q>vorbenennte</q></rdg></app>, und des to tuchenisse hebbe wy unse jngheseghele henghen laten an dessen breff, de
+      ghescreven ys, do men screv na Godes bort veerteynhundert und ses und twyntich jare, des
+      sontages na der hilghen dryervaldichkeyt daghe, uppe dem vyrde to
+        <placeName>Bornehovede</placeName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

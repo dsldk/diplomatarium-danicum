@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">210</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">210</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2015</date>
         <idno type="dd">14200717001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Reg. Lat. 208 fol. 222</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -111,12 +113,11 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Antonius XII. de Ponto</ab>
+                  <ab>Påskrift: <q>Antonius XII. de Ponto</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty</ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -128,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD II 312 nr. 1352</bibl>
+          <bibl>Diplomatarium Norvegicum XVII 319 nr. 408</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst efter Dipl. Norv. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +148,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-07-17" notBefore="1420-07-17" notAfter="1420-07-17" cert="high">1420. 17. juli</date>
+        <date when="1420-07-17" notBefore="1420-07-17" notAfter="1420-07-17" cert="high">1420. 17.
+          juli</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Paven tillader biskop Jens Jakobsen i Oslo at lade sig indvie af en hvilken som helst biskop.</ab>
+        <ab>Pave Martin 5. tillader Jens (Jakobsen), udvalgt biskop i Oslo, at lade sig indvie af en
+          hvilken som helst biskop.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,7 +167,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -174,34 +179,30 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">emptyMartinus etc. dilecto filio Johanni electo Asloensi salutem
-			etc. Cum nos pridem ecclesia Asloensi pastoris regimine destituta
-de persona tua nobis et fratribus nostris ob tuorum exigenciam
-meritorum accepta de fratrum eorumdem consilio auctoritate apo-
-stolica duxerimus prouidendum preficiendo te illi in episcopum
-et pastorem prout in nostris inde confectis litteris plenius con-
-tinetur Nos ad ea que ad tue commoditatis augmentum cedere
-valeant fauorabiliter intendentes tuis supplicacionibus inclinati tibi
-ut a quouis malueris catholico antistite graciam et communi-
-onem apostolice sedis habente ascitis et in hoc sibi assistentibus
-duobus uel tribus alijs catholicis episcopis similem graciam et
-communionem apostolice sedis habentibus munus consecracionis
-recipere valeas ac eidem antistiti ut munus predictum auctoritate
-nostra libere impendere tibi possit, plenam et liberam concedimus
-tenore presencium facultatem. Volumus autem quod idem antistes
-qui tibi prefatum munus impenderit a te nostro et Romane ec-
-clesie nomine fidelitatis debite solitum recipiat iuramentum
-iuxta formam quam sub bulla nostra mittimus interclusam ac
-formam iuramenti quod te prestare contigerit nobis de verbo ad
-verbum per tuas patentes litteras tuo sigillo signatas per pro-
-prium nuncium quantocius destinare procuret quodque per hoc
-venerabili fratri nostro archiepiscopo Nidrosiensi cui prefata ec-
-clesia metropolitico iure subesse dinoscatur nullum imposterum
-preiudicium generetur. . Datum Florencie sexto decimo kal
-Augusti anno tercio.</p>
+        <p n="a#1"><persName>Martinus </persName>etc. dilecto filio <persName>Johanni electo
+            Asloensi</persName> salutem etc.</p>
+        <p>Cum nos pridem ecclesia Asloensi pastoris regimine destituta de persona tua nobis et
+          fratribus nostris ob tuorum exigenciam meritorum accepta de fratrum eorumdem consilio
+          auctoritate apostolica duxerimus providendum preficiendo te illi in episcopum et pastorem
+          prout in nostris inde confectis litteris plenius continetur nos ad ea que ad tue
+          commoditatis augmentum cedere valeant favorabiliter intendentes tuis supplicacionibus
+          inclinati tibi ut a quovis malueris catholico antistite graciam et communionem apostolice
+          sedis habente ascitis et in hoc sibi assistentibus duobus vel tribus aliis catholicis
+          episcopis similem graciam et communionem apostolice sedis habentibus munus consecracionis
+          recipere valeas ac eidem antistiti ut munus predictum auctoritate nostra libere impendere
+          tibi possit, plenam et liberam concedimus tenore presencium facultatem.</p>
+        <p>Volumus autem quod idem antistes qui tibi prefatum munus impenderit a te nostro et Romane
+          ecclesie nomine fidelitatis debite solitum recipiat juramentum juxta formam quam sub bulla
+          nostra mittimus interclusam ac formam juramenti quod te prestare contigerit nobis de verbo
+          ad verbum per tuas patentes litteras tuo sigillo signatas per proprium nuncium quantocius
+          destinare procuret quodque per hoc venerabili fratri nostro <persName>archiepiscopo
+            Nidrosiensi</persName> cui prefata ecclesia metropolitico jure subesse dinoscatur nullum
+          imposterum prejudicium generetur ..</p>
+        <p>Datum <placeName>Florencie</placeName> sexto decimo kal. augusti anno tercio.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

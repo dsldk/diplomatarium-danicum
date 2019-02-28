@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2014</date>
         <idno type="dd">14180130004</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -114,7 +116,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Antonius. xxii. 12. kal. aug. anno 1. de Ponto</ab>
+                  <ab>Påskrift: <q>Antonius. xxii. 12. kal. aug. anno 1. de Ponto</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -130,12 +132,13 @@
         </listWit>
         <listBibl>
           <bibl>APD II 258 nr. 1240</bibl>
+          <bibl>Repertorium Germanicum IV nr. 14162</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +151,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1418-01-30" notBefore="1418-01-30" notAfter="1418-01-30" cert="nil">1418. 30. januar</date>
+        <date when="1418-01-30" notBefore="1418-01-30" notAfter="1418-01-30" cert="high">1418. 30.
+          januar</date>
         <placeName cert="high">Konstanz</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler provsten i Eutin at reservere et beneficium i Eutin for slesvigkanniken Tymme Båd, som så skal opgive sin sognekirke i Haddeby.</ab>
+        <ab>Pave Martin 5. pålægger provsten i Eutin i Lübeck stift at reservere et beneficium i
+          Slesvig for Timme Båd, kannik sammesteds og sognepræst i Haddeby i samme stift. Når han
+          har opnået beneficiet, skal Timme opgive sognekirken i Haddeby.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,7 +166,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -171,10 +178,33 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Preposito ecclesie Uthinensis Lubicensis diocesis</persName>.</p>
+        <p>Dignum arbitramur etc.</p>
+        <p>Volentes itaque <persName>Tymmonem Boet</persName> canonicum <placeName>ecclesie
+            Slesvicensis</placeName>, qui ex utroque parente de militari <app>
+            <lem><supplied>genere</supplied></lem>
+            <rdg>suppleret i APD</rdg>
+          </app> procreatus existit, favore prosequi gratioso, discretioni tue mandamus, quatenus,
+          si post diligentem examinationem eundem Tymmonem ad hoc idoneum esse reppereris,
+          beneficium cum cura vel sine cura [fructus si cum cura 25, si vero sine cura 18 mr.] ad
+          collationem provisionem presentationem seu quamvis aliam dispositionem prepositi
+          archidiaconi cantoris thesaurarii et capituli singulorumque canonicorum et personarum
+          dicte ecclesie pertinens, etiam si dignitas personatus vel officium in dicta ecclesia seu
+          prepositura ruralis fuerit, et ad illam illum vel illud consueverit quis per electionem
+          assumi, eique cura immineat animarum, dummodo dignitas ipsa major post pontificalem aut
+          beneficium hujusmodi canonicatus et prebenda in eadem ecclesia non existat, si quod vacat
+          ad presens vel cum vacaverit ..., conferendum eidem Tymmoni donationi tue auctoritate
+          nostra reserves ......., non obstante quod idem Tymmo canonicatum et prebendam dicte
+          ecclesie necnon <placeName>parrochialem ecclesiam s. Andree in Haddebu</placeName>
+          Slesvicensis diocesis [fructus 16 mr.] noscitur obtinere.</p>
+        <p>Nos enim volumus, quod idem Tymmo, quamprimum vigore presentium beneficium seu officium
+          cum cura aut dignitatem vel personatum hujusmodi fuerit pacifice assecutus, parrochialem
+          ecclesiam predictam, quam extunc vacare decernimus, omnino dimittere teneatur.</p>
+        <p>Datum Constantie 3. kal. febr. anno 1.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

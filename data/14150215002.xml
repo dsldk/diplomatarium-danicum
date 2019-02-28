@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2014</date>
         <idno type="dd">14150215002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -114,7 +116,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Franciscus. CL. de Agello</ab>
+                  <ab>Påskrift: <q>Franciscus. CL. de Agello</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -135,7 +137,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +150,20 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1415-02-15" notBefore="1415-02-15" notAfter="1415-02-15" cert="nil">1415. 15. februar</date>
+        <date when="1415-02-15" notBefore="1415-02-15" notAfter="1415-02-15" cert="high">1415. 15.
+          februar</date>
         <placeName cert="high">Konstanz</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler biskopperne i Posen og Lebus og dekanen i Magdeburg at hjælpe de søfarende og skibbrudne i Kammin, Roskilde, Ratzeburg og Schwerin stifter mod plyndringer.</ab>
+        <ab>Pave Johannes 23. pålægger efter anmodning af indbyggerne i Cammin, Roskilde, Ratzeburg
+          og Schwerin stifter biskopperne i Poznań og Lebus samt dekanen i Magdeburg at hjælpe
+          skibbrudne i de nævnte stifter mod de overgreb og plyndringer, som nogle gejstlige og
+          verdslige herrer begår, at sørge for, at den kanoniske ret bliver overholdt, at bandlyse
+          forbryderne offentligt og i øvrigt gøre alt, hvad de finder tjenligt, om nødvendigt endog
+          kalde verdslig magt til hjælp.</ab>
+        <ab>Endvidere giver han dem fuldmagt til at stævne gerningsmændene, deres bagmænd og hvem
+          som helst, der hjælper dem i ord og gerning, og hvis disse ikke møder op som stævnet, at
+          dømme dem i deres fravær.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,7 +171,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-02-27" who="#pbh">Filen etableret af #pbh 2014-02-27. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -171,10 +183,101 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Poznaniensi et Lubucensi episcopis ac decano ecclesie Magdeburgensis.</p>
+        <p>Ad compescendos conatus nepharios perversorum, qui dei timore postposito manus reprobas
+          et rapaces ad personas et bona <app>
+            <lem>innocent<supplied>i</supplied>um</lem>
+            <rdg>således rettet i APD</rdg>
+          </app> extendere non verentur, tanto magis nos decet oportuno remedio providere, quanto
+          peramplius tendunt in divine majestatis offensam et in dispendium plurimorum.</p>
+        <p>Sane licet dudum per sacros canones salubriter ordinatum fuerit, quod omnes illi, qui
+          Romanos et alios christianos pro negotiatione et aliis honestis causis navigio vectos aut
+          capere vel rebus suis spoliare presumerent, et <app>
+            <lem>illos</lem>
+            <rdg>fejl for <q>illi</q></rdg>
+          </app> etiam, qui christianos naufragium patientes, quibus secundum regulam fidei potius
+          auxilio esse tenerentur, damnata cupiditate spoliare rebus suis presumerent, nisi ablata
+          redderent, excommunicationi se cognoscerent subjacere, sitque etiam provide imperiali
+          constitutione sancitum, quod navigia, quocumque locorum pervenerint, si quo casu
+          contingente rupta fuerint vel aliter ad terram pervenerint, tam navigia ipsa quam in illis
+          navigantium bona eis <app>
+            <lem>integre reserventur, ad quos spectabant</lem>
+            <rdg>således rettet i APD</rdg>
+            <rdg><q>ad quos spectabant integre reserventur</q> Aa</rdg>
+          </app>, antequam navigia hujusmodi periculum incurrissent, sublata penitus et omnino
+          locorum consuetudine, que ipsi adversatur imperiali sanclioni, nisi talia sint navigia,
+          que piraticam exerceant pravitatem aut sint Christi nominis transgressores, tamen, sicut
+          exhibita nobis nuper pro parte civium opidanorum habitatorum et incolarum civitatum
+          opidorum et villarum Caminensis Roskildensis Razeburgensis et Zwerinensis civitatum et
+          diocesium petitio continebat, nonnulli archiepiscopi episcopi et alii ecclesiastici
+          prelati necnon duces principes comites barones nobiles milites et alie seculares
+          potestates, precipue in partibus occidentalibus et maritimis constituti, per quorum
+          dominia districtus et territoria sive in mari aut aliquibus publicis fluminibus cum
+          navibus sive navigiis personis et mercibus oneratis quamplures mercatores cives opidani
+          habitatores et incole hujusmodi habent pro tempore pertransire, et quorum plerique propter
+          inundationes aquarum et tempestates maris aut alio casu fortuito cum personis et bonis,
+          que ducunt in eisdem navigiis, naufragium <app>
+            <lem><supplied>et jacturam bonorum sepius patiuntur, cum hujusmodi navigia
+                naufragium</supplied></lem>
+            <rdg>suppleret efter <ref target="14150210002">DD 1415. 10. feb., nr. 14150210002</ref>
+              i APD, udeladt i Aa</rdg>
+          </app> passa ventorum et marium necnon aquarum vehementia impellit ad littus vel ad terram
+          sive portus eorundem archiepiscoporum episcoporum et aliorum prelatorum necnon ducum
+          principum comitum baronum nobilium militum aut aliarum secularium potestatum in diversis
+          mundi partibus, afflictus addendo afflictioni ipsos naufragos, qui merces in eorum navibus
+          ad civitates opida et villas predicta navigando adducunt, <app>
+            <lem><supplied>molestant</supplied></lem>
+            <rdg>tilføjet i APD</rdg>
+          </app> et nonnullos etiam violenter et inhumaniter capiunt et bona apud ipsos et in eisdem
+          navigiis et alias quoquomodo reperta temere et malitiose dirripiunt sibique bona ipsa
+          appropriant et alias ipsos naufragos, quamvis piraticam non exercuerint pravitatem <app>
+            <lem>nec</lem>
+            <rdg>således rettet af Gertz</rdg>
+            <rdg><q>necnon</q> Aa</rdg>
+          </app> alios christianos sic navigando damnificaverint seu leserint, enormiter offendere
+          atque damnificare presumunt in animarum suarum periculum et scandalum plurimorum,
+          nichilominus eandem excommunicationis sententiam damnabiliter incurrendo, et etiam ipsas
+          imperiales sanctiones nequissime temere transgrediendo.</p>
+        <p>Quare pro parte dictorum civium opidanorum et incolarum fuit nobis humiliter supplicatum,
+          ut in premissis eis omnibusque aliis civitates opida et villas predicta navigio petentibus
+          in veniendo et recedendo super hoc oportune providere dignaremur.</p>
+        <p>Nos igitur discretioni vestre mandamus, quatenus vos vel duo aut unus vestrum, per vos
+          vel alios eisdem civibus opidanis habitatoribus incolis et aliis predictis in premissis de
+          oportune defensionis auxilio auctoritate apostolica assistentes, non permittatis eos per
+          archiepiscopos episcopos et alios prelatos necnon duces principes comites barones nobiles
+          milites et alias seculares potestates, cuiuscunque status extiterint, in premissis seu
+          contra easdem constitutiones canonicas et civiles indebite molestari aut in personis et
+          bonis hujusmodi damnificari, ipsasque constitutiones faciatis eadem auctoritate
+          inviolabiliter perpetuo observari, transgressores et violatores ac contemptores earundem
+          constitutionum excommunicatos nuntietis et per alios nuntiari faciatis in ecclesiis et
+          locis publicis, de quibus vobis visum fuerit expedire, quousque damna passis et aliis,
+          quorum interest, satisfecerint competenter et absolutionis beneficium ab hujusmodi
+          excommunicationis sententia meruerint obtinere, necnon omnia alia faciatis, que in
+          premissis fuerint quomodolibet oportuna, contradictores quoslibet et rebelles per censuram
+          ecclesiasticam appellatione etc. invocato ad hoc, si opus fuerit, auxilio brachii
+          secularis.</p>
+        <p>Ceterum, si forsan predictorum hujusmodi scelerum patratorum eaque fieri mandantium
+          ipsisque dantium in illis per se vel alios directe vel indirecte publice vel occulte
+          auxilium consilium vel favorem presentia pro monitionibus et requisitionibus de ipsis
+          faciendis eis secure vel comode haberi nequiret, nos vobis monitiones et requisitiones
+          hujusmodi ac citationes quaslibet per edicta publica in locis affigenda publicis, de
+          quibus sit verisimilis conjectura, quod ad notitiam citatorum et monitorum hujusmodi
+          pervenire valeant, faciendi plenam concedimus tenore presentium potestatem, et volumus,
+          quod monitiones requisitiones et citationes hujusmodi perinde ipsos citatos requisitos et
+          monitos artent, ac si eis facte et insinuate presentialiter et personaliter extitissent,
+          non obstantibus tam Bonifacii pape VIII, in quibus cavetur, ne aliquis extra suam
+          civitatem et diocesim nisi in certis exceptis casibus et in illis ultra unam dietam a fine
+          sue diocesis ad judicium evocetur, seu quod judices a sede deputati predicta extra
+          civitatem et diocesim, in quibus deputati fuerunt, contra quoscunque procedere sive aliis
+          vices suas committere aut aliquos ultra unam dietam a fine diocesis eorundem trahere non
+          presumant, ac de duabus dietis in concilio generali quam aliis quibuscunque
+          constitutionibus a predecessoribus nostris tam de judicibus delegatis quam personis ultra
+          certum numerum ad judicium non trahendis aut alias editis, que vestre possent in hac parte
+          jurisdictioni atque potestati ejusque libero exercitio quomodolibet obviare ...</p>
+        <p>Datum <placeName>Constantie</placeName> 15. kal. martii anno 5.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

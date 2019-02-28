@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">297</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14261013001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2970-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>24.5</height>
+                                    <width>30.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Hansestaden Wismars påtrykte segl i rødt voks</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. VIII., nr. 102.3, p. 73-74</bibl>
+               <bibl>Rep. nr. 6273</bibl>
+               <bibl>Hvitfeld IV 427, fol. 736 (udtog, med året 1427)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-10-13"
+                  notBefore="1426-10-13"
+                  notAfter="1426-10-13"
+                  cert="high">1426. 13. oktober</date>
+            <placeName cert="low">Wismar</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hansestaden Wismars fejdebrev til kong Erik 7. af Pommern.</ab>
+            <ab>I fejdebrevet erklærer borgmestre, rådmænd, borgere og indbyggere i byen Wismar krig mod
+      kong Erik af to årsager:</ab>
+            <ab>For det første erklærer Wismar krig på grund af den vold og uret, som kong Erik har påført
+      Wismars borgere og hanseforbundet, idet kong Erik selv, hans undersåtter og hans mænd har
+      brudt Wismars privilegier.</ab>
+            <ab>For det andet erklærer Wismar krig, fordi kong Erik ikke har holdt det lejde, som han havde
+      givet til byen Wismar og dens borgere, hvilket har påført byen og dens borgere stor
+      skade.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-15" who="#pbh">Filen etableret af #pbh 2014-07-15. </change>
+         <change when="2018-11-02" who="#smb">1. korrektur af #smb 2018-11-02. </change>
+         <change when="2019-01-18" who="#smb">2. korrektur af #smb 2019-01-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Grotmachtigen weldigen f{uo}rsten vnde heren . <persName>heren Erike der rike Dennemarken
+        Sweden Norwegen der Wende vnde Goten konynge</persName> etcetera . ♦</p>
+            <p n="a#2" xml:space="preserve">Wij borgermestere radmanne unde ghemeente der stad <placeName>Wismar</placeName> . d{oe}n iuw
+      witlijk nach temeliker gr{uo}te alze zijk n{uu} gheboret dat vmme des willen dat vnse
+      medeborghere vnse cøplude vnse denere vnde de yennen de wij plichtych synt to vordeghedingende
+      . van iuwer konyngliker ghewald vnde van iuwen vndersaten an iuwen rijken vnde ghebeden .
+      vorunrechtet vnde vorwaldet synt vnde daghelikes vorwaldet vnde swarliken beschedighet vnde
+      hindert werden an liue vnde g{uo}de sunder vnse vnde der vnsen schult vnde iegen vnse vnde
+      des ghemenen dudischen c{oe}pmans priuilegia vnde vryheyde . de vns vnde dem ghemenen
+      c{oe}pmanne van iuw vnde den iuwen nycht gheholden werden vnde mengerleye breke dar ane scheen
+      synt vnde gij ok iuwe velighe gheleyde dat gij vns ghezecht vnde vorzeghelt hebben /
+      zwarliken an den vnsen ghebroken hebben vnde van den iuwen hebben breken laten van wes wegen
+      wij vnde de vnsen groten vnvorwynnychliken schaden vntfangen unde leden hebben, dat wii juwer
+      koningliker macht vormyddest vnsen sendeboden vakene vorkundiget hebben vnde uns doch nycht
+      hulplijk is gheweset . ♦</p>
+            <p n="a#3" xml:space="preserve">Hirvmme m{uo}te wij vnde willen . iuwe . iuwer drier rike inwonere vnde iuwer vorscreven rike
+      vndersaten vnde hulpere wo men de benomen mach vyende wesen myt alle den yennen de wij dar to
+      vormøghen ♦</p>
+            <p n="a#4" xml:space="preserve">Vnde wij vnde alle de vnsen willen vns des an vnser ere tegen iuwe konynglike macht vnde
+      tegen iuwer vorscreven rijke vndersaten inwonere vnde hulpere . wol vorwaret hebben in crafft
+      desses breues ♦</p>
+            <p n="a#5" xml:space="preserve">Vnde des to merer witlicheyt so is vnser vorscreven stad jngheseghel neddene ghedrucket
+      vppe dessen breff de ghescreuen vnde gheuen is na der bord vnses heren Cristi verteynhundert
+      iar vnde in deme sosundetwintigisten iare des sondaghes na sunte Dyonisij daghe . des
+      hilghen mertelers ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

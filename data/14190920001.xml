@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2014</date>
         <idno type="dd">14190920001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -130,12 +132,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 243 nr. 5702</bibl>
+          <bibl>Repertorium Germanicum IV nr. 2770</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +151,15 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1419-09-20" notBefore="1419-09-20" notAfter="1419-09-20" cert="high">1419. 20. september</date>
+        <date when="1419-09-20" notBefore="1419-09-20" notAfter="1419-09-20" cert="high">1419. 20.
+          september</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Kong Erik får bevilget en udsættelse på et halvt år af den fordrede tilbagegivelse af forskellige besiddelser til kirken i Kammins vasaller, om hvilke besiddelser der havde været strid mellem Hartvig Bugislav af Pommern og biskop Magnus af Kammin.</ab>
+        <ab>Pave Martin 5. bevilger en supplik af kong Erik 7. af Pommern om at få den tidligere
+          bevilgede frist i sagen om Cammin bispestols besiddelser forlænget til fire år på grund af
+          sagens vanskelighed og landets fjerne beliggenhed. Bevillingen begrænses dog til seks
+          måneder.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,7 +167,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-16" who="#pbh">Filen etableret af #pbh 2014-04-16. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -171,10 +179,25 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Alias s. v. pro parte <persName>Erici</persName> Dacie etc. regis supplicato in forma, que sequitur,
+          videlicet: </p>
+        <p>Supplicat s. v. (etc. = <ref target="14190823001">DD 1419. 23. aug., nr.
+            14190823001</ref>).</p>
+        <p>Cum igitur grave sit castra predicta prefato condam <persName>Bugslao</persName> aliisque consanguineis ipsius
+          domini regis Dacie etc. non sine magna pecunie quantitate pignori obligata ad manus aliorum
+          nulla primitus solutione subsecuta reponi seu reponi facere dictusque terminus sex mensium
+          pro petita concordia propter nimiam locorum distantiam periculosamque ac difficilem maris
+          transfretationem partibus ipsis parum sit accommodus, utilis seu alias fructuosus,
+          supplicatur igitur s. v. pro parte dicti Erici regis etc., quatinus litteras apostolicas
+          super dicta petitione sive abolitione, cassatione seu cancellatione ejusdem conficiendas
+          dumtaxat usque ad quadriennium proxime futurum absque castrorum predictorum repositione
+          quacunque duraturas non obstante, quod tres sententie pro justificatione dicti pretensi
+          monitorii, ut dicitur, sint promulgate, expediri mandare dignemini ... </p>
+        <p>Fiat de aliis sex mensibus. O. </p>
+        <p>Datum <placeName>Florentie</placeName> 12. kal. oct. anno 2.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,185 +1,299 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Diplomatarium Danicum</title>
-        <editor>
-          <name xml:id="th">
-            <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
-            </persName>
-          </name>
-        </editor>
-        <funder>Carlsbergfondet</funder>
-      </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">345</num>, paragraphs: <num
+               n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
          </extent>
-      <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
-        <pubPlace>København</pubPlace>
-        <date>2016</date>
-        <idno type="dd">14250927002</idno>
-        <idno type="isbn">nil</idno>
-        <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness xml:id="A">
-            <msDesc>
-              <msIdentifier>
-                <settlement>empty</settlement>
-                <repository>empty</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>Tabt</ab>
-              </history>
-            </msDesc>
-          </witness>
-          <witness xml:id="Aa">
-            <msDesc>
-              <msIdentifier>
-                <settlement>København</settlement>
-                <repository>Rigsarkivet</repository>
-                <idno>empty</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>empty</ab>
-              </history>
-            </msDesc>
-          </witness>
-        </listWit>
-        <listBibl>
-          <bibl>APD II 379 nr. 1490</bibl>
-          <bibl>Reg. 3457</bibl>
-          <bibl>SRD VII 455</bibl>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
-      </samplingDecl>
-      <projectDesc>
-        <ab>DD-5</ab>
-      </projectDesc>
-      <appInfo>
-        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
-          <desc>nil</desc>
-        </application>
-      </appInfo>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1425-09-27" notBefore="1425-09-27" notAfter="1425-09-27" cert="high">1425. 27. september</date>
-        <placeName cert="high">Rom, Santi Apostoli</placeName>
-      </creation>
-      <abstract>
-        <ab>Paven opfordrer hertugerne Henrik, Adolf og Gerhard til at slutte fred med kong Erik.</ab>
-      </abstract>
-      <langUsage>
-        <language ident="la"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term>empty</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2014-07-03" who="#pbh">Filen etableret af #pbh 2014-07-03. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
-      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
-    </revisionDesc>
-  </teiHeader>
-  <facsimile>
-    <graphic url="nil"/>
-  </facsimile>
-  <text>
-    <body>
-      <div xml:lang="la">
-        <p n="a#1">empty</p>
-      </div>
-      <div xml:lang="da">
-        <p n="b#1">empty</p>
-      </div>
-    </body>
-  </text>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14250927002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>Tabt</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Gehejmearkivet</settlement>
+                        <repository>tabt</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>SRD VII p. 453 f., udgivet af Suhm 1792</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>SRD l.l.</bibl>
+               <bibl>Reg. 3457</bibl>
+               <bibl>APD II 379 nr. 1488</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa1</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-09-27" notBefore="1425-09-27" notAfter="1425-09-27" cert="high">1425.
+               27. september</date>
+            <placeName cert="unknown">Rom, Santi Apostoli</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Pave Martin 5. skriver til borgmestre og rådmænd i Lübeck, Wismar og Lüneburg og
+               meddeler, at han først har givet biskop Johannes af Lübeck i opdrag at forhandle fred
+               imellem kong Erik på den ene side og de slesvigske hertuger Heinrich, Adolf og
+               Gerhard på den anden. Tiden er kommet til yderligere foranstaltninger, hvorfor han nu
+               har givet ærkebiskop (Nicolaus) af Bremen mandat til at forhandle freden. Nicolaus
+               har fået fuldmagt til at foranstalte alt med parternes billigelse, til at ophæve eder
+               og i det hele taget til at gøre alt, hvad der tjener til at fremme freden og bilægge
+               striden og krigen imellem parterne.</ab>
+            <ab>Derfor opfordrer han borgmestrene og rådmændene til at gøre, hvad de kan, for at
+               bistå ved tilvejebringelsen af denne fred, idet intet et mere værdifuldt og mere kært
+               for Gud og kristenhedens samfund end freden, og intet er mere gavnligt for kongers og
+               fyrsters og deres undersåtters sikkerhed end at bringe fred til veje.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="2018-12-21" who="#pbh">2. korrektur af #pbh 2018-12-20. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Dilectis filiis proconsulibus et consulibus civitatis Lubicensis et Wismariensis
+                        ac Luneburgensis opidorum Razeburgensis et Verdensis <app><lem>diocesium</lem><rdg resp="#mh"><q>diocesis</q>, Aa1</rdg></app> salutem. </p>
+            <p n="a#2" xml:space="preserve">Quia
+                        pacem et concordiam inter carissimum in Christo filium nostrum Ericum regem
+                        Dacie illustrem, et dilectos filios nobiles viros Henricum, Adolffum et
+                        Gerardum fratres, duces Sleswicenses, vigere paternaliter affectamus, et illam non cessavimus nec cessamus, quantum cum deo possumus, paternaliter procurare,
+                        propterea post alias commissiones per nos factas venerabili fratri nostro
+                        Johanni episcopo Lubicensi dignum duximus eciam alia remedia querere, per
+                        que juxta desiderium cordis nostri inter ipsos regem et duces hujusmodi pax
+                        et concordia sequi <app><lem>possint</lem><rdg resp="#mh"><q>possit</q>, Aa1</rdg></app> et propterea scribimus super hoc venerabili fratri
+                        nostro archiepiscopo Bremensi, ut se interponat et pacem tractet nomine
+                        nostro inter regem ducesque prefatos, eciam communicato consilio vobiscum,
+                        quos non dubitamus, per vestram singularem fidem, omnem in hoc diligenciam
+                        et laborem fideliter impensuros; nam ad hoc opus pacis personam ipsius
+                        archiepiscopi plurimum valere putamus, et propter auctoritatem et graciam,
+                        quam habet apud homines, et propter illarum rerum cognicionem, et sapienciam
+                        suam, que res nobis spem indubiam pollicetur future composicionis et pacis,
+                        et ut res ista facilius sorciatur effectum, damus prefato archiepiscopo
+                        plenam per alias nostras literas potestatem omnia de consensu parcium
+                        faciendi, tractandi et concludendi, et etiam juramenta prestita relaxandi et alia faciendi, que <app><lem>circa 
+                           hujusmodi pacem et concordiam</lem><rdg resp="#mh"><q>certa hujusmodi pace et concordia</q>, Aa1</rdg></app> et pro tollendis
+                        controversiis, differentiis et discordiis inter ipsos regem et duces
+                        vigentibus cognoverit profutura. </p>
+            <p n="a#3" xml:space="preserve">Quocirca devocionem vestram
+                        requirimus et hortamur in domino, quantocius nobiscum pie considerantes
+                        bona, que ex pace proveniunt, et mala, que ex bellis et discordiis sequi
+                        solent, velitis pro hujusmodi pace et concordia vestris literis et nunciis
+                        apud regem ducesque prefatos ad omnem ipsius archiepiscopi requisicionem
+                        efficaciter interponere partes vestras, nec aliquid omittere, quod pro tam
+                        sancti prosecucione negocii vobis utilia vel necessaria videbuntur,
+                        inducendo eciam racionibus efficacibus, de quibus prudencie vestre
+                        videbitur, eosdem regem et duces ad pacem, qua nil in mundanis preciosius
+                        arbitramur, nec res deo pacis auctori accepcius, nobis gratius ac statui
+                        reipublice christiane ac pro securitate regum et principum, eorumque
+                        subditorum tranquillitate fieri potest utilius, quam pacem inter discordes,
+                        et inter contendentes salutarem concordiam procurare.</p>
+            <p n="a#4" xml:space="preserve">Datum Rome apud
+                        sanctos apostolos V kal. octobris anno octavo.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

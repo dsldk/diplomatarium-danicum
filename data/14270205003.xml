@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">185</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270205003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="a">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Altes Senatsarchiv (ASA), Externa, Danica 3.2. Krieg Erichs von Dänemark gegen die Grafen von Holstein</collection>
+                        <idno>signatur 03,1 (tidligere Dreyer, Acta Danica 1,4)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med overskrift: <q>Gerwino van den Espen</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Koncept</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. III, p. 3</bibl>
+               <bibl>Hanserec. VIII, nr. 130, p. 86 (regest)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-02-05"
+                  notBefore="1427-02-05"
+                  notAfter="1427-02-05"
+                  cert="low">[1427. 5. februar <note>Koncepten er udateret, men den er skrevet på samme ark papir som koncepten
+      <ref target="14250205002">DD 1427. 5. feb., nr. 14270205002</ref> og endvidere i
+    indholdsmæssig forlængelse af denne, hvorfor man må formode, at begge koncepter er udført på
+    samme tidspunkt</note>
+            </date>
+            <placeName cert="low">Lübeck]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Lübeck skriver til Gerwin v. d. Espen.</ab>
+            <ab>Rådet i Lübeck meddeler, at det har skrevet til hansekøbmændene i Brugge og England
+      vedrørende høvedsmændene Peter Johnson, Johann Bertramson, Michael Rute og Bartholomeus Vot, i
+      hvilken forbindelse rådet i Lübeck har bedt hansekøbmændene i Brugge og England om at overtale
+      de nævnte høvedsmænd til at gå i hansestædernes tjeneste. Dette skal ske, inden kong Erik 7.
+      af Pommern får overtalt de nævnte høvedsmænd til at gå i kongens tjeneste.</ab>
+            <ab>I forlængelse heraf opfordrer rådet i Lübeck Gerwin v. d. Espen til at hjælpe
+      hansekøbmændene i England i denne sag, idet det ville være til stor skade for hansestæderne,
+      om de nævnte høvedsmænd gik over til kong Erik.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-11-12" who="#smb">Filen etableret af #smb 2018-11-12. </change>
+         <change when="2018-11-12" who="#smb">1. korrektur af #smb 2018-11-12. </change>
+         <change when="2019-01-16" who="#smb">2. korrektur af #smb 2019-01-16. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Vnsen fruntliken grut mit begeringe alles guden touoren.</p>
+            <p n="a#2" xml:space="preserve"><persName>Gerwin</persName>, besunder gude vrunt.</p>
+            <p n="a#3" xml:space="preserve">Wy begeren ju weten, dat wy dem copmanne to <placeName>Brugge</placeName> vnde ok dem
+      copmanne in <placeName>Engelant</placeName> vorscriuen van wegen der houetlude, alse
+        <persName>Peter Johanssen</persName>, <persName>Johan Bertramesson</persName>,
+        <persName>Michel Ruten</persName> vnde <persName>Bartholomeus V{oe}te</persName>, so dat se
+      bearbeiden willen laten dorch ere merkliken bodesscopp in <placeName>Engeland</placeName> by
+      den suluen houetluden, dar mede se mit erer zeltschopp, schepen vnde were by de stede vnde vns
+      komen mochten, alse gi dat <app><lem>in vnseme breue</lem><rdg>dvs. <ref target="14270205002">DD 1427. 5. feb., nr. 14270205002</ref></rdg></app>, den wy dem copmanne vorscriuen, clarliker wol vernemende werden etcetera.</p>
+            <p n="a#4" xml:space="preserve">Begere wy vnde bidden ju fruntliken, dat gi der stede vnde vnser bestes by deme vorscreuen
+      kopmanne vortsetten willen vormiddelst juwer guden anwisinge, so dat de copmanne ere hemelken
+      bodesscopp darvmme sunder vertreck do by dem copmanne in <placeName>Engeland</placeName>, de
+      zaken mit den vorscreuen houetluden vnde erer zeltschopp vorder to handelende, also dat se to
+      der stede vnde vnsem denste vnde hulpe komen, wente gy suluen wol erkennen, wen se by den
+      heren koning qwemen, dat dat den steden vnde deme gemenen copmanne to vervange vnde to schaden
+      were.</p>
+            <p n="a#5" xml:space="preserve">Vns willen hirinne to bewisende, versculde wi vmme juwe leuen alle tyt gerne, wor wy
+      moghen.</p>
+            <p n="a#6" xml:space="preserve">Syt Gode beuolen.</p>
+            <p n="a#7" xml:space="preserve">Schreuen etcetera.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2014</date>
         <idno type="dd">14190717001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -84,8 +86,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>Suppl. 128 fol. 64r-v</msName>
+                <idno>Suppl. 128 fol. 64r-v</idno>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -130,12 +131,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 239 nr. 5696</bibl>
+          <bibl>Repertorium Germanicum IV nr. 14707</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +150,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1419-07-17" notBefore="1419-07-17" notAfter="1419-07-17" cert="high">1419. 17. juli</date>
+        <date when="1419-07-17" notBefore="1419-07-17" notAfter="1419-07-17" cert="high">1419. 17.
+          juli</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Vilhelm Chassipolli får stillingen som præceptor i antoniterklostret i Tempzin i Schwerin stift, hvorom han havde ført proces med den nu afdøde besidder deraf Tronetus de Bergnis, skønt han forud har samme stilling i Mårkær kloster (cf. nr. 5690)</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Guillelmus Chassipolli om provision på embedet som
+          præceptor i antonitterklostret i Tempzin i Schwerin stift, skønt han i forvejen blandt
+          andet besidder embedet som præceptor i Mårkær kloster i Slesvig stift.</ab>
       </abstract>
       <langUsage>
         <language ident="nil"/>
@@ -160,7 +165,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-16" who="#pbh">Filen etableret af #pbh 2014-04-16. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -171,10 +177,21 @@
   <text>
     <body>
       <div xml:lang="nil">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Pave Martin 5.</persName> bevilger en supplik af <persName>Guillelmus
+            Chassipolli</persName> om provision på embedet som præceptor i
+            <placeName>antonitterklostret i Tempzin i Schwerin stift</placeName>, <q>non
+            obstantibus, quod <gap>
+              <desc>...</desc>
+            </gap> quodque idem Guillelmus preceptoriam dicti sancti de
+              <placeName>Morker</placeName> Slesvicensis diocesis [fructus 300 librarum Turonensium <app>
+              <lem>parvarum</lem>
+              <rdg>således rettet i APD</rdg>
+              <rdg><q>parvorum</q> Aa</rdg>
+            </app>] obtineat</q>.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

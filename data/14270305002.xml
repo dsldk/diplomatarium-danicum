@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">96</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270305002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Altes Senatsarchiv (ASA), Externa, Danica 3.2. Krieg Erichs von Dänemark gegen die Grafen von Holstein</collection>
+                        <idno>signatur 1013 (tidligere ASA, Externa, Reste)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med adresse: <q>Eerbaren voirsienighen ende besceydenen onsen lieuen ende zere
+        geminden vrienden, den burgermeesteren ende raedmannen der stede Lubeke, Hamborch, Rozstock,
+        Stralessunde, Wismer, Lunenborch</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Spor efter rådet i Bruxelles' brevlukkende segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. VIII, p. 5</bibl>
+               <bibl>Hanserec. VIII, nr. 113, p. 78 (regest)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-03-05"
+                  notBefore="1427-03-05"
+                  notAfter="1427-03-05"
+                  cert="high">[1427.] 5. marts</date>
+            <placeName cert="low">[Bruxelles]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="nl"/>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Bruxelles skriver til hansestæderne Lübeck, Hamburg, Rostock, Stralsund, Wismar og
+      Lüneburg.</ab>
+            <ab>Rådet i Bruxelles meddeler, at det har set og forstået det åbne advarselsbrev, som de
+      vendiske hansestæders udsending har medbragt til Bruxelles, samt at det har ladet udfærdige en
+      kopi af dette brev.</ab>
+            <ab>Endvidere meddeler rådet i Bruxelles, at det vil give de vendiske hansestæders advarsel
+      videre til folkene i Bruxelles, således at de ikke kommer til at lide skade på grund af
+      krigen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-11-15" who="#smb">Filen etableret af #smb 2018-11-15. </change>
+         <change when="2018-11-15" who="#smb">1. korrektur af #smb 2018-11-15. </change>
+         <change when="2019-01-16" who="#smb">2. korrektur af #smb 2019-01-16. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="nl">
+            <p n="a#1" xml:space="preserve">Eerbare voirsienige lieue geminde vriende.</p>
+            <p n="a#2" xml:space="preserve">Wij hebben gesien ende guetlic gevisiteert ende verstaen <cit><quote>uwe openen brieue van wairscouwinghen</quote><bibl>det drejer sig her om de vendiske hansestæders brev til de nederlandske stæder
+          vedrørende afsendelsen af krigserklæringen til kong Erik 7. af Pommern, <ref target="14261119005">DD 1426. 19. nov. , nr. 14261119005</ref></bibl></cit>, die ghij met desen uwen bode nv wtgesonden hebt.</p>
+            <p n="a#3" xml:space="preserve">Wairop wij uwen voirsienighen eerbairheyden, lieue vriende, guetlic begheren te wetene, dat
+      wij uwen voirsienigen wijsheiden zere vriendelic bedancken van der goedtierenheyt, die v
+      gelieft heeft, ons hierin te bewisen, ende willen voirt dinhout uwer vorseiden brieue, dair
+      wij copie af hebben behouden, onsen ondersaten kundigen, dair dat behoiren sal.</p>
+            <p n="a#4" xml:space="preserve">Eerbare lieue vriende, de almechtige God van Hemelrijck hebbe v altijt in sijnre heyligen
+      hoeden.</p>
+            <p n="a#5" xml:space="preserve">Gescreuen vijf dage in meerte.</p>
+            <p n="a#6" xml:space="preserve">De stad van Bruessel.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
