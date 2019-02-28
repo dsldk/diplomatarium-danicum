@@ -3,22 +3,22 @@
     <p class="manchet">Diplomatarium Danicum udgiver kilderne til Danmarks historie i middelalderen
         i tekstkritisk udgave og i nudansk oversættelse. </p>
     <p> For tiden arbejdes med publicering af diplomer for perioden 1413 til 1439. Arbejdet
-        forventes færdigt medio 2021. Bemærk, at fra og med 2017 vil der ikke blive udarbejdet
+        forventes færdigt medio 2021. Bemærk, at der fra og med 2017 ikke vil blive udarbejdet
         oversættelser til diplomerne; de vil i stedet blive forsynet med en fyldig regest.</p>
     <p> Redaktionen består af:<br/>
         <br/>
         <a href="https://dsl.dk/medarbejdere/mh">Markus Hedemann</a>, ledende redaktør<br/>
         <a href="https://dsl.dk/medarbejdere/jon">Jonathan Adams</a>, seniorredaktør<br/>
-        <a href="https://dsl.dk/medarbejdere/maria.arvidsson">Maria Arvidsson</a>, redaktør<br/>
-        <a href="https://dsl.dk/medarbejdere/smb">Sebastian Møller Bak</a>, redaktør<br/>
-        <a href="https://dsl.dk/medarbejdere/pbh">Peter Bruun Hansen</a>, assisterende redaktør<br/>
+        <a href="https://dsl.dk/medarbejdere/maria.arvidsson">Maria Arvidsson</a>, seniorredaktør<br/>
+        <a href="https://dsl.dk/medarbejdere/smb">Sebastian Møller Bak</a>, seniorredaktør<br/>
+        <a href="https://dsl.dk/medarbejdere/pbh">Peter Bruun Hansen</a>, redaktør<br/>
         <a href="https://dsl.dk/medarbejdere/alk">Anders Leegaard Knudsen</a>, seniorredaktør<br/>
     </p>
     <p>Fagligt tilsyn varetages af: <br/>
-        <br/>Bent Jørgensen, professor, dr.phil.<br/> Rikke Agnete
-        Olsen, forfatter, cand.mag.<br/> Chr. Gorm Tortzen, lektor, cand.mag.<br/> Helle Vogt,
-        lektor, ph.d.</p>
-    <p>Websitet er udviklet af: Thomas Hansen og Jonas Nielsen. Grafisk design ved <a href="http://kathart.dk">Kathart Interactive ApS</a>
+        <br/>Bent Jørgensen, professor emeritus, dr.phil.<br/> Rikke Agnete Olsen, forfatter, cand.mag.<br/>
+        Chr. Gorm Tortzen, lektor, cand.mag.<br/> Helle Vogt, professor, ph.d.</p>
+    <p>Websitet er udviklet af: Thomas Hansen og Jonas Nielsen. Grafisk design ved <a
+            href="http://kathart.dk">Kathart Interactive ApS</a>
     </p>
     <p>Projektet finansieres af <a href="http://www.carlsbergfondet.dk">Carlsbergfondet</a> og
         udgives af <a href="http://dsl.dk">Det Danske Sprog- og Litteraturselskab</a>
@@ -51,8 +51,21 @@
         af hhv. <a href="https://dsl.dk/publication?id=140">Diplomatarium Danicum</a> og
         oversættelsesserien <a href="https://dsl.dk/publication?id=122">Danmarks Riges Breve</a>. </p>
     <h2>3. Søgning</h2>
-    <p>Søgefunktionen understøtter endnu kun fritekstsøgning og understøtter hverken trunkering
-        eller brug af logiske operatorer.</p>
+    <p>Søgefunktionen er fritekstsøgning i dokumenternes tekst, oversættelse og metadata, dvs.
+        regest, arkivalske oplysninger m.m.</p>
+    <p>Følgende operatorer kan benyttes i søgningen:</p>
+    <ul>
+        <li>En søgestreng omsluttet af dobbelte anførselstegn, "", søger efter den ordrette
+            søgestreng. For eksempel finder søgningen <em>Jens Andersen Lodehat</em> alle
+            forekomster af navnene <em>Jens</em>, <em>Andersen</em> og/eller <em>Lodehat</em> uden
+            hensyn til hvor mange af ordene der optræder i det enkelte dokument (febr. 2019: 1523
+            forekomster). Søgningen <em>"Jens Andersen Lodehat"</em> finder derimod kun dokumenter
+            hvor denne specifikke streng er til stede (febr. 2019: 42 resultater).</li>
+        <li>* erstatter nul, ét eller flere vilkårlige tegn. Søgestrengen <em>hest*</em> finder for
+            eksempel både <em>hest</em>, <em>heste</em> og <em>hestene</em>.</li>
+        <li>? erstatter præcis ét tegn. Søgestrengen <em>h?st</em> finder således <em>hest</em> og
+                <em>høst</em>, men ikke <em>hingst</em>.</li>
+    </ul>
 
     <!--<h3>Korrekt citering</h3>
     
@@ -68,7 +81,7 @@
         af Diplomatarium Danicum udkom i 1938. For en nøjere beskrivelse af disse principper
         henvises derfor til dette bind, dvs. 2. rk. I p. VII ff. Hovedpunkterne skal dog gentages
         her:</p>
-    <h3>4.1 Interpunktion, linie- og sideskift</h3>
+    <h3>4.1 Interpunktion, linje- og sideskift</h3>
     <p>1. Middelalderlig interpunktion gengives på tre måder:</p>
     <ol>
         <li>punkt (.)</li>
@@ -78,14 +91,15 @@
     <p>Alle tegn, der <em>ikke</em> optræder som punkt '.', opadgående skråstreg '/' eller
         nedadgående skråstreg '\', normaliseres til '\'. </p>
     <p>2. Til markering af periodeinddelinger suppleres teksten med rhombe (♦).</p>
-    <p>3. Interpunktion sættes med mellemrum før og mellemrum efter. Således fx <a href="http://diplomatarium.dk/dokument/14231101001">Diplomatarium Danicum nr.
+    <p>3. Interpunktion sættes med mellemrum før og mellemrum efter. Således fx <a
+            href="http://diplomatarium.dk/dokument/14231101001">Diplomatarium Danicum nr.
             14231101001</a>
         <blockquote> Wir Sigmund von gotes gnaden Romischer kunig <strong>.</strong> zu allenczeiten
             merer des reichs / vnd zu Vngern zu Behem Dalmacien Croacien etcetera kunig
                 <strong>.</strong> bekennen vnd tun kunt offenbar mit disem brieff allen den die in
             sehen / oder hören lesen / ♦ </blockquote>
     </p>
-    <p>4. Linie- og sideskift angives ikke.</p>
+    <p>4. Linje- og sideskift angives ikke.</p>
     <h3>4.2 Diakritiske tegn</h3>
     <p> Overstillede tegn gengives, for så vidt der skønnes at være skrifttypeunderstøttelse herfor,
         som de fremtræder. Ellers sættes de to tegn i parentes: {}. Således kan det udbredte ů
@@ -110,14 +124,16 @@
     <p>I noterne gengives disse: <blockquote>2. &lt;que&gt;] uel <em>Aa1</em>; 3. exeptis] =
             exceptis]</blockquote>
     </p>
-    <p>I tilfælde af at en læsemåde umuligt lader sig rette, indrammes den med † †. Således <a href="http://diplomatarium.dk/dokument/12140301001">
+    <p>I tilfælde af at en læsemåde umuligt lader sig rette, indrammes den med † †. Således <a
+            href="http://diplomatarium.dk/dokument/12140301001">
             http://diplomatarium.dk/dokument/12140301001</a>: <blockquote> … quasdam tam super
             matrimonio inter †Necui† . et N …</blockquote>
     </p>
     <h3>4.5 Henvisninger</h3>
     <p>Således som redaktionelle noter til lakuner og konjekturer angives med arabertal, angives
         også øvrige tekstkritiske bemærkninger. Citathenvisninger, typisk til Bibelen eller kanonisk
-        ret, angives med bogstaver. Således <a href="http://diplomatarium.dk/dokument/14100417001">http://diplomatarium.dk/dokument/14100417001</a>: <blockquote> … homo natus de muliere
+        ret, angives med bogstaver. Således <a href="http://diplomatarium.dk/dokument/14100417001"
+            >http://diplomatarium.dk/dokument/14100417001</a>: <blockquote> … homo natus de muliere
             breui uiuens tempore repletur multis miseriis qui quasi flos egreditur et conteritur et
             fugit uelud umbra et numquam in eodem statu permanet<sup>a</sup> … ciuitatem
                 manentem<sup>2</sup> exstat transeundum ut homo … </blockquote>
