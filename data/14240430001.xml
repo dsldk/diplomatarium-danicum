@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">188</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14240430001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>SDHK nr. 20267</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Samme hånd som <ref target="14240225001">DD 1424. 25. feb., nr. 14240225001</ref>
+                              </ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå (senere hånd): <q>Østræthorløse pante breff</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Hans Spaldeners segl i lyst voks i perg.rem, <ref>AS H xxiv 2 (s' iohannis petri)</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Brudstykke i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Jens (eller Niels) Hågensen af Strös segl i lyst voks i perg.rem, <ref>AS M 69 (s' nicolai haquini)</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6099</bibl>
+               <bibl>SDHK nr. 20267</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 21</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-04-30"
+                  notBefore="1424-04-30"
+                  notAfter="1424-04-30"
+                  cert="high">1424. 30. april</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hans (Pedersen) Spaldener, væbner, har overladt et pantebrev og alle sine rettigheder i en
+      gård i Östra Torrlösa (Torrlösa sogn, Onsjö herred) til hr. Niels Svendsen (Sparre) i Ellinge,
+      ridder. Hans Spaldener havde gården i pant af Henrik Jensen, væbner, der i otte år ikke har
+      kunnet indløse den, og i den tid havde Hans Spaldener ikke kunnet oppebære indtægter af gården
+      på grund af Henrik Jensens mangelfulde hjemmel.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-17" who="#pbh">Filen etableret af #pbh 2014-06-17. </change>
+         <change when="99999999" who="#jon">1. korrektur af #jon 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ men th<ex>et</ex>te breff hør<ex>e</ex> eller see hilser jac <app><lem><persName>Hans Spoldener</persName></lem><rdg wit="#A">Understreget m. sort, A</rdg></app> awapn ewi<ex>n</ex>nelighæ met gwdh ♦</p>
+            <p n="a#2" xml:space="preserve">Th<ex>et</ex> skal allæ men with<ex>er</ex>likh war<ex>e</ex> nerwerend<ex>es</ex> ok
+      ko<ex>m</ex>meskulend<ex>es</ex> at jac with<ex>er</ex>ke<ex>n</ex>nis mik met thette mith
+      opnæ breff at hawæ en welborin man the<ex>n</ex>ne brefførr<ex>e</ex> h<ex>er</ex>
+      <app><lem><persName>Niels Suenss<ex>øn</ex></persName> i <placeName>Ellingæ</placeName></lem><rdg wit="#A">Understreget m. sort, A</rdg></app> ridder<ex>e</ex> <app><lem>eth breff</lem><rdg resp="#jon">Kendes ikke</rdg></app> som jac haw<ex>er</ex> po en gordh som ligg<ex>er</ex> j <app><lem><placeName>Øst<ex>ræ</ex> Thorløsæ</placeName></lem><rdg wit="#A">Understreget m. sort, A</rdg></app> j <placeName>Othensh<ex>er</ex>r<ex>et</ex></placeName> m<ex>eth</ex> al the<ex>n</ex>
+        for<hi rend="sup">de</hi> gordzs tilliggilsæ at hawæ opladith m<ex>eth</ex> al ret ok wilkor
+      som mi<ex>n</ex> breff wtuisæ huilkin gord jac fik til pant off <persName>Hinrik
+        Jenss<ex>øn</ex></persName> awapn ♦</p>
+            <p n="a#3" xml:space="preserve">Item lader jac hanu<ex>m</ex> op al then rettikheth som jac til hanu<ex>m</ex> haw<ex>er</ex>
+      for thy at han the<ex>n</ex> for<hi rend="sup">de</hi> gordh til pant haffte sath j viij aar
+      ok han eig j gen kunne løsæ ok jac ombar al mi<ex>n</ex> opbørelsæ off then for<hi rend="sup">de</hi> gordh for hans wanhi<ex>m</ex>mil ♦</p>
+            <p n="a#4" xml:space="preserve">Item binder jac mik ok minæ arwingæ at fri for<hi rend="sup">de</hi> h<ex>er</ex>
+      <persName>Niels Suenss<ex>øn</ex></persName> ok hans arwingæ for<hi rend="sup">de</hi> pant ok
+      breff for huer manzs tiltal ♦</p>
+            <p n="a#5" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis bonorum virorum videlicet
+        <persName>Johanni Stigss<ex>øn</ex></persName> de <placeName>Nes</placeName>
+      <persName>Erici Nicholai</persName> de <placeName>Kattisnabæ</placeName> et <persName>Johanni
+        Haquini</persName> de <placeName>Strø</placeName> armigerorum presentibus est appensum
+      ♦</p>
+            <p n="a#6" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cdxxiiii dominica quasi modo geniti ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

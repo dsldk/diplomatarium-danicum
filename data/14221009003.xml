@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">237</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14221009003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2787-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10.2 (plica: 1.3)</height>
+                                    <width>21.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Plica udfoldet</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskrift m. sen. hd.: <q>Wedh<ex>e</ex>rkendels<ex>es</ex> breff
+        paa Snesørdhe</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Brevet er registreret i Roskilde St. Agnete kl. reg. (1575), trykt i ÆA IV 277 nr. A. 4</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 198</bibl>
+               <bibl>Rep. nr. 5983</bibl>
+               <bibl>Vejledende Arkivreg. XVII 365 nr. 129</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-10-09"
+                  notBefore="1422-10-09"
+                  notAfter="1422-10-09"
+                  cert="high">1422. 9. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Henneke (Hennekesen) Bosendal, væbner, erkender at have i leje af sankt Agnete kloster i Roskilde alt
+      deres gods i Snesere. Godset må han frit benytte indtil sin død, på det vilkår, at han skal
+      holde bebygget og beboet gods i god stand samt at han hvert år før sankt Nikolaus' dag
+      skal give klosteret 20 lybske mark. Såfremt han ikke overholder de nævnte betingelser,
+      har klosteret ret til at tilbagekalde deres gods og brev. Efter Henneke Bosendals
+      død, skal godset vende tilbage til klosteret.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
+         <change when="2018-11-07" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-11-07. </change>
+         <change when="2019-02-07" who="#alk">2. korrektur af #alk 2019-02-07. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn th<ex>et</ex>tæ breff see <app><lem>[æl]ler</lem><rdg wit="#A">hul i brevet; <q>æ</q> er helt gået tabt, imens <q>l</q> delvis kan ses</rdg></app> høræ læsit helsær jæch
+        <persName>He<ex>n</ex>nikæ <app><lem>Bossend[æ]læ</lem><rdg wit="#A">utydeligt, A</rdg></app></persName> aff wapn ewinnælighe meth
+      guth och kungør alle mæn nærwærindæ oc ko<ex>m</ex>mæ skulindæ ath jæch vedær kænnær megh meth
+      th<ex>et</ex>tæ mith vpnæ <app><lem>br[e]ff</lem><rdg wit="#A">utydeligt, A</rdg></app> aff hedærlighe frowær oc søst<ex>er</ex> j sancte
+      Agnet<ex>is</ex> klost<ex>er</ex> j <placeName>Rosk<ex>ildis</ex></placeName>
+      j leyiæ ath hawæ alt theræs gotz som the hawæ j Snesør sa som ær en <app><lem>h[o]wæth</lem><rdg wit="#A">usikker læsning, <q>o</q> ændret fra et <q>a</q>?, A</rdg></app> gradh meth sinæ gardhsædæ stafnæ och thre landbo stafnæ meth alle theræs
+      tilligelsæ agær oc æng skow oc feskæwan wath oc thyrut enktæ vndær tagæth j
+      minæ daghe fri ath nydæ oc skikæ eft<ex>er</ex> mith gaafn meth sadant skiæl ath jæch skal
+      holdæ th<ex>et</ex> samæ gotz bygth oc besæt j godhe madæ oc giwæ them hwær aar thyuwæ lubiskæ
+      mark j pe<ex>n</ex>ninghe som gewæ oc gængæ æræ j <placeName>Siælend</placeName> jnnæn sancti
+      Nicolai dagh thimælighe ath betale hwær aar j vorth klost<ex>er</ex> j
+        <placeName>Rosk<ex>ildis</ex></placeName> ♦</p>
+            <p n="a#2" xml:space="preserve">Oc vordær th<ex>et</ex> saa ath jæch thessæ vilkor jkkæ holdær som nw foræ sc<ex>re</ex>wænæ
+      standær tha skulæ the oc theræ eft<ex>er</ex> ko<ex>m</ex>mære full macht hawæ jgen ath kallæ
+      theræs gotz oc theræ breff ♦</p>
+            <p n="a#3" xml:space="preserve">Item nær jæch <app><lem>a[f]f</lem><rdg wit="#A">hul i brevet, A</rdg></app> gang<ex>er</ex> tha skal th<ex>et</ex> fornæfdæ gotz frith meth bygningh oc
+      vornæthe som th<ex>et</ex> tha finnæs jgen ko<ex>m</ex>mæ til theræs klost<ex>er</ex> vden
+      alle mæntz gensiælsæ ♦</p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis honorabilium virorum videlicet
+        <persName>domini Michaelis Clementis canonici in ecclesia Roskildensi</persName> et
+        <persName>Inguari Andree proconsulis Roskildensis</persName> presentibus est appensum
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cdxx<hi rend="sup">o</hi> secundo die sancti
+      Dionisii episcopi ♦</p>
+            <p n="a#6" xml:space="preserve"> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

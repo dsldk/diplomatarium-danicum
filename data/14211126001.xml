@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2015</date>
         <idno type="dd">14211126001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -111,7 +113,55 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Ja. L. de Cerretanis</ab>
+                  <ab>Påskrift: <q>Ja. L. de Cerretanis</q></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Ab">
+            <msDesc>
+              <msIdentifier>
+                <settlement>København</settlement>
+                <repository>Arnamagnæanske samling</repository>
+                <idno>AM 902 a 4to (tidl. København, Universitetsbiblioteket, Additamenta 98 4to)
+                  fol. 14r-15r (s. 17-19)</idno>
+                <msName>Munkeliv klosters brevbog</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -127,14 +177,17 @@
         </listWit>
         <listBibl>
           <bibl>APD II 326 nr. 1379</bibl>
-          <bibl>Reg. *4593</bibl>
-          <bibl>Munch, Cod. diplom. Munkaliv s. 17-9</bibl>
+          <bibl>Reg. Dan. *4593</bibl>
+          <bibl>Munch, Codex diplomatarius monasterii Sancti Michaelis, Bergensis dioecesis, vulgo
+            Munkalif dicti ... (Oslo 1845), s. 17-9</bibl>
+          <bibl>Dipl. Norv. XII 132 nr. 172 (efter Ab), og XVII 933 nr. 989 (efter Aa); de to
+            udgaver afviger på adskillige punkter</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog efter Ab.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -147,11 +200,29 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1421-11-26" notBefore="1421-11-26" notAfter="1421-11-26" cert="high">1421. 26. november</date>
-        <placeName cert="high">Rom</placeName>
+        <date when="1421-11-26" notBefore="1421-11-26" notAfter="1421-11-26" cert="high">1421. 26.
+            november<note>Kong Eriks supplik findes også (Dipl. Norv. XVII 328 nr. 415), med den
+            indskrænkning i bevillingen, at det kun skal gælde, hvis klostret ikke selv kan varetage
+            omdannelsen (<q>Fiat in casu quo non possit reformacio fieri de
+          monasterio</q>)</note></date>
+        <placeName cert="high">Rom, San Pietro</placeName>
       </creation>
       <abstract>
-        <ab>paven overdrager efter kong eriks ansøgning biskoppen i bergen at forandre benediktinerklostret munkeliv i bergen, hvor der kun var to munke tilbage, til et birgittinerkloster og overgive det til munke fra maribo kloster.</ab>
+        <!--   <ab>Pave Martin 5. pålægger biskoppen i Bergen at undersøge sagsforholdet i en supplik af
+          kong Erik 7. af Pommern, hvoraf det fremgår, at benediktinerklostret Munkeliv i Bergen
+          stift kun er beboet af abbeden og en eneste munk og er misligholdt, og at kongen ønsker at
+          grundlægge et birgittinerkloster i dette klosters sted; hvis det viser sig at være sandt,
+          at Munkeliv kloster er i denne tilstand og ikke selv kan reformere sig, skal biskoppen af
+          Bergen nedlægge benediktinerklostret, oprette et birgittinerkloster, i den første tid
+          overdrage alle klostrets besiddelser til prioren og brødrene i Maribo klosters
+          disposition, og tillade de resterende munke i Munkeliv at omvende sig til
+          birgittinerordenen.</ab>-->
+        <ab>Pave Martin 5. pålægger efter supplik af kong Erik 7. af Pommern biskoppen i Bergen at
+          omdanne benediktinerklostret Munkeliv i Bergen stift til et birgittinerkloster; prioren og
+          brødrene fra Maribo kloster i Odense stift skal i begyndelsen modtage alle klostrets
+          indtægter, varetage indretningen af klostret og optagelsen af nye personer, og såfremt
+          abbeden og de eventuelt tilbageværende benediktinermunke ønsker det, optage disse i
+          birgittinerordenen uden et års prøveperiode.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -164,7 +235,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Dipl. Norv.) og arkivalske oplysninger indsat af
+        th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -175,11 +247,107 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <!-- <p n="a#1"><persName>Martinus</persName> episcopus servus servorum dei venerabili fratri
+          episcopo <placeName>Bergensi</placeName> salutem et apostolicam benediccionem &#9830; </p>
+        <p>Piis et devotis supplicancium votis libenter annuimus illaque favoribus prosequimur
+          oportunis &#9830; </p>
+        <p>Exhibita siquidem nobis nuper pro parte carissimi in Christo filii nostri
+            <persName>Erici</persName> Dacie Swecie et Norwegie regis illustris peticio continebat
+          quod licet in regno suo <placeName>Norwegie</placeName> a progenitoribus suis quondam
+          Norwegie regibus multa monasteria diversorum ordinum fundata et honorifice dotata fuissent
+          . eorum tamen ad que populi illarum partium major viget devocio videlicet sanctarum Marie
+          et Birgitte ordinis sancti Augustini sancti Salvatoris nuncupati nullum <app>
+            <lem>monasteriorum</lem>
+            <rdg>antagelig fejl for <q>monasterium</q></rdg>
+          </app> hactenus habuerint &#9830; jam enim ad gloriam dei omnipotentis beateque virginis
+          Marie et sancte Birgitte honorificenciam lacius ampliandam ipsiusque regis spirituale
+          gaudium ceterorumque in ipso regno Norwegie degencium salutaris edificacionis exemplum
+          locum dicto ordini congruentem licet a nonnullis prelatis dicti regni et eciam a dilectis
+          filiis fratribus monasterii in <placeName>Marienbo</placeName> dicti ordinis sancti
+          Augustini sancti Salvatoris nuncupati <placeName>Ottoniensis</placeName> dyocesis ad
+          ejusdem regis instanciam diligenti inquisicione prehabita (non invenerint) locum apciorem
+          quam <placeName>Muncliui</placeName> appellatum Bergensis dyocesis in quo loco eciam per
+          progenitores ejusdem regis monasterium sancti Benedicti dudum fundatum erat et in quo iam
+          propter guerrarum turbines <app>
+            <lem><supplied>et</supplied></lem>
+            <rdg>suppleret efter supplikken, DN XVII 328 nr. 415 (s. 329)</rdg>
+          </app> frigescenciam devocionis populi quasi nulla nisi per duos videlicet per abbatem et
+          unum monachum jam senio gravatos ipsius ordinis sancti Benedicti religionis observancia
+          celebratur &#9830; </p>
+        <p>Quare ne locus ipse ad prophanos usus redigatur sed ibidem Christi fidelium reviviscat
+          devocio et fervor devocionis eorundem alcius suscitetur pro parte ejusdem regis nobis fuit
+          humiliter supplicatum quatenus locum Muncliui et monasterium sancti Benedicti predicta in
+          monasterium sanctarum Marie et Birgitte ordinis sancti Augustini sancti Salvatoris
+          nuncupati commutare dictumque ordinem sancti Benedicti et nomen abbatis ibidem supprimere
+          et in eodem loco monasterium sanctarum Marie et Birgitte cum omnibus necessariis officinis
+          erigere de speciali gracia dignaremur &#9830; </p>
+        <p>Nos igitur ipsius regis supplicacionibus inclinati qui eciam divinum cultum adaugeri
+          nostris temporibus intensis desideriis affectamus, fraternitati tue per apostolica scripta
+          committimus et mandamus quatenus si est ita specialiter si monasterium ipsum sancti
+          Benedicti per prefatos abbatem et monachos non poterit reformari . locum et monasterium
+          ordinis sancti Benedicti predicta in monasterium sanctarum Marie et Birgitte ordinis
+          sancti Augustini sancti Salvatoris nuncupati . suppresso dicto ordine sancti Benedicti et
+          nomine abbatis . ibidem erigas et commutes ita quod locus et monasterium hujusmodi .
+          monasterium sanctarum Marie et Birgitte ordinis sancti Augustini sancti Salvatoris
+          nuncupati perpetuis futuris temporibus nuncupetur et appelletur ubi per personas inibi
+          instituendas regularis observancia secundum ordinaciones et instituta regularia supradicti
+          ordinis sancti Augustini sancti Salvatoris nuncupati prout in aliis monasteriis ipsius
+          ordinis sancti Augustini sancti Salvatoris nuncupati observari consvetum est
+          inviolabiliter observetur . quodque prior et fratres prefati monasterii in Marienbo locum
+          et monasterium in Muncliui per te ut <app>
+            <lem>permittitur</lem>
+            <rdg><q>= premittitur</q></rdg>
+          </app> in monasterium sanctarum Marie et Birgitte erectum et commutatum cum omnibus et
+          singulis bonis . fructibus redditibus proventibus juribus et obvencionibus suis ubicunque
+          situatis extunc recipere et apprehendere libere . ac in eodem loco de omnibus officinis
+          necessariis necnon de personis inibi recipiendis et profitendis secundum ordinaciones et
+          instituta predicta hujusmodi ordinis sancti Augustini hac prima vice licite disponere
+          valeant ac possint . ac quod abbatem et monachos siqui supersint ipsius monasterii
+          Muncliuj ordinis sancti Benedicti absque aliqua contradiccione et anno probacionis si hoc
+          pecierint in dicto monasterio sanctarum Marie et Birgitte recipere possint et valeant
+          demumque dictum sit erectum monasterium sanctarum Marie et Birgitte cum omnibus bonis
+          juribus fructibus . redditibus proventibus ac personis suis omnibus et singulis
+          immunitatibus exempcionibus privilegiis indulgenciis . libertatibus et graciis uti et
+          gaudere libere debeant et ualeant quibus alia monasteria dicti ordinis sancti Augustini
+          sancti Salvatoris nuncupati quomodolibet gaudent seu eciam pociuntur auctoritate
+          apostolica concedas facultatem constitucionibus apostolicis necnon statutis et
+          consvetudinibus ordinum et monasteriorum predictorum et aliis contrariis non obstantibus
+          quibuscumque &#9830; </p>
+        <p>Datum <placeName>Rome aput sanctum Petrum</placeName> vi kal. decembris pontificatus
+          nostri anno quinto &#9830;</p>-->
+        <p><persName>Pave Martin 5.</persName> pålægger efter ansøgning af <persName>kong Erik
+            7.</persName> af Pommern biskoppen i <placeName>Bergen</placeName> at omdanne
+          benediktinerklostret Munkeliv i Bergen stift til et birgittinerkloster; <q>quodque prior
+            et fratres prefati monasterii in <placeName>Marienbo</placeName> locum et monasterium in
+              <placeName>Muncliui</placeName> perte ut premittitur in monasterium sanctarum Marie et
+            Birgitte erectum et committatum cum omnibus et singulis bonis . fructibus redditibus
+            proventibus juribus et obvencionibus suis ubicunque situatis extunc recipere et
+            apprehendere libere . ac in eodem loco de omnibus officinis necessariis necnon de
+            personis inibi recipiendis et profitendis secundum ordinaciones et instituta predicta
+            hujusmodi ordinis sancti Augustini hac prima vice licite disponere valeant ac possint .
+            ac quod abbatem et monachos siqui supersint ipsius monasterii Muncliui ordinis sancti
+            Benedicti absque aliqua contradiccione et anno probacionis si hoc pecierint in dicto
+            monasterio sanctarum Marie et Birgitte recipere possint et valeant.</q></p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>
 </TEI>
+<!-- Ny afskrift, ikke korrekturlæst, af Ab:
+
+Martinus episcopus servus servorum dei venerabili fratri episcopo Bergensi salutem et apostolicam benediccionem
+
+Piis et devotis supplicum votis libenter annuimus illaque favoribus prosequimur oportunis
+
+Exhibita siquidem nobis nuper pro parte carissimi in Christo filii nostri Erici Dacie Swecie et Norwegie regis illustris peticio continebat quod licet in regno suo Norwegie a progenitoribus suis quondam Norwegie regibus multa monasteria diversorum ordinum fundata et honorifice dotata fuissent . eorum tamen ad que populi illarum partium major viget devocio videlicet sanctarum Marie et Birgitte ordinis sancti Augustini sancti Salvatoris nuncupati nullum monasteriorum hactenus habuer*nt
+
+Jam enim ad gloriam dei omnipotentis beateque virginis Marie et sancte Birgitte honorificenciam lacius ampliandam ipsiusque regis spirituale gaudium ceterorumque in ipso regno Norwegie degencium salutaris edificacionis exemplum locum dicto ordini congruentem licet a nonnullis prelatis dicti regni et eciam a dilectis filiis fratribus  monasterii in Marienbo dicti ordinis sancti Augustini sancti Salvatoris nuncupati Ottoniensis dyocesis ad ejusdem regis instanciam diligenti inquisicione prehabita locum apciorem quam Muncliui appellatum Bergensis dyocesis in quo loco eciam per progenitores ejusdem regis monasterium sancti Benedicti dudum fundatum erat et in quo jam propter guerrarum turbines <supplied>et</supplied> frigescentiam devocionis populi quasi nulla nisi per duos videlicet per abbatem et unum monachum jam senio gravatos ipsius ordinis sancti Benedicti religionis observantia celebratur
+
+Quare ne locus ipse ad prophanos usus redigatur sed ibidem Christifidelium reviviscat devocio et fervor devocionis eorundem alcius suscitetur pro parte ejusdem regis nobis fuit humiliter supplicatum quatinus Muncliui et monasterium sanctiu Benedicti predicta . in monasterium sanctarum Marie et Birgitte ordinis sancti Augustini sancti Salvatoris nuncupati commutare dictumque ordinem sancti Benedicti et nomen abbatis ibidem supprimere et in eodem loco monastrium sanctarum Marie et Birgitte cum omnibus necessariis officinis erigere de speciali gratia dignaremur
+
+Nos igitur ipsius regis supplicacionibus inclinati qui eciam divinum cultum adaugeri nostris temporibus intensis desideriis affectamus / fraternitati tue per apostolica scripta committimus et mandamus quatinus . si est ita et specialiter si monasterium ipsum sancti Benedicti per prefatos abbatem et monachos non poterit reformari . locum et monastrium ordinis sancti Benedicti predicta in monasterium sanctarum Marie et Birgitte ordinis sancti Augustini sancti Salvatoris nuncupati . suppresso dicto ordine sancti Benedicti et nomine abbatis . ibidem erigas et commutes ita quod locus et monasterium hujusmodi . monasterium sanctarum Marie et Birgitte ordinis sancti Augustini sancti Salvatoris nuncupati perpetuis futuris temporibus nuncupetur et appelletur ubi per personas inibi instituendas regularis observancia secundum ordinaciones et instituta regularia supradicti ordinis sancti Augustini sancti Salvatoris nuncupati prout in aliis monasteriis ipsius ordinis sancti Augustini sancti Salvatoris nuncupati observari consvetum est inviolabiliter observetur . quodque prior et fratres prefati monasterii in Marienbo locum et monasterium in Muncliui perte ut premittitur in monasterium sanctarum Marie et Birgitte erectum et committatum cum omnibus et singulis bonis . fructibus redditibus proventibus juribus et obvencionibus suis ubicunque situatis extunc recipere et apprehendere libere . ac in eodem loco de omnibus officinis necessariis necnon de personis inibi recipiendis et profitendis secundum ordinaciones et instituta predicta hujusmodi ordinis sancti Augustini hac prima vice licite disponere valeant ac possint . ac quod  abbatem et monachos siqui supersint ipsius monasterii Muncliui ordinis sancti Benedicti absque aliqua contradiccione et anno probacionis si hoc pecierint in dicto monasterio sanctarum Marie et Birgitte recipere possint et valeant demumque dictum sit erectum monasterium sanctarum Marie et Birgitte cum omnibus bonis juribus . fructibus . redditibus proventibus ac personis suis omnibus et singulis immunitatibus exempcionibus privilegiis indulgenciis . libertatibus et graciis uti et gaudere libere debeant et valeant quibus alia monasteria dicti ordinis sancti Augustini sancti Salvatoris nuncupati quomodolibet gaudent seu eciam pociuntur auctoritate apostolica concedas facultatem constitucionibus apostolicis necnon statutis et consvetudinibus ordinum et monasteriorum predictorum et aliis contrariis non obstantibus quibuscunque
+
+Datum Rome aput sanctum Petrum vi kl decembris pontificatus nostri anno quinto-->

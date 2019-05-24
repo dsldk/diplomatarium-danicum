@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">363</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270619001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3007-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Senere påskrift på bagsiden: <q>Pandtt breff paa Brendkier
+      marck</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Rester af perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Rester af perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Rester af perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Fyhn, Efterretninger om Kjöbstaden Kolding, 1848, p. 241 (udtog på dansk; datering til
+      1427)</bibl>
+               <bibl>Reg. Dan. nr. *4811 (datering til 1427)</bibl>
+               <bibl>Rep. nr. 6316</bibl>
+               <bibl>Eliassen, Bidrag til Kolding Bys ældre Historie, Vejle Amts Årbøger, 1906, p. 198-199
+      (udtog på dansk)</bibl>
+               <bibl>Eliassen, Kolding fra Middelalder til Nutid, 1910, p. 222 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-06-19"
+                  notBefore="1427-06-19"
+                  notAfter="1427-06-19"
+                  cert="high">1427. 19. juni</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Fru Jytte (af Tvedsgård), enke efter Henneke Limbek og mor til Klaus (Hennekesen) Limbek (af
+      Tørning), pantsætter til Kolding by alle sine rettigheder til Brændkær mark for 18 lybske
+      mark under betingelse af, at borgerne i Kolding by ikke fælder eg eller bøg på det pågældende
+      sted.</ab>
+            <ab>Såfremt fru Jytte ønsker at indløse pantet, skal hun meddele dette på Tyrstrup ting dagen
+      før sankthans eller tidligere. Derefter skal hun give de 80 mark tilbage til Kolding by inden
+      for otte dage efter mortensdag i Kolding.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-23" who="#pbh">Filen etableret af #pbh 2014-07-23. </change>
+         <change when="2018-12-11" who="#smb">1. korrektur af #smb 2018-12-11. </change>
+         <change when="2019-04-17" who="#smb">2. korrektur af #smb 2019-04-17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Jk <persName>vrüwe Jütte</persName>
+      <persName>Clawes Lembecken</persName>
+      <app><lem>moder</lem><rdg><q>moder</q> tilføjet over linjen i A</rdg></app> vnde myne er{uv}en bekennen vnde be tughen openbare jn dessem breue . dat ik schuldich
+      byn van rechter wytlicker schult der stad to <placeName>Koldinghe</placeName> achtentich
+      lubesche mark also to <placeName>Lubeke</placeName> vnde to <placeName>Hamborch</placeName>
+      ghinge vnde gheue synt / ♦</p>
+            <p n="a#2" xml:space="preserve">Vor desse vorscre{uv}ene achtentich lubesche mark sette ik vrowe J{uv}tte vor benompnet der
+      stad to <placeName>Koldinghe</placeName> to pande alle myne rechticheyt vppe
+        <placeName>Brendekerre marke</placeName> myt . acker myt wysche . myt weyde . vnde water .
+      myt holtinghe . nycht dar van vt ghenomen also dyt g{uv}t vmme vnde vmme jn allen steden be
+      leghen ys . ♦</p>
+            <p n="a#3" xml:space="preserve">Men doch scholen se nycht eken edder b{uv}ken ha{uv}wen laten vppe dessem holte . dat vppe
+      dessem vorbenomeden ghude lycht edder jn ienigherleyghe wys <app><lem>vorder{uv}en</lem><rdg><q>vor der{uv}en</q>, A</rdg></app> laten . ♦</p>
+            <p n="a#4" xml:space="preserve">Vnde wes de vorbenomede stad <placeName>Koldinghe</placeName> van dessem vorbenomeden gude vp
+      boren edder neten de wyle dat dat ere pand ys dat schal men nycht aff slan in desser <app><lem>vorbescre{uv}ener</lem><rdg><q>vorbescre{uv}erer</q>, A</rdg></app> summen penninghe . men dat vorbenomede holt scholen se anders nycht by don wenne also
+      vorscreuen ys ♦</p>
+            <p n="a#5" xml:space="preserve">Vnde wanne ik vrowe Jutte vorbenomed vnde myne er{uv}en dyt vorbenomede ghud losen wyllen so
+      schal ik edder myne er{uv}en de losinghe kundinghen vppe <placeName>Tustorppe</placeName>
+      dinghe des ersten daghes vor S{uv}nte Johannes daghe mydensomer edder ere vnde gheuen dar na
+      de vorscreuene achtentich mark der stad to <placeName>Koldinghe</placeName> jn den achten
+      daghen na Sunte Merten to <placeName>Koldinghe</placeName> . ♦</p>
+            <p n="a#6" xml:space="preserve">Ok schal ik vrouwe <persName>J{uv}tte</persName> edder myne er{uv}en der vorbenomeden stad
+        <placeName>Koldinghe</placeName> . dyt vorscreuene ghud . vnde pand vryghen vor alle de ghene
+      de dar myt rechte vp spreken moghen vor en pand ♦</p>
+            <p n="a#7" xml:space="preserve">Alle desse vorscreuene stucke loue ik vrowe J{uv}tte vorbenomed vnde myne eruen stede vnde
+      vast to holdende der stad to <placeName>Koldinghe</placeName> sunder alle hulpe rede . de my
+      vrowe J{uv}tte vnde mynen eruen moghen to vromen komen edder der vorbenomeden stad moghen to
+      schaden komen ♦</p>
+            <p n="a#8" xml:space="preserve">Des to tughe vnde merer vor waringhe . hebbe ik vrowe <persName>J{uv}tte</persName>
+      vorbenomed vnde vrowe <persName>Eybe</persName> vse jngheseghele ghe henghet laten an dessen
+      breff myt erbaren luden jngheseghelen den dyt mede wytlik ys . also <persName>Por
+        Stych</persName> . <persName>Erick Petersson</persName> . <persName>Emeke
+        Esebernsson</persName> vnde <persName>Henneke Godendorp</persName> / de dar gheuen vnde
+      screuen is na Godes bort verteynhundert iar dar na in deme xxvij iare in des hilghen lichames
+      daghe ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

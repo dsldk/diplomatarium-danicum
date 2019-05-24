@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+               >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+               n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14130522003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. LIV, 13</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>13.1 (plica: 2.5)</height>
+                                    <width>26.6</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden en samtidig påskrift, der er meget medtaget og næsten
+                              ulæselig: <q>Petri episcopi Roskildensis ...sdem ... ad .......
+                                 tenoris (?)</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Biskop i Roskilde Peder Jensen Lodehats segl i rødt og kontrasegl
+                                 i grønt voks i ufarvet i rød og grøn silkesnor, <ref>DGS. 166</ref>
+                                 og <ref>DGS. 168</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Sigillatorisk forbundet med DD 2.V.327; registreret i København, Den
+                           Arnamagnæanske Samling, AM 1050 4<hi rend="sup">o</hi> nr. IX,
+                           Registratur over Breve i Universitetets Arkiv, hovedsagelig fra Roskilde
+                           Clare Klosters Arkiv (1586 og senere) F 143, trykt ÆA V 591</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5255</bibl>
+               <bibl>Vejledende Arkivreg. XVII 330 nr. 282</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-05-22" notBefore="1413-05-22" notAfter="1413-05-29" cert="low">1413.
+               [22. eller 29.] maj<note>I brevets datering er der ved en forglemmelse udeladt
+                  angivelse af, hvorvidt udstedelsen fandt sted mandagen før eller efter skt. Urbans
+                  dag (25. maj, i 1413 en torsdag), hvorfor det ikke kan afgøres, om brevets dato er
+                  mandag den 22. eller mandag den 29. maj</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: Latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Peder (Jensen (Lodehat)), biskop i Roskilde, stadfæster alle friheder, som biskop
+               Oluf sammesteds i 1304 tilstod Sankt Clara kloster i Roskilde, og lader sin
+               stadfæstelse forbinde sigillatorisk med biskop Olufs brev.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-10" who="#pbh">Filen etableret af #pbh 2014-02-10. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis ad quos presentes pervenerint <persName>Petrus</persName> dei
+               gracia episcopus <placeName>Roskildensis</placeName> salutem in domino / &#9830; </p>
+            <p>Noveritis nos . dilectis nobis in Christo religiosis . dominabus sororibus
+                  <placeName>monasterii Sancte Clare</placeName> Roskildensis . omne jus et graciam
+               ipsis . a . reverendo in Christo patre domino <persName>Olavo</persName> dei gracia
+               condam episcopo Roskildensi . predecessore nostro concessa . annuimus . et concedimus
+               et tenorepresencium confirmamus &#9830;</p>
+            <p>In cujus rei testimonium sigillum nostrum presentibus est appensum / et presentes <cit>
+                  <quote>ipsius domini Olavi litteris originalibus</quote>
+                  <bibl><ref>DD 2.V.327</ref></bibl>
+               </cit> super illis jure et gracia confectis jussimus applicari et connecti &#9830; </p>
+            <p>Datum anno domini . m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi>xiii<hi rend="sup"
+                  >o</hi> . feria <app>
+                  <lem>secunda</lem>
+                  <rdg>Herefter mangler enten <q>ante</q> eller <q>post</q></rdg>
+               </app> festum sancti Urbani pape \ &#9830;</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

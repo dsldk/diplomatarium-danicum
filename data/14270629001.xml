@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">169</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270629001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Uppsala</settlement>
+                        <repository>Universitetsbibliotek</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Pergamentsbrev av den 29 juni 1427</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Under plica: <q>Ad mandatum domini regis presente domino Benedicto Pogwisch
+        Johannes Petri</q> Bagpå: <q>P. Stighssøn</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4798</bibl>
+               <bibl>Fant (Krarup), Diplomata Svecana hactenus inedita s. 8</bibl>
+               <bibl>SDHK nr. 20877</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 130</bibl>
+               <bibl>Bartholdy, Adels- og våbenbreve udstedt af danske (unions-)konger indtil 1536, s. 86 nr.
+      43</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Gammeldanske Diplomer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-06-29"
+                  notBefore="1427-06-29"
+                  notAfter="1427-06-29"
+                  cert="high">1427. 29. juni</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern udsteder frelsebrev for Peter Stigsson for tjenester, som han har
+      gjort og kommer til at gøre for kong Erik selv, dronning Filippa og hans fætter hertug
+      Bugislav af Pommern. Således tilstår kong Erik Peter Stigsson skattefrihed for hans gård i
+      Kärtared, Kullings herred.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-23" who="#pbh">Filen etableret af #pbh 2014-07-23. </change>
+         <change when="99999999" who="#jon">1. korrektur af #jon 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wy <persName>Erik</persName> meth guths nathe <placeName>Danmark</placeName>s
+        <placeName>Swerighe</placeName>s <placeName>Norghe</placeName>s
+      <placeName>Wende</placeName>s oc <placeName>Godhe</placeName>s koni<ex>n</ex>g oc
+      h<ex>er</ex>tuch i <placeName>Pomern</placeName> gøre witerlicht at thenne breffuisser
+        <persName>Pæther Stighsson</persName> wor tro man oc thyener hauer beræt for oss at han
+      hauer i sine wære een <damage>...</damage> gardh som <app><lem>sciilder</lem><rdg wit="#A"><q>c</q> rettet fra <q>k</q> (eller <q>k</q> rettet fra <q>c</q>), A</rdg></app> thry pund smør heter <placeName>Kertariidh</placeName> i <placeName>Horla
+        sokn</placeName> liggende i <placeName>Kollandzhæridh</placeName> oc sigher han dømdan wara
+      til ena laghageengerdh / Vppa hwilkin gardh han frelsse bethis aff oss for hans thyeniste
+      sculd / ♦ </p>
+            <p n="a#2" xml:space="preserve">Tha for hans troscap ok willich thyeniste som han oss oc rikin h<ex>er</ex> til gyort hauer
+      oc her effter oss oc wor kære husfru oc wor fadherbrodher son h<ex>er</ex>tuch
+        <persName>Buggeslaff</persName> aff <placeName>Pomern</placeName> meth wore effterkomere
+      koni<ex>n</ex>ge oc rikin trolike oc willichlike gøre oc beuise scal / ♦</p>
+            <p n="a#3" xml:space="preserve">Tha vnne wy hanom for<hi rend="sup">ne</hi> gardh frælss swo lenge wor nathe til sigher /
+      kronenæ ræt v forsumedh / ♦</p>
+            <p n="a#4" xml:space="preserve">Thy forbiuthe wy alle oc serdelis wore fogede oc embitzmen hanom h<ex>er</ex> vti at hindre
+      vnder wor heffnd oc wrethe ♦</p>
+            <p n="a#5" xml:space="preserve">Datum Haffnis anno domini mcdxx septimo <supplied>ipso</supplied> beatorum Petri et Pauli
+      apostolorum nostro sub secreto presentibus appenso /. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

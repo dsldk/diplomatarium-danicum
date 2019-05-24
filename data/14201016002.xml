@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2015</date>
         <idno type="dd">14201016002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -83,7 +85,7 @@
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <idno>Suppl. 147 fol. 38r-v</idno>
-                <msName>nil</msName>
+                <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -115,8 +117,7 @@
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty
-                              </ab>
+                    <ab>empty</ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -128,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 253 nr. 5719</bibl>
+          <bibl>Repertorium Germanicum IV nr. 5577</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +148,17 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-10-16" notBefore="1420-10-16" notAfter="1420-10-16" cert="high">1420. 16. oktober</date>
+        <date when="1420-10-16" notBefore="1420-10-16" notAfter="1420-10-16" cert="high">1420. 16.
+          oktober</date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab>Hermannus Nordam, evig vikar i Lüneburg, får sognekirken i Pederstorp på Femern, skønt han forud har eller fører proces om et par andre nordtyske embeder.</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Hermannus Nordam, evig vikar ved Philip og Jakobs
+          alter i Sankt Johannes' kirke i Lüneburg i Verden stift, om provision på sognekirken i
+          Petersdorf på Femern i Odense stift, som er underlagt lægmænds patronat, skønt han i
+          forvejen har eller fører proces om flere tyske embeder.</ab>
+        <ab>Kirken er ledig enten ved Ludolphus Schwerins frivillige resignation eller ved, at
+          Johannes Scroder har opnået embedet som ærkedegn i Schwerin.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,7 +171,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-02" who="#pbh">Filen etableret af #pbh 2014-05-02. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -174,10 +183,33 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <gap>
+          <desc>Den første del af supplikken udeladt som uvedkommende for danske forhold.</desc>
+        </gap>
+        <p n="a#1">Item supplicat s. v. <persName><app>
+              <lem>Hermannus supradictus</lem>
+              <rdg><q>= Hermannus Nordam perpetuus vicarius ad altare ss. Philippi et Jacobi situm
+                  in ecclesia s. Johannis Luneburgensi Verdensis diocesis</q></rdg>
+            </app></persName>, quatinus sibi specialem gratiam facientes de <placeName>parrochiali
+            ecclesia in Petersdorpe</placeName> Ottoniensis diocesis, que de jure patronatus
+          laicorum existit, per liberam resignationem <persName>Ludolphi Zwerin</persName> per eum
+          de illa sponte factam aut ex eo, quod quidam <persName>Johannes Scroder de
+            Borch</persName> illam cum archidiaconatu in <placeName>Waren</placeName>, qui curatus
+          et dignitas vel personatus in ecclesia Zwerinensi extitit, post et contra constitutionem
+          Execrabilis detinuit, vel per assecutionem dicti archidiaconatus per eundem Johannem
+          factam vacante [fructus 16 mr. arg.] ..., eidem Hermanno dignemini misericorditer
+          providere non obstantibus, quod idem Hermannus super una in <placeName>s. Johannis
+            Luneburgensi</placeName>, quam possidet [fructus 8 mr. arg.] in palatio apostolico
+          litigat et dudum sibi de alia [fructus 7 mr. arg.], quam non possidet, in
+            <placeName>ecclesia s. Petri in Buxtehudes</placeName> Verdensis diocesis ecclesiis
+          perpetuas vicarias sine cura per s. v. gratiose extitit concessum provideri, ac gratia
+          expectativa, si quam habet, etc. </p>
+        <p>Fiat pro utroque. O. </p>
+        <p>Datum <placeName>Rome</placeName> 17. kal. nov. anno 3.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

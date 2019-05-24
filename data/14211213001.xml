@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">123</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14211213001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2775-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.3 (plica: 2.6)</height>
+                                    <width>21.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Under teksten aftryk af et nu forsvundet segl. Aftrykket synes at vise Henneke Gjordsens segl, <ref>AS L ii 18</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 178</bibl>
+               <bibl>Rep. nr. 5948</bibl>
+               <bibl>Reg. *4594</bibl>
+               <bibl>Hübertz, Aarhus I 10</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-12-13"
+                  notBefore="1421-12-13"
+                  notAfter="1421-12-13"
+                  cert="high">1421. 13. december</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Henneke (Markvardsen) Gjordsen, væbner, bekendtgør på vegne af kong Erik 7. af Pommern at have modtaget 100 lybske mark
+      af Århusborgernes skat, som de dette år skulle betale ved mortensdag.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
+         <change when="2018-10-01" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-10-01. </change>
+         <change when="2019-02-07" who="#alk">2. korrektur af #alk 2019-02-07. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Jæch <persName>He<ex>n</ex>nekæ Gyrtz</persName> th<ex>e</ex>r wæbn<ex>e</ex>r ær
+      ku<ex>n</ex>gøræ allæ thæ th<ex>et</ex> bref sæ æll<ex>e</ex>r høræ læsæ th<ex>et</ex> jæch <app><lem>with<ex>e</ex>rke<ex>n</ex>nes</lem><rdg wit="#A"><q>m<ex>eth</ex></q> herefter slettet, A</rdg></app>
+      <app><lem>mæch</lem><rdg wit="#A">skrevet ov. l., A</rdg></app> m<ex>eth</ex> th<ex>et</ex>tæ myt openæ bref th<ex>et</ex> jæch hawer opboræt af thæ
+      godhæ mæn som ær<ex>æ</ex> borugmest<ex>e</ex>r ratmæn ogh mænighæden j Arws hwndærth
+      lyb<ex>ske</ex> mark af thæræ skat som thæ skullæ nw vt giwæ j oor vm s<ex>anc</ex>te Mortens
+      dach nw war po myn herræ konyngens nodhe wægenæ ♦ Ogh jech ladh<ex>e</ex>r th<ex>e</ex>m
+      quit ogh orsach for allæ æft<ex>e</ex>r krafæ po myn herræ konyngens nodhæ wægenæ ♦</p>
+            <p n="a#2" xml:space="preserve">Til witnæsbwrdh ogh for waringæ so hawer jæch for<hi rend="sup">dæ</hi>
+      <persName>He<ex>n</ex>neke Gyrtz</persName> myt jngesigel thrykt jnnen po th<ex>et</ex>tæ bref
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd xxi oor po s<ex>anc</ex>te Lucie dach etcetera
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

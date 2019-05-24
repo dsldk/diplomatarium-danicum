@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14330909001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -80,9 +82,9 @@
           <witness xml:id="Aa">
             <msDesc>
               <msIdentifier>
-                <settlement>Rom</settlement>
-                <repository>Archivio Segreto Vaticano</repository>
-                <idno>Notarialinstrument af 1436. 18. juli (Dipl. Arn.-Magn. fasc. 41 nr. 17</idno>
+                <settlement>Oslo</settlement>
+                <repository>Riksarkivet</repository>
+                <idno>NRA AM fasc. 41 nr. 17</idno>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -120,21 +122,22 @@
                 </sealDesc>
               </physDesc>
               <history>
-                <ab>empty</ab>
+                <ab>Optaget i <ref target="14360718001">DD 1436. 18. jul., nr.
+                  14360718001</ref></ab>
               </history>
             </msDesc>
           </witness>
         </listWit>
         <listBibl>
-          <bibl>APD III 51 nr. 1709</bibl>
-          <bibl>Reg. *5008</bibl>
-          <bibl>Diplomatar. Norveg. VII 383-6</bibl>
+          <bibl>APD III 61 nr. 1709</bibl>
+          <bibl>Reg. Dan. *5008</bibl>
+          <bibl>Diplomatarium Norvegicum VII 383 nr. 391</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter Dipl. Norv. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -147,11 +150,16 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1433-09-09" notBefore="1433-09-09" notAfter="1433-09-09" cert="high">1433. 9. september</date>
+        <date when="1433-09-09" notBefore="1433-09-09" notAfter="1433-09-09" cert="high">1433. 9.
+          september</date>
         <placeName cert="high">Basel</placeName>
       </creation>
       <abstract>
-        <ab> Den af baselerkonciliet beskikkede generalskatmester, biskop Matheus af Albenga, overdrager Ludolphus Robring, kannik i Lübeck og Schwerin, indsamlingen af pavestolens tilgodehavende i de tre nordiske riger, der følgelig tilkommer konciliet.</ab>
+        <ab>Mattheus, biskop i Albenga og Baselkonciliets generalskatmester, udnævner Ludolphus
+          (Robring), kannik i Lübeck og Schwerin, til sin særlige kommissær med fuldmagt til at
+          indsamle pavestolens og dermed Baselkonciliets tilgodehavender i kirkeprovinserne Danmark,
+          Sverige og Norge, med beføjelser til at inddrive pengene med alle til rådighed stående
+          midler.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -164,7 +172,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-17" who="#pbh">Filen etableret af #pbh 2013-10-17. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -175,10 +184,97 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Matheus</persName> dei gracia episcopus
+            <placeName>Albinganensis</placeName> sacrosancte generalis synodi Basiliensis in spiritu
+          sancto legittime congregate universalem ecclesiam representantis et ipsius camere
+          thesaurarius generalis venerabili viro domino <persName>Ludolpho</persName>
+          <placeName>Lubicensis</placeName> et <placeName>Zwerinensis</placeName> ecclesiarum
+          canonico et thesaurario salutem in domino.</p>
+        <p>Cum ad exstirpacionem heresum pacemque in populo christiano procurandam ecclesieque
+          sancte dei . in capite et in membris reformacionem spiritu sancto dirigente . prefata
+          sancta synodus specialiter convenerit et quem admodum neminem latere debet . ad nonnullos
+          carissimos ecclesie filios . christiani populi reges et principes sollempnes ambasiatores
+          destinaverit ceterosque destinare proposuerit aliasque plurimas expensas ad exequendum
+          fecerit continuoque varios et diversos ambasiatores et nuncios pro ingruentibus
+          necessitatibus et sanctis operibus ad diversas mundi partes mittere expediat sicque ex
+          omnibus nacionibus viris electis convenientibus in unum spiritus sanctus ad felicem
+          premissorum, consummacionem assistet pro quibus immensos plurimosque labores atque
+          expensas est sancta synodus ipsa perpessa et perpessura sit et cum tam saluberrima atque
+          necessaria opera toti sint languenti et labenti christiane rei publice profutura statuit
+          et ordinavit prefata sancta synodus prout in aliis preteritis conciliis exstitit
+          laudabiliter observatum ut camera apostolica publicis refecta pecuniis debeat hujusmodi
+          expensas atque onera supportare .</p>
+        <p>Quare placuit dicte sancte synodo nos licet immeritum in suum thesaurarium generalem
+          constituere et ordinare nobis cum omni plenaria potestate omnes et singulos fructus
+          redditus et proventus et pecuniarum summas et quantitates camere apostolice et sibi iam
+          debitos et debitas . ac imposterum debendas . cum omni plenitudine potestatis quam habet
+          habereque consvevit camerarius camere apostolice onus imponere prout in suis litteris ejus
+          vera bulla plumbea bullatis quas una cum onere predicto cum debita reverencia nos
+          recepisse noveritis plenius continetur .</p>
+        <p>Nos quoque circa ea que nobis ut premittitur commissa sunt solerti studio prout tenemur
+          auxiliante domino invigilare cupientes . habito tamen super hiis venerabilium dominorum
+          clericorum camere ipsius sancte synodi deputatorum, maturo consilio tandem ad personam
+          vestram de cujus legalitatis prudencia et aliis virtutibus super quibus vos apud eandem
+          synodum fidedignorum relacione laudamini in domino specialiter confidentes et nostre
+          mentis oculos in hac parte dirigentes . constituimus et deputavimus prout tenore
+          presencium constituimus et deputamus vos in specialem commissarium exquisitorem receptorem
+          executorem et prefate camere sancte synodi actorem factorem et negociorum gestorem dantes
+          et concedentes prout tenore presencium damus et concedimus vobis plenam potestatem ac
+          auctoritatem et mandatum speciale omnes et singulos fructus redditus et proventus res et
+          pecuniarum quantitates apostolice et ex consequenti ipsius synodi . camere obligatos et
+          debitos . ac obligatas et nunc et in futurum obligandas . et debendas . existentes et qui
+          seu que in futuro tempore erunt in civitatibus et dyocesibus sitis in provinciis Dacie
+          Svecie et Norwegie quod ad ejusdem sancte synodi utilitatem videbitis posse quomodolibet
+          pertinere seu provenire apud quoscumque ecclesiasticos et seculares capitula collegia
+          monasteria et conventus seu reges duces principes barones et communitates camere
+          apostolice fructuum predictorum collectores succollectores et depositarios <app>
+            <lem>qui</lem>
+            <rdg>herefter <q>in</q> Aa, i Dipl. Norv. markeret som korrupt</rdg>
+          </app> vestris ymmoverius dicte sancte synodi . mandatis parere recusaverint revocandi .
+          cassandi et annullandi et loco ipsorum alios deputandi et instituendi . ubicumque in
+          dictis civitatibus et dyocesibus reperiantur nomine nostro ymmoverius dicte sancte synodi
+          . ad ejus cameram et utititatem et necessitatem reducendi et reduci faciendi exquirendi
+          petendi exigendi et colligendi ipsasque necnon calculum et racionem de eisdem recipiendi
+          et faciendi et de receptis quibuscumque quittandi liberandi et absolvendi . juramenta
+          quoque camere apostolice seu ejus officialibus per quoscumque forte in contrarium emissa
+          vel emittenda auctoritate nostra ymmoverius ipsius sancte synodi relaxandi necnon
+          quoscumque solventes aut vobiscum aliter pro utilitate dicte sancte synodi : componentes .
+          super ipsis debitis et quibuscumque sentenciis et censuris ecclesiasticis absolvendi
+          dispensandi . dilaciones dandi . censuras ecclesiasticas in contradictores et rebelles .
+          auctoritate predicta fulminandi excommunicandi et processus eorum aggravandi et
+          reaggravandi et invocandi . si opus fuerit auxilium brachii secularis eosdemque rebelles
+          puniendi <app>
+            <lem>militandi</lem>
+            <rdg><q>= mulctandi</q></rdg>
+          </app> et si opus fuerit carceribus mancipandi et mancipari faciendi et procurandi .
+          aliumque et alios loco vestri temporibus . et locis quibus in premissis interesse non
+          poteritis ponendi alia omnia et singula in premissis necessaria faciendi que ad officium
+          premissorum necessaria fuerint et oportuna .</p>
+        <p>Volumus autem quod de omnibus et singulis per vos premissis gerendis et de pecuniis per
+          vos percipiendis ut moris debitum conscribatis et conscribi faciatis quaternum de singulis
+          quatuor temporibus anni debitam et fidelem prout . de vobis confidimus faciatis . in dicta
+          camera sancte synodi . de premissis racionem et nichilominus in locis prefatis studeatis
+          publicare . quod hoc sacrum generale concilium inter alia pia et laudabilia opera ad que
+          sedula meditacione laborat illud potissimum cordi habet . ut reverendos patres . dominos .
+          archiepiscopos . episcopos et abbates . ceterosque alios . alleviare . atque exonerare .
+          possit qui in taxis ecclesiarum suarum atque beneficiorum nimium fortasse <app>
+            <lem>excess<supplied>i</supplied>vius</lem>
+            <rdg>således rettet i Dipl. Norv</rdg>
+          </app> gravarentur .</p>
+        <p>Si ad hanc sanctam synodum in propria persona aut qui legittime impediti fuerint per
+          legittimos suos procuratores suas honestas supplicaciones porrexerint atque preces .</p>
+        <p>In <app>
+            <lem>quarum</lem>
+            <rdg>fejl for <q>quorum</q>, i Dipl. Norv. markeret som korrupt</rdg>
+          </app> quidem omnium et singulorum fidem et testimonium premissorum presentes litteras .
+          exinde fieri . nostrique sigilli quo utebamur dum eramus abbas . Sublacensis jussimus et
+          fecimus appensione communiri .</p>
+        <p>Datum <placeName>Basilie</placeName> . anno a nativitate domini m<hi rend="sup">o</hi>
+            cd<hi rend="sup">o</hi> xxx<hi rend="sup">o</hi> tercio indiccione xi<hi rend="sup"
+            >a</hi> die vero Mercurii . nona mensis Septembris .</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>
