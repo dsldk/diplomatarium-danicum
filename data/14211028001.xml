@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">245</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14211028001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2771-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>12.6 (plica: 2.3)</height>
+                                    <width>26</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Item Axel Pæd<ex>e</ex>rs<ex>øns</ex>
+        b<ex>re</ex>ff</q> ♦ <q>Item C<ex>ri</ex>stiern Most</q> ♦ <q>Item Hagen
+        Sandbek</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl af mørkt voks med et kristushoved i en ramme af blade i
+        perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Muligvis registreret i København. Rigsarkivet. Arkivregistraturer. Bille, Anders
+      Bentsen og 1. hustru Pernille Olufsdatter Krognos. 1477-1555. Hr. Oluf Stigsen Krognos' breve,
+      trykt i Thiset, Adelige Brevkister 183</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 165-66</bibl>
+               <bibl>Rep. nr. 5943</bibl>
+               <bibl>Reg. *4592</bibl>
+               <bibl>Brudst. og udtog i P. v. Möller, Bidrag till Hallands Historia I 108</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-10-28"
+                  notBefore="1421-10-28"
+                  notAfter="1421-10-28"
+                  cert="high">1421. 28. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hr. Aksel Pedersen (Thott) i Härlöv, ridder, skifter arven efter sin hustru med sine sønner
+      samt svigersønnen hr. Oluf Stigsen (Krognos) og svigerdatteren fru Merete Truedsdatter som
+      repræsentanter for børnebørnene. Aksel Pedersen skal for livstid have alle sine
+      svigerforældres besiddelser i Halland, Villands herred og Yndesäte ved Helsingborg, foruden
+      alle svigerfaderens besiddelser i Luggude herred og alle svigermoderens besiddelser i Sverige.
+      Alle disse besiddelser skal efter Aksel Pedersens død tilfalde hans sønner og arvinger.
+      Endvidere skal Aksel Pedersen være fri for de 200 lødige mark, for hvilke svigerforældrene
+      havde Villands herred i pant.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-09" who="#pbh">Filen etableret af #pbh 2014-05-09. </change>
+         <change when="2018-10-01" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-10-01. </change>
+         <change when="2019-02-07" who="#alk">2. korrektur af #alk 2019-02-07. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæ<ex>n</ex> th<ex>ettæ</ex> b<ex>re</ex>ff hør<ex>e</ex> ell<ex>er</ex> see hilser jech <app><lem><persName>Axel Pæth<ex>e</ex>rs<ex>øn</ex></persName></lem><rdg wit="#A">understreget, A</rdg></app> j <placeName>H<ex>er</ex>dløff</placeName> ridd<ex>er</ex> ewindeligh m<ex>eth</ex>
+      guth ♦ Th<ex>et</ex> skal allu<ex>m</ex> with<ex>e</ex>rlight war<ex>e</ex> at jech
+      hau<ex>er</ex> een ændæ oc eendrakt giort m<ex>eth</ex> h<ex>er</ex>
+      <app><lem><persName>Olaff Stighs<ex>øn</ex></persName></lem><rdg wit="#A">understreget, A</rdg></app> pa <app><lem>ha<ex>n</ex>s</lem><rdg wit="#A">her begynder understregning, A</rdg></app> børne wey<ex>næ</ex> so<ex>m</ex> my<ex>n</ex> dott<ex>er</ex>børn æræ <persName>frwæ
+        Mær<ex>e</ex>tæ Thrwghetzdott<ex>er</ex></persName> pa <app><lem>he<ex>n</ex>nes</lem><rdg wit="#A">her slutter understregning, A</rdg></app> barne wey<ex>næ</ex> so<ex>m</ex> mit <app><lem>sønebarn</lem><rdg wit="#A">understregning begynder ved <q>n</q>(1), A</rdg></app>
+      <app><lem>ær</lem><rdg wit="#A">her slutter understregning, A</rdg></app> h<ex>er</ex>
+      <app><lem>Pæth<ex>e</ex>r</lem><rdg wit="#A"><q>th<ex>e</ex>r</q> understreget, A</rdg></app>
+      <app><lem>Olaff</lem><rdg wit="#A"><q>laff</q> understreget, A</rdg></app>
+      <app><lem>Aaghe</lem><rdg wit="#A"><q>aghe</q> understreget, A</rdg></app> oc <persName><app><lem>Kæthil</lem><rdg wit="#A">her begynder understregning, A</rdg></app> Axels<ex>øn</ex></persName>
+      <app><lem>so<ex>m</ex></lem><rdg wit="#A">understregning slutter ved <q>s</q>, A</rdg></app>
+      <app><lem>minæ</lem><rdg wit="#A">understregning begynder ved <q>i</q>, A</rdg></app> søn<ex>er</ex>
+      <app><lem>æræ</lem><rdg wit="#A">her slutter understregning, A</rdg></app> om all th<ex>e</ex>n rættighed so<ex>m</ex> mich m<ex>eth</ex> th<ex>e</ex>m j
+      ther<ex>es</ex> modh<ex>e</ex>rnæ tilfallen ær swoso<ex>m</ex> ær <app><lem>een</lem><rdg wit="#A">her begynder understregning, A</rdg></app> myndeløth <app><lem>oc</lem><rdg wit="#A">her slutter understregning, A</rdg></app>
+      <app><lem>two</lem><rdg wit="#A">understregning begynder ved <q>o</q>, A</rdg></app> søns løth<ex>e</ex>rs ♦</p>
+            <p n="a#2" xml:space="preserve">Swo at jech <app><lem>scal</lem><rdg wit="#A">understregning slutter ved <q>a</q>, A</rdg></app> haue oc beholde for th<ex>e</ex>n arff oc rættighed swo lengge jech løffu<ex>er</ex>
+      alt th<ex>et</ex> gotz so<ex>m</ex>
+      <app><lem>ther<ex>es</ex></lem><rdg wit="#A">her begynder understregning, A</rdg></app> modh<ex>e</ex>rfadh<ex>e</ex>r <persName>Axel <app><lem>Kæthils<ex>øn</ex></lem><rdg wit="#A">understregning slutter ved <q>æ</q>, A</rdg></app></persName> oc <app><lem>ther<ex>es</ex></lem><rdg wit="#A">understregning begynder ved <q>r</q>, A</rdg></app> modh<ex>e</ex>rmodh<ex>e</ex>r <persName><app><lem>frwæ</lem><rdg wit="#A">her slutter understregning, A</rdg></app><app><lem>Katerinæ</lem><rdg wit="#A"><q>terinæ</q> understreget, A</rdg></app></persName>
+      <app><lem><persName>M<ex>a</ex>rsk Erichs</persName> dott<ex>er</ex></lem><rdg wit="#A">understreget, A</rdg></app> aattæ j Halland oc alt th<ex>et</ex> gotz so<ex>m</ex> the aatte j
+      Willandzh<ex>e</ex>r<ex>et</ex> oc <placeName>Øndesædhe</placeName> hoss
+        <placeName>Helsingborgh</placeName> m<ex>eth</ex> alt th<ex>et</ex> gotz som for<hi rend="sup">de</hi> ther<ex>es</ex> modh<ex>e</ex>rfadh<ex>e</ex>r aatte j
+      Ludhgutheh<ex>e</ex>r<ex>et</ex> oc alt th<ex>et</ex> gotz so<ex>m</ex> for<hi rend="sup">de</hi> ther<ex>es</ex> modh<ex>e</ex>rmodh<ex>e</ex>r aatte j Swerighe guth
+      ther<ex>es</ex> siælæ nadhe ♦</p>
+            <p n="a#3" xml:space="preserve">Oc th<ex>e</ex>r til scal jech quit oc orsaghe war<ex>e</ex> for the ij<hi rend="sup">c</hi>
+      lødhighe m<ex>a</ex>rk so<ex>m</ex> Willa<ex>n</ex>dzh<ex>e</ex>r<ex>et</ex> stoodh for<hi rend="sup">de</hi> ther<ex>es</ex> modh<ex>e</ex>rfadh<ex>e</ex>r oc <cit><quote>modh<ex>e</ex>rmodh<ex>e</ex>r</quote><bibl>Pantebrevet er tabt, men registreredes den 27. okt. 1429 (dog m. en pantesum på 2000
+          lødige mk.), trykt ÆA I 62. Se også Hist. Tidsskr. 11. rk. VI (1959-62) s. 62-63 n.
+          5.</bibl></cit> j pant <app><lem>fore</lem><rdg wit="#A">ov. l., A</rdg></app> yth<ex>e</ex>rmer<ex>e</ex> æn th<ex>et</ex> nw standd<ex>er</ex> ♦</p>
+            <p n="a#4" xml:space="preserve">Oc nar gutz viliæ ær at jech affgaar tha scule for<hi rend="sup">de</hi> minæ ælschelighe
+      søn<ex>er</ex> oc ærffui<ex>n</ex>ghe friit oc vbewrth<ex>et</ex> nydhe alt ther<ex>es</ex>
+      mødh<ex>e</ex>rne igen løst oc fast ee hwat th<ex>et</ex> helst ær ell<ex>er</ex> næffnes kan
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno <app><lem>&lt;domini&gt;</lem><rdg wit="#A">glemt?, A</rdg></app> m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xx primo ipso die apostolorum Symonis et
+      Jude meo sub sigillo una cum sigillis <persName>domini Nicolai Swenonis</persName> in
+        <placeName>Ellinge</placeName> militis et <persName>domini Jacobi curati</persName> in
+        <placeName>La<ex>n</ex>dzkrone</placeName> in testimonium premissorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

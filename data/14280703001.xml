@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">114</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14280703001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Adresse på bagsiden: <q>Den ersamen wisen mannen, heren borgermeisteren unde
+        rathmannen der stat Revele, mit werdicheid detur</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rester af det brevlukkende segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hildebrand, Bulletin de l'Académie Impériale, ser. III, tom. XVII, p. 334, nr. 85
+      (regest)</bibl>
+               <bibl>Hildebrand, Liv.-, Est.- u. Curländ. Urkundenb. VII., nr. 724, p. 516-517</bibl>
+               <bibl>Reg. Dan. nr. *4838</bibl>
+               <bibl>Hanserec. VIII, nr. 489, p. 317</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Hildebrand, Liv.-, Est.- u. Curländ. Urkundenb. l.l., hvorfra også de arkivalske
+      oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-07-03"
+                  notBefore="1428-07-03"
+                  notAfter="1428-07-03"
+                  cert="high">1428. 3. juli</date>
+            <placeName cert="high">Dorpat</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Dorpat skriver til rådet i Reval.</ab>
+            <ab>Rådet i Dorpat sender en transsumpt af et brev af 5. juni 1428 sendt fra hansekøbmændene i
+      Novgorod til rådet i Reval. Af det transsumerede brev fremgår det bl.a., at Novgorods udsendinge, som har
+      været hos kong Erik 7. af Pommern, netop er vendt tilbage til Novgorod. I Novgorod har de nu
+      fortalt, at kong Erik har meddelt dem, at det gods, som var blevet frarøvet russerne, nu er
+      blevet bragt til hansestæderne.</ab>
+            <ab>Rådet i Dorpat foreslår i forlængelse heraf at sende udsendinge til Novgorod for over for
+      russerne at forsvare de hanseatiske købmænd imod kong Erik 7. af Pommerns beskyldninger samt
+      for at finde ud af, hvorledes forholdet til russerne er nu.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-25" who="#pbh">Filen etableret af #pbh 2014-07-25. </change>
+         <change when="2019-04-24" who="#smb">1. korrektur af #smb 2019-04-24. </change>
+         <change when="2019-06-14" who="#smb">2. korrektur af #smb 2019-06-14. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Vruntlike grote unde wes wii gudes vormogen tovoren.</p>
+            <p n="a#2" xml:space="preserve">Ersamen heren unde guden vrunde.</p>
+            <p n="a#3" xml:space="preserve">Up den dach Johannis et Pauli etcetera untfengen wii des coepmannes breff van
+        <placeName>Nougarden</placeName>, an uns sprekende, na der grote hirna volgende:</p>
+            <p n="a#4" xml:space="preserve">Ersamen heren unde guden vrunde (<q>etc.</q> =
+      <ref target="14280605001">DD 1428. 5. jun., nr. 14280605001</ref>).</p>
+            <p n="a#5" xml:space="preserve">Leven heren unde vrunde.</p>
+            <p n="a#6" xml:space="preserve">Uns duncket n{uo}tte, ind vorbeterent juwer ersamicheid, dat men de stede unde den coepman in
+      dessen zaken vormits boden muntliken mote vorantworden unde drepeliken untschuldigen, als dat
+      eer is geschen, uppe de meede dat deme coepmanne bi uns steden geyne vorsumenysse en sche unde
+      dat ment ok myt den russen up eynen vasten voet bringe.</p>
+            <p n="a#7" xml:space="preserve">.....</p>
+            <p n="a#8" xml:space="preserve">Scriptum nostro sub secreto, sequenti die visitacionis Marie.</p>
+            <p n="a#9" xml:space="preserve">Proconsules et consules civitatis Tarbati.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

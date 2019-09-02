@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">362</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14230911001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2818-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10.6 (plica: 1.8)</height>
+                                    <width>26.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Magn<ex>us</ex> Magnuss<ex>øn</ex>s b<ex>re</ex>ff
+        m<ex>eth</ex> huilk<ex>et</ex> ha<ex>n</ex> tilbind<ex>e</ex>r sik at vntræte my<ex>n</ex>
+        h<ex>er</ex>r<ex>e</ex> konu<ex>n</ex>ge<ex>n</ex> iii<hi rend="sup">c</hi> løth<ex>ig</ex>
+        m<ex>a</ex>r<ex>c</ex> etcetera</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl tilhørende biskop i Århus Bo Mogen Lang, af rødt voks i ufarvet, i perg.rem, <ref>DGS 733</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl tilhørende biskop i Oslo Jens Jakobsen, af rødt voks i ufarvet, i perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Anders Jakobsen Lunges segl af rødt voks i ufarvet, i perg.rem, <ref>AS F xvii 5</ref>
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Segl tilhørende Eindride Erlendsson (af Losna-ætten) af rødt voks i ufarvet, i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 239-40</bibl>
+               <bibl>Reg. *4662</bibl>
+               <bibl>Dipl. Norv. I 495-96</bibl>
+               <bibl>Dipl. Norv. X 183 nr. 339</bibl>
+               <bibl>Udt. i Vidensk. Selsk. Skr. IX 691</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-09-11"
+                  notBefore="1423-09-11"
+                  notAfter="1423-09-11"
+                  cert="high">1423. 11. september</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Magnus Magnusson af Giske, væbner, erklærer at skylde kong Erik 7. Pommern 300 lødige mark i
+      afgift af det len i Trøndelag ved Trondheim, som han havde haft råderet over i flere år, og han lover at betale gælden med
+      100 mark årligt i tre år.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-04" who="#pbh">Filen etableret af #pbh 2014-06-04. </change>
+         <change when="2019-02-25" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-02-25. </change>
+         <change when="2019-03-12" who="#alk">2. korrektur af #alk 2019-03-12. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Jek <persName>Magnuss Magnuss<ex>øn</ex></persName> a wapn aff <placeName>Geische</placeName>
+      gør wit<ex>er</ex>licht m<ex>eth</ex> th<ex>e</ex>tte mit opne br<ex>e</ex>ff at jek aff ræt
+      wit<ex>er</ex>lich skyld gældskyldich er høybor<ex>e</ex>n oc mechtigh h<ex>er</ex>re oc
+      første myn nathoghe h<ex>er</ex>re konu<ex>n</ex>g Erik m<ex>eth</ex> gudz nadhe
+      Norg<ex>es</ex> Damarks Swerig<ex>es</ex> Wendes oc Godes konu<ex>n</ex>g oc h<ex>er</ex>tugh
+      j Po<ex>m</ex>mer<ex>e</ex>n / thry hundrethe løthighe march gothe peni<ex>n</ex>ge oc geffue
+      / fæm oc ffiretij schilling lubische rechnethe for<ex>e</ex> hw<ex>er</ex> løthich
+      m<ex>a</ex>rch / for jnne<ex>n</ex> thry samfælde næst efft<ex>er</ex>følgh<ex>e</ex>nde aar
+      swo som er hw<ex>er</ex>t aar hundrethe løthich m<ex>a</ex>rch th<ex>e</ex>r aff at betale /
+      oc vntrætte / vm sancti Michels dagh j hans fatebwr j <placeName>Køpendhaffn</placeName> /
+      thoch sancti Michels dagh so<ex>m</ex> nw nest ko<ex>m</ex>mer efft<ex>er</ex> the<ex>n</ex>ne
+      dagh ey at rechne for nogh<ex>e</ex>r aff thisse for<hi rend="sup">ne</hi> gælds daghe / men
+      the andr<ex>e</ex> thre næst efft<ex>er</ex>følghende sancti Michels daghe at holde haue oc
+      rechne for<ex>e</ex> the thre gælds daghe effter thy som forscriuet staar / ♦</p>
+            <p n="a#2" xml:space="preserve">Hwilke<ex>n</ex> for<hi rend="sup">ne</hi> peni<ex>n</ex>ge swm loffuer jek with my<ex>n</ex>
+      gothe tro oc sa<ex>n</ex>nende for<hi rend="sup">de</hi> myn nathoghe h<ex>er</ex>re swo at
+      betale so<ex>m</ex> forscr<ex>iuet</ex> staar / wte<ex>n</ex> nogh<ex>e</ex>r hande
+      hind<ex>e</ex>r ell<ex>e</ex>r leng<ex>e</ex>r tøffring for<ex>e</ex> th<ex>et</ex> som jek
+      vpbar aff th<ex>et</ex> læn swoso<ex>m</ex> er aff th<ex>e</ex>n dell aff <persName>Thronde
+        lagh<ex>e</ex>n</persName> som jek aff hans nathe j fler<ex>e</ex> aar j wær<ex>e</ex>
+      haffthe hoss <placeName>Throndheem</placeName> / ♦</p>
+            <p n="a#3" xml:space="preserve">Oc hwat so<ex>m</ex> jek aff th<ex>et</ex> sa<ex>m</ex>me læn før<hi rend="sup">de</hi>
+      my<ex>n</ex> nathoghe h<ex>er</ex>r<ex>e</ex> ydermeer skyldugh<ex>e</ex>r bliffu<ex>er</ex>
+      æn som th<ex>e</ex>nne for<hi rend="sup">ne</hi> swma tilræck<ex>e</ex>r th<ex>e</ex>r vm wil
+      jek haffuet j hans nadhe oc my<ex>n</ex>ne tha th<ex>e</ex>nne for<hi rend="sup">ne</hi>
+      peni<ex>n</ex>ge swm vpa forscr<ex>iuen</ex> tiidh betaleth<ex>e</ex>r
+      worth<ex>e</ex>r efft<ex>er</ex> thy so<ex>m</ex> forsc<ex>ri</ex>uet staar ♦</p>
+            <p n="a#4" xml:space="preserve">Oc til mer<ex>e</ex> bewaring oc wissen vm alt th<ex>et</ex>te for<hi rend="sup">ne</hi>
+      hau<ex>er</ex> jek ladet mit jncighle m<ex>eth</ex> wilghe oc witschap henges for<ex>e</ex>
+      th<ex>et</ex>te br<ex>e</ex>ff / ♦ Oc hauer jek bethit heth<ex>e</ex>rlighe
+      fæth<ex>e</ex>r m<ex>eth</ex> gudh oc wælborne me<ex>n</ex> / swosom er bisc<ex>op</ex> Bo aff
+        <placeName>Arws</placeName> bisc<ex>op</ex> Jens aff <placeName>Oslo</placeName> h<ex>er</ex>
+      <persName>And<ex>e</ex>rs Jacobss<ex>øn</ex></persName> oc h<ex>er</ex>
+      <persName>Endrith Erlendss<ex>øn</ex></persName> ridder<ex>e</ex> lade ther<ex>e</ex> jncigle
+      til witnesbyrdh henges for<ex>e</ex> th<ex>et</ex>te br<ex>e</ex>ff ♦</p>
+            <p n="a#5" xml:space="preserve">Datum <placeName>Køpendhaffn</placeName> anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xx<hi rend="sup">o</hi>tercio sabbato infra octavas nativitatis beate Marie virginis
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

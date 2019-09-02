@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">307</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14230715001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2809-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16.3 (plica: 3)</height>
+                                    <width>26</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskrift m. sen. hd.: <q>Dauid Menyes b<ex>re</ex>ff vm Orkanøy</q> og m.
+      endnu sen. hd.: <q>Dauidis aff Menies herre aff Wyme bekendels[s]e at hawe Orchenøø y
+      for&lt;l&gt;eni[<ex>n</ex>]g</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Thomas Tulloch, biskop på Orkneyøerne</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Walter Frasers segl af ufarvet voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 234-35</bibl>
+               <bibl>Reg. 3381*</bibl>
+               <bibl>Huitfeldt IV 312, Fol. 686-87</bibl>
+               <bibl>Dipl. Norv. II 503-4</bibl>
+               <bibl>Reg. Norv. X 178 nr. 321</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-07-15"
+                  notBefore="1423-07-15"
+                  notAfter="1423-07-15"
+                  cert="high">1423. 15. juli</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>David Menzies af Weem, væbner, tager jarledømmet Orkneyøerne i len af kong Erik 7. af
+    Pommern og dronning Filippa og lover at styre og forsvare det som en tro mand, så længe de
+    lader ham beholde det.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-27" who="#pbh">Filen etableret af #pbh 2014-05-27. </change>
+         <change when="2019-02-18" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-02-18. </change>
+         <change when="2019-03-12" who="#alk">2. korrektur af #alk 2019-03-12. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Jek <persName>Dauid Meneyes</persName> herre aff Wyme awapn / kennes for alle . the som
+      thette breff see eller høre at jek aff mechtigh høyghboren herre oc første myn nathighe herre
+      <persName>konung Erik</persName> j Danmark Swerighe oc Norghe / ok aff mechtigh høyghboren
+      fruwe oc førstynne / the for<hi rend="sup">ne</hi> thry rikes Danmarks Swerighes Norghes
+      etcetera drotning myn nathighe fruwe / oc aff ther<ex>is</ex> sunderlighe nathe ok gunst oc j
+      ræt tro oc louen anam<ex>it</ex> ok vntfangit hauer oc meth thette breff i tro anamer oc
+      vntfaar vppa theris ok konu<ex>n</ex>gedømens weyne j Norghe / thet ierledømme oc land Orknøy
+      swo mekit som th<ex>e</ex>r j kronen ok konungedømet j Norghe meth rætte tilhører / at
+      forestaa fordeythinge oc foreware / vppa theris / ok there effterkommeres konu<ex>n</ex>ge j
+      Danmark Swerighe oc Norghe weyne schiellike ok laghlike som en goth man bør vppa sin rette
+      h<ex>er</ex>ris weyne j tromaal at gøre swo lenge som theris wilie oc nathe tilsigher thoc mik
+      vforsymedh j my<ex>n</ex> ræt oc deythingen som iek hauer oc wti sider meth then vnge herris
+      Juncker Willems fath<ex>e</ex>r ok for neffnde myn nathighe herre oc fruwe konung Eric ok
+      drotning Philippa / oc the tilkomende konunge . j Danmark Swerighe ok Norghe thette
+      forscriffne ierledøme æmbede ok forestand friit oc vbeworet jgeen at antwordhe ee naar theris
+      nathe th<ex>et</ex> kræuer oc haue will ♦</p>
+            <p n="a#2" xml:space="preserve">Thenne forsc<ex>ri</ex>ffne tro oc thisse forscriffne artikle ok stucke alle ok hwert there
+      serdelis louer iek for<hi rend="sup">de</hi> myn nathighe h<ex>er</ex>re ok fruwe oc
+      tilkomende konunge j Danmark Swerighe ok Norghe stadighe faste ok vbrøthelike at holde with
+      myn gothe tro ok sannende wten arght ♦</p>
+            <p n="a#3" xml:space="preserve">Swo loue oc wy <persName>Thomas de Tolach</persName> biscop j <placeName>Orknøy</placeName>
+      oc iek <persName>Walter Fraser</persName> meth een sampnidh hand ♦</p>
+            <p n="a#4" xml:space="preserve">Ok thes till mere bewaring oc stadhfestelsse haue wy thre forneffnde wore jncigle meth
+      witschap ok goth wilghe hengdt fore th<ex>e</ex>tte breff ♦</p>
+            <p n="a#5" xml:space="preserve">Datum <placeName>Køpendhaffn</placeName> anno domini millesimo cdxxtercio mensis julii die
+      quintadecima ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
