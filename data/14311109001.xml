@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">327</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14311109001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 21683</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskrift af tilsyneladende flere hænder: <q>Galtebech j Norrahalla<ex>n</ex>d Brantzwiik pante breff</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af ufarvet voks med ulæselig omskrift i perg.rem tilhørende Jens Nielsen Bransvig af Åkarp, <ref>AS L LXVII 13</ref></ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Erik Geds segl af ufarvet voks i perg.rem, <ref>AS G xii 2</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 31-32</bibl>
+               <bibl>Rep. nr. 6526</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-11-09"
+                  notBefore="1431-11-09"
+                  notAfter="1431-11-09"
+                  cert="high">1431. 9. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Nielsen, som kaldes Bransvig af Åkarp,
+      erkender at skylde Klaus Nielsen, væbner, ti lødige mark, for hvilke han pantsætter ham sin
+      gård i Galtabäck i Himle herred i Nørrehalland. Løsningsdagen skal være på sankt Thomas' dag
+      før jul (21. december), og når godset indløses, skal det års landgilde følge hovedstolen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-05-13" who="#maria.arvidsson">Filen etableret af #maria.arvidsson 2019-05-13. </change>
+         <change when="2019-05-13" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-05-13. </change>
+         <change when="2019-08-30" who="#alk">2. korrektur af #alk 2019-08-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn thette breff hører æller ser helser jak <persName>Jes Nielss<ex>øn</ex></persName>
+      som kalles Bra<ex>n</ex>sswigh aff <placeName>Agorp</placeName> kærleghe m<ex>eth</ex> gudh
+      ♦ Th<ex>et</ex> skal alle mæn wyth<ex>e</ex>rlich ware nerwær<ex>endes</ex> oc
+      ko<ex>m</ex>meskulend<ex>es</ex> at jak wyth<ex>e</ex>rke<ex>n</ex>nes mik m<ex>eth</ex>
+      th<ex>ette</ex> mith opne breff skuldugh<ex>e</ex>r at ware en heth<ex>e</ex>rlich man
+      th<ex>e</ex>nne nerwærend<ex>es</ex> brefførær<ex>e</ex>
+      <persName>Clawes Nielss<ex>øn</ex></persName> awaben x<hi rend="sup">o</hi> lodichmark oc hwar
+      lodichm<ex>a</ex>r<ex>k</ex> rygnes for v<hi rend="sup">o</hi> s<ex>killing</ex> g<ex>rot</ex>
+      geue pæni<ex>n</ex>ghe oc genge som en godh ma<ex>n</ex> ma gør<ex>e</ex> en anne<ex>n</ex>
+      folt m<ex>eth</ex> oc jghen betale skulend<ex>es</ex> pa s<ex>anc</ex>ta Tomus daw nest for
+      jwl ♦</p>
+            <p n="a#2" xml:space="preserve">Oc war<ex>e</ex> th<ex>et</ex> swo th<ex>et</ex> mik tho wanzker the for<hi rend="sup">de</hi> pæni<ex>n</ex>ghe at betale tho til <app><lem>pant</lem><rdg wit="#A">understregning begynder ved <q>a</q>, A</rdg></app> sætter <app><lem>jak</lem><rdg wit="#A">her slutter understregning, A</rdg></app> hanu<ex>m</ex> mith goss j Norr<ex>e</ex>halland vtj He<ex>m</ex>mellehær<ex>et</ex>
+      ligghe<ex>n</ex>dis som ær en gord j <placeName>Galtabek</placeName> oc gyw<ex>er</ex> ɉ
+      tu<ex>n</ex>ne smør hwart ar til landgilde m<ex>eth</ex> all th<ex>e</ex>n for<hi rend="sup">de</hi> gord<ex>s</ex> til liggelse eehwat th<ex>et</ex> helst næffneska<ex>n</ex> oc <app><lem>jntte</lem><rdg wit="#A">skal evt. læses <q>jncte</q>, A</rdg></app> vndentagit fri aff at sædia oc vtj oc
+      landgilde oc skat oc thæia oc thiæneste oc hwat han vderm<ex>er</ex> rantte kan op at bæra oc
+      til syn nutte at brughe oc <app><lem>jntte</lem><rdg wit="#A">skal evt. læses <q>jncte</q>, A</rdg></app> aff sloss j houith
+      pani<ex>n</ex>gghena oc lossni<ex>n</ex>gghe daghen skal altid war<ex>e</ex> om th<ex>e</ex>n
+        for<hi rend="sup">de</hi> s<ex>anc</ex>ta Tomus dagh nest for jwl oc jnghen anne<ex>n</ex>
+      daw oppo arit oc nar th<ex>et</ex> for<hi rend="sup">de</hi> gooz jgen losis tho skal thes ars
+      landgilde follia houith pani<ex>n</ex>gghena ♦</p>
+            <p n="a#3" xml:space="preserve">Item til binder jak mik oc mynæ arwi<ex>n</ex>gghe for<hi rend="sup">de</hi>
+      <persName>Clawes Nielss<ex>øn</ex></persName> oc hans arwi<ex>n</ex>ghe th<ex>et</ex> for<hi rend="sup">de</hi> gooz at fri for eth brughelich pant for hwers manz til tal til thes dax <app><lem>th<ex>et</ex></lem><rdg wit="#A">skrevet to gange, A</rdg></app> warder hanu<ex>m</ex> æller hans arwi<ex>n</ex>ghe loffleghe aff lost for for<hi rend="sup">de</hi> pani<ex>n</ex>gghe su<ex>m</ex> aff mik all<ex>er</ex> myne
+      arwi<ex>n</ex>gghe ♦</p>
+            <p n="a#4" xml:space="preserve">Til mere wisse oc storr<ex>e</ex> forwari<ex>n</ex>g tha he<ex>n</ex>ggh<ex>e</ex>r jak mith
+      jnsele for th<ex>etta</ex> mith nær<hi rend="sup">d<ex>es</ex></hi> opna breff m<ex>eth</ex>
+      and<ex>ra</ex> godha menz jncele som ær <persName>Jens Stygss<ex>øn</ex></persName> aff
+        <placeName>Næs</placeName> oc <persName>Erik Geeth</persName> ♦</p>
+            <p n="a#5" xml:space="preserve">Screu<ex>et</ex> ar affter gud<ex>s</ex> burdh m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi>
+      xxxi th<ex>e</ex>n fredaw nest fore s<ex>anc</ex>ta Mortens daw etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
