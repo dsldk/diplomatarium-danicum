@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">209</num>, paragraphs: <num
+               n="paragraphs">23</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14240723001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Terpager 59</bibl>
+               <bibl>Erslev, Testamenter 195 nr. 84</bibl>
+               <bibl>Rep. nr. 6130</bibl>
+               <bibl>Reg. Dan. nr. 3432</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Terpager l.l.</ref></ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-07-23" notBefore="1424-07-23" notAfter="1424-07-23" cert="high">1424.
+               23. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Niels Larsen opretter testamente til fordel for kirker, klostre og enkelte personer,
+               i alt 18 arvinger; heriblandt modtager domkirken i Ribe halvdelen af hans hus og
+               halvdelen af det dertil annekterede grundstykke.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-20" who="#pbh">Filen etableret af #pbh 2014-06-20. </change>
+         <change when="2019-10-21" who="#pbh">1. korrektur af #pbh 2019-10-21. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In nomine domini amen.</p>
+            <p n="a#2" xml:space="preserve">Ego <persName>Nicholaus Laurentii</persName> licet corpore debilis. mente tamen sanus.
+      testamentum meum de bonis mihi a deo concessis ordino in hunc modum.</p>
+            <p n="a#3" xml:space="preserve">Primo do et lego ecclesie beate virginis cathedrali <placeName>Ripis</placeName> ubi meam
+      eligo sepulturam dimidietatem domus mee et dimidietatem fundi eidem domui annexi ad salutem
+      anime mee.</p>
+            <p n="a#4" xml:space="preserve">Item <placeName>claustro predicatorum</placeName> i ørti korn.</p>
+            <p n="a#5" xml:space="preserve">Item <placeName>claustro mynorum</placeName> i ørti korn.</p>
+            <p n="a#6" xml:space="preserve">Item domino <persName>Iwaro</persName> plebano meo i sol. gross.</p>
+            <p n="a#7" xml:space="preserve">Item domino <persName>Everhardo</persName> capellano i sol. gross.</p>
+            <p n="a#8" xml:space="preserve">Item fratribus beati Anthonii ii sol. sterl.</p>
+            <p n="a#9" xml:space="preserve">Item <placeName>ecclesie beati Nicholai Ripis</placeName> i sol. sterl.</p>
+            <p n="a#10" xml:space="preserve">Item monialibus i sol. sterl.</p>
+            <p n="a#11" xml:space="preserve">Item vi sterl. cuilibet ecclesie Ripensi. non prius nominate.</p>
+            <p n="a#12" xml:space="preserve">Item i gross. ad quamlibet ecclesiam in <placeName>Hwidingherrit</placeName>. </p>
+            <p n="a#13" xml:space="preserve">Item ecclesie <placeName>Rwthager</placeName> i koo til lyws. </p>
+            <p n="a#14" xml:space="preserve">Item plebano ibidem i vaccam que semper vivat. </p>
+            <p n="a#15" xml:space="preserve">Item pauperibus Ripis i <app><lem>stykki</lem><rdg>Foreslås rettet til <q>flykki</q> af Erslev</rdg></app> flesk i ørti myel <app><lem>i</lem><rdg>Foreslås rettet til <q>c</q> af Erslev</rdg></app> brooth. </p>
+            <p n="a#16" xml:space="preserve">Item ecclesie <placeName>Horstrop</placeName> i sol. gross. </p>
+            <p n="a#17" xml:space="preserve">Item ecclesie <placeName>Gwlager</placeName> i sol. gross. </p>
+            <p n="a#18" xml:space="preserve">Item dilecte uxori i kethæl aff æn tynnæ. i dynæ. alle sennæ klether ok silff tilfornæ och
+      een kobærsyllæ. </p>
+            <p n="a#19" xml:space="preserve">Item <persName>Martino Jone</persName> i ny sort hettæ. </p>
+            <p n="a#20" xml:space="preserve">Item uxori <persName>Benedicti</persName> ny alnæ sort klæthæ. </p>
+            <p n="a#21" xml:space="preserve">Hec est mea ultima voluntas quam <app><lem>con<damage>mit</damage>to</lem><rdg><q>Con - - to</q> Terpager; rettelsen skyldes Erslev</rdg></app> Benedicto et uxori mee ut eam impleant. prout coram summo judice voluerint respondere. </p>
+            <p n="a#22" xml:space="preserve">In cujus rei testimonium sigilla discretorum domini Everhardi presbiteri. <persName>Cristierni
+        Broderssen</persName> et <persName>Johannis Hennikini</persName> civium Ripensium
+      presentibus sunt appensa. </p>
+            <p n="a#23" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cdxxiiii<hi rend="sup">o</hi> crastino beate Marie
+      Magdalene.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
