@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">101</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14310818001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Walther v. Kirkorfs embedssegl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Ikke forefundet 2019</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. CDLXX, nr. 470, p. 450</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-08-18"
+                  notBefore="1431-08-18"
+                  notAfter="1431-08-18"
+                  cert="high">1431. 18. august</date>
+            <placeName cert="high">Nykøbing Falster</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Walther v. Kirskorf, Den Tyske Ordens komtur i Danzig, udsteder et fribrev til skipperne
+      Hancke Budde og Johann v. Mauwe. Dette fribrev samt det lejdebrev, som de har fået af kong
+      Erik 7. af Pommern, skal sikre skipperne på de rejser, som Walther v. Kirskorf nu vil sende
+      dem ud på.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-12-09" who="#smb">Filen etableret af #smb 2019-12-09. </change>
+         <change when="2019-12-09" who="#smb">1. korrektur af #smb 2019-12-09. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Wir bruder <persName>Walter Kirskorff</persName>, Deutsches ordens kompthur czu
+        <placeName>Danczig</placeName> bitten alle die yennen, czu welcker kegenwerdikeit disser
+      vffene brief kumpth, das ir <persName>Hancke Budde</persName> vnd <persName>Johan von
+        Mauwe</persName> mit irer geselleschaft gutten willen vnd woltete vmme vnser bete wille
+      bewieset, vff das sie vredelich vnd vngeschediget mogen komen, do wir sie hen senden, wen si
+      vnsers gnedigen heren des konigs brieff vnd vnsen haben, do sunderlich grosse macht an lieht,
+      das vns gutlich im semlichen steet czu uorschulden.</p>
+            <p n="a#2" xml:space="preserve">Des in geczugnisse der worheit haben wir vnsers ampths ingesegel vnden an dissen brieff
+      lossen drucken, der gegeben ist czu Nikoping, am sonnabend nach Assumpcionis Marie, im
+        XIIII<hi rend="sup">c</hi> vnde XXXI<hi rend="sup">ten</hi> jar.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">262</num>, paragraphs: <num n="paragraphs">10</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14310715001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Transsumpt i et brev fra rådet i Riga til rådet i Reval af 3. august
+      1431</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4919</bibl>
+               <bibl>Hanserec. 2:I, nr. 58, p. 36-37</bibl>
+               <bibl>Hildebrand, Liv.-, Est.- u. Curländ. Urkundenb. VIII., nr. 476, p. 282</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-07-15"
+                  notBefore="1431-07-15"
+                  notAfter="1431-07-15"
+                  cert="high">1431. 15. juli</date>
+            <placeName cert="low">[Stralsund]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>En ukendt person advarer rådet i Riga mod kong Erik 7. af Pommern, hvis flåde er i søen og
+      siges at ligge ved Gedser. Man ved dog ikke med sikkerhed, hvor den danske flåde er på vej
+      hen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-27" who="#pbh">Filen etableret af #pbh 2013-09-27. </change>
+         <change when="2019-12-05" who="#smb">1. korrektur af #smb 2019-12-05. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Post salutacionem.</p>
+            <p n="a#2" xml:space="preserve">Wo dat de koningh van <placeName>Dennemarken</placeName> uthelicht wol mit 18 groten holken
+      unde ock mit velen kleynen schepen, dat en wet hir noch nemant, wor hee henne wyl mit dusser
+      groten samelinge.</p>
+            <p n="a#3" xml:space="preserve">My qwam gystern eyn breeff van <placeName>Lubecke</placeName>, den sende my <persName>Tydeman
+        Brekelveldt</persName>, unde ock andere vrundt, de de Liefflandessche reyse holden, wo dat
+      ick zall warnynge doen vormiddelst breven unde baden den schepperen, de uth
+        <placeName>Liefflande</placeName> unde uth <placeName>Pruczen</placeName> na <placeName>der
+        Traven</placeName> willen wesen.</p>
+            <p n="a#4" xml:space="preserve">See schryven my, weret sake, dat ick jenige schepe vorneme achter dem lande to
+        <placeName>Rugen</placeName> edder under <placeName>Bornhølme</placeName>, dat ick den
+      warnynge hirvan solde doen to water word edder to lande word, wo ick dat en alderbest konde
+      benalen, dat se nenerleye wiis to en sochten na <placeName>der Traven</placeName> to
+      zegelende, men dat se siik vorseghen in eyne gude havene, dar se velich mochten wesen, so
+      lange dat se ander thidinge vornemen, wat dat de koning mende unde <app><lem>wor</lem><rdg><q>vor</q>, Aa</rdg></app> dat hee henne wolde.</p>
+            <p n="a#5" xml:space="preserve">Isset sake, dat de Lubeschen schepe dar noch syn, so doet dussen scheppern dusse warninghe
+      unde latet en dussen breeff lesen, dusse reyse wyl sere varlich wesen na <placeName>der
+        Traven</placeName> to segelende.</p>
+            <p n="a#6" xml:space="preserve">Hir syn nu bynnen twen dagen vele Dennen gekomen, over de seggen diit in der warheit, dat de
+      koning aldus starck mit luden unde ock mit scheppen uthelicht, se seggen hir, dat he licht
+      uthe bii <placeName>Gh{ee}sore</placeName>.</p>
+            <p n="a#7" xml:space="preserve">Ock seggen se hyr, dat he siick vorgaddert to <placeName>L{ae}landes Elboghen</placeName>,
+      wor dat he henne wyl, des en kan ick hir nicht vorfaren.</p>
+            <p n="a#8" xml:space="preserve">Sunderlinges van tidingen en wet ick jw anders nicht to schryvende.</p>
+            <p n="a#9" xml:space="preserve">Ick bevele jw dem almechtigen leven Gode.</p>
+            <p n="a#10" xml:space="preserve">Gescreven mit der hast, in der twelff apostel dage.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

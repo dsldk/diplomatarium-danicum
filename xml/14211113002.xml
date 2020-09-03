@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">978</num>, paragraphs: <num n="paragraphs">13</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14211113002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2773-b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>28.1 (plica: 1.3)</height>
+                                    <width>36.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Fikke van Vitzens segl af mørkt voks i perg.rem, <ref>C li 25</ref>
+                              </ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Klaus Zernins segl af mørkt voks i perg.rem, <ref>DAS 931</ref>
+                              </ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Succows segl af mørkt voks i perg.rem, <ref>AS C lxii 1</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 169-73</bibl>
+               <bibl>Rep. nr. 5945</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-11-13"
+                  notBefore="1421-11-13"
+                  notAfter="1421-11-13"
+                  cert="high">1421. 13. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Henning (Hansen) Podebusk af Skjern og hans hustru Kristine Jensdatter (Falk) erkender at
+      skylde hr. Aksel Pedersen (Thott) i Härlöv, ridder, 800 gamle engelske nobler eller også tre
+      lybske mark i sjællandske engelske for hver nobel, som de skal betale tilbage på den
+      næstkommende mortensdag. For denne sum penge sætter de deres halvdel af Vallø gård og af
+      en større mængde gods på Sjælland i pant til ham, på det vilkår at Aksel Pedersen skal have fuldmagt til at
+      bruge dem efter sin vilje og oppebære alle indtægter, indtil Henning Podebusk og hans hustru
+      indløser dem. Indtægterne skal ikke fraregnes gældens hovedstol.</ab>
+            <ab>Når Henning Podebusk og hans hustru vil indløse det pågældende gods skal de varsle Aksel
+      Pedersen herom et år i forvejen, og på samme måde skal Aksel Pedersen varsle dem, hvis han vil
+      have sine penge tilbage, inden aftalt tid. Pengene skal betales på et for modtageren belejligt
+      sted på Sjælland. Hvis Aksel Pedersen ikke får pengene på den næste mortensdag som aftalt,
+      skal Henning Podebusk og hans hustru give ham erstatning for den skade, som han på grund af
+      dette har lidt, efter afgørelse af fire venner på hver af de to parters side. Herudover
+      forpligter Henning Podebusk og hans hustru sig til at holde Aksel Pedersen skadesløs, hvis
+      noget af det nævnte gods går tabt ved mangelfuld hjemling fra deres side.</ab>
+            <ab>Såfremt Henning Podebusk og hans hustru vil afhænde noget af det gods, som Henning Podebusk
+      har fået i forbindelse med sit ægteskab med Kristine Jensdatter, skal ingen være nærmere end
+      Oluf Akselsen, og Oluf Akselsen skal gøre det modsvarende for dem.</ab>
+            <ab>Aksel Pedersen må ikke bygge for mere end 200 lybske mark på Henning Podebusk og hans
+      hustrus del af Vallø gård, som er den vestre del, og de skal betales, før hovedstolen
+      uddeles.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
+         <change when="2018-10-01" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-10-01. </change>
+         <change when="2020-05-10" who="#smb">2. korrektur af #smb 2020-05-10. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Jæc <persName>He<ex>n</ex>ni<ex>n</ex>g Putbusch</persName> aff <placeName>Skærnæ</placeName>
+      ridderæ oc jæc <persName>Cristinæ Jenssædoth<ex>e</ex>r</persName> for<hi rend="sup">de</hi>
+      hær He<ex>n</ex>ni<ex>n</ex>gs husfrw ♦ Wy giøræ wit<ex>er</ex>licht allæ
+      nærwære<ex>n</ex>d<ex>es</ex> oc ko<ex>m</ex>mæsculend<ex>es</ex> at wy weth<ex>e</ex>rkennæ
+      oss skyldich atwæræ / een wælbor<ex>e</ex>n man hær <persName>Axel
+        Pæth<ex>e</ex>rss<ex>øn</ex> ridder<ex>æ</ex></persName> j Hærdeløff aatæhwndræde gamlæ
+      ængilskæ nobælæ / fulwichtekæ / æll<ex>e</ex>r oc thre lubeskæ m<ex>a</ex>rk j Siælandz
+      ængilskæ som nw ær<ex>æ</ex> gængæ / oc gewæ / for<ex>æ</ex> hwar nobel
+      regnæsculend<ex>es</ex> atbetale pa næstæ s<ex>anc</ex>ti Martens dagh vden alt
+      hind<ex>e</ex>r / j swo dant gul æll<ex>e</ex>r pæ<ex>n</ex>ningæ som forscr<ex>effnæ</ex>
+      stander / oc æy a<ex>n</ex>nit wærdh</p>
+            <p n="a#2" xml:space="preserve">Foræ hwilkæ for<hi rend="sup">de</hi> gul oc pæ<ex>n</ex>ningæ so<ex>m</ex>
+      forscr<ex>effnæ</ex> stander / tha pantsættæ wy m<ex>eth</ex> wiliæ samthøckæ oc beradh hugh
+        for<hi rend="sup">de</hi> h<ex>ær</ex> Axel Pæth<ex>e</ex>rss<ex>øn</ex> all wor deel j
+      Walløffs gard / oc j allæ thessæ gotz som hær æpt<ex>er</ex> screwit stander / oc
+      ther<ex>es</ex> tilligelsæ / wath oc thywrt / allæ firæ wægnæ til markæskæl ænkte vndertagit /
+      som ær ræth halffdelen aff Walløffs gardh m<ex>eth</ex> allæ tilligilskæ / j wath oc thywrt
+      skow m<ex>a</ex>rkæ fiskæwatn fægang allæ firæ wægnæ til markæskæl ænkte vndertagit / j hwat
+      hælst th<ex>et</ex> waræ kan / oc ræth halffdelen aff allæ thessæ æpt<ex>er</ex>screffnæ gotz
+      oc m<ex>eth</ex> ther<ex>es</ex> tilligelsæ / som forscr<ex>effnæ</ex> stander som ær Kaxtorp
+      som giwer aarlikæ xxiiij<hi rend="sup">or</hi> skilingh g<ex>rot</ex> oc iij pu<ex>n</ex>d
+      korn ♦ Item Brothorp ix pu<ex>n</ex>d korn / ♦ Item Thærsløff iiij pu<ex>n</ex>d
+      korn ♦ Item Thiæræby iij pu<ex>n</ex>d korn ♦ Item Orthwit xiij pu<ex>n</ex>d korn
+      ♦ Item Slimi<ex>n</ex>gæ xviij pu<ex>n</ex>d korn ♦ Item Kylorp viij pu<ex>n</ex>d
+      korn / Gu<ex>m</ex>mersmarkæ viij pu<ex>n</ex>d korn / ♦ Item Barnorp xij pu<ex>n</ex>d
+      korn Swansb<ex>er</ex>gh ij pu<ex>n</ex>d korn ♦ Item Børstwit xviij s<ex>kilingh</ex>
+      g<ex>rot</ex> viij g<ex>rot</ex> / ♦ Item Hærføglæ xɉ s<ex>kilingh</ex>
+      g<ex>rot</ex> ♦ Item Cleme<ex>n</ex>tstorp j lød<ex>ig</ex> m<ex>a</ex>rk ♦ Item
+      Bøgæ ij lød<ex>ig</ex> m<ex>a</ex>rk / ♦ Item Hastorp ɉ lød<ex>ig</ex>
+      m<ex>a</ex>rk ♦ Item Eghøwæ xxvij s<ex>kilingh</ex> g<ex>rot</ex> ♦ Item Oelstorp
+      xij s<ex>kilingh</ex> g<ex>rot</ex> / Witskywflæ xlij s<ex>kilingh</ex> g<ex>rot</ex> ♦
+      Item Gu<ex>n</ex>norp j lød<ex>ig</ex> m<ex>a</ex>rk ♦ Item Ringzbergh iij
+      s<ex>kilingh</ex> g<ex>rot</ex> iij g<ex>rot</ex> / ♦ Item Wroby vij lød<ex>ig</ex>
+      m<ex>a</ex>rk iiij g<ex>rot</ex> mindræ / ♦ Item Yædensløff xix s<ex>kilingh</ex>
+      g<ex>rot</ex> iiij g<ex>rot</ex> / ♦ Item Aggrop ij lød<ex>ig</ex> m<ex>a</ex>rk /
+      ♦ Item Walløff xxvɉ s<ex>kilingh</ex> g<ex>rot</ex> / ♦ Item Hi[m]lingøwæ <app><lem>xxix</lem><rdg wit="#A">den højre stabel, som går ned under linjen på x(3), er forsynet med en
+          horisontal streg, dvs. tallet er ensbetydende med 28½</rdg></app> s<ex>kilingh</ex> g<ex>rot</ex> / ♦ Item Tornby xxviɉ s<ex>kilingh</ex>
+      g<ex>rot</ex> / ♦ Item Hoby ix s<ex>kilingh</ex> g<ex>rot</ex> ♦ Item Madescow ij
+      s<ex>kilingh</ex> g<ex>rot</ex> ♦ Item Strandhowit j s<ex>kilingh</ex> g<ex>rot</ex>
+      ♦ Item Elmøwæ lillæ j s<ex>kilingh</ex> g<ex>rot</ex> ♦ Item Ælmøwæ meræ j
+      s<ex>kilingh</ex> g<ex>rot</ex> / ♦ Item Wallebode vj s<ex>kilingh</ex> g<ex>rot</ex> /
+      ♦ Item Bothorp ix s<ex>kilingh</ex> g<ex>rot</ex> ♦ Item Orthorp v
+      s<ex>kilingh</ex> g<ex>rot</ex> ♦ Item Hyllæde j lød<ex>ig</ex> m<ex>a</ex>rk ♦
+      Item Roltæ j s<ex>kilingh</ex> g<ex>rot</ex> ♦ Item Kungstæde <app><lem>v</lem><rdg wit="#A">venstre stabel er forsynet med en diagonal streg og modsvarer tallet 4½</rdg></app> s<ex>kilingh</ex> g<ex>rot</ex> ♦ Item Ryndit ij s<ex>kilingh</ex> g<ex>rot</ex>
+      ♦ Item Jwdorp x s<ex>kilingh</ex> g<ex>rot</ex> ♦ Item <app><lem>Thywf[f]torp</lem><rdg wit="#A"><q>f</q> skal måske læses som <q>s</q>, A</rdg></app> x s<ex>kilingh</ex> g<ex>rot</ex> til landgilde / m<ex>eth</ex> allæ thessæ
+      forscr<ex>effnæ</ex> gotzes tilligelsæ / som ær ag<ex>er</ex> ængh scow fiskæwan / wath oc
+      thywrt / ænkte vndertagit / ♦</p>
+            <p n="a#3" xml:space="preserve">M<ex>eth</ex> swo dant / skæl oc wilkor / at for<hi rend="sup">de</hi> h<ex>ær</ex> Axel
+      Pæth<ex>e</ex>rss<ex>øn</ex> æll<ex>e</ex>r hans arwingæ / <app><lem>s[k]ulæ</lem><rdg wit="#A">utydeligt, A</rdg></app> full macht hawæ / thessæ for<hi rend="sup">de</hi> gotz at brwkæ / æpt<ex>er</ex>
+      ther<ex>es</ex> nøttæ oc wilyæ / oc j atsættæ / oc aff atsættæ / frwcht oc landgilde / oc allæ
+      andræ retslæ / opatbæræ / ænkte r<ex>e</ex>gnæsculend<ex>es</ex> j
+      howitpæ<ex>n</ex>ni<ex>n</ex>gæ til thes the worde hano<ex>m</ex> æll<ex>e</ex>r ha<ex>n</ex>s
+      arwingæ affløstæ wit oss <app><lem>æl[l]<ex>e</ex>[r]</lem><rdg wit="#A">udvisket, A</rdg></app> wor<ex>æ</ex> arwingæ / ♦</p>
+            <p n="a#4" xml:space="preserve">Item nar wy æll<ex>e</ex>r wor<ex>æ</ex> arwingæ tessæ for<hi rend="sup">de</hi> gotz løsæ
+      wilæ / aff for<hi rend="sup">de</hi> h<ex>ær</ex> Axel æll<ex>e</ex>r hans arwing<ex>æ</ex>
+      tha skulæ wy lathæ war<ex>æ</ex> hano<ex>m</ex> æll<ex>e</ex>r hans arwingæ at eet aar
+      tilfoar<ex>e</ex>n swo at wy war<ex>æ</ex> hano<ex>m</ex> æll<ex>e</ex>r hans arwingæ at / een
+      s<ex>anc</ex>ti Martens dagh oc løsit the<ex>n</ex> andræ s<ex>anc</ex>ti Martens dagh
+      th<ex>e</ex>r næst ♦</p>
+            <p n="a#5" xml:space="preserve">Wordet oc swo at for<hi rend="sup">de</hi> h<ex>ær</ex> Axel æll<ex>e</ex>r hans arwingæ /
+      wilæ ther<ex>es</ex> pæ<ex>n</ex>ni<ex>n</ex>gæ før hawæ / so<ex>m</ex> forscr<ex>effnæ</ex>
+      stander tha scal han æll<ex>e</ex>r the / waræ oss æll<ex>e</ex>r wor<ex>æ</ex> arwingæ at til
+      foar<ex>e</ex>n eet aar pa s<ex>anc</ex>ti Martens dagh ♦</p>
+            <p n="a#6" xml:space="preserve">Oc fingæ han æll<ex>e</ex>r the jckæ ther<ex>es</ex> pæ<ex>n</ex>ni<ex>n</ex>gæ so<ex>m</ex>
+      forscr<ex>effnæ</ex> stander næstæ s<ex>anc</ex>ti Martens dagh / æpt<ex>er</ex> th<ex>et</ex>
+      at anthic wy war<ex>æ</ex> hano<ex>m</ex> at / oc hans arwing<ex>æ</ex> æll<ex>e</ex>r oc han
+      æll<ex>e</ex>r hans arwing<ex>æ</ex> waræ oss at / æll<ex>e</ex>r woræ arwing<ex>æ</ex> at the
+      ther<ex>es</ex> pæ<ex>n</ex>ni<ex>n</ex>gæ hawæ wilæ / so<ex>m</ex> forscr<ex>effnæ</ex>
+      stander / hwat skade th<ex>e</ex>r han æll<ex>e</ex>r hans arwingæ th<ex>e</ex>r aff fongæ <app><lem>sk[u]l[æ]</lem><rdg wit="#A">udvisket, A</rdg></app> wy oc wilæ <app><lem>trolikæ</lem><rdg wit="#A">skrevet to gange efter hinanden på linjen, A</rdg></app> for<hi rend="sup">de</hi> h<ex>ær</ex> Axel æll<ex>e</ex>r hans arwingæ / opatræthæ /
+      vden alt hinder / æpt<ex>er</ex> firæ woræ wener siælsæ pa bathe sithær / ♦</p>
+            <p n="a#7" xml:space="preserve">Item <app><lem>[nar]</lem><rdg wit="#A">udvisket, A</rdg></app> th<ex>et</ex>tæ for<hi rend="sup">de</hi> gul æll<ex>e</ex>r pæ<ex>n</ex>ni<ex>n</ex>gæ
+      sculæ betales so<ex>m</ex> forscr<ex>effnæ</ex> stander / tha sculæ the betales pa een
+      beleylich stædh so<ex>m</ex> them beleylicht ær so<ex>m</ex> them vpbær<ex>æ</ex>
+      <app><lem>sk[u]læ</lem><rdg wit="#A">utydeligt, A</rdg></app> / j Sieland / ♦</p>
+            <p n="a#8" xml:space="preserve">Item tilbinde wy oss oc wor<ex>æ</ex> arwingæ / for<hi rend="sup">de</hi> hær Axel
+      æll<ex>e</ex>r hans arwingæ / then for<hi rend="sup">de</hi> gard oc gotz at friæ oc hemlæ /
+      for<ex>æ</ex> hwars mants tiltale / ♦</p>
+            <p n="a#9" xml:space="preserve">Wordet oc swo at the<ex>n</ex> for<hi rend="sup">de</hi> gotz æll<ex>e</ex>r nog<ex>er</ex>
+      deel aff them / for<hi rend="sup">de</hi> hær Axel æll<ex>e</ex>r hans arwingæ / affgingæ foræ
+      wor wonhemelsæ / tha tilbinde wy oss och woræ arwingæ / for<hi rend="sup">de</hi> h<ex>ær</ex>
+      Axel oc hans arwingæ / aldeles skadeløs atholde / ♦</p>
+            <p n="a#10" xml:space="preserve">Item sculæ wy <app><lem>æll<ex>e</ex>[r]</lem><rdg wit="#A">udvisket, A</rdg></app> wilæ nogit affhende aff the gotz so<ex>m</ex> jæc fic m<ex>eth</ex> for<hi rend="sup">de</hi> my<ex>n</ex> husfrw C<ex>ri</ex>stinæ / tha scal ængin nærmer wær<ex>æ</ex> æn
+      Olaff Axelss<ex>øn</ex> oc thes ligis scal han giøræ oss jgen ♦</p>
+            <p n="a#11" xml:space="preserve">Item scal for<hi rend="sup">de</hi> h<ex>ær</ex> Axel æll<ex>e</ex>r hans arwingæ æy byggæ
+      øffræ pa for<hi rend="sup">de</hi> wor deel aff for<hi rend="sup">de</hi> Walløffs gardh
+      so<ex>m</ex> ær the<ex>n</ex> wæstræ dell æn pa thuhu<ex>n</ex>dræde lubeskæ m<ex>a</ex>rk /
+      oc the sculæ betalis før æn howitpæ<ex>nningæne</ex> vtgiwes . ♦</p>
+            <p n="a#12" xml:space="preserve">Til hwes things witnesbywrd / wor<ex>æ</ex> jngcilæ m<ex>eth</ex> andræ gode ments jngcilæ
+      so<ex>m</ex> ær<ex>æ</ex> hær <persName>Olaff Stigss<ex>øn</ex> ridderæ</persName> /
+        <persName>Vicke van Vizens</persName> / <persName>Eric Jepss<ex>øn</ex></persName> aff
+      Sponghagræ / <persName>Jes Olafs<ex>øn</ex></persName> aff <placeName>Hæslæ</placeName> /
+        <placeName>Cerlins</placeName> / oc <placeName>Succows</placeName> ær<ex>æ</ex> hængde
+      for<ex>æ</ex> th<ex>et</ex>tæ wort opne b<ex>re</ex>ff / ♦</p>
+            <p n="a#13" xml:space="preserve">Giwit vnder wors h<ex>ær</ex>ræ aar twsen aar firæhw<ex>n</ex>dræt aar thiwæ aar pa
+      th<ex>et</ex> førstæ s<ex>anc</ex>ti Briccii <app><lem>&lt;dagh&gt;</lem><rdg wit="#A">glemt?, A; jf. DD 1421. 13. nov., nr. 14211113001 skrevet m. sa. hd</rdg></app> so<ex>m</ex> ær biscop oc confessor ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
