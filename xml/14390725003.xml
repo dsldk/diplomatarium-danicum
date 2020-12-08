@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">981</num>, paragraphs: <num n="paragraphs">16</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14390725003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Statsforfatning</collection>
+                        <idno>B 5 Forskelligt vedr. rigsråd og stænder (1438-1575 mm.), afskriftshæfte "Erik af Pommerns afsættelse", nr. 5 (tidligere RA. Danmark 5 a 5)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Infrascripta litera fuit ascripta a domino Erico communitati in
+        Schania et in Jucia cum inclusione suprascripte litere scilicet Hochgheborne vnde eddele
+        here koningh Erich etcetera quam literam suprascriptam consiliarii qui protunc in Lubeck
+        fuerunt miserunt domino Erico de Lubec ad Gotlant etcetera</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Samtidig afskrift</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hvitfeld IV 606, Fol. 810</bibl>
+               <bibl>Reg. Dan. nr. 3629*</bibl>
+               <bibl>Hude, Erik af Pommerns Afsættelse, nr. 7, p. 39-42</bibl>
+               <bibl>Rep. nr. 7025</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1439-07-25"
+                  notBefore="1439-07-25"
+                  notAfter="1439-07-25"
+                  cert="high">1439. 25. juli <note>Som Aa's overskrift antyder, må der have eksisteret et lignende brev til jyderne</note>
+            </date>
+            <placeName cert="high">Stegeborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommerns skrivelse til skåningerne i anledning af, at det danske rigsråd
+      skriftligt har opsagt kongen råd, mandskab og tjeneste. Kong Eriks brev indeholder følgende
+      punkter:</ab>
+            <ab>1) Af rigsrådets opsigelsesbrev fremgår det, at det har opsagt kongen råd, mandskab og
+      tjeneste, samt at det vil se sig om efter en anden herre. I den forbindelse vil kong Erik
+      gerne vide, om skåningerne vil det samme som rigsrådet, hvilket kong Erik dog ikke kan
+      tro.</ab>
+            <ab>2) Kong Erik beder skåningerne om at gå i rette med rigsrådet, således at rigsrådet undlader
+      at fordrive kongen, hvilket det ellers har i sinde. Dette skal skåningerne gøre i forvisning
+      om, at kong Erik altid er parat til at underkaste sig en hvilken som helst dom, som herrer,
+      fyrster og andre hæderlige mænd måtte fælde over ham ved en retssag. I den forbindelse håber
+      kong Erik, at skåningerne og andre af kongens gode folk i Danmark vil sende deres udsendinge
+      til denne retssag, således at de kan høre rigsrådets beskyldninger mod kongen samt kong Eriks
+      svar på disse beskyldninger. Kong Erik vil ydermere være parat til at gøre og lade alt, hvad
+      der retteligt kan kræves af ham som konge, således at skylden hverken skal placeres hos ham,
+      rigsrådet eller hos skåningerne.</ab>
+            <ab>3) Med hensyn til rigsrådets beskyldning om, at kong Erik skulle være skyld i, at der er
+      opstået splid i Danmark mellem rigsrådet, gejstligheden, ridderskabet og borgerskabet i
+      købstænderne på den ene side og den danske befolkning på den anden side, erklærer kong Erik
+      over for skåningerne, at han intet har at gøre med denne splid. Derimod vil kong Erik arbejde
+      for, at der kan komme fred og fordragelighed imellem de forskellige parter.</ab>
+            <ab>4) Kong Erik klager sin nød til Gud og skåningerne over, at rigsrådet nu har indført
+      hertug Kristoffer. Hertug Kristoffer har endvidere fremsat den beskyldning mod kong Erik, at
+      kongen selv skulle have fortjent det, men kong Erik ved ikke andet end, at han altid har vist
+      hertug Kristoffer og dennes moder kærlighed og godhed.</ab>
+            <ab>5) Kong Erik beder skåningerne om at tage sig i agt for hertug Kristoffer og for alle de
+      folk, som står i ledtog med ham, og som har opsagt kong Erik råd, mandskab og tjeneste.
+      Endvidere beder kong Erik skåningerne om at behandle dem, som har handlet ilde mod kongen,
+      således som de har behandlet kong Erik. Endvidere beder kong Erik skåningerne om at udvise
+      troskab mod ham, indtil han kan komme tilbage til Danmark.</ab>
+            <ab>6) Kong Erik erklærer over for skåningerne, at han aldrig ville kunne finde på at gøre mod
+      den danske befolkning, hvad rigsrådet nu har gjort mod ham. Derimod ønsker han kun at gøre
+      det, som sømmer sig for en konge.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-17" who="#pbh">Filen etableret af #pbh 2013-12-17. </change>
+         <change when="2020-09-09" who="#smb">1. korrektur af #smb 2020-09-09. </change>
+         <change when="2020-10-06" who="#smb">2. korrektur af #smb 2020-10-06. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wij Erick mit Godes gnade to <placeName>Dennemarken</placeName>
+      <placeName>Sweden</placeName>
+      <placeName>Norwegen</placeName> der Wende vnde Goten koningh vnde hertoge in
+        <placeName>Pomeren</placeName> groten vnse ersamen mennicheit <app><lem>clerkerie</lem><rdg><q>clekerie</q>, Aa</rdg></app> vnde ridderscop copsteder men vnde gantze menicheid dede b{uv}wen vnde wonen in Schonen
+      leffliken mit Ghode vnde vnser gnade ♦</p>
+            <p n="a#2" xml:space="preserve">Leuen vrundes vnde menicheit ♦</p>
+            <p n="a#3" xml:space="preserve">Wij don jw witlick dat wij en sondage dede nv was vppe <placeName>Godland</placeName> vppe
+      vnsem sclote <placeName>Wiisborgh</placeName> entfenghen <cit><quote>enen breff</quote><bibl>det danske rigsråds opsigelsesbrev til kong Erik, <ref target="14390623001">DD 1439.
+            23. jun., nr. 14390623001</ref></bibl></cit> dede schreuen is tho <placeName>Lubeke</placeName> alse vnse raeth vnde ghuden man vns
+      toschreuen vnde sent hebben ludende wort van worde alse hir na gheschreuen steit ♦</p>
+            <p n="a#4" xml:space="preserve">Hochgeborne furste vnde eddele here koningh Erick ♦ <app><lem>Wij</lem><rdg>herefter står overstreget <q>efft</q> i Aa</rdg></app>
+      <app><lem>nagheschreuen</lem><rdg>eftersom det danske rigsråds opsigelsesbrev er gengivet tidligere i afskriftshæftet,
+          står herefter følgende afskriverkommentar i Aa <q>etcetera sicut supra etcetera et post
+            inscriptionem illius litere</q>, hvorefter Aa fortsætter</rdg></app> (<q>etc. =</q>
+      <ref target="14390623001">DD 1439. 23. jun., nr. 14390623001</ref>) ♦</p>
+            <p n="a#5" xml:space="preserve">Leven vrundes vnde menicheit so moge gij dar ane vorstan mank mer anderen worden vnde weruen
+      dat se vns vpsegghen rad manscop vnde denste vnde willen sick seen vmme enen anderen heren
+      welkes breues thoschrivinghe vnde werue wij gherne wisten efft dat were j{uv}we wille vnde
+      vulborth des wij doch nenerleie wiis louen konen / dat alsodane wer{uv}e sint thoghaen mit
+      juwem willen vnde v{uv}lborde vmme des willen dat wii weten dat wij des <app><lem>nvmmer</lem><rdg>Aa læser <q>nv</q> med en streg igennem v'et, som skal utvivlsomt skal læses som
+          nvmmer</rdg></app> hebben <app><lem>vorbraken</lem><rdg>herefter står overstreget <q>were mit den</q> i Aa</rdg></app> der <app><lem>een</lem><rdg>det første <q>e</q> i <q>een</q> er tilføjet over linjen i Aa</rdg></app> theghen see edder jw effte jenighen beder{uv}en man in dem koningh rike
+        <placeName>Dennemarken</placeName> noch mit willen edder mit werken bij allen vnsen daghen
+      sunt der tiit dat wij worden erst koningh in <placeName>Dennemarken</placeName> ♦</p>
+            <p n="a#6" xml:space="preserve">Doch schut vns dat <app><lem>vorschreuene</lem><rdg>herefter står overstreget <q>to</q> i Aa</rdg></app> mit vnrechte vnde vn{uv}orschuldes in jenigerleie mate alse sik dat van rechtes weghene
+      borde vnde in der groten truwe vnde le{uv}e alse wij den in alle vnsen daghen gherne vnde
+      willighen daen vnde bewiset hebben alse enem jewelicken bederue manne in
+        <placeName>Dennemarken</placeName> wal witlick is dat wille wij laten tho Gode vnde tho den
+      de de warheit willen seggen ♦</p>
+            <p n="a#7" xml:space="preserve">Vmme des willen bidde wij jw leuen vr{uv}ndes vnde menicheit dat gij wal don vmme Godes
+      willen vnde <app><lem>rechtes willen</lem><rdg>rettet fra <q>rechtwisen</q> i Aa</rdg></app> vnde vnderwisen se dar also ane vnde vormoghen <app><lem>se</lem><rdg>herefter står overstreget <q>tho</q> i Aa</rdg></app> dar tho dat se nicht also o{uv}erweldigen vns vordriuen theghen God ere vnde recht van
+      Godes vnde vnsem dar wij van Godes weghene rechtliken to ghekomen sint dat meste vmme des
+      willen dat gij scholen vorware weten dat <app><lem>wij</lem><rdg>tilføjet over linjen i Aa</rdg></app> willen alletiit wesen vnde sint o{uv}erbodich tho komende dar vmme tho rechte vor heren
+      vnde fursten vnde ander ghude man dar gij vnde andere vnse ghuden man vnde menicheid van
+        <placeName>Dennemarken</placeName> ok moghen hebben ere sendeboden dar bij / dede moghen
+      horen de schuldinghe de vnse rad tho vns hebben vnde vnse antwort dare entheghen dar vns
+      moghelick is thokomende vnde nemen vnde gheuen allent wes vns van ere vnde rechte borth tho
+      donde vor alsodane sake de se vns nu <app><lem>tolecht</lem><rdg><q>to</q> er tilføjet over linjen i Aa</rdg></app> hebben vnde willen vns dar also vorantworden so dat de schult schal nicht bliuen bij
+      vns der ein theghen se edder jw in jenigherleie mate ♦</p>
+            <p n="a#8" xml:space="preserve">Ok leuen vrundes alse gij vorstan moghen manck anderen worden in erem breue alse de vns
+      schuldighen vmme de twedracht dede komen is twischen vnsen rad clerekie ridderscop copsteder
+      men vppe de ene side vnde de <app><lem>menicheit</lem><rdg>herefter står overstreget <q>pa th</q> i Aa</rdg></app> vppe de anderen siden dat wij scholden hebben dat van steden bracht welk wij willen tho
+      Gode laten vnde de beder{uv}en lude in <placeName>Dennemarken</placeName> dat wij dar noch in
+      rade edder in dade nicht hebben mede wesen dat ichteswelke twedracht scholde wesen in dem rike <app><lem>men</lem><rdg>herefter står overstreget <q>dat</q> i Aa</rdg></app> is vns dat vmme des willen scheen so schut vns vor Ghode openbarliken vnrecht dar ane /
+      vnde dat wij na en schreuen vnde to vns escheden dat dede wij vmme <app><lem>des</lem><rdg>herefter står overstreget <q>willen</q> i Aa</rdg></app> menen <app><lem>besten</lem><rdg>herefter står overstreget <q>leue</q> i Aa</rdg></app> vnde bestandelse willen vmme alle juwer vnde eren leue willen / dat wij dar gherne
+      hedden thohulpen dat alle stucke mochten hebben komen in leue vnde tho gh{uv}de <app><lem>twischen</lem><rdg>herefter står overstreget <q>de</q> i Aa</rdg></app> en all vmme / vnde nicht in anderer mate den alse nu secht is ♦</p>
+            <p n="a#9" xml:space="preserve">Item leuen vrundes vnde menicheit do wij witlick vnde claghen Gode vnde jw dat de de sik
+      nomet <persName>hertoch Cristoffer</persName> vnde vnser sustersone scholde wesen vnde alle de
+      mit eme sint alse vnse radh hebben nv ingheuort in <placeName>Dennemarken</placeName> hebben
+      vns entsecht theghen alle ere vnde redelicheit vn{uv}orschuldes in jenigerleie mate alse wij
+      senden juv dar eine vthschrifft aff vnde hebben vns des nv laten vorstan touorne en worth dar
+      aff / wor vmme dat he dat ghedaen hebbe / ok nv hefft he vns gheschuldiget dat wij weten dat
+      wij dat vordent hebben in jenigherleie mate men wij hebben eme vnde de sin moder wesen scholde <app><lem>bewiset</lem><rdg>tilføjet over linjen i Aa</rdg></app> menighe leue / alse wij wal bewisen moghen wor dat vor bederue lude komende werth
+      ♦</p>
+            <p n="a#10" xml:space="preserve">Vmme des willen rade wij bidden vnde beden juw allen de vns ghehuldighet vnde tr{uv}wescop
+      ghesecht hebben vnde vns truwe plichtich sint vnde ock alle de vmme vnsen willen laten vnde
+      don willen dat gij jw waren vor eme vnde so vor alle den de mit eme sint dede vns ock entsecht
+      hebben likerwiis alse juwe openbar viende vnde bewiset jw also theghen <app><lem>ene</lem><rdg>herefter står overstreget <q>vnde se alse vor</q> i Aa</rdg></app> vnde se alse theghen de / dede juwen / leuen heren entsecht hebben vnde ene vnde jw
+      arghen willen alse gij vns truwe plichtich sint vnde wij ock jw wal tolouen so lange alse God
+      wel dat wij konen suluen komen dar in dat land ♦</p>
+            <p n="a#11" xml:space="preserve">Leuen vrundes vnde menicheit doet vnde bewiset jw hir nv also ane alse vnse ghude tr{uv}we is
+      tho jw vnde latet vns nicht also vn{uv}orsch{uv}ldes so lasterliken vnde vnhorliken vthdriuen
+      ♦ Gij scholen vor ware weten dat nicht wat de nv hebben dan tegen vns edder na wes raede
+      de dat ghedan hebben so denke wij doch nummer anders tho donde theghen de menen denschen men
+      efft God wil ane alse vns van ere vnde rechte bort tho donde ♦</p>
+            <p n="a#12" xml:space="preserve">Leuen vrundes vnde menicheit ♦</p>
+            <p n="a#13" xml:space="preserve">Vmme desse vorschreuene article vnde stucke bidde wij juwe ghude vnde vr{uv}ntlike antwert
+      vn{uv}orthoghert dar wij vns moghen weten na thorichtende ♦</p>
+            <p n="a#14" xml:space="preserve">In Christo valete ♦</p>
+            <p n="a#15" xml:space="preserve">Scriptum in castro nostro <placeName>Stekeborch</placeName> anno Domini mille<hi rend="sup">o</hi> cccc<hi rend="sup">o</hi> tricesimo nono die beati Jacobi apostoli nostro sub
+      secreto ♦</p>
+            <p n="a#16" xml:space="preserve">Dominus per se presentem conscripsit ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
