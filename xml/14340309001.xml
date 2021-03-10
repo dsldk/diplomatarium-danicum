@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">194</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14340309001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3163-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>12.2 (plica: 2)</height>
+                                    <width>23.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>
+                              <q>pa en gord j Bore<ex>n</ex>deholm</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Bomærke af brunt i ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Bomærke af sort i ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl af brunt i ufarvet voks med et utydeligt skjold i
+        perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Bomærke af sort i ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Bomærke af brunt i ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i København, Rigsarkivet, De ældste arkivregistraturer, Registratur
+      over Tommerup klosters breve (1550), trykt ÆA IV 369 B. 2 og 382 M. 22</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Weibull, Dipl. dioc. Lund. III 140 nr. 146</bibl>
+               <bibl>Rep. nr. 6679</bibl>
+               <bibl>Reg. *5027</bibl>
+               <bibl>Hübertz, Bornholm 17-18 nr. 16</bibl>
+               <bibl>Wallin, Tommarps Urkundsbok II 160-61 nr. 98 (svensk oversættelse)</bibl>
+               <bibl>Vejledende Arkivreg. XVII 49 nr. 15</bibl>
+               <bibl>Svenska Medeltidsregester nr. 34</bibl>
+               <bibl>SDHK nr. 22100</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-03-09"
+                  notBefore="1434-03-09"
+                  notAfter="1434-03-09"
+                  cert="high">1434. 9. marts</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Tideman Larsen erkender at have skænket Tommarp kloster i Skåne sin fædrenegård i
+      Skarpeskade i Klemensker sogn på Bornholm til afholdelse af årtider for sig, sin hustru og
+      sine forældre.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-23" who="#pbh">Filen etableret af #pbh 2013-10-23. </change>
+         <change when="2019-10-01" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-10-01. </change>
+         <change when="2020-03-13" who="#pbh">2. korrektur af #pbh 2020-03-13. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alla men som th<ex>et</ex>tæ breeff see ellir høræ hilsir jak <persName>Tytheman
+        Laurenzss<ex>øn</ex></persName> boænd<ex>es</ex> j <placeName>Borendeholm</placeName>
+      ewinn<ex>er</ex>ligæ m<ex>eth</ex> guth ♦</p>
+            <p n="a#2" xml:space="preserve">Th<ex>et</ex> scall allom witerlikt waræ bathe nerwerend<ex>es</ex> och
+      ko<ex>m</ex>mascoland<ex>es</ex> th<ex>et</ex> jac wæth<ex>e</ex>rke<ex>n</ex>nis mik j
+      th<ex>et</ex>tæ mit opnæ breeff th<ex>et</ex> jac heel och heelbrethæ m<ex>eth</ex> beraath
+      och gothen wiliæ hau<ex>er</ex> giuit To<ex>m</ex>marps clost<ex>er</ex> j
+        <placeName>Skane</placeName> min fæthrænis gaarth . ligiænd<ex>es</ex> j
+        <placeName>Borendæholm</placeName> j Klæ<ex>m</ex>miz kirkio sokn j
+        <placeName>Scarpescathe</placeName> m<ex>eth</ex> alle then sa<ex>m</ex>me gartz tilligilse
+      som ær ager och æng wat och thiwrt . skogh och fiskæwatn alla ffiræ weynæ jn til markæskæll
+      och aldelis eynte wnden tagit meth swa dant wilkor . th<ex>et</ex> brøthræ j th<ex>et</ex>
+      sa<ex>m</ex>me clost<ex>er</ex> skole halde hwart aar ena artiith ffor min fath<ex>e</ex>r och
+      minæ moth<ex>e</ex>r . ffor mik och for minæ høsfrø nar guth wil th<ex>et</ex> wi afflithis .
+      tilbindænd<ex>es</ex> mik och minæ arwingæ . then sa<ex>m</ex>me gaarth . ffrij . himbla .
+      tilsta och scøtæ the sa<ex>m</ex>mo To<ex>m</ex>marps closter til ewinnerlic agho ffor hwar
+      manz . jgeensighilse ell<ex>er</ex> nogot hielperæthe ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis virorum discretorum videlicet
+        <persName>Johannis Erlandi</persName> . <persName>Johannis Petri</persName> .
+        <persName>Johannis Olavi</persName> consulum . <persName>Johannis Jacobi</persName> .
+        <persName>Nicolai Telogh</persName> et <persName>Petri Akonis</persName> villanorum in
+        <placeName>Tu<ex>m</ex>mathorp</placeName> presentibus est appensum ♦</p>
+            <p n="a#4" xml:space="preserve">Datum anno domini mcdxxxquarto feria tercia post dominicam letare \ ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
