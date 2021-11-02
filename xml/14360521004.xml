@@ -1,83 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14360521004</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
           <witness xml:id="A">
-            <msDesc>
-              <msIdentifier>
-                <settlement>empty</settlement>
-                <repository>empty</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>Tabt</ab>
-              </history>
-            </msDesc>
-          </witness>
-          <witness xml:id="Aa">
             <msDesc>
               <msIdentifier>
                 <settlement>Rom</settlement>
@@ -127,13 +81,14 @@
         </listWit>
         <listBibl>
           <bibl>APD III 86 nr. 1764</bibl>
-          <bibl>Dipl. dioc. Lund. III 171</bibl>
+          <bibl>Dipl. dioc. Lund. III 171 efter nr. 173</bibl>
+          <bibl>Acta Pont. Svec. 1.II 325 nr. 1168</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter Dipl. dioc. Lund. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +101,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1436-05-21" notBefore="1436-05-21" notAfter="1436-05-21" cert="high">1436. 21. maj</date>
+        <date when="1436-05-21" notBefore="1436-05-21" notAfter="1436-05-21" cert="high">1436. 21.
+          maj</date>
         <placeName cert="high">empty</placeName>
       </creation>
       <abstract>
-        <ab> Optegnelse om, at dekanen Hans Laxmand i Lund udnævnes til ærkebiskop sammesteds, og at Peder Lykke får en årlig pension på 300 gylden.</ab>
+        <ab>Det pavelige kancellis optegnelse om at Hans Laxmand, dekan i Lund, er blevet udnævnt
+          til ærkebiskop sammesteds, og at den tidligere ærkebiskop Peder Lykke har fået reserveret
+          en årlig pension på 300 guldfloriner.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,8 +121,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-11-14" who="#pbh">Filen etableret af #pbh 2013-11-14. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-11-23" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -174,10 +133,19 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Die lune xii. kal. junii <app>
+            <lem>anno predicto</lem>
+            <rdg>dvs. <q>pontificatus anno vi</q></rdg>
+          </app> ad relationem cardinalis s. Marcelli provisum fuit ecclesie
+            <placeName>Lundensi</placeName> vacanti per renuntiationem <persName>Petri</persName>
+          olim archiepiscopi Lundensis factam in manibus pape de persona <persName>Johannis
+            Laxamani</persName> decani ejusdem ecclesie ad ipsam promoti, et fuit reservata eidem
+          Petro olim archiepiscopo pensio trecentorum florenorum auri de camera, quoad vixerit,
+          super fructibus ipsius ecclesie sub penis et censuris.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>

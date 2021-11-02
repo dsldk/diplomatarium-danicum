@@ -1,83 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14360619001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
           <witness xml:id="A">
-            <msDesc>
-              <msIdentifier>
-                <settlement>empty</settlement>
-                <repository>empty</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>Tabt</ab>
-              </history>
-            </msDesc>
-          </witness>
-          <witness xml:id="Aa">
             <msDesc>
               <msIdentifier>
                 <settlement>Rom</settlement>
@@ -127,12 +81,14 @@
         </listWit>
         <listBibl>
           <bibl>APD III 87 nr. 1769</bibl>
+          <bibl>Weibull, Dipl. dioc. Lund. III 174 nr. 176</bibl>
+          <bibl>Acta Pont. Svec. 1.II 325 nr. 1169</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter Dipl. dioc. Lund. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +101,27 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1436-06-19" notBefore="1436-06-19" notAfter="1436-06-19" cert="high">1436. 19. juni</date>
+        <date when="1436-06-19" notBefore="1436-06-19" notAfter="1436-06-19" cert="high">1436. 19.
+            juni<note>Umiddelbart i forlængelse af optegnelsen følger <ref target="14370108001">DD
+              1437. 8. jan., nr. 14370108001</ref></note>
+        </date>
         <placeName cert="high">Bologna</placeName>
       </creation>
       <abstract>
-        <ab> Ærkebiskop Hans Laxmand i Lund lover ved klerken Jens Grote fra Slesvig stift at betale servispenge til det pavelige kammer og kardinalkollegiet.</ab>
+        <ab>Det pavelige kancellis optegnelse om at Hans (Laxmand), udvalgt ærkebiskop i Lund,
+          gennem sin prokurator Jens Grote, klerk fra Slesvig stift, har lovet at betale servispenge
+          til det pavelige kammer og kardinalkollegiet, takseret til 2000 guldfloriner, såvel som de
+          fem mindre afgifter, hvoraf den ene halvdel skal betales inden for otte måneder, den anden
+          halvdel inden for de derpå følgende otte måneder.</ab>
+        <ab>Fordi Jens Grotes prokurationsmandat (bevidnet i notarialinstrument udfærdiget af Jens
+          Nielsen, offentlig notar og klerk fra Roskilde stift) ikke er tilstrækkeligt, har han
+          forpligtet sig til inden for otte måneder at fremstille et bekræftelsesbrev i den udvalgte
+          ærkebiskops navn.</ab>
+        <ab>Ved samme lejlighed har Antonio della Casa på vegne af Cosimo og Lorenzo de' Medici
+          erklæret at have modtaget Hans Laxmands provisionsbulle på det vilkår, at den skal leveres
+          tilbage, hvis ikke han inden for otte måneder betaler 1000 guldfloriner og fremstiller
+          ærkebiskoppens bekræftelsesbrev, i hvilket fald han skal have tilbagebetalt én af de
+          mindre afgifter, som kammermesteren erklærer at have modtaget.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +134,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-11-14" who="#pbh">Filen etableret af #pbh 2013-11-14. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-11-29" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +146,71 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Die martis xviiii mensis junii venerabilis vir, dominus <persName>Johannes
+            Grote</persName>, clericus <placeName>Slesvicensis</placeName> diocesis, procurator et
+          procuratorio nomine reverendi patris et domini <persName>Johannis</persName>, electi
+            <placeName>Lundensis</placeName>, de cujus procurationis mandato constat publico
+          instrumento, confecto manu <persName>Johannis Nicolai</persName> clerici
+            <placeName>Roschildensis</placeName> diocesis, imperiali auctoritate notarii, in camera
+          apostolica producto et dimisso, necnon suo proprio et privato nomine et tanquam
+          principalis et privata persona vice et nomine ipsius domini electi obtulit camere
+          apostolice et collegio reverendissimorum dominorum cardinalium vii pro suo communi
+          servitio florenorum auri de camera duo milia, ad quos dicta ecclesia taxata reperitur, et
+          quinque minuta servitia consueta.</p>
+        <p>Eorundem autem communis et minutorum serviciorum medietatem infra sex menses proxime
+          futuros et aliam medietatem infra alios sex menses expost proxime sequentes solvere
+          promisit nominibus supradictis.</p>
+        <p>Preterea, quia mandatum, de quo supra fit mencio, non dicitur fore sufficiens ad
+          suprascripta et <app>
+            <lem>infrascripta facienda</lem>
+            <rdg>således APD</rdg>
+            <rdg><q>instrumentum faciendum</q> Weibull</rdg>
+          </app>, idem Johannes Grote promisit producere <app>
+            <lem>sufficientiorem</lem>
+            <rdg><q>= sufficientius</q></rdg>
+          </app> videlicet instrumentum ratihabitionis hujusmodi obligationis facte nomine ejusdem
+          domini electi ab ipso electo factum infra terminum octo mensium proxime futurorum etc.,
+          obligavit, juravit, submisit, renunciavit et juravit in forma.</p>
+        <p>Et dominus camerarius supradictus tulit sententias excommunicacionis in scriptis.</p>
+        <p>Actum <placeName>Bononie</placeName> in thesauraria apostolica presentibus ibidem
+          venerabilibus viris, dominis <persName>Nicolao de Valle</persName>, <persName>Guillelmo de
+            Latinis</persName> et aliis dicte camere testibus et me <persName>Phi. de
+            Piscia</persName> notario.</p>
+        <p>Eisdem anno die mense loco et dictis presentibus testibus <persName>Antonius della
+            Casa</persName> mercator Florentinus pro se ipso ac vice et nomine nobilium virorum
+            <persName>Cosme</persName> et <persName>Laurencii de Medicis</persName> et sociorum
+          suorum Romanam curiam sequencium ex certa sciencia confessus fuit se habuisse, prout in
+          veritate manualiter per manus domini Roselli, clerici dicte camere, habuit, in depositum
+          bullas provisionis dicte ecclesie facte de persona dicti Johannis et illas tenere ad
+          instanciam camere et collegii predictorum usque ad octo menses predictos, quo in termino
+          aut solvere dictis camere et collegio florenos mille de camera et producere dictam
+          ratihabicionem aut restituere camere predicte dictas bullas, pro quibus etc. obligavit,
+          submisit etc., renunciavit, juravit in forma etc. ut supra.</p>
+        <p><app>
+            <lem>Versa</lem>
+            <rdg>herfor <q>qua</q> APD</rdg>
+          </app> vice prefatus dominus camerarius et dicti clerici camere promiserunt dicto Antonio
+          dictis nominibus <app>
+            <lem>stipulante et recipiente</lem>
+            <rdg><q>stipulantibus et recipientibus</q> APD</rdg>
+            <rdg><q>stipulare et recipere</q> Weibull</rdg>
+          </app> adveniente <app>
+            <lem>casu</lem>
+            <rdg><q>causa</q> Weibull</rdg>
+          </app> restitucionis dictarum bullarum, ut prefertur, fiende, restituere ipsi Antonio ut
+          supra, <app>
+            <lem>recipienti</lem>
+            <rdg>således APD</rdg>
+            <rdg><q>recipere</q> Weibull</rdg>
+          </app> unum ex quinque dictis minutis serviciis, quod habuisse et recepisse confessi
+          fuerunt, pro quibus omnibus obligarunt se ipsos et eorum heredes ac dictam cameram et
+          submiserunt etc. ut supra.
+          <!-- Ohlig. 70 fol. 147 og (14 fol. 223 v (udeii større Forskellighccler).
+          (Trykt Dipl. dioc. Lund. III, 174—75 og 179.) </p>--></p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+          tekster.</p>
       </div>
     </body>
   </text>

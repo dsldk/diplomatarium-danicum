@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14311210002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,14 +129,14 @@
         </listWit>
         <listBibl>
           <bibl>APD III 27 nr. 1631</bibl>
-          <bibl>Reg. *4938</bibl>
-          <bibl>Dipl. Norv. VI 463-4</bibl>
+          <bibl>Reg. nr. *4938</bibl>
+          <bibl>Dipl. Norv. VI 463 nr. 443</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog efter Dipl. Norv. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -147,11 +149,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1431-12-10" notBefore="1431-12-10" notAfter="1431-12-10" cert="high">1431. 10. december</date>
-        <placeName cert="high">Rom</placeName>
+        <date when="1431-12-10" notBefore="1431-12-10" notAfter="1431-12-10" cert="high">1431. 10.
+          december</date>
+        <placeName cert="high">Rom, San Pietro</placeName>
       </creation>
       <abstract>
-        <ab> Biskop Jens Jakobsen i Oslo visiterer kurien ved sin prokurator Tyge Jensen, kannik i Roskilde.</ab>
+        <ab>Franciscus Condulmer, pavelig vicekammermester, kvitterer biskop Jens i Oslo for gennem
+          sin prokurator Tyge (Jensen), kannik i Roskilde, at have visiteret kurien for en forløbet
+          og for den følgende treårsperiode.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -164,7 +169,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-03" who="#pbh">Filen etableret af #pbh 2013-10-03. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -175,10 +181,16 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Franciscus Condulmer</persName>, pavelig vicekammermester, kvitterer
+          biskop <persName>Jens</persName> i <placeName>Oslo</placeName> for <q>per venerabilem
+            virum dominum <persName>Tugonem</persName> canonicum
+              <placeName>Roschildensem</placeName> procuratorem suum ad hoc specialiter
+            constitutum</q> at have visiteret kurien for en forløbet og for den følgende
+          treårsperiode.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
       </div>
     </body>
   </text>

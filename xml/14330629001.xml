@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14330629001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -80,16 +82,17 @@
           <witness xml:id="Aa">
             <msDesc>
               <msIdentifier>
-                <settlement>Rom</settlement>
-                <repository>Archivio Segreto Vaticano</repository>
-                <idno>nil</idno>
+                <settlement>Håndskrift i Anchin klosterbibliotek (senere flyttet til Bibliothèque municipale de
+                  Douai)</settlement>
+                <repository>empty</repository>
+                <idno>empty</idno>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
                   <supportDesc material="empty">
                     <support>
-                      <ab>nil</ab>
+                      <ab>empty</ab>
                     </support>
                     <extent>
                       <dimensions unit="cm">
@@ -98,7 +101,7 @@
                       </dimensions>
                     </extent>
                     <condition>
-                      <ab>empty</ab>
+                      <ab>Ej forefundet 2018</ab>
                     </condition>
                   </supportDesc>
                   <layoutDesc>
@@ -136,7 +139,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst efter Martene og Durand l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -149,14 +152,40 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1433-06-29" notBefore="1433-06-29" notAfter="1433-06-29" cert="high">1433. 29. juni</date>
+        <date when="1433-06-29" notBefore="1433-06-29" notAfter="1433-06-29" cert="high">1433. 29.
+          juni</date>
         <placeName cert="high">København</placeName>
       </creation>
       <abstract>
-        <ab>Kong Erik meddeler baselerkoncilet, at han har modtaget dets brev gennem provsten i Breslau, Nicolaus Cimeister, og Mathias, minoriterprovincial i provinsen Sachsen, roser dets iver for reformer og kamp mod kætterne og erklærer, at grunden til, at han endnu ikke har sendt gesandter til koncilet, er, at han ønsker deres nærværelse ved forhandlingerne med hansestæderne
-
-	  Erici, daciæ etc. regis, epistola ad concilium basiliense, in responsum literarum per nicolaum cimeister, decretorum doctorem, præpositum Wratislavicensem et mathiam, provincialem saxoniæ, acceptarum, ubi rex zelum synodi laudat, excusat autem prælatos suos, quod legatos diutius tardaverit, cum tractatui cum civitatensibus a die apostolorum philippi et jacobi (d. 1. maji) usque usque ad dominicam trinitatis (d. 7. junii) duranti interesse voluerit. - kopenhannæ, die petri et pauli apostolorum
-  </ab>
+        <!--<ab>Kong Erik meddeler baselerkoncilet, at han har modtaget dets brev gennem provsten i
+          Breslau, Nicolaus Cimeister, og Mathias, minoriterprovincial i provinsen Sachsen, roser
+          dets iver for reformer og kamp mod kætterne og erklærer, at grunden til, at han endnu ikke
+          har sendt gesandter til koncilet, er, at han ønsker deres nærværelse ved forhandlingerne
+          med hansestæderne Erici, daciæ etc. regis, epistola ad concilium basiliense, in responsum
+          literarum per nicolaum cimeister, decretorum doctorem, præpositum Wratislavicensem et
+          mathiam, provincialem saxoniæ, acceptarum, ubi rex zelum synodi laudat, excusat autem
+          prælatos suos, quod legatos diutius tardaverit, cum tractatui cum civitatensibus a die
+          apostolorum philippi et jacobi (d. 1. maji) usque usque ad dominicam trinitatis (d. 7.
+          junii) duranti interesse voluerit. - kopenhannæ, die petri et pauli apostolorum </ab>-->
+        <ab>Kong Erik 7. af Pommern skriver til konciliet i Basel om sin deltagelse i
+          konciliet.</ab>
+        <ab>Han meddeler, at han har modtaget indkaldelsen til konciliet gennem dets gesandter
+          Nicolaus Cimeister, provst i Wroclaw og auditør ved kuren, og Mathias, minoritternes
+          provincial i Sachsen, og at de har lagt dets bestræbelser for at udrydde kætteriet og
+          reformere kirken såvel som opfordret ham til at sende ambassadører til Basel.</ab>
+        <ab>Han udtrykker sin og sine rigers beredvillighed til at deltage i og støtte konciliet,
+          men beder synoden undskylde hans ambassadørers sene ankomst, som skyldes den lange og
+          besværlige rejse samt de krige, der omgiver rigerne, og fritage dem for de straffe, som de
+          ellers ved forsinkelsen var hjemfaldne til.</ab>
+        <ab>Desuden beder han om forståelse for at have opholdt gesandterne så længe; han ønskede at
+          de skulle være til stede ved fredsforhandlingerne mellem kongen og hansestæderne, som
+          skulle foregå mellem 1. maj og 7. juni, men stædernes gesandter kom aldrig frem, hvorfor
+          der ikke kunne sluttes nogen fred.</ab>
+        <ab>Han meddeler, at konciliets gesandter kan bekræfte, at det ikke er kongens skyld, at der
+          ikke blev sluttet en fredstraktat, og at det på grund at vinterens strenghed ikke var
+          muligt at sammenkalde prælaterne fra rigerne tidligere.</ab>
+        <ab/>
+        <ab/>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -169,7 +198,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-15" who="#pbh">Filen etableret af #pbh 2013-10-15. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -180,10 +210,72 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1"/>
+        <p n="a#1">Sacrosanctæ venerandissimæ Basileensi generali synodo, in spiritu sancto
+          congregatæ, universalem ecclesiam repræsentanti, patribus, dominis, et amicis nostris
+          præcarissimis. </p>
+        <p>Reverendissimi, reverendi, venerabilesque patres et domini ac amici nostri carissimi,
+          etc. debitis reverentia et veneratione præmissis. </p>
+        <p>Ut in omnibus quæ profectum et votivam expeditionem ecclesiasticæ reformationis
+          exposcunt, promta cooperandi voluntate sacrosancti ejusdem concilii litteras cum clausula
+          credentiali per manus reverendorum virorum <persName>Nicolai Cimeister</persName>,
+          decretorum doctoris, præpositi Wratislaviensis, et sacri palatii auditoris, et
+            <persName>Mathiæ provincialis Saxoniæ ordinis minorum</persName>, sacræ theologiæ
+          magistri præsentatas nobis, humiliter et reverenter accepimus, ex quarum tenore ac ipsorum
+          oratorum solerti expositione intelleximus, quod eadem sancta synodus pro errorum et
+          hæresum exstirpatione, reformatione morum, ac pacificando populo Christiano, spiritu
+          sancto auctore, congregata sit et legitime stabilita, vigore constitutionum sacrorum
+          Constantiensis et Senensis generalium conciliorum, ac approbatione summorum pontificum
+          felicis recordationis quondam <persName>Martini papæ V.</persName> et domini
+            <persName>Eugenii papæ</persName> moderni, serenissimi principis domini
+            <persName>Sigismundi Romanorum regis</persName> et fratris nostri carissimi consensu et
+          approbatione accedentibus. </p>
+        <p>Sane nostram assistentiam tam desiderato operi impendendam oratores ipsi plurimum
+          eleganter invitaverunt, sollicite exhortantes, ut quemadmodum plures reges et principes
+          destinaverunt suos, nostros etiam ambassiatores ad ipsum sacrum concilium mittere
+          curaremus. </p>
+        <p>Orthodoxi patres, nos una cum prælatis, magnatibus ac ceteris regnorum nostrorum incolis
+          congaudemus ex corde devoto tam sanctis studiis et salubribus desideriis vestris, immensas
+          deo gratias agentes, qui vos ad speratam salutem orbis universi coadunare dignatus est,
+          eique devotas precum instantias porrigentes, ut firmam perseverantiam in sanctis vestris
+          votis misericorditer concedat, optatæ consummationis effectum feliciter tribuendo, nosque
+          ad tantum bonum opem et operam conferre quantas valemus intendentes, vestro sanctissimo
+          coetui consiliis, auxiliis, ac adherentia opportunis voluntarie satagemus assistere,
+          sanctaque acta vestra complecti et approbare, oratores nostros et prælatos, quantocius et
+          expedientius poterimus, ad ipsam sanctam synodum mittere non dilaturi, eidem supplicantes
+          humiliter et devote, quatenus attentis remotissima terrarum nostrarum distantia, viarum
+          variis discriminibus, ac guerrarum insultibus, quibus terra marique undique circumcepti
+          sumus, ac multiplicibus laboribus et expensis, quos ipsi prælati nostri pro guerris
+          hujusmodi sedandis ac pace quærenda sæpius adhibuerant, dignetur benignissima ejusdem
+          sanctæ synodi clementia ipsis prælatis nostris parcere, quod ad ipsam venire ac mittere,
+          prout tenebantur, distulerint, de sententia et poenis in eis forsan propterea infligendis
+          misericorditer nostri contemplatione supersedentes. </p>
+        <p>Ceterum, reverendissimi patres et viri præclarissimi, deposcimus nobis indulgeri, quod
+          reverendissimos ambassiatores vestros longo tempore quam forsan a vestris r. p. in
+          mandatis habuerint, non sine eorum tædio, retardavimus, sub vestræ benignitatis
+          confidentia ex causis ad hoc moti, tum quia imminebat nobis tractatus pacis habendus cum
+          Civitatensibus die apostolorum Philippi et Jacobi qui pendebat usque ad dominicam
+          Trinitatis, ubi ipsorum ambassiatorum desideravimus præsentiam, tamquam pro bono pacis et
+          concordiæ plurimum necessariam et accomodam, et ut ipsi videre et audire possent, qualiter
+          ipsi Civitatenses recompensationem juxta prius promissa pro damnis et injuriis nobis et
+          regnis nostris multipliciter illatis exhiberent. </p>
+        <p>Speramus igitur quod ipsi oratores vestri clara experientia informati sunt, quia non
+          steterat per nos, quominus pax et concordia finales initæ fuissent pariter et firmatæ, tum
+          etiam quia prælati regnorum nostrorum longe lateque in suis mansionibus separati ad
+          audiendum vestrarum r. p. voluntates per ipsos oratores proponendas, non poterant,
+          causante etiam hiemis asperitate, in breviori tempore convocari, prout de his et aliis
+          ipsi oratores poterunt latius informare v. r. p. quas Altissimus in vinea sua laborantes
+          dirigere, confortare et conservare dignetur feliciter et longæve. </p>
+        <p>Scriptum <placeName><app>
+              <lem>Kopenhannæ</lem>
+              <rdg><q>= Kopenhaven</q> el.lign</rdg>
+            </app></placeName> anno domini M CCCC XXXIII ipso die beatorum Petri et Pauli
+          apostolorum nostro sub secreto sigillo. </p>
+        <p>Devotus ecclesiæ filius <persName>Ericus</persName> dei gratia Daciæ Sweviæ, Norwegiæ,
+          Sclavorum, Gothorumque rex, et Pomeraniæ dux.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
       </div>
     </body>
   </text>

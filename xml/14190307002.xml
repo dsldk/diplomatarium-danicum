@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2014</date>
         <idno type="dd">14190307002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -130,12 +132,14 @@
         </listWit>
         <listBibl>
           <bibl>APD II 286 nr. 1288</bibl>
+          <bibl>Acta pont. Svec., Acta Cam. nr. 1050</bibl>
+          <bibl>SDHK nr. 39934</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -148,11 +152,16 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1419-03-07" notBefore="1419-03-07" notAfter="1419-03-07" cert="high">1419. 7. marts</date>
+        <date when="1419-03-07" notBefore="1419-03-07" notAfter="1419-03-07" cert="high">1419. 7.
+          marts</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Kong Erik, ærkebiskop Peder (Lykke) og kapitlet får paven til at forny den allerede foretagne nedsættelse af Lunde ærkesædes takst fra 4000 til 2000 gylden.</ab>
+        <ab>Pave Martin 5. bevilger en supplik af kong Erik 7. af Pommern, Peder (Lykke), ærkebiskop
+          i Lund og kapitlet sammesteds, om at få bekræftelse og pavebrev på den bestandige
+          nedsættelse af Lund ærkesædes takst fra 4000 til 2000 guldfloriner, som paven allerede
+          mundtligt har bevilget kong Erik, den tidligere ærkebiskop Peder (Mikkelsen (Kruse)) og
+          kapitlet, men hvis gyldighed betvivles.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -160,8 +169,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-10" who="#pbh">Filen etableret af #pbh 2014-04-10. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-09-19" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -171,10 +181,53 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Cum ecclesia metropolis <placeName>Lundensis</placeName> in regno
+            <placeName>Dacie</placeName> situata adeo sit <app>
+            <lem><supplied>in</supplied></lem>
+            <rdg>tilf. af Gertz</rdg>
+          </app> suis facultatibus diminuta, ut taxam 4000 fl. auri de camera ipsi camere apostolice
+          sacroque collegio dominorum cardinalium, necnon communia et minuta servitia, sacram ac
+          alia emolumenta notariis diaconibus subdiaconibus et officialibus sedis apostolice
+          clericisque dicte camere gentibus armorum ac cursoribus sedis apostolice seu quibusvis
+          aliis dictorum communium et minutorum seu sacre participibus .. secundum taxam predictam
+          solvere nequeat sine gravi ipsius detrimento, ac propterea s. v. ad
+            <persName>Erici</persName> Dacie Svecie Norvegie Gottorum Slavorumque regnorum regis
+          recolendeque memorie <persName>Petri</persName> olim archiepiscopi et capituli dicte
+          Lundensis ecclesie super hoc supplicantium instantiam predictam 4000 fl. auri predicti
+          taxam tamquam dicte Lundensi ecclesie nimium onerosam ad summam 2000 fl. similium de
+          consilio et assensu predictorum dominorum cardinalium nuper reduxit ac ipsam Lundensem
+          ecclesiam ad dictam 2000 fl. summam distaxavit ac voluit et vive vocis oraculo tam domino
+          vicecamerario quam notariis diaconibus et subdiaconibus dicte sedis aliisque officialibus
+          et clericis camere predicte injunxit, ut ipsi amplius et de cetero in eorum obventionibus,
+          juribus et emolimentis secundum dictam taxam 2000 fl. de camera, ac si dicta Lundensis
+          ecclesia a primeva ordinatione ad summam 2000 fl. taxata fuisset, contenti forent nilque
+          penitus occasione dicte antique 4000 fl. taxe sic reducte peterent seu reciperent quovis
+          modo, littereque apostolice pro <persName>Petro</persName> olim episcopo
+            <placeName>Ripensi</placeName> ad dictam ecclesiam Lundensem postulato et sibi nuper per
+          e. s. v. de eadem proviso quoad minutam notariorum et bullariam secundum dictam 2000 fl.
+          taxam extiterant expedite et ad cameram apostolicam deportate.</p>
+        <p>Et licet premissa, ut creditur, predictis dominis vicecamerario officialibus clericis
+          notariis sint satis nota, nonnulli tamen asserunt in talibus simplici verbo vive vocis
+          oraculo s. v., ut premittitur, facto de consuetudine Romane curie sine aliis probationis
+          amminiculis minime fore standum, ac propterea ipse littere in camera apostolica
+          impresentiarum remanent impedite.</p>
+        <p>Supplicatur igitur pro parte Erici regis, Petri postulati et capituli predictorum,
+          quatenus supradictas et imposterum, quando dicte Lundensis ecclesie vacatio occurrerit,
+          alias ratione dicte ecclesie conficiendas litteras secundum 2000 fl. taxam predictam tam
+          quo ad cameram apostolicam quam dictum sacrum collegium dominorum cardinalium et bullariam
+          ceterosque notarios officiales diacones subdiacones clericos armorum gentes et cursores
+          aliosque communium et minutorum servitiorum seu sacre participes .. expediri mandare
+          voluntatemque s. v. fore et existere dictas aliasque in futurum, ut premittitur,
+          conficiendas litteras perinde juxta dictam 2000 fl. taxam peramplius expediri debere, ac
+          si ipsa Lundensis ecclesia a primeva taxatione dumtaxat ad 2000 fl. auri de camera <app>
+            <lem><supplied>taxata fuisset</supplied></lem>
+            <rdg>tilf. af Gertz</rdg>
+          </app> dignemini declarare ....</p>
+        <p>Fiat. O.</p>
+        <p>Datum <placeName>Florentie</placeName> non. martii anno 2.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

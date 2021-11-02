@@ -1,183 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Diplomatarium Danicum</title>
-        <editor>
-          <name xml:id="th">
-            <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
-            </persName>
-          </name>
-        </editor>
-        <funder>Carlsbergfondet</funder>
-      </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">205</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
          </extent>
-      <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
-        <pubPlace>København</pubPlace>
-        <date>2016</date>
-        <idno type="dd">14271017001</idno>
-        <idno type="isbn">nil</idno>
-        <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness xml:id="A">
-            <msDesc>
-              <msIdentifier>
-                <settlement>empty</settlement>
-                <repository>empty</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>Tabt</ab>
-              </history>
-            </msDesc>
-          </witness>
-          <witness xml:id="Aa">
-            <msDesc>
-              <msIdentifier>
-                <settlement>Rom</settlement>
-                <repository>Archivio Segreto Vaticano</repository>
-                <idno>Suppl. 211 fol. 155r-v</idno>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>0</height>
-                        <width>0</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>empty</ab>
-              </history>
-            </msDesc>
-          </witness>
-        </listWit>
-        <listBibl>
-          <bibl>APD VII 301 nr. 5778</bibl>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
-      </samplingDecl>
-      <projectDesc>
-        <ab>DD-5</ab>
-      </projectDesc>
-      <appInfo>
-        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
-          <desc>nil</desc>
-        </application>
-      </appInfo>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1427-10-17" notBefore="1427-10-17" notAfter="1427-10-17" cert="high">1427. 17. oktober</date>
-        <placeName cert="high">Rom, Santi Apostoli</placeName>
-      </creation>
-      <abstract>
-        <ab> Klerken Peder Voged fra Odense stift får provision i formen si neutri på evige vikariater i Bremen og Stade, hvorom han har ført proces ved kurien.</ab>
-      </abstract>
-      <langUsage>
-        <language ident="la"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term>empty</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2014-07-24" who="#pbh">Filen etableret af #pbh 2014-07-24. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
-      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
-    </revisionDesc>
-  </teiHeader>
-  <facsimile>
-    <graphic url="nil"/>
-  </facsimile>
-  <text>
-    <body>
-      <div xml:lang="la">
-        <p n="a#1">empty</p>
-      </div>
-      <div xml:lang="da">
-        <p n="b#1">empty</p>
-      </div>
-    </body>
-  </text>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14271017001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>Suppl. 211 fol. 155r-v</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD VII 301 nr. 5778</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Arkivalske oplysninger og tekst efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-10-17"
+                  notBefore="1427-10-17"
+                  notAfter="1427-10-17"
+                  cert="high">1427. 17. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Klerken Peder Foged fra Odense stift har ført proces ved kurien om evige vikariater i Bremen og Stade. Processen lod sig
+               imidlertid ikke afgøre til hans eller hans modparters fordel; derfor får han vikariaterne ved provision.
+               </ab></abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">.. Introductis lite et causa in vestro sacro palatio apostolico inter .. Petrum
+                        Voget clericum Ottoniensis diocesis actorem ex una et quosdam Constantinum
+                        de Bradenkol de Vechta et Petrum Brettorpp assertos presbiteros
+                        Osnaburgensis et Bremensis diocesium de perpetuis vicariis in cathedrali et
+                        s. Anscharii Bremensibus ac S. Georgii necnon ss. Cosme et Damiani Stadensi
+                        ecclesiis Bremensis diocesis tunc per dictum Petrum Voghet per modum
+                        inhabilitatis dicti Constantini et per liberam resignationem domini Henrici
+                        de Varwen coram notario et testibus ... sponte factam vacantibus et
+                        impetratis dubitatur a nonnullis neutri dictorum litigantium in dictis
+                        perpetuis vicariis seu saltim ad earum aliquam jus competere. Quare supplicat
+                        s. v. dictus Petrus Voget actor, quatenus auditori hujusmodi cause dignemini
+                        mandare, ut, si sibi per eventum litis hujusmodi constiterit neutri dictorum
+                        litigantium in dictis vicariis seu earum aliqua jus competere, dictas
+                        perpetuas vicarias vel saltim illam, ad quam neutri litigantium jus competat
+                        [quarum fructus 16. mr. arg.], ... dicto Petro Voghet actori conferat ac
+                        provideat de eisdem non obstantibus, quod dicte vicarie seu earum aliqua de
+                        jure patronatus laicorum existant seu existat, ac perpetua vicaria in
+                        parrochiali ecclesia Antiqua Crempe Lubicensis diocesis, quam dictus Petrus
+                        Voghet obtinet [fructus 3 mr. arg.] .. Concessum. F. Gebennensis. Datum Rome
+                        apud ss. Apostolos 16. kal. nov. anno 10.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

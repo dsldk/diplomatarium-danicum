@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">20</num>, paragraphs: <num
+               n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14310423001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste
+                           arkivregistraturer. Registratur A over Viborg stifts breve (1540’erne),
+                           upag., med overskriften <q>Hinsteherit primo</q>. A-reg. er stærkt
+                           beskadiget af fugt, og mange af bladene er kun delvis bevaret med
+                           teksttab til følge</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 340 nr. N. 55</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-04-23" notBefore="1431-04-23" notAfter="1431-04-27" cert="high">1431.
+               [23.-27. april]<note>Dele af dateringen er gået tabt pga. fugt, men årstallet 1431 er
+                  bevaret, og det fremgår, at udstedelsesdagen lå før søndag <q>Cantate</q>.
+                  Dagsangivelsen begyndte med bogstavet <q>f</q> for <q>feria</q>. Brevet må derfor
+                  være udstedt mandag (<q>feria secunda</q>) - fredag (<q>feria sexta</q>). Da
+                  søndag <q>Cantate</q> i 1431 faldt 29. april, bliver dateringen derfor 23.-27.
+                  april. Det kan ikke afgøres med sikkerhed, om tingsvidnet var udstedt af Hindsted
+                  herredsting eller Himmersyssels ting. Viborg landsting, der havde tingdag om
+                  lørdagen (<q>sabbatum</q>) kan derimod udelukkes</note></date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne om, at en bestemt gård i Ove (Hindsted herred) ikke er en
+               selvejergård.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-26" who="#pbh">Filen etableret af #pbh 2013-09-26. </change>
+         <change when="2021-04-08" who="#alk">1. korrektur af #alk 2021-04-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Item ett tingsvinde atthen<ex>n</ex> g<ex>ar</ex>d y <placeName>Offue</placeName>
+                                lig<damage>indis</damage> er engen<ex>n</ex> bundg<ex>ar</ex>d
+                        ♦</p>
+            <p n="a#2" xml:space="preserve">Datum mcdxxxi f<damage>.....</damage> ante dominicam cantate ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

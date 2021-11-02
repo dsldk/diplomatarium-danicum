@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">250</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14210705002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Malmø</settlement>
+                        <repository>Stadsarkiv</repository>
+                        <collection>empty</collection>
+                        <idno>A 4</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>14.5 (plica: 3.2)</height>
+                                    <width>27</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden: <q>littera Erici regis super Henricxtorp</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Kongens sekret i rødt voks i perg.rem, beskadiget, <ref>DKS 62</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Malmø</settlement>
+                        <repository>Stadarkiv</repository>
+                        <collection/>
+                        <idno/>
+                        <msName>Malmö stads privilegiebok upplagd 1664, f. 13r</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>Skånska komm. handl.</collection>
+                        <idno/>
+                        <msName>Städernas privil. 249 (ca. 1670)</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>Kommerskoll. arkiv</collection>
+                        <idno/>
+                        <msName>Städernas Privil. 15v (ca. 1695)</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5927 (i udtog)</bibl>
+               <bibl>SDHK nr. 19677</bibl>
+               <bibl>Privilegier, resolutioner och förordningar för Sveriges städer I nr. 292</bibl>
+               <bibl>Weibull, Malmö stads urkundsbok 26 (nr. 5)</bibl>
+               <bibl>Herlitz, Privil. f. Sveriges städer I 328</bibl>
+               <bibl>Hist. Tidsskr. IV 549 (i udtog)</bibl>
+               <bibl>Danmarks gl. Købst.lovgivn. IV 62-63 (nr. 7)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Danmarks gl. Købst.lovgivn.</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-07-05"
+                  notBefore="1421-07-05"
+                  notAfter="1421-07-05"
+                  cert="high">1421. 5. juli <note>Udgivet efter Danmarks gl. Købst.lovgivn. IV 62-63 (nr. 7), da A ikke har været tilgængelig for udgiveren i maj 2021</note>
+            </date>
+            <placeName cert="high">Vordingborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern skænker Malmø en gård syd for byen i Oxie herred ved navn Henrikstorp.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-09" who="#pbh">Filen etableret af #pbh 2014-05-09. </change>
+         <change when="2020-06-16" who="#jon">1. korrektur af #jon 2020-06-16. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wy <persName>E<supplied>r</supplied>ik</persName>, meth guths nathe Danmarks,
+      Swerig<ex>es</ex>, Norghes, Wendes oc Gothes konu<ex>n</ex>g oc hertugh i Pomere<ex>n</ex>,
+      helsse alle, som thette breff høre eller see, ewynnelicæ m<ex>eth</ex> guth ♦ Oc kungøre
+      ether, at for troscapp oc thiæniste, som wore elschelighe, tro tiænere oc borghere i Malmøghe
+      oss oc wore forældre her til giort haffue, oc the oc there arwinge oc effterko<ex>m</ex>mere
+      oc krone<ex>n</ex> oc konu<ex>n</ex>gedømet i Da<ex>n</ex>mark æn her effter at trolighe gøre
+      scule, swo lenge som Malmøghe staar, tha haffue wi vnt ok vnne oc giffue m<ex>eth</ex> thette
+      wort opne breff for<hi rend="sup">de</hi> wore elschelighe borghere i Malmøghe for
+      ther<ex>es</ex> oc wor forscreffne byes beste, gang oc bestand sculd then gardh, iordh ok
+      grund <placeName>Henrikxstorpp</placeName> synnen <placeName>Malmøghe</placeName> liggende i
+        <placeName>Oxie hærith</placeName> meth bygni<ex>n</ex>g, ager oc æng oc markæskæll oc all
+      th<ex>e</ex>n gardhs tilliggelsse, engte vnden taghet, ee hwat th<ex>et</ex> helst heder
+      ell<ex>e</ex>r ær, som th<ex>e</ex>r nw tilligger eller til lighet haffuer, swo meghit som oss
+      th<ex>e</ex>r wti rættelighe till fallet er aff brøde wæghne effter <persName>Anders
+        Martenssøn</persName>s døth, som wor foghet war i Malmoghe, til ewerdhelich eyæ .
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Oc aff thy at wi the<ex>n</ex>ne for<hi rend="sup">de</hi> gardh
+        <placeName>Henrikxstorpp</placeName> m<ex>eth</ex> all hans tilliggelsse
+      forscr<ex>effne</ex> wore elschelighe borghere i <placeName>Malmøghe</placeName> swo vnt oc
+      gyffuet haffue til ewerdhelich eyæ, som h<ex>er</ex> foresc<ex>re</ex>uit staar, tha haue wi
+      wort secret meth wiliæ oc witscapp effter wort righes radhs rath ladet hengis for thette breff
+      . ♦</p>
+            <p n="a#3" xml:space="preserve">Datum in castro nostro <placeName>Worthingburgh</placeName> anno domini millesimo cd<hi rend="sup">o</hi> xx primo sabbato infra octavas visitacionis beate Marie virginis gloriose
+      . ♦ </p>
+            <p n="a#4" xml:space="preserve"> </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

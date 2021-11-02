@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14220320001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,25 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1422-03-20" notBefore="1422-03-20" notAfter="1422-03-20" cert="high">1422. 20. marts</date>
+        <date when="1422-03-20" notBefore="1422-03-20" notAfter="1422-03-20" cert="high">1422. 20.
+          marts</date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab> Dominikanerne i Kalmar får det overdraget til ærkebiskoppen i Lund som Sveriges primas at kassere en af biskop Knud i Linköping ændret fordeling af tienden fra Möre, Öland og Sevede herred og lade brødrene i Kalmar få deres gamle ret igen.</ab>
+        <!-- <ab>Pave Martin 5. bevilger en supplik af dominikanerklostret i Kalmar om at få det
+          overdraget til ærkebiskoppen i Lund som Sveriges primas at undersøge sagsforholdet i dets
+          klage, ifølge hvilken klostret i omkring 170 år har modtaget en del af tienden fra Möre,
+          Öland og Sevede herreder, som Knut (Bosson (Natt och Dag)), biskop i Linköping, nu har
+          frataget klostret og i stedet tilstået den til det af ham selv oprettede allesjæles kapel
+          i Linköping domkirke, hvilket blev bekræftet af pave Johannes 23., dog således, at
+          biskoppen tillod klostret for en periode på tre år at fortsætte med at modtage tienden,
+          hvilket han imidlertid siden hen har forholdt dem; hvis sagen viser sig at forholde sig
+          som beskrevet, skal ærkebiskoppen annullere biskoppens forandring af
+          tiendefordelingen.</ab>-->
+        <ab>Pave Martin 5. bevilger en supplik af dominikanerklostret i Kalmar om at få det
+          overdraget til ærkebiskoppen af Lund at undersøge og træffe afgørelse i klostrets klagesag
+          imod biskop i Linköping Knut (Bosson (Natt och Dag)) angående tiende fra Möre, Öland og
+          Sevede herreder.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +178,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-10-12" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +190,71 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Dudum in diocesi <placeName>Lincopensi</placeName> super decimis inibi ex
+          fructibus excrescentibus et aliis proventibus certa inolevit divisionis consuetudo,
+          videlicet quod, una divisione illarum facta residuaque parte in tres partes divisa,
+          illarum ultima pars pauperum nuncupatur, que Christi pauperibus distribuenda ex antiquis <app>
+            <lem>temporibus sit ordinata</lem>
+            <rdg>således rettet i APD</rdg>
+            <rdg wit="#Aa"><q>pauperibus sic ordinata</q> Aa</rdg>
+          </app>, quam quidem partem fratres domus fratrum Predicatorum
+            <placeName>Kalmarnensis</placeName> dicte diocesis tamquam Christi pauperes dumtaxat in
+          certis partibus, videlicet <placeName>More</placeName><placeName> Olandie</placeName> et
+            <placeName>Syherd</placeName> ejusdem diocesis, per loci ordinarium in puris elemosinis
+          ipsis pie concessis perceperunt a centum et septuaginta annis vel circa, licet
+            <persName>Kanutus</persName> nunc episcopus Lincopensis, nescitur quo spiritu ductus,
+          ultimam partem hujusmodi ad quandam capellam, <supplied>omnium</supplied> animarum
+          nuncupatam et in dicta ecclesia Lincopensi per ipsum fundatam et erectam, de novo
+          distribuendam applicandam et uniendam ordinavit, et ordinationem ipsam per bone memorie
+            <persName>Baldasarem</persName> episcopum Tusculanum, in sua obedientia, de qua partes
+          ille fuerant, tunc Johannem XXIII nominatum, confirmari obtinuit, prout in literis ejusdem
+          Baldassaris plenius continetur.</p>
+        <p>Verum post datam dictarum litterarum idem Kanutus episcopus ultimam partem hujusmodi
+          prefatis fratribus ut Christi pauperibus, non obstantibus litteris apostolicis predictis,
+          per triennium ut prius percipere et sublevare permisit, licet postmodum eosdem fratres, ne
+          deinceps decimarum partem predictam, ipsis in puris elemosinis singulis annis percipiendis
+          concessam, libere ut prius sublevare valerent, impedivit, prout impedit de presenti.</p>
+        <p>Cum itaque ordinatio ipsius Kanuti episcopi et confirmatio subsecuta in grave prejudicium
+          pauperum Christi et <app>
+            <lem>pauperum</lem>
+            <rdg><q>fratrum</q> foreslået af Gertz</rdg>
+          </app> hujusmodi, qui satis desolate constituti sunt, et preter antiquissimam deputationem
+          decimarum predictarum peracte sint, ipsique fratres illius occasione in necessariis <app>
+            <lem>deficiunt</lem>
+            <rdg>vel fejl for <q>deficiant</q></rdg>
+          </app>, ut etiam idem Kanutus episcopus in litteris propriis attestatur, atque in eisdem
+          litteris apostolicis de hujusmodi partis decimarum assignatione dictis fratribus ut
+          Christi pauperibus in puris elemosinis facta et per eosdem dictis longis temporibus
+          sublevata et percepta nulla penitus mentio habeatur, et propterea hujusmodi littere
+          apostolice tamquam veritate tacita <app>
+            <lem>impetrata</lem>
+            <rdg>vel fejl for <q>impetrate</q></rdg>
+          </app> nullius <app>
+            <lem>creduntur</lem>
+            <rdg>vel fejl for <q>credantur</q></rdg>
+          </app> esse firmitatis roboris vel momenti, supplicatur pro parte dictorum fratrum,
+          quatenus domino archiepiscopo <placeName>Lundensi</placeName> et primati <placeName>regni
+            Svecie</placeName> mandare dignemini, ut de premissis simpliciter et de plano ac sine
+          strepitu et figura judicii, sola facti veritate inspecta, vocatis vocandis se informet et,
+          si per informationem hujusmodi reperiat premissa veritate fulciri, ordinationem predictam
+          dicti domini Kanuti de prenominata parte decimarum factam ac confirmationem apostolicam
+          desuper subsecutam auctoritate apostolica casset revocet irritet annullet, ac cassas
+          irritas atque nullas easque nullius existere firmitatis roboris vel momenti pronuntiet et
+          declaret, ipsosque fratres ad statum pristinum, in quo ante ordinationem deputationem
+          applicationem et unionem predictas fuerunt, <app>
+            <lem>restituet</lem>
+            <rdg>vel fejl for <q>restituat</q></rdg>
+          </app> et <app>
+            <lem>reponet</lem>
+            <rdg>vel fejl for <q>reponat</q></rdg>
+          </app> restitutosque simili auctoritate sub censuris ecclesiasticis eadem auctoritate
+          apostolica, quatenus opus fuerit, fulminandis etc. manuteneat et defendat ...</p>
+        <p>Committatur metropolitano, qui justitiam summarie faciat. O.</p>
+        <p>Datum <placeName>Rome</placeName> 13. kal. aprilis anno 5.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
       </div>
     </body>
   </text>

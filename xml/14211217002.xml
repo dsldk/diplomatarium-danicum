@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
@@ -17,7 +18,7 @@
       <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
          </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2015</date>
         <idno type="dd">14211217002</idno>
@@ -75,6 +76,9 @@
               <history>
                 <ab>Tabt</ab>
               </history>
+              <additional>
+                
+              </additional>
             </msDesc>
           </witness>
           <witness xml:id="Aa">
@@ -111,7 +115,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>Ja. XXII. XI. XI. XI. XI. XI. XI. de Cerretanis</ab>
+                  <ab>Forneden skrivers egenhændige tilføjelse <q>Ja. XXII. XI. XI. XI. XI. XI. XI. de Cerretanis</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -122,6 +126,9 @@
               <history>
                 <ab>empty</ab>
               </history>
+              <additional>
+               
+              </additional>
             </msDesc>
           </witness>
         </listWit>
@@ -132,7 +139,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Arkivalske oplysninger og tekst efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -149,7 +156,7 @@
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab>Paven bekræfter slesvigkapitlets valg af provsten Henrik (v. See) til biskop sammesteds.</ab>
+        <ab>Paven bekræfter slesvigkapitlets valg af provsten Henricus (v. See) til biskop sammesteds.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +169,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +180,26 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Hinrico electo Slesvicensi. Apostolatus officium [etc.]. Sane dudum ecclesia Slesvicensi
+            per Johannis episcopi obitum pastoris solatio destituta, capitulum ejusdem ecclesie . .
+            . . te prepositum ejusdem ecclesie et in sacerdotio constitutum in eorum et Slesvicensem
+            episcopum concorditer elegerunt, tuque electioni hujusmodi illius tibi presentato decreto
+            consensisti ac demum electionis hujusmodi negotium proponi fecisti in consistorio coram
+            nobis, petens illam auctoritate apostolica confirmari, in hiis omnibus statutis a jure
+            temporibus observatis. Nos igitur electionem ipsam . . . per Petrum s. Marie in Domnica
+            diaconum cardinalem examinari fecimus, et quia facta nobis super hoc relatione fideli
+            electionem hujusmodi invenimus de persona tua ...... fore canonice celebratam, eam, etiam si
+            provisio dicte ecclesie fuerit hac vice dispositioni apostolice reservata, confirmamus
+            (<q>etc. = Dipl. Dan. 4. rk. VI nr. 89</q>). Datum Rome 16. kal. jan. anno 5. </p><p n="a#2">Simili modo Capitulo ecclesie
+              Slesvicensis.</p><p n="a#3">
+                Clero civitatis et diocesis Slesvicensis.</p><p n="a#4">
+                  Populo civitatis et diocesis Slesvicensis. </p><p n="a#5">Universis vassallis ecclesie Slesvicensis.</p><p n="a#6">
+                    Archiepiscopo Lundensi.</p><p n="a#7">
+Erico regi Dacie.
+</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
       </div>
     </body>
   </text>

@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title>Diplomatarium Danicum</title>
             <editor>
-               <name xml:id="maria.arvidsson">
+               <name xml:id="alk">
                   <persName>
-                     <forename type="first">Maria</forename>
-                     <surname>Arvidsson</surname>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
                   </persName>
                </name>
             </editor>
             <funder>Carlsbergfondet</funder>
          </titleStmt>
-         <extent>Base text, number of words: <num n="words">202</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         <extent>Base text, number of words: <num n="words">176</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">194</num>, paragraphs: <num n="paragraphs">4</num>
          </extent>
          <publicationStmt>
             <publisher>Danske Sprog- og Litteraturselskab</publisher>
             <pubPlace>København</pubPlace>
-            <date>2020</date>
+            <date>2016</date>
             <idno type="dd">14230812004</idno>
             <idno type="isbn">nil</idno>
             <availability status="restricted">
-               <ab>Copyright © 2020, Danske Sprog- og
+               <ab>Copyright © 2016, Danske Sprog- og
                                 Litteraturselskab</ab>
             </availability>
          </publicationStmt>
@@ -35,15 +36,23 @@
                      <msIdentifier>
                         <settlement>Stockholm</settlement>
                         <repository>Riksarkivet</repository>
-                        <collection>SDHK nr. 20123</collection>
-                        <idno>empty</idno>
+                        <idno>SDHK-nr. 20123</idno>
                         <msName>empty</msName>
                      </msIdentifier>
+                     <msContents>
+                        <summary>Tingsvidne af Lund byting om rådmand Ernst Buddes skødning til ærkedegn Jens 
+                Poulsen af sin jord i Lund.</summary>
+                        <msItemStruct>
+                           <filiation>
+                              <ab>empty</ab>
+                           </filiation>
+                        </msItemStruct>
+                     </msContents>
                      <physDesc>
                         <objectDesc>
-                           <supportDesc material="parch">
+                           <supportDesc material="empty">
                               <support>
-                                 <ab>Pergament</ab>
+                                 <ab>empty</ab>
                               </support>
                               <extent>
                                  <dimensions unit="cm">
@@ -65,23 +74,26 @@
                            </handNote>
                         </handDesc>
                         <additions>
-                           <ab>På bagsiden påskriften: <q>Scotatio Ærnisti Budde super fundo ubi postea edificata fuit
-      Rosengard</q>
+                           <ab>På bagsiden påskriften <q>Scotacio Ærnisti Budde super Fundo ubi
+                                postea edificata fuit Rosengard</q>
                            </ab>
                         </additions>
                         <sealDesc>
                            <seal n="1" type="pendant">
-                              <ab>Segl af lyst voks i perg.rem tilhørende Mogens Båd,foged og rådmand i Lund, <ref>AS K iii 7</ref>
+                              <ab>Landsdommer Mogens Båds segl af mørkt voks i
+                                perg.rem, <ref>AS K iii 7</ref>
                               </ab>
                            </seal>
                            <seal n="2" type="pendant">
-                              <ab>Bomærke af lyst voks i perg.rem</ab>
+                              <ab>Borgmester Johan Belkows bomærke i mørkt voks i
+                                perg.rem</ab>
                            </seal>
                            <seal n="3" type="missing">
                               <ab>Perg.rem</ab>
                            </seal>
                            <seal n="4" type="pendant">
-                              <ab>Bomærke af lyst voks i perg.rem</ab>
+                              <ab>Rådmand Knud Madsens bomærke i mørkt voks i
+                                perg.rem</ab>
                            </seal>
                            <seal n="5" type="missing">
                               <ab>Perg.rem</ab>
@@ -90,20 +102,23 @@
                               <ab>Perg.rem</ab>
                            </seal>
                            <seal n="7" type="pendant">
-                              <ab>Bomærke af lyst voks i perg.rem</ab>
+                              <ab>Rådmand Poul Torstensens bomærke i mørkt voks i
+                                perg.rem</ab>
                            </seal>
                         </sealDesc>
                      </physDesc>
                      <history>
                         <ab>empty</ab>
                      </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>Rep. nr. 6045</bibl>
+                           <bibl>Weibull, Dipl. Dioec. Lund. III 25-26 nr. 27</bibl>
+                        </listBibl>
+                     </additional>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-               <bibl>Rep. nr. 6045</bibl>
-               <bibl>Weibull, Dipl. Dioc. Lund. III 25 nr. 27</bibl>
-            </listBibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -129,20 +144,16 @@
                   notBefore="1423-08-12"
                   notAfter="1423-08-12"
                   cert="high">1423. 12. august</date>
-            <placeName cert="high">Lund</placeName>
+            <placeName cert="high">Lund byting</placeName>
          </creation>
          <langUsage>
             <language ident="gda">Hovedsprog: gammeldansk. </language>
          </langUsage>
-         <abstract>
-            <ab>Tingsvidne af Lunds byting, at Ernst Budde, rådmand i Lund, skøder sin jord i Lund til Jens
-      Povlsen, ærkedegn i Lund.</ab>
-         </abstract>
       </profileDesc>
       <revisionDesc>
-         <change when="2014-06-04" who="#pbh">Filen etableret af #pbh 2014-06-04. </change>
-         <change when="2020-04-20" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-04-20. </change>
-         <change when="2020-05-10" who="#smb">2. korrektur af #smb 2020-05-10. </change>
+         <change when="2016-10-25" who="#alk">Filen etableret af #alk 2016-10-25. </change>
+         <change when="2016-12-12" who="#alk">1. korrektur af #alk 2016-12-12. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
          <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
       </revisionDesc>
    </teiHeader>
@@ -152,31 +163,69 @@
    <text>
       <body>
          <div xml:lang="gda">
-            <p n="a#1" xml:space="preserve">Alle mæn th<ex>et</ex>ta breff see helse vii <persName>Magwns Baat</persName> fogwt oc
-      rathma<ex>n</ex> j <placeName>Lund</placeName> / <persName>Ha<ex>n</ex>nes Belkow</persName>
-      oc <persName>Lasse Nicliss<ex>øn</ex></persName> borghomæstara . <persName>Knut
-        Mætiss<ex>øn</ex></persName> . <persName>Beint Iens<ex>øn</ex></persName> . <persName>Twe
-        Pæthirs<ex>øn</ex></persName> rathmæ<ex>n</ex> . j then sa<ex>m</ex>ma stath kerlega
-      m<ex>eth</ex> gwth . ♦</p>
-            <p n="a#2" xml:space="preserve">Th<ex>et</ex> scal alle mæn wederlikt wara næruærend<ex>es</ex> oc
-      ko<ex>m</ex>masculand<ex>es</ex> . th<ex>et</ex> æfftir gwtz byrth thusanda <app><lem>aar</lem><rdg wit="#A">ov. l., A</rdg></app> firahu<ex>n</ex>drathæ oc pa th<ex>et</ex> thrithia til tiwgho then thorsdaghen næst
-      æfftir s<ex>anc</ex>ta Laurenz dagh war skikath pa wart bything j war<ex>e</ex> næruærilse oc
-      manie flere gothe mænz . en skellich man <persName>Ærnist Bwdde</persName> rathma<ex>n</ex> j
-      Lund oc skøtte oc j hendir anworthathe till ewi<ex>n</ex>nelich eghæ / en hethirlik maan h<ex>er</ex>
-      <persName>Iens Pawels<ex>øn</ex></persName> ærchidiægn j Lund . sina jorth ligiande j Lund j
-      Nw<ex>n</ex>no sogn / hwilkin som rækir fraa nw<ex>n</ex>no borlith oc swa søndir
-      mællw<ex>m</ex> grobin oc østragaden oc intill Aghæ Timbirmanz garth / m<ex>eth</ex> then
-      jorth han fik aff then forneffnda Aghe Timberma<ex>n</ex> ♦ Oc m<ex>eth</ex>
-      swada<ex>n</ex> rætwghed som han paa he<ex>n</ex>ne fik m<ex>eth</ex> hws oc m<ex>eth</ex>
-      bygni<ex>n</ex>g oc m<ex>eth</ex> all then jorthz tilligilse ♦</p>
-            <p n="a#3" xml:space="preserve">Oc kendis sich wp at hawa baryt folt oc alt aff then for<hi rend="sup">da</hi> h<ex>er</ex>
-      <persName>Iens Pawels<ex>øn</ex></persName> ærchidiægn ffor the fforsagtha iorth hws oc
-      bygni<ex>n</ex>g swa th<ex>et</ex> han sich aldel<ex>es</ex> nøgha lood ♦</p>
-            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigilla nostra presentibus duximus apponenda ♦</p>
-            <p n="a#5" xml:space="preserve">Datum anno die et loco quibus supra ♦</p>
+            <p n="a#1">Alle mæn th<ex>et</ex>ta breff see helsee vii <persName>Magwns Baat</persName>
+               <placeName>fogwt</placeName> oc <placeName>rathma<ex>n</ex> j
+                                Lund</placeName> / <persName>Ha<ex>n</ex>nes Belkow</persName> oc
+                                <persName>Lasse Nicliss<ex>øn</ex>
+               </persName>
+               <placeName>borghomæstara</placeName> . <persName>Knut
+                                Matiss<ex>øn</ex>
+               </persName> . <persName>Beint
+                                Iens<ex>øn</ex>
+               </persName> . <persName>Twe
+                                Pæthirs<ex>øn</ex>
+               </persName> oc <persName>Pawel
+                                Thorstins<ex>øn</ex>
+               </persName>
+               <placeName>rathmæ<ex>n</ex> j then sa<ex>m</ex>ma stath</placeName> kerlega
+                        m<ex>eth</ex> gwth . ♦</p>
+            <p n="a#2">Th<ex>et</ex> scal alle mæn wederlikt wara næruærend<ex>es</ex> oc
+                        ko<ex>m</ex>masculand<ex>es</ex> . th<ex>et</ex> æfftir gwtz byrth thusanda <app>
+                  <lem>aar</lem>
+                  <rdg wit="#A">Tilføjet over linjen, A</rdg>
+               </app> firahu<ex>n</ex>drathæ oc pa th<ex>et</ex> thrithia til tiwgho then
+                        thorsdaghen næst æfftir s<ex>anc</ex>tæ Laurenz dagh war skikath pa
+                                <placeName>wart bything</placeName> j war<ex>e</ex> næruærilse oc
+                        ma<ex>n</ex>nie flere gothe mænz . en skellich man <persName>Ærnist
+                                Bwdde</persName>
+               <placeName>rathma<ex>n</ex> j Lund</placeName> oc skøtte oc j hendir
+                        anworthathe till ewi<ex>n</ex>nelich egha / en hethirlich maan h<ex>er</ex>
+               <persName>Iens Pawels<ex>øn</ex>
+               </persName>
+               <placeName>archidiægn j Lund</placeName> . sina jorth ligiande j
+                                <placeName>Lund</placeName> j <placeName>Nw<ex>n</ex>no
+                                sogn</placeName> / hwilkin som rækir fraa <placeName>Nw<ex>n</ex>no
+                                borlith</placeName> oc swa søndir mællw<ex>m</ex>
+               <placeName>grobin</placeName> oc <placeName>Østragaden</placeName> oc
+                        i<ex>n</ex>ntill <persName>Aghæ Timbirmanz</persName> garth / m<ex>eth</ex>
+                        then jorth han fik aff then forneffnda Aghe Timbirma<ex>n</ex> oc
+                        m<ex>eth</ex> swada<ex>n</ex> rætwghed som han paa he<ex>n</ex>ne fik
+                        m<ex>eth</ex> hws oc m<ex>eth</ex> bygni<ex>n</ex>g oc m<ex>eth</ex> all
+                        then jorthz tilligilse oc kendis sich wp at hawa baryt folt oc alt aff then
+                                for<hi rend="sup">de</hi> h<ex>er</ex> Iens Pawels<ex>øn</ex>
+                        ærchidiægn ffor the fforsagthæ iorth hws oc bygni<ex>n</ex>g swa
+                        th<ex>et</ex> han sich aldel<ex>es</ex> nøgha lood ♦</p>
+            <p n="a#3">In cujus rei testimonium sigilla nostra presentibus duximus apponenda .
+                        ♦</p>
+            <p n="a#4">Datum anno die et loco quibus supra ♦</p>
          </div>
          <div xml:lang="da">
-            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+            <p n="b#1">Alle mænd, der ser dette brev, hilser vi Mogens Båd, foged og rådmand i Lund,
+                        Johan Belkow og Lars Nielsen, borgmestre, Knud Madsen, Bent Jensen, Tue
+                        Pedersen og Poul Torstensen, rådmænd sammesteds, kærligt med Gud.</p>
+            <p n="b#2">Det skal være vitterligt for alle nulevende og kommende mænd, at i år 1423 efter
+                        Guds fødsel, på torsdagen efter sankt Laurentius' dag, fremstod en
+                        retskaffen mand, Ernst Budde, rådmand i Lund, på vort byting i vor og mange
+                        flere gode mænds nærværelse og skødede og overdrog hæderværdig mand hr. Jens
+                        Poulsen, ærkedegn i Lund, i hånden til evig eje sin i Lund i Nonne sogn
+                        beliggende jord, der strækker sig fra leddet i Nonnegærdet og mod syd mellem
+                        gruben og Østergade indtil Åge Tømmermands gård, samt den jord han fik af
+                        den førnævnte Åge Tømmermand, med alle de rettigheder han fik på den, med
+                        hus og bygning, og med al den jords tilliggende; og han erklærede at have
+                        oppebåret fuld og hel betaling for førnævnte hus og bygning af den førnævnte
+                        hr. Jens Poulsen, ærkedegn, således at han var fuldt tilfreds.</p>
+            <p n="b#3">Til vidnesbyrd har vi ladet vore segl hænge ved dette brev.</p>
+            <p n="b#4">Givet ovennævnte år, dag og sted.</p>
          </div>
       </body>
    </text>

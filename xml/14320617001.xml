@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">233</num>, paragraphs: <num
+               n="paragraphs">5</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14320617001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>NKR 3115-c (tidl. Gottorp. memb. fasc. XVI)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>11.6 (plica: 2.3)</height>
+                                    <width>22.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Meget fugtskadet med næsten total udslettelse af teksten til
+                                    følge; allerede Aa1 bemærker at skriften er "ødelagt"</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift på bagsiden (15. årh.): <q>Privilegium prelatorum de optione
+                                 corporum prebendarum in ecclesia Sleswicensi</q> og herefter en
+                              lignende påskrift fra 16. århundrede</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>seglsnit (med ny seglrem sat i)</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Slesvig</settlement>
+                        <repository>Landesarchiv Schleswig-Holstein</repository>
+                        <collection>empty</collection>
+                        <idno>Abt. 16 Bisthum Schleswig 11</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Attesteret kopi af Johan Kulman, iflg. Aa1 fra 16. årh. med flg.
+                              attest (gengivet efter Aa1): <q>Daß diese Copey dem original
+                                 gleichlautend ist bezeuge ich Johan Kulman mit dieser meiner
+                                 handt</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra 1858</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6565</bibl>
+               <bibl>Vejledende Arkivreg. XVIII 391 nr. 18</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref> med ulæselig tekst suppleret efter Aa1.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-06-17" notBefore="1432-06-17" notAfter="1432-06-17" cert="high">1432.
+               17. juni</date>
+            <placeName cert="high">Slesvig</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Biskop Nicolaus (Wulf) af Slesvig bekræfter den gældende regel om, at de ældre
+               kanniker i Slesvig domkirke har fortrinsret til at avancere til bedre præbender, når
+               disse bliver ledige, og han indskærper, at reglen gælder, selvom den nogle gange er
+               blevet tilsidesat af hensyn til en yngre kannik.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-08" who="#pbh">Filen etableret af #pbh 2013-10-08. </change>
+         <change when="2019-09-13" who="#pbh">1. korrektur af #pbh 2019-09-13. </change>
+         <change when="2021-02-19" who="#alk">2. korrektur af #alk 2021-02-19. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1"><persName>Nicolaus</persName> dei et apostolice se<damage>dis</damage>
+                  g<damage>racia episcopu</damage>s <placeName>Sleswicensis</placeName> &#9830;</p>
+            <p>Quoniam absurdum non debet reputari si qua semel digesta maturius <damage>declarentur
+                  i</damage>terum . ne <damage>de</damage> eisdem pro temporum
+               <damage>de</damage>cursu actuumque digestis <damage>quidem</damage> hujusmodi non
+                  advers<damage>orum</damage> sed in<damage>ter se</damage> diversorum
+                  admiss<damage>ione varia in p</damage>oster<damage>um conting</damage>at
+                  he<damage>sitari</damage> &#9830;</p>
+            <p n="a#2">Cum <damage>itaque prelati ec</damage>clesie nostre non tamen antiquiores
+                  <damage>canonici</damage> existentes <damage>aliquocies ad opcionem
+                  meliorum</damage> prebendarum sive corporum ab antiquioribus canonicis <damage>et
+                  capitulo</damage> pro eorum <damage>reverencia benevole sint a</damage>dmissi ne
+               igitur hoc in <damage>consequentiam pro luce trahatur in futurum . idcirco de
+                  expre</damage>sso consensu venerabilis <placeName>capituli</placeName>
+               <damage>nostri predicti</damage> ad <damage>perpetuam rei memoriam
+                  presentibus</damage> volentes declaramus quod statutum de prebendarum
+                  opcio<damage>nibus meliorum du</damage>dum <damage>inter</damage> al<damage>ia
+                  dicte</damage> nostre ecclesie statuta editum per amplius <damage>debet
+                  in</damage> suo <damage>tenore per omnia ut jacet in prebendarum sive</damage>
+               corporum meliorum opcionibus per ejusdem e<damage>cclesie nostre
+                     <placeName>prelatos</placeName> et <placeName>canonicos</placeName> pro
+                  temp</damage>ore existentes <damage>non o</damage>bstante contradiccione
+                  <damage>cujus</damage>cumque inviola<damage>bilit</damage>er
+                  obs<damage>ervari</damage> &#9830;</p>
+            <p>
+               <damage>Et ut</damage> idem stat<damage>utum</damage> adeo <damage><app>
+                     <lem>&#8224;nocioe&#8224;</lem>
+                     <rdg>Denne læsning stammer fra Aa1; A er ulæselig</rdg>
+                  </app> publicetur quod</damage> de eo dubitari non oporteat <damage>ipsum de
+                  verbo</damage> ad verb<damage>um presentibus duximus</damage> inse<damage>rendum
+                  .</damage> cujus tenor sequitur et est talis &#9830;</p>
+            <p n="a#3">Secundum consuetudinem diucius <damage>observatam</damage> antiquiores
+                  <damage>canoni</damage>ci <placeName>Sleswicensis ecclesie</placeName> gradatim
+                  mel<damage>iores si vol</damage>uerint possunt <damage>cum in ecclesia</damage>
+                  Sleswice<damage>nsi v</damage>aca<damage>nt optare</damage>
+                  preb<damage>endas</damage> &#9830;</p>
+            <p n="a#4"><damage>Declaratum datum et actum in dicta ecclesia nostra</damage>
+               Sleswicensi ubi protunc er<damage>amus cum dicto capitulo nostro</damage>
+                  pro<damage>pterea ut moris est capitulariter congr</damage>eg<damage>a</damage>ti
+               anno domini <damage>millesimo quadringentesimo tricesimo secundo die 17</damage>
+               mensis junii &#9830;</p>
+            <p n="a#5">In cujus testimonium nostrum et dicti <damage>venerabilis capituli nostri
+                  sigilla presentibus sunt app</damage>ensa . &#9830;</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+               tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

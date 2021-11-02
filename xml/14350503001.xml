@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1486</num>, paragraphs: <num n="paragraphs">21</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14350503001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3197-b</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>29.6 (plica: 2.4)</height>
+                                    <width>50.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Stor (fugt?)plet længst nede på brevets venstre halvdel</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift på brevets bagside m. sen. hd.: <q>Endragt som kong Eric oc
+        Swerig<ex>es</ex> rad war emellom giort</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af brunt i ufarvet voks i perg.rem tilhørende Jens
+        Pedersen, <ref>DGS 173</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl af brunt i ufarvet voks i perg.rem tilhørende Erik Nielsen
+        Gyldenstjerne, <ref>AS G xvi 8</ref>
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Segl af grønt i ufarvet voks i perg.rem tilhørende Sten
+        Basse, <ref>AS C lxviii 3</ref>
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Segl af brunt i ufarvet voks i perg.rem tilhørende Morten Jensen
+        Gyrstinge, <ref>AS H xv 7</ref>
+                              </ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Hans Laxmand, degn i
+        Lund, <ref>DGS 62</ref>
+                              </ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Segl af rødt i ufarvet voks i perg.rem tilhørende Oluf, ærkebiskop i
+        Uppsala</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Segl af brunt i ufarvet voks i perg.rem tilhørende Knud, biskop i
+        Linköping</ab>
+                           </seal>
+                           <seal n="9" type="pendant">
+                              <ab>Segl af brunt i ufarvet voks i perg.rem tilhørende Sigge, biskop i
+        Skara</ab>
+                           </seal>
+                           <seal n="10" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Niels
+        Erengislesson</ab>
+                           </seal>
+                           <seal n="11" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Knut Jonsson</ab>
+                           </seal>
+                           <seal n="12" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Magnus Green</ab>
+                           </seal>
+                           <seal n="13" type="pendant">
+                              <ab>Segl af brunt i ufarvet voks i perg.rem tilhørende Peder Lykke Bille,
+        ærkebiskop, <ref>DGS 26</ref>
+                              </ab>
+                           </seal>
+                           <seal n="14" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Hans Krøpelin, <ref>AS L xxxiii 4</ref>
+                              </ab>
+                           </seal>
+                           <seal n="15" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Bo Stensson</ab>
+                           </seal>
+                           <seal n="16" type="pendant">
+                              <ab>Segl af grønt i ufarvet voks i perg.rem tilhørende Henrik
+        Snakenborg</ab>
+                           </seal>
+                           <seal n="17" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Karl Knutsson</ab>
+                           </seal>
+                           <seal n="18" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Knut Karlsson</ab>
+                           </seal>
+                           <seal n="19" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Odder Ulfsson</ab>
+                           </seal>
+                           <seal n="20" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Arvid Svan</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 162-69</bibl>
+               <bibl>Rep. nr. 6760</bibl>
+               <bibl>Reg. 6570*</bibl>
+               <bibl>Hvitfeld IV 532, fol. 779</bibl>
+               <bibl>Rydberg III 126</bibl>
+               <bibl>Hadorph, Svenske Rimkrönikor, Bil. s. 86-90</bibl>
+               <bibl>Om seglene, se Barner, Fam. Rosenkrantz I 119-20</bibl>
+               <bibl>Svenska medeltidsregester nr. 232</bibl>
+               <bibl>Finlands Medeltidsurkunder nr. 2124</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435-05-03"
+                  notBefore="1435-05-03"
+                  notAfter="1435-05-03"
+                  cert="high">1435. 3. maj</date>
+            <placeName cert="high">Halmstad</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Præliminær voldgiftsafgørelse i sagen mellem kong Erik 7. af Pommern og det svenske rigsråd,
+      afsagt af begge parters voldgiftsmænd. Ifølge forslaget skal kongen og det svenske rigsråd
+      mødes i Stockholm på den næstkommende Skt. Olavs dag for at indgå forlig. For at opnå enighed
+      mellem de to parter foreslås blandt andet, at kongen omgående skal overgive alle rigets
+      landsdele og slotte med tilhørende len og lade Sveriges indbyggere benytte deres lov og
+      privilegier. Indbyggerne i Sverige skal til gengæld betragte kong Erik som deres rette
+      konge.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-05" who="#pbh">Filen etableret af #pbh 2013-11-05. </change>
+         <change when="2020-02-25" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-02-25. </change>
+         <change when="2021-05-31" who="#jon">2. korrektur af #jon 2021-05-31. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Thet scall alle men widerlicht <app><lem>w[a]re</lem><rdg wit="#A">usikker læsning, A</rdg></app> so<ex>m</ex> thette b<ex>re</ex>ff se ell<ex>e</ex>r høre / ath wi Jens m<ex>eth</ex>
+      gudz nathe biscop j <placeName>Roskilde</placeName> / <persName>Axell
+        Peth<ex>e</ex>rss<ex>øn</ex></persName> / <persName>Eric Nielss<ex>øn</ex></persName>
+      <persName>Steen Basse</persName> / <persName>Morten Jenss<ex>øn</ex></persName> /
+      ridde<ex>re</ex> / <persName>Hans Laxman</persName> degh<ex>e</ex>n j
+        <placeName>Lund</placeName> / haffuend<ex>es</ex> full macht aff hogheboren <app><lem>h<ex>er</ex>re</lem><rdg wit="#A"><q>h<ex>er</ex>re</q> herefter slettet, A</rdg></app> / oc første wor nathighe h<ex>er</ex>re koni<ex>n</ex>g Eric m<ex>eth</ex> gudz nathe
+      Da<ex>n</ex>m<ex>ar</ex>cks . Swerig<ex>es</ex> . Norghes . Wend<ex>es</ex> oc Got<ex>es</ex>
+      . ko<ex>n</ex>ni<ex>n</ex>g oc h<ex>er</ex>tugh j <placeName>Pomeren</placeName> vpa then ene
+      sidhe / oc wi <persName>Olaff</persName> m<ex>eth</ex> gudz nathe erkebiscop j
+        <placeName>Vpsale</placeName> / <persName>Knwt</persName> j <placeName>Lynkøping</placeName>
+      / oc <persName>Sigge</persName> j <placeName>Skara</placeName> m<ex>eth</ex> sa<ex>m</ex>me
+      nathe biscope / <persName>Niels Ærengiselss<ex>øn</ex></persName> ridde<ex>re</ex> oc laghman
+      j <placeName>Suderma<ex>n</ex>neland</placeName> / <persName>Knwt Jonss<ex>øn</ex></persName>
+      laghman j <placeName>Westragylland</placeName> / <persName>Maghens Green</persName> awapn /
+      sa<ex>m</ex>melethes ful macht haffuend<ex>es</ex> aff righens rath oc men . oc alle andræ
+      jnbygge<ex>re</ex> j Swerighe vpa then andra sidhe / til atafflegge oc forlighe all twedracht
+      oc misse<ex>m</ex>mye so<ex>m</ex> h<ex>er</ex> till warit hau<ex>er</ex> mello<ex>m</ex>
+        for<hi rend="sup">de</hi> wor natheghe h<ex>er</ex>re koni<ex>n</ex>g
+        <persName>Eric</persName> oc righens rath . men oc jnbygge<ex>re</ex> j Swerighe
+        forescr<ex>euene</ex> / huelke<ex>n</ex> twedracht oc misse<ex>m</ex>mye
+      set war vm Morte<ex>n</ex>s møsse tiidh nest foregangen vpa een retgang vtatsie j Stocholm
+      vpa wor frue dagh nativitatis nest tilko<ex>m</ex>mend<ex>es</ex> so<ex>m</ex>
+      b<ex>re</ex>ffuen so<ex>m</ex> th<ex>e</ex>r vpa giffuit er<ex>e</ex> vtuise / wore till
+      sa<ex>m</ex>men j <placeName>Halmstadhe</placeName> / aar efft<ex>er</ex> gudz byrdh
+      thusendefirahwndrethe threttywghe oc pa th<ex>et</ex> fæmpte / vpa helghekors dagh invencionis
+      / oc haffue endractelighe owerweycht for<hi rend="sup">de</hi> twedracht oc misse<ex>m</ex>mye
+      . oc alle saghe so<ex>m</ex> th<ex>e</ex>r vpa røre kan oc th<ex>e</ex>m nederlaght oc ænt j
+      swo made so<ex>m</ex> h<ex>er</ex> efft<ex>er</ex> screffuit star / ♦</p>
+            <p n="a#2" xml:space="preserve">Fførst at for<hi rend="sup">de</hi> wor natheghe h<ex>er</ex>re koni<ex>n</ex>g Eric ware
+      selff j Stocholmen vpa sancti Olaffs dagh nest till ko<ex>m</ex>mend<ex>es</ex> oc
+      sa<ex>m</ex>meledhes righens rath . oc fleræ gothe men aff Swerighe the th<ex>e</ex>r till
+      nyttighe ere / oc vpa alle righens j Swerige jnbygger<ex>es</ex> weghne ful macht haue vpa
+      th<ex>e</ex>n enæ sidhe / oc at tha scall . strax . m<ex>eth</ex> th<ex>et</ex> første
+      afflegg<ex>es</ex> all vwilghe oc misse<ex>m</ex>mye mello<ex>m</ex> for<hi rend="sup">de</hi>
+      wor natheghe h<ex>er</ex>re koni<ex>n</ex>g Eric oc ha<ex>n</ex>s medherhielpe<ex>re</ex> j
+      Swerighe / oc sønnerlighe th<ex>e</ex>m aff Stocholm vpa een sidhe . oc alle Swerighes jnføde
+      men oc jnbygge<ex>re</ex> oc ther<ex>es</ex> meth<ex>e</ex>rhielpe<ex>re</ex> . vpa
+      th<ex>e</ex>n andra sidhe j kerlich oc wenscap . efft<ex>er</ex> the tolff gothe mentz seghn .
+      so<ex>m</ex> rette<ex>n</ex> sculde haffue wt saght . ell<ex>e</ex>r andræ vtj ther<ex>es</ex>
+      stadh . vm nogh<ex>e</ex>r aff th<ex>e</ex>m h<ex>er</ex> for inne<ex>n</ex> affdøthe .
+      ell<ex>e</ex>r th<ex>e</ex>r ey till ko<ex>m</ex>me ku<ex>n</ex>ne . so<ex>m</ex> oc røres vtj
+        for<hi rend="sup">de</hi> rettegangs b<ex>re</ex>ff / ♦</p>
+            <p n="a#3" xml:space="preserve">Oc th<ex>e</ex>r m<ex>eth</ex> scall . all schadhe ware afftalet vpa batha sidher
+      swoso<ex>m</ex> er mello<ex>m</ex> for<hi rend="sup">de</hi> wor natheghe h<ex>er</ex>re
+      koni<ex>n</ex>g Eric oc alle righens jnføde men oc jnbygge<ex>re</ex> j Swerighe .
+      vnde<ex>n</ex> tagh<ex>e</ex>n th<ex>e</ex>n schadhe som righe<ex>n</ex>s men aff Swerighe
+      haue fonget so<ex>m</ex> fongne wore j <placeName>Øresund</placeName> / oc vndentaghna the
+      reghenscæp so<ex>m</ex> for<hi rend="sup">de</hi> wor natheghe h<ex>er</ex>re koni<ex>n</ex>g
+      Ericks foghethe oc embetzmen hano<ex>m</ex> plictughe ere . før en th<ex>e</ex>n for<hi rend="sup">de</hi> twedracht vpa gik so<ex>m</ex> war jntill mitso<ex>m</ex>mer nw nest
+      foregange<ex>n</ex> vforsømet rettighet j jordhegodz konu<ex>n</ex>ge<ex>n</ex>s .
+      krone<ex>n</ex>s / och alle mentz . ♦</p>
+            <p n="a#4" xml:space="preserve">Item scule tha . th<ex>e</ex>r vfortøffrit for<hi rend="sup">de</hi> righe<ex>n</ex>s rath .
+      oc men . oc jnbygge<ex>re</ex> j Swerighe a<ex>n</ex>tworthe for<hi rend="sup">de</hi> wor
+      natheghe h<ex>er</ex>re koni<ex>n</ex>g Eric alle land / alle slot so<ex>m</ex> vbrende ere
+      m<ex>eth</ex> ther<ex>es</ex> læn / oc alle andræ len oc køpstedh<ex>e</ex>r j Swerighe frij
+      jgen j sin haue<ex>n</ex>de wære / huelke the sigh vnderwu<ex>n</ex>net haue vtj
+      the<ex>n</ex>ne for<hi rend="sup">de</hi> twedracht / ♦</p>
+            <p n="a#5" xml:space="preserve">Ok schule alle righe<ex>n</ex>s rath . jnføde men . oc jnbygge<ex>re</ex> j Swerighe holde oc
+      haue for<hi rend="sup">de</hi> wor natheghe h<ex>er</ex>r<ex>e</ex> koni<ex>n</ex>g Eric . for
+      ther<ex>es</ex> fulmectughe ko<ex>n</ex>ni<ex>n</ex>g j Swerighe j ha<ex>n</ex>s daghe
+      so<ex>m</ex> ha<ex>n</ex> rettelighe till Swerig<ex>es</ex> righe walder oc kroneth<ex>e</ex>r
+      er / ♦</p>
+            <p n="a#6" xml:space="preserve">Oc at for<hi rend="sup">de</hi> wor . natheghe h<ex>er</ex>re koni<ex>n</ex>g Eric tha
+      vfortøffrit lade for<hi rend="sup">de</hi> righe<ex>n</ex>s rath . jnføde men oc alle andræ
+      jnbygge<ex>re</ex> j Swerighe nyde ther<ex>es</ex> lagh . screffue<ex>n</ex> ret . oc
+      p<ex>ri</ex>uileg<ex>ier</ex> so<ex>m</ex> th<ex>e</ex>m bør til rette at nyde / oc
+      ha<ex>n</ex> th<ex>e</ex>m oc righet sworet hau<ex>er</ex> . vden ha<ex>n</ex> kan . noghet
+      yderme<ex>re</ex> formwue m<ex>eth</ex> for<hi rend="sup">de</hi> righe<ex>n</ex>s raatz
+      kerlich . oc samthicke / ♦ Oc sa<ex>m</ex>melethes . at for<hi rend="sup">de</hi> wor
+      nath<ex>eghe</ex> h<ex>er</ex>re koni<ex>n</ex>g Eric oc kronen . nyde all . logh . oc ret
+      b<ex>re</ex>ff oc friihet . so<ex>m</ex> the haue oc th<ex>e</ex>m bør atnyde / oc the eder
+      so<ex>m</ex> righe<ex>n</ex>s men hano<ex>m</ex> sworet haue / ♦</p>
+            <p n="a#7" xml:space="preserve">Item sambindelse breffuit so<ex>m</ex> righen . ere m<ex>eth</ex>
+      <app><lem>sa<ex>m</ex>me[<ex>n</ex>]bunden</lem><rdg wit="#A">usikker læsning, A</rdg></app> scall bliffue with sin fulle macht / oc th<ex>et</ex> bør foreatko<ex>m</ex>me vpa
+        for<hi rend="sup">de</hi> sancti Olaffs dagh . j Stocholm / ell<ex>e</ex>r oc
+      fulko<ex>m</ex>met vidisse oc instr<ex>u</ex>m<ex>ent</ex> th<ex>e</ex>r aff j then
+      sa<ex>m</ex>me stedh / ♦</p>
+            <p n="a#8" xml:space="preserve">Item at lænen . till the slot so<ex>m</ex> for<hi rend="sup">de</hi> wor nath<ex>eghe</ex>
+      h<ex>er</ex>re koni<ex>n</ex>g Eric nw j wære . hau<ex>er</ex> . bør atbliue with slotten
+      vfortøffrethe till for<hi rend="sup">de</hi> tiidh / thoc m<ex>eth</ex> swodant skel . at
+      righe<ex>n</ex>s rath j Swerighe skikke th<ex>e</ex>r till twaa gothe men . ell<ex>e</ex>r een
+      vtj hwert len the so<ex>m</ex> rethelighe wtskicke till slotten . th<ex>et</ex> so<ex>m</ex>
+      th<ex>e</ex>m bør atgiue jnne<ex>n</ex> for<hi rend="sup">de</hi> tiidh / vpa th<ex>et</ex> at
+      enge<ex>n</ex> twedracht ko<ex>m</ex>mer mello<ex>m</ex> embetzme<ex>n</ex>nene . oc almwghen
+      / ♦</p>
+            <p n="a#9" xml:space="preserve">Item at the gothe men oc qwi<ex>n</ex>ne so<ex>m</ex> ther<ex>es</ex> jordhegotz haffue mist
+      j Swerighe Da<ex>n</ex>m<ex>ar</ex>c ell<ex>e</ex>r Norghe vtj the<ex>n</ex>ne
+      forscr<ex>effne</ex> twedracht swoso<ex>m</ex> er arffue køp ell<ex>e</ex>r pant
+      ther<ex>es</ex> vfortøffrith jgen fonge / vnden taghet . th<ex>et</ex> so<ex>m</ex>
+      h<ex>er</ex>scapit vpa rører / oc vnden taghet th<ex>et</ex> so<ex>m</ex> fran . kronen er
+      panteth . at th<ex>et</ex> bliue <app><lem>stande[<ex>n</ex>]de</lem><rdg wit="#A">utydeligt, A</rdg></app> till for<hi rend="sup">de</hi> dagh . vpa the for<hi rend="sup">de</hi> tolff gothe
+      mentz . seghn / oc vm ther<ex>es</ex> schadhe bliue oc stonde<ex>n</ex>de vpa the
+      sa<ex>m</ex>me tolff gothe men . hwat the sighe so<ex>m</ex> dragher till se<ex>m</ex>mye oc
+      we<ex>n</ex>scap / ♦</p>
+            <p n="a#10" xml:space="preserve">Item vm fridhebrudh so<ex>m</ex> skeed er vpa bathe sidh<ex>e</ex>r sidh<ex>e</ex>n
+      th<ex>e</ex>n frith forwisset oc beb<ex>re</ex>ffuit wordh . j
+        <placeName>Stocholmen</placeName> . vm sancti Morte<ex>n</ex>s daghs tiidh nw nest forleden
+      . at th<ex>et</ex> oc forbøtes vpa for<hi rend="sup">de</hi> sancti Olaffs daghx tiidh
+      m<ex>eth</ex> rette ell<ex>e</ex>r m<ex>eth</ex> wenscap / oc ath alle fonge so<ex>m</ex>
+      grepne ere j then for<hi rend="sup">de</hi> twedracht . vpa bathe sidh<ex>e</ex>r scule haue
+      dagh . till for<hi rend="sup">de</hi> tiidh . oc tha løse lad<ex>es</ex> / ♦</p>
+            <p n="a#11" xml:space="preserve">Item at Halland . gaa nw genisten friit till for<hi rend="sup">de</hi> wor natheghe
+      h<ex>er</ex>re koni<ex>n</ex>gen jgen so<ex>m</ex> th<ex>et</ex> førr<ex>e</ex> war
+      ♦</p>
+            <p n="a#12" xml:space="preserve">Item at almwghens thynge j Swerighe scall laghes . efft<ex>er</ex> wor nath<ex>eghe</ex>
+      h<ex>er</ex>re koni<ex>n</ex>gens oc righens ratz rath . j Swerighe oc sa<ex>m</ex>thycke .
+      swoso<ex>m</ex> almwghen . draghelicht er / oc koni<ex>n</ex>gen oc kronen . ere m<ex>eth</ex>
+      bestande<ex>n</ex>de / oc vforsø<ex>m</ex>methe bliue . ♦</p>
+            <p n="a#13" xml:space="preserve">Item at droste oc marschalk skikk<ex>es</ex> vtj righet j Swerigh<ex>e</ex> vpa for<hi rend="sup">de</hi> sancti Olaffs daghs tiidh / ♦</p>
+            <p n="a#14" xml:space="preserve">Item at <persName>Engelbrecht Engelbrechtss<ex>øn</ex></persName> scall beholde vtj sine
+      daghe <placeName>Ørebro</placeName> slot oc stadh . m<ex>eth</ex> the len . so<ex>m</ex>
+      <persName>Mathias <app><lem>K[o]telb<ex>er</ex>g</lem><rdg wit="#A">utydeligt, A; Gammeldanske Diplomer læser <q>K{oe}telb<ex>er</ex>gh</q>,
+              <q>o</q> med et <q>e</q> skrevet oven over</rdg></app></persName> th<ex>e</ex>r till haffthe / oc gøre for<hi rend="sup">de</hi> wor
+      natheghe h<ex>er</ex>re koni<ex>n</ex>g Eric . oc efft<ex>er</ex>ko<ex>m</ex>mend<ex>e</ex>
+      koni<ex>n</ex>g j Swerighe tro thieniste th<ex>e</ex>r aff . so<ex>m</ex> een tro dande man .
+      bør atgøre sin rette h<ex>er</ex>re / oc scal for<hi rend="sup">de</hi> Ørebro ware
+      koni<ex>n</ex>gens oc krone<ex>n</ex>s opne slot / ♦ Oc scall for<hi rend="sup">de</hi>
+      Engelbricht gøre for<hi rend="sup">de</hi> wor natheghe h<ex>er</ex>re koni<ex>n</ex>g Eric
+      forwaring at nar ha<ex>n</ex> affgar . for<hi rend="sup">de</hi> slot oc len
+        <placeName>Ørebro</placeName> scall ko<ex>m</ex>me frij till koni<ex>n</ex>gen oc kronen j
+      Swerighe ♦</p>
+            <p n="a#15" xml:space="preserve">Item at <persName>Eric Puke</persName> beholde <app><lem><placeName>Rasbohwnd[are]</placeName></lem><rdg wit="#A">usikker læsning, A</rdg></app> j ha<ex>n</ex>s daghe / oc gøre for<hi rend="sup">de</hi> wor . natheghe h<ex>er</ex>re
+      koni<ex>n</ex>g Eric oc righet tro thieniste so<ex>m</ex> hano<ex>m</ex> bør / oc nar
+      ha<ex>n</ex> er affgange<ex>n</ex> . at th<ex>et</ex> tha løs<ex>es</ex> aff ha<ex>n</ex>s arwinge .
+      som th<ex>et</ex> pa<ex>n</ex>teb<ex>re</ex>ff th<ex>e</ex>r vpa luder oc vtwiser /
+      ♦</p>
+            <p n="a#16" xml:space="preserve">Item at nw genisten maa hwer man . so<ex>m</ex> m<ex>eth</ex> schellichet far . ferthes
+      feligh aff eet righe oc vtj eet a<ex>n</ex>net till land oc till watn / oc hwor ha<ex>n</ex>
+      hau<ex>er</ex> erende . vhindreth . oc gøre sin plicht so<ex>m</ex> hano<ex>m</ex> bør atgøre
+      hwor han er / ♦</p>
+            <p n="a#17" xml:space="preserve">Oc scal all feyde oc all twedracht bliue afflaghd / oc wenscap oc kerlighet bliue
+      mello<ex>m</ex> righen . oc ther<ex>es</ex> inbygge<ex>re</ex> . so<ex>m</ex> best
+      tilfore<ex>n</ex> waret hau<ex>er</ex> / ♦</p>
+            <p n="a#18" xml:space="preserve">Oc h<ex>er</ex> m<ex>eth</ex> . bethe oc byuthe wj tolff for<hi rend="sup">de</hi> vpa wor .
+      natheghe h<ex>er</ex>re koni<ex>n</ex>gens wegne swo oc vpa alle righene weghne . alle ee hwo
+      the helzt ere vtj thesse thry righe at the h<ex>er</ex> efft<ex>er</ex> haue wenscap . kerlich
+      . oc endracht . hwor m<ex>eth</ex> a<ex>n</ex>nen til rette . ♦</p>
+            <p n="a#19" xml:space="preserve">Dørwes nogh<ex>e</ex>r atgøre h<ex>er</ex> vmot ha<ex>n</ex> gøre th<ex>et</ex> vpa sin hals
+      oc staa swodan ret . so<ex>m</ex> then bør atstaa . so<ex>m</ex> vlydugh er . sit
+      h<ex>er</ex>scap oc sit righe ♦</p>
+            <p n="a#20" xml:space="preserve">Till mere wisse oc bædhre forwari<ex>n</ex>g at alle thesse forscr<ex>effne</ex> stycke oc
+      artic<ex>u</ex>li scule bliue faste . oc wbrydelighe . haffue wi for<hi rend="sup">de</hi>
+      tolff hengt wore jnceyle for thellighe tw b<ex>re</ex>ff . eens ludende . ordh fran . ordh /
+      ♦ Thet ene beholde wi sex . so<ex>m</ex> wor natheghe h<ex>er</ex>re koni<ex>n</ex>g
+      Erick<ex>es</ex> ful macht haffue j thesse forscr<ex>effne</ex> ærende / ♦ Oc thet
+      a<ex>n</ex>ndræ beholde wj sex for<hi rend="sup">de</hi> aff Swerighe . so<ex>m</ex> righens
+      ratz . oc alle jnbygger<ex>es</ex> j Swerighe full macht haue j sa<ex>m</ex>me ærende /
+      ♦</p>
+            <p n="a#21" xml:space="preserve">Oc til widne h<ex>er</ex> vm . haffu<ex>er</ex> werdugh fadh<ex>e</ex>r m<ex>eth</ex> guth . h<ex>er</ex>
+      <persName>Peth<ex>e</ex>r</persName> erkebiscop j Lund / oc welborne men / h<ex>er</ex>
+      <persName>Bo Stenss<ex>øn</ex></persName> ridde<ex>re</ex> . <persName>Hans
+        Krøppelin</persName> / <persName>He<ex>n</ex>ric Snauenborgh</persName> / <persName>Karll
+        Knwtss<ex>øn</ex></persName> / <persName>Knwt Karlss<ex>øn</ex></persName>
+      <persName>Odder Vlffss<ex>øn</ex></persName> . <persName>Arwidh Swan</persName> . hengt
+      ther<ex>es</ex> jnceyle m<ex>eth</ex> fore th<ex>et</ex>te breff so<ex>m</ex> giffuet er aar .
+      dagh oc stadh . so<ex>m</ex> forescreffuit star ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

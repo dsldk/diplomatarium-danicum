@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">285</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">285</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2015</date>
         <idno type="dd">14200713003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -93,7 +95,7 @@
                     </support>
                     <extent>
                       <dimensions unit="cm">
-                        <height>0 (plica: 0)</height>
+                        <height>0</height>
                         <width>0</width>
                       </dimensions>
                     </extent>
@@ -115,7 +117,7 @@
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
-                    <ab>empty</ab>
+                    <ab>empty </ab>
                   </seal>
                 </sealDesc>
               </physDesc>
@@ -133,7 +135,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst efter Dipl. Norv. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -146,11 +148,16 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1420-07-13" notBefore="1420-07-13" notAfter="1420-07-13" cert="high">1420. 13. juli</date>
+        <date when="1420-07-13" notBefore="1420-07-13" notAfter="1420-07-13" cert="high">1420. 13.
+          juli</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Skriveren ved pønitentiarkontoret i Rom Nicolaus de Leys, der i forvejen har kanonikater og præbender i Rom (indtægt 100 gylden), får kantoriet og kanonikat og præbende i Lund (indtægt 7 mark), som indehaveren af disse embeder Oluf Jakobsen ikke må forene med besiddelsen af provstiet i Roskilde, som han havde fået ved Jens Jakobsens udnævnelse til biskop i Oslo.</ab>
+        <ab>Pave Martin 5. bevilger en supplik af Nicholaus Johannis de Leis, pavelig
+          pønitentiarskriver, om at få provision på kantorembedet og kanonikat og præbende i Lund
+          (ledige ved, at den hidtidige indehaver Oluf Jakobsen (Knop) har fået provstiet i Roskilde, som
+          ikke kan forenes med kantorembedet), skønt han i forvejen har kanonikater og præbender i
+          flere kirker i Rom.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -163,8 +170,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-10-10" who="#pbh">Tekst kopieret ind fra Dipl. Norv. osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -174,42 +182,43 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">emptyBeatissime pater, dignetur s. v. de prepositura ecclesie
-			Roskildensis per promocionem Johannis Jacobi olim prepositi
-eiusdem ecclesie Roskildensis et canonici Lundensis ad ecclesiam
-Ausluensem promoti cum illam per munus concecracionis de con-
-secrandis episcopis a jure diffinitum seu lapsum temporis eciam
-vacare contingeret cuidam Olauo Jacobi cantori ecclesie Lunden-
-sis mandauerit prouideri, verum pater sancte cum canonicatus et
-prebenda ac cantoria ecclesie Lundensis que quidem cantoria iuxta
-statuta dicte ecclesie Lundensis non potest obtineri nisi ipsam
-cantoriam obtinens prius canonicus dicte ecclesie existat causis
-predictis sperantur vacare, Supplicat igitur e. s. v. Nicho-
-laus Johannis de Leys litterarum sacre penitenciarie s. v. scrip-
-tor, quatenus sibi specialem graciam faciendo de canonicatu et
-prebenda quorum quique per promocionem prefati [Johannis] Jacobi
-et munus consecracionis impendendum eidem uel lapsu temporis
-eciam necnon de cantoria ecclesie Lundensis predicta cuius sep-
-tem marcharum argenti fructus etc. secundum communem exti-
-macionem valorem an. non excedunt per assecucionem dicte pre-
-positure vacantibus uel dum vacabunt eciam si alias quouis modo
-et per quamcumque personam preterquam per obitum ipsorum
-promoti et Olaui seu per constitucionem Execrabilis vacent aut
-ipsos vacare contingat ac cantoria ipsa curata et dignitas elec-
-tiua existat ipsique canonicatus et prebenda ac cantoria gene-
-raliter uel specialiter reseruati litigiosi uel affecti existant eidem
-Nicholao dignemini misericorditer prouidere Non obstante quod
-dictus Nicholaus obtinet canonicatus et prebendas in basilica
-principis apostolorum et in ecclesijs Cosme et Damiani et sancti
-Adriani de Vrbe, quorum fructus etca centum florenorum auri
-secundum communem extimacionem valorem annuum non exce-
-dunt et alijs quibuscumque non obstantibus et clausulis oportu-
-nis. Signantes ut petitur de vtroque. Fiat ut petitur de cantoria
-et de canonicatu sub expectacione prebende .O. Fiat. Datum
-Florencie tercio jdus Julij anno tercio.</p>
+        <p n="a#1">Beatissime pater, <app>
+            <lem>dudum</lem>
+            <rdg>således APD</rdg>
+            <rdg><q>dignetur</q> Dipl. Norv.</rdg>
+          </app> s. v. de prepositura ecclesie <placeName>Roskildensis</placeName> per promocionem
+            <persName>Johannis Jacobi</persName> olim prepositi ejusdem ecclesie Roskildensis et
+          canonici <placeName>Lundensis</placeName> ad ecclesiam <placeName>Ausluensem</placeName>
+          promoti cum illam per munus concecracionis de consecrandis episcopis a jure diffinitum seu
+          lapsum temporis eciam vacare contingeret cuidam <persName>Olavo Jacobi</persName> cantori
+          ecclesie Lundensis <app>
+            <lem>mandaverit</lem>
+            <rdg>måske = <q>mandaverat</q></rdg>
+          </app> provideri, verum pater sancte cum canonicatus et prebenda ac cantoria ecclesie
+          Lundensis que quidem cantoria juxta statuta dicte ecclesie Lundensis non potest obtineri
+          nisi ipsam cantoriam obtinens prius canonicus dicte ecclesie existat causis predictis
+          sperantur vacare, supplicat igitur e. s. v. <persName>Nicholaus Johannis de
+            Leys</persName> litterarum sacre penitenciarie s. v. scriptor, quatenus sibi specialem
+          graciam faciendo de canonicatu et prebenda quorum quique per promocionem prefati
+          [Johannis] Jacobi et munus consecracionis impendendum eidem vel lapsu temporis eciam
+          necnon de cantoria ecclesie Lundensis predicta cujus septem marcharum argenti fructus etc.
+          secundum communem extimacionem valorem an. non excedunt per assecucionem dicte prepositure
+          vacantibus vel dum vacabunt eciam si alias quovis modo et per quamcumque personam
+          preterquam per obitum ipsorum promoti et Olavi seu per constitucionem Execrabilis vacent
+          aut ipsos vacare contingat ac cantoria ipsa curata et dignitas electiva existat ipsique
+          canonicatus et prebenda ac cantoria generaliter vel specialiter reservati litigiosi vel
+          affecti existant eidem Nicholao dignemini misericorditer providere non obstante quod
+          dictus Nicholaus obtinet canonicatus et prebendas in basilica principis apostolorum et in
+          ecclesiis Cosme et Damiani et sancti Adriani de Urbe, quorum fructus etcetera centum
+          florenorum auri secundum communem extimacionem valorem annuum non excedunt et aliis
+          quibuscumque non obstantibus et clausulis oportunis.</p>
+        <p>Signantes ut petitur de utroque. Fiat ut petitur de cantoria et de canonicatu sub
+          expectacione prebende O. Fiat.</p>
+        <p>Datum <placeName>Florencie</placeName> tercio idus julii anno tercio.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+          tekster.</p>
       </div>
     </body>
   </text>

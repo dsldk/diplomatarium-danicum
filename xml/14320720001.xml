@@ -6,25 +6,25 @@
          <titleStmt>
             <title>Diplomatarium Danicum</title>
             <editor>
-               <name xml:id="pz">
+               <name xml:id="mh">
                   <persName>
-                     <forename type="first">Peter</forename>
-                     <surname>Zeeberg</surname>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
                   </persName>
                </name>
             </editor>
             <funder>Carlsbergfondet</funder>
          </titleStmt>
-         <extent>Base text, number of words: <num n="words">223</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         <extent>Base text, number of words: <num n="words">32</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
          </extent>
          <publicationStmt>
             <publisher>Danske Sprog- og Litteraturselskab</publisher>
             <pubPlace>København</pubPlace>
-            <date>2019</date>
+            <date>2021</date>
             <idno type="dd">14320720001</idno>
             <idno type="isbn">nil</idno>
             <availability status="restricted">
-               <ab>Copyright © 2019, Danske Sprog- og
+               <ab>Copyright © 2021, Danske Sprog- og
                                 Litteraturselskab</ab>
             </availability>
          </publicationStmt>
@@ -33,10 +33,10 @@
                <witness xml:id="A">
                   <msDesc>
                      <msIdentifier>
-                        <settlement>Stockholm</settlement>
-                        <repository>Riksarkivet</repository>
-                        <collection>empty</collection>
-                        <idno>or. perg. RA 0101, SDHK-nr. 21810</idno>
+                        <settlement>London</settlement>
+                        <repository>Public Record Office</repository>
+                        <collection/>
+                        <idno/>
                         <msName>empty</msName>
                      </msIdentifier>
                      <physDesc>
@@ -65,36 +65,26 @@
                            </handNote>
                         </handDesc>
                         <additions>
-                           <ab>empty</ab>
+                           <ab>Med overskriften <q>super ambassiata ad regem Daciæ</q>
+                           </ab>
                         </additions>
-                        <sealDesc>
-                           <seal n="1" type="missing">
-                              <ab>perg.rem</ab>
-                           </seal>
-                           <seal n="2" type="missing">
-                              <ab>perg.rem</ab>
-                           </seal>
-                           <seal n="3" type="missing">
-                              <ab>perg.rem</ab>
-                           </seal>
-                        </sealDesc>
+                        
                      </physDesc>
                      <history>
-                        <ab>Registreret i Sv. RA, B 29 fol. 27 nr. 188; E 102a fol. 157 nr. 99.; E 102a fol. 272 nr. 246 (Skånebrevsfortegnelsen)</ab>
+                        <ab>empty</ab>
                      </history>
                   </msDesc>
                </witness>
             </listWit>
             <listBibl>
-               <bibl>Weibull, Dipl. Dioc. Lund. III 110 nr. 118</bibl>
-               <bibl>Rep. 6571</bibl>
-               <bibl>SDHK nr. 21810</bibl>
+               <bibl>Rymer, Foedera (ed. Holmes) IV:1 p. 183</bibl>
+               <bibl>Engberg, Kilder til dansk historie i engelske arkiver 47</bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <samplingDecl>
-            <ab>Tekst efter <ref>A</ref>. </ab>
+            <ab><ref>Arkivalske oplysninger efter Engberg l.l., tekst efter Rymer l.l.</ref>.</ab>
          </samplingDecl>
          <projectDesc>
             <ab>DD-5</ab>
@@ -115,20 +105,21 @@
                   notBefore="1432-07-20"
                   notAfter="1432-07-20"
                   cert="high">1432. 20. juli</date>
-            <placeName cert="high">Ronneby</placeName>
+            <placeName cert="unknown">Westminster</placeName>
          </creation>
          <langUsage>
             <language ident="la">Hovedsprog: latin. </language>
          </langUsage>
          <abstract>
-            <ab>Veste Povlsen, præst i Ronneby og bestyrer af den hellige jomfrus alter i Lunds domkirke, der er indstiftet af hr. Abraham Brodersen (Båd), udnævner Tue Pose, evig vikar ved domkirken i Lund, til sin prokurator med henblik på med billigelse af ærkebiskop Peder (Lykke (Bille)) at opnå et bytte af den hellige jomfrus alter med det alter, som kannik Niels Isaksen (Lodehat) bestyrer. </ab>
+            <ab>Notits om, at en ridder og en retslærd skal sendes til Danmark som
+                        forhandlere for den engelske konge mhp. at indgå en traktat.</ab>
          </abstract>
       </profileDesc>
       <revisionDesc>
-         <change when="2013-10-08" who="#pbh">Filen etableret af #pbh 2013-10-08. </change>
-         <change when="2018-10-01" who="#pz">1. korrektur af #pz 2018-10-01. </change>
-         <change when="2018-10-22" who="#alk">2. korrektur af #alk 2018-10-22. </change>
-         <change when="2018-12-18" who="#pz">3. korrektur af #pz 2018-12-18. </change>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -137,14 +128,14 @@
    <text>
       <body>
          <div xml:lang="la">
-            <p n="a#1" xml:space="preserve">In nomine domini amen ♦</p>
-            <p n="a#2" xml:space="preserve">Ut altare beate virginis per felicis recordacionis dominum <persName>Abraham Brodherss<ex>øn</ex> quondam militem</persName> in ecclesia Lundensi fundatum et dotatum quoad divini cultus <app><lem>ampliacionem</lem><rdg>A: <q>amplificacionem</q> Weibull</rdg></app> in manibus alterius magistri quam in meis deo dante valeat prosperari ego <persName>Westo Pauli presbiter</persName> in <placeName>Røtnaby</placeName> necnon rector altaris ejusdem ordino et constituo in meum certum et indubitatum procuratorem videlicet discretum virum <persName>Tuwonem Posæ</persName> ejusdem Lundensis ecclesie perpetuum vicarium ad permutandum et permutacionem faciendum de consensu et voluntate reverendissimi in Christo patris et domini domini <persName>Petri Dei gracia archiepiscopi Lundensis</persName> cum honorabili viro domino <persName>Nicolao Ysaacss<ex>øn</ex> canonico Lundensi</persName> de dicto altari meo ad quoddam aliud altare beate virginis quod idem dominus Nicolaus in dicta ecclesia Lundensi ad prebendam suam habet annexam necnon ipsum altare quod jam teneo causa hujusmodi permutacionis ad manus prefati domini archiepiscopi resignandum ac collacionem et investituram de predicto altari beate virginis nomine et vice meis petendum et more solito obtinendum eciamque ad omnia et singula gerendum faciendum et exercendum que in ipsius permutacionis causa necessaria sunt seu quomodolibet oportuna ♦ </p>
-            <p n="a#3" xml:space="preserve">Protestor <app><lem>denique</lem><rdg>A: <q>demumque</q> Weibull</rdg></app> ut si in assequtione seu possessione dicti altaris ad quod jam permutacionem faciam quovis modo turbatus fuero seu aliqualiter impeditus extunc ad ipsum altare quod adhuc teneo ac ejus possessionem libere habeam reaccessum ac deinde hujusmodi permutacio nullius penitus sit roboris vel momenti ♦ </p>
-            <p n="a#4" xml:space="preserve">Datum Rotnaby anno domini mcd<hi rend="sup">o</hi>xxxii<hi rend="sup">o</hi> die beate Margarethe virginis et martiris meo sub sigillo unacum sigillis honorabilium virorum dominorum <persName>Jacobi Starling canonici Vexionensis</persName> et <persName>Kanuti Johannis presbiteri</persName> presentibus appensis in evidenciam premissorum.
-    </p>
+            <p n="a#1" xml:space="preserve">Eodem die concordatum fuit quod dominus cancellarius faciat
+                        literas commissionis , de potestate tradandi et appunctuandi etcetera
+                        cum rege Daciae, ut in forma consueta, uni militi, et uni doctori,
+                        illuc in Ambassiatam mittendis.</p>
          </div>
          <div xml:lang="da">
-            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
          </div>
       </body>
    </text>

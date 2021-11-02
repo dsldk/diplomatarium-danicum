@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">366</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14270619005</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Tabt</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>empty</collection>
+                        <idno>E don. var. 140, kvart, f. 186v-87v</idno>
+                        <msName>Esrum klosters brevbog</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift: <q>Super unam curiam Haffnensem</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>O. Nielsen, Codex Esromensis s. 240-41 (nr. 229)</bibl>
+               <bibl>B. Christensen et al., Esrum Klosters Bog (2002), s. 307-08 (nr. 229)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-06-19"
+                  notBefore="1427-06-19"
+                  notAfter="1427-06-19"
+                  cert="high">1427. 19. juni <note>I brevet står der: <q>vndher wor herres fødelse mcdxxvij guts legommæ
+      dagh</q>. I 1427 faldt Kristi Legemes Fest på den 19. juni, ikke den 9. juni, som der
+    står i udgaverne Codex Esromensis og Esrum Klosters Bog</note>
+            </date>
+            <placeName cert="low">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Niels Gagge, væbner i Fårabäck i Skåne, sælger en gård og jord i København til Hans Brandt,
+      kaldet mester Johan, bymand i København.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-17" who="#pbh">Filen etableret af #pbh 2014-07-17. </change>
+         <change when="2020-01-27" who="#jon">1. korrektur af #jon 2020-01-27. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn th<ex>e</ex>tte breff see ell<ex>e</ex>r høre læs<ex>es</ex> helser iæch
+        <persName>Niels Gaghe</persName> a wapn i <placeName>Farebæk</placeName> i
+        <placeName>Schane</placeName> ewindelighe m<ex>eth</ex> guth . ♦ </p>
+            <p n="a#2" xml:space="preserve">Oc wil iæch ku<ex>n</ex>giøre alle nærwer<ex>e</ex>nd<ex>es</ex> oc
+      ko<ex>m</ex>meschullend<ex>es</ex> at iæch weth<ex>e</ex>rkænnes mik m<ex>eth</ex>
+      th<ex>e</ex>tte myt opne breff . at iæch haffu<ex>er</ex> oplath<ex>et</ex> oc salth til
+      ewindelighe haffwe schullend<ex>es</ex> eghe . en besketh<ex>e</ex>n man <persName>Hanes Brand
+        kallet mæster Iohan</persName> byman i <placeName>Køpenhaffn</placeName> . myn . gard .
+      iordh oc grwnd . hwilken . then fornæffnde <persName>mæster Iohan</persName> nw pa boer .
+      liggendes i mellom <persName>Hanes Fyr</persName> pa th<ex>e</ex>n eene sidhe som han nw boor
+      . oc <persName>Pæth<ex>e</ex>r Skræder<ex>e</ex></persName> paa then a<ex>n</ex>nen sidhe som
+      han nw bor . <placeName>wor Frowæ kirkis sogn</placeName>
+      <placeName>Thydeske manne gadhe</placeName> i <placeName>Kiøpmanhaffn</placeName> ♦
+      Hwilken gard oc grwnd . ær i længe pa th<ex>e</ex>n østhre sidhæ halffthrediesyntiwæ siælænske <app><lem>alne</lem><rdg wit="#A"><q>alne alnæ</q>, A</rdg></app> . oc firæ alne . oc swo megh<ex>et</ex> i længæ pa th<ex>e</ex>n westre sidhæ . Item i
+      bredæ pa th<ex>e</ex>n nørr<ex>e</ex> sidhæ . vp i gardhe<ex>n</ex> tolff alnæ . Item i bredhe
+      vt m<ex>eth</ex> gadhen fæmten . siælenschæ alnæ . m<ex>eth</ex> all syn tilligelse ænghen
+      vndæn taghen . ♦</p>
+            <p n="a#3" xml:space="preserve">Oc weth<ex>e</ex>r kænnes iegh mech oc myne arffwinge fult oc alt vp at haue boret a
+      for<ex>screffn</ex>e <persName>mæster Iohan</persName> for for<ex>screffn</ex>e gardh och
+      grwnd swo at iæch for<ex>screffn</ex>e <persName>Niels Gaghe</persName> . oc my<ex>n</ex>ne
+      arffwinge ladhe oss aldel<ex>es</ex> m<ex>eth</ex> nøghe ♦</p>
+            <p n="a#4" xml:space="preserve">Item tilbindh<ex>e</ex>r iech mech oc my<ex>n</ex>næ arffwinghæ then for<ex>screffn</ex>e
+        <persName>mæster Iohan</persName> oc hans arffwinge th<ex>e</ex>n fornæffnde . gardh . iordh
+      oc grwnd . frij hemble och til . atstaa for hwærs mantz tiltall . æll<ex>e</ex>r hyndhær
+      m<ex>eth</ex> lantz lagh . ♦</p>
+            <p n="a#5" xml:space="preserve">Och ware th<ex>et</ex> swo at th<ex>e</ex>n gardh iordh oc grwnd for<ex>næffn</ex>de
+      th<ex>e</ex>n for<ex>næffn</ex>de <persName>Hanes Brand kallet mæster Iohan</persName>
+      æll<ex>e</ex>r hans arffwinghe aff ginghe m<ex>eth</ex> lantzlogh / for <app><lem>myn</lem><rdg>Rettet fra <q>my<ex>n</ex>næ</q> af skriveren, A.</rdg></app> ell<ex>e</ex>r for mynæ arffwing<ex>es</ex> hemel skuld th<ex>et</ex> guth forbiwthæ
+      tha til byndh<ex>e</ex>r iach mech oc mynæ arffwingæ then for<ex>screffn</ex>e <persName>Hanes
+        Brand kallet mest<ex>er</ex> Iohan</persName> oc hans arffwingæ skadesløst at holde innæn
+      eet aar th<ex>e</ex>r æffth<ex>e</ex>r vdhen alle hiælpærædhe ell<ex>e</ex>r gensigelse . oc
+      yth<ex>e</ex>rmer<ex>e</ex> fordræth . m<ex>eth</ex> th<ex>e</ex>tte myt opne breff .
+      ♦</p>
+            <p n="a#6" xml:space="preserve">Til een større bewisselse oc folko<ex>m</ex>melse alles thesse for<ex>screffn</ex>e styckes
+      tha haffwer iæch myt indsegle m<ex>eth</ex> gothe mæntz incilæ hængd for th<ex>e</ex>tte breff
+      so som <supplied>ære</supplied>
+      <persName>Anders Laurens<ex>øn</ex></persName> . <persName>Hin<ex>rik</ex> van deme
+        B<ex>er</ex>ghe</persName> burghemester<ex>e</ex> i
+        <placeName>Kop<ex>e</ex>nhaffn</placeName> . <persName>Hanes Ienss<ex>øn</ex> kallet
+        Wat</persName> . <persName>Lasse Winnere</persName> radhmen th<ex>e</ex>n
+      sa<ex>m</ex>mest<ex>eth</ex> . oc <persName>Radeke Radeloff</persName> byman i
+        <placeName>Køp<ex>e</ex>nhaffn</placeName> . ♦</p>
+            <p n="a#7" xml:space="preserve">Th<placeName>e</placeName>tte ær giffuit oc screffuit vndh<placeName>e</placeName>r wor
+        h<placeName>er</placeName>r<placeName>es</placeName> fødelse m<hi rend="sup">o</hi>c<hi rend="sup">o</hi>dxx<hi rend="sup">o</hi>vij<hi rend="sup">o</hi> guts legommæ dagh .
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,219 +1,235 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Diplomatarium Danicum</title>
-        <editor>
-          <name xml:id="alk">
-            <persName>
-              <forename type="first">Anders</forename>
-              <forename type="middle">Leegaard</forename>
-              <surname>Knudsen</surname>
-            </persName>
-          </name>
-        </editor>
-        <funder>Carlsbergfondet</funder>
-      </titleStmt>
-      <extent>Base text, number of words: <num n="words">285</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">277</num>, paragraphs: <num n="paragraphs">8</num>
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">285</num>, paragraphs: <num
+               n="paragraphs">8</num>. Translation, number of words: <num n="words">277</num>,
+            paragraphs: <num n="paragraphs">8</num>
          </extent>
-      <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
-        <pubPlace>København</pubPlace>
-        <date>2015</date>
-        <idno type="dd">14171027001</idno>
-        <idno type="isbn">nil</idno>
-        <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-                                Litteraturselskab</ab>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness xml:id="A">
-            <msDesc>
-              <msIdentifier>
-                <settlement>København</settlement>
-                <repository>Rigsarkivet</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>Basse, Steen, til Tybjerg. Korrespondance 1415-1439</msName>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="paper">
-                    <support>
-                      <ab>Papir</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <height>13.8</height>
-                        <width>21.3</width>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                  <layoutDesc>
-                    <ab>empty</ab>
-                  </layoutDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>På bagsiden <q>At Othæ Foss fowæt utii Thidæbiærg komær
-                                th<ex>et</ex>tæ breff</q></ab>
-                </additions>
-                <sealDesc>
-                  <seal n="1" type="pendant">
-                    <ab>På bagsiden rester af brevlukkende segl, samt to slidser
-                                til en (også brevlukkende?) strimmel</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>empty</ab>
-              </history>
-            </msDesc>
-          </witness>
-        </listWit>
-        <listBibl>
-          <bibl>Rep. nr. U586 (med dato 17. oktober)</bibl>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-        <ab>Tekst efter <ref>A</ref>. </ab>
-      </samplingDecl>
-      <projectDesc>
-        <ab>DD-5</ab>
-      </projectDesc>
-      <appInfo>
-        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
-          <desc>nil</desc>
-        </application>
-      </appInfo>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1417-10-27" notBefore="1417-10-27" notAfter="1438-10-27" cert="low">1417. 27. oktober - 1438. 27. oktober<note>Brevet er forsynet med datoen 27. oktober, men savner årsangivelse.
-                Indholdet i brevet byder dog visse holdepunkter for en datering, og i Rep. er det
-                placeret blandt de udaterede breve fra 1401-1450. Denne datering kan indsnævres
-                lidt: I brevet omtales Peder Oxe, der blev dræbt 24. august 1440, som levende. Selv
-                hvis nyheden om drabet først er nået Sten Basse med forsinkelse, er der ingen grund
-                til at sætte 27. oktober 1440 som terminus ante quem. Det synes nemlig at fremgå af
-                indholdet, at Sten Basse endnu havde klostergods i sin forpagtning, da brevet blev
-                skrevet. Der er formentlig tale om det gods, han havde forpagtet af Ringsted
-                kloster, og for hvilket han fik den endelige kvittering 25. januar 1440. Heller ikke
-                27. oktober 1439 er dog terminus ante quem, for 26. oktober d.å udstedte Sten Basse
-                i Roskilde et brev om et mageskifte med Roskilde St. Agnete kloster, og han kan ikke
-                allerede dagen efter være nået frem til Stargard i Pommern. Den sandsynligste
-                terminus ante quem er derfor 27. oktober 1438. Årsagen til Sten Basses ophold i
-                Stargard i Pommern angives ikke; der var dog næppe tale om et rent privat
-                anliggende, for det synes at fremgå, at han ikke selv var herre over afslutningen af
-                dette anliggende, idet han ikke regner med at komme hjem i den kommende vinter. For
-                et officielt anliggende taler det, at Sten Basse fra 1417 jævnlig nævnes som
-                deltager i diplomatiske forhandlinger. Vi kan blot ikke med sikkerhed udpege en
-                bestemt forhandling som den sandsynligste, selvom der i oktober-november 1417 var
-                forhandlinger med hansestæderne i Nordtyskland. Mens disse forhandlinger foregik,
-                opholdt de danske udsendinge, herunder Sten Basse, sig i Pommern. Også i oktober
-                1425 var der dog forhandlinger i Nordtyskland. Modtageren af brevet, Otto Fos, Sten
-                Basses foged på Tybjerg, omtales 1421-1446, men det kan ikke afgøres, hvornår han
-                fik denne post. Det kan derfor ikke udelukkes, at han havde den allerede i 1417, som
-                må regnes for terminus post quem. Dateringen bliver derfor [Omkring 1417 - 1438].
-                27. oktober. Jf. dog Jens E. Olesen (Rigsråd, Kongemagt, Union 1434-1449, (1980) s.
-                562 n. 47) der foreslår en datering til 1420.</note></date>
-        <placeName cert="high">Stargard i Pommern</placeName>
-      </creation>
-      <abstract>
-        <ab>Sten Basse af Tybjerg meddeler sin foged Otto Fos, at han er sund og rask, og beder 
-                ham ordne forskellige anliggender, herunder proviant, da han ikke vil kunne komme hjem denne
-                vinter.</ab>
-      </abstract>
-      <langUsage>
-        <language ident="gda">Hovedsprog: gammeldansk. </language>
-      </langUsage>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2014-08-04" who="#alk">Filen etableret af #alk 2014-08-04. </change>
-      <change when="2014-10-27" who="#alk">1. korrektur af #alk 2014-10-27. </change>
-      <change when="2015-01-06" who="#alk">2. korrektur af #alk 2015-01-06. </change>
-      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
-    </revisionDesc>
-  </teiHeader>
-  <facsimile>
-    <graphic url="nil"/>
-  </facsimile>
-  <text>
-    <body>
-      <div xml:lang="gda">
-        <p n="a#1">Ewi<ex>n</ex>nælegæ helsæ m<ex>eth</ex> gud ♦ Widæ skatu <persName>Othæ
-                                Foss</persName> ath jæc <persName>Sten Basse</persName> sund och
-                        helbreidæ ær och far thy tro ængæ flywæ sawnær om th<ex>e</ex>r wordær
-                        nog<ex>er</ex> sawen saudh ♦</p>
-        <p n="a#2">Item beth<ex>e</ex>r jæch tig ath tu wel gor<ex>er</ex> och beræt<ex>er</ex> minæ
-                        wornædæ som thu utij wær<ex>e</ex> haff<ex>u</ex>er ath the wer<ex>e</ex>
-                        mic behiælpleg m<ex>eth</ex> en hiælp far thy ath th<ex>et</ex>
-                        gang<ex>er</ex> mic gans hart om thæring ♦</p>
-        <p n="a#3">Och wor<ex>e</ex> th<ex>et</ex> so at th<ex>et</ex> æij ske kan tha nyd
-                                <persName>Pær Oxæ</persName> til hiælp och and<ex>er</ex> wenær ath th<ex>et</ex>
-               <app><lem>skee</lem><rdg wit="#A">Det sidste <q>e</q> er utydeligt skrevet og skal måske
-                                        læses som <q>r</q>, A</rdg></app> och <app><lem>skr<supplied>i</supplied>ff</lem><rdg resp="#alk"><q>skrff</q>, A</rdg></app> mic til hwor th<ex>et</ex> th<ex>e</ex>r om gor och om alle stycke
-                        so<ex>m</ex> om korn och om olden och om minæ wenær hwor th<ex>et</ex>
-                        thy<ex>m</ex> gar ♦</p>
-        <p n="a#4">Och th<ex>et</ex> so<ex>m</ex> tumic til skriffer th<ex>e</ex>r kan Pær Oxæ giffæ
-                        tig best sin till hwor th<ex>et</ex> skal æft<ex>er</ex> mic komæ
-                        ♦</p>
-        <p n="a#5">Item skaltu widæ ath tu wid th<ex>et</ex> ath jæc ænktæ hiæm kan komæ utii winter
-                        far thy fly th<ex>et</ex> so om allæ stykæ som jæch tig tiltror och thu wel
-                        gør och so ath the som mich til hor<ex>er</ex> ath thym ængæn vræth sker och
-                        the som klost<ex>er</ex> till hor<ex>er</ex> aff ængæ<ex>n</ex> ma<ex>n</ex>
-                        so fræmt so<ex>m</ex> thu th<ex>et</ex> weriæ kant ♦</p>
-        <p n="a#6">Item wid ath th<ex>et</ex> gang<ex>er</ex> mic ganss hart om thering far thy
-                        rambæ mith bæstæ th<ex>et</ex> thu kant m<ex>eth</ex> Pær Oxæs hiælp och
-                        sænt hannv<ex>m</ex> th<ex>et</ex>tæ breff æll<ex>e</ex>r før
-                        hannv<ex>m</ex> th<ex>et</ex> sælff so math tu talæ m<ex>eth</ex>
-                        hanu<ex>m</ex> om allæ styckæ och han m<ex>eth</ex> tig som mic macht po
-                        lig<ex>er</ex> ♦</p>
-        <p n="a#7">Item war<ex>e</ex> tig far the two so<ex>m</ex> mic længæ æft<ex>er</ex> haffæ
-                        gang<ex>et</ex> ♦</p>
-        <p n="a#8">Th<ex>e</ex>r m<ex>eth</ex> befal<ex>e</ex>r jæc tig gud ♦ <app><lem>Skreff<supplied>et</supplied>
-                  </lem><rdg resp="#alk"><q>Skreff</q>, A</rdg></app> utij <placeName>Stargarde utij Pomære<ex>n</ex>
-               </placeName> sante
-                        Symon et Jude afffte<ex>n</ex> vnder mit jnseilæ Sten Basse etcetera
-                        ♦</p>
-      </div>
-      <div xml:lang="da">
-        <p n="b#1">Evig hilsen med Gud! Du skal vide, Otto Fos, at jeg, Sten Basse, er sund og rask,
-                        og tro derfor ingen løse rygter, hvis der bliver fortalt noget rygte.</p>
-        <p n="b#2">Ligeledes beder jeg dig meddele og fortælle mine vornede, som du har i din
-                        varetægt, at de skal være mig behjælpelig med en hjælp, eftersom jeg meget
-                        stærkt mangler forplejning.</p>
-        <p n="b#3">Og hvis dette ikke kan lade sig gøre, så nød Peder Oxe og andre venner til at
-                        hjælpe, så at det kan lykkes, og skriv til mig, hvordan det går dermed, og
-                        om alle punkter: om korn og om olden; og om mine venner, hvordan det går
-                        dem.</p>
-        <p n="b#4">Og Peder Oxe kan bedst rådgive dig om, hvordan det, som du skriver til mig, skal
-                        nå frem til mig.</p>
-        <p n="b#5">Ligeledes skal du vide, at du – ved det at jeg ikke kan komme hjem til
-                        vinter – derfor på alle punkter skal ordne det således, som jeg
-                        forventer af dig; og du skal handle rigtigt og således, at der ikke sker
-                        dem, som hører under mig, og dem, der hører under klosteret, nogen uret fra
-                        nogen mand, såfremt du kan afværge det.</p>
-        <p n="b#6">Vid ligeledes, at jeg meget stærkt mangler forplejning; derfor skal du opnå det
-                        bedste du kan for mig med Peder Oxes hjælp; og send ham dette brev eller
-                        bring det selv til ham; så kan du tale med ham og han med dig om alle
-                        punkter, som er vigtige for mig.</p>
-        <p n="b#7">Ligeledes skal du vare dig for de to, som længe har efterstræbt mig.</p>
-        <p n="b#8">Dermed betror jeg dig i Guds varetægt. Skrevet i Stargard i Pommern, sankt Simon
-                        og Judas' aften, under mit segl, Sten Basse og så videre.</p>
-      </div>
-    </body>
-  </text>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14171027001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <idno>Basse, Steen, til Tybjerg. Korrespondance 1415-1439</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary>Sten Basse af Tybjerg meddeler sin foged Otto Fos, at han er sund
+                           og rask, og beder ham ordne forskellige anliggender, herunder proviant,
+                           da han ikke vil kunne komme hjem denne vinter.</summary>
+                        <msItemStruct>
+                           <filiation>
+                              <ab>empty</ab>
+                           </filiation>
+                        </msItemStruct>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>13.8</height>
+                                    <width>21.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>At Othæ Foss fowæt utii Thidæbiærg komær
+                                 th<ex>et</ex>tæ breff</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>På bagsiden rester af brevlukkende segl, samt to slidser til en
+                                 (også brevlukkende?) strimmel</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>Rep. nr. U586 (med dato 17. oktober)</bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-10-27" notBefore="1417-10-27" notAfter="1438-10-27" cert="low">[Omkring
+               1417 - 1438]. 27. oktober<note>Brevet er forsynet med datoen 27. oktober, men savner
+                  årsangivelse. Indholdet i brevet byder dog visse holdepunkter for en datering, og
+                  i Rep. er det placeret blandt de udaterede breve fra 1401-1450. Denne datering kan
+                  indsnævres lidt: I brevet omtales Peder Oxe, der blev dræbt 24. august 1440, som
+                  levende. Selv hvis nyheden om drabet først er nået Sten Basse med forsinkelse, er
+                  der ingen grund til at sætte 27. oktober 1440 som terminus ante quem. Det synes
+                  nemlig at fremgå af indholdet, at Sten Basse endnu havde klostergods i sin
+                  forpagtning, da brevet blev skrevet. Der er formentlig tale om det gods, han havde
+                  forpagtet af Ringsted kloster, og for hvilket han fik den endelige kvittering 25.
+                  januar 1440. Heller ikke 27. oktober 1439 er dog terminus ante quem, for 26.
+                  oktober d.å udstedte Sten Basse i Roskilde et brev om et mageskifte med Roskilde
+                  St. Agnete kloster, og han kan ikke allerede dagen efter være nået frem til
+                  Stargard i Pommern. Den sandsynligste terminus ante quem er derfor 27. oktober
+                  1438. Årsagen til Sten Basses ophold i Stargard i Pommern angives ikke; der var
+                  dog næppe tale om et rent privat anliggende, for det synes at fremgå, at han ikke
+                  selv var herre over afslutningen af dette anliggende, idet han ikke regner med at
+                  komme hjem i den kommende vinter. For et officielt anliggende taler det, at Sten
+                  Basse fra 1417 jævnlig nævnes som deltager i diplomatiske forhandlinger. Vi kan
+                  blot ikke med sikkerhed udpege en bestemt forhandling som den sandsynligste,
+                  selvom der i oktober-november 1417 var forhandlinger med hansestæderne i
+                  Nordtyskland. Mens disse forhandlinger foregik, opholdt de danske udsendinge,
+                  herunder Sten Basse, sig i Pommern. Også i oktober 1425 var der dog forhandlinger
+                  i Nordtyskland. Modtageren af brevet, Otto Fos, Sten Basses foged på Tybjerg,
+                  omtales 1421-1446, men det kan ikke afgøres, hvornår han fik denne post. Det kan
+                  derfor ikke udelukkes, at han havde den allerede i 1417, som må regnes for
+                  terminus post quem. Dateringen bliver derfor [Omkring 1417 - 1438]. 27. oktober.
+                  Jf. dog Jens E. Olesen (Rigsråd, Kongemagt, Union 1434-1449, (1980) s. 562 n. 47)
+                  der foreslår en datering til 1420.</note></date>
+            <placeName cert="high">Stargard i Pommern</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-04" who="#alk">Filen etableret af #alk 2014-08-04. </change>
+         <change when="2014-10-27" who="#alk">1. korrektur af #alk 2014-10-27. </change>
+         <change when="2015-01-06" who="#alk">2. korrektur af #alk 2015-01-06. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Ewi<ex>n</ex>nælegæ helsæ m<ex>eth</ex> gud ♦ Widæ skatu <persName>Othæ
+                  Foss</persName> ath jæc <persName>Sten Basse</persName> sund och helbreidæ ær och
+               far thy tro ængæ flywæ sawnær om th<ex>e</ex>r wordær nog<ex>er</ex> sawen saudh
+               ♦</p>
+            <p n="a#2">Item beth<ex>e</ex>r jæch tig ath tu wel gor<ex>er</ex> och beræt<ex>er</ex>
+               minæ wornædæ som thu utij wær<ex>e</ex> haff<ex>u</ex>er ath the wer<ex>e</ex> mic
+               behiælpleg m<ex>eth</ex> en hiælp far thy ath th<ex>et</ex> gang<ex>er</ex> mic gans
+               hart om thæring ♦</p>
+            <p n="a#3">Och wor<ex>e</ex> th<ex>et</ex> so at th<ex>et</ex> æij ske kan tha nyd
+                  <persName>Pær Oxæ</persName> til hiælp och and<ex>er</ex> wenær ath th<ex>et</ex>
+               <app>
+                  <lem>skee</lem>
+                  <rdg wit="#A">Det sidste <q>e</q> er utydeligt skrevet og skal måske læses som
+                        <q>r</q>, A</rdg>
+               </app> och <app>
+                  <lem>skr<supplied>i</supplied>ff</lem>
+                  <rdg resp="#alk">
+                     <q>skrff</q>, A</rdg>
+               </app> mic til hwor th<ex>et</ex> th<ex>e</ex>r om gor och om alle stycke
+                  so<ex>m</ex> om korn och om olden och om minæ wenær hwor th<ex>et</ex>
+                  thy<ex>m</ex> gar ♦</p>
+            <p n="a#4">Och th<ex>et</ex> so<ex>m</ex> tumic til skriffer th<ex>e</ex>r kan Pær Oxæ
+               giffæ tig best sin till hwor th<ex>et</ex> skal æft<ex>er</ex> mic komæ ♦</p>
+            <p n="a#5">Item skaltu widæ ath tu wid th<ex>et</ex> ath jæc ænktæ hiæm kan komæ utii
+               winter far thy fly th<ex>et</ex> so om allæ stykæ som jæch tig tiltror och thu wel
+               gør och so ath the som mich til hor<ex>er</ex> ath thym ængæn vræth sker och the som
+                  klost<ex>er</ex> till hor<ex>er</ex> aff ængæ<ex>n</ex> ma<ex>n</ex> so fræmt
+                  so<ex>m</ex> thu th<ex>et</ex> weriæ kant ♦</p>
+            <p n="a#6">Item wid ath th<ex>et</ex> gang<ex>er</ex> mic ganss hart om thering far thy
+               rambæ mith bæstæ th<ex>et</ex> thu kant m<ex>eth</ex> Pær Oxæs hiælp och sænt
+                  hannv<ex>m</ex> th<ex>et</ex>tæ breff æll<ex>e</ex>r før hannv<ex>m</ex>
+                  th<ex>et</ex> sælff so math tu talæ m<ex>eth</ex> hanu<ex>m</ex> om allæ styckæ
+               och han m<ex>eth</ex> tig som mic macht po lig<ex>er</ex> ♦</p>
+            <p n="a#7">Item war<ex>e</ex> tig far the two so<ex>m</ex> mic længæ æft<ex>er</ex>
+               haffæ gang<ex>et</ex> ♦</p>
+            <p n="a#8">Th<ex>e</ex>r m<ex>eth</ex> befal<ex>e</ex>r jæc tig gud ♦ <app>
+                  <lem>Skreff<supplied>et</supplied>
+                  </lem>
+                  <rdg resp="#alk">
+                     <q>Skreff</q>, A</rdg>
+               </app> utij <placeName>Stargarde utij Pomære<ex>n</ex>
+               </placeName> sante Symon et Jude afffte<ex>n</ex> vnder mit jnseilæ Sten Basse
+               etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Evig hilsen med Gud! Du skal vide, Otto Fos, at jeg, Sten Basse, er sund og
+               rask, og tro derfor ingen løse rygter, hvis der bliver fortalt noget rygte.</p>
+            <p n="b#2">Ligeledes beder jeg dig meddele og fortælle mine vornede, som du har i din
+               varetægt, at de skal være mig behjælpelig med en hjælp, eftersom jeg meget stærkt
+               mangler forplejning.</p>
+            <p n="b#3">Og hvis dette ikke kan lade sig gøre, så nød Peder Oxe og andre venner til at
+               hjælpe, så at det kan lykkes, og skriv til mig, hvordan det går dermed, og om alle
+               punkter: om korn og om olden; og om mine venner, hvordan det går dem.</p>
+            <p n="b#4">Og Peder Oxe kan bedst rådgive dig om, hvordan det, som du skriver til mig,
+               skal nå frem til mig.</p>
+            <p n="b#5">Ligeledes skal du vide, at du – ved det at jeg ikke kan komme hjem til vinter
+               – derfor på alle punkter skal ordne det således, som jeg forventer af dig; og du skal
+               handle rigtigt og således, at der ikke sker dem, som hører under mig, og dem, der
+               hører under klosteret, nogen uret fra nogen mand, såfremt du kan afværge det.</p>
+            <p n="b#6">Vid ligeledes, at jeg meget stærkt mangler forplejning; derfor skal du opnå
+               det bedste du kan for mig med Peder Oxes hjælp; og send ham dette brev eller bring
+               det selv til ham; så kan du tale med ham og han med dig om alle punkter, som er
+               vigtige for mig.</p>
+            <p n="b#7">Ligeledes skal du vare dig for de to, som længe har efterstræbt mig.</p>
+            <p n="b#8">Dermed betror jeg dig i Guds varetægt. Skrevet i Stargard i Pommern, sankt
+               Simon og Judas' aften, under mit segl, Sten Basse og så videre.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

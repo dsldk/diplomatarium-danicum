@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2015</date>
         <idno type="dd">14210205003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2015, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -82,7 +84,7 @@
               <msIdentifier>
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
-                <idno>Reg. Lat. 213 fol. 60v</idno>
+                <idno>Reg. Lat. 213 (Martini V. an. 4, 5, lib. 51) fol. 60v</idno>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -111,7 +113,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>empty</ab>
+                  <ab>Påskrift: <q>Franciscus XXX. de Agello</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD II 316 nr. 1360</bibl>
+          <bibl>Dipl. dioc. Lund. III 2 nr. 2</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter Dipl. dioc. Lund. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,17 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1421-02-05" notBefore="1421-02-05" notAfter="1421-02-05" cert="high">1421. 5. februar</date>
-        <placeName cert="high">empty</placeName>
+        <date when="1421-02-05" notBefore="1421-02-05" notAfter="1421-02-05" cert="high">1421. 5.
+          februar</date>
+        <placeName cert="high">Rom, San Pietro</placeName>
       </creation>
       <abstract>
-        <ab>Paven befaler biskoppen i Linköping at stadfæste Øvid klosters privilegier. Det oplyses, at ærkebiskop Eskil har grundlagt dette kloster, der tilhører præmonstratenserordenen og skænket det nogle ejendomme og bispetienden af Skog herred og Bare herred, at flere paver og ærkebiskopperne Absalon, Anders Sunesen og Esger Juul har stadfæstet oprettelsen af klostret, og at Esger Juul har skænket det alle tremmarkssager af Fers herred.</ab>
+        <ab>Pave Martin 5. pålægger efter supplik af abbeden og konventet i præmonstratenserklostret i Øvid i Lund stift biskoppen i
+          Linköping efter foretagen undersøgelse at stadfæste klostrets privilegier, som
+          omfatter ærkebiskop Eskils grundlæggelse af klostret og donation af nogle ejendomme og
+          bispetienden af Skog herred og Bare herred samt flere pavers og ærkebiskopperne Absalons,
+          Anders Sunesens og Esger Juuls stadfæstelser heraf og endelig Esger Juuls donation af indtægterne
+          fra alle tremarkssager i Fers herred.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +171,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-05-06" who="#pbh">Filen etableret af #pbh 2014-05-06. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-10-11" who="#pbh">Korrektur af scan osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +183,51 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Martinus</persName> etc. venerabili fratri episcopo
+            <placeName>Lincopensi</placeName> salutem etc. </p>
+        <p>Intenta semper salutis operibus apostolice sedis circumspecta benignitas ea, que pro
+          divini cultus augmento, christifidelium animarum salute et sacre religionis fecundatione
+          salubri provide facta sunt, pio favore prosequitur et ut illibata persistant, libenter,
+          cum ab ea petitur, sui muniminis corroberat firmitate. </p>
+        <p>Exhibita siquidem nobis nuper pro parte dilectorum filiorum abbatis et conventus
+          monasterii in <placeName>Owith</placeName> premonstratensis ordinis
+            <placeName>Lundensis</placeName> diocesis peticio continebat, quod olim bone memorie
+            <persName>Eskillus</persName> archiepiscopus Lundensis, desiderans diem extremi judicii
+          pietatis operibus prevenire et de bonis sibi a deo collatis seminare in terris, unde
+          multiplicatum fructum recolligere posset in celis, prefatum monasterium de hujusmodi bonis
+          suis fundavit et illi de dilectorum filiorum capituli Lundensis expresso consensu inde
+            <placeName>Skogheret</placeName> et <placeName>Baraheret</placeName> dicte diocesis
+          villarum decimas, que tunc ad mensam archiepiscopalem Lundensem legitime spectabant, in
+          partem dotis sue donavit et assignavit ac deinde fundationem, donationem et assignationem
+          hujusmodi per nonnullos Romanos pontifices predecessores nostros obtinuit auctoritate
+          apostolica confirmari, quodque eciam postmodum bone memorie <persName>Absalon</persName>
+          et <persName>Andreas</persName> ac <persName>Esgerus</persName> archiepiscopi Lundenses,
+          prefati Eskilli archiepiscopi successores, easdem fundationem, donationem et assignationem
+          auctoritate sua ordinaria successive approbarunt et confirmarunt, ac insuper idem Esgerus
+          archiepiscopus abbati et conventui predictis, ut eo commodius sustentari et sibi
+          incumbencia onera supportare possent, omnes pecuniarum trium marcharum causas arduis tamen
+          exceptis super universos habitatores et incolas loci de <placeName>Ferseheret</placeName>
+          ejusdem diocesis, que eciam tunc ad eandem mensam legitime spectabant, de simili dictorum
+          capituli consensu sub certis modis tunc expressis pie contulit et concessit, prout in
+          apostolicis et diversis aliis dictorum archiepiscoporum eorum eciam sigillis munitis
+          desuper confectis literis plenius dicitur contineri.</p>
+        <p>Quare pro parte dictorum abbatis et conventus asserentium, quod ipsi in dicto monasterio
+          post illius fundacionem hujusmodi divino obsequio mancipati decimas per ducentos et
+          pecuniarias summas prefatas per centum annos et ultra pacifice et quiete perceperunt ac in
+          suos et ejusdem monasterii usus converterunt, prout percipiunt et convertunt de presenti,
+          nobis fuit humiliter supplicatum, ut fundationi, donationi, assignacioni,
+          confirmationibus, approbationibus et concessioni predictis et inde secutis pro eorum
+          subsistentia firmiori robur apostolice confirmacionis adjicere de benignitate apostolica
+          dignaremur.</p>
+        <p>Nos igitur de premissis certam noticiam non habentes hujusmodi supplicacionibus inclinati
+          fraternitati tue per apostolica scripta mandamus, quatenus, si ita est, fundationem,
+          donationem, assignationem, confirmationes, approbationes, concessionem et inde secuta
+          hujusmodi auctoritate nostra approbes et confirmes. </p>
+        <p>Datum <placeName>Rome apud sanctum Petrum</placeName> nonis februarii anno quarto.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+          tekster.</p>
       </div>
     </body>
   </text>

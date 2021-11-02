@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title>Diplomatarium Danicum</title>
             <editor>
-               <name xml:id="maria.arvidsson">
+               <name xml:id="alk">
                   <persName>
-                     <forename type="first">Maria</forename>
-                     <surname>Arvidsson</surname>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
                   </persName>
                </name>
             </editor>
             <funder>Carlsbergfondet</funder>
          </titleStmt>
-         <extent>Base text, number of words: <num n="words">359</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         <extent>Base text, number of words: <num n="words">351</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">310</num>, paragraphs: <num n="paragraphs">8</num>
          </extent>
          <publicationStmt>
             <publisher>Danske Sprog- og Litteraturselskab</publisher>
             <pubPlace>København</pubPlace>
-            <date>2020</date>
+            <date>2016</date>
             <idno type="dd">14331028001</idno>
             <idno type="isbn">nil</idno>
             <availability status="restricted">
-               <ab>Copyright © 2020, Danske Sprog- og
+               <ab>Copyright © 2016, Danske Sprog- og
                                 Litteraturselskab</ab>
             </availability>
          </publicationStmt>
@@ -35,10 +36,20 @@
                      <msIdentifier>
                         <settlement>Stockholm</settlement>
                         <repository>Riksarkivet</repository>
-                        <collection>SDHK nr. 22025</collection>
-                        <idno>empty</idno>
+                        <idno>SDHK-nr. 22025</idno>
                         <msName>empty</msName>
                      </msIdentifier>
+                     <msContents>
+                        <summary>Peder (Madsen) Saxtrup i Halmstad erklærer at skylde fru Elna Mogensdatter, enke 
+                efter Eskil Klementsen, seks lødige mark, der efter hendes død skal betales til Vadstena og andre 
+                klostre, og giver pant i en gård i Tirup som sikkerhed for betalingen, hvis denne ikke falder 
+                rettidigt.</summary>
+                        <msItemStruct>
+                           <filiation>
+                              <ab>empty</ab>
+                           </filiation>
+                        </msItemStruct>
+                     </msContents>
                      <physDesc>
                         <objectDesc>
                            <supportDesc material="parch">
@@ -72,12 +83,12 @@
                               <ab>Perg.rem</ab>
                            </seal>
                            <seal n="2" type="pendant">
-                              <ab>Udslidt segl af lyst voks i perg.rem, <ref>nil</ref>
-                              </ab>
+                              <ab>Seglrest (konserveret) af ufarvet voks i
+                                perg.rem</ab>
                            </seal>
                            <seal n="3" type="pendant">
-                              <ab>Segl af lyst voks i perg.rem tilhørende Herman Staffensen, borgmester i
-        Landskrona, <ref>AS C xlix 15</ref>
+                              <ab>Herman Steffensen Båds segl af ufarvet voks i
+                                perg.rem, <ref>AS C xlix 15</ref>
                               </ab>
                            </seal>
                            <seal n="4" type="missing">
@@ -88,109 +99,15 @@
                      <history>
                         <ab>empty</ab>
                      </history>
-                  </msDesc>
-               </witness>
-               <witness xml:id="Aa">
-                  <msDesc>
-                     <msIdentifier>
-                        <settlement>København</settlement>
-                        <repository>Rigsarkivet</repository>
-                        <collection>empty</collection>
-                        <idno>empty</idno>
-                        <msName>Langebeks Diplomatarium</msName>
-                     </msIdentifier>
-                     <physDesc>
-                        <objectDesc>
-                           <supportDesc material="empty">
-                              <support>
-                                 <ab>empty</ab>
-                              </support>
-                              <extent>
-                                 <dimensions unit="cm">
-                                    <height>0</height>
-                                    <width>0</width>
-                                 </dimensions>
-                              </extent>
-                              <condition>
-                                 <ab>empty</ab>
-                              </condition>
-                           </supportDesc>
-                           <layoutDesc>
-                              <ab>empty</ab>
-                           </layoutDesc>
-                        </objectDesc>
-                        <handDesc>
-                           <handNote>
-                              <ab>empty</ab>
-                           </handNote>
-                        </handDesc>
-                        <additions>
-                           <ab>empty</ab>
-                        </additions>
-                        <sealDesc>
-                           <seal n="0" type="empty">
-                              <ab>empty</ab>
-                           </seal>
-                        </sealDesc>
-                     </physDesc>
-                     <history>
-                        <ab>empty</ab>
-                     </history>
-                  </msDesc>
-               </witness>
-               <witness xml:id="Ab">
-                  <msDesc>
-                     <msIdentifier>
-                        <settlement>Stockholm</settlement>
-                        <repository>empty</repository>
-                        <collection>empty</collection>
-                        <idno>empty</idno>
-                        <msName>Specifikation, acta privata nr. 286</msName>
-                     </msIdentifier>
-                     <physDesc>
-                        <objectDesc>
-                           <supportDesc material="empty">
-                              <support>
-                                 <ab>empty</ab>
-                              </support>
-                              <extent>
-                                 <dimensions unit="cm">
-                                    <height>0</height>
-                                    <width>0</width>
-                                 </dimensions>
-                              </extent>
-                              <condition>
-                                 <ab>empty</ab>
-                              </condition>
-                           </supportDesc>
-                           <layoutDesc>
-                              <ab>empty</ab>
-                           </layoutDesc>
-                        </objectDesc>
-                        <handDesc>
-                           <handNote>
-                              <ab>empty</ab>
-                           </handNote>
-                        </handDesc>
-                        <additions>
-                           <ab>empty</ab>
-                        </additions>
-                        <sealDesc>
-                           <seal n="0" type="empty">
-                              <ab>empty</ab>
-                           </seal>
-                        </sealDesc>
-                     </physDesc>
-                     <history>
-                        <ab>Udtog med år 1440</ab>
-                     </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>Rep. nr. 6650</bibl>
+                           <bibl>Weibull, Dipl. Dioec. Lund. III 133-134 nr. 140</bibl>
+                        </listBibl>
+                     </additional>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-               <bibl>Weibull, Dipl. dioc. Lund. III 133-34 nr. 140</bibl>
-               <bibl>Rep. nr. 6650</bibl>
-            </listBibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -216,20 +133,16 @@
                   notBefore="1433-10-28"
                   notAfter="1433-10-28"
                   cert="high">1433. 28. oktober</date>
-            <placeName cert="high">Halmstad</placeName>
+            <placeName cert="unknown">empty</placeName>
          </creation>
          <langUsage>
             <language ident="gda">Hovedsprog: gammeldansk. </language>
          </langUsage>
-         <abstract>
-            <ab>Peter Saxtorp i Halmstad erklærer at skylde Elene Mogensdatter, enke efter Eskil Klementsen,
-      seks lødige mark, som han efter hendes død ligeligt fordelt skal betale til seks klostre.</ab>
-         </abstract>
       </profileDesc>
       <revisionDesc>
-         <change when="2013-10-17" who="#pbh">Filen etableret af #pbh 2013-10-17. </change>
-         <change when="2020-07-27" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-07-27. </change>
-         <change when="2020-08-12" who="#smb">2. korrektur af #smb 2020-08-12. </change>
+         <change when="2016-08-24" who="#alk">Filen etableret af #alk 2016-08-24. </change>
+         <change when="2016-10-10" who="#alk">1. korrektur af #alk 2016-10-10. </change>
+         <change when="2016-10-31" who="#alk">2. korrektur af #alk 2016-10-31. </change>
          <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
       </revisionDesc>
    </teiHeader>
@@ -239,50 +152,99 @@
    <text>
       <body>
          <div xml:lang="gda">
-            <p n="a#1" xml:space="preserve">Alle mæn som th<ex>et</ex>thæ b<ex>re</ex>ff se ell<ex>e</ex>r hør<ex>e</ex> lasith helsar
-      iac <persName>Peth<ex>e</ex>r Saxtorp</persName> j <placeName>Halmstadhe</placeName>
-      ewindh<ex>e</ex>rliga m<ex>eth</ex> gwd ♦ Th<ex>et</ex> scal allwm <app><lem>with<ex>e</ex>rligit</lem><rdg wit="#A">evt. <q>with<ex>e</ex>rligtt</q></rdg></app> wara neruare<ex>n</ex>d<ex>es</ex> oc tilkamascwle<ex>n</ex>d<ex>es</ex> ath iac
-      with<ex>e</ex>rke<ex>n</ex>nis mic m<ex>eth</ex> th<ex>et</ex>tha mith opna b<ex>re</ex>f
-      geldscyldwgh at wara hedh<ex>e</ex>rlig q<ex>ui</ex>nna hwsf<ex>rv</ex>
-      <persName>Ellna Maenssadath<ex>e</ex>r</persName>
-      <persName>Eskil Clemitsøns</persName> efth<ex>e</ex>rlewande sex lødogam<ex>ar</ex>c
-      efth<ex>e</ex>r he<ex>n</ex>na døth betala scwlend<ex>es</ex> af mic ell<ex>e</ex>r af
-      mi<ex>n</ex>a arwi<ex>n</ex>ga innan attha wgna dagh efth<ex>e</ex>r he<ex>n</ex>na døøth
-      swaswm h<ex>er</ex> efth<ex>e</ex>r sc<ex>re</ex>w<ex>et</ex> staar ♦</p>
-            <p n="a#2" xml:space="preserve">Førsth scal <placeName>Wasthena</placeName> closth<ex>e</ex>r hawa ena lødøgam<ex>ar</ex>c oc
-      tre <app><lem>schvla</lem><rdg wit="#A">rettet fra <q>sclvla</q></rdg></app> wtgiwas j <placeName>Lwnd</placeName> en schal giwæs til grabrødra closth<ex>e</ex>r oc
-      en til swortabrøthra clost<ex>er</ex> oc en til nw<ex>n</ex>na clost<ex>er</ex> oc en scal
-      giwas til wara frwa clost<ex>er</ex> j <placeName>Landeskronæ</placeName> oc th<ex>e</ex>n
-      syetthæ scal giwas til <placeName>Helsingbargs</placeName> clost<ex>er</ex> hwilka sex
-      lødøgam<ex>ar</ex>c j gen sta før<ex>e</ex> the tre gardha iac af for<hi rend="sup">de</hi> hwsf<ex>rv</ex>
-      <persName>Elna</persName> løsthe j <placeName>Ottarp</placeName> lige<ex>n</ex>d<ex>es</ex>
-      ♦</p>
-            <p n="a#3" xml:space="preserve">Var<ex>e</ex> th<ex>et</ex> swa ath iac ell<ex>e</ex>r mina arwi<ex>n</ex>ga ey the sex
-      lødøgam<ex>ar</ex>c i<ex>n</ex>nan th<ex>e</ex>n føresc<ex>re</ex>fna dagh wtgawe tha <app><lem>sæth<ex>e</ex>r</lem><rdg wit="#A">rettet fra <q>sath<ex>e</ex>r</q></rdg></app> iac mi<ex>n</ex> gaard til panth j <placeName>Tidarp</placeName> ligend<ex>es</ex> j
-        <placeName>Rønabyerghah<ex>e</ex>r<ex>et</ex></placeName> j hwilkin nw j boor
-        <persName>Peth<ex>e</ex>r Bencts<ex>øn</ex></persName> oc giwer en ør<ex>e</ex> bywgh til
-      landgilde m<ex>eth</ex> al th<ex>e</ex>n garz tilligelse ♦ Oc hwath th<ex>e</ex>n gaard
-      scylde kan th<ex>et</ex> scwla frwrna i <placeName>Bosøø</placeName> clost<ex>er</ex>
-      wpbær<ex>e</ex> for<ex>e</ex> vigiliis oc saltar<ex>e</ex>. ♦</p>
-            <p n="a#4" xml:space="preserve">Item bindh<ex>e</ex>r iac mic til oc mi<ex>n</ex>a arwi<ex>n</ex>ga th<ex>e</ex>n for<hi rend="sup">de</hi> gaard at fri oc hemlæ før<ex>e</ex> eth panth swa lenge til the for<hi rend="sup">de</hi> sex lødøgam<ex>ar</ex>c beredhe wardæ af mic ell<ex>e</ex>r af
-      mi<ex>n</ex>a arwi<ex>n</ex>ga m<ex>eth</ex> swadanth før<ex>e</ex>sc<ex>re</ex>w<ex>et</ex>
-      wilkor om the for<hi rend="sup">de</hi> thre gardha j <placeName>Ottarp</placeName> mic
-      ell<ex>e</ex>r mi<ex>n</ex>a arwi<ex>n</ex>ga fra wi<ex>n</ex>nas m<ex>eth</ex> retthe tha scal
-      th<ex>et</ex>tha b<ex>re</ex>f døøth war<ex>e</ex> oc engen makth hawa ♦</p>
-            <p n="a#5" xml:space="preserve">Til mer<ex>e</ex> wisse oc bethra forwaringh he<ex>n</ex>g<ex>er</ex> iac mith insigle
-      før<ex>e</ex> th<ex>et</ex>tha b<ex>re</ex>f m<ex>eth</ex> fler<ex>e</ex> gotha me<ex>n</ex>s
-      insigle som er h<ex>er</ex>
-      <persName>Maens Peth<ex>e</ex>rs<ex>øns</ex></persName> sognaprest i
-        <placeName>Asmu<ex>n</ex>dorp</placeName>
-      <persName>Hermen Stafinsøns</persName> bargamestar<ex>e</ex> j
-        <placeName>Landeskrona</placeName>
-      <persName>Bertil Scønawæth<ex>e</ex>r</persName> byman j th<ex>e</ex>n sa<ex>m</ex>ma stath
-      ♦</p>
-            <p n="a#6" xml:space="preserve">Giw<ex>et</ex> ar eft<ex>er</ex> gwdz byrdh thwsanda firahw<ex>n</ex>dratha trætywæ pa
-      th<ex>et</ex> th<ex>red</ex>ia pa sancta Symonis et Jwde daagh ♦</p>
+            <p n="a#1">Alle mæn som th<ex>et</ex>tæ b<ex>re</ex>ff se ell<ex>e</ex>r hør<ex>e</ex>
+                        lasith helsar iac <persName>Peth<ex>e</ex>r Saxtorp</persName> j
+                                <placeName>Halmstadhe</placeName> ewindh<ex>er</ex>liga
+                        m<ex>eth</ex> gwd ♦</p>
+            <p n="a#2">Th<ex>et</ex> scal allwm weth<ex>e</ex>rligtt wara neruare<ex>n</ex>d<ex>es</ex>
+                        oc tilkomascwle<ex>n</ex>d<ex>es</ex> ath iac with<ex>e</ex>rke<ex>n</ex>nis
+                        mic m<ex>eth</ex> th<ex>et</ex>ta mith opna b<ex>re</ex>f geldscyldwgh at
+                        wara hedh<ex>e</ex>rlig q<ex>ui</ex>nna hwsf<ex>rv</ex>
+               <persName>Ellna Maenssadath<ex>e</ex>r</persName>
+               <persName>Eskil Clemitsøns</persName> efth<ex>e</ex>rlewande sex
+                        lødogam<ex>ar</ex>c efth<ex>e</ex>r he<ex>n</ex>na døøth betala
+                        scwlend<ex>e</ex> af mic ell<ex>e</ex>r af mi<ex>n</ex>a arwi<ex>n</ex>ga
+                        innan attha wgna dagh efth<ex>e</ex>r he<ex>n</ex>na døøth swaswm
+                        h<ex>er</ex> efth<ex>e</ex>r sc<ex>re</ex>w<ex>et</ex> staar ♦</p>
+            <p n="a#3">Førsth scal <placeName>Wasthena closth<ex>e</ex>r</placeName> hawa ena
+                        lødøgam<ex>ar</ex>c oc tre scwla wtgiwas . i <placeName>Lwnd</placeName> en
+                        schal giwæs til <placeName>grabrødra closth<ex>e</ex>r</placeName> oc en til
+                                <placeName>swortabrøthra clost<ex>er</ex>
+               </placeName> oc en til
+                                <placeName>nw<ex>n</ex>na clost<ex>er</ex>
+               </placeName> oc en scal
+                        giwas til <placeName>wara frwa clost<ex>er</ex>
+               </placeName> j
+                                <placeName>Landeskronæ</placeName> oc th<ex>e</ex>n syetthæ scal
+                        giwas til <placeName>Helsingbargs clost<ex>er</ex>
+               </placeName> hwilka sex
+                        lødøga m<ex>ar</ex>c j gen sta for<ex>e</ex> the tre gardha iac af for<hi rend="sup">de</hi> hwsf<ex>rv</ex> Elna løsthe j
+                                <placeName>Ottarp</placeName> lige<ex>n</ex>d<ex>es</ex> ♦</p>
+            <p n="a#4">Var<ex>e</ex> th<ex>et</ex> swa ath iac ell<ex>e</ex>r mina arwi<ex>n</ex>ga ey
+                        the sex lødøgam<ex>ar</ex>c i<ex>n</ex>nan th<ex>e</ex>n
+                        føresc<ex>re</ex>fna dagh wtgawe tha sæther iac mi<ex>n</ex> gaard til panth
+                        j <placeName>Tidarp</placeName> ligend<ex>es</ex> j
+                                <placeName>Rønabyerghah<ex>e</ex>r<ex>et</ex>
+               </placeName> j hwilkin
+                        nw j boor <persName>Peth<ex>e</ex>r Bencts<ex>øn</ex>
+               </persName> oc giwer en
+                        ør<ex>e</ex> bywgh til landgilde m<ex>eth</ex> al th<ex>e</ex>n garz
+                        tilligelse ♦</p>
+            <p n="a#5">Oc hwath th<ex>e</ex>n gaard scylde kan th<ex>et</ex> scwla frwrna i
+                                <placeName>Bosøø clost<ex>er</ex>
+               </placeName> wpbær<ex>e</ex>
+                        for<ex>e</ex> vigiliis oc saltar<ex>e</ex> ♦</p>
+            <p n="a#6">Item bindher iac mic til oc mi<ex>n</ex>a arwi<ex>n</ex>ga th<ex>e</ex>n for<hi rend="sup">de</hi> gaard at fri oc hemlæ før<ex>e</ex> eth panth swa
+                        lenge til the for<hi rend="sup">de</hi> sex lødøga m<ex>ar</ex>c beredhe
+                        wardæ af mic ell<ex>e</ex>r af mi<ex>n</ex>a arwi<ex>n</ex>ga m<ex>eth</ex>
+                        swadanth før<ex>e</ex>sc<ex>re</ex>w<ex>et</ex> wilkor om the for<hi rend="sup">de</hi> thre gardha j Ottarp mic ell<ex>e</ex>r
+                        mi<ex>n</ex>a arwi<ex>n</ex>ga fra wi<ex>n</ex>nas m<ex>eth</ex> retthe tha
+                        scal th<ex>et</ex>ta b<ex>re</ex>f døøth war<ex>e</ex> oc engen makth hawa
+                        ♦</p>
+            <p n="a#7">Til mer<ex>e</ex> wisse oc bethra forwaringh he<ex>n</ex>g<ex>er</ex> iac mith
+                        insigle før<ex>e</ex> th<ex>et</ex>ta b<ex>re</ex>f m<ex>eth</ex>
+                        fler<ex>e</ex> gothæ me<ex>n</ex>s insigle som er h<ex>er</ex>
+               <persName>Maens Peth<ex>e</ex>rs<ex>øns</ex>
+               </persName> sognaprest i
+                                <placeName>Asmu<ex>n</ex>dorp</placeName>
+               <persName>Hermen Stafinsøns</persName> bargamestar<ex>e</ex> j
+                                <placeName>Landeskrona</placeName>
+               <persName>Bertil Skønawæth<ex>e</ex>r</persName> byman j th<ex>e</ex>n
+                        sa<ex>m</ex>ma stæth ♦</p>
+            <p n="a#8">Giw<ex>et</ex> ar eft<ex>er</ex> gwdz byrdh thwsanda firahw<ex>n</ex>dratha
+                        trætywæ pa th<ex>et</ex> th<ex>reth</ex>ia pa sancta Symonis et Iwde daagh
+                        ♦</p>
          </div>
          <div xml:lang="da">
-            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+            <p n="b#1">Alle mænd, som ser dette brev eller hører det læse, hilser jeg Peder Saxtrup i
+                        Halmstad evindeligt med Gud.</p>
+            <p n="b#2">Det skal være vitterligt for alle nulevende og kommende, at jeg med dette mit
+                        åbne brev vedkender mig at skylde den hæderværdige kvinde, fru Elna
+                        Mogensdatter, enke efter Eskil Klementsen, seks lødige mark, der efter
+                        hendes død inden otte ugers dag<note>Dvs. ottet uger.</note> skal betales af
+                        mig eller af mine arvinger, således som herefter står skrevet.</p>
+            <p n="b#3">Først skal Vadstena kloster have en lødig mark, og tre skal udbetales i Lund: en
+                        skal gives til Gråbrødreklostret, og en til Sortebrødreklostret, og en til
+                        Nonneklostret, og en skal gives til Vor Frue kloster i Landskrona, og den
+                        sjette skal gives til Helsingborgs kloster; disse seks lødige mark resterer
+                        fra de tre gårde, jeg indløste af førnævnte fru Elna, og som ligger i
+                        Ottarp.</p>
+            <p n="b#4">Skulle det ske, at jeg eller mine arvinger ikke udbetaler de seks lødige mark
+                        inden den foreskrevne dag, så pantsætter jeg min gård, der ligger i Tirup i
+                        Rönnebergs herred, i hvilken Peder Bentsen nu bor og giver en øre byg i
+                        landgilde, med al denne gårds tilliggende.</p>
+            <p n="b#5">Og hvad denne gård kan yde i afgifter, det skal fruerne i Bosjö kloster oppebære
+                        for vigilier og salmer.</p>
+            <p n="b#6">Ligeledes forpligter jeg mig og mine arvinger til at frigøre og hjemle den
+                        førnævnte gård som et pant, indtil de førnævnte seks lødige mark bliver
+                        udredt af mig eller mine arvinger, på det vilkår, at såfremt de tre
+                        førnævnte gårde i Ottarp retmæssigt fravindes mig eller mine arvinger, så
+                        skal dette brev være dødt og magtesløst.</p>
+            <p n="b#7">Til større vished og bedre sikkerhed hænger jeg mit segl ved dette brev sammen
+                        med segl tilhørende flere gode mænd, nemlig hr. Mogens Pedersen, sognepræst
+                        i Asmundtorp, Herman Steffensen, borgmester i Landskrona, og Bertold
+                        Schöneweder, bymand sammesteds.</p>
+            <p n="b#8">Givet år 1433 efter Guds fødsel på sankt Simons og Judas' dag.</p>
          </div>
       </body>
    </text>

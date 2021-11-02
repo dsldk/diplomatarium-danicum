@@ -1,153 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Diplomatarium Danicum</title>
-        <editor>
-          <name xml:id="th">
-            <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
-            </persName>
-          </name>
-        </editor>
-        <funder>Carlsbergfondet</funder>
-      </titleStmt>
-      <extent>Base text, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>. Translation, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">57</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
          </extent>
-      <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
-        <pubPlace>København</pubPlace>
-        <date>2010</date>
-        <idno type="dd">14081018001</idno>
-        <idno type="isbn">nil</idno>
-        <idno type="dd-4">08-114</idno>
-        <idno type="dd-4-lbnr">405</idno>
-        <idno type="dd-4-kartotek">114</idno>
-        <availability status="restricted">
-          <ab>Copyright © 2011, Danske Sprog- og Litteraturselskab</ab>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness xml:id="A">
-            <msDesc>
-              <msIdentifier>
-                <settlement>empty</settlement>
-                <repository>empty</repository>
-                <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>empty</msName>
-                <msName>empty</msName>
-              </msIdentifier>
-              <physDesc>
-                <objectDesc>
-                  <supportDesc material="empty">
-                    <support>
-                      <ab>empty</ab>
-                    </support>
-                    <extent>
-                      <dimensions unit="cm">
-                        <width>0</width>
-                        <height>0</height>
-                      </dimensions>
-                    </extent>
-                    <condition>
-                      <ab>empty</ab>
-                    </condition>
-                  </supportDesc>
-                </objectDesc>
-                <handDesc>
-                  <handNote>
-                    <ab>empty</ab>
-                  </handNote>
-                </handDesc>
-                <additions>
-                  <ab>empty</ab>
-                </additions>
-                <sealDesc>
-                  <seal n="0" type="empty">
-                    <ab>empty</ab>
-                  </seal>
-                </sealDesc>
-              </physDesc>
-              <history>
-                <ab>Tabt. Registreret 1. RA. ÆA. Viborg stifts reg. (1540'erne) f. P <q>Item
-                              eth tingxuintne aff Melsumherrit atthen gard y <app><lem>&lt;.....&gt;</lem><rdg>navnet mgl. i reg</rdg></app> som Nis Villasszenn ibor then er Mwss aff Brusgard oc Sommer
-                              aff Løgstrup met rette oppo komenn meth theris hostrur. ♦ Datum
-                              mcdviiio torsdagh nest for sancti Seuerini dagh</q>. 2. RA. ÆA. Viborg
-                           stifts reg. (1574) f. 33v <q>Ett things windne att thend gaard i Mamen
-                              som Niels Willatzen ibor er Willatz Ienszen i Glinder hans rette
-                              godtz. ♦ Anno 1408.</q></ab>
-              </history>
-            </msDesc>
-          </witness>
-        </listWit>
-        <listBibl>
-          <bibl> ÆA. II 220, D 17</bibl>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-        <ab>Tekst efter nil</ab>
-      </samplingDecl>
-      <projectDesc>
-        <ab>DD-4</ab>
-      </projectDesc>
-      <appInfo>
-        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
-          <desc>nil</desc>
-        </application>
-      </appInfo>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date cert="high" notBefore="1408-10-18" notAfter="1408-10-18"> 1408. 18. oktober</date>
-        <placeName cert="high">Middelsom herredsting</placeName>
-      </creation>
-      <abstract>
-        <ab>Tingsvidne om den gård i Mammen, som Niels Villadsen bor
-                           i.</ab>
-      </abstract>
-      <langUsage>
-        <language ident="xda"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term>empty</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2011-02-02T14:19:07.765+01:00" who="#th"> Filen etableret af #th
-            2011-02-02T14:19:07.765+01:00</change>
-      <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
-      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div xml:lang="xda">
-        <p>Item eth tingxuintne aff Melsumherrit atthen gard y <app><lem>&lt;.....&gt;</lem><rdg>navnet mgl. i reg</rdg></app> som Nis Villasszenn ibor then er Mwss aff Brusgard oc Sommer aff Løgstrup met
-               rette oppo komenn meth theris hostrur. ♦ Datum mcdviiio torsdagh nest for sancti
-               Seuerini dagh.</p>
-      </div>
-      <div xml:lang="xda">
-        <p>Ett things windne att thend gaard i Mamen som Niels Willatzen ibor er Willatz Ienszen
-               i Glinder hans rette godtz. ♦ Anno 1408.</p>
-      </div>
-      <div xml:lang="da">
-        <p> Et tingsvidne af Middelsom herred, at den gård i (Mammen), som Niels Villadsen bor
-               i, har Mus af Brusgaard og Sommer af Løgstrup retmæssigt fået med deres hustruer.
-               Givet 1408 torsdag før sankt Severins dag.</p>
-      </div>
-      <div xml:lang="da">
-        <p> Et tingsvidne, at den gård i Mammen, som Niels Villadsen bor i, er Villads Jensen i
-               Glinders rette gods. År 1408. </p>
-      </div>
-    </body>
-  </text>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14081018001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Registreret to steder i København. Rigsarkivet. De ældste
+                        arkivregistraturer: a) Registratur A over Viborg stifts breve (1540'erne),
+                        upag., i afsnittet <q>Meelswmh<ex>erri</ex>t</q>; b) Registratur B over
+                        Viborg stifts breve (1574), f. 33v, i afsnittet <q>Medelsom
+                        herritt</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 220 nr. D. 17</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1408-10-18"
+                  notBefore="1408-10-18"
+                  notAfter="1408-10-18"
+                  cert="high">1408. 18. oktober <note>Uoverensstemmelsen mellem de to referater lader sig ikke
+                opklare</note>
+            </date>
+            <placeName cert="high">Middelsom herredsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne af Middelsom herredsting om den gård i Mammen, hvori Niels Villadsen
+                        bor.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-06-07" who="#alk">Filen etableret af #alk 2021-06-07. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">a):</p>
+            <p n="a#2" xml:space="preserve">Item eth tingxuitne aff <placeName>Melsumh<ex>erri</ex>t</placeName>
+                        atth<ex>e</ex>n g<ex>ar</ex>d y (!) som <persName>Nis
+                                Villassze<ex>n</ex>n</persName> ibor th<ex>e</ex>n er
+                                <persName>Mwss</persName> aff <placeName>Brusgard</placeName> oc
+                                <persName>Sommer</persName> aff <placeName>Løgstrup</placeName> met
+                        r<ex>e</ex>tte oppo kome<ex>n</ex>n met the<ex>ris</ex> hostrur ♦</p>
+            <p n="a#3" xml:space="preserve">Datum mcdviii<hi rend="sup">o</hi> torsdagh nest for sancti Severini dagh
+                        ♦</p>
+            <p n="a#4" xml:space="preserve">b):</p>
+            <p n="a#5" xml:space="preserve">Ett things windne att thend gaard j <placeName>Mamen</placeName> som Niels
+                        Willatzen ibor <app><lem>er</lem><rdg wit="#A">Tilføjet over linjen, B-reg</rdg></app>
+                        <persName>Wallatz Jenssen</persName> j
+                                <placeName>Glind<ex>er</ex></placeName> hans rette godtz ♦</p>
+            <p n="a#6" xml:space="preserve">Anno 1408. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

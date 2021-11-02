@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14310723003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -111,7 +113,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>An. XXXVI de Adria</ab>
+                  <ab>Påskrift: <q>An. XXXVI de Adria</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,12 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1431-07-23" notBefore="1431-07-23" notAfter="1431-07-23" cert="high">1431. 23. juli</date>
+        <date when="1431-07-23" notBefore="1431-07-23" notAfter="1431-07-23" cert="high">1431. 23.
+          juli</date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab> Paven befaler biskoppen i Alet, abbeden i Essenbæk kloster og provsten i Viborg at sørge for, at arvingerne efter præsten Gregers Sparresen får nogle ejendele, som provsten Niels Tuvesen i Vestervig kloster havde frataget ham, tilbage i overensstemmelse med flere pavelige auditørers derom afsagte dom.</ab>
+        <ab/>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -159,12 +162,74 @@
           <term>empty</term>
         </keywords>
       </textClass>
+      <abstract>
+        <ab>Pave Eugenius 4. pålægger efter supplik af Peder Ågesen, Niels Tuesen og Peder Nielsen,
+          lægfolk fra Børglum stift og præsten Gregers Sparresens arvinger, biskoppen i Alet,
+          abbeden i Essenbæk kloster i Århus stift og provsten i Viborg at indskærpe den dom over
+          Niels Tuesen, provst i Vestervig kloster, som flere pavelige auditører har fældet over ham
+          i processen mellem ham og Gregers Sparresen, og at sørge for, at han yder den fastsatte
+          erstatning og betaler sagsomkostningerne. </ab>
+        <ab> Niels Tuesen havde berøvet Gregers Sparresen forskelligt løsøre, holdt ham til fange og
+          udsat ham for vold, og efter flere pavelige auditørers samstemmende domme opnåede han
+          pavelig bekræftelse på at Niels skulle yde ham erstatning for det røvede løsøre og for
+          tort samt betale procesomkostningerne. </ab>
+        <ab>Erstatningen blev fastsat til 13 kvier, 1 læst korn á 24 tønder, 1 hoppe, 18 okser, 80
+          får, 15 lam samt andet løsøre eller den tilsvarende værdi, fastsat til 700 rhinske gylden,
+          erstatningen for tort fastsat til 200 kammergylden, og procesomkostningerne fastsat til i
+          alt 108 kammergylden. </ab>
+        <ab>Da imidlertid Gregers døde, inden der blev udstedt paveligt eksekutionsbrev, og hans
+          arvinger ikke tror, at Niels vil efterkomme dommen, har de anmodet om, at paven vil tage
+          hånd om sagen.</ab>
+        <!-- <ab>Pave Eugenius 4. skriver til biskoppen i Alet, abbeden i Essenbæk kloster og provsten i
+          Viborg. </ab>
+        <ab>Efter at Niels Tuvesen, provst i Vestervig kloster, havde berøvet Gregers Sparresen,
+          præst, forskelligt løsøre, holdt ham til fange og udsat ham for vold, og han således havde
+          gjort sig hjemfalden til bandlysning, førte Gregers Sparresen ham for den pavelige
+          domstol, præsideret af Ludovicus de Garsiis, kannik i Bologna og stedfortræder for
+          Julianus, kardinaldiakon af Skt. Angelus, daværende auditør, for at Niels Tuvesen skulle
+          dømmes og afkræves erstatning såvel for løsøre som for tort og svie, og for at det skulle
+          offentligt bekendtgøres at han havde pådraget sig bandlysning. </ab>
+        <ab>Niels appellerede da sagen til pavestolen, idet ..., og pave Martin 5. overlod sagen til
+          Comzo, biskop i Olmütz, dengang pavens kapellan og auditør; da denne havde sendt Niels
+          tilbage til Danmark, på baggrund af at Niels hævdede at forskellige detaljer skulle
+          klarlægges, appellerede Gregers sagen til pavestolen. </ab>
+        <ab>Pave Martin 5. overlod da sagen til Bartholomeus, biskop i Orange, dengang pavens
+          kapellan og auditør; denne bestemte i samstemmighed med de øvrige auditører, at
+          hjemsendelsen var uretmæssig, han annullerede den, og erjklrede Gregers' sag for
+          retfærdig, som det fremgår af sagens akter, og han dømte Niels til at restituere 13 kvier,
+          1 læst kort á 24 tønder, 1 hoppe, 18 okser, 80 får, 15 lam, samt andet løsøre, såfremt det
+          stadig fandtes, ellers dets værdi, vurderet til 700 rhinske gylden. </ab>
+        <ab>Denne dom appellerede Niels til pavestolen, og pave Martin 5. overlod sagen til sin
+          kapellan og auditør Johannes Wolling; denne stadfæstede Niels' og hans medsammensvornes
+          skyld og dømte ham til offentligt at erklæres bandlyst, og til at betale Gregers 200
+          kammerfloriner for tort og svie samt sagsomkostningerne. </ab>
+        <ab>Denne dom appellerede førnævnte Bartholomeus på vegne af Niels atter til pavestolen, og
+          pave Martin 5. overlod sagen til førnævnte JOhannes på Gregers anmodning, idet han hævdede
+          at ...; Johannes stadfæstede den sidste dom og bekræftede at Niels havde uret og tildømte
+          ham betalingen af sagsomkostningerne. </ab>
+        <ab>Denne dom appellerede Niels til pavestolen, og pave Martin 5. overlod sagen til sin
+          kapellan og auditør Hartungus de Cappel; denne stadfæstede at der var blevet handlet
+          korrekt i sagen, at Niels havde uret, og erklærede at Johannes ..., og tildømte Niels
+          betalingen af sagsomkostningerne. </ab>
+        <ab>Denne dom appellerede Niels til pavestolen, og pave Martin 5. overlod sagen til sin
+          kapellan og auditør Geminianus de Prato; denne stadfæstede Hartungus' dom og tildømte
+          Niels betalingen af sagsomkostningerne. </ab>
+        <ab>Sagens omkostninger blev i alt takseret til 108 kammerfloriner. </ab>
+        <ab>Imidlertid døde Gregers, inden sagen var blevet overdraget til eksekutorerne, og da
+          Gregers' arvinger, lægfolkene Peder Ågesen, Niels Tuvesen og Peder Nielsen, alle fra
+          Børglum stift, frygter at deres arv således er tabt, har de anmodet om at paven til hjælpe
+          dem. </ab>
+        <ab>Derfor pålægger paven brevets modtagere at eksekvere dommen, og han giver dem fuldmagt
+          til at stævne Niels og andre sagen vedkommende personer, samt at kalde verdslig magt til
+          hjælp</ab>-->
+      </abstract>
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-01" who="#pbh">Filen etableret af #pbh 2013-10-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
-      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-06-07" who="#pbh">Korrektur af scan osv.</change>
+      <change when="2018-05-04" who="#pbh">Ny regest, korrektur</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -173,10 +238,157 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Episcopo Electensi</persName> et <persName>abbati monasterii s.
+            Laurentii in Eskinbek Arusiensis diocesis</persName> ac <persName>preposito ecclesie
+            Vibergensis</persName>.</p>
+        <p>Exhibita nobis pro parte <persName>Petri Awhonis</persName>, <persName>Nicolai
+            Twionis</persName> et <persName>Petri Nicolai</persName> laicorum Burglanensis diocesis
+          petitio continebat, quod, cum olim quondam <persName>Gregorius Sparisson</persName>
+          presbiter, cujus ipsi laici universales heredes sunt, <persName>Nicolaum Twonis
+            prepositum</persName>
+          <placeName>monasterii Westerwicensis</placeName> ordinis s. Augustini dicte diocesis, qui,
+          associatis sibi quibusdam in ea parte complicibus, nonnullas ipsius Gregorii vaccas,
+          lestam annone, boves, equam, oves, agnellos aliaque mobilia bona tunc expressa invaserat
+          et detinuerat ac prefatum Gregorium illis contra justitiam spoliaverat et ea abstulerat
+          necnon in predam asportaverat et alienarat ac in ipsum dei timore postposito ausu
+          sacrilego manus injecerat temere violentas eumque captivarat ac incarcerarat ac detinuerat
+          et multipliciter molestarat, vexarat, perturbarat et impediverat sibique diversas alias
+          injurias etiam tunc expressas de facto irrogarat, et propterea excommunicationis in tales
+          a canone generaliter promulgatam sententiam incurrerat, super hoc petendo ipsum, tunc in
+          Romana curia repertum, condemnari et compelli ad reddendum et restituendum vaccas, lestam,
+          boves, equam, oves, agnellos et bona, si extabant, alioquin illorum verum valorem, ac ad
+          dandum et solvendum sibi quandam pecunie summam etiam tunc expressam pro emenda seu in
+          recompensationem injuriarum hujusmodi ac decerni et declarari ipsum dictam sententiam
+          incurrisse excommunicatumque publice nuntiari, coram <persName>Ludovico de
+            Garsiis</persName> canonico Bononiensi locumtenente Juliani s. Angeli diaconi
+          cardinalis, tunc causarum curie camere apostolice auditoris, traxisset in causam, prefatus
+          Nicolaus a quodam insufficienti conficto sibi per eundem locumtenentem, postquam in illa
+          ad nonnullos actus inter partes ipsas processerat, ut minus veraciter pretendebat, illato
+          gravamine ad sedem apostolicam appellavit, ac <persName>Martinus papa V</persName> causam
+          appellationis ejusdem et negotii principalis <persName>Comzoni episcopo
+            Olomucensi</persName>, tunc capellano suo et causarum palatii apostolici auditori,
+          audiendam commisit et fine debito terminandam, et successive, postquam dictus Gregorius
+          pro eo, quod ipse episcopus, tunc auditor, ad instantiam prefati Nicolai super quibusdam
+          impertinentibus probandis positionibus et articulis pro parte dicti Nicolai in hujusmodi
+          causa exhibitis de facto remissionem ad partes decreverat, ad eandem sedem appellarat,
+          idem predecessor, illius appellationis hujusmodi causam <persName>Bartholomeo episcopo
+            Aurasicensi</persName>, tunc capellano suo et causarum ejusdem palatii apostolici
+          auditori, audiendam commisit et fine debito terminandam; qui cognitis hujusmodi cause
+          meritis de consilio et assensu coauditorum suorum causarum dicti palatii, quibus super
+          hiis relationem fecit fidelem, per unam pronuntiavit, decrevit et declaravit prefatam
+          remissionem, in quantum impedire haberet restitutionem hujusmodi, male fuisse et esse
+          decretam ejusque decretum revocandum fore et revocavit, et ab illo pro parte dicti
+          Gregorii bene fuisse et esse appellatum primo, necnon per aliam diffinitivam suas
+          sententias pronuntiavit, decrevit et declaravit, prout hec omnia in libello pro parte
+          ipsius Gregorii in hujusmodi causa exhibito petita fuerant, invasiones detentiones
+          spoliationes asportationes allienationes et impedimenta predicta fuisse et esse temeraria
+          illicita indebita injusta ac de facto presumpta ipsumque Nicolaum ad reddendum et
+          restituendum dicto Gregorio 13 vaccas, 1 lestam annone 24 lagenarum, 1 equam, 18 boves, 80
+          oves, 15 agnellos et alia bona, si exstarent, alioquin eorum valorem hujusmodi, videlicet
+          700 fl. Renensium boni et justi ponderis summam, condemnandum fore et condemnavit.</p>
+        <p>A qua quidem diffinitiva sententia fuit pro parte ipsius Nicolai ad predictam sedem
+          appellatum, prefatusque predecessor causam appellationis a diffinitiva sententia
+          interjecte hujusmodi magistro <persName>Johanni Wolling</persName> nostro, tunc suo,
+          capellano et causarum ejusdem palatii auditori audiendam commisit et fine debito
+          terminandam; et deinde prefatus episcopus, tunc auditor, per aliam suam diffinitivam
+          sententiam pronuntiavit, decrevit et declaravit, prout etiam hec omnia in libello pro
+          parte ipsius Gregorii in hujusmodi causa exhibito petita fuerant, manuum injectiones
+          captivationes incarcerationes detentiones molestationes vexationes perturbationes et
+          impedimenta predicta fuisse et esse temeraria illicita indebita iniqua injusta ac de facto
+          presumpta, necnon Nicolao et complicibus predictis talia facere minime licuisse sive
+          licere, ipsique Gregorio per premissa fuisse et esse injuriatum, ac Nicolaum et complices
+          prefatos propterea dictam excommunicationis sententiam incurrisse, necnon ipsum Nicolaum
+          excommunicatum publice nuntiandum fore et denuntiavit, dandumque et solvendum eidem
+          rectori 200 fl. auri de camera etiam boni et justi ponderis occasione injuriarum
+          hujusmodi, et in expensis coram eo ac dictis locumtenente et episcopo, tunc auditore, in
+          ipsa causa legitime factis condemnandum fore et condemnavit, prefatarum expensarum
+          taxatione sibi imposterum reservata.</p>
+        <p>A qua quidem ultima dicti Bartholomei episcopi, tunc auditoris, sententia fuit pro parte
+          ipsius Nicolai ad sedem appellatum antedictam, ac ipse predecessor ad instantiam dicti
+          Gregorii, asserentis appellationem a prima fuisse desertam, desertionis necnon
+          appellationis interjecte ab ultima diffinitivis sententiis Bartholomei episcopi, tunc
+          auditoris, hujusmodi causas prefato Johanni auditori audiendas commisit et fine debito
+          terminandas; qui cognitis ipsarum causarum meritis de consilio et assensu coauditorum
+          suorum causarum dicti palatii, quibus super hiis relationem fecit fidelem, per unam
+          pronuntiavit appellationem a prima diffinitiva sententia Bartholomei episcopi, tunc
+          auditoris, interpositam hujusmodi fuisse et esse desertam dictamque primam diffinitivam
+          sententiam in rem transivisse judicatam, et per aliam diffinitivam suas sententias
+          pronuntiavit, decrevit et declaravit per prefatum Bartholomeum episcopum, tunc auditorem,
+          ultimo in causa hujusmodi bene fuisse et esse processum, sententiatum et diffinitum
+          ejusque ultimam sententiam predictam confirmandam fore et confirmavit, ac ab illa pro
+          parte ipsius Nicolai male fuisse et esse appellatum necnon prefatum Nicolaum in expensis
+          coram eo in hujusmodi causa legitime factis condemnandum fore et condemnavit, illarum
+          taxatione sibi imposterum reservata.</p>
+        <p>A quibus quidem dicti Johannis auditoris sententiis fuit pro parte ipsius Nicolai ad
+          memoratam sedem appellatum, necnon prefatus predecessor appellationis a prima sententia
+          necnon ad instantiam dicti Gregorii, asserentis appellationem a diffinitiva sententia
+          Johannis auditoris interjectam fore desertam, desertionis hujusmodi causas magistro
+            <persName>Hartungo de Cappel</persName> etiam nostro, tunc suo, capellano et causarum
+          ejusdem palatii auditori, audiendas commisit et fine debito terminandas; qui cognitis
+          ipsarum causarum meritis <supplied>de consilio et assensu coauditorum suorum causarum
+            dicti palatii, quibus super hiis relationem fecit fidelem</supplied>, per unam
+          declaravit per prefatum Johannem auditorem in causa desertionis hujusmodi bene fuisse et
+          esse processum et sententiatum ejusque sententiam predictam in ipsa desertionis causa
+          confirmandam fore et confirmavit, necnon ab illa pro parte ipsius Nicolai male fuisse et
+          esse appellatum ac per aliam suas sententias pronuntiavit, decrevit et declaravit
+          appellationem a diffinitiva Johannis auditoris sententia interjectam hujusmodi fuisse et
+          esse desertam ipsumque Nicolaum in expensis coram eo in dicta causa legitime factis
+          condemnandum fore et condemnavit, illarum taxatione sibi imposterum reservata.</p>
+        <p>Cumque a sententiis Hartungi auditoris hujusmodi pro parte ipsius Nicolai ad sedem
+          fuisset appellatum eandem, dictus predecessor causas ipsarum ultimarum appellationum
+          magistro <persName>Geminiano de Prato</persName> etiam nostro, tunc suo, capellano et
+          causarum predicti palatii auditori audiendas commisit et fine debito terminandas; qui
+          cognitis ipsarum causarum meritis <supplied>de consilio et assensu coauditorum suorum
+            causarum dicti palatii, quibus super hiis relationem fecit fidelem</supplied>, per
+          diversas suas sententias pronuntiavit, decrevit et declaravit per prefatum Hartungum
+          auditorem in causis hujusmodi bene fuisse et esse processum, sententiatum et ordinatum
+          ejusque sententias predictas confirmandas fore et confirmavit, et ab illis pro parte
+          ipsius Nicolai male fuisse et esse appellatum necnon prefatum Nicolaum in expensis coram
+          eo in dictis causis legitime factis condemnandum fore et condemnavit, illarum taxatione
+          sibi imposterum reservata.</p>
+        <p>Et subsequenter Johannes coram eo in 28, et, cui dictus predecessor commisit, ut etiam
+          coram Bartholomeo episcopo tunc necnon Hartungo auditoribus predictis factas taxaret et
+          instrumenta publica super Bartholomei episcopi tunc ac Johannis et Hartungi auditorum
+          sententiis hujusmodi confecta sigillaret, Geminianus auditores predicti coram illis et se
+          factas expensas hujusmodi in 80 fl. etiam auri de camera similis ponderis providis
+          moderationibus taxarunt, procuratoris ipsius Gregorii super expensis eisdem juramentis
+          secutis, prout in instrumentis predictis dicti Geminiani auditoris sigillo munitis dicitur
+          plenius contineri.</p>
+        <p>Cum autem, sicut eadem petitio subjungebat, dictus Gregorius, sententiis auditorum
+          hujusmodi nondum executioni demandatis, fuerit vita functus, dubitentque laici prefati,
+          quod dictus Nicolaus ipsis eorundem auditorum sententiis reverenter parere non velit,
+          quodque processus presentium vigore habendi sibi propter ejus potentiam et aliis, quos
+          concernent, tute nequeant publicari, pro parte dictorum laicorum nobis, qui, dicto
+          predecessore, sicut domino placuit, ab hac luce subtracto, fuimus divina clementia ad
+          apicem summi apostolatus assumpti, extitit supplicatum, ut eis super hiis oportune
+          providere dignaremur.</p>
+        <p>Nos itaque discretioni vestre mandamus, quatenus, vocatis, qui fuerint evocandi, si et
+          postquam vobis dictos laicos ipsius Gregorii universales heredes, ut prefertur,
+            <supplied>esse</supplied> legitime constiterit, episcoporum tunc et auditorum sententias
+          hujusmodi executioni debite demandantes necnon, ubi et quando expedire videritis,
+          auctoritate nostra solemniter publicantes, faciatis dictis laicis vaccas lestam equam
+          boves oves agnellos et bona predicta, si extent, alioquin illorum valorem hujusmodi dari
+          et assignari, necnon de prefatis fl. auri summis pro injuriis et expensis hujusmodi juxta
+          dictorum instrumentorum, earundem condemnationum et taxationum tenores plenam et debitam
+          satisfactionem impendi, et insuper, legitimis super hiis per vos habendis servatis
+          processibus, eas, quotiens expedierit, aggravare curetis, contradictores per censuram
+          etc., invocato ad hoc, si opus fuerit, auxilio brachii secularis.</p>
+        <p>Ceterum, si per summariam informationem super hiis per vos recipiendam vobis constiterit,
+          quod ipsorum Nicolai et aliorum, quos hujusmodi processus concernunt, presentia pro
+          monitionibus eis et citationibus de ipsis faciendis commode nequeat haberi, nos vobis
+          processus monitiones et citationes hujusmodi per edicta publica locis affigenda publicis
+          predicto monasterio vicinis, de quibus sit verisimilis conjectura, quod ad notitiam
+          monitorum et citatorum eorundem pervenire valeant, faciendi plenam concedimus tenore
+          presentium facultatem, ac volumus, quod hujusmodi processus monitiones et citationes
+          perinde ipsos monitos et citatos arctent, ac si eis intimati et insinuati personaliter et
+          presentialiter legitime extitissent.</p>
+        <p>Datum <placeName>Rome</placeName> 10. kal. aug. anno 1.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">
+          I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.
+        </p>
       </div>
     </body>
   </text>

@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14311018003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD VII 324 nr. 5808</bibl>
+          <bibl>Repertorium Germanicum V nr. 5957</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,16 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1431-10-18" notBefore="1431-10-18" notAfter="1431-10-18" cert="high">1431. 18. oktober</date>
+        <date when="1431-10-18" notBefore="1431-10-18" notAfter="1431-10-18" cert="high">1431. 18.
+          oktober</date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab> Klerken Johannes Wegener fra Bremen stift får det overdraget til auditøren Petrus Nardi for hvem der har været ført proces om et evig vikariat i Petri kirke i Lübeck, hvis ingen af de to, der fører processen, havde ret til embedet, da at give ham provision derpå, uanset at han allerede har et kapel i Kampe i Slesvig stift.</ab>
+        <ab>Pave Eugenius 4. bevilger en supplik af Johannes Weghener, klerk fra Bremen stift, om at
+          få det overdraget til en auditør ved kurien at overdrage ham et evigt vikariat i Petri
+          kirke i Lübeck, såfremt den proces, der bliver ført mellem to andre gejstlige om alteret,
+          ikke falder ud til fordel for nogen af parterne, skønt Johannes i forvejen har et kapel i
+          Kampen sogn i Slesvig stift og ventebrev.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +170,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-01" who="#pbh">Filen etableret af #pbh 2013-10-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +182,17 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Pave Eugenius 4.</persName> bevilger en supplik af <persName>Johannes
+            Weghener</persName>, klerk fra Bremen stift, om at få det overdraget til en auditør ved
+          kurien at overdrage ham et evigt vikariat i <placeName>Petri kirke i Lübeck</placeName>,
+          såfremt den proces, der bliver ført mellem to andre gejstlige om alteret, ikke falder ud
+          til fordel for nogen af parterne, <q>non obstantibus quadam <placeName>capella s. Nicolai
+              in parrochia Campe Slesvicensis diocesis</placeName> [fructus 4 mr. arg.], quam
+            obtinet, ac gratia expectativa, si quam habet, in cancellaria s. v. exprimenda</q>.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
       </div>
     </body>
   </text>

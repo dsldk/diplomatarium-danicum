@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">218</num>, paragraphs: <num
+               n="paragraphs">5</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14381218001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. XXXIV, 10</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>14.2 (plica: 2.6)</height>
+                                    <width>21.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>I højre side af diplomet er to store huller, og pergamentet
+                                    rundt omkring samt plica omkring seglsnit nr. 2 er afsvedet,
+                                    sandsynligvis som følge af brand</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Tre påskrifter på bagsiden: 1) øverst midtfor: <q>Anna</q>; 2)
+                              midterst midtfor: <q>Super curia in qua residet vicarius altaris
+                                 sancte Anne</q>; 3) nederst til venstre en påskrift der på grund af
+                              brandskaden er ulæselig</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Biskop i Roskilde Jens Pedersen (Jernskægs) segl (midten af
+                                 seglaftrykket beskadiget) i brunt voks i ufarvet i perg.rem,
+                                    <ref>DGS 173</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Rester af perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6980</bibl>
+               <bibl>Vejledende Arkivreg. XVII 103 nr. 323</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-12-18" notBefore="1438-12-18" notAfter="1438-12-18" cert="high">1438.
+               18. december</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens (Pedersen (Jernskæg)), biskop i Roskilde, mageskifter mensalgods, nemlig en
+               gård på Sankt Ols Gade i Sankt Olai sogn i Roskilde, til Lars Nielsen på vegne af
+               vikariet ved sankt Annes alter i Roskilde domkirke, som han er i besiddelse af, til
+               gengæld for en grund øst for Sankt Olai kirkegård i Roskilde.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-09" who="#pbh">Filen etableret af #pbh 2013-12-09. </change>
+         <change when="2020-03-10" who="#pbh">1. korrektur af #pbh 2020-03-10. </change>
+         <change when="2021-02-01" who="#alk">2. korrektur af #alk 2021-02-01. </change>
+         <change when="2021-05-20" who="#alk">3. korrektur af #alk 2021-05-20. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Johannes</persName> dei gracia
+               episcopus R<damage>oskildensis salutem in domino sempiternam ♦</damage></p>
+            <p n="a#2"><damage>Nove</damage>ritis nos ex unanimi consensu et voluntate dilecti
+               capituli nostri Roskildensis hono<damage>rabili domino</damage>
+               <persName>Laurencio Nicolai</persName> perpetuo vicario in <placeName>ecclesia nostra
+                  Roskildensi</placeName> infrascripta bona nostra ad mensam nostram episcopalem
+               spectancia videlicet unam curiam in <placeName>parrochia sancti
+                  Olavi</placeName><placeName> Roskildis</placeName> juxta plateam communem dictam
+                  <placeName>Oleffsgade</placeName> ad orientem ad boream vero curie quam nunc
+               inhabitat quidam <persName>Johannes Skrædere</persName> eciam ad vicariam
+                  <placeName>altaris sancte Anne</placeName> quod quidem altare idem dominus
+               Laurencius pronunc possidet in ecclesia nostra Roskildensi predicta jure perpetuo
+               possidendam tenorepresencium scotasse et ad manus libere assignasse in recompensam
+               unius fundi a <placeName>cymiterio sancti <damage>O</damage>lavi</placeName>
+               Roskildis ad partem occidentalem siti videlicet inter curias in qua quondam residebat
+                  <persName>Johannes <damage>...</damage>tgen</persName><damage>.....
+                  reside</damage>bat quondam <persName>Michael Sutor</persName> ab eodem cymiterio
+               ad <placeName>curiam episcopalem</placeName> se ext<damage>endentem .....</damage>
+               civis Roskildensis sibi per quemdam <persName>Jacobum Skræderæ</persName>
+                  inpignera<damage>.....</damage> donavit et cum omnibus litteris et munimentis et
+               omni jure s<damage>.....</damage> prout in <cit>
+                  <quote>litteris apertis</quote>
+                  <bibl>Kendes ikke</bibl>
+               </cit> super hoc confectis plenius continetur ♦</p>
+            <p n="a#3">Quem q<damage>uidem fundum predeces</damage>soribus nostris in eodem
+               episcopatu predictus dominus Laurencius Nicolai scota<damage>vit .....
+                  &#9830;</damage></p>
+            <p>Ins<damage>uper</damage> obligamus nos et succesores nostros ad hujusmodi
+               permutacionem sic ex consensu et <damage>voluntate dilecti</damage> capituli nostri
+               ut premittitur factam irrevocabiliter observandam ♦</p>
+            <p n="a#4">In cujus rei testimonium sigillum <damage>nostrum</damage> una cum sigillo
+               dilecti capituli nostri Roskildensis supradicti presentibus est appendum ♦</p>
+            <p n="a#5">Datum anno domini m<hi rend="sup">o</hi>cdxxx<hi rend="sup">o</hi>viii<hi
+                  rend="sup">o</hi> feria quinta proxima ante festum beati Thome apostoli ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,42 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2014</date>
         <idno type="dd">14190307003</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2014, Danske Sprog- og
-                                Litteraturselskab</ab>
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="empty">
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository>empty</repository>
+                <collection>empty</collection>
+                <idno>empty</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Tabt, registreret i Registratur over Breve i Lunde Kapitels Arkiv (1425 ff.) A
+                  2b: <q>Distaxacio ecclesie Lundensis tempore vacacionis ad duo milia florenorum,
+                    que prius dedit duplum, procurata per dominum <q>Petrum Lucke archiepiscopum
+                      Lundensem</q> a domino <q>Martino</q> papa <q>v<hi rend="sup">to</hi></q>. Hee
+                    littere sunt duplate, quarum alie sunt inter litteras domini archiepiscopi</q>,
+                  trykt ÆA V. 1 130</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Aa">
             <msDesc>
               <msIdentifier>
                 <settlement>Rom</settlement>
                 <repository>Archivio Segreto Vaticano</repository>
                 <collection>empty</collection>
-                <idno>empty</idno>
-                <msName>Reg. Vat. 352 fol. 246v</msName>
+                <idno>Reg. Vat. 352 fol. 246v (352-353)</idno>
                 <msName>empty</msName>
               </msIdentifier>
               <physDesc>
@@ -78,15 +132,124 @@
               </history>
             </msDesc>
           </witness>
+          <witness xml:id="Ab">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom</settlement>
+                <repository>Archivio Segreto Vaticano</repository>
+                <collection>empty</collection>
+                <idno>Obl. et Sol. 55 A fol. 149v-150r (116v-117)</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Ac">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Stockholm</settlement>
+                <repository>Riksarkivet</repository>
+                <collection>0201</collection>
+                <idno>A 11 (tidligere A 20) s. 5-6</idno>
+                <msName>Registrum ecclesie Lundensis, Lundebogen</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="parch">
+                    <support>
+                      <ab>Perg.</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>Overskrift: <q>Distaxacio ecclesie Lundensis tempore vacacionis ad duo milia
+                      florenorum / que prius dedit duplum . et est Martini quinti</q>. Påskrift s.
+                    5, nederste marg.: <q>Hec bulla distaxacionis registrata est in camera
+                      apostolica in libro secundo . et in secundo quaternio qui quidem liber nondum
+                      est ligatus</q>; overskriften gentaget s. 12 med tilføjelsen: <q>que in duabus
+                      litteris continetur</q></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
         </listWit>
         <listBibl>
-          <bibl>APD II 288 nr. 1289</bibl>
+          <bibl>Rep. nr. 5756</bibl>
+          <bibl>APD II 288 nr. 1289 og VII 228 nr. 5686</bibl>
+          <bibl>Svenskt Dipl. III 425-46 nr. 2598</bibl>
+          <bibl>Acta Pont. Svec. Acta Cam. nr. 1051</bibl>
+          <bibl>SDHK nr. 19238</bibl>
+          <bibl>Reg. Dan. nr. *4461</bibl>
+          <bibl>brudst. i Lagerbring, Svea Rikes Hist. II 243-244</bibl>
+          <bibl>omtalt i M. Matthiæ, Episcoporum ecclesiæ Lundensis series, ed. Th. Bartholin,
+            København 1710, s. 179</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst efter Ac, rettelser fra Aa efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -99,11 +262,14 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1419-03-07" notBefore="1419-03-07" notAfter="1419-03-07" cert="high">1419. 7. marts</date>
+        <date when="1419-03-07" notBefore="1419-03-07" notAfter="1419-03-07" cert="high">1419. 7.
+          marts</date>
         <placeName cert="high">Firenze</placeName>
       </creation>
       <abstract>
-        <ab>Paven nedsætter Lunde ærkesædes takst fra 4000 til 2000 gylden.</ab>
+        <ab>Pave Martin 5. nedsætter efter supplik af Peder (Lykke), udvalgt ærkebiskop i Lund, og
+          kapitlet sammesteds Lund ærkesædes takst fra 4000 til 2000 guldfloriner for
+          bestandig.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -111,8 +277,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2014-04-10" who="#pbh">Filen etableret af #pbh 2014-04-10. </change>
-      <change when="2014-12-01" who="#th">1. korrektur af #th 2014-12-01. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-09-20" who="#pbh">Tekst indskrevet osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -122,10 +289,99 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p><persName>Martinus</persName> episcopus . servus servorum dei &#9830; </p>
+        <p>Ad <app>
+            <lem>futuram</lem>
+            <rdg wit="#Aa">således Aa</rdg>
+            <rdg wit="#Ac"><q>perpetuam</q> Ac</rdg>
+          </app> rei memoriam &#9830; </p>
+        <p>Circa statum ecclesiarum et <app>
+            <lem>personarum</lem>
+            <rdg><q>presertim</q> Aa (iflg. APD), måske den korrekte læsning</rdg>
+          </app> metropolitanarum omnium salubriter dirigendum . ex paterne <app>
+            <lem>caritatis</lem>
+            <rdg>herefter et ord udraderet, måske <q>officium</q> Ac</rdg>
+          </app> officio intendentes . earum libenter <app>
+            <lem>submovemus</lem>
+            <rdg wit="#Aa">således Aa</rdg>
+            <rdg wit="#Ac"><q>submoventes</q> Ac</rdg>
+          </app> incommoda . eisque quantum cum deo possumus incumbencia onera sublevamus . &#9830; </p>
+        <p>Cum itaque nuper / pro parte venerabilis fratris nostri . Petri episcopi . olim
+            <placeName>Ripensis</placeName> . in <app>
+            <lem>archiepiscopum</lem>
+            <rdg>herefter 3-4 bogstaver udraderet Ac</rdg>
+          </app>
+          <placeName>Lundensem</placeName> electi . et dilectorum filiorum capituli Lundensis / fuit
+          nobis expositum . quod ecclesia Lundensis que metropolitana est . adeo propter diversas
+          calamitates que partes illas diutius afflixerunt . in suis facultatibus exstitit diminuta
+          . quod archiepiscopus seu electus Lundensis pro tempore existens . solucionem quatuor
+          milium florenorum auri de camera . ad quam ecclesia ipsa cum vacat . et ei per sedem
+          apostolicam de pastore providetur . pro tempore . in camera apostolica ab olim taxata
+          existit ac alius occasione taxe predicte tam secundum consuetudinem Romane curie et camere
+          antedicte quam aliunde sibi incumbencia onera commode supportare <app>
+            <lem>non</lem>
+            <rdg>herefter ca. 2 tegn udraderet Ac</rdg>
+          </app> valet . pro parte dictorum <app>
+            <lem>electi</lem>
+            <rdg>tilføjet over linjen Ac</rdg>
+          </app> et capituli / nobis fuit humiliter supplicatum . ut eidem ecclesie super hoc . de
+          oportuno remedio . ex benignitate apostolica providere dignaremur . &#9830;</p>
+        <p>Nos igitur de premissis plenarie informati . ac eidem ecclesie . pio et paterno
+          compacientes <app>
+            <lem>affectu</lem>
+            <rdg><q>affectum</q> Ac</rdg>
+          </app> . de venerabilium fratrum nostrorum sancte Romane ecclesie cardinalium <app>
+            <lem>consilio</lem>
+            <rdg wit="#Aa">således Aa</rdg>
+            <rdg wit="#Ac"><q>consensu</q> Ac</rdg>
+          </app> et assensu taxam quatuor milium florenorum hujusmodi . ad medietatem taxe ejusdem
+          videlicet duorum milium florenorum similium . auctoritate apostolica . tenorepresencium
+          reducimus . et pro reducta / exnunc habere volumus . et eciam ordinamus statuentes per
+          presentes . quod hujusmodi duorum milium florenorum auri de camera taxa reducta . deinceps
+          perpetuo pro vera et integra taxa habeatur et teneatur . quodque dictus
+            <persName>Petrus</persName> electus de cujus persona nuper eidem ecclesie tunc vacanti .
+          de simili fratrum nostrorum consilio <app>
+            <lem>providimus</lem>
+            <rdg wit="#Aa">således Aa</rdg>
+            <rdg wit="#Ac"><q>providimus</q> Ac</rdg>
+          </app> . et si successores archiepiscopi sive electi Lundenses qui erunt in futurum . seu
+          ipsa Lundensis ecclesie <app>
+            <lem>dum et quando</lem>
+            <rdg>tilføjet over linjen Ac</rdg>
+          </app> vacacionis <app>
+            <lem>casus ejusdem</lem>
+            <rdg wit="#Aa">således Aa</rdg>
+            <rdg wit="#Ac"><q>ejusdem casus</q> Ac</rdg>
+          </app> occurrerit . seu solucio dicte taxe pro tempore ingrueret . eisdem . camere
+          apostolice et collegio facienda . duomilia florenorum auri . pro communi servicio / dictis
+          camere et collegio debito et debendo . dumtaxat pro taxa hujusmodi . ac omnia et singula
+          alia . que racione provisionis ipsius . secundum consuetudinem ejusdem camere . in dicta
+          curia solvere tenentur . juxta ratam taxe eorundem duorum milium florenorum . et non ultra
+          . solvere teneantur . ac si dicta ecclesia . a primeva sua taxacione . ad hujusmodi duo
+          milia florenorum dumtaxat taxata foret mandantes dilectis filiis . nostre et apostolice
+          sedis antedicti collegii camerariis seu vicegerentibus eorundem . et eorum cuilibet . ut
+          reductionem hujusmodi in libris et registris camere et collegii predictorum annotari
+          faciant . taxam antiquam abolendo constitucionibus et ordinacionibus apostolicis . et
+          aliis contrariis non obstantibus quibuscumque . decernentes irritum et inane . quidquid <app>
+            <lem>in</lem>
+            <rdg>tilføjet over linjen Ac</rdg>
+          </app> contrarium a quoquam . quavis auctoritate scienter vel ignoranter contigerit
+          attemptari &#9830; </p>
+        <p>Nulli ergo omnino homini liceat hanc paginam <app>
+            <lem>nostre</lem>
+            <rdg>herefter ca. 8 bogstaver udraderet Ac</rdg>
+          </app> reductionis . <app>
+            <lem>voluntatis</lem>
+            <rdg wit="#Ac">herefter <q>constitucionis et</q> Ac (også slettet i Svenskt Dipl.)</rdg>
+          </app> . ordinacionis . constitucionis et mandati . infringere vel ei ausu temerario
+          contraire . &#9830; </p>
+        <p>Siquis autem hoc attemptare presumpserit indignacionem omnipotentis dei . et beatorum
+          Petri et Pauli apostolorum ejus . se noverit incursurum &#9830; </p>
+        <p>Datum <placeName>Florencie</placeName> nonas marcii . pontificatus nostri anno secundo
+          &#9830;</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
       </div>
     </body>
   </text>

@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14310919001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -132,7 +134,7 @@
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +147,24 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1431-09-19" notBefore="1431-09-19" notAfter="1431-09-19" cert="high">1431. 19. september</date>
+        <date when="1431-09-19" notBefore="1431-09-19" notAfter="1431-09-19" cert="high">1431. 19.
+          september</date>
         <placeName cert="high">Rom</placeName>
       </creation>
       <abstract>
-        <ab> Kong Erik får det overdraget nogle biskopper "i nærheden" at forandre Glenstrup kloster og Marieklostret i Randers fra benediktiner- til kartheuserklostre.</ab>
+        <!--<ab> Kong Erik får det overdraget nogle biskopper "i nærheden" at forandre Glenstrup kloster
+          og Marieklostret i Randers fra benediktiner- til kartheuserklostre</ab>-->
+        <ab>Pave Eugenius 4. bevilger en supplik af kong Erik 7. om at overdrage det til nogle
+          lokale biskopper at overdrage benediktinerklostrene Nørrekloster (Glenstrup) og Vor Frue
+          kloster i Randers, begge i Århus stift, samt deres rettigheder og tilliggender (undtagen
+          Vor Frue klosterkirke, der fungerer som sognekirke) til karteuserordenen, forflytte de
+          tilbageværende benediktinermunke og omdanne Nørrekloster til et karteuserkloster, der skal
+          nyde de samme privilegier som andre karteuserklostre.</ab>
+        <ab>Supplikken begrundes med, at de tre tilbageværende munke i Nørrekloster og den ene nonne
+          i Vor Frue kloster lever udsvævende liv, at bygningerne er i forfald, at en del gods er
+          blevet (ulovligt) afhændet, og at kong Erik, der har en særlig forkærlighed for
+          karteuserordenen, ønsker at hjælpe med at restaurere klostrene og skaffe godset
+          tilbage.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +177,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-01" who="#pbh">Filen etableret af #pbh 2013-10-01. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +189,53 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Pro parte <persName>Erici regis Dacie</persName> etc. exponitur, quod in
+            <placeName>Noertcloester, alias Glenstorpp</placeName>, monachorum ac <placeName>b.
+            Marie in Randershuse</placeName> monialium ordinis s. Benedicti Arusiensis diocesis
+          monasteriis a pluribus illorum personis monastice discipline norma religionisque decentia
+          penitus seposite sunt, divinus omnino lentescit cultus, et pro eo, quod ex ipsis personis
+          alique vitam duxerunt enormiter dissolutam necnon graves excessus committere nullatenus
+          trepidarunt, in partibus illis scandala plurima suborta fuerunt, ipsaque monasteria
+          desolationis ac deformationis opprobrio subjacent, illorum res et bona multipliciter
+          distracta et alienata sunt, ac edificia tendunt non mediocriter in collapsum, et, nisi
+          religionis alterius inibi plantaria surrogentur, <app>
+            <lem><supplied>per</supplied></lem>
+            <rdg>tilføjet af Gertz</rdg>
+          </app> quod hujusmodi <app>
+            <lem>monasteria</lem>
+            <rdg><q>monasteriis</q> foreslået af Gertz</rdg>
+          </app>, in quibus, videlicet in Nortcloester ultra tres <app>
+            <lem>et</lem>
+            <rdg><q>= ex</q></rdg>
+          </app> illius monachis etiam alibi moram trahentes et in b. Marie monialis aliqua non
+          supersunt, alicujus reformationis presidium <app>
+            <lem>contingant</lem>
+            <rdg><q>contingat</q> foreslået af Gertz</rdg>
+          </app>, dispositionis cujusvis amminiculum non subsistit.</p>
+        <p>Quare supplicat dictus rex, qui singularem ad ordinem Cartusiensem illiusque personas
+          gerit devotionis affectum necnon ad recuperationem bonorum, restaurationem quoque
+          edificiorum hujusmodi manus adjutrices liberaliter dirigere proponit, quatinus aliquibus
+          episcopis in partibus illis mandare dignemini, ut, si eis de premissis legitime
+          constiterit, ipsum ordinem s. Benedicti ac illius inibi dignitates in dictis monasteriis
+          auctoritate apostolica omnino supprimant ac ipsos tres monachos ad alia, in quibus
+          voluntarie recipiantur, ejusdem s. Benedicti vel alterius ordinis monasteria sive loca
+          transferant, necnon b. Marie, cujus ecclesia parrochialis est, et in Nortcloester
+          monasteria predicta cum omnibus preter eandem ecclesiam suis juribus et pertinentiis
+          ordini Cartusiensi et <app>
+            <lem>ejus personis prefatis pro illarum habitatione et usu</lem>
+            <rdg>således rettet af Gertz</rdg>
+            <rdg wit="#Aa"><q>ejus pro illarum habitatione et usu personis prefatis</q> Aa</rdg>
+          </app> perpetuo applicent, ac in dicto monasterio Nortcloester prefatum Cartusiensem
+          ordinem instituant et exequantur omnia, que in premissis fuerint necessaria, concedentes,
+          quod ipsum monasterium in Nortcloester et ejus persone omnibus gaudeant privilegiis, que
+          aliis ipsius ordinis Cartusiensis monasteriis et locis illorumque personis .. competere
+          poterunt ...</p>
+        <p>[Concessum in presentia pape. <persName>B. Gradensis</persName>.</p>
+        <p>Datum <placeName>Rome</placeName> 13. kal. oct, anno 1.]</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 31. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
       </div>
     </body>
   </text>

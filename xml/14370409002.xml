@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14370409002</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD III 95 nr. 1783</bibl>
+          <bibl>Weibull, Dipl. dioc. Lund. III 184 nr. 187</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter Dipl. dioc. Lund. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,16 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1437-04-09" notBefore="1437-04-09" notAfter="1437-04-09" cert="high">1437. 9. april</date>
+        <date when="1437-04-09" notBefore="1437-04-09" notAfter="1437-04-09" cert="high">1437. 9.
+          april</date>
         <placeName cert="high">Bologna</placeName>
       </creation>
       <abstract>
-        <ab> Magister Bernardus de Zutvelde, der studerer i Bologna, får motu proprio kanonikat og præbende samt dekanat i Lund (indtægt 20 mark), ledige ved Hans Laxmand valg til ærkebiskop. Han giver samtidig afkald på dekanatet i Roskilde.</ab>
+        <ab>Pave Eugenius 4. bevilger en supplik af magister Bernardus de Zutvelde om at få udstedt
+          bulle motu proprio om provision på dekanatet samt kanonikat og præbende i Lund, ledigt ved
+          Hans Laxmands udnævnelse til ærkebiskop sammesteds, skønt han i forvejen har provision på
+          dekanatet i Roskilde, som han dog er rede til at opgive, og ventebrev på et andet embede;
+          bullen skal ekspederes inden for en måned.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +170,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-11-21" who="#pbh">Filen etableret af #pbh 2013-11-21. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-12-04" who="#pbh">Tekst indskrevet osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +182,28 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Motu proprio dilecto filio <persName>Bernardo de Zutvelde</persName>, magistro in
+          artibus, in nostra civitate <placeName>Bononiensi</placeName> in jure canonico studenti,
+          decanatum ecclesie <placeName>Lundensis</placeName>, qui inibi dignitas non tamen major
+          post pontificalem eciam <app>
+            <lem>curata et electiva</lem>
+            <rdg><q>curatus et electus</q> Weibull</rdg>
+          </app> existit, ac canonicatum et prebendam predictos ejusdem ecclesie conferimus et de
+          illis providemus per promocionem domini <persName>Johannis Laxman</persName> ad ecclesiam
+          Lundensem auctoritate nostra factam ... vel alias vacaturos quovismodo ... quorum fructus
+          etc. viginti marcharum argenti secundum communem extimacionem valorem annuum non excedunt
+          ... non obstantibus quibuscunque constitucionibus apostolicis ... et gracia expectativa,
+          si quam habeat, in cancellaria apostolica exprimenda, et sub eadem data in originali sua
+          supplicacione super decana<supplied>tu</supplied> predicto signata et resignavit idem
+          B[ernardus] decanatui <placeName>Roskildensi</placeName>, de quo sibi concessum fuit
+          provideri. </p>
+        <p>Concessum, ut petitur, et expediat infra mensem. </p>
+        <p>Datum in presencia domini nostri pape <persName>Jo. de Mella</persName>. </p>
+        <p>Datum Bononie quinto idus aprilis anno septimo.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
       </div>
     </body>
   </text>

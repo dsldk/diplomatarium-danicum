@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">300</num>, paragraphs: <num
+               n="paragraphs">1</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14160809001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Landesarchiv, Gottorp</settlement>
+                        <repository>Schleswig nr. 26</repository>
+                        <collection/>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16 (plica: 2.5)</height>
+                                    <width>27</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden med hånd fra omkr. 1500: <q>Hinrici ducis 1416</q> og med
+                              yngre hånd: <q>Confirmatio</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Hertug Heinrichs segl af rødt voks indkapslet i ufarvet ængende i
+                                 røde og grønne silketråde, <ref>DKS nr. 153</ref>
+                              </ab>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Noodt, Beyträge I 182</bibl>
+               <bibl>Reg. nr. 3307</bibl>
+               <bibl>Rep. nr. 5595</bibl>
+               <bibl>Danmarks Gamle Købstadlovgivning I 61 nr. 30</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Arkivalske oplysninger og tekst efter Danmarks Gamle Købstadlovgivning l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-08-09" notBefore="1416-08-09" notAfter="1416-08-09" cert="high">1416.
+               9. august</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Heinrich, hertug af Slesvig og greve af Holsten etcetera, bekræfter de privilegier,
+               som er givet borgerne i Slesvig by af kongerne Abel og Valdemar og deres efterfølgere
+               samt grev Heinrich og hertug Gerhard vedrørende deres frie handel og toldfrihed i
+               Danmark og deres adgang til samme frihed på Skanørmarkedet som andre danske købstæder
+               samt stadfæster deres hidtidige retsregler.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Universis presencia visuris seu audituris Hinricus, dei gracia dux
+                Sleswicensis, comes Holsatie, Stormarie et in Schowenborch, salatem in domino sempiternam. 
+                Notum sit omnibus tam presentibus quam futuris, quod nos vidimus litteras illustrium et magnificorum principum, dominorum
+                Abel et Valdemari, quondam regum Dacie, ac aliorum successorum ipsorum necnon
+                Hinrici comitis, avi nostri, ac Gerardi ducis, patris nostri, bone memorie, continentes libertates et gracias civibus nostris Sleswicensibus 
+                ab ipsis indultas, quod dicti cives per totum regnum Dacie in quibuscumque
+                terris et terminis ipsius libere sua mercimonia ducere possint, emere et vendere, et empta absque aliquo theoloneo aut alia aliqua talliacione vel
+                contradiccione deducere quacumque, prohibicione generali non obstante. Habent eciam dicti cives nostri Sleswicenses omnes et singulas libertates, 
+                gracias et commoda, que et quas cives aliarum civitatum, oppidorum aut villarum regni 
+                Dacie in nundinis Schanøør habere dinoscuntur. Rogamus igitur studiose omnes et singulos, de quibus nobis boni habenda est fiducia, 
+                nichilominus advocatis nostris et officialibus eorundem districte injungimus et mandamus,
+                quatenus dictos cives nostros Sleswicenses, nobis speciali familiaritate et protectione conjunctos, in ipsorum libertatibus,
+                graciis et comodis ipsis ab antiquo a regibus Danorum predictis et aliis ipsorum successoribus indultis et concessis amore nostri promoveant, 
+                in hiis et en aliis ipsos tangentibus non permittant indebite molestari. Pro quo omnibus et singulis
+                in hac parte causa nostri facientibus ad specialia servitia erimus utique obligati. Insuper nos Hinricus dux supradictus
+                omnes et singulas libertates, gracias et comoda, consuetudines et jura predictis civibus nostris ab avo et a patre nostro, pie memorie, 
+                ac dictis regibus dominis et eorum antecessoribus indultas et concessas, confirmamus, approbamus et
+                ratificamus, ac ratas, gratas et stabiles promittimus bona fide per nos ac officiales nostros inviolabiliter in perpetuum observari per presentes. 
+                In cujus rei testimonium sigillum nostrum presentibus est appensum. Datum Gottorp anno domini 
+                millesimo cccc<hi rend="sup">o</hi> xvi<hi rend="sup">o</hi> in vigilia beati Laurentii, martyris gloriosi</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

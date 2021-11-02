@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
             <title>Diplomatarium Danicum</title>
             <editor>
-               <name xml:id="maria.arvidsson">
+               <name xml:id="alk">
                   <persName>
-                     <forename type="first">Maria</forename>
-                     <surname>Arvidsson</surname>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
                   </persName>
                </name>
             </editor>
             <funder>Carlsbergfondet</funder>
          </titleStmt>
-         <extent>Base text, number of words: <num n="words">258</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         <extent>Base text, number of words: <num n="words">258</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">248</num>, paragraphs: <num n="paragraphs">6</num>
          </extent>
          <publicationStmt>
             <publisher>Danske Sprog- og Litteraturselskab</publisher>
             <pubPlace>København</pubPlace>
-            <date>2020</date>
+            <date>2016</date>
             <idno type="dd">14220521001</idno>
             <idno type="isbn">nil</idno>
             <availability status="restricted">
-               <ab>Copyright © 2020, Danske Sprog- og
+               <ab>Copyright © 2016, Danske Sprog- og
                                 Litteraturselskab</ab>
             </availability>
          </publicationStmt>
@@ -35,15 +36,22 @@
                      <msIdentifier>
                         <settlement>Stockholm</settlement>
                         <repository>Riksarkivet</repository>
-                        <collection>SDHK</collection>
-                        <idno>19862</idno>
+                        <idno>SDHK-nr. 19862</idno>
                         <msName>empty</msName>
                      </msIdentifier>
+                     <msContents>
+                        <summary>Henrik Jensen, væbner, pantsætter sin gård i Östra Torrlösa til Hans (Pedersen) Spoldener.</summary>
+                        <msItemStruct>
+                           <filiation>
+                              <ab>empty</ab>
+                           </filiation>
+                        </msItemStruct>
+                     </msContents>
                      <physDesc>
                         <objectDesc>
-                           <supportDesc material="parch">
+                           <supportDesc material="empty">
                               <support>
-                                 <ab>Pergament</ab>
+                                 <ab>empty</ab>
                               </support>
                               <extent>
                                  <dimensions unit="cm">
@@ -65,37 +73,41 @@
                            </handNote>
                         </handDesc>
                         <additions>
-                           <ab>På bagsiden påskriften: <q>Østræ Thorløse</q>
+                           <ab>På bagsiden påskriften <q>Østræ Thorløse</q>
                            </ab>
                         </additions>
                         <sealDesc>
                            <seal n="1" type="pendant">
-                              <ab>Bomærke af lyst voks i perg.rem</ab>
+                              <ab>Henrik Jensens bomærke af grønt voks i ufarvet i
+                                perg.rem</ab>
                            </seal>
                            <seal n="2" type="pendant">
-                              <ab>Segl af lyst voks i perg.rem tilhørende abbeden i Allehelgenskloster ved
-        Lund, <ref>DGS 104</ref>
+                              <ab>Embedssegl for abbeden i Allehelgenskloster i Lund af grønt
+                                voks i ufarvet i perg.rem, <ref>DGS 104</ref>
                               </ab>
                            </seal>
                            <seal n="3" type="pendant">
-                              <ab>Bomærke af lyst voks med bogstavet S i perg.rem</ab>
+                              <ab>Segl for Siger, prior i Vor Frue kloster i Lund, af grønt
+                                voks i ufarvet i perg.rem</ab>
                            </seal>
                            <seal n="4" type="pendant">
-                              <ab>Bomærke af lyst voks i perg.rem</ab>
+                              <ab>Bent Jensens bomærke af ufarvet voks i
+                                perg.rem</ab>
                            </seal>
                         </sealDesc>
                      </physDesc>
                      <history>
-                        <ab>Hans Pedersen (Spaldener) overlader pantebrevet på den pågældende gård til Niels
-      Svendsen (Sparre) af Ellinge d. 30. apr. 1434, jf. DD 14340430001</ab>
+                        <ab>empty</ab>
                      </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>Rep. nr. 5969</bibl>
+                           <bibl>Gammeldanske Diplomer 2. rk II 190-191</bibl>
+                        </listBibl>
+                     </additional>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-               <bibl>Gammeldanske Diplomer 2. rk. II 190-91</bibl>
-               <bibl>Rep. nr. 5969</bibl>
-            </listBibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -126,18 +138,11 @@
          <langUsage>
             <language ident="gda">Hovedsprog: gammeldansk. </language>
          </langUsage>
-         <abstract>
-            <ab>Henrik Jensen, væbner, pantsætter sin gård i Östra Torrlösa i Onsjö herred til Hans
-      (Pedersen) Spaldener, væbner, på det vilkår at Hans Spaldener skal oppebære gårdens indtægter
-      indtil gården bliver indløst. Når Henrik Jensen indløser gården, skal han umiddelbart have den
-      tilbage. Såfremt Henrik Jensen derefter vil pantsætte eller sælge gården, skal Hans Spaldener
-      have fortrinsret.</ab>
-         </abstract>
       </profileDesc>
       <revisionDesc>
-         <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
-         <change when="2018-10-30" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-10-30. </change>
-         <change when="2020-05-10" who="#smb">2. korrektur af #smb 2020-05-10. </change>
+         <change when="2016-11-29" who="#alk">Filen etableret af #alk 2016-11-29. </change>
+         <change when="2016-12-12" who="#alk">1. korrektur af #alk 2016-12-12. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
          <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
       </revisionDesc>
    </teiHeader>
@@ -147,37 +152,82 @@
    <text>
       <body>
          <div xml:lang="gda">
-            <p n="a#1" xml:space="preserve">Allæ mæ<ex>n</ex> th<ex>et</ex>tæ breff see æller høræ læses / helser jak <persName><app><lem>Hinryk Jenss<ex>øn</ex></lem><rdg wit="#A">delvist understreget, A</rdg></app> awapn</persName> / ewi<ex>n</ex>nælegæ m<ex>eth</ex> gwth ♦ Th<ex>et</ex> skal
-      allæ mæ<ex>n</ex> witherlict war<ex>e</ex> nærwærend<ex>es</ex> swa vel som
-      ko<ex>m</ex>mæskwlend<ex>es</ex> / ath iak til <app><lem>pant sætter</lem><rdg wit="#A">understreget, A</rdg></app> een min gaardh / een velboren ma<ex>n</ex>
-      <persName>Hanes Spoldænær awapn</persName> / hwilken gaardh som ligger j <placeName>Østhræ
-        Thorløsæ</placeName> j <placeName>Othenshær<ex>et</ex></placeName> / ok inæ<ex>n</ex> boor
-        <persName>Jenes Offæss<ex>øn</ex></persName> ffor tij lødegæ mark pe<ex>n</ex>ni<ex>n</ex>gæ
-      / ♦</p>
-            <p n="a#2" xml:space="preserve">M<ex>eth</ex> swo dant skææl / at <persName>Hanes Spoldæner</persName> skal hawæ
-      th<ex>e</ex>n gaardh m<ex>eth</ex> all th<ex>e</ex>n tilliggelsæ ther til hanu<ex>m</ex>
-      ligger som ær ager ok æyngh skow ok mark woath ok tyrwrt / hwat th<ex>et</ex> næfnæs kan ok
-      eyngtæ wndentagh<ex>et</ex> / ok aff at sætyæ ok j at setyæ hweym ha<ex>n</ex> wil / ok vp at
-      bæræ landgildæ thyænestæ ok thayær ok hwat th<ex>e</ex>r aff ganger / swo leyngæ til thes
-      the<ex>n</ex> for<hi rend="sup">dæ</hi> gaardh worther Hanes Spoldænær lofflegæ aff
-      løsth<ex>e</ex>r æller hans arffwingæ / ♦</p>
-            <p n="a#3" xml:space="preserve">Ok ingen forsawther læsningæ dagh skal waræ / mæ<ex>n</ex> naar <persName>Hinrik
-        Jenss<ex>øn</ex></persName> pe<ex>n</ex>ni<ex>n</ex>gæ rethæ worthæ ok ha<ex>n</ex>
-      haw<ex>er</ex> th<ex>et</ex> lofflegæ jgeen løst for swo danæ pe<ex>n</ex>ni<ex>n</ex>gæ som
-      tha gayngæ ok gewæ æræ j 1andh<ex>et</ex> tha skal han hawæ sit gootz jgen for wdhen al
-      thøffringh / ♦</p>
-            <p n="a#4" xml:space="preserve">Item woræ th<ex>et</ex> swo at <persName>Hinryk Jenss<ex>øn</ex></persName> skwldæ ythermeræ
-      pantsætyæ th<ex>e</ex>n for<hi rend="sup">dæ</hi> gaardh aller seliæs aller affhendes j nogræ
-      mathæ / tha skwldæ eyngen a<ex>n</ex>nær nærmer waræ een <persName>Hanes Spoldæner</persName>
-      æller hans arffwingæ ♦</p>
-            <p n="a#5" xml:space="preserve">Til <app><lem>meræ</lem><rdg wit="#A">skrevet to gange efter hinanden på linjen, A</rdg></app> witnesbyrdh ok forwaringh haw<ex>er</ex> iæk ladh<ex>et</ex> mit insiglæ m<ex>eth</ex>
-      skellegæ mææns ingsiglæ som æræ <persName>her Iacob abut</persName> j <placeName>Allæheliænæ
-        closther</placeName> / <persName>her Seyær priær</persName> j <app><lem>mø<ex>n</ex>næ</lem><rdg wit="#A"><q>m</q> for <q>n</q> efter lat. <q>monasterium monialium Lundis</q>?</rdg></app> closth<ex>e</ex>r j Lu<ex>n</ex>dh / <persName>Bæint Jenssen radma<ex>n</ex></persName>
-      j th<ex>e</ex>n sa<ex>m</ex>mæ staath hæynges ffor th<ex>et</ex>tæ b<ex>re</ex>ff ♦</p>
-            <p n="a#6" xml:space="preserve">Datum Lundis anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxij<hi rend="sup">o</hi> die assencionis domini ♦</p>
+            <p n="a#1">Allæ mæ<ex>n</ex> th<ex>et</ex>tæ breff see æller høræ læses / helser jak
+                                <persName>Hinryk Jenss<ex>øn</ex>
+               </persName> awapn /
+                        ewi<ex>n</ex>nælegæ m<ex>eth</ex> gwth ♦</p>
+            <p n="a#2">Th<ex>et</ex> skal allæ mæ<ex>n</ex> witherlict war<ex>e</ex>
+                        nærwærend<ex>es</ex> swa vel som ko<ex>m</ex>mæskwlend<ex>es</ex> / ath iak
+                        til pant sætter een min gaardh / een velboren ma<ex>n</ex>
+               <persName>Hanes Spoldænær</persName> awapn / hwilken gaardh som ligger j
+                                <placeName>Østhræ Thorløsæ</placeName> j
+                                <placeName>Othenshær<ex>et</ex>
+               </placeName> / ok inæ<ex>n</ex> boor
+                                <persName>Jenes Offæss<ex>øn</ex>
+               </persName> for tij lødegæ mark
+                        pe<ex>n</ex>ni<ex>n</ex>gæ / m<ex>eth</ex> swo dant skææl / at Hanes
+                        Spoldæner skal hawæ th<ex>e</ex>n gaardh m<ex>eth</ex> all th<ex>e</ex>n
+                        tilliggelsæ ther til hanu<ex>m</ex> ligger som ær ager ok æyngh skow ok mark
+                        woath ok tyrwrt / hwat th<ex>et</ex> næfnæs kan ok eyngtæ
+                        wndentagh<ex>et</ex> / ok aff at sætyæ ok j at setyæ hweym ha<ex>n</ex> wil
+                        / ok vp at bæræ landgildæ thyænestæ ok thayær ok hwat th<ex>e</ex>r aff
+                        ganger / swo leyngæ til thes th<ex>e</ex>n for<hi rend="sup">dæ</hi> gaardh
+                        worther Hanes Spoldænær lofflegæ aff løsth<ex>e</ex>r æller hans arffwingæ /
+                        ♦</p>
+            <p n="a#3">Ok ingen forsawther læsningæ dagh skal waræ / mæ<ex>n</ex> naar Hinrik
+                        Jenss<ex>øns</ex> pe<ex>n</ex>ni<ex>n</ex>gæ rethæ worthæ ok ha<ex>n</ex>
+                        haw<ex>er</ex> th<ex>et</ex> lofflegæ jgeen løst for swo danæ
+                        pe<ex>n</ex>ni<ex>n</ex>gæ som tha gayngæ ok gewæ æræ j landh<ex>et</ex> tha
+                        skal han hawæ sit gootz jgen for wdhen al thøffringh / ♦</p>
+            <p n="a#4">Item woræ th<ex>et</ex> swo at Hinryk Jenss<ex>øn</ex> skwldæ ythermeræ pantsætyæ
+                        th<ex>e</ex>n for<hi rend="sup">dæ</hi> gaardh aller seliæs aller affhendes
+                        j nogræ mathæ / tha skwldæ eyngen a<ex>n</ex>nær nærmer waræ een Hanes
+                        Spoldæner æller hans arffwingæ ♦</p>
+            <p n="a#5">Til <app>
+                  <lem>meræ</lem>
+                  <rdg wit="#A">Herefter gentaget <q>meræ</q>, A</rdg>
+               </app> witnesbyrdh ok forwaringh haw<ex>er</ex> iæk ladh<ex>et</ex> mit
+                        insiglæ m<ex>eth</ex> skellegæ mææns ingsiglæ som æræ her
+                                <persName>Iacob</persName>
+               <placeName>abut j Allæheliænæ closther</placeName> / her
+                                <persName>Seyær</persName>
+               <placeName>priær j <app>
+                     <lem>mø<ex>n</ex>næ closth<ex>e</ex>r j Lu<ex>n</ex>dh</lem>
+                     <rdg wit="#A">Således A; det fremgår af <ref>Dipl. Dan. 1421. 28.
+                                                  juni</ref> at Siger var prior i Vor Frue kloster i
+                                                Lund</rdg>
+                  </app>
+               </placeName> / <persName>Bæint Jenssen</persName>
+               <placeName>radma<ex>n</ex> j th<ex>e</ex>n sa<ex>m</ex>mæ staath</placeName>
+                        hæynges ffor th<ex>et</ex>tæ b<ex>re</ex>ff ♦</p>
+            <p n="a#6">Datum <placeName>Lundis</placeName> anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxii<hi rend="sup">o</hi> die assencionis domini
+                        ♦</p>
          </div>
          <div xml:lang="da">
-            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+            <p n="b#1">Alle mænd, der ser dette brev eller hører det læse, hilser jeg Henrik Jensen,
+                        væbner, evindelig med Gud.</p>
+            <p n="b#2">Det skal være vitterligt for alle mænd, nulevende såvel som kommende, at jeg til
+                        velbåren mand Hans Spoldener, væbner, pantsætter min gård – den gård,
+                        som ligger i Östra Torrlösa i Onsjö herred, og hvori Jens Uffesen bor
+                        – for ti lødige mark penge på det vilkår, at Hans Spoldener skal have
+                        gården med alt det tilliggende, der hører til – nemlig ager og eng,
+                        skov og mark, vådt og tørt, hvad det end kan betegnes og intet undtaget
+                        – og afsætte og indsætte hvem han vil, og oppebære landgilde,
+                        arbejdsydelser og afgifter og hvad der ydes af den, indtil den førnævnte
+                        gård lovligt indløses fra Hans Spoldener eller hans arvinger.</p>
+            <p n="b#3">Og der skal ikke være fastsat nogen indløsningsdag, men når Henrik Jensens penge
+                        bliver udredt, og han lovligt har genindløst pantet for penge, som er
+                        gangbare i landsdelen, da skal han uden opsættelse have sit gods
+                        tilbage.</p>
+            <p n="b#4">Ligeledes: Skulle det ske, at Henrik Jensen yderligere skulle pantsætte den
+                        førnævnte gård, eller sælge eller afhænde den på nogen måde, så skulle ingen
+                        anden være nærmere til at modtage den end Hans Spoldener eller hans
+                        arvinger.</p>
+            <p n="b#5">Til bedre vidnesbyrd og sikkerhed har jeg ladet mit segl hænge ved dette brev
+                        sammen med segl tilhørende de forstandige mænd, nemlig hr. Jakob, abbed i
+                        Allehelgenskloster, hr. Siger, prior i nonneklostret i Lund, Bent Jensen,
+                        rådmand sammesteds.</p>
+            <p n="b#6">Givet i Lund i det Herrens år 1422, på Kristi himmelfartsdag.</p>
          </div>
       </body>
    </text>

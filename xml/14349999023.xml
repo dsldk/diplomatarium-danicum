@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">38</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14340000023</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Registreret to steder i København. Rigsarkivet. De ældste
+                        arkivregistraturer: a) Registratur A over Viborg stifts breve (1540’erne),
+                        upag., i afsnittet <q>Hornomherrit primo</q>; b) Registratur B over Viborg
+                        stifts breve (1574), f. 27r, i afsnittet <q>Huornumherritt</q>. Begge
+                        registraturer er stærkt beskadiget af fugt, i A-reg. er mange af bladene kun
+                        delvis bevaret med teksttab til følge</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 303 nr. K. 101 (a)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434" notBefore="1434" notAfter="1434" cert="high">1434.</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Troels Nielsen skøder et møllested i Neringbro (Fleskum herred) og en gård i
+                        Bonderup i Hornum herred til Jon (eller Peder) Nielsen af Ferslev.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-31" who="#pbh">Filen etableret af #pbh 2013-10-31. </change>
+         <change when="2021-04-13" who="#alk">1. korrektur af #alk 2021-04-13. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">a):</p>
+            <p n="a#2" xml:space="preserve"><damage>Item Trogel</damage>s Nielss<ex>ens</ex> skøtbr<ex>e</ex>ff tiill
+                                <persName>Iogen<ex>n</ex> Nielss<ex>en</ex></persName> och hanss
+                                <damage>..... paa it</damage>t mølsted ligind<ex>is</ex> huss
+                                <placeName>Nering bro</placeName> oc <damage>en gard j
+                        B</damage>onderup i <placeName>Hornumh<ex>erri</ex>t</placeName> ♦</p>
+            <p n="a#3" xml:space="preserve">Datum mcdxxxiiii ♦</p>
+            <p n="a#4" xml:space="preserve">b):</p>
+            <p n="a#5" xml:space="preserve"><persName>Throels Nilss<ex>en</ex>s</persName> skiød till <app><lem>Ped<ex>er</ex></lem><rdg wit="#A">Således reg. B; ÆA formoder fejl for <q>Iogenn</q>,
+                                        jf. <ref target="14071114001">DD 1407. 14. nov., nr.
+                                                14071114001</ref></rdg></app> Nilss<ex>en</ex> aff <placeName>Fersleff</placeName> paa itt
+                        møllested liggindis hoss Nering broff och en gard j
+                                <placeName>Bonderup</placeName>, ♦</p>
+            <p n="a#6" xml:space="preserve">Mcdxxxiiii ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

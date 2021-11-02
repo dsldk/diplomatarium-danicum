@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14330207001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -127,12 +129,13 @@
         </listWit>
         <listBibl>
           <bibl>APD III 47 nr. 1678</bibl>
+          <bibl>Weibull, Dipl. dioc. Lund. III 121 nr. 125</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter Dipl. dioc. Lund. l.l.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +148,18 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1433-02-07" notBefore="1433-02-07" notAfter="1433-02-07" cert="high">1433. 7. februar</date>
-        <placeName cert="high">Rom</placeName>
+        <date when="1433-02-07" notBefore="1433-02-07" notAfter="1433-02-07" cert="high">1433. 7.
+            februar<note>Smlgn. den herefter udstedte bulle, <ref target="14330207002">DD 1433. 7.
+              feb., nr. 14330207002</ref></note></date>
+        <placeName cert="high">Rom, S. Pietro</placeName>
       </creation>
       <abstract>
-        <ab> Kapitlet i Lund får lov til at holde to messer i domkirken om morgenen og på visse festdage uddele samme aflad som på Kristi legemsfest.</ab>
+        <ab>Pave Eugenius 4. bevilger to supplikker af kapitlet i Lund: Den første om tilladelse til
+          straks efter matutinen at holde to på hinanden følgende messer, som kapitlet betvivler
+          lovligheden af, fordi solen endnu ikke er stået op til den tid om vinteren.</ab>
+        <ab>Den anden om at måtte tilstå samme aflad som på Kristi legemsfest til dem, som besøger
+          kirken og deltager i gudstjenesten på Mariæ himmelfart, sankt Laurentius' og sankt Knuds
+          helligdage og ved relikviernes fremvisning.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,8 +172,9 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-10-11" who="#pbh">Filen etableret af #pbh 2013-10-11. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
-      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-11-07" who="#pbh">Tekst indskrevet osv.</change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
   </teiHeader>
@@ -173,10 +184,28 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1">Beatissime pater.</p>
+        <p>Cum devoti vestri capitulum ecclesie <placeName>Lundensis</placeName> ad honorem dei et
+          propter devocionem populi statim dictis matutinis in ipsa ecclesia duas successive et
+          continue missas decantare desiderant, sed dubitant hoc eis licere eo, quod tunc hyemali
+          tempore aurora diei nondum apparet, quare supplicant sanctitati vestre, quatenus eis ad
+          hujusmodi missas, ut predicitur, decantandas licenciam perpetuam concedere dignemini,
+          constitucionibus apostolicis et aliis contrariis non obstantibus quibuscunque.</p>
+        <p>Concessum<persName> B. Gradensis</persName>.</p>
+        <p>Item supplicat sanctitati vestre dictum capitulum, quatenus in assumpcionis beate Marie
+          ac sancti Laurencii et sancti Canuti festis ac in reliquiarum ostensione, que semel in
+          anno in dicta ecclesia solempniter infra missarum sollempnia fieri consuevit, indulgencias
+          concessas interessentibus singulis horis festivitatis corporis Christi concedere dignemini
+          omnibus et singulis dictam ecclesiam Lundensem in quolibet dictorum festorum visitantibus
+          et similiter illis, qui interfuerint ostensioni predicte, et hoc in perpetuum,
+          constitucionibus contrariis non obstantibus cum clausulis oportunis.</p>
+        <p>Concessum in forma in presencia domini nostri pape. B. Gradensis.</p>
+        <p>Datum <placeName>Rome apud sanctum Petrum</placeName> septimo idus februarii anno
+          secundo.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
       </div>
     </body>
   </text>

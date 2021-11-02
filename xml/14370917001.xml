@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Diplomatarium Danicum</title>
         <editor>
-          <name xml:id="th">
+          <name xml:id="pbh">
             <persName>
-              <forename type="first">Thomas</forename>
-              <surname>Hansen</surname>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
             </persName>
           </name>
         </editor>
         <funder>Carlsbergfondet</funder>
       </titleStmt>
-      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
-         </extent>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
       <publicationStmt>
-        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
         <pubPlace>København</pubPlace>
         <date>2016</date>
         <idno type="dd">14370917001</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab>Copyright © 2016, Danske Sprog- og
-								Litteraturselskab</ab>
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -111,7 +113,7 @@
                   </handNote>
                 </handDesc>
                 <additions>
-                  <ab>empty</ab>
+                  <ab>Efter teksten registrators egenhændige bemærkning: <q>An. l. de Adria</q></ab>
                 </additions>
                 <sealDesc>
                   <seal n="0" type="empty">
@@ -127,12 +129,14 @@
         </listWit>
         <listBibl>
           <bibl>APD III 106 nr. 1798</bibl>
+          <bibl>Weibull, Dipl. dioc. Lund. III 189 nr. 194</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <samplingDecl>
-        <ab>Stub: tekst og oversættelse under udarbejdelse</ab>
+        <ab>Tekst og arkivalske oplysninger efter Dipl. dioc. Lund. l.l. For brevets udeladte
+          formel, jf. <ref target="14230327002">DD 1423. 27. mar., nr. 14230327002</ref>.</ab>
       </samplingDecl>
       <projectDesc>
         <ab>DD-5</ab>
@@ -145,11 +149,13 @@
     </encodingDesc>
     <profileDesc>
       <creation>
-        <date when="1437-09-17" notBefore="1437-09-17" notAfter="1437-09-17" cert="high">1437. 17. september</date>
+        <date when="1437-09-17" notBefore="1437-09-17" notAfter="1437-09-17" cert="high">1437. 17.
+          september</date>
         <placeName cert="high">Bologna</placeName>
       </creation>
       <abstract>
-        <ab> Paven indsætter biskopperne i Lübeck og Växjö og ærkedegnen i Rostock til værneherrer for Lunde ærkebiskop, brevet skal gælde for 10 år.</ab>
+        <ab>Pave Eugenius 4. indsætter for en periode på 10 år biskopperne i Lübeck og Växjö og
+          ærkedegnen i Rostock til værneherrer for Hans (Laxmand), ærkebiskop i Lund.</ab>
       </abstract>
       <langUsage>
         <language ident="la"/>
@@ -162,7 +168,8 @@
     </profileDesc>
     <revisionDesc>
       <change when="2013-11-28" who="#pbh">Filen etableret af #pbh 2013-11-28. </change>
-      <change when="99999999" who="#th">1. korrektur af #th 99999999. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
       <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
       <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
     </revisionDesc>
@@ -173,10 +180,23 @@
   <text>
     <body>
       <div xml:lang="la">
-        <p n="a#1">empty</p>
+        <p n="a#1"><persName>Eugenius</persName> etc. venerabilibus fratribus
+            <placeName>Lubicensi</placeName> et <placeName>Vexionensi</placeName> episcopis ac
+          dilecto filio archidiacono <placeName>Rostoccensi</placeName> in ecclesia
+            <placeName>Zwerinensi</placeName> salutem etc. </p>
+        <p>Ad hoc nos deus pretulit in familiam domus sue, ut oportuna singulis provisionis auxilia
+          fidelis servitutis invicte providencia pro tempore dispensante eorum presertim
+          necessitatibus intendamus, occuramus dispendiis ipsosque ab oppressionibus relevemus, qui
+          assumpti in partem solicitudinis potioris sunt dignitatis titulo insigniti. </p>
+        <p>Sane venerabilis fratris nostri <persName>Johannis</persName>, archiepiscopi
+            <placeName>Lundensis</placeName>, conquestione percepimus, quod ... presentibus post
+          decennium minume valituris. </p>
+        <p>Datum <placeName>Bononie</placeName> anno incarnacionis dominice mcdxxxvii quintodecimo
+          kal. octobris anno septimo.</p>
       </div>
       <div xml:lang="da">
-        <p n="b#1">empty</p>
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
       </div>
     </body>
   </text>
