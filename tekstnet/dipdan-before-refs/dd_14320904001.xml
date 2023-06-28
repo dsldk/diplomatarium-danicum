@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">319</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14320904001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3126-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10.4 (plica: 1.6)</height>
+                                    <width>23</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af lyst voks i perg.rem tilhørende Grete Henriksdatter
+        (Brockdorf), <ref>AS B xii 10</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Segl af lyst voks i perg.rem tilhørende Mette Pedersdatter
+        (Present), <ref>AS L lvi 8</ref></ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Segl af lyst voks i perg.rem, udslidt</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 62-64</bibl>
+               <bibl>Rep. nr. 6584</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-09-04"
+                  notBefore="1432-09-04"
+                  notAfter="1432-09-04"
+                  cert="high">1432. 4. september</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Grete Henriksdatter (Brockdorf), mor til Lars Jensen (Panter) af Løgismose, og hendes
+      svigerdatter Mette Pedersdatter (Present), enke efter den sidstnævnte, erklærer at skylde
+      Bertold Jakobsen, rådmand i Assens, 30 lybske mark. For denne sum pantsætter de ham en gård i
+      Sønder Broby i Sallinge herred med al dens tilliggende, med undtagelse af den mængde skov, som
+      den vorned, der bor på gården, behøver til husbygning, brændsel og al sin oldengæld. Bertold
+      Jakobsen skal årligt oppebære alt, hvad gården kan yde i afgift, uden modregning i gældens
+      hovedstol. Gårdens indløsning skal kundgøres på Sallinge herredsting et ting før sankthansdag,
+      og den skal derefter indløses på den næstfølgende mortensdag. Afgiften skal følge hovedstolen,
+      også det år gården indløses.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-10" who="#pbh">Filen etableret af #pbh 2013-10-10. </change>
+         <change when="2019-07-03" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-07-03. </change>
+         <change when="2019-08-30" who="#alk">2. korrektur af #alk 2019-08-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn som th<ex>et</ex>tæ breff zee æll<ex>æ</ex>r høræ lesis helsæ wy <persName><app><lem>Grete</lem><rdg wit="#A">understregning begynder ved <q>t</q>, A</rdg></app> Hinrig<ex>es</ex> dotær</persName>
+      <persName><app><lem>Laurentz</lem><rdg wit="#A">understregning slutter ved <q>n</q>, A</rdg></app> Jenssøns</persName>
+      <app><lem>moth<ex>e</ex>r</lem><rdg wit="#A">her begynder understregning, A</rdg></app> aff <placeName><app><lem>Løwetsmosæ</lem><rdg wit="#A">understregning slutter ved <q>w</q>, A</rdg></app></placeName> / oc <persName><app><lem>Mette</lem><rdg wit="#A">understregning begynder ved <q>t</q>(1), A</rdg></app> Pethersdoter</persName> then for<hi rend="sup">d<ex>e</ex></hi>
+      <persName><app><lem>Laure<ex>n</ex>tz</lem><rdg wit="#A">understregning slutter ved <q>e</q>, A</rdg></app> Jenssøns</persName>
+      <app><lem>efft<ex>er</ex>leffui<ex>n</ex>gh</lem><rdg wit="#A">el. -leffni<q>n</q>gh, A</rdg></app> ewindeligh meth gudh ♦</p>
+            <p n="a#2" xml:space="preserve">Oc ku<ex>n</ex>gøræ wy th<ex>et</ex> alle mæn nerwernd<ex>es</ex> som ko<ex>m</ex>mæ
+      skulend<ex>es</ex> at wy wetherke<ex>n</ex>næs oss m<ex>eth</ex> th<ex>et</ex>tæ wort obnæ
+      breff retelik skyldich at weræ een beskeden man <persName>Bertold Jæiipson</persName> radman j
+        <placeName>Asnes</placeName> ok hans sa<ex>n</ex>næ arffwinge j tredywæ lub<ex>iskæ</ex>
+      m<ex>a</ex>rk rede pe<ex>n</ex>ni<ex>n</ex>ghæ som nw j <placeName>Lubeke</placeName> ok j
+        <placeName>Hamborgh</placeName> genge ok geffwe æræ . ♦</p>
+            <p n="a#3" xml:space="preserve"><app><lem>For</lem><rdg wit="#A">skrevet <q>ffor</q>, A</rdg></app> hwelke tredywæ lub<ex>iskæ</ex> m<ex>a</ex>rk wy ha<ex>n</ex>næm til pant sette een
+      godh gord som ligg<ex>er</ex> j <placeName>Salingh herith</placeName> ok j
+        <placeName>Sønderbroby</placeName> j hwelken gaard <persName>Anders Jæiipson</persName> nw j
+      boær mek alle synæ tillydilsæ ok tilhørilsæ som ær ager engh fiskewan fegangh woth oc thyrth
+      enktæ vndertag<ex>et</ex> fforwthen skowen then skal han enktæ nythæ at for wthen so møgilt
+      som wornedin th<ex>e</ex>r j boer mest behøffwer til sin husbyghni<ex>n</ex>gh ok eldebranth
+      ok all syn aldengyald . ♦</p>
+            <p n="a#4" xml:space="preserve">Rentæ skat bethæ ok alt a<ex>n</ex>net ther kan aff gaa skal for<hi rend="sup">d<ex>e</ex></hi>
+      <persName>Bertold</persName> arlik vp bæræ aff howetgyaldin enkte aff atslaa . ♦</p>
+            <p n="a#5" xml:space="preserve">Item nær wy all<ex>e</ex>r woræ sa<ex>n</ex>næ arffwingæ wilæ th<ex>et</ex> gotz jn løsæ aff
+        for<hi rend="sup">d<ex>e</ex></hi> Bertold all<ex>e</ex>r hans arffwinge tha skal losnigen
+      ku<ex>n</ex>gøres paa Salingh hæritz tingh eet tingh for s<ex>anc</ex>ti Johannis dagh meth
+      so<ex>m</ex>mær ok losis om s<ex>anc</ex>ti Martens dagh th<ex>e</ex>r næst æft<ex>er</ex>
+      ko<ex>m</ex>mær ok tha skal giften fylgæ pe<ex>n</ex>ni<ex>n</ex>gen so th<ex>et</ex> aar som
+      andræ aar til fornæ ♦</p>
+            <p n="a#6" xml:space="preserve">Item tha tilbynthæ wy oss ok woræ arffwingæ at frij frelsæ ok hemblæ ffor<hi rend="sup">d<ex>e</ex></hi> Bertold ok hans rætæ arffwinge then for<hi rend="sup">d<ex>e</ex></hi>
+      gaard . ffor hwer mantz atalæ ællær geensielsæ so lenge til han lofflich løsis ♦</p>
+            <p n="a#7" xml:space="preserve">In cujus rei testimonium sigilla nostra una cum sigillis virorum discretorum et honorabilium
+      scilicet domini <persName>Johannis Fynnonis</persName> prepositi
+        <placeName>Tofftensis</placeName> domini <persName>Johannis Nicolai</persName> officialis in
+        <placeName>Bogh<ex>e</ex>r<ex>ith</ex></placeName>
+      <persName>Hans Brynike</persName> et <persName>Hans Pulæ</persName> consulum Asnes presentibus
+      sunt appensa ♦</p>
+            <p n="a#8" xml:space="preserve">Datum anno domini millesimo cd<hi rend="sup">o</hi> xxx<hi rend="sup">o</hi> secundo feria
+      quinta ante festum nativitatis Marie virginis gloriose ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

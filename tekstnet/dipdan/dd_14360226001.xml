@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">248</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14360226001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Langebek angiver, at afskriften er foretaget efter <q>Orig. membr. valde lacer.
+        et mutilum af Vor Frue Kirkes Archiv. 1750</q>. Om seglene bemærker han, at <q>Capitelets
+        seigl, som har hengt først, er borte. I biskopens seigl er en ibskal de øvrige ere
+      borte</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6806</bibl>
+               <bibl>Reg. *5123</bibl>
+               <bibl>Københavns Dipl. IV 33-34 nr. 42</bibl>
+               <bibl>Rørdam, Kjøbenhavns Kirker og Klostere, tillæg s. 40-41 nr. 33</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Aa. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-02-26"
+                  notBefore="1436-02-26"
+                  notAfter="1436-02-26"
+                  cert="high">1436. 26. februar</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Andersen Lodehat, biskop af Roskilde, stadfæster hr. magister Knud Nielsens og hr.
+      Svend Vestenskovs gaver til Sankt Povls alter i Sankt Petri kirke i København og de til gaven
+      knyttede betingelser: Sakristanen i Vor Frue kirke skal disponere over dette alter og oppebære
+      dets indtægter til egen brug mod at lade holde tre ugentlige messer samt årlige sjælemesser
+      for giverne.</ab>
+            <ab>Biskoppen annekterer efter anmodning fra Knud Nielsen og Svend Vestenskov tillige altret til
+      sakristanembedet ved Vor Frue kirke.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-12" who="#pbh">Filen etableret af #pbh 2013-11-12. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-08-21" who="#alk">2. korrektur af #alk 2017-08-21. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis, quorum interest vel interesse poterit quomodolibet in futurum,
+        <persName>Johannes</persName> dei gratia <placeName>episcopus Roskildensis</placeName>,
+      salutem et continuam <app>
+                  <lem>in</lem>
+                  <rdg wit="#Aa">Over linjen rettet til <q>a</q>, men dette atter slettet, Aa</rdg>
+               </app> domino caritatem. ♦</p>
+            <p n="a#2">Cura pastoralis officii hoc exigit, ut hiis, que decorem <app>
+                  <lem>domus</lem>
+                  <rdg wit="#Aa">Herefter slettet <q>dei</q>, Aa</rdg>
+               </app> domini <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lakune</rdg>
+               </app> concernunt <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lille lakune</rdg>
+               </app> teneamur <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> divinum cultum <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> facilem præbere consensum. ♦</p>
+            <p n="a#3">Cum igitur felicis recordationis <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lakune</rdg>
+               </app> et aliorum <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lille lakune</rdg>
+               </app> fervore devocionis <app>
+                  <lem>accens<damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> divini cultus ampliationem quoddam <placeName>altare <app>
+                     <lem>videlicet</lem>
+                     <rdg wit="#Aa">Herefter slettet <q>Jacobi</q>, Aa</rdg>
+                  </app> sancti Pauli</placeName>
+               <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune; herefter slettet <q>honorabiles viri
+            domini magister Kanutus Nicolai</q>
+                  </rdg>
+               </app> potuit idem altare sic per ipsum erectum et <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> honorabiles viri domini magister <persName>Kanutus Nicolai</persName> et
+        <persName>Sweno</persName> de <placeName>Westenskow</placeName>
+               <app>
+                  <lem>
+                     <damage>fervore devocionis</damage>
+                  </lem>
+                  <rdg wit="#Aa">Konjektur af Rørdam. I Langebeks afskrift er her først angivet en lille
+          lakune, dernæst skrevet et siden slettet <q>residencie</q>, og derefter angivet en
+          lakune</rdg>
+               </app> accensi antedictum <app>
+                  <lem>
+                     <damage>.....</damage>verunt.</lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> ♦</p>
+            <p n="a#4">Ad cujus <app>
+                  <lem>do<damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lille lakune</rdg>
+               </app> predictus magister Kanutus <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lakune</rdg>
+               </app> residencie <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> idem magister Kanutus <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> suus de fabrica <placeName>ecclesie beate virginis</placeName> antedicte justo
+      emptionis titulo habuerunt. ♦</p>
+            <p n="a#5">Item <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app>
+               <app>
+                  <lem>Sweno<damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lille lakune</rdg>
+               </app> in platea <placeName>Nørregade</placeName> ad <app>
+                  <lem>orient<damage>em .....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lille lakune</rdg>
+               </app> Haffnis sitam de eadem ecclesia beate virginis justo emptionis titulo acquisitam <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lille lakune</rdg>
+               </app> suarum <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lille lakune</rdg>
+               </app> et benefactorum eorundem donaverunt, scotaverunt et assignaverunt eidem altari sancti <app>
+                  <lem>Pauli</lem>
+                  <rdg wit="#Aa">Herefter slettet <q>Pauli</q>, Aa</rdg>
+               </app> perpetuo possidendam, tali condicione, quod <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en mindre lakune</rdg>
+               </app> canonicus, qui pro tempore fuerit <placeName>sacrista ecclesie Haffnensis</placeName>,
+      prenominatum altare sub <app>
+                  <lem>ordinatione</lem>
+                  <rdg wit="#Aa">Herefter slettet <q>sol</q> eller lignende, Aa</rdg>
+               </app> sua habeat, redditusque ab eisdem curiis emergentes ad usum suum sublevet <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lakune</rdg>
+               </app> hebdomada tres missas ad dictum altare celebrari faciat, nec non tria anniversaria <app>
+                  <lem>v<damage>irorum</damage>
+                  </lem>
+                  <rdg wit="#Aa">Konjektur af Rørdam. I Langebeks afskrift er her markeret en lille
+          lakune</rdg>
+               </app> predictorum magistri Kanuti <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en lille lakune</rdg>
+               </app> et domini Swenonis <app>
+                  <lem>quodl<damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> faciet perpetuis temporibus annuatim celebrari. ♦</p>
+            <p n="a#6">Idcirco predicti magister Kanutus et dominus Sweno nobis humiliter supplicaverunt, quatenus
+      sepedictum altare <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> sacristie Haffnensi annectere et predictam dotationem confirmare auctoritate ordinaria
+      dignaremur. ♦</p>
+            <p n="a#7">Nos igitur justis eorum peticionibus inclinati predictum altare officio sacristie Haffnensi
+      annectimus et incorporamus, predictique altaris fundationem, dotationem et annexionem
+      auctoritate ordinaria confirmamus perpetue duraturas. ♦</p>
+            <p n="a#8">In quarum fundationis, dotationis et annexionis <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> rei evidentiam firmiorem sigillum nostrum una cum sigillis venerabilis
+        <placeName>capituli nostri Haffnensis</placeName> et civitatis ejusdem, nec non antedictorum
+      magistri Kanuti et Swenonis Westenskows <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek markerer her en længere lakune</rdg>
+               </app> presentibus duximus appendendum. ♦</p>
+            <p n="a#9">Datum <placeName>Haffnis</placeName> anno domini millesimo quadringentesimo tricesimo sexto,
+      dominica qua cantatur Invocavit. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

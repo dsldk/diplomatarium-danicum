@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">288</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14261003001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2966; tidl. Skotl. 16</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10.5 (plica: 2.1)</height>
+                                    <width>28.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Segl og pergament konserveret d. 3. juli 1968</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>breff om ii<hi rend="sup">c</hi> nobele so<ex>m</ex>
+        konu<ex>n</ex>ge<ex>n</ex> aff Schotland schal giue konu<ex>n</ex>ge<ex>n</ex> aff
+        Da<ex>n</ex>m<ex>a</ex>rc arlig<ex>en</ex>
+                              </q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Brudstykke af biskop Thomas' segl i mørkt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Brudstykke af Angus' segl i mørkt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Brudstykke af Johns segl i mørkt voks i perg.rem; tekst på perg.rem (a)
+          <q>Sender oll<ex>u</ex>m mo<ex>nnu</ex>m þ<damage>...</damage> se
+            <damage>...</damage> andh<ex>e</ex>r gudh oc sak<ex>e</ex>r godhra</q> og (b)
+            <q>
+                                    <damage>...</damage> m<ex>edh</ex> gudz nadh</q>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. 3467</bibl>
+               <bibl>Nye Danske Magazin V 123 (nr. 12)</bibl>
+               <bibl>Diplomatarium Norvegicum II 512-13 (nr. 689)</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 116a-b</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-10-03"
+                  notBefore="1426-10-03"
+                  notAfter="1426-10-03"
+                  cert="high">1426. 3. oktober</date>
+            <placeName cert="high">Bergen</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Thomas, biskop af Orkneyøerne, Angus af Kirkness, ærkedegn på Shetlandsøerne, og John af
+      Tulloch, kannik i Scone (Gowrie), lover kong Erik 7. af Pommern på hans vegne at modtage den
+      årlige skat på 200 nobler, som (James 1.) kongen af Skotland nu igen har forpligtet sig til
+      at betale til ham.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-15" who="#pbh">Filen etableret af #pbh 2014-07-15. </change>
+         <change when="2018-10-02" who="#jon">1. korrektur af #jon 2018-10-02. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Eth<ex>e</ex>r høybore<ex>n</ex> oc mechtigh h<ex>er</ex>re oc første h<ex>er</ex>re
+        <persName>Erik</persName> m<ex>eth</ex> gudz nadh <placeName>Noreg<ex>is</ex></placeName> <placeName>Da<ex>n</ex>marks</placeName> <placeName>Swerig<ex>is</ex></placeName> <placeName>Wend<ex>is</ex></placeName> oc <placeName>God<ex>is</ex></placeName> konu<ex>n</ex>g ok h<ex>er</ex>togh
+      j Po<ex>m</ex>me<ex>re</ex>n war nadhoghe h<ex>er</ex>re helsse wj <persName>Thomas</persName> m<ex>eth</ex> sa<ex>m</ex>me nadh biscop j <placeName>Orknø</placeName>
+      <persName>Angusius</persName> de <placeName>Kirkenes</placeName> erchediækn j <placeName>Hiætland</placeName> oc
+        <persName>Joh<ex>ann</ex>es</persName> de <placeName>Tulach</placeName> canonicus regularis
+      de <placeName>Scona</placeName> . ♦</p>
+            <p n="a#2" xml:space="preserve">Ok gøre wi eth<ex>e</ex>r nadhe wit<ex>er</ex>licht at effter th<ex>et</ex> at goth sæmie
+      gamelt wenscap oc goth endracht er j ge<ex>n</ex> ko<ex>m</ex>me<ex>n</ex> oc nw fornyghet
+      mello<ex>m</ex> eth<ex>e</ex>r nadhe oc righet Norghe / oc konu<ex>n</ex>ge<ex>n</ex> j
+        <placeName>Scotland</placeName> oc th<ex>et</ex> righe <placeName>Scotland</placeName>
+      ♦ Swo at konu<ex>n</ex>gen j <placeName>Scotland</placeName> scal giffue eth<ex>e</ex>r
+      nadhe aarlighe twhundrethe nob<ex>e</ex>le / oc th<ex>e</ex>m scal ha<ex>n</ex> lade antwordes eth<ex>e</ex>r nadhes høuitzma<ex>n</ex> aff <placeName>Orknø</placeName> ell<ex>e</ex>r biscope<ex>n</ex>
+      aff <placeName>Orknø</placeName> ell<ex>e</ex>r oc capitel th<ex>e</ex>r sa<ex>m</ex>me stadhs / e huilke<ex>n</ex> aff th<ex>e</ex>m so<ex>m</ex> eth<ex>e</ex>r nadhe th<ex>et</ex>
+      befal<ex>e</ex>r / m<ex>eth</ex> swo dan bewisni<ex>n</ex>g so<ex>m</ex> th<ex>e</ex>r til
+      hører the forscr<ex>efne</ex> tu hu<ex>n</ex>drethe no<ex>be</ex>le at aname vpa
+      eth<ex>e</ex>r nadhes wey<ex>n</ex>e . oc giffue th<ex>e</ex>r quitteb<ex>re</ex>f vpa / ♦</p>
+            <p n="a#3" xml:space="preserve">Thæckis eth<ex>e</ex>r nadhe efft<ex>er</ex> thy so<ex>m</ex> th<ex>e</ex>r nw vpa
+        <placeName>Orknø</placeName> standende er / at befale oss th<ex>et</ex> sa<ex>m</ex>me
+      vmbudh oc aname the sa<ex>m</ex>me pe<ex>n</ex>ni<ex>n</ex>ge til eth<ex>e</ex>r nadhis behoff ♦</p>
+            <p n="a#4" xml:space="preserve">Tha wele wj th<ex>e</ex>r swo bewise oss wtj / so<ex>m</ex> wi wele haue eth<ex>e</ex>r nadhes gunst oc thak / oc at eth<ex>e</ex>r nadhe scal m<ex>eth</ex> gudz hielp wforsymeth
+      bliue j th<ex>et</ex> ærende vpa wore weyne oc fore wore schyld ♦</p>
+            <p n="a#5" xml:space="preserve">Til mer<ex>e</ex> wissen h<ex>er</ex> vm haue wi henght wor jncigle fore th<ex>et</ex>te
+      b<ex>re</ex>ff / swo wel vpa all capitels wey<ex>n</ex>e so<ex>m</ex> vpa wore eyne wey<ex>n</ex>e ♦</p>
+            <p n="a#6" xml:space="preserve">Scriptum Bergis anno domini mcdxxvi feria quinta post festum beati Michaelis archangeli ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

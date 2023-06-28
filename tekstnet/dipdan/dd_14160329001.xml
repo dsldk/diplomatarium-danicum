@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">4</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14160329001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>NKR c-2587</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.2 (plica: 0.8)</height>
+                                    <width>23.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>perg.rem forsynet med fire seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>perg.rem forsynet med øverste del af første linje af et brev
+                                 (ulæseligt)</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>perg.rem forsynet med de første to linjer af koncept til
+                                 nærværende brev (ordet <q>latoripresencium</q> glemt)</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5580</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-03-29"
+                  notBefore="1416-03-29"
+                  notAfter="1416-03-29"
+                  cert="high">1416.
+               29. marts</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Splid (Jepsen), væbner på Bornholm, erkender at have solgt et grundstykke i
+               Allehelgens (Nyker) sogn i Åbygård i den østlige del af Hennike Bentsens gård til
+               Peder Bosen, væbner, for fem mark sølv og en tønde tysk øl og lover at skøde den til
+               ham.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-13" who="#pbh">Filen etableret af #pbh 2014-03-13. </change>
+         <change when="2019-06-20" who="#pbh">Tekst osv PBH</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus . <persName>Splyt</persName> armiger in
+               terra <placeName>Borendeholm</placeName> salutem in domino ♦ </p>
+            <p>Notum facio universis presentibus et futuris quod recognosco me viro discreto
+               latoripresencium <persName>Petro Boecii</persName> armigero unum fundum in
+                  <placeName>parochia omnium sanctorum</placeName> in <placeName>Aby</placeName> in
+               orientali parte curie <persName>Henichini Benedicti</persName> situatum cum singulis
+               suis pertinenciis . videlicet . agris pratis silvis humidis et siccis nullis exceptis
+               vel exemptis pro quinque marcis argenti et nil aliud rerum valore . et una lagena
+               cerevisie Alemanice . ad perpetuam possessionem vendidisse . ♦ </p>
+            <p>Insuper obligo me et meos heredes . <app>
+                  <lem>prefato Petro</lem>
+                  <rdg>tilføjet over linjen til erstatning af det på linjen stående, men ikke
+                     slettede, <q>sibi</q>
+                  </rdg>
+               </app> . et suis heredibus predictum fundum ut premittitur cum pertinenciis suis
+               universis . appropriare scotare et disbrigare pro alloqucione quorumcumque ♦ </p>
+            <p>In cujus rei testimonium sigillum meum una cum sigillis virorum discretorum videlicet
+                  <persName>Petri Wf</persName> . <persName>Martini Mortenss<ex>øn</ex>
+               </persName> .
+                  <persName>Magni Magnuss<ex>øn</ex>
+               </persName> . et . <persName>Nicholai
+                     Jepss<ex>øn</ex>
+               </persName> armigerorum presentibus est appensum ♦ </p>
+            <p>Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xvi<hi rend="sup">o</hi> dominica Letare ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

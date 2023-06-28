@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">195</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14200428001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 19470</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Plica udfoldet</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Skrevet m. samme hd. som DD 1420. 3. mar., nr. 14200303001</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Rwmbloborgs læn</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl af lyst voks med udvisket forside i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i Hadorph III E 80 mf. 133 og Peringskiöld E 68 n. 148 (reg.) og n.
+      137</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 95</bibl>
+               <bibl>Svenskt Dipl. III 559 nr. 2761 (= SDHK nr. 19470)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-04-28"
+                  notBefore="1420-04-28"
+                  notAfter="1420-04-28"
+                  cert="high">1420. 28. april</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lars Pig overdrager to gårde i Småland, som hans hustru havde arvet efter sin far, til hr. Ture
+      Stensson (Bielke), i bytte for Fors mølle i Tölö sogn, Fjäre herred. Såfremt Ture Stensson
+      mister de to gårde, forpligter Lars Pig sig til at erstatte ham værdien.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-06-13" who="#maria.arvidsson">Filen etableret af #maria.arvidsson 2018-06-13. </change>
+         <change when="2018-06-13" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-06-13. </change>
+         <change when="2018-10-08" who="#alk">2. korrektur af #alk 2018-10-08. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Th<ex>et</ex> skall allo<ex>m</ex> wit<ex>er</ex>liket wara at jak <persName>Lasse Piik aff
+        wapn</persName> haffu<ex>er</ex> giort eth laghliket jordhaskipte m<ex>eth</ex> ærlikom
+      ma<ex>n</ex>ne h<ex>er</ex>
+      <persName>Thur<ex>e</ex> Stenss<ex>øn</ex> riddara</persName> j swa mato at jak haffu<ex>er</ex>
+      giffuit hano<ex>m</ex> twa my<ex>na</ex> gardha oc my<ex>n</ex>na husfru hwilka ho<ex>n</ex>
+      ærffde æpt<ex>er</ex>
+      <app><lem>sin</lem><rdg wit="#A">Skrevet <q>fin</q>, A</rdg></app> fadh<ex>e</ex>r <persName>Olaff Bosson</persName> so<ex>m</ex> ær en gardh j
+        <placeName>Skardhabro</placeName> j Liwngrwma sok<ex>n</ex> j Tweta h<ex>er</ex>r<ex>et</ex>
+      oc en gardh wppa <placeName>Wisinxø</placeName> so<ex>m</ex> ligg<ex>er</ex> j
+        <placeName>Wrixløso</placeName> j wato oc thørro nær oc fiærra<ex>n</ex> m<ex>eth</ex>
+      allo<ex>m</ex> tillaghu<ex>m</ex> skogh fiskewatno<ex>m</ex> engo wndan takno so<ex>m</ex>
+      th<ex>e</ex>r nw tilligg<ex>er</ex> oc aff ald<ex>er</ex> tillighat haffu<ex>er</ex> for ena
+      qwarn jak fik j gen aff for<hi rend="sup">da</hi> h<ex>er</ex> Thura so<ex>m</ex> kallas Fors
+      liggia<ex>n</ex>d<ex>es</ex> j Thøle sok<ex/> j Fiæ<ex>ra</ex> h<ex>er</ex>r<ex>et</ex>
+      ♦</p>
+            <p n="a#2" xml:space="preserve">War<ex>e</ex> th<ex>et</ex> swa at for<hi rend="sup">da</hi> h<ex>er</ex> Thura
+      æll<ex>er</ex> ha<ex>n</ex>s arffw<ex>um</ex> nogh<ex>et</ex> aff th<ex>e</ex>nna for<hi rend="sup">da</hi> twa gardha <app><lem>m<ex>eth</ex> ræt</lem><rdg wit="#A">Ov. l., A</rdg></app> affginge tha tilbind<ex>e</ex>r jak mik for<hi rend="sup">de</hi>
+      <persName>Lasse</persName> m<ex>eth</ex> mino<ex>m</ex> arffw<ex>um</ex> hano<ex>m</ex> swa
+      got gotz j gen widh<ex>e</ex>rlæggia so<ex>m</ex> th<ex>e</ex>tta nw ær æpt<ex>er</ex> bæggias
+      wa<ex>ra</ex> weners sægn ♦</p>
+            <p n="a#3" xml:space="preserve">Til thes mer<ex>e</ex> wisso lat<ex>er</ex> jak mith jnscighle wit<ex>er</ex>lika hengia for
+      th<ex>e</ex>tta br<ex>e</ex>ff m<ex>eth</ex> godha ma<ex>n</ex>na inscighle so<ex>m</ex> ær
+        <persName>Nissæ Knutzss<ex>øn</ex> aff wapn</persName> oc <persName>Borghar
+        Tyghass<ex>øn</ex> landzdomara j Norrahalla<ex>n</ex>d<ex>e</ex></persName> til witnisbyrdh
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> vicesimo dominica proxima
+      ante festum beati Petri martiris . ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

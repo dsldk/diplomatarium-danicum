@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">245</num>, paragraphs: <num
+               n="paragraphs">5</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14231011001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Krakow</settlement>
+                        <repository>Uniwersytet Jagielloński</repository>
+                        <collection>empty</collection>
+                        <idno>BJ Rkp. 1961 II, fol. 206r-v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Littera per regem Polonie scripta regi Dacie
+                                 etcetera</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4666</bibl>
+               <bibl>Monumenta medii aevi historica res gestas Poloniae illustrantia II 61 nr.
+                  62</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-10-11" notBefore="1423-10-11" notAfter="1423-10-11" cert="low">[1423.]
+               11. oktober<note>Brevet er ikke dateret med år i Aa, men må være fra 1423, idet kong
+                  Eriks ophold i Polen fandt sted i foråret 1424, som det ses af bl.a. <ref
+                     target="14240318001">DD 1424. 18. mar., nr. 14240318001</ref></note></date>
+            <placeName cert="high">Lviv</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Vladislav 2. af Polen meddeler kong Erik 7. af Pommern, at han efter dennes
+               ønske om lejdebrev har sendt tre af sine adelsmænd afsted for at komme kongen i møde
+               og føre ham sikkert gennem Polen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-04" who="#pbh">Filen etableret af #pbh 2014-06-04. </change>
+         <change when="2019-11-14" who="#pbh">1. korrektur af #pbh 2019-11-14. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Serenissimo principi domino <persName>Erico</persName> dei gracia regi <placeName>Dacie </placeName><placeName>Swecie </placeName><placeName>Norwegie </placeName>Gottorum Sclavorum
+      regi et duci <placeName>Pomeranie </placeName>fratri nostro carissimo <persName>Wladislaus </persName>eadem gracia rex <placeName>Polonie</placeName>
+      <placeName>Lijthwanieque</placeName> princeps supremus et heres <placeName>Rusie</placeName> salutem et fraterni amoris continuum
+      incrementum ♦</p>
+            <p n="a#2" xml:space="preserve">Serenissime princeps frater noster carissime littere fraternitatis vestre nobis per strenuum <persName>Swanthosch</persName>
+      exhibite quas grate accepimus continebant quod fraternitas vestra iter conceptum ad serenissimum dominum
+      <persName>Sigismundum</persName> deigracia Romanorum regem semper augustum et <placeName>Hungarie </placeName><placeName>Bohemie </placeName>etcetera regem
+      fratrem utriusque nostrum carissimum utique continuare intenderet in reversione vero ad metas
+      et confinia regni nostri juxta relacionem Swanthosch predicti vellet descendere desiderantes
+      sub fraterni amoris dileccione nostram benivolenciam cum consensu voluntatis pariter et securo
+      conductu ad ea nobis prestari ♦</p>
+            <p n="a#3" xml:space="preserve">Serenissime princeps frater noster carissime genitor vester felicis recordacionis terras
+      dominiorum nostrorum et regni libere et sine quovis impedimento peragrabat neque a nobis
+      alicujus securitatis unquam litteras requirebat / sed et cuilibet amicorum vestrorum liberum
+      est easdem secure transmeare ♦</p>
+            <p n="a#4" xml:space="preserve">Nichilominus ex quo id vestre fraternitatis scripta requirunt salwm conductum nostrum in litteris cum
+      sigillo appenso pariter cum strenuis et nobilibus nostris <persName>Mathia Labijszkij <!-- = Łabiszyn (stednavn) --></persName> pallatino
+      <placeName>Brzestensi</placeName> capitaneo in <placeName>Junivladislavio</placeName> consiliario <persName>Vincencio</persName> de <placeName>Schamotuli</placeName> / <persName>Nicolao
+      Tumigrala</persName> de <placeName>Schova</placeName> militibus fidelibus dilectis in obviam vestre fraternitati ad metas regni nostri
+      destinamus qui illico dum per vestram fraternitatem suscipientes secure conducent sed et aliorum prelatorum ac
+      baronum nostrorum quorumcumque vestre fraternitati placeret . presencia pro votis ejusdem et conductu semper
+      prompta esse debet et parata ♦</p>
+            <p n="a#5" xml:space="preserve">Datum in <placeName>Leopoli</placeName> feria secunda proxima ante sancti Galli etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

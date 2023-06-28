@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14291028001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 293 fol. 58</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift: <q>An. XXX. de Adria</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 424 nr. 1575</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-10-28"
+                  notBefore="1429-10-28"
+                  notAfter="1429-10-28"
+                  cert="high">1429. 28.
+            oktober<ref target="drb1"/>
+            </date>
+            <placeName cert="high">Rom, Santi Apostoli</placeName>
+         </creation>
+         <abstract>
+            <ab> Pave Martin 5. giver Nicolaus Sachow, provst i Slesvig, lov til at bytte sit embede til
+          et andet inden for et tidsrum af to år.</ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-05" who="#pbh">Filen etableret af #pbh 2014-08-05. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-05-04" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <persName>Nicolao Sachow</persName> preposito ecclesie
+            <placeName>Slesvicensis</placeName>.</p>
+            <p>Vite ac morum honestas <app>
+                  <lem>(aliaque laudabilia probitatis et virtutum merita super quibus apud nos fidedigno
+              commendaris testimonio nos inducunt ut tibi reddamur ad graciam liberales)</lem>
+                  <rdg>
+                     <q>etc.</q> Aa</rdg>
+               </app>.</p>
+            <p>Tuis itaque supplicationibus inclinati, <app>
+                  <lem>tibi</lem>
+                  <rdg>herefter <q>ut</q> Aa; slettet af Gertz</rdg>
+               </app>, preposituram ecclesie Slesvicensis, que in illa dignitas major post pontificalem
+          existit, et quam obtines, ex causa permutationis, in qua tamen nulla pactio illicita vel
+          simoniaca pravitas interveniat, in manibus loci ordinarii, sedis apostolice super hoc
+          licentia alias minime requisita, pro quocunque alio beneficio cum cura vel sine cura ..... cum
+          quacunque persona, etiam si persona ipsa apostolicarum abbreviator vel earundem aut
+          penitentiarie nostre litterarum scriptor aut noster seu alicujus ex s. Romane ecclesie
+          cardinalibus familiaris continuus commensalis seu dicte sedis capellanus aut nuntius vel
+          fructuum camere apostolice debitorum collector sive subcollector fuerit, infra biennium a
+          data presentium computandum in manibus quorumcunque ordinariorum locorum, in quibus
+          prepositura et beneficium predicta consistunt, resignandi, ac eisdem ordinariis ex eadem
+          causa resignationem hujusmodi recipiendi ac beneficium, etiam si dispositioni apostolice
+          reservatum existat, tibi et persone prefate preposituram hujusmodi auctoritate apostolica
+          conferendi plenam tenore presentium licentiam elargimur.</p>
+            <p>Volumus autem, quod ordinarius seu ordinarii hujusmodi de nomine et cognomine persone et
+          beneficii, quod ipsa persona resignaverit, ac diebus collationum hujusmodi gentes dicte
+          camere vel collectores fructuum predictorum in illis partibus deputatos certificare
+          procuret.</p>
+            <p>Datum <placeName>Rome prope ss. Apostolos</placeName> 5. kal. nov. anno 12.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

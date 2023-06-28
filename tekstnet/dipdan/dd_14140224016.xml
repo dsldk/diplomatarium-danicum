@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">127</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14140224016</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2412-c, tidl. Nørrejylland 119a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>15 (plica: 0.8)</height>
+                                    <width>30.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Dele af nederste linie forsvundet formodentlig som følge af musegnav. Suppleret efter de øvrige vidisser af samme dato</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>Transcriptum</q>, derunder med anden hånd <q>//
+                        Biscop Boo biscop j Arus oc alt capittel th</q>e<q>r sa</q>m<q>me stedh
+                                ke</q>n<q>nis at th</q>et <q>land Samsøø ær the</q>m <q>rætelicæ af
+                                løst ♦ Item at drotni</q>n<q>g Marg</q>re<q>te hau</q>er
+                                <q>gyort the</q>m <q>fult oc alt suo at the</q>m <q>nogh</q>er
+                                <q>for then øø Kalføø oc th</q>et <q>slot th</q>e<q>r vpa staar oc
+                                for all gield . oc skylni</q>n<q>g . oc
+                        skathe</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Den del af pergamentet, seglet skulle være hæftet til, mangler, men seglet må utvivslomt have tilhørt Klaus
+                                Grubendal, DAS 1138
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit, men seglet må utvivslomt have tilhørt Moleke van
+                                der Lanken, AS E viii 7
+                              </ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit, men seglet må utvivlsomt have tilhørt Gert van
+                                der Lanken, AS C xxxix 1
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. nr. 3282</bibl>
+               <bibl>Molbech og Petersen p. 221</bibl>
+               <bibl>Rep. nr. 5345</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-02-24"
+                  notBefore="1414-02-24"
+                  notAfter="1414-02-24"
+                  cert="empty">1414. 24. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Klaus Grubendal, ridder, og Moleke og Gert van der Lanken, væbnere, udsteder vidisse på et brev fra 9. april 1407, hvori
+        biskop
+        Bo og kapitlet i Århus kvitterer dronning Margrete og kronen for indløsningen af Samsø og øen og borgen Kalø.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-04-06" who="#mh">Filen etableret af #mh 2017-04-06. </change>
+         <change when="2017-04-06" who="#mh">1. korrektur af #mh 2017-04-06. </change>
+         <change when="2017-10-23" who="#maria.arvidsson">2. korrektur af #maria.arvidsson 2017-10-23. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wi <persName>Clawes Grupendale ridder<ex>e</ex>
+               </persName>
+               <persName>Møleke</persName> oc <persName>Gerith van der Lanken
+                                awapn</persName> gøre wit<ex>er</ex>licht oc openbar alle the som
+                        thenne scrifft hør<ex>e</ex> ell<ex>e</ex>r see oss æfter wor
+                        h<ex>er</ex>r<ex>es</ex> føthelsses aar thusendefirehundrethæ vpa
+                        th<ex>et</ex> fiortende aar vpa sancti Mathie apostoli dagh hafue seet oc
+                        skoet oc hørt gra<ex>n</ex>gifflighe fore oss ow<ex>er</ex>læset eet opet
+                        p<ex>er</ex>mæns b<ex>re</ex>ff w raget oc w scrapet oc j alle made wfalsket
+                        oc wmistenkelicht m<ex>eth</ex> sa<ex>n</ex>ne oc wisse hænge<ex>n</ex>de
+                        jncigle jnciglet helt oc holdet oc allstings wel bewaret hwilket
+                        b<ex>re</ex>ff luder ordh fran ordh efter thy som h<ex>er</ex> æfter
+                        følgh<ex>e</ex>r \ ♦</p>
+            <p n="a#2"> Wi Bo meth gudhs nathæ biscop j Arus (etc.
+                                = <ref target="14070409001" type="link">DD 1407. apr. 9., nr. 14070409001)</ref>
+                        ♦</p>
+            <p n="a#3"> Oc til mer<ex>e</ex> wit<ex>er</ex>licheet h<ex>er</ex> vm
+                        hafuæ wj [latit wore jncigle hænges fore
+                        thænne scrift] ♦</p>
+            <p n="a#4"> Datum anno et die supradictis.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden 1. januar 2017 til 30. juni 2021 vil redaktionen udelukkende
+                                udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">193</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14190624002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Altes Senatsarchiv (ASA), Externa, Livonica 03.02</collection>
+                        <idno>signatur 009 (tidligere Dreyer, Acta Livonica I, 7)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift uden adresse. Afskriften var vedlagt de livlandske hansestæders brev
+      til rådet i Lübeck, <ref target="14190721002">DD 1419. 21. jul., nr.
+      14190721002</ref></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 6, nr. DCCCVI, p. 791-792 (med datering til "før 21. juli 1419")</bibl>
+               <bibl>Hanserec. VII, nr. 73, p. 37 (regest; med datering til "før 21. juli 1419")</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-06-24"
+                  notBefore="1419-06-24"
+                  notAfter="1419-07-21"
+                  cert="low">[1419. 24. juni - 21. juli<note>Brevets udstedelsesdato kendes ikke, men da mødet i Viborg 24. juni 1419
+    beskrives som værende afsluttet i brevet, og da afskriften af brevet var vedlagt de livlandske
+    hansestæders brev til rådet i Lübeck, <ref target="14190721002">DD 1419. 21. jul., nr.
+      14190721002</ref>, må brevets udstedelsesdato ligger imellem 24. juni og 21. juli 1419.
+    Endvidere kan det antages, at brevet er udfærdiget i Riga, idet de livlandske hansestæders brev
+    til rådet i Lübeck er udfærdiget i Riga</note></date>
+            <placeName cert="low">Riga]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>De livlandske hansestæder skriver til hr. Krister (Nilsson (Vasa), høvedsmand på Viborg
+      slot).</ab>
+            <ab>De livlandske hansestæder takker Krister Nilsson for den venlighed, som han har vist de
+      livlandske hansestæders udsendinge under mødet i Viborg 24. juni 1419.</ab>
+            <ab>Imidlertid kan de livlandske hansestæder ikke efterkomme Krister Nilssons ønske om at svare
+      på kong Erik 7. af Pommerns spørgsmål om, hvorvidt kong Eriks undersåtter har lov til at bruge
+      Gotenhof i Novgorod på samme måde som hansekøbmændene. Ej heller kan de livlandske
+      hansestæder give et endegyldigt svar på kong Eriks spørgsmål om størfiskeriet i Neva-floden,
+      idet disse sager ikke alene angår de livlandske hansestæder.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-18" who="#smb">Filen etableret af #smb 2018-04-18. </change>
+         <change when="2018-04-18" who="#smb">1. korrektur af #smb 2018-04-18. </change>
+         <change when="2018-07-30" who="#smb">2. korrektur af #smb 2018-07-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Vruntliken grot vnde wes wij gudes vormogen alletijd tovoren.</p>
+            <p n="a#2" xml:space="preserve">Ersame leue <persName>her Kersten</persName>, gude gunner vnde leue vrunt.</p>
+            <p n="a#3" xml:space="preserve">Iwer ersamen strenycheit wij yn aller vruntscop annameliken vnde in lefflicheijt syn dankende
+      vor de woldat, de gij bewiseden mennichvoldigen vnsen boden vnde sunderlikes an dem werue, dar
+      se vmme to der dachuart negest bij iw wesende gesant weren, dar gij iw vruntliken vnde
+      gotliken an bewiseden, vnde den suluen vnsen boden werue mede beuolen an vns to bringende, dar
+      gij antworde van begereden wedder to hebbende, alzo van des hochgebornen heren koninghes
+      vndersaten to Denmarken des houes mede to brukende to <placeName>Nowgarden</placeName> gelijk
+      dem Duschen copman van der hense, vnde ok van dem storuanghe in <placeName>der Nw</placeName>,
+      hebbe wij andachtichliken woll vornomen, vnde begeren in aller vruntscop jwer strenycheit to
+      weten, dat wij jw darvan nv thor tijd nen endich antworde scriuen konen, wente dat allene an
+      vns nicht en licht.</p>
+            <p n="a#4" xml:space="preserve">Dijt wille jwe ersamheit in vruntscop to syk nemen, vns darane nicht to vordenkende.</p>
+            <p n="a#5" xml:space="preserve">Wij willen yd gerne mit vlite scriuen den menen hensesteden, wes vns de vor en antworde
+      darvan werden scriuen, wille wij vnbeden edder scriuen jwer ersamen strenycheit alzo drade,
+      alzo vns dat kumpt etcetera.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

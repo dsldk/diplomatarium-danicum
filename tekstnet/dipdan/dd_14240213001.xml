@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">288</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14240213001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>NKR c-2840</idno>
+                        <msName>tidl. Nørrejylland 179</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>11 (plica: 1)</height>
+                                    <width>23.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Plica nu udglattet</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Samme hånd som <ref target="14240227001" type="link">DD 1424. 27. feb., nr. 14240227001</ref>
+                              </ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>Th<ex>et</ex> erchedieghne<ex>n</ex> aff Aars hau<ex>er</ex> anamet
+        Rinde klost<ex>er</ex>
+                              </q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl (beskadiget) af mørkt voks i perg.rem, DGS 752 (Blå)
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Bispen af Oslos segl af mørkt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Perg.rem, (segl nævnt i Aa)
+                              </ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Seglsnit, (segl nævnt i Aa)
+                              </ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Segl (beskadiget) af mørkt voks i perg.rem, AS G xvi 8 (Gyldenstjerne)
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6077</bibl>
+               <bibl>Reg. *4681</bibl>
+               <bibl>Udtog i Danske Mag. III 263</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 10</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-02-13"
+                  notBefore="1424-02-13"
+                  notAfter="1424-02-13"
+                  cert="high">1424. 13. februar</date>
+            <placeName cert="high">Århus</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Erik Larsen (Blå), ærkedegn i Århus, erklærer at have overtaget Ringkloster af
+      dronning Filippa. Indtil dronningen eller kong Erik kræver det tilbage, skal Erik Larsen være
+      nonneklostrets forstander, opbygge klostret efter sin magt, opretholde godset og gøre
+      regnskab deraf for kongeparret, indtil der kommer en \"myndig\" biskop, og da skal kongen og
+      dronningen blive enige om, hvem Erik Larsen skal svare til.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-12" who="#pbh">Filen etableret af #pbh 2014-06-12. </change>
+         <change when="2018-01-23" who="#jon">1. korrektur af #jon 2018-01-23. </change>
+         <change when="2018-02-23" who="#mh">2. korrektur af #mh 2018-02-23. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle th<ex>ettæ</ex> breff hør<ex>e</ex> ell<ex>e</ex>r se hels<ex>er</ex> jæch
+        <persName>Eric Laur<ex>e</ex>nss<ex>øn</ex></persName> erchediegh<ex>e</ex>n j
+        <placeName>Arws</placeName> / kerlighe m<ex>eth</ex> gudh / ♦</p>
+            <p n="a#2" xml:space="preserve">Ku<ex>n</ex>gør jæch m<ex>eth</ex> th<ex>ettæ</ex> myt oppne breff at jæch hauer
+      anam<ex>et</ex> aff my<ex>n</ex> nad<ex>ige</ex> f<ex>ru</ex>æ m<ex>eth</ex> gudh
+      d<ex>r</ex>otni<ex>n</ex>gh <persName>Philippa</persName> Da<ex>n</ex>mark<ex>es</ex>
+      Swer<ex>iges</ex> Nor<ex>ges</ex> Wend<ex>es</ex> oc Got<ex>es</ex> oc
+      h<ex>er</ex>tughi<ex>n</ex>næ j Pome<ex>re</ex>n <placeName>Rinde klost<ex>er</ex></placeName>
+      j gothe tro / swo lenge my<ex>n</ex> nad<ex>ige</ex> h<ex>er</ex>r<ex>e</ex> ell<ex>e</ex>r
+        for<hi rend="sup">de</hi> my<ex>n</ex> nad<ex>ige</ex> f<ex>ru</ex>æ th<ex>et</ex> for<hi rend="sup">de</hi> klost<ex>er</ex> j ge<ex>n</ex> aff mich æske / ell<ex>e</ex>r æskæ lathe
+      vth<ex>e</ex>n alt arght æntheigh m<ex>eth</ex>
+      <app><lem>mum</lem><rdg wit="#A">Det første streg i <q>m</q>[2] er med prik, muligvis en markering af
+          sletning: <q>mun</q>, A</rdg></app> ell<ex>e</ex>r m<ex>eth</ex> ther<ex>e</ex> breff / tha scal jæch th<ex>et</ex> for<hi rend="sup">de</hi> klost<ex>er</ex> j ge<ex>n</ex> antwordhe friith oc obewor<ex>et</ex> /
+      hwa<ex>m</ex> the mich bethe / ell<ex>e</ex>r bethe lathe / ♦</p>
+            <p n="a#3" xml:space="preserve">Oc swo lengæ jæch th<ex>et</ex> j wær<ex>e</ex> hau<ex>er</ex> / tha scal jæch
+      klost<ex>er</ex>f<ex>ru</ex>ærne for<ex>e</ex> sta<ex>n</ex>de / oc byggæ th<ex>et</ex>
+      klost<ex>er</ex> efft<ex>er</ex> my<ex>n</ex> macht th<ex>et</ex> bæstæ th<ex>e</ex>r jæch kan
+      / oc ther<ex>e</ex> goths w<ex>eth</ex> rætæ holde / oc regh<ex>e</ex>nscapp th<ex>e</ex>r aff
+      gør<ex>e</ex> / my<ex>n</ex> nad<ex>ige</ex> h<ex>er</ex>r<ex>e</ex> ell<ex>e</ex>r
+      f<ex>ru</ex>æ ell<ex>e</ex>r hwa<ex>m</ex> the mich befale swo lengæ jæch th<ex>et</ex> aff
+      tha<ex>m</ex> hauer ell<ex>e</ex>r swo lengæ at gudh wil at th<ex>e</ex>r en mu<ex>n</ex>nigh
+      bisc<ex>op</ex> ko<ex>m</ex>mer / oc my<ex>n</ex> nad<ex>ige</ex> h<ex>er</ex>r<ex>e</ex>
+      ell<ex>e</ex>r f<ex>ru</ex>æ th<ex>et</ex> tha m<ex>eth</ex> rætæ ou<ex>er</ex> ens worthe /
+      hwa<ex>m</ex> jæch tha swar<ex>e</ex> scal / tha gør jæch tha th<ex>et</ex> g<ex>er</ex>ne /
+      ♦ </p>
+            <p n="a#4" xml:space="preserve">Oc til binder jæch mich the<ex>ttæ</ex> forsc<ex>re</ex>ffne j alle made stadight oc fast at
+      holde vth<ex>e</ex>n alt arght ♦</p>
+            <p n="a#5" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis venerabilium in Christo patrum
+      dominorum Naffnonis dei gracia Ottoniensis et Johannis eadem gracia Asloensis episcoporum
+      necnon nobilium virorum dominorum <persName>Andree Jacobi Lu<ex>n</ex>ge</persName>
+      <persName>Johannis Nicolai de Andzbergh</persName> et <persName>Erici Nicolai</persName>
+      militum presentibus est appensum ♦ </p>
+            <p n="a#6" xml:space="preserve">Datum Arusie profesto Valentini martiris gloriosi anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxiiii<hi rend="sup">o</hi> ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

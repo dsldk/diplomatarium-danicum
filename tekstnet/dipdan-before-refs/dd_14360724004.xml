@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1316</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14360724004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>receshåndskrift 2</collection>
+                        <idno>p. 639—641</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Hæfte med tre dobbeltblade</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. II:1, nr. 607, p. 545-547</bibl>
+               <bibl>Reg. *5144</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l. l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-07-24"
+                  notBefore="1436-07-24"
+                  notAfter="1436-08-23"
+                  cert="low">1436. [24. juli - 23. august]</date>
+            <placeName cert="unknown">Kalmar</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>De danske rigsråders beretning til kong Erik 7. af Pommern om deres forhandlinger med
+      svenskerne og danskerne. Beretningen har følgende punkter:</ab>
+            <ab>1) Efter at det danske rigsråd på kong Eriks opfordring holdt et møde med de andre danskere
+      i Kalmar, hvor de blev enige om, hvad de skulle råde kongen til, samlede det danske rigsråd
+      igen så mange af danskerne, som de kunne, og således samlet holdt de et møde med svenskerne i
+      Kalmar. På dette møde erklærede de danske rigsråder, at de - sådan som det også tidligere var
+      blevet sagt og skrevet mellem dem og svenskerne - til evig tid skulle forblive sammen under én
+      konge, dog således at hvert rige skulle forblive ved sin egen ret, således som det havde været
+      praksis blandt deres forældre og forfædre i de tre riger. Endvidere erklærede de danske
+      rigsråder, at de ville opfordre kongen til at tage svenskerne til nåde og til at fortsætte med
+      at være deres konge, så længe han lever. Svenskerne begærer ikke andet i den forbindelse, end
+      at kongen lader dem nyde deres beskrevne ret, deres friheder og privilegier og gode, gamle
+      sædvaner. Endvidere vil svenskerne se bort fra alt, hvad der indtil nu ikke er blevet
+      overholdt af deres beskrevne ret, deres friheder og privilegier og gode, gamle sædvaner, og de
+      begærer og beder højtideligt om, at kong Erik ligeledes vil se bort fra al den skade og
+      uvilje, som er opstået indtil nu grundet disse sager.</ab>
+            <ab>2) Svenskerne sagde til de danske rigsråder, at de havde hørt, at man fejlagtigt sagde om
+      dem, at de ikke ville have tyske, danske eller andre udenlandske folk i Sverige. Til dette
+      sagde svenskerne, at den, som havde eller fik arv eller pant i riget, altså fra én fribåren
+      mand til en anden, selvfølgelig kunne blive i Sverige, og svenskerne ville understøtte og
+      højagte vedkommende på enhver måde, som om han var en af deres egne indbyggere, hvad enten han
+      var dansker eller fra et andet sted. Med kronens slotte og besiddelser i Sverige kan kongen
+      imidlertid gøre, hvad han vil, således som det er beskrevet i svenskernes ret.</ab>
+            <ab>3) Svenskerne sagde desuden om dem, som har mistet deres jordegods eller pant, at enhver
+      skal have sit eget gods tilbage, og om dem, som i kongens tjeneste er blevet påført skade -
+      hvad skade det end måtte være -, at der med kongens råd og hjælp skal ske dem ret.</ab>
+            <ab>4) Svenskerne ønsker desuden at bevæge kongen til at have tillid til dem, når de nu beder om
+      Guds og alle helgeners hjælp til, at de kan yde fuldkommen tro tjeneste mod kongen, så længe
+      han lever.</ab>
+            <ab>5) Skulle det desuden ske, at kongen ikke har tillid til svenskerne, så vil de yde garanti
+      for, at de vil holde deres løfte om fuldkommen tro tjeneste til kongen.</ab>
+            <ab>6) Afslutningsvis bad det danske rigsråd svenskerne om at fortælle, hvad de mente om sagen,
+      således at det danske rigsråd kunne fortælle det videre til kongen, men svenskerne sagde
+      hertil, at de ikke kunne sige noget, førend de havde hørt de danske rigsråders mening om
+      sagen, og såfremt de derefter vidste bedre råd, ville de gerne sige deres mening om
+      sagen.</ab>
+            <ab>Her følger det danske rigsråds mening om sagen:</ab>
+            <ab>7) Eftersom de danske rigsråders forældre og forfædre havde bundet riget sammen og svoret,
+      at de ville forblive under én konge, dog således at hvert rige skulle forblive ved sin egen
+      ret, og eftersom deres forældre og forfædre ikke havde haft en anden mening om sagen end den,
+      at rigerne skulle forblive sammen, og at hvert rige skulle forblive ved sin egen ret, så har
+      de danske rigsråder heller ingen anden mening om sagen end den, at hvert rige skal forblive
+      ved sin egen ret, og at kongen skal råde og regere over hvert rige i henhold til det
+      pågældende riges ret, og at kongen ikke skal overføre det ene riges ret til et andet. Såfremt
+      deres forældre og forfædre havde haft en anden mening om sagen, så havde de sikkert på et
+      tidligere tidspunkt foretaget de nødvendige ændringer. Endvidere forekommer det de danske
+      rigsråder at være bedre, om kongen ville modtage svenskernes venskab og gode vilje, sådan som
+      de ønsker af kongen, således at svenskerne kan modtage og have kongen som en fuldmægtig konge,
+      så længe han lever, samt om kongen ville lade svenskerne nyde deres beskrevne ret, friheder og
+      privilegier, således som det sig rettelig hør og bør, samt om kongen ville råde og regere over
+      Sveriges land og rige efter svenskernes råd, sådan som det er beskrevet i deres ret, samt om
+      kongen ville modtage venskab fra dem, sådan som de ønsker, således at kongen kan se bort fra
+      og tilgive al den føromtalte skade og uvilje. I særdeleshed med hensyn til svenskernes
+      ønske om, at enhver skal have sit eget gods tilbage, sådan som det er beskrevet i det
+      foregående, nemlig med hensyn til jordegods og alt andet gods, som man måtte have mistet,
+      eller med hensyn til den skade, som man i kongens tjeneste måtte være blevet påført, så vil
+      svenskerne efter al deres formåen og med kongens hjælp hjælpe til, at enhver skal have
+      kompensation for sit tabte eller beskadigede gods enten ved venskab eller ved retten. Hertil
+      sagde de danske rigsråder, at de ikke vidste noget mere nyttigt, end at kongen har fuldkommen
+      tillid til svenskerne og omvendt, samt at man ikke på en bedre måde kan komme til enighed og
+      venskab, til en venskabelig fred og værdighed, til ro og mag for alle i alle tre riger,
+      hvorfor det forekommer de danske rigsråder efter deres samvittighed og bedste overbevisning at
+      være bedst, om kongen ville tage dette råd til sig, hvilket således også skal være det danske
+      rigsråds råd og bøn til kongen. Imidlertid er det frem for alt op til Gud og kongen at afgøre,
+      hvad kongen skal gøre, hvorfor de danske rigsråder kun kan råde kongen efter deres
+      samvittighed.</ab>
+            <ab>8) Det er også det danske rigsråds råd til kongen, at han må råde og regere i Danmark på
+      samme måde, og at han ikke må lade riget blive stående i sådan fare og fordærv, som det nu er
+      tilfældet. Endvidere er det det danske rigsråds råd til kongen, at han ikke må glemme Norge,
+      således at han husker at sende embedsfolk og fogeder dertil, som det sig hør og bør, for at
+      Norge kan komme til en bedre regering, end det efter det danske rigsråds opfattelse nu er
+      tilfældet, særligt i betragtning af at der ikke er kommet nogen folk fra Norge til mødet i
+      Kalmar. Således har de danske rigsråder nu gjort kongen opmærksom på Norge, for at det ikke
+      skal være deres skyld, om Norge blev forsømt, såfremt Norge ikke blev omtalt. Ligeledes råder
+      det danske rigsråd kongen til at overholde alt det, som er blevet aftalt med stæderne, og som
+      kongen og det danske rigsråd på kongens vegne har erklæret at ville overholde, samt til at
+      instruere alle kongens embedsmænd og fogeder i, at de ikke må handle imod det aftalte, samt at
+      de skal have reddelig kompensation for alt, hvad der er sket dem, og i særdeleshed for det,
+      som er sket dem, mens de var i kongens tjeneste.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-15" who="#pbh">Filen etableret af #pbh 2013-11-15. </change>
+         <change when="2017-04-05" who="#smb">1. korrektur af #smb 2017-04-05. </change>
+         <change when="2017-10-30" who="#smb">2. korrektur af #smb 2017-10-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Wetet gnedighe here, alzo wi ghisterne mit jwen gnaden wort hadden umme sodane wort, alzo de
+      Sweden to uns ichteswelken in jwen rade ghesproken hadden, dar wi doch etzwelke word mit jwer
+      gnade van hadden, dar to lank van were to scrivende, doch dat lateste darvan <app>
+                  <lem>
+                     <supplied>was</supplied>
+                  </lem>
+                  <rdg>
+                     <q>was</q> mangler i Aa</rdg>
+               </app>, gii heten uns baden senden nach den guden luden, de hiir nu sint ut Dennemarken, unde
+      laten se vorstan, wat uns de Sweden ghesecht hadden, <app>
+                  <lem>unde worden denne ens</lem>
+                  <rdg>
+                     <q>unde worde de ens</q>, Aa</rdg>
+               </app> mit ene, wat wi jwer gnade wolden raden, unde do wii dat gedan hadden, do wolde jwe
+      gnade darbi don, wes jw gud duchte. So hebbe wi ok nu ghedan, unde sammelden dat meste dat wi
+      konden, unde sanden do na den Sweden unde heten en segghen in alle unse jeghenwardicheit, also <app>
+                  <lem>
+                     <supplied>se</supplied>
+                  </lem>
+                  <rdg>
+                     <q>se</q> mangler i Aa</rdg>
+               </app> uns ghisterne berichtet hadden, alse <app>
+                  <lem>
+                     <supplied>se</supplied>
+                  </lem>
+                  <rdg>
+                     <q>se</q> mangler i Aa</rdg>
+               </app> ok deden in jeghenwardicheit der stede. Unde seden unde beden umme Gades willen unde
+      alder hilghen, umme unse eghenen doghet, umme alle unser bestant, umme jwer gnade unde
+      werdicheid willen, unde also wi secht unde brevet hadden underlank, dat wi ewichliken
+      tosamende <app>
+                  <lem>under</lem>
+                  <rdg>
+                     <q>unde</q>, Aa</rdg>
+               </app> enen koninghe scholden bliven, doch en jewelik rike to blivende bi sinem rechte, also
+      unse olderen unde vorvaren ghedaen hebben in alle dren riken, unde underwisen jw, dat gii se
+      nemen to gnaden under jwer koninkliken gnade beschermen unde barmelsticheid unde bliven ere
+      koning, alse <app>
+                  <lem>
+                     <supplied>se</supplied>
+                  </lem>
+                  <rdg>
+                     <q>se</q> mangler i Hanserec. l. l</rdg>
+               </app> jw gherne begheren to hebbende, to brukende mit alme koninkliken rechte unde
+      werdicheid, also enem koninghe bord to hebbende, de wile gii leven, unde begheren dar nicht
+      anders entjeghen, wan dat gii se neten laten eres bescrevenen rechtes, vrigheid unde
+      privilegia unde gude olde wanheide, unde wat en darvan suslanghe nicht ghehalden is edder
+      nicht ghenaten hebben went in dessen dach, dat willen se altomale overseen, unde bidden unde
+      begheren hochliken van jwer gnade, dat gii desgheliken ok willen overseen allen schaden unde
+      unwillen, de in dessen tiiden van sulken saken is upghestan, unde vligen alle dink to den
+      besten.</p>
+            <p n="a#2">
+               <supplied>2</supplied> Vortmer seden se uns, wo se ghehort hadden, wo men en oversede, dat se
+      nene Dudesche, Densche edder andere utlendesche lude liden wolden, dar se aldus to antwarden:
+      he were Densch edder wo he were, dede erve <app>
+                  <lem>edder</lem>
+                  <rdg>
+                     <q>edde</q>, Aa</rdg>
+               </app> pande hedde int rike edder noch kreghe, de ene vribaren man van deme anderen, de mochte
+      dar wol bliven unde willen ene vorderen unde leffhebben in alre mate also unser inwanre enen,
+      men umme der cronen slote unde tobehoringhe, dat jwe gnade darmede vare also ere bescreven
+      recht utwiset, unde dan dar nicht enbaven, it si mit eren willen.</p>
+            <p n="a#3">
+               <supplied>3</supplied> Vortmer seden se ok umme de jennen, de ere ertgud edder pande vorlaren
+      hebben, dat en jewelik dat sine solde wedder hebben, unde de jennen de schaden ghenamen
+      hadden, id were wat schade it were, umme jwer gnaden willen, dat en darvor sche ghelik edder
+      recht mit jwer gnade hulpe unde rade.</p>
+            <p n="a#4">
+               <supplied>4</supplied> Vort begheren se, jw ghnade to underwisende, dat gii truwe unde
+      gheloven to en setten unde loven en vullenkomelken, des beden se sik tu hulpe God unde alle
+      hilghen, dat gii an en scholen vinden vullenkomen truwen denst, also langhe alse gii
+      leven.</p>
+            <p n="a#5">
+               <supplied>5</supplied> Vortmer weret sake, dat ene jwe gnade nicht truwen edder loven wolde,
+      so wolden se vorwaringhe d{oe}n, dat se jw loven holden willen, wolde jwe gnade dat van en
+      hebben, so mochten se desghelik wal van jw wedder sin begherende, also uns dunket; dach seden
+      se, dat sik dat nicht en borde, wolde jw en ichteswat segghen, se <app>
+                  <lem>
+                     <supplied>wolden dat</supplied>
+                  </lem>
+                  <rdg>
+                     <q>wolden dat</q> mangler i Aa</rdg>
+               </app> vullenkomelken loven unde begherden dessulven van jw wedder.</p>
+            <p n="a#6">
+               <supplied>6</supplied> Also do was ghespraken, do wisede wi se van uns mit den van den steden
+      unde seden der ridderscop, also se sulven wol horden, wat wi van jwer gnade weghen to en <app>
+                  <lem>hadden</lem>
+                  <rdg>
+                     <q>hadde</q>, Aa</rdg>
+               </app> to wervende, ok also se wol hort hadden, wat de Sweden ghesecht hadden, unde wi beden
+      se, dat se ere <app>
+                  <lem>ghuddunkent</lem>
+                  <rdg>
+                     <q>ghudunkent</q>, Aa</rdg>
+               </app> seden, dat wi jwen gnaden wedder segghen mochten. Do seden se na berade, dat se dar
+      nicht to segghen konden, eer se hord hadden, wat wi, de in jwem rade sint, darto seden, wusten
+      se denne beteren rad, den wolden se gherne segghen na erem besten synne. Doch seden se, dat se
+      in Sweden nicht hebben wolden, se mochten dat mit willen edder mit rechte hebben, dat jegen
+      ere recht <app>
+                  <lem>nicht</lem>
+                  <rdg>
+                     <q>nich</q>, Aa</rdg>
+               </app> en were. Do sede wi en unse <app>
+                  <lem>guddunkent</lem>
+                  <rdg>
+                     <q>gudunkent</q>, Aa</rdg>
+               </app> na unser samwitticheid, also id nu gheleghen is, dat wi it nicht beter wisten, unde
+      alzo segghe wi noch, dat was also hir naschreven steit.</p>
+            <p n="a#7">
+               <supplied>7</supplied> Int erste also wi wol wusten unde se hadden utghevraghet, dat unse
+      olderen unde vorvaren <app>
+                  <lem>hadden</lem>
+                  <rdg>
+                     <q>hadde</q>, Aa</rdg>
+               </app> de rike tosamende bunden unde gheswaren under enem koninghe to blivende, doch eyn
+      jewelik rike bi sinem rechte to blivende, ok merke wi dat wol to beiden siden, hedden unse
+      olderen unde unse vorvaren enen betteren sin up ghewust, wen dat de rike tosamende bliven unde
+      eyn jewelik rike bi sinem rechte, se hadden dat up de tiid wol anders gheschikket unde
+      ghevoghet, darumme wete wi ok beters nicht, <app>
+                  <lem>men <supplied>dat</supplied>
+                  </lem>
+                  <rdg>
+                     <q>men</q>, Hanserec. l. l</rdg>
+               </app> en jewelik rike bi sinem rechte <app>
+                  <lem>
+                     <supplied>blive</supplied>
+                  </lem>
+                  <rdg>
+                     <q>blive</q> mangler i Aa</rdg>
+               </app> unde dat jwe gnade rade unde regere eyn jewelik rike bi sinem rechte unde teen nen
+      recht ut deme enen rike in dat andere. Ok sede wi dat uns duchte <app>
+                  <lem>bat</lem>
+                  <rdg>
+                     <q>pad</q>, Hanserec. l. l</rdg>
+               </app> wesen, dat jwe gnade annamede van en vruntscap unde guden willen, alse <app>
+                  <lem>
+                     <supplied>se</supplied>
+                  </lem>
+                  <rdg>
+                     <q>se</q> mangler i Aa</rdg>
+               </app> jwen gnaden beden, in sodaner mate, dat se jw willen annamen, halden und hebben vor
+      enen vulmechtighen koning so langhe als gii leven, unde laten se darup gheneten ere screven
+      recht, vrigheid unde privilegia, als sik dat van rechte to ghebord, unde raden unde regeren <app>
+                  <lem>dat</lem>
+                  <rdg>
+                     <q>dant</q>, Hanserec. l. l</rdg>
+               </app> lant unde rike na ereme rade, alse ere recht utwiset, unde latet jwe gnade in vruntscap
+      van en vinden, also se van jwen gnaden sint begherende, overtosende unde to ghevende allen
+      schaden unde unwillen als vorberort is. Unde sunderghen umme des willen alse se beden, dat en
+      jewelik sal dat sin wedder hebben, als vorschreven steid, umme ertgud unde we ok anders wat
+      vorlaren heft edder schaden ghenamen hefft umme jwer gnade willen, dar willen se vullenkomen
+      to helpen na eren vormoghe mit jwer hulpe, dat se dar solen vruntscap edder recht vor krighen,
+      unde wi seden, dat wi nicht nutters en wusten, den dat jwe gnade vullenkomeliken loven unde
+      truwe to ene <app>
+                  <lem>
+                     <supplied>setten</supplied>
+                  </lem>
+                  <rdg>
+                     <q>setten</q> mangler i Aa</rdg>
+               </app> unde se desghelik to jw wedder, unde dat <app>
+                  <lem>
+                     <supplied>men nicht</supplied>
+                  </lem>
+                  <rdg>
+                     <q>men nicht</q> mangler i Aa</rdg>
+               </app> beter kamen kan to endracht unde leflikheid, unde to bestand unde werdicheid, to
+      ghemake unde vrede, unde uns allen likerwis in alle dren riken, so dunket uns noch unde <app>
+                  <lem>weten</lem>
+                  <rdg>
+                     <q>wetet</q>, Aa</rdg>
+               </app> nicht beters nach unser besten samwitticheid, unde is beide unse rad unde bede to jwen
+      gnaden, dat gii dat to sinne nemen. Doch over all steid id to Gade unde to jw, wat gii darto
+      d{oe}n willen, wi kond jw nicht m{ee}r raden boven unse samwitticheid.</p>
+            <p n="a#8">
+               <supplied>8</supplied> Unde dat jwe gnade des vordenke in Dennemarken to schikkende unde to
+      regerende, als wi unde andere mer inwanres gheraden hebben, unde laten dat rike nicht stan in
+      sulker vaer unde vorderff, als id noch steid, als jw wol underwiset is, dat is ok unse rad
+      unde bede to jw. Unde ok als jw wol vordenket, als ghesproken wart to Copenhaven, als vro so
+      jwe gnade hiir queme, so wolde gii dar wol to antwarden. Ok so vorghetet Norweghen nicht, dat
+      gii dar schicken amtlude unde vogede, als sik dat bort, uppe dat id in betere regeringhe moghe
+      kamen, wan wi vornemen, als id dar steid, unde uppe dat dat hiir nemant kamen is van
+      Norweghen, so wi dat jwer gnade to kennende gheven, dat id unse schuld nicht wesen schal, oft
+      id vorsumed worde, als dat id nicht gherord ward. Ok rade wi jw, dat id gheholden werde, dat
+      jwe gnade mit den steden ghedeghedinget heft unde gii en ghesecht hebben unde wi van jwer
+      weghen, unde blivet so mit jwen vogheden unde amtluden, de jw <app>
+                  <lem>bort</lem>
+                  <rdg>
+                     <q>wert</q>, Aa</rdg>
+               </app> to vorantwardende, dat <app>
+                  <lem>
+                     <supplied>se</supplied>
+                  </lem>
+                  <rdg>
+                     <q>se</q> mangler i Aa</rdg>
+               </app> en dar nicht entjeghen don, unde dot en weddervaren reddelicheid vor dat nu scheen is,
+      unde sunderghen dat en ghescheen is de wile, dat se in jwer gnade denste weset hebben.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden 1. januar 2017 til 30. juni 2021 vil redaktionen udelukkende udarbejde
+        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

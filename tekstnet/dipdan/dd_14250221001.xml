@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">375</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250221001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. XXIV, 3</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16.7 (plica: 2.9)</height>
+                                    <width>26.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>En fugtskade i øverste halvdels højre side har medført
+                                    teksttab</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrifter på bagsiden: (1) med meget falmet, samtidig skrift:
+                                 <q>Roskilden(si)</q> (adresse fra ærkebiskoppens kancelli?); (2)
+                              herunder med samtidig skrift: <q>Citacio ad consilium (!)
+                                 provinciale</q> (arkivpåskrift fra Roskilde)</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rester af perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Biskop af Roskilde Jens Andersens (Lodehat) segl i ufarvet voks i
+                                 perg.rem, DGS 169
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6172</bibl>
+               <bibl>Dipl. dioc. Lund. III 42 nr. 46</bibl>
+               <bibl>Vejledende Arkivreg. XVII 97 nr. 283</bibl>
+               <bibl>SDHK nr. 20428</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. Den nu ulæselige tekst suppleret efter Dipl. dioc. Lund.
+               l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-02-21"
+                  notBefore="1425-02-21"
+                  notAfter="1425-02-21"
+                  cert="high">1425.
+               21. februar<ref target="drb1"/>
+            </date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder (Lykke (Bille)), ærkebiskop i Lund, indkalder alle biskopper, abbeder og
+               andre prælater i kirkeprovinsen Danmark til provinskoncil i København 25. juni 1425
+               og pålægger dem at bekendtgøre koncilet i deres stifter, så enhver, der har en klage
+               over gejstlige, også kan møde til koncilet. Som bekræftelse for modtagelsen skal
+               brevet besegles af modtageren og sendes tilbage.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-26" who="#pbh">Filen etableret af #pbh 2014-06-26. </change>
+         <change when="2019-11-12" who="#pbh">Tekst etc. PBH 2019 november</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve"><persName>Petrus</persName> dei gracia archiepiscopus Lundensis Svecie primas et apostolice sedis legatus
+        w<damage>enerabilibus eadem gracia</damage> fratribus nostris <placeName>Burglanensis </placeName><placeName>Viburgensis</placeName>
+      <placeName>Roskildensis </placeName><placeName>Ripensis </placeName><placeName>Ottoniensis </placeName><placeName>Sleswicensis </placeName>et <placeName>Arusiensis </placeName>ecclesiarum provincie nostre
+      Dacie coepiscopis <damage>necnon</damage> h<damage>onorabilibus
+        i</damage>nfe<damage>riori</damage>bus prelatis videlicet abbatibus prepositis decanis
+      archidiaconis cantoribus et archipresbiteris ac aliis clericis quos presens tangit n<damage>egocium
+      commorantibus ibidem fra</damage>ternam in domino caritatem et mandatis nostris salubribus firmiter obedire
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Exquo sub senescentis mundi malicia procellosa profund<damage>itas viciorum pe</damage>stiferis
+        <damage>ipsius</damage> aquilonis flatibus agitata heu nostris presertim temporibus naviculam
+        piscat<damage>or</damage>is hominum qua tocius universi apportatur salvacio ultra solitum
+      <damage>terribiliter circumvoluit</damage> unde submersionis vel subversionis multiplicata pericula liquido disponuntur
+      que vitari non poterint nisi pneumatis almi invocato et d<damage>irigente</damage>
+        p<damage>re</damage>sidio pro lapsorum reintegracione ad reformacionis antidota celeriter
+      recurratur ut sub squalida peccatorum cadente sarcina immutetur in micius que <damage>mundo</damage> minatur
+      aspera in supremo solio sentencia presidentis necnon quod temporalitas et ecclesia unius
+      menbra (!) corporis in Christo quodammodo jam disjuncturata per culpam sub equo judiciorum
+      libramine ad pristine et debite dileccionis federa reponentur ad quod et ad cujusmodi
+      virtuosam execucionem ex nudo debito pastoralis officii insimul obligamur / in tantum quod a
+      dolo et dampno cum eorum circumstanciis hujusmodi negocii per quascumque ignorancie nebulas
+      excusacionis velamina nequaquam pretendere valeamus quia non est pastoris excusacio et cetera<ref target="drb1"/>
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Nos igitur metropolitica auctoritate fungentes plenarie vestrorumque pretactorum desiderantes
+      presenciam ut p<supplied>re</supplied>misse reformacionis debitum nobis et vobis in partem
+      sollicitudinis a sancta sede commissum decencius et undique sorciatur effectum vos
+      venerabiles fratres predictos etcetera per modum edicti quod in albo pretoris scribebatur
+      antiquitus sub pena a<supplied>n</supplied>i<supplied>m</supplied>adversacionis (!) ecclesiastice discipline majori in personali presencia
+      per scripturam nostram publicam ad <damage>v</damage>alvas ecclesie nostre metropolitane
+      affixam sic citamus ut vicesima quinta die mensis junii que est crastina dies beati Johannis
+      baptiste proxime affutura in villa Hafnensi Roskildensis dyocesis nostre personali presencie
+      deo duce personaliter compareatis ad ibidem provinciale concilium celebrandum ut ejus
+      illuminacioni dispositi qui consiliis et auxiliis illuminat omnem hominem venientem in hunc
+      mundum in unius spiritus puritate pro reformacione insimul cleri et populi feliciter
+      congregemur temporalibus quoque sepius et publice in vestris territoriis intimando quod si
+      aliquid adversus ecclesiasticos habuerint questionis ibidem protunc conveniant pro acceptando
+      plenarium complementum eciam sic proviso quod ad instranciam querulari proponencium in hoc
+      instanti concilio ex auctoritate metropolitica p<supplied>re</supplied>fata vobis pretactis
+      venerabilibus ma<supplied>n</supplied>data citatoria plenarie sint commissa ♦</p>
+            <p>Datum <placeName>Lundis</placeName> anno domini m cdxxquinto die cinerum nostro sub
+               secreto ♦</p>
+            <p>In signum certificacionis et sciencie de mandato nostro presentes litteras vestris
+               sigillis remittite sigillatas ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

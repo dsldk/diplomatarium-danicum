@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">197</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14290713001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3056</idno>
+                        <msName>tidl. Bornholm 12</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>7.5 (plica: 0.7)</height>
+                                    <width>27.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>Item en gord i sancti Laurensii k<ex>ir</ex>ke sogh<ex>e</ex>n som
+        Ies Mons<ex>øn</ex> solde Age Nielss<ex>øn</ex> som hedh<ex>er</ex>
+      Peregord</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Niels Mogensens segl i lyst voks i perg.rem, AS F xii 1
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Gotskalks segl i lyst voks i perg.rem. Ifølge Rep. er der tekst på seglrem
+        (samme hånd som brev): <q>Ness Pæth<ex>e</ex>rs<ex>øn</ex> Hwithow<ex>et</ex> / Orm /
+            Gu<damage>..</damage>
+                                 </q>, DGS 99*
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Per Bosens segl i lyst voks i perg.rem, AS L xv 10
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Perg.rem med tekst (samme hånd som brev): <q>arffwinge th<ex>et</ex>
+          for<ex>de</ex> gotz at frij oc telstande / for hwers [...] m<ex>eth</ex> wilie</q>. Ifølge
+        Rep. mangler seglet, formodentligt tilhørende Niels Pedersen Hvidthoved, kun
+        forsiden</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Orms (Herlugsen) segl i lyst voks i perg.rem, AS M 80 (s worm herlichsøne)
+                              </ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Gudmunds (Nielsen) segl i lyst voks i perg.rem, AS K i 1 (s gudmund nicøls)
+                              </ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Mogens Jensens segl i lyst voks i perg.rem. Ifølge Rep. er der tekst på
+        seglrem (samme hånd som brev): <q>ynzeyle som ær h<damage>
+                                       <ex>er</ex>
+                                    </damage>
+            G<damage>..</damage>
+                                 </q>, AS F xvii 1
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6413</bibl>
+               <bibl>Reg. *4857</bibl>
+               <bibl>Hübertz, Bornholm 16</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 187-88</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-07-13"
+                  notBefore="1429-07-13"
+                  notAfter="1429-07-20"
+                  cert="high">1429. 13. eller 20. juli<ref target="drb1"/>
+            </date>
+            <placeName cert="low">[Bornholm]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Niels Mogensen i Vestermarie sogn, væbner, sælger og skøder en gård, kaldet Pæregården i
+      Østerlarsker sogn (nu: Pæregård, Østerlarsker sogn), til Åge Nielsen
+      (Sparre), høvedsmand på Bornholm.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-05" who="#pbh">Filen etableret af #pbh 2014-08-05. </change>
+         <change when="2019-02-12" who="#jon">1. korrektur af #jon 2019-02-12. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæ<ex>n</ex> th<ex>et</ex>tæ b<ex>re</ex>ff see aller hør<ex>e</ex> læsæ / helser jak
+        <persName>Ness Mag<ex>n</ex>s<ex>øn</ex></persName> i <placeName>Westre Marie</placeName>
+      k<ex>ir</ex>kesogn pa <placeName>Borendeholm</placeName> awapn ewi<ex>n</ex>nelighe
+      m<ex>eth</ex> worh<ex>er</ex>ræ ♦</p>
+            <p n="a#2" xml:space="preserve">Ku<ex>n</ex>gør jak alle mæ<ex>n</ex> m<ex>eth</ex> th<ex>et</ex>tæ nær<hi rend="sup">de</hi>
+      myt opne b<ex>re</ex>ff / th<ex>et</ex> jak weth<ex>e</ex>rkenes myk m<ex>eth</ex>
+      my<ex>n</ex> frij wilie / at hawe saald en ærligh ma<ex>n</ex> oc wælburdich <persName>Aghe
+        Niels<ex>øn</ex></persName> høuetzma<ex>n</ex> pa <placeName>Borendeholm</placeName> /
+      th<ex>en</ex>ne nær<hi rend="sup">de</hi> b<ex>re</ex>fførr<ex>e</ex> en my<ex>n</ex>
+      <app><lem>gard</lem><rdg wit="#A"><q>gard<ex>es</ex></q>, A</rdg></app> lige<ex>n</ex>d<ex>es</ex> y<ex>n</ex>ne<ex>n</ex>
+      <placeName>sancti Laurentii k<ex>ir</ex>kesogn</placeName> pa
+        <placeName>Borendeholm</placeName> / som kalles <placeName>Pæragarden</placeName> oc
+        <persName>And<ex>ers</ex> Øtb<ex>er</ex>ns<ex>øn</ex></persName> nw y<ex>n</ex>ne<ex>n</ex>
+      boor / m<ex>eth</ex> all syn telligelse / som ær / ager / æng / wot / oc thyurt / skogh oc
+      feskewatn / so mygh<ex>e</ex>n eghendom som jak haw<ex>er</ex> i th<ex>et</ex> for<hi rend="sup">de</hi> gotz / ænte vndertaget / oc fulnet til myne nøghe for th<ex>et</ex>
+        for<ex>e</ex><hi rend="sup">de</hi> gotz at hawe <app><lem>oppebor<ex>et</ex></lem><rdg resp="#jon">Herefter glemt <q>af fore<hi rend="sup">de</hi> Aghe Niels<ex>øn</ex> Oc
+            kenes iak myk fore<hi rend="sup">de</hi> Ness Magns<ex>øn</ex> fore<hi rend="sup">de</hi> Aghe Niels<ex>øn</ex> thet fore<hi rend="sup">de</hi> gotz fra</q> eller
+          lignende; jf. <ref target="14290605001" type="link">DD 1429. 5. jun., nr. 14290605001</ref></rdg></app> myk / oc myne arwinge / hanu<ex>m</ex> oc hans arffwinge athawe skøt tel
+      ewi<ex>n</ex>neligh eghe / ♦</p>
+            <p n="a#3" xml:space="preserve">Item tilbinder jak myk oc myne arffwinge th<ex>et</ex> for<hi rend="sup">de</hi> gotz at frij
+      oc tilstande for<hi rend="sup">de</hi>
+      <persName>Aghe Niels<ex>øn</ex></persName> oc hans arffwinge for hwersmanz teltal aller hinder
+      / ♦</p>
+            <p n="a#4" xml:space="preserve">Tel mer<ex>e</ex> wesse oc vitnesburt henger jak myt ynzeyle / m<ex>eth</ex> wilie oc witskap
+      for th<ex>et</ex>tæ b<ex>re</ex>ff / m<ex>eth</ex> fler<ex>e</ex> godhe mænz ynzeyle / som h<ex>er</ex>
+      <persName>Gotskalk</persName> dæghen oc p<ex>re</ex>st at <placeName>sancti Laurentii
+        k<ex>ir</ex>ke</placeName> / <persName>P<ex>er</ex> Bos<ex>øn</ex></persName>
+      landzdomer<ex>e</ex> / <persName>Ness Pæth<ex>e</ex>rs<ex>øn</ex>
+        Hwithow<ex>et</ex></persName> / <persName>Orm</persName> /
+        <persName>Gutmu<ex>n</ex>dh</persName> / <persName>Mag<ex>ens</ex>
+        Jens<ex>øn</ex></persName> wepner<ex>e</ex> pa <placeName>Borendeholm</placeName>
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi> xxix<hi rend="sup">o</hi>
+      ipso die beate Margarete virginis /. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

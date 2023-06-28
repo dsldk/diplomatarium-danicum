@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">412</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14250223002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>SDHK nr. 20429</idno>
+                        <msName>tidl. De la Gardie nr. 42</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>en dom po th<ex>et</ex> gotz i Tengelsaas</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. U573</bibl>
+               <bibl>Reg. *4753 = 3152</bibl>
+               <bibl>Handlingar rörande Skandinaviens historia IX 20-22</bibl>
+               <bibl>Danske Geheimearchivets Aarsberetninger II 23-26</bibl>
+               <bibl>Danske Geheimearchivets Aarsberetninger XVI 186ff (nr. 42)</bibl>
+               <bibl>William Christensen, Dansk Statsforvaltning i det 15. Århundrede (1903), 694 n. 12</bibl>
+               <bibl>SDHK nr. 20429</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 57-58</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-02-23"
+                  notBefore="1425-02-23"
+                  notAfter="1425-02-23"
+                  cert="low">1425. 23. februar<note>Datoen angives i originalen som <q>thusandæ fiyrahund<ex>ra</ex>thæ vppa
+      th<ex>et</ex> fæmpta</q>, men den flyttes tyve år frem, fordi Mogens Båd på dette tidspunkt
+    ikke var landsdommer, og fordi Dronning Filippa i 1425 overtog en del af
+    regeringsførelsen</note></date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Anders Jakobsen, Aksel Pedersen og Erik Nielsen, riddere, samt Mogens Båd, landsdommer i
+      Skåne, tildømmer Niels Jensen (Galen) i Hammar otte gårde og en fæstegård i Tengelsås i Frosta
+      herred, som havde været pantsat til ridderen Jakob Mus, og som denne havde givet til Skt.
+      Laurentius' Kirke. Jens Poulsen, ærkedegnen i Lund, fradømmes det førnævnte gods, selv om han
+      fremviste et brev på, at han havde købt det fra Jesper Bæk, som havde sagt, at han var den
+      rette arving til godset.</ab>
+            <ab>Jens Poulsen bliver opfordret til at tage sit krav til herredstinget og landstinget. Hvis
+      han ikke kan bevise med brevet, at Jesper Bæk var en nærmere arving end Niels Jensen, da får
+      Niels Jensen godset til evig eje. Hvis Jens Poulsen kan bevise med brevet, at Jesper Bæk var
+      den rette arving, da skal Niels Jensen give ærkedegnen så meget, som er ret.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-15" who="#pbh">Filen etableret af #pbh 2014-08-15. </change>
+         <change when="2019-02-03" who="#jon">1. korrektur af #jon 2019-02-03. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wy <persName>Andres Jeeppss<ex>øn</ex></persName>
+      <persName>Axell Pæth<ex>e</ex>rss<ex>øn</ex></persName>
+      <persName>Erik Nielss<ex>øn</ex></persName> riddar<ex>e</ex> ok <persName>Magn<ex>us</ex>
+        Baat</persName> landzdomare j <placeName>Skane</placeName> . helse alla mæn so<ex>m</ex>
+      th<ex>e</ex>ttæ breff høre æll<ex>er</ex> see / ♦</p>
+            <p n="a#2" xml:space="preserve">Ok kwngør<ex>e</ex> wy at arom æfter gudz byrdh thusandæ fiyrahund<ex>ra</ex>thæ vppa th<ex>et</ex>
+      <app><lem>fæmpta</lem><rdg wit="#A">I årstallet er ordet for tyve glemt, A</rdg></app> fførste fredagh j faste erlik førsti<ex>n</ex>na drotni<ex>n</ex>gh
+        <persName>Philippa</persName> baadh os at sittiæ en rætt mællom beskedhnæ oc ærlighæ <app><lem>mæn</lem><rdg wit="#A">Tilføjet over linjen, A</rdg></app> so<ex>m</ex> ær ærchedyæknen j <placeName>Lund</placeName> h<ex>e</ex>r <persName>Jens
+        Paualss<ex>øn</ex></persName> oc <persName>Nis Jenss<ex>øn</ex></persName> aff
+        <placeName>Ha<ex>m</ex>mer</placeName> vm en delæ so<ex>m</ex> the mællom th<ex>e</ex>m
+      hafthe om et gotz so<ex>m</ex> ligger i <placeName>Frosteh<ex>er</ex>r<ex>et</ex></placeName>
+      j <app><lem><placeName>Fængelsaas</placeName></lem><rdg wit="#A"><q>f</q> rettet fra <q>t</q>, A</rdg></app> so<ex>m</ex> ær<ex>e</ex> atta gardha / oc en fæstæ huilk<ex>e</ex>t gotz h<ex>e</ex>r
+        <persName>Jæpp Mws</persName> riddar<ex>e</ex> till <placeName>sancti Laurencii
+        kirkiæ</placeName> gaff m<ex>eth</ex> swo dan ræt so<ex>m</ex> ha<ex>n</ex> th<ex>et</ex> j
+      pant hafthe for<ex>e</ex> siæxtan løthughmark ♦</p>
+            <p n="a#3" xml:space="preserve">Tha kallathe wy fram biæggiæs theræs bewisni<ex>n</ex>g oc skuddom ♦ Oc fu<ex>n</ex>nom
+      wy th<ex>et</ex> swa for<ex>e</ex> rættæ / at æfter th<ex>et</ex> at <persName>Nis
+        Jenss<ex>øn</ex></persName> hafthe the før<hi rend="sup">dæ</hi> xvj løthughm<ex>a</ex>rk
+      loghelika wpbuthit m<ex>eth</ex> thingx witne oc in waro mæltte ok lagho dagh ok aar / oc
+      ærchiedyæknen <app><lem>th<ex>e</ex>m forsu<ex>m</ex>mathe</lem><rdg wit="#A">Jf. <q>th<ex>e</ex>m forsomethe</q> med afvigende hånd på seglremmen, A</rdg></app> tha fu<ex>n</ex>nom wy th<ex>et</ex> for<ex>e</ex> rættæ at før<hi rend="sup">de</hi>
+      <persName>Nis Jenss<ex>øn</ex></persName> burdhe th<ex>et</ex> før<hi rend="sup">da</hi> gotz
+      for<ex>e</ex> thy at ha<ex>n</ex> hafthe landda br<ex>e</ex>ff at ha<ex>n</ex> hafthe
+      th<ex>e</ex>m loghelika vpbudhit ♦</p>
+            <p n="a#4" xml:space="preserve">Oc hafthe ha<ex>n</ex> h<ex>e</ex>r <persName>Agha Niels<ex>øn</ex></persName>s breff /
+      so<ex>m</ex> th<ex>et</ex> gotz før j pant hafthe en h<ex>e</ex>r <persName>Iæpp
+        Mws</persName> th<ex>et</ex> fik oc <app><lem>widh<ex>e</ex>r</lem><rdg wit="#A">Herefter slettet <q>kæ<ex>n</ex>no<ex>m</ex>ps</q>, A</rdg></app> kændis m<ex>eth</ex> sit opna breff at før<hi rend="sup">de</hi>
+      <persName>Nis Jenss<ex>øn</ex></persName> ær th<ex>e</ex>r rætter arwe till / oc gaaff dødh
+      alla gambla ængilska grottæ lybiskæ oc all oker breff døth / ok gaff th<ex>e</ex>t vppa xvj
+      løthugm<ex>a</ex>rk / ♦</p>
+            <p n="a#5" xml:space="preserve">Oc baar ærchiedyæknen et br<ex>e</ex>ff fram huilk<ex>e</ex>t ha<ex>n</ex> hafthe køpt aff
+      gamblæ <persName>Jes Bæk</persName> sua luthandhe at ha<ex>n</ex> th<ex>e</ex>tte før<hi rend="sup">de</hi> gotz køpt hafthe aff gamblæ <persName>Jes Bæk</persName> so<ex>m</ex> sik
+      sadhe arwe til th<ex>et</ex> gotzet war<ex>e</ex> ♦</p>
+            <p n="a#6" xml:space="preserve">Tha fu<ex>n</ex>nom wy ærchied<ex>yæknen</ex> for<ex>e</ex> rætte at <persName>Jes
+        Bæk</persName>s arwuinga skulle talæ h<ex>er</ex>r<ex>e</ex>tzthingh oc landzthingh til
+        <persName>Nis Jenss<ex>øn</ex></persName> oc bewise vm ha<ex>n</ex> nærmeer arwinge war til
+        før<hi rend="sup">dæ</hi> gotz æn <persName>Nis Jenss<ex>øn</ex></persName> ær / ♦</p>
+            <p n="a#7" xml:space="preserve">Ær th<ex>et</ex> oc swa at ha<ex>n</ex> ey th<ex>et</ex> winnæ ka<ex>n</ex> m<ex>eth</ex>
+      rætta at ha<ex>n</ex> nærmer arfue ær / tha fu<ex>n</ex>no wy <persName>Nis
+        Je<ex>n</ex>ss<ex>øn</ex></persName> gotzet till wæreldz æghæ / ♦</p>
+            <p n="a#8" xml:space="preserve">Oc fu<ex>n</ex>no wy th<ex>et</ex> for<ex>e</ex> rættæ at all the ga<ex>m</ex>blæ
+      br<ex>e</ex>ff so<ex>m</ex> ærchid<ex>yæknen</ex> vppa the gotz hafthe ær<ex>e</ex> all
+      wanmæktogh oc til eyncte giordh / vta<ex>n</ex> th<ex>et</ex> br<ex>e</ex>ff so<ex>m</ex>
+      ha<ex>n</ex> skøt vppa at ha<ex>n</ex> aff gamblæ <persName>Jes Bæk</persName> køpth hafthe
+      th<ex>et</ex> gotz køpt m<ex>eth</ex> . ♦</p>
+            <p n="a#9" xml:space="preserve">Ka<ex>n</ex> ha<ex>n</ex> m<ex>eth</ex> hæredz oc landzthi<ex>n</ex>g m<ex>eth</ex>
+      th<ex>et</ex> br<ex>e</ex>ffuit oc m<ex>eth</ex> rættæ vinnæ . tha skall <persName>Nis
+        Jenss<ex>øn</ex></persName> stædhiæ ho<ex>nu</ex>m sua myk<ex>e</ex>t so<ex>m</ex> ræt ær /
+      ♦</p>
+            <p n="a#10" xml:space="preserve">Datum Lundis anno et die quibus supra ♦</p>
+            <p n="a#11" xml:space="preserve">In testimonium predictorum sigilla nostra presentibus sunt appensa ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

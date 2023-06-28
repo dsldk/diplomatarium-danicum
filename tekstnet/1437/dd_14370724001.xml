@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">5068</num>, paragraphs: <num n="paragraphs">150</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14370724001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Flensborg</settlement>
+                        <repository>Stadtarchiv Flensburg</repository>
+                        <collection>Altes Verwaltungsarchiv, Stadt- Rechts-, Parochial- und Gildebücher</collection>
+                        <idno>00007</idno>
+                        <msName>Das alte Stadtbuch (1436-1623), fol. 115-123</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *5170</bibl>
+               <bibl>Sejdelin, Dipl. Flensb. I, nr. 109, p. 448-461</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Sejdelin l.l. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-07-24"
+                  notBefore="1437-07-24"
+                  notAfter="1437-07-24"
+                  cert="high">1437. 24. juli</date>
+            <placeName cert="high">Flensborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrå for skomagerlavet i Flensborg, det såkaldte Sankt Jakobs gilde, givet af borgmestrene
+      og rådet i Flensborg by.</ab>
+            <ab>Skråen indeholder følgende punkter:</ab>
+            <ab>1) Én af skomagerlavets oldermænd skal være medlem af rådet i Flensborg.</ab>
+            <ab>2) Enhver skomager skal betale en skilling lybsk til lavet to gange om året, nemlig til
+      valborgsdag og til mikkelsdag.</ab>
+            <ab>3) Skomagerne i lavet må stå og sælge deres varer på markedet på Søndertorv i Flensborg hver
+      lørdag.</ab>
+            <ab>4) Fogeden skal have ni grot på sankt Thomas' dag før jul. Til gengæld herfor skal
+      skomagerne nyde deres gamle privilegier i Flensborg. Dette betyder for eksempel, at skomagerne
+      ikke skal stilles til regnskab, såfremt de har slået en tyv, som - hemmeligt eller i fuld
+      offentlighed - har stjålet sko fra dem.</ab>
+            <ab>5) Der må ikke indføres fremmede sko til Flensborg med salg for øje. Såfremt dette sker,
+      skal oldermændene konfiskere de fremmede sko og give dem til de fattige.</ab>
+            <ab>6) Ethvert medlem af lavet skal betale stævnepenge til lavet på Sankt Thomas' dag før
+      jul.</ab>
+            <ab>7) Såfremt et medlem af lavet forbryder sig mod lavet eller erhvervet, skal vedkommende
+      betale en bøde. Den ene halvdel af bøden skal gå til at tjene Gud og Sankt Jakob og på den
+      måde forbedre lavet. Den anden halvdel skal medlemmerne af lavet have til øl.</ab>
+            <ab>8) Hvis et medlem af lavet håner lavets oldermænd eller hele lavet, skal det pågældende
+      medlem betale to tønder flensborgsk øl i bøde til lavet.</ab>
+            <ab>9) Det er ikke tilladt for medlemmer af lavet at opsige et andet medlems lejemål for igen at
+      udleje den pågældende bolig uden først at spørge det andet medlem om lov dertil. Det medlem,
+      som gør dette, skal betale en tønde flensborgsk øl i bøde til lavet.</ab>
+            <ab>10) Såfremt en skomagermester i lavet ønsker at indgå ægteskab, skal han passe nøje på, at
+      han indgår ægteskab med en hæderlig og ærbar kvinde.</ab>
+            <ab>11) Såfremt en skomagerhustru bryder det hellige ægteskab eller kommer i et ondt rygte, som
+      hun ikke kan fjerne ad rettens vej, og såfremt hendes mand stadig ønsker at forsvare hende
+      over for lavet, skal både mand og hustru give afkald på medlemskab af lavet, indtil hustruen
+      er i stand til at fjerne det onde rygte ad rettens vej.</ab>
+            <ab>12) Såfremt en skomagers søn ønsker at gifte sig med en anden skomagers datter eller med en
+      skomagerenke, skal vedkommende give lavet to tønder flensborgsk øl, og vedkommende udstødes
+      ikke af erhvervet. Såfremt en fremmed svend ønsker at gifte sig med en skomagers datter eller
+      med en skomagerenke, skal vedkommende dokumentere over for lavet, at han er ægtefødt.
+      Endvidere skal vedkommende give lavet et halvt festmåltid. Derefter skal han benytte sig af
+      lavet.</ab>
+            <ab>13) Såfremt en skomagers søn gifter sig uden for erhvervet, skal han give lavet et halvt
+      festmåltid. Herefter er vedkommende fuldgyldigt medlem af lavet.</ab>
+            <ab>14) En fremmed svend skal tjene to år, inden han kan indtræde i lavet.</ab>
+            <ab>15) En fremmed svend, som frier til en skomagers datter eller til en skomagerenke, skal give
+      lavet et halvt festmåltid og skal anmode om optagelse i lavet to gange, førend han må tjene i
+      lavet.</ab>
+            <ab>16) Såfremt en lærling, som er lavet værdig, og som har givet lavet et halvt festmåltid,
+      ønsker at gifte sig med en skomagers datter eller med en skomagerenke, skal vedkommende give
+      lavet to tønder flensborgsk øl. Herefter er vedkommende fuldgyldigt medlem af lavet.</ab>
+            <ab>17) Såfremt en lærling gifter sig uden for erhvervet, skal vedkommende som hjælp fra lavet
+      modtage det halve festmåltid, som han tidligere havde givet til lavet. På et senere tidspunkt
+      skal han atter give et halvt festmåltid og være fuldgyldigt medlem af lavet.</ab>
+            <ab>18) Såfremt en mand gifter sig med en kvinde uden for erhvervet eller med datteren til en
+      skomager, som ikke er medlem af lavet, skal vedkommende give lavet tre lybske skillinger til
+      vin og voks ved lavsmestrenes næstfølgende møde. Forsømmer han dette, skal han på sin hustrus
+      vegne give lavet et halvt festmåltid.</ab>
+            <ab>19) Såfremt en skomager ønsker at leje en svend, skal han leje svenden på det rette
+      tidspunkt. Man må ikke leje en svend, førend svenden har gjort regnskab med sin mester. Den,
+      som forbryder sig imod denne regel, skal betale to tønder flensborgsk øl i bøde til
+      lavet.</ab>
+            <ab>20) Det er ikke tilladt for medlemmer af lavet af have mere end to svende og en lærling, thi
+      de fattige har lige så stor brug for svende som de rige.</ab>
+            <ab>21) Ingen har lov til at komme udefra og overtage svende fra medlemmer af lavet. Såfremt en
+      fremmed mand gør det, skal vedkommende arresteres. Derefter skal vedkommende betale 18 lybske
+      skillinger i bøde til rådet i Flensborg. Dette skal gøres, eftersom fremmede folk, som gør den
+      slags, er til stor skade for skomagererhvervet i Flensborg by.</ab>
+            <ab>22) Såfremt en skomager vil oplære en lærling, skal skomageren give lavet et halvt
+      festmåltid. Når lærlingen er udlært, skal han give lavet det andet halve festmåltid samt
+      dokumentere over for lavet, at han er ægtefødt.</ab>
+            <ab>23) Såfremt en svend i hemmelighed løber fra pladsen - enten med sine penge eller ved at
+      tjene en anden mester - skal den pågældende svend ikke længere have lov til at tjene i
+      Flensborg. Såfremt en skomagermester i Flensborg herefter ansætter denne svend, skal den
+      pågældende mester betale en tønde flensborgsk øl i bøde til lavet.</ab>
+            <ab>24) Såfremt en svend efter endt ansættelse ikke får udbetalt den retmæssige løn af sin
+      mester, skal svenden gå til lavets oldermænd og klage over mesteren. Herefter skal
+      oldermændene give svenden hans retmæssige løn. Endelig skal den pågældende mester
+      tilbagebetale det dobbelte beløb til oldermændene som straf for sin misgerning.</ab>
+            <ab>25) Såfremt en svend tjener sin mester med hån, fortræd og trods, hvorfor mesteren må se sig
+      nødsaget til at sende svenden bort, skal svenden have sin retmæssige løn.</ab>
+            <ab>26) Såfremt en svend ønsker optagelse i Sankt Jakobs lav, skal svenden eje mindst 15 mark ud
+      over værdien af svendens tøj.</ab>
+            <ab>27) Enhver svend, som ønsker at etablere sig selv som skomager, skal give lavet otte lybske
+      skillinger til vin og voks til afholdelse af den evige messe.</ab>
+            <ab>28) Såfremt en mester ønsker at leje en svend, skal dette ske inden for bestemte tidsrum,
+      nemlig fra mikkelsdag til jul, fra jul til påske og fra påske til mikkelsdag. Det er kun
+      tilladt at leje en svend for en beskeden løn. Såfremt man gør det anderledes, skal man betale
+      to tønder flensborgsk øl i bøde til lavet.</ab>
+            <ab>29) Ingen skomagermester må leje en fremmed svend til dags- eller ugeløn. Såfremt en mester
+      gør dette, skal han betale to tønder flensborgsk øl i bøde til lavet.</ab>
+            <ab>30) Såfremt en skomagermester med vilje lokkede en svend væk fra en anden skomagermester til
+      skade for den anden skomagermester, skal den svigagtige mester betale to tønder flensborgsk øl
+      i bøde til lavet. Endvidere skal den pågældende svend ikke længere have lov til at tjene i
+      Flensborg.</ab>
+            <ab>31) Såfremt et medlem af lavet med vilje eller på grund af drukkenskab taler hånligt og
+      foragteligt til et andet medlem af lavet, mens lavsmedlemmerne drikker sammen, skal den
+      pågældende betale to tønder flensborgsk øl i bøde til lavet.</ab>
+            <ab>32) Såfremt det kan bevises, at et lavsmedlem med vilje hælder øl ud over eller kaster øl på
+      et andet lavsmedlem eller på anden måde gør det andet lavsmedlem fortræd, skal vedkommende
+      betale en tønde flensborgsk øl i bøde til lavet.</ab>
+            <ab>33) Intet lavsmedlem skal drikke sig fuld. Såfremt et lavsmedlem gør det, skal vedkommende
+      betale en tønde flensborgsk øl i bøde til lavet.</ab>
+            <ab>34) Intet lavsmedlem må nøde et andet lavsmedlem til at drikke mere, end det andet
+      lavsmedlem har lyst til. Såfremt et lavsmedlem gør dette, skal vedkommende betale en tønde
+      flensborgsk øl i bøde til lavet.</ab>
+            <ab>35) Såfremt et lavsmedlem kaster op i det hus, hvor lavsmedlemmerne sidder og drikker
+      sammen, fordi vedkommende har drukket for meget, skal dette lavsmedlem betale to tønder
+      flensborgsk øl i bøde til lavet.</ab>
+            <ab>36) Såfremt et lavsmedlem kaster op i gården tilhørende det hus, hvor lavsmedlemmerne sidder
+      og drikker sammen, fordi vedkommende har drukket for meget, skal dette lavsmedlem betale en
+      tønde flensborgsk øl.</ab>
+            <ab>37) Såfremt et lavsmedlem kaster op på en af de førskrevne måder og derefter går tilbage til
+      de andre lavsmedlemmer for at drikke videre med dem, skal vedkommende betale det dobbelte i
+      bøde til lavet.</ab>
+            <ab>38) Intet lavsmedlem må købslå eller vædde med et andet lavsmedlem på det sted, hvor
+      lavsmedlemmerne sidder og drikker sammen. Såfremt et lavsmedlem gør det, skal vedkommende
+      betale en tønde flensborgsk øl i bøde til lavet.</ab>
+            <ab>39) Såfremt et lavsmedlem er ulydigt og ikke vil tie stille under lavsmøderne, når
+      oldermændene kræver det, skal vedkommende betale en tønde flensborgsk øl i bøde.</ab>
+            <ab>40) Såfremt et lavsmedlem ripper op i en allerede udsonet strid, som er blevet fuldstændig
+      bilagt ved ret og venskab, skal vedkommende ikke have kendskab til bødens størrelse. Derimod
+      skal rådmanden, de andre oldermænd og de andre lavsmedlemmer i fællesskab bestemme, hvorledes
+      de vil dømme over vedkommende.</ab>
+            <ab>41) Skomagerne i Flensborg har fremover tilladelse til at sælge deres varer på samme måde
+      som alle andre i byen Flensborg.</ab>
+            <ab>42) Såfremt et lavsmedlem opkøber skomagervarer fra andre skomagere - enten på markedet
+      eller ved husdøren - med videresalg for øje, skal vedkommende betale en tønde flensborgsk øl i
+      bøde til lavet.</ab>
+            <ab>43) Såfremt et lavsmedlem handler med bark mellem valborgsdag og Sankt Jakobs dag uden for
+      byen Flensborg, skal vedkommende betale en tønde flensborgsk øl i bøde til lavet.</ab>
+            <ab>44) Intet lavsmedlem må købe bark, førend vognene med bark er kommet igennem byporten ind
+      til Flensborg by. Gør et lavsmedlem det, skal vedkommende betale en tønde flensborgsk øl i
+      bøde til lavet.</ab>
+            <ab>45) Intet lavsmedlem må selv købe sæltran. Såfremt et lavsmedlem køber sæltran, skal
+      vedkommende betale en tønde flensborgsk øl i bøde til lavet. Til gengæld skal alle
+      oldermændene købe sæltran til at dække hele lavets behov. Når sæltrannen er delt ud blandt
+      lavsmedlemmerne, skal hvert lavsmedlem betale for sin andel til lavet inden for 14 dage.
+      Såfremt et lavsmedlem ikke gør det, skal vedkommende betale en tønde flensborgsk øl i bøde til
+      lavet, og vedkommende skal fortsat betale for sin andel.</ab>
+            <ab>46) Intet lavsmedlem må selv købe hestefedt. Til gengæld skal alle oldermændene købe
+      hestefedt til at dække hele lavets behov. Såfremt et lavsmedlem alligevel køber hestefedt,
+      skal vedkommende betale en tønde flensborgsk øl i bøde til lavet.</ab>
+            <ab>47) Såfremt et lavsmedlem skylder et andet lavsmedlem penge, og såfremt skyldneren ikke vil
+      betale det pågældende beløb til lavsmestrenes næstkommende møde, kan skyldneren bede om
+      udsættelse af betalingen i op til fire gange, førend lavsmestrenes næste møde skal holdes.
+      Såfremt beløbet ikke er betalt, inden lavsmestrenes næste møde holdes, skal skyldneren betale
+      en tønde flensborgsk øl i bøde til lavet.</ab>
+            <ab>48) Såfremt et lavsmedlem står i den ene eller anden form for gæld til lavet, det være sig
+      bødegæld, gæld med hensyn til betaling af penge til voks eller lignende, har lavet ret til at
+      inddrive denne gæld, så snart lavsmedlemmerne er samlede til møde.</ab>
+            <ab>49) Såfremt et lavsmedlem beskylder et andet lavsmedlem for at skylde penge, og såfremt det
+      andet lavsmedlem benægter dette, skal lavet bistå lavsmedlemmerne med retslig hjælp.</ab>
+            <ab>50) Intet lavsmedlem skal som udgangspunkt klage over et andet lavsmedlem over for rådet i
+      Flensborg i forbindelse med en strid. Derimod skal et lavsmedlem som udgangspunkt klage over
+      et andet lavsmedlem over for oldermændene i lavet. Herefter skal oldermændene dømme i sagen.
+      Det lavsmedlem, som forbryder sig mod denne regel, skal betale en tønde flensborgsk øl i bøde
+      til lavet.</ab>
+            <ab>51) Såfremt et lavsmedlem ikke vil acceptere den afgørelse, som lavets oldermænd træffer,
+      hvorfor vedkommende prøver sagen for rådet, og rådet derefter træffer samme afgørelse i sagen
+      som oldermændene, skal vedkommende betale to tønder flensborgsk øl i bøde til lavet.</ab>
+            <ab>52) Såfremt et lavsmedlem ikke ønsker at betale sin gæld, hvorfor vedkommende bliver
+      sagsøgt, skal vedkommende ikke gøre brug af lavet, førend han har betalt sin gæld. Endvidere
+      skal vedkommende betale tre tønder flensborgsk øl i bøde til lavet, medmindre oldermændene vil
+      se i nåde til vedkommende.</ab>
+            <ab>53) Såfremt et lavsmedlem ikke ønsker at følge et afdødt lavsmedlem til kirken og til
+      graven, som var det vedkommendes egen broder eller søster, skal lavsmedlemmet betale lavet ni
+      lybske skillinger i bøde til vin og voks. Endvidere skal det lavsmedlem, som ikke vil ofre en
+      lille lybsk penning til sjælemesse for den afdøde, betale den samme bøde, nemlig ni lybske
+      skillinger til vin og voks.</ab>
+            <ab>54) En ærbar kvinde i lavet, som har mistet sin mand, kan gøre brug af lavet i tre år efter
+      mandens død, således at hun har tid til at bestemme sig for, om hun vil gifte sig igen, eller
+      om det er bekvemt for hende at være alene.</ab>
+            <ab>55) Såfremt et lavsmedlem ikke møder op til et af de store lavsmøder, nemlig til
+      valborgsdag, til Sankt Jakobs dag og til mikkelsdag, skal vedkommende betale en grot i bøde
+      til vin og voks.</ab>
+            <ab>56) Såfremt en hustru eller jomfru optages i Sankt Jakobs lav, skal vedkommende betale tre
+      lybske skillinger til voks.</ab>
+            <ab>57) Såfremt et lavsmedlem drager ud af Flensborg med kone, børn og gods for at slå sig ned
+      et andet sted og ikke vender tilbage inden for et år, men først vender tilbage senere, skal
+      vedkommende søge om optagelse i lavet på ny.</ab>
+            <ab>58) Såfremt en fremmed skomager kommer til Flensborg og forsøger at modarbejde lavet, og
+      såfremt et lavsmedlem hjælper den fremmede skomager med penge eller låner penge til den
+      fremmede skomager, skal lavsmedlemmet betale to tønder flensborgsk øl i bøde til lavet.</ab>
+            <ab>59) Såfremt et lavsmedlem understøtter og hjælper en fremmed skomager med læder, med andet
+      gods eller med redskaber til skade for lavet, skal vedkommende også betale to tønder
+      flensborgsk øl i bøde til lavet.</ab>
+            <ab>60) Ingen må garve læder i Flensborg, medmindre man er medlem af Sankt Jakobs lav.</ab>
+            <ab>61) Såfremt oldermændene tager en skomager i at fremstille dårligt skotøj, skal den
+      pågældende skomager betale en tønde flensborgsk øl i bøde til lavet. Endvidere skal det
+      dårlige skotøj destrueres.</ab>
+            <ab>62) Såfremt man skal give Sankt Jakobs lav et fuldt festmåltid, skal dette måltid bestå af
+      seks retter eksklusive ost og smør. Endvidere skal man give lavet seks tønder flensborgsk
+      øl.</ab>
+            <ab>63) Et halvt festmåltid består af tre gode retter. Dertil hører smør og ost og tre tønder
+      flensborgsk øl.</ab>
+            <ab>64) Intet lavsmedlem må på forhånd opkøbe læder hos slagterne, thi de fattige skal have lige
+      så gode muligheder for at købe læder som de rige. Såfremt et lavsmedlem gør det, skal
+      vedkommende betale to tønder flensborgsk øl i bøde til lavet for hvert købt skind.</ab>
+            <ab>65) Enhver, som vil være lavsmedlem eller oldermand i lavet, skal sværge ved Gud, at
+      vedkommende vil behandle den fattige lige så korrekt som den rige.</ab>
+            <ab>66) Alle lavsmedlemmer skal i fællesskab holde fastelavn. Såfremt et lavsmedlem holder
+      fastelavn med andre, skal vedkommende betale en tønde flensborgsk øl i bøde til lavet.</ab>
+            <ab>67) De personer, der forestår den evige messe i Sankt Jakobs lav, skal én gang om året gøre
+      regnskab for lavet.</ab>
+            <ab>68) Såfremt et lavsmedlem ikke møder op til et ekstraordinært møde, som oldermændene i al
+      hast har indkaldt til, skal det pågældende lavsmedlem betale en tønde flensborgsk øl i bøde
+      uden nogen form for nåde. Såfremt lavsmedlemmet har beviseligt forfald, kan oldermændene se i
+      nåde til vedkommende.</ab>
+            <ab>69) For alle disse artikler gælder det princip, at det, som er godt for de mange, har
+      forrang for det, som er godt for de få. Enhver, som ikke vil acceptere dette, skal betale to
+      tønder flensborgsk øl i bøde til lavet. Endvidere skal vedkommende acceptere dette overordnede
+      princip.</ab>
+            <ab>70) Lavsbrevene, som dokumenterer lavsmedlemmernes optagelse i lavet, skal forsynes med et
+      hængende segl, det være sig den nærmeste bys segl eller hele herredets segl. Endvidere skal
+      Sankt Jakobs lavs skrå skrives ind i Flensborg bys stadsbog.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-28" who="#pbh">Filen etableret af #pbh 2013-11-28. </change>
+         <change when="2020-05-15" who="#smb">1. korrektur af #smb 2020-05-15. </change>
+         <change when="2020-09-01" who="#smb">2. korrektur af #smb 2020-09-01. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Jn nomine patris et filii et spiritus sancti amen.</p>
+            <p n="a#2" xml:space="preserve">Dyt is der schomakere rechticheyt to <placeName>Flensborgh</placeName>.</p>
+            <p n="a#3" xml:space="preserve">Wy borgermestere vnde radmanne, alse wy an dessen nascreuen iaren Godes jegenwardich vnde
+      vredesamentliken besittende weren den erliken st{oe}l des rades bynnen
+        <placeName>Flensborgh</placeName>, hebben samentliken vnde {ee}ndrachtighen, myd
+      wolbedachten vryen willen, den fromen beschedenen l{uo}den, deme erliken schomakere ampte,
+      vnsen leuen medeborgheren, alse de to der {ee}re des allemechtighen godes myd ener ewighen
+      missen vorsammelt s{ye}n in sunte Jacobus laghe des hilghen apostels bynnen
+        <placeName>Flensborgh</placeName>, mildichliken gegont vnde waraftighen gegeuen, vmme guder
+      reddelicheyd willen eres gem{ee}nen vorbenomeden amptes, alsod{ae}ne amptes rechticheyde,
+      wyllekøre vnde vryheyde, alse hir cl{ae}rliken myd benømeden articulen na gescreuen
+      st{ae}n.</p>
+            <p n="a#4" xml:space="preserve"><supplied>1</supplied> Enen olderman vth deme rade.</p>
+            <p n="a#5" xml:space="preserve">To deme ersten hebbe wy deme erliken sch{oe}makere ampte gegont, vnde gonnen en iegenwardich
+      enen personen {ve}t vnseme r{ae}de tohebbende, myd eren olderl{uo}den wesende ouer ereme
+      rechte vnde wyllekore, alle sake, twedracht vnde schelinge gansliken touorschedende, de se
+      bynnen amptes myd rechte edder in der vr{uo}ntscup reddeliken vorscheden møghen.</p>
+            <p n="a#6" xml:space="preserve"><supplied>2</supplied> Enen schilling l{uo}bisch to des r{ae}des renthe twye ut
+      togeuende.</p>
+            <p n="a#7" xml:space="preserve">V{oe}rtmer schal eyn islik sch{oe}maker in s{uo}nte Jacobus laghe {ve}tgeuen alle i{ae}r vppe
+      sunte Wolburghen dach vnde vppe s{uo}nte Michaelis dach to isliker tyd enen schillingh
+      l{uo}besch to des rades renthe, wente de ersame r{ae}d schal hebben to ysliker vorscreuen tyd
+      neghen schillingh engelsch; kønen se ouer myd deme enen schillinge nicht toreken, so schølen
+      se dat vorbeteren, vnde wol dat vorscreuen geld nicht {ve}t gift bynnen den achtedaghen, wan
+      de olderl{uo}de vmme g{ae}n, de schal breken ene tonnen Flensborgher beres.</p>
+            <p n="a#8" xml:space="preserve"><supplied>3</supplied> Vppe deme Sudermarkede st{ae}n.</p>
+            <p n="a#9" xml:space="preserve">V{oe}rtmer møghen de sch{oe}makere alle sonnauende myt ereme werke st{ae}n vppe deme
+      Sudermarkede, wan en des ghel{uo}stet.</p>
+            <p n="a#10" xml:space="preserve"><supplied>4</supplied> Ere sch{oe} n{ee}me vnde wurde toslaghen.</p>
+            <p n="a#11" xml:space="preserve">V{oe}rtmer schal de voged hebben vppe isliken s{uo}nte Thomas dach vor wyenachten neghen
+      grote; d{ae}r vore schølen de sch{oe}makere brukende wesen erer olden rechticheyt, also oft
+      yement en n{ee}me ere sch{oe} hemeliken edder openbare, vnde de hantdadige dar ouer toslaghen
+      w{uo}rde myt l{ee}sten vnde myt bløcken, d{ae}r schølen se nicht vøre beteren; men de voged
+      vnde de kemerere møghen wol spreken vppe den suluen hantdadighen vmme ere recht, oft se dat
+      myd guden willen nicht togheuen willen.</p>
+            <p n="a#12" xml:space="preserve"><supplied>5</supplied> Vr{øe}mde sch{oe}.</p>
+            <p n="a#13" xml:space="preserve">V{oe}rtmer schal men nenerleye sch{oe} veyle brynghen van buten to in de stad to
+        <placeName>Flensborgh</placeName>, w{uo}rden dar auer welke sch{oe} to kope ingebracht, de
+      schal ere olderman vt deme rade vnde de olderl{uo}de vt deme ampte nemen vnde gheuen de dorch
+      god armen luden.</p>
+            <p n="a#14" xml:space="preserve"><supplied>6</supplied> Steuene pennynge brynghen.</p>
+            <p n="a#15" xml:space="preserve">V{oe}rtmer schal eyn islik broder vnde suster in sunte Jacobus laghe bryngen syne steuene
+      pennynge in sunte Thomas dage vor wyenachten, {ee}r men de lichte vpstecked; wol des nicht en
+      deyt, de schal d{oe}n ene nye køste, id en sy denne sake, dat eme de olderl{uo}de vnde de
+      brodere gnade d{oe}n willen.</p>
+            <p n="a#16" xml:space="preserve"><supplied>7</supplied> Alle broke halft.</p>
+            <p n="a#17" xml:space="preserve">V{oe}rtmer offt ienich broder offte suster in ereme laghe edder in ereme ampte brokaftich
+      w{uo}rde, so schal io de helfte van allen brøken komen in de b{uo}ssen to deme d{ee}nste godes
+      vnde s{uo}nte Iacobes, vnde schølen dar mede vorbeteren ere lach, vnde de anderen helfte
+      schølen hebben s{uo}nte Jacobus brodere to bere.</p>
+            <p n="a#18" xml:space="preserve"><supplied>8</supplied> Vorspreken olderl{uo}de vnde brødere.</p>
+            <p n="a#19" xml:space="preserve">V{oe}rtmer welk broder ofte s{uo}ster, de dar vnvorschuldes vorsprikt de olderl{uo}de edder
+      de ghantzen brødere, de schal dat beteren myt twen tonnen Flensbørger beres.</p>
+            <p n="a#20" xml:space="preserve"><supplied>9</supplied> {Vo}th syner wonynghe h{uo}ren.</p>
+            <p n="a#21" xml:space="preserve">V{oe}rtmer schal n{ee}n broder in s{uo}nte Iacobus laghe den anderen broder {vo}t syner
+      wonynghe h{uo}ren sunder syne witlicheyt, men he schal ersten to sik nemen twe brødere vte
+      deme s{uo}luen laghe vnde vraghen ene, oft he in deme huse wille blyuen edder nicht; wol des
+      nicht en dede, vnde synen broder hir enbouen vthh{uo}rde sunder vraghent, de schal dat sunte
+      Iacobus laghe beteren myd ener tonnen Flensborgher beres.</p>
+            <p n="a#22" xml:space="preserve"><supplied>10</supplied> Echte n{ee}men erlike vruwen edder juncvruwen.</p>
+            <p n="a#23" xml:space="preserve">V{oe}rtmer welk meyster in s{uo}nte Iacobus lage vnde in deme ampte der sch{oe}makere sik
+      voranderen wil in dat hilge echte, de schal sik klokliken vøreseen, dat he n{ee}me alsod{ae}ne
+      ene bedderue erlike vrowen edder ene juncfruwen, dat se sunder tosaghe des erliken amptes
+      w{ee}rdich sy.</p>
+            <p n="a#24" xml:space="preserve"><supplied>11</supplied> Echte ouertreden vruwen.</p>
+            <p n="a#25" xml:space="preserve">V{oe}rtmer oft welk vrowe in deme schomakere ampte ere hilge echte ouertrede, edder queme in
+      quad ger{uo}chte, des se sik myd rechte nicht entleddighen konde, vnde ere man se vort an vor
+      syne bedderuen husvruwen in deme ampte vordeghedingen wolde, so schølen beyde man vnde vrouwe
+      des erliken amptes entberen also langhe tyd, went se syk des arghen r{uo}chtes myt rechte
+      reddeliken entleddeget heft.</p>
+            <p n="a#26" xml:space="preserve"><supplied>12</supplied> Schomakers sone enes schomakers dochter.</p>
+            <p n="a#27" xml:space="preserve">V{oe}rtmer oft enes sch{oe}makers søne wolde nemen enes schomakers dochter edder ene
+      sch{oe}makerschen, de deme ampte lijk vnde recht ged{ae}n hadde, de schal deme ampte geuen twe
+      tonnen Flensborger beres, vnde schal des amptes v{oe}rt an wesen brukende.</p>
+            <p n="a#28" xml:space="preserve">Weret auer {ee}n vrømpt knecht vnde hadde myd guder handelinge synen eren recht ged{ae}n,
+      alse des amptes rechticheyt vtwiset, vnde wolde nemen enes schomakers dochter edder ene
+      sch{oe}makerschen, de schal syne bewisinge bringen, dat he echte vnde rechte geboren sy van
+      vader vnde van moder, vnde schal deme ampte d{oe}n de haluen køste vnde bruken des amptes.</p>
+            <p n="a#29" xml:space="preserve"><supplied>13</supplied> Schomakers søne buten amptes nympt.</p>
+            <p n="a#30" xml:space="preserve">V{oe}rtmer oft sik enes schomakers søne voranderde buten deme ampte, de schal deme ampte
+      d{oe}n de haluen køste, vnde wesen vulbroder in deme ampte.</p>
+            <p n="a#31" xml:space="preserve"><supplied>14</supplied> En vrømpt knecht schal d{ee}nen ij i{ae}r tou{oe}rn.</p>
+            <p n="a#32" xml:space="preserve">V{oe}rtmer welk man edder knecht, de van buten tokumpt in vnse stad, vnde ere n{ee}n ampt
+      beseten heft, de schal tw{ee} i{ae}r al vmme tou{oe}rn d{ee}nen, {ee}r he dat ampt wert
+      esschende; so schal he denne bewisinge bringen myd breuen vnde myt ingesegelen van der
+      ieghene, d{ae}r he {ve}t geboren is, dat he echte vnde rechte geboren sy van vader vnde van
+      m{oe}der, vnde syne handelinge rechtferdigen geholden hebbe van iunger iøged, dat he des
+      amptes werdich sy, vnde schal denne dat ampt esschen to dren morghenspraken, vnde wan be denne
+      togelaten is, so schal he børghen setten vor de køste, vnde schal denne syne køste d{oe}n
+      bynnen vefteyn daghen; dok schølen denne de olderl{uo}de myd deme knechte g{ae}n vor den
+      r{ae}d vnde bidden vmme de borgherschup vnde seggen, dat he na syner bewisingen des erliken
+      schomakere amptes wol werdich sy.</p>
+            <p n="a#33" xml:space="preserve"><supplied>15</supplied> Knecht van buten to sch{oe}makers dochter edder wif.</p>
+            <p n="a#34" xml:space="preserve">V{oe}rtmer welk knecht van buten inkomende wert vnde vryet enes scomakers dochter edder ene
+      sch{oe}makerschen, vnde is echte vnde rechte geboren, vnde synen eren recht ged{ae}n heft, als
+      vørscreuen steyd, de schal doen des amptes rechticheyd also de haluen køste, vnde schal dat
+      ampt twye esschen, vnde he en darf tou{oe}rn in deme ampte nicht denen.</p>
+            <p n="a#35" xml:space="preserve"><supplied>16</supplied> Lerejunge enes schomakers dochter edder wif.</p>
+            <p n="a#36" xml:space="preserve">V{oe}rtmer welk lerejunge, de des amptes werdich is vnde syne haluen køste ged{ae}n heft, wil
+      nemen enes sch{oe}makers dochter edder ene sch{oe}makerschen, deme schal de halue køste
+      toh{uo}lpe komen, de he tou{oe}rn d{ae}n heft, vnde schal ok geuen deme ampte twe tonnen
+      Flensborger beres, vnde wesen vulbroder in deme ampte.</p>
+            <p n="a#37" xml:space="preserve"><supplied>17</supplied> Lerejunge buten amptes.</p>
+            <p n="a#38" xml:space="preserve">V{oe}rtmer welk lereiunge, de sik buten deme ampte vorandert, deme schal de halue køste
+      toh{uo}lpe komen, de he tou{oe}rn ged{ae}n heft, vnde de haluen køste schal he denne dar na
+      d{oe}n, vnde wesen vulbroder in deme ampte.</p>
+            <p n="a#39" xml:space="preserve"><supplied>18</supplied> Nympt ene vruwen buten amptes.</p>
+            <p n="a#40" xml:space="preserve">Vortmer welk man, de dar nympt ene vruwen buten amptes edder enes sch{oe}makers dochter, de
+      in deme ampte nicht en is, de schal to der negesten morgensprake, wan syn brudlacht ged{ae}n
+      is, {ve}tgeuen dre schillinge l{uo}besch to wyne vnde to wasse; vors{uo}met he dat, so schal
+      he van synes wyues weghene deme ampte d{oe}n ene halue koste.</p>
+            <p n="a#41" xml:space="preserve"><supplied>19</supplied> Nenen knechte m{ee}den, {ee}r he myt syneme meistere rekent.</p>
+            <p n="a#42" xml:space="preserve">V{oe}rtmer welk sch{oe}maker wil m{ee}den enen knecht, de schal ene meden to rechter tyd,
+      vnde nicht vor der tyd, {ee}r he myd syneme meystere gerekent heft; wol sik dar ynne
+      vors{uo}met, de schal s{uo}nte Jacobus laghe beteren myt twen tonnen Flensborger beres.</p>
+            <p n="a#43" xml:space="preserve">
+      <supplied>20</supplied> Twe knechte vnde enen jungen.</p>
+            <p n="a#44" xml:space="preserve"> V{oe}rtmer schal n{ee}n s{uo}lues here in deme sch{oe}makere ampte m{ee}r knechte holden
+      alse twe knechte vnde enen iunghen by dr{ee}n tonnen Flensborger beres brøke, wente de arme
+      behøuet so wol knechte alse de ryke.</p>
+            <p n="a#45" xml:space="preserve"><supplied>21</supplied> Neen vrømpt man ere knechte entmeden.</p>
+            <p n="a#46" xml:space="preserve">V{oe}rtmer schal dar n{ee}ment van buten to komen in vnse stad, de jenigeme manne in deme
+      sch{oe}makere ampte myd v{øe}rsate syne knechte entmede; deyt dat ienich vrompt man, den schal
+      men myt rechte tøuen, vnde he schal dat deme rade beteren myt achteyn schillinge l{uo}besch,
+      wente etlike vrømde l{uo}de komen vnde entmeden en ere knechte vor rechter tyd, vnde d{oe}n
+      deme ampte drepliken groten schaden.</p>
+            <p n="a#47" xml:space="preserve"><supplied>22</supplied> Lerejunghe halue koste.</p>
+            <p n="a#48" xml:space="preserve">V{oe}rtmer oft ienich man eneme jungen sch{oe}werk l{ee}rde, de schal d{oe}n de haluen
+      køste.</p>
+            <p n="a#49" xml:space="preserve">V{oe}rtmer wan he denne {ve}t der lere kumpt vnde wil werden synes s{uo}lues, so schal he
+      d{oe}n de anderen haluen køste, vnde bringen denne mede nøgaftighe bewisinge, dat he echte
+      vnde rechte geboren sy, alse vøre gescreuen steyd.</p>
+            <p n="a#50" xml:space="preserve"><supplied>23</supplied> Knecht de entlopt.</p>
+            <p n="a#51" xml:space="preserve">V{oe}rtmer welk knecht, de syneme meystere {ve}t deme ampte hemeliken entlopt myt synen
+      pennyngen edder myt syneme d{ee}nste, de schal in der stad to
+        <placeName>Flensborgh</placeName> nicht m{ee}r d{ee}nen, vnde schal dar ok nicht werden
+      synes s{uo}lues in allen tokomenden tyden. Helde den knecht jenich meister in deme ampte myt
+      witlicheyt ofte myd v{øe}rsate, de schal dat beteren myt ener tonnen Flensborgher beres.</p>
+            <p n="a#52" xml:space="preserve"><supplied>24</supplied> De meyster deme knechte syn l{oe}n nicht.</p>
+            <p n="a#53" xml:space="preserve">V{oe}rtmer welk knecht syneme meystere {ve}t ged{ee}net heft syne rechten tyd, vnde wil van
+      eme g{ae}n, vnde de s{uo}lue meyster eme syn l{oe}n vnde syne pennynge to der nøghe nicht
+      betalen wolde, so schal de knecht g{ae}n vør de olderl{uo}de vnde claghen ouer synen meyster,
+      so schølen de olderl{uo}de deme knechte geuen syne pennynge, vnde so schal de s{uo}lue meyster
+      den olderl{uo}den in deme ampte dat geld tweuoldich wedder geuen, alse des laghes rechticheyt
+      vtwised.</p>
+            <p n="a#54" xml:space="preserve"><supplied>25</supplied> Knecht vp vordr{ee}t denet.</p>
+            <p n="a#55" xml:space="preserve">V{oe}rtmer welk knecht, de syneme meystere d{ee}net myt hom{oe}de, myt vordrete vnde myt
+      wreuele, vnde de meister eme van n{oe}twegen vmme syner ouerd{ae}t willen orlof geue, so schal
+      de knecht synes lones, dat he went an den dach vord{ee}net heft, beydende wesen wente vppe de
+      rechten tyd, alse he syneme meystere denst gesecht vnde ghelouet heft.</p>
+            <p n="a#56" xml:space="preserve"><supplied>26</supplied> Xv mark tou{oe}rn.</p>
+            <p n="a#57" xml:space="preserve">V{oe}rtmer welk knecht, de dar is begherende s{uo}nte Jacobus lach, de schal hebben tou{oe}rn
+      vnvorborghet vefteyn mark l{uo}besch sunder syne kledere.</p>
+            <p n="a#58" xml:space="preserve"><supplied>27</supplied> Viij schilling to wyne vnde to wasse.</p>
+            <p n="a#59" xml:space="preserve">V{oe}rtmer welk knecht, de d{ae}r wert synes s{uo}lues in deme ampte, de schal geuen {ve}t
+      achte schillinge l{uo}besch to wyne vnde to wasse s{uo}nte Jacobus laghe to vorbeteringe to
+      der ewighen missen.</p>
+            <p n="a#60" xml:space="preserve"><supplied>28</supplied> De knechte meden to rechten tyden.</p>
+            <p n="a#61" xml:space="preserve">V{oe}rtmer welk meyster in deme ampte, de knechte m{ee}den wil, de schal se meden to rechte
+      tyden, alse van s{uo}nte Michaelis dage went to wyenachten, van wyenachten went to passchen,
+      van paschen went to s{uo}nte Michaelis dage, vmme beschedene l{oe}n; wol dat ienigerleyewis
+      anders deyt, de schal dat deme laghe vnde deme ampte beteren myt twen tonnen Flensborger
+      beres.</p>
+            <p n="a#62" xml:space="preserve"><supplied>29</supplied> Nicht meden dachl{oe}n, ofte wekenl{oe}n.</p>
+            <p n="a#63" xml:space="preserve">V{oe}rtmer oft jenich knecht queme in de stad buten tydes, den mach {ee}n meister in deme
+      ampte wol meden ymme møgelik beschedene l{oe}n vppe der <app><lem>merkliken</lem><rdg><q>merliken</q>, A</rdg></app> høuetdagen enen v{øe}rbenømet; men n{ee}n meyster schal ene m{ee}den by dachl{oe}ne
+      edder by wekenlone by deme v{øe}rscreuen brøke, alse twe tonnen Flensborger beres.</p>
+            <p n="a#64" xml:space="preserve"><supplied>30</supplied> Knechte to entlockende.</p>
+            <p n="a#65" xml:space="preserve">V{oe}rtmer were jenich meyster in deme ampte, de deme anderen myt v{øe}rsate entsp{ae}nde
+      synen knecht edder to v{øe}rvange entlockede, also dat he syneme meister d{ae}r vmme to
+      vnwillen d{ee}nde, dat he leuer wolde wesen myd deme anderen, de meyster, de den knecht also
+      entlocked, de schal dat beteren myd twen tonnen Flensborgher beres, vnde de knecht schal in
+      der stad nicht m{ee}r d{ee}nen.</p>
+            <p n="a#66" xml:space="preserve"><supplied>31</supplied> Sm{ee}like quade w{oe}rt tosprekende.</p>
+            <p n="a#67" xml:space="preserve">V{oe}rtmer welk broder jn s{uo}nte Jacobus laghe deme anderen myd hom{oe}de, myt v{ø}rs{ae}te
+      edder van drunkenscup wegene spreket smelike vnde vnt{uo}chtlike quade w{oe}rt, dar de brødere
+      tosamende drynken, de schal dat beteren myt twen tonnen Flensborger beres.</p>
+            <p n="a#68" xml:space="preserve"><supplied>32</supplied> Myt bere begh{ee}ten.</p>
+            <p n="a#69" xml:space="preserve">V{oe}rtmer were dar iement, de synen broder edder suster myd h{oe}mode edder myd v{oe}rsate
+      begøte, edder myd bere bespilde, edder ienigerleye ander vordr{ee}t dede, dat men bewisen
+      mach, de schal dat beteren myt ener tonnen Flensborger beres.</p>
+            <p n="a#70" xml:space="preserve"><supplied>33</supplied> To vullen drynken.</p>
+            <p n="a#71" xml:space="preserve">V{oe}rtner so schal n{ee}n broder edder s{uo}ster deme andere todrynken vulle kannen edder
+      halue by ener tonnen Flensborger beres.</p>
+            <p n="a#72" xml:space="preserve"><supplied>34</supplied> Nødeghen to drynkende.</p>
+            <p n="a#73" xml:space="preserve">V{oe}rtmer so schal n{ee}n broder edder s{uo}ster den anderen nødighen m{ee}r to drynkende,
+      wan eme wol gel{uo}stet, vnde alse dat syner nature bequeme is to dregende, by ener tonnen
+      Flensborgher beres.</p>
+            <p n="a#74" xml:space="preserve"><supplied>35</supplied> Van ouerulødicheyd spyen in deme huse.</p>
+            <p n="a#75" xml:space="preserve">V{oe}rtmer welke brødere vnde s{uo}stere, de bouen ere mate also uele drynken, dat se in deme
+      huse, d{ae}r de brødere to samende ynne drynken, van ouerulødicheyd wegene wedder geuen, de
+      schølen dat beteren myt twen tonnen Flensborger beres.</p>
+            <p n="a#76" xml:space="preserve"><supplied>36</supplied> Jn deme houe spyen.</p>
+            <p n="a#77" xml:space="preserve">V{oe}rtmer welk broder edder s{uo}ster, de d{ae}r van ouerulødicheyd wegene wedder gift in
+      deme houe des huses, dar de brødere ynnen drynken, de schal dat beteren myt ener tonnen
+      Flensborger beres.</p>
+            <p n="a#78" xml:space="preserve"><supplied>37</supplied> Jn dat lach wedder sitten gheyd.</p>
+            <p n="a#79" xml:space="preserve">V{oe}rtmer weme alsod{ae}ne v{oe}rscreuene ouerulødicheyt myd vorlatende besch{uo}d in deme
+      huse edder in deme houe, vnde geyt wedder sitten in dat lach by de brødere edder by de
+      s{uo}stere, de schal de vørscreuen broke tweuoldich {ve}t gheuen.</p>
+            <p n="a#80" xml:space="preserve"><supplied>38</supplied> Nicht k{oe}psl{ae}ghen edder wedden.</p>
+            <p n="a#81" xml:space="preserve">V{oe}rtmer schal n{ee}n man myd deme anderen k{oe}pslaghen edder wedden, w{oe}r de brodere
+      lagheb{ee}r to samende drynken, by ener tonnen Flensborgher beres.</p>
+            <p n="a#82" xml:space="preserve"><supplied>39</supplied> Nene lust togheuende.</p>
+            <p n="a#83" xml:space="preserve">V{oe}rtmer were dar ienich broder ofte suster, de vnhorsam were vnde wolde nene lust geuen,
+      wan de olderl{uo}de hebben laten vpkloppen, de schal vor de vnlust den olderl{uo}den vnde den
+      broderen beteren ene tonnen Flensbørgher beres.</p>
+            <p n="a#84" xml:space="preserve"><supplied>40</supplied> Vørsønede sake vornyet.</p>
+            <p n="a#85" xml:space="preserve">V{oe}rtmer were ienich broder edder s{uo}ster in deme laghe, de dar olde twedrachtige
+      vørsønede sake myd arghe wedder vornyede vnde vpreppede, de in vørtyden gansliken gesleten
+      weren myt rechte edder myd vr{uo}ntschoppen, dar de erlike r{ae}dman vnde de olderl{uo}de ouer
+      geseten hadden, do de sake endet vnde lendet w{ae}rt, de jene schal nicht weten, wat syn brøke
+      wesen schal; men dat schal st{ae}n myt vullenkomener macht to deme ersamen radmanne, to den
+      olderl{uo}den vnde to den m{ee}nen broderen, wo se dat willen richten.</p>
+            <p n="a#86" xml:space="preserve"><supplied>41</supplied> Ere werk vørkopen na der tyd.</p>
+            <p n="a#87" xml:space="preserve">V{oe}rtmer so møghen de sch{oe}makere to <placeName>Flensborgh</placeName> ere werk vorkøpen
+      na der tyd geliken anderen erliken borgheren, na vulb{oe}rd eres oldermans.</p>
+            <p n="a#88" xml:space="preserve"><supplied>42</supplied> Vørek{oe}p dede.</p>
+            <p n="a#89" xml:space="preserve">V{oe}rtmer were ienichman in deme schomakere ampte, de syneme lachbrodere vørek{oe}p dede vor
+      deme dore edder vppe deme markede, dat ere ampt anrørende is, de schal dat beteren myt ener
+      tonnen Flensborger beres.</p>
+            <p n="a#90" xml:space="preserve"><supplied>43</supplied> Nen bork buten dyngen.</p>
+            <p n="a#91" xml:space="preserve">V{oe}rtmer were dar jenich man in deme ampte, de dar dingede bork twusschen s{uo}nte
+      Wolburgen vnde s{uo}nte Iacobus daghe buten der stad <placeName>Flensborgh</placeName>, de
+      schal deme laghe beteren ene tonnen Flensbørgher beres.</p>
+            <p n="a#92" xml:space="preserve"><supplied>44</supplied> Bork bynnen kopen, nicht buten.</p>
+            <p n="a#93" xml:space="preserve">V{oe}rtmer so en schal n{ee}n sch{oe}maker bork køpen, er de waghene myt deme borke komen in
+      dat d{oe}r bynnen de stad; wol dar en bouen deyt, de brekt ene tonnen Flensborgher beres.</p>
+            <p n="a#94" xml:space="preserve"><supplied>45</supplied> Zeelsm{ee}r n{ee}n man køpen bes{uo}nderghen.</p>
+            <p n="a#95" xml:space="preserve">V{oe}rtmer so en schal n{ee}n man in deme ampte bes{uo}nderghen zeelsm{ee}r køpen, by ener
+      tonnen Flensborgher beres; men de olderl{uo}de schølen dat køpen to des gantzen amptes
+      beh{oe}ff; vnde wan dat zeelsm{ee}r mankt den amptgenoten ghed{ee}let is, so schal en islik
+      man syn gelt na børentale rede {ve}tgeuen bynnen den ersten v{ee}rteyn nachten negest
+      volghende; wol ouer den dach vorsittet, de brikt ene tonnen Flensborger beres, vnde schal syne
+      pennynge allikewol {ve}tgheuen.</p>
+            <p n="a#96" xml:space="preserve"><supplied>46</supplied> Neen vøllesm{ee}r køpen.</p>
+            <p n="a#97" xml:space="preserve">V{oe}rtmer so en schal n{ee}n man in deme ampte bynnen der stad rechte ienigerleye
+      vøllesm{ee}r køpen by helen tonnen edder by haluen tonnen, sunder allenen de olderl{uo}de; de
+      møghen dat køpen to des amptes beh{oe}ff'; wol dat dar en bouen deyt, de heft gebroken ene
+      tonnen Flensborgher beres.</p>
+            <p n="a#98" xml:space="preserve"><supplied>47</supplied> Van pennynghe schuld.</p>
+            <p n="a#99" xml:space="preserve">V{oe}rtmer were ienich man in deme ampte, de deme anderen sch{uo}ldich were, vnde entsete eme
+      weldichliken, vnde wolde eme nicht betalen syne pennynge in der ersten morghensprake, wan he
+      eme klaghe geuen heft, so mach he des negesten m{ae}ndaghes na der morghensprake myt sik nemen
+      enen broder in deme kerspele, dar de olderman ynne wonet vnde d{ae}r de klegher ynne wonet,
+      vnde geuen eme klaghe to der anderen tyd, vnde so to der dr{uo}dden tyd, vnde v{oe}rt to der
+      v{ee}rden tyd; vnde heft he denne de pennynghe to der anderen morghensprake nicht betalet, so
+      heft he gebroken ene tonnen Flensborger beres.</p>
+            <p n="a#100" xml:space="preserve"><supplied>48</supplied> Brøke, schuld, waspennynghe.</p>
+            <p n="a#101" xml:space="preserve">V{oe}rtmer welk man in deme ampte, de sünte Jacobus brøderscup schuldich is brokegheld,
+      waspennynge edder andere schuld, dat deme m{ee}nen ampte vnde sunte Jacobus laghe to Godes
+      denste anrorende is, dat moghen de brodere vtm{ae}nen by des amptes brøke, so vakene alse de
+      brødere tosamende komen.</p>
+            <p n="a#102" xml:space="preserve"><supplied>49</supplied> Veer man eneme tolotende.</p>
+            <p n="a#103" xml:space="preserve">V{oe}rtmer offt ienich broder den anderen schuldige vmme pennynge schuld bynnen amptes, vnde
+      he eme nicht to enst{uo}nde, edder eme sch{uo}ldinge toleghede vmme andere sake, d{ae}r he
+      n{ee}n vøre segede, so schal men eme {ve}t deme ampte tol{oe}ten veer man, de myt ereme rechte
+      eme behelpen synes rechtes, so mach he syk der sake s{uo}lf vefte reddeliken wol
+      entleddegen.</p>
+            <p n="a#104" xml:space="preserve"><supplied>50</supplied> De {ee}ne den anderen to deme rade nicht beclaghen.</p>
+            <p n="a#105" xml:space="preserve">V{oe}rtmer schal n{ee}n broder den anderen vorclaghen vor deme ersamen rade to
+        <placeName>Flensborgh</placeName> vmme tweedrachtighe sake, men he schal en ersten
+      sch{uo}ldighen vor deme oldermanne des r{ae}des, de myt en syt, vnde vor eren olderl{uo}den
+      vnde vor deme ampte, vnde schal reddeliken nemen vnde gheuen, alse en dunked wesen recht ofte
+      vruntschup; wol sik dar ane vors{uo}met, de schal deme ampte beteren twe tonnen Flensbørgher
+      beres.</p>
+            <p n="a#106" xml:space="preserve"><supplied>51</supplied> Vor den raed scheten.</p>
+            <p n="a#107" xml:space="preserve">V{oe}rtmer welk broder in ereme ampte, de sik nicht wil laten nøghen in deme rechte edder in
+      der vruntscup, dat em de {ee}rlike r{ae}dman, de myt en syd, vnde ere olderl{ou}de myt
+      vulb{oe}rd des amptes reddeliken afsegghen, vnde sik dar enbouen sch{uo}t vor den r{ae}d, vnde
+      wert d{ae}r der s{uo}luen sake vnrecht, de schal deme ampte beteren twe tonnen Flensborger
+      beres.</p>
+            <p n="a#108" xml:space="preserve"><supplied>52</supplied> De sik led laghsøken.</p>
+            <p n="a#109" xml:space="preserve">V{oe}rtmer welk man in deme ampte, de myd vruntscup nicht betalen wil, vnde let sik
+      vorvolghen in deme rechte, also dat he wert laghsocht, de schal des amptes nicht bruken, went
+      also lange dat he de schuld betalet heft, vnde schal dat deme laghe beteren myd dren tonnen
+      Flensborger beres: jd en sy denne sake, dat eme de olderl{uo}de vnde de brødere willen gnade
+      d{oe}n.</p>
+            <p n="a#110" xml:space="preserve"><supplied>53</supplied> Deme doden like volghen.</p>
+            <p n="a#111" xml:space="preserve">V{oe}rtmer welk broder edder s{uo}ster deme vørstoruen like synes d{oe}den broders edder
+      syner d{oe}den s{uo}ster nicht willichliken na en volghet to der kerken vnde to deme graue, de
+      heft gebroken neghen l{uo}bessche to wyne vnde to wasse. Vnde welk broder edder s{uo}ster deme
+      like nicht en offert enen clenen l{uo}besschen pennyng to der selemissen, de schal lyden den
+      s{uo}luen brøke, vnde men schal de br{øe}ke van stunden an {ve}t panden.</p>
+            <p n="a#112" xml:space="preserve"><supplied>54</supplied> {Ee}n vruwe na eres mannes dode.</p>
+            <p n="a#113" xml:space="preserve">V{oe}rtmer welk erlik vrowe in deme schomakere ampte beseten, de na deme willen godes eren
+      leuen man van dodes wegene vorloren heft, de schal des amptes brukende wesen na eres mannes
+      dode dr{ee} vulle i{ae}r al vmme, vppe dat se sik na willen wedder voranderen møghe, offt
+      {ee}r dat also bequeme sy.</p>
+            <p n="a#114" xml:space="preserve"><supplied>55</supplied> To der groten morghensprake komen.</p>
+            <p n="a#115" xml:space="preserve">V{oe}rtmer welk broder, de dat vørs{uo}mede vnde nicht en queme to s{uo}nte Wolburghen dage,
+      to sunte Iacobus daghe vnde to s{uo}nte Michaelis dage to der groten morgensprake, wan de
+      dr{uo}dde klaghe g{ae}n is, de brikt enen groten to wyne vnde to wasse.</p>
+            <p n="a#116" xml:space="preserve"><supplied>56</supplied> Vruwe edder juncvruwe s{uo}ster werd.</p>
+            <p n="a#117" xml:space="preserve">V{oe}rtmer welk vruwe edder iuncfruwe wert s{uo}ster in s{uo}nte Iacobus lage, de schal
+      gheuen dre schillinge l{uo}besch to waspennynghen.</p>
+            <p n="a#118" xml:space="preserve"><supplied>57</supplied> En sch{oe}maker {ve}t der st{ae}d tud.</p>
+            <p n="a#119" xml:space="preserve">V{oe}rtmer oft iement {ve}t deme ampte der schom{ae}kere tøghe vt der stad to
+        <placeName>Flensborgh</placeName> myt wyue vnde myt kynde vnde myd synen g{uo}dere anders
+      w{oe}r to wonende, vnde queme nicht wedder bynnen iare vnde bynnen daghe, vnde queme doch
+      wedder na der tyd, vnde wolde bruken des amptes, so schal he dat ampt vppe dat nye wedder
+      wynnen, alle amptes rechticheyde tod{oe}nde in alle der wise, alse vøregescreuen steyt.</p>
+            <p n="a#120" xml:space="preserve"><supplied>58</supplied> {Ee}n sch{oe}m{ae}ker van buten queme.</p>
+            <p n="a#121" xml:space="preserve">V{oe}rtmer queme ienich sch{oe}maker van buten in to <placeName>Flensborgh</placeName> in de
+      stad, vnde wolde myt wreuele deme gantzen ampte entegene wesen, welk man {ve}t ereme ampte ene
+      dar to sterkede myd gelde vnde eme pennynge l{ee}nde, de schal dat beteren myt twen tonnen
+      Flensborger beres.</p>
+            <p n="a#122" xml:space="preserve"><supplied>59</supplied> Den s{uo}luen.</p>
+            <p n="a#123" xml:space="preserve">V{oe}rtmer welk man in ereme ampte den s{uo}luen vrømden man sterkede vnde h{uo}lpe myd
+      leddere edder myd anderen g{uo}deren offte myt resscuppe, dat deme ampte schedeliken enteghen
+      were, de schal dat ok beteren myd twen tonnen Flensbørgher beres.</p>
+            <p n="a#124" xml:space="preserve"><supplied>60</supplied> N{ee}ment neen ledder gheren.</p>
+            <p n="a#125" xml:space="preserve">V{oe}rtmer so en schal n{ee}n man bynnen der stad <placeName>Flensborgh</placeName> ienich
+      ledder gheren, he en sy mede in deme ampte der sch{oe}makere vnde in erer rechticheyt.</p>
+            <p n="a#126" xml:space="preserve"><supplied>61</supplied> Ungheue werk maked.</p>
+            <p n="a#127" xml:space="preserve">V{oe}rtmer welk sch{oe}maker alsod{ae}ne werk maket, dat de olderl{uo}de straffen vnde
+      vngheue holden, de schal deme ampte dat beteren myt ener tonnen Flensbørgher beres, vnde dat
+      arghe werk schal io tou{oe}rn vorbroken wesen.</p>
+            <p n="a#128" xml:space="preserve"><supplied>62</supplied> De vulle køste ses richte.</p>
+            <p n="a#129" xml:space="preserve">V{oe}rtmer welk man s{uo}nte Jacobus laghe d{oe}n schal ene vulle køste, de schal gheuen ses
+      gude richte ane k{ee}se vnde ane botteren; dar to schal he gheuen ses tonnen Flensborgher
+      beres.</p>
+            <p n="a#130" xml:space="preserve"><supplied>63</supplied> De halue køste iij richte.</p>
+            <p n="a#131" xml:space="preserve">V{oe}rtmer de halue køste schal wesen dre gude richte, dar to bottere vnde kese, vnde dre
+      tonnen Flensborger beres.</p>
+            <p n="a#132" xml:space="preserve"><supplied>64</supplied> Neen ledder tou{oe}rn dynghen.</p>
+            <p n="a#133" xml:space="preserve">V{oe}rtmer schal n{ee}n man {ve}t deme sch{oe}makere ampte ienich ledder touorn vordyngen van
+      den knokenhøweren, wente de arme schal dar so wol k{oe}p ane hebben alse de rike; deyt dat
+      ienich man, de schal deme laghe beteren vor islike h{ue}d twe tonnen Flensborger beres.</p>
+            <p n="a#134" xml:space="preserve"><supplied>65</supplied> De olderman schal sweren.</p>
+            <p n="a#135" xml:space="preserve">V{oe}rtmer welk man in ereme ampte vnde in deme laghe olderman wesen schal, de schal sweren
+      an den hilghen, dat he deme armen also rechte richten wille alse deme ryken.</p>
+            <p n="a#136" xml:space="preserve"><supplied>66</supplied> Den vastelauent holden.</p>
+            <p n="a#137" xml:space="preserve">Vortmer so schølen de brødere vnde de s{uo}stere in s{uo}nte Iacobus laghe alle i{ae}r
+      {ee}ndrachtigen to samende holden eren vastelauent, id en were sake, dat id v{øe}rual
+      krankheyt edder ander n{oe}tsake ben{ee}me, dat de brødere vnde de sustere merkliken konden
+      irkennen, dat id nicht myt v{øe}rsate vørmydet w{uo}rde; wol dar enbouen myt partyen andere
+      bes{uo}nderghe vastelauendes kumpanye maket vnde holt, de schal deme laghe beteren ene tonnen
+      Flensbørger beres, vnde schal so vele in des laghes kumpenye betalen, also der erliken brødere
+      vnde s{uo}stere {ee}n deyt, de dat rechte lach den vastelauent ouer geholden hebben.</p>
+            <p n="a#138" xml:space="preserve"><supplied>67</supplied> {Ee}ns rekenscup des iares.</p>
+            <p n="a#139" xml:space="preserve">V{oe}rtmer de v{øe}rstendere der ewighen missen in s{uo}nte Iacobus laghe de schølen {ee}ns
+      in deme iare deme erliken lage rekenscup d{oe}n, dar sik de brødere vnde de s{uo}stere weten
+      na torichtende.</p>
+            <p n="a#140" xml:space="preserve"><supplied>68</supplied> Dat ampt tosamende.</p>
+            <p n="a#141" xml:space="preserve">V{oe}rtmer wan de olderl{uo}de vmme des amptes n{uo}tticheyd varlosen to samende komen, vnde
+      dat ampt myd der hast to sik vorboden vp ene enkede stunde in de klocken, welk man myt wreuele
+      vnde myd vørsate dat vorsm{ae}t vnde vors{uo}met, de schal dat beteren myt ener tonnen
+      Flensbørgher beres sunder gnade; heft he auer bewislik vøreval, so møghen eme de olderl{uo}de
+      gnade d{oe}n.</p>
+            <p n="a#142" xml:space="preserve"><supplied>69</supplied> De mynneste volghed deme meysten.</p>
+            <p n="a#143" xml:space="preserve">V{oe}rtmer bouen alle desse v{øe}rgerørden st{uo}cken, wes de erliken olderl{uo}de des amptes
+      to des ghem{ee}nen amptes vørbeteringe gudes vorramen møghen, deme armen so wol to vørdele
+      alse deme ryken, des schølen de mynnesten den meysten volghaftich wesen sunder weddersprake;
+      wol sik d{ae}r nicht ane nøghen let, de schal deme ampte beteren twe tonnen Flensbørger beres,
+      vnde schal allikewol vulb{oe}rden in de olderl{uo}de vnde in de meysten m{ee}nheyt des erliken
+      amptes v{øe}rbenømet.</p>
+            <p n="a#144" xml:space="preserve"><supplied>70</supplied> Echte breue.</p>
+            <p n="a#145" xml:space="preserve">Vnde men schal bringhen de echte breue vnder eneme hangenden ingesegele der negesten stad
+      edder enes gantzen herdes hangende ingesegel.</p>
+            <p n="a#146" xml:space="preserve">Vnde wy børghermestere vnde r{ae}dmanne to <placeName>Flensborgh</placeName> vørebenømet myt
+      alle vnsen nakømelinghen, de ok den {ee}rgenanten erliken r{ae}dst{oe}l in tokomenden tyden
+      besittende werden, bestedigen vnde confirmeren in craft desser ieghenwardighen scriffte alle
+      desse vørgerørden articule, wyllekøre, vryheyde vnde alle erliken olden rechticheyde vnde
+      plechliken w{oe}nheyde den erbenømeden erliken vromen mannen olderl{uo}den, v{oe}rstenderen,
+      werkmeysteren vnde der gantzen m{ee}nheyt des erliken schomakere amptes, vnde der gantzen
+      vorsammelinghe des erliken laghes s{uo}nte Iacobus des hilgen apostels, bynnen
+        <placeName>Flensborgh</placeName> wonaftich, vnvorbreklik toblyuende vnde berouweliken
+      tobrukende in allen tokomenden tyden.</p>
+            <p n="a#147" xml:space="preserve">Vmme welker vørscreuenen beghiftinge willen de s{uo}luen erliken sch{oe}makere myt gantzer
+      andacht deme ersamen rade to <placeName>Flensborgh</placeName> lefliken danken, vnde willen
+      alle tyd myd likwerdighem wedderlone myd gantzen tr{uo}wen en gherne h{oe}rsam vnde
+      vnderdanich wesen, in allen reddeliken saken ereme rechte bystandich to blyuende, w{oe}r en
+      des n{oe}t vnde behoef is.</p>
+            <p n="a#148" xml:space="preserve">To waraftiger bet{uo}chnisse vnde merer beuestynghe desser vorbenømeden rechticheyde vnde
+      vryheyde des {ee}rgenanten erliken schomakere amptes, so hebbe wy børghermestere vnde
+      r{ae}dmanne to <placeName>Flensborgh</placeName> {ee}rbenøment to ewigher sekericheyd de
+      samentliken laten scriuen in vnser stadb{oe}ck to <placeName>Flensborgh</placeName>; vnde wy
+      hebben ok deme s{uo}luen vorbenømeden sch{oe}makere ampte mildichliken gegeuen ere egene
+      s{uo}nderge b{oe}ck to hebbende bynnen ereme ampte, dar desse s{uo}luen vorbenømeden articula,
+      rechticheyde, wyllekøre vnde amptes vryheyde van w{oe}rde to w{oe}rde in eneme lude
+      kl{ae}rliken ynne gescreuen st{ae}n, noch myn edder m{ee}r alse vnse stadb{oe}ck {ve}twiset;
+      dar se sik myd ereme gem{ee}nen ampte vnde myt ereme erliken laghe sunte Iacobus møghen weten
+      na to richtende to ewyghen tyden.</p>
+            <p n="a#149" xml:space="preserve">Ghegheuen, ghestedighed vnde ghescreuen na der b{oe}rd vnses heren Cristi veerteynhundert
+      i{ae}r dar na in deme seuenvndedr{uo}ttigesteme i{ae}re in deme hilghen auende s{uo}nte
+      Jacobus des grøteren, des h{oe}chgeloueden werdighen apostels.</p>
+            <p n="a#150" xml:space="preserve">Deo laus.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">153</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14341004002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3181-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.3 (plica: 0.7)</height>
+                                    <width>21.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Pergamentet stærkt angrebet bakterielt med teksttab til følge</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Scotacio Ingiert
+        H<ex>er</ex>me<ex>n</ex>sdatt<ex>er</ex> super bonis in Gersløff situatis videlicet una
+        curia ibidem</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Segl sort i ufarvet voks i perg.rem tilhørende Johan Mikkelsen i
+        Vejle, DGS 922
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl sort i ufarvet voks i perg.rem tilhørende Johan Tagesen af
+        Højen, DGS 923
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Segl sort i ufarvet voks i perg.rem tilhørende Niels Friis af
+        Haraldskær, AS L xxiii 85
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Segl sort i ufarvet voks i perg.rem tilhørende Niels Stangeberg af
+        Lerbæk, AS L xv 22
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i København, Rigsarkivet, De ældste arkivregistraturer, Registratur
+      over breve i Ribe kapitels arkiv, trykt ÆA V 367 K. 3</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 150-51</bibl>
+               <bibl>Rep. nr. 6733</bibl>
+               <bibl>Vejledende Arkivreg. XVIII 276 nr. 305</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-10-04"
+                  notBefore="1434-10-04"
+                  notAfter="1434-10-04"
+                  cert="high">1434. 4. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Inger Hermansdatter (Pennow), enke efter Jens Vognsen, skøder ærkedegn og kapitel i Ribe
+      sin gård i Gårslev med tilliggende otting jord på Gårslev Mark.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-25" who="#pbh">Filen etableret af #pbh 2013-10-25. </change>
+         <change when="2019-10-28" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-10-28. </change>
+         <change when="2020-03-13" who="#pbh">2. korrektur af #pbh 2020-03-13. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ men th<ex>e</ex>ttæ b<ex>re</ex>ff se ell<ex>e</ex>r høræ hels<ex>er</ex> jech
+        <persName>Yngierth H<ex>er</ex>me<ex>n</ex>sdott<ex>er</ex></persName>
+      <app><lem><persName>[N]is Wogh<ex>e</ex>ns<ex>øn</ex></persName></lem><rdg wit="#A">usikker læsning, A</rdg></app> effth<ex>e</ex>r leu<ex>er</ex>
+      <app><lem>ewi[n]deligh</lem><rdg wit="#A">usikker læsning, A</rdg></app> m<ex>eth</ex> guth och kongør m<ex>eth</ex> th<ex>e</ex>ttæ myt obne b<ex>re</ex>ff /
+      at jech sell / <app><lem>sc[ø]th<ex>e</ex>r</lem><rdg wit="#A">usikker læsning, A</rdg></app> uplath<ex>e</ex>r oc <app><lem>[a]ntworth<ex>e</ex>r</lem><rdg wit="#A">usikker læsning, A</rdg></app> heth<ex>e</ex>rligh men ærchydegh<ex>e</ex>n oc ga<ex>n</ex>ts capittel j <app><lem><placeName>Ripæ</placeName></lem><rdg wit="#A">utydeligt, A</rdg></app> en my<ex>n</ex>
+      <app><lem>g[a]rdh</lem><rdg wit="#A">usikker læsning, A</rdg></app> ligg<ex>e</ex>nd<ex>es</ex> i <app><lem><placeName>[Gar]sleff</placeName></lem><rdg wit="#A">usikker læsning, A</rdg></app> som nw pabor <persName>And<ex>e</ex>rs Ploghs<ex>øn</ex></persName> oc <app><lem>tilligg[h]<ex>e</ex>r</lem><rdg wit="#A">usikker læsning, A</rdg></app> en otting jord pa Garsleff m<ex>a</ex>rk / <app><lem>m[<ex>eth</ex>]</lem><rdg wit="#A">usikker læsning, A</rdg></app> all oc <app><lem>[h]wer</lem><rdg wit="#A">usikker læsning, A</rdg></app> serdels for<hi rend="sup">d<ex>e</ex></hi> gards <app><lem>r<ex>e</ex>tth[ic]het</lem><rdg wit="#A">usikker læsning, A</rdg></app> oc <app><lem>till[ei]els</lem><rdg wit="#A">usikker læsning, A</rdg></app> / wot oc tywrt / entæ <app><lem>vnta[gh<ex>e</ex>n]</lem><rdg wit="#A">usikker læsning, A</rdg></app> til ewindeligh <app><lem>ey[el]sæ</lem><rdg wit="#A">usikker læsning, A</rdg></app> ♦</p>
+            <p n="a#2" xml:space="preserve">Och weth<ex>e</ex>rkenner <app><lem>[jech]</lem><rdg wit="#A">usikker læsning, A</rdg></app> athaæe upbor<ex>et</ex> fyllist oc <app><lem>f[u]lt</lem><rdg wit="#A">usikker læsning, A</rdg></app> wærth effth<ex>e</ex>r my<ex>n</ex> nøghæ for for<hi rend="sup">d<ex>e</ex></hi> gardh
+      oc <app><lem>g[otz]</lem><rdg wit="#A">usikker læsning, A</rdg></app> so jech thack<ex>e</ex>r th<ex>e</ex>m ♦</p>
+            <p n="a#3" xml:space="preserve"><app><lem>[Item]</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem>tilbindh[<ex>e</ex>r]</lem><rdg wit="#A">usikker læsning, A</rdg></app> jech <app><lem>m[y]k</lem><rdg wit="#A">usikker læsning, A</rdg></app> oc mynæ arwingæ atfrii oc <app><lem>f[r<ex>e</ex>]lsæ</lem><rdg wit="#A">usikker læsning, A</rdg></app> oc tilatsta <app><lem>for<hi rend="sup">d[<ex>e</ex>]</hi></lem><rdg wit="#A">usikker læsning, A</rdg></app> capittel i Ripæ for<hi rend="sup">d<ex>e</ex></hi> gardh for hwer ma<ex>n</ex>s pathalæ
+      ♦</p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis honorabilium virorum dominorum
+        <persName>Johannis Michaelis</persName> in <placeName>Wethel</placeName>
+      <persName>Johannis Taghs<ex>øn</ex></persName> de
+        <placeName>Høthu<ex>m</ex></placeName> ecclesiarum rectorum <persName>Nicholai
+        Friis</persName> de <app><lem><placeName>Har[ild]kier</placeName></lem><rdg wit="#A">usikker læsning, A</rdg></app> et <app><lem><persName>Nicholai Sta<ex>n</ex>gh[e]b<ex>er</ex>gh</persName></lem><rdg wit="#A">usikker læsning, A</rdg></app> de Lerbek armigerorum presentibus est appensum ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xxxquarto die sancti Francisci
+      confessoris domini nostri Jhesu Christi ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

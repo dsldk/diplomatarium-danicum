@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">360</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14320222001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3108; tidl. sign. Københavns gårde 294</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>17.7 (plica: 2.7)</height>
+                                    <width>21.6</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Fugtskadet</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskrifterne <q>Recognitio domini Arnoldi Clementis quod tenetur
+        ecclesie beate virginis in magna summe pecunie</q> og med senere hånd <q>Super klocke høffue
+        hoess Nørr<ex>e</ex> porth</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6545</bibl>
+               <bibl>Reg. *4944</bibl>
+               <bibl>Vejledende Arkivreg. XVII 203 nr. 35</bibl>
+               <bibl>Københavns Dipl. IV 30-31 nr. 40</bibl>
+               <bibl>Rørdam, Kjøbenhavns Kirker og Klostere, Tillæg s. 36-38 nr. 30</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 41-43</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-02-22"
+                  notBefore="1432-02-22"
+                  notAfter="1432-02-22"
+                  cert="high">1432. 22. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Arild Klementsen, dekan i Linköping, erklærer at skylde Vor Frue Kirke i København 225 mark
+      lybsk for sten og kalk, som han på kongens vegne fik til byggearbejde for den afdøde dronning.
+      Gælden forfalder til betaling til næstkommende påske. Såfremt den ikke bliver betalt,
+      pantsætter Arild Klementsen to møller i og ved København for beløbet: den ene inden for
+      Nørreport, den anden ved stranden uden for Vesterport.</ab>
+            <ab>Kirkeværgerne skal modtage møllerne og på kirkens vegne oppebære indtægterne, der skal
+      betale af på gælden. Eventuelle udbedringer på møllerne foretaget af kirken skal betales af de
+      årlige indtægter.</ab>
+            <ab>Når gælden er fuldt ud afdraget, skal møllerne gives tilbage til Arild Klementsen eller hans
+      arvinger i den stand, hvori de til den tid forefindes.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-04" who="#pbh">Filen etableret af #pbh 2013-10-04. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-12-05" who="#alk">2. korrektur af #alk 2017-12-05. </change>
+         <change when="2018-03-15" who="#alk">3. korrektur af #alk 2018-03-15. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men som th<ex>et</ex>tæ breff se eller høre helser jech <persName>Arald
+        Cleme<ex>n</ex>ss<ex>øn</ex></persName>
+      <placeName>dæghen i Lyncøpyng</placeName> ewy<ex>n</ex>nelighe m<ex>eth</ex> gwth ok wel
+      th<ex>et</ex> alle men kw<ex>n</ex>necht wære so the nw ære som ko<ex>m</ex>me skulæ at jech
+      weth<ex>e</ex>r kenner megh m<ex>eth</ex> th<ex>et</ex>tæ myt oppnæ breff skyldegh at wære
+        <placeName>wor Frwæ kyrke i Køpmanhaffn</placeName> ccxxv m<ex>a</ex>rch lubycen<ex>ses</ex>
+      i gothe pe<ex>n</ex>ny<ex>n</ex>ge ok geffæ fore steen ok lym hwilke jech fyk aff for<hi rend="sup">de</hi> kirke pone my<ex>n</ex> natheghe h<ex>er</ex>re
+        <persName>konyngs</persName> weghne til my<ex>n</ex> natheghe frwæ
+        <persName>drotnyngs</persName> maagh hwes syel gwth haffe betalesculendæ inne<ex>n</ex>
+      pascha nw nest er ko<ex>m</ex>mendæ wden alt hynder ♦</p>
+            <p n="a#2" xml:space="preserve">Fforæ hwilke pe<ex>n</ex>ny<ex>n</ex>ge om the ey worthe tha betalethe som fore er saght tha
+      pantsettær jech for<hi rend="sup">de</hi> kirke too mynæ <app><lem>wæth<ex>er</ex>møller</lem><rdg wit="#A">Rettet fra <q>wath<ex>n</ex>møller</q>?, A</rdg></app> meth th<ex>er</ex>re møllestæthe ok aal th<ex>er</ex>re telhøræ en standendæ inne<ex>n</ex>
+      <placeName>Nørræ port</placeName> j <placeName>Køpma<ex>n</ex>haffn</placeName> ok then annen
+      næst w<ex>eth</ex> strandæn wdæn <placeName>Wæstræ port</placeName> w<ex>eth</ex> byen i sodan
+      madæ at for<hi rend="sup">d<damage>e</damage></hi>
+      <placeName>kirke wæryæ</placeName> sculæ a<ex>n</ex>namæ for<hi rend="sup">de</hi> møller fore
+      et pant pone kyrkenæ weghne ok oppbære alt landgildæ ok rentæ til kyrkene nyttæ hwat the
+      skyldæ kw<ex>n</ex>næ arlighe so lenge til ffor<hi rend="sup">de</hi> ccxxv m<ex>a</ex>rch
+      lubycens<ex>es</ex> worthe føl betalethe aff th<ex>e</ex>n renttæ ok landgildæ so the hwermen
+      at hwat kyrken bekoster pone bygny<ex>n</ex>g eller bæthryng pone the for<hi rend="sup">de</hi> møller th<ex>et</ex> scal betales aff landgildæt ok enktæ reghnes kyrken til
+      aaffellyng i how<ex>et</ex> sw<ex>m</ex>me<ex>n</ex> ♦</p>
+            <p n="a#3" xml:space="preserve">Ok naar gwth wel at for<hi rend="sup">de</hi> kyrke haffer føllelighe oppboræt the for<hi rend="sup">de</hi> ccxxv m<ex>a</ex>rch aff for<hi rend="sup">de</hi> møller tha sculæ the
+      frij ko<ex>m</ex>mæ til my<ex>n</ex> hand eller mynæ arwy<ex>n</ex>ge hand i sodane madæ som
+      the tha fynnes ♦</p>
+            <p n="a#4" xml:space="preserve">Her offer bynder jech mech til ok mynæ arffynge at frij ok hemlæ for<hi rend="sup">de</hi>
+      kirke for<hi rend="sup">de</hi> møller til paant at haffæ ok brwghe til set nyttæ so lenge
+        for<hi rend="sup">de</hi> pe<ex>n</ex>ny<ex>n</ex>ge swm worth<ex>er</ex> føllelighe
+      betaleth som fore stander sc<ex>re</ex>ffet ♦</p>
+            <p n="a#5" xml:space="preserve">Ok worth<ex>er</ex> the møller eller mølle stæthe kirken aff deldæ m<ex>eth</ex> laandz lagh
+      tha sculæ jech ok mynæ arffynge holdæ kirken skatheløsæ th<ex>er</ex> foræ i allæ madæ
+      ♦</p>
+            <p n="a#6" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis honorabilium virorum videlicet
+      dominorum <persName>Johannis Clementis</persName>
+      <placeName>decani Haffnensis</placeName>
+      <persName>Clementis Cleme<ex>n</ex>ts<ex>øn</ex></persName>
+      <placeName>canonici Roskildensis</placeName> fratrum meorum <persName>Andree <app><lem>Laurencii</lem><rdg wit="#A">Patronymet er forkortet, og det kan ikke afgøres om det skal opløses
+              <q>Laurencii</q> eller <q>Laurenssøn</q>, A</rdg></app></persName> et <persName>Arnoldi Krwsæ</persName>
+      <placeName>proconsulum Hafnensium</placeName> presentibus est appensum ♦</p>
+            <p n="a#7" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi>xxxii<hi rend="sup">o</hi>
+      die sancti Petri in cathedra ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

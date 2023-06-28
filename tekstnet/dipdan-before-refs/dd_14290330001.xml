@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">353</num>, paragraphs: <num n="paragraphs">12</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14290330001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Bremen</settlement>
+                        <repository>Staatsarchiv Bremen</repository>
+                        <collection>StAB 1-K</collection>
+                        <idno>2 (1429 März 30)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Adresse på bagsiden: <q>Dem erwerdigen in Gode vaderen heren Niclausse \
+        ersszebiscope tho Bremen vnsseme guden vrunde</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Spor efter kong Eriks brevlukkende segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-03-30"
+                  notBefore="1429-03-30"
+                  notAfter="1429-03-30"
+                  cert="high">1429. 30. marts</date>
+            <placeName cert="high">Kalundborg slot</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern skriver til ærkebiskop Nicolaus af Bremen.</ab>
+            <ab>Kong Erik meddeler, at han netop har modtaget ærkebiskop Nicolaus' brev, hvori ærkebiskoppen
+      skriver, at borgerne i Wismar på skændig vis har slået ærkebiskoppens embedsmand Heinrich v.
+      Haren, rådmand i Wismar, ihjel på grund af falske rygter om ham. I forlængelse heraf meddeler
+      kong Erik, at han intet har at gøre med denne skændige handling.</ab>
+            <ab>Endvidere beder kong Erik ærkebiskop Nicolaus huske på den aftale, som han har beseglet og
+      forpligtet sig til at holde vedrørende de holstenske herrer, nemlig at ærkebiskop Nicolaus
+      skal sørge for, at de holstenske herrer overholder det, som den romerske konge har afgjort i
+      sagen mellem kong Erik og de holstenske herrer. Ærkebiskop Nicolaus skal således sørge for, at
+      de holstenske herrer tilbageleverer Sønderjylland og Gottorp slot til kong Erik, idet den
+      romerske konge har afgjort dette ved retten.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-03-14" who="#smb">Filen etableret af #smb 2019-03-14. </change>
+         <change when="2019-03-15" who="#smb">1. korrektur af #smb 2019-03-15. </change>
+         <change when="2019-10-25" who="#smb">2. korrektur af #smb 2019-10-25. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><persName>Erich</persName> van Godes gnaden . tho . <placeName>Denmarcken</placeName>
+      <placeName>Sueden</placeName>
+      <placeName>Noruegen</placeName> der Wende vnde Goten koningk vnde hertoghe in
+        <placeName>Pomeren</placeName> etcetera ♦</p>
+            <p n="a#2" xml:space="preserve">Vnssen vruntliken grut mid erwerdicheit touoren ♦</p>
+            <p n="a#3" xml:space="preserve">Erwerdighe in Gode vader / here / vnde s{ue}nderghe vrunt / ♦</p>
+            <p n="a#4" xml:space="preserve">Juwen breff vns nw gesant jnne holdende dat de borghere van <placeName>der Wismar</placeName>
+      juwen beleenden man <persName>Hynrike van Haren</persName> schentlikes vnerliken dodes
+      vnuorsch{ue}ldet ged{oe}det hebben vmme ruchte vnde handelunge <app><lem>willen</lem><rdg>skrevet over linjen</rdg></app> em ouer gedichtet zo ghy dat v{oe}rder schriuet etcetera hebbe wy gutliken entphangen
+      vnde vornommen / ♦</p>
+            <p n="a#5" xml:space="preserve">Dar upp moge ghy weten dat wy van Godes gnaden de sint de nichten deyt edder daen hefft ane
+      dat wy wol vorantworden willen / wan de tiid kumpt dat vns dat b{oe}ret / ♦</p>
+            <p n="a#6" xml:space="preserve">V{oe}rder als ghy schriuen / wiste ghy dat jd . vns to dancke vnde to willen were / ghy
+      wolden juw vppe de van <placeName>der Wismer</placeName> vmme vnsser leue willen vorhalen /
+      ♦</p>
+            <p n="a#7" xml:space="preserve">Eruerdige leue here vnde vrundt ♦ Dat gy dem also don dat aname wy gherne vnde
+      vorsc{ue}lden / ♦</p>
+            <p n="a#8" xml:space="preserve">V{oe}rdermer bydde wy juwe herlicheit vordacht to wesende dess l{oe}uedes vnde vorbrewunge de
+      ghy vns vor de holtzeden heren louet vnde vorsegelt hebben dat se vns holden vnde volghen
+      scholden laten / wess de here r{oe}mesche k{oe}nyngk vor recht t{ue}schen en vnde vns
+      vtspreckende wurde / des hefft syne herlicheit vnde dat hillige r{oe}mesche rike vns
+        <placeName>Sunderjutlande</placeName> vnde <placeName>Gottorppe</placeName> mid rechte to
+      gerichtet / welkes rechtes de holzeden heren em vnde dem romeschen rike gentzlich vnd all
+      v{oe}rfanghen zint / wedder God {ee}re vnde recht so se vnd ghy vns alle dat clarliken
+      vorbreuet hebben ♦</p>
+            <p n="a#9" xml:space="preserve">Hir vmme bydde wy vnde vormanen juwe herlicheit / de ergenomeden holzsten heren to
+      vnderwizende dat se vns volghen laten dat vnsse / dat vns also mid openbaren {oe}rdele vnd
+      ludbaren vtspr{oe}ke nach rechte tho gerichtet js . vnde dar wy Godes recht tho hebben /
+      ♦</p>
+            <p n="a#10" xml:space="preserve">Vnde wes wy juwer hir tho gheneten mogen . bydde wy vns to benalende ♦</p>
+            <p n="a#11" xml:space="preserve">Hir mede beuele wi juw dem almechtigen Gode . ♦</p>
+            <p n="a#12" xml:space="preserve">Screuen vpp vnsem slote Kalundeborgh . des veerden dages to paschen . anno Domini mcdxxix<hi rend="sup">o</hi> . vnder vnsem secrete ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

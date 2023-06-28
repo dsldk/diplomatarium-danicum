@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">124</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14140224030</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2426-c, tidl. Kong. Arkiv (Arts H. 20b)</idno>
+                        <msName/>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16.6 (plica: 2.5)</height>
+                                    <width>30.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>Transscriptum af frw Ædhle Jæiopsdott</q>er
+                                <q>b</q>re<q>ff h</q>er <q>Barnu</q>m <q>Erikss</q>øn<q>s
+                                æft</q>er<q>leue at hon solde oc affhænde drotni</q>n<q>g
+                        Margr</q>ete <q>etcetera Scharsholm oc Scharsholms fang Stockeb</q>er<q>gh
+                                och Stockeb</q>er<q>gs fang m</q>eth <q>megh</q>et <q>a</q>n<q>nit
+                                gotz th</q>e<q>r til j Syelænd</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>seglsnit, men seglet må utvivlsomt have tilhørt Klaus
+                                Grubendal, <ref>cf. DAS 1138</ref></ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>seglsnit, men seglet må utvivlsomt have tilhørt Moleke van
+                                der Lanken, <ref>cf. AS E viii 7</ref></ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>seglsnit, men seglet må utvivlsomt have tilhørt Gert van
+                                der Lanken, <ref>cf. AS C xxxix 1</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5358</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-02-24"
+                  notBefore="1414-02-24"
+                  notAfter="1414-02-24"
+                  cert="empty">1414. 24. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Klaus Grubendal, ridder, og Moleke og Gert van der Lanken, væbnere, udsteder
+                        vidisse på et brev fra 5. juli 1408, hvorved Edel Jakobsdatter, enke efter
+                        hr. Barnim Eriksen, sælger Skarsholm med tilliggende
+                        gods, som hun har arvet efter sin mand og efter sin datter Johanne, til dronning Margrete.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="99999999" who="#mh">Filen etableret af #mh 2018-04-15. </change>
+         <change when="99999999" who="#mh">1. korrektur af #mh 2018-05-01. </change>
+         <change when="99999999" who="#nil">2, korrektur af #maria.arvidsson 2018-05-16. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wi <persName>Clawes Grupendale ridder<ex>e</ex></persName>
+                        <persName>Møleke</persName> oc <persName>Gerith van der Lanken
+                                awapn</persName> gør<ex>e</ex> witerlicht oc openbar alle the som
+                        the<ex>n</ex>ne sc<ex>ri</ex>ft høre ell<ex>e</ex>r see oss æfter wor
+                        h<ex>er</ex>r<ex>es</ex> føthelsses aar thusendefirehwndrethe vpa
+                        th<ex>et</ex> fiortænde aar vpa sancti Mathie apostoli dagh hafue
+                        seet oc skoet oc hørt grangifleghe fore oss ouerlæset eet opit
+                        pærkme<ex>n</ex>s b<ex>re</ex>ff w raget oc w schrapet oc j alle made w
+                        falsket oc w mistænckelicht m<ex>eth</ex> sa<ex>n</ex>ne oc wisse
+                        hænge<ex>n</ex>de jncigle jnciglet helt oc holdet oc allstings wel bewaret
+                        huilket b<ex>re</ex>ff luder ordh fran ordh æft<ex>er</ex> thy som
+                        h<ex>er</ex> æft<ex>er</ex> følgher ♦</p>
+            <p n="a#2" xml:space="preserve"> Jek Ædhle Jacops dotter
+                        (etc. = <ref target="14080705002">DD 1408. 5. jul., nr. 14080705002</ref>)
+                        ♦</p>
+            <p n="a#3" xml:space="preserve"> Oc til mer<ex>e</ex> witerlicheet h<ex>er</ex> vm haue wy
+                        ladet wore jncigle hænges for<ex>e</ex> the<ex>n</ex>ne sc<ex>ri</ex>ft
+                        ♦</p>
+            <p n="a#4" xml:space="preserve"> Datum anno et die supradictis.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve"><ex>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster</ex></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">92</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14181123001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsarchiv Königsberg (nu Berlin, Geheimes Staatsarchiv Preußischer Kulturbesitz)</repository>
+                        <collection>XX. HA, Ordensbriefarchiv (OBA)</collection>
+                        <idno>Nr. 02830 (tidl. sign. Schubl. XLI LS 38)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rester af ærkebiskop Johannes Ambundis segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Napiersky, Index corporis historico-diplomatici Livoniae, Esthoniae, Curoniae, nr. 880, p.
+      202 (regest)</bibl>
+               <bibl>Bunge, Liv.-, Est.- u. Curländ. Urkundenb. V, nr. MMCCLXXIX, sp. 428 (Reg. nr.
+      2718)</bibl>
+               <bibl>Reg. Dan. nr. *4460</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter Bunge l.l. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-11-23"
+                  notBefore="1418-11-23"
+                  notAfter="1418-11-23"
+                  cert="high">1418. 23. november</date>
+            <placeName cert="high">Ronneburg slot</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrivelse fra Johannes (Ambundi), ærkebiskop i Riga, til Michael Küchmeister (v. Sternberg),
+      højmester for Den Tyske Orden, hvori han omtaler, at hans skib har lidt skade ved en storm ud
+      for Bornholm.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-08" who="#pbh">Filen etableret af #pbh 2014-04-08. </change>
+         <change when="2020-11-30" who="#smb">1. korrektur af #smb 2020-11-30. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Unser fruntliche dienste zuvor.</p>
+            <p n="a#2" xml:space="preserve">Hochwirdiger herre, besunder freund.</p>
+            <p n="a#3" xml:space="preserve">[.....]</p>
+            <p n="a#4" xml:space="preserve">Unser sachen sein hiemit also schlecht, als sie bei euch waren, do wir keinen bruche hetten
+      in dehenen sachen, hie aber finden wir wenig. So geet es uns auch mit den unsern, das uns aber
+      die sehe komen solde zeitlichen, wan uns uf gestern mere komen sein, das unser schiff bei
+        <placeName>Bornholm</placeName> komen was, und im da in einem grossen storme die ra
+      brach.</p>
+            <p n="a#5" xml:space="preserve">[.....]</p>
+            <p n="a#6" xml:space="preserve">Datum zu <placeName>Runenborg</placeName>, am mitwochen vor Catharinae, anno Domini XVIII.,
+      under unserm alten secrete.</p>
+            <p n="a#7" xml:space="preserve"><persName>Johannes</persName>, von Gotes gnaden der heiligen kirche zu
+        <placeName>Ryge</placeName> ertzebischof.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">2511</num>, paragraphs: <num n="paragraphs">24</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14230000046</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2834-c (tidligere RA, Slesvig, nr. 61 b)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Papirhæfte på to folioark</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift på ydersiden: <q>Copia aff then scrifft som the Holzede herre haue
+        latit sette um there rættergang etcetera som myn herre lot hemelica wt scriue i Kopendhafn.
+        Presentibus ducibus Casemer et Wartslauo etcetera</q>. Nederst på sidste side er tegnet en
+      hånd, som peger på følgende påskrift: <q>Nota Data investiture Holsatorum est anni
+      xcvij</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Kopi af den opsnappede original</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Danske Mag. 5. rk. IV, p. 347-352</bibl>
+               <bibl>Rep. U448</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Aa. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-01-01"
+                  notBefore="1423-01-01"
+                  notAfter="1423-02-02"
+                  cert="low">[1423. 1. januar - 2. februar]<ref target="drb1"/>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Procesindlæg fra holstensk side.</ab>
+            <ab>1) Kong Erik 7. af Pommern klager over de holstenske herrer, i særdeleshed vedrørende
+      hertugdømmet. Kong Erik mener, at de holstenske herrer uretmæssigt hindrer ham i at modtage
+      det, som tilhører den danske krone, nemlig Gottorp, Slesvig og Tønder samt alle de andre
+      stæder, slotte, herreder, landsbyer og alt det gods, som de holstenske herrer har i deres
+      varetægt i Sønderjylland. Derfor kræver han af den romerske konge eller af den romerske konges
+      fuldmægtige, at der bliver sørget for, at de holstenske herrer overdrager det, som tilhører
+      den danske krone, til kong Erik, samt at den danske krone får kompensation for den skade, som
+      den har lidt på grund af de holstenske herrer.</ab>
+            <ab>2) Hertil svarer de holstenske herrer, at de ikke besidder de førnævnte stæder, slotte,
+      landsbyer og herreder, som tilhører den danske krone, uretmæssigt. Derimod besidder de de
+      førnævnte stæder, slotte, landsbyer og herreder som et len, som kong Valdemar 3. gav
+      til deres forfædre med det danske rigsråds samtykke. Således har det førnævnte hertugdømme
+      Sønderjylland fra gammel tid været et fyrstelen og et ret arvelen, hvilket de holstenske
+      herrer kan bevidne med kong Valdemar 3.s og det danske rigsråds åbne beseglede breve. Og da de
+      holstenske herrer nu besidder det førskrevne arvelen grundet arv, besidder de ikke de
+      førnævnte slotte, stæder, landsbyer eller områder med vold eller uret. Derimod besidder de de
+      førnævnte områder med rette, hvilket de kan bevise med dronning Margretes åbne beseglede brev,
+      med hvilket hun på egne og sine efterkommeres vegne lover, at hun aldrig vil bestride, at
+      hendes søn kong Oluf 2. forlenede de holstenske herrers far med det førskrevne len. Og
+      eftersom deres far før dem og de selv efter ham har besiddet arvelenet i flere år uden
+      protester, og eftersom de altid har opfyldt de forpligtelser, som de i henhold til deres breve
+      vedrørende arvelenet skal opfylde, mener de, at kong Erik ikke kan kræve hertugdømmet
+      tilbage, men at han derimod skal genforlene dem med hertugdømmet, samt at han skal yde dem
+      kompensation for al den skade, som de har lidt grundet den krig, overlast og uret, som kong
+      Erik har påført dem.</ab>
+            <ab>3) Hertil vil kong Erik sikkert sige, at ingen dansk konge kan fjerne eller give noget af
+      den danske krones arvegods bort eller forlene nogen med noget af det, som tilhører den danske
+      krone, i længere tid end den pågældende konges egen levetid. Endvidere vil kong Erik sige, at
+      han kan bevise dette med den danske ret eller lovbog. Derfor mener kong Erik, at forleningen
+      af hertugdømmet Jylland kun kan forblive ved fuld magt, så længe den pågældende konge lever,
+      idet Jylland fra gammel tid har været og stadig er den danske krones arvegods.</ab>
+            <ab>4) Hertil svarer de holstenske herrer, at hertugdømmet Jylland fra gammel tid har været og
+      stadig er et hertugdømme og et fyrstelen tilhørende den danske krone, som den førnævnte kong
+      Valdemar 3. endda selv havde som len, hvorfor de mener, at der ved den førnævnte forlening af
+      hertugdømmet ikke er blevet fjernet noget af det, som tilhører den danske krone. Endvidere
+      svarer de holstenske herrer, at enhver, som har magt til at give en lov og til at holde den
+      ved fuld magt, også har magt til at forandre, forlænge, forkorte, opretholde samt ophæve denne
+      lov, eftersom den danske ret eller lovbog kun er gældende, såfremt de danske konger og det
+      danske rigsråd i fællesskab giver deres samtykke dertil. Da nu den førnævnte forlening af
+      hertugdømmet Jylland er sket med samtykke fra den førskrevne danske konge og Danmarks rigsråd,
+      nemlig ærkebispen i Lund samt Danmarks syv biskopper og Danmarks riges øverste marsk og
+      Danmarks riges drost og 36 riddere og adelsfolk, som alle var danske rigsråder, hvilket de
+      holstenske herrer kan bevidne med kong Valdemar 3.s og de danske rigsråders åbne beseglede
+      breve desangående, mener de holstenske herrer, at forleningen skal have lige så megen
+      gyldighed som den danske ret eller lovbog.</ab>
+            <ab>5) Hertil vil kong Erik sikkert sige, at de breve, som dronning Margrete har givet de
+      holstenske herrer, hvori hun lover aldrig mere at føre sag mod dem om de førnævnte slotte og
+      stæder, ikke kan ligge den danske krone til last, eftersom hun i de førskrevne breve ikke
+      kalder sig dronning af Danmark, men blot arving til Danmark. Danmark er imidlertid slet ikke
+      noget arverige, hvorfor hun heller ikke har beseglet brevet som dansk dronning. Af samme årsag
+      kan de vidnesbyrd, som de holstenske herrer mener at have, hvad angår kong Valdemar 3.s
+      forlening af hertugdømmet til de holstenske herrers far, hverken ligge Danmarks rige eller den
+      danske krone til last, idet disse vidnesbyrd ikke stammer fra Danmarks riges stormænd eller
+      mænd, men derimod fra holstenere og de holstenske herrers undersåtter.</ab>
+            <ab>6) Hertil svarer de holstenske herrer, at de i kraft af dronning Margretes brev under alle
+      omstændigheder kan bevise, at deres far i mange år har besiddet hertugdømmet Slesvig uden
+      hendes indvendinger, selvom det skulle vise sig, at dronningens brev var uden gyldighed.</ab>
+            <ab>7) Endvidere kan det tænkes, at kong Erik vil sige, at kong Christoffer 2. var en retmæssigt
+      hyldet konge og tillige søn af Danmarks konge, samt at kong Christoffer selv skrev sig som
+      dansk konge på det tidspunkt, da kong Valdemar 3.s forlening af Sønderjylland skete. Endvidere
+      blev kong Christoffer ikke forvist som følge af den slags misgerning, grundet hvilken man med
+      rette kan forvise en konge. Derimod blev han fordrevet med vold, og derefter blev han slået
+      ihjel på Lolland. Alt dette skete, fordi kong Valdemar 3. på det tidspunkt, da hans forlening
+      af Sønderjylland fandt sted, slet ikke var nogen rigtig konge af Danmark, hvorfor selve
+      forleningen af Sønderjylland og alt, hvad den havde afstedkommet, ikke havde nogen gyldighed
+      ifølge retten.</ab>
+            <ab>8) Hertil svarer de holstenske herrer, at enhver hyldet konge eller kejser med rette kan
+      afsættes, såfremt den pågældende har gjort noget, som er i strid med den ed, som vedkommende
+      har aflagt til kronen. Dette er da også sket for kort tid siden med kong Wenzel af Bøhmen, som
+      kurfyrsterne afsatte på grund af vedkommendes misgerning, dengang han var en fuldmægtig
+      romersk konge. Herefter valgte kurfyrsterne først hertug Ruprecht af Bayern og derefter kong
+      Sigismund af Ungarn til romersk konge, selvom kong Wenzel af Bøhmen stadig skrev sig som
+      romersk konge, hvilket han altså slet ikke var. Havde man ikke kunnet afsætte kong Wenzel af
+      Bøhmen, ville den nuværende romerske konge Sigismund heller ikke være nogen retmæssig
+      romersk konge, og på den måde ville alt, hvad kong Ruprecht og kong Sigismund som romerske
+      konger og i den romerske konges navn har gjort, være fuldkommen ugyldigt. Når nu en dansk
+      konge hverken er valgt af paver, kejsere eller andre konger, men derimod alene af Danmarks
+      rigsråd, kan Danmarks rigsråd også med rette afsætte en dansk konge, såfremt vedkommende
+      har udført den misgerning, som berettiger en afsættelse, og såfremt det er nødvendigt. Heri
+      adskiller Danmarks rigsråd sig ikke fra kurfyrsterne, som kan afsætte en kejser eller en
+      romersk konge. Og når nu ærkebiskoppen, Danmarks syv biskopper og de 36 riddere og adelsfolk,
+      det vil sige hele Danmarks riges råd, bevidner, at kong Christoffer har brudt den ed, som han
+      aflagde til kronen, samt at han har udført mange andre misgerninger, på baggrund af hvilke man
+      med rette kan afsætte enhver konge, og på baggrund af hvilke det danske rigsråd også afsatte
+      ham, mener de holstenske herrer ikke, at kong Christoffers afsættelse og valget af Valdemar
+      til konge er sket uretmæssigt. Ej heller har det ifølge de holstenske herrer betydning, at
+      kong Christoffer skrev sig som konge af Danmark, efter kong Valdemar var blevet valgt som konge
+      af Danmark, for det var alene kong Christoffers egen misgerning, som retmæssigt berøvede ham
+      kronen og riget. Hvad angår kong Valdemar, blev han valgt til Danmarks konge af et enigt dansk
+      rigsråd, således som det skal ske for enhver dansk konge. Derfor er kong Valdemars forlening
+      af hertugdømmet også sket med rette, hvorfor forleningen skal have lige så stor gyldighed som
+      den danske ret eller lovbog.</ab>
+            <ab>9) Endvidere kan det tænkes, at kong Erik nu vil sige, at det førnævnte len er blevet
+      afskåret fra kronen og riget, hvorfor han med rette kan tage det tilbage.</ab>
+            <ab>10) Hertil svarer de holstenske herrer, at deres forfædre aldrig er blevet anklaget for
+      noget sådant, mens de levede, samt at det kan bevises, at de aldrig har forbrudt sig mod den
+      danske krone, hvorved man ville kunne sige, at de havde tabt retten til lenet. Såfremt de har
+      forbrudt sig imod den danske krone, er det først sket, efter kong Erik blev deres fjende,
+      idet han begyndte en åben krig imod dem.</ab>
+            <ab>11) Hvad angår landet Femern og slottet Glambæk, vil de holstenske herrer sige til kong
+      Erik, at de håber, at kong Erik har pligt til at genforlene dem med landet Femern og slottet
+      Glambæk samt overdrage landet Femern og slottet Glambæk til dem i henhold til danske kongers
+      åbne breve vedrørende Femern. Dette skal kong Erik gøre, for det første fordi de kan bevise
+      med de førnævnte danske kongers åbne breve, at landet Femern er deres arvelen, for det andet
+      fordi de har besiddet Femern i mere end 40 år uden indvendinger, samt for det tredje fordi
+      kong Erik har erobret og ødelagt Femern inden for den gensidigt bekræftede fredsperiode.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-14" who="#pbh">Filen etableret af #pbh 2014-08-14. </change>
+         <change when="2018-06-27" who="#smb">1. korrektur af #smb 2018-06-27. </change>
+         <change when="2018-12-11" who="#smb">2. korrektur af #smb 2018-12-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><supplied>1</supplied> Dyt sy jn des konnynges to sprake vppe dat allersuneste dat he de vt
+      sticken vnd vort setten moge . vppe <persName>de heren van Sleszwick</persName> . alze vmme
+      dat hertichdom etcetera vnde seggen zo / ♦</p>
+            <p n="a#2" xml:space="preserve">Na deme . dat de Romische koning . hefft vtgesant <persName>hertoch Rumpolde</persName> unde
+      hefft em geuen jn synem openen besegelden breue vulle macht to degedingende unde to vulthende
+      van syner wegen enen vasten vrede unde ene stede sone / tuschen deme vorscreven koninge unde
+        <persName>den hertogen van Sleszwick</persName> vnde jn deme suluen breve louet hefft zo wes
+      de vorbenomede <persName>hertoch Rumpold</persName> dar ane degedingende wurde . dat he dat
+      also vulteen vnde sluten scal in allerwise als vfft he suluen dat muntliken degedinget hadde<ref target="drb1"/> / . ♦</p>
+            <p n="a#3" xml:space="preserve">Vnde alse nu <persName>de vorbenomede koning van Denmarcken</persName> unde <persName>de
+        heren van Sleszwick</persName> . eres rechten van aller tosprake . de se to malkanderen hat
+      hebben unde noch hebbende sint . gebleuen sin by deme Romischen / koninge vorscreven . edder
+      an <persName>hertigen Rumpolde</persName> van syner wegen also dat men se dar ouer mit rechte . vorsceden scole<ref target="drb2"/> / vnde hertoch Rumpold an synem anuanges breue<ref target="drb3"/> louet hefft dar men jo <app><lem>al</lem><rdg><q>al</q> står skrevet over linjen i Aa</rdg></app> sůlck recht scole aff seggen . alse men van rechtes wegen sculdich were aff to
+      seggende vppe der stede dar de sone <app><lem>gedegedinget</lem><rdg><q>gedegendinget</q>, Aa</rdg></app> wart . dat doch was vppe denscher erde unde vnder der kronen to
+        <placeName>Denmarcken</placeName> . alze to <placeName>Fflensborgh</placeName> an welker
+      yegenheide . de stande erue vnde liggende grunde . dar de tosprake vmme ys / belegen sint / zo
+      mach <persName>de koning van Denmarcken</persName> so seggen also . dat de heren van Sleszwick
+      em unde der cronen to <placeName>Denmarcken</placeName> mit vnrechte vore entholden hebben
+      unde noch entholden . de slote Gottorp Slesuic Tundern etcetera unde anders wess . se van
+      sloten . steden dorpern hereden unde guderen bynnen Sünder Jutlande jn eren henden hebbende
+      sint na deme dat he lichte secht dat beuisen mach / wo em van densches rechtes wegen . des
+      behoff wert dat em de vorbenomede stede sl{oe}te dorper . herede vnde g{ue}der etcetera to der
+      cronen van Denmarcken . van oldinges gehort hebben unde noch van Godes unde rechtes wegen dar
+      to horen / unde mit nenem rechte dat der cronen to Denmarcken / to voruange wesen mach . dar
+      aff sint gespleten unde toghen / unde eschet unde begeret dar vmme van deme Romischen koninge
+      vorgescreven edder van den yennen de des van syner wegen gemechtiget wert / dat men des
+      vormoge an de heren van Sleszwick . dat ze ere hand dar aff theen unde em de r{ue}men vnde wes
+      se dar an mit dessen vnrechte genoten vnde vpp geboret hebben mit deme scaden . den de crone
+      to Denmarcken hir ane genomen hefft wedder vp richten . edder dat me se an beiden ziden dar
+      ouer mit sulckem rechte alse men na hertich Rumpoldes anuanges breues<ref target="drb4"/> wegen sculdich js aff to seggende / vorscede . / ♦</p>
+            <p n="a#4" xml:space="preserve"><supplied>2</supplied> Hir to antworden . de heren . van Sleszwick alzo . dat ze de
+      vorbenomede . stede slote dorper herede g{ue}dere der cronen to Denmarcken mit nenem vnrechte
+      . hebben vore entholden sunder se hebben se beseten unde besitten alse se en van eren
+      voruaderen ankomen unde nableuen sint dat js jn leenwere . alsz koning Woldemar van Denmarcken
+      . wandages hertoge to Jutlande mit vulborde vnde willen sines ganzen rikes rades eren
+      voruaderen mit deme hertochrike van Jutlande . dat der vorscrevenen cronen . ffursten <app><lem>leen</lem><rdg>umiddelbart herefter står i Aa et overstreget <q>js</q></rdg></app> van oldinges . all tiit gewest js to eneme rechten erfflene vorlent hefft alse <app><lem>se</lem><rdg><q>se</q> står skrevet over linjen</rdg></app> dat mit des vorbenomeden koning Woldemars unde sines rikes rades vorscreuen . openen besegelden breuen<ref target="drb5"/> bet{ue}gen mogen . ♦</p>
+            <p n="a#5" xml:space="preserve">Vnde alse se nu sint der vorgescreuen beleninge rechte erfflen volghere zo hebben ze de
+      vorscreuene slote stede . dorper unde g{ue}der mit nener walt edder vnrechte sunder <app><lem>de</lem><rdg><q>de</q> står skrevet over linjen i Aa</rdg></app> mit Gode unde mit rechte van der vorscreuen kronen in ere len were hat unde hebben <app><lem>alse</lem><rdg>umiddelbart herefter står i Aa et overskrevet <q>d</q></rdg></app> ze dat bet{ue}gen mogen mit koningynne Margreten openen besegelden breuen<ref target="drb6"/> . dar ane se louet hefft vor se unde ere eruen . vppe de vorscreuene . slote stede
+      etcetera nummermer to sakende unde vurder mit leuendigen t{ue}gen beuisen dat koning Oleff ere
+      s{oe}ne . de erem vadere dat vorescreuen leen vorliget hefft / vnde na deme dat ere vader
+      vorscreuen vore unde se na dar ane mennich jar sunder bysprake beseten hebben unde alle wegen
+      ouerbodich unde begerich sint gewest alse se noch sint dat vorscreuene ere erfflen van der
+      cronen to Denmarcken to entphangende unde er dar van to denende unde to dunde wes se na
+      vtwisinge erer breue . van rechtes wegen sculdich sint to důnde . alse se dat mit heren
+      unde vursten betugen mogen . zo menen se dat de koning van Denmarcken en de vorbenomede
+      beleninge mit rechte nicht moge vore seggen sunder dat he van rechtes wegen sculdych sy en dat
+      vorscreuene len na vtwisinge erer breue vorscreuen to vorligende unde allen beuisliken scaden
+      den he unde de synen mit ouerlaste vnrechtes kriges . en hebben to bericht plichtich sy to
+      vorgeldende unde scheten sik des to rechte . ♦</p>
+            <p n="a#6" xml:space="preserve"><supplied>3</supplied> Effte nu de koning van Denmarcken lichte seggen wil / to dem ersten
+      also / ♦</p>
+            <p n="a#7" xml:space="preserve">Na deme dat nen koning to Denmarcken . der cronen erffegut vorlenen vorgeuen edder
+      vntfromeden mach van der kronen . lenger wen alse he leuet vnde he dat lichte mit deme
+      denschen rechte edder lachboke betugen mach vnde dar vmme ment . dat de vorscreuene
+      erffleninge van Jutlande nicht by vuller macht bliuen scole lenger alze eneme køninghe de de
+      nakomende wert dat ghelenet na deme dat Jutland . der cronen rechte erffgut js vnde van
+      oldynges alle wege weset js . alze he lichte seggen wil vnde sik des to rechte schete
+      ♦</p>
+            <p n="a#8" xml:space="preserve"><supplied>4</supplied> So antworden de heren van Sleszwick dar zo to . ♦</p>
+            <p n="a#9" xml:space="preserve">Na deme dat de krone van Denmarcken an dem vorbenomeden hertichrike to Jutlande beholden
+      hefft mit der beleninghe / de koninglike walt ouerste herlicheit vnde dar nicht anderss ane
+      vorgeuen edder vorlent ys wen als dat van oldinges bet to der tiit eyn hertochrike vnde eyn
+      ffursten leen der cronen weset hadde unde alze koning Woldemar vorscreuen . de dat ersten den
+      Holsten heren vorligede / dat suluen to lene hat vnde beseten hadde zo menen se dat jd dar
+      mede vnde vormyddelst der vorscreuenen beleninge der cronen nycht entfr{oe}medet edder aff
+      getogen sy vnde seggen vurdermer ♦</p>
+            <p n="a#10" xml:space="preserve">Na deme dat eyn juwelic . de mechtigh js en recht to makende edder jn to settende vnde by <app><lem>vuller</lem><rdg><q>vulle</q>, Aa</rdg></app> macht toholdende oc mechtigh js . jd sy jn gestliker edder ok jn werliker achte . dat
+      sulue recht wan em des behoff důncket to voranderende to lengende to kortende to richtende
+      vnd ok to male nedder toleggende unde to vornichtende / vnde alse nw dat densche recht edder
+      laghbuk / nicht vurder edder lenger macht hefft wen als dat by endracht der koninge to
+      Denmarcken vnde dess rikes rades vulbordt jngesat vnde bestediget ys / vnde desse vorbenomede
+      beleninge / gheschen vnde to ghan ys vormyddelst endracht des koninges vorscreuen vnde synes
+      ganzen rikes rades . alze des archiebiscopes to Lunden vnde der vij biscope van Denmarcken
+      vnde des ouersten markscalkes vnde drosten des rikes myd xxxvi . dat ys myt dren tuelfften
+      riddere vnd riddermetischer l{ue}de . dede alle weren des rikes rad . vorgescreuen alze de
+      heren van Sleszwick dat myd openen besegelden breuen . des konnynges vnde synes rades<ref target="drb7"/> vorbenomed . bet{ue}gen mogen / zo menen se dat de vorbenomede beleninge zo vulle macht
+      hebben scole alze dat densche recht edder lachbok hebben mach dar mede de koning se doch ment
+      to brekende alsz vorscreuen ys vnde scheten sik des to rechte ♦</p>
+            <p n="a#11" xml:space="preserve"><supplied>5</supplied> Vnde uffte de koning lichte vurder seggen wolde dat de breue . de de .
+      kønyngynne Margrete geuen hefft den heren van Sleszwick . als dar se ane louet vppe de
+      vorbenomede slote vnde stede nummermer tosakende etcetera / der cronen nycht mogen komen to
+      vor <app><lem>uange</lem><rdg>umiddelbart foran <q>uange</q> står to overstregede ulæselige bogstaver</rdg></app> na dem male dat se sik jn dem vorscreuen breue nycht genomet <app><lem>koningjnne</lem><rdg>i Aa er ordet delt ved linjeskift i <q>koning</q> og <q>jnne</q></rdg></app> . sunder all ene / erue / to Denmarcken dat doch nen erff <app><lem>rike</lem><rdg><q>riken</q>, Aa</rdg></app> en js . alze witlic vnde openbare js vnde dat ok nycht als ene koningynne vnde myd des
+      rikes rade besegeldt hefft . vnd ok dat s{ue}llech tuch . alse dar de heren van Sleszwick
+      menen mede to bet{ue}gende . dat koning <app><lem>Waldemar</lem><rdg><q>Waldemar</q> er tilføjet over linjen med en senere hånd. Umiddelbart herunder står
+          et overstreget <q>W.</q> Overstregningen må være sket ved en fejl, da der kun kan være
+          tale om kong Valdemar</rdg></app> erem vader dat hertochdom belende deme rike edder der cronen nycht mogen to voruange
+      komen na deme dat de tůghe des rikes vursten edder manne nychten sint sunder dat se Holsten
+      unde der heren van Sleszwick vndersaten vnde manne synt / vnde sik des to rechte schete
+      ♦</p>
+            <p n="a#12" xml:space="preserve"><supplied>6</supplied> Zo antwarden de heren van Sleszwick dar also to . ♦</p>
+            <p n="a#13" xml:space="preserve">Effte de vorscreuene konyngjnne Margreten breff vnde de vorbenomede tůghe wol machtløs .
+      bewist wurden zo mogen se . se doch dar mede bewisen dat ere vader dat vorscreuene hertichrike
+      to Sleszwick sůnder ere bysprake zo lange jare beseten vnde jn syner leenwere hat hefft des
+      se hopen to netende an erem rechte vnde besittinge vnde scheten sik des to rechte .
+      ♦</p>
+            <p n="a#14" xml:space="preserve"><supplied>7</supplied> Vortmer uffte de koning seggen wil to syneme schonesten dat em helpen
+      kan an den vorbenomeden stucken ♦</p>
+            <p n="a#15" xml:space="preserve">Nademe dat koning Cristoffer de en recht huldiget vnde sacreret koning vnde konynges zone was
+      to Denmarcken / noch leuendich vnde vulmechtigh was syner unde der synen unde sik vor enen
+      konyng to Denmarcken screff vnde heelt to der tiit vnde vele yar dar na . alse de vorscreuene
+      beleninge dar sik de heren van Sleszwick to scheten / scheen scolde wesen alze dat lichte ment
+      to bet{ue}gende vnde war to makende / vnde ok de sulue koning Cristoffer / van sulcker
+      mysd{ae}t alse <app><lem>dar</lem><rdg><q>dar</q> er skrevet over linjen i Aa</rdg></app> men enen koning van rechtes wegen vmme mach aff setten / nycht vorwunnen vnde vorwiset
+      was . als sik dat van rechtes wegen boret / edder ok myd willen de cronen nycht hadde <app><lem>ouergeuen</lem><rdg>rettet fra <q>oueryeuen</q> til <q>ouergeuen</q> i Aa</rdg></app> . sunder myt walt vordrewen / vnde na des bynnen Lalande to dode gebracht wart / dat
+      dorch des willen / <app><lem>schagh</lem><rdg>umiddelbart foran <q>schagh</q> står overstreget <q>ge</q></rdg></app> / . dat de vorbenomede koning Woldemar to der tiit . do he de vorbenomede beleninge van
+      Jutlande dede nen recht koning to Denmarcken wass / vnde dar vmme de sulue belenynge vnde
+      allent <app><lem>dat</lem><rdg><q>dat</q> er skrevet over linjen i Aa</rdg></app> dar vppe gebuwet wass van rechtes wegen machtloss wesen scolde vnde sik des wille
+      scheten to rechte ♦</p>
+            <p n="a#16" xml:space="preserve"><supplied>8</supplied> So antwarden de heren van Sleszwick . dar also to . ♦</p>
+            <p n="a#17" xml:space="preserve">Na deme dat noch keyser noch koning zo vaste mach bewedemet edder bestediget wesen . den man
+      dorch syner mysd{ae}t willen / besundergen vfft he dede dat bewislic were wedder synen eed den
+      he syner cronen d{ae}n hadde / nycht muchte aff setten myd rechte edder ok myd macht ůfft
+      dat recht sik suluen nycht vurderen konde alze an vele keyseren vnde konyngen vortides vnde
+      noch by curten tiiden schen js . vnde besundergen an <app><lem>deme konynge van Behemen</lem><rdg>det drejer sig her om kong Wenzel af Bøhmen, som afsattes af kurfyrsterne i året
+          1400</rdg></app> . den de k{oe}rv{oe}rsten do he en vulmechtigh Romisch konyng was vmme syner mysd{ae}t
+      willen aff setteden vnde wedder k{oe}ren to koninge by synem leuende to dem ersten hertoghen
+      Ruprecht van Beyeren vnde na des konyng Sigmund van Vngern des vorscreuenen konynges van
+      Behemen bruder / de de likewol by eren tiiden leuendich vnde syner synne wol mechtigh wass /
+      vnde sik ok noch suluen vor enen Romischen konyng schreff unde heelt wo wal he des doch
+      nychten was wente wan man den vorbenomeden koning van Behemen nycht hadde mogen aff setten
+      alse vorscreuen js zo were desse yegenuardighe koning Sigmund noch nen recht Romisch konyng
+      vnde allent dat koning Ruprecht vore vnde he na . alze Romysche konynge vnde jn Romischer
+      konynge name d{ae}n hadden / dat were tomale machtloss vnde alze nu en konyng van Denmarcken
+      nycht van pauesse noch van keysere noch van anderen konnyngen belenet ghesat edder oc
+      bestediget sunder allene by synes rikes rades ghestlikes vnde werlikes endracht ghekoren vnde
+      maket wart zo mogen de suluen ok myt endracht \ enen koning van Dennemarcken dorch sulcker
+      mysd{ae}t willen als dar men enen konyng myd rechte vmme mach aff setten wan des n{oe}t js
+      alze de koruorsten enen keyser edder enen Romischen konyng mogen affsetten / ♦</p>
+            <p n="a#18" xml:space="preserve">Vnde alze nu de vorbenomeden prelaten archiebiscop unde vij biscope vnde xxxvj riddere unde
+      riddermatesche manne als des rikes to Dennemarkcen ganze rad . deme vorscreuen konyng
+      Cristoffer jn den vorbenomeden eren breuen ouer tughen dat he synen eed . den he der cronen
+      ged{ae}n hadde . jn mengherleye wiis gebroken vnde vele andere vnd{ae}t dar man enen juwelken
+      koning vmme magh aff setten / beg{ae}n hadde / vnde ze ene dar vmme myd endracht aff satten .
+      vnde enen anderen jn syne stede k{oe}ren . / so menen de heren van Sleszwick / dat des enen
+      affsettinge vnde des anderen ansettinge edder k{oe}re / nycht myt vnrechte schen sy . vnde dat
+      an deme rechte nicht vromen edder scaden moge / dat sik koning Cristoffer na der tiit dat
+      koning Woldemar koren was vor enen konyng to Denmarcken screff edder wtghaff . wente syne
+      eghene vorscreuene missed{ae}t ene der crone unde des rikis myt rechte berouede alsz
+      vorscreuen ys . / vnde eyn ander myd endracht . alle der yenne / de enen konyng van Denmarkcen
+      mit rechte hebben to kesende / koren wart . alsz vorscreuen ys / vnde als nu ok nycht beuislic
+      ys dat de vorgescreuen . des rikes r{ae}d / den vorbenomeden koning Woldemar to k{oe}ninge
+      k{oe}ren edder maket hebben / er wen se koning Cristoffer hebben aff geset . alse sik dat
+      geb{oe}rd . wente de sulue koning Cristoffer zo vorbannen vnde vorwyset was dat ene nemand
+      husen edder herberghen moste . als dat witlic . openbare vnde lantkundich was unde man noch .
+      wol bewysen mach / so menen dar vmme de heren van Sleszwick . wes koning . <app><lem>Woldemar</lem><rdg>umiddelbart foran <q>Woldemar</q> står overstreget <q>vor</q> i Aa</rdg></app> vorscreuen . als eyn koren huldiget koning to Denmarcken . by rade unde myt vulborde
+      synes ganzen rikes rades . vorscreuen jn der vorgescreuen beleninge d{ae}n hefft dat jd myt
+      rechte schen ys . vnde zo vullenkomene macht hebben scole alse dat densche recht edder lachbok
+      hebben mach vnde scheten sik des to rechte ♦</p>
+            <p n="a#19" xml:space="preserve"><supplied>9</supplied> Vnde uffte de koning nu vurder seggen wille dat dat . vorbenomede leen
+      yegen de krone vnde dat rike vorbroken sy . vnde dat he yd dar vmme myt rechte moge <app><lem>wedder</lem><rdg><q>wedder</q> står skrevet over linjen i Aa</rdg></app> to sik nemen edder bekrigen vnde sik des schete to rechte . ♦</p>
+            <p n="a#20" xml:space="preserve"><supplied>10</supplied> Dar antwarden de heren van Sleszwick zo to . ♦</p>
+            <p n="a#21" xml:space="preserve">Na deme dat ere voruadere . vor sůlken br{oe}ke van der kronen wegen by ereme leuende
+      nycht sint gesculdiget vnde de suluen ok yeghen de krone nycht hebben gebroken dat bewisslic
+      js dar mede se dat vorbenomede leen mit rechte vorloren mogen hebben . wente \ hebben se wess
+      ghed{ae}n yegen de krone zo js dat doch anders nicht gheschen van erer wegen wan na der tiit
+      dat de koning ere vyand wart vnde enen openen krigh mit en <app><lem>an slogh</lem><rdg><q>an sclogh</q>, Aa</rdg></app> / zo menen se wes se alzo ghed{ae}n hebbet . dat se dar ane myd rechte ere vorescreuene
+      leen nycht vorbroken hebben vnde scheten sik des to rechte ♦</p>
+            <p n="a#22" xml:space="preserve"><supplied>11</supplied> Dyt ys der <app><lem>heren</lem><rdg><q>heren</q> står skrevet over linjen i Aa</rdg></app> van Sleszwick tosprake . vppe dat land Vemern ♦</p>
+            <p n="a#23" xml:space="preserve">So spreken se deme koninge to . vmme dat land <placeName>Ffemern</placeName> vnde
+        <placeName>dat slot Glambeke</placeName> vnde seggen so . ♦</p>
+            <p n="a#24" xml:space="preserve">Na deme dat eren øldern . Vemern js belent to eneme erfflikeme lene van konyngen van
+      Denmarcken . by rade erer manne vnde vr{ue}nde . alse se dat myt der suluen koninge openen breuen<ref target="drb8"/> . betugen mogen vnde dat also bouen xl jar sunder by sprake beseten hebben . vnde en de
+      koning dat bynnen enem bestedigeden vrede aff ghewunnen vnde vorw{ue}stet hefft zo hopen se
+      dat de koning en dat vorbenomede lant vnde slot sculdich sy van rechtes wegen to vorligende .
+      ouer to geuende vnde tolatende na jnne holde erer breue vorscreuen . vnde den scaden den se
+      dar ouer van deme koninge vnde van den synen genomen hebben vpp to richtende / vnde scheten
+      sik des to rechte ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

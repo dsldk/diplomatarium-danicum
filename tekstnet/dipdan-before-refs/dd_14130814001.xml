@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">497</num>, paragraphs: <num n="paragraphs">14</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14130814001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2377-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>36.6 (plica: 1.7)</height>
+                                    <width>27.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift: <q>Tractatus domini Wartslaui de liberacione captivorum et
+        dieta invenienda Katarine</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Slesvigbiskop Johan Skondelevs segl, i mørkt voks, i
+        perg.rem, <ref>DGS 972</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Optaget i Erik Dosenrodes notarialinstrument, <ref target="14130903001">DD 1413.
+        3. sep., nr. 14130903001</ref></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Sejdelin, Diplomatarium Flensborgense, bd. I, nr. 67, p. 222-224</bibl>
+               <bibl>Reg. Dan. nr. *4269</bibl>
+               <bibl>Rep. nr. 5279</bibl>
+               <bibl>Hvitfeld IV 220, Fol. 645 (udtog på dansk)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-08-14"
+                  notBefore="1413-08-14"
+                  notAfter="1413-08-14"
+                  cert="high">1413. 14. august</date>
+            <placeName cert="high">Flensborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Overenskomst mæglet af hertug Vartislav af Stettin, fyrste til Rügen, imellem kong Erik 7.
+      af Pommern på den ene side og hertug Heinrich af Braunschweig på de slesvigske hertugers vegne
+      på den anden side angående de fanger, som er blevet taget på begge sider.</ab>
+            <ab>Ifølge overenskomsten skal en udlevering af fangerne på begge sider finde sted dels i
+      Flensborg, dels i Gottorp.</ab>
+            <ab>Endvidere bestemmes det i overenskomsten, at der skal holdes et møde den 25. november 1413 i
+      Flensborg, hvor man skal drøfte spørgsmålet om skader og fredsbrud. På dette tidspunkt skal alle
+      fanger være løsladt.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-10" who="#pbh">Filen etableret af #pbh 2014-02-10. </change>
+         <change when="2019-09-16" who="#smb">1. korrektur af #smb 2019-09-16. </change>
+         <change when="2019-11-14" who="#smb">2. korrektur af #smb 2019-11-14. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Jn Godes namen amen . ♦</p>
+            <p n="a#2" xml:space="preserve">Wy <persName>Wartslaff</persName> van Godes gnaden to <placeName>Stetin</placeName> to
+        <placeName>Pomeren</placeName> hertog vnde vorste to Ruyen etcetera hebben aldus
+      gedegedinget twysschen dem dorluchtigen hochbornen vorsten vnde heren heren
+        <persName>Erike</persName> van Godes gnaden . to <placeName>Denmarken</placeName> to
+        <placeName>Sweden</placeName> vnde to <placeName>Norwegen</placeName> koninge . vnde
+      hertogen to <placeName>Pomeren</placeName> etcetera vppe de ene syden . vnde dem hochbornen
+      vorsten vnde heren heren <persName>Hinrike</persName> van der suluen gnaden to
+        <placeName>Brunswik</placeName> vnde to <placeName>Lunenborg</placeName> hertogen van syner
+      oeme weghene der hertoghen to <placeName>Sleswik</placeName> vppe de anderen syden . so dat
+      alle vangene de de holssten vnsem heren deme koninge affgevangen hebben bynnen deme vrede den
+      de irluchtige vorste <persName>Vlrik</persName> van Godes gnaden hertogh to Mekelenborg
+      etcetera gedegedinget hefft tusschen der dorluchtigen hochbornen vorstynnen
+        <persName>Margareten</persName> to <placeName>Denmark</placeName> koninginnen etcetera
+      seligher dechtnisse vnde koning <persName>Erike</persName> etcetera scolen loes wesen vnde en
+      dat ere wedder ♦</p>
+            <p n="a#3" xml:space="preserve">Wes ouer nicht loes vnde weddergheuen werd . nu to <placeName>Flensborg</placeName> dat
+      schalmen an midweken negest tokomende to <placeName>Gottorpe</placeName> vulteen vnde holden .
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Were ock dat alle vangene vpp den vorscreuen midweken . de jn deme vorscreuen vrede grepen
+      syn to <placeName>Gottorpe</placeName> nicht quemen . so schal hertog
+        <persName>Hinrik</persName> bestellen dat wanner de vangenen to Gottorp komen dat se denne
+      loes werden vnd en dat ere wedder ♦</p>
+            <p n="a#5" xml:space="preserve">Ock scolen vnse here koning vnde hertog <persName>Hinrik</persName> enen dagh to
+        <placeName>Fflensborg</placeName> holden to sunte Katherinen daghe negest tokomende jn
+      desser wys wat vangenen schade vnde vredebrake nicht vorbot vnde loes worden syn . de scal men
+      dar loes laten . vnde den schaden vnde vredebrake vorboten na rechte de bynnen hertog
+        <persName>Vlriks</persName> vrede scheen ys . ♦</p>
+            <p n="a#6" xml:space="preserve">Des gelikes so scal vnse here de koning alle vangenen de jn deme vorscreuen vrede grepen syn
+      loes laten vnde en dat ere wedder de hertog Hinrike vnde den holssten affgegrepen syn . vnde
+      ock eren schaden vnde vredebrake richten als vorscreuen steit ♦</p>
+            <p n="a#7" xml:space="preserve">Vnde wanner de vangenen to <placeName>Flensborg</placeName> komen de noch nicht loes syn .
+      dat scal vnse here de koning bestellen dat se loes werden to <placeName>Flensborg</placeName>
+      vnde en dat ere wedder . ♦</p>
+            <p n="a#8" xml:space="preserve">Vnde ock wes van schaden vnde vredebrake vorsumet werd . dat scal vnse here de koning
+      bescreuen veer weken vor sunte Katherinen daghe edder mer to <placeName>Gottorpe</placeName>
+      senden . ♦</p>
+            <p n="a#9" xml:space="preserve">Des gelikes scal hertog <persName>Hinrik</persName> vnde de holssten ere schelinge bescreuen
+      gheuen vnde senden veer weken vor sunte Katherinen dage edder mer to
+        <placeName>Flensborg</placeName> so scalmen dat vorboten als vorscreuen steit . ♦</p>
+            <p n="a#10" xml:space="preserve">Ock scolen alle vangenen an vrede / van beiden syden / twysschen
+        <placeName>Flensborg</placeName> vnde <placeName>Gottorpe</placeName> riden wanner se loes
+      syn . ♦</p>
+            <p n="a#11" xml:space="preserve">Were ouer dat de heren suluen vppe den vorscreuen dagh nicht konden komen . so scolen se eren
+      raed vulmechtich dar senden alle ding entrichtende vnde to vorschedende als vorscreuen steit .
+      ♦</p>
+            <p n="a#12" xml:space="preserve">Vnde hertog Hinrik edder wene he dar send de scolen an gudeme vrede riden vnde an geleide
+      sunder argh vt vnde to hus \ ♦</p>
+            <p n="a#13" xml:space="preserve">Doch so dat desse breue vnde degedinge nenen voruang hinder edder scaden duen scholen men
+      alle degedinge vnde breue by erer vulmacht to bliuende / vnde malk synes rechtes vnuorsumet .
+      ♦</p>
+            <p n="a#14" xml:space="preserve">Dyt is gescheen to <placeName>Flensborg</placeName> . na Godes bort verteynhundert iar jn dem
+      xiij jare des auendes assumpcionis Marie vnder vnsem secrete dat wi nedden an desse schrifft
+      gedrucket hebben heten to witlicheit ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

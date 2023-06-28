@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">408</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14230108001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2796-b (tidligere RA. Slesvigs Hertugs Arkiv. Slesvig 6)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>43.5 (plica: 7.8)</height>
+                                    <width>44.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden er skrevet notarialinstrumentet af 10.-11. maj 1424 (trykt i SRD
+      VII, p. 358-359)</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Hertug Wilhelm af Braunschweigs segl i mørkt voks i
+        perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Indgået i Kongens Arkiv før år 1600</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift hidrørende Kejserprocessen. Tabt på et tidspunkt efter 1792, dvs.
+      udgivelsesåret for SRD VII</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>SRD VII, p. 354-358 (tryk efter Aa)</bibl>
+               <bibl>Reg. Dan. nr. 3377</bibl>
+               <bibl>Rep. nr. 5999</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-01-08"
+                  notBefore="1423-01-08"
+                  notAfter="1423-01-08"
+                  cert="high">1423. 8. januar</date>
+            <placeName cert="high">Gottorp slot</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hertug Wilhelm af Braunschweig og Lüneburg vidimerer på opfordring af de slesvigske hertuger
+      Heinrich, Adolf og Gerhard tre pergamentsbreve, som de slesvigske hertuger har forevist ham.
+      Indledningsvis gives en beskrivelse af brevenes besegling. Heinrich, Adolf og Gerhard anmoder
+      specifikt om instrumentet af hensyn til den forestående farefulde rejse og den dermed
+      forbundne risiko for, at originalerne ville gå tabt.</ab>
+            <ab>I det første brev udstedt i Nyborg den 15. august 1326 forlener kong Valdemar 3. grev
+      Gerhard 3. af Holsten med hertugdømmet Jylland som arveligt fanelen.</ab>
+            <ab>I det andet brev udstedt i Nyborg den 16. august 1326 anerkender ærkebiskop Karl af Lund,
+      bisperne Niels af Børglum, Peder af Odense, Jens af Slesvig, Jens af Ribe, Jens af Roskilde,
+      Tyge af Viborg og den udvalgte biskop Svend af Århus og ridderne Lars Jonsen, drost, Ludvig
+      Albertsen, marsk, Knud Porse og Jens Uffesen på hoffets vegne kong Valdemar 3.s overdragelse
+      af hertugdømmet Jylland til grev Gerhard 3. af Holsten som arveligt fanelen.</ab>
+            <ab>I det tredje brev udstedt i Nyborg den 16. august 1326 anerkender drosten Lars Jonsen,
+      marsken Ludvig Albertsen og 34 andre danske herremænd på hoffets vegne kong Valdemar 3.s
+      overdragelse af hertugdømmet Jylland til grev Gerhard 3. af Holsten som arveligt fanelen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-22" who="#pbh">Filen etableret af #pbh 2014-05-22. </change>
+         <change when="2018-06-06" who="#smb">1. korrektur af #smb 2018-06-06. </change>
+         <change when="2018-12-14" who="#smb">2. korrektur af #smb 2018-12-14. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wy Wilhelm van Godis gnaden to Brunswik vnde Luneborg hertege etcetera bekennet openbare in
+      dessem breue vor alle den de ene seen edder horen lesen dat de hochgebornen fursten vnde
+      herren her Hinrik Alf vnd Gerd hertegen to Sleswik greuen to Holsten to Stormoren vnde to
+      Schowenborg vor vns gebracht hebben dre opene besegelde breue vp permynt geschreuen gantz
+      vngesereget vngedelget sunder alle vordechtnisse in allenthaluen rechtuerdich / der een myt
+      enem in roden vnde grouen sydenen vadernen hangenden runtformegen jngesegele van wittem wasse
+      was vorsegelt jn welkeme jngesegele sat en belde vp enem stule in staltnisse enes kronden
+      koninges ♦ Dat sulue belde hadde in der vorderen hant en scepter vnde vp der luchtern
+      hand enen appel dar bouen en cruce ♦ Buten vmme dat jngesegel in der suluen syden
+      stunden desser wort in deme wasse ♦ Woldemarus Dei gracia Danorum Slavorumque rex
+      ♦ Vnde vpp der anderen syden des suluen jngesegele stund en helme mit twen krummen
+      vorplumeden hornen vnde vmme den helm stunden desse word als ♦ Galea Waldemari Dei
+      gracia Danorum Sclavorumque Regis ♦ De andere myt cluen in pressulen van parmynte
+      hangenden jngesegelen der yennen ertzebischuppen biscoppe vnde riddere de der nemeliken ynne
+      beschreuen stan was vorsegelt vnde de drudde myt sosvndedruttigen in presselen van permynte
+      hangenden jngesegeln der yennen der ere namen dar ynne beschreuen stan was vorsegelt
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Des beten vns de <app><lem>vorbenomeden</lem><rdg><q>vorbenomenden</q>, A</rdg></app> heren her Hinrik Alff vnde Gerd hertegen vorstan dat se der vorscreuenen breue vakene
+      in vromden jegenen behoueden dar se der vmme vare willen dat de breue vorloren edder de
+      ingesegele lichte mochten to broken werden nicht bringen doren ♦ Begernde van vns dat wy
+      en van den suluen breuen en vidimus geuen wolden vnde na deme dat wy de vorschreuenen breue
+      alle rechtuerdich geseen vnde gevunden hebben so hebbe wy en vidimus dar van gegeuen vnde mit
+      vnsem jngesegel dar vp geuestend laten / welker breue vnde to deme ersten des ersten breues
+      jnhold van worden to worden hyr na volget vnde ludet aldus ♦</p>
+            <p n="a#3" xml:space="preserve">Omnibus presens scriptum cernentibus / Woldemarus Dei gracia Danorum Sclavorumpque Rex
+        (<q>etc. Dipl. Dan. 2.rk. IX nr. 295</q>) ♦</p>
+            <p n="a#4" xml:space="preserve">Des anderen breues inhold ludet aldus als hyr na schreuen steyd ♦</p>
+            <p n="a#5" xml:space="preserve">Omnibus presens scriptum cernentibus Karolus Lundensis ecclesie archiepiscopus (<q>etc. Dipl.
+        Dan. 2.rk. IX nr. 303</q>) ♦</p>
+            <p n="a#6" xml:space="preserve">Vnde des drudden breues inhold volghet hyr na vnde ludet aldus ♦</p>
+            <p n="a#7" xml:space="preserve">Omnibus presens scriptum cernentibus Laurencius dapifer (<q>etc. Dipl. Dan. 2.rk. IX nr.
+        304</q>) ♦</p>
+            <p n="a#8" xml:space="preserve">Gescreuen vnde gegeuen vp <placeName>deme slote to Gottorpe</placeName> belegen in
+        <placeName>deme hertegedome to Sleswik</placeName> na Godes bord dusent verhundert dar na in
+      deme drevndetwintigesten jare des vrigdages na der hilgendryerkoninge dage ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

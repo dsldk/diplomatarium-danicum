@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">267</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14281101001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>or. perg. RA 0101, SDHK-nr. 21072</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16.8 (plica: 1.4)</height>
+                                    <width>27</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden: <q>Una taberna institoria Malmøgis de qua persona altaris sancti Stephani tenebit anniversarium domini Johannis Johannis canonici Lundensis et parentum suorum cum una marcha argenti</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jens Jensens segl, DGS. 63
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Jakob Pedersens segl, DGS. 60
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Vinold (Jensens) segl, DGS. 65
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Niels Isaksen (Lodehats) segl, DGS. 64
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Arvid Bengtsens segl, AS L xxxiv 19
+                              </ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Seglsnit. Seglet noteres i Rep. (1906) som bevaret, men dette synes at være en fejl, da der if. Weibull, Dipl. Dioc. Lund. (1900) kun var bevaret et seglsnit.</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Jens Tuesens segl (bomærke i skjold)</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i Sv. RA, ÅER fol. 131 nr. 54.; B 29 fol. 26 nr. 178 (Skånebrevsfortegnelsen)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>RA 0201 A 11 (tidl. sign. A 20)</idno>
+                        <msName>Registrum ecclesie Lundensis, Lundebogen s. 104</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Quinta litera que est donacio prime taberne ad altaris beati Stephani</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>I marginen: <q>Ex registro Eccl. Lund. membr. lit. J. p. 104</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra det 18. årh. efter Lundebogen</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>I marginen: <q>Orig. membr. ex archiv. Antiqu. Holmens. 1754</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra det 18. årh. efter originalen i Stockholm</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6376</bibl>
+               <bibl>SDHK nr. 21072</bibl>
+               <bibl>Weibull, Dipl. Dioc. Lund., III 79 nr. 80</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-11-01"
+                  notBefore="1428-11-01"
+                  notAfter="1428-11-01"
+                  cert="high">1428. 1. november<ref target="drb1"/>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Jensen, kannik i Lund, skænker en kræmmerbod i Malmø, som han har købt af Reineke von Bogel, til sankt Stefans alter, mod at der holdes årtid for ham selv og hans forældre.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-29" who="#pbh">Filen etableret af #pbh 2014-07-29. </change>
+         <change when="2018-09-17" who="#pz">1. korrektur af #pz 2018-09-17. </change>
+         <change when="2018-10-01" who="#pbh">2. korrektur af #pbh 2018-10-01. </change>
+         <change when="2018-12-18" who="#pz">3. korrektur af #pz 2018-12-18. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In nomine domini amen ♦</p>
+            <p n="a#2" xml:space="preserve">Universis presentes literas inspecturis vel audituris ego <persName>Johannes Johannis canonicus Lundensis</persName> notum facio per presentes quod ego deo laus corpore sanus et mente incolumis longa et matura deliberacione prehabita in remedium animarum mee et parentum meorum do et offero ad altare beati Stephani prothomartiris in choro aquilonari metropolitane ecclesie Lundensis situm tabernam meam institoriam <placeName>Malmøgis</placeName> inter tabernas institorum situatam quam quidem tabernam de <persName>Reyneke fan Bøiel</persName> per me juste empcionis titulo legitime acquisitam cum omnibus et singulis suis pertinenciis et omni jure michi in eadem competente ad dictum altare beati Stephani assigno et manutrado perpetuo possidendam sub condicionibus infrascriptis videlicet ut rector ejusdem altaris qui pro tempore fuerit anniversarium meum ac parentum meorum de redditibus ex ipsa taberna provenientibus quolibet anno in summo choro ecclesie Lundensis predicte tenere sit astrictus cum una marcha argenti taliter dividenda ♦ Primo scilicet canonicis qui misse et vigiliis interfuerint xx grossi / vicariis x grossi . fabrice octo grossi . pro missis x grossi . pauperibus x grossi et in turri pulsantibus duo grossi singulis annis pro distributionibus assignentur ♦ Residuum vero census et pensionis de dicta taberna provenientis retinebit persona altaris supradicti pro quo in singulis ebdomadis celebrabit unam missam specialiter pro defunctis ♦ Quod si persona prefati altaris que pro tempore fuerit in hujusmodi anniversariis et missis tenendis negligens reperta fuerit vel remissa extunc venerabile capitulum Lundense predictam tabernam sub suam recipiat et retineat ordinacionem donec ipsa persona juxta ejusdem venerabilis capituli moderacionem ad plenum satisfecerit de retentis ♦</p>
+            <p n="a#3" xml:space="preserve">In quorum omnium evidenciam et testimonium sigillum meum unacum sigillis honorabilium et discretorum virorum dominorum <persName>Jacobi Petri archidyaconi</persName> <persName>Vinoldi cantoris</persName> <persName>Nicolai <app><lem>Vsaac</lem><rdg>A: <q>Ysaac</q> Aa Aa1 Ab</rdg></app> canonici ecclesie Lundensis</persName> <persName>Arvidi Benedicti</persName> <persName>Ebbonis Trogoti proconsulum</persName> et <persName>Johannis Twonis consulis Lundensium</persName> ♦</p>
+            <p n="a#4" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xx<hi rend="sup">o</hi>octavo die omnium sanctorum <app><lem>presentibus est appensum</lem><rdg>A Aa Aa1 Ab: åbenlyst fejlplaceret, ordene hører til efter <q>consulis Lundensis</q></rdg></app>
+    </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

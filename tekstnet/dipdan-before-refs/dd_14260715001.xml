@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">320</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14260715001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>SDHK nr. 20725</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Note i Gammeldanske Diplomer 2. rk. III 113: Brevets sidste halvdel må rumme en del formelle fejl: gentagelse, overspringelser, forkludret corroboratio. Til disse fejl hører vel <q>myn h<ex>er</ex>r<ex>es</ex>
+                                    </q> (en lapsus af bispens skriver?)</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>h<ex>er</ex> Ie<ex>n</ex>ss Grim</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jens Grims segl i lyst voks i perg.rem, <ref>AS L i 4</ref></ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Benedikt Pogwischs segl i mørkt voks i perg.rem, <ref>DAS C li 19</ref></ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Embedssegl for dekanen i København i mørkt voks i perg.rem, <ref>DGS 337*</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6268</bibl>
+               <bibl>SDHK nr. 20725</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 112-13</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-07-15"
+                  notBefore="1426-07-15"
+                  notAfter="1426-07-15"
+                  cert="high">1426. 15. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens (Andersen) Grim (Has) i Tosterup, ridder, overlader mod et lån på 223 lødige mark sin
+      halvbroder hr. Anders Nielsen (Jernskæg), ridder, al det ret til Dronningholm o.a., som er
+      tilfaldet eller vil tilfalde ham efter deres moder eller søskende. Anders Nielsen – og
+      efter ham hans hustru, Margrete, datter af Heneke Bekman – skal have godset i fri
+      besiddelse for deres livstid, eller indtil enken gifter sig igen. Herefter skal ret og gods vende
+      tilbage til Jens Grim eller hans arvinger uden yderligere godtgørelse.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-15" who="#pbh">Filen etableret af #pbh 2014-07-15. </change>
+         <change when="2018-10-02" who="#jon">1. korrektur af #jon 2018-10-02. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæ<ex>n</ex> th<ex>e</ex>ttæ b<ex>re</ex>ff see æll<ex>e</ex>r hør<ex>e</ex> læsæ helsær
+      jæc <persName>Jenis Grim</persName> j <placeName>Tasthorp</placeName> ridde<ex>re</ex> /
+      kærlig<ex>e</ex> m<ex>eth</ex> gudh / ♦</p>
+            <p n="a#2" xml:space="preserve">Ku<ex>n</ex>gør jæc th<ex>et</ex> allæ mæ<ex>n</ex> næ<ex>rwæren</ex>de oc <app><lem>ko<ex>m</ex>me<ex>n</ex>de</lem><rdg wit="#A"><q>ko<ex>m</ex>mede</q>, A</rdg></app> at jæc vedh<ex>e</ex>rkænnis mik m<ex>eth</ex> th<ex>e</ex>ttæ mit wpnæ b<ex>re</ex>ff
+      th<ex>et</ex> iæc m<ex>eth</ex> veliæ oc beradh hugh / lænt oc wnt hau<ex>e</ex>r myn
+      elschelighe brodh<ex>e</ex>r h<ex>er</ex>ræ <persName>Anders Nielss<ex>øn</ex></persName>
+      ridde<ex>re</ex> all myn rætighet j Dra<ex>n</ex>ni<ex>n</ex>gheholm / oc all a<ex>n</ex>nen
+      my<ex>n</ex> rætighet mik til falden ær m<ex>eth</ex> ræt arff æll<ex>e</ex>r kan til falde
+      æfft<ex>er</ex> wor kær<ex>e</ex> modh<ex>e</ex>r døth æll<ex>e</ex>r wor susken j
+      røre<ex>n</ex>de goths æll<ex>e</ex>r wrør<ex>e</ex>nde goths æncte vnda<ex>n</ex>taghit
+      m<ex>eth</ex> hwat naffn th<ex>et</ex> kan næffnis j hans leuedaghæ vda<ex>n</ex>
+      noghe<ex>n</ex> affgefft oc hans kær<ex>e</ex> husf<ex>rw</ex>æ frwæ <persName>Margaretæ
+        Henneke Bækma<ex>n</ex>s doth<ex>e</ex>r</persName> / om hwn læng<ex>er</ex> lew<ex>e</ex>r
+      æn for<hi rend="sup">de</hi> h<ex>er</ex>r<ex>e</ex>
+      <persName>And<ex>e</ex>r<ex>s</ex> Nielss<ex>øn</ex></persName> tha schal hwn / th<ex>e</ex>n
+        for<hi rend="sup">de</hi> rætighet oc goths hauæ swo læng<ex>e</ex> hwn wgifft
+      æfft<ex>er</ex> han<ex>um</ex> sedh<ex>e</ex>r for en pe<ex>n</ex>ni<ex>n</ex>g<ex>e</ex> swm
+      so<ex>m</ex> for<hi rend="sup">de</hi> h<ex>er</ex>r<ex>e</ex>
+      <persName>Anders</persName> mik lænt hau<ex>e</ex>r <app><lem>swoso<ex>m</ex></lem><rdg wit="#A">Dittografi: <q>swoso<ex>m</ex> swoso<ex>m</ex></q>, A</rdg></app> tw
+      hundræthe / oc thiwæ / oc thre lødhughe mark / ♦</p>
+            <p n="a#3" xml:space="preserve">M<ex>eth</ex> swo dant velkar mellu<ex>m</ex> oss haffdh at nar for<hi rend="sup">de</hi>
+      <persName>And<ex>e</ex>r<ex>s</ex> Nielss<ex>øn</ex></persName> offgar æll<ex>e</ex>r hans
+      husfrwæ so<ex>m</ex> for<ex>e</ex> sc<ex>re</ex>uit stand<ex>e</ex>r gefftes æfft<ex>er</ex>
+      hanu<ex>m</ex> / tha schal all th<ex>e</ex>n for<hi rend="sup">de</hi> rætighet oc goths
+      huilk<ex>e</ex> the hælst æræ ige<ex>n</ex> ko<ex>m</ex>mæ til mik æll<ex>e</ex>r mynæ
+      arwing<ex>e</ex> vda<ex>n</ex> pe<ex>n</ex>i<ex>n</ex>g<ex>e</ex> th<ex>e</ex>r far<ex>e</ex>
+      gewæ <app><lem>for</lem><rdg resp="#jon">Herefter glemt <q>vdan</q>?</rdg></app> hwars ma<ex>n</ex>s gensighelsæ æll<ex>e</ex>r til tal j noghræ madæ ♦ </p>
+            <p n="a#4" xml:space="preserve">Til en størr<ex>e</ex> bewisni<ex>n</ex>g oc falko<ex>m</ex>melsæ all<ex>e</ex> for<hi rend="sup">ne</hi> stycke . tha hau<ex>e</ex>r jæc hænct mit jncile for th<ex>e</ex>ttæ
+      b<ex>re</ex>ff / m<ex>eth</ex> en hedh<ex>e</ex>rligh fadh<ex>e</ex>r oc
+      h<ex>er</ex>r<ex>es</ex> myn h<ex>er</ex>r<ex>es</ex> bescøp <persName>Jenis</persName> bescøp
+      j <placeName>Rosk<ex>ilde</ex></placeName> / h<ex>er</ex>r<ex>es</ex>
+      <persName>Benedicti Poggheuisk</persName> ridde<ex>re</ex> / oc h<ex>er</ex>r<ex>es</ex>
+      <persName>Jenis Clemetss<ex>øn</ex></persName> dæghen j
+        <placeName>Køp<ex>e</ex>ndh<ex>af</ex>n</placeName> ær<ex>e</ex> far<ex>e</ex> hængde
+      th<ex>e</ex>ttæ b<ex>re</ex>ff ♦</p>
+            <p n="a#5" xml:space="preserve">Th<ex>e</ex>ttæ ær gewit vnd<ex>e</ex>r wor h<ex>er</ex>r<ex>es</ex>
+      <app><lem>føthelsæ</lem><rdg resp="#jon">Herefter glemt <q>ar</q>?</rdg></app> mcd<hi rend="sup">o</hi> ar xxvi ar th<ex>e</ex>n mandagh far<ex>e</ex>
+      s<ex>an</ex>c<ex>t</ex>e Margaret<ex>e</ex> dagh ju<ex>m</ex>ffrw war ♦</p>
+            <p n="a#6" xml:space="preserve"> </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

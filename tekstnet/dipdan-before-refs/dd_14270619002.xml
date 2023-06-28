@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">546</num>, paragraphs: <num n="paragraphs">18</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14270619002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3008</idno>
+                        <msName>tidl. Odense H. 38</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16 (plica: 1.5)</height>
+                                    <width>33</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Senere påskrifter: (a) <q>
+                                 <persName> Thyeleff Skynckell</persName> pa
+          <placeName>Gatzbøl </placeName>
+                                 <placeName>Annæbøl </placeName>
+                                 <placeName>Skovsby </placeName>
+                                 <placeName>
+                                    <app>
+                                       <lem>Ry<ex>n</ex>keby</lem>
+                                       <rdg resp="#jon">Måske
+              <q>Ry<ex>n</ex>ckeby</q>
+                                       </rdg>
+                                    </app>
+                                 </placeName> j
+          <placeName>Helst<ex>r</ex>op</placeName> j <placeName>Orysløff</placeName>
+          æ<damage>n</damage> øøæ garth j <placeName>Esskelu<ex>n</ex>dh </placeName>
+                                 <placeName>Skibysogh<ex>e</ex>n</placeName>
+                              </q> og (b) <q>Item bryff paa ii garde i
+          <placeName>Ondebol</placeName> och ii i <placeName>Gatzbøl</placeName> Item i i
+          <placeName>Skowsby</placeName> och ij j <placeName>
+                                    <app>
+                                       <lem>Hiæstrøpp</lem>
+                                       <rdg resp="#jon">Måske <q>Hillstrøpp</q>
+                                       </rdg>
+                                    </app>
+                                 </placeName> Item en i
+          <placeName>Orisløff</placeName> Item en i <placeName>Skyffby sogen</placeName> i
+          <placeName>Eskelwnd</placeName> Th<ex>et</ex> forscreffne gotz hører tyl
+          <placeName>Hellikors alter</placeName>
+                              </q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Ditlev Skinkels segl i mørkt voks (beskadiget) i perg.rem, <ref>AS F lvii 41</ref></ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Otto Skinkels segl i mørkt voks (beskadiget) i perg.rem, <ref>AS F lvii 40</ref></ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Hans Skinkels segl i mørkt voks (beskadiget) i perg.rem, <ref>AS F lvii 43</ref></ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6317</bibl>
+               <bibl>Reg. Dan. *4797</bibl>
+               <bibl>Danske Mag. 4. rk. I 365-66 (nr. 4)</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 127-29</bibl>
+               <bibl>Vejledende Arkivreg. XVIII 94 nr. 7</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-06-19"
+                  notBefore="1427-06-19"
+                  notAfter="1427-06-19"
+                  cert="high">1427. 19. juni</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Katrine Jensdatter Kiste og hendes søn Ditlev Skinkel knytter et vikarie til
+      Helligkorsalteret i Bernike Skinkels kapel, Skt. Mikaels kirke (nu: Skt. Hans kirke) i Odense
+      og skænker det ti gårde og ødegårde i Odense herred, Bjerge herred og Lunde herred. Ved
+      alteret skal der dagligt læses sjælemesser efter fastsatte bestemmelser for Katrine
+      Jensdatter, hendes børn og forældre, hendes mand og hans forældre, samt for Joakim Bjørnsen og
+      hans hustru fru Margrete.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-23" who="#pbh">Filen etableret af #pbh 2014-07-23. </change>
+         <change when="99999999" who="#jon">1. korrektur af #jon 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Thet skal allæ men vid<ex>er</ex>licht wære ath jech <persName>Kathe<ex>ri</ex>næ
+        Kiste</persName>s dater och min søn <persName>Detleff Skinkel</persName> aff fri viliæ och
+      berod how hawe wnt / giw<ex>et</ex> och aldels opladhet gotz tel et fekkeri j <placeName>sancti
+        Michels kirke</placeName> j <placeName>Oth<ex>e</ex>nse</placeName> tel ewi<ex>n</ex>nelic
+      eyæsculendæ / ♦ </p>
+            <p n="a#2" xml:space="preserve">Aff hwilkæ gotz jech <persName>Kathe<ex>ri</ex>næ</persName> giwer och oplath<ex>e</ex>r fem
+      gardhe sosom først too j <placeName>Vesænbergh soghen</placeName> / j
+        <placeName>Andæbølæ</placeName> / j een aff thøm boor <persName>Pæth<ex>e</ex>r
+        Mattess<ex>øn</ex></persName> och han giwer arlech halftrediæ libisk march och i
+      th<ex>e</ex>n a<ex>n</ex>næn boor <persName>Lillæ Ieppæ</persName> och han gywer och soo
+      møgh<ex>et</ex> ♦ </p>
+            <p n="a#3" xml:space="preserve">Item j <placeName>Gadzbølæ</placeName> i th<ex>et</ex> sammæ soghen een gardh <persName>Powel
+        Stamppæ</persName> iboor och han giwer arlech een half tynnæ smør / ♦ </p>
+            <p n="a#4" xml:space="preserve">Item j <placeName>Scovsby</placeName> een gardh hwilken th<ex>e</ex>r giwes aff een libisk
+      march tel gift / ♦ </p>
+            <p n="a#5" xml:space="preserve">Item j <placeName>Rinkeby</placeName> een gardh hwilkin <persName>Twæ <app><lem>Ellinghe</lem><rdg wit="#A"><q>e[2]</q> tilføjet, A</rdg></app></persName> jboor och han giwer tw pundh korn een scæppæ smør een skilling
+      g<ex>rot</ex> too gæs och firæ høns . ♦</p>
+            <p n="a#6" xml:space="preserve">Item j th<ex>e</ex>n sammæ by een ødæ gardh och th<ex>et</ex> han kan rænttæ / ♦</p>
+            <p n="a#7" xml:space="preserve">Item jech fornawndæ <persName>Detleff</persName> giwer too gordhe j
+        <placeName>Hielstorp</placeName> j th<ex>e</ex>n enæ boor <persName>Jeppe
+        Anderss<ex>øn</ex></persName> och han giwer arlech een øræ korn een libisk march een scæppæ
+      smør eet lamb too gæs och firæ høns och j th<ex>e</ex>n annæn boor <persName>Ræy</persName>
+      och han giwer och soo møgh<ex>et</ex> . ♦</p>
+            <p n="a#8" xml:space="preserve">Item j <placeName>Ottorp soghen</placeName> j <placeName>Øriæsløff</placeName> een gardh han
+      giwer too øræ korn een libisk march een scæppæ smør eet lamb too gæs och firæ høns / ♦ </p>
+            <p n="a#9" xml:space="preserve">Item j <placeName>Skiby soghen</placeName> j <placeName>Æskelund</placeName> een ødhe gardh
+      han giw<ex>er</ex> et pundh korn m<ex>eth</ex> andræ bæthe / ♦ </p>
+            <p n="a#10" xml:space="preserve">Ffor hwilkæ allæ gotz scal holdes een dawlech songen mæsse tel ewech tidh j for<hi rend="sup">dæ</hi>
+      <placeName>sancti Michels kirke</placeName> for wore siæles salliched och for hær
+        <persName>Bærnic Skinkel</persName> min hosbunde och hans foralder / ffor mynæ børn och min
+      fath<ex>e</ex>r <persName>Jens Kistæ</persName> min moth<ex>e</ex>r frw
+        <persName>Elizabeth</persName> och for <persName>Iachim Biørnss<ex>øn</ex></persName> och
+      hans hosfrw frw <persName>Marg<ex>re</ex>tæ</persName> ♦ </p>
+            <p n="a#11" xml:space="preserve">Och th<ex>e</ex>n for<hi rend="sup">dæ</hi> dawlech mæsse scal holdes for hællie kors
+      altær<ex>e</ex> j forsc<ex>ri</ex>fnæ hær <persName>Bærnic</persName>s kappel / soo ath om
+      søndaghen skal siunges aff the helliæ trefaldeched om ma<ex>n</ex>daghen for allæ
+      c<ex>ri</ex>stnæ siæle / om tisdaghen aff sancta Dorothea om oth<ex>e</ex>nsdaghen aff wor
+      frwæ om thorsdaghen aff gwtz leghom om fredaghen aff th<ex>et</ex> hælliæ kors och
+      løwerdaghe<ex>n</ex> aff wor frwe / ♦ </p>
+            <p n="a#12" xml:space="preserve">Item th<ex>et</ex> for<hi rend="sup">de</hi> fekkeri hawer jech for<hi rend="sup">de</hi>
+      <persName>Kathe<ex>ri</ex>næ</persName> och min søn <persName>Detleff</persName> forledh och
+      wnt hær <persName>Jeip Nielss<ex>øn</ex></persName> forsta<ex>n</ex>der j <placeName>sancti
+        Johannis gardh</placeName> j <placeName>Oth<ex>e</ex>nsse</placeName> m<ex>eth</ex>
+      soda<ex>n</ex>t skel ath han scal lathæ the mæsser holdes som for ær sc<ex>re</ex>w<ex>et</ex>
+      / ♦ </p>
+            <p n="a#13" xml:space="preserve">Och nær for<hi rend="sup">dæ</hi> hær <persName>Jeip</persName> ær afga<ex>n</ex>gen tha
+      scwle forsta<ex>n</ex>der och allæ brøthre j for<hi rend="sup">de</hi>
+      <placeName>sancti Johannis gardh</placeName> hawe th<ex>et</ex> for<hi rend="sup">de</hi>
+      fekkeri m<ex>eth</ex> allæ rænttæ och gotz emædhe<ex>n</ex> the holde the forsc<ex>ri</ex>fne
+      mæsser / ♦ </p>
+            <p n="a#14" xml:space="preserve">Och nær the jkkæ thøm holde tha scwle wi och wore arwinge macht hawe ath forlæ th<ex>et</ex>
+      fekkeri hwem <app><lem>wi</lem><rdg wit="#A"><q>wi wi</q>, A</rdg></app> wilæ soo længe ath the for<hi rend="sup">de</hi> sancti Hansses brøthre welæ the mæsser
+      holde som forsc<ex>re</ex>w<ex>et</ex> star / ♦ </p>
+            <p n="a#15" xml:space="preserve">Item sker th<ex>et</ex> och soo ath th<ex>e</ex>r fattes nogh<ex>et</ex> j th<ex>e</ex>n
+      forsc<ex>ri</ex>fne gift som gotzen plæye ath giwe tha telbinde wi oss och wor<ex>e</ex>
+      arwinge athweth<ex>e</ex>rlegge the for<hi rend="sup">de</hi> brøthre aff andre woræ gotz
+      solænge the hawe fillest / ♦ </p>
+            <p n="a#16" xml:space="preserve">Item telbinde wi oss och wor<ex>e</ex> arwinge ath fry och och hemble the for<hi rend="sup">de</hi> brøthre the forsc<ex>ri</ex>fnæ gotz for hwer mants teltale / ♦ </p>
+            <p n="a#17" xml:space="preserve">In cujus rei testimonium sigilla nostra una cum sigillis virorum discretorum videlicet
+        <persName>Ottonis Skinkel</persName>
+      <persName>Johannis Skinkel</persName> / domini <persName>Johannis Clementis</persName> et
+        <persName>Nicholai Ienss<ex>øn</ex></persName> proconsulum Ottoniensium . presentibus sunt
+      appensa . ♦ </p>
+            <p n="a#18" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xx<hi rend="sup">o</hi>
+      septimo . in die corporis Christi /. ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

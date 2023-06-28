@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">269</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14190704001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathssarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med adresse på bagsiden: <q>Den ersamen unde vorsichtigen wisen luden, heren
+        borgermesteren unde raedmannen to Revall, unsen besundergen guden vrunden, kome desse
+        breeff, myd werdicheid dandum</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Rådet i Dorpats brevlukkende segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Bunge, Liv.-, Esth. u. Curländ. Urkundenb. V, nr. MMCCCLXI (reg. 2811), sp. 528-529</bibl>
+               <bibl>Bunge, Liv.-, Esth. u. Curländ. Urkundenb. VI, reg. 2672, p. 123 (regest)</bibl>
+               <bibl>Hanserec. VII, nr. 37, p. 17</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-07-04"
+                  notBefore="1419-07-04"
+                  notAfter="1419-07-04"
+                  cert="high">[1419.] 4. juli</date>
+            <placeName cert="high">Dorpat</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Dorpat skriver til rådet i Reval.</ab>
+            <ab>Rådet i Dorpat meddeler, at det har modtaget rådet i Revals brev
+      (<ref target="14190622002">DD 1419. 22. jun., nr.
+      14190622002</ref>) indeholdende kong
+      Erik 7. af Pommerns brev (<ref target="14190315001">DD 1419. 15. mar., nr. 14190315001</ref>)
+      til de livlandske stæder, hvori han beklager sig over de skader, som de holstenske herrer har
+      påført ham.</ab>
+            <ab>I forlængelse heraf meddeler rådet i Dorpat, at det efter rådet i Revals ønske har sendt
+      kong Eriks brev videre til rådet i Riga.</ab>
+            <ab>Rådet i Dorpat meddeler, at det har bedt rådet i Riga om at sende en kopi af kong Eriks brev
+      til rådet i Lübeck samt om på de livlandske stæders vegne at bede rådet i Lübeck og de andre
+      vendiske stæder om at gøre alt, hvad de kan, for at forhindre, at hansestæderne og
+      hansekøbmændene lider overlast.</ab>
+            <ab>Endvidere beder rådet i Dorpat rådet i Reval om på de livlandske stæders vegne at udfærdige
+      et svar til kong Erik, idet kong Eriks udsending netop nu befinder sig hos rådet i Reval.</ab>
+            <ab>Rådet i Dorpat finder det tilrådeligt, at rådet i Reval skriver til kong Erik, at de
+      livlandske stæder har modtaget og forstået hans kongelige nådes brev, at det gør de livlandske
+      stæder ondt, at sagen volder kong Erik så store problemer, samt at de livlandske stæder har
+      bedt rådet i Lübeck og de andre vendiske stæder om at gøre alt, hvad de kan, for at sørge for,
+      at sagen kan bilægges ved venskab.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-16" who="#smb">Filen etableret af #smb 2018-04-16. </change>
+         <change when="2018-04-16" who="#smb">1. korrektur af #smb 2018-04-16. </change>
+         <change when="2018-05-17" who="#smb">2. korrektur af #smb 2018-05-17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Unszen vrundliken grut mid alles gudes begeringe tovoren.</p>
+            <p n="a#2" xml:space="preserve">Ersamen leven heren unde guden vrunde.</p>
+            <p n="a#3" xml:space="preserve"><cit><quote>Juwen breff</quote><bibl>rådet i Revals brev til rådet i Dorpat, <ref target="14190622002">DD 1419. 22. jun.,
+            nr. 14190622002</ref></bibl></cit> myd <cit><quote>des heren koninges breve</quote><bibl>kong Erik 7. af Pommerns brev til de livlandske stæder, <ref target="14190315001">DD
+            1419. 15. mar., nr. 14190315001</ref></bibl></cit> van <placeName>Denmarken</placeName> an uns gesand etc. hebbe wy gutliken entfangen
+      unde wol vornomen.</p>
+            <p n="a#4" xml:space="preserve">Unde wy hebben den sulven breff vort gesand an de heren tor <placeName>Rige</placeName>, unde
+      hebben se gebeden in vorbetteringe van en, dat se de copie des breves senden an de heren to
+        <placeName>Lubeke</placeName>, unde bidden se van desser stede wegen, dat se myd den anderen
+      steden dar by belegen in den saken bearbeyden unde ramen dar des besten inne, dat de stede
+      unde de coepmann in <app><lem>tokomenden</lem><rdg><q>tokomen</q>, A</rdg></app> tiiden unbeschediged unde ungemaned moge bliven, wante wii uns besorgen, dat de stede
+      unde de coepman in tokomenden tiiden swarliken mogen belasted unde gemaned werden van der sake
+      wegen.</p>
+            <p n="a#5" xml:space="preserve">Unde alzo de here conink begheerd een antworde by sinem boden, umme dat de bode by yw ys, so
+      keyse wy int beste, dat gi deme heren coninge een antwarde scriven van desser stede wegen.</p>
+            <p n="a#6" xml:space="preserve">Uns duncket nůtte, dat gi dem heren coninge vor en antwarde scriven, in vorbetteringe van
+      yw, dat de stede van <placeName>Liflande</placeName> siner konincklicken gnade breff
+      oethmodichliken unde werdichliken hebben entfangen unde wol vornomen, unde dat uns allen leet
+      zii, dat sine coninklike gnade myd den saken so swarliken bemoyed zy, unde wii hebben unse
+      vrunde, de heren van <placeName>Lubeke</placeName> unde de anderen stede dar by belegen,
+      gebeden myt gantszer andacht, dat se in den saken willen des besten bearbeyden, so dat de sake
+      myd vrundscop moge to vrede komen.</p>
+            <p n="a#7" xml:space="preserve">Gode weset zalich unde gesund bevolen.</p>
+            <p n="a#8" xml:space="preserve">Screven under unser stad secrete, des dinxstages na Sunte Peters unde Sunte Paules dage
+      etc.</p>
+            <p n="a#9" xml:space="preserve">Borgermestere unde raedmanne to <placeName>Darbte</placeName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

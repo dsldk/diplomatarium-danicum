@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">385</num>, paragraphs: <num n="paragraphs">12</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14280816001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsarchiv Königsberg (nu Berlin, Geheimes Staatsarchiv Preußischer Kulturbesitz)</repository>
+                        <collection>XX. HA, Ordensbriefarchiv (OBA)</collection>
+                        <idno>Nr. 04973</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Adresse på bagsiden: <q>Deme erwerdige geystliken heren here Pawel van Rustorp
+        homester Dutsches Ordens in Prusen kome desse breff mit werdicheyt</q>. Endvidere samtidig
+      påtegning på bagsiden: <q>Burhamer . Gekomen czu Schonensee am tage nativitatis Marie im
+          xxviij<hi rend="sup">ten</hi> jare</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Styffe, Bidrag till Skandinaviens historia II, p. 232-234</bibl>
+               <bibl>Reg. Dan. *4840</bibl>
+               <bibl>SDHK-nr. 42555</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Styffe l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-08-16"
+                  notBefore="1428-08-16"
+                  notAfter="1428-08-16"
+                  cert="high">1428. 16. august</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Bertold Burammer skriver til Paul v. Rusdorf, højmester for Den Tyske Orden.</ab>
+            <ab>Bertold Burammer meddeler, at han i fællesskab med Erik Krummedige har aftalt, at der skal
+      holdes et møde angående nogle skippere til pinse, medmindre kong Erik 7. af Pommern ønsker, at
+      det skal ske tidligere.</ab>
+            <ab>Endvidere meddeler Bertold Burammer, at en del fetaljebrødre har lidt et stort nederlag i
+      Øresund. Af den årsag har man erobret syv skibe med kanoner og tre snekker, og omkring 500
+      fetaljebrødre er blevet taget til fange. Endvidere er svenskerne nu kommet med hele deres
+      styrke til Øresund.</ab>
+            <ab>Endelig meddeler Bertold Burammer, at kong Erik 7. af Pommern gerne vil tilstå 20 eller 30
+      af højmesterens skibe frit lejde igennem Øresund, såfremt højmesteren skriftligt beder kong
+      Erik om det.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-29" who="#pbh">Filen etableret af #pbh 2014-07-29. </change>
+         <change when="2019-04-30" who="#smb">1. korrektur af #smb 2019-04-30. </change>
+         <change when="2019-06-14" who="#smb">2. korrektur af #smb 2019-06-14. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Minen vnderdanigen denst mit ganczen willen to vorn to allen tyden bereyt . ♦</p>
+            <p n="a#2" xml:space="preserve">Erwerdige leue gnedige here ♦</p>
+            <p n="a#3" xml:space="preserve">Ik bidde jwen gnaden to weten dat ik mit vrunden vor arbeydet hebbe also sunderliken mit her
+        <persName>Erik Krummendyke</persName> de sich dar mit vlite an bewiset heft also dat desse
+      schipperen dagh gekregen hebben wente to pinxsten id en were dat ze de koningk er esschende
+      worde so solt ze dar na achte weken in komen doch muste ik ze vor borgen myns heren gnade
+      wolde en suluen nicht louen sunder borgen ♦</p>
+            <p n="a#4" xml:space="preserve">Vortmer bidde ik jwen gnaden to weten alse vmme den dagh dar ik jwen gnaden aff screff . dar
+      is hir noch nene tydinge van wen de heren dar komen ofte nycht, ze komen dar edder nicht so
+      willen doch desse lude des dages dar werden vnde dar wil ik mede vnde wort to hus wart
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Item bidde ik jwen gnaden to weten dat hir dorch segelden vij schepe mit mersen vnde xxiij
+      snykken vnde lepen hir vor de hauenen vnde vort dorch <placeName>den Sunt</placeName> in
+        <placeName>Norwegen</placeName> vnde dar volgeden em desse myns heren volk vnde wunnen de
+      vyttaligen broders aff vij schepe mit mersen vnde iij snikken vnde vengen er wol v<hi rend="sup">c</hi> vnde mer sunder swerdes slach vnde de schepe hebbet ze hir vnde de sweden
+      sin hir komet mit alle erer macht ♦</p>
+            <p n="a#6" xml:space="preserve">Item bidde ik jwen gnaden to weten dat hir heringes to gheyt dar ik jwen gnaden en luttingk
+      van sende vnde bidde jwen gnaden den to dancke to nemen . ♦</p>
+            <p n="a#7" xml:space="preserve">Hedde ik des mer kunt krigen gerne hedde ik es jwen gnaden mer sant to desser tijd
+      ♦</p>
+            <p n="a#8" xml:space="preserve">Item bidde ik jwen gnaden to weten dat ik an des rikes rade hir vor nomen hebbe oft jwe gnade
+      hir dorch <placeName>den Sunt</placeName> hebben wolde xx ofte xxx schepe vnde jwe gnade dar
+      vmme an den koningk scriuen wolde so is dat so ouer dregen dat des de koningk gerne gunnen
+      wolde sunder jwe gnade muste dar vmme scriuen an em so wolde he ze gerne leyden ♦</p>
+            <p n="a#9" xml:space="preserve">Hir nach jwe gnade vpdencke nicht mer to desser tyd men wil jw gnade mer tydinges weten dat
+      mogen jw desse schipperen berichten ♦</p>
+            <p n="a#10" xml:space="preserve">Dar mede beuele ik jwe gnade deme almechtigen Gode . ♦</p>
+            <p n="a#11" xml:space="preserve">Geuen to <placeName>Kopenhauen</placeName> des negesten dages na vnser vrouwen dag
+      assumpcionis vnder myn signet ♦</p>
+            <p n="a#12" xml:space="preserve"><persName>Bertold Burammer</persName> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

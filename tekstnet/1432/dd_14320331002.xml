@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">227</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14320331002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3112; tidl. sign. Københavns gårde 21</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>11.5 (plica: 1)</height>
+                                    <width>25.9</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften <q>Ka<ex>ri</ex>ne Krogss</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Perg.rem. På seglremmen med brevets hånd <q>[.....]<hi rend="sup">de</hi>
+          my<ex>n</ex> husfrw Katherinæ ell<ex>e</ex>r hæ<ex>n</ex>nis arwi<ex>n</ex>g<ex>e</ex>
+          schule for<hi rend="sup">de</hi> jordh oc grwnd pant sædie / j leyghe late / </q>. På
+        bagsiden med anden hånd <q>eth stethicht venschap [.....] oc lat<ex>er</ex> for
+          th<ex>e</ex>n sagh til ewedh tidhe vda<ex>n</ex> arct holde schule<ex>n</ex>d<ex>e</ex> /
+          ell<ex>e</ex>r nogh<ex>e</ex>r hielper<ex>e</ex>dhe</q>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Kantor Niels Lybertsens segl i grønt voks i perg.rem. På seglremmen med
+        brevets hånd <q>[.....]s Swens<ex>øn</ex> ær kallet ok Iens Brwn elles</q>, DGS 346
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Borgmester Anders Larsens segl i grønt voks i perg.rem. På seglremmen med
+        brevets hånd <q>nærmer war<ex>e</ex> / æn for<hi rend="sup">de</hi> Didrich oc hans
+          arwi<ex>n</ex>g<ex>e</ex> fore swo megh[.....]</q>. På bagsiden med anden hånd
+          <q>P<ex>er</ex> Michelss<ex>øn</ex> P<ex>er</ex> Iensss<ex>øn</ex> N Iude
+          [.....]ym<ex>en</ex> j Kop<ex>enhaf</ex>n Datum</q>, AS H xxxiii 2
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Rådmand Hans (Jensen) Wats segl (SIGIL HANS IENSSEN WAT om bomærke) i grønt
+        voks i perg.rem. På seglremmen med brevets hånd <q>grwnd frj / hemle / oc til at sta j hans
+          wele m<ex>eth</ex> th<ex>e</ex>tt<ex>e</ex> mit wpne b<ex>re</ex>ff Item wor<ex>e</ex>
+          th<ex>et</ex> swo at jæc ell<ex>e</ex>r</q>. På bagsiden med anden hånd <q>skøtt<ex>e</ex>
+          for goths oc pen<ex>ninge</ex> / th<ex>e</ex>r for<hi rend="sup">de</hi> Ies
+          Pet<ex>er</ex>s<ex>øn</ex> oc for<hi rend="sup">de</hi> ha<ex>n</ex>s swe<ex>n</ex>
+          schulde <ex>(gennemstreget)</ex> taghe f[.....] Ies Pet<ex>er</ex>s<ex>øn</ex> oc
+          ha<ex>n</ex>s swe<ex>n</ex> for<hi rend="sup">de</hi> oc skild<ex>es</ex> tha
+          ve<ex>n</ex>lig<ex>e</ex> at oc saudhe huar</q>
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Rådmand Peder Jensens segl i grønt voks i perg.rem. På seglremmen med brevets
+        hånd <q>at som hwn ær wært . Th<ex>et</ex> til mere wytnæbyurdh</q>, AS C xlvii 16
+                              </ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Bomærke i grønt voks i perg.rem. På seglremmen med brevets hånd <q>[.....]ges
+          wort jnsiggelle nethen for th<ex>et</ex> breff th<ex>et</ex> [.....]
+        byurth</q>
+                              </ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Jens Ottesens segl (s niegels oteson om bomærke) i grønt voks i
+        perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep nr. 6550</bibl>
+               <bibl>Reg. *4952</bibl>
+               <bibl>Vejledende Arkivreg. XVII 241 nr. 2</bibl>
+               <bibl>Københavns Dipl. I 157 nr. 118</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 50-52</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-03-31"
+                  notBefore="1432-03-31"
+                  notAfter="1432-03-31"
+                  cert="high">1432. 31. marts<ref target="drb1"/>
+            </date>
+            <placeName cert="high">Københavns byting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne af Københavns byting om, at Jens Klementsen i Pilegård, bymand i København, på
+      vegne af Hagen Jensen, kong Eriks tjener, har skødet en grund vest for Nørreport, i Sankt
+      Petri sogn i København, til Jakob Svendsen, rådmand sammesteds.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-04" who="#pbh">Filen etableret af #pbh 2013-10-04. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-12-05" who="#alk">2. korrektur af #alk 2017-12-05. </change>
+         <change when="2018-03-15" who="#alk">3. korrektur af #alk 2018-03-15. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle me<ex>n</ex> th<ex>e</ex>tt<ex>e</ex> b<ex>re</ex>ff se ell<ex>e</ex>r hør<ex>e</ex>
+      læs<ex>es</ex> . helsær jæc <persName>Jæcøb Jenss<ex>øn</ex></persName>
+      <placeName>byfogh<ex>et</ex> j Køp<ex>e</ex>ndh<ex>af</ex>n</placeName>
+      <persName>Claws Lubertss<ex>øn</ex></persName>
+      <placeName>cantor j Køp<ex>e</ex>ndh<ex>af</ex>n</placeName> .
+        <persName>And<ex>e</ex>r<ex>s</ex> Laure<ex>n</ex>ss<ex>øn</ex></persName>
+      <placeName>burghemest<ex>er</ex></placeName> . <persName>Hanis Wat</persName> /
+        <persName>Pether Jenss<ex>øn</ex></persName>
+      <persName>Jæcøb Brand</persName>
+      <placeName>radhme<ex>n</ex> j Køp<ex>e</ex>ndh<ex>af</ex>n</placeName> / oc <persName>Jenis
+        Attess<ex>øn</ex></persName>
+      <placeName>bym<ex>an</ex> th<ex>e</ex>n sa<ex>m</ex>me stadh</placeName>
+      ewi<ex>n</ex>nelig<ex>e</ex> m<ex>eth</ex> gudh . ♦</p>
+            <p n="a#2" xml:space="preserve">Welie wy ku<ex>n</ex>gør<ex>e</ex> alle nær<hi rend="sup">d<ex>es</ex></hi> oc
+      ko<ex>m</ex>me<ex>n</ex>d<ex>es</ex> . at efft<ex>er</ex> wor h<ex>er</ex>r<ex>e</ex>
+      føthels<ex>es</ex> ar . m . cd . xxx ar vpa th<ex>et</ex> a<ex>n</ex>net / neste thing dagh
+      efft<ex>er</ex> mit faste søndagh vpa wort <placeName>bything j
+        Køp<ex>e</ex>ndh<ex>af</ex>n</placeName> war skicket for oss . oc for fler<ex>e</ex> . godhe
+      me<ex>n</ex> tha thing nær<hi rend="sup">d<ex>es</ex></hi> . en beskedhe<ex>n</ex> ma<ex>n</ex>
+      <persName>Jenis Clemetss<ex>øn</ex></persName> bym<ex>an</ex> j Køp<ex>e</ex>ndh<ex>af</ex>n j
+      Pile gardh ♦</p>
+            <p n="a#3" xml:space="preserve">Huilke<ex>n</ex> for<hi rend="sup">de</hi> Jenis m<ex>eth</ex> sin fry godhe velie afhende /
+      wploth / oc skøtte til ewi<ex>n</ex>nelig<ex>e</ex> eyghe haueschulend<ex>es</ex> en
+      beskedhe<ex>n</ex> ma<ex>n</ex>
+      <persName>Jæcøb Swenss<ex>øn</ex></persName> radhma<ex>n</ex> j Køp<ex>e</ex>ndh<ex>af</ex>n
+      vpa en beskedhe<ex>n</ex> ma<ex>n</ex>s weghne <persName>Haghen Jonss<ex>øn</ex></persName>
+      wor nathelighe h<ex>er</ex>r<ex>e</ex>
+      <persName>koni<ex>n</ex>g Erics</persName> m<ex>eth</ex> gudhs nadhe thiene<ex>re</ex> en
+        for<hi rend="sup">de</hi> Jenis Clemetss<ex>øns</ex> jordh / oc grwnd m<ex>eth</ex> all
+      hæ<ex>n</ex>nis længe / oc bredhe / encte vndantagh<ex>et</ex> / som th<ex>et</ex>
+      howed breff<ref target="drb1"/> vtbeuiser som for<hi rend="sup">de</hi> Haghen hau<ex>e</ex>r aff for<hi rend="sup">de</hi> Jenis Clem<ex>e</ex>tss<ex>øn</ex> vpa for<hi rend="sup">de</hi> jordh / oc grwnd
+      liggendis vesten nest h<ex>er</ex> Areldis <app><lem>vedh<ex>e</ex>r mølle</lem><rdg wit="#A">Rettet fra <q>mølle vedh<ex>e</ex>r</q>, A</rdg></app> som star hoss <placeName>Narr<ex>e</ex> port</placeName> j Kop<ex>e</ex>ndh<ex>af</ex>n
+      j <placeName>sancti Pethers soghn</placeName> / ♦</p>
+            <p n="a#4" xml:space="preserve">Huilken for<hi rend="sup">de</hi> jordh lowlighe war lawbodhe<ex>n</ex> / skøt / oc stethict
+      melt oc war vpa th<ex>e</ex>n tidh engen genmele . ♦</p>
+            <p n="a#5" xml:space="preserve">Huilke for<hi rend="sup">ne</hi> stycke swo giordhe for oss . oc for flere godhe me<ex>n</ex>
+      tha nær<hi rend="sup">d<ex>es</ex></hi> wy witne m<ex>eth</ex> wor<ex>e</ex> jncigle
+      m<ex>eth</ex> welie oc witschap ladet henge for th<ex>e</ex>tt<ex>e</ex> b<ex>re</ex>ff /
+      ♦</p>
+            <p n="a#6" xml:space="preserve">Huilk<ex>et</ex> ær gewit oc screuit ar / dagh / oc stadh / som sact ær ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

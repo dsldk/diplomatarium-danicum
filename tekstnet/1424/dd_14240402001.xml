@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">130</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14240402001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2849; tidl. Københavns gårde og huse 16</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10.8 (plica: 1.5)</height>
+                                    <width>26.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Beskadiget i folderne og hullet med teksttab til følge</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rester af perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Asser Jensens segl af mørkt voks i perg.rem, DGS 345
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Lars Nielsen Vinneres segl af mørkt voks i perg.rem, AS F xxix 1 
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Bomærke af mørkt voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6089</bibl>
+               <bibl>Reg. *4688</bibl>
+               <bibl>Københavns Dipl. II 47-48 nr. 31</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-04-02"
+                  notBefore="1424-04-02"
+                  notAfter="1424-04-02"
+                  cert="high">1424. 2. april</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lars Nielsen Rothe, borger i Skibby, sælger sin gård i Nørregade i Skt. Petri sogn i
+      København, som han arvet efter sine forældre, til Anders Klementsen, borger i København, for
+      24 mark sølv i gangbar mønt.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-12" who="#pbh">Filen etableret af #pbh 2014-06-12. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-06-13" who="#alk">2. korrektur af #alk 2017-06-13. </change>
+         <change when="2017-06-20" who="#alk">3. korrektur af #alk 2017-06-20. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus . <persName>Laurencius Nicolai dictus
+        <damage>R</damage>oodde</persName>
+               <placeName>villan<damage>us</damage> in Skiiby</placeName> salutem in domino sempiternam .
+      ♦</p>
+            <p n="a#2">Noverint universi presentes et futuri quod rec<damage>o</damage>gnosco me vir<damage>o
+        dis</damage>creto et honesto <persName>Andree Clementis</persName>
+               <placeName>
+                  <damage>v</damage>illano Haffnensi</placeName> latori presencium fundum meum mihi
+      jure heredit<damage>ario</damage> post mortem parentum meorum pie memorie legaliter advolutum
+      in <placeName>parochia s<damage>ancti</damage> Petri</placeName> in
+        <placeName>Nørregade</placeName>
+               <placeName>Haffnis</placeName> inter curiam <placeName>ecclesie sancti Petri</placeName>
+      spectantem in qua quidam <persName>Haquinus <damage>s</damage>artor</persName> pronunc residet
+      et curiam cujusdam <persName>Johannis Magni</persName>
+               <damage>conti</damage>gue situatum pro vigintiquatuor marchis argenti bone monete et dative
+      vendidisse perpetuo possidendum ♦</p>
+            <p n="a#3">Unde obligo me meo<damage>s</damage>que heredes dicto Andree Clementis et
+        heredi<damage>bus</damage> suis dictum fundum cum omnibus pertinenciis suis videlicet
+        longi<damage>tudine</damage> et latitudine nullis penitus excep<damage>ti</damage>s liberare
+      appropriare et disbrigare totaliter per presentes sine con<damage>tradicc</damage>ione
+      quorumcumque . ♦</p>
+            <p n="a#4">In cujus rei testimonium sigillum meum una cum sigillis virorum discretorum scilicet
+        <persName>domini <damage>A</damage>sceri Johannis</persName> presbiteri <placeName>perpetui
+        vicarii in ecclesia Haffnis</placeName>
+               <persName>Laurencii <damage>Wi</damage>n<damage>ne</damage>r<ex>e</ex>
+               </persName> et
+        <persName>Nicolai Jnguari</persName>
+               <placeName>consulum H<damage>aff</damage>fnis</placeName> presentibus est appensum .
+      ♦</p>
+            <p n="a#5">Datum <placeName>Haffnis</placeName> anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxiiii<hi rend="sup">o</hi> dominica medie quadragesime ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

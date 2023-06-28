@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">205</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14300624001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>3076-c; tidl. sign. Krenkerup</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Fragment, stærkt beskåret med stort teksttab til følge. Tidligere anvendt som bind om rigsråd Christen Skeels (1603-1659) dagbog</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Refereret i Eline Gøyes Jordebog (Rigsarkivet. Mourids Olsen Krognos' arkiv.
+      Eline Gøyes jordebog. Her Magnus Gøyes federnne godz, f. 44v): <q>E. Jth breff at Effuertt
+        Møltick skøder sinn moderbroder Mogenns Gøye halffdelenn aff Krennckerup gaard / mølle oc
+        abildgaard / oc halffdelenn aff alle the gods der tilligger som hand oc hans broder her
+        Mattis Møltick kiøffte aff Jens Oluffszøn aff Hesle oc hans husfrue frwe Metthe oc iij pund
+        kornn till jndgield som hans moders broder haffde thill lanns aff her Oluff Axels<ex>øn</ex>
+        / Datum Kiøbennhaffnn / sancti Johannis baptistæ dag midso<ex>m</ex>mer mcdxxx /</q>. Trykt
+      i Thiset, Eline Gøyes Jordebog 88</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6447</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 213-214</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1430-06-24"
+                  notBefore="1430-06-24"
+                  notAfter="1430-06-24"
+                  cert="high">1430. 24. juni</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Evert (Johansen) Moltke (til Bavelse) skøder sin morbror Mogens (Akselsen) Gøye det halve af
+      Krenkerupgård med al dens tilliggende, som han sammen med sin broder, Matthias (Johansen)
+      Moltke, købte af Jens Jensen (kaldet Olufsen (Godov)) af Hessel og dennes hustru, Mette, der
+      arvede Krenkerup efter sin første mand, hr. Oluf Akselsen Gøye.</ab>
+            <ab>Sammen med godset overdrager han Mogens Gøye et tilgodehavende hos dennes afdøde broder, hr.
+      Oluf Akselsen Gøye, på tre pund korn, som han har efter sin mormor.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-01-16" who="#alk">Filen etableret af #alk 2018-01-16. </change>
+         <change when="2018-01-16" who="#alk">1. korrektur af #alk 2018-01-16. </change>
+         <change when="2018-05-18" who="#alk">2. korrektur af #alk 2018-05-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve"><damage>.....th</damage>ry pu<ex>n</ex>d korn til <cit><quote>jngield</quote><bibl>Se arveskiftet mellem fru Karen, enke efter Aksel Mogensen Gøye, og hendes børn, <ref target="14110327003">DD 1411. 27. mar., nr. 14110327003</ref></bibl></cit> som my<ex>n</ex> moth<ex>e</ex>rs moth<ex>e</ex>r hafde aff
+        <damage>.....tillige</damage>lssæ enkte vnden taghet / ♦</p>
+            <p n="a#2" xml:space="preserve">Oc weth<ex>e</ex>rkenn<ex>e</ex>r jek mek oc myn<damage>e ..... ha</damage>fue boredh aff
+      forneffnde <persName>Magn<ex>us</ex> Gøye</persName> fult wærdh vtj pe<ex>n</ex><damage>ninge
+        .....</damage> for<ex>e</ex> th<ex>e</ex>nne forsc<ex>re</ex>ffne halfue
+        <placeName>Krenkorpe gordh</placeName> oc for<ex>e</ex> alle t<damage>.....</damage> liggæ
+      ell<ex>e</ex>r neffnes ku<ex>n</ex>ne / ♦</p>
+            <p n="a#3" xml:space="preserve">Thy tilbind<ex>e</ex>r jek mek oc mynæ <damage>.....</damage> hemblæ forneffnde
+      Magn<ex>us</ex> Gøye oc hans arfui<ex>n</ex>ge til ewærthel<damage>igh .....</damage> gordh
+      mæth all sin tilligelssæ suasu<ex>m</ex> ær møllæ . apelde gordh . <damage>.....
+      en</damage>kte vnden taghet / oc th<ex>e</ex>r till . alle thessæ andræ forsc<ex>re</ex>ffne
+        gordh<damage>e .....</damage> th<ex>e</ex>r h<ex>er</ex>r<ex>e</ex>
+      <persName>Mathias Moltke</persName> oc jek wy køpte aff <persName>Jess Olafsøn</persName>
+      <damage>.....</damage> sc<ex>re</ex>uet ♦</p>
+            <p n="a#4" xml:space="preserve">Item war<ex>e</ex> th<ex>et</ex> swa at forsc<ex>re</ex>ffne halfue Krenkorpe gor<damage>dh
+        ..... a</damage>ff ther<ex>es</ex> tilligelsse fornefnde Magn<ex>us</ex> Gøye ell<ex>e</ex>r
+      hans ar<damage>fuinge .....</damage> hemæl sculd / tha tilbind<ex>e</ex>r iek mek oc mynæ
+      arfui<ex>n</ex>ge <damage>.....</damage> all th<ex>e</ex>n wit<ex>er</ex>lich skadhe huilken
+      som hano<ex>m</ex> ell<ex>e</ex>r hans a<damage>rfuinge .....</damage> hind<ex>e</ex>r hielpæ
+      rædhe ell<ex>e</ex>r arghe liist . oc vtin nok<ex>e</ex>r len<damage>ger tøfring
+        .....</damage> ♦</p>
+            <p n="a#5" xml:space="preserve"><damage>.....</damage> særdelæs tilbind<ex>e</ex>r jek mek oc mynæ arfui<ex>n</ex>gæ mæth
+        th<ex>et</ex><damage>tæ ..... </damage>tæ at holde til ewærtheligh tiidh jnne<ex>n</ex>
+      godhe tro vtin <damage>.....</damage> ♦</p>
+            <p n="a#6" xml:space="preserve"><damage>.....</damage> sigillum meum una cum sigillis nobilium virorum videlicet
+        d<damage>omini .....</damage>ssøn . <persName>Jwani Foss</persName> . <persName>Nicolai
+        Laur<ex>e</ex>nssøn</persName> . <persName>Henrici Gøye</persName> de
+          <placeName>Kæt<damage>helstorp ..... es</damage>t</placeName> appensum / ♦</p>
+            <p n="a#7" xml:space="preserve">Datum <placeName>Haffnis</placeName> anno domini millesimo quadr<damage>ingentesimo .....
+        sanc</damage>ti Johannis baptiste ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

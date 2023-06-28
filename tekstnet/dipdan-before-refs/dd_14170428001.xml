@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">375</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14170428001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer.
+      Registratur over Maribo klosters breve (1624), upag., øverst på siden overskriften
+        <q>Pergamentz breffue</q>, trykt ÆA III 268 nr. A. 187 (med årstallet 1442)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>E Don. Var. 1 folio</collection>
+                        <idno>empty</idno>
+                        <msName>Bartholin, Collectanea, tom. C (= II), s. 580-582 (i afdelingen med
+      afskrifter af breve i Jens Rosenkrantz'
+      Museum)</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Afskrift ved Arni Magnusson</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Dipl</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Dipl</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Dansk oversættelse i Fyns Stiftskiste, tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Dipl</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Afskrift af Jakob Bircherod for Hans Gram</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Dipl</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Afskriften angives at være taget <q>af en copiebog laant af biskop
+      Hersleb</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab3">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>Thott</collection>
+                        <idno>736 folio s. 571</idno>
+                        <msName>Pontoppidan, Adversaria vol. B</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab4">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>Thott</collection>
+                        <idno>809 folio</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Fra Erik Pontoppidans bibliotek. Det er muligt, at denne afskrift er foretaget
+      efter Ab3 (også i Pontoppidans eje) og derfor burde hedde Ab3a</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5658</bibl>
+               <bibl>Reg. 3315*</bibl>
+               <bibl>Rhode, Samlinger til de Danske Øers Laalands og Falsters Historie I 424-426</bibl>
+               <bibl>Pontoppidan, Annales Ecclesiæ II 514-516 (i tysk overs.)</bibl>
+               <bibl>Daugaard, Om de danske Klostre s. 318 (Udtog og referat på dansk)</bibl>
+               <bibl>Skovgaard, Den hellige Birgitta og Maribo Kloster 81 (dansk overs. af Birgittas
+      åbenbaring)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-04-28"
+                  notBefore="1417-04-28"
+                  notAfter="1417-04-28"
+                  cert="high">1417. 28. april</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern og ærkebiskop Peder (Mikkelsen (Kruse)) af Lund opfordrer alle i de
+      tre riger Danmark, Sverige og Norge til at yde bidrag til det kloster af Birgittinerordnen,
+      der skal oprettes i Skemminge på Lolland (nu: Maribo).</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2019-05-13" who="#alk">1. korrektur af #alk 2019-05-13. </change>
+         <change when="2019-05-24" who="#alk">2. korrektur af #alk 2019-05-24. </change>
+         <change when="2019-06-28" who="#alk">3. korrektur af #alk 2019-06-28. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Universis Christi fidelibus presentes litteras visuris seu audituris, nos
+        <persName>Ericus</persName> dei gratia <placeName>Dacie</placeName>
+      <placeName>Svecie</placeName>
+      <placeName>Norvegie</placeName>
+      <placeName>Sclavorum</placeName>
+      <placeName>Gotorumque</placeName> rex et dux <app><lem><placeName>Pomeranie</placeName></lem><rdg wit="#Aa">Rettet fra <q>Pomerensis</q>, Aa</rdg></app>, nec non <persName>Petrus</persName>
+      <placeName>archiepiscopus Lundensis</placeName>
+      <placeName>Svecie primas</placeName> et <placeName>apostolice sedis legatus</placeName>, notum
+      facere volumus et constare quomodo <cit><quote>splendor paterne glorie</quote><bibl>Hebr. 1, 3</bibl></cit> qui est Christus, beate Birgitte sponsus, <cit><quote>sua mundum ineffabili claritate</quote><bibl>Cf. Apoc. 21, 23</bibl></cit> et pia vota fidelium de clementia ipsius majestatis sperantium benigno favore
+      prosequens revelationem de denario beate virgini pro edificatione monasterii ejus et sancte
+      Birgitte a Christi fidelibus tribuendo revelasse dicitur in hec verba. ♦</p>
+            <p n="a#2" xml:space="preserve"><cit><quote>Christus loquitur</quote><bibl>Herfra og til og med <q>obedientie fructus augeatur:</q> Rev. Extrav. Kap 32, trykt
+          Den heliga Birgittas Reuelaciones extrauagantes, red. Lennart Hollman, Samlingar utg. av
+          Svenska fornskriftsällskapet 2.5 (Uppsala 1956), s. 146</bibl></cit>. Ego sum qui <persName>Abrahe</persName> precepi immolare filium suum
+        <persName>Ysaac</persName>, non quia non prescivi obedientie sue bonum sed quia volui ut
+      voluntas sua bona etiam futuris ad imitandum simile ostenderetur, sic ego nunc a principe
+      terre edificari volo unum monasterium in honorem matris mee, ideo ut peccata regni minuantur,
+      peto ad ejusdem monasterii perfectionem auxilium a communitate non sicut indigens quia omnium
+      sum dominus sed ut promptitudo voluntatis eorum etiam aliis innotescat propterea omnis ad
+      annos discretionis perveniens qui in virginitate perseverare proponit, sive vir sive femina
+      tribuat unum denarium monete currentis, similiter qui in viduitate est, qui vero in conjugio
+      est tribuat pro se et uxore sua duos denarios ad edificationem monasterii matris mee, qui vero
+      filios et filias habent et perseveraverint ad annos discretionis scilicet .xvi. annos pro
+      unoquoque solvant unum denarium ut in eis caritas et obedientie fructus augeatur, ♦</p>
+            <p n="a#3" xml:space="preserve">Nos itaque prefati Ericus rex et Petrus archiepiscopus qui quotidiana meditatione revolvimur,
+      qualiter venerandus orthodoxe fidei cultus nostris presertim temporibus augeatur firmam spem
+      fiduciamque tenentes quod <cit><quote>qui parce seminat parce et metet, et qui seminat in benedictionibus, de
+          benedictionibus et metet</quote><bibl>2. Cor. 9, 6</bibl></cit>, nobisque thesaurizare in celis volentes que ecclesiis et personis ecclesiasticis in
+      terris duxerimus conferenda, prefate revelacionis intuitu benignius inclinati, ut monasterium
+      in <placeName>Skemminge</placeName>
+      <placeName>Lalandie</placeName>
+      <placeName>Ottoniensis dyocesis</placeName>, in honorem altissimi sanctarum Marie et Birgitte
+      laudem juxta prefate revelacionis seriem Christi fidelium elemosinis erigi valeat et fundari,
+      omnes et singulos per regna Dacie Svecie et Norvegie, ubilibet constitutos, ut missarum
+      orationum et suffragiorum que in prefato fient loco perpetuis temporibus, nos una cum
+      porrigere volentibus manus adjutrices, simus participes et consortes, sinceriter hortantes
+      attentissime deprecamur, quatinus procuratores et nuntios pro monasterio sanctarum Marie et
+      Birgitte ut prefertur edificando Christi fidelium elemosinas collecturas ubicumque divertentes
+      tractare velint favorabiliter et benigne, sua secundum predicte revelationis ordinem, in
+      remissionem criminum ac caritatis et obedientie fructus augendos, devote munera largiendo,
+      eterne retributionis meritum ab eo qui cuilibet prout gesserit retribuet feliciter recepturi,
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Datum <placeName>Hafnis</placeName>, anno domini m<hi rend="sup">o</hi>. cd<hi rend="sup">o</hi>. <app><lem>xvii<hi rend="sup">o</hi>.</lem><rdg wit="#Aa">Foran er slettet <q>xvii</q>, Aa</rdg></app> die beati Vitalis martyris nostris sub secretis. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

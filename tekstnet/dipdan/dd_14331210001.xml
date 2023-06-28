@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">308</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14331210001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3157</idno>
+                        <msName>gl. signatur: Stevns Herred 59</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16.1</height>
+                                    <width>20.4</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Det nederste stykke er bortskåret</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift på bagsiden (ca. 1530): <q>breff po th<ex>e</ex>n hønsse skath
+        h<ex>er</ex> e Stewensh<ex>er</ex>rith m cd xxx paa tredie</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6659</bibl>
+               <bibl>Reg. 3541</bibl>
+               <bibl>N. H. Weinwich, Beskrivelse over Stevns-Herred, s. 69</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 108-09</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1433-12-10"
+                  notBefore="1433-12-10"
+                  notAfter="1433-12-10"
+                  cert="high">1433. 10. december</date>
+            <placeName cert="high">Stevns herred</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne af Stevns herredsting om, at det i mands minde har været sædvane, at hver bonde i
+      Stevns herred skal give visse ydelser til Søholm: en høne hvert år på Skt. Nicolaus’ festdag
+      (den 6. december) og seks lam og seks skilling på Skt. Hans’ dag (den 24. juni).</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-18" who="#pbh">Filen etableret af #pbh 2013-10-18. </change>
+         <change when="2017-06-12" who="#jon">1. korrektur af #jon 2017-06-12. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Jegh <persName>Jæp Beyends<ex>øn</ex>
+               </persName> hæresfogh<ex>et</ex> j
+        <placeName>Steffnsh<ex>æ</ex>r<ex>et</ex>
+               </placeName> hørthe en skelligh man aff wabn
+        <persName>Hans Jenss<ex>øn</ex>
+               </persName> hær <persName>Stens Basse</persName>s
+      fogh<ex>et</ex> po <placeName>Siøholm</placeName> spurthe siigh fore po wort hæresthingh om
+      th<ex>et</ex> æy hagthe wær<ex>et</ex> areld seeth ath huar konghens bondæ j
+        <placeName>Steffnsh<ex>æ</ex>r<ex>et</ex>
+               </placeName> bothe burthe atgiuæ eet got høns til
+        <placeName>Siøholm</placeName> orleghe aar geen s<ex>anc</ex>tæ Niclaes dagh fore jwl / oc
+      huar s<ex>anc</ex>tæ <app>
+                  <lem>Hansss</lem>
+                  <rdg wit="#A">
+                     <q>Hansß</q>, A</rdg>
+               </app> dagh om mitso<ex>m</ex>m<ex>er</ex> . the sa<ex>m</ex>me for<hi rend="sup">de</hi>
+      bønder alle schulde giuæ sæx lamb oc sæx schillingh gr<ex>ot</ex> / ♦</p>
+            <p n="a#2">Tha stoth jægh for<hi rend="sup">de</hi> Jæp Beyends<ex>øn</ex> wpp oc
+      neff<damage>n</damage>de wd een <app>
+                  <lem>stokkænæffnd</lem>
+                  <rdg wit="#A">
+                     <q>stokkæ|næffnd</q>, A</rdg>
+               </app> m<ex>eth</ex> tolff donde mæn aff hæreth th<ex>e</ex>r schulde sighe oc widnæ om
+      th<ex>et</ex> hagthe wær<ex>et</ex> een areld seeth sosom wore <persName>Zier</persName> j
+        <placeName>Frøsløff</placeName>
+               <persName>Moghens Erkess<ex>øn</ex>
+               </persName> j th<ex>et</ex> sa<ex>m</ex>me st<ex>et</ex>
+               <persName>Jngwær <app>
+                     <lem>Letter</lem>
+                     <rdg resp="#jon">jf. Danmarks gamle Personnavne: II. Tilnavne, s. 699, s.v.
+            <q>Lutter</q>
+                     </rdg>
+                  </app>
+               </persName> aff <placeName>Syærsløff</placeName> / <persName>Hinric
+        Enghelss<ex>øn</ex>
+               </persName> j th<ex>et</ex> sa<ex>m</ex>me st<ex>et</ex>
+               <persName>Cleme<ex>n</ex>t Nielss<ex>øn</ex>
+               </persName> aff <placeName>Holtw</placeName> /
+        <persName>Jess Boss<ex>øn</ex>
+               </persName> aff <placeName>Arnøw</placeName> / <persName>Jess
+        Saxss<ex>øn</ex>
+               </persName> aff <placeName>Lillæ Heddinghæ</placeName>
+               <persName>Jess Peth<ex>e</ex>rss<ex>øn</ex>
+               </persName> aff <placeName>Heddinghæ</placeName> /
+        <persName>Anders Eskelss<ex>øn</ex>
+               </persName> aff <placeName>Wolby</placeName> /
+        <persName>Jess Bondæ</persName> aff <placeName>Raaby</placeName> / <persName>Anders
+        Abramss<ex>øn</ex>
+               </persName> aff <placeName>Skørpinghæ</placeName> oc
+        <persName>Peth<ex>e</ex>r Stagh</persName> aff <placeName>Høgherøp</placeName> ♦</p>
+            <p n="a#3">Tha ginghe alle thee wd oc beradde thøm oc jnginghe oc alle samdrækteleghe widnethe meth en
+      beradh hugh oc en fulko<ex>m</ex>men welghe jnnen wore firæ stokkæ po for<hi rend="sup">de</hi> wort hær<ex>e</ex>sthingh ath th<ex>et</ex> hagthe wær<ex>et</ex> een <app>
+                  <lem>seethwane</lem>
+                  <rdg wit="#A">
+                     <q>seeth|wane</q>, A</rdg>
+               </app> sithen <placeName>Siøholm</placeName> wor bygd th<ex>et</ex> handerstæ the
+      ku<ex>n</ex>ne mynnes æller spørghe ath huar bondæ j
+        <placeName>Steffnsh<ex>æ</ex>r<ex>et</ex>
+               </placeName> bothe schulde orleghe aar giuæ til
+        <placeName>Siøholm</placeName> eet got høns geen s<ex>anc</ex>tæ Niclaes dagh fore jwl oc
+      huar s<ex>anc</ex>tæ <app>
+                  <lem>Hansss</lem>
+                  <rdg wit="#A">
+                     <q>Hansß</q>, A</rdg>
+               </app> dagh om mitso<ex>m</ex>m<ex>er</ex> the sa<ex>m</ex>me bønder alle schulde giuæ sæx
+      lamb oc sæx skillingh gr<ex>ot</ex> ♦</p>
+            <p n="a#4">Th<ex>e</ex>r the swo hagthe widnet som for<ex>e</ex> sc<ex>re</ex>u<ex>et</ex> staar tha
+      stoth wpp for<hi rend="sup">d<ex>e</ex>
+               </hi>
+               <persName>Hans <damage>Je</damage>nss<ex>øn</ex>
+               </persName> hær <persName>Sten
+        Basse</persName>s fogh<ex>et</ex> po <placeName>Siøholm</placeName> oc beddes eet things
+      widnæ th<ex>e</ex>r wppo som the jnnen firæ stokkæ hagthe widnet ♦</p>
+            <p n="a#5">Ath th<ex>et</ex>tæ swo gyk j alle maade so<damage>m</damage> fore sc<ex>re</ex>u<ex>et</ex>
+      staar tha hau<ex>er</ex> jegh til widnis byrth hengd myt jnciglæ fore th<ex>et</ex>te
+      br<ex>e</ex>ff m<ex>eth</ex> gothe mæns soso<ex>m</ex> ær<ex>e</ex>
+               <persName>Jæp Anders</persName> aff <placeName>Køghæ</placeName> / <persName>Ebbe
+        Nielss<ex>øn</ex>
+               </persName> aff <placeName>Giortzløff</placeName>
+               <persName>Peth<ex>e</ex>r Grubbæ</persName> aff <placeName>Alsløff</placeName> hær
+          <persName>J<damage>o</damage>han</persName> aff <placeName>Strøby</placeName>
+               <persName>Bondæ Moghenss<ex>øn</ex>
+               </persName> aff <placeName>Heddinghæ</placeName>
+               <app>
+                  <lem>oc</lem>
+                  <rdg wit="#A">tilføjet over linjen, A</rdg>
+               </app>
+               <persName>Axel</persName> j <placeName>Berkorpe</placeName> ♦</p>
+            <p n="a#6">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xx[x] tercio feria quarta
+      post festum beati Nicolai episcopi et confessoris ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

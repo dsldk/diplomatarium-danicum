@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+               >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+               n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14130526002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection/>
+                        <idno>NKR c-2366</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>8,3 (plica: 1,9)</height>
+                                    <width>20,7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Brudstykke af ærkebiskop Peder Mikkelsen Kruses embedssegl i grønt
+                                 voks (konserveret) i perg.rem, <ref>DGS 25</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5257</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-05-26" notBefore="1413-05-26" notAfter="1413-08-28" cert="low">1413.
+               [26. maj eller 28. august]<note>Brevets dato er usikker, idet det ikke kan afgøres,
+                  om der er tale om Augustin af Canterbury (helgendag 26. maj) eller Augustin af
+                  Hippo (helgendag 28. august). Spørgsmålet kan ikke afgøres med sikkerhed, hvorfor
+                  dateringen må blive 1413. [26. maj eller 28. august]</note></date>
+            <placeName cert="high">Hammershus</placeName>
+         </creation>
+         <langUsage>
+            <language ident="lat">Hovedsprog: latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Peder (Mikkelsen (Kruse)), ærkebiskop i Lund, fritager sin elskede tjener Jakob
+               Andersen for bondeskat af en gård i Vestermarie sogn på Bornholm, som han har arvet
+               efter sin hustrus fader, Sasser Mogensen; ærkebiskoppen kan til enhver tid trække
+               fritagelsen tilbage.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-10" who="#pbh">Filen etableret af #pbh 2014-02-10. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="lat">
+            <p n="a#1">Nos <persName>Petrus</persName> dei gracia archiepiscopus
+                  <placeName>Lundensis</placeName> Suecie primas et apostolice sedis legatus
+               constare volumus universis quod nos latoripresencium <persName>Jacobo
+                     Anderss<ex>øn</ex></persName> familiari nostro dilecto intuitu servicii sui
+               nobis hucusque facti et amodo fideliter faciendi quendam fundum suum in parochia
+               occidentali beate Marie virginis in terra nostra Borndeholm situm quem quidem fundum
+               de quodam <persName>Sacero Magnuss<ex>øn</ex></persName> patre uxoris sue . idem
+               Jacobus Anderss<ex>øn</ex> jure hereditario obtinuit ab omni onere rusticali
+               dimittimus liberum et exemptum donec presentes duxerimus revocandas &#9830;</p>
+            <p>Datum in castro nostro <placeName>Hammarensi</placeName> anno domini m<hi rend="sup"
+                  >o</hi>cd<hi rend="sup">o</hi>trede<hi rend="sup">mo</hi> die beati Augustini
+               episcopi nostro sub secreto presentibus appenso etcetera &#9830;</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

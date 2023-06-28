@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1500</num>, paragraphs: <num n="paragraphs">17</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14280507001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3024-b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>50.5 (plica: 3.6)</height>
+                                    <width>31.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Samtidig bagsidepåskrift: <q>Protestacio civitatum facta in Oressu</q>n<q>d
+        ante Hafnis</q>. Endvidere lidt senere bagsidepåskrift: <q>Inter civitates et regem
+        Ericum</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Biskop Johann af Ratzeburgs sekret i rødt voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Biskop Johann af Ratzeburgs notarialinstrument med notarpåtegning af Johannes
+      Stormer de Dasle</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Urkunden, Externa, Danica</collection>
+                        <idno>nr. 194</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Biskop Johann af Ratzeburgs store segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Biskop Johann af Ratzeburgs notarialinstrument med notarpåtegning af Johannes
+      Stormer de Dasle. Tilbageleveret fra Sovjetunionen i 1990</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. CLVIII (tryk efter B)</bibl>
+               <bibl>Hanserec. VIII, nr. 427, p. 283-285 (tryk efter B)</bibl>
+               <bibl>Hanserec. VIII, nr. 428, p. 285-286 (udtog efter B)</bibl>
+               <bibl>Rep. nr. 6358</bibl>
+               <bibl>Hvitfeld IV 436, fol. 740 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-05-07"
+                  notBefore="1428-05-07"
+                  notAfter="1428-05-07"
+                  cert="high">1428. 7. maj</date>
+            <placeName cert="high">Schlutup</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Johann (v. Trempe), biskop i Ratzeburg, udsteder vidnesbyrd om hansestædernes mundtlige
+      protest mod kong Erik 7. af Pommerns og den romerske konges anklager.</ab>
+            <ab>Hansestædernes protest indeholder følgende punkter:</ab>
+            <ab>1) Hansestæderne protesterer mod den anklage, at de skulle føre krig mod kong Erik for at
+      skade den hellige kristenhed eller for at styrke kætterne. Hansestæderne fører krig mod kong
+      Erik for at beskytte sig selv, deres privilegier og deres ejendom.</ab>
+            <ab>2) Hansestæderne protesterer over det forhold, at både de og kong Erik har bedt højmesteren
+      for Den Tyske Orden om at være dem mægtig til ret.</ab>
+            <ab>3) Hansestæderne protesterer mod den anklage, at de ikke skulle have adlydt pavens og den
+      romerske konges ordre om at deltage i krigen mod kætterne i Bøhmen. Derimod har hansestæderne
+      sendt både riddere, væbnere og andre bevæbnede mænd afsted under det første felttog mod
+      kætterne, som var arrangeret af kardinal Placentinus.</ab>
+            <ab>4) Endvidere deltog hansestæderne i det andet felttog mod kætterne, som var ledet af
+      kardinalen af Ursin. Dette foregik på flere måder. Dels indsamlede de penge og gods, som de
+      anbragte i kister i hansestædernes kirker. Dels sendte hansestæderne bevæbnede mænd afsted til
+      krigen mod kætterne.</ab>
+            <ab>5) Endvidere deltager hansestæderne i det tredje felttog mod kætterne, som er ledet af
+      kardinalen af England. De er således i færd med at indsamle penge og gods fra enhver borger i
+      hansestæderne, således som det er blevet bestemt af kardinalen af England og af
+      kurfyrsterne.</ab>
+            <ab>6) Hansestæderne protesterer mod den anklage, at de skulle have taget den romerske konges
+      udsending, Michael Honiger, til fange. Derimod har de hele tiden hjulpet ham og sørget for, at
+      han kunne rejse sikkert til Danmark.</ab>
+            <ab>7) Hansestæderne protesterer mod den anklage, at de skulle have været ulydige mod den
+      romerske konge i forbindelse med de forhandlinger mellem kong Erik og hansestæderne, som blev
+      ledet af den romerske konges udsending, Nicolaus Stok. Således har de hele tiden forsøgt at
+      opfylde alle de krav, som Nicolaus Stok stillede til dem med hensyn til det fredsmøde, som
+      skulle holdes i Falsterbo mellem kong Erik og hansestæderne, men de var desværre forhindrede i
+      at komme til mødet grundet vind og vejr.</ab>
+            <ab>På baggrund af de nævnte punkter håber hansestæderne, at den romerske konge ikke vil pålægge
+      dem nye byrder. Såfremt den romerske konge imidlertid ikke skulle stille sig tilfreds hermed,
+      således at det kommer til en retssag mellem parterne, vil hansestæderne gøre indsigelse mod
+      det forhold, at den romerske konge optræder som dommer i denne sag, idet han ikke kan være
+      lovlig dommer, eftersom han er beslægtet med kong Erik. Såfremt den romerske konge imidlertid
+      ville lade en anden fyrste være dommer i denne sag, vil hansestæderne betingelsesløst
+      underkaste sig denne dommer.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-25" who="#pbh">Filen etableret af #pbh 2014-07-25. </change>
+         <change when="2019-04-05" who="#smb">1. korrektur af #smb 2019-04-05. </change>
+         <change when="2019-08-30" who="#smb">2. korrektur af #smb 2019-08-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wij <persName>Johan</persName> van Godes vnde des peuestliken stoles gnaden bischop to
+        <placeName>Razeborch</placeName> bekennen vnde betugen openbare myt dessem breue vor
+      allesweme dat vor vns geweset sint vppe den dach der gifte desses breues de erliken
+      radessendeboden der stede hir na genomet alse van <placeName>Lubeke</placeName> her
+        <persName>Cord Brekewold</persName> borgermeyster van <placeName>Hamborch</placeName> her
+        <persName>Hinrik Køting</persName> radman van <placeName>dem Stralessunde</placeName> her
+        <persName>Johan Burow</persName> borgermeister vnde van <placeName>der Wysmer</placeName>
+      her <persName>E{uv}erd Grote Ek</persName> borgermeyster vnde hebben vor vns van erer stede
+      redere vnde menheid wegen vnde vort van aller anderen stede redere vnde menheide wegen de myt
+      en in veyde vnde krighe sitten tegen den irluchtegesten uorsten unde heren hern
+        <persName>Erike</persName> koning tho <placeName>Denemarken</placeName> etcetera ghedan
+      schriftlike protestacien vortuchnisse vnde vorwordinge in aller wijse alse hir na gescreuen
+      steyt ♦</p>
+            <p n="a#2" xml:space="preserve">Wij borgermeistere vnde radmanne der stad <placeName>Lubeke</placeName> vnde wij
+        <persName>Hinrik Koting</persName> der stad <placeName>Hamborch</placeName>
+      <persName>Johan Burowe</persName> der stad <placeName>Stralessund</placeName> vnde
+        <persName>Euerd Grote Ek</persName> der stad <placeName>Wismer</placeName> sendeboden nu tor
+      tijd bynnen <placeName>Lubeke</placeName> to daghe uorgaddert protesteren vortugen vnde
+      vorworden vor allesweme openbar van vnser vnser redere vnde menheide wegen vnde der ghenne de
+      myt vns in dem krighe tegen den irluchtigesten fursten vnde heren hern
+        <persName>Erike</persName> koninghe to <placeName>Denemarken</placeName> etcetera begrepen
+      sint dat wij sodanighen krych tegen den suluen hern koning van
+        <placeName>Denemarken</placeName> vnde sine rijke nicht envoren to schaden der hilligen
+      cristenheit edder to sterkinghe ieniger kettere alse lichte to vorstande geuen is vnsem
+      aldergnedigesten heren hern Sigismundo romischem koninghe etcetera men den suluen kriich vore
+      wij van nod wegene to beschermende vnse vnde des gemenen copmannes priuilegia vnde gudere de
+      de ergenante here koning van <placeName>Denemarken</placeName> mennichuoldichliken
+      angeuerdiget gehindert vnde gebroken heft in vortijden vnde noch alle dage anuerdiget hindert
+      unde breckt sint deme male wij nener beklaginge de wij dar ouer to uelen tiden brefliken vnde
+      mit muntliker bodeschopp an heren fursten landen vnde luden gedan hebben neten mochten noch en
+      mogen ♦</p>
+            <p n="a#3" xml:space="preserve">Wij protesteren vortugen vnde vorworden ok dat in vortijden do de erbenomede here koning
+        <persName>Erik</persName> sine sendeboden by den heren homeyster dudesches ordens gesant
+      hadde in <placeName>Prutzen</placeName> de ene vor dem suluen heren homeistere vorboden dat he
+      syner to rechte scholde mechtich wesen wij vns ok vorboden de vorscreuene here homeyster eder
+      wene he dar tho schickede scholden vnser to fruntschop vnde to rechte mechtich sin vmme wes de
+      here koning <persName>Erik</persName> to vns vnde wij vnde de vnsen wedder vmme to eme vnde
+      den sinen to seggende hadden na clage vnd antworde van beiden sijden so verne wij by gnaden
+      rechte vnde vnsen priuilegien blyven mochten welkes doch int leste an dem erbenomeden heren
+      koning <persName>Erike</persName> gebreck wart vnde nicht an vns ♦</p>
+            <p n="a#4" xml:space="preserve">Vnde des to merer warheit so protestere vortuge vnde vorworde wij ok vortan dat wij vnd vnse
+      menheide wente her to aller vnderwisinghe vnde geboden vnses hilgen vaders des paweses siner
+      legaten cardinale / vnde des ergenanten vnses alder gnedigesten heren des romischen koninghes
+      siner vnd des hilgen romischen rijkes koruorsten tegen de bemeschen ketters gherne vulgedan
+      hebben / alse in der ersten reyse de de hochwerdige here cardinale
+        <persName>Placentinus</persName> do legate jeghen de ergenanten kettere van des ergenanten
+      vnses hilligen vaders des paweses wegen anrichtede do wij up grote sware kost riddere vnd
+      knechte vnd andere manne van wapen hen upschickeden ♦</p>
+            <p n="a#5" xml:space="preserve">Vnde vortmer to der anderen reyse de de hochwerdige here cardinale van
+        <placeName>Vrsin</placeName> ok legate in dem iare negest vorgangen anherdede do wij dar to
+      sammelen leten gud vnde gelt van alsweme in kisten de wij in vnser stede kerken vnder dem
+      teken des hilgen crutzes setteden vnde dar van hantrekinge deden velen mannen van wapen de vte
+      vnsen steden in de suluen anderen reyse wedder de ergenanten kettere toghen . ♦</p>
+            <p n="a#6" xml:space="preserve">Vnde ok vortmer nv to der drudden reyse de de hochwerdige here cardinale van
+        <placeName>Engelant</placeName> nu to der tijd legat vnde de ergenanten heren koruorsten
+      anherdet dar to wij sammelen hebben laten vnde sammelen van eynem iewelken menschen vnser
+      stede geld vnde gud na anwisinghe der suluen heren cardinalis van
+        <placeName>Engelant</placeName> vnde koruorsten der dar up to
+        <placeName>Franckfort</placeName> vorramet is . ♦</p>
+            <p n="a#7" xml:space="preserve">Aldus hebbe wij vorvullet vnde willen to aller tijd gerne vorvullen vnde genoch don myt liue
+      vnde myt ghude allen redelken vpsaten vnd anslagen de men tegen de ergenanten kettere vnde to
+      vordernisse der kristenheit stichten vnde vpleggen mach / ♦</p>
+            <p n="a#8" xml:space="preserve">Ok so protestere wij vortugen vnde vorworden dat wij den vorsichtighen <persName>Michel
+        Honnygher</persName> des ergenanten vnses aldergnedigesten heren romischen koninges camerer
+      nicht vorspeet edder gevangen hebben laten also dem suluen vnsem aldergnedigesten heren
+      romischen koninge vorbracht is ♦</p>
+            <p n="a#9" xml:space="preserve">Sunder wij hebben dem suluen <persName>Michele</persName> alle ere geboden so id temelik was
+      vnde ene van der losen gheselschop de ene vp der zee ane vnser witschop edder heet
+      angeuerdiget hadden gehulpen vnde vortan myt schepen geschicket temelken in
+        <placeName>Denemarkes</placeName> sijden dar he gerne wesen wolde also wij dat myt der warde
+      altomale wol bewisen moghen / ♦</p>
+            <p n="a#10" xml:space="preserve">Ok so protestere wij vortugen vnd vorworden vortan dat wij sodanen geboden also de ergenante
+      vnse aldergnedigeste here romische koning vns vormyddelst schriften de de erlike meyster
+      Nicolaus Stok siner gnade sendebode den vnsen in <placeName>dem Orssunde</placeName> nuwelken
+      antwerdede gedan heft gerne horsam wesen willen vnde alse he vns dar inne bot dat wii den
+      krich tegen den ergenanten heren koning van <placeName>Denemarken</placeName> vnde syne rijke
+      / to sterkende de cristenheit tegen <app><lem>de</lem><rdg>indsat over linjen i A</rdg></app> ergenanten kettere van stundan vnde gantz aff don edder eynen rumen vrede vnde bestand
+      maken scholden etcetera also <app><lem>wy</lem><rdg>indsat over linjen i A</rdg></app> gerne don willen so verne alse de sulue here koning van
+        <placeName>Denemarken</placeName> myt vns vormyddelst siner vulmechtigen bodeschop tho eyner
+      legeliken stede komen edder ok vns vnde den vnsen nuchaftige geleyde breue in
+        <placeName>Denemarkes</placeName> sijden tokomende gheuen wille to degedingende vnde enes to
+      werdende sodaner stucke vnd articule alse in frede edder in frijste vnd veligen dagen nod sin
+      / dar wij vns ok van stundan berede to offeren vnde vorbeden alse wij er gedan hebben / in
+      iegenwardicheit des vorgenomeden meyster Nicolai Stok sendeboden also he suluen vnder sinem
+      ingesegel tughet in sinem openen breue vns van eme gegeuen an welkem breue he myt vns eynes
+      fruntliken dages myt dem vorbenomeden heren koninge van <placeName>Denemarken</placeName> ouer
+      zee to <placeName>Valsterboden</placeName> to holdende eyns geworden was welken dach vns doch
+      wedder vnde wynt witliken vnde n{ee}n arch wille benam ♦</p>
+            <p n="a#11" xml:space="preserve">Hijr en bouen hopen wij an vnsen aldergnedigesten heren romischen koning vorgenant dat he vns
+      mit gheneme richte eder penen beswaren enwille / ♦</p>
+            <p n="a#12" xml:space="preserve">Weret aver dat he dar embouen vns edder de vnsen in recht then wolde des wij nicht enhopen so
+      protestere wij vortugen vnde vorworden dat syner koningliker gnade persona in dessen stucken
+      vnde artikelen tegen den ergenanten heren koning van <placeName>Denemarken</placeName> n{ee}n
+      gedelik richter wesen en mach vmme naher mageschop willen de tusschen en beyden angeboren is
+      wente se suster vnde broder kindere sint / ♦</p>
+            <p n="a#13" xml:space="preserve">Jodoch wan vns vnde den vnsen io rechtganges nod werden scholde in dessen vorscreuen stukken
+      vnde uns denne van deme suluen vnseme aldergnedigesten heren romischen koninge eyn ander
+      furste edder here to eneme gedelken richtere gesat worde dar wille wij gerne recht vornemen
+      vnde geuen / vmme alsodane stucke vnde articule alse hir vor vtgedrucket sint vnde vmme andere
+      de wij vnde de vnsen tegen den ergenanten heren koning van Denemarken vnd de sinen edder he
+      teghen vns to seggende hebben in beyden sijden / ♦</p>
+            <p n="a#14" xml:space="preserve">Desse vortuchnisse protestacien vnde vorwordinge don wij vor jw erwerdigen in Gode vadere
+      vnde heren heren Johanne bischoppe to <placeName>Razeborch</placeName> vnde willen den gerne
+      volgen vnde se in allen eren stucken vnde artikelen war maken so vele alse vns des nod is vnde
+      to behoret vnde anders nicht / ♦</p>
+            <p n="a#15" xml:space="preserve">Vnde des to tuchnisse bidde wij hir vpp juwe bezegelden breue mid vnderschrift des notarij
+      etcetera also dat wonlik is na gheschreuenen gemenen rechte / ♦</p>
+            <p n="a#16" xml:space="preserve">Vnde dat desse vorschreuene protestacie vortuchnisse vnde vorwordinge vor vns bischoppe
+      Johanne vorbenomed gesch{ee}n sint in aller wise alse hir vorscreuen steyt des hebbe wij tho
+      tuchnisse vmme bede willen der erbenomeden radessendeboden vnse <app><lem>secrete</lem><rdg>på rasur, A</rdg></app> hengen heten vor dessen breff de vndergescreuen is vormyddelst dem openbaren notario
+      hir na genomet vnde gegeuen an dem dorpe to <placeName>Slukupp</placeName> na Godes bort
+      dusent verhundert iar vnde darna an deme achtvndtwintigesten iare des vrydages vor dem sondage
+      alsemen in der hillighen kerken singhet vocem jocunditatis in iegenwerdicheit der erliken lude
+        <persName>Hinrikes van Bolsem</persName>
+      <persName>Diderikes van dem Stenhus</persName>
+      <persName>Hynrikes Callendorp</persName> vnde <persName>Johannes Wulff</persName> de sunderges
+      / to dessen vorscreuenen dingen to tughen eschet vnde gebeden sint ♦</p>
+            <p n="a#17" xml:space="preserve">(<ex>Notarmærke</ex>) Et ego Johannes Stormer de Dasle clericus Maguntinensis diocesis publicus
+      imperiali auctoritate notarius quia premissis omnibus et singulis dum sic ut prescribitur
+      coram dicto reverendo in Christo patre et domino domino Johanne episcopo Razeburgensi de
+      predicto anno domini millessimo quadringentesimo vicesimo octavo indictione sexta . die
+      veneris ante dominicam qua cantatur vocem jocunditatis que fuit septima mensis maii hora nona
+      etcetera vel quasi pontificatus sanctissimi in Christo patris et domini nostri domini Martini
+      divina providentia pape quinti anno undecimo in dicta villa Slukk{vv}pp Lubicensis diocesis in
+      presencia testium prenominatorum Hildesemensis Verdensis et Razeburgensis diocesium fierent et
+      agerentur unacum ipsis testibus presens fui eaque sic fieri vidi et audivi ideoque ejusdem
+      domini episcopi literas in vulgari per me conscriptas exinde confeci signoque et nomine meis
+      solitis et consvetis unacum appensione secreti ipsius reverendi patris et domini episcopi
+      signavi in omnium et singulorum fidem et testimonium premissorum rogatus specialiter et ad hoc
+      per prefatos proconsules et consules nominibus quibus supra requisitus et constat michi de
+      rasura illius dictionis 'Secrete' quam approbo non vicio set errore factam ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

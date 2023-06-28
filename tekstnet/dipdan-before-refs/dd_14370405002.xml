@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">232</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14370405002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3254</idno>
+                        <msName>tidl. Ribe Stifts Breve 206</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10 (plica: 0.9)</height>
+                                    <width>27.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Samme skriver som Dipl.Dan. 1437. 5. april, nr. 14370405001</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden: <q>littera scotacionis Jngiærdh
+        H<ex>e</ex>rme<ex>n</ex>sdatt<ex>er</ex> super iiii<hi rend="sup">or</hi> curiis in parochia
+        Garsleff situatis</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Ingerd Hermansdatters segl (Pennow) i mørkt voks i perg.rem, <ref>AS L xlvi 3</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Anders (Jensen) Skeels segl i mørkt voks i perg.rem, <ref>DGS 873</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Jens Mikkelsens segl i mørkt voks i perg.rem, <ref>DGS 922</ref>
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Jens Tagesens segl i mørkt voks i perg.rem, <ref>DGS 923</ref>
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Niels (Andersen) Stangebergs segl i mørkt voks i perg.rem, <ref>AS L xv 22</ref>
+                              </ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Tyge Dams bomærke i mørkt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Peder Løvrings bomærke i mørkt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Oluf Jensens bomærke i mørkt voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Brevet er registreret i København. Rigsarkivet. Gejstlige Arkiver. Ribe kapitel
+      1553. Registratur over Ribe kapitels arkiv f. 161r, trykt ÆA V 367 nr. K. 2 eller K.
+      4</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6874</bibl>
+               <bibl>Vejledende arkivreg. XVIII 277 nr. 313</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-04-05"
+                  notBefore="1437-04-05"
+                  notAfter="1437-04-05"
+                  cert="high">1437. 5. april</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ingerd Hermansdatter (Pennow), enke efter Niels Vognsen (Jul af Sønderjylland), sælger for
+      150 mark lybsk til Ribe domkapitel sit gods i Gårslev sogn: Gravengård og Urnegård (nu
+      forsvundne gårde i Gårslev sogn) samt to gårde og et møllested i Mørkholt.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-21" who="#pbh">Filen etableret af #pbh 2013-11-21. </change>
+         <change when="2020-05-22" who="#jon">1. korrektur af #jon 2020-05-22. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men th<ex>et</ex>tæ b<ex>re</ex>ff see ell<ex>e</ex>r høre lesæ helsær jegh
+        <persName>Jngierdh H<ex>er</ex>mensdatt<ex>er</ex></persName>
+      <persName>Nissæ Woghenss<ex>øns</ex></persName> effth<ex>e</ex>rleuer ewi<ex>n</ex>nelik
+      m<ex>eth</ex> gudh ♦</p>
+            <p n="a#2" xml:space="preserve">Och ku<ex>n</ex>gør at jegh weth<ex>e</ex>rki<ex>n</ex>ner megh m<ex>eth</ex> th<ex>et</ex>tæ
+      myt apen b<ex>re</ex>ff athawæ wppbor<ex>et</ex> aff <app><lem>heth<ex>e</ex>rlik</lem><rdg wit="#A"><q>eth<ex>e</ex>rlik</q>, A</rdg></app> men ærchideghen och capittel i <placeName>Ripæ</placeName> tree ℳ
+      oc too hwndryt lub<ex>iske</ex> ℳ j soo dane mwnt som j
+        <placeName>Lybeke</placeName> oc <placeName>Hamb<ex>ur</ex>gh</placeName> ær<ex>e</ex>
+      ge<ex>n</ex>ghæ och gewæ ♦</p>
+            <p n="a#3" xml:space="preserve">For hwilkæ som pe<ex>n</ex>ni<ex>n</ex>ghe jegh sæl oc skødh<ex>e</ex>r wpplath<ex>e</ex>r oc
+      anthwordher for<hi rend="sup">de</hi> capittel <placeName>Ripæ</placeName> myt gotz
+      liggend<ex>es</ex> j <placeName>Garsløff soghen</placeName> so som ær
+        <placeName>Graue<ex>n</ex>ghard</placeName> som <persName>Pæth<ex>e</ex>r
+        Bagh<ex>e</ex>r</persName> vtj boer oc gywer vj ørthy korn til skyld ♦</p>
+            <p n="a#4" xml:space="preserve">Item en gardh j <placeName>Myrkeholt</placeName> som <persName>Jessæ
+        Niels<ex>øn</ex></persName> gywer iiij ørthic korn aff ♦</p>
+            <p n="a#5" xml:space="preserve">Item <placeName>Vrnæ gardh</placeName> som <persName>Pæth<ex>e</ex>r
+        Je<ex>n</ex>ss<ex>øn</ex></persName> jboer og gywer v ørthyc korn oc en mølle stedh
+      m<ex>eth</ex> dam oc damst<ex>et</ex> ♦</p>
+            <p n="a#6" xml:space="preserve">Item en gardh som jboer <persName>Pæth<ex>e</ex>r Rødh</persName> och gywer j ør<ex>e</ex>
+      korn til skyld m<ex>eth</ex> alle och hwert særdels for<hi rend="sup">de</hi> gotz tillydels
+      som ær agher oc ængh skoff fiskwandh fægangh woth oc thyrt ænth<ex>et</ex> wntagh<ex>et</ex>
+      til ewi<ex>n</ex>nelik eyghels ♦</p>
+            <p n="a#7" xml:space="preserve">Item tilbindh<ex>e</ex>r jegh megh oc mynæ arui<ex>n</ex>ghe atfrij oc frelssæ oc tilatstaa
+        for<hi rend="sup">de</hi> capittel j <placeName>Ripæ</placeName> alle oc hwersærdels for<hi rend="sup">de</hi> gotz oc theres tilhørels for hw<ex>er</ex> ma<ex>n</ex>ss atthalæ
+      ♦</p>
+            <p n="a#8" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis honorabilium virorum dominorum
+        <persName>Andree Skeel</persName> canonicus <placeName>Ripensis</placeName>
+      <persName>Johannis Michaelis</persName> rectoris ecclesie <placeName>Wadeel</placeName>
+      <persName>Johannis Taghes<ex>øn</ex></persName> in <placeName>Jerlløff</placeName> sacerdotum
+        <persName>Nicholai Stangeb<ex>er</ex>gh</persName>
+      <persName>Thuconis Dam</persName> armigerorum <persName>Petri Loffri<ex>n</ex>gh</persName>
+      advocati et <persName>Olavi Johannis</persName> proconsulis in <placeName>Wædeel</placeName>
+      presentibus est appensum ♦</p>
+            <p n="a#9" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cdxxx vii<hi rend="sup">o</hi> feria sexta pasche
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

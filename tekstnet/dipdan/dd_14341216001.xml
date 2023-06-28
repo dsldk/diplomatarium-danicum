@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">336</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14341216001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Danzig</settlement>
+                        <repository>Stadtarchiv zu Danzig (nu Gdansk, Archiwum Panstwowe w Gdansku)</repository>
+                        <collection>Schbl. XXVIII</collection>
+                        <idno>Nr. 38</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Adresse: <q>Den ersamen unde wolwiisen mannen, heren borgermeysteren unde
+        radmannen der stad Dantzik, unsen besundern leven vrunden, detur</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rester af rådet i Lübecks brevlukkende segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. II:1, nr. 387, p. 302-303</bibl>
+               <bibl>Reg. Dan. nr. *5075</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-12-16"
+                  notBefore="1434-12-16"
+                  notAfter="1434-12-16"
+                  cert="high">1434. 16. december</date>
+            <placeName cert="low">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Lübeck meddeler rådet i Danzig, at man på mødet med kong Erik 7. af Pommern i
+      Haderslev er nået til enighed om forskellige artikler, der forhåbentlig vil kunne afslutte
+      krigen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-31" who="#pbh">Filen etableret af #pbh 2013-10-31. </change>
+         <change when="2020-02-24" who="#smb">1. korrektur af #smb 2020-02-24. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Unsen vrundliken grut unde wes wii gudes vormogen tovoren.</p>
+            <p n="a#2" xml:space="preserve">Ersamen heren, besundern leven vrunde.</p>
+            <p n="a#3" xml:space="preserve">Alse gi wol irvaren hebben, wo de gemeynen stede der Dudeschen henze, latest bynnen unser
+      stad to dage vorgaddert, de ersamen hern <persName>Johann Qwaste</persName>, radmanne to
+        <placeName>Stetin</placeName>, unde hern <persName>Nicolaum Wrecht</persName>, juwen
+      prothonotarium, vogheden to zegelende to dem irluchtigesten vorsten, dem hern koninge to
+        <placeName>Denemarken</placeName> mit werven, alse juwen ersamheiden de erbenante her
+        <persName>Nicolaus</persName> wol berichted heft, de sik in den werven doghentsameliken,
+      clokliken unde wol bewiisede, unde under anderen werven ward vorramed eyn dach, den wy stede,
+      de mit dem vorscreven heren koninge an kryghe geweset hebben, holden scholden mit dessulven
+      heren koninges rade etcetera.</p>
+            <p n="a#4" xml:space="preserve">Unde also, leven vrunde, hebbe wii den dach geholden mit des heren koninges rade to
+        <placeName>Hadersleve</placeName> in <placeName>Jutlande</placeName>, unde darsulves hebbe
+      wii van beyden siiden articule vorramed, vormiddest den, alse wii hopen, id to eyneme saligen
+      ende des kryghes, dede geweset is twisschen dem vorscrevenen hern koninge, dem hertogen to
+        <placeName>Sleszwiic</placeName> unde uns steden, komen moge, unde uppe alsodane articule
+      hebben de here koningh, de here hertoge to <placeName>Sleszwiic</placeName>, greve to
+        <placeName>Holsten</placeName>, unde wii stede unse berad bette to <app><lem>meydaghe erst tokomende</lem><rdg>dvs. 1. maj 1435</rdg></app> unde denne wedder tosamende to wesende to <placeName>Hadersleve</placeName> umme alle
+      stucke, eft id God vorzeen hebbe, to ende to beslutende.</p>
+            <p n="a#5" xml:space="preserve">Also dat wii anders nicht en weten, de copman en moghe mit der hulpe Godes wol zeker zeghelen
+      dor <placeName>den Sund</placeName>.</p>
+            <p n="a#6" xml:space="preserve">Unde uppe dem vorscrevenen dage schal men id ok in vrundschop edder rechte sliten umme
+      vredebrake, dede geschen is synt der tiid, dat de vrede gemaked ward to
+        <placeName>Horsnisse</placeName>, unde worde uns, leven vrunde, hirvan anders wes to
+      wetende, des en wolde wii jw sunder bodescop nicht laten.</p>
+            <p n="a#7" xml:space="preserve">Unde dat wy den vorscrevenen dach an vorgerorder wiise geholden hebben, moge gi, efte id jw
+      dunke nutte sin, unseme gnedighen heren deme homeystere by dem erbenomeden hern
+        <persName>Nicolao</persName> to kennende geven.</p>
+            <p n="a#8" xml:space="preserve">Ok moge gi id, efte id jw behaghe, juwen unde unsen vrunden, den anderen steden des landes to
+        <placeName>Prutzen</placeName> witlik don.</p>
+            <p n="a#9" xml:space="preserve">Siit Gode bevolen.</p>
+            <p n="a#10" xml:space="preserve">Screven under unseme secrete, des donredages na sunte Lucien dage der werden junevrowen unde
+      mertelerschen, anno etcetera 34.</p>
+            <p n="a#11" xml:space="preserve">Consules Lubicenses.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1346</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14340912005</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>RA 0101</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>25 svenske segl i brunt voks i perg.remme, herunder to beskadigede segl, desuden seks perg.remme uden segl</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsarchiv Königsberg (nu Berlin, Geheimes Staatsarchiv Preußischer Kulturbesitz)</repository>
+                        <collection>XX. HA, Ordensbriefarchiv (OBA)</collection>
+                        <idno>nr. 06880</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Samtidig afskrift</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. 2:I, nr. 389, p. 304-306 (med forkert datering til "5. september 1434")</bibl>
+               <bibl>Reg. Dan. nr. *5067 (med forkert datering til "5. september 1434" efter Hanserec.
+      l.l.)</bibl>
+               <bibl>Svenska Medeltidsregester, nr. 141, p. 43</bibl>
+               <bibl>SDHK-nr. 22234 (vedr. A)</bibl>
+               <bibl>SDHK-nr. 22227 (vedr. Aa)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-09-12"
+                  notBefore="1434-09-12"
+                  notAfter="1434-09-12"
+                  cert="high">1434. 12. september</date>
+            <placeName cert="high">Stockholm</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Det svenske rigsråd meddeler højmesteren for Den Tyske Orden og de preussiske stæder,
+      hvorfor det har opsagt kong Erik 7. af Pommern huldskab og troskab.</ab>
+            <ab>For det første har kong Erik svoret, at han ville elske Gud og den hellige kirke samt styrke
+      kirken, men han har fordærvet kirken og kristendommen, idet han har ophøjet uhæderlige
+      banditter - ja, allerhelst folk som foragtede Gud - til biskopper. Endvidere har han givet
+      disse banditter biskoppens gejstlige magt, som om han var en pave, hvilket svarer til kætteri.
+      Endvidere har han fordrevet lovformeligt valgte og af paven stadfæstede biskopper, og således
+      undlader han at give agt på Gud, kirken, paven og konciliet.</ab>
+            <ab>For det andet har kong Erik svoret, at han ville elske alle retfærdige, og at han ville
+      bekæmpe al uret i de tre riger, men han har kun elsket og ophøjet dem, som kunne gøre mest
+      uret. Dette gælder særligt for kongens fogeder og embedsmænd, som har brændt, dræbt og røvet
+      uskyldige folk.</ab>
+            <ab>For det tredje har kong Erik svoret, at han ville være forpligtet til at hjælpe sine tre
+      riger, men han har kastet riget ned i evig trældom, eftersom han har givet riget bort til
+      hertug Bugislav af Pommern og andre, som fører griffen i deres våben. På den måde har han
+      frarøvet riget dets frie kongevalg, og han har med vilje og foragt forarmet riget. Han har
+      også forarmet det svenske ridderskab med unyttige krige i udlandet, og han har ikke givet de
+      svenske riddere kompensation for deres skader. Endvidere har han bebyrdet de svenske byer med
+      uretmæssige forbud og uretmæssig told.</ab>
+            <ab>For det fjerde har kong Erik svoret, at han ville lede sit rige med indenlandske og indfødte
+      mænd og altså ikke med udenlandske mænd, men han har overdraget de fleste og bedste
+      landområder og slotte til udenlandske mænd, selvom han ikke bevise på nogen som helst måde, at
+      svenske mænd skulle have været ulydige eller utro mod ham.</ab>
+            <ab>Endelig beder det svenske rigsråd om understøttelse imod kong Erik. Til gengæld for
+      højmesterens hjælp vil det svenske rigsråd afskaffe al uretmæssig beskatning og told.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-25" who="#pbh">Filen etableret af #pbh 2013-10-25. </change>
+         <change when="2020-02-11" who="#smb">1. korrektur af #smb 2020-02-11. </change>
+         <change when="2020-05-11" who="#smb">2. korrektur af #smb 2020-05-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wor juwe erwerdige geistlicheyt werdige here \ here meyster van
+        <placeName>Prussen</placeName> vnde bisschope kumpthure voyde bedegere vnde amptlude juwes
+      ordens prelate riddere vnde knechte ♦</p>
+            <p n="a#2" xml:space="preserve">Vortmer vor juwe ersamen heren borgermeysteren ratluden vnde borgeren juwer stede
+        <placeName>Gdanczik</placeName>
+      <placeName>Thornn</placeName>
+      <placeName>Colmen</placeName>
+      <placeName>Konyngesberg</placeName>
+      <placeName>Elwing</placeName> vnde allen den gemeynen juwer stede vnde landes inwoneren vnde
+      vor allen swemen de dessen breff seen efte horen lesen / kundege wy vnde clagen wy rykes raad
+      van <placeName>Sweden</placeName> bisschope prelaten riddere vnde knechte vnde alle gemeyne
+      vnses rykes jnwonere dat grote vnrecht vordruckinge vnde vordarff dat vnseme ryke to
+        <placeName>Sweden</placeName> vnde allen des rikes jnwonere kerke vnde clostere riddere vnde
+      knechte hoge vnde syde so vordarfliken vnde harde is ouer ghaen van konyng
+        <persName>Erike</persName> in synen dagen welk wy lange geleden hebben alle tyt gehopet dat
+      id beter sulde werden vnde hebben ene vake vormanet ene gebeden vnde eme geraden dat he scolde
+      dat rike vnde vns holden by vnseme beschreuenen rechte vnde priuilegien welk vns nicht en
+      mochte weddervaren sunder he heft geoket vndragelike beswaringe vnde vnrecht alze he vnde syne
+      voyde hebben vp gelecht den he to gestediget heft grotliken dar to <app><lem>vorvnrechtende</lem><rdg><q>vorvnrechtene</q>, A</rdg></app> hir vnse land vnde stede rike vnde arme vnde he <app><lem>suluen</lem><rdg><q>sulue</q>, A</rdg></app> mit synen henden geslagen vnde ouel gehandelt heft de armen do se vor eme clageden dat
+      vnrecht vnde vnhorlike ouerwalt alse en geschen is an ereme lyue vnde gude vnvorbraken jegen
+      vnse recht dat wy menichuoldichliken konen bewysen vnde openbare witlik is lande vnde volke
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Vortmer so heft he nicht geholden desse syne konynglike eyde de he vnseme rike swor do desses
+      rikes man ene koren vnde <app><lem>annameden</lem><rdg><q>annamede</q>, A</rdg></app> to eyneme konynge vnde heren ♦</p>
+            <p n="a#4" xml:space="preserve"><supplied>1</supplied> Jn dat erste heft he gesworen dat he scal leef hebben Got vnde de
+      hillige kerke vnde ere recht sterken etcetera hir en jegen heft he vorderuet de kerke vnde
+      cristendom in dem dat he settede drauels manne vnwerdige vnde vngelerde to bisschope vnde
+      leuest de de dar nicht en <app><lem>achteden</lem><rdg><q>achtede</q>, A</rdg></app> Got edder rechtuerdicheyt vnde beuelet eme geistlike bisschopes macht efte he were en
+      pawes welk todrecht tor ketterye vnde he vordrift recht gekorne bischope bestediget van dem
+      pawese he en achtet nicht Got efte der kerken baan nicht den pawes nicht dat concilium edder
+      ere bod sunder des pawes bod vnde concilii vntphet he smeliken settet se in de torne vnde
+      hechtet se des geliken deyt he electis prelaten presteren vnde monyken vnde dat is bannys
+      d{ae}t ♦</p>
+            <p n="a#5" xml:space="preserve"><supplied>2</supplied> Jn dat andere heft he gesworen dat he scal alle rechtuerdicheit leef
+      hebben sterken vnde bewaren vnde alle vnrecht nedder drucken in syneme rike etcetera hir
+      entjegen heft he mest beleuet vort getogen vnde vp gehoget de dar mest k{uv}nden vnrecht don
+      vnde he en wolde nicht richten ouer en wen dat vor eme geclaget wart besunderlike hebben syne
+      voyde vnde amptlude gebrant vnde vntly{uv}et vp gehenget in den rok vnde geschindet de <app><lem>vnschuldigen</lem><rdg><q>vnschuldige</q>, A</rdg></app> wedder vnse recht ♦</p>
+            <p n="a#6" xml:space="preserve"><supplied>3</supplied> Jn dat drudde heft he gesworen dat he scolde wesen syneme rike truwe
+      vnde holt etcetera hir entjegen heft he bebunden dat rike to ewichliken egendom jn deme dat he
+      dat rike dat eme was beuolen in truwen vnde he was darto gekoren vnde nicht mit erff rechte
+      edder mit jenigem anderen rechte is togekomen dat heft he mid slatloue deme rike vntrucket
+      vnde heft id gelaten bebreuen vnde besegelen hertege <persName>Bogiislaffe</persName> van
+        <placeName>Pomern</placeName> efte anderen de den gryf voren vnde so heft he benomen vnseme
+      rike syn vreye konynges kore dat dat rike doch van oldinges vreye heft gehat alze des rykes
+      recht vt wyset vnde he heft mit willen vnde voracht vorarmet dat ryke vppe dat id yo in
+      dreldom blyuen scholde de riddershop heft he vorarmet mit langeliken vnde vnnutten orleyge
+      buten landes thegen vnse recht vnde heft en nicht vp gerichtet eren schaden ere venckenisse
+      nicht geloset vnde en nicht gelonet alze eme borde na vtwysinge vnses swedesches rechtes unde
+      de swedesche manne de dar gevangen worden in syneme orleyge vnde kryge to Denemarken leet he
+      blyuen vngelozet in eren vencknisse vnde bouen dat wen de gevangene hebben to eme gevaren vmme
+      ere lozinge so heft he gestedet de synen van <placeName>Dennemarken</placeName> de hebben se
+      gerouet vnde geschindet alze viande de stede heft he vorarmet mit vnredeliken tollen vnde
+      vnbeschedeliken vorboden vnde andere nyge gevundene besweringhe vnde dar ouer heft he gestedet
+      dat syne egene borgers synt berouet vnde beschindet van den synen van
+        <placeName>Denemarken</placeName> de meynecheyt heft he vorarmet mit vnplichtliken schatten
+      vnde egendom liker wys alze gekofte edder vorwunnene drelle vnde heft alle des rykes vngeld
+      priuilegia vnde breue gevoret van hir vte deme ryken vtlendes vnde heft nergene vnseme ryke
+      dat gewent to n{ue}tte sunder to vordarfliken schaden ♦</p>
+            <p n="a#7" xml:space="preserve"><supplied>4</supplied> Jn dat verde heft he gesworen dat he scal syne rike sturen vnde raden
+      med <app><lem>jnlendesschen</lem><rdg><q>jnlendessche</q>, A</rdg></app> vnde jngeboren mannen etcetera hir entjegen heft he alle de beste land vnde stede
+      geantwerdet vtlendeschen mannen jo doch dat he nicht en kan bewysen in jenigerhande wyse mit
+      eren edder <damage>mit</damage> rechte dat swedesche manne em in jenigerhande mate hebben
+      vnhorich edder vntruwe gewest doch heft he se vnwerdich geholden vorsmaet vnde vngunstig en
+      gewest vnde heft en gelouet quad vnde nyn gud vnde vele anders vntelikes vnrechtes dar lange
+      were aff to schriuende heft he gedaen vnde gestedet to donde vnde darvmme dat he Gode vnde
+      alle rechtuerdicheyt so aff gegan is der hilligen kerken vnhorsam geworden vnseme ryke vntruwe
+      vngunstig vnde schedelike vnde heft nicht geholden syne eyde vnde de truwe alze he vns vnde
+      vnseme rike gelouet heft vnde gesworen vnde heft vake gewest van vns vnderwiset vnde vormanet
+      tor beteringe desser vorgescreuen ouertredinge des he nicht geachtet en heft so bringet he vns
+      darto mit noet dat wy scolen eme manscop vp seggen vns vnde vnses rykes meynicheytes jnwonere
+      vorantworden vnde weren vor desse vorgescreuene ouerwalt vnrecht vnde noet alze vnse eyde de
+      wy deme ryke gesworen hebben vns darto twingen so hope wy dat nen gut edder wyze man mach vns
+      dit keren to vorwytelse dat wy sulk vorgescreuen vnrecht vnde des rykes vordarff nicht lenger
+      lyden en willen edder mogen vnde meynen wysliken vnde vorware dat wy eme nicht lenger
+      plichtich syn truwe vnde horsam to holden na deme male dat he aff gebroken heft vnde wy nicht
+      vnde he heft nicht geholden den gelouen vnde holtscop den he vns gesworen heft darmede aff
+      segge wy syn orleyge vnde krygen tegen de stede vnde alle andere vnde willen nymande van synen
+      vianden anders den vruntscop ere vnde doged vnde bidden alle bedderue lude hoge vnde syde dat
+      gy deme rechte by stendich syt vorantwerdet vns hir ane <app><lem>to</lem><rdg><q>tor</q>, A</rdg></app> recht mit Godes hulpe dat vnrecht scal men vinden bestandende vp eme vnde nicht vp vns
+      ♦</p>
+            <p n="a#8" xml:space="preserve">Vortmer alle de jenen de vnse ryke to <placeName>Sweden</placeName> soken willen mit erer
+      kopenschat in <app><lem>leue</lem><rdg><q>lyue</q>, A</rdg></app> vnde in vruntschop de scholen Gode vnde vns wesen <app><lem>willekomen</lem><rdg><q>willenkome</q>, A</rdg></app> vnde alle vnredelike tolle vnde swarheit de to dessen tyden in vnseme ryke to
+        <placeName>Sweden</placeName> gewest hebben wille wy na redelichet aff leggen ♦</p>
+            <p n="a#9" xml:space="preserve">Vortmer so bidde wy jv leuen vrunde hore gy dat vns nod vnde drang an geyt dot wol vnde weset
+      vns behulplik to weren vnde to beschermen vnse recht vnde weret aff vnse vnrecht dat wil wy
+      gerne mit jv vorschulden vnde des geliken don wor gy vns k{uv}nde in sulken saken behouen vnde
+      to seggen ♦</p>
+            <p n="a#10" xml:space="preserve">To tuchnisse vnde bekantnisse dat wy dessen breff vt gescreuen vnde vtgesant hebben <app><lem>so</lem><rdg>tilføjet over linjen i A</rdg></app> hebbe wy <persName>Knwt</persName> tho <placeName>Lynk{oe}pinge</placeName>
+      <persName>Thomas</persName> to <placeName>Strengenesz</placeName> van Godes genade bisschope
+        <persName>Nicolaus Gotzstafson</persName>
+      <persName>Gotschalk Bentsson</persName>
+      <persName>Niclis Erengislesson</persName>
+      <persName>Bent Stenson</persName>
+      <persName>Boo Steenson</persName> riddere <persName>Karl Ormsson</persName>
+      <persName>Niclis Jenisson</persName>
+      <persName>Karl Gedde</persName>
+      <persName>Mattis Ødgislesson</persName>
+      <persName>Joan Karlsson</persName> van wapen van vnser aller wegen vnse jngesegele gehenget
+      benedene an dessen bref de gescreuen is to deme <placeName>Stocholme</placeName> na Godes bord
+      verteynhundert jn deme vere vnde dortichsten jare des negesten sondages na Vnser leuen Vrouwen
+      dage erer gebort ♦</p>
+            <p n="a#11" xml:space="preserve"><app><lem>Wj</lem><rdg><q>Wj - breff</q>, dette afsnit står skrevet på en vedhæftet seddel</rdg></app>
+      <persName>Sigge</persName> van Godes gnaden biscop to <placeName>Skare</placeName>
+      <persName>G{oe}tzstaff Algotzsson</persName>
+      <persName>Broder Swensson</persName> riddere <persName>Knwt Joansson</persName>
+      <persName>Benct Vdesson</persName> here Snakenborg <persName>Karl Knwtzsson</persName>
+      <persName>Boo Knwtzsson</persName>
+      <persName>Magnus Green</persName>
+      <persName>Niclis Stensson</persName>
+      <persName>Arffuid Swan</persName>
+      <persName>Gregers Magnusson</persName>
+      <persName>Mattis {Oe}dgislasson</persName>
+      <persName>Benct Gotzskalksson</persName> . <persName>Benct Jenisson</persName>
+      <persName>Knwt Karlsson</persName>
+      <persName>Magnus Bentzsson</persName>
+      <persName>Engelbrecht Engelbrechtczsson</persName>
+      <persName>Erik Puke</persName>
+      <persName>Joan Karlsson</persName>
+      <persName>Erengissel Niclisson</persName>
+      <persName>Karl Gedde</persName>
+      <persName>Birger Trulle</persName> . <persName>Olaff Ragwaldzson</persName> . <persName>Otte
+        Olasson</persName>
+      <persName>G{oe}tzstaff Laurenczsson</persName> van wapen rikes raadz jn
+        <placeName>Sweden</placeName> stan vulkomeliken to alle de article vnde claage . de dar
+      vtgedrucket stan jn desseme tho geuesteden breue vnde dat selue clagen alle andere riddere
+      vnde knechte vnde des gemeynen rikes volk vnde darvmme dat wj do nicht dar by weeren do de
+      breff gescreuen wart so vulborde wij nw dat mid witscap vnde willen hengen latende vnse
+      jngesegelle vor desse scrift to besegelt an dessen breff ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">122</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14140415005</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2460-c, tidl. Bølling Herred 2</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>14.8 (plica: 1.1)</height>
+                                    <width>24.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>Transscriptum duarum litterarum quarum prima littera regia placiti justitie quod Petrus 
+                Nielss</q>øn <q>scotavit domino Palnoni Jenss</q>øn <q>militi curiam in Wæst</q>er<q>bølugh eodem modo et condicione quibus ipsam per modum
+                        forwedh habuit a Kanuto Jenss</q>øn <q>♦ Item littera regia placiti justitie cum qua curia in Wæst</q>er<q>bølugh adjudicatur Petro Nielss</q>øn<q> qui ipsam per modum et condicionem
+                        forweth requisivit de Kanuto Jenss</q>øn</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Klaus Grubendals segl i lyst voks i perg.
+                                rem, <ref>DAS 1138</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Moleke van der Lankens segl i lyst voks i perg.
+                                rem, <ref>AS E viii 7</ref></ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Gert van der Lankens segl i lyst voks i perg.
+                                rem, <ref>AS C xxxix 1</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5384</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-04-15"
+                  notBefore="1414-04-15"
+                  notAfter="1414-04-15"
+                  cert="high">1414. 15. april</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Klaus Grubendal, ridder, og Moleke og Gert van der Lanken, væbnere, udsteder vidisse på to breve. I det første fra 6. juli 1357 erklærer kong 
+        Valdemar 4. Atterdag, at Peder Nielsen på rettertinget har skødet en gård i Vester-Bølle til marsken hr. Palle Jensen. I det andet fra 27. januar 1354 giver kong Valdemar 4. Atterdag
+        Peder Nielsen låsebrev på samme gård i Vester-Bølle.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wy <persName>Clawes Grupe<ex>n</ex>dale ridde<ex>re</ex>
+               </persName>
+               <persName>Møleke</persName> oc <persName>Gerith va<ex>n</ex> der Lanke<ex>n</ex>
+                                awap<ex>n</ex>
+               </persName> gøre wit<ex>er</ex>lich oc ope<ex>n</ex>bar alle the so<ex>m</ex> the<ex>n</ex>ne
+                        sc<ex>ri</ex>fft høre ell<ex>e</ex>r see oss æft<ex>er</ex> war h<ex>er</ex>r<ex>es</ex> føthelses aar
+                        thusendefirehu<ex>n</ex>dræthe vpa th<ex>et</ex> fiorte<ex>n</ex>dæ aar vppæ quasimodogeniti søndagh
+                        hafue seet oc skoet oc hørt grangiffleghe fore oss owerlæs<ex>n</ex>æ opnæ p<ex>er</ex>mæ<ex>n</ex>s
+                        b<ex>re</ex>ff w raghedhæ oc w skrapedhæ oc j alle made wfalskedhe oc 
+                        wmisthenkelighe me<ex>th</ex> sa<ex>n</ex>ne oc wisse hænge<ex>n</ex>de jncigle incigledæ hele oc
+                        holdne oc allsti<ex>n</ex>gs wælbewaredhe huilke b<ex>re</ex>ff lude ordh fra<ex>n</ex> ordh æft<ex>er</ex> thy
+                        h<ex>er</ex> æft<ex>er</ex> følgh<ex>e</ex>r 
+                        ♦</p>
+            <p n="a#2">
+               <app>
+                  <lem>Valdemarus dei gratia Danorum Sclavorumque rex (etc. = DD 3. rk. V nr. 49)</lem>
+                  <rdg resp="#mh">Det vidimerede brev er markeret med en lodret streg
+                                i venstre margin</rdg>
+               </app> ♦</p>
+            <p n="a#3">
+               <app>
+                  <lem>Valdemarus dei gratia Danorum Sclavorumque rex (etc. = DD 3. rk. IV nr. 96)</lem>
+                  <rdg resp="#mh">Det vidimerede brev er markeret med en lodret streg
+                                                i venstre margin</rdg>
+               </app> ♦</p>
+            <p n="a#4"> Ok til me<ex>re</ex>
+                        wit<ex>er</ex>licheet h<ex>er</ex> vm hafue wy ladet ware jncigle
+                                        he<ex>n</ex>g<ex>es</ex> ffor the<ex>n</ex>ne sc<ex>ri</ex>fft  ♦</p>
+            <p n="a#5"> Datum anno et die
+                        supradictis. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

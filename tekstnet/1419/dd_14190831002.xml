@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">390</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14190831002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>0201</collection>
+                        <idno>A 10, tidl. A 25</idno>
+                        <msName>Reg. eccl. Aboens. (Svartboken), fol. 41v</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Vm gingerdh erffuedh skiutzferdh . gestning skath enløpes
+        me<ex>n</ex> skat</q> og derefter understreget: <q>Hic prohibentur gingærdh // ærffuedh
+        skiutzferdh oc gestni<ex>n</ex>g</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Svenskt Diplomatarium nr. 2678 (= SDHK nr. 19343)</bibl>
+               <bibl>Diplomatarium Fennicum nr. 1602</bibl>
+               <bibl>Registrum Ecclesiae Aboensis eller Åbo Domkyrkas Svartbok, s. 288-89</bibl>
+               <bibl>Finlands medeltidsurkunder II, s. 241</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Aa. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-08-31"
+                  notBefore="1419-08-31"
+                  notAfter="1419-08-31"
+                  cert="high">1419. 31. august</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik den 7. af Pommern træffer en række bestemmelser om sager, som almuen i Åbos len i
+      Finland har ladet rejse for ham: arbejdspligt, gengærd (naturalieydelser), befordring, gæsteri, beskatning af
+      ugifte mænd m.m.</ab>
+            <ab>Da kongen var i Finland, blev han enig med finnerne om, at deres arbejdspligt skal være på
+      det samme niveau som nu og ikke mere.</ab>
+            <ab>Kong Erik, hans hustru Filippa og deres repræsentanter skal tilbydes gengærd, befordring og
+      gæsteri, når de er i Finland.</ab>
+            <ab>Ugifte mænd skal efter evne hjælpe bønderne med at betale skat. Det præcise beløb skal
+      fastsættes af fire pålidelige mænd udpeget af almuen og fogeden.</ab>
+            <ab>Almuens værdier og penge skal ikke tvinges af dem. Betalingens størrelse skal altid
+      fastsættes af fire pålidelige mænd.</ab>
+            <ab>Folk, der bor langt fra slottet og derfor er forhindrede i at betale den skat, som de er
+      forpligtede til at betale om vinteren, må betale den om sommeren i stedet.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-23" who="#jon">Filen etableret af #jon 2018-04-23. </change>
+         <change when="2018-04-23" who="#jon">1. korrektur af #jon 2018-04-23. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Vy <persName>Eric</persName> m<ex>eth</ex> gudz nadh <placeName>Danmarks</placeName>
+      <placeName>Swerg<ex>es</ex></placeName>
+      <placeName>Norg<ex>es</ex></placeName>
+      <placeName>Vend<ex>es</ex></placeName> ok <placeName>Gothes</placeName> konu<ex>n</ex>g ok
+      h<ex>er</ex>tug j <placeName>Pomaren</placeName> gør<ex>e</ex> vit<ex>er</ex>licth
+      m<ex>eth</ex> th<ex>etta</ex> war øpnæ breff at nog<ex>re</ex> aff var<ex>e</ex> almoge aff
+        <placeName>Aboes lææn</placeName> var<ex>e</ex> h<ex>er</ex> nær oss i
+        <placeName>Kopenhampn</placeName> vm nogr<ex>e</ex> ærende som thøm ar<ex>e</ex>rande ære
+      hwilke h<ex>er</ex> ept<ex>er</ex> scriffna sta ♦</p>
+            <p n="a#2" xml:space="preserve">Først vm ther<ex>es</ex> ærwethe tha swar<ex>e</ex> vy th<ex>e</ex>m th<ex>e</ex>r swa til oc
+      vile th<ex>et</ex> swa haffua at ept<ex>er</ex> th<ex>et</ex> vi var<ex>e</ex> swa ouer enæ
+      meth th<ex>e</ex>m vm the<ex>re</ex> ærwede tha vi th<ex>e</ex>r sælffuæ i
+        <placeName>Finland</placeName> var<ex>e</ex> swa mikit skulu the nu gøræ oc ey mer
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Item vili vy at th<ex>e</ex>m skal jngen gingiært skywtzfærdh ell<ex>e</ex>r oc
+      gestni<ex>n</ex>g til legges vtan th<ex>et</ex> swa var<ex>e</ex> at vi ell<ex>e</ex>r war
+      kær<ex>e</ex> husfruue <persName>Philippa</persName> var<ex>e</ex> th<ex>e</ex>r sielffuæ i
+      landh<ex>i</ex>t ell<ex>e</ex>r var<ex>e</ex> sind<ex>er</ex>like breff th<ex>e</ex>r
+      for<ex>e</ex> ginga mæn nar war foghet rid<ex>er</ex> ept<ex>er</ex> war scat at han ta swa
+      ridhe oc gør<ex>e</ex> at th<ex>et</ex> kan vara almogen vtan twnga ok skadæ ♦</p>
+            <p n="a#4" xml:space="preserve">Item vili vi at alle enlopes mæn skulu helpa bønd<ex>er</ex>na i scattin hwar ept<ex>er</ex>
+      sin makt ept<ex>er</ex> fyræ dandama<ex>n</ex>na saghn som almoghen oc foogothen th<ex>e</ex>r
+      til sæthya swa mik<ex>i</ex>t at thet koma th<ex>e</ex>m ei til skadæ ell<ex>e</ex>r tungæ
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Item vilj vi at war almog<ex>es</ex> verdhør<ex>e</ex> ey trenges th<ex>e</ex>m aff
+      ell<ex>e</ex>r vpbæras aff th<ex>e</ex>m vta<ex>n</ex> th<ex>et</ex> sætes vpa et skælliket
+      wærdh millan fogoden oc almogen ept<ex>er</ex> fira dandemæn sakn vpa bade syd<ex>er</ex>
+      ♦</p>
+            <p n="a#6" xml:space="preserve">Item vilj vi at for<hi rend="sup">de</hi> vor almoge som for lan<supplied>g</supplied>t
+      ær<ex>e</ex> besitiande fran slottit oc ey mektoghe ær<ex>e</ex> for<ex>e</ex> laglicæ
+      hind<ex>er</ex> oc vanforls skul . at the oc ept<ex>er</ex> fira godame<ex>n</ex>ne saghn <app><lem>som</lem><rdg wit="#A">Herefter slettet <q>til</q>, A</rdg></app> th<ex>e</ex>r til ne<ex>m</ex>pnæs vpa bade syd<ex>er</ex> yta oc vtgiffua vm vinteren
+      then skat som the plictoge ær<ex>e</ex> at gør<ex>e</ex> vm somaren swa ath th<ex>et</ex> ey
+      ræknes th<ex>e</ex>m til tungæ ell<ex>e</ex>r nog<ex>re</ex> skadæ tha swa at the
+      th<ex>e</ex>rfor<ex>e</ex> enkta <app><lem>jnnehalde</lem><rdg wit="#A">Herefter slettet <q>th<ex>e</ex>m</q>, A</rdg></app> th<ex>et</ex> som th<ex>e</ex>m bor gør<ex>e</ex> wte<ex>n</ex> gøret rettelikæ wt
+      ept<ex>er</ex> thy som for<ex>e</ex> ær sacth ♦</p>
+            <p n="a#7" xml:space="preserve">Item forbywde <supplied>vi</supplied> alle varæ fogedhe oc æmbitzmen æ hwo the helsth
+      ær<ex>e</ex> h<ex>er</ex> amoth ath gøra swa lenge th<ex>e</ex>nne for<hi rend="sup">de</hi>
+      vor almoge th<ex>ett</ex>a aff wor nathe haffuer ♦</p>
+            <p n="a#8" xml:space="preserve">Scriptum <placeName>Køpendhampn</placeName> anno Domini mcd decimo nono feria quinta proxima
+      post festum decollacionis beati Johannis Baptiste nostro sub secreto tergo presencium impresso
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

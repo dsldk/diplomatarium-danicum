@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">231</num>, paragraphs: <num
+               n="paragraphs">6</num>. Translation, number of words: <num n="words">11</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14171221001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>empty</collection>
+                        <idno>Additamenta 51 folio f. 29r-v</idno>
+                        <msName>Æbelholtbogen</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift i rød: <q>Litere super Wthlærdhe</q> og herunder i sort,
+                              udstreget med rødt: <q>Wthlærdhe</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. 3323*</bibl>
+               <bibl>Æbelholt Klosters Brevbog 192 nr. 35</bibl>
+               <bibl>SRD VI 177</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-12-21" notBefore="1417-12-21" notAfter="1417-12-21" cert="high">1417.
+               21. december</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Bosse Paris, væbner i Helsinge, erkender at have solgt sit gods i Udlejre til Bent
+               Esbernsen, abbed i Æbelholt kloster, og at have modtaget fuld betaling herfor, 60
+               mark sølv, og han forpligter sig selv og sine arvinger til at godtgøre abbeden eller hans
+               efterfølgere med tilsvarende gods, hvis godset i Udlejre bliver ham lovligt
+               afvundet.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
+         <change when="2019-06-17" who="#pbh">1. korrektur af #pbh 2019-06-17. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus . <persName>Buzæ Pariis</persName> armiger habitans in <placeName>Hælsinghe</placeName> salutem in
+      omnium salvatore ♦ </p>
+            <p n="a#2" xml:space="preserve">Notum sit universis tam posteris quam modernis me reverendo in
+      Christo patri ac religioso domino . domino <persName>Benedicto Esberni</persName> abbati in <placeName>Ebbleholt</placeName> omnia bona
+      mea in <placeName>Wthlærdhe</placeName> sita videlicet duas curias de xxiii solidis terrarum dantes quatuor
+      p<ex>un</ex>d cum sex modiis anone pro annua pensione cum omnibus et singulis eorundem bonorum
+      attinenciis videlicet agris / pratis / silvis / pascuis / piscaturis / mobilibus et
+      immobilibus humidis et siccis nullis demptis quibuscumque nominibus censeantur michi jure
+      hereditario advoluta pro sexaginta marcis argenti in prompta pecunia et nullo alio valore
+      prout bene contentor integraliter vendidisse et ad manus suas libere assignasse perpetuo jure
+      possidenda . ♦ </p>
+            <p n="a#3" xml:space="preserve">Unde obligo me et meos heredes ad scotandum appropriandum et
+      disbrigandum dicto patri et domino Benedicto Esberni suisque successoribus omnia et singula
+      predicta bona ab impeticione qualicumque ♦ </p>
+            <p n="a#4" xml:space="preserve">Insuper si predicta bona ipsi patri et
+      domino vel suis successoribus secundum leges terre evicta fuerint extunc ego et mei heredes ad
+      refundendum sibi vel suis successoribus bona equivalencia simus asstricti per presentes
+      ♦ </p>
+            <p n="a#5" xml:space="preserve">In cujus vendicionis testimonium et cautelam firmiorem . tenorepresencium
+      sigillum meum una . cum sigillis honorabilium dominorum necnon virorum discretorum videlicet
+      <persName>Jacobi</persName> de <placeName>Snolstorp</placeName> . <persName>Nicolai Hemingi</persName> de <placeName>Veyby</placeName> . presbiterorum . <persName>Hemingi Pariis</persName> fratris mei
+      dilecti . <persName>Hermanni van Ørtzs</persName> et <persName>Olavi Gunnari</persName> armigerorum duxi appendendum ♦
+      </p>
+            <p n="a#6" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi>xvii<hi rend="sup">o</hi> ipso die sancti Thome apostoli gloriosi ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve"> perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

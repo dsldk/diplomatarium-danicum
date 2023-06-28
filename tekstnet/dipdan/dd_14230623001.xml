@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">250</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14230623001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2804; tidl. Københavns gårde og huse 17</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>15 (plica: 2)</height>
+                                    <width>24</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Aksel Andersen Mules segl af mørkt voks i ufarvet i
+        perg.rem, AS D xix 1
+                              </ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Jens (eller Niels, jf. seglomskriften <q>s nicholai iacobi</q>) Jakobsen
+        Slagters bomærke af mørkt voks i ufarvet i perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Bomærke af mørkt voks i ufarvet i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Afskrift fra 18. årh</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Ved afskriften angives det, at <q>4 sigilla adsunt NB NB</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Renskrift af Aa fra 18. årh</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Ved renskriften er tilføjet <q>Quatuor sigilla adsunt</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Afskrift fra 18. årh. ved Thorkelin</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Afskriften angives at være <q>Collatum cum autographo</q>. Om seglene oplyses
+      det, at <q>Sigilla 2. 4. 5 appendent. Sigilla 1. et 3. desunt</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6028</bibl>
+               <bibl>Reg. *4656</bibl>
+               <bibl>Københavns Dipl. II 46-47 nr. 30</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-06-23"
+                  notBefore="1423-06-23"
+                  notAfter="1423-06-23"
+                  cert="high">1423. 23. juni</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab> Peder Jacobsen Låle, præst, pantsætter Asser Jensen, præst, fire boder i Skt. Peders sogn
+      mellem Asser Jensens gård og St. Peders kirkegård for seks mark sølv i gangbare hvide
+      sterlinger. Indtil pantet bliver indfriet skal Asser Jensen hvert år oppebære alle indtægter
+      af de nævnte boder uden modregning i gældens hovedstol. Asser Jensens udgifter til eventuelle
+      forbedringer og udbedringer af boderne skal efter fire opmænds vurdering lægges til gældens
+      hovedstol og sammen med denne indfries af Peder Jakobsen Låle.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-27" who="#pbh">Filen etableret af #pbh 2014-05-27. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-06-01" who="#alk">2. korrektur af #alk 2017-06-01. </change>
+         <change when="2017-06-20" who="#alk">3. korrektur af #alk 2017-06-20. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Petrus Jacobi dictus Lale</persName> presbyter
+      salutem in domino . ♦</p>
+            <p n="a#2">Noverint universi presentes et futuri quod recognosco me honorabili viro domino
+        <persName>Ascero Johannis</persName> presbytero latori presencium in sex marcis argenti in
+      albis sterlingis bone monete et dative racione veri mutui inter nos amicabiliter facti teneri
+      et esse veraciter obligatum . ♦</p>
+            <p n="a#3">Pro quibus sex marcis argenti dicto domino Ascero . quatuor meas tabernas cum fundis earum et
+      pertinenciis suis quibuscumque nullis penitus exceptis . michi jure hereditario post mortem
+      dilectorum meorum parentum patris scilicet et matris <persName>Jacobi Lale</persName> et
+        <persName>Trydæ</persName> pie memorie legaliter advolutas et in <placeName>parochia sancti
+        Petri Haffnis</placeName> inter curiam ejusdem domini Asceri Johannis et
+        <placeName>cimiterium ecclesie sancti Petri</placeName> contigue situatas inpignero per
+      presentes sub condicionibus infrascriptis ♦</p>
+            <p n="a#4">Primo quod idem dominus Ascerus fructus et redditus de dictis quatuor tabernis annuatim
+      sublevet donec per me vel heredes meos ab ipso vel heredibus suis pro dictis sex marcis
+      argenti in bonis et albis sterlingis ut premissum est totaliter redimantur in sortem
+      principalis summe minime computandis ♦</p>
+            <p n="a#5">Item quicquid prefatus dominus Ascerus Johannis in ipsis tabernis renovari seu meliorari
+      fecerit . in sepibus . tecturis . sive parietibus exceptis aliis edificiis in dictarum
+      tabernarum fundis amplius construendis hoc secundum arbitrium quatuor virorum discretorum
+      utrimque sumendorum realius estimetur ac totum una cum capitali summa ipsi prescripto domino
+      Ascero vel suis heredibus per me vel heredes meos sine omni scrupulo dampno vel interesse
+      integraliter persolvatur ♦</p>
+            <p n="a#6">In cujus rei testimonium sigillum meum una cum sigillis virorum nobilium videlicet domini
+        <persName>Absolonis Andree</persName> de <placeName>Fwglesank</placeName> militis
+        <persName>Ivani dicti Foss</persName> justitiarii regni Dacie <persName>Johannis Jacobi
+        carnificis</persName> . swageri mei et <persName>Petri Nicolai</persName>
+               <placeName>villanorum Haffnensium</placeName> presentibus est appensum ♦</p>
+            <p n="a#7">Datum <placeName>Haffnis</placeName> anno domini m<hi rend="sup">o</hi> cdxxiii<hi rend="sup">o</hi> in vigilia sancti Johannis baptiste ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

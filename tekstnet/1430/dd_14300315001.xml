@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">144</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14300315001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Ny kronologisk række</collection>
+                        <idno>3071-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.4 (plica: 1.2)</height>
+                                    <width>25.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Peder Lykke Billes segl, DGS. nr. 26
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium 27: XIV A 27</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6438</bibl>
+               <bibl>Tommarps urkundsbok II p. 147 nr. 90</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1430-03-15"
+                  notBefore="1430-03-15"
+                  notAfter="1430-03-15"
+                  cert="high">1430. 15. marts</date>
+            <placeName cert="high">Tommarp</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder (Lykke (Bille)), ærkebiskop af Lund, kvitterer Åge Nielsen (Sparre),
+                høvedsmand på Hammershus og over Bornholm, for regnskabet over alle
+                indtægter og udgifter (vedrørende lenet) oppebåret og afholdt til dags
+                dato.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-19" who="#pbh">Filen etableret af #pbh 2013-09-19. </change>
+         <change when="2018-12-20" who="#pz">1. korrektur af #pz 2018-12-20. </change>
+         <change when="2019-01-04" who="#mh">2. korrektur af #mh 2019-01-04. </change>
+         <change when="2019-02-26" who="#pz">3. korrektur af #pz 2019-02-26. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Nos <persName>Petrus dei gracia archiepiscopus Lundensis</persName> Sveciæ primas
+                        et apostolice sedis legatus constare volumus universis quod lator presentis
+                                <persName>Ako Niels<ex>søn</ex></persName> dilectus et fidelis
+                        advocatus noster in castro nostro <placeName>Hamarense</placeName> et terra
+                                <placeName>Borndeholm</placeName> de omnibus et singulis nomine et
+                        ex parte ecclesie nostre Lundensis atque nostra quocunque modo per ipsum
+                        levatis et erogatis a primo die quo sibi prefatum castrum et terram
+                        commisimus usque in hodiernum diem plenum computum et sufficiens ratiocinium
+                        nobis fecerat fideliter ita quod ipsum de circumspecto fidelitatis servicio
+                        merito commendamus et regraciamur eindem ♦</p>
+            <p n="a#2" xml:space="preserve">Eapropter ejusdem Akonem
+                        Niels<ex>søn</ex> et omnes suos heredes officiales et servitores quos ipse
+                        usque in presentem diem quittos habere voluerit de premissis levatis et
+                        erogatis omnino quittamus per presentes ad computacionis onus seu ratiocinii
+                        iteracionem nobis vel nostris successoribus faciendis nullatenus repetendos
+                        ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium secretum nostrum presentibus est
+                        appensum♦</p>
+            <p n="a#4" xml:space="preserve">Datum in monasterio <placeName>Tomarp</placeName> anno
+                        domini millesimo quadringentesimo tricesimo feria quarta proxima post
+                        dominicam reminiscere. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

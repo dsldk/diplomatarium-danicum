@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">2067</num>, paragraphs: <num n="paragraphs">29</num>. Translation, number of words: <num n="words">2478</num>, paragraphs: <num n="paragraphs">30</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14171112002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="a">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stralsund</settlement>
+                        <repository>Stadtarchiv zu Stralsund</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Tre sammensyede papirblade</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. I:6 nr. 504 p. 487-491</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Hanserec. l. l., hvorfra også de arkivalske oplysninger stammer. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-11-12"
+                  notBefore="1417-11-12"
+                  notAfter="1417-11-12"
+                  cert="high">1417. 12. november</date>
+            <placeName cert="low">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Udkast til forliget mellem kong Erik 7. af Pommern på den ene side og hertug Heinrich 4.
+      af Slesvig og grev Heinrich 3. af Holsten på den anden side om våbenhvile indtil den 29.
+      september 1418 og om et retsmøde den 24. juni i Slesvig eller Gottorp.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2017-05-05" who="#smb">1. korrektur af #smb 2017-05-05. </change>
+         <change when="2017-10-24" who="#smb">2. korrektur af #smb 2017-10-24. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">In Godes namen, amen.</p>
+            <p n="a#2">Dit sint de degedinge, de gedeghedinget sint twisschen deme dorchluchtigensten fursten unde
+      hocheboren heren, <persName>heren Erike, der riike Denemarken, Sweden, Norwegen, der Wende
+        unde der Gothen koninge, unde hertogen to Pomeren</persName>, sinen nakomelingen der rike
+      unde allen inwoneren unde alle den jennen, de mit em to der veide gekomen unde in deme krige
+      begrepen sint, uppe de ene side, unde deme hocheboren <persName>heren Hinrike</persName>, de
+      sik nomet <persName>hertoghe to Sleszwiik</persName>, sinen broderen unde <persName>heren
+        Hinrike, greven to Holsten</persName>, eren erven, landen unde inwoneren unde alle den
+      gennen, de mit en to der veide gekomen unde in deme kriighe begrepen sint, uppe de anderen
+      siiden, in alreleye wiis alse <app>
+                  <lem>hir na</lem>
+                  <rdg>
+                     <q>vor</q>, aa</rdg>
+               </app> screven steit:</p>
+            <p n="a#3">So dat dat schal en vrede wesen tusschen dessen vorscreven heren, <app>
+                  <lem>riiken</lem>
+                  <rdg>
+                     <q>riike</q>, aa</rdg>
+               </app>, landen unde alle den eren unde alle den, de mit en to desser veide unde in desseme
+      krighe begrepen unde gekomen sint, van nu an bet to sunte Michaelis daghe negest komende; so
+      dat erer een deme anderen schal rechtes pleghen nu uppe sůnte Johannes baptisten daghe
+      negest komende to middeme somere umme <placeName>dat hertichdom to Sleswiik</placeName> unde
+      wor umme unde umme wes erer en deme anderen to secgende hefft an beiden siden; unde scholen
+      eres rechtes bliven een jewelik bii twen <app>
+                  <lem>bornen</lem>
+                  <rdg>
+                     <q>borne</q>, aa</rdg>
+               </app> heren unde bii ver <app>
+                  <lem>steden</lem>
+                  <rdg>
+                     <q>staden</q>, aa</rdg>
+               </app> ute der hense.</p>
+            <p n="a#4">Ok scholen de vorbenomeden heren, alse <app>
+                  <lem>de</lem>
+                  <rdg>
+                     <q>de</q>, mangler i aa</rdg>
+               </app> here koningk unde de Holstenheren, an beiden siden nu benomen en jewelik sos borne
+      heren; unde ute de sos benomeden heren schal een jewelik van dessen vorbenomeden heren twe
+      utbringen, de eres rechtes mechtich wesen scholen; unde ute den hensesteden mach en jewelik
+      desser vorscreven heren nemen, weme he vormach; doch so welkem heren van dessen vorscreven sos
+      heren desse ergenomeden here konig unde de <app>
+                  <lem>Holstenheren</lem>
+                  <rdg>
+                     <q>Holstenhere</q>, aa</rdg>
+               </app> bringen unde ute den hensesteden vor schedeslude, de scholen erer to rechte mechtich
+      wesen an beiden siden.</p>
+            <p n="a#5">Unde desse ergenomede here koning unde de Holstenheren scholen desse vorscreven schedeslude,
+      heren unde stede, bringen unde hebben, een jewelik de sinen, alse de here koning de sinen to
+      Sleswiik, unde de Holstenheren <app>
+                  <lem>de</lem>
+                  <rdg>
+                     <q>den</q>, aa</rdg>
+               </app> eren to Gottorpe, uppe den vorscreven dach sunte Johannis baptisten to middeme sommere
+      negest komende.</p>
+            <p n="a#6">Unde desse vorscreven schedeslude, de de ergenomede here koningh unde de Holstenheren denne
+      dar bringende werden an beiden siden, de scholen des een werden, uppe welker stede van dessen
+      vorbenomeden tw{ee}n se over deme rechten sitten willen, des scholen se macht hebben; doch so
+      schal de stede yo wesen to <placeName>Sleswyk</placeName> edder to
+        <placeName>Gottorpe</placeName> edder dar entwisschen.</p>
+            <p n="a#7">Weret ok, dat desse ergenomeden schedeslude des rechtes nicht een dreghen konden, so scholen
+      se doch yo up ener jewelken siden rechtes een werden unde van sik secgen unde bescreven geven,
+      wes en recht duncket na ansprake unde antworde unde na erer beider bewisinge umme
+        <placeName>dat hertichdom to Sleszwiik</placeName> unde umme wes en vorghebracht ys. Unde
+      desse ergenomede here koning unde de Holstenheren scholen des bliven alse vor overlude bii
+      hertoghe Bernde van Brunswyk unde by hertoche Bukslave van Pomeren, unde mit welker heren,
+      desser vorscreven heren koninges unde der Holstenheren, schedeslude desse ergenomeden overlude
+      endrachtliken mede tovallen, de deme rechten negest gesecht hebben, dar schal dat bii bliven;
+      dat scholen de ergenomeden here koning unde de Holstenheren so holden.</p>
+            <p n="a#8">Were ok, dat desse vorscreven overlude des ok nicht en dregen konden in deme rechten, so
+      scholen desse vorscreven schedeslude van beiden siden eens overmans <app>
+                  <lem>eyns</lem>
+                  <rdg>
+                     <q>eeyns</q>, aa</rdg>
+               </app> werden over de twe vorscreven; mit welkeme de tovallet, de rechtest gesecht helft, dat
+      schal recht bliven, unde dat scholen de vorbenomede here koning unde de Holstenheren so
+      holden.</p>
+            <p n="a#9">Ok scholen desse vorbenomeden here koning unde Holstenheren desse vorscreven twe overlude,
+      alse <persName>den hertoghen van Brunswiik</persName> unde <persName>den hertoghen van
+        Pomeren</persName>, yo uppe desse vorscreven tiid unde stede hebben unde bringen, dar de
+      schedeslude wesen scholen, alse vor screven is; doch so dat en jewelik van dessen vorscreven
+      heren de syne bringe, alse de here koning <persName>den hertoghen to Pomeren</persName> unde
+      de Holstenheren <persName>den hertoghen van Brunswiik</persName>, alse verne, alse de heren,
+      de vor overlude gekoren sint, leven to der vorscreven tyt.</p>
+            <p n="a#10">Were ok, dat van dessen vorbenomeden heren, de vor overlude gekoret sin, welk vorstorve, dat
+      God vorbede, edder unmechtich were, dat bewiislik were, bynnen desser vorscreven tiid, so
+      schal de here, deme sin overman to kort wert, yo enen anderen overman wedder kesen, hebben
+      unde bringen uppe de vorscreven tiit unde stede mit der sulven macht, de de ander scholde
+      gehat hebben, alse vor screven is.</p>
+            <p n="a#11">Dessen vorbenomeden vrede unde rechtghank scholen desse ergenomeden heren koning unde
+      Holstenheren in beiden siden vorwissen, in allerleie wiis, alse hir na gescreven steit:</p>
+            <p n="a#12">So dat desse ergenomede here koningh schal den vorscreven heren van Holsten setten ute den
+      s{oe}s heren, de hir na benomet werden, enen heren, unde dar to veftich riddere unde knechte,
+      de genomet werden ud <placeName>Denemarken</placeName>, unde dar to ver stede, de de
+      Holstenheren benomende werden darsulves; unde ute de veftich ridderen unde knechten, de
+      ghenomet werden ud <placeName>Denemarken</placeName>, dar schal de ergenomede here koningh yo
+      vertich udsetten den Holstenheren. Des geliik scholen de ergenomeden Holstenheren deme
+      vorscreven heren koninge wedder setten ute den sos heren, de hir na benomet worden, enen
+      heren; unde dar to veftich riddere unde knechte ud <placeName>deme lande to
+        Holsten</placeName>, de de here koning wedder nomende wert, unde veer stede ute
+        <placeName>deme sulven lande to Holsten</placeName>; unde ute den sulven 50 ridderen unde
+      knechten, de genomet werden, dar scholen de ergenomeden Holstenheren yo vertich udsetten dem <app>
+                  <lem>vorgenomeden</lem>
+                  <rdg>
+                     <q>vargenomeden</q>, aa</rdg>
+               </app> heren koninge. Unde desse vorscreven lovere in beiden siden scholen dessen vrede unde
+      rechtghank bebreven unde beloven, so dat men dat irkennen kan, dat id vast wert to holdende <app>
+                  <lem>in beiden syden</lem>
+                  <rdg>
+                     <q>Dessen vorbenomeden vrede unde rechtghank - in beiden syden</q>, mangler i <ref target="14171112003" type="link">DD 1417. [12. nov.], nr. 14171112003</ref>
+                  </rdg>
+               </app>.</p>
+            <p n="a#13">Were ok, dat dar jennich vredebrake scheghe an beiden siden bynnen desser vorbenomeden tiit
+      desses vredes, dat God vorbede, dar mach de ghenne, deme dat schuet, wol umme manen; doch so
+      schal he dar nenen togrepe wedder umme don, men he schal dat witlik don deme heren, des de
+      sinen den vredebrake gedan hebben; so schal de here dat richten van stunden an, wen eme dat
+      witlik gedan wert, na vredes rechte over de gennen, de den vredebrake gedan hebben, unde ok
+      den schaden vorboten, sunder vortoch.</p>
+            <p n="a#14">Were ok, dat jemant teghen dessen vorscreven vrede van beiden siden dede, deme de vrede nicht
+      witlik geworden were, unde de to der tiit, do de vrede gekundiget wart, nicht to hus weren
+      gewest in desser vorbenomeden heren slote, stede, lande unde havene, alse in den vorbenomeden
+      riiken unde in <placeName>deme lande to Holsten</placeName>, wert desse vorscreven vrede aldus
+      gebroken, unde, de dat deden, jerghene to hus quemen in desser vorscreven heren lande edder
+      havenen ergenomed, so schal de here, des de <app>
+                  <lem>sinen</lem>
+                  <rdg>
+                     <q>sine</q>, aa</rdg>
+               </app> dat ghedan hebben unde de an syneme krighe begrepen sint, den schaden <app>
+                  <lem>wedderlecgen</lem>
+                  <rdg>
+                     <q>wedderbergen</q>, aa</rdg>
+               </app>, den se gedan hebben, unde darft dar nicht vorder over richten.</p>
+            <p n="a#15">Wil ok de ergenomede here koning <persName>den hertoghen van Sassen</persName> unde de sinen
+      an sinem vrede nicht beholden, so schal he dat den vorbenomeden Holstenheren scriven in sinem
+      openen besegelden breve to <placeName>Gottorpe</placeName> bynnen veer weken negest komende;
+      deit he des nicht, so blift <persName>de vorbenomede here van Sassen</persName> mit den sinen
+      an des vorscreven heren koninges vrede unde in dem sulven lofte unde vorwissinge, alse de
+      sulve here koning dessen vorscreven vrede vorwisset hefft.</p>
+            <p n="a#16">Hir up schal de ergenomede here koning antworden den hensesteden uppe loven <placeName>de
+        stad Sleszwiik</placeName>, unde wes eme in <placeName>Anghele</placeName> to denste
+      gehuldighet heft, unde de Vreesschen herden unde wat em in deme hertichdome ghehuldighet hefft
+      unde bebrevet van desses krighes wegen, in eren weren to hebbende bet to sunte Michaelis dage
+      negest komende; wil danne de ergenomede here koning <placeName>de vorscreven stad
+        Sleswiik</placeName>, herde unde land wedder hebben, so scholen de erbenomeden hensestede,
+      de den loven van em entfangen hebben, em de stad, herden und lande vorscreven wedder
+      antworden, zunder arch, in der wiis, alse se de van em entfangen hebben. Des gelix scholen de
+      Holstenheren den hensesteden uppe loven <app>
+                  <lem>
+                     <supplied>antworden</supplied>
+                  </lem>
+                  <rdg>
+                     <q>antworden</q>, mangler i aa</rdg>
+               </app>
+               <placeName>dat slot Tunderen</placeName>, unde dar to wes see in deme hertichdome hebben, dat
+      en to denste ghehuldighet unde bebrevet heft van desses krighes wegen, unde de schalen se in
+      erer w{ee}r hebben bet to sůnte Michaelis dage negest komende; willen danne de ergenomeden
+      Holstenheren <placeName>dat slot Tunderen</placeName> wedder esschen, so schalen de
+      ergenomeden stede, de genne, de den loven van en entfangen hebben, dat vorscreven slot unde
+      lande wedder antwerden, sunder arch, in der wiis, alse se dat van en entfangen hebben.</p>
+            <p n="a#17">Ok schal de vorbenomede here koning unde de Holstenheren de hensestede unde de van Hamborg
+      trůwliken bidden, dat se sik dar to vorsecgen unde vorplichten, bii des gennen hulpe to
+      blivende, de desseme vorscreven vrede unde rechteghange vul deit unde holt, alse vor screven
+      ys. Unde desse vorbenomede here koning unde Holstenheren schalen dar van stunden an umme
+      senden bodesschop ud erer beider rade to <placeName>Lubeke</placeName>, de truwliken to
+      biddende, de dar sin ute den hensesteden, dat se de ere willen heer senden ud eren raden, de
+      de annamen de slote unde lande vorscreven van der stede wegen, alse vor screven is, unde de ok
+      de macht hebben, sik to vorsecgende van der hensestede wegen, bii des hulpe to blivende, de
+      deme rechte vul deit.</p>
+            <p n="a#18">Ok schal een jewelik van dessen vorscreven heren, alse de here koningh unde de Holstenheren,
+      en jewelik 10 hebben ut erer manschop ud <placeName>Denemarken</placeName> unde ute
+        <placeName>deme lande to Holsten</placeName>, alse de sulven, de alrede genomet sint, van
+      stunden an; de scholen secgen unde loven vor dessen vorscreven vrede unde deghedinge to
+      holdende unde vultothende, in aller wiis, alse vor screven is; weret dat dat an weme ghebrek
+      worde, so dat desse vorscreven vrede unde deghedinge nicht geholden worde, alse vor screven
+      is, so scholen des heren 10, dar de vrede nicht af geholden wert van den sinen, inriden to
+        <placeName>Lubeke</placeName> nu en sondaghe vort over 4 weken negest komende, unde dar
+      nicht ud, de vrede sii gerichtet unde vorbot, alse vor screven ys.</p>
+            <p n="a#19">Ok scholen desse ergenomeden here koning unde Holstenheren dessen vorscreven vrede unde
+      rechtghang vorwissen unde bebreven mit heren, ridderen unde knechten unde steden, in aller
+      wiis, alse vor screven is, unde vulthen unde vorantwerden, alse de ergenomede here koning
+      sinen breff, den he unde sine borghen beseghelen scholen, vorantworden to
+        <placeName>Gottorpe</placeName> deme hovetmanne, de dar uppe ys, unde de vorscreven
+      Holstenheren eren breff, den se mit eren borghen beseghelen scholen, vorantworden to
+        <placeName>Flensborg</placeName> deme hovetmanne uppe deme berghe; were ok, dat des nicht en
+      scheghe unde ghebrek worde an welkereme heren vorscreven, alse heren koninge unde den
+      Holstenheren, de eren breff nicht vulltoghen unde vorantwordeden in aller mate, alse vor
+      screven is, twisschen dit unde en sondaghe vort over 4 weken negest komende, so scholen des
+      heren 10, dar des gebrek ane wert, unde nicht en holt unde doit, alse vor screven is, inriden
+      up den vorscreven dach, alse en sondaghe over 4 weken, uppe de vorscreven stede, unde dar
+      nummer uth, de breve sin vultoghen unde vorantwordet, alse vor screven is; unde welkes heren
+      manne van dessen vorscreven heren, alse des heren koninges unde der Holstenheren, inriden, dar
+      des gebrek ane wert an ereme heren, alse vor screven is, unde wen danne de vrede unde
+      vorantwordinge der breve vorbot unde vorantwordet is in aller wiis, alse vor screven is, so
+      mogen de vrig riden unde des loftes qwiit wesen van des inleghers weghen, unde men schal en
+      eren breff wedder antworden.</p>
+            <p n="a#20">Ok scholen desse vorscreven heren leiden unde velighen de 10 van jewelker side unde laten se
+      voren dorch ere land sunder arch uth unde to hus, eft se <app>
+                  <lem>inriden scholden</lem>
+                  <rdg>
+                     <q>Hir up - inriden scholden</q>, mangler i <ref target="14171112003" type="link">DD 1417. [12.
+            nov.], nr. 14171112003</ref>
+                  </rdg>
+               </app>.</p>
+            <p n="a#21">Ok scholen desse vorscreven heren leiden unde velighen de schedeslude dorch ere lande ud unde
+      to hus, efte des welken behoeff ys unde des begherende ys, beth uppe de stede, dar de schede
+      wesen schal.</p>
+            <p n="a#22">Ok mach bynnen dessem vrede vorscreven borger edder bur wol buwen uppe dat syne; doch so
+      scholen de heren an beiden siden edder borghere nene stede bevesten, de nu umbevestet ys.</p>
+            <p n="a#23">Ok scholen desse breve, de desse vorscreven heren beseghelen scholen in beiden siden uppe
+      dessen vorscreven vrede unde rechtghancgk, mede inneholden, dat se nenen breven edder
+      deghedingen, de in vortiiden tusschen dessen vorscreven here koninge unde den Holstenheren,
+      edder eren vorvaren, riike unde landen, an beiden siden ghegheven edder ghedegedinget sint, to
+      hindere edder to vorvange komen; men se scholen, alle unde en jewelik bii sik, bii erer vuller
+      macht bliven, unde en jewelik sines rechtes unvorsumet van den breven unde deghedingen, de in
+      vortiiden ghegheven unde gheschen sin.</p>
+            <p n="a#24">Dit sint de geborne heren, de de vorscreven here koning unde de Holstenheren an beiden siden
+      nomen scholen, alse vor screven is:</p>
+            <p n="a#25">To deme ersten des heren koninges, alse <persName>hertoch Johan van Mekelenborg</persName>,
+        <persName>hertoch Erik van Sassen</persName>, <persName>hertoch Otten van Stetin</persName>,
+        <persName>hertoch Wartzlaff</persName> unde <persName>hertoch Barnym</persName>, brodere,
+        <persName>hertoghen to Baart</persName>, unde <persName>greven Albertus van
+        Nougarden</persName>.</p>
+            <p n="a#26">Dit sint der Holstenheren:</p>
+            <p n="a#27">
+               <persName>Hertoghe Wilhelm</persName> unde <persName>hertoghe Otte</persName>,
+        <persName>heren van Brunswiik</persName> etc., <persName>biscop van Munster</persName>,
+        <persName>greve Erik van der Hoye</persName>, <persName>greve Alff van
+        Schouwenborch</persName>, <app>
+                  <lem>
+                     <persName>here Balthazar van Wenden</persName>
+                  </lem>
+                  <rdg>
+                     <q>Dit sint - here Balthazar van Wenden</q>, mangler i <ref target="14171112003" type="link">DD
+            1417. [12. nov.], nr. 14171112003</ref>
+                  </rdg>
+               </app>.</p>
+            <p n="a#28">To groterer bekantnisse, dat desse vorscreven deghedinge so sin, alse vor screven is, so
+      hebben desse vorscreven heren, alse de here koning unde de Holstenheren, ere ingheseghele to
+      tuchnisse drucken laten benedden an desse scrifft, des desse vorscreven heren an beiden siden
+      en jewelik aldusdane scrifft all ens ludende hebben.</p>
+            <p n="a#29">Screven na Godes bort 1417 des frigdages na Mertini etc.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I Guds navn, amen.</p>
+            <p n="b#2">Dette er de aftaler, som er blevet forhandlet og indgået imellem den strålende fyrste og
+      højbårne herre, hr. Erik, konge af rigerne Danmark, Sverige, Norge, de Venders og Goters konge
+      og hertug af Pommern, hans efterkommere, alle indbyggere i rigerne og alle dem, som har fulgt
+      ham til denne fejde, og som deltager i denne krig, på den ene side, og den højbårne herre, hr.
+      Heinrich, som kalder sig hertug af Slesvig, hans brødre og hr. Heinrich, greve af Holsten, og
+      deres arvinger, lande og indbyggere og alle dem, som har fulgt dem til denne fejde, og som
+      deltager i krigen, på den anden side, på enhver måde som det står skrevet herefter:</p>
+            <p n="b#3">Der skal være en fred imellem disse førnævnte herrer, deres riger og lande og alle deres folk
+      og alle dem, som har fulgt dem til denne fejde, og som deltager i denne krig, fra nu af og
+      indtil næstkommende mikkelsdag; således at enhver af dem nu på næstkommende sankthansdag til
+      midsommer skal pleje retten over for den anden angående hertugdømmet Slesvig og angående det,
+      som enhver af dem har at sige til den anden på begge sider. Og de skal underkaste sig retten
+      ved hver to velbårne herrer og ved fire stæder fra hanseforbundet.</p>
+            <p n="b#4">Ligeledes skal de førnævnte herrer på begge sider, det vil sige hr. kongen og de
+      holstenske herrer, udvælge hver seks velbårne herrer, og af disse seks udvalgte herrer skal de
+      hver udtage to, som skal være dem mægtige til ret, og fra hansestæderne må enhver af de
+      førskrevne herrer medtage, hvem de kan. Dog således at enhver af de førskrevne seks herrer og
+      de folk fra hansestæderne, som den førnævnte hr. konge og de førnævnte holstenske herrer
+      udnævner til voldgiftsmænd, skal være dem mægtige til ret på begge sider.</p>
+            <p n="b#5">Og disse førnævnte, nemlig hr. kongen og de førnævnte holstenske herrer, skal medbringe og
+      have disse førnævnte voldgiftsmænd, nemlig herrer og stæder - enhver skal have sine mænd -,
+      således at den førnævnte hr. konge har sine mænd i Slesvig, og de holstenske herrer deres mænd
+      i Gottorp, på den førnævnte næstkommende sankthansdag til midsommer.</p>
+            <p n="b#6">Og disse førnævnte voldgiftsmænd, som den førnævnte hr. konge og de holstenske herrer på
+      begge sider skal medbringe dertil, skal blive enige om, på hvilket sted de vil afholde retten
+      over disse førnævnte to parter, og de skal have magt til at beslutte dette. Dog må det kun
+      foregå i Slesvig eller Gottorp eller et sted derimellem.</p>
+            <p n="b#7">Endvidere: Skulle det ske, at disse førnævnte voldgiftsmænd ikke kunne blive enige til ret,
+      så skal de dog på hver sin side blive enige til ret og udsige og give på skrift, hvad der
+      forekommer dem at være ret efter klage, efter svar og efter begge parters beviser for
+      hertugdømmet Slesvig og for det, som er forelagt dem. Derefter skal den førnævnte hr. konge og
+      de holstenske herrer, underkaste sig retten ved to opmænd, nemlig hertug Bernd af
+      Braunschweig og hertug Bugislav af Pommern, og det skal blive ved dem af voldgiftsmændene, det
+      vil sige af den førskrevne hr. konges og de førskrevne holstenske herrers voldgiftsmænd, som
+      har talt retten nærmest, og som de førnævnte opmænd derfor tilslutter sig, og det skal denne
+      førnævnte hr. konge og de holstenske herrer således overholde.</p>
+            <p n="b#8">Endvidere: Skulle det ske, at disse førnævnte opmænd ikke kunne blive enige til ret, så
+      skal begge herrers førskrevne voldgiftsmænd blive enige om en opmand over de to førnævnte;
+      hvad den af de to andre opmænd, som denne opmand tilslutter sig, har sagt som ret, det
+      skal forblive ret, og det skal disse førnævnte herrer, nemlig den førnævnte hr. konge og de
+      førnævnte holstenske herrer, så overholde.</p>
+            <p n="b#9">Ligeledes skal disse førnævnte, nemlig hr. kongen og de holstenske herrer, på det førskrevne
+      tidspunkt have og bringe disse førnævnte to opmænd, nemlig hertugen af Braunschweig og
+      hertugen af Pommern, med hen til det førskrevne sted, hvor voldgiftsmændene skal være, sådan
+      som det er skrevet tidligere; dog således at enhver af disse førnævnte herrer skal medbringe
+      sine folk, det vil sige, at den førnævnte hr. konge skal medbringe hertugen af Pommern, og de
+      holstenske herrer skal medbringe hertugen af Braunschweig, for så vidt som disse førnævnte
+      herrer, som er valgt til opmænd, lever på det førnævnte tidspunkt.</p>
+            <p n="b#10">Endvidere: Skulle det ske, at en af disse førnævnte herrer, som er valgt til opmænd, døde -
+      må Gud forbyde det! -, eller var ude af stand til at komme inden for den førskrevne tid, og
+      dette var bevisligt, så skal den herre, som kommer til at mangle sin opmand, følgelig
+      udnævne en ny opmand og have og medbringe denne på det førskrevne tidspunkt og sted med den
+      samme magt, som den anden skulle have haft, sådan som det er skrevet tidligere.</p>
+            <p n="b#11">Denne førnævnte fred og det førnævnte retsmøde skal de førnævnte, nemlig hr. kongen og de
+      førnævnte holstenske herrer, på begge sider sikre på enhver måde, som det står skrevet
+      herefter:</p>
+            <p n="b#12">Den førnævnte hr. konge skal over for de førskrevne holstenske herrer udvælge en herre ud af
+      de seks herrer, som bliver nævnt herefter, og dertil 50 riddere og knægte, som udvælges fra
+      Danmark, og dertil fire stæder, som de holstenske herrer skal bekendtgøre ved navns nævnelse
+      på samme sted. På samme måde skal de førnævnte holstenske herrer over for den førskrevne hr.
+      konge udvælge en herre ud af de seks herrer, som bliver nævnt herefter, og dertil 50 riddere
+      og knægte fra landet Holsten, som hr. kongen ligeledes skal bekendtgøre ved navns nævnelse, og
+      fire stæder fra landet Holsten. Og ud af de samme 50 riddere og knægte, som bliver udvalgt,
+      skal de førnævnte holstenske herrer udtage 40 over for den førnævnte hr. konge. Og disse
+      førskrevne garanter på begge sider skal sikre denne fred og dette retsmøde ved breve og ved
+      mundtlige løfter, således at man kan vide, at freden vil blive holdt fast på begge sider.</p>
+            <p n="b#13">Endvidere: Skulle det ske, at der skete et eller andet fredsbrud på den ene eller anden side
+      i denne førnævnte fredstid - må Gud forbyde det! -, da må den, mod hvem dette sker, godt tale
+      derom; dog skal han ikke udføre noget angreb til gengæld, men han skal gøre det vitterligt for
+      den herre, hvis folk har forårsaget fredsbruddet; derefter skal denne herre, lige så snart det
+      er blevet bekendtgjort for ham, holde rettergang over den, som har brudt freden, efter
+      fredslov, og han skal dække skaderne uden tøven.</p>
+            <p n="b#14">Endvidere: Skulle det ske, at en eller anden fra den ene eller anden side, for hvem freden
+      ikke var blevet forkyndt, gjorde noget imod denne førskrevne fred, og at vedkommende på det
+      tidspunkt, hvor freden blev forkyndt, ikke havde været hjemme i disse førnævnte herrers
+      slotte, stæder, lande og havne, nemlig i de førnævnte riger og i landet Holsten, altså hvis
+      denne fred således bliver brudt, og de, som gør det, kommer hjem til disse førnævnte herrers
+      førnævnte lande og havne, så skal den herre, hvis folk har gjort dette og deltager i hans
+      krig, dække den skade, som de har forvoldt, og han må ikke yderligere holde retssag
+      derover.</p>
+            <p n="b#15">Endvidere: Ønsker den førnævnte hr. konge ikke at have hertugen af Sachsen og hertugens mænd
+      med i sin fred, så skal han skrive dette i sit åbne, beseglede brev til de holstenske herrer i
+      Gottorp i løbet af de næstfølgende fire uger; gør han ikke dette, så bliver den førnævnte
+      hertug af Sachsen med sine folk ved med at være i den førskrevne hr. konges fred, sådan som
+      det er skrevet tidligere.</p>
+            <p n="b#16">Derpå skal den førnævnte hr. konge under afgivelse af et troskabsløfte overdrage
+      hansestæderne byen Slesvig, og alt det, som har hyldet ham til tjeneste i Angelen, og de
+      frisiske herreder og alt det, som har hyldet ham og lavet skriftlige aftaler med ham i
+      hertugdømmet på grund af krigen, således at hansestæderne skal have det i deres værn indtil
+      næstkommende mikkelsdag. Såfremt den førnævnte hr. konge så vil have den førskrevne by
+      Slesvig, de førskrevne herreder og det førskrevne land tilbage, så skal de førnævnte
+      hansestæder, som har fået troskabsløftet fra ham, levere den førskrevne by, de førskrevne
+      herreder og det førskrevne land tilbage til ham, uden svig, på samme måde, som de har modtaget
+      det førnævnte fra ham. Ligeledes skal de holstenske herrer under afgivelse af et troskabsløfte
+      overdrage hansestæderne slottet Tønder og desuden alt det, som de har i hertugdømmet, som har
+      hyldet dem til tjeneste og indgået skriftlige aftaler med dem på grund af krigen, og
+      hansestæderne skal have dette i deres værn indtil næstkommende mikkelsdag. Såfremt de
+      førnævnte holstenske herrer derefter kræver slottet Tønder tilbage, så skal de førnævnte
+      hansestæder, som har modtaget troskabsløftet fra de holstenske herrer, levere det førskrevne
+      slot og det førskrevne land tilbage til de holstenske herrer, uden svig, på samme måde, som de
+      har modtaget det fra dem.</p>
+            <p n="b#17">Ligeså skal de førnævnte herrer, nemlig hr. kongen og de holstenske herrer, trofast bede
+      hansestæderne og byen Hamburg om at forpligte sig til at vedblive at understøtte den, som
+      opfylder og holder denne førskrevne fred og rettergang, således som det er skrevet i det
+      forrige. Og disse førnævnte, nemlig hr. kongen og de holstenske herrer, skal derefter med det
+      samme sende udsendinge fra begge parters råd til Lübeck, som trofast skal bede dem fra
+      hansestæderne, som befinder sig dér, om at sende folk fra deres råd, således at disse kan
+      modtage det førnævnte slot og det førnævnte land på stædernes vegne, således som det er
+      skrevet tidligere. Og disse skal også have magt til på stædernes vegne at forpligte sig til at
+      vedblive at understøtte den, som opfylder retten.</p>
+            <p n="b#18">Ligeså skal enhver af disse førskrevne herrer, det vil sige hr. kongen og de holstenske
+      herrer, hver have 10 mænd fra deres mandskab fra henholdsvis Danmark og landet Holsten, altså
+      de samme, som allerede er nævnt, fra nu af. Disse 10 mænd skal erklære og love at holde og
+      opfylde denne førskrevne fred og aftale på enhver måde, sådan som det er skrevet tidligere.
+      Skulle det ske, at der skete et brud på freden mod en eller anden, således at denne førskrevne
+      fred og aftale ikke blev holdt, sådan som det er skrevet tidligere, så skal de 10 mænd, som
+      hører under den herre, af hvis folk freden ikke er blevet holdt, ride ind i Lübeck nu på den
+      næstkommende søndag om fire uger, og de skal ikke komme ud derfra, førend freden er blevet
+      genoprettet, og førend der er blevet gjort bod for fredsbruddet, sådan som det står skrevet i
+      det forrige.</p>
+            <p n="b#19">Ligeså skal disse førnævnte herrer, nemlig hr. kongen og de holstenske herrer, sikre denne
+      førskrevne fred og rettergang ved ed, og de skal garantere skriftligt for den med herrer,
+      riddere og knægte og stæder på enhver måde, således som det står skrevet tidligere, og de skal
+      opfylde og overdrage den, det vil sige, at den førnævnte hr. konge skal færdiggøre sit brev,
+      som han og hans garanter skal besegle, og han skal overdrage det på Gottorp til den
+      høvedsmand, som befinder sig dér, og de førskrevne holstenske herrer skal færdiggøre deres
+      brev, som de skal besegle med deres garanter, og de skal overdrage det i Flensborg til
+      høvedsmanden på Bjerget. Skulle det dog ske, at dette ikke skete, men at der derimod skete et
+      fredsbrud på den ene eller anden af de førskrevne herrers side, det vil sige på hr. kongens
+      eller de holstenske herrers side, som ikke havde opfyldt og overdraget deres brev på enhver
+      måde, således som det står skrevet i det forrige, mellem denne dag og næstkommende søndag om
+      fire uger, så skal de 10 mænd, som hører under den herre, af hvis folk fredsbruddet er begået,
+      og som således ikke holder og opfylder freden, således som det står skrevet i det forrige,
+      ride hen til det førskrevne sted på den førskrevne dag, det vil sige næstkommende søndag om
+      fire uger, og de skal ikke komme ud derfra, førend brevene er opfyldt og overdraget, således
+      som det står skrevet i det forrige. Og når de af de førskrevne herrers mænd, nemlig hr.
+      kongens eller de holstenske herrers mænd, som hører under den herren, på hvis side
+      fredsbruddet er blevet begået, således som det står skrevet i det forrige, er redet hen til
+      det førnævnte sted, og når der så er blevet gjort bod for fredsbruddet og den manglende
+      overdragelse af brevene, og når brevene er blevet overdraget på enhver måde, således som det
+      står skrevet i det forrige, så må de frit ride derfra, og de skal ikke længere være bundet af
+      deres løfte om at gå i husarrest, og man skal give dem deres breve tilbage.</p>
+            <p n="b#20">Ligeså skal disse førskrevne herrer sikre og give frit lejde til de 10 mænd på hver side, og
+      de skal lade dem føre igennem deres lande uden svig ud og hjem, såfremt de måtte ride
+      derind.</p>
+            <p n="b#21">Ligeså skal disse førskrevne herrer sikre og give frit lejde til voldgiftsmændene igennem
+      deres lande - både ud og hjem - hen til det sted, hvor forligshandlingen skal være, hvis nogen
+      har behov for det, og hvis det begæres.</p>
+            <p n="b#22">Ligeså må borgere eller bønder inden for denne førskrevne fred gerne bygge hver på deres
+      jord; dog skal herrerne på begge sider eller borgerne ikke befæste noget sted, som nu er
+      ubefæstet.</p>
+            <p n="b#23">Ligeså må de førskrevne borgere eller bønder godt bygge på deres ejendom. Dog må herrene på
+      begge sider eller borgerne ikke befæste nogen steder, som nu er ubefæstede.</p>
+            <p n="b#24">Ligeså skal disse breve, som de førskrevne herrer på begge sider skal besegle i denne
+      førskrevne fred og rettergang, også indeholde, at disse breve ikke skal være til hinder eller
+      forfang for nogen breve eller aftaler, som tidligere er blevet givet og indgået imellem disse
+      førskrevne, nemlig hr. kongen og de holstenske herrer, eller deres forfædre, riger og lande,
+      på begge sider; men de skal, alle og hver enkelt for sig, forblive ved deres fulde magt, og
+      enhver skal være uantastet i sin ret på grund af breve og aftaler, som tidligere er blevet
+      givet og indgået.</p>
+            <p n="b#25">Dette er de velbårne herrer, som de førskrevne, nemlig hr. kongen og de holstenske herrer, på
+      begge sider skal udvælge, således som det står skrevet i det forrige:</p>
+            <p n="b#26">For det første hr. kongens mænd, nemlig hertug Johan af Mecklenburg, hertug Erik af Sachsen,
+      hertug Otto af Stettin, brødrene hertug Vartislav og hertug Barnim, hertuger af Barth, og grev
+      Albert af Naugard.</p>
+            <p n="b#27">Dette er de holstenske herrers mænd:</p>
+            <p n="b#28">Hertug Wilhelm og hertug Otto, herrer af Braunschweig etc., biskoppen af Münster, grev Erik
+      af Hoya, grev Adolf af Schauenburg, hr. Balthasar af Wenden.</p>
+            <p n="b#29">Til større vidnesbyrd og vished om, at dette førskrevne forlig er præcis, som det er
+      beskrevet i det forrige, så har disse førskrevne herrer, altså hr. kongen og de holstenske
+      herrer, ladet sætte deres segl forneden på dette brev, af hvilket de førskrevne herrer på
+      begge sider hver har en fuldstændig enslydende udgave.</p>
+            <p n="b#30">Skrevet år 1417 efter Guds fødsel om fredagen efter mortensdag etc.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

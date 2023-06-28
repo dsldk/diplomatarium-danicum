@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1121</num>, paragraphs: <num n="paragraphs">12</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14190702001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2693-b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>20.4 (plica: 2)</height>
+                                    <width>53</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Brevet har flere ulæselige steder og afsnit hvor tekst helt er gået tabt grundet slitage</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Skrevet m. sa. hd. som DD 1416. 5. maj, nr. 14160505001</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskrift m. sen. hdd.: <q>Schiftebreff pa Asdall oc Knyff olth e
+        mellom Bonde Dwe och her And<ex>er</ex>s Ieps<ex>øn</ex> Lwnghe etcetera
+      mcdxix</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Bonde Dues segl af mørkt voks i perg.rem, AS D xvii 15
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Provst Jens Nielsens segl af mørkt voks i perg.rem, DGS 628
+                              </ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 43-49</bibl>
+               <bibl>Rep. nr. 5788</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-07-02"
+                  notBefore="1419-07-02"
+                  notAfter="1419-07-02"
+                  cert="high">1419. 2. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hr. Bonde (Jensen) Due, ridder, og hr. Anders Jakobsen Lunge, ridder, skifter deres arv efter
+      hr. Niels Ovesen (Panter) af Asdal og fru Johanne (Andersdatter (Stenbrikke)). Arven bestod af
+      et omfattende gods i Vendsyssel.</ab>
+            <ab>Hver af parterne skal vælge to opmænd blandt deres venner, og disse skal have fuldmagt til
+      at bringe forholdet i orden efter de i brevet nærmere aftalte bestemmelser, såfremt
+      indtægterne af parternes respektive andele ikke svarer til deres andel af arven. Når de er
+      færdige med deres arbejde, skal der udstedes et nyt skiftebrev, og nærværende breve skal
+      destrueres.</ab>
+            <ab>Såfremt parterne kan finde yderligere arvegods efter hr. Niels og fru Johanne, skal de være
+      hinanden behjælpelige med at komme i besiddelse af det, og det skal derefter skiftes mellem
+      dem. Skiftet skal være gennemført inden førstkommende mikkelsdag.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-14" who="#pbh">Filen etableret af #pbh 2014-04-14. </change>
+         <change when="2018-02-26" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-02-26. </change>
+         <change when="2018-06-12" who="#alk">2. korrektur af #alk 2018-06-12. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Thet scal alle mæ<ex>n</ex> wetherlict wær<ex>e</ex> nærwærendæ oc komesculendæ ath jech <app><lem><persName>Bondo Dwæ</persName></lem><rdg wit="#A">understreget, A</rdg></app> ridder<ex>e</ex> pone then enæ sidæ och her <app><lem><persName>Anders</persName></lem><rdg wit="#A">understregning begynder ved <q>r</q>, A</rdg></app>
+      <persName>Jeyæpss<ex>øn</ex> Lu<ex>n</ex>ge</persName>
+      <app><lem>ridder<ex>e</ex></lem><rdg wit="#A">understregning slutter ved indledende <q>r</q>, A</rdg></app> pone then a<ex>n</ex>nen sidæ æræ so offuer enæ vrnæ vm gotz i Wendesyslæ i Jutland
+      ligger hwilket gotz her <persName><app><lem>Niels</lem><rdg wit="#A">understregning begynder ved <q>s</q>, A</rdg></app> Offess<ex>øn</ex></persName> aff Asdale oc <persName>frw Joha<ex>n</ex>næ</persName>
+      <app><lem>ottæ</lem><rdg wit="#A">understregning slutter ved førstkommende <q>t</q>, A</rdg></app> hwes siælæ gwd haue <app><lem>at</lem><rdg wit="#A">skrevet ov. l., A</rdg></app> aff th<ex>et</ex>tæ for<hi rend="sup">d<ex>e</ex></hi> gotz <app><lem>æræ</lem><rdg wit="#A">understregning begynder ved <q>r</q>, A</rdg></app> to delæ h<ex>e</ex>r <persName>Lyder Kabel <app><lem>ridder<ex>e</ex></lem><rdg wit="#A">understregning slutter ved førstkommende <q>r</q>, A</rdg></app></persName> oc mech <persName>Bondæ Dwæ</persName> æfft<ex>er</ex>
+      <persName><app><lem>Anders</lem><rdg wit="#A">her begynder understregning, A</rdg></app> Nielsøns</persName> døth pone begges wores hosfrwæs wegnæ m<ex>eth</ex> ræt arff <app><lem>tilfalnæ</lem><rdg wit="#A">understregning slutter ved sidstkommende <q>l</q>, A</rdg></app> och mech for<hi rend="sup">d<ex>e</ex></hi> h<ex>e</ex>r <persName><app><lem>Lyder</lem><rdg wit="#A">understregning begynder ved <q>e</q>, A</rdg></app><app><lem>Kabel</lem><rdg wit="#A">her slutter understregning, A</rdg></app></persName> hosfrwæs deel aff forscr<ex>effne</ex> h<ex>e</ex>r Lyder m<ex>eth</ex>
+       hans opnæ breff<ref target="drb1"/> ær oplathet som the breff vdwisæ th<ex>e</ex>r oppo giffnæ æræ som ær to delæ j Asdale
+      gardh m<ex>eth</ex> alle sinæ tilliggæ alt inne<ex>n</ex> markeskyel oc to delæ i
+        <placeName>Scowsgord</placeName> m<ex>eth</ex> alle hans tilliggelsæ jnne<ex>n</ex>
+      <app><lem>markesk<damage>yel o</damage>ch</lem><rdg wit="#A">dele af <q>l</q> og <q>o</q> kan ses, A</rdg></app> al a<ex>n</ex>nen gotz som her æfft<ex>er</ex> sto screffnæ ♦</p>
+            <p n="a#2" xml:space="preserve">Først i <placeName>Hornæsogn</placeName>
+      <persName>Mekel Anderss<ex>øn</ex></persName> gyffuer vj pu<ex>n</ex>d korn til skyld item
+        <persName>Jesse Portze</persName> iij pu<ex>n</ex>d korn item <persName>Lasse
+        Halworss<ex>øn</ex></persName> iij pu<ex>n</ex>d ♦ Item i
+        <placeName>Hornaby</placeName>
+      <persName>Jesse Bos<ex>øn</ex></persName> iij pu<ex>n</ex>d item <persName>P<ex>er</ex>
+        Diegn</persName> iij pu<ex>n</ex>d item <persName>Truet Bondo</persName> iiij <app><lem>p[u<ex>n</ex>d]</lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <damage>.....</damage><persName>agess<ex>øn</ex></persName> v pu<ex>n</ex>d ♦ Item
+        <persName>Matt<ex>es</ex> Pæderss<ex>øn</ex></persName> i bol m<ex>eth</ex> j pu<ex>n</ex>d
+      item <persName>Morten Hath</persName> iij pu<ex>n</ex>d item <persName>Nis Kulter</persName> j
+      pu<ex>n</ex>d item <persName>Nis Hath</persName> vj pund item <persName>Atscer
+        Palnes<ex>øn</ex></persName> iij pu<ex>n</ex>d ♦ Item <app><lem><placeName>Fallebrex bol</placeName></lem><rdg wit="#A"><q>Fallebrex</q> måske fra mandsnavnet <q>Folkbrekt</q>, jf. Danmarks gl.
+          Personnavne I 307 44f</rdg></app> ær ødæ <placeName>Kylemøllæ</placeName> ix pu<ex>n</ex>d myel ♦ Item Høgedorp
+        <persName>Knut Smyd</persName> iɉ p<ex>und</ex> item P<ex>er</ex>
+      <app><lem><damage>.....</damage>sg<damage>e</damage>t<damage>s<ex>øn</ex> .....</damage></lem><rdg wit="#A">suppleret efter Gammeldanske diplomer</rdg></app>
+      <app><lem>[p]<ex>und</ex></lem><rdg wit="#A">utydeligt, A</rdg></app> ♦ Item een ødæ <persName>Kæel</persName> i bodæ sculdæ skylde iij pu<ex>n</ex>d
+      ♦ Item een ødæ Cleme<ex>n</ex>d i bodæ skyldede iij pu<ex>n</ex>d ♦ Item
+        <placeName>Thornby sogn</placeName>
+      <persName>Fredegæst</persName> vj pu<ex>n</ex>d korn item <persName>Bo
+        Laurenss<ex>øn</ex></persName> vj pu<ex>n</ex>d korn item <persName>P<ex>er</ex>
+        Anderss<ex>øn</ex></persName> iiij pu<ex>n</ex>d item Rawendorp vj p<ex>und</ex> item
+        <persName>Nis Kær</persName> iij p<ex>und</ex> item <app><lem><persName>Truw<damage>els N</damage>iel<damage>ss<ex>øn</ex></damage></persName></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <app><lem>ii[j]</lem><rdg wit="#A">utydeligt, A</rdg></app> p<ex>und</ex> item <persName>Matt<ex>es</ex> Pæderss<ex>øn</ex></persName> iij
+      pu<ex>n</ex>d item <persName>Nis Kragh</persName> iij p<ex>und</ex> item <persName>Jes
+        Palnes<ex>øn</ex></persName> v p<ex>und</ex> ♦ Item <persName>Truwels
+        Nielss<ex>øn</ex></persName> j <app><lem>go<damage>rd</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> for<ex>e</ex> iij pu<ex>n</ex>d oc j gord for<ex>e</ex> ij pu<ex>n</ex>d item
+        <persName>Jon Galen</persName> vj pu<ex>n</ex>d item <persName>Swen
+        Ebbes<ex>øn</ex></persName> iij p<ex>und</ex> item <persName>Jesse
+        Clauss<ex>øn</ex></persName> iiij pu<ex>n</ex>d item <persName>Jes
+        Mekelss<ex>øn</ex></persName> iij pu<ex>n</ex>d item <persName>Truwels <app><lem><damage>Kragh</damage>]</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app></persName>
+      <damage>.....</damage> item <persName>Anders Pæderss<ex>øn</ex></persName> iij p<ex>und</ex>
+      item j ødæ bol ibidem for<ex>e</ex> j pu<ex>n</ex>d item <persName>P<ex>er</ex>
+        Bonde</persName> ibidem iij p<ex>und</ex> item <persName>P<ex>er</ex>
+        Jenss<ex>øn</ex></persName>
+      <app><lem><damage>..... p<ex>und</ex></damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> item <persName>Mawe<ex>n</ex>s Mekelss<ex>øn</ex></persName> j p<ex>und</ex> oc j løb
+      smør item <persName>Jes Pæderss<ex>øn</ex></persName> iij p<ex>und</ex> ♦ Item i
+        <placeName>Køpstæd</placeName>
+      <persName>Lasse Nielss<ex>øn</ex></persName> vj pu<ex>n</ex>d item <persName>P<ex>er</ex>
+        Trymss<ex>øn</ex></persName> iiij p<ex>und</ex> Item <persName>Oloff <app><lem>P[æderss<ex>øn</ex>]</lem><rdg wit="#A">utydeligt, A</rdg></app></persName>
+      <damage>.....</damage>
+      <app><lem><persName>[Je]nss<ex>øn</ex></persName></lem><rdg wit="#A">utydeligt, A</rdg></app> iij p<ex>und</ex> item <persName>Bertil</persName> iij p<ex>und</ex> item <persName>Jes
+        Jngworss<ex>øn</ex></persName> iiij p<ex>und</ex> item <persName>Thorkil Longæ</persName>
+      iiij p<ex>und</ex> item æræ iij <app><lem>ød<damage>æ bo</damage>l</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> i <placeName>Køpstæd</placeName> oc iij ødæ boæ i <placeName>Thornby</placeName>
+      ♦ Item i <placeName>Wigelstorp sogn</placeName>
+      <persName>Nis Jenss<ex>øn</ex></persName> .v p<ex>und</ex>
+      <persName>Oloff Anders</persName> j p<ex>und</ex> item <persName>Swe<ex>n</ex>
+        Bondø</persName> j p<ex>und</ex> oc i løb smør item <persName>Lidel</persName>
+      <damage>.....</damage> item <app><lem><placeName>Aby[e]</placeName></lem><rdg wit="#A">utydeligt, A</rdg></app> iij p<ex>und</ex> item <persName>Thorsten Trætss<ex>øn</ex></persName> iiij
+      pu<ex>n</ex>d <placeName>Kersgard</placeName> viij pu<ex>n</ex>d item
+        <placeName>Kersgordsmolnæ</placeName>
+      <app><lem>[xv p<ex>und</ex>]</lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <app><lem><damage>myel</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> ♦ Item <app><lem><damage>i</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <placeName>Bierby sogn</placeName>
+      <persName>Heneke Thomess<ex>øn</ex></persName> iij pu<ex>n</ex>d ♦ Item i
+        <placeName>Bierby dal</placeName>
+      <persName>Jon Nielss<ex>øn</ex></persName> iiij pu<ex>n</ex>d item <persName>Anders
+        Mawenss<ex>øn</ex></persName> iɉ p<ex>und</ex> ♦ Item i <placeName>Syndale
+        sogn</placeName> i <placeName>Fiælstæd<ex>e</ex></placeName>
+      <app><lem>G<damage>.....</damage></lem><rdg wit="#A">Gammeldanske Diplomer læser <q>Giu[rd ?]</q></rdg></app>
+      <damage>.....</damage>
+      <app><lem>[iij]</lem><rdg wit="#A">utydeligt, A</rdg></app> pu<ex>n</ex>d ♦ Item i <placeName>Syndale</placeName>
+      <persName>Truels Skyttæ</persName> iij p<ex>und</ex> ♦ Item i
+        <placeName>Bintsløff</placeName>
+      <persName>Nis Thomess<ex>øn</ex></persName> iɉ p<ex>und</ex> item
+        <persName>Benct</persName> iɉ <app><lem>p<damage><ex>und</ex></damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> ♦ <app><lem><damage>Item i Twerstæ</damage>desogn</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>i <placeName>Hornsnab</placeName>
+      <persName>Swen Barn</persName> iij s<ex>killing</ex> g<ex>rot</ex> oc j ødæ bolegh ibidem
+      ♦ Item i <placeName>Robergh</placeName>
+      <persName>Jon Thorstenss<ex>øn</ex></persName> i løb smør item <persName>Ytty
+        Nielss<ex>øn</ex></persName> i løb smør ♦ Item i <app><lem>Ell<damage>ing sogn i</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <damage>.....</damage> torp <persName>Staphen</persName> i løb smør item i ødæ bol ♦
+      Item i <placeName>Musbergæ sogn</placeName> i <placeName>Worn</placeName>
+      <persName>Nic<ex>holai</ex> Laur<ex>enssøn</ex></persName> iij pu<ex>n</ex>d
+        <damage>.....</damage> item <persName>Nic<ex>holai</ex> Pæderss<ex>øn</ex></persName> j løb
+      smør ♦ Item i <placeName>Astæde sogn</placeName> i <placeName>Skortholt</placeName>
+      <persName>Nic<ex>holai</ex> Mekels<ex>øn</ex></persName> iiij p<ex>und</ex>
+      <app><lem>item <persName>P<ex>er</ex> Jenss<ex>øn</ex></persName> iij p<ex>und</ex></lem><rdg wit="#A">skrevet to gange på linjen, A</rdg></app> item i ødæ bol ibidem <app><lem>[item]</lem><rdg wit="#A">utydeligt, A</rdg></app> L<damage>.....</damage>
+      <app><lem>[ls]s<ex>øn</ex></lem><rdg wit="#A">utydeligt, A</rdg></app> iij pu<ex>n</ex>d item <persName>P<ex>er</ex> Niels<ex>øns</ex></persName> hosfrwæs
+      fader iɉ p<ex>und</ex> item <persName>Atscer</persName> iiij by skepper ♦ Item i <app><lem><persName>Cal[<ex>u</ex>]m</persName></lem><rdg wit="#A">utydeligt, A</rdg></app> iij pu<ex>n</ex>d <app><lem><damage>meth alle thesse</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> for<hi rend="sup">d<ex>e</ex></hi> gotzes tilliggælsæ woth oc twirt ænkte
+      vnde<ex>n</ex> taget ♦</p>
+            <p n="a#3" xml:space="preserve">Och for<hi rend="sup">de</hi> h<ex>e</ex>r <persName>Anders Jeyæpss<ex>øn</ex></persName> ær
+      til ræt arff tilfallen een <app><lem><damage>treding i Asdale ..... g</damage>ord</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <app><lem>[och]</lem><rdg wit="#A">utydeligt, A</rdg></app> i alle hans tilliggælsæ alt jnne<ex>n</ex> markeskyel och tredingge<ex>n</ex> i
+        <placeName>Skowsgord</placeName> och alle <app><lem>ha<damage>ns tilliggælsæ</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> jnne<ex>n</ex> markeskyel och alle andræ gotz som her æfft<ex>er</ex> sto screffnæ
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Først <placeName>Knyfholtæ</placeName> gord <persName>Lasse Boumws</persName> i bor och gyuer
+      vi <damage>.....</damage> ♦ <app><lem>[Item]</lem><rdg wit="#A">utydeligt, A</rdg></app> i <app><lem><placeName>[F]laden</placeName></lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <persName>Lasse Powelss<ex>øn</ex></persName> iij p<ex>und</ex> item <persName>Bo
+        Rægh</persName> iij p<ex>und</ex> item <persName>Jesse Pæderss<ex>øn</ex>
+        Ru<ex>n</ex>basse</persName> j <app><lem>ty<ex>n</ex>n[e]</lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <app><lem><damage>..... Willom i</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> ty<ex>n</ex>ne salt item <persName>Pelli</persName> j ty<ex>n</ex>ne salt item
+        <persName>Jesse Pæderss<ex>øn</ex></persName> j ty<ex>n</ex>næ salt <persName>P<ex>er</ex>
+        Olofs<ex>øn</ex></persName> j ty<ex>n</ex>ne salt item <persName>P<ex>er</ex>
+        Raness<ex>øn</ex></persName> xvi skepp<ex>er</ex> salt item <persName>Yde <app><lem>R[e]g[h]</lem><rdg wit="#A">utydeligt, A</rdg></app></persName>
+      <damage>.....</damage>
+      <persName>Olofss<ex>øn</ex></persName> iij pu<ex>n</ex>d item <persName>Bondæ</persName> xvj
+      skepp<ex>er</ex> salt item <app><lem><persName>T[y]ge</persName></lem><rdg wit="#A">utydeligt, A</rdg></app> iij p<ex>und</ex> korn item Twæ Sta <app><lem><damage>..... e</damage>lss<ex>øn</ex></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> vj pu<ex>n</ex>d item <persName>Jon Smed</persName> vj pu<ex>n</ex>d item
+        <persName>Niels Reg</persName> iij pu<ex>n</ex>d ♦ Item
+        <placeName>Bekma<ex>n</ex></placeName>
+      <persName>Jes Atscerss<ex>øn</ex></persName> vj pu<ex>n</ex>d item <persName>Per
+        Wiis<ex>øn</ex></persName> j p<ex>und</ex> item <app><lem><persName>Lass[e]</persName></lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <app><lem><damage>..... Item</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <persName>Rwntwed Thomas</persName> iij pu<ex>n</ex>d ♦ Item
+        <placeName>Skordorp</placeName> Asmu<ex>n</ex>d iij p<ex>und</ex>
+      <app><lem>I[tem]</lem><rdg wit="#A">ov. l.; utydeligt, A</rdg></app>
+      <placeName>Dywrtwed</placeName>
+      <app><lem><damage>..... ex</damage>hed</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <persName>Jacob Thorss<ex>øn</ex></persName> iij p<ex>und</ex> ♦ Item i gard i
+        <placeName>Garbode</placeName>
+      <persName>Jens Willioms<ex>øn</ex></persName> j løb smør ♦ Item
+        <placeName>Gradorp</placeName>
+      <persName>Tyge</persName> ij p<ex>und</ex> ♦ Item <placeName>Mustorp</placeName>
+      <app><lem><persName>An[ders]</persName></lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <damage>.....</damage> wor th<ex>e</ex>r gaff ij p<ex>und</ex> smør ♦ Item <app><lem><placeName>[T]werstæde</placeName></lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <persName>Thorkil Jons<ex>øn</ex></persName> j løb smør <damage>.....</damage>
+      <app><lem><damage>løb</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer; del af <q>b</q> kan ses, A</rdg></app> smør item skræderen j løb smør ♦ Item <placeName>Syndale</placeName>
+      <persName>Mekel Stigs<ex>øn</ex></persName> iij p<ex>und</ex>
+      <persName>Jesse Jac<ex>obssøn</ex></persName> iij p<ex>und</ex> item <persName>P<ex>er</ex>
+        Thorberns<ex>øn</ex></persName> ij p<ex>und</ex> item <persName>Niels</persName>
+      <damage>.....</damage>
+      <app><lem><damage>i løb</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> smør ♦ Item i <placeName>Astorp</placeName>
+      <persName>Swen Jenss<ex>øn</ex></persName> iij p<ex>und</ex> item the<ex>n</ex> gard
+        <persName>Matt<ex>es</ex></persName> i bode iij p<ex>und</ex> item <app><lem>&lt;j&gt;</lem><rdg wit="#A">glemt?, A</rdg></app>
+      <app><lem>ød[æ]</lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <app><lem><damage>bo ..... skylde</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> skyldæ item skytte<ex>n</ex> j p<ex>und</ex> ♦ Item
+        <placeName>Solbergegord</placeName>
+      <persName>Anders Clauss<ex>øn</ex></persName> vj p<ex>und</ex> ♦ Item Bogistæde
+        <persName>Jac<ex>ob</ex> Skyttæ</persName> iij p<ex>und</ex> item <persName>Nicolai
+        Jenss<ex>øn</ex></persName> j p<ex>und</ex> item <app><lem><persName>[Las]</persName></lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <app><lem><damage>..... r<ex>e</ex></damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer; <q>item P</q>er <q>Tuuess</q>øn
+          herefter slettet, A</rdg></app> item <persName>Nic<ex>holai</ex> Wigelss<ex>øn</ex></persName> vj p<ex>und</ex> item
+        <persName>Matt<ex>es</ex></persName> j p<ex>und</ex> item <persName>Hwid</persName> iij
+      p<ex>und</ex> item <app><lem><persName>Jess[e]</persName></lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <damage>.....</damage>
+      <app><lem>[iiij]</lem><rdg wit="#A">utydeligt, A</rdg></app> p<ex>und</ex> ♦ Item i <placeName>Klaxtorp</placeName>
+      <persName>Nis Bos<ex>øn</ex></persName> iij p<ex>und</ex> item j ødæ gard skyldæde iij
+      p<ex>und</ex> ♦ Item i <placeName>Wigelstorp</placeName>
+      <persName>Morte<ex>n</ex></persName> vj p<ex>und</ex> item <persName>Joh<ex>annes</ex>
+        Thorkils<ex>øn</ex></persName> iij p<ex>und</ex> item <damage>.....</damage>ss<ex>øn</ex>
+      iij p<ex>und</ex> ♦ Item i Bierbysogn i <app><lem><placeName>Sne[ffr]æ</placeName></lem><rdg wit="#A">utydeligt, A</rdg></app>
+      <persName>Worm</persName> iij pu<ex>n</ex>d item <persName>Thomes
+        Wigelss<ex>øn</ex></persName> iij <app><lem>[p<ex>un</ex>d item]</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <persName>Lasse Nielss<ex>øn</ex></persName> iij p<ex>und</ex> item j ødæ gard ibidem ♦
+      Item <placeName>Saxstorp</placeName>
+      <persName>Jesse Bos<ex>øn</ex></persName> iij p<ex>und</ex> ♦ Item i
+        <placeName>Bierby</placeName>
+      <persName>Knut</persName> iij pu<ex>n</ex>d <persName>Oloff Wendebo</persName> j lob smør
+      ♦ Item i <app><lem>Raber<damage>g</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <damage>.....</damage>tboholt <persName>P<ex>er</ex> Powelss<ex>øn</ex></persName> iij
+      p<ex>und</ex> item <persName>Mekel Sky<ex>n</ex>ner<ex>e</ex></persName> iij p<ex>und</ex>
+      ♦ Item <placeName>Køgstørp</placeName>
+      <persName>Oloff Krog</persName> oc giuer j <app><lem>l[øb]</lem><rdg wit="#A">utydeligt, A</rdg></app> smør <app><lem>meth</lem><rdg wit="#A">understregning begynder ved <q>e</q>, A</rdg></app> alle thesse for<hi rend="sup">d<ex>e</ex></hi> gotzes <app><lem>tilliggælsæ</lem><rdg wit="#A">her slutter understregning, A</rdg></app> woth och twirt ænkte <app><lem>vnde<ex>n</ex></lem><rdg wit="#A">her begynder understregning, A</rdg></app> taget ♦</p>
+            <p n="a#5" xml:space="preserve"><app><lem>Thoc</lem><rdg wit="#A">understregning slutter ved <q>o</q>, A</rdg></app> so ath ære thesse for<hi rend="sup">d<ex>e</ex></hi> gotz meræ æn to delæ <app><lem><damage>so ..... s</damage>om</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> for<ex>e</ex> stor sc<ex>re</ex>uet i ræt skyld oc opbærilse tha scula to woræ wener
+      pone bode s[i]de[r tilt]agne wære mechtugæ ath tage aff mit gotz och læggæ til <persName>her
+        Andersse</persName> deel oc gør<ex>e</ex> hans gotz til een tredingh och th<ex>et</ex>
+      <app><lem>scul<damage>æ</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <app><lem><damage>.....</damage></lem><rdg wit="#A">Gammeldanske Diplomer læser <q>sculæ the tage aff ? th</q>et <q>gotz</q></rdg></app> som længst ligger fran <app><lem><placeName>Asdale</placeName></lem><rdg wit="#A">her begynder understregning, A</rdg></app> och <placeName>Knyfholt</placeName>
+      <app><lem>nest</lem><rdg wit="#A">understregning slutter ved <q>n</q>, A</rdg></app> ær . ♦</p>
+            <p n="a#6" xml:space="preserve">Men ær th<ex>et</ex> so ath <persName>h<ex>e</ex>r Anders Jeyæpsøns</persName> deel ær bædræ
+      i ræt skyld och opbærilsæ æn <app><lem>een</lem><rdg wit="#A">understregning begynder ved <q>n</q>, A</rdg></app> treding tha <app><lem>sculæ</lem><rdg wit="#A">understregning slutter ved <q>u</q>, A</rdg></app> oc wor<ex>e</ex> wenær wær<ex>e</ex> mechtugæ the som førr<ex>e</ex>
+      <app><lem><damage>.....</damage></lem><rdg wit="#A">Gammeldanske Diplomer læser <q>ære</q> ell. <q>wore til ?</q></rdg></app>
+      <app><lem>[tagne ath]</lem><rdg wit="#A">utydeligt, A</rdg></app> tage aff hans treding och lægge til minæ to delæ aff th<ex>et</ex> gotz som
+        <placeName>Knyfholt</placeName> ligg<ex>er</ex>
+      <app><lem>l[æ]ngst</lem><rdg wit="#A">utydeligt, A</rdg></app> fran och <placeName>Asdale</placeName> nest ær och gør<ex>e</ex> the to delæ so gode
+      som thøm bør m<ex>eth</ex> rættæ atwær<ex>e</ex> ♦</p>
+            <p n="a#7" xml:space="preserve">Item scal <persName>h<ex>e</ex>r Anders</persName> wederlæggæ mech <app><lem>go<damage>tz i Wendesyslæ</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> aff th<ex>et</ex> gotz han hauer nest <placeName>Asdale</placeName> liggend<ex>es</ex>
+      æfft<ex>er</ex> wor<ex>e</ex> wenis sielsæ for<ex>e</ex> the to delæ jech hauer i
+        <placeName>Togorp</placeName> i <placeName>Skonæ</placeName> ♦</p>
+            <p n="a#8" xml:space="preserve">Item sker th<ex>et</ex> oc so at wy ku<ex>n</ex>ne nogne gotz op spøriæ som
+        <persName>h<ex>e</ex>r Niels Offes<ex>øn</ex></persName> ottæ æll<ex>e</ex>r <persName>frwæ
+        Joha<ex>n</ex>næ</persName> the til <app><lem><damage>p</damage>ant</lem><rdg wit="#A">del af det indledende tegn kan ses, A</rdg></app>
+      <app><lem>s<damage>to æ</damage>ll<ex>e</ex>r</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> noger man holder os for<ex>e</ex> m<ex>eth</ex> vrætte æll<ex>e</ex>r i andre mode
+      ær<ex>e</ex> bort kompne the wy ku<ex>n</ex>ne jgen løse æll<ex>e</ex>r jgen delæ
+      æll<ex>e</ex>r i nogræ and<ex>re</ex> mode jgen fa ther sculæ wy wær<ex>e</ex> hwer
+      a<ex>n</ex>nen behulpeligæ til ♦ Och th<ex>et</ex> gotz skal komes <app><lem><damage>til skyfftæ</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> som th<ex>et</ex> bør sech aff rættæ ♦ Item ære oc nogræ and<ex>re</ex> gotz
+      vskyfftæ som ma<ex>n</ex> spøriæ kan ath <persName>h<ex>e</ex>r Niels
+        Offes<ex>øn</ex></persName> æll<ex>e</ex>r <persName>frw Joha<ex>n</ex>næ</persName>
+      <app><lem>atæ</lem><rdg wit="#A">skrevet ov. l., A</rdg></app> the gotz sculæ oc komes til skyftes som thøm bør m<ex>eth</ex> rætte e hwar the gotz
+      liggæ ♦</p>
+            <p n="a#9" xml:space="preserve">Item nar <app><lem>wo<damage>r<ex>e</ex></damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <app><lem>[wenær]</lem><rdg wit="#A">utydeligt, A</rdg></app> pone bode sider fangæ likt thesse delæ som for<ex>e</ex> stor sc<ex>re</ex>uet mech to
+      delæ och <persName>h<ex>e</ex>r Anders Jeyæpss<ex>øn</ex></persName> trediædelen tha skulæ wy
+      gør<ex>e</ex> ny skyftæbreff melløm os och ryue thesse breff sænder wy nv giffue ♦</p>
+            <p n="a#10" xml:space="preserve">Alle thesse for<hi rend="sup">d<ex>e</ex></hi> stiikke lowe wy hwer a<ex>n</ex>ner stadeligæ
+      atgør<ex>e</ex> och holde fulkomeligæ so ath th<ex>et</ex> ær jo fulkomet oc giort
+      jnne<ex>n</ex> s<ex>an</ex>c<ex>t</ex>i Mekels dagh nv nest komber ♦</p>
+            <p n="a#11" xml:space="preserve">Til hwes tings witnes byrd mit jncilæ ær for<ex>e</ex> th<ex>et</ex>tæ breff hengt
+      m<ex>eth</ex> andræ gode mæ<ex>n</ex>s jncilæ som ær<ex>e</ex>
+      <persName>h<ex>e</ex>r <app><lem>Jens</lem><rdg wit="#A">her begynder understregning, A</rdg></app> Dwes</persName> min kære <app><lem>fathers</lem><rdg wit="#A">her slutter understregning, A</rdg></app>
+      <persName>her <app><lem>Axil</lem><rdg wit="#A">understregning begynder ved <q>x</q>, A</rdg></app> Anderssøns</persName> min <app><lem>kær<ex>e</ex></lem><rdg wit="#A">her slutter understregning, A</rdg></app> swag<ex>er</ex> och <persName>h<ex>e</ex>r Lyder Kabels</persName> och
+        <persName>h<ex>e</ex>r Niels Strangessøns ridder<ex>e</ex></persName> ære och
+        <persName>h<ex>e</ex>r Jens Nielsøns p<ex>ro</ex>uest</persName> i
+        <placeName>Børlum</placeName> och <persName>h<ex>e</ex>r Jens Pæderss<ex>øn</ex>
+        p<ex>ro</ex>uest</persName> i <placeName>Westræ Wiigh</placeName> ♦</p>
+            <p n="a#12" xml:space="preserve">Giffuet aar æfft<ex>er</ex> gwds byrd twsen firehwndret pone th<ex>et</ex> nittendæ wor frowæ
+      dagh visitacionis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">288</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14350210002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3189-c, tidl. Sjælland-Møn 45</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>12.5 (plica: 1.3)</height>
+                                    <width>24.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Jens Torbenssens recognits paa Byrkinge gaardt
+        och guods 1435</q> ♦ <q>
+                                 <ex>Til højre herfor med anden hånd, overstreget</ex> Almstoffte møllæ i
+      Ringstedeh<ex>e</ex>r<ex>et</ex>
+                              </q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af brunt voks i perg.rem tilhørende Jens Torbensen
+        (Sparre), AS L lxviii 26
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Segl af brunt voks i perg.rem tilhørende Peder Tå, AS C lxiv 37
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl af brunt voks i perg.rem tilhørende Anders Pedersen
+        (Jernskæg), AS E xvi 5
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 155-56</bibl>
+               <bibl>Rep. nr. 6749</bibl>
+               <bibl>Vejledende Arkivreg. XVII 99 nr. 299</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435-02-10"
+                  notBefore="1435-02-10"
+                  notAfter="1435-02-10"
+                  cert="high">1435. 10. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Torbensen (Sparre), væbner, lejer på livstid med Roskilde kapitels samtykke
+      Birkendegård og -by (Skippinge herred) af biskop Jens i Roskilde, med det vilkår at han hvert
+      år inden kyndelmisse skal betale biskoppen 21 pund korn, halvt rug og halvt byg, af gårdens
+      afkast. Efter Jens Torbensens død skal hans arvinger beholde godset indtil næstkommende påske
+      og betale landgilden. Såfremt Jens Torbensen ikke holder de i brevet nævnte betingelser, har
+      biskoppen ret til at tage gården tilbage.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-05" who="#pbh">Filen etableret af #pbh 2013-11-05. </change>
+         <change when="2019-12-11" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-12-11. </change>
+         <change when="2020-03-13" who="#pbh">2. korrektur af #pbh 2020-03-13. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn th<ex>ette</ex> b<ex>re</ex>ff see eller høre helsser jek <persName>Jens
+        Thorbørnss<ex>øn</ex></persName> aff wapn ewi<ex>n</ex>neligh m<ex>eth</ex> gudh ok giør
+      widerlicht m<ex>eth</ex> th<ex>et</ex>te myt opnæ b<ex>re</ex>ff mik j leyæ at haffue
+      ana<ex>m</ex>m<ex>et</ex> æfft<ex>er</ex> hieth<ex>e</ex>rlicht capitels wilghe oc
+      sa<ex>m</ex>thicke j Rosk<ex>ilde</ex> aff hieth<ex>e</ex>rlicht fath<ex>e</ex>r bescop Jens
+      bescop j Rosk<ex>ilde</ex> gotz som ær <placeName>Byrkynghe</placeName> gardh oc
+        <placeName>Byrkynghe by</placeName> swa længæ som jek lew<ex>er</ex> m<ex>eth</ex>
+      agh<ex>e</ex>r oc æng skow oc fyske wadn wat oc thywrt hwat th<ex>e</ex>r helst till
+      ligg<ex>er</ex> ænkte wndertag<ex>et</ex> vden bescops tyndæn oc ondeleghe sagh<ex>e</ex>r
+      m<ex>eth</ex> swa dant skell at jek for<hi rend="sup">de</hi> hieth<ex>e</ex>rligh
+      fath<ex>e</ex>r eller hans efft<ex>e</ex>r ko<ex>m</ex>me<ex>re</ex> th<ex>e</ex>r aff giwe
+      skal eet oc tywe pu<ex>n</ex>d korn halfft rwgh oc halfft bygh oc yd<ex>et</ex> j
+        <placeName>Rosk<ex>ilde</ex></placeName> hw<ex>er</ex>t aar jnden kyndelmøsse ♦</p>
+            <p n="a#2" xml:space="preserve">Item schal <app><lem>jek</lem><rdg wit="#A"><q>jek</q> herefter slettet, A</rdg></app> ey wær<ex>e</ex> for<hi rend="sup">de</hi> bescop <persName>Je<ex>n</ex>sse</persName>
+      kyrke ell<ex>e</ex>r hans klerkery amod j nagh<ex>e</ex>r wræt sagh oc skal jek for<hi rend="sup">de</hi> gotz halde byght oc besat æfft<ex>er</ex> myn macht oc enghen mækthig man
+      skal jek th<ex>et</ex> lade vden for<hi rend="sup">de</hi> bescop
+        <persName>Je<ex>n</ex>sse</persName> my<ex>n</ex>ne ♦</p>
+            <p n="a#3" xml:space="preserve">Item naar jek aff gang<ex>er</ex> oc døth er tha skule myne arwi<ex>n</ex>ge behalde for<hi rend="sup">de</hi> gotz til næste pasche efft<ex>er</ex> myn døth oc betale landgildet oc
+      føræ ther<ex>e</ex>s aff oc antwordhæ tha fran th<ex>e</ex>m gardh oc gotz m<ex>eth</ex>
+      bigni<ex>n</ex>g oc bethring som th<ex>et</ex> tha fyndes ♦</p>
+            <p n="a#4" xml:space="preserve">Wordhe th<ex>et</ex> oc swa at jek thesse article jcke hwlde tha skal for<hi rend="sup">de</hi> bescop <persName>Je<ex>n</ex>s</persName> æll<ex>e</ex>r ha<ex>n</ex>s
+      efft<ex>er</ex>ko<ex>m</ex>mer<ex>e</ex> haffwe fwld macht for<hi rend="sup">de</hi> gardh oc
+      gotz igen at taghe vden nagh<ex>e</ex>r mantz hynd<ex>e</ex>r ♦</p>
+            <p n="a#5" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis nobilium virorum <persName>Petri
+        Taa</persName> et <persName>Andree Petri</persName> armigerorum presentibus est appensum
+      ♦</p>
+            <p n="a#6" xml:space="preserve">Datum anno domini mcdxxxquinto die sancte Scolastice virginis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">99</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14321112002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Danzig</settlement>
+                        <repository>Stadtarchiv zu Danzig (nu Gdansk, Archiwum Panstwowe w Gdansku)</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>fol. 101b-103b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4982</bibl>
+               <bibl>Hanserec. 2:I, nr. 153, p. 104-105 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-11-12"
+                  notBefore="1432-11-12"
+                  notAfter="1432-11-12"
+                  cert="high">1432. 12. november</date>
+            <placeName cert="high">Elbing</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Reces fra de preussiske stæders møde i Elbing.</ab>
+            <ab>Heri meddeles det, at højmesteren for Den Tyske Orden i to år vil give lejde til alle, såvel
+      dem, der har tjent hansestæderne, som dem, der har tjent i Danmark.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-10" who="#pbh">Filen etableret af #pbh 2013-10-10. </change>
+         <change when="2020-01-21" who="#smb">1. korrektur af #smb 2020-01-21. </change>
+         <change when="2020-05-05" who="#smb">2. korrektur af #smb 2020-05-05. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Anno Domini 1482 feria quarta post festum sancti Martini pontificis domini nunccii consulares
+      terre Prusie, scilicet: de <placeName>Culmen</placeName>
+      <persName>Johannes Stercz</persName>, <persName>Johannes Palsat</persName>; de
+        <placeName>Thorun</placeName>
+      <persName>Nicolaus Gelin</persName>, <persName>Johann Huxer</persName>, <persName>Johannes
+        Rubiit</persName>, <persName>Nicolaus Zehenmarke</persName>; de
+        <placeName>Elbingo</placeName>
+      <persName>Tydeman Nase</persName>, <persName>Nicolaus Medderigk</persName>, <persName>Hinricus
+        Halbwachsen</persName>, <persName>Petrus Storm</persName>, <persName>Johannes
+        Sonnenwalde</persName>; de <placeName>Brunszberg</placeName>
+      <persName>Nicolaus von Rudolffzhoven</persName>, <persName>Jacobus Herder</persName>; de
+        <placeName>Koningszberg</placeName>
+      <persName>Michael Mathis</persName>, <persName>Johannes Langerbeyn</persName>,
+        <persName>Johannes H{ae}cke</persName>, <persName>Paulus Schadewinkel</persName>; de
+        <placeName>Danczik</placeName>
+      <persName>Nicolaus Rogge</persName>, <persName>Lucas Mekelfeld</persName>, <persName>Henricus
+        Vorrath</persName>, <persName>Bertoldus Burammer</persName> et <persName>Wilhelmus
+        Wintervelt</persName>, in <placeName>Elbingo</placeName> ad placita congregati subscriptos
+      articulos pertractarunt.</p>
+            <p n="a#2" xml:space="preserve">[.....]</p>
+            <p n="a#3" xml:space="preserve"><supplied>6</supplied> Item wil unser herre homeister <persName>Bartholomeus Fusz</persName>,
+        <persName>Klockener</persName> und syne geselschafft, die bie den steten in eren krigen
+      gewest syn, und desglichen die in <placeName>Dennemarken</placeName> seyn, geleiten 2 jare
+      noch enander, so das die sicher und frey her komen und hir seyn mogen; und wurdes nottorft
+      erkant, sy vorbas czu geleiten, unser herre wordes vorlengen. Und disselbe haben die stete dis
+      landes den hern von <placeName>Danczik</placeName> befolen, von irer wegen eyn entwert czu
+      vorscriben</p>
+            <p n="a#4" xml:space="preserve">[.....]</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

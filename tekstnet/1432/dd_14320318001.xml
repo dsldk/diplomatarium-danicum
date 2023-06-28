@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">515</num>, paragraphs: <num n="paragraphs">12</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14320318001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Danzig</settlement>
+                        <repository>Stadtarchiv zu Danzig (nu Gdansk, Archiwum Panstwowe w Gdansku)</repository>
+                        <collection>Missive II</collection>
+                        <idno>fol. 38b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Also hot men dem couffmanne czu Brugge gescreven von den 4 leden
+        und von der zegelacien etcetera</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4948</bibl>
+               <bibl>Hanserec. 2:I, nr. 105, p. 71-72</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-03-18"
+                  notBefore="1432-03-18"
+                  notAfter="1432-03-18"
+                  cert="high">1432. 18. marts</date>
+            <placeName cert="low">Danzig</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Danzig meddeler hansestædernes kontor i Brugge, at kong Erik 7. af Pommern har
+      beslaglagt to engelske skibe, og at der er udliggere på havet.</ab>
+            <ab>Endvidere meddeler rådet i Danzig, at kong Erik har været i Sverige, og at han dér har fået
+      løfte om militærhjælp.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-04" who="#pbh">Filen etableret af #pbh 2013-10-04. </change>
+         <change when="2020-01-03" who="#smb">1. korrektur af #smb 2020-01-03. </change>
+         <change when="2020-05-04" who="#smb">2. korrektur af #smb 2020-05-04. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Post salutem.</p>
+            <p n="a#2" xml:space="preserve">Ersamen leven vrunde.</p>
+            <p n="a#3" xml:space="preserve"><app><lem>Juwe</lem><rdg><q>Juw</q>, Aa</rdg></app> breve, uns negest bii <persName>Krusen</persName> dem loper gesandt, hebben wii
+      gutliken entfangen und wol vornomen.</p>
+            <p n="a#4" xml:space="preserve">Darinne gii schriven, dat juw van den veer leden des landes van
+        <placeName>Vlanderen</placeName> in des copmans privilegien etlik wedderstall und hinder
+      geschut etcetera, dat uns doch leet is und, God kennet, ungerne horen, wodoch, na deme zo de
+      ding nu gelegen syn, zo mot men <app><lem>darmede</lem><rdg><q>darme</q>, Aa</rdg></app> liiden tor tiid id God betert.</p>
+            <p n="a#5" xml:space="preserve">Unde alse gii vort beroren, juw wedder to vorschriven, wo uns gut dunket upp dat vorjar mit
+      der zegelacien to holden etcetera.</p>
+            <p n="a#6" xml:space="preserve">Leven vrunde, vor uns synt gewesen etlike schippers van unsen med{ee}borgers und hebben der
+      geliken ok van uns begeret, efte se ere schepe vorfrachten und toreden mogen to zegelen, also
+      hebben wii de zulve zake in unse beraed genomen und hebben dat sulve p{oe}nt mit der
+      utschrifft juwes breves den anderen steden disses landes vorschreven, se biddende, uns mit den
+      ersten ere gutdunken wedder darvan to vorkundigen, so dat wii uns vormoden, dat bynnen kort de
+      stede disses landes umme sulker und ander zake willen sik mogen vorgadderen edder <app><lem>werden</lem><rdg><q>werden werden</q>, Aa</rdg></app> uns bynnen kort ere gutdunken und raed daervan vorschriven.</p>
+            <p n="a#7" xml:space="preserve">Wes denne van sulken zaken gescheen und vor dat beste erkant wert, willen wii juw mit den
+      ersten boden, den wii denne gehebben mogen, vorschriven.</p>
+            <p n="a#8" xml:space="preserve">Vorder, leven vrunde, willet weten, dat am negest vergangenen <app><lem>sonnavende</lem><rdg>dvs. 15. marts 1432</rdg></app> eyn boeth ut <placeName>dem Sunde</placeName> hir in <placeName>die Wysle</placeName>
+      is gekomen mit 13 schipmans, de uns seggen, <app><lem>dat</lem><rdg><q>dat dat</q>, Aa</rdg></app> de koning 2 schepe, de ute Engeland syn gekomen mit den guderen im Sunde hebbe
+      beholden, dar wol 200 terlinge laken solen inne gewest sin, de alle, alse wii horen, syn
+      vordelet, und darto so is dar ok eyn schipp, dat geleide hadde, im Sunde gebleven, dar de
+      gudere en deell van geberget sin. Dat sulve schipp mit etliken guderen hir to husz behoret, de
+      de koning ok hefft laten nemen, und, alse uns dunket, darvan nicht wil wedergeven. Und de
+      sulven gesellen hebben uns vorder berichtet, dat de koning etlike schepe leth bemannen und
+      hovetlude darin settet, de in de zee solen leggen und nemen, wes se bekrefftigen und krygen
+      konen, id syn wat lude, dat id syn.</p>
+            <p n="a#9" xml:space="preserve">Ok so hebbe wii hir warhafftichlik vorfaren, dat de koning is gewesst in
+        <placeName>Sweden</placeName> und hefft dar mit den Sweden eynsgedregen, so dat se em to
+      siner hulpe werden volgen und riiden, und, alse wii vornemen, so sin alrede endeels van den
+      Sweden over in <placeName>Dennemarken</placeName> gekomen, und dat de koning, alse uns dunket,
+      de ding mit ernste menet antogriipen.</p>
+            <p n="a#10" xml:space="preserve">Also, leven vrunde, dat uns na allen vorscreven zaken und na allen, dat wii vornemen, dunket,
+      dat id uppt vorjar tomale ovel und varlik in der zee und sunderliken im Sunde staen wil,
+      hirumme so is id wol van noden, juw und uns allen, de ding also to bedenken und to besynnen,
+      dat men dat also bestellen und ordiniren mochte, dat de lude to sulkem groten schaden und
+      vorderve nicht, en qwemen.</p>
+            <p n="a#11" xml:space="preserve">Hirumme wille wii juw van den vorscreven zaken mit den ersten, dat wii mogen, eyn antwerde
+      vorschriven.</p>
+            <p n="a#12" xml:space="preserve">Scriptum feria tercia post dominicam reminiscere, anno etcetera 32.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

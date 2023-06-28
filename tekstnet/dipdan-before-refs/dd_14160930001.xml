@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">159</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14160930001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift iflg. Aa: <q>Littera super fundo in Saltboær emto de Areld
+        Serlin</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Iflg. Langebek var afskriften foretaget efter <q>Orig. membr. mutil. af vor
+        Frue Kirkes Archiv 1750</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5608</bibl>
+               <bibl>Reg. *4385</bibl>
+               <bibl>Københavns Dipl. I 136 nr.99</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-09-30"
+                  notBefore="1416-09-30"
+                  notAfter="1416-09-30"
+                  cert="high">1416. 30. september</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Alard Zarnin skøder Arild Klementsen, kantor i København, en grund i Saltboderne i Skt.
+      Peders sogn i København.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-18" who="#pbh">Filen etableret af #pbh 2014-03-18. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-04-07" who="#alk">2. korrektur af #alk 2017-04-07. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Allæ mæn, thettæ breff see aller høræ læsæ, helser <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med otte prikker markeret en lakune i A, Aa</rdg>
+               </app> meth guth. ♦</p>
+            <p n="a#2">Kungør jæch allæ mæn so wæl the nw <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med elleve prikker markeret en lakune i A, Aa</rdg>
+               </app> saalt, meth min husfrwes gothæ wiliæ <persName>Mettæ</persName>, een hetherlig <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med syv prikker markeret en lakune i A, Aa</rdg>
+               </app>
+               <persName>Clemetssøn</persName>, <placeName>cantor i Køpnæhafn</placeName>, een grund
+      liggendis <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med syv prikker markeret en lakune i A, Aa</rdg>
+               </app> i <placeName>sanctæ Pæthers sogn</placeName>, for tolff løthig marc, hwilke han hauer
+      betalet <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med fire prikker markeret en lakune i A, Aa</rdg>
+               </app>, so ath megh nøgher i allæ madæ, oc skøder oc antworther <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med fire prikker markeret en lakune i A, Aa</rdg>
+               </app> till ewinnelighe æye, hwilken grund min husfrwes førmeer husbonde <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med tre prikker markeret en lakune i A, Aa</rdg>
+               </app>
+               <persName>Smyth</persName>, hwes syæl guth hauæ, lowlighæ køptæ aff <persName>Jens
+        Olafsøn</persName> ther aff <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med tre prikker markeret en lakune i A, Aa</rdg>
+               </app>, oc gaff hennæ meth anneth gotz till gengiald for sit fæthernæ gotz. ♦</p>
+            <p n="a#3">Fremdeles <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med fire prikker markeret en lakune i A, Aa</rdg>
+               </app> jægh megh till och minæ arwingæ meth thettæ myt opnæ breff fornefndæ her <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Her er med tre prikker markeret en lakune i A, Aa</rdg>
+               </app> Clemetssøn oc hans arwingæ then fornefndæ grund at heemlæ oc at frii for hwers mantz
+      tiltalæ efter lantz lagh. ♦</p>
+            <p n="a#4">Til hwes things widneburd hauer jægh hænkt myt jnciglæ for thettæ breff meth gothæ mentz
+      jnciglæ, som ær, <persName>Jens Olaffsøns</persName> aff wapn, <persName>Ingwar
+        Andersøns</persName>, oc <persName>Aghæ Rafns</persName>, <placeName>rathmen i
+        Roskildæ</placeName>. ♦</p>
+            <p n="a#5">Giuæth vnder wors herræ aar thusendæ aar firæ hunderth aar pa thet siæxtændæ, then othensdagh
+      næst efter sanctæ Michels dagh. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster</p>
+         </div>
+      </body>
+   </text>
+</TEI>

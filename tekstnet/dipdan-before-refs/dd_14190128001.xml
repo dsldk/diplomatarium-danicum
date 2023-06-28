@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">288</num>, paragraphs: <num
+               n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14190128001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Omtalt i Reg. over Breve i Lunde Kapitels Arkic (1425 og senere), trykt i ÆA V 150 nr. I. 13; registreret i Stockholm. Riksarkivet. B 29
+                           (Skånebrevsfortegnelsen), Specifikation, acta privata nr. 211</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>RA 0201 Codices</collection>
+                        <idno>A 11 (tidl. A 20) s. 103</idno>
+                        <msName>Lundebogen</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Tercia littera</q> (se <ref
+                              target="14121106002">DD 1412. 6. nov., nr.
+                              14121106002</ref>)</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5747</bibl>
+               <bibl>Svenskt Dipl. III 409</bibl>
+               <bibl>SDHK nr. 19213</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-01-28" notBefore="1419-01-28" notAfter="1419-01-28" cert="high">1419.
+               28. januar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Reineke von Bogel, borger i Malmø, erkender at have solgt Jens Jensen, præst i
+               Borgeby, en bod i Malmø og at have modtaget fuld pris herfor.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-10" who="#pbh">Filen etableret af #pbh 2014-04-10. </change>
+         <change when="2019-09-04" who="#pbh">1. korrektur af #pbh 2019-09-04. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis et singulis . presentes litteras inspecturis <persName>Reygnekinus
+                  de Bøghelen</persName> willanus Malmøghe salutem in domino sempiternam ♦</p>
+            <p n="a#2">Ad omnium et singulorum quorum interest seu interesse poterit in futurum
+               deducere cupio per presentes / me honorabili viro domino <persName>Johanni
+                  Johannis</persName> presbitero <app>
+                  <lem>in</lem>
+                  <rdg>herefter slettet <q>le</q> Aa</rdg>
+               </app>
+               <placeName>Borgheby</placeName>
+               <app>
+                  <lem>quandam</lem>
+                  <rdg>herefter slettet <q>curiam</q> Aa</rdg>
+               </app> . tabernam septem ulnas cum uno quarter a <placeName>terra Gynteri</placeName>
+               et sic versus orientem in longitudine continentem et xvi ulnas a platea generali et
+               sic versis boream in curiam mensurando in qua curia <persName>Henningus
+                  Bønesach</persName> pronunc inhabitat inter tabernas institorum
+                  <placeName>Malmøghe</placeName> sitam . quam quidem tabernam a dilecto convillano
+               meo <persName>Johanne de Kolne</persName> legaliter comparavi prout in <cit>
+                  <quote>apertis litteris</quote>
+                  <bibl>= <ref target="14181026001">DD 1418. 26. okt., nr. 14181026001</ref></bibl>
+               </cit> Johannis de Kolne plenius continetur . una cum fundo . structura . terrarum
+               spacio ad dictam curiam pertinentibus pro pleno et sufficienti precio . ut reddo me
+               contentum . vendidisse . scotasse . et in manus suas libere resignasse . jure
+               perpetuo possidendam ♦</p>
+            <p n="a#3">Quapropter . omnem proprietatem jus et dominium <app>
+                  <lem>que</lem>
+                  <rdg>herefter slettet <q>meu</q> Aa</rdg>
+               </app> michi et meis heredibus in dicta taberna hucusque aliqualiter pertinebant una
+               cum litteris apertis michi super ea collatis in ipsum dominum Johannem presbiterum
+               supradictum et suos heredes . a me et meis heredibus transfero pariter et resigno
+               obligans me et meos heredes firmiter in hiis scriptis / predicto domino Johanni
+               Johannis presbitero et suis heredibus . predictam tabernam cum omnibus et singulis
+               ipsius taberne ut premittitur pertinenciis . apropriare . disbrigare et deliberare .
+               prout exigunt leges terre . pro et ab impeticione et alloqucione omnium et singulorum
+               . ♦</p>
+            <p n="a#4">In cujus rei testimonium . sigillum meum et convillani mei dilecti Henningi
+               Bønesek de cujus consilio et assensu . predictam tabernam vendidi . una cum sigillis
+               virorum discretorum videlicet . <persName>Magni Baad</persName> . <persName>Johannis
+                  Petri</persName> proconsulum <placeName>Lundensium</placeName> . dominorum
+                  <persName>Westonis Pauli</persName> . <persName>Thorstani Achonis</persName>
+               presbiterorum ibidem et <persName>Benedicti Nicolai</persName> . notarii curie
+               Lundensis . presentibus sunt appensa . ♦</p>
+            <p n="a#5">Datum <placeName>Lundis</placeName> . anno domini mcdxix<hi rend="sup">o</hi>
+               . sabbato proximo post festum conversionis . beati Pauli ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

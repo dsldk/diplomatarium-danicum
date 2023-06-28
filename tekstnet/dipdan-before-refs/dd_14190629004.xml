@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">222</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14190629004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2690-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16.1 (plica: 1.6)</height>
+                                    <width>24.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Plica udfoldet i højre side</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Skrevet m. samme hd. som DD 1422. 12. maj, nr. 14220512001</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>panthebreff om Sorby</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 41</bibl>
+               <bibl>Rep. nr. 5786</bibl>
+               <bibl>Svenskt Dipl. III 463 nr. 2650 (= SDHK nr. 19305)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-06-29"
+                  notBefore="1419-06-29"
+                  notAfter="1419-06-29"
+                  cert="high">1419. 29. juni</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Poul Felaxsen pantsætter sin fædrenegård i Sörby i Vessige sogn i Halland til hr. Sven
+      Sture, ridder, for fire lødige mark. Gården kan indløses på den næst kommende sankthansdag
+      eller på den derefter følgende, på det vilkår at landgilden ikke skal modregnes i gældens
+      hovedstol.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-14" who="#pbh">Filen etableret af #pbh 2014-04-14. </change>
+         <change when="2018-01-17" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-01-17. </change>
+         <change when="2018-03-21" who="#alk">2. korrektur af #alk 2018-03-21. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alla the mæn som th<ex>et</ex>ta b<ex>re</ex>ff see ell<ex>e</ex>r høra helsar iak
+        <persName>Paual Fælaxss<ex>øn</ex></persName> kærlika m<ex>ædh</ex> gudh ♦
+      Kæ<ex>n</ex>nis iak th<ex>et</ex> wppinbarlika m<ex>ædh</ex> th<ex>et</ex>ta mith næruarandis
+      opith b<ex>re</ex>ff th<ex>et</ex> iak m<ex>ædh</ex> retthe with<ex>e</ex>rlike skil
+      gælskildogh ær ærlikom ok wælbirdogom man h<ex>er</ex>ra Suen Stwr<ex>e</ex> riddh<ex>e</ex>r
+      jjjj lødogh mark r<ex>e</ex>dho pænigha ♦ For hulka pæni<ex>n</ex>gha iak
+      ha<ex>n</ex>no<ex>m</ex> thil panth sæth<ex>e</ex>r mi<ex>n</ex> fædirnis gardh i
+        <placeName>Sorby</placeName> i <placeName>Hallandh</placeName> i <placeName>Wæsøgis
+        sokn</placeName> ligiandhe ok thil ath<ex>e</ex>r løsn nw wm s<ex>anc</ex>ta Johannes
+      baptista dagh nw næsth komandhe ær<ex>e</ex> ell<ex>e</ex>r ok th<ex>e</ex>n s<ex>anc</ex>ta
+      Johannes baptista dagh som th<ex>e</ex>r epth<ex>e</ex>r komb<ex>er</ex> ok ingin
+      a<ex>n</ex>nar thid for<ex>e</ex> sagdh ath ath<ex>e</ex>r løsa wthan pa s<ex>anc</ex>ta
+      Johannes baptista dagh m<ex>ædh</ex> sua danth wilkor ath inthe skal aff sla aff <app><lem>hw[o]dh</lem><rdg wit="#A">usikker læsning af <q>o</q>, A</rdg></app> gældith for<ex>e</ex>
+      <app><lem>th<ex>et</ex></lem><rdg wit="#A"><q>et</q>-abbr. skrevet over et andet tegn?, A</rdg></app>
+      <app><lem>landhgille</lem><rdg wit="#A">på rasur, hvor der tidligere er skrevet <q>h[w]f[fw]dh g[...]</q>, A</rdg></app> som han th<ex>e</ex>r wp bær aff ♦</p>
+            <p n="a#2" xml:space="preserve">Ok forbiudh<ex>e</ex>r iak nakar man ath beuara sik mædh th<ex>et</ex>ta for<hi rend="sup">da</hi> goz wthan for<hi rend="sup">na</hi> h<ex>er</ex>ra <persName>Suen
+        Stur<ex>e</ex></persName> sua længhe ath han sina pæni<ex>n</ex>gha i geen haffu<ex>er</ex>
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Ok thil thes mere wisso ok høgre foruaringh hengh<ex>e</ex>r iak for<hi rend="sup">ne</hi>
+      <persName>Paual Fælakxss<ex>øn</ex></persName> mith incigle for th<ex>et</ex>ta b<ex>re</ex>ff
+      ♦ Ok thil withnisbirdh bedhis iak erlika ma<ex>n</ex>na incigle som ær <persName>Jouan
+        Helgass<ex>øn</ex></persName> ok <persName>Albrikth Kromedik</persName> m<ex>ædh</ex> mith
+      egith ♦</p>
+            <p n="a#4" xml:space="preserve">Scriptum <app><lem>Haffnis</lem><rdg wit="#A"><q>Hamnis</q>, Gammeldanske Diplomer; <q>Haunie(?)</q>, Svenskt Dipl</rdg></app> anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xix<hi rend="sup">o</hi> die apostolorum Petri et Pauli ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
