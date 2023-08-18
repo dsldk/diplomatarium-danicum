@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>,
+                paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2023</date>
+            <idno type="dd">14270228001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2023, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Altes Senatsarchiv (ASA), Externa, Danica</collection>
+                        <idno>1013</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Adressepåskrift: <q>Honorabilibus ac circumspectis viris,
+                                            dominis proconsulibus et consulibus civitatum
+                                            Lubicensis, Hamborgensis, Rozstock, Stralessunde, Wismar
+                                            et Luneburgensis proxime congregandis, amicis nostris
+                                            dilectis</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rester efter segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL VII 4 nr. 6</bibl>
+               <bibl>Hanserec. 1:8 77 nr. 111 (regest)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter UBStL l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-02-28"
+                  notBefore="1427-02-28"
+                  notAfter="1427-02-28"
+                  cert="high">[1427]. 28. februar</date>
+            <placeName cert="high">Brugge</placeName>
+         </creation>
+         <abstract>
+            <ab>Borgmestre, foged, magistrater og rådmænd i Gent, Brugge, Ieper og Franc de
+                    Bruges meddeler de vendiske stæder, at de har modtaget deres meddelelse om
+                    krigserklæringen mod kong Erik 7. af Pommern og hans undersåtter, og erklærer, at
+                    de vil have de vendiske stæders påbud i erindring.</ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-11-12" who="#pbh">Fil oprettet, tekst indskrevet, regest og arkivalske oplysninger indført</change>
+         <change when="2018-11-12" who="#pbh">Korrekturlæst af #smb</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Honorabiles domini, amici singulares. </p>
+            <p>Litteras vestras sub data diei sancte Elizabeth ultimo
+                            preteriti<ref target="drb1"/> nos recepisse noveritis, causas et motiva, quibus ad bella cum
+                        <persName>illustrissimo principe Dacie, Zwecie, Norwegie etc.
+                        rege</persName> et subditis suis convenistis, continentes, requirentes, ne
+                    predicta regna aut eorundem districtus frequentemus, neve in navigiis subditorum
+                    predictorum bona aliqua oneremus aut cum eisdem negotiemur cum intimatione,
+                    quod, si aliqua hujusmodi occasione subditis hujus patrie dampna inferrentur,
+                    vos nullatenus inde velle moneri. </p>
+            <p>Quocirca, honorabiles viri, amici singulares, dissentioni ac discordie vestris ex
+                    intimis cordis condolentes amicitiis vestris significamus, nos in tempora futura
+                    continentiam earundem litterarum vestrarum libenti animo in memoriam habituros,
+                    deprecantes altissimum, ut vos feliciter custodire dignetur. </p>
+            <p>Scriptum <placeName>Brugis</placeName>, sub sigillo ad causas ejusdem ville pro
+                    nobis omnibus, die ultima Februarii. </p>
+            <p>Burgimagistri, advocatus, scabini et consules villarum Gandensis, Brugensis,
+                    Yprensis ac territorii franci officii partium Flandrie, presencialiter in dicta
+                    villa Brugensi congregati, vobis parati.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               I perioden frem til 30. juni 2021 vil redaktionen udelukkende
+                        udarbejde tekster.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

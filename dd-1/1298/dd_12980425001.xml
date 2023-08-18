@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>DD nr. 12980425001</title>
+            <editor>Franz Blatt</editor>
+            <editor>C.A. Christensen</editor>
+            <editor role="translator">C.A. Christensen</editor>
+            <editor role="digital_version">Sebastian Møller Bak</editor>
+            <editor role="digital_version">Markus Hedemann</editor>
+            <editor role="digital_version">Anders Leegaard Knudsen</editor>
+            <editor role="digital_version">Andrea Stengaard</editor>
+            <editor role="data_engineer">hansen_thomas_1977</editor>
+            <editor role="contributor">Niels Grotum</editor>
+            <editor role="contributor">Carsten Pape</editor>
+            <funder>A.P. Møller og Hustru Chastine Mc-Kinney Møllers Fond til almene 
+                                Formaal</funder>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date when="2023-06-01">2023</date>
+            <idno type="dd">12980425001</idno>
+            <idno type="dd_serialno">305</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2023, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier/>
+                     <physDesc>
+                        <p>
+                           <hi rend="italic">A</hi>: Vatikanarkivet, Oblig. 1 f.7v. Tilføjet i margen <hi rend="italic">Soluit</hi>. </p>
+                     </physDesc>
+                     <history>
+                        <ab/>
+                     </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>
+                              <hi rend="italic">Tryk</hi>: Bull. Dan. 798 nr. 907.  Dipl. Dan. <ref type="facslink" target="dd_02-04/4485719.webp">2. rk. IV nr. 305</ref>; DRB. <ref type="facslink" target="drb_02-04/4511528.webp">II:4 nr. 305</ref> (<hi rend="italic">i oversættelse</hi>).</bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+               <witness xml:id="DD">
+                  <bibl>
+                     <title>Diplomatarium
+                                            Danicum</title> 2. rk. IV nr. 305. København <date when="1942-01-01">1942</date>.</bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab/>
+         </samplingDecl>
+         <projectDesc>
+            <ab>Digitalisering af Diplomatarium Danicum og Danmarks Riges Breve
+                                2021-2022</ab>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date cert="high" when="1298-04-25"> 1298. 25. april 
+               <note/>
+            </date>
+            <placeName>Rom </placeName>
+         </creation>
+         <abstract>
+            <ab> Biskop Peder af Viborg har lovet at betale servispenge til kurien (notits i de
+                  pavelige regnskabsbøger). </ab>
+         </abstract>
+         <langUsage>
+            <language ident="nil"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>diplom</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change n="0.1" when="2021-11-01">Draft version of text. – Thomas
+                            Hansen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="base_text" xml:lang="nil">
+            <p rend="center"> Die xxv dicti mensis. </p>
+            <p> Episcopus Vibergensis promisit soluere pro communi seruitio pape et collegii xvi
+                  cardinalium vi centum Florenos auri et duo consueta seruitia familiarium eorundem
+                  ad kalendas augusti proxime futurum. </p>
+            <div type="app">
+               <p> 19 dicti mensis = aprilis mccxcviii. </p>
+               <p> 20 Vibergensis] Vicbergensis <hi rend="italic">A</hi>. </p>
+            </div>
+         </div>
+         <div type="tran_text" xml:lang="ynda">
+            <p> Den 25. i nævnte Maaned<ref target="drb1"/>. Bispen af Viborg har lovet at betale
+                  Paven og de 16 Kardinalers Kollegium 100 Guldfloriner som servitium commune<ref target="drb2"/>, og deres Tjenerskab to af de gængse Servitier<ref target="drb3"/> til førstkommende 1. August. </p>
+            <div>
+               <div type="nts">
+                  <p n="drb1"> April. </p>
+                  <p n="drb2"> servitium commune var Navnet paa en Afgift, som Ærkebisper, Bisper og
+                  Abbeder, naar de udnævntes eller stadfæstedes af Paven, maatte udrede til det
+                  pavelige Kammer. Den udgjorde en Tredjedel af det Beløb, hvortil Embedets aarlige
+                  Indtægt var takseret, hvilket Beløb var væsentlig lavere end den virkelige
+                  Indtægt, som oftest vistnok ca. Halvdelen af den. Afgiften deltes lige mellem
+                  Paven og Kardinalerne. </p>
+                  <p n="drb3"> der var ellers fem saadanne Smaaafgifter (servitia minuta), af hvilke de
+                  fire tilfaldt Pavens, det femte Kardinalernes Tjenerskab. </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

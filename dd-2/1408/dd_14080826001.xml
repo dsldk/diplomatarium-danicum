@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="th">
+                  <persName>
+                     <forename type="first">Thomas</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>. Translation, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2010</date>
+            <idno type="dd">14080826001</idno>
+            <idno type="isbn">nil</idno>
+            <idno type="dd-4">08-098-3</idno>
+            <idno type="dd-4-lbnr">385</idno>
+            <idno type="dd-4-kartotek">98,3</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2011, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Geheimes Staatsarchiv; tidl. Königsberg
+                           Staatsarchiv</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Hauptabt. XX. Ordensfol. 140</msName>
+                        <msName>Tresslerbuch f. 258r</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <width>0</width>
+                                    <height>0</height>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Indførelsen er den 14. i første halvspalte med overskrift:
+                                 <q>Fflinst</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc> &lt;!-- Königsberg Staatsarchiv (nu Berlin, Geheimes Staatsarchiv.
+                  Hauptabt. XX. Ordensfol. 140). Tresslerbuch f. 258r. Indførelsen er den 14. i
+                  første halvspalte med overskr. Fflinst. Notitsen er indført i regnskabet under
+                  året 1408. Svenskt Dipl. II 77 nr. 1023; Joachim, Das Marienburger Tresslerbuch
+                  500. --&gt; </witness>
+            </listWit>
+            <listBibl>
+               <bibl> Svenskt Dipl. II 77 nr. 1023; Joachim, Das Marienburger
+                              Tresslerbuch 500</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-4</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date cert="high" notBefore="1408-08-26" notAfter="1408-08-26"> 1408. 26. august<ref target="drb1"/>
+            </date>
+            <placeName cert="high">empty</placeName>
+         </creation>
+         <abstract>
+            <ab>Notits i højmesterens regnskabsbog om udbetaling for herberg til
+                           danske riddere og sendebude.</ab>
+         </abstract>
+         <langUsage>
+            <language ident="gmh"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>regnskab</term>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-02-02T14:19:08.069+01:00" who="#th"> Filen etableret af #th
+            2011-02-02T14:19:08.069+01:00</change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p>Item iiii marc ii scot vor die denissche ritter vnd sendeboten vs der herberge
+               czulossen von des meisters geheisse ♦ <app>
+                  <lem>hartung</lem>
+                  <rdg>herefter gennemstreget <q>his</q> A</rdg>
+               </app> nam das gelt/ am sontage noch Bartolomei.</p>
+         </div>
+         <div xml:lang="da">
+            <p> Fremdeles 4 mark 2 scot for at betale herberget for de danske riddere og sendebude
+               på mesterens befaling. Hartung tog pengene søndag efter Bartolomei. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

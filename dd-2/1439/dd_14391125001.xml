@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">386</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14391125001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3322-c (tidligere RA. Reg. 86 A, nr. 10)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>13 (plica: 2)</height>
+                                    <width>26.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift: <q>Impignoratio Haxstede et Judbeke per Went Fresen
+      facta</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Wendt Henriksen Frese, segl i brunt voks, i perg.rem, AS Lxxij 40
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Henrik Frese, borgmester i Flensborg, segl i brunt voks, i
+        perg.rem, AS Lxxij 39
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 7047</bibl>
+               <bibl>Dipl. Flensborg., bd. I, p. 501-502</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1439-11-25"
+                  notBefore="1439-11-25"
+                  notAfter="1439-11-25"
+                  cert="high">1439. 25. november</date>
+            <placeName cert="low">[Flensborg]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Wendt Henriksen Frese (til Arlevad) pantsætter to gårde i landsbyen Haksted i Ugle herred
+      og to gårde i landsbyen Jybæk i Arns herred til Pay Jepsen, rådmand i Flensborg, for i alt
+      100 mark.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-19" who="#pbh">Filen etableret af #pbh 2013-12-19. </change>
+         <change when="2020-10-19" who="#smb">1. korrektur af #smb 2020-10-19. </change>
+         <change when="2020-11-19" who="#smb">2. korrektur af #smb 2020-11-19. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Jk <persName>Went Frese</persName> knape bekenne openbare in dessem breue vor alsweme / dat
+      ik vnde mynen eruen schuldich sint rechter warer scult / deme vromen manne <persName>Paye
+        Ieppson</persName> borger to <placeName>Vlensborch</placeName> vnde sinen eruen h{uv}ndert
+      marc penninge alse in deme hertichdom tho <placeName>Sleswijk</placeName> genge vnde geue sint
+      vnde dar en islik gut man deme anderen vul mede don mach / sunder dat hole <app><lem>ghelt</lem><rdg>over <q>e</q> står et utydeligt tegn i A</rdg></app> ♦</p>
+            <p n="a#2" xml:space="preserve">Vor desse vorscreuen hundert marc sette jk erbenomed <persName>Went</persName> vnde mynen
+      eruen / deme vorbenomeden <persName>Paye</persName> vnde sinen eruen / to pande brwkaftigen to
+      hebbende myne twe g{uv}dere de liggende sin jn <placeName>Vggilherde</placeName> / in deme
+      dorpe to <placeName>Haxstede</placeName> dat nv <persName>Peter Ketilson</persName> in weren
+      heft vnde rentet islik iaer twelff scillinge engilske / vnde ok twe gudere belegene in
+        <placeName>Arnsherde</placeName> to <placeName>J{uv}debeke</placeName> / dar nv uppe wonen
+        <persName>Mattis Lasson</persName> vnde <persName>Tomas Bassy</persName> / dede renten islik
+      i{ae}r teyn heitschepil rogge vnde ok ene marc penninge / desse erbenomede gudere vrij
+      brukaftigen to hebbende myt akkere weide wiske holtynge viskewatere / drøge vnde nat / myt
+      aller n{uv}t vnde vromen myt aller rechticheit vnde tobehoringe nichtes nicht ut gesceden /
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Jn sulken vorworden vnde vnderscedinge / wanner ik erbenomed <persName>Went</persName> vnde
+      mynen eruen / desse vorscreuen g{uv}dere wedder lozen willen edder wanner erbenomed
+        <persName>Paye</persName> vnde sinen eruen desse erbenomede summe penninge wedder hebben
+      willen so scal vnser een / deme anderen de løzinge kundigen uppe <placeName>Vggilherde
+        dink</placeName> / des dinkdages vor sunte Johannes dage to middensomer / vnde betalen denne
+      deme erbenomeden <persName>Paien Iepson</persName> vnde sinen eruen / desse vorscreuen hundert
+      marc / vppe sunte Mertens dach ersten volgende na der to seggynge vnde so scal de rente van
+      den vorscreuen guderen / volgen den penningen / vnde nicht aff to slande in den vorscreuen
+      ho{uv}etsummen ♦</p>
+            <p n="a#4" xml:space="preserve">Vnde ik vorbenomed <persName>Went Vrese</persName> vnde mynen eruen willen vnde scolen
+        <persName>Payen</persName> vnde sinen eruen desse erbenomeden gudere myt alle erer
+      rechticheit / vrijen vor allen ansprake / de dar mit rechte uppe schen mach / de wile de
+      erbenomeden gudere in sin / vnde in siner eruen pant is / ♦</p>
+            <p n="a#5" xml:space="preserve">Alle desse vorscreuen stucke / lo{uv}e jk <persName>Went Vreze</persName> vorbenomed vor my /
+      vnde vor mynen rechten eruen jn guden truwen stede vnde vaste wol to holden / deme erbenomeden
+        <persName>Paye Ieppson</persName> vnde sinen rechten eruen sunder ienigerleie argeliste
+      edder hulperede / ♦</p>
+            <p n="a#6" xml:space="preserve">To groter bet{uv}chnisse vnde merer vorwaringe alle desser vorscreuen stucke so hebbe jk
+      erbenomed <persName>Went Vrese</persName> myn jngesegil myt mynes vaders <persName>Hinrik
+        Vresen</persName> jngesegil witliken hengen laten to desseme breue na Godis boort
+      veerteynhundert jaer / jn deme negenen vnde druttixsten jare uppe sunte Katerinen dach der werden
+      juncvrowen ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

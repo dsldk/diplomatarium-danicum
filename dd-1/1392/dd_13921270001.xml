@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dipl. Dan. 13921270001</title>
+            <editor>Herluf Nielsen</editor>
+            <editor role="digital_editor">Sebastian Møller Bak</editor>
+            <editor role="student_assistant">Gustav Juul Mikkelsen</editor>
+            <editor role="data_engineer">hansen_thomas_1977</editor>
+            <funder>A.P. Møller og Hustru Chastine Mc-Kinney Møllers Fond til almene Formaal</funder>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date when="2021-01-01">2021</date>
+            <idno type="dd">13921270001</idno>
+            <idno type="dd_serialno">641</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier/>
+                     <physDesc>
+                        <p>
+                           <hi rend="italic">A:</hi> Danzig departementsarkiv. 300/ 59,3 (»Stadtbuch II«) p. 17 (= gl. p. 1).
+               </p>
+                     </physDesc>
+                     <history>
+                        <ab/>
+                     </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>
+                              <hi rend="italic">Tryk:</hi> Mekl. UB. XXII 203 nr. 12467.  Dipl. Dan. <ref type="facslink" target="dd_04-04/4505445.webp">4. rk. IV nr. 641</ref>; DRB. <ref type="facslink" target="drb_04-04/4658777.webp">IV:4 nr. 641</ref> (<hi rend="italic">i oversættelse</hi>).</bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+               <witness xml:id="DD">
+                  <bibl>
+                     <title>Diplomatarium Danicum</title> 4. rk. IV nr. 641. København <date when="1994-01-01">1994</date>.</bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab/>
+         </samplingDecl>
+         <projectDesc>
+            <ab>Digitalisering af Diplomatarium Danicum og Danmarks Riges Breve
+                                2021-2022</ab>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date cert="high" when="1392-12-70"> (13)92. 27. december <note>
+                  <p> Året begyndte 25. december. </p>
+               </note>
+            </date>
+            <placeName/>
+         </creation>
+         <abstract>
+            <ab> Klaus Bruczik og Hans Bare klager over, at Klaus Schild fra Rostock har frataget
+                  dem sild og andet gods ved Bornholm. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="nil"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>diplom</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change n="0.1" when="2021-11-01">Draft version of text. – Thomas Hansen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="base_text" xml:lang="nil">
+            <p>
+               <hi rend="italic">Item Claus Br{uo}czik vnde Hans Bare haben geclagit vnde gesworen daz Claus
+                     Schild van Rostok vnde andere sine metehulfere van Rostok in nemen vnder
+                     Bornholm in sinte Iohannis ewangelisten tag in deme iare etcetera xciii<hi rend="sup">o</hi>. vi leste heringe. iii deker <app>
+                     <lem>bucvel*</lem>
+                     <rdg>bucvel bucvel <q>A</q>.</rdg>
+                  </app> vnde ein verdendel talges alze gut alze lxxx mark</hi>. </p>
+         </div>
+         <div type="tran_text" xml:lang="ynda">
+            <p> Ligeledes har Klaus Bruczik og Hans Bare klaget og svoret, at Klaus Schild fra
+                Rostock og hans medhjælpere fra Rostock på evangelisten sankt Johannes' dag i året
+                o.s.v. 93<ref target="drb1"/> ved Bornholm tog seks læster sild fra dem, tre dusin bukkeskind og en
+                fjerding tælle til en værdi af 80 mark. </p>
+            <div>
+               <div type="nts">
+                  <p n="drb1"> året begyndte 25. december i Danzig. </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

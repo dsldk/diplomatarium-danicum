@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">876</num>, paragraphs: <num n="paragraphs">14</num>. Translation, number of words: <num n="words">901</num>, paragraphs: <num n="paragraphs">14</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14241008001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>Dipl. Dan.</collection>
+                        <idno>Fascic. II, nr. 17</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>43</height>
+                                    <width>29.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Chirograf</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med påskrift på bagsiden: <q>et breff vm munten jmellem myn fruwe d.P. oc
+        stædhernæ</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Dronning Filippas segl, påtrykt, i rødt voks, DKS. nr. 64
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Tideman Steens segl, påtrykt, i grønt voks. Seglet fremstår i dag stærkt
+        medtaget og helt utydeligt</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Heinrich v. Harens segl, påtrykt, i grønt voks. Seglet fremstår i dag næsten
+        helt utydeligt</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Dronning Filippas eksemplar af mønttraktaten</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Hansestædernes eksemplar af mønttraktaten</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ba">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rostock</settlement>
+                        <repository>Archiv der Hansestadt Rostock</repository>
+                        <collection>1.0.1. (Urkunden, Stadtverwaltung), U 1 (Bürgermeister und Rat), U 1p (Hanse 1401-1450)</collection>
+                        <idno>signatur-nr. U 1p 1424 Oktober 8</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>43.5</height>
+                                    <width>29</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Samtidig afskrift tilhørende rådet i Rostock, antagelig efter B</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Bb">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lüneburg</settlement>
+                        <repository>Stadtarchiv Lüneburg</repository>
+                        <collection>1. Urkunden, UA (Urkunden-Abteilung)</collection>
+                        <idno>b: 1424 Oktober 8</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>29.1</height>
+                                    <width>22.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Fremstår noget plettet, med ca. 10 små revner og enkelte mangler</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Afskriften er dateret: <q>des sondages vor suncte Dyonisius dage des hilgen
+        merteleres</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Senere afskrift tilhørende rådet i Lüneburg, muligvis efter B</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6140</bibl>
+               <bibl>Reg. Dan. nr. 3435*</bibl>
+               <bibl>SDHK-nr. 20353</bibl>
+               <bibl>Luxdorph, Anledning og Veiviisning til Myntens Udregning (Vidensk. Selsk. Skr. IX.), p.
+      703-705 (tryk efter A)</bibl>
+               <bibl>Grautoff, Historische Schriften, III., p. 213-218 (tryk efter Luxdorph l.l.)</bibl>
+               <bibl>UBStL, VI., nr. 619, p. 603-605 (tryk efter Luxdorph l.l.)</bibl>
+               <bibl>Hanserec. 7, nr. 740, p. 498-500 (tryk efter UBStL l.l.)</bibl>
+               <bibl>Rydberg, Sverges Traktater, III., p. 86 (tryk efter A)</bibl>
+               <bibl>G. Galster, Unionstidens udmøntninger, p. 87-91 (tryk efter A)</bibl>
+               <bibl>M. Kunzel, Die Münzen der Hansestadt Wismar 1359 bis 1854, Wismar/Berlin, 1998, p. 28-29
+      (udtog efter Hanserec. l.l.)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-10-08"
+                  notBefore="1424-10-08"
+                  notAfter="1424-10-08"
+                  cert="high">1424. 8. oktober</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Mønttraktat indgået imellem dronning Filippa og hansestæderne Lübeck, Hamburg, Lüneburg og
+      Wismar repræsenteret ved udsendingene Tideman Steen og Heinrich v. Haren.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-24" who="#pbh">Filen etableret af #pbh 2014-06-24. </change>
+         <change when="2017-12-05" who="#smb">1. korrektur af #smb 2017-12-05. </change>
+         <change when="2018-04-05" who="#smb">2. korrektur af #smb 2018-04-05. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wy <persName>Phylippa van Godes gnaden to Dennemarken Sweden Norweghen Wenden vnde der Ghoten
+        konynghinne vnde hertoghinne to Pomeren</persName> vnde wi borgermestere vnde radmanne der
+      stede <placeName>Lubeke</placeName>
+      <placeName>Hamborch</placeName>
+      <placeName>Luneborch</placeName> vnde <placeName>Wismer</placeName> bekennen in desser
+      jeghenwardyghen scrift dat wy <persName>koninghinne Phylyppa</persName> erbenomed van so daner
+      macht vnde beuelynghe weghen alse vns vnse alderleueste gnedighe here in sinem aff wesende de
+      ryke vnde lant beuolen heft vnde na rade vnde vulborde der redere vnser rike van des suluen
+      vnses gnedighen heren vnser vnde der rike redere vnde manschop weghen vppe de enen zyde / vnde
+      wy borgermestere vnde radmanne der stede vorgescreuen van vnser stede vnser vnde vnser
+      menheyde weghen vppe de anderen zyde jn gantzer endracht vmme des menen
+        beste<supplied>n</supplied> willen to beyden siden ens ghe worden sint vmme enen
+        penny<supplied>n</supplied>gh vnde munte to hope to slande vnde to holdende de ghenghe vnde
+      gheue wesen schal beyde jn den ryken alse verne alse de dar vor kundyghet wert vnde ok jn den
+      steden vorgescreuen jn alle der wyse alse hir na screuen steit ♦</p>
+            <p n="a#2" xml:space="preserve">Desse m{uv}<supplied>n</supplied>t vnde penning schal heten en sosling vnde de schal gelden
+      der lutteken penninghe sosse de me n{ue} slande wert vnde de wegen mark der soslinghe scal
+      halden el{uv}en loet vnde j quentyn an suluere vnde dar scal men vp scroden
+      tweundeverthegheste haluen worp er jt wit wert vnde alse it wit <app><lem>is</lem><rdg>umiddelbart foran <q>is</q> står et overstreget <q>wert</q> i A</rdg></app> so schal it holden tweundevertych worpe desses schal wesen iiij soslinghe vor den worp
+      vnde dessen penningh schalmen ghelik orden vnde scroden vnde de m{uv}nter scal hebben to
+      remedie iij grenen vnder ofte bouen doch der mit willen nicht to brukende also schal id de
+        m{uu}<supplied>n</supplied>ter slan vnde holden vp den ketel ♦</p>
+            <p n="a#3" xml:space="preserve">Item so wille wi hir b{ye} slan laten enen halen lubesschen penning to der noet umme behoues
+      willen vnde schedynghe der lude vnde menheyde vnde vorder nycht de penning schal holden
+      so{uv}en loet vnde j quentyn to remedie iij grenen vnder ofte bouen doch mit willen des nicht
+      to bruke<supplied>n</supplied>de also vor screuen steit dessen penning schalme scroden vppe de
+      mark gheweghen verdehalue mark lubesch vnde wan id wit is so scal id holden iiij mark vnde twe
+      schillynghe dessen vorscreuen penning schal de m{uv}nter ok slan vppe den ketel ♦</p>
+            <p n="a#4" xml:space="preserve">Item de pennynghe de alrede ghe slaghen synt jndeme rike to
+        <placeName>Dennemarken</placeName> de to ver penninghen vor kundighet sint der schal dat
+      st{uv}cke gelden der holen penninghe twe de nv slaghen scholen werden vnde de aboschen des
+      ghelik ♦</p>
+            <p n="a#5" xml:space="preserve">Item de holen penninghe de nv in <placeName>Dennemarken</placeName> synt dar de krone vppe
+      steit <app><lem>der</lem><rdg>efter <q>der</q> følger fem-seks udviskede og overstregede tegn i A</rdg></app> scholt gaen unde gelden twe vor enen ♦</p>
+            <p n="a#6" xml:space="preserve">Item de gotenschen also de / me nocht to der tijd sleit vnde se nv gaen de schalen gelden
+      ghelik dren halen penninghen dar de krone vppe steit ♦</p>
+            <p n="a#7" xml:space="preserve">Item de witten penninghe de jn den vorscreuenen steden ghe slaghen synt de scolen gelden vord
+      an to ver lubesschen alse <app><lem>se</lem><rdg><q>se</q> er skrevet med mindre skrift og en smule over linjen i A</rdg><rdg><q>se</q> mangler hos Luxdorph l.l., Grautoff l.l., UBStL l.l., Hanserec. l.l. og
+          Galster l.l</rdg></app> aldus langhe dan hebben ♦</p>
+            <p n="a#8" xml:space="preserve">Desser vorscreuenen m{uv}<supplied>n</supplied>te vnde penninghe scal de lodighe mark suluers
+      gelden souen lubessche mark ene sware <app><lem>engelsche</lem><rdg><q>engelsche</q> er skrevet over linjen og delvist ind over det efterfølgende
+            <q>nobele</q> i A</rdg></app> nobele twe vnde vertich schillinghe de krone de ere wicht heft twyntich schillinghe de
+      crone de to licht is negenteygen schillinge <app><lem>rins</lem><rdg>umiddelbart før <q>rins</q> er et udvisket tegn</rdg></app> golt ene lubessche mark arnammes golt verteygende haluen scilling bisscoppes gulden
+      dr{uv}tteygen scilling dar na alle ander golt en jewelk na syme werde ♦</p>
+            <p n="a#9" xml:space="preserve">Item desse vorscreuene <app><lem>m{uv}nte</lem><rdg>umiddelbart efter <q>m{uv}nte</q> står et gennemstreget <q>vnde</q></rdg></app> vnde penning suluer vnde golt scal genghe vnde gheue wesen eneme jewelken deme anderen
+      mede vul to donde na deme also vorscreuen is jn deme rike to
+        <placeName>Dennemarken</placeName> vnde dar to jn <placeName>Zweden</placeName> vnde jn
+        <placeName>Norweghen</placeName> also verne alse de vorbenomede vnse gnedighe here wi
+      koninginne <persName>Philippa</persName> edder vnse nakomelinge dat vor kundighen werden ane
+      to <placeName>Berghen</placeName> dat steit vppe en berad alse vppe der stede wedder bedent
+      tusschen <app><lem>desseme</lem><rdg>i A står et <q>d</q> med en utydelig forkortelse over det efterfølgende
+          <q>vnde</q></rdg><rdg>Luxdorph l.l., Grautoff l.l., UBStL l.l., Hanserec. l.l. og Galster l.l. læser
+            <q>dat</q>, hvilket imidlertid er umuligt ud fra den grammatiske kontekst</rdg></app> vnde sunte Nycolawes daghe neghest komende vnde inden vorscreuenen steden vnde eren ghe
+      beden des ghelik ♦</p>
+            <p n="a#10" xml:space="preserve">Item desse nygge penning vnde m{uv}nte de me nv slande wert in
+        <placeName>Dennemarken</placeName> alse vorscreuen is des scal de sosling hebben to teken
+      dre lebaren vppe der enen syde vnde en cr{uv}se vnde en ee vppe der anderen syde mit namen
+      alse dar to <app><lem>bort</lem><rdg>Luxdorph l.l., Grautoff l.l., UBStL l.l., Hanserec. l.l. og Galster l.l. læser
+          fejlagtigt <q>hort</q></rdg></app> vnde de holen penning enen lebaren ♦</p>
+            <p n="a#11" xml:space="preserve">Item der stede enen jewelken blive by ereme teken dat se aldus langhe ghe had heft
+      ♦</p>
+            <p n="a#12" xml:space="preserve">Item dat numment van vns to beiden syden macht en hebben desse m{uv}nte vnde penninge to vor
+      ergerende offte to vor anderende id ensche mit endracht sunder alle weghe to vorbeterende wome
+      deme doen mach vnde dat de vorbeterynghe vnde voranderinghe alle weghe sta by unseme gnedighen
+      heren vns Philippa koninginne vorbenomet vnde by den rederen to beident siden dede alle jar
+      werden komende to <placeName>Kopenhauene</placeName> na vt wisinghe des vorbundes vnde der <app><lem>to sate</lem><rdg>rettet i A fra <q>to sake</q>, idet den øverste del af k'et i <q>sake</q> er blevet
+          visket ud</rdg><rdg>Luxdorph l.l., Grautoff l.l. og Galster l.l. læser fejlagtigt hhv. <q>tosake</q> og
+            <q>to sake</q>; UBStL l.l. og Hanserec. l.l. læser <q>tosate</q></rdg></app> ♦</p>
+            <p n="a#13" xml:space="preserve">Vppe desse vorscreuene artikele vnde stucke sint dubbelde scrift gemaket beide van enen lude
+      de ene ute der anderen ghesneden de wi to beyden syden mit openen besegelden breuen vul teen
+      scholen vnde willen na deme also vorscreuen is vnde des to tuchnisse so hebbe wi
+        <persName>Philippa</persName> erbenomet van vnses gnedighen heren vnser vnde des rikes
+      weghen vnse secret vnde wi . <persName>Tydman St{ee}n</persName> vnde <persName>Hinric van
+        Haren</persName> sendeboden der stede <placeName>Lubeke</placeName> vnde
+        <placeName>Wismer</placeName> van der suluen vorscreuenen stede vnde vnser weghen vnse
+      jnghesegel vppe beyde scrift ghedrucket ♦</p>
+            <p n="a#14" xml:space="preserve">Ghe screuen to <placeName>Koppenhauen</placeName> na Godes bort d{uv}sent verh{uv}ndert jn
+      deme vervndetwynteghesten jare dessundaghes vor sunte Dionisius daghe des hilligen mertelers
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">Vi Filippa af Guds nåde dronning af Danmark, Sverige, Norge, de Venders og Goters dronning og
+      hertuginde af Pommern, og vi borgmestre og rådmænd i stæderne Lübeck, Hamburg, Lüneburg og
+      Wismar erkender i dette nærværende skrift, at vi førnævnte dronning Filippa i kraft af vor
+      særlige magt og befaling, idet vor allerkæreste nådige herre i sin fraværelse har overdraget
+      rige og land til os, og efter vort riges råders råd og fuldbyrdelse, på samme vor nådige
+      herres, vore egne og rigets råders og undersåtters vegne på den ene side og vi borgmestre og
+      rådmænd i de førskrevne stæder på vore stæders og vore samfunds vegne på den anden side i
+      fuldkommen enighed for det fælles bedstes skyld på begge sider er blevet enige om i fællesskab
+      at slå og holde en penning og mønt, som skal være gængs og gangbar både i rigerne, så vidt som
+      den bliver bekendtgjort dér, og også i de førskrevne stæder på enhver måde, som det står
+      skrevet herefter.</p>
+            <p n="b#2" xml:space="preserve">Denne mønt og penning skal hedde en søsling, og den skal gælde seks af de små penninge, som
+      man nu skal slå, og søslingernes vejne mark skal holde elleve lod og et kvintin sølv, og da
+      skal man opskære halvtoogfyrretyvende <app><lem>kast</lem><rdg>dvs. en middelalderlig måleenhed</rdg></app>, inden det bliver hvidt, og når det er blevet hvidt, så skal det holde toogfyrretyve
+      kast. Deraf skal der være fire søslinger i kastet, og denne penning skal man ordne og skære
+      lige, og mønteren skal have til remedium tre gran, under eller over, hvilket dog ikke må
+      bruges med vilje. Således skal mønteren slå og holde det på kedlen.</p>
+            <p n="b#3" xml:space="preserve">Ligeledes så vil vi her lade slå en hul lybsk penning til nød, for behovs skyld og til brug
+      imellem folk og samfund, men ikke til andet. Denne penning skal holde syv lod og en kvintin,
+      til remedium tre gran, under eller over, hvilket dog ikke må bruges med vilje, som det står
+      skrevet tidligere. Denne penning skal man skære på den vejne mark halvfjerde mark lybsk, og
+      når det er hvidt, så skal det holde fire mark og to skilling. Denne førskrevne penning skal
+      mønteren også slå på kedlen.</p>
+            <p n="b#4" xml:space="preserve">Ligeledes med hensyn til de penninge, som allerede er slået i riget Danmark, og som er blevet
+      forkyndt til fire penninge, der skal et stykke gælde to af de hule penninge, som nu skal
+      slås, og det samme skal gælde for de åboske penninge.</p>
+            <p n="b#5" xml:space="preserve">Ligeledes med hensyn til de hule penninge, som nu er i Danmark, hvorpå kronen står, af dem
+      skal gå og gælde to for en.</p>
+            <p n="b#6" xml:space="preserve">Ligeledes med hensyn til de gotlandske penninge, som man endnu for tiden slår, og som nu går,
+      de skal på samme måde gælde tre af de hule penninge, hvorpå kronen står.</p>
+            <p n="b#7" xml:space="preserve">Ligeledes med hensyn til de hvide penninge, som er slået i de førskrevne stæder, de skal
+      fortsat gælde fire lybske, således som de har gjort længe.</p>
+            <p n="b#8" xml:space="preserve">Af disse førskrevne mønter og penninge skal den lødige mark sølv gælde syv lybske mark; en
+      svær engelsk nobel toogfyrretyve skilling; den krone, som har sin vægt, tyve skilling; den
+      krone, som er for let, nitten skilling; en rhinsk gylden en lybsk mark; en arnhemsk gylden
+      halvfjortende skilling; en biskopsgylden tretten skilling; derefter alle andre gylden enhver
+      efter sin værdi.</p>
+            <p n="b#9" xml:space="preserve">Ligeledes skal denne førskrevne mønt og penning sølv og guld være gængs og gangbar at
+      fuldgøre den anden med efter det, som er skrevet tidligere, i riget Danmark og desuden i
+      Sverige og i Norge, i den udstrækning som vor førnævnte nådige herre, vi dronning Filippa
+      eller vore efterkommere vil bekendtgøre det - dog ikke i Bergen. Det står i beråd samt til
+      stædernes gentagne betænkning mellem denne og næstkommende Sankt Nicolaus' dag. Ligeså skal
+      den være gængs og gangbar i de førskrevne stæder og i deres områder.</p>
+            <p n="b#10" xml:space="preserve">Ligeledes hvad angår denne nye penning og mønt, som man nu skal slå i Danmark, sådan som det
+      er skrevet tidligere, så skal denne søsling have til tegn tre lebarder på den ene side og et
+      kors og et E på den anden side, og den skal være med navn, som det sig hør og bør, og den hule
+      penning en lebard.</p>
+            <p n="b#11" xml:space="preserve">Ligeledes skal enhver af stæderne blive ved det tegn, som de har haft i lang tid.</p>
+            <p n="b#12" xml:space="preserve">Ligeledes skal ingen af os på begge sider have magt til at forringe eller forandre denne mønt
+      og penning, medmindre det sker med enighed, men begge sider skal til enhver tid have magt til
+      at forbedre den, hvor man end kan gøre det, og forbedringen og forandringen skal til enhver
+      tid stå hos vor nådige herre, hos os førnævnte dronning Filippa og hos råderne på begge sider,
+      som hvert år skal komme til København, således som det står skrevet i denne forbundsaftale og traktat<ref target="drb1"/>.</p>
+            <p n="b#13" xml:space="preserve">Af disse førskrevne artikler og stykker er udfærdiget en dobbelt skrift, begge af ens ordlyd,
+      den ene skåret ud af den anden, som vi på begge sider skal og vil fuldbyrde med åbne beseglede
+      breve i overensstemmelse med det, som står skrevet tidligere, og således til vidnesbyrd så har
+      vi førnævnte Filippa på vor nådige herres og rigets vegne trykt vort sekret på begge skrifter
+      og vi Tideman Steen og Heinrich v. Haren, sendebud fra stæderne Lübeck og Wismar, på de samme
+      førskrevne stæders og vore egne vegne trykt vore segl på begge skrifter.</p>
+            <p n="b#14" xml:space="preserve">Skrevet i København året 1400 efter Guds fødsel og derefter i det 24. år om søndagen før den
+      hellige martyr Sankt Dionysius' dag.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14350609001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>or. perg. 0101</collection>
+                        <idno>SDHK nr. 22378</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Pergamentet er meget beskadiget og har flere mindre huller
+                                    teksten igennem, og omkring folderne i midten er en stor del
+                                    forsvundet; allerede Skånebrevsfortegnelsen omtaler brevet som
+                                    "mycket sönderrijfwet". Det er i nyere tid blevet restaureret,
+                                    hvorved bagsiden er blevet dækket til</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Venstre margen af notarunderskrifterne og Jens Nielsens
+                                 underskrift er indrykket for at give plads til notarmærkerne</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Teksten er skrevet af notaren Jens Nielsen, mens de to nederste
+                                 underskrifter er skrevet af hhv. Theodericus Lukke og lundeklerken
+                                 Jens Nielsen</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>rester af perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i Stockholm, Riksarkivet, B 29 (Skånebrevsfortegnelsen) fol.
+                           28v Lund domkirke nr. 196, E 102a fol. 35 nr. 49 og E 102a fol. 137 nr.
+                           18</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6765</bibl>
+               <bibl>SDHK nr. 22378</bibl>
+               <bibl>Weibull, Dipl. dioc. Lund. III 160 nr. 166</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A, flere lakuner delvis udfyldt efter Weibull.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435-06-09"
+                  notBefore="1435-06-09"
+                  notAfter="1435-06-09"
+                  cert="high">1435.
+               9. juni</date>
+            <placeName cert="high">Rostock</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <abstract>
+            <ab>Notarialinstrument af Jens Nielsen og Theodericus Lukke, offentlige notarer fra hhv.
+               Roskilde og Schwerin stifter, der bevidner indgåelsen af det forlig, som er indgået
+               mellem ærkebiskop Peder (Lykke) i Lund, dekanen og domkapitlet sammesteds på den ene
+               side, og lundeklerken Jens Nielsen på vegne af sig selv og de øvrige arvinger efter
+               Mogens Gødesen på den anden side. </ab>
+            <ab>Forliget er indgået ved, at Niels Isaksen og Oluf Jakobsen, kannikker i Lund, på
+               vegne af ærkebiskoppen og lundekirken er rejst til Rostock og dér har fået Jens
+               Nielsens underskrift og syv af hans skånske venners segl hængt under dette
+               notarialinstrument til bekræftelse af det skriftlige forlig, der blev udfærdiget af
+               magister Tileman Jensen og Mads Krage, og ved denne overenskomst har parterne
+               erklæret alle stridigheder for bilagt. </ab>
+            <ab>Den skriftlige aftale indeholder følgende punkter: </ab>
+            <ab>1) Ærkebiskoppen skal overdrage det første ledige vikariat i Lund domkirke til Jens
+               Nielsen. </ab>
+            <ab>2) Herefter skal Jens Nielsen modtage det næste ledige vikariat sammesteds med en
+               højere indtægt, og det første vikariat skal ærkebiskoppen overdrage til hans broder
+               Gøde Nielsen. </ab>
+            <ab>3) Ærkebiskoppen skal overdrage det næste ledige vikariat til Jens Nielsens
+               slægtning Peder Nielsen. </ab>
+            <ab>4) Ærkebiskoppen skal overdrage et embede til Jens Nielsens broder Niels Nielsen,
+               når og såfremt denne er egnet dertil. </ab>
+            <ab>5) Ærkebiskoppen skal give Mogens Gødesens arvinger al den arv tilbage, som han nu
+               har i hænde. </ab>
+            <ab>6) Ærkebiskoppen skal tale Mogens Gødesens arvingers sag for kongen, for at kongens
+               mænd skal give dem deres jordegods tilbage. </ab>
+            <ab>7) Ærkebiskoppen og hans husstand skal være kvit og fri for alle yderligere krav
+               vedrørende Mogens Gødesens arv; dog er han forpligtet til om nødvendigt at yde
+               arvingerne bistand mod andre, der uretmæssigt tager arven i deres besiddelse eller
+               rejser krav derpå, ved hjælp af kirkestraf eller på anden vis. </ab>
+            <ab>8) Skrivelsen skal besegles af ærkebiskoppen og sendes til Rostock for at blive
+               underskrevet af Jens Nielsen og beseglet af syv af hans skånske venner.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-07" who="#pbh">Filen etableret af #pbh 2013-11-07. </change>
+         <change when="2017-11-20" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">In nomine domini amen ♦</p>
+            <p>Anno nativitatis ejusdem millesimo quadringentesimo tricesimoquinto indiccione
+                  xiii<hi rend="sup">a</hi> mensis vero junii die nona . hora terciarum vel quasi
+               pontificatus sanctissimi in Christo patris et domini nostri domini
+                  <persName>Eugenii</persName> divina providencia pape quarti anno quinto in opido
+                  <placeName>Rotzstock</placeName>
+               <placeName>Zwerinensis dyocesis</placeName> in domo habitacionis venerabilis viri
+               domini <persName>Johannis Meynesti</persName> archidiaconi Rotzstockcensis in
+               nostrorum notariorum publicorum et testium infrascriptorum presencia constituti
+               personaliter honorabiles viri domini <persName>Nicolaus Ysaac</persName> et
+                  <persName>Olavus Jacobi</persName> canonici <placeName>Lundenses</placeName>
+               procuratores ad infrascripta reverendissimi in Christo patris et domini domini Petri
+               archiepiscopi necnon venerabilium virorum dominorum decani canonicorum et capituli
+               ecclesie Lundensis prout de eorum procuracionis mandato exhibito et producto ad
+               plenum docuerunt et nomine procuratorio ex una et <persName>Johannes
+                  Nicolai</persName> clericus Lundensis dyocesis pro se ipso ac fratribus amicis
+               cognatis et adherentibus suis partibus ex altera / volentes ut asseruerunt in vim
+               contractus alias per honorabiles viros dominos magistrum <persName>Tilemannum
+                  Johannis</persName>
+               <damage>utriu</damage>sque juris doctorem eximium et <persName>Mathiam
+                  Kraghe</persName> predictorum archiepiscopi et capituli Lundensis nominibus . et
+               ipsum Johannem Nicolai in et super negociis hujusmodi hincinde initi et
+                  rob<damage>...</damage> omnes et singulas causas controversias lites acciones et
+               questiones inter <app>
+                  <lem>partes</lem>
+                  <rdg>således læser Weibull; i dag kan det ikke læses, men der synes at være flere
+                     bogstaver</rdg>
+               </app> ipsas quomodolibet subortas et introductas via amicicie benigniter <app>
+                  <lem>termi<damage>natas prou</damage>t infrasc<damage>ribitur</damage>
+                  </lem>
+                  <rdg>udfyldelsen af lakunen er rent konjektural</rdg>
+               </app> emovere prefati Nicolaus Ysaac et Olavus Jacobi procuratores ut
+               prefertur quondam papiri cedulam transaccionis amicabilis <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 15 bogstaver A</rdg>
+                  </app>
+               </damage> et die dicto Johanne Nicolai presente unacum eodem et ipse cum
+               eisdem insimul et manibus conjunctis realiter produxerunt et legi fecerunt seque
+               prout in dicta cedula continetur hincinde concordasse ac omnes et singulas questiones
+               acciones lites causas et controversias in dicta cedula contentas et expressas
+               fideliter via amicicie terminasse asseruerunt et recognoverunt et quilibet
+               premissorum asseruit et recognovit prout plenius in eadem cedula continetur
+               ♦</p>
+            <p>Cujus tenor sequitur et est talis ♦</p>
+            <p>Ne lites sint immortales et ut vexaciones hincinde consiliis redimantur super omnibus
+               et singulis accionibus causis controversiis et litibus qualitercumque motis seu
+               movendis inter reverendissimum in Christo patrem dominum <persName>Petrum
+                  Lucke</persName> archiepiscopum Lundensem etcetera ejusque venerabile capitulum et
+               omnes vivos et mortuos canonicos et capitulares eorumque quoscumque familiares ex una
+               et Johannem Nicolai clericum Lundensem dyocesis tam occasione sui patrui domini
+                  <persName>Magni Gotonis</persName> quam eciam sui ipsius et suorum fratrum necnon
+               eorundem cognatorum agnatorum propinquorum et amicorum ac eciam heredum quorumcumque
+               presencium et futurorum natorum et nasciturorum partibus ex altera exortis seu
+               imposterum oriundis per viam amicabilis composicionis et concordie taliter est
+               conclusum ♦</p>
+            <p>Primo videlicet ut prefatus dominus archiepiscopus Lundensis ipsi Johanni Nicolai
+               illam que in ecclesia Lundensi primum vacat vel vacaverit graciose conferat vicariam
+               ♦</p>
+            <p>Item quod idem Johannes Nicolai <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 10-15 bogstaver A</rdg>
+                  </app>
+               </damage> ecclesia Lundensi meliorem in redditibus cum vacaverit vicariam
+               que sine prejudicio alicujus patroni ad collacionem spectat ordinariam et quam ipse
+               Johannes per se vel procuratorem legitimum duxerit acceptandam et tunc prima vicaria
+               per ipsum dimittenda fratri suo germano <persName>Gothoni Nicolai</persName> si
+               habilis est sine omni impedimento et dilacione per dominum archiepiscopum conferatur
+               ♦</p>
+            <p>Item quod dominus archiepiscopus <persName>Petro Nicolai</persName> dicti Johannis
+               consanguineo clerico Lundensis dyocesis primam que expost vac<damage>a</damage>verit
+                  <damage>graci</damage>ose conferat vicariam ♦</p>
+            <p>Item ut dominus archiepiscopus <persName>Nicolao Nicolai</persName> fratri prefati
+               Johannis dummodo ad hoc habilis fuerit eciam in dicta ecclesia Lundensi graciose
+                  provi<damage>deat <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 12-15 bogstaver A</rdg>
+                  </app>
+               </damage> competen<damage>..</damage> ♦</p>
+            <p>Item quod dominus archiepiscopus omnia et singula bona immobilia prefatum Johannem
+               Nicolai et fratres suos post mortem domini Magni Gotonis jure h<damage>ereditario
+                  contin</damage>gencia et que ipse dominus archiepiscopus manutenet adstatim sine
+               mora restituat <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg> lakune på o. 5-6 bogstager A</rdg>
+                  </app>
+               </damage> cum effectu ♦</p>
+            <p>Item quod dominus archiepiscopus erga serenissimum principem d<damage>ominum
+                     <persName>Ericum</persName>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 9-10 bogstaver</rdg>
+                  </app>
+               </damage> fideliter interponat partes suas ut dictus Johannes Nicolai
+               rehabeat omnia immobilia ipsum et fratres suos jure hereditario ut supra contingencia
+               que <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 10 bogstaver A</rdg>
+                  </app>
+               </damage> domini regis detinent occupata . ♦</p>
+            <p> Item quod prefatus dominus archiepiscopus suique familiares pro et ab omni ulteriori
+               impeticione inquietacione alloqucione et m<damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 9-10 bogstaver A</rdg>
+                  </app>
+               </damage> et super omnibus et singulis bonis mobilibus per dictum dominum
+               Magnum Gotonis relictis que per eundem dominum archiepiscopum vel de ejus mandato aut
+               ex c<damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 5-6 bogstaver</rdg>
+                  </app>
+               </damage>ia percepta levata seu eciam alicujus alienacionis tytulo sunt
+               distracta quitti <damage>sint</damage> et liberi ac eciam penitus absoluti ad
+               alicujus restitucionis satisfac<damage>cionis <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 5-6 bogstaver A</rdg>
+                  </app>
+               </damage> aut accionis calculum pro hujusmodi bonis mobilibus imposterum
+               minime revocandis / sed si qui sunt alii infra Lundensem diocesim constituti qui
+               aliqua bona <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 25 bogstaver A</rdg>
+                  </app> derelicta</damage> injusto modo detinent occupata / ad hoc coadjuvabiliter
+               dominus archiepiscopus requisitus per censuram ecclesiasticam aut per alium quem <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 25 bogstaver A</rdg>
+                  </app> bona</damage> heredibus predicti domini Magni Gotonis restituantur cum
+               effectu ♦</p>
+            <p>Item ut presens amicabilis composicionis contractus per <damage>prefatos dominos
+                  archiepiscopum <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 20-25 bogstaver A</rdg>
+                  </app>
+               </damage> approbetur mo<damage>..</damage>etur ac eorundem sigillorum
+                  appen<damage>sion</damage>e <damage>mu</damage>nitus prefato Johanni Nicolai huc
+               Rotzstock quanto citius <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 30-35 bogstaver A</rdg>
+                  </app>
+               </damage> ac manu ejus propria subscribatur et per <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 8 bogstaver A</rdg>
+                  </app>
+               </damage>septem sigilla amicorum ejusdem in <placeName>Scania</placeName>
+                  sigillet<damage>ur <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 30-35 bogstaver A</rdg>
+                  </app>
+               </damage> ♦</p>
+            <p>
+               <damage>...</damage> citat<damage>..</damage> prefate partes hincinde videlicet
+                  Nicol<damage>aus Ysaac</damage> et Olavus Jacobi prefatorum reverendissimi in
+               Christo <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 2/3 linje A</rdg>
+                  </app>
+               </damage> quosuper ac pro ipsis dominis ac pro eis adherent<damage>ibus <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 2/3 linje A</rdg>
+                  </app>
+               </damage> conceptam initam et pronunciatam ut prescrib<damage>itur <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 2/3 linje A</rdg>
+                  </app>
+               </damage>isse l<damage>aud</damage>averunt appr<damage>obaver</damage>unt <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 2/3 linje A</rdg>
+                  </app>
+               </damage> firma intencione <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 3/4 linje A</rdg>
+                  </app>
+               </damage> Johanne Nicolai / ac <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 1/2 linje A</rdg>
+                  </app>
+               </damage> intervenientibus obser<damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 20 bogstaver A</rdg>
+                  </app>
+               </damage> aut alter ipsorum directe vel indirecte p<damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 25 bogstaver A</rdg>
+                  </app> per</damage>sonam quovis quesito colore contraveniri quoquomodo voluerunt
+               concorditer et <damage>con</damage>cordaverunt ac quilibet ipsorum voluit et
+                  concor<damage>davit <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 15-20 bogstaver A</rdg>
+                  </app>
+               </damage>cerpta superius et concordata fidem ac firmitatem obtineant suumque
+               debitum consequantur effectum et non aliter de quo fuerit protestatus prefatus <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 15-20 bogstaver A</rdg>
+                  </app>
+               </damage>ram meliori sponte delibere materia deliberacionis ut asseruit
+               prehabita omnibus litibus causis citacionibus et accionibus contra prefatos
+                  rever<damage>endissimum</damage> in Christo patrem et dominum dominum
+               archiepiscopum canonicos et capitulum ecclesie Lundensis / ac omnes et singulos tam
+               vivos quam mortuos causam et causas supradescriptas qu<damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 15 bogstaver A</rdg>
+                  </app>
+               </damage> attemptatas impetratas aut forsan imposterum attemptandas et
+               impetrandas expresse renunciavit et pro renunciatas habere voluit et numquam cont<damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 15 bogstaver A</rdg>
+                  </app>
+               </damage> ♦</p>
+            <p>Super quibus omnibus et singulis premissis prenominate partes hincinde nos notarios
+               publicos infrascriptos conjunctim requisierunt ut tot eis <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 15-20 bogstaver A</rdg>
+                  </app> pu</damage>blicum vel publica conficeremus instrumentum vel instrumenta
+               quot necessaria fuerint et oportuna ♦</p>
+            <p>Acta sunt hec anno indiccione pontificatu et aliis quibus supra <damage>presentibus
+                  ho</damage>norabilibus viris dominis et magistris Johanne Meynesti archidiacono
+               Rotzstockcensi . <persName>Henrico Bekelin</persName> utriusque juris doctore eximio
+               . <persName>Johanne de Sa</persName>
+               <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 20 bogstaver A</rdg>
+                  </app>
+               </damage> Zwerinensi generali / <persName>Nicolao Wentorp</persName> legum
+                  li<damage>cen</damage>ciat<damage>o</damage>
+               <persName>Daniele Marquardi</persName> ecclesie Roskildensis perpetuo vicario /
+                  <persName>Nicolai Bullen</persName> et N<damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 15-20 bogstaver A</rdg>
+                  </app> paroc</damage>hialis <placeName>ecclesie beate Marie virginis
+                  Rotzstokcensis</placeName> perpetuo vicario presbiteris et clericis Zwerinensis
+               dyocesis ac aliis pluribus testibus fided<damage>ignis ad premissa vocatis
+                  et</damage> rogatis in testimonium omnium premissorum ♦</p>
+            <figure>
+               <figDesc>Til venstre herfor Jens Nielsens notarmærke</figDesc>
+            </figure>
+            <p>Et ego <persName>Johannes Nicolai</persName> clericus Roskildensis d<damage>iocesis
+                  publicus</damage> imperiali auctoritate notarius quia hujusmodi transaccionibus et
+                  con<damage>cordie</damage> cedule produccioni leccioni ipsiusque concord<damage>ie
+                  approbacioni re</damage>nuntiacioni omnibusque aliis et singulis premissis dum sic
+                  <damage>ut prem</damage>itti<damage>tur</damage> fierent et agerentur unacum
+               precommendabili viro Theoderico Lucke clerico Zwerinensis diocesis connotario meo in
+               hac parte prenominatisque testibus presens interfui eaque sic fieri vidi et audivi
+               ideoque hujusmodi instrumentum manu mea propria conscriptum atque primo subscriptum
+               exinde confeci et et in hanc publicam forman redegi signoque et nomine meis solitis
+               et consuetis signavi rogatus et requisitus in fidem et testimonium omnium et
+               singulorum premissorum ♦</p>
+            <figure>
+               <figDesc>Til venstre herfor Theodericus Lukkes notarmærke</figDesc>
+            </figure>
+            <p>Et ego <persName>Theodericus Lukke</persName> clericus Zwerinensis diocesis publicus
+               imperiali auctoritate notarius quia hujusmodi transactioni et concordie cedule
+               productioni leccioni ipsiusque concordie approbacioni renunciacioni omnibusque aliis
+               et singulis premissis dum sic ut premittitur fierent et agerentur una cum
+               precommendabili viro Johanne Nicolai clerico Roskildensis diocesis connotario meo in
+               hac parte prenominatisque testibus presens intergui eaque sic fieri vidi et audivi
+               ideoque presens publicum intrumentum per manum <app>
+                  <lem>dictis</lem>
+                  <rdg>
+                     <q>= dicti</q>
+                  </rdg>
+               </app> (!) Johannis connotarii confectum et subscriptum manu eciam mea propria
+               subscripsi signoque et nomine meis solitis et consuetis signavi rogatus et requisitus
+               in fidem et testimonium omnium et singulorum <damage>premissorum</damage> ♦ </p>
+            <p>Et ego Johannes Nicol<damage>
+                  <app>
+                     <lem>ai clericus Lundensis diocesis ...</lem>
+                     <rdg>lakune på o. 30-35 bogstaver A</rdg>
+                  </app>
+               </damage> nominatus propria manu subscribo <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 5-6 bogstaver A</rdg>
+                  </app> venera</damage>biles et discretos viros dominum <persName>Jacobum
+                  Magni</persName>
+               <damage>
+                  <app>
+                     <lem>...</lem>
+                     <rdg>lakune på o. 10-15 bogstaver A</rdg>
+                  </app> Sa</damage>xtorp <persName>Mathiam Saxtorp</persName> armigeros
+                  <persName>Johannem Nicholai</persName> in <placeName>Høy</placeName>
+               <persName>Achonem Nicholai</persName> in <placeName>Syndh<damage>erwidinge <app>
+                        <lem>...</lem>
+                        <rdg>lakune på o. 5-6 bogstaver A</rdg>
+                     </app>
+                  </damage>
+               </placeName>
+               <persName>Nicolaum Jwdæ</persName> et <persName>Olavum
+                  Gw<ex>n</ex>nars<ex>øn</ex>
+               </persName> consules Lundenses ut sigilla sua presenti
+               instrumento publico a<damage>ppon</damage>ant in <damage>robur</damage> et evidenciam
+               omnium premissorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               Indtil 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

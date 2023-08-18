@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">980</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14261117002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2976</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>35.2</height>
+                                    <width>31</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden: 1) <q>Instrumentum super literam compromissi ducum Holtsacie etcetera de stando dictamini juris regis Romanorum</q> 2) <q>Instrumentum paa the greffuer aff Holsteens compromiss paa hwes Dom och sentens Sigismundus sagde thennem och kong Erich imellem om Sleswigs hertugdom Anno m.o quadragesimo xx.o tertio in vigilia epiphanie domini</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. III 6279</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-11-17"
+                  notBefore="1426-11-17"
+                  notAfter="1426-11-17"
+                  cert="high">1426. 17. november<ref target="drb1"/>
+            </date>
+            <placeName cert="high">Kalundborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Notarialvidne af Johannes Kyndig, som på opdrag fra dronning Filippa vidimerer og oversætter de holstenske grever Heinrich, Adolf og Gerhards tyske brev, <ref target="14230105001" type="link">DD 1423. 5. jan., nr. 14230105001</ref>, hvori de stiller sig til rette for den romerske kong Sigismund og hans stedfortræder hertug Rumpold i striden med kong Erik. Som vidner anføres såvel gejstlige som væbnere og en borger. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-15" who="#pbh">Filen etableret af #pbh 2014-07-15. </change>
+         <change when="2018-05-30" who="#pz">1. korrektur af #pz 2018-05-30. </change>
+         <change when="2018-06-12" who="#mh">2. korrektur af #mh 2018-06-12. </change>
+         <change when="2018-08-13" who="#pz">3. korrektur af #pz 2018-08-13. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In nomine domini anno nativitatis ejusdem millesimoquadringentesimovicesimosexto indictione quarta xvii<hi rend="sup">ma</hi> die mensis novembris hora vesperorum vel quasi pontificatus sanctissimi in Christo patris et domini nostri domini Martini divina providentia pape quinti anno ejus nono in camera regia castri Callingborgh Roskildensis dyocesis in mei notarii publici et testium infrascriptorum adhoc specialiter vocatorum et rogatorum presencia constituta illustrissima principissa et domina domina <persName>Philippa Dacie Swecie Norwegie Slavorum Gotorumque regina et ducissa Pomeranensis</persName> exhibuit ostendit et michi notario ad manus porrexit quandam patentem litteram<ref target="drb1"/> quorundam dominorum dominorum videlicet <persName>Henrici</persName> <persName>Adolphi</persName> et<persName> Gherardi Holzatie et Stormarie et Skowenborgh comitum</persName> sanam integram non rasam non abolitam non cancellatam nec in aliqua sui parte viciatam vel suspectam sed omni prorsus vicio et suspicione carentem in munda carta pergameni conscriptam eorumque una cum venerabilis in Christo patris et domini domini <persName>Nicholai ecclesie Bremensis episcopi</persName> secreto et insignis domini et domini <persName>Wilhelmi ducis in Lyneborgh et Brwnswiig</persName> ac aliorum militum et militarium infrascriptorum veris et indubitatis cereis sigillis pressulis de pergameno prescissis pendentibus sigillatam que quidem sigilla dominorum fratrum Henrici Adolphi et Gherardi in figura circuli cere rubee arma continebant consonantia videlicet clipeum in modum crucis quadrangulariter divisum ubi in superiori duo et in inferiori obliquatis angulis duo eciam leones ac in quolibet aliorum duorum angulorum unum folium folio urtice consimile aparebant cujus litere circumferentiales in primo sigillo verisimiles videbantur sigillum Henrici ducis Sleswicensis comitis Holsacie et Stormarie ♦ In secundo vero scriptum aparuit sigillum Adolphi ducis Sleswicensis Holsacie comitis sigillum sed tercium sigillum continebat sigillum Gherardi ducis Sleswicensis comitis Holsatie ♦ In quarto videlicet secreto archiepiscopi Bremensis impressa fuit ymago episcopi tenentis crucem in manu sinistra in figura rotunda cere viridis cujus circumferentia continuit secretum Nicholai archiepiscopi Bremensis ♦ Quintum autem quodammodo in armis obscurum aperuit et in circumferencia scriptum fuit sigillum Wilhelmi ducis in Brwnswig et Lyneborgh in figura circuli cerei viridis ♦ Reliqua siquidem militum et militarium infrascriptorum sigilla in armis et literis circumferencialibus illesa integra et incorumpta ut in prima eorum appensione fuerunt veraciter aparebant ♦ Et eandem literam inspicere perlegere et auscultare inspectamque perlectam et auscultatam copiare exemplare transsumere transferre et publicare me debita cum instancia petiit et requisivit regina sic ut premittitur ♦ In continenti inspexi et coram infrascriptis testibus et aliis fide dignis tunc presentibus in theutonicho legi ac demum de theutonicho in latinum eandem fideliter transtuli exemplavi transumpsi et pubblicavi cujus tenor de theutonicho ad verbum in latinum translatus sequitur et est talis ♦</p>
+            <p n="a#2" xml:space="preserve">Nos Henricus Adolphus et Gherardus fratres Dei gratia duces in Sleswigh et comites Holsacie Stormarie et Schowenborgh recognoscimus et notum facimus publice cum presenti litera omnibus eam videntibus aut legi audientibus quemadmodum serenissimus princeps et dominus dominus <persName>Sigismundus Romanorum rex</persName> semper Augustus et Hungarie Bohemie Dalmacie Croacie etcetera rex noster graciocissimus dilectus dominus . illustrem principem dominum <persName>Henricum dictum Rompalt ducem in Slesia</persName> et dominum Majoris Glogovie etcetera ad nos ex una et serenissimum principem et dominum dominum <persName>Ericum Dacie Swecie Norwegie Slavorum Gotorumque regem</persName> nostrum graciosum dilectum dominum ex alia parte destinavit et misit propter talem gwerram displicenciam discordiam et controversiam quas nos ex utraque parte invicem habemus propter pacem et concordiam inter nos tractandam ♦ Sic super <app><lem>totius</lem><rdg>herefter følger <q>totit</q>, skrivefejl</rdg></app> nostri juris actione in predictum nostrum illustrissimum dilectum dominum Romanorum regem sicut in unum supremum judicem et plene potestatis arbitrum . ex parte nostra devenimus et remansimus et in illustrem principem dominum Henricum dictum Rompolt eciam ex parte nostra sicut in unum plene potestatis judicem et arbitrum devenimus et remansimus prout littera compromissi<ref target="drb2"/> predicti <app><lem>ducis</lem><rdg>tilskrevet over linjen</rdg></app> Henrici dicti Rompolt super hoc data manifeste demonstrat ac promittimus dicto illustrissimo principi et domino domino Erico Dacie Swecie Norvagie Slavorum Gotorumque regi et duci Pomeranensi nostro graciosissimo dilecto domino quandoque nobis taliter per prefatum nostrum serenissimum dilectum dominum dominum Sigismundum Romanorum regem vel per prenominatum ducem Henricum dictum Rompolt pro jure pronunciatum fuerit et nobis secundum jus decretum fuerit quod illud ratum gratum firmum et inviolabile tenere volumus per nostri principatus fidem et verbum ♦ Ac nos infrascripti dominus Nicholaus Dei et apostolice sedis gratia archiepiscopus ecclesie Bremensis Wilhelmus Dei gratia dux in Brwnswig et Luneborgh etcetera <persName>Detlewus de Allevelde</persName> <persName>Otto Seestede</persName> <persName>Laurencius Hesten</persName> <persName>Johannes Stake</persName> <persName>Henricus de Allevelde</persName> milites . <persName>Benedictus de Alevelde</persName> . <persName>Wulfardus de Alevelde</persName> <persName>Marquardus de Alevelde</persName> <persName>Ghotskalcus de Alevelde</persName> B<persName>rendekinus Rantzow</persName> <persName>Hartwicus Rantzow</persName> <persName>Waldemarus Rantzow</persName> <persName>Hartwicus Poggewisk</persName> . <persName>Otto Pogwisk</persName> <persName>Johannes Pogwisk</persName> <persName>Henningus Meynstorpp</persName> <persName>Didericus Blome</persName> <persName>Joachim Breyde</persName> <persName>Hartwicus Wlff</persName> <persName>Bertoldus Ronnow</persName> <persName>Hinricus Rixstorpp</persName> et <persName>Hinricus Krumedike</persName> militares fidejubemus ut fidejussores in vim presentis litere illustrissimo principi et domino domino Erico Dacie Swecie Norwegie Slavorum Gotorumque regi et duci Pomeranensi pro predictis dominis domino Hinrico . domino Adolpho et domino Gerardo ducibus in Sleswig et comitibus in Holsacia Stormaria et Schowenborgh prout ipsis taliter secundum jus determinatum fuerit sicut suprascriptum est quod ipsi debent hoc ratum gratum et inviolabile tenere ♦ Et si hujusmodi juris pronunciatio ab eisdem ducibus Sleswicensibus et comitibus Holsacie nostris dilectis amicis awnculis et dilectis dominis non teneretur quod Deus avertat et eciam minime contingere debet tunc nos predicti fidejussores promittimus et dicimus quod nos volumus tunc principi predicto regi pro jure suo fideliter astare ut promissis teneantur et eosdem duces de Sleswig et comites Holsacie contra nostrum dominum regem et hujusmodi juris pronunciacionem nec juvare nec ipsis consilium dare volumus absque omni dolo et fraude in cujus rei evidenciam et majorem firmitatem nos predicti duces Henricus Adolphus et Gherardus sicut reigestores et nos dicti fidejussores omnia nostra propria sigilla cum nostra sciencia et bona voluntate presentibus duximus appendenda ♦ Datum et scriptum in Flensborgh anno a nativitate Dei millesimo quadringentesimo vicesimotertio in vigilia epyphanie domini ♦ </p>
+            <p n="a#3" xml:space="preserve">Super quibus omnibus et singulis prenominata . serenissima principissa et domina domina Philippa Dacie Swecie Norwegie Slavorum Gotorumque regina et ducissa Pomeranensis me notarium publicum infrascriptum debita cum instantia requisivit ut sibi super his unum vel plura conficerem instrumentum vel instrumenta actis factis his anno indictione hora die loco pontificatu . et aliis quibus supra presentibus honorabilibus et nobilibus viris dominis <persName>Johanne Petri Lundensis et Roskildensis ecclesiarum canonico</persName> <persName>Thoma Symonis Strengnensis ecclesie preposito</persName> <persName>Thorberno Johannis castri Callingborgh advocato</persName> <persName>Ottone Meynstorpp</persName> <persName>Conrado Massow</persName> militaribus et <persName>Jacobo Glasshagen civi Callingborgensis</persName> Roskildensis dyocesis testibus una mecum ad promissa vocatis specialiter et rogatis ♦</p>
+            <p n="a#4" xml:space="preserve">(Notarmærke) Et ego Johannes Kyndigh clericus Sleswicensis dyocesis publicus imperiali auctoritate notarius quia hujusmodi patentis litere inspectioni lectioni auscultationi comparationi translationi transsumptioni exemplationi ac omnibus aliis supradictis dum sic ut premittitur fieret et ageretur una cum prenominatis testibus presentibus interfui eaque omnia et singula sic fieri vidi et audivi ideoque hoc presens publicum instrumentum exinde confeci et in hanc publicam formam redegi et propria manu mea conscripsi signoque et nomine meis solitis et consvetis signavi in fidem et testationem omnium et singulorum premissorum
+    </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">969</num>, paragraphs: <num n="paragraphs">15</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14360724003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>receshåndskrift 2</collection>
+                        <idno>p. 646—648 (f. 5b—6b)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Hæfte med tre dobbeltblade</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Forsynet med overskriften: <q>Der Sweden claghe jeghen den
+                                 koningk</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. II:1, nr. 606, p. 543-544</bibl>
+               <bibl>Reg. *5144</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Hanserec. l. l., hvorfra også de arkivalske oplysninger
+                  stammer. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-07-24"
+                  notBefore="1436-07-24"
+                  notAfter="1436-08-23"
+                  cert="low">1436.
+               [24. juli - 23. august]</date>
+            <placeName cert="unknown">Kalmar</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Svenskernes klage mod Kong Erik 7. af Pommern. Klagen har følgende punkter:</ab>
+            <ab>1) Det svenske riges råd og mandskab har i mange år klaget over den uret og de
+               overgreb, som uretfærdige fogeder udsatte dem og hele det svenske samfund for under
+               konflikten mellem Jens Eriksen og Engelbrekt Engelbrektsson. Da det svenske samfund
+               erkendte, at det ikke ville blive bedre, og at svenskerne ikke ville få hjælp fra
+               kongen, idet han hele tiden var ude af landet, eller fra det svenske rigsråd, idet
+               det ikke havde magt til at hjælpe svenskerne, besluttede de sig for at opsige kongen
+               råd og mandskab. Imidlertid erklærede svenskerne derefter på et møde i Stockholm igen
+               kongen troskab og mandskab på den betingelse, at Sveriges indbyggere skulle have
+               deres lov og ret samt deres privilegier og friheder tilbage. Dog skulle de tre slotte
+               Stockholm, Nyköping og Kalmar være undtaget herfor, idet kongen skulle have dem. På
+               disse slotte kunne kongen indsætte danskere eller nordmænd. Alle andre slotte skulle
+               leveres tilbage til svenskerne efter det svenske rigsråds råd. Denne aftale blev
+               imidlertid brudt af kongen, eftersom slottene ikke blev leveret tilbage til
+               svenskerne. Dette indklagede svenskerne første gang for de 12 voldgiftsmænd, anden
+               gang for danskerne og tredje gang for kongen selv.</ab>
+            <ab>2) Da kongen rejste til Danmark, blev det svenske samfund skændet og udsat for
+               røveri, som om det havde været i fjendeland. Land og slotte blev overdraget til
+               udenlandske folk - både mænd og kvinder. Bl.a. blev svenske adelsfolk gjort til
+               underfogeder af danskerne, hvis svenskerne krævede noget af deres gods.</ab>
+            <ab>3) Kongen sagde også, at han ikke længere ville være svenskernes ja-herre. På denne
+               og lignende måder brød kongen aftalen med svenskerne. Derfor mente svenskerne heller
+               ikke, at de var forpligtede til at overholde aftalen, hvorfor de drog ind i Stockholm
+               og belejrede de andre slotte.</ab>
+            <ab>4) Hvad angår de slotte og gårde, som skulle være blevet ødelagt eller brændt af, så
+               er både land og folk bekendt med den uret og skade, som Jens Eriksen og hans
+               embedsmænd har udsat folkene i Dalarna for. Denne uret har de ofte klaget over til
+               kongen, men der er aldrig sket dem nogen ret.</ab>
+            <ab>5) Det svenske rigsråd og borgerne i Västerås bad skriftligt kongen om at sende Jens
+               Eriksen væk fra Västerås slot, således at yderligere konflikt kunne undgås, men
+               dertil svarede kongen, at det ikke var ham muligt. Til sidst erobrede borgerne i
+               Västerås og Engelbrektsson Västerås slot, men lige meget nyttede det, hvorfor de
+               måtte drage bort fra Västerås slot igen. Derefter rejste det svenske rigsråd til
+               København, hvor de fandt kongen og Jens Eriksen. Her gjorde de svenske rigsråder
+               knæfald for kongen og bad ham indtrængende om at rejse til Sverige for at høre, hvem
+               der var skyld i rigets fordærv. Dertil svarede kongen, at det ville han
+               overveje.</ab>
+            <ab>6) Når det er blevet skrevet, at svenskerne aldrig har klaget, så vil svenskerne nu
+               lade det være op til voldgiftsmændene at afgøre, om det er rigtigt, for
+               voldgiftsmændene ved selv, om de har givet svenskernes klage videre til kongen. Under
+               alle omstændigheder affattede svenskerne en skriftlig klage i Stockholm for to år
+               siden.</ab>
+            <ab>7) Med hensyn til Stockholm drog svenskerne dertil, fordi de ville tilskynde kong
+               Erik og de andre tilstedeværende garanter til at handle i sagen. Da svenskerne nåede
+               hen til byen, gav kong Erik besked om at lukke porten og om at beskyde svenskerne med
+               armbrøster og bøsser. Derved blev mange mænd og heste såret, og eftersom kongen på
+               den måde afviste svenskerne, kunne de regne ud, at kongen holdt slottet til skade for
+               det svenske rige, og at han i hemmelighed havde fået overdraget slottet, uden at
+               nogen fra det svenske rigsråd havde fået besked om det. Derfor kom medlemmerne af det
+               svenske rigsråd til byen, idet de mente, at de allerede havde klaget over kongen,
+               inden han påførte svenskerne skade.</ab>
+            <ab>8) Med hensyn til tyskere, danskere eller nordmænd og i særdeleshed med hensyn til
+               fru Ida Königsmark skal de personer, som har taget godset, svare.</ab>
+            <ab>9) Med hensyn til det, som Engelbrektsson har gjort i Danmark, skal man først finde
+               ud af, hvem der rettelig skal svare, og så skal vedkommende svare, som det sig hør og
+               bør.</ab>
+            <ab>10) Med hensyn til de biskopper, som har forlenet kongens len, skal enhver svare for
+               sig selv, og Erik Puke skal svare vedrørende Kastelholm og Tälje hus.</ab>
+            <ab>11) Med hensyn til Nils Stensson befinder han sig nu så tæt på Kalmar, at han selv
+               kan svare, når han har fået sikkerhed, som det sig hør og bør.</ab>
+            <ab>12) Med hensyn til Axevalla, Elfsborg og Raseborg kender svenskerne intet til de
+               sager, og de håber, at det ikke er rigtigt, hvad kongen skriver. Men hvis der er sket
+               noget, så vil svenskerne opfordre til, at retten kan gå sin gang, sådan som det sig
+               hør og bør.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-15" who="#pbh">Filen etableret af #pbh 2013-11-15. </change>
+         <change when="2017-04-05" who="#smb">1. korrektur af #smb 2017-04-05. </change>
+         <change when="2017-10-30" who="#smb">2. korrektur af #smb 2017-10-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Ersamen leven heren unde vrundes.</p>
+            <p n="a#2">Des rikes rat unde manscop in Sweden beclageden mennich jar dat unrecht unde
+               overwalt, de en unde der gantzen menheit overghink van unbildighen vogheden, so
+               langhe dat de vorderfnisse upquam tuschen Jons Eriksson unde Enghelbrechte.</p>
+            <p n="a#3">Do de menheit irkennen konde, dat it nicht betert konde wesen unde nene hulpe
+               hadde van der herscop, de to allen tiiden ut deme lande was, unde ok nicht van des
+               rikes rade, wente se weren nicht mechtich en to helpende, dat vorwekkede de ersten
+               drofnisse, dat se bedwunghen beide <app>
+                  <lem>ridderscop</lem>
+                  <rdg>
+                     <q>ridderscor</q>, Aa</rdg>
+               </app> unde andere lude in den riken wanaftich, dat se van not weghen mosten der
+               herscop rad unde manscop upsegghen mit vuller bewaringhe.</p>
+            <p n="a#4">Darna wart begrepen en dach tom Holme, dar wart der herscop denst unde
+               manscop wedder ghesecht unde lovet mit sodanen vorwarden, dat des rikes inwanre
+               scholden wedder hebben unde neten ere bescrevene lach unde recht, privilegia unde
+               vrigheide nicht utghenomen, sunder dre slote, alzo Stokholm, Nigkoping unde Calmeren,
+               dar mochte de herscop upsetten Denen offt Normans unde anders nene lude, unde alle
+               andere slote <app>
+                  <lem>scholde</lem>
+                  <rdg>
+                     <q>schal</q>, Aa</rdg>
+               </app> men den Sweden antward hebben na <app>
+                  <lem>
+                     <supplied>rade</supplied>
+                  </lem>
+                  <rdg>
+                     <q>rade</q> mangler i Aa</rdg>
+               </app> des rikes rade to Sweden, unde de slotlove scholde hebben wedder gheropen
+               worden over dat gantze rike, als bedeghedinghet was na utwisinghe der breve. Welke
+               deghedinghe darsulves tom Halme gebraken wart van der herscop, eer wi uns dar
+               schededen, wente de slote weren nicht gheantwardet unde de slotlove ummekeret, als
+               ghesecht was, als bewislik is. Dit beclagheden de Sweden ersten vor den twelff
+               waltgiftesluden, to dem anderen male vor den Denen, to dem druden vor der herscop
+               sulven. Nadem dat em nen betringhe schach, mene wi, dat do was rechte maninghe dan,
+               unde behoveden nene vurder maning to donde, so wi hapen.</p>
+            <p n="a#5">
+               <supplied>2</supplied> Item do he wedder uttoch in Dennemarken, do wart des rikes
+               menheit berovet unde schinnet van sinem volke, ghelik oft it hadde wesen in viande
+               lande; lande unde slote worden gheantward utlendeschen luden unde vrowen, so dat de
+               Denen makeden Swedesche riddermatische lude to undervogeden, <app>
+                  <lem>wolden</lem>
+                  <rdg>
+                     <q>woldes</q>, Aa</rdg>
+               </app> se ichteswat hebben.</p>
+            <p n="a#6">
+               <supplied>3</supplied> Item sede he, dat <app>
+                  <lem>
+                     <supplied>he</supplied>
+                  </lem>
+                  <rdg>
+                     <q>he</q> mangler i Aa</rdg>
+               </app> nicht lenk wolde wesen unse jahere, mit deme unde mit desghelik was ghebraken
+               de deghedinghe van sinre weghen, er em de Sweden enjeghen deden. Do menden de Sweden
+               dar ok nicht aff to haldende unde breken do ok unde toghen in de stad tom Holm unde
+               bestalleden de andere slote, unde menden, dat vurderer vorwaringhe to donde <app>
+                  <lem>nicht</lem>
+                  <rdg>
+                     <q>nich</q>, Aa</rdg>
+               </app> beh{oe}ff were, do he unde de sine schinnet unde gherovet <app>
+                  <lem>hadden</lem>
+                  <rdg>
+                     <q>haddet</q>, Aa</rdg>
+               </app> up dat rike.</p>
+            <p n="a#7">
+               <supplied>4</supplied> Umme slote unde hove de ghebroken unde ghebrant sin, dar
+               segghe wi to, dat landen unde luden witlik is, wat unrechtes unde drofnisse Jens
+               Eriksson unde sine amptlude deden der armen menheit in <placeName>den
+                  Dalen</placeName>, welk unrecht unde walt se vake beclagheden vor der herscap mit
+               breven unde mit baden, unde en doch nicht weddervur den homod unde schade unde neen
+               recht.</p>
+            <p n="a#8">
+               <supplied>5</supplied> Item screff des rikes rat van Sweden unde manscop van Westars,
+               biddende de herscop umme Gades unde des rikes bestentnisse willen, dat he Jons
+               Eriksson schikken wolde van Westare, uppe dat dar nicht meer arghes affqueme; <app>
+                  <lem>dar he to sede</lem>
+                  <rdg>
+                     <q>dar he se to sede</q>, Aa</rdg>
+               </app>, he konde dat nenerleie wis doen umme segghendes willen. Uppe dat leste, do
+               des rikes rad sach nicht men vorderff, wente de menheit unde Enghelbrecht, de dat
+               recht ghewunnen hadden jeghen Jons Eriksson, wol dat dat recht van vorbade der
+               herscop konde nenen gank hebben, wunnen se dat slot vorgheves unde theen vort vor
+               Westars, do quemen des rikes rad van Sweden, alzo biscop Sigghe van Schare, biscop
+               Tomas van Strengnisse, biscop Nikels van Wexio, her Bent Stensson, her Sture Algotson
+               unde andere gude lude to Kopenhaven, dar ok Jons Eriksson jeghenwardich was, unde
+               villen an ere kny unde beden de herscop, dat he, umme des dodes willen den Got
+               gheleden hadde, wolde kamen in dat rike unde horen up weme de schuld stunde unde
+               storen sin unde des rikes vorderff, wat he dartho sede, dat kan he sulven wal
+               bedenken.</p>
+            <p n="a#9">
+               <supplied>6</supplied> Item alzo dat artikel secht, dat de Sweden ni claghet hebben,
+               dat late wi to den waltghiftesluden, wo it darumme is, hebben se de claghe vor
+               gheantwardet der herscop, dat weten se wol, sunder <app>
+                  <lem>wi dede</lem>
+                  <rdg>
+                     <q>dede wi</q>, Aa</rdg>
+               </app> ene beschreven claghe to dem Holm an deme hilghen gheste aver twen jaren.</p>
+            <p n="a#10">
+               <supplied>7</supplied> Item umme vorvolghinghe jeghen sinen rechten heren unde
+               Stokeholm hebbe wi rede antward in dem anderen articule, doch toghe wi tom Holme umme
+               dat wi wolden vormanen her Erike unde de anderen medelovere, de dar weren. Als wi do
+               naleden der stad, leet he dat dor vor uns sluten unde to uns scheten mit armborsten
+               unde bussen, unde wundeden lude unde peerde, unde na deme dat he was eyn van den
+               uppersten lovers unde wisede uns also aff, konde wi ghissen, dat he dat slot holt
+               deme rike to schaden; unde hadde sik dat slot hemelken laten antworden, dat <app>
+                  <lem>nemand</lem>
+                  <rdg>
+                     <q>neman</q>, Aa</rdg>
+               </app> van des rikes rade daraff wuste. Dorumme quemen se mit Gades hulpe in de stad
+               unde menden noch, se wolden de lovers noch hebben ghemant, eer he over schot unde
+               schaden dede unde leet vur anstikken, darumme hape wi, dat wi nicht jeghen ere hebben
+               ghedan.</p>
+            <p n="a#11">
+               <supplied>8</supplied> Item umme Dudesche, Densche ofte Normans, unde sunderghen
+               vrowe Iden, dar antwarden de to, de dat ghenamen hebben, als beschedelik is unde
+               moghelik.</p>
+            <p n="a#12">
+               <supplied>9</supplied> Item umme dat gheschen is Dennemarken van Enghelbrechte, wan
+               men wet weme men van rechte schal to antwarden, so schal man dar beschedelken to
+               antwarden, als sik dat bort, wo uns moghe <app>
+                  <lem>derghelik</lem>
+                  <rdg>
+                     <q>deghelik</q>, Aa</rdg>
+               </app> wedder scheen.</p>
+            <p n="a#13">
+               <supplied>10</supplied> Item umme de biscoppe, de des koninghes lene vorlent hebben,
+               darto antwarde en iderman vor sik, unde Erik Puk umme Casteholm unde Telghe.</p>
+            <p n="a#14">
+               <supplied>11</supplied> Item <app>
+                  <lem>is</lem>
+                  <rdg>
+                     <q>is is</q>, Aa</rdg>
+               </app> Nikel Stensson hiir so na<ref target="drb1"/>, dat he sulven antwardet wol vor sik, wan he sodane vorwaring heft als sik
+               darto bord.</p>
+            <p n="a#15">
+               <supplied>12</supplied> Item umme Axewalde, Evelsborch unde Raseborch is uns
+               unwitlik, wi hopen, dat it nicht en sy, is dar ok wat gheschen, dat men vorbaten
+               schal, dat it sche als sik darto ghebort etc.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden 1. januar 2017 til 30. juni 2021 vil redaktionen udelukkende
+               udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

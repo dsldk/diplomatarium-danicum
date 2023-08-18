@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">92</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14150120001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>NKR c-2556 (tidl. signatur Helsingør 5)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.2 (plica: 1.3)</height>
+                                    <width>23.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Vandskadet</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift: <q>Curia in Helsingør</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5502</bibl>
+               <bibl>Reg. Dan. 3287*</bibl>
+               <bibl>Aarsb. fra Geheimearch. III, Tillæg 4 nr. 3</bibl>
+               <bibl>Danske Magazin V 71</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-01-20"
+                  notBefore="1415-01-20"
+                  notAfter="1415-01-20"
+                  cert="high">1415.
+               20. januar</date>
+            <placeName cert="high">Helsingør</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder (Jensen (Lodehat)), biskop i Roskilde, skøder for tro tjeneste den gård i
+               Helsingør, som de bor i, til Henrik Schulte og hans hustru Kristine.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-27" who="#pbh">Filen etableret af #pbh 2014-02-27. </change>
+         <change when="2019-04-16" who="#pbh">1. korrektur af #pbh 2019-04-16. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Petrus</persName> dei gracia
+               episcopus <placeName>Roskildensis</placeName> salutem in . domino ♦</p>
+            <p n="a#2">Noveritis nos . latoribuspresencium <persName>Henrico Schulte</persName> et
+                  <persName>Cristine</persName> uxori ejus et . heredibus . suis . pro serviciis
+               suis nobis . hucusque factis et de cetero . faciendis curiam nostram . in .
+                  <placeName>Helsingør</placeName> . quam pronunc inhabitant annuisse dedisse et
+               scotasse jure perpetuo possidendam ♦</p>
+            <p n="a#3">Unde . obligamus nos et . successores nostros dictis Henrico et . Cristine et
+               . heredibus suis dictam curiam . appropriare et disbrigare ab . impeticione
+               quorumcumque . ♦</p>
+            <p n="a#4">In cujus rei testimonium secretum nostrum presentibus est appensum ♦</p>
+            <p n="a#5">Datum Helsingør anno domini . millesimo cd<hi rend="sup">o</hi> decimo .
+               quinto ipso die sanctorum Fabiani et . Sebastiani martirum . ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2023</date>
+            <idno type="dd">14320718001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2023, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio di Stato</repository>
+                        <idno>Annate 1431-33 fol. 147</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 39 nr. 1660</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-07-18"
+                  notBefore="1432-07-18"
+                  notAfter="1432-07-18"
+                  cert="high">1432. 18.
+          juli</date>
+            <placeName cert="high">Rom</placeName>
+         </creation>
+         <abstract>
+            <ab>Det pavelige kancellis optegnelse om at Jens Mortensen gennem sin prokurator Arnestus
+          Aurifabri har lovet at betale annater af provstiet i Roskilde.</ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-08" who="#pbh">Filen etableret af #pbh 2013-10-08. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-08-09" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">[1432] <app>
+                  <lem>Dicta die</lem>
+                  <rdg>
+                     <q>= 18. julii</q>
+                  </rdg>
+               </app>
+               <persName>Arnestus Aurifabri</persName>
+               <!-- Den samme Ernestus Aurifabri som kejser Sigismund udnævner til sin kapellan 1433 aug. 1 (Rom), Reg. Imp. nr. 9571, can. Hildesh.? = Reg. Germ. V 1758 "alias procur. causar. in R. curia" -->
+          procurator et nomine procuratorio, prout publico instrumento constabat, obligavit se
+          camere nomine <persName>Johannis Martini</persName> super annata prepositure ecclesie
+            <placeName>Roskildensis</placeName> [fructus 12 mr.], vacantis per obitum
+            <persName>Johannis Borzow</persName> litterarum apostolicarum scriptoris in curia
+          defuncti, collate eidem Rome 1431, 10. kal. jan. pontificatus anno 1.</p>
+         </div>
+         <div xml:lang="da">
+            <p>
+               I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

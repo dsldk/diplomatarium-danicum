@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="fgj">
+                  <persName>
+                     <forename>Finn Gredal</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14160000009</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Det Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab/>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal>
+                              <ab/>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer. Åkærske reg. B (1611), upag., med overskriften <q>Thisse effter<hi rend="sup">ne</hi> breffue findes i en asch noterit hoc signo</q> [tegning af et hjerte med et kors] <q>3</q>. Endvidere registreret i Åkærske reg. A (1591), upag., nr. 113 (senere nummerering)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 129 nr. B. 105</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter B-reg.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416" notBefore="1416" notAfter="1416" cert="low">1416 el. 1466<ref target="drb1"/>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Et skødebrev på det gods i Vedslet, hvori Jens Mikkelsen i Grumstrup havde opnået lavhævd på den ret, som fru Malene havde arvet efter sine forældre.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-18" who="#pbh">Filen etableret af #pbh 2014-03-18. </change>
+         <change when="2019-03-15" who="#fgj">Kladde: 1. korrektur #fgj 2019-03-15. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Et <app><lem>schiøde breff</lem><rdg wit="#B">B-reg.</rdg><rdg wit="#A"><q>schøde</q> A-reg</rdg></app> paa pergamendte som <persName>Jens Mickelssen</persName> i <placeName>Gromstrup</placeName> haffuer indwort med laugheffd ald den rettigh<ex>edt</ex> som frue <persName>Madlenne</persName> haffde effter <app><lem>hindes foreldre</lem><rdg wit="#B">B-reg.</rdg><rdg wit="#A"><q>sine døde foreldre</q> A-reg</rdg></app> i <placeName>Wetzslet</placeName>, ♦</p>
+            <p n="a#2" xml:space="preserve"><app><lem>1416</lem><rdg wit="#B">B-reg.</rdg><rdg wit="#A"><q>Anno 1466</q> A-reg</rdg></app>,.<!-- sic --> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

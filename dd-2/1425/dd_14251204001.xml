@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">36</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14251204001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                  Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc>
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Ukendt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab/>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>
+                  <ref/>
+               </bibl>
+               <bibl>Reg. Dan. nr. *4743</bibl>
+               <bibl>Lünig, <ref>Teutsches Reichs-Archiv 17, Spicilegium ecclesiasticum</ref> II,
+                  404-405</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>
+               Udtog efter Lünig Teutsches Reichs-Archiv 17, Spicilegium ecclesiasticum II,
+               404-405.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-12-04"
+                  notBefore="1425-12-04"
+                  notAfter="1425-12-04"
+                  cert="low">1425. 4. december</date>
+            <placeName cert="low">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Magister Nicolaus Bochow (må være = Sacchow), provst i Slesvig, bevidner et notarialinstrument, hvori Henricus
+               Kif som prokurator for Johannes Lichtenow, evig vikar ved Mariakirken i Lübeck, afstår dette vikariat.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-10-12" who="#pz">Filen etableret af #pz 2020-10-12. </change>
+         <change when="2020-10-12" who="#pz">1. korrektur af #pz 2020-10-12. </change>
+         <change when="2020-10-30" who="#mh">2. korrektur af #mh 2020-10-30. </change>
+         <change when="2020-11-30" who="#pz">3. korrektur af #pz 2020-11-30 . </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">... Acta fuerunt hæc in curia episcopali <placeName>Lubec.</placeName> sub anno, indictione, die, et aliis, quibus
+      supra, præsentibus ibidem vener. domino magistro, <persName>Nicolao Bachovv</persName>, præposito <placeName>Slesvvicens.</placeName> et
+      honorabili domino <persName>Joanne Daghevvaken</persName>, rectore parochialis ecclesiæ in <placeName>Ronneberghe</placeName> Mind
+      diœces. testibus ad præmissa vocatis pariter et rogatis. ...</p>
+            <p n="a#2" xml:space="preserve"/>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

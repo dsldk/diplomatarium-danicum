@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">49</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14300000001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>NKR 3092a-c; tidl. sign. Maribo 2 - L 54-2</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Brevet er stærkt medtaget og begyndelsen ulæselig</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På forsiden med senere hånd <q>1430</q>. På bagsiden påskrift fra 16.
+                              årh. <q>N<hi rend="sup">o</hi>. 20 Kong Erichs certificatie om
+                                 vidisser att Erich Jespersen Liungorp loulige<ex>n</ex> kiobt
+                                    haff<ex>ue</ex>r oc for sit læffersted til testame<ex>n</ex>t
+                                 giffuit til Maribo closter oc confirmerit aff hans brødre oc rette
+                                    arffuing<ex>er</ex>
+                              </q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6475</bibl>
+               <bibl>Vejledende Arkivreg. XVIII 87 nr. 3</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter A. De vidimerede breve er udgivet som <ref target="14181031001" type="link">DD 1418. 31. okt, nr. 14181031001</ref> og DD 1423. [17.-21.
+               maj], nr. 14230517001.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1430" notBefore="1430" notAfter="1430" cert="low">[1430]<ref target="drb1"/>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern vidimerer på det kongelige retterting et brev af 1418. 31.
+               oktober, hvori Kristine Pedersdatter skøder gods i Lyngerup i Horns herred til Erik
+               Jakobsen (Due); samt et brev af 1423. [17.-21. maj], hvori Erik Jakobsens arvinger
+               opfylder hans testamente og overlader godset til Maribo kloster.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-24" who="#pbh">Filen etableret af #pbh 2013-09-24. </change>
+         <change when="2019-07-08" who="#alk">1. korrektur af #alk 2019-07-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve"><app><lem><damage>.....</damage></lem><rdg wit="#A">Vidissens indledning borte eller ulæselig, A</rdg></app></p>
+            <p n="a#2" xml:space="preserve">Allæ mæn th<ex>et</ex>tæ b<ex>re</ex>ff (etc. = DD 1418. 31. oktober) ♦</p>
+            <p n="a#3" xml:space="preserve">Allæ mæn th<ex>et</ex>tæ b<ex>re</ex>ff (etc. = DD 1423. [17.-21. maj]) ♦</p>
+            <p n="a#4" xml:space="preserve">In quorum omnium evidenciam firmiorem sigillum nostrum ad <damage>causas</damage> presentibus
+      est appensum ♦</p>
+            <p n="a#5" xml:space="preserve">D<damage>a</damage>tum <damage>loco a</damage>nn<damage>o</damage> et die supradictis teste
+        <persName>Ywano Fos</persName> justiciario nostro ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

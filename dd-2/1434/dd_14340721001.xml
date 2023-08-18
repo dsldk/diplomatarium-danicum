@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">655</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14340721001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3174-b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>23 (plica: 4)</height>
+                                    <width>44</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Senere bagsidepåskrift: <q>B</q>re<q>ff at stederne fo</q>r<q>plecth</q>ed<q>
+        th</q>e<q>m at komme till konnyng Erick ath forliide th</q>e<q>m m</q>ed<q> hannom om the
+        sagh</q>er<q> han haffde till th</q>e<q>m</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Biskop Magnus' segl, i rødt voks, i perg.rem, nil
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Hertug Bugislavs segl, i rødt voks, i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Hertug Barnims segl, i rødt voks, i perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Hertug Henriks segl, i rødt voks, i perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Biskop Johans segl, i brunt voks, i perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Biskop Pardams segl, i brunt voks, i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hvitfeld IV 511, fol. 770 (dansk oversættelse; dato udeladt)</bibl>
+               <bibl>Hanserec. 2:I, nr. 371, p. 266-268</bibl>
+               <bibl>Reg. Dan. nr. *5058</bibl>
+               <bibl>Rep. nr. 6717</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-07-21"
+                  notBefore="1434-07-21"
+                  notAfter="1434-07-21"
+                  cert="high">1434. 21. juli</date>
+            <placeName cert="high">Vordingborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Biskop Magnus af Hildesheim, hertugerne Bugislav og Barnim af Stettin og Heinrich, hertug af
+      Mecklenburg, samt biskopperne Johann af Verden og Pardam af Ratzeburg erklærer, at striden
+      imellem kong Erik 7. af Pommern og hansestæderne Lübeck, Hamburg, Lüneburg og Wismar skal
+      afgøres ved en voldgift på sankthansdag 1435, hvis en tidligere forhandling imellem parterne
+      ikke fører til et forlig.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-25" who="#pbh">Filen etableret af #pbh 2013-10-25. </change>
+         <change when="2020-02-04" who="#smb">1. korrektur af #smb 2020-02-04. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wii <persName>Magnus</persName> van Godes gnaden bisscop to <placeName>Hildensem</placeName>
+      <persName>Buggeslaff</persName> vnde <persName>Barnym</persName> de Jungere to
+        <placeName>Stetin</placeName> to <placeName>Pomeren</placeName> der Cassuben vnde der Wende
+      hertogen vnde fforsten to <placeName>Rugen</placeName> vnde <persName>Hinrik</persName>
+      hertoge to <placeName>Mekelenborch</placeName> vnde to <placeName>Stergherden</placeName> vnde
+      greue to <placeName>Swerin</placeName> schedesheren des dorchluchtigsten hochgebornen fforste
+      vnde grotmechtigen konynges heren <persName>Erijkes</persName> der rijke
+        <placeName>Denemarken</placeName>
+      <placeName>Sweden</placeName>
+      <placeName>Norwegen</placeName> der Wende vnde der Ghotten konynges vnde hertogen to
+        <placeName>Pomeren</placeName> . vnde wii <persName>Johan</persName> van den suluen gnaden
+      to <placeName>Verden</placeName> vnde <persName>Pardam</persName> to
+        <placeName>Ratzeborch</placeName> bisscoppe schedesheren der stede
+        <placeName>Lubeke</placeName>
+      <placeName>Hamborch</placeName>
+      <placeName>Luneborch</placeName> vnde <placeName>Wysmar</placeName> bekennet vnde betuget
+      openbare vor alsweme de dussen jegenwordigen breff seen eder horen lesen alse wii hiir nv jn
+      dem rechten scholden vorscheden hebben de sake twisschen dem heren konynge vnde den steden
+      vorgenant dar wii gutwillich to weren vnde dem so gerne gedan hedden sunder vmme mannichuold
+      vnde grote willen der sake stond vns dat nv tor tijd swarliken to d{oe}nde / ♦</p>
+            <p n="a#2" xml:space="preserve">Darumme hebbe wij schedesheren vorgenant vnde myt vns de hochgebornen fforsten vnde heren
+      hertoge <persName>Bernd</persName> to <placeName>Sassen</placeName> vnde hertoghe
+        <persName>Cristoffer</persName> to <placeName>Beyeren</placeName> dem vorbenomden heren
+      konyng mit otmodiger bede angeuallen . dat he mit den vorbenomeden steden wolde lyden eyne
+      mogelke tijd alse to sunte Johannes dage to middenzomer negest tokomende hiirvp dat wij
+      schedesheren dem vorbenomeden heren konynge gesecht hebben hir to
+        <placeName>Werdingeborch</placeName> weder to wesende ene vnde de stede mit rechte denne all
+      hir to vorschedende . vnde eynen utsproke des rechten hiir to donde na ansprake vnde antworde
+      alse van beyden deylen denne vor vns scrifftliken eder muntliken werd vorgebracht sunderliken
+      mit sulkem beschede dat de here konyngh vorbenomed denne sine tosprake vnvortogerd by vns
+      vorbenomden schedesheren bereyd hebbe / desghelijk de van den steden or tosprake ok / vppe dat
+      wij in beyden deylen de vorantwerden mogen antwerde dar vp to schickende vnde so by uns to
+      bryngende ansprake vnde antworde vnvortogerd vnde dar denne nicht vorder van welkerem dele in
+      totheende / eder jennich artikel touoren afftoschedende . ♦</p>
+            <p n="a#3" xml:space="preserve">Men is jemand de sek des wil d{uo}ncken laten dat dar wes mede sij dat touoren bored vor
+      toghande de sette dat mede in syne tosprake bij de anderen / wes denne dar recht vmme sij na
+      der schedesheren secgende dat dat denne sche / vnde wes we sek van beyden delen beromet in
+      syner tosprake to bewisende dat he sich dar na richte dat he syne bewisinge denne to dusser
+      vorgescreuen tijd der he meynet to brukende yo hebbe ♦</p>
+            <p n="a#4" xml:space="preserve">Ok hefft de ergenante here koning toghelaten ok is id van der stede wegene so gesproken . dat
+      se id besenden willen vnde ore bodeschop by sinen gnaden hebben vmme fruntschop gruntliken to
+      vorsokende to <app><lem>sunte Walburgis dage</lem><rdg>dvs. 1. maj 1435</rdg></app> dat is Philippi et Jacobi negest komende hir to <placeName>Werdingeborch</placeName> .
+      ♦</p>
+            <p n="a#5" xml:space="preserve">De Ghe{ue}er alles guden de gheue dat de fruntscop so togha dat wij vmme der sake willen hiir
+      weder nicht komen doruen ♦</p>
+            <p n="a#6" xml:space="preserve">Vffte denne de stede sich sus in fruntschop nicht voreneden mit dem erbenomeden heren
+      konynghe na vorgerorder wijse so vorsecgen vnde vorplichten wij schedesheren vns in dussem
+      jegenwordigen breue hiir weder to wesende to dusser vorgescreven tijd vnde ordel vnde recht vt
+      tosprekende vnvortogerd na tosprake vnde antwerde vnde na lude des recessus to
+        <placeName>Horsnisse</placeName> jd enwere denne dat vnser welkem dat rechte echt n{oe}t
+      beneme dat bewislik were ♦</p>
+            <p n="a#7" xml:space="preserve">So is dar vorder angesproken mit dem heren konynge vorbenomed vnde ok mit den steden dat se
+      eynen schedesheren weder kesen mogen wen se willen . vnde den hir denne hebben in des jennen
+      stede de hir nicht en kumpt mit vuller macht ghelik vns suluen . ♦</p>
+            <p n="a#8" xml:space="preserve">Hiir vp hefft de ergenante here koningh den sendeboden der stede vnde de sendeboden der stede
+      erbenomed sinen gnaden wedervmme hir to <placeName>Werdingborch</placeName> togesecht
+      ernstliken to bestellende dat sodane vpslach vnde vrede alse to
+        <placeName>Horsnisse</placeName> latest berecesset vnde sloten ward truwelken vnde wal
+      schulle gheholden werden sunder argelist ♦</p>
+            <p n="a#9" xml:space="preserve">To tuchnisse vnde merer bewaringe alle dusser vorgescreuen artikele . hebbe wij vorbenomeden
+      schedesheren vnser aller jngesegele witliken heten hengen an dussen breff de gegeuen vnde
+      gescreuen is to <placeName>Werdingeborch</placeName> na Godes bord dusent verhundert dar na jn
+      dem vervndedrittigesten jare an dem auende der hilgen ffro{uo}wen sunte Marien Magdalenen \
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

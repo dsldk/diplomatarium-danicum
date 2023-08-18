@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">17</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250803001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Tabt. Omtalt af Hamsfort i Chronologia secunda, tabt, men forinden afskrevet af Stephanius i hans Systema</settlement>
+                        <repository>Uppsala Univ. Bibl.</repository>
+                        <collection>de la Gardie 25-29 f. 76r</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>SRD I 326</bibl>
+               <bibl>Rep. nr. 6203</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter registraturen. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-08-03"
+                  notBefore="1425-08-03"
+                  notAfter="1425-08-03"
+                  cert="low">1425. 3. august</date>
+            <placeName cert="unknown">[København]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ærkebiskop Peder Lykke (Bille), biskop Knut Bosson (Natt och Dag) af Linköping,
+                        biskop Lave (Due (Glob)) af Viborg, biskop Peder af Børglum, biskop Aslak Bolt af Bergen, biskop Jens
+                        (Andersen (Lodehat)) af Roskilde, biskop Thomas af Orkneyøerne, biskop Navne (Jensen (Gyrstinge)) af
+                        Odense, biskop Christian (Hemmingsen (Liljesparre)), biskop Jens af Oslo,
+                        biskop Ulrik (Stygge) af Århus, biskop Severinus Tranquilliensis og biskop Henricus (van der See) af Slesvig giver
+                        afladsbrev på 40 dage til Dalum kirke og kloster.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Anno domini mccccxxv ..... atque  <app><lem>hi omnes</lem><rdg resp="#mh"> 
+                        cf. <ref target="14250726001" type="link">DD 1425. 26. jul., nr. 14250726001</ref></rdg></app> nemine excepto ecclesiæ et monasterio Dalumensi ejusdem generis diploma iii nonas avgusti
+                        <app><lem>tribuunt iisdem</lem><rdg resp="#mh"><q>tribuunt. iisdem</q>, reg</rdg></app> comitiis.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">3123</num>, paragraphs: <num n="paragraphs">33</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14269999045</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Kiel</settlement>
+                        <repository>Universitätsbibliothek Kiel</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>'Friesische rechte', nr. 8</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>4<hi rend="sup">to</hi>
+                              </ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra begyndelsen af 1600-tallet. Ikke forefundet 2019</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Kiel</settlement>
+                        <repository>Universitätsbibliothek Kiel</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>'Alte friesische rechte', nr. 9</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>4<hi rend="sup">to</hi>
+                              </ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra slutningen af slutningen af 1600-tallet. Ikke forefundet
+      2019</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Dreyer, Abhandl. III (1763), p. 1457-1492</bibl>
+               <bibl>v. Richthofen, Friesische Rechtsquellen (1840), p. 561-568 (her henført til 1426)</bibl>
+               <bibl>Reg. Dan. nr. 3488</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter v. Richthofen l.l. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426" notBefore="1426" notAfter="1426" cert="low">1426<ref target="drb1"/>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lov for Ejdersted, Everschop og Udholm, almindeligvis kaldet \"Krone der rechten
+      Warheit\".</ab>
+            <ab>Loven indeholder følgende:</ab>
+            <ab>1) Denne paragraf handler om blodslægtninge i særdeleshed og slægtskab i almindelighed.</ab>
+            <ab>2) Denne paragraf handler om retten til arv ved strid imellem en overslægtning (\"övertom\",
+      dvs. en slægtning tilhørende den afdødes generation såsom broder eller søster) og en
+      underslægtning (\"neddertom\", dvs. en slægtning tilhørende den afdødes afkoms generation såsom
+      en brodersøn eller søstersøn).</ab>
+            <ab>3) Denne paragraf handler om retten til arv ved strid imellem søstersønnens søn på den ene
+      side og farbroderens ellers morbroderens søn på den anden side.</ab>
+            <ab>4) Denne paragraf handler om retten til arv ved strid imellem broder og søster.</ab>
+            <ab>5) Denne paragraf handler om retten til arv ved strid imellem farbroderen og mosteren.</ab>
+            <ab>6) Denne paragraf handler om, hvorledes en gård opdeles ved dødsfald, såfremt fader og moder
+      har voksne børn.</ab>
+            <ab>7) Denne paragraf handler om arv efter moder og fader.</ab>
+            <ab>8) Denne paragraf handler om, hvorledes man skal foretage arveskifte.</ab>
+            <ab>9) Denne paragraf handler om, hvorledes det fjerde led kan arve, mens søster eller broder
+      ikke kan.</ab>
+            <ab>10) Denne paragraf handler om arv, når der er halvsøstre og halvbrødre.</ab>
+            <ab>11) Denne paragraf handler om de tilfælde, hvor halvbroder eller halvsøster arver.</ab>
+            <ab>12) Denne paragraf handler om de tilfælde, hvor et menneske har to adkomster til en
+      arv.</ab>
+            <ab>13) Denne paragraf handler om, hvorledes arv kommer på fremmed hånd.</ab>
+            <ab>14) Denne paragraf handler om, hvorledes arv og gæld deles.</ab>
+            <ab>15) Denne paragraf handler om, hvorledes det forholder sig med arv efter en morder.</ab>
+            <ab>16) Denne paragraf handler om, hvem man må pågribe i henhold til morderens forbrydelse.</ab>
+            <ab>17) Denne paragraf handler om bodens størrelse.</ab>
+            <ab>18) Denne paragraf handler om dattersønnens mandebod.</ab>
+            <ab>19) Denne paragraf handler om den bod, som medlemmerne af morderens husstand skal
+      betale.</ab>
+            <ab>20) Denne paragraf handler om, hvorledes arv efter farbror og faster skal deles imellem
+      slægtningene.</ab>
+            <ab>21) Denne paragraf handler om, hvorledes arv efter morbror og moster skal deles imellem
+      slægtningene.</ab>
+            <ab>22) Denne paragraf handler om de fire slægtslinjer.</ab>
+            <ab>23) Denne paragraf handler om efterkommerne af den afdødes otte oldeforældre.</ab>
+            <ab>24) Denne paragraf handler om, hvorledes man skal dele boden imellem den dræbtes
+      slægtninge.</ab>
+            <ab>25) Denne paragraf handler om, hvorledes man skal vidne i forbindelse med mordsager.</ab>
+            <ab>Herefter følger et tillæg med følgende indhold:</ab>
+            <ab>I) Denne paragraf handler om indbrud og tyveri.</ab>
+            <ab>II) Denne paragraf handler om, hvorledes arv skal deles, når der er halvbrødre og
+      halvsøster.</ab>
+            <ab>III) Denne paragraf handler om, hvorledes en helbror tager mere af arven end andre.</ab>
+            <ab>IV) Denne paragraf handler om voldtægt.</ab>
+            <ab>V) Denne paragraf handler om, hvorledes man skal udregne det område, hvor denne landskabslov
+      gælder.</ab>
+            <ab>VI) Denne paragraf handler om krigsudrustning.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-29" who="#pbh">Filen etableret af #pbh 2014-07-29. </change>
+         <change when="2019-07-03" who="#smb">1. korrektur af #smb 2019-07-03. </change>
+         <change when="2019-11-18" who="#smb">2. korrektur af #smb 2019-11-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Hir schaltu hören vnde sehen de krone der rechten warheit, alse et ein recht wilkörtes recht
+      is in Eidersted, Euerschop vnd Vtholm, vnd vnse voroldern hebben dith na beschreuen recht vns
+      an beeruet van natiden an alse dat dith land erst gestifftet is, vnd fort kind na kind na to
+      eruende; vnd noch de könige, noch ere regenten noch hertogen dar de lande ie vnder beschermet,
+      hebben vnse wilkörtes recht nicht gestraffet.</p>
+            <p n="a#2" xml:space="preserve"><supplied>1</supplied> Wo men dat blodt vnde de sebbe recken schal. Vader edder moder
+      schalmen nich vor dat erste blodt recken, men de kinder de van enen getellet werden, de syn
+      dat erste blodt. Also dat dar veer kinder van enen nedder gebaren syn, dat is de barne blodt.
+      Item is dat föfte kind nedden in der telling, so is dit vth gekamen, dat nimpt noch gut noch
+      bote. Item süster vnde broder deletmen entwey, de syn beide dat erste; vnde vort ere beide
+      kinder, de syn ander in der sebbe; etcetera beth to veer in der sebbe, dar no so is et
+      vth.</p>
+            <p n="a#3" xml:space="preserve"><supplied>2</supplied> Wen de <app><lem>ouerthom</lem><rdg><q>thom</q> har her betydningen 'slægtning' efter frisisk <q>tam</q></rdg></app> vnde nedderthom kyuet vm dat erue. Kiuet sin <app><lem>fedde</lem><rdg>ordet har her betydningen 'faster' efter frisisk <q>fethe</q></rdg></app> edder sin <app><lem>veder</lem><rdg><q>veder</q>, Dreyer l.l.; <q>vader</q>, v. Richthofen l.l. Ordet har her betydningen
+          'farbror' efter det frisiske <q>fedria</q></rdg></app> mit sinem brodersöne vm dat erue, so bört et dem brodersöne. Item kiuet ock sin <app><lem>modder</lem><rdg><q>modder</q>, Dreyer l.l.; <q>moder</q>, v. Richthofen l.l. Ordet har her betydningen
+          'moster' efter frisisk <q>modria</q></rdg></app> vnde sin <app><lem>omb</lem><rdg>Ordet har her betydningen 'morbror' efter frisisk <q>em</q></rdg></app> mit sinem egen gebaren süstersöne, so böret dat erue dem ouerthom nicht, men des doden
+      süstersöne; dem nedderthom böret dat erue van recht.</p>
+            <p n="a#4" xml:space="preserve"><supplied>3</supplied> Kyffuet ock de süstersöns sön mit <app><lem>des vaders</lem><rdg>ordet har her betydningen 'farbror' efter frisisk <q>fedria</q></rdg></app> effte mit <app><lem>des ombs</lem><rdg>ordet har her betydningen 'morbror' efter frisisk <q>modria</q></rdg></app> sön vm erue; in dissem fal nimpt <app><lem>de ouerthom</lem><rdg><q>de ouerthom</q>, v. Richthofen l.l.; <q>de overtoem, dat is, de fede und modder</q>,
+          Dreyer l.l</rdg></app> vnde nicht de nedderthom dat erue; item in anderen fellen nimpt <app><lem>de hohe thom</lem><rdg><q>de hohe thom</q>, v. Richthofen l.l.; <q>de hohethoem, (dat is, das ander
+          glidt)</q>, Dreyer l.l</rdg></app> vnde nicht de nedderthoem dat erue.</p>
+            <p n="a#5" xml:space="preserve"><supplied>4</supplied> Kyuet de broderthom vnde de süsterthom vm dat erue; de broderthom
+      nimpt als denne twe del, vnd de süsterthom nimpt dat drüdde del. Item de halffsüster nimpt en
+      halff del, des geliken nimpt de halffbroder ock. Item de söne edder de dochter mögen stan an
+      des vaders edder moders stede, iedoch nen kind mach auer vaders edder moders schott tasten de
+      wile datse beide leuen, ock enkompt em nen sonderlich erue in.</p>
+            <p n="a#6" xml:space="preserve"><supplied>5</supplied> Kyuet <app><lem>de fadrye</lem><rdg>ordet har her betydningen 'farbror' efter frisisk <q>fedria</q></rdg></app> vnde <app><lem>de moder</lem><rdg>Ordet har her betydningen 'moster' efter frisisk <q>modria</q></rdg></app> nimpt de helffte van dem erue, vnd de ander nimpt ock de helffte, iedoch dat he de
+      buwere dar by doen <app><lem>schole</lem><rdg>hos Dreyer l.l. står herefter <q>etcetera</q></rdg></app>.</p>
+            <p n="a#7" xml:space="preserve"><supplied>6</supplied> Wan dat bu houwdelottet is. Hebben vader vnde moder kinder vth
+      gegeuen, so is dat bu <app><lem>houwdelottet</lem><rdg>hos Dreyer l.l. står herefter <q>etcetera</q></rdg></app>.</p>
+            <p n="a#8" xml:space="preserve"><supplied>7</supplied> Steruet ock vader vnde moder, vnde ere bu de is houwdelottet. Steruet
+      de vader vnde sin bu is houwdelottet, so nemen de kinder sin gut vnd sin houwdelott besunderig
+      aff vnde delene de vnderlanges, vnde de moder nimpt van eres mannes houwdelott <app><lem>nichtes</lem><rdg>hos Dreyer l.l. følger herefter <q>idem de matre intelligendum</q></rdg></app>.</p>
+            <p n="a#9" xml:space="preserve"><supplied>8</supplied> Wo men dat erff schefften schal. Is vp beiden siden <app><lem>kene</lem><rdg>Dreyer l.l. læser fejlagtigt <q>eine</q></rdg></app> erff, so schal dat erffgut midden entwey, de helffte böret in des vaders side vnde de
+      ander helffte vp der moder siden.</p>
+            <p n="a#10" xml:space="preserve"><supplied>9</supplied> Wo dat veerde lidt erff nimpt, vnd de süster edder broder nich. Hefft
+      ener kindes kindeskind beth in dat veerde lidt, so is dat io <app><lem>van</lem><rdg>ændret efter Dreyer l.l.; <q>von</q>, v. Richthofen</rdg></app> em gebaren, dat nimpt dat erff vnde de sustere vnde brödere nich.</p>
+            <p n="a#11" xml:space="preserve"><supplied>10</supplied> Van den halffsüstern vnd brödern. Sin tweerley kinder in twe thomen,
+      steruet ene dar van vnde hefft noch mer vullbröder effte volle süster, so tast de ander thom
+      alse de halffsüstere vnd halffbrodere int halffe gut der halffsüstern erue; sin kene
+      vollsüstere edder vollbrödere, so tasten de halffsüstere vnd halffbrödere to mit voller hand
+      to dem erue vnde nemen de helffte van dem erue. Delet de frembde hand iegen einander, so schal
+      dat erue gelick midden entwey, de helffte vp des vaders vnd de ander helffte vp der moder
+      siden.</p>
+            <p n="a#12" xml:space="preserve"><supplied>11</supplied> Wo dar is halffbroder vnd halffsüster to dem erue. Halffbroder vnde
+      süster, vedder, oem vnd medder, disse tasten alle mit halfer hand to dem erue; item se tasten
+      mit vuller hand to de bothe vnd to de thale wente dar is nen halffbroder to der bothe vnd to
+      der thale.</p>
+            <p n="a#13" xml:space="preserve"><supplied>12</supplied> Wan ein minsch is twe gebaren to dem erue, so schal he twe halve del
+      nemen, kompt et em van halffsüsterken wegen to etcetera.</p>
+            <p n="a#14" xml:space="preserve"><supplied>13</supplied> Wo dat erue möge vth eruen wente an de frembde hand. Also froe de
+      minsche dot is, so eruet sin gut de ienne de dar negest to dem doden is; vnd geue de minsche
+      sinen geist men ene halfe stunde spader vp na dem ersten, so eruet dat erste erue vth sinem
+      gude vort an dat negeste bloet dat dar na nechst is to dem minschen, vnde storue denn de
+      minsch ock in korten tiden dar na, so eruet düsse <app><lem>twe</lem><rdg><q>twe</q>, v. Richthofen l.l.; <q>ander</q>, Dreyer l.l</rdg></app> erue vth sinem gude <app><lem>vort an</lem><rdg><q>vort an</q>, v. Richthofen l.l.; <q>vortan in</q>, Dreyer l.l</rdg></app> dat negeste bloet, dat dar na nechst is to dem drüdden arffnemen, also kombt dat erff
+      in de frembde hand, is dar ein erff also verstoruen wente an den drüdden erffnemer, idt moth
+      em folgen.</p>
+            <p n="a#15" xml:space="preserve"><supplied>14</supplied> Dat erff vnde de bothe gaen alle entwey. Dat negeste bloet dat dar
+      nechst gebaren is <app><lem>to den eruen</lem><rdg>Dreyer l.l. læser herfor <q>tho der erfe</q></rdg></app> dat nimpt dat erue, item dar de dode negest to baren is de nimpt de bothe, sunder dat
+      barne bloet dat nimpt de erue vnd bothe.</p>
+            <p n="a#16" xml:space="preserve"><supplied>15</supplied> Van <app><lem>den boynen</lem><rdg>ordet har her betydningen 'mordere' efter frisisk <q>bonn</q></rdg></app> schalmen de bothe rekenen. Van <app><lem>dem</lem><rdg><q>den</q>, Dreyer l.l</rdg></app> boynen schalmen de <app><lem>bothe</lem><rdg>hos Dreyer l.l. følger herefter <q>rekenen</q></rdg></app> vnd de veyde holden, also de boyne to enem manne baren is vnd to sinen fründen is baren
+      al dar schölense en to leggen, vnde nicht al dar na alse sine fründe to em baren sin, wente is
+      de boyne in dat ander lidt baren to enem fründe, vnd is de fründ van em nedder gekamen wente
+      int drüdde lidt edder in dat veerde lidt, so schal he doch also veyde holden vnd schal en also
+      to leggen, efft dat de fründ dem boynen in dat ander lidt were wedder to gebaren. Item is de
+      boyne in dat veerde lidt baren to enem fründe, vnde is de fründ ander edder drüdde wedder to
+      dem boynen baren, so schal he ock also veyde holden vnd to leggen efft he veerde were wedder
+      to dem boynen. Item wo na de boyne baren to enem fründ, vnd is de fründ in dat vöffte kamen,
+      so endarff he nicht veyde holden, wente dat vöffte dat is frembd.</p>
+            <p n="a#17" xml:space="preserve"><supplied>16</supplied> Wo men gripen mach vm des boynen handdath. Wert des boynen son
+      grepen, edder sin vader, effte des boynen broder, sin broderson effte sin süsterson, edder des
+      boynen fedrie effte sin oem, edder des geliken sin halffbroder edder halffbroderson, effte sin
+      halffadrie effte sin halffoem effte halffsüsterson, de schölen den man betalen, effte men mach
+      en drum kopen.</p>
+            <p n="a#18" xml:space="preserve"><supplied>17</supplied> Van der <app><lem>thale</lem><rdg><q>taale</q>, Dreyer l.l</rdg></app>. Is de bothe namen, so is de bothe XVIII grote mark. Item de <app><lem>enseskedes</lem><rdg><q>emkeskedes</q>, Dreyer l.l</rdg></app> bothe dat is de broder vnd de süsterthom, <app><lem>de</lem><rdg><q>de - mark</q>, v. Richthofen l.l.; <q>de is vif mark</q>, Dreyer l.l</rdg></app> is VI grote mark. Item de fadrye vnde de fedethom, de is III mark. Item de ohmes vnd de
+      moddryethoem de is III mark. Item de veer klufft den böret ock III mark. Item de achte vechte
+      den böret ock III mark.</p>
+            <p n="a#19" xml:space="preserve"><supplied>18</supplied> Van der dochter söns boyne both, wen de söne de bothe nimpt <app><lem>[.....]</lem><rdg>Resten af paragraf 18 er ulæselig</rdg></app></p>
+            <p n="a#20" xml:space="preserve"><supplied>19</supplied> Van der <app><lem>enhiszkes</lem><rdg><q>ensiskedes</q>, v. Richthofen l.l.; rettet efter Dreyer l.l</rdg></app> bothe, de thale. De <app><lem>enhiszkes</lem><rdg><q>ensiskedes</q>, v. Richthofen l.l.; rettet efter Dreyer l.l</rdg></app> both is <app><lem>süschzen</lem><rdg><q>sösz ghzem</q>, Dreyer l.l</rdg></app>. Item de brödere delen de VI mark <app><lem>vnderlanges</lem><rdg><q>vnd langes</q>, Dreyer l.l</rdg></app> ander, hebbense brodersöns edder süstersöns, so bört enenn dat drüdde del to nemende
+      etcetera.</p>
+            <p n="a#21" xml:space="preserve"><supplied>20</supplied> Van dem fadriethom vnd fedethom. De fadrye vnd de <app><lem>fedethom</lem><rdg><q>ffedenthoem</q>, Dreyer l.l</rdg></app> de is III grote mark, de schölen de fadryen vnd feden delen so vel erer is.</p>
+            <p n="a#22" xml:space="preserve"><supplied>21</supplied> Van des omes thom vnd van der <app><lem>medder</lem><rdg><q>modder</q>, Dreyer l.l</rdg></app> thom. De omesthom vnd de <app><lem>mödderyethom</lem><rdg><q>mödderenthom</q>, Dreyer l.l</rdg></app> de is III grote mark, de schölen de ome vnd de mödder wo vele dat erer is delen
+      vnderlanges.</p>
+            <p n="a#23" xml:space="preserve"><supplied>22</supplied> Van den veer klufften. Dat is de erste kluffte vp des vaders side, de
+      oldevader sin broder de nimpt de XVIII olde <app><lem>torneye</lem><rdg><q>tornaige</q>, Dreyer l.l</rdg></app> mit sinem brodersone vnde mit sinem süstersone, vnd mit sinem brodersones sone vnde mit
+      sinem süstersones sone. Des geliken de oldemoder vp des vaders siden, ere broder de nimpt ock
+      XVIII olde <app><lem>torneye</lem><rdg><q>tornaige</q>, Dreyer l.l</rdg></app> mit siner süster thom vnd broderthom, vnd de fadrye vnd de oem de nemen <app><lem>den andern del</lem><rdg><q>den tweedeel</q>, Dreyer l.l</rdg></app>, vnd de süsterson vnd de broderson nemen den drüdden del.</p>
+            <p n="a#24" xml:space="preserve"><supplied>23</supplied> Van den achte fechte. Dat is de erste fechte in des vaders side, des
+      minschen vaders oldevader, sin süsterthom vnd sin broderthom is de ene klufft, de nimpt IX
+      olde <app><lem>torneye</lem><rdg><q>tornaige</q>, Dreyer l.l</rdg></app>. Item des minschen vaders oldemoder in der vadersiden, ere süsterthom vnd broderthom,
+      dat is de ander kluffte, etcetera.</p>
+            <p n="a#25" xml:space="preserve"><supplied>24</supplied> De vor geschreuen XVIII grote mark alse de thale, de schalmen alse vp
+      de fründe dar de geslagen man af vth gebaren is vpwarts.</p>
+            <p n="a#26" xml:space="preserve"><supplied>25</supplied> De boyne dinghöring de schal vore tellen. De boyne dinghöring dem
+      böret vore tellende, dat si vm doden edder vm lame lede, edder vm vth stecken ogen etcetera.
+      Is ene dinghöring vorstoruen welcker dat is, so mag de ander dinghöring wol vore tellen wense
+      vm de sake all eins sint, men sintse vm de sake nicht all eins, so schal de boyne dinghöring
+      vore tellen, doch dat he neene deel dinghöring enist; vnd will em de ander dinghöring entiegen
+      sprecken vm gaue edder vm fründschop willen, so schal de boyne dinghöring stan in dat ding vnd
+      losen sin egen schwert fan der siden, vnd scheden dat schwert vort als midden in dat ding, vnd
+      he kere sinem iegensprecker de hiltten to, vnd de boyne dinghöring de ga süluen vor dem ort
+      stan vnd bidde sinen iegensprecker, dat he de wartheit em will bestendig wesen, so schal de
+      boyne dinghöring de rechte warheit seggen, alse em de sake vnd dat geding aller witlickst is,
+      vnd dar sin iegensprecker em dar nicht auer straffet mit des andern schwert, so schal dat
+      stede vnd vast bliuen, all wat de boyne dinghöring in dem dinge talet hefft, vnde dar enmag
+      ock nen man eniegen sprecken, wente de dinghöring dat sint de iserne bande. Sunder will de
+      ander dinghöring dem boynen dinghöring dar auer straffen, de enmag dat anders nicht doen ane
+      he neme des boynen dinghöring schwert vp vth dem dinge, vnd bede sick an den drüdden dag mit
+      tween schwerten edder mit ein handisern to werende. Isset dat he den boynen dinghöring
+      vorwinnet mit dissem rechte, so hefft he sin manschop vnd ehr vorlaren, vnd sin dinghöringtale
+      de is all byspraken vnd de ander dinghöringtale de geit vor; vnd verlust de ander dinghöring,
+      de iegen den boynen dinghöring kumt, so geit em dat sülue recht ock auer.</p>
+            <p n="a#27" xml:space="preserve">(<ex>Herefter følger et selvstændigt <app><lem>tillæg</lem><rdg>Tillægget har hos Dreyer l.l. overskriften <q>Etzlicke andere gesette, so ock wiland in
+            den landen Eiderstede, Everschup und Uthholm gebrucklick gewesen</q>. Hos Richthofen
+          l.l. har givet tillæget overskriften <q>Zusätze zur eiderstedischen krone der rechten
+            wahrheit</q></rdg></app></ex>)</p>
+            <p n="a#28" xml:space="preserve"><supplied>I</supplied> Wol dem andern sin hus vp stött mit gewalt, vnd heit he dar in vnd
+      brickt he des werdes kisten vp vnd nimpt dar gut vth, so brickt he de meer XL mark; röuet he
+      dar to sin sadelde perdt, so brickt he de meer XL mark; schleit he des werdes <app><lem>auen</lem><rdg><q>asen</q>, Dreyer l.l</rdg></app> dal, so brickt he de meer XL mark; fanget he den werdt dar vth effte sine ingesetene,
+      so brickt he ock <app><lem>meer</lem><rdg><q>de meer</q>, Dreyer l.l</rdg></app> XL mark. Wol des andern plog tohauwet vp sinem egenen acker, de brickt ock de meer XL
+      mark. Tohauwet wol des andern <app><lem>stock</lem><rdg><q>stack</q>, Dreyer l.l</rdg></app>, edder hauwet he mit sinen wapen vp sin hus, so brickt he eine olde mark; stött he em
+      ein holl also grot an de wand dat de sunne da dorch schinen mag, so brickt he II olde mark;
+      stött he ein holl in de wand mit gewalt also grot dat men dar mit enem stalen handschen in
+      tasten mag, so brickt he IV olde mark; stött he ein holl in de wand also grot dat dar <app><lem>en man</lem><rdg><q>ein mann</q>, Dreyer l.l</rdg></app> mag in gan mit einem langen schilde, so brickt he de meer XL mark. Wan dar grote bröcke
+      dan wert, so sint de minre broke quit; wente stött ein man des andern hus vp vnd brickt XL
+      mark broke, vnd bernt he dat hus na vp to der süluen tidt, so betere he na dem bernde vnde
+      nicht na dem broke; des geliken wundet ein man den andern vnd schleit he en in dem süluen kyue
+      na doth, so betale he den man, so sint de wunden quit; des geliken schleit ein man den anderen
+      mit der fuest effte mit enem stocke vnd wundet em to der süluen tidt, so betere he de wunden
+      vnd nicht de schlege; wente all de meiste bröcke vnd beteringe, de nimpt de minner enweg.</p>
+            <p n="a#29" xml:space="preserve"><supplied>II</supplied> Hefft en man kinder mit ener fruwen getüget, vnd dat wyf dar steruet
+      vnd leuet en kind na er, vnd nimpt de man en ander wyf na er vnd tüget en kind effte twe mit
+      er, effte wo velese thohope hebben, vnd steruet dar en kind af <app><lem>in der nien hop</lem><rdg><q>in der meinschop</q>, Dreyer l.l</rdg></app>, so enmag dat erste hiske vm dat erfgut nicht sprecken van eres halfbrodern wegen all
+      de vile dat de <app><lem>beddselm</lem><rdg><q>beddeselin</q>, Dreyer l.l</rdg></app> is heel, sunder <app><lem>leuense</lem><rdg><q>se</q> mangler hos Dreyer l.l</rdg></app> also lang datse dat erue nemen na dem vader, so bört en ock dat erue dat en er
+      halfbroder an eruede, so nimpt de halffbroder en del vnd de vollborder nimpt <app><lem>twe del</lem><rdg><q>den 2. deel</q>, Dreyer l.l</rdg></app>.</p>
+            <p n="a#30" xml:space="preserve"><supplied>III</supplied> Wo dat de ene vulle broder meer nimpt van dem erue wen de ander.
+      Hefft en man kinder mit ener fruwen, vnd steruet de fruwe hen, so eruet er del gudes an ere
+      kinder dese hebben tohope getüget, vnd nimpt de man dar na en ander wyf vnde tüget mit er en
+      kind effte twe kinder, vnd steruen dar na sine sonderlige kinder de de man mit der ersten
+      fruwen hadde, so eruet der kinder gut all an den vader vnd an ere halffbrödere de dar baren
+      sint, vnd wo vele kinder dar na gebaren werden den böret dar nicht af, vnd wenner dat de
+      kinder gaen to der dele na vader eftte moder, so nemen de erste barne kinder de dar gebaren
+      weren tovören eher dat er halffbroder storuen, dat gut tovorne af dat en ere halffbroder an
+      eruede; also nimpt de ene volle broder meer van dem erue wan de ander.</p>
+            <p n="a#31" xml:space="preserve"><supplied>IV</supplied> Van nottoch. Schütt ener iungfruwen effte fruwen nottoch van enem
+      mannesname, dat enschal de fruwennake nicht vorswigen vp dat erste, men also fro alsese dem
+      mannesname entkamen kan, so schalse ere not klagen dem ersten minschen de er erste <app><lem>bemötet</lem><rdg><q>mötet</q>, Dreyer l.l</rdg></app>, vnd vort an alle de iennen de er möten, vnd gan dan vort an to der ersten kercken dese
+      hebben kan vnd tehen de klocken an enem bord; vnd dar na so klagese dat eren nabern vnd
+      naberschen, wo dat er de iungfruwlike effte fruwlicke ehre benamen, vnd nömede den man de dat
+      dede. Dit enmagse ock nicht vorslapen, eher datse aldüs geklaget hefft. Dar na so schalse
+      kamen mit fromer lüde tüge, dense er not klagede do dat ersten gescheen was, mit eren vth
+      slagenen haaren in des landes ding dar de man inne beseten is dense an klagen will, wo dat he
+      anders vngebunden effte vngeborget tho hus kamen is. Item is he ock <app><lem>beechtet</lem><rdg><q>behechtet</q>, Dreyer l.l</rdg></app> effte beherberget, so schalse dat klagen in der iegene dar er de not schach, vp dem
+      dinge wo dat er welt vnd walt scheen sy. So schal de <app><lem>vaget</lem><rdg><q>faget</q>, Dreyer l.l</rdg></app> edder des landes <app><lem>dinghöring</lem><rdg><q>dingherung</q>, Dreyer l.l</rdg></app> woll künde manne. De twe woll künde manne de schölen seker wesen deme sakewolden vnd
+      dem kleger, vnd so schölen de twe woll künde manne by staendem dinge nömen twelff vnberuchtede
+      bedderue lüde de to em vnd to er all frömbd sint. Disse twelff bunden de schölen dar ock recht
+      scheden by manschoppe vnd by er ehre, vnd kennen so dane redlicke fruwe dat er walt vnd not
+      scheen is, vndse ere not redlicken vort klaget hefft als hir vor geschreuen steit, so
+      schölense ene vellen tom dode, also dat men ene binnen dem drüdden flothmarcke schal binden
+      sine hende torügge, vnd doen em danne enen sack van bauen dale auer dat liff, vnd schal dan
+      also sware stene to dem alse binden alse he swar is. So schalmen em fören in de see in den
+      strom, vp dat he de vndath nicht mer endeit; vnd schüett em dit recht nicht, so schüett em
+      vnrecht. vnd dar na schal de landesrath de fruwensname wedder scheden to er ehre vnd werden,
+      liker wise efft dat ny gescheen were. Item disse vor geschreuene were schölen de iennen ock
+      hebben, de men an klaget vm mordbrand vnd vm heimlicke morden.</p>
+            <p n="a#32" xml:space="preserve"><supplied>V</supplied> Van ackerwere. Wo grot schal dat land wesen, dar men vull landrecht vm
+      doen schal? Vm also grot landes alse enes kempen schilde breth vnde ene schefftes langk, dar
+      hört voll lag vnde landrecht to, wente wol dem andern men des ackers also vele nimpt mit
+      gewalt, de brickt alse vele efft he em en demt entweldigede. Wol ock so vele landes dem andern
+      af gröue de dede ene volle ratspade, vnde de dem andern also vele landes wetlick af plöget, de
+      dede ock volle gewalt. Wente hir um so schal alldüs lüttick landes sine volle lag vnde
+      landrecht hebben, vmme den willen so motmen ock vor also lüttick landes voll lach geuen to
+      werende, vnd ock voll bothe to <app><lem>beterende</lem><rdg>hos Dreyer l.l. står herefter <q>etcetera</q><q/></rdg></app>. Dit is vnse egene landrecht in Eyderstede, dat men schal vor enes schefftes langk vnde
+      schildes breth voll landrecht doen.</p>
+            <p n="a#33" xml:space="preserve"><supplied>VI</supplied> Van herwede. Eines husmans herwede na vnsem landrecht dat is des
+      mannes pantzer vnd schild, vnde isern, swert vnde speer, vnde ene dagelick steckemest vnde ene
+      armbost mit nie tüge. Vnde en husman ledt nen perdt to herwede, men höuetlüde de to schild vnd
+      helm baren sint, vnde ridders vnde riddersgenathen. Item men mochte fragen: wor aff is erst de
+      herwede gekamen? Vnse landes vorfaren de hebben in olden tiden gans vele in der heruart
+      gelegen, vndse hebben ock vel orlogh gehatt in natiden, dar af is dat herwede vp gekamen.
+      Wente enes husmans herwede, dat is dat süluige gewad vnd wapen alse sick en husman al der best
+      mede plecht to wapende, efft dat he in de heruard scholde; wente de huslüde werden in de
+      heruard geschicket to vot, vnde höuetlüde de to schild vnd helm gebaren sint, de werden
+      geschicket in de heruart to perde vör wapeners; wente alse iewelick man in dat heer
+      geschicket, vnd alse he ock baren is, dar na is ock sin herwede. Hir umme hebben ridders vnde
+      riddersgenathen sadelde perde to herwede vnde en husman nicht, wente alle dat wapen dat en
+      husman hefft, dar he sin liff vnde sin hus vnde sin hoff plecht mede to werende, vnde dar he
+      ock to stride vnde to kiue mede gan schal, dat si lüttick effte grot, dat is sin herwede. Vnde
+      wen en man sterfft vnde hefft söns edder dochter leuendich, so schölen de söne eres vaders
+      herwede tovoren af nemen eher men sin <app><lem>höuedelotte</lem><rdg><q>houwedelotte</q>, Dreyer l.l</rdg></app> vth sette. Vnde van düsse herwede schal de oldeste broder sines vaders schwert tovoren
+      af nemen, dat ander herwede delen de bröders vort vnderlanges met erem oldesten <app><lem>broder</lem><rdg>hos Dreyer l.l. står herefter <q>etcetera</q></rdg></app>. De oldeste broder de schal sine iungste broder vnde süster vnde ock de moder
+      vordedigen vnde beschermen mit eres vaders schwert, dat is mit eres vaders landrecht, al der
+      wilese tosamen sitten an vngedeldem gude. Item hefft de man nene söne effte sönessöne, so
+      nemen sine brödere sin herwede, vnde de oldeste broder de dar leuet nimpt sin schwert tovoren,
+      vnde hefft he nene bröder, so nimpt sin vader sin herwede; isset he nicht, so nimpt et sines
+      vaders broder; isset auerst de nicht, so nimpt et sines vaders broderson; isset auerst disser
+      nen, vnde hefft he nemant vp den schwertsiden, dar de dode <app><lem>an der andern lydt</lem><rdg><q>an dat ander lidt</q>, Dreyer l.l</rdg></app> to gebaren en is, so steruet dat herwede na vnsem landrecht mede in dat grafft.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

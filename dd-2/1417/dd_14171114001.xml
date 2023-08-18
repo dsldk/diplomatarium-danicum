@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1245</num>, paragraphs: <num n="paragraphs">18</num>. Translation, number of words: <num n="words">1496</num>, paragraphs: <num n="paragraphs">18</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14171114001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2641-a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>39.5 (plica: 4)</height>
+                                    <width>55</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med ulæselig påskrift på bagsiden: <q>... breff twisschen koning
+      ..</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit. Seglet må have tilhørt kong Erik 7. af Pommern, cf. DKS 61-63
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Hertug Johann af Mecklenburgs segl i rødt i bruntindfattet voks i
+        perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Jens Nielsen (Løvenbalk) (til Aunsbjerg), ridder, segl i lyst voks i
+        perg.rem, AS C xxxiv 1
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Niels Jensen Bild (Ulfeldt), ridder, segl i lyst voks i
+        perg.rem, AS B xiii 2
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Trued Hase, ridder, segl i lyst voks i perg.rem, AS L i 5
+                              </ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Åge Laxmand, ridder, segl i lyst voks i perg.rem, AS D xii 2
+                              </ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>Seglsnit. Seglet må have tilhørt Niels Truedsen (Due),
+        ridder, cf. AS D xvii 2-3
+                              </ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Henrik Jensen (Urup), segl i lyst voks i perg.rem, DAS 994
+                              </ab>
+                           </seal>
+                           <seal n="9" type="missing">
+                              <ab>Seglsnit. Seglet må have tilhørt Niels Krabbe, ridder, cf. AS L v 61-63
+                              </ab>
+                           </seal>
+                           <seal n="10" type="missing">
+                              <ab>Seglsnit. Seglet må have tilhørt Tage Henriksen (Reventlow),
+        ridder, cf. AS L xlix 58
+                              </ab>
+                           </seal>
+                           <seal n="11" type="pendant">
+                              <ab>Laurens Finsen (Ulfeldt), ridder, segl i lyst voks i
+        perg.rem, AS B xiii 6
+                              </ab>
+                           </seal>
+                           <seal n="12" type="pendant">
+                              <ab>Henrik Gertsen (Ulfstand), ridder, segl i lyst voks i
+        perg.rem, AS L xxxvii 1
+                              </ab>
+                           </seal>
+                           <seal n="13" type="pendant">
+                              <ab>Oluf Stigsen (Krognos), ridder, segl i lyst voks i perg.rem, AS D xxxvii 1
+                              </ab>
+                           </seal>
+                           <seal n="14" type="pendant">
+                              <ab>Bonde Jensen (Due), ridder, segl i lyst voks i perg.rem, D xvii 15
+                              </ab>
+                           </seal>
+                           <seal n="15" type="pendant">
+                              <ab>Peder Mogensen Glob (Due), ridder, segl i lyst voks i
+        perg.rem, AS D xvii 4
+                              </ab>
+                           </seal>
+                           <seal n="16" type="pendant">
+                              <ab>Aksel Pedersen (Brahe), væbner, segl i lyst voks i perg.rem, AS L ii 2
+                              </ab>
+                           </seal>
+                           <seal n="17" type="pendant">
+                              <ab>Sten Basse, væbner, segl i lyst voks i perg.rem, AS C lxviii 3
+                              </ab>
+                           </seal>
+                           <seal n="18" type="pendant">
+                              <ab>Evert Moltke (af Helsinge), væbner, segl i lyst voks i
+        perg.rem, AS D xvi 1
+                              </ab>
+                           </seal>
+                           <seal n="19" type="pendant">
+                              <ab>Peder Lykke (Bille), væbner, segl i lyst voks i perg.rem, cf. AS L xx 9
+                              </ab>
+                           </seal>
+                           <seal n="20" type="pendant">
+                              <ab>Rikman van der Lanken, væbner, segl i lyst voks i perg.rem, AS C xxxix 2
+                              </ab>
+                           </seal>
+                           <seal n="21" type="pendant">
+                              <ab>Klaus Jensen (Lange), væbner, segl i lyst voks i perg.rem, AS F xliii 15
+                              </ab>
+                           </seal>
+                           <seal n="22" type="pendant">
+                              <ab>Lage Jensen (Brok), væbner, segl i lyst voks i perg.rem, AS L xxxiv 20
+                              </ab>
+                           </seal>
+                           <seal n="23" type="missing">
+                              <ab>Seglsnit. Seglet må have tilhørt Esge Jensen (Brok), væbner, AS L xxxiv 21
+                              </ab>
+                           </seal>
+                           <seal n="24" type="pendant">
+                              <ab>Oluf Jensen (Krumpen) (af Boseholm), væbner, segl i lyst voks i
+        perg.rem, AS I vii 23
+                              </ab>
+                           </seal>
+                           <seal n="25" type="pendant">
+                              <ab>Erik Pedersen (Gyldenstierne) (til Ågård), væbner, segl i lyst voks i
+        perg.rem, AS G xvi 12
+                              </ab>
+                           </seal>
+                           <seal n="26" type="pendant">
+                              <ab>Erik Pedersen (Rosenkrantz) (til Skodborg), væbner, segl i lyst voks i
+        perg.rem, AS L xxiii 26
+                              </ab>
+                           </seal>
+                           <seal n="27" type="pendant">
+                              <ab>Otto Meinerstorp, væbner, segl i lyst voks i perg.rem, AS L xxxiv 45
+                              </ab>
+                           </seal>
+                           <seal n="28" type="pendant">
+                              <ab>Tue Gummesen, væbner, segl i lyst voks i perg.rem, AS L xii 2
+                              </ab>
+                           </seal>
+                           <seal n="29" type="pendant">
+                              <ab>Peder Johansen (Oxe), væbner, segl i lyst voks i perg.rem, AS C xlvii 1
+                              </ab>
+                           </seal>
+                           <seal n="30" type="pendant">
+                              <ab>Erik Eriksen (Banner), væbner, segl i lyst voks i perg.rem, AS L xxii 6
+                              </ab>
+                           </seal>
+                           <seal n="31" type="pendant">
+                              <ab>Jakob Brymle, væbner, segl i lyst voks i perg.rem, AS L xxvii 2
+                              </ab>
+                           </seal>
+                           <seal n="32" type="missing">
+                              <ab>Seglsnit. Seglet må have tilhørt Timme Jonsen (Lange),
+        væbner, AS F xlii 14
+                              </ab>
+                           </seal>
+                           <seal n="33" type="pendant">
+                              <ab>Hartvig Hesten, væbner, segl i lyst voks i perg.rem, AS C xxii 6
+                              </ab>
+                           </seal>
+                           <seal n="34" type="pendant">
+                              <ab>Niels Ågesen (Ulfeldt), væbner, segl i lyst voks i perg.rem, AS B xiii 3
+                              </ab>
+                           </seal>
+                           <seal n="35" type="pendant">
+                              <ab>Niels Olufsen (Godov) (til Krenkerup), væbner, segl i lyst voks i
+        perg.rem, AS C lviii 9
+                              </ab>
+                           </seal>
+                           <seal n="36" type="missing">
+                              <ab>Seglsnit. Seglet må have tilhørt Albert Bydelsbak, væbner, AS C lxx 14
+                              </ab>
+                           </seal>
+                           <seal n="37" type="pendant">
+                              <ab>Hans Bage, væbner, segl i lyst voks i perg.rem, AS M 7
+                              </ab>
+                           </seal>
+                           <seal n="38" type="pendant">
+                              <ab>Eiler Hardenberg, væbner, segl i lyst voks i perg.rem, AS C lviii 35
+                              </ab>
+                           </seal>
+                           <seal n="39" type="pendant">
+                              <ab>Lyder Holk, væbner, segl i lyst voks i perg.rem, AS A iv 3
+                              </ab>
+                           </seal>
+                           <seal n="40" type="pendant">
+                              <ab>Jens Eriksen (Banner), væbner, segl i lyst voks i perg.rem, AS L xxii 3
+                              </ab>
+                           </seal>
+                           <seal n="41" type="pendant">
+                              <ab>Timme Hvitkops (Krummedige) segl, ført af Henneke Hvitkop (Krummedige),
+        væbner, segl i lyst voks i perg.rem, AS F xxxi 6
+                              </ab>
+                           </seal>
+                           <seal n="42" type="pendant">
+                              <ab>Jon Jensen (Gere) (af Gissleberga), væbner, segl i lyst voks i
+        perg.rem, AS L xxxiv 2
+                              </ab>
+                           </seal>
+                           <seal n="43" type="pendant">
+                              <ab>Lunds bysegl, segl i lyst voks i perg.rem, Grandjean, Danske Købstæders Segl p. 52 nr. II
+                              </ab>
+                           </seal>
+                           <seal n="44" type="pendant">
+                              <ab>Ribes bysegl, segl i lyst voks i perg.rem, Grandjean, Danske Købstæders Segl p. 36 nr. II
+                              </ab>
+                           </seal>
+                           <seal n="45" type="pendant">
+                              <ab>Københavns segl, segl i lyst voks i perg.rem, Grandjean, Danske Købstæders Segl p. 28 nr. III
+                              </ab>
+                           </seal>
+                           <seal n="46" type="pendant">
+                              <ab>Malmøs segl, segl i lyst voks i perg.rem, Grandjean, Danske Købstæders Segl p. 53 nr. III
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Kong Erik 7. af Pommerns eksemplar</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Staatsbürg. Mag. VIII 108-111</bibl>
+               <bibl>Sverges Traktater III nr. 449 p. 31-35</bibl>
+               <bibl>Rep. III 5680</bibl>
+               <bibl>Reg. *4418</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Sverges Traktater l. l., konfereret med A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-11-14"
+                  notBefore="1417-11-14"
+                  notAfter="1417-11-14"
+                  cert="high">1417. 14. november</date>
+            <placeName cert="low">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Forliget mellem kong Erik 7. af Pommern på den ene side og hertug Heinrich 4. af Slesvig
+      og grev Heinrich 3. af Holsten på den anden side om våbenhvile indtil den 29. september
+      1418.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2017-05-05" who="#smb">1. korrektur af #smb 2017-05-05. </change>
+         <change when="2017-10-24" who="#smb">2. korrektur af #smb 2017-10-24. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">In Godes namen amen \ ♦</p>
+            <p n="a#2">Dyt synt de deghedinge de ghedegedinghet synt tusschen deme durluchtigesten fursten vnde
+      hochgebornen heren <persName>hern Eriike <damage>der</damage> rijke Dennemarken Sweden
+        Norwegen der Wende vnde der Goten koninge vnde hertigen to Pomeren</persName> vnde sinen
+      nakomelyngen der riike vnde jnwoneren lande vnde luden vnde alle de mit em to der veyde
+      gekomen syn vnde an desseme krijghe begrepen syn vppe de ene sijde . vnde twisschen deme
+      hochgebornen <persName>heren Hinrike</persName> de sik nomet <persName>hertige to
+        Sleswijk</persName> sine brodere vnde <persName>hern Hinrike greuen to Holsten</persName>
+      vnde eren eruen vnde allen jnwoneren erer lande unde alle de mit en to der veyde gekomen synt
+      vnde in desseme krijghe begrepen synt uppe de andere sijde ♦</p>
+            <p n="a#3">So dat dat schal en vrede wesen tusschen dessen vorbenomeden heren eren landen vnde luden
+      vorscreuen van nu an bet to sunte Michelis daghe negest komende vnde erer een schal deme
+      anderen rechtes plegen alse desse vorscreuene heren an beyden sijden vmme <placeName>dat
+        hertichdom to Sleswijk</placeName> vnde worumme vnde vmme wes erer een deme anderen to
+      toseggende heft an beyden sijden nu to sunte Johannes baptisten dage to middeme sommere negest
+      komende ♦</p>
+            <p n="a#4">Vnde desse ergenanten here koning vnde de Holsten heren scholen eres rechtes bliuen en
+      jewelik by twen borne heren vte den sos heren de erer een deme anderen benomet vnde bescreuen
+      geuen heft vnde by veer steden vte der Hense wene de ergenanten heren an beyden sijden dar vth
+      vormogen vnde wene en jewelik desser vorscreuen heren bringet vte den Hensesteden vnde van den
+      heren vorscreuen vor schedeslude de scholen erer to rechte mechtich wesen an beyden sijden .
+      ♦</p>
+            <p n="a#5">Vnde desse vorbenomeden heren alse de here koningh vnde de Holsten heren de scholen desse
+      vorbenomeden schedeslude alse heren vnde stede bringen vnde hebben en jewelik de sinen alse de
+      ergenante here koning de synen to <placeName>Sleswijk</placeName> unde de ergenanten Holsten
+      heren de eren to <placeName>Gottorppe</placeName> uppe den vorbenomeden dach sunte Johannes
+      baptisten to middeme sommere negest komende . ♦</p>
+            <p n="a#6">Vnde desse vorbenomeden schedeslude de de ergenanten heren an beyden sijden dar denne
+      bringende werden de scholen des een werden vnde macht hebben uppe welker stede se ouer deme
+      rechte sitten willen doch so schal de stede jo wesen to <placeName>Sleswijk</placeName> edder
+      to <placeName>Gottorppe</placeName> edder dar entwisschen \ ♦</p>
+            <p n="a#7">Were ok dat desse schedeslude des rechtes nicht eendregen konden so scholen se doch jo in
+      jewelker sijde rechtes een werden vnde van sik seggen vnde bescreuen geuen des en recht
+      duncket na ansprake vnde na antworde vnde na erer beyder bewisinge vmme <placeName>dat
+        hertichdom to Sleswijk</placeName> vnde vmme wes en vor gebracht is . so scholen desse
+      ergenanten here koning vnde de Holsten heren des blyuen alse vor ouerlude by <persName>hertoge
+        Beernde van Brunswijk</persName> vnde by <persName>hertoghe Bugslaue van Pomeren</persName>
+      also dat mit welkeren desser ergenanten heren alse heren koninges vnde der Holsten heren
+      schedesluden desse vorbenomeden ouerlude eendrachtliken mede touallen de deme rechte negest
+      gesecht hebben dar schal dat by blyuen vnde dat scholen desse ergenanten here koning vnde de
+      Holsten heren so holden \ ♦</p>
+            <p n="a#8">Were ok dat desse vorscreuene ouerlude des ok nicht eendregen konden jn deme rechte so
+      scholen desse vorscreuen schedeslude beyder heren eens ouermans een werden ouer de twe
+      vorbenomeden mit welkereme de denne touallet de de rechtest gesecht heft dat schal recht
+      blyuen vnde dat scholen desse ergenanten heren alse here koning vnde de Holsten heren so
+      holden \ ♦</p>
+            <p n="a#9">Ok scholen desse ergenanten alse de ergenante here koning vnd de ergenanten Holsten heren
+      desse vorscreuene twe ouerlude alse <persName>den hertigen van Brunswik</persName> vnde
+        <persName>den hertigen van Pomeren</persName> jo uppe de vorscreuene tijd vnde stede hebben
+      vnde bringen dar de schedeslude wesen scholen alse vorscreuen js doch dat en jewelik van
+      dessen v{oe}rscreuenen heren de synen bringe alse de ergenante here koning den sinen alse
+        <persName>den hertigen van Pomeren</persName> vnde de ergenanten Holsten heren den eren alse
+        <persName>den hertigen van Brunswijk</persName> alse veerne alse desse vorbenomeden heren de
+      vor ouerlude gekoren synt leeuen to desser vorscreuenen tijd \ ♦</p>
+            <p n="a#10">Were ok dat van dessen vorbenomeden heren de vor ouerlude gekoren synt welk storue dat God
+      vorbede edder vnmechtich were dat bewijslik were bynnen desser vorscreuen tijd so schal de
+      here deme syns ouermans to kort wert jo enen ouerman wedder kesen hebben vnde bringen uppe de
+      vorscreuen tijd <damage>vnde</damage> stede mit der sulven macht de de andere scholde gehat
+      hebben alse vorscreuen js \ ♦</p>
+            <p n="a#11">Were ok dat dar jennich vredebroke schege bynnen desser vorbenomeden tijd des vredes dat God
+      vorbede dar mach de genne deme dat sch{ue}t wol vmme manen doch so schal he dar nenen togrepe
+      wedder vmme doen men he schal dat witlik doen deme heren des de syne den vredebroke gedaen
+      hebben so schal de here dat richten van stunden an wen em dat witlik gedaen wert na vredes
+      rechte ouer den gennen de den vrede gebroken heft . vnde ok den schaden vorbøten sunder
+      v{oe}rtoch \ ♦</p>
+            <p n="a#12">Were ok dat jemant tegen dessen vorscreuen vrede van beyden sijden deede deme de vrede nicht
+      witlik geworden were vnde de to der tijd do de vrede gekundighet wart nicht to hus were
+      gewesen jn desser vorbenomeden heren slote . stede . lande . vnde hauenen alse in den
+      vorbenomeden rijken unde in <placeName>deme lande to Holsten</placeName> . wert desse
+      vorscreuene vrede aldus gebroken vnde de dat doen jergene to h{ue}s quemen jn desser
+      vorbenomeden heren lande edder hauenen ergenant so schal de here des de syne dat gedaen hebben
+      vnde an syneme krijge begreepen synt den schaden wedder leggen . den se gedaen hebben vnde en
+      darff dar nicht v{ue}rder ouer richten \ ♦</p>
+            <p n="a#13">Wil ok de ergenante here koning den hertigen van Sassen vnde de synen an syneme vrede nicht
+      beholden so schal he dat den vorbenomeden Holsten heren scriuen in syneme openen bezegelden
+      breue to <placeName>Gottorppe</placeName> bynnen veer weken negest komende . Deyt he des nicht
+      so blift <persName>de vorbenomede hertoge van Sassen</persName> myt den synen an des
+      vorscreuen heren koninges vrede alse vorscreuen js \ ♦</p>
+            <p n="a#14">Ok scholen desse vorscreuenen heren alse here koning vnde de Holsten heren veyligen vnde
+      leyden de schedeslude dor ere lande vt vnde to h{ue}s uft des welken behueff is vnd des
+      begherende bet uppe de stede dar de schede wesen schal \ ♦</p>
+            <p n="a#15">Ok mach bynnen desseme vreede borgher edder b{ue}r wol buwen uppe dat syne . doch so scholen
+      de heren an beyden sijden ufte borghere neene stede beuesten de nu vnbeuestet js \ ♦</p>
+            <p n="a#16">Ok scholen desse vorscreuene deghedinge vnde breff nenen breuen edder deghedyngen de jn
+      vortijden tusschen dessen vorscreuenen heren alse deme ergenanten heren koninge vnde den
+      Holsten heren edder eren voruaren rijke vnde landen an beyden sijden gegeuen edder ge
+      deghedynget synt to hindere edder to v{oe}ruange komen men de scholen alle vnde en jewelik by
+      sik by erer vuller macht blyuen vnde een jewelik syns rechtes vnvorz{ue}met van den breuen
+      vnde deghedinghen de in vortijden gegeuen unde gescheen syn \ ♦</p>
+            <p n="a#17">Alle desse vorscreuene st{ue}cke vnde articule vnde een jewelik by syk loue wy
+        <persName>koning Erik van Godes genaden der rijke Dennemarken Sweden Norwegen der Wende vnde
+        der Gothen koning vnde hertoge to Pomeren</persName> ergenant vor vns vnde vnse nakomelynge
+      der rijke lande vnde alle jnwonere vnde alle de myt vns to desser veyde gekomen synt vnde jn
+      desseme krijge begreepen synt . deme ergenanten <persName>heren Hinrike</persName> de sik
+      nomet <persName>hertoge to Sleswijk</persName> sinen broderen vnde <persName>heren Hinrike
+        greuen to Holsten</persName> eren landen vnde jnwoneren vnde alle den eren vnde mit vns vnde
+      vor vns louen vnse medelouere de hijr na screuen staan alse de irluchtige vorste
+        <persName>here Johan van Godes gnaden hertoge to Meklenborch greue van Swerijn vnde der
+        lande Rostok vnde Stargarde here</persName> vnde desse riddere vnde knechte alse
+        <persName>her Jens Nielsson van Awendesberch</persName> . <persName>her Bille</persName> .
+        <persName>her Thruet Hasse</persName> . <persName>her Aghe Laxman</persName> . <persName>her
+        Nielss Thrutsson</persName> . <persName>her Henrik Jensson</persName> . <persName>her Niels
+        Krabbe</persName> . <persName>her Taghe Hinriksson</persName> . <persName>her Laurentz
+        Fyntson</persName> . <persName>her Hinrik Ghertsson</persName> . <persName>her Oleff
+        Stygesson</persName> . <persName>her Bonde Duue</persName> . <persName>her Peter
+        Magnusson</persName> . riddere vnde <persName>Axel Brade</persName> . <persName>Steen
+        Basse</persName> . <persName>Euert Moltke aff Helsinge</persName> . <persName>Pether
+        Lycke</persName> . <persName>Rikman van der Lancke</persName> . <persName>Clawes
+        Jonsson</persName> . <persName>Laghe Jensson</persName> . <persName>Esghe Brook</persName> .
+        <persName>Oleff Jensson van Boseholm</persName> . <persName>Erik Petersson van
+        Agarde</persName> . <persName>Erik Pethersson von Schodborch</persName> . <persName>Otte
+        Meynstorpp</persName> . <persName>Tuue Gumsson</persName> . <persName>Peter Oxe</persName> .
+        <persName>Erik Erixsson</persName> . <persName>Bremle</persName> . <persName>Tymme
+        Jonsson</persName> . <persName>Hartwich Heesten</persName> . <persName>Nisse
+        Aghesson</persName> . <persName>Nysse Olafsson van Krenkdorpp</persName> .
+        <persName>Albrecht B{ue}delsbach</persName> . <persName>Hans Baghe</persName> .
+        <persName>Eler Hardenberch</persName> . <persName>Luder Holch</persName> . <persName>Jesse
+        Ericksson</persName> . <persName>Henneke Wittekopp</persName> . <persName>Joon Jensson van <app>
+                     <lem>Gysleberch</lem>
+                     <rdg>
+                        <q>Gyslebrech</q>, A</rdg>
+                  </app>
+               </persName> knapen vnde mit dessen nascreuenen veer steden alse .
+        <placeName>Lund</placeName> . <placeName>Rippe</placeName> .
+        <placeName>Kopenhauen</placeName> . <placeName>Ellebogen</placeName> . alle mit ener
+      samenden hand . stede vnde vast to holdende sunder jennigerleye hulperede edder argelist / .
+      ♦</p>
+            <p n="a#18">To tuchnisse vnde merer bekantnisse alle desser vorscreuenen stucke . so hebbe wy vorscreuen
+        <persName>koning Erik</persName> mit vnsen vorscreuenen medeloueren wy mit en vnde se mit
+      vns vnser aller jngesegele mit witscopp vnde wolberadenen mode hengen laten vor dessen breff
+      de gegeuen js na Godes bort veerteynhundert jar dar na in deme souenteynden jare des sondages
+      negest na Martini des hilligen biscopes ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I Guds navn, amen.</p>
+            <p n="b#2">Dette er de aftaler, som er blevet forhandlet og indgået imellem den strålende fyrste og
+      højbårne herre, hr. Erik, konge af rigerne Danmark, Sverige, Norge, de Venders og Goters konge
+      og hertug af Pommern og hans efterkommere og indbyggere i rigerne, lande og folk, og alle dem,
+      som har fulgt ham til denne fejde, og som deltager i denne krig, på den ene side, og den
+      højbårne herre, hr. Heinrich, som kalder sig hertug af Slesvig, hans brødre og hr. Heinrich,
+      greve af Holsten, og deres arvinger og alle indbyggere i deres lande og alle dem, som har
+      fulgt dem til denne fejde, og som deltager i krigen, på den anden side:</p>
+            <p n="b#3">Der skal være en fred imellem disse førnævnte herrer, deres førskrevne lande og folk fra nu
+      af og <app>
+                  <lem>indtil næstkommende mikkelsdag</lem>
+                  <rdg>dvs. 29. september 1418</rdg>
+               </app>; og enhver af dem skal nu på næstkommende sankthansdag til midsommer pleje retten over
+      for den anden, det vil sige disse førnævnte herrer på begge sider, angående hertugdømmet
+      Slesvig, og angående de klager, som de hver især har over den anden part på begge sider.</p>
+            <p n="b#4">Og disse førnævnte, nemlig hr. kongen og de holstenske herrer, skal underkaste sig retten ved
+      hver to velbårne herrer ud af de seks herrer, som de hver især har udnævnt og skriftligt givet
+      navnet på til den anden part, og ved fire stæder fra hanseforbundet - hvem de førnævnte herrer
+      på begge sider nu end kan få fra hanseforbundet; og enhver af de hansestæder og herrer, som
+      disse førnævnte herrer medbringer som voldgiftsmænd, skal være dem mægtige til ret på begge
+      sider.</p>
+            <p n="b#5">Og disse førnævnte herrer, nemlig hr. kongen og de holstenske herrer, de skal medbringe og
+      have disse førnævnte voldgiftsmænd, nemlig herrer og stæder - det vil sige, at enhver har sine
+      mænd, således at den førnævnte hr. konge har sine mænd i Slesvig, og de førnævnte holstenske
+      herrer har deres mænd i Gottorp, på den førnævnte næstkommende sankthansdag til midsommer.</p>
+            <p n="b#6">Og disse førnævnte voldgiftsmænd, som de førnævnte herrer på begge sider på den måde tager
+      med derhen, de skal så blive enige om og have magt til at bestemme, på hvilket sted de vil
+      afholde retten; dog må det kun foregå i Slesvig eller Gottorp eller et sted derimellem.</p>
+            <p n="b#7">Endvidere: Skulle det ske, at disse voldgiftsmænd ikke kunne blive enige om retten, så skal
+      de imidlertid på hver sin side blive enige om retten og udsige og give på skrift, hvad der
+      forekommer dem at være ret efter klage, efter svar og efter begge parters beviser for
+      hertugdømmet Slesvig og for det, som er forelagt dem. Derefter skal disse førnævnte herrer,
+      nemlig hr. kongen og de holstenske herrer, underkaste sig retten ved to opmænd, nemlig
+      hertug Bernd af Braunschweig og hertug Bugislav af Pommern, således at disse førnævnte
+      opmænd tilslutter sig de af disse førnævnte herrers, nemlig hr. kongens og de holstenske
+      herrers, voldgiftsmænd, som har talt retten nærmest; derved skal det blive, og det skal denne
+      førnævnte hr. konge og de holstenske herrer således overholde.</p>
+            <p n="b#8">Endvidere: Skulle det ske, at disse førnævnte opmænd heller ikke kunne blive enige om
+      retten, så skal begge herrers førskrevne voldgiftsmænd blive enige om en opmand over de to
+      førnævnte; hvad den af de to andre opmænd, som denne opmand tilslutter sig, har erklæret
+      for ret, det skal forblive ret, og det skal disse førnævnte herrer, nemlig hr. kongen og de
+      holstenske herrer, derfor overholde.</p>
+            <p n="b#9">Endvidere: Disse førnævnte herrer, nemlig hr. kongen og de førnævnte holstenske herrer, skal
+      på det førskrevne tidspunkt have og tage disse førnævnte to opmænd, nemlig hertugen af
+      Braunschweig og hertugen af Pommern, med derhen, hvor voldgiftsmændene skal være, sådan som
+      det står skrevet tidligere; dog således at enhver af disse førskrevne herrer skal medbringe
+      sine folk, det vil sige, at den førnævnte hr. konge skal medbringe hertugen af Pommern, og de
+      førnævnte holstenske herrer skal medbringe hertugen af Braunschweig, for så vidt som disse
+      førnævnte herrer, som er valgt til opmænd, lever på det førskrevne tidspunkt.</p>
+            <p n="b#10">Endvidere: Skulle det ske, at en af disse førnævnte herrer, som er valgt til opmænd, døde -
+      må Gud forbyde det! -, eller var ude af stand til at komme inden for det førskrevne tidspunkt,
+      og dette var bevisligt, så skal den herre, som kommer til at mangle sin opmand, følgelig
+      udnævne en ny opmand og have og medbringe denne på det førskrevne tidspunkt og sted med den
+      samme magt, som den anden opmand skulle have haft, sådan som det står skrevet tidligere.</p>
+            <p n="b#11">Endvidere: Skulle det ske, at der skete et eller andet fredsbrud i denne førnævnte fredstid -
+      må Gud forbyde det! -, da må den, mod hvem dette sker, godt indgive klage over det; dog skal
+      han ikke udføre noget angreb til gengæld, men han skal gøre det vitterligt for den herre, hvis
+      folk har forårsaget fredsbruddet; derefter skal denne herre, lige så snart det er blevet
+      bekendtgjort for ham, holde rettergang over den pågældende, som har brudt freden, efter
+      fredslov, og han skal dække skaderne uden tøven. </p>
+            <p n="b#12">Endvidere: Skulle det ske, at en eller anden fra den ene eller anden side, som freden ikke
+      var blevet forkyndt for, gjorde noget imod denne førskrevne fred, og at vedkommende på det
+      tidspunkt, hvor freden var blevet forkyndt, ikke havde været hjemme i disse førnævnte herrers
+      stæder, lande og havne eller på deres slotte, nemlig i de førnævnte riger og i landet Holsten,
+      altså hvis denne fred således bliver brudt, og de, som gør det, kommer hjem - hvor det end
+      måtte være i disse førnævnte herrers førnævnte lande og havne -, så skal den herre, hvis folk
+      har gjort dette, og som deltager i hans krig, dække den skade, som de har forvoldt, og han må
+      ikke yderligere holde retssag derover.</p>
+            <p n="b#13">Endvidere: Hvis den førnævnte hr. konge ikke ønsker at have hertugen af Sachsen og hertugens
+      mænd med i sin fred, så skal han skrive dette i sit åbne, beseglede brev til de holstenske
+      herrer i Gottorp i løbet af de næstfølgende fire uger; gør han ikke dette, så bliver den
+      førnævnte hertug af Sachsen med sine folk ved med at være i den førskrevne hr. konges fred,
+      sådan som det står skrevet tidligere.</p>
+            <p n="b#14">Ligeså skal disse førskrevne herrer, nemlig hr. kongen og de holstenske herrer, sikre og give
+      frit lejde til voldgiftsmændene igennem deres lande, både ud og hjem, hvis nogen måtte have
+      behov for det, og hvis nogen begærede det, hen til det sted, hvor forligshandlingen skal
+      være.</p>
+            <p n="b#15">Ligeså må borgere eller bønder inden for denne førskrevne fred gerne bygge på deres jord; dog
+      skal herrerne på begge sider eller borgerne ikke befæste noget sted, som nu er ubefæstet.</p>
+            <p n="b#16">Ligeså skal dette fredsforlig og brev ikke være til hinder eller forfang for nogen breve
+      eller aftaler, som tidligere er givet og indgået imellem disse førskrevne herrer, nemlig den
+      førnævnte hr. konge og de holstenske herrer, eller deres forfædre, riger og lande, på begge
+      sider; men de skal, alle og hver enkelt for sig, forblive ved deres fulde magt, og enhver skal
+      være uantastet i sin ret på grund af de breve og aftaler, som er givet og indgået i
+      fortiden.</p>
+            <p n="b#17">Alle disse førskrevne stykker og artikler, og hver af dem for sig, lover vi førnævnte kong
+      Erik, af Guds nåde konge af rigerne Danmark, Sverige, Norge, de Venders og Goters konge og
+      hertug af Pommern, for os og vore efterkommere i rigerne og landene og alle indbyggere og dem,
+      som har fulgt os til denne fejde, og som deltager i denne krig, over for den førnævnte hr.
+      Heinrich, som kalder sig hertug af Slesvig, hans brødre og hr. Heinrich, greve af Holsten, og
+      deres lande og indbyggere og alle deres folk, og med os og for os lover vore medgaranter, som
+      herefter står skrevet, nemlig den strålende fyrste, hr. Johann, af Guds nåde hertug af
+      Mecklenburg, greve af Schwerin og herre over landene Rostock og Stargard, og disse riddere og
+      knægte, nemlig hr. Jens Nielsen til Aunsbjerg, hr. Bild, hr. Trued Hase, hr. Åge Laxmand, hr.
+      Niels Truedsen, hr. Henrik Jensen, hr. Niels Krabbe, hr. Tage Henriksen, hr. Laurens Finsen,
+      hr. Henrik Gertsen, hr. Oluf Stigsen, hr. Bonde Due, hr. Peder Mogensen, riddere, og Aksel
+      Brahe, Sten Basse, Evert Moltke af Helsinge, Peder Lykke, Rikman van der Lanken, Klaus Jensen,
+      Lage Jensen, Esge Brok, Oluf Jensen af Boseholm, Erik Pedersen til Ågård, Erik Pedersen til
+      Skodborg, Otto Meinerstorp, Tue Gummesen, Peder Oxe, Erik Eriksen, Brymle, Timme Jonsen,
+      Hartvig Hesten, Niels Ågesen, Niels Olufsen til Krenkerup, Albert Bydelsbak, Hans Bage, Eiler
+      Hardenberg, Lyder Holk, Jens Eriksen, Henneke Hvitkop, Jon Jensen af Gissleberga, væbnere, alle
+      med én samlet hånd at holde stadigt og fast, uden nogen form for svig eller udflugter.</p>
+            <p n="b#18">Til vidnesbyrd og større sikkerhed for alle disse førskrevne stykker, så har vi førskrevne
+      kong Erik med vore førskrevne medgaranter, vi med dem og de med os, med viden og velberåd hu
+      ladet hænge alle vore segl på dette brev, som er givet i år fjortenhundrede efter Guds fødsel,
+      derefter i det syttende år, om søndagen næst efter den hellige biskop sankt Martins dag.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
