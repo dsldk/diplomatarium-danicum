@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">4</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14150929001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>Kopi hos præsten i Fugledemagle</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>I øverste højre hjørne: <q>Ex copia, apud pastorem in Fuglede magle
+                                 1749</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift af Langebek</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5546</bibl>
+               <bibl>Reg. Dan. nr. 3295</bibl>
+               <bibl>Hofman, Fundationer VIII 221</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa1</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-09-29"
+                  notBefore="1415-09-29"
+                  notAfter="1415-09-29"
+                  cert="high">1415.
+               29. september</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder Gris, foged i Slagelse, erkender at have givet en gård i Fuglede, der giver 2
+               pund korn og 2 skilling grot, til sognepræsten i Lille Fuglede, og en gård
+               sammesteds, der giver 1 pund korn og 1 skilling grot, til Vor Frue alter sammesteds,
+               til gengæld for at kirkeværgerne skal sørge for, at der til evig tid bliver holdt en
+               årtid for ham, hans forfædre og hans broder med to messer og to vigilier mandag efter
+               søndag Oculi. Hvis årtiden nogensinde bliver forsømt, går godset frit tilbage til
+               Peder Gris' arvinger. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-04" who="#pbh">Filen etableret af #pbh 2014-03-04. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Petrus Griis</persName>
+               advocatus in <placeName>Slaulosia</placeName> salutem in domino.</p>
+            <p>Noverint universi præsentes et futuri, quod recognosco me ex deliberato animo, sano
+               consilio et consensu, rectori ecclesiæ <placeName>Fuglede lille</placeName> in <app>
+                  <lem>
+                     <placeName>Arsherret</placeName>
+                  </lem>
+                  <rdg>Herefter udstreget: <q>sita</q>
+                  </rdg>
+               </app> bona mea, videlicet unam curiam in Fuglede lille sitam, quam quidam
+                  <persName>Clemens</persName> sartor <app>
+                  <lem>præsenter</lem>
+                  <rdg>antagelig fejl for <q>pronunc</q>
+                  </rdg>
+               </app> inhabitat, qui pro annuali pensione dat duo <app>
+                  <lem>pondo</lem>
+                  <rdg>antagelig fejl for <q>pund</q>
+                  </rdg>
+               </app> annonæ cum duobus solidis grossorum: item altari beatæ virginis ejusdem
+               ecclesiæ unam curiam ibidem sitam, quam <persName>Nicolaus Biørnsön</persName>
+               <app>
+                  <lem>præsenter</lem>
+                  <rdg>antagelig fejl for <q>pronunc</q>
+                  </rdg>
+               </app> inhabitat, qui pro pensione dat annuatim unum <app>
+                  <lem>pondo</lem>
+                  <rdg>antagelig fejl for <q>pund</q>
+                  </rdg>
+               </app> annonæ cum uno solido grossorum, cum singulis dictorum bonorum pertinentiis
+               illinc dependentibus in remedium animæ meæ, parentum meorum et fratris mei dedisse
+               per præsentes scotasse et libere resignasse perpetuo jure possidenda, tali
+               conditione, quod tutores ejusdem ecclesiæ anniversarium cum duabus missis et tot
+               vigiliis ob remedium animæ meæ et præscriptorum feria secunda proxima post dominicam
+               qua cantatur Oculi omnium, omni anno in perpetuum faciant celebrari, hoc adjecto,
+               quod quando præscriptum anniversarium prætermissum fuerit, exinde dicta bona per
+               proximos hæredes meos libere revocentur absque revocatione quorumcunque.</p>
+            <p>Insuper obligo me et meos hæredes ad appropriandum rectori ecclesiæ et altari
+               antedicta bona ab impeticione quorumcunque secundum leges terræ.</p>
+            <p>In cujus rei testimonium sigillum meum una cum sigillis discretorum virorum, domini
+                  <persName>Petri Jacobi</persName> officialis domini episcopi Kalundburgis, domini
+                  <persName>Johannis Tuonis</persName> rectoris ecclesiæ <placeName>Fuglede
+                  magle</placeName>, et <persName>Johannis Petri</persName> in
+                  <placeName>Forsinge</placeName>, præsentibus est appensum.</p>
+            <p>Datum anno domini MCDXV die sancti Michaelis archangeli. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14130518001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. LX, 31</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parchment">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16.6 (plica: 1.3)</height>
+                                    <width>22.9</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Teksten flere steder meget falmet</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Samtidig påskrift på bagsiden: <q>Super decimis episcopalibus et
+                                 exempcionibus bonorum prebende de Rota</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Biskop i Roskilde Peder Jensen Lodehats segl og kontrasegl i rødt
+                                 voks i ufarvet i rød og gul silkesnor, DGS. 166 og
+                                    DGS. 168
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Roskilde domkapitels segl i mørkt voks i ufarvet i rød og gul
+                                 silkesnor, DGS. 193
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5253</bibl>
+               <bibl>Vejledende Arkivreg. XVII 89 nr. 233</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-05-18"
+                  notBefore="1413-05-18"
+                  notAfter="1413-05-18"
+                  cert="high">1413.
+               18. maj<ref target="drb1"/>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: Latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Peder (Jensen (Lodehat)), biskop i Roskilde, tilstår med kapitlets samtykke efter
+               ansøgning af Lars Nielsen, kannik sammesteds og besidder af præbendet Rota, at denne
+               såvel som hans efterfølgere må oppebære bispetienderne af Vor Frue og Sankt
+               Katharinas kapel i det nordlige tårn i domkirken, som var grundlagt af hr. Jens
+               Andersen (Brok), ridder, og siden forenet med præbendet Rota.</ab>
+            <ab>Dog undtages den del af bispetienden, som er lagt til helligåndshuset i Roskilde,
+               indtil biskoppen har givet dette en passende erstatning herfor.</ab>
+            <ab>Desuden fritages alterets gods for al tynge i forbindelse med den biskoppelige
+               jurisdiktion.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-10" who="#pbh">Filen etableret af #pbh 2014-02-10. </change>
+         <change when="2019-03-15" who="#pbh">Tekst, ark. opl. osv. PBH 20190315</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis ad quos . presentes pervenerint <persName>Petrus</persName> dei
+               gracia episcopus <placeName>Roskildensis</placeName> salutem in domino ♦</p>
+            <p>Noveritis transactis nuperrime annis aliquibus quandam vicariam seu .
+                  <placeName>altare sancte . Katerine \ in aquilonari turri</placeName> ecclesie
+               nostre . Roskildensis per nobilem militem dominum <persName>Johannem .
+                  Andree</persName> pie memorie fundatam et . dotatam . ad instanciam dicti . domini
+               Johannis Andree / prebende canonicali in ecclesia Roskildensi prefata . / que . Rota
+               vocabatur ex consensu venerabilis capituli nostri . Roskildensis prout in litteris originalibus<ref target="drb1"/> super hoc confectis plenius continetur fuisse per nos annexam pariter et .
+               unitam ♦ Unde quia ipsius prebende et . canonicatus possessor . de . bonis
+               ipsius . vicarie seu . altaris nisi a nobis sibi specialiter concessum fieret ut
+               ceteri canonici dicte ecclesie . Roskildensis de bonis prebendarum suarum percipiunt
+               decimas episcopales percipere non posset ♦ Nobis igitur latorpresencium
+                  <persName>Laurencius Nicolai</persName> dicte prebende canonicus et . possessor .
+               humili supplicacionis instancia supplicavit / ut . sibi de dicte vicarie et . altaris
+               bonis decimarum episcopalium percepcionem annuere et . ex speciali . gracia .
+               concedere dignaremur . ♦</p>
+            <p>Eapropter . matura deliberacione prehabita ex dicti capituli nostri consensu eidem
+               domino . Laurencio et . successoribus suis in eadem prebenda . dictarum decimarum
+               episcopalium percepcionem . in prefatis bonis ipsi . vicarie et . altari sancte .
+               Katerine per prefatum . dominum . Johannem . Andree ut . premittitur collatis et
+               donatis annuimus et . concedimus per presentes perpetuis temporibus sublevandam
+               ♦ Dictorum tamen bonorum decimas domui sancti . spiritus Roskildensi concessas
+               dumtaxat . excipimus donec dicte domui condignam pro ipsis dederimus recompensam
+               ♦ Insuper . dicta bona . ipsius vicarie et altaris omnia et . singula ab . omni
+               onere episcopalis jurisdiccionis ut . aliorum canonicorum Roskildensium bona libera
+               esse . volumus et . exempta ♦</p>
+            <p>In quorum concessionis et . donacionis dictarum . decimarum sigillum nostrum . una
+               cum sigillo dicti capituli nostri presentibus duximus appendendum et . presentes
+               nichilominus dictis 
+                        origenalibus
+                        = originalibus
+                      litteris<ref target="drb2"/> super . dictarum prebende . et vicarie unione . et . anexione jussimus
+               applicari et . connecti ♦</p>
+            <p>Datum anno . domini millesimo . cdtrecesimo decimaoctava die mensis may ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1346</num>, paragraphs: <num n="paragraphs">33</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14200000011</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Flensborg</settlement>
+                        <repository>Stadtarchiv Flensburg (tidligere Marie Kirkes arkiv)</repository>
+                        <collection>Altes Verwaltungsarchiv, Stadt- Rechts-, Parochial- und Gildebücher</collection>
+                        <idno>00006</idno>
+                        <msName>Gildebuch der St. Marien Kaufmannsgilde</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Wilda, Das Gildewesen im Mittelalter, p. 367 (udtog)</bibl>
+               <bibl>Sejdelin, Diplomatarium Flensborgense, bd. I, nr. 74, p. 232-236</bibl>
+               <bibl>Nyrop, Danmarks Gilde- og Lavsskraaer, bd. I, nr. 95, p. 577-582 (tryk efter Sejdelin l.l.)</bibl>
+               <bibl>Reg. Dan. nr. *4552</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Sejdelin l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420" notBefore="1420" notAfter="1420" cert="low">[1420.</date>
+            <placeName cert="low">Flensborg]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Vedtægt for Vor Frues købmandsgilde i Flensborg.</ab>
+            <ab>Vedtægten indeholder følgende punkter:</ab>
+            <ab>1) Hvis gildet er i besiddelse af penge, skal pengene ikke lægges til side. Når medlemmerne
+      af gildet køber noget for pengene, skal man tegne et lukket kors på genstanden. Det er Jomfru
+      Marias mærke. Således kan enhver se, at den pågældende genstand tilhører gildet.</ab>
+            <ab>2) Medlemmerne skal købslå for gildets penge, indtil oldermændene kræver pengene retur.</ab>
+            <ab>3) Den gevinst, som medlemmerne får af handlen med gildets penge, skal de give til
+      gildet.</ab>
+            <ab>4) Når købmændene vil drikke sammen, skal oldermændene indbyde de andre medlemmer, både
+      gildebrødre og -søstre. Da skal alle kvinderne samles for sig. Den, som ikke møder, har
+      forbrudt sig mod vedtægten.</ab>
+            <ab>5) Ethvert medlem skal deltage i gildemøderne. Såfremt et medlem har et ærinde, skal
+      vedkommende sige det til oldermændene og betale for øl, inden vedkommende går.</ab>
+            <ab>6) Vil et medlem medbringe gæster til møderne, skal vedkommende sige dette til oldermændene
+      eller til gildets skriver. Enhver gæst skal betale to engelske skillinger.</ab>
+            <ab>7) Kun oldermændene kan optage personer i gildet, idet man skal vide, hvem der er værdig til
+      at indtræde i broderskabet.</ab>
+            <ab>8) Såfremt et medlem ikke vil stille sin svend til rådighed for oldermændene, når disse til
+      gildets behov måtte have brug for det, skal vedkommende betale to mark voks i bøde til
+      gildet.</ab>
+            <ab>9) Når medlemmerne om aftenen går hjem efter et gildemøde, skal skænkene blive. De må først
+      gå, når de har sat øllet væk samt skyllet og tørret drikkebægrene. Gør de ikke det, skal de
+      betale en tønde øl i bøde til gildet.</ab>
+            <ab>10) Når oldermændene om aftenen giver medlemmerne lov til at bryde op, skal den, som bliver
+      siddende uden oldermændenes tilladelse, betale en tønde øl i bøde til gildet.</ab>
+            <ab>11) Såfremt et medlem forsætligt rammer, skubber eller slår ud efter et andet medlem, skal
+      vedkommende betale en tønde øl i bøde til gildet.</ab>
+            <ab>12) Såfremt et medlem krænker en anden på dennes ære, det være sig et medlem af gildet eller
+      ej, skal vedkommende betale tre mark voks i bøde til gildet.</ab>
+            <ab>13) Såfremt et medlem stjæler to engelske skillinger eller derover fra et andet medlem, skal
+      vedkommende udstødes af broderskabet.</ab>
+            <ab>14) Det er ikke tilladt at handle i gildehuset. Derudover er det heller ikke tilladt at
+      vædde eller spille om penge i gildehuset. Desuden er det ikke tilladt for et medlem at give et
+      andet medlem mere at drikke, end den anden ønsker. Gør man det, skal man betale en grot i bøde
+      til gildet.</ab>
+            <ab>15) Drikker et medlem så meget, at vedkommende på en uhøflig måde kaster op, enten i
+      broderskabet eller i gården, mens andre ser det, skal vedkommende betale en tønde øl i bøde
+      til gildet.</ab>
+            <ab>16) Såfremt et medlem begynder at skændes med et andet medlem i gildehuset, skal man gøre
+      oldermændene opmærksomme herpå. Såfremt medlemmet ikke vil høre på oldermændene, skal
+      vedkommende udstødes af gildet, medmindre oldermændene vælger at benåde vedkommende.</ab>
+            <ab>17) Ingen må trække knive eller andre våben i gildehuset. Endvidere skal svendene blive
+      udenfor.</ab>
+            <ab>18) Ingen må sidde på bænkene i gildehuset, medmindre man har betalt sit bidrag til
+      gildet.</ab>
+            <ab>19) Såfremt et medlem kommer op at skændes med et andet medlem og derefter går hjem og
+      henter et våben, hvormed vedkommende forsætligt vil skade den anden, og såfremt dette bliver
+      set af andre, skal vedkommende betale et halvt bismerpund voks i bøde til gildet, eftersom det
+      er sket forsætligt.</ab>
+            <ab>20) Såfremt et medlem slår et andet medlem til blods, skal vedkommende betale et bismerpund voks
+      i bøde til gildet.</ab>
+            <ab>21) Når regnskabet skal gøres op efter et gildemøde, skal ethvert medlem betale for øl med
+      det samme eller den følgende dag. Den, som ikke gør det, skal betale fire mark voks i bøde til
+      gildet.</ab>
+            <ab>22) På den samme dag skal man holde gudstjeneste. Enhver gildebroder og -søster skal deltage i
+      gudstjenesten og donere hertil, medmindre vedkommende har lovligt forfald. Gør man ikke det, skal
+      man betale en mark voks i bøde til gildet.</ab>
+            <ab>23) På den samme dag skal de medlemmer, som har forbrudt sig mod gildets vedtægt, have
+      mulighed for at betale sin bøde, hvad enten den er stor eller lille.</ab>
+            <ab>24) Nægter et medlem at betale sin bøde med fuldt overlæg, skal vedkommende udstødes af
+      gildet. Derfor skal man slette vedkommendes navn fra gildebogen. Endvidere mister vedkommende
+      sin mulighed for at klage herover, idet udstødelsen af gildet er forårsaget af vedkommende
+      selv.</ab>
+            <ab>25) Nægter et medlem at betale sin bøde grundet en forhastet beslutning eller fuldskab, og
+      angrer vedkommende dette efterfølgende, skal oldermændene drøfte sagen med de andre medlemmer.
+      Herefter kan oldermændene vælge at se i nåde med vedkommende og lade vedkommende betale sin
+      bøde.</ab>
+            <ab>26) En oldermand skal sidde i to år. Derefter skal man afsætte oldermanden. Når der atter er
+      gået to år, kan vedkommende vælges til oldermand igen.</ab>
+            <ab>27) Vedtægten og gildehuset overdrages fra oldermand til oldermand, dvs. fra den ene til den
+      anden. Såfremt det ikke sker på denne måde, skal de pågældende oldermænd bøde herfor.</ab>
+            <ab>28) Vedtægten og broderskabet er skabt til ære for Jomfru Maria og for medlemmernes
+      saligheds skyld.</ab>
+            <ab>29) Den, som ikke vil overholde vedtægten, har tilladelse til at sige nej med fri vilje.
+      Ingen skal tvinges til det.</ab>
+            <ab>30) Enhver, som med fri vilje siger ja til at overholde vedtægten, skal rejse sig og love
+      Jomfru Maria tro broderskab. Derefter skal enhvert medlem gøre knæfald og sige et fadervor og
+      et ave maria for hhv. Gud og Jomfru Maria. Endvidere skal ethvert medlem sige et fadervor og
+      et ave maria for alle afdøde gildebrødre og -søstre samt for medlemmernes fædre og mødre, for
+      alle kristne sjæle og for deres egne sjæle.</ab>
+            <ab>31) Man har fra gildets begyndelse afholdt messe for Jomfru Maria tre gange om ugen.</ab>
+            <ab>32) En oldermand skal opbevare gildets pengekasse. En anden oldermand skal opbevare nøglen
+      til pengekassen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-02" who="#pbh">Filen etableret af #pbh 2014-05-02. </change>
+         <change when="2020-12-10" who="#smb">1. korrektur af #smb 2020-12-10. </change>
+         <change when="2021-01-14" who="#smb">2. korrektur af #smb 2021-01-14. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Jn deme namen Godes vnde Vnser leuen Vruwen J{uo}ncurowen Marien so hebben dyt de ghennen
+      ghewesen, de ghedichtet hebben dessen wilkore vnde desse broderschop, also her
+        <persName>Haghedorne</persName>, <persName>Hermen van Vmmeren</persName>, <persName>Ruthgher
+        vppe deme Ouene</persName>, <persName>Hermen vppe deme Ouene</persName>, <persName>Clawes
+        Redentym</persName> vnde <persName>Mathias vppe der Lucht</persName>, dat Got erer zele
+      gnedich sy, vnde vortmer so hebben dar n{uo} ouer ghezeten erbare lude, de dessen wilkore
+      ghemeret hebben vnde vast ghemaket. Item vp enen vastelauent druncken to h{oe}pe koeplude vnde
+      schippern. Do sy rekent hadden, do leep dar ouer vj schilling. Do vraghede een: wat wille gy
+      don van den vj schilling. Do zede her <persName>Haghedorne</persName>: wy willen dar eyn licht
+      mede maken laten, dat dar berne vor Marien bilde an deme lijk h{uo}s vore an vnser leuen
+      vruwen kerken. Dat sulue bylde steyt n{uo} ter tijt an der cappellen der coplude, vnde dar de
+      broderschop ghans van vpghenomen is. Item so beg{uo}nde zyk de selschop to merende, dat se
+      hebben wolden olderlude vnde enen wilkore. Do ghinghen vt de vorbenomeden sesse vnde koren
+      olderlude, vnde makeden enen wilkore: Dat we dar neen to secht olderman to wezende, de heft
+      vorbroken ij tunnen beers. Item beghunde sik de broderschop to beterende, dat van den vj
+      schilling myt der gnade Vnser leuen Vruwen worden lx mark myt rechter copenschop.</p>
+            <p n="a#2" xml:space="preserve"><supplied>1</supplied> Item aldus scullen de olderlude dat vort an holden: Wanne sy penninghe
+      hebben, vnde d{oe}n sy mank de broderschop, de penninghe schullen sy nicht leggen to ereme
+      g{uo}de; wen wat sy kopen mit den pennighen, dar schal men op scriuen een sloten cruce – dat
+      is Vnser leuen Vruwen merke - so moghen coeplude vnde schippern zeen, weme dat goed to horet.
+      Vnde weret, dat id jenich weygherde den olderluden desse penninghe mid syner copenschop to
+      nemende, de heft vorbroken, ɉ p{uo}nt wasses vppe deme bezemere gheweghen.</p>
+            <p n="a#3" xml:space="preserve"><supplied>2</supplied> Item mit dessen penninghen schullen sy copslaghen alzo langhe, dat de
+      olderlude de wedder eschen.</p>
+            <p n="a#4" xml:space="preserve"><supplied>3</supplied> Item wat sy islykes iares wynnet mid den penninghen, dat schullen sy
+      bringhen an de broderschop by deme hoghesten br{oe}ke.</p>
+            <p n="a#5" xml:space="preserve"><supplied>4</supplied> Item wanne de koepman to h{oe}pe drincken wil, so schullen de
+      olderlude to zeggen laten broderen vnde s{uo}steren, so schullen de erbaren vruwen zyk zuluen
+      to h{oe}pe vorboden, vnde ghan an ere broderschop vnghebeden, de dar sint z{uo}under
+      v{oe}rual; we dat nicht en deyt, de heft ghebr{oe}ken den wilkore.</p>
+            <p n="a#6" xml:space="preserve"><supplied>5</supplied> Item so schal eyn jeslyk ghan an syn eyghene broderschop by synem
+      hoghesten wilkore; vnde heft dar yement werff, de schal den olderluden to zeggen, vnde betalen
+      syn beer, eer dat he wech gheyt.</p>
+            <p n="a#7" xml:space="preserve"><supplied>6</supplied> Item we dar gheste bidden wil, de sint Gode vnde vns willek{oe}men;
+      vnde dar gheste bringhet, de schal den olderluden to zeggen edder deme scriuer; vnde eyn
+      jeslik ghast schal betalen van myddendaghe to der maaltijd des auendes ij engelsche.</p>
+            <p n="a#8" xml:space="preserve"><supplied>7</supplied> Item schal dar neen man den anderen entfanghen vor enen broder edder
+      vor ene z{uo}stere, s{uo}nder he spreke den olderluden to: sy willen weten, we der broderschop
+      werdich sy.</p>
+            <p n="a#9" xml:space="preserve"><supplied>8</supplied> Item wanne de olderlude bedoruen g{oe}de knapen, de ghan schullen mede
+      der broder werff, we des weygherd, de heft vorbroken ij mark wicht wasses.</p>
+            <p n="a#10" xml:space="preserve"><supplied>9</supplied> Item wanne de zelschop des auendes to h{uo}s gheyt, so schullen de
+      schencken alzo langhe na bliuen, vnde vorwaren dat beer, vnde sp{oe}len de beker, vnde droghen
+      de, dat sy verdich syn des anderen daghes; don sy des nicht, so hebben sy vorbroken j t{uo}nne
+      beers.</p>
+            <p n="a#11" xml:space="preserve"><supplied>10</supplied> Item wanne de olderlude orloff gheuen, dat een jeslic schal ghan to
+      goder nacht, vnde blyft dar jement na zittende ane der olderlude dank, de heft vorbroken j
+      tunne beers.</p>
+            <p n="a#12" xml:space="preserve"><supplied>11</supplied> Item oft dar jement den anderen stotte edder schoue edder na sloghe
+      mid wapender hant, de heft vorbroken j t{uo}nne beers.</p>
+            <p n="a#13" xml:space="preserve"><supplied>12</supplied> Item ofte jement spreke vppe des anderen ere, he were buten der
+      br{oe}derschop edder dar bynnen, de heft vorbroken iij mark wicht wasses.</p>
+            <p n="a#14" xml:space="preserve"><supplied>13</supplied> Item we deme anderen stele an der broderscop alzo vele alzo ij
+      engelsche, de heft vorbroken de broderschop.</p>
+            <p n="a#15" xml:space="preserve"><supplied>14</supplied> Item so schal dar nement vork{oe}pen edder kopen in der broderschop;
+      ok so schal dar nement wedden edder dobelen in der broderschop; ok schal dar nement den
+      anderen gr{oe}te schalen edder gr{oe}te bekere edder meer wanne em behaghet todrinken; vnde
+      myt bere begheten; we desse vorscreuen stucke deyt, de heft ghebroken j groten.</p>
+            <p n="a#16" xml:space="preserve"><supplied>15</supplied> Item we alzo vele drincket, dat he dat vnhoflyken wedder in der
+      broderschop edder in deme houe ghift, dat it bezeen worde, de heft ghebroken j t{uo}nne
+      beres.</p>
+            <p n="a#17" xml:space="preserve"><supplied>16</supplied> Item oft dar jenich man kyfaftich worde an der broderscop mit deme
+      anderen, dat schal men den olderluden zeggen, vnde we den olderluden nicht horen wil, de heft
+      vorbroken de broderschop, s{uo}nder dat se ene begnaden willen.</p>
+            <p n="a#18" xml:space="preserve"><supplied>17</supplied> Item so schal dar nement dreghen an de broderschop jensen, edder
+      wapen, sunder sy d{oe}n dat den olderluden edder den schencken, edder ok de knechte bliuen
+      b{uo}ten der doren dar mede.</p>
+            <p n="a#19" xml:space="preserve"><supplied>18</supplied> Item so schal dar ok nement zitten an der broderschop oppe den
+      bencken, sunder he wille betalen.</p>
+            <p n="a#20" xml:space="preserve"><supplied>19</supplied> Item oft dar jement schelaftich worde mit deme anderen, vnde ghinghe
+      to h{uo}s, vnde halde wapen, vnde wolde enen slaan, wert dat bezeen, he betere dar vore
+      ɉ p{uo}nt wasses oppe deme bezemere gheweghen, dar vmme dat id vorzaat is.</p>
+            <p n="a#21" xml:space="preserve"><supplied>20</supplied> Item ofte hir jement den anderen bloet wndede, dat Got vorbede, de
+      heft vorbroken j bezemer p{uo}nt wassz.</p>
+            <p n="a#22" xml:space="preserve"><supplied>21</supplied> Item wanne hir gherekent is, so schal eyn jeslek syn beer betalen
+      edder des anderen daghes; we des nicht en deyt, de heft ghebroken iiij mark wicht wassz.</p>
+            <p n="a#23" xml:space="preserve"><supplied>22</supplied> Item oppe den zuluen dach schal men beghan sustere vnde brodere; dar
+      schal een jeslek broder vnde suster, de dar sunder vorual is vnde bewysen mach, dar komen vnde
+      bringhen dar syn offer; we dat nicht eyn deyt, de heft ghebroken j mark wicht wassz; dat
+      schullen vorwaren de olderlude.</p>
+            <p n="a#24" xml:space="preserve"><supplied>23</supplied> Item des zuluen daghes heft dar jement ghebroken luttik edder vele,
+      wil he beteren, so schullen de olderlude dar g{oe}de knapen to nemen vnde laten se beteren na
+      gnaden.</p>
+            <p n="a#25" xml:space="preserve"><supplied>24</supplied> Item is dar jement, de dar nicht beteren wil, vnde den wilkore
+      ouerghift, vnde secht, he wil vnghedwnghen syn, den schal men scriuen vte deme b{oe}ke der
+      broderschop, wente he heft sik suluen vorwyset; he kan dar ouer nemende nene schult
+      gheuen.</p>
+            <p n="a#26" xml:space="preserve"><supplied>25</supplied> Item ofte dat jement dede an hasticheit edder an dr{uo}nkene mode,
+      vnde eme na leet were, vnde wolde gherne beteren, so schullen de olderlude spreken myt den
+      broderen, vnde laten ene beteren na gnaden.</p>
+            <p n="a#27" xml:space="preserve"><supplied>26</supplied> Item so schal eyn jeslek olderman twe iar olderman bliuen; so mach
+      men ene affzetten, vnde bynnen twen jaren wedder jnkezen.</p>
+            <p n="a#28" xml:space="preserve"><supplied>27</supplied> Item dessen wilkore vnde broderschop beuale wy olderluden na
+      olderluden, dat so deme enen alzo deme anderen; were id, dat se des nicht en deden, so scholen
+      sy dar zuluen vore beteren.</p>
+            <p n="a#29" xml:space="preserve"><supplied>28</supplied> Item is dit de wilkore vnde de broderschop, de dar maket is vmme der
+      misse willen Vnser leuen Vruwen, vnde vmme vnser zeele salicheyt willen.</p>
+            <p n="a#30" xml:space="preserve"><supplied>29</supplied> Item we dessen wilkore nicht holden wil, he mach neen mid vryen
+      willen zeggen; hir is nement to bedwnghen.</p>
+            <p n="a#31" xml:space="preserve"><supplied>30</supplied> Item weme desse wilkore vnde broderschop wol behaghet, de sta op vnde
+      loue Vnser leuen Vruwen truwe broderschop. Item so boghe een jeslek syne knee, vnde spreke
+      Gode vnde Vnser leuen Vruwen j Pater noster vnde j Aue Maria. Item so spreke en jeslek j Pater
+      noster vnde j Aue Maria vor alle de sustere vnde brodere erer zeele, de vte desser broderschop
+      ghestoruen sint, dat Got en altemalen gnedich sy. Item vor vader vnde vor moder, vnde vor alle
+      cristene zeele vnde vor jw zuluen, dat jw Got stercke an eneme ghuden salighen leuende.
+      Amen.</p>
+            <p n="a#32" xml:space="preserve"><supplied>31</supplied>Item so beghunden zy an dem namen Godes, dat se leten holden an der
+      weke iij misse, Vnser leuen Vruwen to denste vnde to loue.</p>
+            <p n="a#33" xml:space="preserve"><supplied>32</supplied> Item so schal de ene olderman hebben de kisten, vnde de andere schal
+      hebben den slotel.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

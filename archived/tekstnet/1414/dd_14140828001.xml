@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">204</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14140828001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2548a-c (tidligere RA. Gem. Arch. XIX, nr. 4)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>12.3 (plica: 2)</height>
+                                    <width>23.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift: <q>Eyderstede etcetera huldeghinge vnde schulden den heren
+        nicht entholden</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Ejdersteds segl, i grønt voks, i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Seglsnit efter Everschops segl</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Udholms segl, i grønt voks, i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Michelsen, Nordfriesland im Mittelalter, nr. 23, p. 202-203</bibl>
+               <bibl>Reg. Dan. nr. 3284</bibl>
+               <bibl>Rep. nr. 5480</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-08-28"
+                  notBefore="1414-08-28"
+                  notAfter="1414-08-28"
+                  cert="high">1414. 28. august</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådmænd og indbyggere i de tre lande Ejdersted, Everschop og Udholm lover Heinrich 4.,
+      Adolf 8. og Gerhard 7., hertuger af Slesvig, troskab og lydighed og forpligter sig til ikke at
+      indgå fred med nogen, især ikke med Ditmarsken, uden hertugernes tilladelse.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-25" who="#pbh">Filen etableret af #pbh 2014-02-25. </change>
+         <change when="2020-10-28" who="#smb">1. korrektur af #smb 2020-10-28. </change>
+         <change when="2020-12-10" who="#smb">2. korrektur af #smb 2020-12-10. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wy radlude vnde de gantze meenheyt dryer lande <placeName>Eyderstede</placeName>
+      <placeName>Euerikeschepp</placeName> vnde <placeName>Vdholm</placeName> don wytlik vnde
+      openbare an desseme breue alle den ghennen de ene seen edder horen lezen dat wy vns
+      vnderdanich gheuen vnseme gnedigen heren hertegen <persName>Hinrike</persName> . hertege to
+        <placeName>Sleswijk</placeName> greue to <placeName>Holsten</placeName> to
+        <placeName>St{oe}rmeren</placeName> vnde to <placeName>Schowenborg</placeName> synen
+      b{oe}len . hertegen <persName>Aleffen</persName> vnde hertogen <persName>Gherde</persName>
+      vnde eren rechten eruen ewigen by en to bliuende en to helpende vnde to sterkende nach al
+      vnser macht wan er vnde wor <app><lem>id</lem><rdg><q>is</q>, A</rdg></app> en behoff is jegen de ghenen de se beschedigen mogen vnde willen / ♦</p>
+            <p n="a#2" xml:space="preserve">Vortmer so schole wy vnde willen to ewigen tyden nene sunderge vrede noch sone zoken . hebben
+      vnde holden noch myd heren . myd steden . edder myd landen vnde io bez{uo}ndergen . myd deme
+      lande to <placeName>Dythmerschen</placeName> id en sche myd volborde vnde willen vnser
+      vorscreuen heren \ ♦</p>
+            <p n="a#3" xml:space="preserve">Vort mer so wille wy vnde scholen vnseme ergenomeden gnedigen <app><lem>here</lem><rdg>tilføjet over linjen i A</rdg></app> nicht vorholden noch broke edder jenigerleye rechticheyt des wy van rechte plichtich
+      zynd ♦</p>
+            <p n="a#4" xml:space="preserve">Vnde hebben des to th{ue}ge vnde ener ligghenden ork{uo}nde vnse dre jngesegele vnser
+      vorgenomeden dryer land myd wydschopp gehenghet laten to desseme breue de gheuen vnde screuen
+      is na Godes bord verteynhundert jar dar na in <app><lem>deme</lem><rdg><q>de me</q>, A</rdg></app> vertynden jare in deme dage Augustini des hilgen bischoppes ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">125</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14150121002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Århus</settlement>
+                        <repository>Rådhusarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Ridder Jens Dues segl påtrykt på bagsiden</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Ikke forefundet 2021</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4344</bibl>
+               <bibl>Hübertz, Aktstykker vedk. Aarhus, bd. I, nr. 6, p. 4-5</bibl>
+               <bibl>Molbech og Petersen, Danske Diplomer, nr. 240, p. 399</bibl>
+               <bibl>Sejdelin, Diplomatarium Flensborg., bd. I, nr. 70, p. 227-228</bibl>
+               <bibl>Rep. nr. U 554 (med usikker datering til "1417")</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hübertz l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-01-21"
+                  notBefore="1415-01-21"
+                  notAfter="1417-01-21"
+                  cert="low">[1415 eller 1417]. 21. januar <note>Da nærværende brev mangler angivelse af udstedelsesåret, kan det ikke med
+    sikkerhed afgøres, om brevet er udstedt i 1415 eller i 1417</note>
+            </date>
+            <placeName cert="high">Marienborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hr. Jens (Bondesen) Due (Glob), ridder, beder borgmestre, rådmænd og almuen i Århus om
+      omgående at sende 30 bevæbnede mænd til Flensborg for at hjælpe kongen med at forsvare landet,
+      da hertugen og greven samler deres mænd og agter at belejre Flensborg.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-27" who="#pbh">Filen etableret af #pbh 2014-02-27. </change>
+         <change when="2021-04-09" who="#smb">1. korrektur af #smb 2021-04-09. </change>
+         <change when="2021-06-03" who="#smb">2. korrektur af #smb 2021-06-03. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Jægh <persName>Jæns Duwæ</persName> riddære helssære burghmæstære, rathmen ogh all almwghen i
+        <placeName>Aars</placeName> kærligh mett guth . ♦</p>
+            <p n="a#2" xml:space="preserve">Jægh bether ether ogh biwther hartheligh pa myn heræ konnynghens weghnæ ath i strax hiid
+      kommæ til <placeName>Flænsburgh</placeName> mett XXX weriendæ anten til skepps ellære hæst
+      wdæn all dwalæ ogh tøffryngh om i wilæ noghet gøræ myn heræ konnynghen lyøfft ære ogh righens
+      bestandelse fore thy hertoghen ogh grewen hawæ theræ gantze samlyngh ogh menæ ath bestollæ
+        <placeName>Flænsburgh</placeName> ogh byerghet ellære andere slot hæære i myn heræs land
+      fore thy kommære ændeligh ogh hyælpper ath weriæ hans land ogh slot som i welæ hawæ hans
+      gynstæ ogh thach ogh bewisære ether hæære wdi som han ether til trooer ♦</p>
+            <p n="a#3" xml:space="preserve">Skrevet pa <placeName>Marienburgh</placeName> sante Agnetis dagh wnder myt jnciglæ thrycket
+      paa ryggæn aa thettæ breff . ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

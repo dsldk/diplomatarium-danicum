@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">118</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14170224001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2627</idno>
+                        <msName>tidl. Smørum H. 52</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 22 × 10 (plica: 1.8). <ab>Meget beskadiget med falmet skrift</ab>1. Lars Jensens segl i lyst voks i perg.rem, DGS 253
+                              . 2. Seglsnit. 3. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Langebeks Diplomatarium</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5646</bibl>
+               <bibl>Gammeldanske Diplomer 2.rk. I 196</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-02-24"
+                  notBefore="1417-02-24"
+                  notAfter="1417-02-24"
+                  cert="high">1417. 24. februar</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lars Jensen, degn i Roskilde, har modtaget 4 lødige mark fra Niels Esbernsen Bille for en
+      gård, som Niels Bille havde pantsat i Glostrup (Smørum herred). Dermed mortificeres
+      pantebrevet og gården overføres tilbage til Niels Bille. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-20" who="#pbh">Filen etableret af #pbh 2014-03-20. </change>
+         <change when="2014-04-01" who="#jon">1. korrektur af #jon 2014-04-01. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn th<ex>et</ex>tæ breff see aller høræ læses helser jæc <persName>Laurentz
+        Jenssøn</persName> dæghen j <placeName>Roskilde</placeName> ewinnelighe m<ex>eth</ex> guth /
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Oc kundgør th<ex>et</ex> jæc hauer opbareth iiii<hi rend="sup">or</hi> løthigh m<ex>a</ex>rk
+      aff een hetherligh mæn oc ærligh / <persName>Nielss Esbernssøn th<ex>e</ex>r kalles
+        Byllæ</persName> for een gordh hwilken jæc j pant hafthæ aff hanu<ex>m</ex> vti
+        <placeName>Glosthorp</placeName> j <placeName>Smørumsh<ex>er</ex>r<ex>et</ex></placeName>
+      ♦ </p>
+            <p n="a#3" xml:space="preserve">Hworforæ tha mæler jæc oc lywser th<ex>et</ex> pante b<ex>re</ex>ff døt hwilket jæc fek vppæ
+      then sa<ex>m</ex>mæ gordh j hwor th<ex>et</ex> kan finnes oc then sa<ex>m</ex>mæ gordh megh
+      panset wor frii ath wæræ till for<hi rend="sup">dæ</hi>
+      <persName>Nielss Esbernssøns</persName> hand for megh oc allæ minæ arwingæ ♦</p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis honorabilium virorum scilicet
+        <persName>Ingwari Anderssøn</persName> et <persName>Jacobi Petri</persName> civium
+        <placeName>Roskildensium</placeName> presentibus est appensum ♦</p>
+            <p n="a#5" xml:space="preserve">Datum <placeName>Haffnis</placeName> anno domini mcdxvii die beati Mathie apostoli
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

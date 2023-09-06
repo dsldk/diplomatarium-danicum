@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1582</num>, paragraphs: <num n="paragraphs">28</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14260617001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Syvherredsvedtægten fra 1426 (Codex Juris Frisici Borealis)</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>KB</repository>
+                        <collection>NKS</collection>
+                        <idno>304 oktav, bl. 14</idno>
+                        <msName>Heinreichs samlinger</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Med dato: <q>des mandages na s. Vith</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>KB</repository>
+                        <collection>Thott</collection>
+                        <idno>2073 kvart</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra 1600-tallet, med dato: <q>des mandages na s.
+      Vith</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ac">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>KB</repository>
+                        <collection>NKS</collection>
+                        <idno>1515 kvart</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra 1700-tallet, med dato: <q>des mandages na s.
+      Vith</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ad">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>KB</repository>
+                        <collection>GKS</collection>
+                        <idno>1148 folio</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra 1500-tallet, med dato: <q>des mandages vor s.
+      Vith</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ae">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>KB</repository>
+                        <collection>NKS</collection>
+                        <idno>1499 kvart</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra 1600-tallet, med dato: <q>des mandages vor s.
+      Vith</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Af">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>KB</repository>
+                        <collection>NKS</collection>
+                        <idno>1503 kvart</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra 1500-tallet, med dato: <q>des anderen dages na
+      Vith</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ag">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>KB</repository>
+                        <collection>NKS</collection>
+                        <idno>1514 kvart</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra 1500-tallet, med dato: <q>des anderen dages na
+      Vith</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. 3469*</bibl>
+               <bibl>Rep. nr. 6264</bibl>
+               <bibl>Dreyer, Abhandl. I (1754), p. 475-486 (med dato: "des andern dages na Viti")</bibl>
+               <bibl>Camerer, Nachrichten I (1758), p. 362-368 (med dato: "des mandages")</bibl>
+               <bibl>v. Richthofen, Friesische Rechtsquellen (1840), p. 578-582 (med dato: "des mandages na
+      sunte Vit")</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>v. Richthofen l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-06-17"
+                  notBefore="1426-06-17"
+                  notAfter="1426-06-17"
+                  cert="high">1426. 17. juni</date>
+            <placeName cert="high">Sankt Nikolaj kirke i Wyk på Før</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Syvherredsvedtægten.</ab>
+            <ab>Vedtægten indeholder 23 lovartikler, som blev vedtaget i Sankt Nikolaj kirke i Wyk på Før af
+      en forsamling bestående af de syv nordfrisiske herreder Pelvorm herred, Beltring herred,
+      Viriks herred, Før Østerherred, Sild herred, Horsbøl herred (Viding herred) samt Bøking herred
+      i nærværelse af hæderlige folk fra Edoms herred og Lundebjerg herred samt af Magnus Haysen på
+      hertug Heinrich af Slesvigs vegne.</ab>
+            <ab>Artiklerne 1-4 indeholder bestemmelser om arv:</ab>
+            <ab>I artikel 1 bestemmes det, at bedsteforældre kun skal arve halvdelen efter deres afdøde
+      børnebørn.</ab>
+            <ab>I artikel 2 bestemmes det, at brødrebørn skal stå i broderens sted, og at søsterbørn skal
+      stå i søsterens sted.</ab>
+            <ab>I artikel 3 bestemmes det, at den ene halvdel af godset skal gå i arv på faderens side, mens
+      den anden halvdel af godset skal gå i arv på moderens side indtil det fjerde led. Derefter
+      skal man ikke arve.</ab>
+            <ab>I artikel 4 bestemmes det, at såfremt både halvsøskende og helsøskende er arveberettigede,
+      skal halvsøskende have halv arv, mens helsøskende skal have hel arv.</ab>
+            <ab>Artikel 5 indeholder bestemmelser om drab. Således bestemmes det, at såfremt en mand slår en
+      anden mand ihjel, og såfremt misdæderen derefter dør, skal misdæderens frænder have hans
+      hovedlod i forvaring. Skulle det derefter ske, at misdæderens frænder ikke ydede erstatning
+      til den myrdedes frænder inden for år og dag, skal misdæderens hovedlod gå til den rette
+      arving.</ab>
+            <ab>Artikel 6 indeholder bestemmelser om husfred og plovfred. Således bestemmes det, at der skal
+      holdes husfred og plovfred, således som forfædrene gjorde det. Hvis en person, som har brudt
+      den førnævnte fred, får husly eller hjælp af en anden person, så er den anden person ligeså
+      skyldig, som den person, der har brudt freden.</ab>
+            <ab>Artiklerne 7-8 indeholder bestemmelser om vold:</ab>
+            <ab>I artikel 7 bestemmes det, at enhver, som på uærlig vis eller efter indgåelse af et forlig
+      slår en anden mand, skal være æreløs. Voldsmanden skal således ikke nyde nogen fred i de syv
+      herreder. Endvidere skal voldsmandens frænder bøde 24 engelske pund til offeret.</ab>
+            <ab>I artikel 8 bestemmes det, at enhver, som slår eller sårer en anden mand med et mindre våben
+      såsom en armbrøst, en dolk eller en tveægget kniv eller med et usædvanligt våben, skal bøde
+      dobbelt til offeret samt til herskabet.</ab>
+            <ab>Artikel 9 indeholder bestemmelser om vraggods. Således bestemmes det, at der ikke må være
+      vraggods (i den forstand at man ikke må beholde det gods, som skyller ind på stranden).
+      Desuden bestemmes det, at der ikke må transporteres vraggods fra det ene herred til det andet.
+      Derimod skal man returnere vraggodset til ejermanden uden nogen form for svig eller
+      hindringer.</ab>
+            <ab>Artiklerne 10-11 indeholder bestemmelser om køb og salg af land:</ab>
+            <ab>I artikel 10 bestemmes det, at både køb og salg af land skal forkyndes offentligt. Endvidere
+      bestemmes det, at handel på landet skal være tilladt. Endelig bestemmes det, at køb og salg af
+      land skal kunne annulleres.</ab>
+            <ab>I artikel 11 bestemmes det, at salg af land kan annulleres. I så fald skal sælger
+      tilbagebetale købssummen til køber med rede penge, med okser eller med heste.</ab>
+            <ab>Artiklerne 12-23 indeholder bestemmelser om bodeling:</ab>
+            <ab>I artikel 12 bestemmes følgende: En mand har fire døtre. Han tager sig en hustru, som har en
+      datter. De får to døtre sammen. Faderen og moderen dør. Den ene af de to døtre dør. Den afdøde
+      datter havde en levende helsøster og en halvsøster på moderens side og fire halvsøstre på
+      faderens side. I denne situation skal man dele arven i to halvdele. Den ene halvdel skal gå
+      til døtrene på moderens side, uagtet disse indbyrdes er halvsøstre, thi således foreskriver
+      områdets gamle landret. Den anden halvdel skal gå til døtrene på faderens side, nemlig til
+      helsøsteren og de fire halvsøstre, og enhver af halvsøstrene skal have lige så meget af arven
+      som den afdødes helsøster, uagtet de fire kun er halvsøstre. Såfremt en af de fire halvsøstre
+      er død, men har efterladt sig et barn, arver barnet det, som barnets afdøde moder skulle have
+      arvet. Såfremt dette barn er død, og der er børnebørn, arver børnebørnene intet, medmindre det
+      også kun er de andre søstres børnebørn, som er i live. I dette tilfælde skal alle børnebørn
+      arve i fællesskab. Såfremt den anden søster, som altså var den afdøde datters helsøster, og
+      som havde en halvsøster på moderens side og fire halvsøstre på faderens side, dør, skal man
+      dele arven i to, således at halvsøsteren på moderens side får lige så meget som de fire
+      halvsøstre på faderens side.</ab>
+            <ab>I artikel 13 bestemmes følgende: Hvis en kvinde gifter sig med en mand, som i forvejen har
+      en søn eller en datter, og hvis kvinden og manden sammen får et barn, og hvis både manden og
+      deres fælles barn dør, skal mandens første barn have lige så meget af arven som moderen til
+      det afdøde barn. Såfremt mandens første barn dør, men barnet efterlader sig børn eller
+      børnebørn, skal børnene arve på samme måde som faderens første barn.</ab>
+            <ab>I artikel 14 bestemmes følgende: Hvis en kvinde og en mand har børn sammen, hvor mange det
+      end måtte være, og alle disse børn på nær ét dør, hvad enten det er en dreng eller en pige, og
+      hvis faderen eller moderen derefter dør, skal barnet arve lige så meget som den af forældrene,
+      der stadig lever.</ab>
+            <ab>I artikel 15 bestemmes følgende: En halvbror arver efter en halvbror før farbror, faster,
+      morbror og moster. Endvidere arver en halvbror eller halvbroderens barn før bedstemor og
+      bedstefar.</ab>
+            <ab>I artikel 16 bestemmes følgende: En mand har en halvsøster på faderens side og en halvsøster
+      på moderens side. Manden dør, og den ene halvsøster på enten faderens eller moderens side dør
+      og efterlader sig et barn. Nu skal barnet arve lige så meget efter den afdøde mand som den
+      afdøde halvsøster.</ab>
+            <ab>I artikel 17 bestemmes følgende: Hvis en kvindes mand dør, og hvis kvinden kun har én datter
+      på det tidspunkt, hvor manden dør, skal man dele arven lige over imellem kvinden og
+      datteren.</ab>
+            <ab>I artikel 18 bestemmes følgende: Hvis en kvindes mand dør, og hvis kvinden har to levende
+      døtre, og hvis den ene datter dør derefter, skal moderen have en del af arven efter den afdøde
+      datter, og den anden datter skal have den anden del af denne arv.</ab>
+            <ab>I artikel 19 bestemmes følgende: Såfremt en mand og en kvinde har børn, få eller mange, og
+      alle børnene dør, og såfremt en af dem arver noget, skal denne arv være i deres frænders
+      forvaring, indtil enten manden eller kvinden dør.</ab>
+            <ab>I artikel 20 bestemmes følgende: Såfremt en mand og en kvinde har børn sammen, og såfremt
+      kvinden dør, må manden, inden han skal dele arven med børnene, tage en halv søsterpart fra.
+      Dette må en kvinde imidlertid ikke gøre. Kvinden må efter behag tage en veludstyret seng, et
+      hestespand, et par okser eller den bedste hest.</ab>
+            <ab>I artikel 21 bestemmes følgende: En person har en farbror, en faster, en morbror og en
+      moster. Ingen af disse har børn, som kan arve efter dem. Personen har en nevø. Nu spørger
+      personen, om også en nevø eller en niece kan arve. Svaret er nej. En farbror er faderens bror.
+      Derfor tilfalder arven personen og ikke personens nevø eller niece.</ab>
+            <ab>I artikel 22 bestemmes følgende: En mand har ikke andre arvinger end sin fars halvsøster og
+      sin fars helbrors søn. Faderens halvsøster er nu at sidestille med en halvfætter, og faderes
+      helbrors søn er nu at sidestille med en helfætters søn. Når manden dør, arver halvfætteren det
+      hele. Helfætterens søn arver intet.</ab>
+            <ab>I artikel 23 bestemmes følgende: En kvinde havde en datter, og en mand havde en søn. Manden
+      giftede sig med kvindens datter, og kvinden giftede sig med mandens søn. For de børn, som
+      kommer heraf, er følgende udsagn korrekt: Min bedstefar er gift med min søster, min bedstemor
+      er gift med min bror. Hvad angår arv, skal en stedfar arve kvindens mands gods, en stedmoder
+      skal arve hustruens gods.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-15" who="#pbh">Filen etableret af #pbh 2014-07-15. </change>
+         <change when="2018-10-09" who="#smb">1. korrektur af #smb 2018-10-09. </change>
+         <change when="2019-03-12" who="#smb">2. korrektur af #smb 2019-03-12. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Bewilliginge der söven <app><lem>herde</lem><rdg><q>Bewilliginge - herde</q>, mangler hos Camerer l.l</rdg></app>, <app><lem>in dem namen</lem><rdg><q>im nahmen</q>, Camerer l.l</rdg></app> des heren <app><lem>amen</lem><rdg><q>Bewilliginge - amen</q>, mangler hos Dreyer l.l</rdg></app>.</p>
+            <p n="a#2" xml:space="preserve">In dem iare na Gades geborth MCCCCXXVI des mandages dages na sunte Vit, do weren tho hope
+      gekamen in dem Osterherde <app><lem>tho</lem><rdg>mangler hos Dreyer l.l.; Camerer l.l. læser <q>up</q></rdg></app>
+      <app><lem>Före</lem><rdg><q>Fohrde</q>, Dreyer l.l</rdg></app> in sunte Nicolaus kerken de söven herde <app><lem>alse</lem><rdg>mangler hos v. Richthofen; tilføjet efter Camerer l.l. og Dreyer l.l</rdg></app> Pilwormingeherde, Beltringeherde, <app><lem>Wyricksherde</lem><rdg>Dreyer l.l. læser <q>Wiesharde</q>; Camerer l.l. læser <q>Wyickesharde</q></rdg></app>, Osterherde tho <app><lem>Före</lem><rdg><q>F{oe}hrde</q>, Dreyer l.l</rdg></app> vnde Silt, Horsbülherde, Bökingherde; dar mede weren <app><lem>ock</lem><rdg>Dreyer l.l. læser her <q>by</q></rdg></app> etlike frome lüde vth <placeName><app><lem>Edomsherde</lem><rdg><q>Edensharde</q>, Dreyer l.l</rdg></app></placeName> vnde <app><lem><placeName>Lundenbergerherde</placeName></lem><rdg>Camerer l.l. læser herfor <q>Bunden Barginsche harde</q></rdg></app>. Ock was dar iegenwordich <persName>Magnus Haisen</persName> van <app><lem>vnses</lem><rdg><q>mines</q>, Dreyer l.l.; <q>unsers</q>, Camerer l.l</rdg></app> gnedigen heren wegen, <persName>hertogen Hinrikes van Slesswik</persName>.</p>
+            <p n="a#3" xml:space="preserve">Dar worden düsse <app><lem>vor benömeden</lem><rdg><q>vorgeschreuene harde</q>, Dreyer l.l</rdg></app> eins, bewilligeden wilköreden vnde beleveden, dat se bi erem olden landrecht bliuen
+      vnde nenerley nye <app><lem>recht</lem><rdg><q>landtrecht</q>, Dreyer l.l.; <q>landrechte</q>, Camerer l.l</rdg></app> an nehmen, vnde hebben ein deel eres olden rechtes vth gedrukket, alse hir na
+      geschreuen steit in sundrigen <app><lem>articulen</lem><rdg>Dreyer l.l. læser <q>alsz - steith</q>; Camerer l.l. læser <q>alse herna geschreven
+            steith in sondrigen artikuln</q></rdg></app>.</p>
+            <p n="a#4" xml:space="preserve">§. 1. <app><lem>Thom ersten</lem><rdg>hos Dreyer l.l. har denne paragraf overskriften <q>Van arffdeeleing</q></rdg></app> so finde wy vor ein recht vnd hebben gehatt, wor de oldervader vnd oldemoder na eres
+      kindes kind eruen schölen, de schölen men <app><lem>dat halue</lem><rdg><q>dat halue gutt</q>, Dreyer l.l</rdg></app> eruen, vnde de negsten fründe <app><lem>de helffte</lem><rdg><q>dat halue gutt</q>, Dreyer l.l</rdg></app> vp der anderen siden, wente in vnsem rechte <app><lem>nene frembde hand vor de ander gripen mach in erue</lem><rdg>teksten er hos Dreyer l.l. forvansket til <q>nene frembde hand vorandernn nigripen
+            mag</q></rdg></app> wen id <app><lem>aldus</lem><rdg><q>so</q>, Dreyer l.l</rdg></app> kumbt. </p>
+            <p n="a#5" xml:space="preserve">§. 2. Thom andern finde wy vor ein recht, dat broderkinder schölen stan in broderstede, <app><lem>süsterkinder</lem><rdg><q>vnnde suster kinder</q>, Dreyer l.l</rdg></app> in süsterstede.</p>
+            <p n="a#6" xml:space="preserve">§. 3. Item so finde wy, <app><lem>dat</lem><rdg>mangler hos Dreyer l.l</rdg></app> dat halfe gut schal eruen vp des vaders side vnd dat halue gut vp der moder side in dat
+      verde lidt, men de so ferne in dem borth is dat he nene veide liden <app><lem>darf</lem><rdg>Dreyer l.l. læser <q>mag darff</q></rdg></app>, de schal nene arf nemen, sunder de dar vth kamen is effte he de negste dar tho is.</p>
+            <p n="a#7" xml:space="preserve">§. 4. Item wor halffsüsken vnd vullsüsken sind <app><lem>tho arue</lem><rdg>Camerer l.l. læser <q>tho ein arve</q></rdg></app>, so schal <app><lem>de halffsüsken</lem><rdg><q>de halve suster</q>, Dreyer l.l.; <q>de half s{ue}tschen</q>, Camerer l.l</rdg></app> tho gripen mit haluer hand vnd <app><lem>de vullsüsken</lem><rdg><q>de vulle suster</q>, Dreyer l.l.; <q>de vull s{ue}ttschen</q>, Camerer l.l</rdg></app> mit vuller hand.</p>
+            <p n="a#8" xml:space="preserve"/>
+            <p n="a#9" xml:space="preserve">§. 5. <app><lem>Wen</lem><rdg>hos Dreyer l.l. har denne paragraf overskriften <q>Van einem dodtschlaege</q></rdg></app> ein man den anderen dot slöge, vnd <app><lem>de handdediger</lem><rdg><q>de hanndt d{ae}diger</q>, Dreyer l.l.; <q>de handwerdiger</q>, Camerer l.l</rdg></app> storue de dat gedan hadde, so schölen sine fründe sin houetloth tho vorwaringe holden.
+      Were dat ock sake datse den fründen de <app><lem>hoen</lem><rdg><q>hohnen</q>, Dreyer l.l.; <q>hohn</q>, Camerer l.l</rdg></app> weren binnen iar vnd dach <app><lem>nenen</lem><rdg>mangler hos Camerer l.l</rdg></app> lyke deden, so scholde dat houetlott folgen dem rechten <app><lem>eruen</lem><rdg>hos Dreyer l.l. følger herefter <q>des erschlagenen</q></rdg></app>.</p>
+            <p n="a#10" xml:space="preserve">§. 6. <app><lem>Item</lem><rdg>hos Dreyer l.l. har denne paragraf overskriften <q>Van husz-, dick- und
+            pl{oe}gfrede</q></rdg></app> so syn wy eins <app><lem>geworden</lem><rdg>mangler hos Dreyer l.l</rdg></app>, dat wy <app><lem>husfrede vnd plochfrede</lem><rdg><q>huszfrede, dickfrede vnnde plogfrede</q>, Dreyer l.l.; <q>hueszfrede dickfrede und
+            plachfrede</q>, Camerer l.l</rdg></app> willen holden alse vnse oldern <app><lem>vor</lem><rdg><q>vor vnnsz</q>, Dreyer l.l</rdg></app> gedan hebben, by liue vnd by gude. Were <app><lem>id</lem><rdg><q>dat</q>, Dreyer l.l.; <q>idt</q>, Camerer l.l</rdg></app> sake <app><lem>dat</lem><rdg>mangler hos Dreyer l.l</rdg></app> wol disse vor benömeden freden brecke, edder <app><lem>auer wunnen</lem><rdg><q>auerfunden</q>, Dreyer l.l</rdg></app> worde in iennigerley vndath mit rechte in dem herde dar he dat dede vnde dar breue vnd
+      bewis auer queme, <app><lem>wol</lem><rdg><q>vnnde einer</q>, Dreyer l.l</rdg></app> ene dar na husede edder helede, de <app><lem>scholde</lem><rdg><q>sch{oe}len</q>, Dreyer l.l</rdg></app> also schuldig <app><lem>wesen</lem><rdg><q>sin edder weszen</q>, Dreyer l.l</rdg></app> als de handdedige <app><lem>were</lem><rdg>mangler hos Dreyer l.l</rdg></app>, sind wy eins <app><lem>geworden</lem><rdg><q>sind - geworden</q>, mangler hos Dreyer l.l</rdg></app>.</p>
+            <p n="a#11" xml:space="preserve">§. 7. <app><lem>Welker</lem><rdg>hos Dreyer l.l. har denne paragraf overskriften <q>Van unehrlicken schlaende</q></rdg></app> man den anderen slöge vnerlicken effte <app><lem>vp vorsonede böte</lem><rdg><q>up v{oe}lle bothe</q>, Dreyer l.l.; <q>up vors{oe}hnede rechte</q>, Camerer
+          l.l</rdg></app>, <app><lem>de man</lem><rdg><q>de mann</q>, Dreyer l.l</rdg></app> schal erlos wesen vnd <app><lem>schal</lem><rdg>mangler hos Dreyer l.l</rdg></app> in den söuen herden nenen frede hebben, vnd de fründe schölen den man betalen vor <app><lem>XXIV</lem><rdg><q>xxvij</q>, Dreyer l.l</rdg></app> pund engelsch.</p>
+            <p n="a#12" xml:space="preserve">§. 8. Welk man den anderen sleit edder wundet mit vorlechten wappen, alse mit armborste, mit <app><lem>rütschern</lem><rdg><q>rinszcherren</q>, Dreyer l.l.; <q>iensern</q>, Camerer l.l</rdg></app>, mit tweschniders effte mit vnwontliken wappen, de schall <app><lem>dat</lem><rdg>mangler hos Dreyer l.l</rdg></app> twefoldig betern dem de hone is vnd <app><lem>ock</lem><rdg>mangler hos Camerer l.l</rdg></app> der herschop.</p>
+            <p n="a#13" xml:space="preserve">§. 9. Item syn wy eins <app><lem>geworden</lem><rdg><q>Item - geworden</q>, Dreyer l.l. læser <q>Item so finde [wy]</q></rdg></app>, dat tuischen vnsen landen nen <app><lem>wrack</lem><rdg><q>wark</q>, Camerer l.l</rdg></app> wesen schal, alse schepe vnd ander <app><lem>gut</lem><rdg><q>von dem gudt</q>, Camerer l.l</rdg></app> vth dem einen herde in dat ander, <app><lem>men</lem><rdg><q>sondern</q>, Dreyer l.l</rdg></app>
+      <app><lem>me</lem><rdg>mangler hos Camerer l.l</rdg></app> schal dat wedder geuen sunder iennigerley hindernisse edder schaden.</p>
+            <p n="a#14" xml:space="preserve">§. 10. <app><lem>De</lem><rdg>hos Dreyer l.l. har denne paragraf overskriften <q>Van landtk{oe}penn</q></rdg></app>dar will landt <app><lem>kopen</lem><rdg><q>De - kopen</q>, herfor læser Dreyer l.l. <q>Item, so finde wy, dat de, de landt
+            willen kopen</q></rdg></app> de schal lude <app><lem>ropen</lem><rdg><q>de - ropen</q>, herfor læser Dreyer l.l. <q>sch{oe}len dar lude by ropen</q></rdg></app>, de dar will land sellen de schal lude bellen, <app><lem>landprank</lem><rdg><q>Item landtpranck</q>, Dreyer l.l</rdg></app> hefft einen fortgank, landkop hefft einen rüggelop. Sunder dat ein man bütede edder
+      koffte <app><lem>an</lem><rdg><q>in</q>, Dreyer l.l</rdg></app> des anderen bole bauen sin weten <app><lem>effte</lem><rdg><q>vnde</q>, Dreyer l.l</rdg></app> willen, de büterie mach thorügge nemen de iennige deme dat boel <app><lem>tho höret</lem><rdg><q>h{oe}ret</q>, Dreyer l.l</rdg></app> vnd dar vp wanet, so ferne he em land wedder don will dat so gut is alse dat land dat
+      eme thoweddern aff gebütet was, vnd ligge och <app><lem>an so guder lage</lem><rdg><q>in so dahnen l{ae}ge</q>, Dreyer l.l<q/></rdg></app>
+      <app><lem>dat</lem><rdg><q>also dat</q>, Dreyer l.l</rdg></app> id frame lüde können kennen dat de ienne vull <app><lem>heft</lem><rdg><q>hadde</q>, Dreyer l.l</rdg></app> de dat erste land tho sik gebütet <app><lem>hadde</lem><rdg><q>heft</q>, Camerer l.l</rdg></app>.</p>
+            <p n="a#15" xml:space="preserve">§. 11. <app><lem>Efft</lem><rdg><q>Item, effte</q>, Dreyer l.l</rdg></app> ein man land koffte an des anderen bole, vnd deme dat <app><lem>bol</lem><rdg><q>landt</q>, Dreyer l.l.; <q>bohl</q>, Camerer l.l</rdg></app> tho hörede dem were dat nicht tho willen, so mach he den kop <app><lem>thorügge</lem><rdg>Dreyer l.l. læser fejlagtigt <q>de rugge</q></rdg></app> nemen na deme dat he <app><lem>bauen</lem><rdg><q>ahne</q>, Dreyer l.l</rdg></app> sin weten sinen willen <app><lem>vnd</lem><rdg><q>sin</q>, Dreyer l.l</rdg></app>
+      <app><lem>orloff</lem><rdg>umiddelbart herefter følger hos Dreyer l.l. <q>ahne sinen befehl</q></rdg></app>
+      <app><lem>in sin boel</lem><rdg>mangler hos Dreyer l.l</rdg></app> gekofft hefft, <app><lem>so</lem><rdg><q>vnnde</q>, Dreyer l.l</rdg></app> mach <app><lem>he</lem><rdg>mangler hos Dreyer l.l</rdg></app> em sin rede geld <app><lem>betalen</lem><rdg><q>tho bethalen</q>, Dreyer l.l</rdg></app> mit ossen <app><lem>effte</lem><rdg><q>edder</q>, Dreyer l.l</rdg></app> mit perden <app><lem>effte</lem><rdg><q>edder</q>, Dreyer l.l</rdg></app> mit so daner ware dar iennige werth inne <app><lem>is</lem><rdg><q>dar - is</q>, herfor læser Dreyer l.l. fejlagtigt <q>edder jenig math inne isz</q>.
+          Passussen afsluttes endvidere hos Dreyer l.l. med <q>vnnde nehmen sin landt</q></rdg></app>.</p>
+            <p n="a#16" xml:space="preserve">§. 12. <app><lem>Wen</lem><rdg>hos Dreyer l.l. har denne paragraf overskriften <q>Van arffdeelinge under allerhand
+            luede</q></rdg></app> id sik <app><lem>begifft</lem><rdg><q>Item wenn dat schuth</q>, Dreyer l.l</rdg></app> dat ein man hefft veer dochtere, min <app><lem>effte</lem><rdg><q>edder</q>, Dreyer l.l</rdg></app> mer, vnd de man nimt ein wyff <app><lem>de de</lem><rdg><q>de</q>, Dreyer l.l</rdg></app> hefft eine dochter, <app><lem>vnd</lem><rdg>mangler hos Dreyer l.l</rdg></app> dar na tellense <app><lem>twe</lem><rdg>mangler hos Dreyer l.l</rdg></app> dochtere, effte nu eine van <app><lem>dissen</lem><rdg><q>den</q>, Dreyer l.l</rdg></app> twen storue, vnd vader vnd moder eher dot weren eher disse dochter <app><lem>storue</lem><rdg><q>vnd vader - storue</q>, mangler hos Dreyer l.l</rdg></app>, vnd disse vorstoruene dochter hadde eine vulle süster leuendich vnde eine halffsüster
+      van der moder wegen vnde veer halffsüstere van des vaders <app><lem>wegen</lem><rdg><q>vnde veer - wegen</q>, mangler hos Dreyer l.l</rdg></app>, so schölense dat gut ersten midden entwey delen; de helffte des gudes <app><lem>de dar</lem><rdg><q>dat den</q>, Dreyer l.l</rdg></app> kumpt vp der moder siden, dar den tho sind der moder erste dochter vnd ere leste <app><lem>dochter</lem><rdg><q>vp der moder siden - leste dochter</q>, hos Camerer l.l. er denne passus ændret til
+            <q>up der moder ersten dochtern veer lezte dochter</q></rdg></app>, <app><lem>wowol</lem><rdg><q>wo woll dat</q>, Dreyer l.l</rdg></app> disse beiden dochtere halfe süstere vnder sick syn, <app><lem>wente</lem><rdg><q>alsz</q>, Dreyer l.l</rdg></app> de erste is der vorstoruen halffsüster <app><lem>de</lem><rdg><q>vnnde de</q>, Dreyer l.l</rdg></app> ander is der vorstoruen vullsüster, <app><lem>doch</lem><rdg><q>doch so</q>, Dreyer l.l</rdg></app> schölense dat gut midden entwei delen, vnd des schaltu di nicht vorwundern wente na
+      vnsem <app><lem>lantrechte</lem><rdg><q>rechten landtrechte</q>, Dreyer l.l</rdg></app> is dat <app><lem>recht</lem><rdg><q>ein recht</q>, Dreyer l.l</rdg></app>; vnd de ander helffte des gudes de <app><lem>dar</lem><rdg><q>darna</q>, Dreyer l.l</rdg></app> kumbt vp des vaders siden, dar den tho sind düsses eine vulle süster vnd <app><lem>veer</lem><rdg><q>ein</q>, Dreyer l.l</rdg></app> halffsüstere, so schölen de veer dochtere mit erer halffsüster <app><lem>delen</lem><rdg>mangler hos Dreyer l.l</rdg></app> derer vullsüster vorstoruen is, vnd de veer dochtere sin <app><lem>dar men</lem><rdg><q>darinnen</q>, Dreyer l.l.; <q>dar mer</q>, Camerer l.l</rdg></app> halffsüstere tho <app><lem>doch so</lem><rdg><q>doch</q>, Dreyer l.l</rdg></app> schal dar ein <app><lem>iewelick</lem><rdg><q>ietlick</q>, Dreyer l.l</rdg></app> van den veer dochteren so vele van dem gude hebben alse der vorstoruen vullsüster. <app><lem>Effte dar</lem><rdg><q>Offte</q>, Dreyer l.l</rdg></app> nu eine van den veer dochteren doth were vnd hedde ein kind, so nimpt dat kind so vel
+      alse sin moder scholde gedan hebben. Auerst were dat kind doth <app><lem>vnd</lem><rdg><q>dat</q>, Dreyer l.l</rdg></app> dar weren kindeskind, <app><lem>dat</lem><rdg><q>dat eine</q>, Dreyer l.l.; <q>de kriegen</q>, Camerer l.l</rdg></app> kricht nichtes van dem erue, ane dat de kinder van der vullesüster vnd van den veer
+      dochteren al tho male so ferne <app><lem>vth gekamen</lem><rdg><q>uthgekahrenn</q>, Dreyer l.l</rdg></app> weren so beholdense dat erue <app><lem>like woll</lem><rdg><q>allick wohl</q>, Dreyer l.l</rdg></app> tho hope. <app><lem>Effte</lem><rdg>hos Dreyer l.l. begynder artikel 13 her</rdg></app> nu de eine leste dochter ock storue de der vorstoruene vulle süster was, de nu hefft
+      van der moder wegen eine halffsüster vnd van des vaders wegen veer halffsüstere, so schölense
+      dat gut midden entwei delen also dat der moder dochter so vele kricht van dem gude alse des
+      vaders veer dochtere, vnd dat gut aruet kind na kinde so ferne alse <app><lem>men</lem><rdg>hos Dreyer l.l. står umiddelbart herefter <q>dat</q></rdg></app> iümmer vth reken kan, wente de eine halffsüster <app><lem>iegen</lem><rdg><q>wedder</q>, Dreyer l.l</rdg></app>
+      <app><lem>de anderen</lem><rdg><q>de 4.</q>, Dreyer l.l</rdg></app> halffsüstere mach nehmen all wer ock mer efte min alse de <app><lem>veer</lem><rdg><q>all - veer</q>, Dreyer l.l. læser herfor <q>alsz w{ae}hre dat ock minn oder mehr,
+            alsz de 4.</q></rdg></app>, vnd storue de eine halffsüster de dat gut gelik den veer <app><lem>süstern</lem><rdg>mangler hos Dreyer l.l</rdg></app> nam vnd leth ein kind na <app><lem>effte</lem><rdg><q>edder</q>, Dreyer l.l</rdg></app> kindeskind, so kan <app><lem>dar</lem><rdg><q>der</q>, Dreyer l.l</rdg></app> nen fründ inne kamen, noch können dar nicht by kamen de veer halffsüstere; so sin wy
+      eins <app><lem>geworden</lem><rdg><q>so - geworden</q>, mangler hos Dreyer l.l</rdg></app>.</p>
+            <p n="a#17" xml:space="preserve">§. 13. <app><lem>Item</lem><rdg>hos Dreyer l.l. er dette artikel 14</rdg></app> Item wen <app><lem>id geschut</lem><rdg><q>dat schuth</q>, Dreyer l.l.; <q>idt gesch{oe}cht</q>, Camerer l.l</rdg></app> dat eine fruwe nimpt einen man de dar hefft einen son effte eine dochter, vnd düsse
+      fruw tellet ein kind mit düssem manne, vnd <app><lem>de man vorsteruet</lem><rdg><q>de mann steruet wegh</q>, Dreyer l.l.; <q>de mann de vorstervet</q>, Camerer
+          l.l</rdg></app>
+      <app><lem>vnd</lem><rdg><q>vnnde denn</q>, Dreyer l.l</rdg></app> erer beide leste <app><lem>kind</lem><rdg><q>kindere</q>, Dreyer l.l</rdg></app> steruet <app><lem>ock</lem><rdg>mangler hos Dreyer l.l</rdg></app>, so schal des vaders erste kind so vele hebben van dem gude alse de moder des
+      verstoruen kindes, also dat er steffkind kricht so vele van dem gude alse de moder des
+      vorstoruen kindes, vnd were <app><lem>id</lem><rdg><q>dat</q>, Dreyer l.l.; <q>idt</q>, Camerer l.l</rdg></app> sake dat dat steffkind storue vnde leth kinder na edder kindeskind edder vorder, so
+      schölen <app><lem>de</lem><rdg><q>der</q>, Dreyer l.l</rdg></app> kinder al like woll <app><lem>de vor benomeden erue</lem><rdg><q>dat vorben{oe}mmetde arue</q>, Dreyer l.l.; <q>de vorben{oe}hmeden erve</q>, Camerer
+          l.l</rdg></app> hebben.</p>
+            <p n="a#18" xml:space="preserve">§. 14. <app><lem>Item</lem><rdg>hos Dreyer l.l. er dette artikel 15</rdg></app> wen <app><lem>id geschut</lem><rdg><q>dat schuth</q>, Dreyer l.l.; <q>es geschicht</q>, Camerer l.l</rdg></app> dat <app><lem>man</lem><rdg><q>ein mann</q>, Dreyer l.l</rdg></app> vnd fruwe kinder tho hope hebben, <app><lem>wo vele id den sin</lem><rdg><q>wo veel dat se hebben</q>, Dreyer l.l.; <q>wo vehle idt denn sien werden</q>,
+          Camerer l.l</rdg></app>, vnd <app><lem>düsse kinder</lem><rdg><q>dusze kinder de</q>, Dreyer l.l</rdg></app> steruen <app><lem>hen</lem><rdg><q>henweg</q>, Dreyer l.l</rdg></app> vp ein na, dat sy den knecht edder maget, dar na steruet vader effte moder, so nimpt
+      dat kind so vele alse <app><lem>de</lem><rdg>mangler hos Camerer l.l</rdg></app> vader effte moder <app><lem>de</lem><rdg><q>scholde welck</q>, Camerer l.l</rdg></app> dar leuet; so sin wy <app><lem>eins</lem><rdg><q>so - eins</q>, mangler hos Dreyer l.l</rdg></app>.</p>
+            <p n="a#19" xml:space="preserve">§. 15. <app><lem>Item</lem><rdg>hos Dreyer l.l. er dette artikel 16</rdg></app> de eine halffbroder aruet den anderen vor vaderbroder, vor vadersüster, moderbroder,
+      modersüster, vnd ock vor grotevader <app><lem>edder</lem><rdg><q>vnnde</q>, Dreyer l.l</rdg></app>
+      <app><lem>grotemoder</lem><rdg><q>vor groethmoder</q>, Dreyer l.l</rdg></app>
+      <app><lem>eruet</lem><rdg>hos Dreyer l.l. er <q>eruet</q> forvansket til <q>auerst</q></rdg></app> halffbroder vnd halffbroders kind edder kind na kinde wo ferne datse sin, wente dar kan
+      anders nemand in kamen.</p>
+            <p n="a#20" xml:space="preserve">§. 16. <app><lem>Item</lem><rdg>hos Dreyer l.l. er dette artikel 17</rdg></app> so ein man were, de de <app><lem>hedde</lem><rdg><q>Item - hedde</q>, herfor læser Dreyer l.l. <q>Item, dat dar ein mann w{ae}hre vnnd
+            hadde</q>; Camerer l.l. læser derimod <q>Jtem, so ein mann wehre, de dar hedde</q></rdg></app>
+      <app><lem>eine</lem><rdg>mangler hos Dreyer l.l</rdg></app> halffsüster van des vaders wegen vnd ock eine van der moder wegen, so vorstorue <app><lem>denne</lem><rdg>mangler hos Dreyer l.l</rdg></app> de vor geschreuen man, vnd de eine halffsüster van des vaders wegen <app><lem>effte</lem><rdg><q>edder</q>, Dreyer l.l</rdg></app> moder wegen storue ock vnd lethe kindeskinde na, so schal dat kindeskind so vele eruen
+      na dem <app><lem>vorstoruen</lem><rdg><q>vorgeschreuenen</q>, Dreyer l.l.; <q>vorst{oe}rven</q>, Camerer l.l</rdg></app> manne alse des <app><lem>vorstoruen</lem><rdg><q>vorgeschreuenen</q>, Dreyer l.l.; <q>verst{oe}rven</q>, Camerer l.l</rdg></app> mans halffsüster doen mach. <app><lem>All were id</lem><rdg><q>w{ae}re idt ock</q>, Dreyer l.l</rdg></app> kindeskind noch vorder vth gekamen, effte nu dat kindeskind eine <app><lem>grotevadersüster</lem><rdg><q>groethmodder suster</q>, Dreyer l.l.; <q>grotvader s{ue}ster</q>, Camerer l.l</rdg></app> hedde de so na tho dem erue were alse sin grotemoder was, so schal dat kindeskind
+      nichtes van dem erue hebben.</p>
+            <p n="a#21" xml:space="preserve">§. 17. <app><lem>Effte</lem><rdg>hos Dreyer l.l. er dette artikel 18</rdg></app> dar eine fruwe were <app><lem>de er</lem><rdg><q>derer</q>, Dreyer l.l</rdg></app> man doth were, <app><lem>vndse</lem><rdg><q>se</q> mangler hos Camerer l.l</rdg></app> hedde <app><lem>men</lem><rdg>mangler hos Dreyer l.l. og Camerer l.l</rdg></app> eine dochter <app><lem>do</lem><rdg><q>der</q>, Dreyer l.l.; hos Camerer l.l. er dette forvansket til <q>dach</q></rdg></app> er man starff, so delense dat gut midden entwey.</p>
+            <p n="a#22" xml:space="preserve">§. 18. <app><lem>Effte</lem><rdg>hos Dreyer l.l. er dette artikel 19</rdg></app> dar eine fruwe were <app><lem>de er</lem><rdg><q>derer</q>, Dreyer l.l</rdg></app> man doth were vnd <app><lem>hedde</lem><rdg><q>se hadde</q> Dreyer l.l</rdg></app> twee dochtere leuendig, vnd de eine dochter steruet dar na, so schal de moder ein del
+      van dem <app><lem>gude</lem><rdg>hos Dreyer l.l. står umiddelbart herefter <q>hebben</q></rdg></app> der vorstoruen dochter vnd de eine dochter ein del <app><lem>nemen</lem><rdg>mangler hos både Dreyer l.l. og Camerer l.l</rdg></app>; offt dar ock ein son were, de schal gelick nemen der moder wen dar nen dochter is, vnd
+      dat is alle man wol <app><lem>witlick</lem><rdg>Camerer l.l. læser fejlagtigt <q>wildlick</q></rdg></app>.</p>
+            <p n="a#23" xml:space="preserve">§. 19. <app><lem>Item</lem><rdg>hos Dreyer l.l. er dette artikel 20</rdg></app> wen dat <app><lem>geschut</lem><rdg><q>schuth</q>, Dreyer l.l.; <q>gesch{ue}ht</q>, Camerer l.l</rdg></app> dat ein paar volckes <app><lem>hebben</lem><rdg><q>hefft</q>, Dreyer l.l.; <q>hebben</q>, Camerer l.l</rdg></app>
+      <app><lem>weinig</lem><rdg><q>lutick</q>, Dreyer l.l.; <q>wenig</q>, Camerer l.l</rdg></app> effte vele kinder tho hope, vnd de kinder <app><lem>al tho male steruen</lem><rdg>herfor læser Dreyer l.l. <q>sturuen darna al tho hope</q>; Camerer l.l. læser
+            <q>altomahle sterven</q></rdg></app> vnd düsse man <app><lem>vnd</lem><rdg><q>offte</q>, Dreyer l.l.; <q>und</q>, Camerer l.l</rdg></app> fruwe bauen de telinge gekamen <app><lem>sin</lem><rdg>hos Dreyer l.l. følger herefter <q>in beyden parthen</q></rdg></app>, vnd welker erer ein gut in eruet so schölen des sine fründe dat gut tho vorne aff
+      nemen wen de tidt kumbt dat <app><lem>einer</lem><rdg><q>ehrer ein</q>, Dreyer l.l</rdg></app> steruet, vnd den tho dele <app><lem>gan</lem><rdg><q>vnd - gan</q>, herfor læser Dreyer l.l. <q>so sch{oe}len se denn tho dehle
+          gahnn</q></rdg></app>.</p>
+            <p n="a#24" xml:space="preserve">§. 20. <app><lem>Wen</lem><rdg>hos Dreyer l.l. er dette artikel 21</rdg></app>
+      <app><lem>man</lem><rdg><q>ein mann</q>, Dreyer l.l</rdg></app> vnde fruw hebben kinder tho hope vnd de fruwe <app><lem>vorsteruet</lem><rdg><q>steruet</q>, Dreyer l.l.; hos Camerer l.l. er hele denne passus forvansket til
+            <q>wenn ein mann und fruw verst{oe}rvet</q></rdg></app>, wen de man tho dele geit mit den kindern so mach he tho vorne aff nemen einen haluen
+      süsterhop, des enmag de fruwe nicht <app><lem>doen</lem><rdg><q>des - doen</q>, herfor læser Dreyer l.l. <q>welckes ehme de modder nicht mag
+            nehmen</q>; Camerer l.l. læser derimod <q>des mag de fruw nicht dohn</q></rdg></app>
+      <app><lem>sunderse</lem><rdg><q>menn se</q>, Dreyer l.l.; <q>s{ue}nder se</q>, Camerer l.l</rdg></app> mach nemen ein bedde wol tho gerüstet, effte ein spandel, effte ein paar ossen, effte
+      das beste perdt, edder <app><lem>was</lem><rdg><q>wat</q>, Camerer l.l</rdg></app> er best <app><lem>beleuet</lem><rdg><q>ein bedde - belevet</q>, herfor læser Dreyer l.l. <q>ein bedde, peerdt edder wat er
+            beste behaget</q></rdg></app>, <app><lem>dit süluige</lem><rdg><q>dit</q>, Dreyer l.l</rdg></app> mach weigern ein kind dat nicht lik den anderen kindern hefft vnd is vth gegeuen.</p>
+            <p n="a#25" xml:space="preserve">§. 21. <app><lem>Item</lem><rdg>hos Dreyer l.l. er dette artikel 22</rdg></app> ick mach hebben einen vaderbroder, eine vadersüster, <app><lem>einen</lem><rdg><q>einem</q>, Dreyer l.l</rdg></app>
+      <app><lem>moderbroder</lem><rdg><q>moder broder s{oe}hn</q>, Camerer l.l</rdg></app>, eine <app><lem>modersüster</lem><rdg><q>s{ue}ster s{oe}hn</q>, Camerer l.l</rdg></app>, düsse hebben nene kinder dese eruen mögen vnd ick <app><lem>hebbe</lem><rdg>mangler hos Dreyer l.l</rdg></app> einen broderson, nu frage ick effte min broderson <app><lem>vnde</lem><rdg><q>edder</q>, Dreyer l.l</rdg></app> min süsterson ock mede eruen <app><lem>mach</lem><rdg>hos Dreyer l.l. følger herefter <q>na duszen vorbenohmeden</q></rdg></app>? <app><lem>Neen</lem><rdg><q>d{ue}sze - Neen</q>, antageligt på grund af linjeskift i trykket er denne passus hos
+          Camerer l.l. forkortet og forvansket til <q>ock mede erven mag nehm</q></rdg></app>, <app><lem>dat</lem><rdg>hos Dreyer begynder her artikel 23</rdg></app> is mines <app><lem>vaders</lem><rdg><q>vadern</q>, Dreyer l.l</rdg></app> broder, <app><lem>vm des willen</lem><rdg><q>darumme</q>, Dreyer l.l</rdg></app> mach ick dat erue nemen vor minen brodersone <app><lem>effte</lem><rdg><q>eder</q>, Dreyer l.l</rdg></app> süstersone, <app><lem>wente dat is</lem><rdg><q>vnnd is</q>, Dreyer l.l</rdg></app> sin grotevaderbroder edder süster vnd is min egen moderbroder edder süster, dat is <app><lem>denne</lem><rdg><q>deme</q>, Dreyer l.l</rdg></app> al like vele dat sy den vaderbroder effte vadersüster, moderbroder effte modersüster. <app><lem>Men</lem><rdg>hos Dreyer l.l. begynder her artikel 24</rdg></app> de süsterson mach nicht mit dem ome tho dele gan na <app><lem>der moder</lem><rdg><q>des ohmes</q>, Dreyer l.l. samt Camerer l.l</rdg></app> modersüster.</p>
+            <p n="a#26" xml:space="preserve">§. 22. Item ein man de dar hefft noch kind <app><lem>edder</lem><rdg><q>noch</q>, Dreyer l.l</rdg></app> kindeskinder de en eruen mögen, <app><lem>ane</lem><rdg><q>men</q>, Dreyer l.l</rdg></app>
+      <app><lem>he</lem><rdg><q>se</q>, Dreyer l.l</rdg></app> hefft des <app><lem>vaders</lem><rdg><q>vadern</q>, Dreyer l.l</rdg></app> halffsüster vnd hefft des <app><lem>vaders</lem><rdg><q>vadern</q>, Dreyer l.l</rdg></app> vulle broderson, des vaders halffsüster <app><lem>dat</lem><rdg>mangler hos Dreyer l.l</rdg></app> were nu sin <app><lem>halfffeddere</lem><rdg><q>vedder</q>, Dreyer l.l</rdg></app>, des vaders vulle broderson <app><lem>were</lem><rdg><q>dat w{ae}re</q>, Dreyer l.l</rdg></app> nu sin vulle feddernson, vnd de man <app><lem>steruet</lem><rdg><q>vorstorue</q>, Dreyer l.l</rdg></app>, so mach de halfffedder dat gut nemen vnd de vulle feddernson <app><lem>al des</lem><rdg><q>gahr</q>, Dreyer l.l.; <q>alle</q>, Camerer l.l</rdg></app> nichtes.</p>
+            <p n="a#27" xml:space="preserve">§. 23. <app><lem>Item</lem><rdg>hos Dreyer l.l. har denne artikel overskriften <q>Conclusio</q></rdg></app> min <app><lem>oldevader</lem><rdg><q>grothe vadder</q>, Dreyer l.l</rdg></app> hefft min süster tho der ehe, <app><lem>min</lem><rdg><q>vnnde min</q>, Dreyer l.l</rdg></app>
+      <app><lem>oldemoder</lem><rdg><q>grothmodder</q>, Dreyer l.l</rdg></app> hefft minen broder thor ehe; dat schaltu <app><lem>aldus</lem><rdg><q>so</q>, Dreyer l.l</rdg></app> vorstan: <app><lem>dar</lem><rdg><q>item, dar</q>, Dreyer l.l</rdg></app> was eine fruwe de hadde eine dochter, dar was ein man de hadde einen sone, de man <app><lem>de</lem><rdg>mangler hos Dreyer l.l</rdg></app> nam der fruwen dochter, <app><lem>de</lem><rdg><q>vnnde de</q>, Dreyer l.l</rdg></app> fruwe <app><lem>de</lem><rdg>mangler hos Dreyer l.l</rdg></app> nam des mannes sone, de kinder de hier van quemen, sprecken <app><lem>desse vor geschreuen wort</lem><rdg><q>d{ue}ssee worde</q>, Dreyer l.l.; <q>disse vorgeschrevene wort</q>, Camerer
+          l.l</rdg></app>. <app><lem>Nu</lem><rdg><q>item, nu</q>, Dreyer l.l</rdg></app> schaltu <app><lem>weten</lem><rdg><q>westen</q>, Dreyer l.l</rdg></app> wose dat erue delen schölen, min steffvader eruet mines mannes güder, min steffmoder
+      eruet <app><lem>miner werdinne</lem><rdg><q>miner werdinnen</q>, Dreyer l.l.; <q>miener wendinne</q>, Camerer l.l</rdg></app> güder.</p>
+            <p n="a#28" xml:space="preserve">Ende düsser söuen herde <app><lem>beleuinge</lem><rdg><q>Ende - beleuinge</q>, mangler hos Dreyer l.l. og Camerer l.l.; hos Dreyer l.l.
+          henvises derimod afslutningsvist til Jyske Lov på følgende måde <q>V{oe}rder lese im
+            lagebock</q></rdg></app>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

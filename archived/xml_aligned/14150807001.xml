@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">97</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14150807001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2565-c; tidl. sign. Lunde H. 1</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 14.5 × 8 (plica: 1.5). <ab>Hullet og medtaget af fugt</ab>
+                        <ab>På bagsiden en nu uforståelig påskrift</ab>1. . 2. . 3. . 4. . </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Langebeks Diplomatarium</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Ved afskriften noteret <q>sigilla avulsa</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5534</bibl>
+               <bibl>Secher, Meddelelser om Slægten Secher (Siker) 86-87 (dansk oversættelse)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-08-07"
+                  notBefore="1415-08-07"
+                  notAfter="1415-08-07"
+                  cert="high">1415. 7. august</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Klaus (Fikkesen) Siker overdrager alt sit gods i Lunde sogn (Lunde herred) til Eggert
+      Kristiernsen (Frille), Henneke Kristiernsen (Frille) kaldet Fod og Taleke Kristiernsdatter
+      (Frille). </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-04" who="#pbh">Filen etableret af #pbh 2014-03-04. </change>
+         <change when="2021-06-16" who="#alk">1. korrektur af #alk 2021-06-16. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus <persName>Claues Syker</persName> armiger salutem in
+      domino ♦</p>
+            <p n="a#2" xml:space="preserve">Noverint universi presentes et futuri me exibitoribus presencium <persName>Egardo
+        Cristerni</persName>
+      <persName>Henikino Cristerni dicto Fode</persName> necnon <persName>Taleke filie
+        Cristerni</persName> omnia bona mea et omne jus meum quod habeo in bonis in
+        <placeName>parochia Lunde</placeName> sita in quibus <persName>Johannes
+        Saxes<ex>øn</ex></persName> condam residebat cum singulis pertinenciis agris pratis
+      piscaturis siccis et humidis nil exeptis resignasse et scotasse per presentes jure perpetuo
+      possidenda arte doli et mali exclusa penitus in premissis ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium sigillum meum cum sigillis aliorum virorum discretorum videlicet
+        <persName>Cristerni Fr<damage>ella</damage>vi</persName>
+      <persName>Godekini Bage</persName> et <persName>Josep</persName> presentibus est apenssum
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> c<hi rend="sup">o</hi>c<hi rend="sup">o</hi>c<hi rend="sup">o</hi>c<hi rend="sup">o</hi> xv proxima quarta feria ante festum beati <app><lem>Laurencii</lem><rdg resp="#alk"><q>Lar[.....]i</q>, A</rdg></app> martiris ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

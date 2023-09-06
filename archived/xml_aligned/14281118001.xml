@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">21</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14281118001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Afskrift af registratur over Haderslev kapitels ejendomsbreve i C.E.
+      Voss’ Excerpter, København, RA, Håndskriftsamlingen</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Aarsberetn. fra Geheimearch. II, Tillæg, p. 71 (tryk efter C.E. Voss’
+      Excerpter)</bibl>
+               <bibl>Reg. Dan. nr. *4845</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aarsberetn. fra Geheimearch. l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-11-18"
+                  notBefore="1428-11-18"
+                  notAfter="1428-11-18"
+                  cert="high">1428. 18. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ejler (Nicolausen) Rønnow (til Ejsbøl) og Gert (Hartvigsen) Bryske stadfæster et skøde, i
+      kraft af hvilket fru Helene (Nicolausdatter (Rønnow)) havde skænket en ejendom
+      i Seest til Anders Jyde. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-29" who="#pbh">Filen etableret af #pbh 2014-07-29. </change>
+         <change when="2019-07-02" who="#smb">1. korrektur af #smb 2019-07-02. </change>
+         <change when="2019-11-11" who="#smb">2. korrektur af #smb 2019-11-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Confirmation <persName>Eler Rennow</persName> vnd <persName><app><lem>Gerith</lem><rdg><q>Genick</q>, Aarsberetn. l.l</rdg></app> Bryske</persName> vp de schote vnd donation, so ehre suster fruw
+        <persName>Lehne</persName>
+      <persName>Anders Juten</persName> gegeuen vp ein gutt tho <placeName>Seest</placeName>
+      belegen.</p>
+            <p n="a#2" xml:space="preserve">Datum octavo die Martini.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

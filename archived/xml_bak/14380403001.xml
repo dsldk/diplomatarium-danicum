@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">231</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14380403001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3281-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.2 (plica: 1)</height>
+                                    <width>20.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift på brevets bagside: <q>Øst<ex>er</ex>gardh in parrochia Stathel
+        ♦ Irne Ingertz panthebreff paa Øst<ex>er</ex>gard[h] i
+      Obstropby</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Bomærke af ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Bomærke af ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Bomærke af ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Bomærke af ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Bomærke af ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Bomærke af ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Bomærke af ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="9" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6937</bibl>
+               <bibl>Harsyssels Dipl. 29 nr. 27</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-04-03"
+                  notBefore="1438-04-03"
+                  notAfter="1438-04-03"
+                  cert="high">1438. 3. april</date>
+            <placeName cert="high">Hing herredsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne af Hing herredsting om, at fru Inger Jensdatter i Stubber Kloster før sin død
+      havde pantsat Østergård i Opstrup i Stadil sogn til Gregers Klausen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-05" who="#pbh">Filen etableret af #pbh 2013-12-05. </change>
+         <change when="2020-10-13" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-10-13. </change>
+         <change when="2021-05-19" who="#smb">2. korrektur af #smb 2021-05-19. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæ<ex>n</ex> th<ex>et</ex>tæ breff ser ællær hørær læsæs ku<ex>n</ex>gør vi
+        <persName>Jes Pals<ex>on</ex></persName> ffogh<ex>et</ex> pa Hinghær<ex>ædz</ex> thing /
+        <persName>Creste<ex>n</ex> Pals<ex>on</ex></persName>
+      <persName>Matt<ex>is</ex><app><lem> Passon</lem><rdg wit="#A">sandsynligvis fejl for <q>Palson</q>, evt. <q>Palsson</q></rdg></app></persName>
+      <persName>Aghæ Pæthærs<ex>on</ex></persName> aff <placeName>Lystbæk</placeName> /
+        <persName>Jøs Hardbo</persName> / <persName>Græghærs Hardbo</persName>
+      <persName>Jøs Pæth<ex>ær</ex>s<ex>on</ex></persName> aff <placeName>Stadhæl</placeName>
+      <persName>Mattis Owæs<ex>on</ex></persName> ok <persName>C<ex>ri</ex>stiærn
+        Iæ<ex>n</ex>s<ex>on</ex></persName> aff <placeName>Ringkoping</placeName> m<ex>eth</ex>
+      th<ex>et</ex>tæ vort opæn breff ath thæ<ex>n</ex>næ brefførær <persName>Las
+        Graærss<ex>on</ex></persName> var pa Hinghærædz thing ffor os ok ffor fflere godhæ
+      mæ<ex>n</ex> som tho var pa thinge / aar æftær vars hærræ ar m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xxxviii<hi rend="sup">o</hi> thæn thors dagh næst ffor palmæ ssyndagh ok
+      ffek en fwl things vitne m<ex>eth</ex> ottæ da<ex>n</ex>dæ mæ<ex>n</ex> som hedæ
+        <persName>C<ex>ri</ex>sten Pals<ex>on</ex></persName>
+      <persName>Jøs Niæls<ex>on</ex> Smidh</persName>
+      <persName>Joon Pæthers<ex>on</ex></persName> /
+      <persName>To<ex>m</ex>mæs Pæth<ex>ær</ex>s<ex>on</ex></persName>
+      <persName>Graærs Hardbo</persName>
+      <persName>Aghæ Pæth<ex>ær</ex>s<ex>on</ex></persName> / <persName>And<ex>er</ex>s
+        Matt<ex>is</ex>s<ex>on</ex></persName> ok <persName>Iæp Iæ<ex>n</ex>s<ex>on</ex></persName>
+      aff <placeName>Opæstorp</placeName> hwilkæ ffor<ex>nefnde</ex> ottæ mæ<ex>n</ex> vnnæ pa
+      therræ tro ok sa<ex>n</ex>næ ath th<ex>et</ex> var them ful vithærlikt ath ffrwgh
+        <persName>Jngærd Jæns dottær</persName> aff <placeName>Stubbær</placeName> clostær huæs siæl
+      gudh hawæ var j<ex>n</ex>næn firæ stokkæ pa ffor<ex>nefnde</ex> thing ok pantsattæ
+        <persName>Graærs Clawæs<ex>on</ex></persName> ok hans arwingæ en ødhæ gords æyæ thær man
+      kallær <placeName>Østær gord</placeName> j <placeName>Obstorp</placeName> m<ex>eth</ex> allæ
+      sin tilliggælsæ j <placeName>Stadhæl</placeName> sogn jntæ vndan tak<ex>et</ex> ffor xx lødik
+      mark j godæ pæ<ex>n</ex>ni<ex>n</ex>g ok geuæ ♦</p>
+            <p n="a#2" xml:space="preserve">Hwilkæ pæ<ex>n</ex>ni<ex>n</ex>g thær hwn vithærkæ<ex>n</ex>dæ sik vp ath hawæ borin til al
+      sin nøghæ / aff for<ex>nefnde</ex> Graærs Clawæs<ex>on</ex> / ok huat badæ ællær ffrommæ thær
+      ffor<ex>nefnde</ex> G<ex>ra</ex>ærs Clawæs<ex>on</ex> allær hans arui<ex>n</ex>g
+      ku<ex>n</ex>næ thær aff ffongæ th<ex>et</ex> skal ikke rægnæs i how<ex>eth</ex>
+      pæ<ex>n</ex>nig ♦</p>
+            <p n="a#3" xml:space="preserve">Th<ex>et</ex> so ær gongin ok farin i allæ modæ som for stor sc<ex>re</ex>w<ex>et</ex>
+      th<ex>et</ex> soghæ vi ffor<ex>nefnde</ex> ok hørdæ ok th<ex>et</ex> vitnæ vi m<ex>eth</ex>
+      vor jnsele / ♦</p>
+            <p n="a#4" xml:space="preserve">Giu<ex>et</ex> ar dagh ok stæd som ffor stor screw<ex>et</ex> etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

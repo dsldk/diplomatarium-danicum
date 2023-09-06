@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">253</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14310125001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lund</settlement>
+                        <repository>Landsarkivet i Lund (tidl. i Halmstads kommunarkiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 1. Perg.rem. 2. Perg.rem. 3. Perg.rem. 4. Perg.rem. 5. Perg.rem. 6. Perg.rem. </physDesc>
+                     <history>
+                        <ab>I Halmstads privilegiebok 1664, s. 564 angives, at to af de seks segl er
+      bevarede</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>B. E. Hildebrands avskriftssamling, av Kungl. Vitterhets, Historie och Antikvitetsakademien deponerade handlingar i Riksarkivet</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Antikvarisk-topografiska arkivet</repository>
+                        <collection>Rääfs Diplomatarium II</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Kungliga biblioteket</repository>
+                        <collection>Brocmans topografiska avskrifter, M 10:9</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa3">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Halmstad</settlement>
+                        <repository>Halmstad stads arkiv</repository>
+                        <collection>Halmstads privilegiebok 1664, s. 564-65</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Weibull, Dipl. dioc. Lund. III 95-96 nr. 98</bibl>
+               <bibl>Rep. nr. 6482</bibl>
+               <bibl>SDHK nr. 21543</bibl>
+               <bibl>Reg. 3507</bibl>
+               <bibl>Richardson, Hallandia 176</bibl>
+               <bibl>Weibull, Historisk tidskrift för Skåneland I (1903) 159</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Dipl. dioc. Lund</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-01-25"
+                  notBefore="1431-01-25"
+                  notAfter="1431-01-25"
+                  cert="high">1431. 25. januar</date>
+            <placeName cert="high">Halmstad</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lars Nielsen, præst i Enslöv og oldermand i Kalentegildet i Halmstad, på vegne af
+      kleresiet, og Jens Assersen, landstingssaghører i Sønder Halland og oldermand i det samme
+      gilde, på vegne af menigheden med flere gildebrødre skifter med Peder Lykke (Bille),
+      ærkebiskop i Lund, en gård i Grinnaryd i Abild sogn i Årstads herred mod en gård i Knebilstorp
+      i Söndrums sogn i Halmstads herred. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-26" who="#pbh">Filen etableret af #pbh 2013-09-26. </change>
+         <change when="2020-08-05" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-08-05. </change>
+         <change when="2020-09.17" who="#smb">2. korrektur af #smb 2020-09.17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men thette breff høre eller see helse wi <persName>Laurendz
+      Nielss<ex>øn</ex></persName>, prest i <placeName>Enesløff</placeName>, olderman i
+      kallentegilde vti <placeName>Halmstathe</placeName>, pa clerkeri weynæ oc <persName>Jens
+        Ascerss<ex>øn</ex></persName>, landzthingx saghehørere i
+        <placeName>Sundrahalland</placeName>, olderman i th<ex>et</ex> sa<ex>m</ex>me gilde, paa
+      lekma<ex>n</ex>ne weyna, <persName>Michel Cruse</persName>, soknep<ex>re</ex>st i for<hi rend="sup">de</hi> Halmstathe, <persName>He<ex>n</ex>rik Rekne</persName> oc
+        <persName>Peth<ex>e</ex>r Helyess<ex>øn</ex></persName>, borghemeste<ex>re</ex> i
+      th<ex>e</ex>n sa<ex>m</ex>me stadh, oc alle brøthre, bothe clerke oc lekme<ex>n</ex>, i
+      th<ex>et</ex> sa<ex>m</ex>me gilde jnnerlige m<ex>et</ex> wor herr<ex>e</ex> oc
+      ku<ex>n</ex>gøre th<ex>et</ex>, at wi m<ex>et</ex> alle wor<ex>es</ex> samthøcke oc
+      endrektugheet haue giort et skiffte m<ex>et</ex> heth<ex>e</ex>rligh och werthugh
+      fath<ex>e</ex>r m<ex>et</ex> gudh, h<ex>er</ex>re <persName>Peth<ex>e</ex>r Lucke</persName>,
+      erkebiscop i <placeName>Lund</placeName>, <placeName>Suerig<ex>es</ex></placeName> første oc paue<ex>n</ex>s
+      legatus, vm godz, suosom ær en gardh for<hi rend="sup">de</hi> wort gilde tilhører i
+        <placeName>Grinderyth</placeName> i <placeName>Apulde sokn</placeName> i
+        <placeName>Arestatheh<ex>e</ex>r<ex>et</ex></placeName> liggende, so<ex>m</ex>
+      <persName>Smofoot</persName> i bothe, huilkin gardh m<ex>et</ex> alle sine tilligelse wi
+      m<ex>et</ex> th<ex>et</ex>te wort opne breff skøde hano<ex>m</ex> till hans erkebiscops borth
+      til ewerdeligh eghie fore en gardh i <placeName>Knepilstorp</placeName> i <placeName>Sundrams
+        sokn</placeName> i <placeName>Halmstatheh<ex>e</ex>r<ex>et</ex></placeName>
+      ligge<ex>n</ex>de, huilkin gardh for<hi rend="sup">de</hi> werthugh fath<ex>e</ex>r,
+      erkebiscop Peth<ex>e</ex>r oss til for<hi rend="sup">de</hi> wort kalentegilde m<ex>et</ex>
+      sit oc sit Lunde capitils opne breff ige<ex>n</ex> skøt hauer til ewerdelighe eghie, oc binde
+      wi oss til oc wore efft<ex>er</ex>ko<ex>m</ex>mer<ex>e</ex> i for<hi rend="sup">de</hi> gilde
+      at frij oc hemle, suoso<ex>m</ex> landzlogh vtuis<ex>er</ex>, for<hi rend="sup">ne</hi>
+      erkebiscop Peth<ex>e</ex>r oc hans effterko<ex>m</ex>me<ex>re</ex> for<hi rend="sup">de</hi>
+      gardh i <placeName>Grinderyth</placeName> met alle hans tilliggelse til ewerdelik eghie for
+      hwars mandz tiltall. ♦</p>
+            <p n="a#2" xml:space="preserve">Till hwes thingx widnesbyrdh ær wort kalent<ex>es</ex> jncigle oc wore for<hi rend="sup">de</hi>
+      <persName>Lawrendz Nielss<ex>øns</ex></persName> oc <persName>Jens
+        Ascers<ex>øns</ex></persName> oldermens, <persName>Michel Cruses</persName>
+      soknep<ex>re</ex>st<ex>es</ex>, <persName>He<ex>n</ex>ric Reknes</persName> oc
+        <persName>Peth<ex>e</ex>r Helyess<ex>øns</ex></persName> borghemester<ex>es</ex> jncigle
+      hengde for<ex>e</ex> th<ex>et</ex>te b<ex>re</ex>ff, som giffuit oc sc<ex>r</ex>euit ær aar
+      efft<ex>er</ex> gudhs byrdh mcdxxxprimo sancti Pawils dagh conversionis. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

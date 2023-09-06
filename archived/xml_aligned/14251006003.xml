@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">147</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">177</num>, paragraphs: <num n="paragraphs">5</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14251006003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 256 fol. 242v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Ja. X. de Cerretanis</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 381 nr. 1494</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.; de forkortede formler udfyldt efter <ref target="14030701001">DD 1403. 1. juli, nr. 14030701001</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-10-06"
+                  notBefore="1425-10-06"
+                  notAfter="1425-10-06"
+                  cert="high">1425. 6.
+          oktober</date>
+            <placeName cert="high">Rom, Santi Apostoli</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. tillader grev Gerhard af Slesvig, greve af Holsten, at have rejsealter. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-03" who="#pbh">Filen etableret af #pbh 2014-07-03. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <app>
+                  <lem>
+                     <persName>Martinus</persName> (episcopus servus servorum dei)</lem>
+                  <rdg wit="#Aa">
+                     <q>Martinus etc.</q> Aa</rdg>
+               </app> nobili viro <persName>Gherardo duci Slesvicensi</persName>
+               <app>
+                  <lem>salutem (et apostolicam benedictionem)</lem>
+                  <rdg wit="#Aa">
+                     <q>salutem etc.</q> Aa</rdg>
+               </app>. ♦</p>
+            <p>
+               <app>
+                  <lem>Sincere (devotionis affectus quem ad nos et Romanam geris ecclesiam non indigne
+              meretur ut petitionibus tuis illis presertim quas ex devotionis fervore prodire
+              conspicimus quantum cum deo possumus favorabiliter annuamus. ♦ Hinc est quod nos tuis
+              devotis supplicationibus inclinati ut liceat tibi habere altare portabile cum debita
+              reverencia et honore super quo in locis ad hoc congruentibus et honestis possis per
+              proprium vel alium sacerdotem ydoneum missam et alia divina officia sine juris alieni
+              prejudicio in tua presencia facere celebrari devotioni tue tenore presentium
+              indulgemus. ♦ Nulli ergo omnino hominum liceat hanc paginam nostre concessionis
+              infringere vel ei ausu temerario contraire. ♦ Si quis autem hoc attemptare
+              presumpserit indignacionem omnipotentis dei et beatorum Petri et Pauli apostolorum
+              ejus se noverit incursurum)</lem>
+                  <rdg wit="#Aa">
+                     <q>Sincere etc.</q> Aa</rdg>
+               </app>. ♦</p>
+            <p>Datum <placeName>Rome apud sanctos Apostolos</placeName> 2. non. oct. anno 8.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Martin, biskop, Guds tjeneres tjener, til velbyrdig mand hertug Gerhard af
+          Slesvig hilsen og apostolisk velsignelse.</p>
+            <p n="b#2">Den oprigtige hengivenhed og kærlighed, som Du nærer til os og den romerske
+          kirke, fortjener, ikke med urette, at vi, så vidt vi formår med Gud, nådigt imødekommer
+          Dine begæringer, særlig dem, som vi ser udspringe af brændende fromhed.</p>
+            <p n="b#3">Idet vi derfor bøjer os for Dine fromme bønner, bevilger vi Dig, fromme søn, ved
+          dette brevs ordlyd, at Du må have et rejsealter, ved hvilket Du i Din nærværelse og på
+          steder, der egner sig og er værdige til dette formål, med tilbørlig ærbødighed og
+          værdighed kan lade holde messe og andre gudstjenester ved Din egen eller en anden egnet
+          præst uden skade for andres rettigheder.</p>
+            <p n="b#4">Intet menneske må bryde dette vort tilståelsesbrev eller i dumdristig forvovenhed
+          handle derimod. Hvis nogen drister sig til at forsøge dette, skal han vide, at han vil
+          pådrage sig Gud den almægtiges og hans hellige apostle Petrus' og Paulus' vrede.</p>
+            <p n="b#5">Givet i Rom ved de hellige apostle den 6. oktober i vort (pontifikats) ottende
+          år.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

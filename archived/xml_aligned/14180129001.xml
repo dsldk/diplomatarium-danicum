@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14180129001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Reg. Lat. 199 fol. 272</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Antonius. XI. XIII. 2. kal. febr. anno 2. de Ponto</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 256 nr. 1238</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-01-29"
+                  notBefore="1418-01-29"
+                  notAfter="1418-01-29"
+                  cert="high">1418. 29.
+          januar</date>
+            <placeName cert="high">Konstanz</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. reserverer efter kong Erik 7. af Pommerns anbefaling for Peder Turesen,
+          kannik i Lund, kanonikat og præbende både i Lund og Roskilde, såvel som dignitet, personat
+          eller officium i én af disse kirker, når blot det ikke er det højeste embede efter
+          biskoppen. Lignende skrivelser er samtidig sendt til biskoppen i Concordia og abbederne i
+          Herrevad kloster i Lunds stift og Sorø kloster i Roskilde stift. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-07-27" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <persName>Petro Thuronis</persName> canonico <placeName>Lundensi</placeName>,
+          magistro in artibus.</p>
+            <p>Litterarum scientia vite ac morum honestas <app>
+                  <lem>(aliaque laudabilia probitatis et virtutum merita super quibus apud nos fidedigno
+              commendaris testimonio nos inducunt ut ea tibi favorabiliter concedamus que tuis
+              commoditatibus fore conspicimus oportuna)</lem>
+                  <rdg>suppleret efter <ref target="14060719001">DD 1406. 19. jul., nr.
+              14060719001</ref>
+                  </rdg>
+               </app>.</p>
+            <p>Volentes itaque tibi consideratione <persName>Erici</persName> regis Dacie, pro te
+          dilecto suo nobis super hoc supplicantis, gratiam facere specialem, unum in Lundensi et
+          alium in <placeName>Roskildensi</placeName>, in quibus majores medie et minores prebende
+          fore noscuntur, ecclesiis canonicatus tibi conferimus et de illis etiam providemus ac in
+          Lundensi unam et in Roskildensi ecclesiis predictis aliam ex hujusmodi majoribus mediis
+          vel minoribus prebendis necnon dignitatem personatum vel officium alterius earundem
+          ecclesiarum, etiam si ad illam illum vel illud consueverit quis per electionem assumi
+          eique cura immineat animarum, dummodo dignitas ipsa major post pontificalem non existat,
+          si que vel si qui aut si qua vacant ad presens, vel cum vacaverint ..., conferendas vel
+          conferendos seu conferenda tibi reservamus, non obstante si hodie pro aliis super
+          equalibus gratiis in eisdem ecclesiis litteras nostras duxerimus concedendas. Nos enim tam
+          illas quam presentes effectum sortiri volumus.</p>
+            <p>Datum <placeName>Constantie</placeName> 4. kal. febr. anno 1.</p>
+            <p>Simili modo <placeName>Concordiensi</placeName> et in <placeName>Herivado</placeName> ac
+            <placeName>Sorensi</placeName> Lundensis et Roskildensis diocesium monasteriorum
+          abbatibus.</p>
+         </div>
+         <div xml:lang="da">
+            <p>
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

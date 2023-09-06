@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">96</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14241119001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>Abt. III. Rep. 1. Aa Ratsakten. 10.5. Hanseatica</collection>
+                        <idno>signatur-nr. 1741: 1424 Nov. 19</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med adresse på bagsiden: <q>Honorabilibus et circumspecits viris, dominis
+        proconsulibus et consulibus Wysmariensibus, amicis nostris sincere dilectis,
+      dandum</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Med rester af det brevlukkende segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 6, nr. DCXXIX., p. 613-614</bibl>
+               <bibl>Hanserec. VII., nr. 743, p. 501</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l., konfereret med A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-11-19"
+                  notBefore="1424-11-19"
+                  notAfter="1424-11-19"
+                  cert="high">1424. 19. november</date>
+            <placeName cert="low">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Lübeck skriver til rådet i Wismar, idet rådet i Wismar ønsker at vide, hvad rådet i
+      Lübeck vil skrive til de holstenske herrer med hensyn til dronning Philippa og hendes rigsråd.
+      Rådet i Lübeck meddeler rådet i Wismar, at rådet i Lübeck mundtligt vil give deres udsendinge,
+      som om kort tid skal til Wismar, besked derom. Endvidere meddeles det, at rådet i Lübeck har
+      skrevet til Hamburg og Lüneburg angående det møde, som skal holdes den 26. november 1424 i
+      Wismar.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-12-12" who="#smb">Filen etableret af #smb 2017-12-12. </change>
+         <change when="2017-12-12" who="#smb">1. korrektur af #smb 2017-12-12. </change>
+         <change when="2017-12-18" who="#smb">2. korrektur af #smb 2017-12-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Vnsen vruntliken grut vnde wes wij gudes vormogen touoren ♦</p>
+            <p n="a#2">Ersamen leuen besunderen guden vrunde ♦</p>
+            <p n="a#3">Alse gij in <cit>
+                  <quote>juwem breue</quote>
+                  <bibl>det pågældende brev fra rådet i Wismar til rådet i Lübeck kendes ikke.</bibl>
+               </cit> begheren iw toscriuende wo wij <persName>den heren van Holsten</persName> scriuen
+      willen van <persName>der vrowen koningynnen to Denemarken</persName> vnde erer rijke rade
+      wegen etcetera ♦</p>
+            <p n="a#4">Leuen vrunde des scholen iw vnse vrunde de kortlijken bij iw komende werden muntlijken wol
+      berichten ♦</p>
+            <p n="a#5">Wij hebben ok van stundan den van <placeName>Hamborch</placeName> vnde Luneborch vnsen
+      vrunden gescreuen van dem dage de dallinge ouer achte dagen bynnen juwer stad schal geholden
+      werden ♦</p>
+            <p n="a#6">Sijt Gode beuolen ♦</p>
+            <p n="a#7">Screuen vnder vnsem secrete vp sunte Elizabeth dage anno XXIIII<hi rend="sup">o</hi>
+      ♦</p>
+            <p n="a#8">Consules Lubicenses ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

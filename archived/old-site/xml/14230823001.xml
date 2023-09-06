@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">118</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14230823001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2815-b (tidl. RA. Slesvig 63)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift på plica: <q>Ad mandatum Domini regis Franciscus prepositus
+        Strigoniensis</q>. Desuden påtegnet: <q>Salvus conductus a rege Romanorum pro Domino rege
+        Heric[?] in Landesbergh Mathei</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Kong Sigismunds sekret</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6046</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Rep. l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-08-23"
+                  notBefore="1423-08-23"
+                  notAfter="1423-08-23"
+                  cert="high">1423. 23. august <note>Udgivet efter Rep. l.l., da A ikke har været tilgængelig for udgiveren i
+    marts 2021</note>
+            </date>
+            <placeName cert="high">Ofen</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrivelse fra den romerske konge Sigismund til alle kongens undersåtter i Det Romerske Rige
+      og i kongerigerne Bøhmen og Ungarn, hvori han befaler, at de skal tage godt imod og
+      understøtte kong Erik 7. af Pommern og hele hans følge bestående af grever, bannerførere,
+      adelsmænd, riddere, væbnere, embedsmænd, tjenere, heste, vogne m.m., når kong Erik snart
+      rejser igennem kong Sigismunds riger.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-04" who="#pbh">Filen etableret af #pbh 2014-06-04. </change>
+         <change when="2021-03-25" who="#smb">1. korrektur af #smb 2021-03-25. </change>
+         <change when="2021-05-11" who="#smb">2. korrektur af #smb 2021-05-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Wir <persName>Sigmund</persName> Romischer kunig <q>etc.</q> embieten allen unsern und des
+      heiligen romischen richs und unser kunigriche zu <placeName>Vngern</placeName> und zu
+        <placeName>Behem</placeName> undertanen und getruen unser gnad.</p>
+            <p n="a#2" xml:space="preserve">Wann herre <persName>Erich</persName> zu <placeName>Dennemark</placeName>,
+        <placeName>Sweden</placeName>, <placeName>Norweyen</placeName>
+      <q>etc.</q> kunig, unser lieber bruder und oheim, zu uns komet, befelhen wir euch, das ir in
+      gutlich empfahet und in ouch mitsampt synen grauen, banyrherren, edeln, rittern, knechten,
+      amptluten, dienern, pferden, wagen, habe und gute durch ewer und unser lande hin und wider
+      sicher faren lasset und sie ouch mit ewer macht durch ewer gebiete zu uns geleitet, wo des not
+      ist und das an euch begert wirt, uns zu liebe.</p>
+            <p n="a#3" xml:space="preserve">Geben zu <placeName>Ofen</placeName> an Bartholomeus abend unser riche des Vngrischen in dem
+      37., des Romischen in dem 13. und des Behemischen im 4. jaren.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

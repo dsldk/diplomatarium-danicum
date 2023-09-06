@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">324</num>, paragraphs: <num n="paragraphs">12</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14200525004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>fol. 290</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Overskrift: <q>Den erliken vorsichtigen luden, sendeboden der stede Stralessund
+        unde Rozstok, n{uo} to Kopenhagen wesende, unsen leven vrunden
+      etcetera</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Samtidig afskrift</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. I:7, nr. 209, p. 107-108</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-05-25"
+                  notBefore="1420-05-25"
+                  notAfter="1420-05-25"
+                  cert="high">1420. 25. maj</date>
+            <placeName cert="high">Abrahamstrup slot</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrivelse fra kong Erik 7. af Pommern til de hanseatiske rådsudsendinge fra Stralsund og
+      Rostock, som er forsamlet i København. Heri meddeler han, at han ikke længere kan lade sit råd
+      vente i København, idet det nu i 14 dage har ventet forgæves på de rådsudsendinge fra Lübeck
+      og Wismar, som også skulle være kommet til København. </ab>
+            <ab>I forlængelse heraf meddeler kong Erik, at han har givet sit råd i opdrag at give hans
+      mening om striden med de holstenske herrer til kende over for rådsudsendingene fra Stralsund
+      og Rostock, således at de kan viderebringe denne til de andre hansestæder. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-12-07" who="#smb">Filen etableret af #smb 2020-12-07. </change>
+         <change when="2020-12-07" who="#smb">1. korrektur af #smb 2020-12-07. </change>
+         <change when="2021-01-14" who="#smb">2. korrektur af #smb 2021-01-14. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><persName>Ericus</persName> Dei gracia <placeName>Dacie</placeName>,
+        <placeName>Swecie</placeName>, <placeName>Norwegie</placeName>, Gothorum, Schlavorumque rex
+      et dux Pomeranie.</p>
+            <p n="a#2" xml:space="preserve">Premisso nostro favore.</p>
+            <p n="a#3" xml:space="preserve">Leven vrundes.</p>
+            <p n="a#4" xml:space="preserve">Alse gi jw wol vordenken, wo gi juwen boden bi uns hadden unde gheven uns to vorstande, wo gi
+      gerne by uns wolden wesen yn unsen landen umme sunderge werve willen, de gi to uns hadden unde
+      wor gi uns vynden mochten: des screve wii jw en antword wedder to by juweme eghenen boden, wo
+      wii jw gerne lyden wolden unde seghen gerne, dat gi qwemen to
+        <placeName>Kopenhagen</placeName>; dar seholde gi uns edder unsen rad vynden, de werve to
+      horende, de gi to uns hadden.</p>
+            <p n="a#5" xml:space="preserve">Unde, leven vrundes, n{uo} hefft unse rad dar gelegen verteyn dage, unde hebben gebeidet,
+      unde hebben vele werve vors{uv}met, de se scholden worven hebben van der rike wegene.</p>
+            <p n="a#6" xml:space="preserve">Unde nu synt de <app><lem>anderen</lem><rdg><q>ander</q>, Aa</rdg></app> stede noch nicht gekomen, alse de Lubesschen unde de Wismerschen.</p>
+            <p n="a#7" xml:space="preserve">Dar umme, leven vrundes, wii hadden jw des nicht to gelovet, dat gi sodane daghe myd uns
+      scholden upnemen, dar wii unde unse rad sych over vorteren scholden, nu wii ander werff
+      hebben, dar unsen riken grot macht ane licht, wente wii hopeden wol unde meenden dat vor war,
+      dat gi myd uns dygen unde vorderven scholden, alse wii wol myd jw vorschuldet hebben.</p>
+            <p n="a#8" xml:space="preserve">Unde, leven vrundes, unse rad kan dar n{uv} nicht lengher beyden umme sunderge werve willen,
+      de se to schickende hebben van der rike wegene.</p>
+            <p n="a#9" xml:space="preserve">Dar umme, leven vrundes, wan gi meer willen daghe myd uns upnemen, so ramet des also, dat se
+      uns bequemeliker werden unde to so groteme drapliken schaden nicht en komen, alse nu scheen
+      is.</p>
+            <p n="a#10" xml:space="preserve">Unde, leven vrundes, wii hebben unseme rade werff bevolen, de se jw <cit><quote>berichten scholen</quote><bibl>jf. reces af forhandlingsmødet i København, <ref target="14200525001">DD 1420. 25. maj,
+            nr. 14200525001</ref></bibl></cit> van unser weghene; dar bidde wii jw umme, dat gi de gutliken to jw nemen unde latet se
+      yn sodaner mate yn anderen weghen vorluden, alse unse rad se jw berichtet.</p>
+            <p n="a#11" xml:space="preserve">Dar mede bevele wii jw unsem leven heren Gode.</p>
+            <p n="a#12" xml:space="preserve">Screven to <placeName>Abramstorpe</placeName> in pinxteavende under unsem signete.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

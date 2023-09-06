@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatarium Danicum</title>
+        <editor>
+          <name xml:id="alk">
+            <persName>
+              <forename type="first">Anders</forename>
+              <forename type="middle">Leegaard</forename>
+              <surname>Knudsen</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <extent>Base text, number of words: <num n="words">15</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">16</num>, paragraphs: <num n="paragraphs">2</num>
+         </extent>
+      <publicationStmt>
+        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <pubPlace>København</pubPlace>
+        <date>2015</date>
+        <idno type="dd">14500000100</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2015, Danske Sprog- og
+                                Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository>empty</repository>
+                <idno>empty</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Tabt. Registreret i København. Rigsarkivet. De ældste
+                        arkivregistraturer. Registratur over Vestervig klosters breve (1599), under
+                        overskriften <q>Wdi en ask med .S. signerit finndis dissze breffue Salling,
+                                oc Morsz</q></ab>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>ÆA III 162 S 5</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <ab>Tekst efter <ref>reg</ref></ab>
+      </samplingDecl>
+      <projectDesc>
+        <ab>DD-5</ab>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+          <desc>nil</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1450-01-01" notBefore="1450-01-01" notAfter="1450-12-31" cert="low">1450<note>I registraturen angives brevets årstal som 1550, men denne datering
+                modsiges af, at referatet omtaler provsten i Vestervig, et embede, der blev
+                afskaffet med Reformationen. På dette grundlag forekommer en omdatering nødvendig.
+                Udgiverne af ÆA III foreslår en omdatering til 1450. Dette årstal er en nærliggende
+                mulighed, men en Mikkel Jakobsen optræder også i det følgende brev i registraturen,
+                der bærer årstallet 1556. Hvis det er den samme Mikkel Jakobsen i begge breve, må
+                også det andet brev omdateres. Den enkleste rettelse bliver da at rette 1550 og 1556
+                til henholdsvis [1450?] og [1456?]</note></date>
+        <placeName cert="unknown">empty</placeName>
+      </creation>
+      <abstract>
+        <ab>Mikkel Jakobsen forpligter sig til ikke at afhænde Fårtoftgård til andre end 
+                provsten i Vestervig.</ab>
+      </abstract>
+      <langUsage>
+        <language ident="xda"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2015-03-03" who="#alk">Filen etableret af #alk 2015-03-03. </change>
+      <change when="99999999" who="#alk">1. korrektur af #alk 99999999. </change>
+      <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
+      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="nil"/>
+  </facsimile>
+  <text>
+    <body>
+      <div xml:lang="xda">
+        <p n="a#1">5. <persName>Michill Jbsenns</persName> forplichtelsze paa
+                                <placeName>Fortofftgaardt</placeName> att handt icke skall affhende
+                        denne thill andre endt till <placeName>proffuisten aff
+                                Westerwiig</placeName> ♦</p>
+        <p n="a#2"><app><lem>1550</lem><rdg wit="#A">= 1450?</rdg></app> ♦</p>
+      </div>
+      <div xml:lang="da">
+        <p n="b#1">5. Mikkel Jakobsens forpligtelse til ikke at afhænde Fårtoftgård til andre end
+                        provsten i Vestervig.</p>
+        <p n="b#2">1550.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

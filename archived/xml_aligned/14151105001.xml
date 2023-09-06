@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">83</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14151105001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. LX, 38</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 28.9 × 4.5 (plica: 1.5). 1. Embedssegl for abbedissen i Roskilde Clara kloster i grønt voks i
+                                 perg.rem, DGS 426; på seglremmen: et nostra. </physDesc>
+                     <history>
+                        <ab>I en fold på bagsiden ligger et fragment af en snoet grøn silkesnor</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5551</bibl>
+               <bibl>Vejledende Arkivreg. XVII 91 nr. 244</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-11-05"
+                  notBefore="1415-11-05"
+                  notAfter="1415-11-05"
+                  cert="high">1415.
+               5. november</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Sofie Klausdatter, abbedisse i Clara kloster i Roskilde, kvitterer på vegne af
+               Ingeborg Nielsdatter, nonne i klostret, Niels Bosen, kannik i Roskilde, for betaling
+               af 10 mark sølv. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-04" who="#pbh">Filen etableret af #pbh 2014-03-04. </change>
+         <change when="2019-04-03" who="#pbh">1. korrektur af #pbh 2019-04-03. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus . soror <persName>Sophia Claws dot<ex>er</ex></persName>
+      abbatissa <placeName>monasterii ordinis sancte Clare Roskildis</placeName> . salutem in domino
+      sempiternam . ♦</p>
+            <p n="a#2" xml:space="preserve">Tenore presencium notum facio universis me de presencium exhibitore domino <persName>Nicolao
+        Boecii</persName> canonico <placeName>Roskildis</placeName> . x . marchas argenti in promta
+      pecunia sine quacumque diminucione integraliter sublevasse ex parte dilecte sororis nostre
+      sororis <persName>Ingeburgis Nielsædot<ex>er</ex></persName> . ♦</p>
+            <p n="a#3" xml:space="preserve">Unde ipsius indempnitati bene merito precavere volens ipsum dominum Nicolaum Boecii pro
+      predictis . x . marchis argenti quitto per presentes . ♦</p>
+            <p n="a#4" xml:space="preserve">In cujus quittacionis testimonium sigillum meum presentibus est appensum . ♦</p>
+            <p n="a#5" xml:space="preserve">Datum <placeName>Roskildis</placeName> anno domini . m<hi rend="sup">o</hi> . cd<hi rend="sup">o</hi> . xv<hi rend="sup">o</hi> . feria iii<hi rend="sup">a</hi> post festum
+      omnium sanctorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

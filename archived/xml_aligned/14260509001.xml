@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">99</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14260509001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>Tabt</repository>
+                        <collection>registreret i Stockholm. Riksarkivet, SDHK 20678: a) B 29 (Skånebrevsfortegnelsen) Åtskillige kyrkers tilhöringe breef och skriftter, f. 266v nr. 27. I margin: <ex>Indulgentz</ex>;
+                        b) E 102a (Peringskiölds Diplomatarium, udkast til B 29) f. 136v nr. 9 nr. 265. I margin: <ex>Indulgentz breef</ex> og 
+                        c) E 102a (Peringskiölds Diplomatarium, udkast til B 29) f. 35v nr. 50</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6251</bibl>
+               <bibl>Weibull, Dipl. dioc. Lund. 62 nr. 59</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>registraturerne</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-05-09"
+                  notBefore="1426-05-09"
+                  notAfter="1426-05-09"
+                  cert="high">1426. 9. maj</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Biskop Bruder af Libar, ærkebiskop Peder Lykkes vikar, tildeler indulgens til dem, som besøger Sankt Hans, Sankt Jørgen og Sankt Egidius' kirker. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">a) <persName>Bruderi episcopi Libariensis</persName> som war <placeName>archiebiscopens i Lund</placeName> domini <persName>Petri Lykkæ</persName> in pontificalibus vicarius uthgifne indulgentz breef 
+               åth them som flitigt besöchte <placeName>ecclesiam beatorum Johannis apostoli</placeName> et evangelistæ . 
+                        <placeName>Georgii martyris</placeName> et <placeName>Egidii abbatis</placeName>. Datum die ascensionis domini som är d<ex>hen</ex> 9 maii 1426.</p>
+            <p n="a#2" xml:space="preserve">b) Biscop Bruderi Libariensis och Petri Lyckes uti påfweske saakers vicarii indulgentz breef och gudachtige öfningars wackra förkofring. Datum 1426.</p>
+            <p n="a#3" xml:space="preserve">c) Biscop Bruderi Libariensis som war påwens ståthållars uthgifne indulgentz breef ath <persName>archiebiscop Petro Ludkæ</persName> i <placeName>Lund</placeName> dhet 
+               <placeName>sancti Johannis evangelistæ</placeName>, <placeName>Georgii martiiris</placeName> och <placeName>Egidii abbatis kyrckier</placeName> skulle med tillborlig
+                        devotion celebreras oc frequenteras. Datum 1426.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

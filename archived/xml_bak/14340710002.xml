@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">314</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14340710002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement/>
+                        <repository/>
+                        <collection>empty</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab/>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. *5052</bibl>
+               <bibl>Gesterding, <ref>Erste Fortsetzung des Beitrages zur Geschichte der Stadt Greifswald</ref>,
+      57-8</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Gesterding.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-07-10"
+                  notBefore="1434-07-10"
+                  notAfter="1434-07-10"
+                  cert="high">1434. 10. juli</date>
+            <placeName cert="high">Vordingborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ærkebiskop Peder (Lykke (Bille)) af Lund og 12 øvrige biskopper meddeler 40 dages aflad til alle der besøger det Mariakapel i Rønne kirke, der anvendes af det tyske broderskab fra
+      Greifswald, eller som skænker midler til kapellet eller broderskabet.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-08-04" who="#pz">Filen etableret af #pz 2021-08-04. </change>
+         <change when="2021-08-04" who="#pz">1. korrektur af #pz 2021-08-04. </change>
+         <change when="2021-09-30" who="#mh">2. korrektur af #mh 2021-09-30. </change>
+         <change when="2021-09-30" who="#pz">3. korrektur af #pz 2021-09-30. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Universis sancte Matris ecclesie filiis, ad quorum nototiam presentes littere pervenerint,
+      <persName>Petrus</persName>, Dei gratia archiepiscopus Lundensiis, Suecie primas et sacrosancte apostolice sedis
+      legatus <app><lem>...</lem><rdg>navnene på 12 andre biskopper udeladt i udgaven</rdg></app> salutem in domino. </p>
+            <p n="a#2" xml:space="preserve">Pium et gratum Deo obsequium impendere credimus, quoties ejus fideles ad pietatis opera
+      excitamus. Cupientes igitur, ut capella virginis gloriose juxta ecclesiam sancti Nicolai
+      episcopi in <placeName>Rothna</placeName> in <placeName>Borndeholm</placeName>, Lundensis dioceseos, ubi fratres convivii Teutonicorum de
+      <placeName>Grypeswold</placeName> missas, orationes seu anniversaria pro animabus omnium fidelium defunctorum de
+      predicto convivio, deputatis ad hoc diebus, faciunt celebrari, congruis reverentiis et
+      honoribus frequentetur et a Christi fidelibus jugiter veneretur, omnibus vere poenitentibus et
+      confessis, qui ad dictam capellam, devotionis, orationis vel precationis causa, accesserint,
+      seu qui missis, orationibus aut quibuscunque aliis divinis officiis ibidem interfuerint, nec
+      non qui ad fabricam capelle antedicte, seu ad convivium predictum, aurum, argentum, fructus,
+      reditus, luminaria, ornamenta, libros, aut quevis alia dicte capelle vel convivio necessaria
+      dando, vel dari per se, vel per alios, procurando, manus porrexerint adjuvantes, aut qui
+      corpus Christi intra missarum solemnia genibus flexis, dum in eadem capella levetur, devote
+      adoraverint, seu qui ante imaginem crucifixi prostrati amaritudinem ejus passionis ibidem
+      devote retulerint, vel qui ante imaginem beate Marie virginis ter salutationem angelicam seu
+      alias devotas orationes retulerint, seu ad honorem Jesu Christi et gloriose sue matris Marie,
+      dum in praelibata capella nomina eorum sancta cantata vel lecta fuerint, flectendo genua caput
+      inclinaverint, seu qui exequiis et sepulturis mortuorum, precipue fratrum de predicto
+      convivio, ibidem interfuerint, aut qui pro nostro et ecclesiarum nostrarum, totiusque
+      christianitatis, felici statu et tranquilla pace Deum pie exoraverint, quoties premissa, vel
+      premissorum aliquid devote fecerint, toties de omnipotentis Dei misericordia et beatorum
+      Petri et Pauli, apostolorum ejus, auctoritate <app><lem>confisi</lem><rdg><q>confisis</q> Gesterding</rdg></app> singulis nostram quadraginta dierum
+      indulgentiam, cum ipsi videlicet devote ad hoc specialiter accedunt, in domino misericordes
+      relaxamus. Datum <placeName>Wortingeborgh</placeName> Roskildensis dioceseos anno domini millesimo quadringentesimo
+      tricesimo quarto ipso die beati Canuti regis, nostris sub secretis presentibus appensis. E.
+      D.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

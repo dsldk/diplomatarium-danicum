@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">228</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14171013001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. <ab>Adresse: <q>Prudentibus et discretis viris proconsulibus et consulibus
+        Wismariensibus, amicis nostris dilectis</q>
+                        </ab>1. Rester af rådet i Lübecks påtrykte segl. </physDesc>
+                     <history>
+                        <ab>Ikke forefundet 2020</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 5, nr. DCXXXII, p. 720-721</bibl>
+               <bibl>Reg. Dan. nr. *4414</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-10-13"
+                  notBefore="1417-10-13"
+                  notAfter="1417-10-13"
+                  cert="high">1417. 13. oktober</date>
+            <placeName cert="high">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Lübeck meddeler rådet i Wismar, at det ikke vil sende udsendinge til Rostock for dér
+      at forhandle med de danske udsendinge, hr. Klaus v. Vitzen og hr. Sten (Tygesen) Basse (til
+      Tybjerg), idet rådet i Lübeck først ønsker at forhandle med de holstenske grever i
+      Hamburg. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2020-11-24" who="#smb">1. korrektur af #smb 2020-11-24. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wes wij gudes vormogen, na vrundliker grote.</p>
+            <p n="a#2" xml:space="preserve">Ersamen leuen vrunde.</p>
+            <p n="a#3" xml:space="preserve">Alse vns her <persName>Nicolaus van Vitzen</persName> vnde <persName>Steen Basse</persName>
+      gescreuen hebben, vnse radescumpane bi en to hebbende bynnen <placeName>Rozstoke</placeName>
+      in dem donredage alse morgene, vormode wij, dat se iw vnde den anderen steden ok gescreuen
+      hebben, also enkone wij de vnsen dar morghene nicht hebben, alse wij den steden to
+        <placeName>Rozstoke</placeName> wesende gescreuen hebben, wente wij in vrydage erst
+      tokomende vnses radescumpane hebben moten tegen de Holsten heren bynnen
+        <placeName>Hamborch</placeName>, dar se vns na dem scriuende, alse en de stede nu kortliken
+      van <placeName>der Wismer</placeName> screuen, dage tekend hebben, vnde also drade de vnses
+      rades cumpane van <placeName>Hamborch</placeName> komen, scolen se vort ane sument rijden na
+      Rozstoke mit dem Holsten afschede.</p>
+            <p n="a#4" xml:space="preserve">Vns dunket ok nod vnde nutte wesen, datmen wete, watmen van den Holsten heren hebben mach, er
+      men bi de vorscreuenen heren <persName>Nicolaus</persName> vnde <persName>Stene</persName>
+      kome.</p>
+            <p n="a#5" xml:space="preserve">Hirumme, leuen vrunde, endoruen de juwen der vnsen nicht beyden, mit en na
+        <placeName>Rozstocke</placeName> to ridende, men dat se vore hen rijden, mit den anderen
+      steden wes to beghynnende vp der vnsen tokumpst, vnde dat se vns entsculdigen, wente wij vmme
+      vnser aller vnde des menen besten willen vnde ok vmme beueles willen der stede latest bynnen
+        <placeName>der Wismer</placeName> vorgaddert de vnsen erst senden willen to Hamborch.</p>
+            <p n="a#6" xml:space="preserve">Sijt Gode beuolen, dessen anderen breff sunder sument to schickende an de stede to
+        <placeName>Rozstocke</placeName> vorgaddert bi juwen boden.</p>
+            <p n="a#7" xml:space="preserve">Screuen vnder vnsen secrete, des mitwekens na Dyonisij, anno XVII<hi rend="sup">o</hi>.</p>
+            <p n="a#8" xml:space="preserve">Consules Lubicenses.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

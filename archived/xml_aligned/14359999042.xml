@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">139</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14350000042</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3216-c (tidligere RA. Gott. Arkiv. cam. II. Gottorpske Membr. Fasc. 17)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 25.1 × 10.7 (plica: 1.4). <ab>Bagsidepåskrift fra 1400-tallet: <q>Littera recognitionis Luderi Lugow super
+        bonis in Gammelbu</q>
+                        </ab>1. Seglsnit efter Lyder Luchows segl. 2. Seglsnit efter Henneke Krummedige Wittekops segl. 3. Seglsnit efter Timme Krummedige Wittekops segl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. Dan. nr. U539</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435" notBefore="1435" notAfter="1435" cert="low">[1435.]</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lyder Luchow erklærer, at Anders Iversen (Rosenkrantz) har indløst det gods i Satrupholm i
+      Satrup sogn, som Anders Iversens svigerfar Claus Krumkop havde pantsat til Lyder Luchow for
+      100 lybske mark. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-15" who="#pbh">Filen etableret af #pbh 2014-08-15. </change>
+         <change when="2020-05-20" who="#smb">1. korrektur af #smb 2020-05-20. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Witlik sy alle den jennen de dessen breff seen edder horen lesen ♦</p>
+            <p n="a#2" xml:space="preserve">Ik <persName>Luder Leeyow</persName> bekenne myt desseme myn opene breff dat ik vnde mynen
+      rechten eruen myne v{uo}lkomen noghe kreghen hebbe vor hunder steder mark alse to
+        <placeName>Lubeke</placeName> unde to <placeName>Hamborch</placeName> gengghe vnde gheue
+      synt dar en gh{uo}t man deme anderen v{uo}l mede don mach vor dat ghut dat ik to pande hadde
+      van <persName>Clauwes Kr{uo}mkop</persName> dar hebbe ik myne v{uo}lkomen noghe vore kreghen
+      van <persName>Anders Juersone</persName> vor dat gh{uo}t yn <placeName>Angghel</placeName>
+      licht Satropholme dat dar licht yn <placeName>Satrop</placeName> kerspel yn
+        <placeName>Struxstroppe</placeName> herede ♦</p>
+            <p n="a#3" xml:space="preserve">Vore dat ghelt late ik em leddich vnde los ♦</p>
+            <p n="a#4" xml:space="preserve">Ik vnde mynen eruen em vnde synen er{ue}en to t{uo}ghe vnde to witlikheit so hebbe ik
+        <persName>Luder Leoyow</persName> myt anderen bedderuen luden myn jngeseghel hyr vore <app><lem>henghet</lem><rdg><q>henghe</q>, A</rdg></app> alse <persName>Henneke Cr{uo}medick</persName> anders heten
+        <persName>Wittekop</persName>
+      <persName>Tymme Cr{uo}medik</persName> syn broder ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

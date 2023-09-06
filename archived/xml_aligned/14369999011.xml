@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">2184</num>, paragraphs: <num n="paragraphs">91</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14369999011</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>G.J. Thorkelin, Samling af danske Kirke-Love, 1781, s. 108-121</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Hans Laxmand blev valgt til ærkebiskop af Lund august 1436 og døde 30 maj 1443</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Thorkelin l.l</bibl>
+               <bibl>Reg. Dan. nr. *5160</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-01-01"
+                  notBefore="1436-01-01"
+                  notAfter="1443-12-31"
+                  cert="high">[1436. august - 1443. 30. maj] </date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Synodalstatutter udstedt af ærkebiskop Hans (Laxmand) af Lund.  </ab>
+            <ab>Enhver sognepræst skal under skrifte og i prædikener opfordre til betaling af alle former
+      for tiende.  </ab>
+            <ab>Enhver præst skal til nadver have frisk vin, opbevaret i en ren beholder, ikke i horn eller
+      lignende, og ligeledes rene oblater og alterklæder; bod 3 mark.  </ab>
+            <ab>Sognepræsterne skal holde nadverbrødet og den hellige olie bag lås under trussel om kanonisk
+      straf.  </ab>
+            <ab>Enhver sognepræst, der bestyrer nadverens sakramente, skal mindst en gang ugentlig skrifte
+      over for en nabopræst.  </ab>
+            <ab>Ingen præst må nærme sig alteret med snavset fodtøj eller våde klæder; bod 1 mark skånsk.
+      Ingen præst må tilføje noget til eller fratage noget fra kanonens ord.  </ab>
+            <ab>Visse præster har det med at puste korsets tegn når de fremsiger kanonens ord under en
+      indvielse; dette forbydes.  </ab>
+            <ab>Ingen præst må overlade det til en uindviet at forberede alterkalken; bod 1 mark skånsk.  </ab>
+            <ab>Enhver præst skal mindst en gang månedlig forny indholdet i hostiegemmet, så det ikke bliver
+      fordærvet, eller der kommer orm i hostiegemmet; bod 3 mark. Hvis der findes orm i
+      hostiegemmet, skal de fordærvede dele fjernes og ormene knuses til støv, der skal gemmes i
+      alteret eller sakristiet, og sognepræsten skal suspenderes i et år og straffes efter
+      (biskoppens) valg. </ab>
+            <ab>Enhver sognepræst skal ufortøvet komme for at yde skrifte og sakramenter, når et sygt medlem
+      af menigheden kalder, ellers skal han miste sit beneficium og embede. Når han bringer nadveren
+      eller den hellige olie til en syg, må han hverken samtale på vejen eller rejse uden overtøj
+      eller spise på vejen eller i den syges hus, før sakramenterne er bragt tilbage til kirken, bod
+      3 mark pr. gang. Når han rejser uden for byen, skal han ride. Når der er marked på en søn-
+      eller helligdag, må der ikke handles før messen i hovedkirken er afsluttet; bod 3 mark.  </ab>
+            <ab>Ingen præst må bringe kirkens bøger til sit hjem om natten for at bruge dem der, og hvis
+      bøgerne går tabt i hans hjem, skal den der har fjernet dem fra kirken, erstatte den fulde pris
+      og betale en bod på 3 mark til biskoppen.  </ab>
+            <ab>Enhver præst skal have en bolig ved sin kirke, især hvis kirken ligger en mil fra byen. </ab>
+            <ab>Ingen sognepræst må uden biskoppens tilladelse afhænde ejendom fra sit bord eller udleje det
+      til andre end de bønder, der bor på jorden; bod: fratagelse af beneficium.  </ab>
+            <ab>For at hindre dette skal enhver sognepræst udfærdige en fortegnelse over kirkens faste
+      ejendom og den ejendom, der hører til hans bord, under hver bondes navn.  </ab>
+            <ab>Ligeledes skal det noteres, hvis ejendom på dispensation fra biskoppen er fri eller besat af
+      andre riddere eller riddersmænd, hvilket biskoppens kældermester skal notere ved sin næste
+      visitation; bod 3 mark skånsk.  </ab>
+            <ab>En tilsvarende fortegnelse, som skal meddeles kældermesteren, skal føres over
+      bispetienden; samme bod.  </ab>
+            <ab>Enhver sognepræst skal udføre biskoppens ordrer og have et segl hvormed han kan besegle at
+      ordren er udført; bod 3 mark.  </ab>
+            <ab>Ingen sognepræst må lade ekskommunikerede deltage i messen, før de kan vise på skrift, at de
+      har fået syndsforladelse, under trussel om kanonisk straf.  </ab>
+            <ab>Alle sognepræster og deres vikarer skal se til, at deres tjenere ringer tre gange med klokken
+      morgen og aften, og at menigheden knæler for den hellige jomfru med englehilsen; bod 3 mark,
+      med mindre de er lovligt undskyldt. </ab>
+            <ab>Ingen præst må offentligt gå i rødt, grønt eller gult tøj eller tøj kortere end midt
+      på skinnebenene.  </ab>
+            <ab>Ligeledes skal de have tonsur; bod 3 mark.  </ab>
+            <ab>Enhver præst skal afholde sig fra drukkenskab i sit eget hus under trussel om kanonisk
+      straf. Ingen præst må åbent have en samleverske i sit hus under trussel om kanonisk straf.
+      Ligeledes må ingen præst tage sin samleverske eller børn med sig til gilder; bod 4 mark
+      sølv.  </ab>
+            <ab>Ingen præst må lade sine børn blive født i sit hus.  </ab>
+            <ab>Præster skal oprette deres testamente på skrift, beseglet af dem selv og gode mænd, og de
+      skal ikke betro denne opgave til lægfolk, men til gejstlige under trussel om at miste den den
+      testamenterede ejendom.  </ab>
+            <ab>Ingen sognepræst må indsætte en kapellan i sit sogn, med mindre han har fået sjælesorg 
+      af biskoppen eller provsten; bod 3 mark sølv.  </ab>
+            <ab>Til synoder, der varer 2 dage, skal hvert herred sende en dekan og to præster. Dekanen skal
+      oplyse de hjemmeblivende præster om, hvad der er talt om og besluttet på synoden; bod 3 mark.
+      De fremmødte er forpligtede til at holde messe for kirkens velfærd i domkirken i Lund.  </ab>
+            <ab>Enhver præst skal have synodalbestemmelser om tidebønnerne; bod 1 skilling grot. Tilsvarende
+      skal han have statutter på skrift; bod 3 mark.  </ab>
+            <ab>Eftersom mange gifte folk kommer til stiftet udefra for fiskeriets skyld, er det forbudt for
+      præsterne at vie nogen udefrakommende uden dokumentation for deres ugifte stand under trussel
+      om at miste deres embede.  </ab>
+            <ab>Der er klaget over at visse præster drister sig til at holde messe, selv om de er
+      suspenderede. Sådanne skal miste deres beneficier og embede og sendes til den apostolske
+      fader for at søge absolution.  </ab>
+            <ab>Præsterne skal være omhyggelige med at døbe børnene, og de skal lære lægfolk at foretage
+      nøddåb på dansk.  </ab>
+            <ab>Sognepræsterne skal holde prædiken på alle søndage og på de vigtigste helligdage med
+      opfordring til at overholde kirkens forskrifter, give almisser og betale tiende. Ligeledes
+      skal fremvisningen i templet fejres hvert år ligesom andre fester for den hellige jomfru.  </ab>
+            <ab>Præster må ikke give dispensation for løfter om faste eller andet, det tilkommer biskoppen.
+      Gejstlige må ikke uden særlig tilladelse blande sig i sager, der hører under biskoppen.  </ab>
+            <ab>Sognepræsterne skal opfordre deres sognebørn til at skrifte mindst en gang om året og
+      modtage nadveren til påske. Hvis ikke skal de som levende forbydes adgang til kirken og som
+      døde nægtes en kristen begravelse. Ligeledes må en præst hverken med ord eller fagter afsløre
+      indholdet i skriftemålet eller presse den skriftende til at afsløre, med hvem han har begået en
+      synd, under trussel om afsættelse fra embedet.  </ab>
+            <ab>Ingen gejstlig må deltage i spådomskunst.  </ab>
+            <ab>Ingen præst må vidende begrave en ekskommunikeret eller forrette messe med deltagelse af en
+      sådan.  </ab>
+            <ab>Ingen præst må lade ukendte præster eller præster fra andre stifter holde messe i sin kirke
+      uden skriftlig dokumentation for, at de er ordinerede og uberygtede; bod 3 mark.  </ab>
+            <ab>Ingen præst må tillade almissesamlere i sin kirke eller sit sogn uden et åbent brev fra
+      biskoppen, dog er tiggermunke undtaget.  </ab>
+            <ab>Præster må ikke gå på kro eller i berygtede huse og ikke bære våben, med mindre de er
+      nødsaget til det på rejse; under trussel om kanonisk straf.  </ab>
+            <ab>Hvis en lægmand lægger hånd på en gejstlig, skal repressalier overlades til biskoppen eller
+      hans vikar.  </ab>
+            <ab>Sognepræster skal formane folk, der lever sammen i synd, om at skilles eller blive gift. Hvis de nægter, skal de efter et år udelukkes fra nadveren.  </ab>
+            <ab>Sognepræsterne skal forhindre at det festes på hedensk vis på visse helligdage, især
+      sankthans og Budolfs dag.  </ab>
+            <ab>Sognepræsten skal lyse et ægteskabs indgåelse tre søndage for at undgå bigami; under trussel om
+      kanonisk straf.  </ab>
+            <ab>Primære menedere, der har fået andre til at begå mened skal angre i fem år og betale 9 mark
+      penge. De der har vidnet for dem i god tro, skal betale 3 mark og angre i højst fem år.  </ab>
+            <ab>Alle dekaner og sognepræster i Lunde stift skal have denne synodes bestemmelser på skrift og
+      adlyde dem.  </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-12-17" who="#pz">Filen etableret af #pz 2020-12-17. </change>
+         <change when="2020-12-18" who="#pz">1. korrektur af #pz 2020-12-18. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Incipiunt statuta Sinodalia.</p>
+            <p n="a#2" xml:space="preserve">Nos Johannes Dei gratia Archiepiscopus Lundensis, Svecie primas et Apostolice sedis legatus,
+      pro generali reformatione sacerdotum parrochialium et aliorum nostre dyoceseos clericorum
+      mandamus infra articulos sub annotatis penis firmiter observari. </p>
+            <p n="a#3" xml:space="preserve">De decimis. </p>
+            <p n="a#4" xml:space="preserve">Primo ut singuli parrochiales presbiteri in confessionibus et predicationibus ad solvendum
+      fideliter et sine fraude omnes decimas scilicet nostras Archiepiscopales ecclesiasticas et
+      Sacerdotales, de omnibus et singulis seminibus animalibus et piscaturis prout divinam ultionem
+      evadere voluerint hortentur et inducant. </p>
+            <p n="a#5" xml:space="preserve">De vino et aliis. </p>
+            <p n="a#6" xml:space="preserve">Item quilibet sacerdos habeat vinum recens pro Sacrificio, et non acetosum, reservatum in
+      vase mundo et decenti, et non in cornibus vel hujusmodi et oblatas mundas, nec non vestimenta
+      altarium, et precipue corporalia munda, et pullas altaris mundas et
+      decenter super altare positas. Quotiens in predictis neglecti <app><lem>fuerint,</lem><rdg><q>fuerint.</q> Aa</rdg></app> multentur,
+      pena trium marcarum. </p>
+            <p n="a#7" xml:space="preserve">De Eukaristia et oleo sancto. </p>
+            <p n="a#8" xml:space="preserve">Item quod presbyteri parrochialium habeant corpus dominicum et oleum sanctum sub debita
+      clausura propter sortilegia at alia pericula imminentia sub pena Canonis. </p>
+            <p n="a#9" xml:space="preserve">De Confessione. </p>
+            <p n="a#10" xml:space="preserve">Item volumus et consulimus quod quilibet sacerdos parrochialis qui Sacramentum eukaristie
+      tractare presumpserit, ad minus semel vel quotiens opus fuerit in ebdomada, corde contritus et
+      ore confessus vicino sibi sacerdoti ab eo penitentiam recipiat salutarem. </p>
+            <p n="a#11" xml:space="preserve">De mundicia vestimentorum. </p>
+            <p n="a#12" xml:space="preserve">Item nullus sacerdos presumat accedere ad altare cum lutosis ocreis vel immundis calceis seu
+      Vestibus madefactis. Quotiens aliquid istorum fecerit, mulctetur pena unius marce Skaniensis. </p>
+            <p n="a#13" xml:space="preserve">De Canone. </p>
+            <p n="a#14" xml:space="preserve">Item quod nullus sacerdos addat aliquid ad verba Canonis nec diminuat de eisdem sub pena
+      irregularitatis. </p>
+            <p n="a#15" xml:space="preserve">De verbis Canonis. </p>
+            <p n="a#16" xml:space="preserve">Item certi presbyteri pronunciando Verba Canonis in consecratione solent insufflare vel
+      movendo caput per modum crucis flatum emittere, quod tanquam erroneum et juri devium omnino de
+      cetero fieri prohibemus. </p>
+            <p n="a#17" xml:space="preserve">De præparatione Calicis. </p>
+            <p n="a#18" xml:space="preserve">Item nullus Sacerdos faciat ministrum suum infra Sacros non constitutum preparare calicem,
+      sed quilibet per se hoc faciat sub pena unius marce Skaniensis. </p>
+            <p n="a#19" xml:space="preserve">De renovatione Eukaristie. </p>
+            <p n="a#20" xml:space="preserve">Item quilibet presbiter parrochialis adminus semel in quolibet mense aut etiam pluries prout
+      situs ecclesie <app><lem>exigit,</lem><rdg><q>exigit.</q> Aa</rdg></app> sacramentum Eukaristie in pixide studeat renovare, sub pena
+      trium marcarum, et diligenter precaveat ne ex vetustate partes consumantur, vel vermes in
+      pyxide inveniantur, qui si ita inventi fuerint, partes taliter corrose devotissime sumantur et
+      tales vermes in pulveres redigantur, qui in altari vel in sacrario recondantur. Curatus ille
+      vero per annum Suspensus et pena arbitraria puniendus. </p>
+            <p n="a#21" xml:space="preserve">De visitatione infirmorum. </p>
+            <p n="a#22" xml:space="preserve">Item quilibet Sacerdos parrochialis per suum parrochianum legittime tempestive vocatus cum
+      magna devotione, et sine mora veniat, et parrochianum suum infirmum in confessione et
+      Sacramentorum administratione devote <app><lem>expediat,</lem><rdg><q>expediat,</q> Aa</rdg></app> sub pena privationis beneficii et
+      officii. Item Sacerdos parrochialis visitando infirmum cum Sacramento sive eukaristie sive
+      olei sancti, tam exeundo quam redeundo fabulationes in via non commisceat, sed septem psalmos,
+      vigilias vel alias orationes cum devotione dicat et sine lumine, superpelliceo, et stola non
+      incedat, nec comedat in via vel in domo infirmi, imo nec alibi rebus aliquibus gerendis se
+      intromittat, donec sacramentum cum associatione fidelium reverenter fuerit in ecclesia
+      restitutum, sub pena trium marcarum pro qualibet vice. Quando autem defertur extra villam in
+      equo feratur, tantum cum stola devotione oratione et humillitate ut Supra. Item si occurrant
+      generales nundine in die dominico vel festivo, ante finitam Summam missam in principali
+      ecclesia sub pena trium marcarum non mercetur. </p>
+            <p n="a#23" xml:space="preserve">De libris Ecclesie. </p>
+            <p n="a#24" xml:space="preserve">Item mandamus quod nullus presbyter utatur libris ecclesie in domo habitationis sue,
+      dimittendo eos per noctem ibi, et si aliqui libri in domo ejus destructi perditi seu combusti
+      fuerint, tunc is qui hujusmodi libros extra Ecclesiam deportari fecerit solvat ecclesie
+      equivalens pretium pro eisdem, et nobis tres marcas pro negligentia. </p>
+            <p n="a#25" xml:space="preserve">De residentia. </p>
+            <p n="a#26" xml:space="preserve">Item quilibet sacerdos parrochialis faciat residentiam personalem apud ecclesiam suam,
+      legitimo cessante impedimento, sub pena privationis ejusdem maxime si talis Ecclesia habuerit
+      distantiam unius milliaris a civitate. </p>
+            <p n="a#27" xml:space="preserve">De mensalibus. </p>
+            <p n="a#28" xml:space="preserve">Item nullus curatus bona mense sue sine consensu nostro quovis modo alienet vel in conductum
+      aliis quam rusticis inhabitantibus dimittat sub pena privationis sui beneficii. </p>
+            <p n="a#29" xml:space="preserve">De bonis Ecclesiarum. </p>
+            <p n="a#30" xml:space="preserve">Item ne bona Ecclesie alienentur volumus et ordinamus, quod quilibet curatus omnia et Singula
+      bona sue ecclesie immobilia similiter et bona mense sue sacerdotali adjacentia in nota et
+      registro fideliter conscribat sub nominibus propriis rusticorum eorundem. </p>
+            <p n="a#31" xml:space="preserve">De visitatione Cellarii. </p>
+            <p n="a#32" xml:space="preserve">Item annotet etiam et ascribat si talia bona sub nostra dispensatione libera sint vel ab
+      aliis militibus aut militaribus, et quo titulo occupata, quas quidem notam et registrum
+      cellario nostro in computis Ecclesiarum nostre diocesis in proxima ejus visitatione habere
+      volumus integraliter assignatas sub pena trium marcarum Skaniensium. </p>
+            <p n="a#33" xml:space="preserve">De Registratione decimarum Archiepiscopalium. </p>
+            <p n="a#34" xml:space="preserve">Item hoc superaddimus mandatum Speciale quod quilibet curatus seu plebanus decimas nostras
+      Archiepiscopales in similibus nota et registro eidem Cellario nostro assignet, et quid et
+      quantum nobis et Sedi nostre Metropolitice prestabitur ab eisdem, et an sub nostra libera sint
+      dispositione an alicui in conductum extent posite, eidem Cellario nostro insinuet fideliter et
+      declaret pena sub eadem. </p>
+            <p n="a#35" xml:space="preserve">De executione mandatorum et sigillis. </p>
+            <p n="a#36" xml:space="preserve">Item mandamus quod quilibet sacerdos parrochialis mandatum nostrum sive per nos, vicarium,
+      Cellarium, vel decanos nostros decretum fideliter exequatur ac etiam Sigillum proprium habeat
+      cum quo mandatum nostrum tunc executum <app><lem>sigillet,</lem><rdg><q>sigillet.</q> Aa</rdg></app> sub pena trium marcarum. </p>
+            <p n="a#37" xml:space="preserve">De excommunicatis. </p>
+            <p n="a#38" xml:space="preserve">Item quod nullus Sacerdos parrochialis in Ecclesia sua excommunictos vel eliminatos et
+      publice denunciatos ad divina et sub divinis permittat scienter, antequam per litteras
+      docuerint se canonice absolutos sub pena Canonis. </p>
+            <p n="a#39" xml:space="preserve">De pulsatione. </p>
+            <p n="a#40" xml:space="preserve">Item precipimus omnibus curatis et Vicecuratis, ut quotidie faciant ministros more Romane
+      ecclesie trinies pulsare campanam horis matutinalibus et vespertinis, populum flexis genibus
+      beatam virginem cum angelica salutatione inducendo salutare, quod si facere omiserint,
+      multentur pena trium marcarum totiens quotiens, nisi forte legittimum impedimentum obstiterit. </p>
+            <p n="a#41" xml:space="preserve">De colore vestium. Item nullus presbiter utatur publice vestibus rubeis, viridibus vel
+      glaucis, sed habeat vestes congruentes, nec nimium decurtatas nisi medium tibie. </p>
+            <p n="a#42" xml:space="preserve">De Corona et tonsura. </p>
+            <p n="a#43" xml:space="preserve">Item coronam amplam et decentem tonsuram deferat, sub pena trium marcarum. </p>
+            <p n="a#44" xml:space="preserve">De Conviviis et aliis conversationibus. </p>
+            <p n="a#45" xml:space="preserve">Item singuli presbiteri in propriis domibus, nuptiis, puerperiis, conviviis ac aliis
+      invitationibus quibuscunque, honeste se habeant tanquam exemplar et Speculum aliorum laicorum
+      in cibis et potibus temperate vivant, ebrietatem et crapulam continuam devitent, nec ad
+      æquales haustus se aliquatenus obligent vel adstringant sub pena canonis. </p>
+            <p n="a#46" xml:space="preserve">De Concubinis. </p>
+            <p n="a#47" xml:space="preserve">Item mandamus quod nullus sacerdos in domo vel habitatione sua publicam teneat focariam et
+      concubinam sub pena Canonis. Item ne quis Sacerdos ad Convivia vel invitationes concubinam
+      suam aut infantulos suos si quam vel quos habuerit, quod absit, se cum adducere aut quovismodo
+      habere presumat sub pena quatuor marcarum argenti. De puerperiis. Item ut Scandala in clerico
+      publica evitentur, districtius prohibemus ne quis sacerdos in domo sua puerperia suorum
+      infantulorum aut introductiones concubinarum suarum sub quavis solennitate aut invitatione
+      facere presumat sub pena quatuor marcarum argenti. </p>
+            <p n="a#48" xml:space="preserve">De Testamentis. </p>
+            <p n="a#49" xml:space="preserve">Item quilibet sacerdos infirmus si testamentum prius non fecerat, illud in Scriptis et sub
+      Sigillo suo et discretorum virorum faciat muneri clericis hujusmodi executionem committat et
+      non laicis sub pena privationis bonorum testatorum. </p>
+            <p n="a#50" xml:space="preserve">De Capellanis. </p>
+            <p n="a#51" xml:space="preserve">Item nullus curatus ponat capellanum annualem in parrochia sua nisi prius a nobis vel etiam
+      decano provincie curam recipiat animarum sub pena trium marcarum argenti. </p>
+            <p n="a#52" xml:space="preserve">De synodo. </p>
+            <p n="a#53" xml:space="preserve">Item ad quamlibet synodum in duobus diebus videlicet tertia et quarta feriis decanus et duo
+      presbiteri de qualibet provincia ad minus assint in communibus expensis ceterorum
+      presbiterorum illius provincie emittendi, et decanus cum hiis presbiteris ceteros presbiteros
+      qui domi sunt de ventilatis et actis in Sinodo informabunt sub pena trium marcarum. </p>
+            <p n="a#54" xml:space="preserve">Et illi presentes in hiis duobus diebus synodalibus in ecclesia nostra Lundensi ad
+      celebrationem misse pro statu ecclesie Catholice sint per hanc nostram constitutionem
+      astricti, sub pena priori posita. </p>
+            <p n="a#55" xml:space="preserve">De statutis et synodalibus. </p>
+            <p n="a#56" xml:space="preserve">Item quilibet Sacerdos habeat synodalia de horis dicendis sub pena unius solidi grossorum,
+      similiter presentia nostra statuta in scriptis habeat, secundum que se habere et regere
+      debeat, et aliis in honestate et moribus conversari sub pena trium marcarum. </p>
+            <p n="a#57" xml:space="preserve">De matrimoniis alienorum. </p>
+            <p n="a#58" xml:space="preserve">Item ex quo propter piscaturam multi de aliis diocesibus etiam uxorati huc ad dyocesim
+      nostram veniunt et ad alia matrimonia contra juris ordinem contrahenda convolant, volumus et
+      de cetero prohibemus ne aliquis presbyterorum hujusmodi extraneos in utroque sexu cum
+      aliquibus matrimonium in suis parrochiis contrahere permittat nisi prius visis documentis
+      illorum quod vinculo matrimonii non sint alligati sub pena privationis officii. </p>
+            <p n="a#59" xml:space="preserve">De suspensis celebrantibus. </p>
+            <p n="a#60" xml:space="preserve">Item coram nobis querulose expositum est, qualiter quidam presbiteri, heu dolor juris ignari
+      mandata nostra, officialium, Cellararii et decanorum nostrorum postponentes in suspensis
+      aliquando audent celebrare. Cum igitur obedientia melior sit quam victima, volumus et
+      statuimus per presentes, quod quicunque talis de cetero repertus fuerit ex tunc et statim sit
+      privatus beneficiis et officiiis, et pena irregularitatis innodatus, et ad dominum apostolicum
+      mittatur absolvendus. </p>
+            <p n="a#61" xml:space="preserve">De Baptismo. </p>
+            <p n="a#62" xml:space="preserve">Item mandamus quod baptismus cum maximis honore reverentia et cautela administretur in
+      conferendo verba in quibus tota vis consistit Sacramenti, et Salus puerorum, nominando puerum
+      et dicendo, Ego baptizo te in nomine patris et filii et Spiritus Sancti Amen. Et in materna
+      lingua sub eadem forma verborum doceant laicos baptizare pueros in necessitate, patrem nec
+      matrem non debere baptizare pueros suos nisi in Summa et extrema necessitate et periculo pueri
+      sic dicendo, Jac döber tig i naffn faders oc söns oc thenn helgi andz amen. </p>
+            <p n="a#63" xml:space="preserve">De Sermonibus. </p>
+            <p n="a#64" xml:space="preserve">Item mandamus quod singuli curati vel vicecurati coram parrochianis suis in singulis
+      dominicis diebus evangelium dominicale, et in aliis summis festis Sermonem prout necesse
+      fuerit exponant, in quibus semper hortentur dies festos jejunia ab ecclesia statuta, precepta
+      domini diligenter observare, opera misericordie indigentibus benigniter exhibere, jura
+      evangelica oblationes et decimas omnium frugum et piscationum sine fraude persolvere quia sepe
+      irascitur Deus, et venit sterilitas frugum et karistia propter decimas deo debitas sic
+      retentas. Item mandamus festum presentationis singulis annis sicut alia festa gloriose
+      virginis solenniter celebrari. </p>
+            <p n="a#65" xml:space="preserve">De Dispensatione. </p>
+            <p n="a#66" xml:space="preserve">Item Sacerdotes cum parrochianis suis vel aliis super votis jejunii vel alio voto solempni
+      non dispensent, quia dispensatio votorum talium ad episcopum pertinent. </p>
+            <p n="a#67" xml:space="preserve">De Casibus episcopalibus. </p>
+            <p n="a#68" xml:space="preserve">Item volumus quod sacerdotes vel religiosi non intromittant se aliqualiter in casibus
+      episcopalibus vel prohibitis nisi sit eis indultum gratia speciali. </p>
+            <p n="a#69" xml:space="preserve">De Confessionibus populi. </p>
+            <p n="a#70" xml:space="preserve">Item mandamus curatis singulis quod sollicitent populum suum ut saltem semel in anno
+      confiteantur proprio Sacerdoti omnia peccata sua, et in sancto pascha communicent, nisi forte
+      aliquis proprii sacerdotis consilio ob aliquam rationabilem causam ab ejus perceptione duxerit
+      abstinendum, alioquin et viventes ab ingressu ecclesie arceantur et morientes ecclesiastica
+      careant Sepultura. Item etiam caveant singuli presbyteri et curiati ut nec verbo nec signo
+      peccata eis confessa quovismodo revelent, nec confitentem ad exponendum cum quo peccavit
+      aliqualiter inducant, sed solummodo qualitates et Conditiones cautissime inquirant, cum pena
+      degradationis ab officio suo sacerdotali. </p>
+            <p n="a#71" xml:space="preserve">De Sortilegiis. </p>
+            <p n="a#72" xml:space="preserve">Item inhibemus ne quis Sacerdos vel Clericus se intromittat ad aliquid sortilegium, quia in
+      talibus semper est occulta diaboli administratio. </p>
+            <p n="a#73" xml:space="preserve">De excommunicatis. </p>
+            <p n="a#74" xml:space="preserve">Item nullus presbiter scienter sepeliet excommunicatum nec celebret coram eo vel eliminatum
+      sub pena Canonis. </p>
+            <p n="a#75" xml:space="preserve">De venientibus presbiteris ab alia dyocesi. </p>
+            <p n="a#76" xml:space="preserve">Item nullus presbiter vel curatus admittat ignotos vel aliene dyocesis presbiteros in
+      altaribus vel ecclesiis eorum celebrare, nisi per patentes literas se probaverint canonice
+      ordinatos, et omnis infamie immunes et censuris ecclesiasticis minime irretitos, sub pena
+      trium marcarum. </p>
+            <p n="a#77" xml:space="preserve">De questionariis. </p>
+            <p n="a#78" xml:space="preserve">Item nullus presbiter vel curatus permittat questionarios circumire in ecclesia sua vel
+      parochia sine nostris literis patentibus. Si hujusmodi questionarii inventi fuerint cum bonis
+      taliter collectis ad decanum illius provincie mittantur, fratribus mendicantibus duntaxat
+      exceptis. </p>
+            <p n="a#79" xml:space="preserve">De locis suspectis et armis. </p>
+            <p n="a#80" xml:space="preserve">Item inhibemus similiter ne quis sacerdos vel Clericus intret tabernas publicas vel domos
+      suspectas, nec arma portent invasoria nisi propter magnam necessitatem et vie periculositatem,
+      et in itinere constituti sub pena Canonis. </p>
+            <p n="a#81" xml:space="preserve">De percussoribus clericosum. </p>
+            <p n="a#82" xml:space="preserve">Item si laicus manus injecerit in presbiterum vel clericum, intimetur nobis vel vicario
+      nostro, nec se quovismodo cum talibus componet, nobis vel vicario nostro irrequisitis, nec ab
+      aliquo laico Sacerdos vel clericus occulte vel manifeste, directe vel indirecte se faciat
+      quomodolibet talliari. </p>
+            <p n="a#83" xml:space="preserve">De fornicariis. </p>
+            <p n="a#84" xml:space="preserve">Item singuli plebani in ecclesiis suis solutos fornicarie cohabitantes in anno moneant ut aut
+      separentur aut se ipsos si valeant desponsent, quod si hujusmodi contempserint, ex tunc anno
+      evoluto in festo pascha a communione eucharistie suspendantur. </p>
+            <p n="a#85" xml:space="preserve">De Superstitiosis.</p>
+            <p n="a#86" xml:space="preserve">Item ad aures nostras nuper devenit qualiter quidam in quibusdam ecclesiis capellis et
+      cimiteriis in certis festivis vigiliis et noctibus, presertim Johannis baptiste et Botulphi
+      timore divino postposito mores gentilium sectantes coreas ducunt, ymagines de altaribus
+      deponunt, carmina turpissima canunt et alia quam plura superstitiosa singulis annis
+      consueverint exercere, talibus et similibus sacrilegis abusionibus omnino obviare volentes
+      mandamus strictissime hoc suis in locis in quibus hactenus hujusmodi facta sint publice per
+      curatos illorum inhiberi, ne Superstitiones prefatas vel hiis similes de cetero committant,
+      prout Sententiam excommunicationis ipso facto duxerint evitandam, quorum absolutionem nobis et
+      vicario nostro specialiter reservamus. </p>
+            <p n="a#87" xml:space="preserve">De matrimoniis. </p>
+            <p n="a#88" xml:space="preserve">Item precipimus cum matrimonia sint contrahenda ut Sacerdotes curati tribus dominicis diebus
+      publice nomina et conditiones contrahentium de ambone promulgare non omittant et Sponsalibus
+      clandestinis interesse caveant, nec secundas nuptias benedicant sub pena canonis. </p>
+            <p n="a#89" xml:space="preserve">Nota. </p>
+            <p n="a#90" xml:space="preserve">Item principalis perjurus qui alios inducit ad secum perjurandum penitebit septem annis, et
+      ad novem marcas <app><lem>d'</lem><rdg>Aa tilføjer <q>(Denariorum)</q></rdg></app> condempnabitur, compurgatores qui probabiliter decepti
+      perjurabant solvant tres marcas et quinquennio penitebunt, vel minus secundum exigentiam
+      circumstantiarum si visum fuerit imponenti. </p>
+            <p n="a#91" xml:space="preserve">Item districte precipiendo mandamus omnibus et singulis decanis curatis et vicecuratis per et
+      infra nostram dyocesim Lundensem constitutis, ut statuta precepta et mandata nostra singula
+      prenarrata in hac sancta synodo publicata et edita habeant conscripta, que et firmiter
+      observent sub penis in eisdem expressis nichilominus, etiam sub gravioribus, si visum fuerit
+      expedire, volentes cellerarium et decanos nostros respectum habere desuper singularem.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

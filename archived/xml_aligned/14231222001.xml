@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">97</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14231222001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="a">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Den Tyske Ordens arkiv i Königsberg (nu Berlin, Geheimes Staatsarchiv Preußischer Kulturbesitz)</repository>
+                        <collection>XX. HA, Ordensbriefarchiv (OBA)</collection>
+                        <idno>nr. 04205 (tidligere signaturnr. X LS Nr. 6)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Med påskrift: <q>Gebitiger Lyfflant</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Napiersky, Index corporis historico-diplomatici Livoniae, Esthoniae, Curoniae, nr. 1109,
+      p. 245 (regest)</bibl>
+               <bibl>Reg. Dan. nr. *4673</bibl>
+               <bibl>Hildebrand, Liv-, Est- u. Curländisches Urkundenb. VII, nr. 61, p. 45-46</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Hildebrand l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-12-22"
+                  notBefore="1423-12-22"
+                  notAfter="1423-12-22"
+                  cert="high">1423. 22. december</date>
+            <placeName cert="high">Marienburg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Højmesteren for Den Tyske Orden skriver til den livlandske ordensmester. </ab>
+            <ab>Højmesteren meddeler, at kong Erik 7. af Pommern og den romerske konge om kort tid vil mødes
+      i eller ved Breslau. </ab>
+            <ab>Endvidere meddeler højmesteren, at kong Erik er ved at rejse igennem Brandenburg. </ab>
+            <ab>Højmesteren meddeler endvidere, at Den Tyske Ordens storkomtur agter at deltage i mødet
+      imellem kong Erik og den romerske konge, hvorfor han nu er på vej igennem Polen til Breslau.
+      Storkomturen håber, at han med Guds hjælp vil være fremme i Breslau den 24. december 1423,
+      således at han kan deltage i mødet. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-04" who="#pbh">Filen etableret af #pbh 2014-06-04. </change>
+         <change when="2018-05-29" who="#smb">1. korrektur af #smb 2018-05-29. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Unsirn gar fruntlichin grus czuvor und alle gute.</p>
+            <p n="a#2" xml:space="preserve">Ersamer lieber her gebitiger.</p>
+            <p n="a#3" xml:space="preserve">.....</p>
+            <p n="a#4" xml:space="preserve">Man ruchtiget, das unsere herren, der Romische koning und der von
+        <placeName>Denenmarken</placeName>, nu bynnen kurcz werden czu Breslaw adir do ummelanges
+      czusampne komen. Des hat sich <persName>unser herre koning von Denenmarken</persName> irhaben
+      und czuet durch <placeName>die Marke</placeName>.</p>
+            <p n="a#5" xml:space="preserve">Und noch syner begerunge haben von uns gericht unsern groskompthur, der czuet durch
+        <placeName>Polan</placeName> und hoft mit Gotes hulfe czu <placeName>Breslaw</placeName> czu
+      seyn nu <app><lem>am heiligen Cristsabende</lem><rdg>dvs. 24. december 1423</rdg></app> bey dem vorgedochten unserm herren koninge adir aldo syner czukomft beiten. Got gebe,
+      das her mit begerten willen wedir czu hewse kome.</p>
+            <p n="a#6" xml:space="preserve">Gegeben czu Marienburg an der mitwoche noch Thome apostoli im 1423<hi rend="sup">ten</hi>
+      jore.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

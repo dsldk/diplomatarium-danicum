@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">288</num>, paragraphs: <num n="paragraphs">13</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14190609001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathssarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Med adresse: <q>Den erwerdigen vorsichtigen luden, borgermesteren und ratmannen
+        der Liiflendischen stede kome desse bref mit werdicheit etcetera</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift udfærdiget af stadssekretæren i Reval</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Bunge, Liv.-, Esth. u. Curländ. Urkundenb. V, nr. MMCDXVII (reg. 2867), sp. 580-581</bibl>
+               <bibl>Hanserec. VI, nr. 550, p. 528 (regest; med datering til 20. maj 1418)</bibl>
+               <bibl>Reg. Dan. nr. *4484</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Bunge l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-06-09"
+                  notBefore="1419-06-09"
+                  notAfter="1419-06-09"
+                  cert="high">[1419. 9. juni]</date>
+            <placeName cert="high">Viborg slot</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ridder Krister Nilsson ((Vasa), høvedsmand på Viborg slot) skriver til de livlandske
+      hansestæder. </ab>
+            <ab>Krister Nilsson meddeler, at han har modtaget et brev fra de livlandske hansestæder, hvori
+      de skriver, at rådet i Reval ikke har påført kong Erik 7. af Pommern og hans undersåtter
+      skader, men at de derimod blot har fulgt hansestædernes påbud. </ab>
+            <ab>Krister Nilsson gør de livlandske hansestæder opmærksomme på, at kong Erik ikke forventer
+      andet af de livlandske hansestæder end kærligt venskab. </ab>
+            <ab>Endvidere gør Krister Nilsson opmærksom på, at de livlandske stæder ikke må optræde
+      autoritativt over for kong Eriks undersåtter uden kong Eriks tilsagn. </ab>
+            <ab>Endvidere gør Krister Nilsson opmærksom på, at hverken de livlandske hansestæder eller rådet
+      i Reval har udsendt forvarsel til kong Eriks embedsfolk om, at de skulle være opmærksomme på
+      hansestædernes påbud. </ab>
+            <ab>Derimod er alt, hvad der er hændt kong Eriks undersåtter, hændt dem, mens de søgte de
+      livlandske hansestæders kærlighed og venskab. </ab>
+            <ab>Endelig meddeler Krister Nilsson, at hr. Johann v. d. Holte, rådmand i Reval, vil fortælle
+      de livlandske hansestæder alt, hvad han har hørt om kong Eriks undersåtters klager, idet han
+      netop har været hos Krister Nilsson. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-18" who="#smb">Filen etableret af #smb 2018-04-18. </change>
+         <change when="2018-04-18" who="#smb">1. korrektur af #smb 2018-04-18. </change>
+         <change when="2018-05-17" who="#smb">2. korrektur af #smb 2018-05-17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Vruntlike grote und wes ik gudes vormach.</p>
+            <p n="a#2" xml:space="preserve">Wetet, leven vrundes, dat ik juwen bref wol vornomen hebbe, alse juwe vorsichticheit mi to
+      schreff, dat de van <placeName>Revale</placeName> mines heren koninges gnaden und sinen
+      undersaten ninen vordreit edder schaden gedan hebben, ane dat der stede bod is.</p>
+            <p n="a#3" xml:space="preserve">Des hopet mi to Gode und to ju, dat gi dat selven wol derkennen konnen, dat mines heren gnade
+      van den steden und copmanne anders nicht vormodende is, men leve vruntschopp.</p>
+            <p n="a#4" xml:space="preserve">Ok hebben se nin ofverbod ofver mines heren undersaten to richtende, ane mines heren
+      vulbord.</p>
+            <p n="a#5" xml:space="preserve">Ok en hebben de stede edder de van <placeName>Revale</placeName> nine vorwarninge gedan edder
+      vorboed gesant an mines heren amptlude, stede edder undersaten, dat se sik vor jenich bod
+      hoeden solden.</p>
+            <p n="a#6" xml:space="preserve">Men allent dat en geschein is, dat is en wederfaren in der tosokinge in leive und in der
+      vruntschopp, alse se van oldinges bewone weren.</p>
+            <p n="a#7" xml:space="preserve">Item alse gi schriven, dat et mines heren amptluden, steden edder undersaten to ninem
+      vordreite edder schaden gedaen is, sunder in dat meine beste, dat beste bekenne God.</p>
+            <p n="a#8" xml:space="preserve">Ok kunne gi dat sulven wol derkennen, welkerleie wiis mines heren undersaten dat beste to
+      dreven is, und ik besorge mi des, alse ik juwer erbarheit er to schreven hebbe, wu de rad van
+        <placeName>Revale</placeName> sik noch nicht sulven richten, edder gi se dar ane
+      vullenkomeliken edder leifliken underwisen willen, dat dat beste wert in groter clage komen
+      vor mines heren gnade, vor andere heren und stede.</p>
+            <p n="a#9" xml:space="preserve">Vorder mer kan ju desse erber man, <persName>her Johan van me Holte, ratman to
+        Revale</persName>, alle dink berichten, wes he hiir gehort heft van clage der undersaten
+      mines heren.</p>
+            <p n="a#10" xml:space="preserve">Hiir van begere ik van juwer erbarheit een lefliik und een endich antworde.</p>
+            <p n="a#11" xml:space="preserve">Gode almechtich blivet bevolen to ewigen tiiden.</p>
+            <p n="a#12" xml:space="preserve">Gescreven to <placeName>Wiborch</placeName>, des vridages na Pinxsten.</p>
+            <p n="a#13" xml:space="preserve">Bi mi <persName>Kersten Niclisson, ritter</persName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

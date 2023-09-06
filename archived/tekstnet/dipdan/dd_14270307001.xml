@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">152</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270307001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2982-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>8.5 (plica: 1.8)</height>
+                                    <width>21.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift: <q>Breff aff lodhesæ om x lodige marc aff en
+      schipper</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Troels Olufsens bomærke i brunt voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Langebeks Diplomatarium</collection>
+                        <idno>XIV A 26 Danmark 1425-1430</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. 3471</bibl>
+               <bibl>Rep. nr. 6290</bibl>
+               <bibl>Jahn, Unionshist. 504, nr. 9 (tryk efter Aa)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-03-07"
+                  notBefore="1427-03-07"
+                  notAfter="1427-03-07"
+                  cert="high">1427. 7. marts</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skipper Troels Olufsens gældsbevis til dronning Filippa.</ab>
+            <ab>I brevet erklærer Troels Olufsen, at han har lånt 10 lødige mark af dronning Filippa til at
+      udruste sit skib, således at det kan bruges i kong Erik 7. af Pommerns krig mod
+      hansestæderne.</ab>
+            <ab>Endvidere forpligter Troels Olufsen sig til at tilbagebetale de 10 lødige mark 24. juni 1427
+      til enten dronning Filippa eller kong Erik, såfremt dronning Filippa måtte ønske det.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-17" who="#pbh">Filen etableret af #pbh 2014-07-17. </change>
+         <change when="2019-03-27" who="#smb">1. korrektur af #smb 2019-03-27. </change>
+         <change when="2019-04-17" who="#smb">2. korrektur af #smb 2019-04-17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Witlik vnde apenbare sy alle den yenen de dessen breff seen ofte horen lesen so bokenne vnde
+      botuge ik <persName>Throwels Olofsen</persName> apenbare indessen breue dat ik hebbe gelent van
+      der hochgeboren eddelen forstynnen vrowe <persName>Phylippen</persName> teyn lodige mark de se
+      my lent heft myn schip mede vt toreden in vnses gnedighen heren konink
+        <persName>Erykes</persName> krige ♦</p>
+            <p n="a#2" xml:space="preserve">Vnde weret zake dat ik eren gnaden dit gelt vorscreuen nicht af vor denen kunde in vnses
+      heren kryge so vorbinde ik vorbenomed <persName>Throwels</persName> my dar to mit mynen
+      erfnamen eren gnaden dit vorscreuen gelt wedder to geuen <app><lem>edder</lem><rdg><q>edder edder</q>, A</rdg></app> vnsem gnedighen heren konink <persName>Erike</persName> nu to <app><lem>zunte Iohans dage</lem><rdg>dvs. 24. juni 1427</rdg></app> negest to komende ofte ere gnade vns desser betalinge nicht lenger vordregen wolde
+      ♦</p>
+            <p n="a#3" xml:space="preserve">To tuchnisse desser warheyt so hebbe ik vorbenomed <persName>Throwels</persName> myn
+      ingezegel myt witschop laten hangen vor dessen breff de geuen vnde screuen is to
+        <placeName>Copmanhauen</placeName> na der bort vnses heren dusunt veer hundert yar indeme
+      souen vnde twintegesten yare des ersten vrigdages inder vasten ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

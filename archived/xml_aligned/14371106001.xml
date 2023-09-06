@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">159</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14371106001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 41206</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. <ab>På brevets bagside påskriften: <q>hust<ex>ru</ex> Angnete b<ex>re</ex>ff</q>
+                        </ab>1. Segl af mørkt voks i perg.rem tilhørende Agnete Eriksdatter
+        (Krummedige), AS F xxxi 12
+                              . 2. Segl af mørkt voks i perg.rem tilhørende Christiern Nielsen
+        (Vasa). 3. Segl af mørkt voks i perg.rem tilhørende Povl Jensen
+        (Laxmand), AS D xii 4
+                              . </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>afskrift i DSL's arkiv (Gammeldanske Diplomer 3. rk. II 78-79)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6907</bibl>
+               <bibl>Svenska Medeltidsregester nr. 646</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-11-06"
+                  notBefore="1437-11-06"
+                  notAfter="1437-11-06"
+                  cert="high">1437. 6. november</date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Agnete Eriksdatter, enke efter Sten Turesen, kasserer to breve af Hans Krøpelin
+      udfærdigede år 1436, af hvilke hvert lyder på 200 mark, da hun nu i stedet har fået et brev,
+      der lyder på 400 mark.  </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-28" who="#pbh">Filen etableret af #pbh 2013-11-28. </change>
+         <change when="2020-03-30" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-03-30. </change>
+         <change when="2020-05-09" who="#pbh">2. korrektur af #pbh 2020-05-09. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alla the som th<ex>e</ex>tta br<ex>e</ex>ff høra ell<ex>e</ex>r see hils<ex>er</ex> jak <persName>Agnetæ
+        Eriksdotter</persName> forthom <persName>Steen Thur<ex>e</ex>ss<ex>øn</ex></persName> husfru
+      war hues <app><lem>si[a]ll</lem><rdg wit="#A">usikker læsning, A</rdg></app> guth nathe kerleke m<ex>eth</ex> guth oc kungør m<ex>eth</ex> th<ex>e</ex>tta mit opnæ
+      breff th<ex>et</ex> jak hau<ex>er</ex> ij br<ex>e</ex>ff aff welboren man <persName>Hanns
+        Krøpelin</persName> aff huilke huart thera luth<ex>e</ex>r vppæ ii<hi rend="sup">c</hi>
+      m<ex>a</ex>rk suenske <app><lem>p[e]<ex>n</ex>ni<ex>n</ex>g<ex>e</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app> Stokholms mynt . oc æræ screfuen aar efter guthz byrth mcdxxxvi . ♦</p>
+            <p n="a#2" xml:space="preserve">Nw hau<ex>er</ex> for<hi rend="sup">de</hi> Hanns Krøpeliin gifuet mik jt annat breff som
+      luth<ex>e</ex>r vppa fyra hu<ex>n</ex>d<ex>re</ex>tha m<ex>a</ex>rk ♦ Thy
+      døth<ex>e</ex>r jak oc machtløs gør m<ex>eth</ex> th<ex>e</ex>tta br<ex>e</ex>ff the ij <app><lem>andr[a]</lem><rdg wit="#A">usikker læsning, A</rdg></app> breff vm the effter <app><lem>th<ex>e</ex>nn[a]</lem><rdg wit="#A">usikker læsning, A</rdg></app> dagh noker <app><lem>st[æ]th</lem><rdg wit="#A">usikker læsning, A</rdg></app> fy<ex>n</ex>nas <app><lem>ku<ex>n</ex>n[a]</lem><rdg wit="#A">usikker læsning, A</rdg></app> . ♦</p>
+            <p n="a#3" xml:space="preserve">Oc til yt<ex>er</ex>mer<ex>e</ex> forvaring heng<ex>e</ex>r jak mit jncighle til fulmacht fo<ex>re</ex>
+      <app><lem>th<ex>e</ex>[tt]a</lem><rdg wit="#A">usikker læsning</rdg></app> breff . ♦ Oc bethis erleka ma<ex>n</ex>na jncighle til witnisbyrth som æræ her
+        <persName>Cristiern Nielss<ex>øn</ex></persName> drozste j Swe<ex>r</ex>ige oc Pawel Laxman
+      afwapns fore th<ex>e</ex>tta br<ex>e</ex>ff . ♦</p>
+            <p n="a#4" xml:space="preserve">Scriptum <placeName>Lundis</placeName> anno domini mcdxxxseptimo feria quarta post festum
+      omnium sanctorum sub sigillis prenotatis \ ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

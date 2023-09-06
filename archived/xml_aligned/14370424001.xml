@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14370424001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 353 fol. 4v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>An. X. de Adria</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 96 nr. 1786</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-04-24"
+                  notBefore="1437-04-24"
+                  notAfter="1437-04-24"
+                  cert="high">1437. 24.
+          april</date>
+            <placeName cert="high">Bologna</placeName>
+         </creation>
+         <abstract>
+        <!--        <ab>Pave Eugenius 4. skriver til abbeden i Holme kloster i Odense stift. Ifølge
+                  en ansøgning af Peder Jensen, præst i Odense, har denne efter det gamle Odense
+                  hospitals ødelæggelse grundlagt et nyt hospital i Odense med kapel og kirkegård og
+                  en del indbo for egne midler og for troendes donationer; han har fået biskop Navne
+                  (Jensen (Gyrstings)) tilladelse hertil, og biskoppen har også indviet hospitalet.
+                  Peder har anmodet om at få pavelig bekræftelse på hospitalet, og om at få tilstået
+                  det gamle hospitals grund og øvrige gods. Idet paven ikke selv har kendskab til
+                  sagens enkeltheder, pålægger han brevets modtager at foretage undersøgelse, og
+                  såfremt det forholder sig som beskrevet, at bekræfte hospitalet og tilstå det det
+                  gamle hospitals grund og øvrige gods.</ab>-->
+            <ab>Pave Eugenius 4. pålægger efter supplik af Peder Jensen, præst i Odense, abbeden i Holme
+          kloster i Odense stift at undersøge sagsforholdet i Peder Jensens supplik. Af denne
+          fremgår det, at Peder Jensen, efter at det gamle hospital er blevet ødelagt og jævnet med
+          jorden, har grundlagt et nyt hospital i Odense med kapel og kirkegård og anskaffet det en
+          del indbo for egne midler og for troendes donationer, at han hertil har fået biskop Navne
+          (Jensen (Gyrstings)) tilladelse til grundlæggelsen, og at biskoppen desuden har indviet
+          hospitalet; Peder Jensen har anmodet om pavelig bekræftelse på grundlæggelsen, indvielsen
+          og anskaffelsen af indbo, og om at paven vil tilstå det nye hospital det gamle hospitals
+          grund og øvrige gods. </ab>
+            <ab>Såfremt abbeden ved sin undersøgelse finder, at det forholder sig som beskrevet, skal
+          han med pavelig myndighed bekræfte hospitalets grundlæggelse, indvielse og anskaffelsen af
+          indbo og tilstå det det gamle hospitals grund og øvrige gods, så længe andre kirker holdes
+          skadesløse. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-21" who="#pbh">Filen etableret af #pbh 2013-11-21. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Abbati <placeName>monasterii de Insula dei</placeName>
+               <placeName>Ottoniensis</placeName> diocesis.</p>
+            <p>Ad ea, que hospitalium (et aliorum piorum locorum commodum et utilitatem respiciunt,
+          libenter intendimus, et que propterea proinde processisse comperimus, ut illibata
+          persistant, apostolico munimine roboramus).</p>
+            <p>Exhibita siquidem nobis nuper pro parte <persName>Petri Johannis</persName> presbiteri
+          Ottoniensis petitio continebat, quod olim ipse, pie considerans hospitale civitatis
+          Ottoniensis, in quo pauperes peregrini infirmi et alie miserabiles persone recipi
+          consueverant, destructum et solo equatum existere et aliud, ad quod hujusmodi pauperes et
+          persone miserabiles ad civitatem confluentes eandem declinare possent, hospitale non esse,
+          quoddam aliud tam de propriis quam a Christi fidelibus acquisitis bonis in alio loco infra
+          dictam civitatem ad id magis congruo et honesto <persName>Naffnonis</persName> episcopi
+          Ottoniensis accedente licentia ad honorem dei et b. Marie virginis gloriose sub vocabulo
+          s. spiritus ac ss. Antonii et Olavi cum capella et cimiterio pro inibi decedentium
+          pauperum et infirmorum tumulandis corporibus hospitale construxit, hujusmodique cimiterium
+          et capellam per episcopum prefatum consecrari obtinuit, ac nonnulla alia bona pro lectis,
+          lectisterniis et aliis ad usum pauperum hujusmodi acquisivit, proponens etiam alia
+          acquirere domino concedente.</p>
+            <p>Quare pro parte dicti presbiteri nobis fuit supplicatum, ut constructioni, consecrationi
+          et rerum bonorumque acquisitioni hujusmodi robur apostolice confirmationis adjicere necnon
+          solum, in quo hospitale destructum hujusmodi situm erat, et alia bona quecunque ad illud
+          spectantia necnon legata per Christi fideles eidem destructo hospitali facta et pro
+          tempore facienda prefato de novo hospitali erecto concedere dignaremur.</p>
+            <p>Nos itaque .... discretioni tue mandamus, quatenus, si per summariam informationem per te
+          super hiis auctoritate nostra habendam inveneris ita esse, constructionem et
+          consecrationem necnon bona eidem novo hospitali hujusmodi cum supradictis <app>
+                  <lem>
+                     <supplied>acquisita</supplied>
+                  </lem>
+                  <rdg>tilføjet af Gertz</rdg>
+               </app> ac justo titulo acquirenda auctoritate nostra predicta, parrochialis et cujuslibet
+          alterius ecclesie jure salvo, appropries et confirmes, concessionem quoque soli et aliorum
+          bonorum destructi hospitalis ac legatorum eidem factorum, et que pro tempore fieri
+          contigerint, prefati et pro tempore existentis Ottoniensis episcopi consilio et consensu
+          accedentibus, prefato novo hospitali auctoritate nostra predicta appropries et
+          concedas.</p>
+            <p>Datum <placeName>Bononie</placeName> 8. kal. maji anno 7.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

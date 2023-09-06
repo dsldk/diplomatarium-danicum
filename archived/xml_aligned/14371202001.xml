@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14371202001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 357 (Eugenii IV. an. 7 lib. 94) fol. 281</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Efter teksten registrators egenhændige bemærkning: <q>An. xxxx. sextodecimo
+                      kal. januarii anno septimo. de Adria</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 335 (Eugenii IV. An. 6 lib. 113) fol. 320v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Teksten er ufuldstændig og overstreget</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 108 nr. 1802</bibl>
+               <bibl>Weibull, Dipl. dioc. Lund. III 191 nr. 196</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter Dipl. dioc. Lund. l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-12-02"
+                  notBefore="1437-12-02"
+                  notAfter="1437-12-02"
+                  cert="high">1437. 2.
+            december<note>Jf. <ref target="14381219002">DD 1438. 19. dec., nr.
+            14381219002</ref>
+               </note>
+            </date>
+            <placeName cert="high">Bologna</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Eugenius 4. pålægger ærkebiskoppen i Lund, abbeden i Allehelgenskloster ved Lund
+          og kantoren i Lund at undersøge og behandle den klage, som Peder Axelsen (Thott) har
+          indgivet imod Hagen Friis, prior i Dalby kloster i Lund stift, hvorved han anklager denne
+          for at have øvet vold mod en præst og frataget klostret dets ejendom. </ab>
+            <ab>Hvis Peder vil indgive en skriftlig anklage, skal de undersøge sagsforholdet, og såfremt
+          beskyldningerne passer, skal de afsætte Hagen Friis som prior og i hans sted indsætte
+          Peder, der studerer i Bologna, og han skal have lov at beholde sine hidtidige embeder
+          (provstiet i Lund, forenet med vor frue alter sammesteds, samt kanonikat og præbende
+          sammesteds, og provision på kanonikat og præbende i Roskilde), forudsat at klostret ikke
+          derved lider nogen skade. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-29" who="#pbh">Filen etableret af #pbh 2013-11-29. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-12-11" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <persName>Eugenius</persName> etc. venerabili fratri archiepiscopo
+            <placeName>Lundensi</placeName> et dilectis filiis abbati <placeName>monasterii Omnium
+            sanctorum</placeName> prope Lundis (!) ac cantori ecclesie Lundensis salutem etc. </p>
+            <p>Nobilitas generis, vite ac morum honestas aliaque laudabilia probitatis et virtutum
+          merita, super quibus apud nos <persName>Petrus Absolonis</persName> prepositus ecclesie
+          Lundensis fidedigno commendatur testimonio, nos inducunt, ut ea sibi favorabiliter
+          concedimus, que suis commoditatibus conspicimus fore oportuna. </p>
+            <p>Ad nostram siquidem audienciam domino Petro referente pervenit, quod <persName>Haquinus
+            Friis</persName> prior monasterii <placeName>Dalbuensis</placeName>, per priorem soliti
+          gubernari, ordinis sancti Augustini Lundensis diocesis, proprie <app>
+                  <lem>salutis</lem>
+                  <rdg>herefter tilføjer Weibull (unødigt) <q>anime</q>
+                  </rdg>
+               </app> immemor ac dei timore postposito ausu sacrilego in quendam presbiterum manus
+          injicere temere violentas non expavit, excommunicacionis propterea sentenciam damnabiliter
+          incurrendo ac excommunicacionis sentencia hujusmodi innodatus missas et alia divina
+          officia celebrare presumpsit ac plurima ad dictum monasterium legitime pertinencia res et
+          bona distraxit et dilapidavit in anime sue periculum et exemplum detestabile plurimorum. </p>
+            <p>Nos attendentes, quod, si est ita, prefatus Haquinus dicto prioratu merito reddidit se
+          indignum, ac volentes eidem Petro, qui, ut asserit, ex utroque parente de nobili genere
+          procreatus ac <persName>Erici</persName> regis <placeName>Dacie</placeName> illustris
+          cappellanus et cujus pater et frater ac plures consanguinei ejusdem consiliarii ac de
+          potencioribus regni Dacie existunt et reputantur quique Bononie jure canonico studet,
+          premissorum meritorum suorum intuitu graciam facere specialem discrecioni vestre per
+          apostolica scripta mandamus, quatenus vos vel duo aut unus vestrum per vos vel alium seu
+          alios, si dictus Petrus eundem Haquinum super premissis coram vobis <app>
+                  <lem>
+                     <supplied>accusare</supplied>
+                  </lem>
+                  <rdg>tilføjet efter <ref target="14381219002">DD 1438. 19. dec., nr.
+              14381219002</ref>
+                  </rdg>
+               </app> seque in forma juris inscribere voluerit, postquam ipsum accusaverit et se
+          inscripserit, ut prefertur, vocatis dicto Haquino necnon aliis, qui fuerint evocandi,
+          super premissis omnibus et singulis eorumque circumstanciis universis auctoritate nostra
+          vos diligenter informetis, et si per informacionem hujusmodi premissa vel eorum aliquod,
+          quod ad id sufficiat, veritate fulciri reppereritis, eundem Haquinum dicto prioratu
+          auctoritate nostra sentencialiter privetis et amoveatis realiter ab eodem, prout de jure
+          fuerit faciendum, et nichilominus, si privacionem et amocionem hujusmodi per vos fieri
+          contigerit, prioratum predictum, qui curatus et conventualis est et ad quem quis per
+          eleccionem consuevit assumi cujusque fructus, redditus et proventus vigintiquinque
+          marcharum argenti communi extimacione valorem annuum, ut ipse Petrus asserit, non
+          excedunt, … cum omnibus juribus et pertinenciis suis dicto Petro unacum prepositura
+          ejusdem ecclesie aliisque suis beneficiis ecclesiasticis, que pro tempore obtinebat et
+          expectabit, per eum usque ad sedis apostolice beneplacitum tenendum, regendum et
+          gubernandum eadem auctoritate commendare curetis ita, quod post commendam hujusmodi liceat
+          dicto Petro de hujusmodi ipsius prioratus fructibus, redditibus, proventibus debitis ejus
+          supportatis oneribus libere ac licite disponere et ordinare, sicuti de illis ejusdem
+          prioratus priores, qui pro tempore fuerint, disponere et ordinare potuerunt seu eciam
+          debuerunt, alienacione tamen bonorum immobilium et preciosorum mobilium dicti prioratus
+          eidem Petro penitus interdicta … non obstantibus … quod ipse Petrus, ut eciam asserit,
+          preposituram dicte ecclesie, que major inibi post pontificalem dignitas est cuique cura
+          imminet animarum et ad quem consuevit quis per eleccionem assumi et cui altare beate Marie
+          in eadem canonice unitum est, ac ejusdem canonicatum et prebendam obtinet nosque dudum
+          sibi de canonicatu et prebenda <placeName>Roskildensis</placeName> ecclesiarum, quorum
+          omnium decem et octo marcharum argenti fructus, redditus et proventus valorem annuum non
+          excedunt, tunc certo modo vacantibus provideri concessimus graciose, proviso quod in dicto
+          prioratu debitus monachorum et ministrorum numerus non minuatur ac divinus cultus in eo
+          nullatenus negligatur, sed ejus debite supportentur onera consueta … </p>
+            <p>Datum <placeName>Bononie</placeName> anno incarnacionis dominice mcdxxxviii quarto nonas
+          decembris anno septimo.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

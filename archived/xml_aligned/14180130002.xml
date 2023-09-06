@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">102</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14180130002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2655-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 20.8 × 9.5 (plica: 1.8). <ab>Forsynet med påskrift på bagsiden: <q>Lundbergherede
+      huldinge</q>
+                        </ab>1. Seglsnit. Seglet må have været Lundenberg herreds segl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Michelsen, Nordfriesland, nr. 25, p. 206</bibl>
+               <bibl>Falck, Staatsbürg. Mag. 8, nr. 25, p. 658</bibl>
+               <bibl>Rep. III 5699</bibl>
+               <bibl>Reg. 3325</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Michelsen l. l., konfereret med A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-01-30"
+                  notBefore="1418-01-30"
+                  notAfter="1418-01-30"
+                  cert="high">1418. 30. januar</date>
+            <placeName cert="low">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lundenberg herreds rådmænd og menighed tilstår at have hyldet hertug Heinrich af Slesvig og
+      svoret at være tro og lydige mod ham som deres rette arveherre og erklærer, at de vil give ham
+      skyld og skat. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
+         <change when="2017-05-24" who="#smb">1. korrektur af #smb 2017-05-24. </change>
+         <change when="2017-10-24" who="#smb">2. korrektur af #smb 2017-10-24. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Wẏ radmanne vnde gantze menheit an <placeName>L{uv}ndbergheheerde</placeName> . bekennen vnde
+      betughen openbare an dessen breue . dat wi vnsem gnedighen heren <persName>hertoghen Hinrike
+        van Sleswijk greuen to Holsten</persName> etcetera huldighet vnde sworen hebben tr{ue}we
+      vnde vnderdanich to wesende / alse vnsem rechten erffboren heren vnde willen em sch{ae}t vnde
+      schulde gheuen . vnde jn allermathe horsam wesen alse wi sinen vor olderen dan hebben / vnde
+      st{ae}n anders neneme heren huldinghe to . wen em . vnde sinen eruen . ♦</p>
+            <p n="a#2">Des to tughe so is vnses heerdes jngheseghel henghet an dessen breff de gheuen is na Godes
+      bord veerteynhundert jare dar na an dem achteynden jare des sondaghes vor lichtmissen ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

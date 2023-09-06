@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">83</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14140618001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR 2546-b</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. 5474</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Rep. l.l.</ref>
+            </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-06-18"
+                  notBefore="1414-06-18"
+                  notAfter="1414-06-18"
+                  cert="high">1414. 18. juni <note>Udgivet efter Rep. l.l., da teksten ikke har været tilgængelig for
+                udgiver april 2021</note>
+            </date>
+            <placeName cert="unknown">Helsingborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ærkebiskop Peder (Mikkelsen (Kruse)) af Lund meddeler biskoppen i Ribe (Peder
+                        Lykke), at han har modtaget kaldelse fra pave Johannes 23 vedr. et koncilium
+                        i Konstanz, og han anmoder om, at indholdet gøres bekendt blandt Ribe stifts
+                        gejstlighed. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Petrus archiepiscopus Lundensis domino Petro episcopo Ripensi. Litteras domini
+                        Johannis pape XXIII, sub bulla ejus plumbea in filo canopi recepimus: Archiepiscopo Lundensi
+                        (etc. =  
+                        <ref target="14131212002">DD 1413. 12. dec., nr. 14131212002</ref>). Nos igitur devotionem vestram requirimus, quatenus convocatis ecclesie
+                        vestre prelatis, capitulo, abbatibus, prioribus exemptis et non exemptis
+                        omnibusque clericis vestre dyocesis, quos hujusmodi negotium tangere
+                        videritis, apostolicam convocationem et requisitionem eis sollempniter
+                        intimetis secundum formam litterarum nobis a sede apostolica directarum, de
+                        hiis, que circa hujusmodi intimationem egeritis, nobis rescribentes. Datum
+                        Helsingburgh die Marci et Marcelliani nostro sub secreto.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

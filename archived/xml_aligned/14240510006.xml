@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">29</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">44</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14240510006</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <idno>NKR 2813-b, bagsiden cf. 14230812001 </idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>SRD VII p. 367-68</bibl>
+               <bibl>Rep. 6105</bibl>
+               <bibl>Reg. 3409</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-05-10"
+                  notBefore="1424-05-10"
+                  notAfter="1424-05-11"
+                  cert="high">1424. 10. maj - 1424. 11. maj</date>
+            <placeName cert="unknown">Slesvig by</placeName>
+         </creation>
+         <abstract>
+            <ab>Hertug Heinrich erklærer i tilknytning til en af biskop Johannes af Ratzeburg udstedt vidisse, at Ludovicus de Cattaneis ikke
+                indfandt sig til vidneførelsen i Slesvig by, og foranlediger Matheus Ditmari til at
+                udfærdige notarialvidne herom. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-02-09" who="#mh">Filen etableret af #mh 2015-02-09. </change>
+         <change when="99999999" who="#mh">1. korrektur af #mh 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <ex>Teksten er identisk med 14240510001 bortset fra den enkelte passus</ex> quorum tenores hic retro per illustrem principem et dominum
+                        dominum Wilhelmum Brunswicensem ducem etc <ex>der i denne udgave er erstattet af</ex> quorum tenores hic retro per reverendum
+                        in Christo patrem et dominum dominum Johannem episcopum Razeburgensem.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <ex>Oversættelsen er identisk med 14240510001 bortset fra den enkelte passus</ex> ... hvis ordlyd her på den anden side er vidimeret af
+                        den berømmelige fyrste og herre, hr. Wilhelm, hertug af Braunschweig osv. <ex>der i denne udgave er erstattet af</ex> ... hvis ordlyd
+                        her på den anden side er er vidimeret af den ærværdige herre og fader i Kristus, hr. Johannes, biskop af Ratzeburg.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

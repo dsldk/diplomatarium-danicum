@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">174</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14190201002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Samtidig afskrift vedlagt den livlandske ordensmesters brev til rådet i Reval af
+      17. februar 1419</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Bunge, Liv.-, Est.- u. Curländ. Urkundenb. V, nr. MMCCXCV, sp. 451-452 (Reg. nr.
+      2736)</bibl>
+               <bibl>Reg. Dan. nr. *4473</bibl>
+               <bibl>Svenskt Diplomatarium, nr. 2578 (SDHK-nr. 19215)</bibl>
+               <bibl>Finlands Medeltida Urkunder, nr. 1554</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Bunge l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-02-01"
+                  notBefore="1419-02-01"
+                  notAfter="1419-02-01"
+                  cert="high">1419. 1. februar</date>
+            <placeName cert="high">Viborg slot</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hr. Krister Nilsson (Vasa), høvedsmand på Viborg slot, klager til den livlandske
+      ordensmester over, at kong Erik 7. af Pommern endnu ikke har fået svar på sin klage over den
+      skade, som er blevet påført hans undersåtter i Reval.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-10" who="#pbh">Filen etableret af #pbh 2014-04-10. </change>
+         <change when="2020-11-30" who="#smb">1. korrektur af #smb 2020-11-30. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Minen otmodigen denst vorgescreven.</p>
+            <p n="a#2" xml:space="preserve">Wetet, leve gnedige here, also ik juwer erwerdicheit in deme vorjare to screff umme den
+      schaden und overgewalt, den de van <placeName>Revell</placeName> mines heren koninges
+      undersaten to gedreven hebben, und des juwe werdicheit mines heren gnaden und mi to gescreven
+      hebben, dat id in vruntschope stande bleve, wente juwe werdicheit hadde eine reise voor an den
+      meister van <placeName>Prutsen</placeName>, wenne Got wolde, dat juwe werdicheit von dar
+      queme, so wolde juwe werdicheit den rad van <placeName>Revell</placeName> vorboden und
+      underwisen se, also dat mines heren undersaten liik und redlicheit derfaren scholde, wes noch
+      nicht geschen is.</p>
+            <p n="a#3" xml:space="preserve">Des heft mines koninges gnade to mi gescreven und wundert grofliken, wo desse antword so
+      lange getogert si, und sine gnade menen, dat ed mine vorsumenisse si.</p>
+            <p n="a#4" xml:space="preserve">Hirumme bidde ik juwe erwerdicheit umme ein antword van mines heren gnaden wegen.</p>
+            <p n="a#5" xml:space="preserve">Nicht mer to desser tiid, sunder ik bevele ju Gode, de ju bewaren mot an liif und an
+      sele.</p>
+            <p n="a#6" xml:space="preserve">Bedet over mi, alse over juwen dener.</p>
+            <p n="a#7" xml:space="preserve">Gescreven to <placeName>Wyborch</placeName>, an unsen leven vrowen avende to lichtmissen.</p>
+            <p n="a#8" xml:space="preserve">Bi mi <persName>Kersten Niclesson</persName>, ritter.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

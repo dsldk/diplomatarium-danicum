@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">248</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14220424001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Adresse: <q>Den ersamen vorsichtigen luden, borgermesteren unde radmannen to
+        Revale, kome desse bref mit werdicheit</q>
+                        </ab>1. Rester af Krister Nilssons segl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Bunge, Liv.-, Est.- u. Curländ. Urkundenb. V, nr. MMCDXXVIII, sp. 590-591 (Reg. nr.
+      2878)</bibl>
+               <bibl>Reg. Dan. nr. *4612</bibl>
+               <bibl>Svenskt Diplomatarium, nr. 2760 (med usikker datering til 24. april 1420)</bibl>
+               <bibl>SDHK-nr. 19849</bibl>
+               <bibl>Hansisch. Urkundenb. VI, nr. 425, p. 234-235</bibl>
+               <bibl>Finlands Medeltida Urkunder, nr. 1692</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Bunge l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-04-24"
+                  notBefore="1422-04-24"
+                  notAfter="1422-04-24"
+                  cert="high">[1422.] 24. april</date>
+            <placeName cert="high">Viborg slot</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrivelse fra hr. Krister Nilsson (Vasa), høvedsmand på Viborg slot, til rådet i Reval
+      angående Johan Purin, som er flygtet fra kong Erik 7. af Pommerns riger, samt angående et
+      forbud mod at sælge salt til kong Eriks undersåtter. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
+         <change when="2020-12-15" who="#smb">1. korrektur af #smb 2020-12-15. </change>
+         <change when="2021-01-15" who="#smb">2. korrektur af #smb 2021-01-15. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Vruntlike grote to voren gescreven und wes ik gudes vormach to juwer beheglicheit.</p>
+            <p n="a#2" xml:space="preserve">Wetet, leven vrundes, <cit><quote>also ik ju er to gescreven</quote><bibl>det drejer sig om Krister Nilssons brev til rådet i Reval, <ref target="14220324001">DD
+            1422. 24. mar., nr. 14220324001</ref></bibl></cit> hebbe umme <persName>Hans Purin</persName>, de mi untweken is ute den riken und ut deme
+      rechte van <placeName>Sweden</placeName>, dat gi wol don und stellet ene mi to rechte, also
+      dat he mi ut juwen rechte nicht untkome, dat wil ik vruntliken kegen ju vorschulden.</p>
+            <p n="a#3" xml:space="preserve">De mester heft mi to gescreven, dat he to ju in juwe stat wil komen up sunte Johannes dach
+      Baptisten negest to komende, edder sin vulmechtige bot to ju senden, umme de sake des
+      vorgescreuen <persName>Purines</persName>, so <app><lem>moge gi</lem><rdg><q>mogi</q>, A</rdg></app> horen und derfaren, wo et dar umme si.</p>
+            <p n="a#4" xml:space="preserve">Item wetet, leven vrundes, dat mines heren, des koninges undersaten, buren und koplude hir
+      meinliken dagen, dat en nemant in juwer stat solt vorkopen wil, des ik doch nicht loven wil,
+      wente dat in vortiiden mit vorworden also vorwaret is, dat gen vorbot edder wederstal mer
+      scholde scheen in juwer stat, de mines heren, des koninges, undersaten to schaden komen
+      mochte.</p>
+            <p n="a#5" xml:space="preserve">Hir umme, leven vrundes, latet de vorwort vaste bliven, und maket dat also, dat de naberschop
+      und de vruntschop tuschen den landen jo vaste blive.</p>
+            <p n="a#6" xml:space="preserve">Üterliker hebbe ik her <persName>Willam</persName>, wiser desses breves, befolen desse
+      vorgescreuen sake und ander sake ju muntliken berichten und <persName>Hans van
+        Lynen</persName>, mime dener, vorder wenne ik ju to scrive.</p>
+            <p n="a#7" xml:space="preserve">Hir van begere ik ein vruntlik antwart van ju mit den ersten.</p>
+            <p n="a#8" xml:space="preserve">Gode almechtige siit befolen to ewigen tiiden.</p>
+            <p n="a#9" xml:space="preserve">Bedet to mi, alse to juwem guden vrunde.</p>
+            <p n="a#10" xml:space="preserve">Gescreuen to <placeName>Wiborch</placeName>, an sunte Markus avende.</p>
+            <p n="a#11" xml:space="preserve">Bi mi <persName>Kersten Niclesson</persName>, ritter.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

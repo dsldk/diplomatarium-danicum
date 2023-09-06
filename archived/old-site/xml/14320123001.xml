@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">103</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">139</num>, paragraphs: <num n="paragraphs">4</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14320123001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <idno>SDHK-nr. 21716</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary>Den offentlige notar Peder Tidemansen fra Roskilde stift udfærdiger et 
+                notarialinstrument om tomtgäld i Norberg til Oluf Jakobsen Knop, biskop i Västerås.</summary>
+                        <msItemStruct>
+                           <filiation>
+                              <ab>empty</ab>
+                           </filiation>
+                        </msItemStruct>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Venstre margin af notarunderskriften er indrykket for at give plads 
+                        til notarmærket</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl for Johannes, præst i Folkärna, af ufarvet voks i
+                                perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Segl for Benedictus, præst i Norberg, af ufarvet voks i
+                                perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl for Narve, prebendatus (kannik?) ved Västerås domkirke
+                                af mørkt voks i ufarvet, i perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Stump af vokssegl i perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Laurentius Johanssons segl af ufarvet voks i
+                                perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Engelbrekt Engelbrektssons segl af ufarvet voks i
+                                perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>Reg. 3518</bibl>
+                           <bibl>Dipl. Dalekarlicum I 75-77 nr. 76 (her dateret "1422 d. 23 Januari?")</bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>A</ref>. Da brevet vedrører rent svenske forhold er kun dateringen og 
+                        Peder Tidemansens notarunderskrift medtaget.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-01-23"
+                  notBefore="1432-01-23"
+                  notAfter="1432-01-23"
+                  cert="high">1432. 23. januar</date>
+            <placeName cert="high">Norberg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-08-19" who="#alk">Filen etableret af #alk 2016-08-19. </change>
+         <change when="2016-10-10" who="#alk">1. korrektur af #alk 2016-10-10. </change>
+         <change when="2016-10-31" who="#alk">2. korrektur af #alk 2016-10-31. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">In nomine domini amen . ♦</p>
+            <p n="a#2">Anno a nativitate ejusdem mcdxxxii indiccione x . die vero mercurii xxiii mensis
+                        januarii hora nonarum vel quasi pontificatus sanctissimi in Christo patris
+                        ac domini domini <persName>Eugenii</persName> divina providencia pape quarti
+                        anno ejus primo ♦</p>
+            <p n="a#3">[.....]</p>
+            <p n="a#4">
+               <figure>
+                  <figDesc>Til venstre herfor Peder Tidemansens notarmærke</figDesc>
+               </figure>
+                        Et ego <persName>Petrus Tydemanni</persName> clericus
+                                <placeName>Roskildensis diocesis</placeName> publicus auctoritate
+                        imperiali notarius quia premissis omnibus et singulis dum sic ut premittitur <app>
+                  <lem>agerentur</lem>
+                  <rdg resp="#alk">
+                     <q>augerentur</q>, A</rdg>
+               </app> et fierent una cum prenominatis testibus presens interfui eaque sic
+                        fieri vidi et audivi ideoque hoc presens publicum instrumentum . manu
+                        propria scriptum exinde confeci publicavi et in hanc formam <app>
+                  <lem>redegi</lem>
+                  <rdg wit="#A">tilføjet over linjen, A</rdg>
+               </app> signoque et nomine meis solitis et consuetis signavi rogatus et
+                        requisitus in fidem et testimonium omnium et singulorum premissorum
+                        ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I Herrens navn amen.</p>
+            <p n="b#2">I år 1432 efter sammes fødsel, i den 10. indiktion, onsdag den 23. i januar
+                        måned, ved middagstid eller deromkring, i det første embedsår for den
+                        allerhelligste fader i Kristus og herre, hr. Eugenius, ved det guddommelige
+                        forsyn den fjerde pave (af dette navn).</p>
+            <p n="b#3">[.....]</p>
+            <p n="b#4">
+               <figure>
+                  <figDesc>Til venstre herfor Peder Tidemansens notarmærke</figDesc>
+               </figure>Og
+                        jeg Peder Tidemansen, klerk i Roskilde stift, ved kejserlig autoritet
+                        offentlig notar, har, fordi jeg sammen med de førnævnte vidner var til stede
+                        ved hvert og alt det førnævnte, mens det blev udført og foregik således som
+                        før fortalt, og jeg så og hørte det foregå således, derfor affattet dette
+                        egenhændige, offentlige instrument herom, og adspurgt og opfordret dertil
+                        har jeg offentliggjort det og opsat det i denne form og underskrevet det med
+                        mit sædvanlige og vante mærke og navn til sikkerhed og vidnesbyrd om hvert
+                        og alt det førnævnte.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">100</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14281006001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3037</idno>
+                        <msName>tidl.: Ribe Stiftkistes breve, nr. 188</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>11 (plica: 1.5)</height>
+                                    <width>25.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden: <q>Dimissio bonorum in Sale per quendam Jes Jwll ad manus
+        dominorum de capitulo Ripensi</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jens Juels segl i mørkt voks i perg.rem, AS G xvii 2
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Ivar Juels segl i mørkt voks i perg.rem, nu i seglsamlingen,
+        RA), AS G xvii 3
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Brevet er registreret i København. Rigsarkivet. Gejstlige Arkiver. Ribe Kapitel
+      1553. Registratur over Ribes kapitels arkiv f. 304r, trykt ÆA V 412 nr. S.
+      9</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6375</bibl>
+               <bibl>O. Nielsen, Harsyssels Diplomatarium (1893), s. 26-27 (nr. 24)</bibl>
+               <bibl>Vejledende arkivreg. XVIII 274 nr. 292</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-10-06"
+                  notBefore="1428-10-06"
+                  notAfter="1428-10-06"
+                  cert="high">1428. 6. oktober</date>
+            <placeName cert="high">Viborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens (Pallesen) Juel, væbner, tilbageleverer det gods i Sahl sogn, Ginding herred, som han
+      havde lejet af Ribe domkapitel.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-29" who="#pbh">Filen etableret af #pbh 2014-07-29. </change>
+         <change when="2019-01-22" who="#jon">1. korrektur af #jon 2019-01-22. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Jegh <persName>Jess Jwl</persName> awabn beke<ex>n</ex>nes th<ex>et</ex> m<ex>eth</ex>
+      th<ex>et</ex>tæ myt obne breff ath jek haw<ex>er</ex> vplat ok m<ex>eth</ex> th<ex>et</ex>tæ
+      myt breff vplader heth<ex>e</ex>rligh men so<ex>m</ex> ær h<ex>er</ex>
+      <persName>Pally Daa</persName> och h<ex>er</ex>
+      <persName>Thomas Jenss<ex>øn</ex></persName> kanekæ j <placeName>Ribæ</placeName> alt
+      th<ex>et</ex> gotz som jegh haw<ex>er</ex> hafd aff capitelet j <placeName>Ribæ</placeName> j
+        <placeName>Salæ soghen</placeName> i <placeName>Gedingeh<ex>e</ex>r<ex>et</ex></placeName>
+      ok wil jegh och schal igen andworthæ capitel<ex>et</ex> j <placeName>Ribæ</placeName>
+      allæ breff ok bewisningæ<ref target="drb1"/> so<ex>m</ex> jek haw<ex>er</ex> aff for<hi rend="sup">de</hi> capitel<ex>et</ex> j
+        <placeName>Ribæ</placeName> ok kend<ex>es</ex> jek megh engen yd<ex>er</ex>mer<ex>e</ex> ræt
+      ell<ex>e</ex>r nog<ex>er</ex> tiltalæ att hawæ j for<hi rend="sup">de</hi> gotz ♦</p>
+            <p n="a#2" xml:space="preserve">Datum <placeName>Wibergis</placeName> anno domini m<hi rend="sup">o</hi>cdxxviii<hi rend="sup">o</hi> feria quarta proxima post festum benigni Francisci meo sub sigillo una cum
+      sigillo dilecti filii mei <persName>Iwari Jwll</persName> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14171121003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary/>
+                        <msItemStruct/>
+                     </msContents>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Reg. Lat. 198 fol. 125</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary>Paven befaler officialen i Ratzeburg at overdrage kanniken Johannes Coband
+                  fra Bremen stift to evige vikariater ved sankt Cæciliekirken og sognekirken i
+                  Güstrow i Kammin stift, skønt præsten Niels Bouwenstorp fra Odense stift
+                  uretmæssig sidder inde med dem</summary>
+                        <msItemStruct/>
+                     </msContents>
+                     <physDesc>
+                        <ab>Påskrift: <q>Franciscus. XXX. 18. kal. dec. anno 2. de Agello</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 250 nr. 1228</bibl>
+               <bibl>Repertorium Germanicum IV nr. 6882</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-11-21"
+                  notBefore="1417-11-21"
+                  notAfter="1417-11-21"
+                  cert="high">1417. 21.
+          november</date>
+            <placeName cert="high">Konstanz</placeName>
+         </creation>
+         <abstract>
+        <!--<ab>Paven befaler officialen i Ratzeburg at overdrage kanniken Johannes Coband fra Bremen
+          stift to evige vikariater ved sankt Cæciliekirken og sognekirken i Güstrow i Kammin stift,
+          skønt præsten Niels Bouwenstorp fra Odense stift uretmæssig sidder inde med dem.</ab>-->
+            <ab>Pave Martin 5. pålægger officialen i Ratzeburg at overdrage to evige vikariater i
+          Güstrow i Cammin stift, det ene i Skt. Cecilies kirke og det andet i sognekirken, til
+          Johannes Coband, klerk fra Bremen stift, selvom de uretmæssigt besiddes af Nicolaus
+          Bouwenstorp, der hævder at være præst fra Odense stift. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+        <!--  <p n="a#1">Officiali Razeburgensi. Rationi congruit etc. Dudum siquidem per Baldassarem, in sua
+            obedientia, de qua partes ille erant, tunc Johannem XXIII nuncupatum, accepto, quod olim
+            una in s. Gecilie tunc de novo canonice fundata atque dotata, nondum tamen in illa
+            aliquo perpetuo vicario instituto, et alia in parrochiali opidi Gostrowensis Gaminensis
+            diocesis ecclesiis, quam Johannes Becker obtinebat, per eiusdem Johannis obitum perpetue
+            vicarie sine cura vacabant, licet Nicolaus Bouwenstorp, qui se gerit pro presbitero
+            Ottoniensis diocesis, illas detinebat indebite occupatas, idem Baldassar, tunc Johannes
+            XXIII, volens Johannem Goubant clericum Bremensis diocesis . . . favore prosequi
+            gratioso, concessit, videlicet die 10. kal. nov. anno 1, vocatis dicto Nicolao et aliis,
+            qui forent evocandi, illam in dicta ecclesia s. Gecilie et aliam perpetuas vicarias
+            [fructus 8 mr.] eidem Johanni Goband conferri . . . Ne autem prefatus Johannes Goband
+            concessionis predicte pro eo, quod supsr illa dicti Baldassaris prefata durante
+            obedientia littere confecte non fuerunt, frustretur effectu, decernentes, quod . .
+            concessio predicta perinde a dicta die sortiatur effectum, ac si super ea dicti
+            Baldassaris, tunc Johannis XXIII, littere sub ipsius diei data confecte fuissent . . .
+            ., discretioni tue mandamus, quatenus, si, vocatis Nicolao predicto et aliis, qui
+            fuerint evocandi, vicarias easdem dicta die vacasse [et] prefatum Johannem Goband ad hoc
+            idoneum esse reppereris, vicarias predictas eidem Johanni Goband conferas. Datum
+            Gonstantie 11. kal. dec. anno 1.
+Franciscus. XXX. 18. kal. dec. anno 2. de Agello
+Reg. Lat. . 198 fol. 125.
+Æ </p>-->
+            <p xml:lang="la">Pave Martin 5. pålægger officialen i Ratzeburg at overdrage to evige
+          vikariater i Güstrow i Cammin stift, det ene i Skt. Cecilies kirke og det andet i
+          sognekirken, til Johannes Coband, klerk fra Bremen stift, selvom de uretmæssigt besiddes
+          af <q>
+                  <persName>Nicolaus Bouwenstorp</persName>, qui se gerit pro presbitero
+              <placeName>Ottoniensis diocesis</placeName>
+               </q>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

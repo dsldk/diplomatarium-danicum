@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">24</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14500000045</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste
+                        arkivregistraturer. Registratur over Maribo klosters breve (1624), upag.,
+                        øverst på siden overskriften <q>Pergamentz breffue</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA III 274 nr. A. 274</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1450" notBefore="1450" notAfter="1450" cert="high">1450<note>Antallet af breve og deres respektive indhold kan ikke afgøres med
+                sikkerhed</note></date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Breve i Maribo klosters arkiv om gods i sognet og landsbyen Hillested,
+                        Errindlev, Hunseby, Skottemarke, Søllested og Sædinge.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-19" who="#pbh">Filen etableret af #pbh 2013-09-19. </change>
+         <change when="2019-03-25" who="#alk">1. korrektur af #alk 2019-03-25. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">J itt knippe num<ex>er</ex> 271 findis skiøder paa goedz i <placeName><app><lem>Kotte</lem><rdg wit="#A">Således reg., muligvis fejl for <q>Rotte</q>,
+                                                dvs. Rå, Hillested sogn, Fuglse herred</rdg></app></placeName> i <placeName>Hillested sogn</placeName>, i
+                                <placeName>Hillested bye</placeName>, i
+                                <placeName>Jerendeløff</placeName>, i
+                                <placeName>Huntzeby</placeName>, i
+                                <placeName>Skofftemarcke</placeName>, i
+                                <placeName>Sølffuistede</placeName> och i
+                                <placeName>Sedinge</placeName>, ♦</p>
+            <p n="a#2" xml:space="preserve">1421, 50, 23, 61. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatarium Danicum</title>
+        <editor>
+          <name xml:id="pbh">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
+      <publicationStmt>
+        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <pubPlace>København</pubPlace>
+        <date>2015</date>
+        <idno type="dd">14211215003</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom</settlement>
+                <repository>Archivio di Stato</repository>
+                <idno>Annate 1421-23 fol. 71</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>I margin: <q>De fructibus male perceptis</q></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>APD II 327 nr. 1383</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+      </samplingDecl>
+      <projectDesc>
+        <ab>DD-5</ab>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+          <desc>nil</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1421-12-15" notBefore="1421-12-15" notAfter="1421-12-15" cert="high">1421. 15.
+            december<note>Ang. Jens Finsens provision, jf. <ref target="14180530002">DD 1418. 30.
+              maj, nr. 14180530002</ref> og <ref target="14180530003">DD 1418. 30. maj, nr.
+              14180530003</ref></note></date>
+        <placeName cert="high">empty</placeName>
+      </creation>
+      <abstract>
+        <ab>Det pavelige kancellis optegnelse af Bartholomeus Dellante, klerk ved det pavelige
+          kammer, at Oluf Jakobsen (Knop), provst i Roskilde, nu biskop i Västerås, på vegne af Jens
+          Finsen (Ulfeldt) har lovet at betale annater af provstiet i Tofte og sognekirken
+          i Hjulby, i alt takseret til 5 mark.</ab>
+      </abstract>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>empty</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-06-13" who="#pbh">Korrektur af scan osv.</change>
+      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="nil"/>
+  </facsimile>
+  <text>
+    <body>
+      <div xml:lang="la">
+        <p n="a#1">[1421] Eadem die dominus <persName>Olavus Jacobi</persName> propositus
+            <placeName>Roskildensis</placeName>, nunc episcopus Arosiensis, procuratorio nomine,
+          prout publico constabat instrumento, obligavit se camere nomine <persName>Johannes
+            Fynnonis</persName> super annata <placeName>prepositure ruralis Toftensis</placeName>,
+          cui parrochialis ecclesia <placeName>Glambetofte</placeName> Ottoniensis diocesis est
+          annexa [fructus 6 mr.], vacantis per constitutionem <cit>
+            <quote>Execrabilis</quote>
+            <bibl>Extrav. Jo. XXII 3.1 (Friedberg II 1207-1209)</bibl>
+          </cit>, [ac] parrochialis ecclesie in <placeName>Hywlby</placeName> dicte diocesis
+          [fructus 4 mr.], collatarum eidem <placeName>Berne</placeName> Lausanensis diocesis 3.
+          kal. junii anno 1.</p>
+        <p>Item in dictis bullis asseruit se nullos fructus percepisse ex prepositura et parrochiali
+          ecclesia predictis, licet de facto tenuisset per annum contra constitutionem
+          Execrabilis.</p>
+        <p><persName>B. Dellante</persName>.</p>
+      </div>
+      <div xml:lang="da">
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap></p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">344</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14250399001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                  Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Königsberg</settlement>
+                        <repository>Königliche Bibliothek</repository>
+                        <collection>empty</collection>
+                        <idno>Handschrift Nr. 1555</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc>
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab/>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrifter: A. <q>Littera salvi conductus regi Dacie missa in cancellaria domini
+                              regis Polonie, super quam noluit regnum Polonie intrare nec venire ad dominum Regem.</q> B.
+                              <q>Littera salviconductus, ad quam dixit velle venire, que per notarios est ejus
+                                 concepta</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab/>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4723</bibl>
+               <bibl>
+                  <ref>Archiv für Österreichische Geschichte</ref> 45, 431-33. Også udgivet separat som <ref>liber
+                     cancellariae Stanislai Ciołek. Ein Formelbuch der polnischen Königskanzlei aus der Zeit der
+                     husitischen Bewegung.</ref> Hrg. J. Caro, Wien 1871</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Arkivalske oplysninger og tekst efter Archiv f. Österreichische Geschichte l.l.
+            </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-03"
+                  notBefore="1425-03"
+                  notAfter="1425-03"
+                  cert="high">1425. marts</date>
+            <placeName cert="high">Tirnau</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>To udkast til Vladislav 2.'s lejdebrev for Erik 7. af Pommern i forbindelse med hjemrejsen
+               fra Det Hellige Land. A: Udfærdiget af den polske konges kancelli, men afvist af Erik. B.
+               Udfærdiget af den danske konges notarer.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-09-27" who="#pz">Filen etableret af #pz 2020-09-27. </change>
+         <change when="2020-09-29" who="#pz">1. korrektur af #pz 2020-09-29. </change>
+         <change when="2020-10-30" who="#mh">2. korrektur af #mh 2020-10-30. </change>
+         <change when="2020-11-30" who="#pz">3. korrektur af #pz 2020-11-30 . </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">A</p>
+            <p n="a#2" xml:space="preserve">Universis et singulis tam spiritualibus quam secularibus principibus nec non palatinis,
+      capitaneis, burgraviis, nobilibus, terrigenis, vasallis, omagialibus, magistris civium,
+      consulibus, civitatibus et omnibus subditis regni nostri fidelibus dilectis graciam regiam et
+      omne bonum. </p>
+            <p n="a#3" xml:space="preserve">Quia serenissimus princeps illustris dominus <persName>Ericus</persName> eadem gracia rex
+      Dacie etc: frater noster carus expletis peregrinacionis sue votis in terra sancta ad propria
+      et sedem regni sui per terras regni nostri et dominiorum nostrorum sanus et incolumis auspice
+      domino revertitur, et ut speramus nostram eciam intendit videre majestatem, nobiscum de
+      diversis itineris sui casibus et aliis occurrentibus et necessitatibus locuturus, ideo
+      mandamus vobis et districte precipimus, quatenus sibi, quando et quociens per terras semitas
+      bona dominia castra loca vestra et dicioni vestre supposita et commissa usque sedem regni
+      proprii transiverit et transire voluerit, cum debitis honorabilitatibus debeatis occurrere et
+      eum humiliter et benigne suscipere et eum ea tractare reverencia, qua nostram majestatem
+      revereri suscipere et tractare consvevistis, et nichilominus fraternitatem ipsius cum tota
+      familia et comitaticia sua nec non rebus et personis ipsorum per omnia loca regni nostri
+      securi sine omni impedimento et aresto cum debita reverencia transire permittatis et permitti
+      faciatis. Eciam in personis vestris, si requisiti fueritis per ipsum vel ipsius nuncios et
+      factores, salvum et securum conductum tociens, quociens vobis aut verstrum alicui mandaverit
+      vel vos presentibus aut alterum vestrum requirere curaverit, proni sibi mistrantes aliter
+      facere non ausuri gracie nostre sub optentu. Datum anno XXV.</p>
+            <lb/>
+            <p n="a#4" xml:space="preserve">B </p>
+            <p n="a#5" xml:space="preserve">Wladislaus etc. presencium nostrarum litterarum tenore recognoscimus, nos serenissimum
+      principem dominum <persName>Ericum</persName> Dacie Swecie etc. regem fratrem nostrum
+      carissimum in nostrum regium securum et salvum donductum suscepisse, sic quod ad (nos) et in
+      terras nostras regna jurisdicciones districtus loca et limites securus et salvus cum omni sua
+      comitia et familia, quam secum et suo nomine adducturus est , adveniet et intrabit, illicque
+      cum sua prefata familia et comi(tati)tia salvus et securus stabit. Inde quoque similiter in
+      suum ducatum et terram Pomeraniensem, ubi securus esse poterit sub eodem nostro conductu salvo
+      et securitate reversurus. Datum in etc. sub nostro sigillo in testimonium premissorum; Magis
+      tamen credatur, quod per regnum <placeName>H(ungarie)</placeName> sit conceptus.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

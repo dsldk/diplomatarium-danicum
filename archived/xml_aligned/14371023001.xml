@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">185</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14371023001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3269</idno>
+                        <msName>tidl. Kolding Bys Arkiv</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 23 × 10.1 (plica: 1.5). <ab>På bagsiden: <q>pantthe Breff paa Brengkors mark</q>
+                        </ab>1. Seglsnit. 2. Perg.rem. 3. Perg.rem. 4. Stump i perg.rem. 5. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Byarkiver, Kolding</collection>
+                        <idno>Pergamentsbreve 1452-1603. c-5 el. c-6</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Vidisse af bispens official i Kolding m.fl., 1481 7. maj (<q>fer. 2. post f.
+        Johannis ante portam latinam</q>)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6901</bibl>
+               <bibl>Reg. *5174</bibl>
+               <bibl>Udt. i Fyhn, Efterr. om Kolding s. 37, 186, 242</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-10-23"
+                  notBefore="1437-10-23"
+                  notAfter="1437-10-23"
+                  cert="high">1437. 23. oktober</date>
+            <placeName cert="high">Kolding</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Henrik Tedinghusen erklærer, at han ikke må købe eller pantsætte den halve mark, Brændkær,
+      som borgmesteren, byrådet og almuen har i pant af fru Jytte uden deres tilladelse. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-28" who="#pbh">Filen etableret af #pbh 2013-11-28. </change>
+         <change when="99999999" who="#jon">1. korrektur af #jon 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn th<ex>et</ex>tæ breff see æll<ex>e</ex>r hør læsæ helsær jek <persName>Henrik
+        Teghenhwsæ</persName> ewi<ex>n</ex>neligh m<ex>eth</ex> gudh / ♦</p>
+            <p n="a#2" xml:space="preserve">Ok ku<ex>n</ex>gør jek alle mæn m<ex>eth</ex> th<ex>et</ex>tæ oben breff at jek
+      wedh<ex>e</ex>rkæ<ex>n</ex>næs mik ok minæ arwinghe at jek haffu<ex>er</ex> sawth aa troo ok
+      sandhæ for<ex>e</ex> borgemest<ex>er</ex> ok raadh ok allmoghæ i
+        <placeName>Kollingh</placeName> at jek ey scall købæ æll<ex>e</ex>r panthæ th<ex>e</ex>n
+      halwæ mark <placeName>Brenker</placeName> som the haffue i panthæ aff frwæ
+        <persName>Jwttæ</persName> ok <persName>Claus Lembek</persName> wth<ex>e</ex>n m<ex>eth</ex>
+      ther<ex>es</ex> wiliæ ok raadh ♦</p>
+            <p n="a#3" xml:space="preserve">Item war<ex>e</ex> th<ex>et</ex> ok swo jek køfftæ forscreffne jordh æll<ex>e</ex>r
+      panth<ex>e</ex>r yth<ex>e</ex>rmeræ tha til bindh<ex>e</ex>r jek mik ok minæ arwinghe at
+      borghemæst<ex>er</ex> ok raadh ok almoghæ ath nydhæ køpp ok panthæ m<ex>eth</ex> mik ok minæ
+      arwinghæ m<ex>eth</ex> swo dant skeel ath borghemæst<ex>er</ex> radh ok almoghæ betalæ halfft
+      i panthæ ok halfft i køpp ♦</p>
+            <p n="a#4" xml:space="preserve">Til thygæ ok forwaræls hengh<ex>e</ex>r jek mith incigel for<ex>e</ex> th<ex>et</ex>tæ breff
+      m<ex>eth</ex> andr<ex>e</ex> gothe mæns jncigel som ær<ex>e</ex> h<ex>er</ex>r<ex>e</ex>
+      <persName>Morten Jens<ex>øn</ex></persName> riddh<ex>e</ex>r ok høwitzman paa
+        <placeName>Kollinghhws</placeName> ok h<ex>er</ex>r<ex>e</ex>
+      <persName>Jens Byghæ</persName>s sokne p<ex>re</ex>st i <placeName>Skandropp</placeName> /
+        <persName>Pauel Jeyps<ex>øn</ex></persName> ok <persName>Jes
+        Pedh<ex>e</ex>rs<ex>øn</ex></persName> j <placeName>Stadheropp</placeName> ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini mcdxxxvii<hi rend="sup">o</hi> die sancti Severini confessoris
+    ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

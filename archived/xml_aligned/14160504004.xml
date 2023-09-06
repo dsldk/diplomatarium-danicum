@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="fgj">
+                  <persName>
+                     <forename>Finn Gredal</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14160504004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret to steder i København. Rigsarkivet. De ældste arkivregistraturer: a) Registratur A over Viborg stifts breve (1540’erne), upag., med overskriften <q>Lyusgaardheritt</q>. I marginen er noteret <q>adest</q>; b) Registratur B over Viborg stifts breve (1574), f. 4r, med overskriften <q>Liussgaard herrit</q>.<!--B-reg. afviger betydeligt fra den ældre A-reg. og synes uafhængig af denne, og teksten fra begge udgives derfor in extenso.--> Begge registraturer er stærkt beskadiget af fugt, i A-reg. er mange af bladene kun delvis bevaret med teksttab til følge</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 215 nr. C. 39 (a)</bibl>
+               <!-- optræder ikke i  F. Hvass, Samling af Meddelelser om Personer og Familier af Navnet Hvas III-->
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter reg.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416" notBefore="1416" notAfter="1416" cert="high">1416. 4. maj<note>Den vanskelige stednavneform <q>Gralodt</q> (<q>Gralod</q> i B-reg.) identificeres traditionelt med Gravlev i Fuglslev sogn, Sønder Djurs herred, og ikke med Gravlev i Hornum herred. Da begge registraturerne anfører brevet i afsnittet vedrørende Lysgård herred, foreslås i registeret til ÆA en beliggenhed i Thorning sogn, Lysgård herred. En sådan sammenhæng har dog ikke kunnet påvises. Den aktuelle form er ikke anført under opslaget Grathi i Danske sø- og ånavne, bd. 2</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Brev på Gravlevgård udstedt af (Lange) Ove Ovesen (Kaas med mur). </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-18" who="#pbh">Filen etableret af #pbh 2014-03-18. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1">a):</p>
+            <p n="a#2" xml:space="preserve">Item eth ga<ex>m</ex>mell <persName>Owe Ouiss<ex>en</ex>s</persName> perckmitz br<ex>e</ex>ff paa <placeName>Gralodt gardt</placeName> ♦</p>
+            <p n="a#3" xml:space="preserve">Datum mcdxvj 2<hi rend="sup">a</hi> feria proxima post festum inventionis sancte crucis ♦</p>
+            <p n="a#4">b):</p>
+            <p n="a#5" xml:space="preserve"><persName>Offue Offuessens</persName> breff paa <placeName>Gralod gard</placeName> ♦</p>
+            <p n="a#6" xml:space="preserve">Mcdxvj ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

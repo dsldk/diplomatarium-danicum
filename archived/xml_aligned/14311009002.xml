@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14311009002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Arm. 29 vol. 16 fol. 101v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q> fl. 1 gr. 2</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 24 nr. 1626</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-10-09"
+                  notBefore="1431-10-09"
+                  notAfter="1431-10-09"
+                  cert="high">1431. 9.
+          oktober</date>
+            <placeName cert="high">Rom</placeName>
+         </creation>
+         <abstract>
+            <ab>Franciscus (Condulmer), pavelig vicekammermester, bevidner, at Nicolaus (Wulf), biskop i
+          Slesvig, har opfyldt sin pligt til at besøge kurien hvert fjerde år ved sin prokurator,
+          magister Marquardus von Stiten. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-01" who="#pbh">Filen etableret af #pbh 2013-10-01. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-05-15" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis etc. <persName>Franciscus</persName> etc. Universitati etc., quod, cum
+            <persName>Nicolaus</persName> episcopus <placeName>Slesvicensis</placeName> singulis
+          quadrienniis, Romana curia citra montes existente, sub certis penis sedem apostolicam seu
+          bb. Petri et Pauli apostolorum limina visitare teneatur, sedem ipsam seu limina ipsa pro
+          uno quadriennio incipiendo die 1. mensis maji anni 1433 proxime futuri per magistrum
+            <persName>Marquardum Stiten</persName> procuratorem suum die date presentium et tempore
+          debito etc. visitavit.</p>
+            <p>Nichil tamen etc. In quorum etc.</p>
+            <p>Datum <placeName>Rome</placeName> anno 1431 indictione 9. die 9. mensis oct. pontificatus
+          anno 1.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

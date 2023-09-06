@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14360718001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Oslo</settlement>
+                        <repository>Riksarkivet</repository>
+                        <idno>NRA AM fasc. 41 nr. 17</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. *5147</bibl>
+               <bibl>Diplomatarium Norvegicum VII 398 nr. 403</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter Dipl. Norv. l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-07-18"
+                  notBefore="1436-07-18"
+                  notAfter="1436-07-18"
+                  cert="high">1436.
+               18. juli</date>
+            <placeName cert="high">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <abstract>
+            <!--<ab>Ludolphus Robring, canonicus et thesaurarius ecclesiæ Lubicensis, collector jurium
+               ad cameram apostolicam et sacrum Basiliense concilium spectantium in Norvegia, Svecia
+               et Dacia deputatus, omnibus ecclesiasticis personis regni Norvegiæ scribit, se
+               Conradum Godebus, clericum Roskildensem, collectorem dictorum jurium in Norvegia
+               constituisse. - Lubich in curia habitacionis nostre, die Mercurii decima octaua
+               mensis Julii</ab>-->
+            <ab>Ludolphus Robring, kannik og skatmester i Lübeck og Baselkonciliets
+               generalskatmesters særlige udsending i de tre nordiske riger, meddeler gejstligheden
+               i Norge transsumpter af Baselkonciliets udnævnelse af biskop Mattheus af Albenga til
+               generalskatmester i hele den kristne verden, og af dennes udnævnelse af Ludolphus til
+               særlig kommissær i de tre nordiske kirkeprovinser; desuden meddeler han, at han har
+               sendt Conradus Godebus, klerk fra Roskilde stift og hans stadige bordfælle og medlem
+               af hans husstand, til Norge som sin stedfortræder for at indsamle pavestolens
+               tilgodehavender dér, med beføjelse til at inddrive dem under trussel om
+               kirkestraffe. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-15" who="#pbh">Filen etableret af #pbh 2013-11-15. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="lat">
+            <p n="a#1" xml:space="preserve"><persName>Ludolphus Robring</persName>, kannik og skatmester i <placeName>Lübeck</placeName> og Baselkonciliets
+               generalskatmesters særlige udsending i de tre nordiske riger, meddeler gejstligheden
+               i Norge transsumpter af <cit><quote>Baselkonciliets udnævnelse af biskop <persName>Mattheus</persName> af <placeName>Albenga</placeName> til
+               generalskatmester i hele den kristne verden</quote><bibl>17. okt. 1432, Diplomatarium Norvegicum VII 381 nr. 388</bibl></cit>, og af <cit><quote>dennes udnævnelse af Ludolphus til
+               særlig kommissær i de tre nordiske kirkeprovinser</quote><bibl><ref target="14330909001">DD 1433. 9. sep., nr. 14330909001</ref></bibl></cit>; desuden meddeler han, at han har
+               sendt <q>discretum virum <persName>Conradum Godebus</persName> clericum <placeName>Roskildensis</placeName> dyocesis familiarem continuum commensalem nostrum</q> til <placeName>Norge</placeName> som sin stedfortræder for at indsamle pavestolens
+               tilgodehavender dér, med beføjelse til at inddrive dem under trussel om
+               kirkestraffe.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

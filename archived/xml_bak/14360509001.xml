@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">142</num>, paragraphs: <num
+               n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14360509001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan. Fasc. LIX</collection>
+                        <idno>12b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>14.7 (heraf plica: 1.4)</height>
+                                    <width>30.6</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden med hånd fra 15. årh.: <q>Strø by</q>, herunder med lidt
+                              yngre hånd: <q>Om Strøby gord</q>; desuden en middelalderlig
+                              arkivsignatur: <q>nnn</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Peder Jensen (Enhjørnings) segl i ufarvet voks i perg.rem, <ref>AS
+                                    B iv 1</ref></ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Lars Fjends segl i ufarvet voks i perg.rem, <ref>AS H ix 2</ref></ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Jakob Jensen Skrivers segl i ufarvet voks i perg.rem, <ref>AS L
+                                    xiv 3</ref></ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Jakob (Nielsen) Gises bomærke i ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Lars Rodes bomærke i ufarvet voks i perg.rem</ab>
+                           </seal>
+                           <seal n="9" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i Clara klosters registratur (1586), trykt i ÆA V 592 nr. F.
+                           153</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6826</bibl>
+               <bibl>Vejledende Arkivreg. XVII 333 nr. 296</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>A</ref>. Det vidimerede brev er trykt i DD 4.IV.474.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-05-09" notBefore="1436-05-09" notAfter="1436-05-09" cert="high">1436.
+               9. maj</date>
+            <placeName cert="high">Sjællands landsting i Ringsted</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Sjællands landsting vidimerer efter anmodning af Peder Nielsen, provisor for Sankt
+               Clara kloster i Roskilde, brev af Anders Pedersen (Panter) og hans hustru Elisabeth
+               (Nielsdatter (Manderup)) af 7. december 1391.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-14" who="#pbh">Filen etableret af #pbh 2013-11-14. </change>
+         <change when="2019-09-20" who="#pbh">1. korrektur af #pbh 2019-09-20. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus <persName>Petrus Johannis</persName> de
+        <placeName>Skiollenæs</placeName> rector placiti generalis terre Selandie <persName>Johannes
+        Welæ</persName> canonicus <placeName>Roskildensis</placeName>
+      <persName>Laurentius Fiend</persName> in <placeName>Sierstæde</placeName>
+      <persName>Jacobus Jens<ex>øn</ex></persName> in <placeName>Kiæthelsthorp</placeName> .
+        <persName>Gerekinus Dieghn</persName>
+      <persName>Jacobus Sc<ex>ri</ex>wer<ex>e</ex></persName> in <app><lem><placeName>Toworp</placeName></lem><rdg>Skriveren er begyndt at skrive <q>Towr</q> og har på linjen rettet til <q>Toworp</q></rdg></app>
+      <persName>Jacobus Gise</persName>
+      <persName>Laurencius Rodhe</persName> proconsules in <placeName>Kiøghe</placeName> et
+        <persName>Jacobus Skræder<ex>e</ex></persName> proconsul Ringstadensis salutem in domino
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Constare volumus universis presentibus et futuris quod sub anno domini mcdxxxsexto feria
+      quarta proxima post festum beati Johannis apostoli ante portam latinam coram nobis et aliis
+      quampluribus fidedignis specialiter propter hoc constitutus discretus vir <persName>Petrus
+        Nicolai</persName> provisor <placeName>monasterii sancte Clare</placeName> Roskildis in
+      placito generali terre Selandie <placeName>Ringstadis</placeName> / quasdam apertas litteras
+      cum salvis sigillis non rasas non abolitas nec in aliqua sui parte viciatas / sed omni
+      suspicione carentes in medium produxit et transumi peciit quas eciam publice legi fecit
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Quarum litterarum tenor sequitur de verbo ad verbum et est talis . ♦</p>
+            <p n="a#4" xml:space="preserve">Omnibus presens scriptum (etc. = DD 4.IV.474) ♦</p>
+            <p n="a#5" xml:space="preserve">Quod ut vidimus et audivimus in hiis scriptis publicis protestamur ♦</p>
+            <p n="a#6" xml:space="preserve">Datum anno die et loco quibus supra nostris sub sigillis presentibus appensis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

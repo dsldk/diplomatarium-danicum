@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14180714001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Reg. Lat. 189 fol. 12v</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Antonius. XXXX. de Ponto</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 273 nr. 1260</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-07-14"
+                  notBefore="1418-07-14"
+                  notAfter="1418-07-14"
+                  cert="high">1418. 14.
+          juli</date>
+            <placeName cert="high">Genève</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. skriver til Magnus, udvalgt biskop i Cammin, og udvider hans frist for at
+          lade sig indvie til de højere gejstlige grader indtil 21. december samme år, og tillader
+          ham at blive viet til alle gejstlige grader på én og samme dag, og af en hvilken som helst
+          biskop han ønsker, idet han gentager, at den af Johannes (Dominici), kardinallegat for
+          Angelus Corario, dengang kendt som pave Gregor 12., foretagne forflyttelse af Johan
+          (Skondelev), biskop i Slesvig, fra Slesvig til Cammin, foretaget under foregivelse af, at
+          bispestolen stod tom efter den tidligere biskop Nicolaus (von Schippenbeils) død, er
+          ugyldig. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-03" who="#pbh">Filen etableret af #pbh 2014-04-03. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-05-08" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <persName>Magno</persName> electo <placeName>Caminensi</placeName>.</p>
+            <p>Sincere devotionis affectus (quem ad nos et Romanam geritis ecclesiam, promeretur, ut
+          humiles preces vestras, quantum cum deo possumus, ad exauditionis gratiam admittamus).</p>
+            <p>Sane dudum, ecclesia Caminensi Romane ecclesie immediate subjecta ex eo pastoris solatio
+          destituta, quod <persName>Alexander V</persName> in sua obedientia nuncupatus quondam
+            <persName>Nicolaum</persName>
+               <app>
+                  <lem>tunc episcopum Caminensem licet absentem suis culpis et demeritis exigentibus</lem>
+                  <rdg>tilføjet efter <ref target="14180420001">DD 1418. 20. apr., nr.
+              14180420001</ref>
+                  </rdg>
+               </app> ab omni administratione ipsius ecclesie Caminensis privaverat, idem Alexander de
+          persona tua eidem Caminensi ecclesie providit; cumque postea <persName>Johannes</persName>
+          tituli s. Sixti presbiter cardinalis, tunc in <placeName>Alamanie</placeName> et in
+          nonnullis aliis partibus per <persName>Angelum, tunc Gregorium XII</persName> in sua
+          obedientia nominatum, legatus deputatus, <app>
+                  <lem>pretendens dictam Caminensem ecclesiam tunc per obitum dicti Nicolai vacare et de
+              prefata obedientia dicti Angeli, tunc Gregorii, existere</lem>
+                  <rdg>tilføjet efter <ref target="14180420001">DD 1418. 20. apr., nr.
+              14180420001</ref>
+                  </rdg>
+               </app>, <persName>Johannem</persName> episcopum <placeName>Slesvicensem</placeName> ... ad
+          eandem Caminensem ecclesiam transtulisset, licet de facto, et deinde orta propterea inter
+          te et dictum Johannem episcopum super dicta Caminensi ecclesia materia questionis, nos ...
+          tandem hujusmodi provisionem de persona tua facta[m] fore canonica[m] per alias nostras
+          litteras declaravimus [ac] translationem de persona dicti Johannis episcopi facta[m] et
+          quecunque inde secuta esse nulla ...</p>
+            <p>Nos igitur .. tibi, qui in minoribus dumtaxat ordinibus et in 28. tue etatis anno
+          dumtaxat constitutus existis, tempus recipiendi munus consecrationis a canonibus
+          diffinitum, infra quod adhuc fore dinosceris, ad 21. diem mensis decembris proxime
+          instantis prorogamus, tibi nichilominus, ut interim a quocunque malueris catholico
+          antistite .. una et eadem die etiam extra tempora a jure statuta ad omnes etiam sacros
+          ordines [te promoveri facere] valeas, necnon antistiti, ut ordines et munus hujusmodi
+          auctoritate nostra impendere tibi possit, tenore presentium indulgentes ....</p>
+            <p>Datum <placeName>Gebennis</placeName> 2. id. julii anno 1.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

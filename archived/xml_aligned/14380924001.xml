@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14380924001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Uppsala</settlement>
+                        <repository>Universitetsbiblioteket</repository>
+                        <idno>C 46 fol. 78r</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Skrevet af tre forskellige hænder: Første hånd har skrevet selve supplikken,
+                      anden hånd er egenhændig påskrift af Cristoforus de Sancto Marcello, regens
+                      cancellariam, og tredje hånd tilhører den pavelige datarius</ab>
+                        <ab>Overskrift tilføjet, efter at brevet er kommet til Vadstena: <q>Supplicacio
+                      signata pro monasterio et personis in Mariebo et videtur quod gaudere possumus
+                      racione littere participacionis</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 117 nr. 1821</bibl>
+               <bibl>SDHK nr. 23065</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-09-24"
+                  notBefore="1438-09-24"
+                  notAfter="1438-09-24"
+                  cert="high">1438. 24.
+          september</date>
+            <placeName cert="high">Ferrara</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Eugenius 4. bevilger en supplik af abbedissen og nonnerne samt generalkonfessoren
+          og brødrene i Maribo kloster om tilladelse til, at deres generalkonfessor og andre
+          præsteviede brødre kan: </ab>
+            <ab>1) tilstå munkene og nonnerne fuld syndsforladelse og absolution for
+          ekskommunikationsdomme og andre straffe én gang i livet, også i tilfælde, som ellers er
+          reserveret pavestolen, og pålægge dem bod herfor; 2) give dispensation for irregularitet
+          og inhabilitet af enhver art, dog undtaget i tilfælde af drab, bigami og lemlæstelse; 3)
+          tilstå aflad for enhver straf eller dom, som er pådraget i uvidenhed, inklusive fejringen
+          af gudstjeneste under en sådan dom, også i tilfælde, som ellers er reserveret biskoppen;
+          4) tilstå fuld syndsforladelse i deres dødsøjeblik med apostolisk autoritet. </ab>
+            <ab>Desuden om at munkene og nonnerne i de uger, hvor de efter deres ordensregel skal faste,
+          skal pålægges at fremsige syv bodssalmer, hvilket generalkonfessoren skønsmæssigt efter
+          den enkelte munk eller nonnes tilstand kan forandre til andre fromme gerninger. </ab>
+            <ab>Desuden tilstås det, at tilladelsen er gyldig uden udfærdigelse af pavebulle. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-06" who="#pbh">Filen etableret af #pbh 2013-12-06. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-06-19" who="#pbh">Korrektur af scan osv.</change>
+         <change when="2017-07-03" who="#pbh">1. korrektur, ny tekstkonstitution efter A</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Beatissime pater ♦</p>
+            <p>Supplicant <app>
+                  <lem>sanctitati</lem>
+                  <rdg>herefter slettet <q>dev</q>
+                  </rdg>
+               </app> vestre devoti ejusdem sanctitatis abbatissa et moniales necnon confessor generalis
+          et fratres perpetuo incluse et inclusi monasterii in <placeName>Mariebo</placeName>
+          ordinis sancti salvatoris <placeName>Ottoniensis</placeName> dyocesis quatinus ipsis et
+          eo<damage>rum</damage> sororibus et fratribus eciam ab extra eis servientibus presentibus et futuris ut
+          eorum confessor predictus et alius vel alii ex dictis fratribus qui pro tempore <damage>fu</damage>erint
+          presbiteri per eum deputandus vel deputandi ipsarum et ipsorum quamlibet vel quemlibet
+          semel tantum ab omnibus delictis excessibus <damage>et</damage> peccatis eciam si talia
+          forent de quibus sedes apostolica esset merito consulenda absolvere possint ♦ qui
+          eciam confessor pro tempore existens per s<damage>e</damage> vel eligendum ab eo quemlibet fratrem
+          presbiterum pro presenti professum et in futurum perpetuis temporibus professurum prefati
+          monasterii a quibuscunque <damage>excommunica</damage>cionis suspensionis et interdicti sentenciis sive ab
+          homine sive a jure in eum generaliter latis ac eciam prefate sedi reservatis . necnon
+          censuris et <damage>p</damage>enis aliis ecclesiasticis quavis occasione per eum in officiis
+          administracionibus sive ordinibus <app>
+                  <lem>commissis</lem>
+                  <rdg>vel fejl for <q>contractis</q>, således rettet af Gertz</rdg>
+               </app> absolvat eciam semel ipsique p<damage>enitenc</damage>iam debitam et possibilem injungat ac secum
+          similiter semel super irregularitate et inabilitate quomodocunque et qualitercunque
+          contractis dispens<damage>et</damage> . homicidio bigamia et mutilacione membri dumtaxat exceptis /
+          omnesque inabilitatis et infamie maculas sive notas circa eum penitus aboleat ♦
+          insuper a censuris quas ex inadvertencia vel ignorancia quemlibet fratrem predictorum
+          incurrere contingeret quociens op<damage>us</damage> fuerit eciam absolvere necnon <app>
+                  <lem>
+                     <supplied>secum</supplied>
+                  </lem>
+                  <rdg>tilføjet af Gertz</rdg>
+               </app> super irregularitate celebrando divina ex talibus censuris contracta dispensare /
+          ac in casibus episcopo reservatis <damage>e</damage>ciam quociens opus fuerit absolvere possit ♦ item
+          eciam ut confessor eorum predictus vel ab eo <app>
+                  <lem>deputandi</lem>
+                  <rdg>vel fejl for <q>deputandus</q>
+                  </rdg>
+               </app> omnium peccatorum suorum de quibus corde contriti <damage>et</damage> ore confessi fuerint semel
+          tantum in mortis articulo plenam remissionem ipsis fratribus et sororibus presentibus et
+          futuris in sinceritate fid<damage>ei</damage> unitate sancte Romane ecclesie ac obediencia et devocione
+          vestre sanctitatis vel successorum vestrorum Romanorum pontificum canonice intrancium
+          persistentibus a<damage>uctori</damage>tate apostolica concedere valeat ♦ et insuper quod singulis
+          ebdomodis (!) per unum annum ultra jejunia juxta regulam dicti monasterii per eos
+          <damage>obser</damage>vanda septem psalmos penitenciales ex injuncta eis penitencia dicere teneantur quos
+          confessor prefatus secundum personarum condicionem et qualitatem ac <damage>pro</damage>ut animarum ipsarum
+          saluti expedire viderit commutare valeat in alia opera pietatis ♦ proviso quod si
+          persone hujusmodi quod a<damage>bs</damage>it ex confidencia remissionis prefate aliqua forsan illicita
+          comitterent quo ad illa dicta remissio nullatinus suffragetur ♦ consti<damage>tu</damage>cionibus et
+          ordinacionibus apostolicis necnon statutis privilegiis indultis et consuetudinibus dicti
+          ordinis ceterisque in contrarium facientibus n<damage>on</damage> obstantibus quibuscunque <app>
+                  <lem>
+                     <supplied>concedere dignemini</supplied>
+                  </lem>
+                  <rdg>tilf. af Gertz</rdg>
+               </app>
+               <app>
+                  <lem>\ Concessum ut petitur de omnibus quam diu fuerint in observancia regulari in
+              presencia domini nostri pape <persName>Cristoforus</persName> Ariminensis</lem>
+                  <rdg>skrevet efter den foregående tekst i en anden hånd</rdg>
+               </app> ♦</p>
+            <p>Et quod hujusmodi supplicacionis signatura sola sufficiat absque eo quod apostolice
+          desuper littere conficiantur <app>
+                  <lem>\ Co<damage>nc</damage>essum C <placeName>Ariminensis</placeName>
+                  </lem>
+                  <rdg>skrevet til højre for den foregående tekst i en anden hånd</rdg>
+               </app> ♦</p>
+            <p>
+               <app>
+                  <lem>Datum <placeName>Ferarie</placeName> octavo kalendas octobris anno octavo</lem>
+                  <rdg>skrevet i nederste margen i en tredje hånd</rdg>
+               </app> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

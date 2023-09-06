@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14181007001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Arm. 12 vol. 121 A fol. 109</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Prov. S. C. p. 86 V</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt. Registreret af Garampi (Vescovi)</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 274 nr. 1262</bibl>
+               <bibl>Acta Pont. Svec. 1.II 239 nr. 1047</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-10-07"
+                  notBefore="1418-10-07"
+                  notAfter="1418-10-07"
+                  cert="high">1418. 7.
+          oktober</date>
+            <placeName cert="high">Pavia</placeName>
+         </creation>
+         <abstract>
+            <ab>Det pavelige kancellis optegnelse om at Pave Martin 5. har løst biskop Peder (Lykke) fra
+          bispesædet i Ribe og forflyttet ham til ærkesædet i Lund, ledigt efter den tidligere
+          ærkebiskop Peder (Mikkelsen (Kruses)) død. Samtidig har han udnævnt han Kristian Hemmingsen,
+          provst i Roskilde, til ny biskop i Ribe. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-03" who="#pbh">Filen etableret af #pbh 2014-04-03. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-01-10" who="#pbh">Korrektur af scan osv., ny regest</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">[1418.] <placeName>Papiæ</placeName> ... <app>
+                  <lem>Eadem die</lem>
+                  <rdg>= 7. oktober</rdg>
+               </app> absolvit dominum <persName>Petrum</persName> episcopum Ripensem a vinculo
+            <placeName>ecclesie Ripensis</placeName> providitque <placeName>ecclesie
+            Lundensi</placeName> vacanti per obitum domini <persName>Petri</persName> de persona
+          ipsius domini Petri eumque transtulit ad eandem ecclesiam Lundensem.</p>
+            <p n="a#2">Eadem die providit ecclesie Ripensi de persona domini
+            <persName>Christierni</persName> prepositi <placeName>ecclesie Roskildensis</placeName>
+          eumque illi ecclesie prefecit in episcopum et pastorem.</p>
+         </div>
+         <div xml:lang="da">
+            <p>
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

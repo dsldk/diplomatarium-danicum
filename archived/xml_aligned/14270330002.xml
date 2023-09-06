@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">248</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270330002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Altes Senatsarchiv (ASA), Externa, Danica 3.2. Krieg Erichs von Dänemark gegen die Grafen von Holstein</collection>
+                        <idno>signatur 1013 (tidligere ASA, Externa, Reste)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Med adresse: <q>Honorabilibus et circumspectis dominis proconsulibus et
+        consulibus civitatis Lubicensis, Hamburgensis, Rostockcensis, Stralessundensis,
+        Wismariensis, Lunenborgensis etcetera, amicis nostris sincerissime
+      dilectis</q>
+                        </ab>1. Rester af rådet i Dortmunds brevlukkende segl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. XVI, p. 13</bibl>
+               <bibl>Hanserec. VIII, nr. 192, p. 141 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>UBStL l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-03-30"
+                  notBefore="1427-03-30"
+                  notAfter="1427-03-30"
+                  cert="high">[1427.] 30. marts</date>
+            <placeName cert="low">[Dortmund]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Dortmund skriver til hansestæderne Lübeck, Hamburg, Rostock, Stralsund, Wismar og
+      Lüneburg. </ab>
+            <ab>Rådet i Dortmund meddeler, at det har set og forstået det åbne advarselsbrev, som de
+      vendiske hansestæder har sendt til rådet i Dortmund. </ab>
+            <ab>Endvidere meddeler rådet i Dortmund, at det vil give de vendiske hansestæders advarsel
+      videre til dets venner og handelsfolk, således at de ikke kommer til at lide skade på grund af
+      krigen, samt at det også vil give dem besked om den skade, som kongen af Spanien og dennes
+      folk igennem længere tid har påført hansekøbmændene i havnen i La Rochelle. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-11-20" who="#smb">Filen etableret af #smb 2018-11-20. </change>
+         <change when="2018-11-20" who="#smb">1. korrektur af #smb 2018-11-20. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Vrentlike grote vnd wat wij gudes vormogen.</p>
+            <p n="a#2" xml:space="preserve">Ersamen leyuen heren, bysundern guden vrende.</p>
+            <p n="a#3" xml:space="preserve"><cit><quote>Juwen breiff</quote><bibl>det pågældende brev fra de vendiske hansestæder til rådet i Dortmund kendes ikke, men
+          det har sandsynligvis været identisk med de vendiske hansestæders brev til de nederlandske
+          stæder vedrørende afsendelsen af krigserklæringen til kong Erik 7. af Pommern, jf. <ref target="14261119005">DD 1426. 19. nov., nr. 14261119005</ref></bibl></cit> vns lesten gesant inneholdende vmme mennigerleye gewalt, hinders, vnrechtes vnd schaden
+      willen, als <persName>dey irluchtigste forste vnd here, her Erick, koning to Denemarken,
+        Sweden, Norwegen</persName> etcetera, vnd syne vndersaten jv, juwen vnd den gemeynen
+      coepmanne vnd schipheren van der Duytschen hense van langen tiden her tegen Got, recht,
+      redelicheit, priuilegia vnd vrijheide den hensesteden gegeuen vnd besegelt vnd na van eme
+      confirmert gedaen hebben vnd na der tijt, dat sich dey stede myt eme vnd synen riken vnd
+      vndersaten vorbunden, yo mer vnd mer gedaen etcetera, hebbe wij wol vorstaen vnd begeren juwer
+      vorsichtigen wysheit darop to weten, dat alsodane gewolt, hinder, vnrecht vnd schade, als dey
+      vorgenante irluchtige forste vnd syne vndersaten juwer beschedenheit vnd dem gemeynen
+      coepmanne vnd schipheren vorgenant gedaen hebben, vns van ganssen herten sunderlix leit is,
+      vnd wij willen vnse vrende vnd coplude myt den besten warnen vnd sey na juwer begeringe
+      vnderwisen, dat sey dey vorgenanten rike vnd er strome nicht en soken vnd er gudere op juwer
+      vyende bodeme nicht en schepen vnd neyne hanteringhe myt den vt den rike vorgenant en hebben,
+      vnd en ok to kennen geuen van alsodaen schaden, als dey dorluchtigste forste, koning van
+        <placeName>Jspanyen</placeName>, vnd syne vndersaten dem gemeynen coepman van der duytschen
+      hense mannige tijt vnd by namen in der hau{ue]en to <placeName>Russeil</placeName> gedaen
+      hebben.</p>
+            <p n="a#4" xml:space="preserve">Ersamen heren, bisunderen vrende, vnse herre Got beware juwe wijsheit vmmermer, to vns
+      truwelike altijt gebeidende.</p>
+            <p n="a#5" xml:space="preserve">Datum dominica Letare Jerusalem, anno etcetera XXVII<hi rend="sup">to</hi>, nostro sub
+      secreto.</p>
+            <p n="a#6" xml:space="preserve">Proconsules et consules <placeName>Tremoniensis</placeName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

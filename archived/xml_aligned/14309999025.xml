@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">13</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14300000025</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste
+                        arkivregistraturer. Registratur A over Viborg stifts breve (1540’erne),
+                        upag., i afsnittet <q>Rinds herrit</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 237 nr. *27</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1430" notBefore="1430" notAfter="1430" cert="high">1430. <note>Registraturen nævner ikke hvilket mellemværende, der kvitteres for,
+                men omtaler Lave (Glob), biskop af Viborg 1396-1429, med hvem Jakob (Nielsen) Kirt
+                havde flere godstransaktioner. Kvitteringen kan have at gøre med Jakob Kirts
+                forlening med Lynderup af biskop Lave i 1404, se <ref target="14040913004">DD 1404.
+                        [Omkr. 13. september], nr. 14040913004</ref>
+               </note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>En kvittering af fru Marine (eller Anne) (Jensdatter (Pig)), enke efter Jakob
+                        (Nielsen) Kirt, til biskop Herman (Rynkeby) af Viborg. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-24" who="#pbh">Filen etableret af #pbh 2013-09-24. </change>
+         <change when="2021-03-29" who="#alk">1. korrektur af #alk 2021-03-29. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Item frue <persName>Marine</persName>
+                        <persName>Jacob Kiert<ex>es</ex></persName> effterleuerske quittanns till
+                        biscop <persName>Hermennd</persName> aff biscop <persName>Laue</persName>
+                        ♦</p>
+            <p n="a#2" xml:space="preserve">Datum etcetera mcdxxx ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

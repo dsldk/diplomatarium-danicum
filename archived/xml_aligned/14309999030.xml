@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">70</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14300000030</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer.
+      Registratur over Antvorskov klosters breve (1607), upag., <q>Ibidem, H. 6</q> i afsnittet
+        <q>Holstrop</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA IV 94 nr. H. 6</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1430" notBefore="1430" notAfter="1430" cert="high">1430. <note>Om dette og tre andre brevreferater (<ref target="1439999030">DD 1423, nr.
+      1423999015</ref>, 1440, og <ref target="14359999024">DD 1435, nr. 14359999024</ref>) bemærkes
+    efter det sidste: <q>Hæ quatuor literæ præcedentes, sunt colligatæ</q>. De har m.a.o. været
+    holdt samlet, men om de blot var bundet eller syet sammen, eller om de var sigillatorisk
+    forbundne, kan ikke afgøres</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Karl Nielsen (Griis af Slagelse) giver Antvorskov kloster alt det gods tilbage, som han
+      havde lejet for sin levetid, mod at klostret betaler ham ti pund korn årligt. Hvis betalingen
+      udebliver, skal han i stedet have Valbyvester (senere: Store Valby, nu forsvundet landsby i
+      Slagelse herred) kvit og frit i sin levetid. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-24" who="#pbh">Filen etableret af #pbh 2013-09-24. </change>
+         <change when="2020-03-09" who="#alk">1. korrektur af #alk 2020-03-09. </change>
+         <change when="2020-08-10" who="#alk">2. korrektur af #alk 2020-08-10. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">For<hi rend="sup">ne</hi>
+      <persName>Kaarll Nielssenn</persName> oplod <placeName>closter</placeName> igienn ald thet
+      guodtz som hand aff closter schulle haffue haffdt i sinn liffstid i
+        <placeName>Holstrup</placeName>, for sinn eigendomb, som er thridie deelenn i
+        <placeName>Asløff mølle</placeName> och for <app><lem>eiendombe<ex>n</ex></lem><rdg wit="#A">Herefter slettet <q>man</q>, reg</rdg></app> vdj denn gaard vdj i (!) Holstrop, som closter i pant haffde aff <persName>Jep
+        Schouff</persName>, och schylder aarligen j pund kornn, och schulle closterit huert aar yde
+      hannem 10 pund kornn, ydis det ey, tha schulle hand haffue <placeName>Waldbywester</placeName>
+      quitt och frij sinn liffstiid, ♦</p>
+            <p n="a#2" xml:space="preserve">1430 ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

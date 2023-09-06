@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">144</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14151206001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lund</settlement>
+                        <repository>Universitetsbibliotek</repository>
+                        <collection>De la Gardieska arkivet</collection>
+                        <idno>III, 39-40</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Efter Sturarnas kopiebok</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5560</bibl>
+               <bibl>Svenskt Dipl. III 90 (nr. 2161)</bibl>
+               <bibl>SDHK nr. 18645</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>SDHK nr. 18645</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-12-06"
+                  notBefore="1415-12-06"
+                  notAfter="1415-12-06"
+                  cert="high">1415. 6. december <note>Udgivet efter SDHK nr. 18645, da Aa ikke har været tilgængelig for udgiveren i maj 2021</note>
+            </date>
+            <placeName cert="high">Ås kloster</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ås klosters mageskifte med Ove Torbensen. Abbed Peder Tuesen overdrager klostrets gård
+      Heberg i Årstad og en ødegård i Sibbarp til Ove Torbensen i bytte for en gård i Grimeton. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-04" who="#pbh">Filen etableret af #pbh 2014-03-04. </change>
+         <change when="2010-03-10" who="#jon">1. korrektur af #jon 2010-03-10. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allä män thätta breff höra ällär see helsä vij brodher <persName>Päther Thuwasson</persName>,
+      abbiit i <placeName>Aas closter</placeName>, och alt convent i samme stadh evinnerlighä med
+      Gudh . ♦</p>
+            <p n="a#2" xml:space="preserve">Thet skall allä män vithlikt värä, suaväl them komma skula som the nu ärä, at vij haffva
+      giorth eet frälst och ett laghlikt skifte med biskedhelig man och ährlig, som är <persName>Ake
+        Thorbiurnässon</persName>, vm varth gooz, som är een gardh
+      <placeName>Häyebiärgh</placeName>, liggiandhes i <placeName>Ahrestadhä sokn</placeName>, och
+      een ödhemark, som heter <placeName>Hukaridh</placeName>, liggiandhes i
+        <placeName>Sibiörnathorpä sokn</placeName>, medh allä sinä tellagha, badhe aker och äng,
+      vaat och thort, enkte undantaket, for en hans gard, som hether
+        <placeName>Lidhegardh</placeName>, i <placeName>Grimätunä</placeName> liggiandhes, med al
+      sinä tillagha, badhe aker och äng, skogh och mark, enkte undäntakath eehvat thet hälzt äär,
+      hulken gardh for<hi rend="sup">dä</hi>
+      <persName>Ake Thorbiurnasson</persName> kännes hava rättelighe fanget och laghlighe ärfft .
+      ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium sigilla nostra presentibus sunt appensa . ♦</p>
+            <p n="a#4" xml:space="preserve">Datum in monasterio nostro Aas, anno Domini mcd quintodecimo, die beati Nicolai episcopi et
+      confessoris . ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

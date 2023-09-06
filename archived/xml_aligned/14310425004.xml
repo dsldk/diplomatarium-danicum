@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">282</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14310425004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>Ratsakten 10.5 Hanseatica</collection>
+                        <idno>nr. 1748</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. <ab>Adresse: <q>Den ersamen, wysen heren, borgermesteren unde radmannen tor Wysmer,
+        unsen besunderen guden vrunden, dandum</q>
+                        </ab>1. Rester af det brevlukkende segl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. CDLI, p. 436-437</bibl>
+               <bibl>Hanserec. 2:I, nr. 13, p. 10-11</bibl>
+               <bibl>Reg. Dan. nr. *4908</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-04-25"
+                  notBefore="1431-04-25"
+                  notAfter="1431-04-25"
+                  cert="high">1431. 25. april</date>
+            <placeName cert="high">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Lübeck meddeler rådet i Wismar, at både Lübecks og Hamburgs skibe er klar til at
+      sejle til Sønderborg. Rådet anmoder fremdeles Wismar om at sende skibe hertil. </ab>
+            <ab>Endvidere meddeler rådet i Lübeck, at alle fanger er blevet sat i tårnet, og at der er
+      kommet efterretning om, at de slesvigske hertuger har håb om at indtage fæstningen og bjerget
+      ved Flensborg. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-27" who="#pbh">Filen etableret af #pbh 2013-09-27. </change>
+         <change when="2019-11-27" who="#smb">1. korrektur af #smb 2019-11-27. </change>
+         <change when="2020-04-30" who="#smb">2. korrektur af #smb 2020-04-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Vnsen fruntliken grut vnde wes wij gudes vorm{oe}gen touoren.</p>
+            <p n="a#2" xml:space="preserve">Ersamen heren, leuen vrunde.</p>
+            <p n="a#3" xml:space="preserve">Alse wij juw negest verscreuen vnde ok vormiddelst deme ersamen heren <app><lem>Johan</lem><rdg><q>Johanni</q>, Hanserec. l.l</rdg></app> Houemann, vnsem mederadescumpan, mit juw verhandelet hebben laten, dat de van
+        <placeName>Hamborg</placeName>, gij vnde wij malk enen hollik van stund an vtverdigen
+      wolden, na <placeName>Sunderborg</placeName> to segelende etcetera, also, leuen vrunde, is
+      vnser hollik vnde der van <placeName>Hamborg</placeName> hollik myt eren snycken vnde anderen
+      tobehoringen berede, <app><lem>vormiddest</lem><rdg><q>vormiddelst</q>, Hanserec. l.l</rdg></app> der hulpe Godes nu en vridage en morgen erst k{oe}med tom Stobere to segelende, so
+      verre se dat an dem winde hebben mogen etcetera.</p>
+            <p n="a#4" xml:space="preserve">Begere wii, leuen vrunde, to bestellende, dat juwe hollik mit sinen snycken vnde dergeliken
+      de vtliggers vnde de copvartschepe, alse dat aueschedent darvan is, ok berede sin vppe den
+      genanten vrijdach tom Stobere by de vnsen to komende <app><lem>vnde</lem><rdg><q>vnde - to segelende</q> mangler i UBStL l.l.; tilføjet efter Hanserec. l.l</rdg></app> se in deme namen Godes samentliken vorbat na <placeName>Sunderborch</placeName> to
+      segelende.</p>
+            <p n="a#5" xml:space="preserve">Vorder so wille wij vnse anderen groten schepe mit vnser were dergeliken bereden vnde bidden,
+      leuen vrunde, dat gij deme ok also d{oe}n willen vnde gij mit Bartolomeus Vote, Klockenere
+      etcetera bestellen, dat se denne mit eren vrunden ok berede sin, mit den vnsen to segelende,
+      alse dat aueschedent darvan is gewesen.</p>
+            <p n="a#6" xml:space="preserve">Ok, leuen vrunde, willent weten, dat wij vmme ichteswelker zake willen, vor juw vnde vns
+      nutte alle vnse vangenen hebben setten laten in de torne; begere wij, dat gij den juwen <app><lem>desgeliken</lem><rdg><q>deszgelikes</q>, Hanserec. l.l</rdg></app> ok d{oe}n.</p>
+            <p n="a#7" xml:space="preserve">Wij hebben ok, leuen vrunde, tidinge, dat wij hopen, dat de heren hertogen van
+        <placeName>Sleswigk</placeName> vnde vnse vrunde des huses vnde barges bynnen
+        <placeName>Vlensborg</placeName> wol willen mechtich werden.</p>
+            <p n="a#8" xml:space="preserve">Vnde begeren van dessem vorscreuen juwes bescreuenen antwordes.</p>
+            <p n="a#9" xml:space="preserve">Sijd Gode beuolen.</p>
+            <p n="a#10" xml:space="preserve">Screuen vnder vnsem secrete, in sunte Marcus dage, anno etcetera XXXI.</p>
+            <p n="a#11" xml:space="preserve">Consules Lubicenses.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

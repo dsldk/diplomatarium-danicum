@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">16</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14260000015</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret to steder i København. Rigsarkivet: a) De ældste
+      arkivregistraturer. Åkærske reg. A (1591), upag., nr. 279 (senere nummerering), med
+      overskriften <q>Disse effter<hi rend="sup">ne</hi> breffue findis vdj rund esche paa luggitt
+        noterit, Hatting herritt</q>; b) Lensregnskaber. Stjernholm lens kvittansiarumsbilag
+      1620-24. Registratur over breve på Stjernholm (1624) f. 4r nr. 63. Ikke registreret i Åkærske
+      reg. B (1611)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 161 nr. A. 279 (a)</bibl>
+               <bibl>ÆA V 114 nr. 63 (b)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426" notBefore="1426" notAfter="1426" cert="high">1426.</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Knud Steen i Løsning overdrager gods i Årup (Hedensted sogn) i Hatting herred. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-15" who="#pbh">Filen etableret af #pbh 2014-07-15. </change>
+         <change when="2021-05-26" who="#alk">1. korrektur af #alk 2021-05-26. </change>
+         <change when="2021-06-16" who="#alk">2. korrektur af #alk 2021-06-16. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">J pergamentz opladilsse breff att <persName>Knudt Steend</persName> i
+        <placeName>Løssning</placeName> haffuer oplatt nogett guodtz vdj
+        <placeName>Attorp</placeName> i <placeName>Hatting herritt</placeName>, ♦</p>
+            <p n="a#2" xml:space="preserve">Anno 1426. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

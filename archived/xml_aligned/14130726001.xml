@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">150</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">219</num>, paragraphs: <num n="paragraphs">3</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14130726001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <idno>Or. perg. RA 0101; SDHK-nr. 18064</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary>Kong Erik 7. af Pommern tildømmer på rettertinget hr. Niels Svendsen (Sparre) af 
+                Ellinge en gård i Ystad.</summary>
+                        <msItemStruct>
+                           <filiation>
+                              <ab>empty</ab>
+                           </filiation>
+                        </msItemStruct>
+                     </msContents>
+                     <physDesc>Pergament. <ab>På bagsiden <q>Gotz j Ystæde til eghendom</q>
+                        </ab>1. perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>Rep. 5272</bibl>
+                           <bibl>Svenskt Dipl. II 676-677 nr. 1760</bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-07-26"
+                  notBefore="1413-07-26"
+                  notAfter="1413-07-26"
+                  cert="high">1413. 26. juli</date>
+            <placeName cert="high">Nyborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-01-07" who="#alk">Filen etableret af #alk 2014-01-07. </change>
+         <change when="2015-07-02" who="#alk">1. korrektur af #alk 2015-07-02. </change>
+         <change when="2015-10-09" who="#alk">2. korrektur af #alk 2015-10-09. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <persName>Ericus</persName> dei gracia regnorum <placeName>Dacie</placeName>
+               <placeName>Swecie</placeName>
+               <placeName>Norwegie</placeName>
+               <placeName>Sclauorum</placeName>
+               <placeName>Gothorumque</placeName> rex et dux
+                                <placeName>Pomeranorum</placeName> omnibus presens scriptum
+                        cernentibus . salutem et graciam ♦</p>
+            <p n="a#2">Noveritis quod nos latori presencium domino <persName>Nicholao
+                                Swenss<ex>øn</ex>
+               </persName> de <placeName>Ellingæ</placeName>
+                        militi bona videlicet unam curiam in <placeName>{Y.}stæth</placeName> per
+                        apertas <cit>
+                  <quote>literas</quote>
+                  <bibl>Jf. 1397. 9. oktober, Dipl. Dan. 4.VI.389</bibl>
+               </cit>
+               <persName>Petri Dyeghn</persName> condam villani ibidem pro quadam summa
+                        pecunie impigneratam et non legittime redemptam cujus eciam heredes Petri
+                        Dieghn quatuor literas nostras ad instanciam dicti domini Nicolai
+                        Swenss<ex>øn</ex> racione reddituum de eadem curia annuatim erogandorum <app>
+                  <lem>supersederant</lem>
+                  <rdg wit="#A">Tilføjet over linjen A</rdg>
+               </app> est legaliter per discretos viros videlicet dominos <persName>Jonam
+                                Swenss<ex>øn</ex>
+               </persName> de <placeName>Swenstorp</placeName> et
+                                <persName>Johannem Thrweths<ex>øn</ex>
+               </persName> eciam de Swenstorp
+                        milites <persName>Mathiam Jenss<ex>øn</ex>
+               </persName> proconsulem {Y.}stæth
+                        et <persName>Esbernum Peth<ex>er</ex>ss<ex>øn</ex>
+               </persName> consulem
+                        ibidem <app>
+                  <lem>estimata</lem>
+                  <rdg wit="#A">Det sidste <q>a</q> forskrevet A</rdg>
+               </app> atque tribus placitis continuis prout moris patrie est ad redimendum
+                        exhibita et non redempta in cujus eciam curie corporalem possessionem per
+                        predictos quatuor discretos est legaliter introductus cum suis adjacenciis
+                        adjudicamus perpetuo possidendum inhibentes firmiter ne quis se de dicta
+                        curia aut suis pertinenciis contra suam voluntatem aliqualiter intromittat
+                        ♦</p>
+            <p n="a#3">Datum <placeName>N{y.}b<ex>ur</ex>gh</placeName> anno Domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi> tredecimo crastino beati Jacobi
+                        apostoli nostro ad causas sub sigillo / teste <persName>Johanne
+                                Swenss<ex>øn</ex> Br{y.}ms</persName> nostro justiciario ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Erik, af Guds nåde Danmarks Riges, Sveriges Riges, Norges Riges, de Venders og
+                        Goters konge og pommeranernes hertug til alle, der ser dette brev, hilsen og
+                        nåde.</p>
+            <p n="b#2">I skal vide, at vi tildømmer nærværende brevviser, hr. Niels Svendsen af Ellinge,
+                        ridder, gods – nemlig en gård i Ystad, som var pantsat for en sum
+                        penge ved et åbent brev udstedt af Peder Degn, fordum borger sammesteds, og
+                        ikke retmæssigt indløst; denne Peder Degns arvinger sad vore fire breve,
+                        udstedt på anmodning af nævnte hr. Niels Svendsen på grund af de afgifter,
+                        som årligt skulle ydes af samme gård, overhørig; gården er efter loven
+                        tilkendt efter vurdering af de gode mænd, nemlig hr. Jon Svendsen af
+                        Svenstorp og Jens Truedsen, ligeledes fra Svenstorp, riddere, Mads Jensen,
+                        borgmester i Ystad, og Esben Pedersen, rådmand sammesteds, og på tre på
+                        hinanden følgende ting, efter landets sædvane, lovbudt til indløsning og
+                        ikke indløst; i den fysiske besiddelse af hvilken gård han er indført af de
+                        førnævnte fire gode mænd på lovlig vis – med dets tilliggender til at
+                        besidde evigt, idet vi strengt forbyder, at nogen mod hans vilje på nogen
+                        måde befatter sig med nævnte gård eller dens tilliggender.</p>
+            <p n="b#3">Givet i Nyborg i det Herrens år 1413, dagen efter apostlen sankt Jakobs dag under
+                        vort rettertingssegl med Jens Svendsen Brims, vor justitiar, som vidne.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

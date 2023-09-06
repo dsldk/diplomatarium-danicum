@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14140908002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>Reg. Vat. 346 fol. 200</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift: <q>De curia</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 236 nr. 1201</bibl>
+               <bibl>SDHK nr. 39922</bibl>
+               <bibl>Acta Pont. Svec. nr. 1031</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l., det her udeladte suppleret efter <ref target="14110601001" type="link">DD 1411. 1. jun., nr. 14110601001</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-09-08"
+                  notBefore="1414-09-08"
+                  notAfter="1414-09-08"
+                  cert="high">1414. 8.
+          september</date>
+            <placeName cert="high">Bologna</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Johannes 23. udnævner (Peder Mikkelsen (Kruse)), ærkebiskop i Lund, til
+          generalkollektor af det pavelige kammers indtægter i Danmark.</ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-25" who="#pbh">Filen etableret af #pbh 2014-02-25. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2018-06-18" who="#pbh">Tekst og regest</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+        <!--  <p n="a#1">Archiepiscopo Lundensi, iTuctuum camere apostolice debitorum in regno Dacie
+          eiusque civitalibus et diocesibus collec- ^) Med Datoen Bononic 9. kal. sept. '^) add. Gz.
+          JOHANNES XXIII (GHEGOR XII, BENEDIKT XIII). 237 tori. Ex fideli et solicita ac diligenti
+          providentia [etc. som Nr. 1164^); jfr. 777] . Datum Bononie 6. id. sept. anno 5. Reg. Vat.
+          346 fol. 200. De curia. </p>-->
+            <p>
+               <persName>Archiepiscopo Lundensi</persName>, fructuum camere apostolice debitorum in
+            <placeName>regno Dacie</placeName> ejusque civitatibus et diocesibus collectori ♦</p>
+            <p>Ex fideli et solicita ac diligenti providentia (quoque et probitate circumspecta aliisque
+          virtutibus quibus fulgere dinosceris presumimus evidenter quod ea que tibi commiserimus
+          sollerti et salubri studio fideliter exequeris ♦</p>
+            <p> Hinc est quod nos te de cujus circumspeccione plurimum confidimus in regno Dacie nuncium
+          apostolicum ac fructuum proventuum jurium censuum et aliorum reddituum dicte camere
+          debitorum et debendorum collectorem et receptorem usque ad nostrum et ejusdem sedis
+          beneplacitum tenore presencium facimus constituimus et eciam deputamus omnes alios et
+          singulos hujusmodi collectores et succollectores in prefato regno per nos aut quacumque
+          alia auctoritate hactenus deputatos ac commissiones omnes super hujusmodi collectorum et
+          succollectorum officiis aliis quam tibi sub quavis verborum forma per quoscumque et quavis
+          auctoritate factas penitus revocando ac tibi per te vel alium seu alios clericos dumtaxat
+          fide et facultatibus idoneos nostro et dicte camere nomine a quibuscumque prelatis
+          capitulis collegiis conventibus ecclesiarum et monasteriorum quorumlibet aliisque
+          ecclesiasticis secularibus et regularibus exemptis et non exemptis ordinum quorumlibet et
+          eciam laicalibus personis omnes et singulas pecuniarum summas et quantitates nobis et
+          prefate camere debitas debendas eciam si bona hujusmodi fuerint confiscata necnon omnes
+          fructus primi anni beneficiorum in prefato regno ac civitatibus et diocesibus per nos seu
+          auctoritate nostra collatorum et inantea conferendorum aliaque jura res bona census annuos
+          nobis et camere predicte in predicto regno quacumque racione vel causa debita et debenda
+          quecumque quotcumque et qualiacumque fuerint que in regno hujusmodi peti et exigi
+          consveverunt communibus et minutis serviciis prelatorum per nos seu auctoritate quacumque
+          ibidem ad quarumcumque ecclesiarum seu monasteriorum regimina promotorum eidem camere
+          debitis dumtaxat exceptis petendi exigendi et recipiendi ac solventes de receptis dumtaxat
+          quitandi liberandi et absolvendi racionesque et computa a quibuscumque collectoribus et
+          succollectoribus inquisitoribus heretice pravitatis ac predicatoribus verbi crucis et
+          aliis officialibus pro dicta camera in regno predicto aut provinciis civitatibus vel
+          diocesibus in dicto regno situatis vel eorum aliquibus inibi hactenus deputatis ac
+          deputandis seu personis aliis in quantum utilitatem et negocia dicte camere concernunt
+          audiendi et examinandi ipsosque ad id auctoritate nostra si necesse fuerit appellacione
+          postposita compellendi contradictores quoslibet et rebelles cujuscumque gradus ordinis
+          status condicionis vel preeminencie fuerint eciam si pontificali vel alia quavis
+          prefulgeant dignitate auctoritate prefata per censuram ecclesiasticam et bonorum ipsorum
+          sequestracionem et arrestacionem personarum et alia juris remedia appellacione postposita
+          compescendi necnon excommunicacionis et alias censuras et sentencias in non solventes tibi
+          jura et debita ipsarum ecclesie et camere ut prefertur per te vel alium seu alios tuo et
+          dicte camere nomine inflictas et promulgatas si eorum contumacia exigerit quociens opus
+          fuerit aggravandi et alias contra eos sentencias promulgandi necnon in quoscumque tibi vel
+          tuis officialibus injuriantes seu te vel dictos officiales impedientes aut negocia dicte
+          camere in aliquo directe vel indirecte publice vel occulte perturbantes eadem auctoritate
+          procedendi prout ordo juris exegerit et si necesse fuerit ipsos ad comparandum
+          personaliter coram nobis vel camerario nostro infra certum competentem terminum per te
+          illis prefigendum citandi ac eciam auxilium brachii secularis ac ordinum religiosiorum
+          quorumcumque et personarum ecclesiasticarum exemptorum et non exemptorum invocandi
+          sentencias quoque excommunicationis suspencionis et interdicti in inobedientes contumaces
+          et rebelles tam per precessores seu predecessores tuos inibi collectores et eorum
+          substitutos quam per te et a te deputatos et deputandos latas et ferendas cum ad
+          obedienciam debitam venerint tollendi et suscipiendi ipsos ab ipsis absolvendi injunctis
+          eis pro modo culpe penitencia salutari et aliis que de jure fuerint injungenda et cum
+          ipsis super irregularitate si quam sic ligati non tamen in contemptum clavium celebrando
+          divina vel immiscendo se illis contraxerint auctoritate prefata dispensandi non
+          obstantibus tam felicis recordacionis Bonifacii pape viii predecessoris nostri ac de una
+          et de duabus dietis in concilio generali quam aliis constitucionibus apostolicis
+          contrariis quibuscumque eciam si de illis et totis earum tenoribus ac de verbo ad verbum
+          esset in presentibus mencio specialis habenda seu si aliquibus et eorum ordinibus
+          communiter vel divisim a sede apostolica sit indultum quod interdici suspendi vel
+          excommunicari aut extra vel ultra certa loca ad judicium evocari non possint per litteras
+          apostolicas non facientes plenam et expressam ac de verbo ad verbum de indulto hujusmodi
+          mencionem auctoritate nostra predicta facultatem et potestatem plenariam concedentes ita
+          tamen quod in fructibus redditibus et proventibus ac aliis bonis quibuscumque ad dictam
+          cameram spectantibus ipsi camere persolvendis ultra unius anni dilacionem dare nequeas et
+          quod in singulis civitatibus et diocesibus dicti regni infra tuam collectoriam
+          consistentibus si sint ample et diffuse ultra unum et si parve fuerint in duabus ultra
+          unum eciam dumtaxat succollectorem non deputes et omnium et singulorum succollectorum quos
+          te deputare contigerit nomina et cognomina statim cum illos deputaveris nobis seu dicto
+          camerario nostro aut gentibus dicte camere clare et distincte transmittere quodque
+          singulis annis de receptis et gestis per te in hujusmodi collectorie officio racionem et
+          computum reddere necnon quicquid per te in premissis recipere contigerit per litteras
+          cambii vel alium tutum modum nobis vel dicto camerario ac gentibus dicte camere quantocius
+          commode poteris mittere non postponas ♦</p>
+            <p>Sic igitur in premissis prudenter sollicite et fideliter te habeas quod apud nos merito
+          commendari possis nostramque et dicte sedis graciam consequi uberius merearis ♦)</p>
+            <p>Datum <placeName>Bononie</placeName> 6. id. sept. anno 5.</p>
+         </div>
+         <div xml:lang="da">
+            <p>
+               I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

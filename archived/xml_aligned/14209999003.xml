@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">17</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14200000003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste Arkivregistraturer.
+      Registratur over breve i Mariager klosters arkiv A (1584), p. 45 og B (1602), p. 41 som <q>H.
+        23</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5881</bibl>
+               <bibl>ÆA V 685 nr. H. 23</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420" notBefore="1420" notAfter="1420" cert="high">1420.</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Jakob Hegedal overlader en tredjedel bol i Nødenæs (Gjerlev herred) til Ture Bonde for
+      dennes levetid. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-02" who="#pbh">Filen etableret af #pbh 2014-05-02. </change>
+         <change when="2021-01-18" who="#alk">1. korrektur af #alk 2021-01-18. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve"><persName>Jep <app><lem>Hegedals</lem><rdg wit="#A"><q>Heggedals</q>, reg. B</rdg></app></persName> breff, att hand wdj <app><lem>laan</lem><rdg wit="#A"><q>lønn</q>, reg. B</rdg></app> wnder <persName>Thurj <app><lem>Bonde</lem><rdg wit="#A"><q>Bunde</q>, reg. B</rdg></app></persName> hans liffs thiid, <app><lem>en</lem><rdg wit="#A"><q>denn</q>, reg. B</rdg></app> thredie deell wdj ett boell j <placeName><app><lem>Nødeness</lem><rdg wit="#A"><q>Nødnes</q>, reg. B</rdg></app></placeName> ♦</p>
+            <p n="a#2" xml:space="preserve">1420 ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

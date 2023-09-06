@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">181</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14220224001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2778</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrifter på bagsiden: 1) Super 4 bodis circa cemiterium beati Olaui regis situatis, quarum inhabitatores sunt Oluff Schradere, Joachim Fyriscken[?], Per Jenssøn etc. 2) Littera ratificationis super quatuor tabernas circa cemiterium sancti Olavi</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jens Andersen Lodehats segl i pergamentsrem, <ref>DGS 169</ref></ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Pergamentsrem (Roskilde domkapitels segl)</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. 5959</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-02-24"
+                  notBefore="1422-02-24"
+                  notAfter="1422-02-24"
+                  cert="high">1422. 24. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Biskop Jens (Andersen (Lodehat)) bekræfter sin forgænger Peder (Jensen (Lodehats)) gavebrev, hvori han med domkapitlets billigelse har overdraget nogle boder i Sankt Olavs sogn i Roskilde med alle indtægter og tilliggender til de evige vikarer ved Roskilde domkirke.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-01-05" who="#pz">Filen etableret af #pz 2018-01-05. </change>
+         <change when="2018-02-01" who="#mh">1. korrektur af #mh 2018-02-01. </change>
+         <change when="2018-02-06" who="#pz">2. korrektur af #pz 2018-02-06. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis presencium noticiam habituris Johannes Dei gratia episcopus Roskildensis / eternam in domino salutem / ♦ </p>
+            <p n="a#2">Cum dudum felicis recordacionis dominus Petrus condam episcopus Roskildensis predecessor noster quasdam tabernas in parochia sancti Olavi Roskildensis sitas justo emptoris titulo sine diminucione mense episcopalis Roskildensis acquisitas prout in literis donationis super hoc confectis expressius continetur dilectis filiis perpetuis vicariis in ecclesia nostra Roskildensis residentibus pro cotidianis distributionibus . accedente ad hoc consensu dilecti capituli nostri Roskildensis liberaliter donaverit . et legaliter scotaverit libere et perpetuo possidendas / nos igitur justis supradictorum filiorum peticionibus inclinati . necnon et intuitu continui et indefessi laboris eorundem in ecclesia nostra Roskildense sepedicta de cujus prosperitate utique prosperamur predictam donacionem et scotationem cum redditibus et pertinenciis dictarum tabernarum secundum modum et tenorem in prescriptis litteris contentas una cum cautionibus et documentis nobis super eisdem tabernis confectis auctoritate ordinaria dei nomine invocato approbamus ratificamus perpetualiter confirmamus et pro dicto usu presentis scripti patrocinio inviolabiliter communimus / in quarum rectificacionis et confirmationis evidenciam secretum nostrum una cum sigillo dilecti capituli nostri Roskildensis predicti presentibus duximus appendendum . ♦</p>
+            <p n="a#3">Datum anno domini mcdxx secundo ipso die sancti matthie apostoli</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

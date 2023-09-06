@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">317</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14240907001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Terpager 161</bibl>
+               <bibl>Kinch, Ribe Bys Hist. I 290 (dansk oversættelse)</bibl>
+               <bibl>Kilder til Danmarks Møntvæsen III 15, nr. 668 (udtog)</bibl>
+               <bibl>Nyrop, Den danske Boghandels Hist. I 44-5 (dansk udtog efter Kinch)</bibl>
+               <bibl>Rep. nr. 6137</bibl>
+               <bibl>Reg. Dan. nr. 3433*</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Terpager l.l</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-09-07"
+                  notBefore="1424-09-07"
+                  notAfter="1424-09-07"
+                  cert="high">1424.
+               7. september<note>Trykket hos Terpager synes at gengive et særligt skilletegn med
+                     <q>-|.</q> og <q>-|-</q>, hvilket her er gengivet med <q>\</q>
+               </note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Evert, præst, skænker et breviarium og 20 lod sølv til korvikarerne i Ribe domkirke
+               til gengæld for afholdelse af to årlige sjælemesser med uddeling for ham selv og hans
+               forfædre. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-24" who="#pbh">Filen etableret af #pbh 2014-06-24. </change>
+         <change when="2019-10-18" who="#pbh">1. korrektur af #pbh 2019-10-18. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Noverint universi presentes et futuri, quod ego
+                  <persName>Everhardus</persName> presbyter sub anno m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xx<hi rend="sup">o</hi> quarto profesto nativitatis beate Marie
+               virginis sanus et incolumis ex deliberato animo dedi et scotavi vicariis chori
+               Ripensis xx uncias argenti \ id est XX lood silff et breviarium meum pro anniversario
+               parentum meorum et proprio post mortem meam bis in anno tenendo cum missis et
+               vigiliis. videlicet in proxima integra septimana post festum beati Michaelis et
+               quasimodogeniti. cum numerus vicariorum fuerit completus. quam diu sint possunt
+               habere viii sol. currentis monete ad duplicem distributionem vid. in estate et hyeme
+               tali condicione quod habeam breviarium predictum in possessione ad dies meos et dabo
+               annuatim vicariis unam marcham pro conductu pro prefatis binis anniversariis
+               tenendis.</p>
+            <p>Item si contigerit post mortem meam quod sacrista et notarius qui protunc fuerint,
+               predictum breviarium posita cautione alicui presbytero conducere non potuerint. tunc
+               consilio ceterorum vicariorum vendant cuicunque carius potuerint. pro moneta durabili
+               et precium ejus servent pro distributione annuali ut prefertur.</p>
+            <p>Item conductu et precio prenotati breviarii consumptis argentum non vendant uno anno
+               in simul et ex toto. sed quantum sufficit ad distributionem bis in anno \ pro una
+               marcha. quia tutius servatur argentum quam moneta.</p>
+            <p>Item hoc adjecto heredibus meis exclusis si placuerit mihi soli redimere prefatas xx
+               uncias argenti \ xx lood silff quod non carius redimam. quam quamlibet lood pro viii
+               sol. <app>
+                  <lem>lys.</lem>
+                  <rdg>Sandsynligvis fejl for <q>lyb</q>
+                  </rdg>
+               </app>
+               <app>
+                  <lem>currentes</lem>
+                  <rdg>
+                     <q>= currentis</q>
+                  </rdg>
+               </app> et dativæ monete in <placeName>Dacia</placeName> collectim vel divisim.</p>
+            <p>Hec predicta sc. breviarium et argentum commisi discretis viris domino
+                  <persName>Nicholao Petri</persName> notario et domino <persName>Nicholao
+                  Mathie</persName> sacriste ad manus fidelitatis. ut predicta prevideant et
+               ordinate distribuant. pro ut saluti fidelium animarum viderint expedire.</p>
+            <p>Item si contigerit per aliquod infortunium quod absit quod predictum breviarium
+               perdidero vel destruxero, tunc obligo me et heredes meos in x marchis usualis monete
+               teneri vicariis Ripensibus prenotatis.</p>
+            <p>In cujus rei testimonium sigillum meum una cum sigillis discretorum dominorum
+                  <persName>Johannis Mathie</persName> et <persName>Esgeri Lassen</persName>
+               presbyterorum presentibus est appensum.</p>
+            <p>Datum anno et die supradictis.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="fgj">
+                  <persName>
+                     <forename>Finn Gredal</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14360730002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Det Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer. Silkeborgske reg. A (1558), s. 81, N. 46, med overskriften <q>Then skufflade som N stander paa findis breffue paa Thuillum gotz vdj Giernherrit liggendis nw til Silckeborg slott</q>. Endvidere registreret i Silkeborgske reg. B (1558). Der er i dette tilfælde ingen betydningsmæssig varians mellem A-reg. og B-reg</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 54 nr. N. 46</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter
+               <ref>A-reg.</ref>
+            </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-07-30"
+                  notBefore="1436-07-30"
+                  notAfter="1436-07-30"
+                  cert="high">1436. 30. juli<note>Provsten (<q>prepositus</q>) i Tvilum var klostrets forstander, se DGS 796. Eveldrup befinder sig i Simested sogn, Rinds herred. Poul Rasmussen, Herreklostrenes jordegods III, s. 125, note 1, foreslår, at <q>Ebbeldorp</q> (i B-reg. <q>Ebelldorp</q>) sandsynligvis er fejl for <q>Eldorp</q>, dvs. Ellerup i Gjern sogn. Det aktuelle afsnit N i registraturen omhandler Tvilum klosters gods i Gjern herred, og flere andre indførsler i det pågældende afsnit vedrører Ellerup</note>
+            </date>
+            <placeName cert="high">Houlbjerg herredsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>En vidisse af et tingsvidne af Houlbjerg herredsting om, at Lars Tygesen i Levring og provsten i Tvilum kloster har indgået forlig i en trætte om Eveldrup. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-15" who="#pbh">Filen etableret af #pbh 2013-11-15. </change>
+         <change when="2019-02-11" who="#fgj">Kladde: 1. korrektur #fgj 2019-02-11. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Item en vidisse effther et tings vinde aff <placeName>Hoffuelbierg</placeName> herriztingh liudend<ex>i</ex>s at <persName>Las Thygissen</persName> j <placeName>Leffring</placeName> och prouesten er<ex>e</ex> venlig forligte . om trette the haffde om <placeName>Ebbeldorp</placeName> (!) / ♦</p>
+            <p n="a#2" xml:space="preserve">Datum mcdxxxvj<hi rend="sup">o</hi> 2<hi rend="sup">a</hi> feria post festum beati Olavi regis et martyris : ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

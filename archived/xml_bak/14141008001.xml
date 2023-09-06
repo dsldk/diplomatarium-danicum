@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">329</num>, paragraphs: <num
+            n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14141008001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK 18428</collection>
+                        <idno></idno>
+                        <msName></msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden: <q>Super curiam in Maghletwern</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Beskadiget, en båd kan ses og resterne af omskriften: ...kedote</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Beskadiget, person på trone kan ses</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Halvdelen mangler, af omskriften kan ses: ...tani</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Lars Flemings bomærke med omskriften: lavrens fleming</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2584b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Samtidig afskrift</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. III 5483 </bibl>
+               <bibl>Svenskt Dipl. II 855</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-10-08" notBefore="1414-10-08" notAfter="1414-10-08" cert="high">1414.
+               8. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Juliana, datter af ridderen Åge Ingvarssøn, sælger sin gård i Magletvärn (Stora
+               Tvären) til Oluf Regnersen for ti mark på den betingelse, at den skal ligge til
+               domkirken i Lund, og hun, så længe hun lever, skal betale 3 skånske mark årligt til
+               Olufs årtid i domkirken. Hvis gårdens værdi overstiger de ti mark skal det
+               overskydende anvendes til bod for Julianas sjæl. Ved hendes død skal gården tilfalde
+               domkirken til bod for Olufs sjæl</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-09-09" who="#pz">Filen etableret af #pz 2020-09-09. </change>
+         <change when="2020-09-14" who="#pz">1. korrektur af #pz 2020-09-14. </change>
+         <change when="2020-10-16" who="#mh">2. korrektur af #mh 2020-10-16. </change>
+         <change when="2020-11-30" who="#pz">3. korrektur af #pz 2020-11-30. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Universis presentes literas visuris seu audituris / <persName>Juliana filia Achonis
+          Yngvarss<ex>øn</ex></persName> condam militis / salutem in Domino eternalem / ♦</p>
+            <p n="a#2" xml:space="preserve">Notum facio omnibus presentibus et futuris quod recognosco me viro honorabili domino
+        <persName>Olavo Regneri</persName> bona mea videlicet unam curiam meam in
+        <placeName>Maglathwærn</placeName> situatam michi post mortem dilecte matris mee
+        <persName>Anne</persName> jure hereditario legaliter advolutam in qua pronunc quidam
+        <persName>Hinricus Anderss<ex>øn</ex></persName> residet pro decem marchis argenti de
+      predicto domino <persName>Olavo Regneri</persName> et suis heredibus ad contentum meum
+      plenissimum totaliter perceptis cum omnibus et singulis predicte curie pertinenciis .
+      videlicet agris pratis pascuis silvis piscaturis ac aliis quibuscumque utuntur nominibus ad
+      quatuor campi discreciones nullis penitus exceptis / vendidisse . alienasse et ad manus libere
+      assignasse tali condicione prehabita quod predicta curia cum omnibus suis ut premittitur
+      pertinenciis . ad cathedralem ecclesiam Lundensem perpetuo adjacebit / et ego quamdiu vixero
+      tres bonas marcas denariorum Scaniensium pro anniversario sepedicti domini
+        <persName>Olavi</persName> predicte ecclesie sancti Laurencii Lundis omni anno erogare me
+      astringo / et in quanto predicta curia predictis decem marcis argenti erogatis melior fuerit
+      in valore / in mee designetur anime remedium salutare . quando vero de hoc mundo sublata fuero
+      extunc prescripta curia cum omnibus suis adjacenciis pensionibus et subvencionibus . prefate
+      sancti Laurencii ecclesie Lundensis in remedium anime domini Olavi Regneri sepedicti sine
+      ulteriori protractione seu heredum meorum reclamacione jure cedat perpetuo possidenda / unde
+      obligo me et heredes meos supradicte ecclesie sancti Laurencii Lundis predictam curiam cum
+      omnibus et singulis suis adjacenciis ad scotandum appropriandum et deliberandum pro et ab
+      impeticione seu allocucione quorumcumque / et si propter mee vendicionis . alienacionis .
+      scotacionis vel appropriacionis defectum ab ipsa ecclesia cathedrali sancti Laurencii
+      aliqualiter evicta fuerit illa curia antedicta extunc eandem ecclesiam sancti Laurencii ab
+      omni dampno quod racione hujusmodi incurrerit per me vel meos heredes indempnem penitus
+      conservabo / eciam in solvendo pensiones de curia antedicta videlicet tres marchas denariorum
+      Scaniensium terminum videlicet diem nativitatis beate Marie virginis mihi presigno
+      persolvendas ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis virorum honorabilium domini
+        <persName>Johannis Pauli archidyaconi Lundensis</persName> domini <persName>Haquini de
+        Trywith</persName> domini <persName>Pauli Henichini</persName> sacerdotum <persName>Thome
+        Nicolai</persName> advocati in <placeName>Ystadh</placeName>
+      <persName>Mathie Johannis</persName> et <persName>Jone Broderi</persName> proconsulum ibidem
+      et <persName>Laurencii Flæmingh</persName> presentibus est appensum ♦</p>
+            <p n="a#4" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xiiij<hi rend="sup">o</hi>
+      profesto Dyonisii et sociorum ejus. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

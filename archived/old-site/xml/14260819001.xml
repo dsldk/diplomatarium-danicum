@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">370</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14260819001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2964; tidl. Frøs H. 15</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>12.6 (plica: 1.2)</height>
+                                    <width>26.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>paa iiij attingh øde gotz i Hygom sogh<ex>e</ex>n som er
+      panth</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Hans Skelles segl (beskadiget) i mørkt voks i perg.rem, <ref>AS D xlv 22</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Gejstligt segl (beskadiget) i mørkt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Bomærke i skjold (beskadiget) i mørkt voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6269</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 114-15</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. version.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-08-19"
+                  notBefore="1426-08-19"
+                  notAfter="1426-08-19"
+                  cert="high">1426. 19. august</date>
+            <placeName cert="low">[Ribe]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hans (Gerhardsen) Skelle skylder Jens Iversen af Høgelund tyve lybske mark. Derfor foretager
+      han en frempantsætning til Jens Iversen af gods, som han har i pant af Johan Lille i Hygum i
+      Frøs herred.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-15" who="#pbh">Filen etableret af #pbh 2014-07-15. </change>
+         <change when="2018-10-02" who="#jon">1. korrektur af #jon 2018-10-02. </change>
+         <change when="99999999" who="#mh">2. korrektur af #mh 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Thet skal allæ mæ<ex>n</ex> with<ex>e</ex>rlicht wæræ so wæl the th<ex>e</ex>r nw æræ sum
+      ko<ex>m</ex>mæ skulæ ath iægh <persName>Jahan Skellæ</persName> . oc minæ rætæ
+      arwni<ex>n</ex>gh with<ex>e</ex>rkænnæs sculdigh at wæræ aff ræth giald th<ex>e</ex>nnæ
+      nærwærindæ breff wisær <persName>Jess Jwærss<ex>øn</ex></persName> aff
+        <placeName>Høgælund</placeName> oc hans ræthæ arwni<ex>n</ex>gh tiwæ lybæsk mark so dan <app><lem>peningæ</lem><rdg wit="#A">Muligvis <q>pe<ex>n</ex>ningæ</q>, A</rdg></app> so sum i <placeName>Lybek</placeName> oc i <placeName>Hamborgh</placeName> . æræ ghengæ
+      oc gheuæ . oc een god ma<ex>n</ex> ma gøræ th<ex>e</ex>n annæn fult m<ex>eth</ex> .
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Ffor th<ex>e</ex>nnæ forscr<ex>efnæ</ex> sum pæ<ex>n</ex>ni<ex>n</ex>gæ . tha
+      sætth<ex>e</ex>r jægh hanu<ex>m</ex> til eth brughælicht pant mit goths hwicketh
+      forscr<ex>eueth</ex> goths jægh hau<ex>er</ex> til pant aff hær <persName>Joon
+        Lillæ</persName> . th<ex>e</ex>r liggændæs ær i <placeName>Frøshæræth</placeName> i
+        <placeName>Hygum</placeName> hwicket th<ex>e</ex>r kallæs <placeName>Æskær</placeName> goths
+      th<ex>e</ex>r nw øthæ liggh<ex>e</ex>r . oc th<ex>e</ex>r til firæ atting jorthæ . ♦</p>
+            <p n="a#3" xml:space="preserve">Thet forscr<ex>efnæ</ex> goths for pand<ex>er</ex> jægh <persName><app><lem>Iahanæ</lem><rdg wit="#A">Muligvis <q>Iaha<ex>n</ex>næ</q>, A</rdg></app></persName> forscr<ex>efnæ</ex> oc minæ arwingh <persName>Jess
+        Jw<ex>er</ex>ss<ex>øn</ex></persName> oc hans arwing m<ex>eth</ex>
+      <app><lem>allæ</lem><rdg wit="#A"><q>allæ allæ</q>, A</rdg></app> ræticheth . bothæ woth oc tiwrth . ænthæ vntagæth . ♦</p>
+            <p n="a#4" xml:space="preserve">Oc fyrst . jægh æll<ex>e</ex>r mi<ex>n</ex> arwing th<ex>et</ex> for sawth goths løsæ wil .
+      aff <persName>Jess Iw<ex>er</ex>ss<ex>øn</ex></persName> forscr<ex>efnæ</ex> æll<ex>e</ex>r
+      aff sinæ arwing . tha skal løsingh ky<ex>n</ex>næs for santæ Hans dagh vm missom<ex>er</ex>
+      paa <placeName>Frøshæræs ting</placeName> oc the pæ<ex>n</ex>ningh hanu<ex>m</ex> at giuæ
+      th<ex>et</ex> næstæ ting for santæ Marth<ex>e</ex>ns dagh i th<ex>et</ex> samæ aar . a
+      th<ex>et</ex> samæ ting æll<ex>e</ex>r a eth anth steth th<ex>e</ex>r su<ex>m</ex> hans
+      pæ<ex>n</ex>ni<ex>n</ex>gæ ær hanu<ex>m</ex> v <app><lem>forfærth</lem><rdg resp="#jon"><q>æ</q> rettet fra <q>a</q>?</rdg></app> . m<ex>eth</ex> so dan wilkor at hwath <persName>Jess
+        Iw<ex>er</ex>ss<ex>øn</ex></persName> æll<ex>e</ex>r hans arwi<ex>n</ex>gh bær vp aff
+      th<ex>et</ex> forscr<ex>efnæ</ex> goths th<ex>et</ex> skal æy aff slaas i howæth stool
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Th<ex>æ</ex>r yu<ex>er</ex> til bind<ex>er</ex> jæg mægh oc mi<ex>n</ex> arwi<ex>n</ex>g
+        <persName>Jess Jw<ex>er</ex>ss<ex>øn</ex></persName> oc sin arwi<ex>n</ex>gh th<ex>et</ex>
+      goths at fri for eth pant for allæ the thæræ paa kun talæ m<ex>eth</ex> ræthæ . ♦</p>
+            <p n="a#6" xml:space="preserve">Allæ thess forscr<ex>efnæ</ex> stik lou<ex>er</ex> iægh <persName>Jahan</persName> oc
+      mi<ex>n</ex> arwi<ex>n</ex>gh <persName>Jess Iw<ex>er</ex>ss<ex>øn</ex></persName> oc sin
+      arwi<ex>n</ex>g stædigh oc fast at holdæ vtæn allæ hielprædæ æll<ex>e</ex>r arghælisth
+      ♦</p>
+            <p n="a#7" xml:space="preserve">Til meræ forwaringhæ tha hau<ex>er</ex> jægh . mit inghes<ex>ighle</ex> hength for thettæ
+      breef m<ex>eth</ex> a<ex>n</ex>nær godæ mæns inghes<ex>ighle</ex> th<ex>e</ex>r th<ex>et</ex>
+      with<ex>e</ex>rlicht ær so sum ær hær <persName>Jeyp</persName> sogh<ex>e</ex>n præst i
+        <placeName>Rudagg<ex>er</ex></placeName>
+      <persName>Æsbærn Mickelss<ex>øn</ex></persName> borgh<ex>e</ex>r i <placeName>Ripæ</placeName>
+      ♦</p>
+            <p n="a#8" xml:space="preserve">Scriwæth oc giuæth th<ex>e</ex>n mandagh næst æfth<ex>e</ex>r wor frughæ dagh so su<ex>m</ex>
+      hun foær til hi<ex>m</ex>mæls æfth<ex>e</ex>r wars hærre aar twsend fir hundert tiwæ aar oc
+      paa th<ex>et</ex> sæthæ ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

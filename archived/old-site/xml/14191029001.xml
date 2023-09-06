@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">874</num>, paragraphs: <num n="paragraphs">13</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14191029001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2707-b, tidl. sign. Bjeverskov H. 43</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>23.4 (plica: 1.6)</height>
+                                    <width>29.9</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskrift m. sen. hd.: <q>panthe b<ex>re</ex>ff aff
+        Henni<ex>n</ex>gh Podebusk paa viij nobel</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Henning Podebusks segl af lyst voks med sortindfarvet forside i
+        perg.rem, <ref>AS D xxx 1</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Predbjørn Podebusks segl af lyst voks med sortindfarvet forside i
+        perg.rem, <ref>AS D xxx 3</ref></ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Trued Hases segl af lyst voks med sortindfarvet forside i
+        perg.rem, <ref>AS L i 6</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 68-70</bibl>
+               <bibl>Rep. nr. 5809</bibl>
+               <bibl>Reg. *4503</bibl>
+               <bibl>Udt. i Vidensk. Selsk. Skr. IX 625</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-10-29"
+                  notBefore="1419-10-29"
+                  notAfter="1419-10-29"
+                  cert="high">1419. 29. oktober</date>
+            <placeName cert="high">Odense</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Henning Podebusk af Skjern, ridder, kundgør at skylde hr. Aksel Pedersen (Thott) af Härlöv,
+      ridder, 800 gamle engelske nobler eller tre lybske mark i sjællandske sterlinge for hver
+      nobel. For denne gæld pantsætter han Aksel Pedersen den halvdel af Vallø, som gennem hans
+      hustru Kristine kom i hans eje, med otte mark korn eller otte lødige mark til landgilde for
+      hver mark korn, hvilket er mest belejligt for Aksel Pedersen.</ab>
+            <ab>Henning Podebusk vil dele gården Vallø med tilliggende gods på Sjælland, Møn og Falster i
+      to, og Aksel Pedersen må på sin søns vegne vælge, hvilken del han helst vil have.</ab>
+            <ab>Hvis Henning Podebusk vil indløse godserne, skal han varsle Aksel Pedersen et år i forvejen
+      med et åbent brev på mortensdag. Hvis han kan indløse godserne, skal han kompensere Aksel
+      Pedersen for den årssæd, som måtte være sået på den del, som var tilfaldet ham, med så meget
+      som to af deres respektive venner finder passende.</ab>
+            <ab>Hvis Aksel Pedersen hellere vil have sine penge end godserne, skal han kundgøre Henning
+      Podebusk dette med et åbent brev på mortensdag, og på den dernæst efterfølgende årsdag for
+      kundgørelsen skal Henning Podebusk give Aksel Pedersen pengene på et for den sidstnævnte
+      belejligt sted i Sjælland.</ab>
+            <ab>Henning Podebusk vil endvidere dele gården Bidstrup med tilliggende gods på Fyn og i Jylland
+      i to, og Aksel Pedersen må på sin søns vegne vælge, hvilken del han helst vil have.</ab>
+            <ab>Hvis Henning Podebusk overdrager nogle af de pågældende godser, må han ikke lade nogen anden
+      end Oluf Akselsen (Thott) få dem for så meget, som nogen anden ville give for dem, og Oluf
+      Akselsen skal gøre det modsvarende for ham.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-16" who="#pbh">Filen etableret af #pbh 2014-04-16. </change>
+         <change when="2018-01-17" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-01-17. </change>
+         <change when="2018-03-21" who="#alk">2. korrektur af #alk 2018-03-21. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn som th<ex>et</ex> b<ex>re</ex>ff see all<ex>er</ex> høre læsæ helsær jek
+        <persName>He<ex>n</ex>ni<ex>n</ex>g van Podbusch</persName> ridde<ex>re</ex> aff
+        <placeName>Schærne</placeName> ewi<ex>n</ex>nærlich m<ex>æth</ex> wor hærræ ♦ Cungør
+      jek th<ex>et</ex> alle mæn nærwa<ex>re</ex>nd<ex>es</ex> oc
+      ko<ex>m</ex>meschul<ex>e</ex>nd<ex>es</ex> / th<ex>et</ex> jek with<ex>e</ex>rkæ<ex>n</ex>nes
+      mich m<ex>æth</ex> th<ex>et</ex>tæ mit obnæ b<ex>re</ex>ff gheldschuldich at wa<ex>re</ex> een
+      wælboræn man h<ex>ær</ex>
+      <persName>Axel Pæth<ex>e</ex>rss<ex>øn</ex> ridde<ex>re</ex></persName> aff
+        <placeName>Hærtløff</placeName> atæhundrethæ gamlæ ænghælschæ nobele fulwichteghæ /
+      all<ex>er</ex> oc thre lub<ex>sche</ex> m<ex>ar</ex>k j siælansche ænghelschæ som nu æræ
+      gæ<ex>n</ex>gæ oc gefuæ for<ex>e</ex> hwar nobell / ffor<ex>e</ex> therræs pæ<ex>n</ex>nye oc
+      ghotz so<ex>m</ex> jek vppa <placeName>Walløff</placeName> fik aff for<hi rend="sup">dæ</hi>
+      <persName>h<ex>ær</ex> Axel Pæth<ex>e</ex>rss<ex>øn</ex></persName> oc hans swenæ
+      th<ex>et</ex> som hanu<ex>m</ex> oc <app><lem>hans</lem><rdg wit="#A">rettet fra <q>them</q>, A</rdg></app> swenæ tilhørthæ / ♦</p>
+            <p n="a#2" xml:space="preserve"><app><lem>For<ex>e</ex></lem><rdg wit="#A">skrevet <q>ffor<ex>e</ex></q>, A</rdg></app> hwilk<ex>et</ex> gull ællær pænniesum som for<ex>e</ex><hi rend="sup">d<ex>e</ex></hi>
+      ær / schal jek oc wil hanu<ex>m</ex> til pant sætye all<ex>er</ex> hans arwingæ halft
+        <placeName>Walløff</placeName> th<ex>et</ex> som j myn deel kommær vppa myn hosfrøs wæghnæ
+        <persName>Kirstine</persName> m<ex>æth</ex> all thes tilliggælsæ so<ex>m</ex> ær
+      agh<ex>e</ex>r oc æng schogh oc m<ex>ar</ex>k oc fiskewadn wot oc thiurt ægntæ
+      vndæntagh<ex>et</ex> allefire wæghnæ til markeschel m<ex>æth</ex> hwat napn th<ex>et</ex>
+      hælst næfnes kan / mæth atæ m<ex>ar</ex>c korn / all<ex>er</ex> ate løthichm<ex>ar</ex>c til
+      la<ex>n</ex>dgildæ for<ex>e</ex> hwar mark korn hwilk<ex>et</ex> hanu<ex>m</ex> all<ex>er</ex>
+      ha<ex>n</ex>s arwi<ex>n</ex>gæ læylichst ær th<ex>et</ex> so<ex>m</ex> næst ghorth<ex>e</ex>n
+      liggær oc han hælst hafuæ will ♦</p>
+            <p n="a#3" xml:space="preserve">Oc schal jek oc wil <app><lem>&lt;th<ex>e</ex>n&gt;</lem><rdg wit="#A">glemt?, jf. ndf. A</rdg></app> gharth<ex>e</ex>n Walløff m<ex>æth</ex> alt th<ex>et</ex> ghotz som th<ex>e</ex>rtil
+      liggær j <placeName>Siæland</placeName> j <placeName>Møn</placeName> oc j
+        <placeName>Falstær</placeName> læggæ j two delæ halfdelæn til th<ex>e</ex>n ene hælftæ aff
+      gharth<ex>e</ex>n oc th<ex>e</ex>n a<ex>n</ex>ne<ex>n</ex> halfdell til th<ex>e</ex>n
+      a<ex>n</ex>ne<ex>n</ex> hælftæ ♦ Oc th<ex>e</ex>r schal for<hi rend="sup">dæ</hi>
+      <persName>h<ex>ær</ex> Axel</persName> hafuæ kor<ex>et</ex> at kesæ hwilken deel han helst wil
+      hafuæ vppa sin sons wæghnæ / ♦</p>
+            <p n="a#4" xml:space="preserve">Oc schal jek ængtæ aname aff thesse forscr<ex>effne</ex> ghotz aff th<ex>e</ex>n del som mic
+      tilfalle kan før æn jek hafuær hanu<ex>m</ex> swodane forwari<ex>n</ex>g giort som
+      ha<ex>n</ex> fullelich forwa<ex>re</ex>t ær mæt m<ex>æth</ex> ghorthæ oc ghotz som
+      forscr<ex>effuet</ex> star / ♦ Och skal han jkkæ buggæ vppa th<ex>e</ex>n deel som mic
+      tilfaller høghræ æn tw hundrethe lub<ex>sche</ex> m<ex>ar</ex>c ♦ Oc hwes han
+      th<ex>e</ex>r vppa buggær th<ex>e</ex>r schal jek gør<ex>e</ex> hanu<ex>m</ex> fulnit
+      for<ex>e</ex> / ♦</p>
+            <p n="a#5" xml:space="preserve">Oc nar jek thesse for<hi rend="sup">dæ</hi> gotz løsæ wil tha schal jek all<ex>er</ex> myne
+      arwi<ex>n</ex>gæ hanu<ex>m</ex> all<ex>er</ex> hans arwi<ex>n</ex>gæ atwa<ex>re</ex> eet ar
+      tilfo<ex>re</ex>n m<ex>æth</ex> mit obne b<ex>re</ex>ff vppa s<ex>anc</ex>te Marte<ex>n</ex>s
+      dach / ♦ Ær th<ex>et</ex> oc swo th<ex>et</ex> jek all<ex>er</ex> myne arwi<ex>n</ex>gæ
+      th<ex>e</ex>n løsnæn kundær hanu<ex>m</ex> all<ex>er</ex> ha<ex>n</ex>s arwi<ex>n</ex>gæ oc
+      løsær <app><lem>tha</lem><rdg wit="#A">skrevet to gange (ved linjeskifte), A</rdg></app> schal jek gør<ex>e</ex> hanu<ex>m</ex> for<ex>e</ex> th<ex>e</ex>n arsæth so<ex>m</ex>
+      sadh ær vppa th<ex>e</ex>n dell som mich tilfaller swo migh<ex>et</ex> som two hans wenær oc
+      two mine thykk<ex>er</ex> at lighæ ær ♦</p>
+            <p n="a#6" xml:space="preserve">Item ær th<ex>et</ex> oc swo th<ex>et</ex> for<hi rend="sup">de</hi>
+      <persName>h<ex>ær</ex> Axel</persName> all<ex>er</ex> hans arwi<ex>n</ex>gæ hældær sine
+      pæ<ex>n</ex>nye wil hafuæ æn ghotzet tha schal han all<ex>er</ex> hans arwi<ex>n</ex>gæ oc
+      ku<ex>n</ex>gør<ex>e</ex> mic th<ex>et</ex> all<ex>er</ex> mine arwi<ex>n</ex>gæ m<ex>æth</ex>
+      sit obnæ b<ex>re</ex>ff pa s<ex>anc</ex>te Marte<ex>n</ex>s dach som forscr<ex>effuet</ex>
+      star ♦ Oc vppa th<ex>e</ex>n arsdagh som ha<ex>n</ex> ku<ex>n</ex>gør the<ex>n</ex>
+      løsni<ex>n</ex>g vppa th<ex>e</ex>n arsdach th<ex>e</ex>r næst æft<ex>er</ex> tha schal jek
+      all<ex>er</ex> mine arwi<ex>n</ex>gæ hanu<ex>m</ex> all<ex>er</ex> ha<ex>n</ex>s
+      arwi<ex>n</ex>gæ th<ex>et</ex> for<hi rend="sup">de</hi> gul all<ex>er</ex> pænye wdgifuæ vppa
+      een belæylich stadh j Siæland som hanu<ex>m</ex> all<ex>er</ex> ha<ex>n</ex>s arwi<ex>n</ex>gæ
+      læylicht ær th<ex>e</ex>m vp atbær<ex>e</ex> vdæn arght oc æy a<ex>n</ex>n<ex>et</ex> wærth
+      all<ex>er</ex> pæ<ex>n</ex>ye æn swodant gul oc pæ<ex>n</ex>nye som for<ex>e</ex><hi rend="sup">d<ex>e</ex></hi> ær / ♦</p>
+            <p n="a#7" xml:space="preserve">Oc h<ex>ær</ex> m<ex>æth</ex> schal for<hi rend="sup">d<ex>e</ex></hi>
+      <persName>h<ex>ær</ex> Axel Pæth<ex>e</ex>rss<ex>øn</ex></persName> q<ex>ui</ex>t oc orsaghæ
+      wa<ex>re</ex> fo<ex>re</ex> all intæcht so<ex>m</ex> ha<ex>n</ex> intoch m<ex>æth</ex> Walløff
+      oc fo<ex>re</ex> all vpbursel so<ex>m</ex> ha<ex>n</ex> vp hafuær bor<ex>et</ex> aff the ghotz
+      som th<ex>e</ex>r til ligg<ex>er</ex> ♦ Oc schal jek oc q<ex>ui</ex>t oc <app><lem>orsagh&lt;æ&gt;</lem><rdg wit="#A">jf. afsnittets første linje</rdg></app>
+      <app><lem>w[a]<ex>re</ex></lem><rdg wit="#A">usikker læsning af <q>a</q></rdg></app> fo<ex>re</ex> all intæcht som jech jnhafu<ex>ær</ex> tagh<ex>et</ex> m<ex>æth</ex>
+      Bestorp oc vpbursell som jek vphafu<ex>ær</ex> bor<ex>et</ex> aff the ghotz som th<ex>e</ex>r
+      til ligg<ex>er</ex> j <placeName>Fiun</placeName> oc j <placeName>Judla<ex>n</ex>d</placeName>
+      ♦</p>
+            <p n="a#8" xml:space="preserve">Oc schal jek oc wil th<ex>e</ex>n garth<ex>e</ex>n Bistorp læggæ j two dele m<ex>æth</ex>
+      th<ex>et</ex> ghotz som th<ex>e</ex>r til liggær j Fiwn oc j Judland / oc læggæ th<ex>e</ex>n
+      ene hælftæ aff gotzæt til th<ex>e</ex>n ene hælftæ af gharth<ex>e</ex>n oc th<ex>e</ex>n
+      a<ex>n</ex>nen hælftæ til th<ex>e</ex>n a<ex>n</ex>nen halfdel ♦ Oc th<ex>e</ex>r schal
+      oc for<hi rend="sup">d<ex>e</ex></hi> h<ex>ær</ex> Axel all<ex>er</ex> ha<ex>n</ex>s
+      arwi<ex>n</ex>gæ kesæ hwilken del ha<ex>n</ex> hælst hafue wil vppa sin sons wægnæ /
+      ♦</p>
+            <p n="a#9" xml:space="preserve">Oc hwilke delæ han kesær aff bothæ ghotzen j Siæla<ex>n</ex>d j Fiwn oc j Judla<ex>n</ex>d
+      the schule hanu<ex>m</ex> frælseligh<ex>e</ex>n følghæ vppa ha<ex>n</ex>s sons wæghnæ wdæn all
+      længræ tofri<ex>n</ex>g all<ex>er</ex> gensielsæ /♦</p>
+            <p n="a#10" xml:space="preserve">Item wo<ex>re</ex> th<ex>et</ex> oc swo th<ex>et</ex> ghuth forbiuthæ <app><lem>&lt;thet jek&gt;</lem><rdg wit="#A">glemt?, A</rdg></app> nogh<ex>e</ex>r aff the ghotz affhændæ schuldæ so<ex>m</ex> forscr<ex>effuet</ex> ær
+      tha schal jek ængh<ex>e</ex>n a<ex>n</ex>næn ma<ex>n</ex> th<ex>e</ex>m vnnæ æn
+        <persName>Olaff Axelss<ex>øn</ex></persName> for<ex>e</ex> swo migh<ex>et</ex> so<ex>m</ex>
+      een a<ex>n</ex>nen th<ex>e</ex>r for<ex>e</ex> gifuæ wil oc schal for<hi rend="sup">d<ex>e</ex></hi> Olaff gør<ex>e</ex> mic thes lighes jgen ♦</p>
+            <p n="a#11" xml:space="preserve">Alle thesse forscr<ex>effne</ex> stykke oc article lofuær jech for<hi rend="sup">dæ</hi>
+      <persName>Hæ<ex>n</ex>ni<ex>n</ex>g van Podebusk</persName> stadhige oc faste at halde vppa
+      myn ghothæ tro / ♦</p>
+            <p n="a#12" xml:space="preserve">Oc til yderme<ex>re</ex> forwari<ex>n</ex>g oc stadhfæstelse tha hafu<ex>ær</ex> jek
+      Hæ<ex>n</ex>ni<ex>n</ex>g for<hi rend="sup">d<ex>e</ex></hi> mit jnsiglæ fo<ex>re</ex>
+      th<ex>et</ex>tæ b<ex>re</ex>ff hæ<ex>n</ex>gt oc bith<ex>et</ex> wælborne so<ex>m</ex> ær
+        <persName>h<ex>ær</ex> P<ex>ri</ex>tbørn van Podebusk</persName>
+      <persName>h<ex>ær</ex> Claus van Vitze<ex>n</ex></persName> oc <persName>h<ex>ær</ex>
+        Truw<ex>et</ex> Hass ridde<ex>re</ex></persName> therr<ex>es</ex> jnsigle til
+      witne<ex>n</ex>d<ex>es</ex>burth fo<ex>re</ex> th<ex>et</ex> b<ex>re</ex>ff ladh<ex>et</ex>
+      hængæ ♦</p>
+            <p n="a#13" xml:space="preserve">Datum <placeName>Othonie</placeName> dominica proxima post festum Simonis et Jude
+      appostolorum beatorum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xix ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

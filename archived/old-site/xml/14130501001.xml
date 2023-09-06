@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+               >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+               n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14130501001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. XLIII, 8</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>21.7 (plica: 2.9)</height>
+                                    <width>30.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Lidt yngre påskrift på bagsiden: <q>Dotacio altaris sancte Marie Magdalene per
+                                 Jacobum Petri proconsulem Roskildensem</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jakob Pedersens segl i brunt voks i perg.rem, <ref>AS L vi
+                                 2</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Biskop af Roskilde Peder Jensen Lodehats segl i mørkt voks i
+                                 perg.rem, <ref>DGS 168</ref></ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Roskilde domkapitels segl i brunt voks i perg.rem, <ref>DGS
+                                    193</ref></ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Fragment af segl tilhørende hr. Jens Olufsen af Hillerødsholm i brunt voks,
+                                    <ref>AS L xxiii 6</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Kopi taget i 1742</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5252</bibl>
+               <bibl>Reg. Dan. nr. *4259</bibl>
+               <bibl>Vejledende Arkivreg. XVII 89 nr. 232</bibl>
+               <bibl>Udt i Danske Magazin V 67</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-05-01" notBefore="1413-05-01" notAfter="1413-05-01" cert="high">1413.
+               1. maj</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: Latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Jakob Pedersen, borgmester i Roskilde, skøder med sin hustrus samtykke til Maria
+               Magdalenes alter i Roskilde domkirke en gård i Roskilde med et stenhus og en bod mod
+               torvet, et bryggers med udstyr, tre bryggerfade, samt en brydegård i Reerslev, som
+               han fik i pant af afdøde hr. Evert (Evertsen) Moltke.</ab>
+            <ab>Alterets indehaver skal for al fremtid lade holde seks ugentlige sjælemesser for
+               Jakob Pedersen, hans hustru Lucie, deres afdøde søn Klement og deres forfædre.</ab>
+            <ab>Så længe de lever, skal Jakob Pedersen og hans hustru frit beholde godset og holde det
+               i god stand, og når de dør, overgår det frit til alteret. I deres levetid skal Jakob
+               Pedersen og hans hustru selv bekoste messerne.</ab>
+            <ab>Hvis gården i Reerslev bliver indløst, skal pengene gå til alteret, således at dets
+               indehaver kan købe en anden gård.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-10" who="#pbh">Filen etableret af #pbh 2014-02-10. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Jacobus Petri</persName>
+               proconsul <placeName>Roskildensis</placeName> salutem in domino . &#9830;</p>
+            <p> Quoniam presentis vite condicio . statum habet instabilem . corrupcioni obnoxium .
+               qui diatim (!) visibiliter tendit ad non esse . nichilque supererit homini de bonis
+               transitoriis . nisi quod pie manus fideliter convertere studuerint in pios usus .
+               &#9830;</p>
+            <p> Quod ego Jacobus predictus sollicite cogitans maturaque deliberacione revolvens
+               cupiensque quantum mihi ex alto conceditur . bona transitoria felici commercio in
+               eterna commutare et hic in terris seminare . quod postmodum cum multiplici fructu
+               recolligere valeam in celis . &#9830;</p>
+            <p>Idcirco in omnipotentis dei . beate Marie virginis . sancti Lucii pape et martiris .
+               et sancte Marie Magdalene honorem . anime mee et uxoris mee
+                  <persName>Lucie</persName> . necnon dilecti filii nostri
+                  <persName>Clementis</persName> pie memorie . animarumque parentum nostrorum
+               pariter et heredum salutem et remedium . altari sancte Marie Magdalene in ecclesia
+               Roskildensi fundato curiam meam cum domo lapidea quam pronunc inhabito . una cum
+               taberna juxta forum in eadem curia sita . quam pronunc inhabitat quidam
+                  <persName>Johannes Gullsmeth</persName> . &#9830; Item unum braxatorium . integrum .
+               videlicet unam patellam de duodecim lagenis cum quatuor doleis . in magnitudine eidem
+               patelle competentibus .&#9830;  Item duas alias patellas braxatorias quas habet dominus
+                  <persName>Johannes</persName> de <placeName>Brundby</placeName> . &#9830; Item unam aliam
+               patellam eciam braxatoriam quam habet <persName>Tidericus sutor</persName> villanus
+               Roskildensis . Item unam curiam villicalem in
+                  <placeName>R<ex>e</ex>thersløff</placeName> . michi inpigneratam per dominum
+                  <persName>Efrardum Molteke</persName> militem pie memorie . pro quatuordecim
+               marchis argenti . expressa voluntate et consensu dilecte uxoris mee prescripte ad hoc
+               accedente . pro perpetua possessione inter vivos dono, scoto et assigno per presentes
+               cum condicionibus infrascriptis . videlicet quod possessor dicti altaris qui est vel
+               qui pro tempore fuerit . omni septimana sex missas in remedium animarum nostrum
+               supradictorum perpetuis temporibus faciat celebrari &#9830; Ita tamen quod quamdiu ego et
+               uxor mea predicta Lucia vixerimus . eadem bona omnia ut prescribitur . libere sub
+               ordinacione nostra pro nostris usibus habeamus et in bono statu tenebimus conservata
+               . et medio tempore easdem missas in eodem altari per nos et de sumptibus nostris
+               faciamus celebrari . &#9830; Post mortem vero nostram . dicta bona cum singulis suis
+               pertinenciis et patellis dicto altari cedant perpetuo jure possidenda . sine
+               reclamacione nostrorum heredum et aliorum quorumcunque . &#9830; Hoc insuper proviso quod si
+               dicta curia in Rethersløff nobis viventibus redempta fuerit . extunc pecunia pro qua
+               redimitur . altari predicto cedat pro aliis bonis loco ejusdem curie subrogandis per
+               possessorem dicti altaris fideliter acquirendis . &#9830;</p>
+            <p>Item ad omnia et singula suprascripta firmiter tenenda et inviolabiliter observanda
+               necnon ad apropriandum et disbrigandum prescripti altaris possessori . qui est vel
+               qui pro tempore fuerit . ipsam curiam cum bonis supradictis obligo me et meos heredes
+               . reclamacione quorumcunque non obstante &#9830; </p>
+            <p>In cujus rei testimonium sigillum meum una cum sigillis reverendorum patrum et
+               dominorum . videlicet . domini <persName>Petri</persName> dei gracia episcopi
+               Roskildensis . et dilecti capituli sui . domini <persName>Benedicti</persName>
+               abbatis in <placeName>Æbelholt</placeName> . necnon nobilis viri . <persName>Johannis
+                  Olavi</persName> de <placeName>Hyldersholm</placeName> presentibus est appensum .
+               &#9830;</p>
+            <p>Datum Roskildis anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xiii<hi
+                  rend="sup">o</hi> feria secunda . proxima post dominicam quasimodo geniti \
+               &#9830;</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

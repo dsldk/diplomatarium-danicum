@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">306</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14331004001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Langebek angiver, at afskriften er sket efter <q>Orig. membr. mutil. af vor
+        Frue Kirkes Archiv 1750</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6645</bibl>
+               <bibl>Reg. *5010</bibl>
+               <bibl>Københavns Dipl, II 61-62 nr. 46</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1433-10-04"
+                  notBefore="1433-10-04"
+                  notAfter="1433-10-04"
+                  cert="high">1433. 4. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hemming Jensen, som bor på Amager, overdrager med sin hustru Johannes samtykke Københavns
+      kapitel sin jord og grund i Klosterstræde i København, tillige med halvdelen af den jord han
+      deler ligeligt med sin broder, hr. Oluf Jensen, præst.</ab>
+            <ab>Overdragelsen skal dække restancen af den i mange år ubetalte landgilde af kapitlets gård,
+      hvor Hemming Jensen bor. Han og hans hustru skal herefter have gården frit, uden landgilde, i
+      deres levetid mod at holde den i god stand.</ab>
+            <ab>Efter deres død skal gården vende tilbage til kapitlet, dog på det vilkår, at deres arvinger
+      i deres levetid skal have den i leje mod en årlig landgilde på seks gode skilling grot, som
+      skal betales til mikkelsdag. Efter arvingernes død skal gården vende tilbage til kapitlet uden
+      indsigelser.</ab>
+            <ab>Hvis ovennævnte betingelser ikke overholdes af lejer, skal lejebrevet og gården vende
+      tilbage til kapitlet.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-17" who="#pbh">Filen etableret af #pbh 2013-10-17. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-09-19" who="#alk">2. korrektur af #alk 2017-09-19. </change>
+         <change when="2017-10-26" who="#alk">3. korrektur af #alk 2017-10-26. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Alle mæn thette breff see eller høre læsis, helsser jech <persName>Hemmingh
+        Jenssøn</persName>, som boor innen <placeName>Amaghe</placeName>, ewinnelighe meth Guth, ok
+      kungør <app>
+                  <lem>
+                     <damage>.....</damage>,</lem>
+                  <rdg wit="#Aa">I Aa er her markeret lakune</rdg>
+               </app> at jech meth myn kære hwsfrwæ <persName>Johane</persName> samtykke oc gothe welyæ vnner <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">I Aa er her markeret en kort lakune</rdg>
+               </app> hetherlicht <placeName>capittel innen Køpmanhaffn</placeName> myn joorth oc grwndh,
+      hwilken jech haffer i <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">I Aa er her market en lakune</rdg>
+               </app> halffdelen aff then joorth, hwilken myn broder hr. <persName>Olaff Jenssøn</persName>,
+      som prest ær, oc <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">I Aa er her markeret en lakune</rdg>
+               </app> til lighe delæ, oc ligger i <placeName>Klosterstrædit</placeName>, pone then <app>
+                  <lem>østræ</lem>
+                  <rdg wit="#Aa">H.U. Ramsing formoder her en fejl for <q>vestræ</q> (Københavns Historie og
+          Topografi i Middelalderen II 69 n. 162</rdg>
+               </app> sithe. ♦</p>
+            <p n="a#2">Item som jech haffuer wnt oc giffet, <app>
+                  <lem>so</lem>
+                  <rdg wit="#Aa">Herefter slettet <q>j</q>, Aa</rdg>
+               </app> antworther jech nw meth myt opnæ breff forneffnde <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">I Aa er her markeret en kort lakune</rdg>
+               </app> joorth meth alle rætigheed, som hwn megh tilhører, forneffnde capittel til ewinnelighe
+      æye fore <app>
+                  <lem>
+                     <damage>.....</damage>derlighe</lem>
+                  <rdg wit="#Aa">I Aa er her markeret en helt kort lakune</rdg>
+               </app> gengeld aff aderstathe fore landgildæ aff there gaarth, i hwilken jech nw boor, som
+      jech wor thom plichtw at geldæ innen manyæ aar. ♦</p>
+            <p n="a#3">Och forthy ath the haffe nw wnt mech then forneffnde gaarth i myne daghe oc forneffnde myn
+      hwsfrwæ daghe frii ath haffe fore wthen landgildæ innen sodan madæ, ath wi sculæ bigge hanum
+      oc boo innen hanum, oc holde hanum i gothe madæ. ♦</p>
+            <p n="a#4">Ok nar wi badæ aff gange, tha scal forneffnde gaarth komme til forneffnde capittel i geen
+      frii for alle hynder <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">I Aa er her markeret en lakune</rdg>
+               </app> begges wore bøørn sculæ haffe then forneffnde gaarth til leye, om the williæ, oc giwe
+      forneffnde capittel sex godhe skilling grot hwert aar til landgildæ innen sancti Michels dagh
+      betale sculendæ i <placeName>Køpmanhaffn</placeName> soo lenge som the williæ oc kunnæ
+      forneffnde gaarth <app>
+                  <lem>be<damage>.....</damage>de</lem>
+                  <rdg wit="#Aa">I Aa er her markeret en helt kort lakune</rdg>
+               </app> oc holde i gothe madæ, oc nar the aff gange, tha scal forneffnde gaarth komme til
+      forneffnde capitel igen vthen aalt hynder. ♦</p>
+            <p n="a#5">Item holdes ikke forneffnde vilkor, tha scal forneffnde capitel haffe fwl makt ath kalle
+      there breff oc there gaarth i geen. ♦</p>
+            <p n="a#6">Item worther landeth forhæreth aff oorlaff, tha skulle the nyde nathe <app>
+                  <lem>
+                     <damage>.....</damage>ldeth</lem>
+                  <rdg wit="#Aa">I Aa er her markeret en lakune</rdg>
+               </app> effther skellighet. ♦</p>
+            <p n="a#7">In cujus rei testimonium sigillum meum una cum sigillis fratris <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">I Aa er her markeret en lakune, der formentlig kan udfyldes med <q>mei domini
+            Olavi Johannis presbiteri</q> eller lignende</rdg>
+               </app> et aliorum providorum virorum, videlicet <persName>Andree Laurencii</persName> et
+        <persName>Arnoldi Krwse</persName>
+               <placeName>proconsulum</placeName> presentibus sunt appensa. ♦</p>
+            <p n="a#8">Datum anno domini mcdxxxtertio, die sancti Francisci confessoris. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

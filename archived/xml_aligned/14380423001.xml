@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">248</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14380423001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3282-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 26.2 × 11.6 (plica: 1.5). 1. Fragment af perg.rem. 2. Fragment af perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>afskrift i DSL's arkiv (Gammeldanske Diplomer 3. rk. II 101-03)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6939</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-04-23"
+                  notBefore="1438-04-23"
+                  notAfter="1438-04-23"
+                  cert="high">1438. 23. april</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kristine Jensdatter, priorinde i sankt Agnete kloster i Roskilde, og konventet samme sted
+      udlejer en gård for livstid til Knud Klementsen, hans hustru og et af deres børn, med det vilkår, at
+      Knud Klementsen skal bygge og vedligeholde gården. I de to første år skal han have gården uden
+      afgift. Derefter skal han give to skilling grot årligt. Efter Knud Klementsens, hans hustrus
+      og barns død skal gården komme tilbage til klostret igen. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-05" who="#pbh">Filen etableret af #pbh 2013-12-05. </change>
+         <change when="2020-10-19" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-10-19. </change>
+         <change when="2021-05-31" who="#jon">2. korrektur af #jon 2021-05-31. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn th<ex>et</ex>te breff se aller høre helser jæk syster <persName>Cristina
+        Jænssedott<ex>er</ex></persName> p<ex>ri</ex>orissa in sancte Agnesse kloster in
+        <placeName>Roskilde</placeName> och alt <ex>con</ex>went j thæn sa<ex>m</ex>me stæth
+      ewi<ex>n</ex>nelighe mæth guth . ♦ Ku<ex>n</ex>gøre wi alle mæn nærwærendes och
+      ko<ex>m</ex>meskulendes at wi hafue j leyæ ladet en heth<ex>e</ex>rlik man och beskeden .
+        <persName>Knwt Klæmendss<ex>øn</ex></persName> och hans husfru <persName>Jngærth</persName>
+      hwilken som han nw hafuer och eet theræs barn hwilket the thær tell kesæ en war garth ligende pa
+        <placeName>Hirsegade</placeName> j hwilken for<hi rend="sup">de</hi> garth
+      forthu<ex>m</ex>daghs stooth et stenhws bigt . hwilken garth wy rætelike telkloster fynge mæth
+      en war syst<ex>er</ex> . syst<ex>er</ex>
+      <persName>Swenike</persName> hwæs siæl guth hawe . j theræ daghe m<ex>æth</ex> swa dant skiæl
+      han scal byggen och bæthræ<ex>n</ex> och hafue hanu<ex>m</ex> j tw ar vden al afgift ♦ </p>
+            <p n="a#2" xml:space="preserve">Och sith<ex>e</ex>n scal han gifue hwært aar too skiling grot halfue
+      pæ<ex>n</ex>ni<ex>n</ex>gen pasche tiidh . oc halfue mychelmysse tiidh ♦ Och vm
+      th<ex>et</ex> swa skethe at the for<hi rend="sup">de</hi> pæ<ex>n</ex>ninge ey fram
+      ko<ex>m</ex>me j for<hi rend="sup">de</hi> tiidh tha scule wi hafue fwl makt j geen at kalle
+      wart b<ex>re</ex>ff vden hwær manz gensielse . ♦</p>
+            <p n="a#3" xml:space="preserve">Item nar guth wel at for<hi rend="sup">de</hi>
+      <persName>Knut Clæmæ<ex>n</ex>dss<ex>øn</ex></persName> aller for<hi rend="sup">de</hi> hans
+      husfru . och forsaghde barnet afgaa och døø tha scal for<hi rend="sup">de</hi>
+      garth<ex>e</ex>n m<ex>æth</ex> bygni<ex>n</ex>g och bæthring och swasum han tha
+      fy<ex>n</ex>nes wære klost<ex>er</ex>s j geen vden hwær manz gensielse . ♦</p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillo mei conuentus ibidem presentibus est
+      appensum . ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> . cd<hi rend="sup">o</hi> . xxxviii<hi rend="sup">o</hi> . die sancti Georgii martyris gloriosi . ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

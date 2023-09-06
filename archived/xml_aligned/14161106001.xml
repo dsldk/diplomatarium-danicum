@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">98</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14161106001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan. Fasc. XLIX, 10</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 19.3 × 8.4 (plica: 1.9). 1. Fragment af perg. rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 166</bibl>
+               <bibl>Rep. III nr. 5618 (i udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-11-06"
+                  notBefore="1416-11-06"
+                  notAfter="1416-11-06"
+                  cert="high">1416. 6. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Niels Mogensen erklærer ikke at have kendskab til, at Jeppe Krage har skødet sit gods i
+      Gerlev til (Jens Jensen) Sosadel bortset fra en øre skyldjord og nogle penninge i skyld. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-18" who="#pbh">Filen etableret af #pbh 2014-03-18. </change>
+         <change when="2017-05-23" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-05-23. </change>
+         <change when="2017-09-05" who="#jon">2. korrektur af #jon 2017-09-05. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Jech <persName>Niels Mowenss<ex>øn</ex>
+               </persName> aff <placeName>Grydorpp</placeName>
+      hel[ser] allæ men som th<ex>et</ex>tæ b<ex>re</ex>ff høre all<ex>e</ex>r see
+      ewi<ex>n</ex>nelighe m<ex>eth</ex> wor h<ex>er</ex>r<ex>e</ex> ♦ Jech
+      kuu<ex>n</ex>giører th<ex>et</ex> allemen at jech aldri hørthe [a]ll<ex>e</ex>r saa
+      all<ex>e</ex>r nærwærende wor at <persName>Jæiepp Kraghe</persName> noghen tiid skyøttæ
+        <persName>So[s]athel</persName> sit goodz j <placeName>G[e]erløff</placeName> meer en een øræ
+      skyld jorthe och nognæ pe<ex>n</ex>ni<ex>n</ex>ghe skyld th<ex>e</ex>r til ♦</p>
+            <p n="a#2">Th<ex>et</ex> windn<ex>er</ex> jech m<ex>eth</ex> th<ex>et</ex>[tæ] mit b<ex>re</ex>ff
+      [sc]reuet wnd<ex>e</ex>r mit jnsile wnd<ex>e</ex>r wor h<ex>er</ex>r[i]s aar thusende
+      firæhundreth pa th<ex>et</ex> siexste<ex>n</ex>de the<ex>n</ex> fredagh fore sancte Mortens
+      dagh ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

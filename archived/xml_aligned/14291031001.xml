@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="fgj">
+                  <persName>
+                     <forename>Finn Gredal</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14291031001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer. Silkeborgske reg. A (1558), s. 128, T. 47, med overskriften <q>Then skufflade som T stander paa / findis breffue paa thet gotzs vdi Hoffuelbiergherrit liggendis tiil Drotningborg slot som effter følger</q>. Endvidere registreret i Silkeborgske reg. B (1558). Der er i dette tilfælde ingen betydningsmæssig varians mellem A-reg. og B-reg</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 90 nr. T. 47</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter
+               <ref>A-reg.</ref>
+            </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-10-31"
+                  notBefore="1429-10-31"
+                  notAfter="1429-10-31"
+                  cert="high">1429. 31. oktober<note>Hr. Svend Udsen, Anders Svendsens far, havde i 1415 pantsat sit gods i Gullev, Nøddelund og Bøgeskov til Ebbe Henneksen, jf. indførslen T. 45 i Silkeborgske reg. (se <ref target="14150626002">DD 1415. 26. juni, nr. 14150626002</ref>), og samme panthaver overdrog i 1428 sin ret til biskop Ulrik Stygge af Århus, jf. indførslen T. 46. Anders Svendsen var i 1429 evig vikar ved Århus domkirke<!-- efter tidligere at have været kannik i Ribe, men i adelsårbogen kaldes han også kannik i 1429. 14281222001 viser dog at han må have været evig vikar hele året 1429--></note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Hr. Anders Svendsen (Udsen) skøder sit gods i Gullev, Nøddelund og Bøgeskov (Houlbjerg herred) til biskop Ulrik Stygge af Århus. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-05" who="#pbh">Filen etableret af #pbh 2014-08-05. </change>
+         <change when="2019-01-28" who="#fgj">Kladde: 1. korrektur #fgj 2019-01-28. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Item et skøde breff aff her <persName>Anders Suendssen</persName> paa thett godzs j <placeName>Gudeløff</placeName> <placeName>Nødelund</placeName> och <placeName>Bøgeskouff</placeName> tiil bispen / ♦</p>
+            <p n="a#2" xml:space="preserve">Datum mcdxxix vigilia omnium sanctorum : ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14330903002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <idno>0201, A 20 fol. 62r-v</idno>
+                        <msName>Vadstena klosters stora kopiebok</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Overskrift (i en anden hånd end brevteksten): <q>Planctuosa peticio</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>SDHK nr. 22001 (kun regest)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Aa.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1433-09-03"
+                  notBefore="1433-09-03"
+                  notAfter="1433-09-03"
+                  cert="low">[1433.
+          omkring 3. september]<note>Angående datering: Det synes sandsynligt, at brevet er skrevet
+            på samme tidspunkt som det i indhold lignende brev til kardinalkollegiet, <ref target="14330903001">DD 1433. 9. sep., nr. 14330903001</ref>. Angående adressat:
+            Adressen er ikke medtaget i Aa, men det ses af formuleringerne <q>vos quia post eundem
+              (</q>dvs.<q> archiepiscopum Upsalensem) primum locum in provincia teneatis</q> og
+              <q>vos qui datus estis ecclesie Upsalensi per sedem apostolicam conservator specialis
+              eleccionum</q>, at der ikke kan være tale om nogen anden end ærkebiskoppen i Lund i
+            egenskab af Sveriges primas</note>
+            </date>
+            <placeName cert="high">Uppsala</placeName>
+         </creation>
+         <abstract>
+            <ab>Petrus, ærkedegn i Uppsala, og kapitlet sammesteds beder (Peder Lykke, ærkebiskop i
+          Lund) om at støtte deres side i spørgsmålet om ærkebispesædet i Uppsala og om at skrive
+          til paven, at den af kapitlet valgte ærkebiskop er mere gavnlig for kirken og riget end
+          Arnold Clementsson. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-05-24" who="#pbh">Fil oprettet</change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Nostri recommendacione cum reverencia debita premissa ♦ </p>
+            <p>Reverende pater . quamvis nuper in presentis tribulacionis ecclesie nostre negocio
+          paternitati vestre cum certis litteris alium transmisimus nuncium . nunc tamen
+          invalescente molestia . alterius nuncii pulsacione vos inquietare cogimur iterato / nam
+          continue de implacabili domini regis commocione contra dominum nostrum archiepiscopum
+          terribiliores nobis insonant rumores . <app>
+                  <lem>cujus</lem>
+                  <rdg>måske har der i originalen stået <q>quod ejus</q>
+                  </rdg>
+               </app> eleccionem et provisionem pretenso presentacionis juris cassare nititur ♦
+          elecciones non solum Upsalensis ecclesie . verum eciam singularum ecclesiarum cathedralium
+          hujus provincie cupiens infirmare . quo dato omnia jura et privilegia ecclesie excidunt et
+          tota ejus libertas in servitutem miseram redigetur . ♦ </p>
+            <p>Que <app>
+                  <lem>
+                     <app>
+                        <lem>eciam</lem>
+                        <rdg>
+                           <q>= enim</q>
+                        </rdg>
+                     </app> miserabilior ecclesie servitus inferri potest quam quod ipsa statutis et
+              privilegiis libertata divinis et humanis illum maritum accipiat qui</lem>
+                  <rdg>understreget i Aa</rdg>
+               </app> non diligitur nec eligitur . sed per violenciam ingreditur . non in consolacionis
+          adjutorium . sed in sponse obprobrium et ruinam . ♦</p>
+            <p>Hinc igitur reverendam paternitatem vestram rogamus humiliter . requirimus instanter et
+          cum suspiriis exhortamur quatinus impreciabile hoc libertatis donum quod quisque nostrum
+          pro posse defensare juraverat totis viribus vita et rebus defendere conemini . ne huic
+          provincie miserabilis casus accidat Bohemorum ♦</p>
+            <p>In Pragensi namque ecclesia quamdiu eleccio viguit . fides floruit ♦ sed procurante
+          diabolo incensionis ingressum tandem successit indignus qui nec voluit nec valuit fidem
+          aut ecclesiam defendere . sub cujus regimine utraque <app>
+                  <lem>corruerunt</lem>
+                  <rdg>
+                     <q>= corruit</q>, hvorfra det også synes rettet i Aa</rdg>
+               </app> . ♦</p>
+            <p>Sic revera si jam admittitur ad metropolim non pastor ovium . sed lupus rapax suspicandum
+          . et verisimiliter in aliis ecclesiis similes aut forte deteriores prefici . quorum utique
+          preposicioni casus fidei accedit consequenter . ♦</p>
+            <p>
+               <app>
+                  <lem>Et quia dominus noster archiepiscopus exilium</lem>
+                  <rdg>understreget i Aa</rdg>
+               </app> patitur . vos quia post eundem primum locum in provincia teneatis ad vos spectat
+          congregacionem episcoporum et prelatorum procurare et <app>
+                  <lem>adnuatis</lem>
+                  <rdg>måske fejl for <q>adnuere</q>
+                  </rdg>
+               </app> viribus et consiliis <app>
+                  <lem>vos</lem>
+                  <rdg>måske fejl for <q>vestris</q>
+                  </rdg>
+               </app> murum opponere pro domo Israel . scilicet pro ecclesia dei ♦ hoc enim dominus
+          noster archiepiscopus hortatur consulit et requirit . et ut credimus non in gloriam suam
+          querens sed conservacionem et profectum libertatis ecclesiastice et fidei Christiane . ♦ </p>
+            <p>Et quamquam ad hujusmodi defensionis auxilium omnes astringamur . vos tamen precipue qui <cit>
+                  <quote>datus estis ecclesie Upsalensi per sedem apostolicam conservator specialis
+              eleccionum</quote>
+                  <bibl>Der hentydes til <ref>DD 2.1.21, 8. dec. 1250</ref>
+                  </bibl>
+               </cit> . ut eisdem oportune defensionis auxilio assistatis ♦ Et pro ista congregacione
+          episcoporum et capitulorum posset pretendi quod concilium generale Basiliense <app>
+                  <lem>jam celebratur</lem>
+                  <rdg>måske fejl for <q>hic celebraretur</q>
+                  </rdg>
+               </app> . ad quod expediret . ymmo necessarium esset procurares aliquos de provincia
+          destinari ♦ </p>
+            <p>Insuper ipse dominus noster archiepiscopus requirit et rogat . et nos ex parte ejusdem
+          humiliter exoramus quatinus paternitas vestra dignetur . scribere domino apostolico . id
+          quod simpliciter verum scimus . videlicet quod persona ipsius domini archiepiscopi utilior
+          sit regno et ecclesie . quam persona domini Arnoldi nec pigeat aut pudeat hujus regni
+          incolas eundem dominum archiepiscopum testimonialibus . commendare litteris . cum pene
+          omnes prelati et nobiles Dacie †utinam tam veris quam aliunde† personam domini
+          Arnoldi in <cit>
+                  <quote>suis litteris</quote>
+                  <bibl>
+                     <ref target="14320920001">DD 1432. 20. sep., nr. 14320920001</ref>
+                  </bibl>
+               </cit> forsan extortis missis domino apostolico <app>
+                  <lem>commendarunt</lem>
+                  <rdg>
+                     <q>= commendarint</q>
+                  </rdg>
+               </app> . ♦ </p>
+            <p>Altissimus paternitatem vestram incolumem conservet . ad honorem ecclesie sue sancte ♦ </p>
+            <p>Scriptum Upsalie ♦ </p>
+            <p>Petrus archidiaconus et capitulum Upsalense paternitatis vestre humiles oratores ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. januar 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">527</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14251213001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2942; tidl. sign. Sokkelund H. 38</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 28.6 × 18.1 (plica: 1.8). <ab>På bagsiden med senere hånd <q>Pantte breff paa ij boder i
+      Dragøør</q>
+                        </ab>1. Bomærke i grønt voks i perg.rem. På seglremmen med brevets hånd
+            
+                                    ..... tha schulde jæc kalle mit breff
+          igen oc ..... wing haue thoc
+          (måske skal der læses thæt eller thæn) hus oc grwnd etil iæc
+          æller mynæ arwin
+                                    .....
+                                 . 2. Niels Jonsen Jydes segl ("s niclai ionson se" om bomærke) i grønt voks i
+        perg.rem. På seglremmen med brevets hånd 
+                                    ..... pn som geue oc
+          gænge huart ar. 3. Sune Nielsens Bagers segl ("S SONE NIGELS" om bomærke)i grønt voks i
+        perg.rem. På seglremmen med brevets hånd 
+                                    .....odher ther han nw ibor
+          fran poke nw komm.....
+                                 . 4. Bomærke i skjold i grønt voks i perg.rem. På seglremmen med brevets hånd
+            
+                                    ..... skilling grot innen viii daghe æffter
+                                    (herefter slettet mith) poske dagh
+        .....
+                                 . 5. Bomærke i skjold i grønt voks i perg.rem. På seglremmen med brevets hånd
+            
+                                    .....reld Kruse / Hanis Wat Nis Iude radhmæn Sone
+            B.....
+                                 . På bagsiden 
+                                    ..... consignatas ♦
+          Datum anno domini mcd tredeci.....
+                                 . </physDesc>
+                     <history>
+                        <ab>Brevet er registreret i Registratur over brevene på Folen på Kalundborg Slot
+      (1551), trykt ÆA IV 6 nr. II 2</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6225</bibl>
+               <bibl>Københavns Dipl. I 155-156 nr. 116</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 100-102</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-12-13"
+                  notBefore="1425-12-13"
+                  notAfter="1425-12-13"
+                  cert="high">1425. 13. december</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Verner Byttow, bymand i København, pantsætter for fem mark lødigt sølv to boder i
+      Toldbodstræde i Dragør til Jens Andersen kaldet Langebonde, bymand i København. I gangbar mønt
+      i Lübeck og Wismar skal en lødig mark regnes som fem skilling grot à ni skilling lybsk. </ab>
+            <ab> Indtægterne fra boderne skal ikke modregnes i hovedstolen. Når Verner Byttow eller hans
+      arvinger vil indløse pantet, skal det bekendtgøres på Københavns byting den sidste tingdag
+      inden påske, og indløsningen skal ske den efterfølgende sankthans. </ab>
+            <ab>Opfører Jens Andersen Langebonde eller hans arvinger nybygninger på grunden, skal disse
+      vurderes af fire selvvalgte opmænd fra hver side, og værdien refunderes i gangbar mønt på
+      Sjælland. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-03" who="#pbh">Filen etableret af #pbh 2014-07-03. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-12-04" who="#alk">2. korrektur af #alk 2017-12-04. </change>
+         <change when="2018-03-15" who="#alk">3. korrektur af #alk 2018-03-15. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæ<ex>n</ex> th<ex>e</ex>ttæ b<ex>re</ex>ff se æll<ex>e</ex>r hør<ex>e</ex> læsæ helsær
+      jæc <persName>Wærnær Byttow<ex>e</ex></persName>
+      <placeName>byma<ex>n</ex> j Køp<ex>e</ex>ndh<ex>af</ex>n</placeName>
+      ewi<ex>n</ex>nelig<ex>e</ex> m<ex>eth</ex> gudh ♦</p>
+            <p n="a#2" xml:space="preserve">Oc wil jæc ku<ex>n</ex>gør<ex>e</ex> all<ex>e</ex> næ<ex>rwæren</ex>d<ex>es</ex> oc
+      ko<ex>mmen</ex>d<ex>es</ex> at jæc veth<ex>e</ex>r kænn<ex>e</ex>r mik gælth schyldugh
+      atwar<ex>e</ex> en beskedhe<ex>n</ex> man <persName>Jenis And<ex>e</ex>rss<ex>øn</ex> callet
+        Langebonde</persName> byma<ex>n</ex> i Køp<ex>e</ex>ndh<ex>af</ex>n fæm
+      lødhm<ex>a</ex>r<ex>k</ex> sølffs / fæm skeling gr<ex>ot</ex> j hwar lødh mark ni skeling
+      lubisk<ex>e</ex> i huar skeling gr<ex>ot</ex> so danæ pe<ex>n</ex>i<ex>n</ex>g<ex>e</ex>
+      so<ex>m</ex> j <placeName>Lubik<ex>e</ex></placeName> oc j <placeName>Wismer</placeName> æræ
+      geuæ oc gæng<ex>e</ex> / for huilkæ pe<ex>n</ex>i<ex>n</ex>g<ex>e</ex> jæc pa<ex>n</ex>t
+      sædh<ex>e</ex>r thæ<ex>n</ex> for<hi rend="sup">de</hi> Jenis And<ex>e</ex>rss<ex>øn</ex> to
+      mynæ bodher oc all my<ex>n</ex> rætigheth so<ex>m</ex> jæc hau<ex>e</ex>r j th<ex>e</ex>n
+      grwnd so<ex>m</ex> the for<hi rend="sup">de</hi> bodh<ex>e</ex>r sta vppa pa
+        <placeName>Draghør</placeName> synne<ex>n</ex> vidh <placeName>Talbodhe strædit</placeName>
+      ligge<ex>n</ex>d<ex>es</ex> hoss th<ex>e</ex>n strandbodh so<ex>m</ex> jæc sælu<ex>e</ex>r
+      jbor om høsten pa Draghør / medh so dant schæl at th<ex>e</ex>n for<hi rend="sup">de</hi>
+      Jenis And<ex>er</ex>ss<ex>øn</ex> æll<ex>e</ex>r hans arwi<ex>n</ex>g<ex>e</ex> schal hauæ
+      fall macth aff atskikke och j ath skikke oc j leyghe at lat<ex>e</ex> / frwct / oc landgilde
+      vp atbær<ex>e</ex> hwart ar aff the for<hi rend="sup">de</hi> bodh<ex>e</ex>r oc grwndh so
+      læng<ex>e</ex> the for<hi rend="sup">de</hi> bodh<ex>e</ex>r m<ex>eth</ex> th<ex>e</ex>n
+        for<hi rend="sup">de</hi> grwnd loghlig<ex>e</ex> ige<ex>n</ex> løsis aff han<ex>um</ex>
+        for<hi rend="sup">de</hi> Jenis And<ex>er</ex>ss<ex>øn</ex> æll<ex>e</ex>r hans
+      arwing<ex>e</ex> oc swo v<ex>e</ex>l th<ex>et</ex> ar the ige<ex>n</ex> løsis sa<ex>m</ex>
+      allæ andræ ar til far<ex>e</ex>n / oc ænct<ex>e</ex> schal aff slas j how<ex>e</ex>d
+      pe<ex>n</ex>i<ex>n</ex>g<ex>e</ex> fæm lødh m<ex>a</ex>r<ex>k</ex> / oc
+      løsni<ex>n</ex>g<ex>e</ex> daghe<ex>n</ex> schal hwart ar s<ex>an</ex>c<ex>t</ex>e Johannis
+      dagh war<ex>e</ex> misso<ex>m</ex>m<ex>er</ex> ♦</p>
+            <p n="a#3" xml:space="preserve">Item huilk<ex>e</ex> ar the for<hi rend="sup">de</hi> bodher m<ex>eth</ex> th<ex>e</ex>n
+        for<hi rend="sup">de</hi> grwnd schulæ ige<ex>n</ex> løsis aff th<ex>e</ex>n for<hi rend="sup">de</hi> Jenis And<ex>er</ex>ss<ex>øn</ex> æll<ex>e</ex>r hans arwing<ex>e</ex>
+      yw<ex>e</ex>r mik æll<ex>e</ex>r mynæ arwing<ex>e</ex> tha schal th<ex>et</ex>
+      myndelig<ex>e</ex> ku<ex>n</ex>gør<ex>es</ex> næstæ thing dagh far<ex>e</ex> poskæ dagh pa
+      Køp<ex>e</ex>ndh<ex>af</ex>n bything / oc løsni<ex>n</ex>g<ex>e</ex> daghe<ex>n</ex> schal
+      hwart ar th<ex>e</ex>r næst æfft<ex>er</ex> war<ex>e</ex> s<ex>an</ex>c<ex>t</ex>e Johannis
+      dagh misso<ex>mer</ex> oc ænge<ex>n</ex> a<ex>n</ex>nen ♦</p>
+            <p n="a#4" xml:space="preserve">Item hwat th<ex>e</ex>n for<hi rend="sup">de</hi> Jenis And<ex>er</ex>ss<ex>øn</ex>
+      æll<ex>e</ex>r hans arwing<ex>e</ex> bygghe late pa th<ex>e</ex>n for<hi rend="sup">de</hi>
+      grwnd so<ex>m</ex> the bodher nw sta vppa th<ex>et</ex> schal wrdhis æfft<ex>er</ex> firæ
+      wor<ex>e</ex> venis sighelde pa hwar sidhæ taghe schulend<ex>es</ex> / oc schal til thakkæ
+      betalis th<ex>e</ex>n tidh the fæm for<hi rend="sup">de</hi> lødh m<ex>a</ex>r<ex>k</ex>
+      betal<ex>es</ex> j so danæ pe<ex>n</ex>i<ex>n</ex>g<ex>e</ex> so<ex>m</ex> tha ær<ex>e</ex>
+      geuæ oc gæng<ex>e</ex> i Siæla<ex>n</ex>d ♦</p>
+            <p n="a#5" xml:space="preserve">Item tilbind<ex>e</ex>r jæc mik oc myne arwi<ex>n</ex>g<ex>e</ex> th<ex>e</ex>n for<hi rend="sup">de</hi> Jenis And<ex>e</ex>rs<ex>søn</ex> oc ha<ex>n</ex>s
+      arwi<ex>n</ex>g<ex>e</ex> the for<hi rend="sup">de</hi> to bodher m<ex>eth</ex> all
+      th<ex>e</ex>n ræthigh<ex>et</ex> th<ex>e</ex>r jæc hau<ex>er</ex> j ther<ex>e</ex> grwnd the
+        for<hi rend="sup">de</hi> to bodh<ex>e</ex>r æræ byghde pa / fri / hemlæ / oc til at sta /
+      for huars ma<ex>n</ex>s til tal æll<ex>e</ex>r hind<ex>e</ex>r m<ex>eth</ex> landz logh /
+      so<ex>m</ex> andræ bymæns bodh<ex>e</ex>r oc grwnd so<ex>m</ex> bo j
+      Køp<ex>e</ex>ndh<ex>af</ex>n oc bodh<ex>e</ex>r hauæ <app><lem>j</lem><rdg wit="#A">Tilføjet efterfølgende, A</rdg></app> Draghør / ♦</p>
+            <p n="a#6" xml:space="preserve">Til en størr<ex>e</ex> bewisni<ex>n</ex>g allæ for<hi rend="sup">ne</hi> stycke tha
+      hau<ex>er</ex> jæc hænct mit jncile m<ex>eth</ex> godhæ mæ<ex>n</ex>s jncile for
+      th<ex>e</ex>ttæ b<ex>re</ex>ff / swo so<ex>m</ex> ær <persName>Niels Jude</persName>
+      <placeName>fiærthings ma<ex>n</ex> j Køp<ex>e</ex>ndh<ex>af</ex>n</placeName> / <persName>Sone
+        Bagher<ex>e</ex></persName> / <persName>Jenis Boss<ex>øn</ex></persName> / oc
+        <persName>Pether Peth<ex>e</ex>rss<ex>øn</ex></persName>
+      <placeName>bymæ<ex>n</ex> th<ex>e</ex>n sa<ex>m</ex>mæ stædh</placeName> ♦</p>
+            <p n="a#7" xml:space="preserve">Th<ex>e</ex>ttæ ær gewit vnd<ex>e</ex>r wor h<ex>er</ex>r<ex>es</ex> føthelse m<hi rend="sup">e</hi>(!) cd<hi rend="sup">o</hi> thiwæ ar pa th<ex>et</ex> fæmtæ sancte Lucie dagh en
+      heliæ ju<ex>m</ex>ffrw war ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

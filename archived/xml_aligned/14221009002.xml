@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">50</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14221009002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København, Rigsarkivet, De ældste arkivregistraturer,
+      Viborg stifts reg. (1540'erne) <q>Item Nis Ouisszens aff Drauff</q> (i den yngre fortegnelse
+      over Viborg stifts breve står herefter: <q>mageschiffte breff mett bischop Lauge aff Wiborg
+        paa en gaard j Freer sogen liggindis til Skierping kircke for en gaard kaldis Gierholm</q>)
+        <q>skodebreff paa en gard y Freer till eth alter i Skiörping. Datum mcdxxii sabbato post
+        festum beati Francisci.</q> Trykt i ÆA II 277 nr. J. 42</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>Topogr. saml. på papir Viborg 242 e 3</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskrift efter udtog foretaget af Jens Bircherod. Denne samling er i dag opløst, og udtogene ligger i Langebeks Diplomatarium m. dat. 1422-24</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5982</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-10-09"
+                  notBefore="1422-10-09"
+                  notAfter="1422-10-09"
+                  cert="high">1422. 9. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Biskop Lave (af Viborg) mageskifter en gård i Fræer sogn til Niels Ovesen af Dragsgård mod
+      en gård i Bælum sogn. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
+         <change when="2021-04-12" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2021-04-12. </change>
+         <change when="2021-05-31" who="#jon">2. korrektur af #jon 2021-05-31. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Anno <app><lem>1424</lem><rdg>årstallet i ÆA er <q>1422</q></rdg></app> giorde bisp Lauge en mageskifte med Niels Ovesøn af Drag, oc gaf biscopen hannem en
+      gaard i <app><lem>&lt;Freer&gt;</lem><rdg>navnet mangler i afskriften og er indsat efter ÆA</rdg></app> sogn, som laae til et alter i Skjørping kircke for en gaard kaldet Gierholm liggendes
+      i Belom sogn mageskiftbref[ven] hafde Niels Nielsøn af Nør Kongislof oc Niels Jensøn Skadeland
+      forseilet. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

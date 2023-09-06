@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">262</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14340318001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>Dipl.Dan., fasc. II</collection>
+                        <idno>nr. 23</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 25 × 16 (plica: 2). 1. Bomærke, i brunt voks, i perg.rem. 2. Bomærke, i brunt voks, i perg.rem. 3. Bomærke, i brunt voks, i perg.rem. 4. Bomærke, i brunt voks, i perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Suhm, Samlinger I, 2. hæfte, p. 41-42</bibl>
+               <bibl>Reg. Dan. nr. 3545</bibl>
+               <bibl>Rep. nr. 6681</bibl>
+               <bibl>SDHK-nr. 22106</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-03-18"
+                  notBefore="1434-03-18"
+                  notAfter="1434-03-18"
+                  cert="high">1434. 18. marts</date>
+            <placeName cert="high">Åkirkeby</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Forlig mellem Åge Nielsen (Sparre), høvedsmand på Bornholm, og nogle tyske købmænd angående
+      strandet gods. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-23" who="#pbh">Filen etableret af #pbh 2013-10-23. </change>
+         <change when="2020-01-30" who="#smb">1. korrektur af #smb 2020-01-30. </change>
+         <change when="2020-03-06" who="#smb">2. korrektur af #smb 2020-03-06. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Vythlycth zyeth alle jene de dissen breff zeen efthe horen lesen dat wy <persName>Hinrich
+        oppe der Heyde</persName>
+      <persName>Hans Bokenhagen</persName>
+      <persName>Hans Heyse</persName> vnde <persName>Hinrich Egerdes</persName> bekyenne vnde <app><lem>bethuyghe</lem><rdg><q>betuthyghe</q>, A</rdg></app> mith dyssen jeyenwerdegen vnzen oppen breue dat wy vornomde in storem vnde in regen by
+      nacthtid an dat land <placeName>Borneholm</placeName> zegeldhe vnde wnseme scheppe brak dar
+      ganz in twey / vnde dat goth in deme scheppe wessende dreff wech vnde wordarff des nicth was to
+      beuerende . doch dreff an dat land mank den stenen vnde wart dan bergith vnde reddith / wan
+      alle deme gode en pakke zayen twe bale sardukis thwe grothe berewe wathe twe kleyne bereuede
+      wathe vnde en pyppe olyes vnde nicth meer wan alle deme gode / ♦</p>
+            <p n="a#2" xml:space="preserve">Dar oppe hebbe wy vornomde <persName>Hinric oppe der Heyde</persName>
+      <persName>Hans Bokenhagen</persName> . <persName>Hans Heyse</persName> vnde <persName>Hinrich
+        Eggerdis</persName> . wnzs wormecthet wan des kopmanz wegne / myth dissen vnsen oppenen
+      breffue vnde hebben en endracth sone vnde en wolkomen ende maket mith deme <app><lem>eruerdyghen</lem><rdg><q>eruerdyghe</q>, A</rdg></app> manne <persName>Ake Nielsone</persName> wogith oppe <placeName>Borneholm</placeName> /
+      dan wy vornomde wylliclyke vnbodungyn vornomde Ake Nielsone gwnth hebben dat drodde paret wan
+      dessen vornomden bergeden gode vor des byscoppis rectigheth vnde vor borgelon vnde tho bynde
+      wy vnzen vornomden deme erzebyscop van <placeName>Lunden</placeName> Ake Nielsson ere
+      areffnamere <app><lem>vnde</lem><rdg><q>vnde vnde</q>, A</rdg></app> denere vry vnde notlos <app><lem>holdyn</lem><rdg><q>holdyl</q>, A</rdg></app> willyn . wor al scade edder na maningh de dar na wan komen kan . beyde wan vnzser vegne
+      de hir nw jeyen werdigh seynth . vnde och wan ere wegne de hir nw nicth jeyenuerdigh synth
+      ♦</p>
+            <p n="a#3" xml:space="preserve">To mere visse vnde grothere voruaryngh dat disse vorscreuene stukke aldws tho gan synt . zo
+      henhe wy vornomde <persName>Hinric oppe der Heyde</persName>
+      <persName>Hans Bokenhagen</persName>
+      <persName>Hans Heyze</persName> vnde <persName>Hinric Eggherdes</persName> vnsse ingesegle
+      benedden an dissen breue myth ville unde mith vitschop gheuen vnde screuen to Akker na Godes
+      bord m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> in deme xxxiiii<hi rend="sup">o</hi> jaar
+      des donnerdages vor palme ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

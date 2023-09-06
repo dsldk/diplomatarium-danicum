@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">303</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14240510005</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Tabt</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Notarialinstrument udfærdiget af Antonius de Pisis, tabt</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>SRD VII p. 334-35</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>SRD l.l</bibl>
+               <bibl>Reg. *4691</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa1</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-05-10"
+                  notBefore="1424-05-10"
+                  notAfter="1424-05-10"
+                  cert="high">1424. 10. maj <note>Teksten synes til en vis grad forvirret, således som det er tilfældet
+                for hele det i SRD VII overleverede notarialinstrument med akterne forud for
+                Ofen-dommen 28. juni 1424, cf. Suhms indledende bemærkning p. 263: "Ex
+                autographo chartaceo in Archivo Regio, sed ita male scripto, ut nonnullæ hinc atque
+                illinc voces, minoris tamen ut plurimum momenti, sollertiam Langebekii, qui illud
+                1771 propria manu exscripsit, effugerint. Has, ut mos erat viro indefesso, repetitæ
+                diligentiæ relictas, restituere non permisit interveniens mors immatura. Nonnullas
+                harum, quarum lectio dubia non videbatur, suis locis inseruimus, ceteris punctis
+                indicatis; sic enim et veritati et utilitati factum satis arbitramur"</note>
+            </date>
+            <placeName cert="unknown">Flensborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hertug Heinrichs udsendinge møder op hos Ludovicus Cattaneis, kong Sigismunds kommissær, i dennes
+                residens i Flensborg og forelægger ham de spørgsmål, de vil stille til modpartens vidner
+                (i processen om hertugdømmet
+                Slesvig). Ludovicus erklærer, at han gerne kommer til Slesvig by for at høre på hertugens vidner,
+                men betinger sig at få stillet heste til rådighed og frit lejde for den kongelige prokurator, da det
+                ikke var eller ville være muligt for ham (at skaffe heste og frit lejde). Spørgsmålene til 
+                modpartens vidner er følgende: </ab>
+            <ab>Er vidnet under den danske konges herredømme? </ab>
+            <ab>Hvilken af parterne ser vidnet helst vinde? </ab>
+            <ab>Ved vidnet ikke, at hertugdømmet Slesvig/hertugdømmet Sønderjylland er et særskilt hertugdømme,
+                hvori Gottorp og andre af de lokaliteter, som kongen efterstræber, befinder sig? </ab>
+            <ab>Ved vidnet ikke, eller har vidnet ikke hørt, at de nuværende hertugers og grevers fader højtideligt modtog hertugdømmet som fanelen
+                i Nyborg? </ab>
+            <ab>Ved vidnet ikke, at den nuværende kong Erik i sin ungdom modtog "homagium" (mandsed) fra 
+                de nuværende hertugers og grevers fader Gerhard i Assens og stadfæstede det nuværende hertugdømme? </ab>
+            <ab>Ved vidnet ikke, at hertugernes tutorer har forsøgt at blive forlenet med hertugdømmet på deres
+                myndlinges vegne? </ab>
+            <ab>Ved vidnet ikke, at hertug Heinrich efter at være kommet til skelsår adskillige gange
+                        har anmodet den nuværende konge om forlening med hertugdømmet
+                på sine egne og sine brødres vegne? </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Die mercurii decima mensis may venerabilis vir dominus Nicolaus Sachow et
+                        Marquardus canonicus Sleswicensis nuncii prefati illustris domini Hinrici
+                        ducis exhibuerunt eidem domino Ludovico commissario in domo sue residencie
+                        in Flensborgh interrogatoria sua, super quibus pecierunt testes partis
+                        adverse interrogari, quos idem dominus commissarius admisit sic, si et in quantum de jure ac illa correxit. Quorum interrogatoriorum tenor
+                        inseritur. Et insuper dixit et protestatum est, eisdem nunciis presentibus
+                        et intelligentibus, quod ipse isto die paratus est ire vel mittere ad
+                        Sleswik ad recipiendum jura et testes partis illustris domini Hinrici, si
+                        qua producere volunt, si sibi provideatur de equis necessariis et salvo
+                        conductu procuratoris illustrissimi domini regis Dacie, et protestatum,
+                        quod per eum non stat neque stabit. Quorum interrogatorum, ut supra,
+                        exhibitorum tenor talis est: ♦</p>
+            <p n="a#2" xml:space="preserve">Interrogata pro parte illustrissimi domini
+                        Hinrici ducis Sleswicensis. ♦</p>
+            <p n="a#3" xml:space="preserve">Primo interrogetur quilibet testium, an
+                        sic sub dicione regis Dacie. ♦</p>
+            <p n="a#4" xml:space="preserve">Item quam partem maluerint triumphare in
+                        suprascripta causa, vel regem vel duces, et an cum contestibus condixerit de
+                        testimonio ferendo. ♦</p>
+            <p n="a#5" xml:space="preserve">Item an scierit vel audierit ipse testis, quod
+                        ducatus Sleswicensis sive Jucie australis sit specialis ducatus et
+                        consuevit habere ducem specialem ab antiquo, et Gottorp et alia, nunc
+                        dominus rex Dacie petit, sunt pars istius ducatus. ♦</p>
+            <p n="a#6" xml:space="preserve"> Item an ne ipse
+                        testis sciat vel audierit, quod pater dominorum ducum et Holsacie comitum
+                        modernorum fuit per quondam dominum regem Dacie predecessorem moderni domini
+                        regis immediatum in castro Nyeborgh solenniter cum vexillo infeudatus de
+                        ducatu predicto. ♦</p>
+            <p n="a#7" xml:space="preserve">Item an ne sciat vel audierit, quod dominus Ericus
+                        rex modernus in opido Assensen in primordio suo semel recepit homagium a
+                        patre ducum modernorum seu duce Gerardo et confirmaverit eum in ducatu. ♦
+                        </p>
+            <p n="a#8" xml:space="preserve">Item an ne sciat vel audierit, quod tutores ducum modernorum dicto
+                        tempore petierunt, se nomine pupillorum infeudari. ♦</p>
+            <p n="a#9" xml:space="preserve">Et an ne dominus
+                        Hinricus dux modernus senior statim cum ad annos discrecionis pervenerit,
+                        pluries peciit, se proprio et fratrum nomine infeudari de ducatu predicto
+                        per dominum regem modernum. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatarium Danicum</title>
+        <editor>
+          <name xml:id="pbh">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
+      <publicationStmt>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
+        <pubPlace>København</pubPlace>
+        <date>2016</date>
+        <idno type="dd">14360530001</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository>empty</repository>
+                <collection>empty</collection>
+                <idno>empty</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Tabt</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Aa">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom</settlement>
+                <repository>Archivio Segreto Vaticano</repository>
+                <idno>Reg. Lat. 345 (Eugenii IV. An. 6, lib. 77) fol. 267</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>Efter teksten registrators egenhændige bemærkning: <q>An. xvi. de
+                    Adria</q></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>APD III 87 nr. 1767</bibl>
+          <bibl>Weibull, Dipl. dioc. Lund. III 173 nr. 175</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <ab>Tekst og arkivalske oplysninger efter Dipl. dioc. Lund. l.l.</ab>
+      </samplingDecl>
+      <projectDesc>
+        <ab>DD-5</ab>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+          <desc>nil</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1436-05-30" notBefore="1436-05-30" notAfter="1436-05-30" cert="high">1436. 30.
+          maj</date>
+        <placeName cert="high">Bologna</placeName>
+      </creation>
+      <abstract>
+        <ab>Pave Eugenius 4. tillader Hans Laxmand, udvalgt ærkebiskop i Lund, at lade sig indvie af
+          en hvilken som helst biskop, han foretrækker, og aflægge lydighedseden til denne.</ab>
+      </abstract>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>empty</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-14" who="#pbh">Filen etableret af #pbh 2013-11-14. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-11-23" who="#pbh">Tekst indscannet osv.</change>
+      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="nil"/>
+  </facsimile>
+  <text>
+    <body>
+      <div xml:lang="la">
+        <p n="a#1"><persName>Eugenius</persName> etc. dilecto filio <persName>Johanni</persName>,
+          electo <placeName>Lundensi</placeName>, salutem etc. </p>
+        <p>Cum nos nuper ecclesie Lundensi pastoris regimine destitute de persona tua nobis et
+          fratribus nostris ob tuorum exigenciam meritorum accepta de fratrum eorundem consilio
+          auctoritate apostolica duxerimus providendum preficiendo te illi in archiepiscopum et
+          pastorem, prout in nostris inde confectis litteris plenius continetur, nos ad ea, que ad
+          tue commoditatis augmentum cedere valeant, favorabiliter intendentes, tuis
+          supplicacionibus inclinati, tibi, ut a quocunque malueris catholico antistite graciam et
+          communionem apostolice sedis habente ascitis et in hoc sibi assistentibus duobus vel
+          tribus catholicis episcopis similem graciam et communionem habentibus munus consecracionis
+          recipere valeas, ac eidem antistiti, ut munus predictum auctoritate nostra impendere
+          libere tibi possit, plenam et liberam concedimus tenore presencium facultatem. </p>
+        <p>Volumus autem, quod idem antistes, qui tibi prefatum munus impendet, postquam illud tibi
+          impenderit, a te nostro et ecclesie Romane nomine fidelitatis debite solitum recipiat
+          juramentum juxta formam, quam sub bulla nostra mittimus interclusam, ac formam juramenti,
+          quod te prestare contigerit, nobis de verbo ad verbum per tuas patentes litteras tuo
+          sigillo signatas per proprium nuncium quantocius destinare procuret. </p>
+        <p>Datum <placeName>Bononie</placeName> anno incarnacionis dominice mcdxxxvi tercio kal.
+          junii anno sexto. </p>
+      </div>
+      <div xml:lang="da">
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

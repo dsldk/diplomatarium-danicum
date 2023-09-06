@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">238</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14340525001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>or. perg. RA 0101, SDHK-nr. 22160</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i Sv. RA, E 102a fol. 158 nr. 102;  B 29 fol. 28 nr. 192 (Skånebrevsfortegnelsen)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6694</bibl>
+               <bibl>Weibull, Dipl. Dioc. Lund. III 145 nr. 150</bibl>
+               <bibl>SDHK nr. 22160</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-05-25"
+                  notBefore="1434-05-25"
+                  notAfter="1434-05-25"
+                  cert="high">1434. 25. maj<note>Jf. <ref target="143406240001">DD 1434. 24. jun., nr. 143406240001</ref>
+               </note></date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ærkebiskop Peder (Lykke (Bille)) bestemmer med domkapitlets billigelse, at det alter for jomfru Maria i Lunds domkirke, som hr. Abraham Brodersen (Båd) har stiftet, skal flyttes til den hellige Thomas’ kapel i samme kirke.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-23" who="#pbh">Filen etableret af #pbh 2013-10-23. </change>
+         <change when="2018-10-03" who="#pz">1. korrektur af #pz 2018-10-03. </change>
+         <change when="2018-10-22" who="#alk">2. korrektur af #alk 2018-10-22. </change>
+         <change when="2018-12-18" who="#pz">3. korrektur af #pz 2018-12-18. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus <persName>Petrus dei gracia archiepiscopus Lundensis</persName> Swecie primas et apostolice sedis legatus salutem in domino sempiternam ♦</p>
+            <p n="a#2" xml:space="preserve">Sane racioni non censemus dissonum nec sacris canonibus obvium si ea que in domo domini minus apte posita sunt edificia ad statum magis congruum in cultus divini ministerium competencius adaptentur ♦ Nam et altaria prius facta <cit><quote>de lignis cethim</quote><bibl>5 Mos 25,10. </bibl></cit> sacra scriptura <cit><quote>Salemonem immutasse commemorat et aurea effecisse</quote><bibl>Der henvises til bygningen af Salomons tempel som beskrevet i 1 Kong 6.</bibl></cit> ♦</p>
+            <p n="a#3" xml:space="preserve">Dudum siquidem pie memorie dominus <persName>Abraham Broth<ex>e</ex>rss<ex>øn</ex></persName> miles a felicis recordacionis domino <persName>Jacobo quondam archiepiscopo Lundensi</persName> predecessore <damage>nostro</damage> de consensu protunc venerabilis capituli Lundensis pro erigendo altari ad honorem beatissime Marie virginis in ecclesia nostra Lundensi locum sibi <app><lem>ad hoc</lem><rdg><q>adhuc</q> A</rdg></app> eligendum obtinuit deputari / ♦ Sed ipsius militis procuratores et commissarii circa hujusmodi loci eleccionem minus provide agentes altare ipsum in area medii pavimenti ipsius ecclesie ubi propterea communis hominum transitus ac alias processionum faciendarum nimis occupatur et prepeditur incessus . erigere decreverunt ♦ </p>
+            <p n="a#4" xml:space="preserve">Nos vero ob zelum decoris domus domini et honorem virginis beatissime cupientes <app><lem>quo ad hoc</lem><rdg><q>quo adhuc</q> A; <q>quoad hoc</q> Weibull</rdg></app> statum ipsius nostre Lundensis ecclesie in melius reformari de consensu venerabilis capituli nostri Lundensis volumus et mandamus quatenus altare supradictum in capellam beati Thome Cantuariensis archiepiscopi martiris intra eandem ecclesiam nostram supra gradus cripte juxta australem chorum ejusdem ecclesie cum universis et singulis suis pertinenciis transferatur sub ea potissimum condicione ut in sepedicto altari translato juxta modum fundacionis et institucionis ejusdem divina celebrentur officia prout ipsius sepe memorati altaris pro tempore valeant suppetere facultates ♦</p>
+            <p n="a#5" xml:space="preserve">Datum <placeName>Lundis</placeName> anno domini mcdxxxquarto die beati Urbani pape et martiris nostro sub secreto necnon sigillo venerabilis capituli nostri predicti presentibus appensis in testimonium premissorum
+    </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

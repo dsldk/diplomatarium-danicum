@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">120</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">14</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14140417002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Kampen</settlement>
+                        <repository>Stadsarchief Kampen</repository>
+                        <collection/>
+                        <idno>Inv. nr. 2017</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>1. Hertug Wilhelms segl i perg.rem i rødt voks. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4293</bibl>
+               <bibl>Register van Charters en Bescheiden in het oude Archief v. Kampen I 132 (i udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-04-17"
+                  notBefore="1414-04-17"
+                  notAfter="1414-04-17"
+                  cert="high">1414. 17. april</date>
+            <placeName cert="unknown">Haag</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Wilhelm, hertug af Bayern og greve Holland udsteder en vidisse på et brev fra 5. september 1326, hvorved kong Valdemar 3. tager byen Kampen under sit værn og stadfæster
+        og specificerer dens privilegier i Danmark, specielt på Skånemarkederne. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="2018-04-13" who="#smb">2. korrektur af #smb 2018-04-13. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Wilhelmus dei gratia comes palatin{uo}s Reni d{uo}x Bavarie comes Hannoniae Hollandie Zelandie et dominus Frizye ad universorum notitiam cupimus pervenire per presentes quod nos presentibus certis consiliariis et
+                secretariis nostris vidimus audivimus et coram nobis legi fecimus litteras sanas perfectas integras non abrasas non cancellatas nec in aliqua sui parte susspectas aut vitiatas sigillatas sigillo solempni magnifici
+                domini domini Waldemari Danorum Sclavorumque regis quarum tenor sequitur in hec verba . ♦</p>
+            <p n="a#2" xml:space="preserve">
+                        Waldemarus dei gracia Danorum Sclavorumque rex dux Estonie (etc. = DD 2. rk. IX nr. 314) ♦</p>
+            <p n="a#3" xml:space="preserve">
+                                Et quia tales litteras vidimus et ut prefertur audivimus sigillum nostrum presentibus jussimus appendi in testimonium premissorum ♦</p>
+            <p n="a#4" xml:space="preserve">
+                                        Datum Hagis partium nostrarum Hollandie anno domini millesimo cccc<hi rend="sup">mo</hi> quartodecimo decima septima die mensis aprilis.
+                                
+                                
+                </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden 1. januar 2017 til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

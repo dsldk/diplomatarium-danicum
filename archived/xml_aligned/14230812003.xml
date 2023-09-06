@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1174</num>, paragraphs: <num n="paragraphs">15</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14230812003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>NKR 2814-b</idno>
+                        <msName>tidl. Slesvig 62</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 54.6 × 23.1 (plica: 3.4). <ab>Samtidig bagsidepåskrift: <q>Per Albertum product<damage>is
+                                    sexta</damage>
+                           </q> (?); yngre arkivpåskrift: <q>Zeugnuss breff
+                                 ........ Holsten ........ vber das Herzogthum zw Slesswig</q>,
+                              hvortil også hører arkivpåtegningerne <q>E F</q> (skrevet lodret)</ab>1. Lübeck kapitels segl i mørkt voks i ufarvet i perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Optaget i Ludovicus de Cattaneis' notarialinstrument (Kejserprocessen),
+                           senere opbevaret i Gehejmearkivet i København, hvor Langebek iflg. Suhm
+                           (SRD VII s. 263) tog en afskrift i 1771; både original og kopi af
+                           Langebek tabt, men forinden benyttet som forlæg af Suhm til udgaven i
+                           SRD</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6044</bibl>
+               <bibl>Reg. Dan. nr. 3382*</bibl>
+               <bibl>SRD VII 368-371</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. Varianter og fejl fra SRD er medtaget i apparatet, dog er
+               rent ortografiske varianter udeladt.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-08-12"
+                  notBefore="1423-08-12"
+                  notAfter="1423-08-12"
+                  cert="high">1423.
+               12. august<note>Dette brev brev sammen med flere andre fremlagt for kong Sigismund i
+                  Ofen d. 22. juni 1424 af grev Heinrichs sendebud Albertus van dem Brake (jf. også
+                  den ældste bagsidepåskrift på A), og ved samme lejlighed fik de danske sendebud
+                  Erik Krummedige og provst Johannes af Cammin tilstået af kong Sigismund, at der
+                  skulle udfærdiges kopier til den danske part (SRD VII 339-340); om kopierne til
+                  den danske part blev udfærdiget, og i givet fald deres videre skæbne, er
+                  uvist</note>
+            </date>
+            <placeName cert="high">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: Latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Notarialinstrument, hvorved provsten, dekanen og domkapitlet i Lübeck attesterer, at
+               de efter anmodning af provst i Slesvig Nicolaus Sachow, der agerer på vegne af grev
+               Heinrich, Adolf, og Gerhard, har hørt adskillige mænds vidnesbyrd om de følgende
+               artikler: </ab>
+            <ab>1) Landskabet mellem Levenså og Kolding har i mands minde været et selvstændigt
+               hertugdømme kaldet Slesvig eller Sønderjylland, og er blevet givet i forlening af den
+               til enhver tid siddende konge af Danmark som evigt, arveligt fanelen. </ab>
+            <ab>2) De nuværende hertugers forfader grev Gerhard af Holsten blev forlenet med Slesvig
+               som evigt, arveligt fanelen af kong Valdemar 3. af Danmark. </ab>
+            <ab>3) De nuværende hertugers far, grev Gerhard af Holsten, blev forlenet med Slesvig
+               som evigt, arveligt fanelen af kong Oluf af Danmark med dronning Margrete og
+               rigsrådets samtykke. </ab>
+            <ab>4) Grev Heinrich, Adolf og Gerhard har anmodet kong Erik 7. af Pommern om at blive
+               forlenet med hertugdømmet Slesvig, men kongen har nægtet dem det. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-04" who="#pbh">Filen etableret af #pbh 2014-06-04. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="nil">
+            <p n="a#1">Universis et singulis presencia inspecturis <persName>Bertoldus</persName>
+               prepositus <persName>Johannes</persName> decanus <persName>Gotscalcus
+                  Warendorp</persName>
+               <persName>
+                  <app>
+                     <lem>Johannes Rozstok</lem>
+                     <rdg>Mgl. i SRD</rdg>
+                  </app>
+               </persName>
+               <persName>Johannes Louwe<ex>n</ex>koper</persName>
+               <persName>Hinricus Westhoff </persName>
+               <persName>Wulffardus Rantzow
+                  </persName>
+               <persName>Hermannus Sa<ex>m</ex>mid</persName> et <persName>
+                  <app>
+                     <lem>Thidericus</lem>
+                     <rdg>
+                        <q>Theodericus</q>, SRD</rdg>
+                  </app> Schepenstede</persName> canonici totumque capitulum ecclesie
+                  <placeName>Lubicensis</placeName> salutem in domino sempiternam et presentibus
+               fidem indubiam adhibere ♦</p>
+            <p n="a#2">Nuper coram nobis notarioque et testibus infrascriptis constitutus
+               personaliter venerabilis vir dominus <persName>Nicolaus Sachow</persName> prepositus
+                  <placeName>ecclesie Sleswicensis</placeName> exposuit qualiter nonnulli senes et
+               in etate provecti hodie in civitate Lubicensi reperirentur quorum testimonio
+               illustres principes et domini domini <persName>Hinricus</persName>
+               <persName>Adolphus</persName> et <persName>Gherardus</persName> duces Slesewicenses
+               et <placeName>Holtzacie</placeName>
+               <placeName> Stormarie</placeName> ac in
+                     <placeName>Schowe<ex>n</ex>borgh</placeName> comites quamplurimum in judiciis
+               ecclesiasticis et secularibus et extra super <app>
+                  <lem>certis</lem>
+                  <rdg>
+                     <q>ceteris</q>, SRD</rdg>
+               </app> articulis inferius insertis indigerent et quia de eorundem senum et in etate
+               provectorum <app>
+                  <lem>virorum</lem>
+                  <rdg>Mgl. i SRD</rdg>
+               </app> morte propter annos eorum accumulatos probabiliter timeretur <app>
+                  <lem>aliqui eciam eorum bellis et stragibus se cottidie immiscerent</lem>
+                  <rdg>Denne sætning synes semantisk at skulle koordinere med det til <q>propter</q>
+                     hørende led, men morfosyntaktisk hører det snarere til <q>quia</q>; imidlertid
+                     mangler der for at tydeliggøre sammenhængen med <q>quia</q> en konjunktion, der
+                     fx kunne udtrykkes således: <q>
+                        <supplied>et</supplied>
+                     </q> aliqui eller
+                           <q>aliqui<supplied>que</supplied>
+                     </q>. Som teksten er overleveret, læses
+                     sætningen nærmest som et parentetisk indskud</rdg>
+               </app> idcirco nobis dictus dominus Nicolaus prepositus pro parte principum
+               prefatorum humiliter supplicavit quatinus nos tamquam ordinariam in civitate
+               Lubicensi <app>
+                  <lem>predicta</lem>
+                  <rdg>
+                     <q>predictam</q>, SRD</rdg>
+               </app> jurisdiccionem per decanum nostrum <app>
+                  <lem>excercentes</lem>
+                  <rdg>
+                     <q>= exercentes</q>
+                  </rdg>
+               </app> viros hujusmodi coram nobis evocare ac ad testimonium hujusmodi mediis illorum
+               juramentis recipere et deposicionibus eorundem in scriptis redactis testimonium sub
+               nostro sigillo ad futuram rei memoriam reddere dignaremur ♦</p>
+            <p n="a#3">Nos itaque peticioni hujusmodi annuentes evocatis coram nobis capitulariter
+               congregatis ad nominacionem dicti domini Nicolai prepositi viris antedictis videlicet
+               reverendo in Christo patre et domino domino <persName>Hinrico</persName> episcopo
+               Sleswicensi honorabilibusque viris dominis <persName>Johanne Howeschilt</persName> et
+                  <persName>Johanne Schriuer</persName> canonicis ecclesie Sleswicensis ac strennuis
+               militibus dominis <persName>Laurencio Hest</persName>
+               <app>
+                  <lem>Lubicensis</lem>
+                  <rdg>
+                     <q>Lubicensi</q>, SRD</rdg>
+               </app> et <persName>Detleuo van Alleuelde</persName> Sleswicensis <app>
+                  <lem>diocesium</lem>
+                  <rdg>
+                     <q>dioc.</q> A; kan enten opløses som <q>diocesium</q> eller <q>diocesis</q>,
+                     men flertalsformen er sandsynligvis tilsigtet her, jf. nedenfor i opregnelsen
+                     af vidner: <q>Lubicensis et Hildensimensis ecclesiarum</q>
+                  </rdg>
+                  <rdg>
+                     <q>diocesis</q>, SRD</rdg>
+               </app> famosoque armigero <persName>Ty<ex>m</ex>mone Meynerstorp</persName> dicte
+               Sleswicensis diocesis eisque per prefatum dominum Nicolaum prepositum productis et
+               per nos tamquam de quorum morte probabiliter timeretur eo quod ipsorum aliqui
+               septuagenarii alii vero quinquagenarii forent et alii frequenter bellis et stragibus
+               se immiscerent prout ex eorum propria juratoria assercione constabat et eciam id
+               aspectus indicavit receptis et ne cum eis pariter periret probacio veritatis
+               diligenter <app>
+                  <lem>mediis eorum</lem>
+                  <rdg>
+                     <q>eorum mediis</q>, SRD</rdg>
+               </app> juramentis que de dicenda veritate in manibus dicti domini decani nostri
+               tactis scripturis sacrosanctis ad sancta dei ewangelia corporaliter prestiterunt
+               divisim in occulto coram notario et testibus infrascriptis examinatis illam quam
+               sciverunt super quatuor articulis infrascriptis comperimus veritatem ♦</p>
+            <p n="a#4">Primo videlicet quod territorium a flumine
+                  <placeName>Leui<ex>n</ex>gesowe</placeName> incipiens et usque ad
+                  <placeName>pontem Koldinghen</placeName> terminans cum omnibus civitatibus <app>
+                  <lem>opidis castris</lem>
+                  <rdg>
+                     <q>castris opidis</q>, SRD</rdg>
+               </app> terris et insulis intermediis a tanto tempore quod memoria hominum in
+               contrarium non existit fuit et est specialis ducatus vocatus communiter et appellatus
+                  <placeName>ducatus Sleswicensis</placeName> sive <placeName>Jucie
+                  Australis</placeName> consuetus a domino rege <placeName>Dacie</placeName> pro
+               tempore existente in feodum perpetuum et paternum et hereditarium donari et concedi
+               ac pro tali habitus tentus et reputatus ♦</p>
+            <p n="a#5">Hunc quidem articulum verum esse dicti testes per publicam vocem et famam ac
+               communem omnium hominum istarum parcium <app>
+                  <lem>veram reputacionem</lem>
+                  <rdg>
+                     <q>verum reputatorium</q>, SRD</rdg>
+               </app> communeque dictum <app>
+                  <lem>quas</lem>
+                  <rdg>
+                     <q>quos</q> SRD</rdg>
+               </app> et quod de hoc esse affirmarunt divisim ut premittitur examinati testabantur
+               ♦</p>
+            <p n="a#6">Item secundo videlicet quod ducatus hujusmodi dudum quondam
+                  <persName>Gherardo</persName>
+               <app>
+                  <lem>tunc</lem>
+                  <rdg>Tilf. sekundært af den oprindelige skriver i A</rdg>
+                  <rdg>
+                     <q>etc.</q>, SRD</rdg>
+               </app> comiti Holtzacie etcetera proavo dominorum ducum prefatorum suisque legitimis
+               heredibus a dive memorie domino <persName>Woldemaro</persName> tunc rege Danorum de
+               expresso consensu omnium consiliariorum tocius regni Dacie donatus ipseque quondam
+               Gherardus tunc comes de illo tamquam perpetuo paterno et hereditario feudo
+               sollemniter cum vexillorum projeccione infeudatus ipsumque ducatum tunc foret
+               assecutus et ipse ac sui posteri heredes legitimi usque ad dominos duces
+               Slesewicenses modernos predictos tenuissent et possedissent pacifice et quiete ♦</p>
+            <p n="a#7">Et hunc quidem articulum verum esse aliqui ex testibus predictis videlicet
+               reverendus pater dominus episcopus et domini Johannes Howeschilt et Laurencius Hest
+               eo quod literas originales infeudacionis hujusmodi <app>
+                  <lem>antique</lem>
+                  <rdg>
+                     <q>antiquas</q>, SRD (vist rigtigere)</rdg>
+               </app> vidissent iidem vero et alii testes eundem articulum eciam per publicam vocem
+               et famam ac <app>
+                  <lem>communes</lem>
+                  <rdg>
+                     <q>citacionem</q>, SRD</rdg>
+               </app> reputacionem et dictum quas et quod desuper esse affirmaverunt divisim ut
+               premittitur examinati verum esse testabantur ♦</p>
+            <p n="a#8">Item tercio videlicet quod recolende memorie quondam dominus
+                  <persName>Gherardus</persName> dux Slesewicensis et pater dominorum ducum
+               modernorum predictorum de ducatu hujusmodi cum omnibus juribus et pertinenciis suis
+               tamquam de feudo perpetuo et paterno ac hereditario pro se et suis legitimis
+               heredibus novissime a dive memorie quondam domino <persName>Olavo</persName> tunc
+               rege Danorum existentibus ibidem quondam domina <persName>Margareta</persName> regina <app>
+                  <lem>et</lem>
+                  <rdg>
+                     <q>ac</q>, SRD</rdg>
+               </app> mater ejusdem domini Olavi septemque episcopis <app>
+                  <lem>et</lem>
+                  <rdg>
+                     <q>ac</q>, SRD</rdg>
+               </app> omnibus aliis consiliariis secularibus dicti regni Dacie et non
+               contradicentibus quinymmo expresse <app>
+                  <lem>consensientibus</lem>
+                  <rdg>
+                     <q>= consentientibus</q>
+                  </rdg>
+               </app> fuit sollemniter cum vexillorum projectione infeudatus et investitus ipsumque
+               ducatum ex hoc per tempora vite sue tenuit pacifice et quiete et pro duce habitus
+               fuit tentus nominatus et reputatus palam et publice <app>
+                  <lem>communiter</lem>
+                  <rdg>
+                     <q>quiete</q>, SRD</rdg>
+               </app> et notorie ♦</p>
+            <p n="a#9">Et hunc quidem articulum dicti testes verum esse ex eo quia se tempore
+               infeudacionis hujusmodi in dicto castro <persName>Nuborgh</persName> adfuisse et
+               quidam eorum videlicet reverendus pater dominus episcopus <app>
+                  <lem>ac</lem>
+                  <rdg>
+                     <q>et</q>, SRD</rdg>
+               </app>
+               <app>
+                  <lem>domini Johannes Howeschilt et Johannes Schriuer</lem>
+                  <rdg>
+                     <q>dominus J. H. et dominus J. S.</q>, SRD</rdg>
+               </app> canonici predicti valde prope stetisse et omnia verba <app>
+                  <lem>infeudatorum</lem>
+                  <rdg>
+                     <q>infeudatarum</q>, SRD</rdg>
+               </app> audivisse et alii vexillorum projectionem vidisse et rei geste publicam <app>
+                  <lem>famam</lem>
+                  <rdg>
+                     <q>formam</q> SRD</rdg>
+               </app> intellexisse constanter affirmarunt excepto domino Detleuo milite predicto qui
+               hec a patre suo quondam domino <persName>Benedicto <app>
+                     <lem>van</lem>
+                     <rdg>
+                        <q>de</q>, SRD</rdg>
+                  </app> Alleuelde</persName> dumtaxat tamquam ab illo qui omnia hec <app>
+                  <lem>ordinasset et interfuisset</lem>
+                  <rdg>
+                     <q>ordinasse et interfuisse</q>, SRD</rdg>
+               </app> audierat divisim ut premittitur examinati testabantur ♦</p>
+            <p n="a#10">Item quarto videlicet quod domini Hinricus Adolphus et Gherardus moderni
+               duces predicti existentes veri et legitimi filii et heredes quondam <app>
+                  <lem>domini</lem>
+                  <rdg>Mgl. i SRD</rdg>
+               </app> Gherardi ducis proxime dicti paulo post mortem ejusdem patris eorum dum in
+               pupillari etate essent constituti per curatorem eorum quondam dominum
+                  <persName>Hinricum</persName> ducem <placeName>Lune<ex>n</ex>burgensem</placeName>
+               tempore debito et tandem ipse dominus Hinricus dux Slesewicensis modernus predictus
+               cum ad legitimam etatem pervenerat <app>
+                  <lem>pluries</lem>
+                  <rdg>
+                     <q>plures</q>, SRD</rdg>
+               </app> per se ipsum se de ducatu predicto tamquam <app>
+                  <lem>hereditate</lem>
+                  <rdg>Herefter udstreget <q>h</q>, A</rdg>
+               </app> eorum paterna et feudo paterno et perpetuo a serenissimo principe et domino
+               domino <persName>Erico</persName> Danorum rege moderno petierunt infeudari quodque
+               idem dominus rex infeudacionem hujusmodi denegabat ♦</p>
+            <p n="a#11">Et hunc quidem articulum verum esse iidem testes eo quod se presentes
+               aliquando fuisse et sic <app>
+                  <lem>peti</lem>
+                  <rdg>
+                     <q>fieri</q> SRD</rdg>
+               </app> audivisse constanter affirmarunt excepto domino Johanne Schriuer canonico
+               predicto qui hoc solum per auditum <app>
+                  <lem>et</lem>
+                  <rdg>Herefter tilføjet <q>per</q>, SRD</rdg>
+               </app> publicam vocem et famam se didicisse asseruit divisim ut prefertur examinati
+               testabantur ♦</p>
+            <p n="a#12">Hiis itaque testium predictorum dictis et deposicionibus in scriptis
+               fideliter redactis nos prepositus decanus canonici et capitulum ecclesie Lubicensis
+               predicti eadem dicta et <app>
+                  <lem>deposiciones</lem>
+                  <rdg>
+                     <q>deponens</q>, SRD</rdg>
+               </app> cunctis presencia visuris sic facta dicta et coram nobis velut ordinariam in
+               dicta civitate Lubicensi jurisdictionem per dictum decanum nostrum ut prefertur <app>
+                  <lem>excercentibus</lem>
+                  <rdg>
+                     <q>= exercentes</q>
+                  </rdg>
+               </app> gesta attestamur ♦</p>
+            <p n="a#13">In cujus rei testimonium <app>
+                  <lem>presentes</lem>
+                  <rdg>Herefter tilføjet <q>nostras</q>, SRD</rdg>
+               </app> literas sive presens publicum instrumentum fieri et per notarium infrascriptum
+               subscribi nostrique sigilli jussimus appensione communiri ♦</p>
+            <p n="a#14">Datum et actum <placeName>Lubek</placeName> in loco capitulari dicte
+               ecclesie Lubicensis sub anno a nativitate domini millesimo
+               quadringentesimovicesimotercio indiccione prima die vero veneris mensis augusti
+               duodecima pontificatus sanctissimi in Christo patris et domini nostri domini
+                  <persName>Martini</persName> divina providencia pape quinti anno sexto presentibus
+               . ibidem honorabilibus viris domino <persName>Hinrico Kaluerwysch</persName> et
+                  <persName>Heysone <app>
+                     <lem>de</lem>
+                     <rdg>Mgl. i SRD</rdg>
+                  </app> Dransueld</persName> perpetuis vicariis <app>
+                  <lem>Lubicensis</lem>
+                  <rdg>
+                     <q>Lubicensium</q>, SRD</rdg>
+               </app> ac <placeName>
+                  <app>
+                     <lem>Hildensimensis</lem>
+                     <rdg>
+                        <q>Hildensium</q>, SRD</rdg>
+                  </app>
+               </placeName> ecclesiarum testibus ad premissa vocatis specialiter et rogatis <app>
+                  <lem>hora terciarum vel quasi</lem>
+                  <rdg>Tilf. sekundært af den oprindelige skriver, A</rdg>
+                  <rdg>markeret med prikker som ulæseligt i SRD</rdg>
+               </app> ♦</p>
+            <p n="a#15">
+               <figure>
+                  <figDesc>Til venstre herfor Matheus Ditmaris notarmærke</figDesc>
+               </figure>Et ego <persName>Matheus Ditmari</persName> clericus
+                  <placeName>Brandeburgensis</placeName> diocesis publicus imperiali auctoritate
+               notarius quia premissis omnibus et singulis dum sic ut premittitur agerentur et
+               fierent una cum prenominatis testibus presens interfui eaque <app>
+                  <lem>omnia et singula</lem>
+                  <rdg>Mgl. i SRD</rdg>
+               </app> sic fieri vidi et audivi ideoque hoc presens publicum instrumentum per me
+               fideliter conscriptum exinde confeci publicavi et in hanc publicam formam redegi
+               signoque et nomine meis solitis et consuetis unacum appensione sigilli capituli
+               supradicti signavi et communivi rogatus et requisitus in fidem et testimonium omnium
+               premissorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

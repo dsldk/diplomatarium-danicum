@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14250705002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio di Stato</repository>
+                        <idno>Quietanze per annate 1423-26 fol. 170</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>fl. 1 gr. 2</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-07-05"
+                  notBefore="1425-07-05"
+                  notAfter="1425-07-05"
+                  cert="high">1425. 5.
+          juli</date>
+            <placeName cert="high">Rom, Santi Apostoli</placeName>
+         </creation>
+         <abstract>
+            <ab>Antonius, biskop i Siena og pavelig skatmester, kvitterer Iver Tordsen,
+                  ærkedegn i Ribe, for betaling af annater for det første år af hans embede,
+                  takseret til 12 floriner. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-01" who="#pbh">Filen etableret af #pbh 2014-07-01. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-01-06" who="#pbh">Korrektur af scan, formatering, opmarkering af navne,
+        regest udvidet</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis [etc.] <persName>Antonius</persName> [etc.]</p>
+            <p>Ad universitatis [etc.] quod venerabilis vir dominus <persName>Ywarus <app>
+                     <lem>Tordonis</lem>
+                     <rdg>
+                        <q>Cordonis</q>, Aa</rdg>
+                  </app>
+               </persName> archidiaconus ecclesie Ripensis pro parte annate sive mediorum
+          fructuum primi anni archidiaconatus dicte ecclesie Ripensis, in quibus camere apostolice
+          ratione provisionis sibi de eodem apostolica auctoritate facte sub certis penis [etc.], 12
+          fl. auri de camera, nobis pro dicta camera recipientibus, die date presentium per manus
+          honorabilis viri domini <persName>Palnonis Daa</persName> canonici dicte ecclesie Ripensis
+          solvi fecit realiter [etc.]</p>
+            <p>De quibus quidem 12 fl. auri de camera pro parte et in deductionem annate sive [etc.]
+          dicti archidiaconatus ecclesie Ripensis nobis datis et solutis prefatum dominum Ywarum
+          archidiaconum eiusque heredes successores et bona ac omnes etc. tenore [etc.] In quorum
+          [etc.]</p>
+            <p>Datum <placeName>Rome apud ss. Apostolos</placeName> die 5. mensis julii sub anno 1425
+          indictione 3. pontificatus anno 8.</p>
+         </div>
+         <div xml:lang="da">
+            <p>
+               <gap>I perioden 1. januar 2017 til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

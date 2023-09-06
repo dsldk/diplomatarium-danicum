@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">339</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14150210001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>SDHK nr. 18484</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. <ab>Bagpå: <q>Twr Stenss<ex>on</ex> breff om Vastade i <damage>H</damage>alla<ex>nd</ex>
+                           </q>
+                        </ab>1. Segl syet i stofpose i perg.rem. 2. Perg.rem. 3. Perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5504</bibl>
+               <bibl>Svenskt Dipl. III 11 (nr. 2047)</bibl>
+               <bibl>SDHK nr. 18484</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>SDHK nr. 18484</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-02-10"
+                  notBefore="1415-02-10"
+                  notAfter="1415-02-10"
+                  cert="high">1415. 10. februar <note>Udgivet efter SDHK, da A ikke har været tilgængelig for udgiveren i maj 2021</note>
+            </date>
+            <placeName cert="unknown">Flaterud</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ture Stensson (Bielke), ridder, pantsætter Sven Båd, væbner, gården Vastad med kværn og
+      en gård i Skällentorp i Eftra sogn, Halland, for 300 mark rede penge. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-27" who="#pbh">Filen etableret af #pbh 2014-02-27. </change>
+         <change when="2020-11-12" who="#jon">1. korrektur af #jon 2020-11-12. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alla thøm thettæ bref høræ ellæ see helsar jak <persName>Thwre Stenss<ex>on</ex></persName>
+      ryddar<ex>e</ex> æuerdheleka m<ex>ædh</ex> waro<ex>m</ex> herræ . ♦</p>
+            <p n="a#2" xml:space="preserve">Gør jæk allo<ex>m</ex> wit<ex>er</ex>leket oc kwnnokt oc kænnes oppenbara m<ex>ædh</ex>
+      thettæ mith opnæ breff swo for komasculand<ex>u</ex>m so<ex>m</ex> for th<ex>e</ex>m nw
+      ær<ex>e</ex> mik aff rættæ oc wit<ex>er</ex>leke skuld gieldskyldughan wara ærlekom
+      ma<ex>n</ex>ne <persName>Swen Baat</persName> thry hwndr<ex>e</ex>dhæ mark redho
+      pæni<ex>n</ex>gæ swa dana mynt som nw ær gængkt oc gæft jnnæn <placeName>Halland</placeName> / for hwilkæ forne<ex>m</ex>pdæ pæni<ex>n</ex>gæ swmmo jak hono<ex>m</ex> sæter oc andwardhar
+      til en wissan oc brwkeleken pant thættæ mith gotz som hær æpter næmpnes / ♦</p>
+            <p n="a#3" xml:space="preserve">Swasom ær først <app><lem>en</lem><rdg wit="#A"><q>men</q>, A; skal muligvis forstås som <q>min</q></rdg></app> gardh <placeName>Watzstadha</placeName> j <placeName>Halland</placeName> lygiandes j
+        <placeName>Æftræ sokn</placeName> oc en qwærn thær sama stadz ♦</p>
+            <p n="a#4" xml:space="preserve">Item en gardh j <placeName>Skælnathørp</placeName> / mædh allæ thessens godz tillaghom som ær
+      aker æng skogh fyskewatn fæmark jnnæ<ex>n</ex> wato oc thørro nær by oc fiærran ængo wndæn
+      takno thæt til thænnæ forne<ex>m</ex>pda gotz aff alder til lyghat hafuer oc m<ex>ædh</ex> swa
+      dana forskælom at forne<ex>m</ex>pde <persName>Swen Baat</persName> scal hafwa oc behalda all
+      th<ex>æ</ex>nnæ forne<ex>m</ex>pdæ gotz til en sikran oc wissan pant / nywtæ oc wpbæræ alt
+      th<ex>æt</ex> so<ex>m</ex> th<ex>æt</ex>tæ forscrifnæ gotz skyldæ ellæ ræntæ kan j hwario
+      handæ th<ex>æt</ex> wara kan / til thæn dagh jak ællæ minæ arfwingæ thættæ forne<ex>m</ex>pdæ
+      gotz j gen løsæ af for<ex>nemp</ex>da <persName>Swen Baat</persName> ellæ hans
+      arfwingo<ex>m</ex> fore forne<ex>m</ex>pdæ pæni<ex>n</ex>gæ sw<ex>m</ex>mo thry
+      hwndr<ex>e</ex>dha marker oc ænkte afslaa j howdhpæni<ex>n</ex>gænæ . ♦</p>
+            <p n="a#5" xml:space="preserve">Kwnne th<ex>æt</ex> oc swa skee at noghet af th<ex>æt</ex>tæ forne<ex>m</ex>pda gotz j
+      nogh<ex>e</ex>r handæ matto m<ex>ædh</ex> noghan ræt ællæ landz lagh for<ex>nemp</ex>da
+        <persName>Swen Baat</persName> ellæ hans arfwingo<ex>m</ex> af ginge tha tilbynder jak mik
+      oc minæ arfwingæ for<ex>nemp</ex>da <persName>Swen Baat</persName> oc hans arfwinga swa got
+      gotz oc m<ex>ædh</ex> swa myket afgield j gen widher læggiæ æpt<ex>er</ex> wenæ sægn wppa
+      badha sydher ♦</p>
+            <p n="a#6" xml:space="preserve">Til thessens wysso oc stadhfæstilse tha hænger jak witandes mith jncighle for thettæ bref oc
+      bedhes jak beschedhelekæ manna jncighle swaso<ex>m</ex> ær <persName>Pæth<ex>e</ex>r
+        Nicliss<ex>on</ex></persName> foghete j <placeName>Flatarydh</placeName> oc
+      <persName>Halwardh Wdzsson</persName>s foghete pa <cit><quote><placeName>Skagholm</placeName></quote><bibl>Se A.-C. Mattisson, Medeltida nordiska borg- och sätesgårdsnamn på -holm (1986),
+        s. 38ff.</bibl></cit> at hængiæs for thettæ breff til wytnisbyrdh ♦</p>
+            <p n="a#7" xml:space="preserve">Datum <placeName>Flatarydh</placeName> anno Domini millesimo cd<hi rend="sup">o</hi>xv<hi rend="sup">o</hi> die beate Scolastice virginis etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

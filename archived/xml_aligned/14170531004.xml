@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">191</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">229</num>, paragraphs: <num n="paragraphs">8</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14170531004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Danzig</settlement>
+                        <repository>Stadtarchiv zu Danzig (nu Gdansk, Archiwum Panstwowe w Gdansku)</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>fol. 2b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ac">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>fol. 2b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. I:6 nr. 407 p. 402 (efter Aa)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l. l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-05-31"
+                  notBefore="1417-05-31"
+                  notAfter="1417-05-31"
+                  cert="low">[1417. 31. maj</date>
+            <placeName cert="low">Rostock]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hansestædernes rådsudsendinge, som er forsamlet i Rostock, meddeler grev Heinrich af
+      Holsten, at de har skrevet til hertug Heinrich af Slesvig angående et nyt møde, og beder også
+      greven om at fastlægge tid og sted for dette møde. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-12" who="#smb">Filen etableret af #smb 2017-06-12. </change>
+         <change when="2017-06-22" who="#smb">1. korrektur af #smb 2017-06-22. </change>
+         <change when="2017-10-25" who="#smb">2. korrektur af #smb 2017-10-25. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Post salutacionem.</p>
+            <p n="a#2">Leve gnedige herre.</p>
+            <p n="a#3">Juwe gnade wille weten, dat wy juwem leven vedderen, hertegen <persName>Hinrik</persName>,
+      gescreven hebben, begerende unde biddende, dat sine gnade myt ju teghen uns to dagen komen
+      wolden up ene bequemelike stede, juwen gnaden unde uns an beyden siiden belegen, alse up den
+        <placeName>Prywalk</placeName> efte up ene andere bequemelike stede.</p>
+            <p n="a#4">So bidde wii ju, leve herre, uns enen dach to vorscriven, <app>
+                  <lem>dar</lem>
+                  <rdg>
+                     <q>dat</q>, Aa</rdg>
+               </app> gi unde juwe veddere samentliken twisschen dyt unde des hilgen lichnams dage komen
+      willen mit den ersten dar sulvest up dem Priwalke ader up eyne andere belegelike stad
+      twisschen juwen landen unde der Wismer. Dar wille wy jegen ju wesen, to sprekende umme stucke
+      unde sake, dar juwen gnaden unde uns macht ane licht. Unde dat uns juwe gnade vorware velich
+      af unde to vor alle, de umme juwen willen don unde laten willen; des gelikes wille wy juwen
+      gnaden wedder don.</p>
+            <p n="a#5">Biddende, leve herre, des nenewiis to vorleggende. Dat wille wy gerne vorschulden, wor wy
+      konen unde mogen.</p>
+            <p n="a#6">Leve herre. Wes juwe gnade samentliken hir ane vortsettet int beste to donde, bidde wy, uns
+      dat to schriven bii dessem boden.</p>
+            <p n="a#7">Scriptum sub secreto Rostokcensium etc. ut prius.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Efter hilsenen.</p>
+            <p n="b#2">Kære nådige herre.</p>
+            <p n="b#3">Jeres nåde vil vide, at vi har skrevet til jeres kære brodersøn, hertug Heinrich, idet vi
+      ønsker og beder om, at hans nåde kommer med jer til os til et møde på et bekvemt og for jeres
+      nåde og os på begge sider belejligt sted, nemlig på Priwall eller på et andet bekvemt
+      sted.</p>
+            <p n="b#4">Således beder vi jer, kære herre, om skriftligt at meddele os tid og sted for et møde,
+      hvortil I og jeres brodersøn vil komme i fællesskab og uden tøven mellem denne dag og Kristi
+      Legemsfest, nemlig på Priwall eller på et andet belejligt sted mellem jeres lande og Wismar.
+      Dér skal vi stå over for jer for at drøfte stykker og sager, som er magtpåliggende for jeres
+      nåde og os.</p>
+            <p n="b#5">Desuden håber vi, at jeres nåde vil give os sikkert lejde - både til og fra - over for alle
+      dem, som vil gøre og lade på jeres nådes vegne. Herfor vil vi gerne gøre gengæld mod jeres
+      nåde.</p>
+            <p n="b#6">Kære herre, vi beder jer nu om, at I på ingen måde vil lægge hindringer i vejen for dette.
+      Herfor vil vi gerne gøre gengæld, så godt vi kan.</p>
+            <p n="b#7">Kære herre, vi beder jer ligeledes om skriftligt at meddele os ved dette bud, hvad jeres nåde
+      påtænker at hjælpe med i denne sag.</p>
+            <p n="b#8">Skrevet under dem fra Rostocks sekret etc. således som før.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

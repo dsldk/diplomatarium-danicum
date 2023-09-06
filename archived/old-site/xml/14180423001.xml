@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">389</num>, paragraphs: <num
+               n="paragraphs">7</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14180423001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. LXI, 2</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>14.5 (plica: 1.5)</height>
+                                    <width>24.4</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>En del af tekstspejlet er udvisket som følge af fugtskade med
+                                    mindre teksttab til følge</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift på bagsiden med hånd fra det senere 15. årh.: <q>Electio
+                                 abbatis in monasterio <placeName>Ebelholt</placeName>
+                              </q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Æbelholt klosters konventssegl af rødt voks i ufarvet i perg.rem,
+                                    <ref>DGS 480</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5708</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-04-23" notBefore="1418-04-23" notAfter="1418-04-23" cert="high">1418.
+               23. april</date>
+            <placeName cert="high">Æbelholt kloster</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Prior, subprior, sakristan og hele konventet i Æbelholt kloster bekendtgør, at de
+               efter abbed Bent Esbernsens død har valgt broder Mads Mortensen, præst, som ny abbed,
+               og at denne har taget imod valget. Samtidig anmoder de dem, som det tilkommer, om at
+               bekræfte valget.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-01" who="#pbh">Filen etableret af #pbh 2014-04-01. </change>
+         <change when="2019-10-31" who="#pbh">1. korrektur af #pbh 2019-10-31. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">In nomine patris et filii et spiritus sancti amen ♦</p>
+            <p n="a#2">Omnibus in Christo renatis et maxime reverendis in Christo patribus et
+               personis regulam sancti Augustini profitentibus ad quos presens scriptum contigerit
+               pervenire nos fratres videlicet frater <persName>Magnus Ingwari</persName> prior
+                  <persName>Palno Johannis</persName> supprior <persName>Hinzæ Petri</persName>
+               sacrista et <persName>Johannes Andree</persName> sacerdotes <persName>Petrus
+                  Johannis</persName> subdyaconus ceterique conventuales monasterii sanctorum Thome
+               et Villelmi de Paraclito <placeName>regni Dacie</placeName> dyocesis
+                  <placeName>Roskildensis</placeName> salutem et infrascriptam cognoscere veritatem
+               ♦</p>
+            <p n="a#3"><cit><quote>Sacris canonibus</quote><bibl>X 1.6.41 (Friedberg II
+                  88)</bibl></cit> novimus esse cautum ut ultra tres menses pastore proprio non
+               vacet ecclesia collegiata ne pro defectu pastoris dominicum gregem lupus rapax
+               invadat aut viduata ecclesia in suis facultatibus grave dispendium paciatur ♦</p>
+            <p n="a#4">Eapropter recolende memorie domino <persName>Benedicto Esberni</persName>
+               quondam abbate et pastore nostri monasterii anno ab incarnacione domini m<hi
+                  rend="sup">o</hi> cd<hi rend="sup">o</hi> octavodecimo <app>
+                  <lem><damage>quarta</damage></lem>
+                  <rdg>Suppleringen stammer fra Rep., der ikke angiver teksten som udvisket;
+                     imidlertid er skriften i dag helt forsvundet</rdg>
+               </app> die mensis aprilis quod non sine grandi mentis amaritudine referimus nature
+               debitum solvente spiritum suo <app>
+                  <lem>reddid<damage>..t creatori</damage></lem>
+                  <rdg>Den udviskede endelse af ordet <q>reddid..</q> synes at være <q>t</q> med
+                     forkortelsestegn, hvilket læses som <q>reddiderit</q>; imidlertid synes enhver
+                     læsning med den perfektive stamme af verbet ugrammatisk, da ordet skal
+                     kongruere med ablativen <q>Benedicto Esberni</q>; læsningen <q>reddiderit</q>
+                     er altså kun mulig under forudsætning af, at der er tale om en fejl i
+                     formuleringen af brevet</rdg>
+               </app> nos ipsius corpore tradito reverenter ecclesiastice sepulture ne ecclesia
+               nostra pastoris solacio destituta propter diut<damage>urnam vacacion</damage>em
+               gravem paciatur non solum in spiritualibus sed et in temporalibus lesionem nos
+               supradicti conventuentes in unum die <app>
+                  <lem><damage>sancti Georgii</damage></lem>
+                  <rdg>Disse ord markeres ikke som udviskede i Rep., men er helt forsvundne i dag;
+                     de kan suppleres fra dateringen ndfr</rdg>
+               </app> et considerantes protracciones diversorum ordinis libertatem impedire
+               volencium super eleccione libera facienda nobis <app>
+                  <lem>hucu<damage>sque in non</damage></lem>
+                  <rdg>Suppleringen skyldes Rep., der imidlertid kun angiver <q>in</q> som
+                     udvisket</rdg>
+               </app> modicum contra deum et justiciam prejudicium et gravamen factas timentes eciam
+               verisimiliter majora damna et pericula posse evenire ex ulteriori vacacione ideo
+               preinvocata spiritus sancti gracia dominum Mathiam Martini sacerdotem domus nostre
+               professum postulavimus et postulacione admissa elegimus et eligimus unanimiter et
+               concorditer in nostrum et ecclesie nostre pastorem et prelatum virum sufficientem et
+               idoneum de matrimonio legittimo susceptum vita et moribus commendatum licet mediocris
+               litterature magne tamen utilitatis et industrie secularis ac in temporalibus et
+               spiritualibus circumspectum ♦</p>
+            <p n="a#5">Idem vero electus eleccione hujusmodi sibi presentata licet ex humilitate se
+               insufficientem et indignum asserens multipliciter excusaret nobis tamen vehementer
+               instantibus timens divinis disposicionibus contraire jugo divine vocacionis cervicem
+               cordis humilians invocato divine pietatis auxilio humiliter votis fratrum
+               assenciendum duxit non tam timide quam devote eleccionem ipsam officium onusque
+               impositum ut prodesse valeat suscipiens et acceptans &#9830;</p>
+            <p n="a#6">Reverenciis illorum ad quos spectat hanc eleccionem nostram confirmare
+               unanimiter duximus supplicandum ut eleccionem ipsam dignentur confirmare quatinus
+               autore deo nobis velut pastor idoneus et toti monasterio valeat prodesse nosque et
+               alii sibi commissi sub ejus sacro regimine possimus coram deo salubriter militare
+               ♦</p>
+            <p n="a#7">Wt autem omnium nostrum vota in predictis omnibus et singulis concordasse et
+               in hac eleccione et peticione noscant omnes convenire decretum hujus eleccionis
+               sigillo conventus nostri fecimus roborari . ♦</p>
+            <p n="a#8">Datum in monasterio nostro anno et die sancti Georgii supradictis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

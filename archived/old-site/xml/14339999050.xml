@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">10</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">13</num>, paragraphs: <num n="paragraphs">2</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14330000050</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary>Jens Pedersen pantsætter seks agre i Borups mark til Vrejlev kloster.</summary>
+                        <msItemStruct>
+                           <filiation>
+                              <ab>empty</ab>
+                           </filiation>
+                        </msItemStruct>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste
+                        arkivregistraturer. Vrejlev klosters Registratur (1556) og Registratur over
+                        brevene på Aalborghus (1573), Vrejlev klosters arkiv</ab>
+                     </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>ÆA III 42 H 158, efter reg. (1556)</bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg. (1556)</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423" notBefore="1423" notAfter="1433" cert="low">[1423 eller 1433]. <note>Brevet dateres i registraturen fra 1556 til 1423, men i registraturen
+                fra 1573 til 1433. Det kan ikke med sikkerhed afgøres, hvilket år der er det
+                rigtige, og dateringen bliver derfor [1423 eller 1433].</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-10-05" who="#alk">Filen etableret af #alk 2015-10-05. </change>
+         <change when="99999999" who="#alk">1. korrektur af #alk 99999999. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1">Eth <persName>
+                  <app>
+                     <lem>Jenns Perszønns</lem>
+                     <rdg wit="#Aa">
+                        <q>Jens P<ex>er</ex>s<ex>øns</ex>
+                        </q> reg.
+                                                (1573)</rdg>
+                  </app>
+               </persName> pannthe breff paa vj ager y <placeName>
+                  <app>
+                     <lem>Borups march</lem>
+                     <rdg wit="#Aa">
+                        <q>Borupsmarck</q> reg. (1573)</rdg>
+                  </app>
+               </placeName> : ♦</p>
+            <p n="a#2">Aar : <app>
+                  <lem>Mcdxxiij</lem>
+                  <rdg wit="#Aa">
+                     <q>1433</q> reg. (1573)</rdg>
+               </app> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Et pantebrev af Jens Pedersen på 6 agre i Borups mark.</p>
+            <p n="b#2">År 1423.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

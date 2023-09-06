@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">165</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14140201001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Tabt</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>1. I Aa beskrives seglet som kongens segl i rødt voks i ufarvet i
+                                 perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Transsumpt i <ref target="14140403001">DD 1414. [3. eller 4.] apr., nr.
+                              14140403001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Haderslevbogen</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Overskrift (gengivet efter Haderslevbogen?): <q>Litera illustrissimi
+                                 domini Erici regis Dacie donacionis super ecclesiam in Øsby</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift af Langebek 1762</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5325</bibl>
+               <bibl>Reg. Dan. nr. *4283</bibl>
+               <bibl>Aarsb. fra Geheimearch. II, Tillæg 8 nr. 8</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. med rettelser fra Ab1.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-02-01"
+                  notBefore="1414-02-01"
+                  notAfter="1414-02-01"
+                  cert="high">1414.
+               1. februar</date>
+            <placeName cert="high">Helsingborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern giver patronatsretten i Øsby kirke i Slesvig stift til
+               kapitlet i Haderslev med biskop Johan (Skondelev) af Slesvigs samtykke til gengæld
+               for selv at få præsentationsretten til et kanonikat og præbende i Haderslev, som han
+               vil forene Øsby kirke med, og han erklærer at ville søge at opnå pave Johannes 23.s
+               stadfæstelse af donationen. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-18" who="#pbh">Filen etableret af #pbh 2014-02-18. </change>
+         <change when="2019-07-03" who="#pbh">1. korrektur af #pbh 2019-07-03. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Nos <persName>Ericus</persName> dei gracia regnorum Dacie Swecie Norwegie .
+               Slavorum Gothorumque rex et dux <app>
+                  <lem>Pomerensis</lem>
+                  <rdg>
+                     <q>Pomarensis</q> Ab1</rdg>
+               </app> . universis et singulis <app>
+                  <lem>presentes</lem>
+                  <rdg>
+                     <q>presencia</q> Ab1</rdg>
+               </app> conspecturis cupimus fore notum quod divinum cultum ampliare satagentes de
+               consensu reverendi in Christo patris <app>
+                  <lem>et</lem>
+                  <rdg>
+                     <q>ac</q> Ab1</rdg>
+               </app> domini domini <persName>Johannis</persName> episcopi
+                  <placeName>Sleswicensis</placeName> honorabilibus viris ac dominis cantori .
+               totique capitulo <placeName>ecclesie beate Marie</placeName> in <placeName>
+                  <app>
+                     <lem>Hath<ex>er</ex>sleff</lem>
+                     <rdg>
+                        <q>Hadersleue</q> Ab1</rdg>
+                  </app>
+               </placeName> dicte Sleswicensis dyocesis concedimus damus donamus et quantum
+               in nobis est incorporamus juspatronatus quod in ecclesia <placeName>Øsby</placeName>
+               dicte dyocesis ad nos spectare dinoscitur proviso quod nos in dicta <app>
+                  <lem>ecclesia collegiata</lem>
+                  <rdg>
+                     <q>collegiata ecclesia</q> Ab1</rdg>
+               </app> ad <app>
+                  <lem>unum</lem>
+                  <rdg>udeladt i Ab1</rdg>
+               </app> canonicatum et prebendam pro quibus meliorandis hujusmodi donacio facta est
+               presentacio ad nos et successores nostros spectare <app>
+                  <lem>noscatur</lem>
+                  <rdg>
+                     <q>noscitur</q> Ab1</rdg>
+               </app> / <app>
+                  <lem>
+                     <supplied>et institucio</supplied>
+                  </lem>
+                  <rdg wit="#Ab1">tilf. efter Ab1, udeladt i Aa</rdg>
+               </app> et confirmacio ad dominum episcopum antefatum ut est moris supplicantes devote
+               sanctissimi domini nostri <persName>Johannis xxiii</persName>
+               <app>
+                  <lem>sanctitati</lem>
+                  <rdg>placeret før <q>sanctissimi</q> i Ab1</rdg>
+               </app> ut hujusmodi incorporacionem confirmare dignetur meliori modo et forma quibus
+               fieri poterit juxta canonum sanxiones . cathedratico et aliis juribus episcopalibus
+               et prepositi semper salvis ♦ </p>
+            <p n="a#2">Datum in castro nostro <placeName>
+                  <app>
+                     <lem>Helsingburgh</lem>
+                     <rdg>
+                        <q>Helsinghborch</q> Ab1</rdg>
+                  </app>
+               </placeName> . anno domini <app>
+                  <lem>millesimo quadringentesimo <supplied>decimo</supplied> quarto</lem>
+                  <rdg>
+                     <q>
+                        <supplied>decimo</supplied>
+                     </q> udeladt i Aa, tilføjet i overensstemmelse
+                     med Ab1</rdg>
+                  <rdg>
+                     <q>M. CCCC. XIIII.</q> Ab1</rdg>
+               </app> in profesto <app>
+                  <lem>
+                     <supplied>purificacionis</supplied>
+                  </lem>
+                  <rdg wit="#Ab1">tilf. efter Ab1, udeladt i Aa</rdg>
+               </app> beate Marie virginis nostro sub secreto presentibus appenso . ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

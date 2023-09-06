@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">57</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14081018001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret to steder i København. Rigsarkivet. De ældste
+                        arkivregistraturer: a) Registratur A over Viborg stifts breve (1540'erne),
+                        upag., i afsnittet <q>Meelswmh<ex>erri</ex>t</q>; b) Registratur B over
+                        Viborg stifts breve (1574), f. 33v, i afsnittet <q>Medelsom
+                        herritt</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 220 nr. D. 17</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1408-10-18"
+                  notBefore="1408-10-18"
+                  notAfter="1408-10-18"
+                  cert="high">1408. 18. oktober <note>Uoverensstemmelsen mellem de to referater lader sig ikke
+                opklare</note>
+            </date>
+            <placeName cert="high">Middelsom herredsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne af Middelsom herredsting om den gård i Mammen, hvori Niels Villadsen
+                        bor. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-06-07" who="#alk">Filen etableret af #alk 2021-06-07. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">a):</p>
+            <p n="a#2" xml:space="preserve">Item eth tingxuitne aff <placeName>Melsumh<ex>erri</ex>t</placeName>
+                        atth<ex>e</ex>n g<ex>ar</ex>d y (!) som <persName>Nis
+                                Villassze<ex>n</ex>n</persName> ibor th<ex>e</ex>n er
+                                <persName>Mwss</persName> aff <placeName>Brusgard</placeName> oc
+                                <persName>Sommer</persName> aff <placeName>Løgstrup</placeName> met
+                        r<ex>e</ex>tte oppo kome<ex>n</ex>n met the<ex>ris</ex> hostrur ♦</p>
+            <p n="a#3" xml:space="preserve">Datum mcdviii<hi rend="sup">o</hi> torsdagh nest for sancti Severini dagh
+                        ♦</p>
+            <p n="a#4" xml:space="preserve">b):</p>
+            <p n="a#5" xml:space="preserve">Ett things windne att thend gaard j <placeName>Mamen</placeName> som Niels
+                        Willatzen ibor <app><lem>er</lem><rdg wit="#A">Tilføjet over linjen, B-reg</rdg></app>
+                        <persName>Wallatz Jenssen</persName> j
+                                <placeName>Glind<ex>er</ex></placeName> hans rette godtz ♦</p>
+            <p n="a#6" xml:space="preserve">Anno 1408. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

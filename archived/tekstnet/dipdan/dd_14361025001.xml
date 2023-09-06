@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">551</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14361025001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stettin</settlement>
+                        <repository>Staatsarchiv zu Stettin (nu Stettin, Archiwum Panstwowe w Szczecinie)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Adresse: <q>Deme irluchtighen hochgeboren vorsten unde heren, heren Eryke der
+        ryke Denemarken, Sweden, Norwegen, der Wenden unde Gothen konynge unde hertoghen to Pomeren,
+        unseme gnedigesten leven heren, mit odmodicheid gescreven etcetera</q>. Endvidere
+      bagsidepåskrift: <q>The af Lubeke om thennom aff Rostocke. Venit Wisborgh anno Domini
+          Mcdxxxvj<hi rend="sup">o</hi> dominica adventus Domini</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Spor efter rådet i Lübecks store segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rostock. Wöchentl. Nachrichten, 1755, p. 177-179</bibl>
+               <bibl>Styffe, Bidrag till Skandinaviens historia, bd. II, nr. 111, p. 274-277</bibl>
+               <bibl>Hanserec. 2:2, nr. 13, p. 11</bibl>
+               <bibl>Rep. nr. 6842</bibl>
+               <bibl>Reg. Dan. nr. *5154 (identisk med Reg. Dan. nr. 3592)</bibl>
+               <bibl>SDHK-nr. 22658 (identisk med SDHK-nr. 42563)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-10-25"
+                  notBefore="1436-10-25"
+                  notAfter="1436-10-25"
+                  cert="high">1436. 25. oktober</date>
+            <placeName cert="high">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Lübeck og rådsudsendingene fra Hamburg, Lüneburg og Wismar anmoder kong Erik 7. af
+      Pommern om at indskærpe over for sine embedsmænd og fogeder i de tre riger, at de ikke må have
+      forbindelse til folk fra Rostock, herunder det nye råd i byen.</ab>
+            <ab>Rådet i Lübeck har nemlig fået nys om, at kong Eriks embedsmænd og fogeder har hjulpet folk
+      fra Rostock med at drive handel i de tre riger, hvilket strider imod det løfte, som kong Erik
+      afgav under forhandlingerne i Kalmar om ikke at tillade sine undersåtter at have forbindelse
+      til folk fra Rostock.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-15" who="#pbh">Filen etableret af #pbh 2013-11-15. </change>
+         <change when="2020-05-28" who="#smb">1. korrektur af #smb 2020-05-28. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Beredicheit williges denstes mit aller {oe}dmodicheit tovoren.</p>
+            <p n="a#2" xml:space="preserve">Irluchtige hochgeboren vorste, gnedige leve here.</p>
+            <p n="a#3" xml:space="preserve">De ersamen unser stede sendeboden, de wy negest omme juwer gnade bede willen jw to eren,
+      n{ue}tticheit unde vromen uppe den dach to <placeName>Calmeren</placeName> hadden gesant, de
+      hebben uns under anderen werven ingebracht, dat gy ene vor juwen rade gesecht hebben, weret,
+      dat de van <placeName>Rostocke</placeName> id nicht en helden, alse gii ene screven hebben, so
+      wille gii se vervolgen na inneholde der pevestliken unde keyserliken geb{oe}den unde breven,
+      dar gii mede geeschet weren; unde na unser sendeboden begeringe, so bev{oe}le unde hete gy
+      juweme rade, dat se de van <placeName>Rostocke</placeName> ok also vervolgen scholden, unde
+      desulven juwe redere to dersulven tyd hebben unsen sendeboden also to donde gesecht unde
+      gelovet; ok dat juwe koninglike h{oe}chwerdicheit densulven van
+        <placeName>Rostocke</placeName> hadde to emboden unde verscreven, wer se juwen erbaren
+      rederen, de gii darto schickende worden, erer hersschop van
+        <placeName>Mekelemborch</placeName> rederen unde den erliken steden
+        <placeName>Lubeke</placeName>, <placeName>Hamborch</placeName>,
+        <placeName>Wiszmere</placeName> unde <placeName>Luneborch</placeName>, eren naburen, in der
+      zake mit eren wedderpartigen des olden rades redelicheit horen wolden, unde efte se sodaner
+      redelicheit nicht en wolden horen, so en wolde juwe koninglike gnade se, ere gudere unde de
+      eren in juwen ryken nicht leng lyden bet so lange, dat se der hilghen kerken unde deme
+      hilligen Romisschen ryke gehorsam worden weren, unde gy mosten ok eyneme jewelken, dede wes na
+      inneholde pevestliker unde keyserliker breve unde b{oe}de uppe se to vorderende hadde, in
+      juwer gnaden ryken gunnen, dat recht were, unde wolden se ok noch redelicheit horen, zee unde
+      ere wedderpartyge scholden sunder twyvel so truweliken besorged werden an lyve, ere unde gude,
+      dat id eyneme jewelken redeliken manne billiken behegelik syn scholde etcetera: dar wy juwen
+      koningliken gnade h{oe}chliken unde leffliken umme dancken.</p>
+            <p n="a#4" xml:space="preserve">Doch allergnedigeste mechtige koning unde leve here, so hebbe wy ervaren unde vernomen, dat
+      na der tiid, alse unse erbenomede sendeboden to <placeName>Calmeren</placeName> van juwen
+      koningliken gnaden weren gescheden, welke juwe breve gekomen scholen wesen an her
+        <persName>Johanne Cropelyne</persName>, eyneme van dem olden rade <app><lem>van</lem><rdg>mangler i A</rdg></app>
+      <placeName>Rostocke</placeName>, alse uns juwe gnade ok verscrivet, de deme olden rade unde
+      eren vrunden teghen des paveses unde des Romisschen keysers unde erem gewunnenen rechte nicht
+      so tr{oe}stlick unde behulplik en sin, alse se wol bedorffen, unde dat juwer koninglike gnade
+      amptlude unde vogede in juwen ryken, havenen unde gebeden deme nyen rade to
+        <placeName>Rostocke</placeName> unde den eren mit eren guderen vorder velicheit hebben
+      geven, des wy unde unse ergenanten sendeboden uns jo nicht verhopet en hadden etcetera.</p>
+            <p n="a#5" xml:space="preserve">Hirumme, gnedige leve here, so bidde wy desulven juwe koningliken hochwerdicheit unde gnade
+      odmodichliken unde denstliken, dat gii in juwen ryken juwen vogeden unde amptluden alumme noch
+      strengeliken willen laten beden, dat alle dond mit den van <placeName>Rostocke</placeName>
+      werde geholden, alse juwe gnade unde juwe redere unsen vorscrevenen sendeboden hebben
+      togesecht <app><lem>unde lovet</lem><rdg>tilføjet med anden hånd i A</rdg></app>; verdene wy umme desulven juwe koningliken hochwerdicheid willichliken gerne, wor wy
+      mogen, unde bidden des juwe gnedige unde gutlike bescrevene antworde.</p>
+            <p n="a#6" xml:space="preserve">Gode almechtich siit bevolen to langen saligen tiiden wolmogende unde gesund.</p>
+            <p n="a#7" xml:space="preserve">Screven des donredages vor sunte Symonis unde Jude daghe der werden apostele, under der heren
+      des rades der stad <placeName>Lubeke</placeName> ingesegele, des wy samentliken hirto bruken
+      to desser tiid, anno Domini etcetera <app><lem>xxx sexto</lem><rdg>indsat efter Styffe l.l.; Hanserec. l.l. skriver <q>36</q></rdg></app>.</p>
+            <p n="a#8" xml:space="preserve">Juwer koninglike gn{ae}den willige denere, borgermeistere unde radmanne der stad Lubeke,
+      radessendeboden der stede <placeName>Hamborch</placeName>, <placeName>Luneborch</placeName>
+      unde <placeName>Wiszmere</placeName>, nu tor tiid darsulves <app><lem>to Lubeke</lem><rdg>tilføjet med anden hånd i A</rdg></app> to dage vergaddert.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

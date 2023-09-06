@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">451</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14290625002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3052</idno>
+                        <msName>tidl. Vedbygaard</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>18.8 (plica: 1.9)</height>
+                                    <width>25.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Reparerede skader langs kanterne; intet tab af tekst</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>Th<ex>ett</ex>e breff lyder paa Vedhby</q>; med senere hånd tilføjet: <q>sko</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Unionssekretet i rødt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Brudstykke (Jöns Håkansson?) i rødt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Gejstligt (Arendt Clementsen?) i rødt voks i perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Anders Nielsens (Jernskæg) segl i rødt voks i perg.rem, <ref>AS E xvi 7</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afleveret fra Universitetsbiblioteket 1894</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6407</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 177-81</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-06-25"
+                  notBefore="1429-06-25"
+                  notAfter="1429-06-25"
+                  cert="high">1429. 25. juni<note>Samme mageskifte stadfæstes i <ref target="14290625001">DD 1429. 25. jun.,
+      nr. 14290625001</ref>
+               </note></date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern mageskifter med hr. Jørgen (Mikkelsen) Rud, ridder, følgende gods i
+      Løve herred: Vedby og Krageskov, Gedeved og Stumpeskov, Nørager, Hesselbjerg og fem gårde i
+      Herslev mod til gengæld at få følgende gods i Ringsted herred: Skjoldenæs og en vandmølle,
+      Lindebjerg, Højbjerg, to gårde i Tåstrup, en gård i Høed og otte gårde i Valsølille.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-31" who="#pbh">Filen etableret af #pbh 2014-07-31. </change>
+         <change when="2019-02-12" who="#jon">1. korrektur af #jon 2019-02-12. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wy Erik meth gutz nathe . Danmarks / Swerighes / Norghes / Wend<ex>es</ex> ok God<ex>es</ex>
+      koni<ex>n</ex>g / ok hertugh j Pomern / helsse alle the thette breff see eller høre /
+      ewynnelighe meth gudh / ♦ Ok witerlicht gøre at wy effter wort rads radh haue giort fore
+      rikenes nyttæ ok beleylicheet sculd / een mæcht ok skifftæ vm gotz som h<ex>er</ex> effter
+      neffnes / meth een schellich man her <persName>Jurghen Ruwt</persName> ridder / j swo dane
+      matæ som her effter sc<ex>re</ex>uet stander til ewynnelich eyghæ haue skulende ♦</p>
+            <p n="a#2" xml:space="preserve">Fførst at wy aff for<hi rend="sup">de</hi> her <persName>Jurghen Rwt</persName> scule haue
+        <placeName>Skioldenes</placeName> ok alt <placeName>Skioldenes fang</placeName> j
+        <placeName>Ringstethehereth</placeName> ligge<ex>n</ex>de <placeName>Næs</placeName> ok
+        <placeName>Næs fang</placeName> / een watnmølle hooss <placeName>Skioldenes</placeName>
+      liggende / <placeName>Lindebiergh</placeName> ok <placeName>Lindebiergs fang</placeName> /
+        <placeName>Høghebiergh</placeName> ok <placeName>Høghebiergs fang</placeName> / two gardhe j
+        <placeName>Tosthorp</placeName> j <placeName>Jorsthorps sokn</placeName> th<ex>e</ex>r badhe
+      schilde een tu<ex>n</ex>ne smør ♦ Item een gardh j <placeName>Hothwith</placeName>
+      th<ex>e</ex>r schilder thry pu<ex>n</ex>d korn / ok otte gardhe j
+        <placeName>Valsiølillæ</placeName> th<ex>e</ex>r nw schilde smør ok korn fore halfft
+      fæmtende pu<ex>n</ex>d korn meth alle thisse forsc<ex>re</ex>ffne gotzes tilliggelsse swosom
+      ær ager . ok eng . schow . ok ffischewatn wot ok thyurt som th<ex>e</ex>r til hører enchte <app><lem>v<ex>n</ex>nen</lem><rdg wit="#A">Muligvis <q>vnen</q>, A</rdg></app> taket ee huat the helst ær / eller neffnes kan / ♦</p>
+            <p n="a#3" xml:space="preserve">Ffore huilke sa<ex>m</ex>me forsc<ex>re</ex>ffne gotz scal for<hi rend="sup">de</hi> her
+        <persName>Jurghen Rwt</persName> aff wort ok rikenes gotz til geengiald ok wetherleggilse
+      igen haue thisse efftersc<ex>re</ex>ffne gotz j <placeName>Løuwehereth</placeName> liggende
+      ♦ Swosom ær <placeName>Wythby</placeName> ok alt <placeName>Wythby fang</placeName> /
+      meth een schow som kalles <placeName>Kragheschow</placeName> ♦ Item een ødhe mark som
+      kalles <placeName>Gedæwidh</placeName> ok <placeName>Gedæwitz fang</placeName> / meth
+        <placeName>Stumpeschow</placeName> th<ex>e</ex>r tilliggende ♦ Item
+        <placeName>Nørreagre</placeName> ok <placeName>Nørreagre fang</placeName> j <placeName>Sæby
+        sokn</placeName> ♦ Item <placeName>Heslebiergh</placeName> ok <placeName>Heslebiergs
+        fang</placeName> j <placeName>Reth<ex>e</ex>rsløwe sokn</placeName> ♦ Item ffæm gardhe
+      j <placeName>Hersleff</placeName> j <placeName>Ffynnerorps sokn</placeName> / j huilke gardhe
+      nw j bo <persName>Jepp Pawelss<ex>øn</ex></persName> ok giffuer firæ pu<ex>n</ex>d korn /
+        <persName>Peth<ex>er</ex> Awess<ex>øn</ex></persName> ok giffuer tw pu<ex>n</ex>d korn two
+      skepper my<ex>n</ex>ne / <persName>Jepp Awess<ex>øn</ex></persName> ok giffuer ffiræ
+      pu<ex>n</ex>d korn firæ skepper my<ex>n</ex>næ / <persName>Awe</persName> ok giffuer two
+      pu<ex>n</ex>d korn two skepp<ex>er</ex> my<ex>n</ex>ne / ok <persName>Swndwith</persName>
+      th<ex>e</ex>r giffuer tw pu<ex>n</ex>d korn / meth alle thisse nw forsc<ex>re</ex>ffne gotzes
+      tilliggilsse swosom ær ager ok <app><lem>eng / schow</lem><rdg wit="#A">Muligvis <q>eng schow</q>, A</rdg></app> ok fiskewatn / wot ok thyurt som th<ex>e</ex>r til hører / enchte vndæ<ex>n</ex> taket
+      ee huat helst heter eller næffnes kan ♦</p>
+            <p n="a#4" xml:space="preserve">The<ex>n</ex>ne forsaffdhe mæcht ok skifftæ tilbinde wy oss ok wore effterkomere the
+      th<ex>e</ex>r ere koni<ex>n</ex>ge eller crone<ex>n</ex>s forsuar j
+        <placeName>Danmark</placeName> at frii ok hemlæ ffor<hi rend="sup">de</hi> her Jurghen
+        Rw<damage>t ok h</damage>ans arwinge til ewynnelighe eyghe fore huers mantz tiltall som ræt
+      wele søghæ effter lans low j nogre <damage>madhe</damage> ♦</p>
+            <p n="a#5" xml:space="preserve">Till thes witnesbyrdh ok mere stadhfestelsse haue wy wort jncigle meth andre wore gothe men /
+        swo<damage>som</damage> ære her <persName>Jenss Haghenss<ex>øn</ex></persName> erkebiscop j
+        <placeName>Vpsale</placeName> / her <persName>Arendt
+        Cleme<ex>n</ex>tss<ex>øn</ex></persName> electus j <placeName>Berghen</placeName> / greue
+        <persName>Hans</persName> her abbot <persName>Niels</persName> j <placeName>Soor</placeName>
+      / her abbot <persName>Peth<ex>e</ex>r</persName> j <placeName>Ringstedhe kloster</placeName> /
+      ok her <persName>Anders Nielss<ex>øn</ex></persName> aff Drotni<ex>n</ex>geholm ridder som
+      wort radh ære / ok her ower wore / fore thette breff latet henges ♦</p>
+            <p n="a#6" xml:space="preserve">Giffuet a<ex>n</ex>net dagh <supplied>nest</supplied> effter sancti Johannis baptiste dagh
+      th<ex>e</ex>r vm mithso<ex>m</ex>mer ko<ex>m</ex>mer aar effter wors h<ex>er</ex>re Jhesu
+      Christi byrdh thusende ffirehundrathe tyughe ok panæ thet nyende ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

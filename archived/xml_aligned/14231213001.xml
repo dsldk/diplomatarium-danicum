@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">66</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14231213001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>Tabt</repository>
+                        <collection>registreret i Stockholm. Riksarkivet, SDHK 20174: a) B 29 (Skånebrevsfortegnelsen) Åtskillige kyrkers tilhöringe breef och skriftter, f. 266v nr. 25. I margin: <ex>Skiøte eller Säljebreef gift sancti Pædhers kyrckie i Malmöe</ex> og
+                        b) E102a (Peringskiölds Diplomatarium, udkast til B 29) f. 65r nr. 264. I margian: <ex>Sancti Pädhers kyrckia</ex>
+                        </collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6064</bibl>
+               <bibl>Weibull, Dipl. dioc. Lund. III 29 nr. 32</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>registraturerne</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-12-13"
+                  notBefore="1423-12-13"
+                  notAfter="1423-12-13"
+                  cert="high">1423. 13. december</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hans Wadelz skøder til Skt. Peders kirke i Malmø en halv badstue sammesteds med en halv tilliggende gård. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">a) <persName>Hans Wadelz</persName> åth <placeName>sancti Pädhers kyrckia i Malmöe</placeName> uthgifne <app><lem>skiötebref</lem><rdg resp="#mh">Imellem <q>skiöte</q>
+            og <q>bref</q> er fem bogstaver streget ud</rdg></app> på een ½ badstufva med halfva gården der till liggiande i ben<ex>ämnde</ex> stad, 
+               hvilken badstugu kallas <app><lem><persName>Kuntzes badstugu</persName></lem><rdg resp="#mh">cf. <ref target="14140225001">DD 1414 25. feb., nr. 14140225001</ref></rdg></app>. Datum ipso die
+                        beatæ Luciæ virginis gloriosæ som ær den 13 december 1423.</p>
+            <p n="a#2" xml:space="preserve">b) Hans Wadels uthgifne skiötebreef åth sancti Pädhers kyrckia i <app><lem><placeName>Malmöe</placeName></lem><rdg resp="#mh">derefter følger et udstreget <q>uthgifnhe</q>, reg</rdg></app> angående 
+               halfdeelen af een badstugu medh dess
+                        tilhörige huus liggiandes i <placeName>Malmöe</placeName>. Datum 1423.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">7761</num>, paragraphs: <num n="paragraphs">132</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14320822005</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3093b-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Papirhæfte bestående af 12 blade</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Samtidig overstreget påskrift: <q>Effte de stede werden vornemende to hulpe
+        erer saken vnde setten ere erste to sprake</q>. Senere påskrift: <q>Jnstrumente oc scriffter
+        mellom myn here ok holzedenerne oc stedherne som her Gotswiin fich fran sich
+      \</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Ukendt afskrift; antages tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Langebeks Diplomatarium</collection>
+                        <idno>XIV A 27 Danmark (1431-1438)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrifter: <q>ex papyro</q> samt <q>Instrumente och scriffer mellom myn herre
+        oc stederne som her Gotswin fich fran sich</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Ufuldstændig afskrift af Jon Mortensen, som nødvendigvis må bygge på Aa, da der
+      i Aa1 forekommer enkelte tilføjelser, som ikke hidrører fra A</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. U 407</bibl>
+               <bibl>Hanserec. 2:I, nr. 365, p. 241-249 (efter Aa1)</bibl>
+               <bibl>Danske Mag. 5. rk. IV, p. 352-62, jf. p. 346</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-08-22"
+                  notBefore="1432-08-22"
+                  notAfter="1433-07-24"
+                  cert="low">[1432. 22. august - 1433. 24. juli]<note>Eftersom den sidste skrivelse, som nævnes i den indledende liste, er
+    våbenhvilen i Horsens af 22. august 1432, må nærværende tekst være udfærdiget efter denne dato.
+    Endvidere må nærværende tekst være udfærdiget før den 24. juli 1433, efter som de to slesvigske
+    hertuger Adolf og Gerhard omtales som levende i slutningen af teksten, og eftersom Gerhard døde
+    den 24. juli 1433. Med hensyn til det i nærværende tekst omtalte møde i Vordingborg må der være
+    tale om et forhandlingsmøde, som omtales den 7. december 1431 (jf. Hanserec. 2:I, nr. 77, p.
+    54-55), men som vi imidlertid ikke har yderligere spor af</note></date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Instruktioner beregnet til de danske forhandlere ved forligsforhandlingerne under mødet i
+      Vordingborg, som fandt sted i perioden 30. juni til 19. juli 1434.</ab>
+            <ab>Til brug under mødet skal de danske forhandlere medbringe følgende dokumenter:</ab>
+            <ab>1) Traktaten imellem kong Erik 7. af Pommern og hansestæderne Lübeck, Rostock, Stralsund,
+      Wismar, Lüneburg, Greifswald og Anklam
+      (<ref target="14230615001">DD 1423. 15. jun., nr. 14230615001</ref>).</ab>
+            <ab>2) Hansestædernes fejdebreve.</ab>
+            <ab>3) Den romerske konges breve.</ab>
+            <ab>4) Det vidnesbyrd hvormed kong Erik kan bevise, at han har krævet af hansestæderne, at de
+      skal komme ham til undsætning.</ab>
+            <ab>5) Det notarialinstrument som blev lavet i Øresund.</ab>
+            <ab>6) Nicolaus Stoks beretning om sine forsøg på at mægle i striden mellem kong Erik på den ene
+      side og de holstenske grever og hansestæderne på den anden side i perioden oktober 1427 til
+      april 1428 (<ref target="14280418001">DD 1428. 18. apr., nr. 14280418001</ref>).</ab>
+            <ab>7) Hansestædernes protest mod kong Eriks og den romerske konges anklager
+      (<ref target="14280507001">DD 1428. 7. maj, nr. 14280507001</ref>).</ab>
+            <ab>8) Beretningen om forhandlingerne i Nykøbing Falster, som blev beseglet af biskoppen af Øsel
+      og komturen af Schlochau
+      (<ref target="14290701001">DD 1429. 1. jul., nr.
+        14290701001</ref>).</ab>
+            <ab>9) Den romerske konges dom i sagen mellem kong Erik og holstenerne
+      (<ref target="14240628001">1424. 28. jun., nr.
+      14240628001</ref>).</ab>
+            <ab>10) Hertug Rumpolds compromissum
+      (<ref target="14230101001">DD 1423. 1. jan., nr. 14230101001</ref>).</ab>
+            <ab>11) Holstenernes brev vedrørende hertug Rumpolds compromissum
+      (<ref target="14230105001">DD 1423. 5. jan., nr. 14230105001</ref>).</ab>
+            <ab>12) Den romerske konges brev i hvilket han erklærer, at dommen af 28. juni 1424 ikke er
+      blevet appeleret
+      (<ref target="14241205001">DD 1424.
+        5. dec., nr. 14241205001</ref>).</ab>
+            <ab>13) Den romerske konges åbne brev i hvilket han kræver af holstenerne, at de skal følge
+      hans dom (<ref target="14250311001">DD 1425. 11.
+        mar., nr. 14250311001</ref>).</ab>
+            <ab>14) Det brev i hvilket holstenerne erklærer, at Gottorp er blevet givet dem i pant (jf. DD
+      3. rk. I nr. 47).</ab>
+            <ab>15) Det brev hvormed hertugen af Sønderjylland overdrager indløsningen af Gottorp til den
+      danske krone (jf. DD 3. rk. IX nr. 375).</ab>
+            <ab>16) Det brev i hvilket grev Adolf af Holsten erklærer, at han har modtaget Femern som len
+      af kong Valdemar (jf. DD 3. rk. VII nr. 22).</ab>
+            <ab>17) Notarialinstrumentet vedrørende forhandlingerne i Helsingborg
+      (<ref target="14301201001">DD 1430. 12. dec., nr. 14301201001</ref>).</ab>
+            <ab>18) Det notarialinstrument som blev lavet i Horsens
+      (<ref target="14320823001">DD 1432. 23. aug., nr.
+      14320823001</ref>).</ab>
+            <ab>Resten af teksten tager sigte på den strategi, hvormed man fra dansk side vil imødegå
+      holstenernes og hansestædernes anklager, samt hvormed man vil fremføre sine egne anklager mod
+      holstenerne og hansestæderne.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-07" who="#pbh">Filen etableret af #pbh 2014-08-07. </change>
+         <change when="2019-09-19" who="#smb">1. korrektur af #smb 2019-09-19. </change>
+         <change when="2019-12-03" who="#smb">2. korrektur af #smb 2019-12-03. </change>
+         <change when="2020-02-21" who="#smb">3. korrektur af #smb 2020-02-21. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><app><lem><supplied>Side 1</supplied></lem><rdg>sidetallene er angivet ved romertal i A</rdg></app></p>
+            <p n="a#2" xml:space="preserve"><app><lem>Desse</lem><rdg>til venstre herfor er tegnet en korsdelt cirkel i A</rdg></app> naschreuene <app><lem>breue</lem><rdg>herefter står et overstreget <q>he</q> i A</rdg></app> wert man behoff hebbende to deme dage ♦</p>
+            <p n="a#3" xml:space="preserve">j To deme ersten der to sate twisschen vns vnde <app><lem>den steden</lem><rdg><q>de stede</q>, A</rdg></app> ♦</p>
+            <p n="a#4" xml:space="preserve">ij Item der stede vntseggebreue so vele alse der is ♦</p>
+            <p n="a#5" xml:space="preserve">iij Item des Romeschen koninges breue dar mede he den steden bot vnseme rechte bij to <app><lem>liggende</lem><rdg><q>dar mede - liggende</q>, A; Aa1 læser fejlagtigt <q>so vele alse der is</q> som i
+          stk. 2</rdg></app> ♦</p>
+            <p n="a#6" xml:space="preserve">iiij Item de tuchnisse dar mede wy bewijsen dat wy se to vnser hulpe mit deme vorgescreuen
+      breue esschet hebben ♦</p>
+            <p n="a#7" xml:space="preserve">v Item dat jnstrumentum dat to <placeName>deme Sunde</placeName> maket wart der twe sint .
+      beide to latine vnde vppe dudesch ♦</p>
+            <p n="a#8" xml:space="preserve">vj Item dat registrum van meister <persName>Niclawes Stockes</persName> weruen ♦</p>
+            <p n="a#9" xml:space="preserve">vij Item der stede protestacie dar ane se protest{ee}rden wo se deme Romeschen koninge
+      belouen wolden ♦</p>
+            <p n="a#10" xml:space="preserve">viij Item dat verlop van der dedinge to Nykopinge dat de bisschop van Osele vnde de compter
+      van Slochowe besegelden ♦</p>
+            <p n="a#11" xml:space="preserve">viij Item des Romeschen koninges vtsproke twisschen <app><lem>vns</lem><rdg>herefter står overstreget <q>de h</q> i A</rdg></app> vnde de Holsten ♦</p>
+            <p n="a#12" xml:space="preserve">ix Item hertogen Rumpoldes anlates breff ♦</p>
+            <p n="a#13" xml:space="preserve">x Item der Holsten breff den se vns dar vpp besegelt hebben ♦</p>
+            <p n="a#14" xml:space="preserve">xj Item des Romeschen koninges breff dar mede he tuget dat sijn vtsproke nicht wart
+      geschulden ♦</p>
+            <p n="a#15" xml:space="preserve">xij Item des Romeschen koninges opene breff dar mede he den Holsten gebot sineme vtsproke
+      horsam to wesende ♦</p>
+            <p n="a#16" xml:space="preserve">xiij Item den breff dar ane de Holsten bekennen dat en <placeName>Gottorp</placeName> to
+      pande steit ♦</p>
+            <p n="a#17" xml:space="preserve">xiiij Item den breff dar de hertoge van Sunder <app><lem>Jutland</lem><rdg>herefter står overstreget <q>dar</q></rdg></app> de losinge an <placeName>Gottorpe</placeName> der crone to Dennemarke mede ouer ghifft
+      ♦</p>
+            <p n="a#18" xml:space="preserve">xv Item de breff dar ane greue <persName>Alff</persName> van <placeName>Holsten</placeName>
+      bekent dat em <placeName>Vemeren</placeName> van koning <persName>Woldemar</persName> geleent
+      sij ♦</p>
+            <p n="a#19" xml:space="preserve">xvj Item dat jnstrumentum van deme vorlope to Helssingborch ♦</p>
+            <p n="a#20" xml:space="preserve">xvij Item dat jnstrumentum dat to <placeName>Horsnesse</placeName> maket wart vppe dat
+      affscheident in deme clostere ♦</p>
+            <p n="a#21" xml:space="preserve"><app><lem><supplied>Side 2</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>II</q>; hele side 2 er overstreget
+          i A</rdg></app></p>
+            <p n="a#22" xml:space="preserve">Alse n{ue} <app><lem>de</lem><rdg>herefter står overstreget <q>stede vnde de</q> i A</rdg></app> Holsten vnde de stede mit en ander dessen vorrameden dach hebben an genomen vnde den
+      besueken edder besenden willen so is to vormodende dat dat so is to gan edder to gande wert
+      dat edder de stede de Holsten willen hebben vppe deme dage edder ok dat de Holsten dar doch
+      jegenwordich willen wesen edder ok dat se an beiden siden eren vromen dar se ane seen dat de
+      ene side buten der andern dar nicht wesen wille \ ♦ Js id nv so dat der stede vpsate
+      allene is dat de Holsten io mit en komen edder ere bodeschap mit en her schicken scholen so is
+      to vormodende dat se dat hebben dar vp gedan edder don ♦ Effte id so geuelle dat se in
+      der handelinge de dar gande wert / wurden vorluden <app><lem>latende</lem><rdg>herefter står overstreget <q>dat se</q> i A</rdg></app> alse se doch plegen vnde gewone sint wo se mit den Holsten so stan dat se buten se mit
+      vns nene richtinge maken mogen vnde wi vns denne mit en dar vp to rechte scheten effte dat mit
+      rechte moge edder schole macht hebben edder nicht dat denne de Holsten suluen edder ere rad /
+      horen vnde seen mogen dat de stede nicht sueken edder begeren van en to scheidende id ne si
+      dat se mit deme rechte dar to warden drongen ♦ Js id ok so dat de <app><lem>Holsten</lem><rdg>herefter står et par overstregede, ulæselige bogstaver i A</rdg></app> suluen dit hebben vt gesticket <app><lem>vmme</lem><rdg>tilføjet over linjen i A</rdg></app> dat se nicht willen steden dat de stede allene mit vns to dage komen buten se so is dar
+      ane to vormodende . dat ere werff dar werde alse hertogen <persName>Wilhelmes</persName> was .
+      alse <app><lem>dat</lem><rdg>herefter står overstreget, utydeligt <q>alse</q> e.l. i A</rdg></app> se hindern vnde beletten <app><lem>dat</lem><rdg>herefter står overstreget <q>de stede</q> i A</rdg></app> wi vnde de stede vns nicht vordragen ♦ Js id auer so dat id <app><lem>erer</lem><rdg><q>erre</q>, A</rdg></app> beiden side vpsate vnde eendracht is so is dar ane to erkennende dat se bi malk andern
+      menen to bliuende jd si <app><lem>edder</lem><rdg>tilføjet over linjen i A</rdg></app> an der richtinge edder an deme krige vnde is dat also <app><lem>so</lem><rdg><q>son</q>, A</rdg></app> mogen wi vns vorseen dat se ere sinne dar vp gescherpet hebben wo se ere rede vnde word
+      vppe dat schoneste mogen kleden dat se vor den anderen Hensesteden ginich gelut mogen hebben
+      dar mede se de iegen vns mogen reissen vnde mit <app><lem>en</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>vns io</q></rdg></app> iegen vns to krige mogen bringen edder ok id schud dar vmme dat de stede jrst willen
+      mit vns vorsueken effte se enes vruntliken middels edder enes bestandes to jaren kunnen ouer
+      eens warden vnde kan dat <app><lem>denne</lem><rdg>tilføjet over linjen i A</rdg></app> gan dat se sedder suluen lichte menen mit vns to dedingende <app><lem>vmme</lem><rdg>herefter står overstreget <q>sake</q> i A</rdg></app> vnse sake mit den Holsten vnde mogen sich lichte dunken laten dat se de wise weten to
+      vindende dar mede se vns vorscheiden mogen ♦</p>
+            <p n="a#23" xml:space="preserve"><app><lem><supplied>Side 3</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>III</q>; hele side 3 er
+          overstreget i A</rdg></app></p>
+            <p n="a#24" xml:space="preserve"><app><lem>Item</lem><rdg>herefter står et overstreget <q>welke</q> i A</rdg></app> na welker wijse van dessen vorgescreuen dat id nv gande wert so is vns <app><lem>doch</lem><rdg>tilføjet over linjen i A</rdg></app> behoff dat wij ouer vnsen <app><lem>dedingen</lem><rdg>herefter står et overstreget <q>hebbe</q> i A</rdg></app> de wij mit den vorbenomeden beiden <app><lem>partigen</lem><rdg>herefter står overstreget <q>hebb</q> i A</rdg></app>
+      <app><lem>openbar</lem><rdg>tilføjet over linjen i A</rdg></app> handelende werden / hebben vnse notarios vnde tugen vnde vns dat nenerleige wijs
+      affdedingen laten vmme vele sake willen doch mach man wol vorluden laten dat id beiden delen
+      n{ue}tte si vppe dat die schichte nicht werden anders na secht edder schreuen wen alse se gan
+      sint <app><lem>to tugen</lem><rdg><q>to tugen - Gripeswolde</q>, tilføjet som note i venstre margen i A</rdg></app> mogen wij nemen den sendebode van rades <app><lem>Burammer</lem><rdg>det drejer sig her efter al sandsynlighed om Bertold Burammer, rådmand i Danzig</rdg></app> vnde de van <placeName>deme Gripeswolde</placeName> ♦</p>
+            <p n="a#25" xml:space="preserve">Item steit vns ouer to wegende effte vns n{ue}tter si dat wi vppe deme dage de jrste rede
+      begripen edder dat wi den anderen de irste rede laten ♦ Js id so dat wij en de laten so
+      mogen se sachte ere sake vnde stucke so in een theen dat wij nicht so gud hebben de van een to
+      vorscheidende alse effte wij suluen de jrste rede begrepen . ♦</p>
+            <p n="a#26" xml:space="preserve">Vnde hir vp alse dat affscheident latest to Wordingborch steit allermest vppe de twe artikle
+      de her K{oe}rt Bisschop vnde her Reynold Rapesuluer vns vor legeden alse van der stede wegene
+      effte wi se wolden liden to eneme vr{ue}ntliken dage <app><lem>alse</lem><rdg>tilføjet over linjen i A</rdg></app> vmme to vorsuekende effte man de sake twisschen vns vnde see hangende slichten kunde to
+      ener gewisse s{uo}ene edder ok de an en bestant muchte bringen mit eneme vpslage to jaren
+      etcetera vnde to deme latesten effte wi ok de Holsten wolden liden dat se den suluen dach <app><lem>ok</lem><rdg>herefter står overstreget <q>ber</q> i A</rdg></app> besueken edder besenden m{ue}chten etcetera . vnde alse wij en dar vpp vnse antworde
+      leten seggen wo wij noch do / alse <app><lem>vor</lem><rdg>herefter står to små overstregede ulæselige ord i A</rdg></app> alle wege / bereit weren lijk vnde recht to nemende vnde to geuende edder effte en dat <app><lem>recht</lem><rdg><q>recht</q> står skrevet over linjen i A</rdg></app> to sware duchte wesen dat wij id denne vppe mogelike vr{ue}ntlikheid der wij kunden
+      vnderwiset worden dat wij mit eren vnde reddelikheid vnde sunder <app><lem>vnser rike</lem><rdg>tilføjet over linjen</rdg></app> merkliken schaden m{ue}chten angan . vnde en dar vp vragen leten effte se gicht
+      mechtich weren dar aff wes mit vns to begripende so antworden se vns dat se des nicht mechtich
+      weren sunder dat m{ue}ste mit den andern steden sammentlike vorhandelt werden ♦</p>
+            <p n="a#27" xml:space="preserve">Vnde alse <app><lem>nv</lem><rdg>tilføjet over linjen i A</rdg></app> desse anstande dach dar vp begreben is . wille wi denne de ijrste rede begripen so
+      mogen wij vor en vorluden laten her Kordes vnde her Reynoldes vorgescreuen werff . worde vnde
+      wedderword vnde dat vorgescreuene aff scheident vnde vragen en effte se nv des synnes sint vns
+      to donde vnde vor vns to <app><lem>nemende</lem><rdg>herefter står et par overstregede ulæselige bogstaver i A</rdg></app> lijk vnde recht edder mogelike vr{uo}ntschap alse dat vorgeruert is vnde in deme werue
+      vorhandelt wart ♦</p>
+            <p n="a#28" xml:space="preserve"><app><lem><supplied>Side 4</supplied></lem><rdg>sidetallet er angivet i venstre margen ved romertal <q>IIII</q>; hele side 4 er
+          overstreget i A</rdg></app></p>
+            <p n="a#29" xml:space="preserve">Wan id denne komende wert to der vorhandelinge so wert vnse rad den steden vragende effte se
+      so sint her komen alse to volgende der wijse dar desse dach vp begrepen is ♦</p>
+            <p n="a#30" xml:space="preserve">Hir to werden se antworden edder dat se <app><lem>so</lem><rdg>tilføjet over linjen i A</rdg></app> don edder nicht don willen . edder dat se <app><lem>dat</lem><rdg>herefter står et overstreget <q>nicht</q> i A</rdg></app> wol don willen so verne alse wi des geliken mit den Holsten ok <app><lem>don</lem><rdg>herefter står to overstregede ulæselige bogstaver i A</rdg></app> vnde nemen willen vnde bidden vns denne dat wi dat also willen gnedichliken tolaten
+      ♦</p>
+            <p n="a#31" xml:space="preserve">Hir to mogen wi so antworden . dat <app><lem>wi</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>vns vns</q></rdg></app> nicht <app><lem>weten</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>vordenket</q></rdg></app> dat wi mit en gicht anders hebben to vorhandelende <app><lem>wen</lem><rdg>herefter står et overstreget ulæseligt ord i A</rdg></app> de saken dede hangen twisschen vns vnde se alse ere antworde to horende vppe de vrage
+      dar vp wi den dach hebben to laten vnde vor geruert <app><lem>is</lem><rdg>herefter står et overstreget ulæseligt ord efterfulgt af den ligeledes overstregede
+          passus <q>wente wes dar ane</q> i A</rdg></app> vnde scheten vns des to der cedelen des affscheides vorgescreuen wente wes dar van den
+      Holsten wart geruert dat schach bi sunder vnde na der antworde <app><lem>dar</lem><rdg>tilføjet over linjen i A</rdg></app> wi vnde de vorgescreuen her K{oe}rt vnde her <app><lem>Reinolt</lem><rdg>herefter står overstreget <q>malk andern</q> i A</rdg></app> vnse rede van vnsen saken mede sloten hadden alse man dat ok an der vorgescreuen
+      cedelen seen mach willen se nv deme also volgen alse dat begrepen is vnde dar vp wi to hope
+      komen sint so sint wi des ok willichlike bereit vnde willen <app><lem>vns</lem><rdg>tilføjet over linjen i A</rdg></app> gevuechlik id si to like vnde to rechte edder to mogeliken vruntschup alse dat vor
+      geruert is gerne laten vinden sint se auer des nicht beraden so were beter wesen dat se vns
+      vnde den vnsen vnde sich suluen vngemakes vordragen hadden . ♦</p>
+            <p n="a#32" xml:space="preserve">Js id nv so dat se seggen se sitten mit den Holsten so dar an dat se buten en nene richtinge
+      mit vns maken mogen vnde bidden dar vmme alse vor / dat wi <app><lem>erer</lem><rdg><q>erre</q>, A</rdg></app> beider sake vnder geliker vorscheidinge willen vorhandelen vnde schlichten laten
+      ♦ Hir to mogen wi so antworden wi willen dat setten mit en <app><lem>in</lem><rdg>tilføjet over linjen i A</rdg></app> dat recht effte se na vorhalinge vnde vorlope der schichte de twisschen vns vnde se
+      gegan <app><lem>sint</lem><rdg>herefter står et overstreget <q>vnde</q> i A</rdg></app> plichtich sint <app><lem>van rechtes wegene</lem><rdg>tilføjet over linjen i A</rdg></app> in sodaner mate bi to liggende den Holsten iegen vns edder nicht ♦ Js id denne so <app><lem>dat</lem><rdg>herefter står overstreget <q>js de</q></rdg></app> se van rechtes wegene plichtich sint en also bi to liggende . dat se id denne don so
+      lange en dat gelustet ♦ Js id auer so dat se des nicht plichtich sint van rechtes wegene
+      vnde en to synne is sich mit vns to richtende alse vorgescreuen is so sint wi des ok
+      gutwillich vnde willen vns dor des gemeynen besten <app><lem>wille</lem><rdg>herefter står overstreget <q>vns</q> i A</rdg></app> gerne <app><lem>gevuechlik</lem><rdg>herefter står overstreget <q>dar</q> i A</rdg></app> alse vorgescreuen is dar ane laten vinden ♦</p>
+            <p n="a#33" xml:space="preserve"><app><lem><supplied>Side 5</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>V</q>; hele side 5 er overstreget
+          i A</rdg></app></p>
+            <p n="a#34" xml:space="preserve">Doch is id so dat de stede mit den Holsten vormogen kunnen dat se vns dat vnse van Sunder
+      Jutland <app><lem>dat</lem><rdg>herefter står et overstreget <q>se</q> i A</rdg></app> vns mit rechte is to geb{ue}nden vnde se vns mit vnrechte vnde wreuele vor vntholden
+      willen volgen laten vnde vns ouer geuen so wille wi gerne dar vp vnse ander sake mit den <app><lem>Holsten</lem><rdg>herefter står overstreget <q>vorhandelen</q> samt et ulæseligt ord i A</rdg></app> mit der stede saken vnder geliker vorscheidinge vorhandelen laten . ♦</p>
+            <p n="a#35" xml:space="preserve">Sunder dat wi vnse sake van Sunnder Jutland vnde van Gottorpe <app><lem>nv</lem><rdg>tilføjet over linjen i A</rdg></app> anderwerue scholden setten in dat recht dar <app><lem>ane</lem><rdg>tilføjet over linjen i A</rdg></app> wij vormiddelst deme Romeschen koninge to deme wij vns mit den Holsten <app><lem>alse</lem><rdg><q>alse - richtere</q> er tilføjet i venstre margen i A</rdg></app> to eneme ouersten richtere so belouet vorsegelt vnde vorborget hebben dat wij <app><lem>bi</lem><rdg>tilføjet over linjen i A</rdg></app> vnser koningliker warheid vnde se bij errer furstliken truwen stede vnde vnvorbroken
+      vnde sunder alle vptoge vnde wedderrede holden scholen wes he vns vor recht wurde <app><lem>to edder</lem><rdg>tilføjet over linjen i A</rdg></app> aff seggende <app><lem>vorscheiden sint</lem><rdg>tilføjet som note i margen i A</rdg></app> \ ♦</p>
+            <p n="a#36" xml:space="preserve">Des dunkt <app><lem>vns</lem><rdg>herefter står overstreget <q>dat wij</q> i A</rdg></app> vnde menen <app><lem>dat</lem><rdg>herefter står overstreget <q>dat</q> i A</rdg></app> id ok allesweme vnde bisunder des hilgen Romeschen rikes getruwen vnde vnderdanen
+      billike dunken schole dat <app><lem>wij</lem><rdg>herefter står overstreget <q>dat</q> i A</rdg></app> sunder merklike misbedinge der Romeschen koningliken werdicheid vnde straffinge vnses
+      koningliken wordes sodane affgerichtede sake vor nenen mynren edder andern richtere <app><lem>setten</lem><rdg>herefter står et overstreget <q>edder</q> i A</rdg></app> edder scheten mogen vnde laten vns dar vmme vurder dunken dat man vns vnmogelik dat
+      ansynnende is dat vns so hochlike to vorkerende stunde effte wi vnsen willen dar to geuende
+      wurden ♦</p>
+            <p n="a#37" xml:space="preserve">Effte de stede denne seggen se willen dar gerne van laten <app><lem>vns</lem><rdg><q>vns - sinnende</q> er tilføjet over linjen i A</rdg></app> an to sinnende de vorgescreuen sake to rechte to settende sunder se <app><lem>bidden</lem><rdg>herefter står overstreget <q>dat</q> i A</rdg></app> na deme male vns dunket dat wi mit reddelikheid se nicht to rechte setten mogen dat wi
+      se setten willen to vr{uo}ntlikerr vorscheidinge vppe dat dit gemene <app><lem>vorderff</lem><rdg>herefter står overstreget <q>dar is</q> i A</rdg></app> des te sachter moge gelegert warden ♦</p>
+            <p n="a#38" xml:space="preserve">Hir to mogen wi so antworden . wi willen nicht affslan ginige vruntlike <app><lem>vorscheidinge</lem><rdg>herefter står overstreget <q>dar</q> i A</rdg></app> dar ane wi vnde vnse rad <app><lem>erkennen</lem><rdg><q>er</q> i <q>erkennen</q> er tilføjet over linjen over et overstreget, ulæseligt ord
+          i A</rdg></app> dat wi vnde vnse krone vnvorsinnet <app><lem>bi</lem><rdg>tilføjet over linjen over et overstreget, ulæseligt ord i A</rdg></app> mogen sijn vnde wij mit eren vnde mit reddelikheid to laten mogen ♦</p>
+            <p n="a#39" xml:space="preserve"><app><lem><supplied>Side 6</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>VI</q>; hele side 6 er overstreget
+          i A</rdg></app></p>
+            <p n="a#40" xml:space="preserve">Item effte id so komt dat de stede willen mit vns in dat recht setten effte se plichtich sint
+      van rechtes wegene den Holsten bi to liggende edder nicht etcetera so mogen <app><lem>wij</lem><rdg>herefter står et overstreget <q>dat</q> i A</rdg></app> beweren dat se dat nicht mogen don to deme irsten mit desser reddelikheid se hebben
+      sich <app><lem>to ewigen tiden</lem><rdg>tilføjet over linjen i A</rdg></app> to vns vorbunden wedder allesweme de vns <app><lem>edder</lem><rdg>herefter står overstreget <q>vnsen riken</q> i A</rdg></app> vnsen rike mit vnrechte <app><lem>wurde</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>edder</q></rdg></app> anvallende / edder wedderstal donde vnde sich mit deme rechte nicht wolde beseggen
+      laten sint <app><lem>deme</lem><rdg><q>den</q>, A</rdg></app> male denne <app><lem>dat</lem><rdg>herefter står et overstreget <q>se</q> i A</rdg></app> de Holsten vns openbar wedderstal don an vnseme gewonnenen rechte vnde an landen vnde
+      luden de se vns mit vnrechte vor vntholden <app><lem>vnde</lem><rdg>herefter står overstreget <q>sich mit</q> i A</rdg></app> dem rechte dat vns to vnde en affgewiset <app><lem>is</lem><rdg>herefter står overstreget <q>s</q> i A</rdg></app> nicht willen vnder horich wesen so menen wij dat de stede <app><lem>schuldich sint</lem><rdg>tilføjet over linjen i A</rdg></app>
+      <app><lem>van rechtes wegene</lem><rdg>tilføjet over linjen i A</rdg></app> nicht allene den Holsten nicht <app><lem>wedder vns</lem><rdg>tilføjet over linjen i A</rdg></app> bi to liggende <app><lem>sunder</lem><rdg>herefter står et overstreget <q>ok</q> i A</rdg></app> vns wedder se na lude vnser tosate to helpende vnde to denende alse wij se dar to
+      vakene gemanet vnde esschet hebben vnde noch hute des dages dar to manen vnde esschen etcetera
+      ♦</p>
+            <p n="a#41" xml:space="preserve">To deme andern male na deme de Romesche koning en geboden hefft mit sinen openen breuen dat
+      se vns vnde vnseme gewunnenen rechte wedder de Holsten scholden vnde scholen bistendich wesen
+      etcetera so menen wi dat se den Holsten nicht mogen biliggen <app><lem>s{uo}nder</lem><rdg>herefter står overstreget <q>vns</q> i A</rdg></app> schuldich sint <app><lem>vns</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>bil</q></rdg></app> bi to liggende wedder se alse vorgescreuen is vnde scheten vns des to rechte
+      ♦</p>
+            <p n="a#42" xml:space="preserve">Item na deme male dat wij mit den Holsten vors{ue}enet vorliket vnde mit deme rechte
+      vorscheiden sint vnde <app><lem>na</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>sint</q></rdg></app> der tijd <app><lem>dat</lem><rdg><q>dat</q>, A</rdg></app> de sulue s{ue}ene schach vnde de <app><lem>vorscheidinge</lem><rdg>herefter står overstreget <q>schac</q> i A</rdg></app> gan is wij mit en edder se mit vns nenen krich hebben angeslagen edder vorwaringe gedan
+      de io vor deme krige <app><lem>van rechtes wegene</lem><rdg>tilføjet over linjen i A</rdg></app> moit gescheen sunder allene stan mit en an vorvolginge <app><lem>vnde maninge</lem><rdg>tilføjet over linjen i A</rdg></app> vnses gewonnenen rechtes so menen wij dat de stede nicht hebben to seggende mit giniger
+      reddelikheit dat se s{ue}nder de Holsten dar wi io nenen krich mede hebben sich mit vns nicht
+      vorliken mogen jd ne si dat en dat recht vinde dat se deme openbaren vnrechte wedder recht
+      vnde wedder ere besegelde breue vnde geuene truwe biliggen vnde dat sterken mogen vnde scheten
+      vns des to rechte ♦</p>
+            <p n="a#43" xml:space="preserve"><app><lem><supplied>Side 7</supplied></lem><rdg>sidetallet er angivet øverst i venstre margen ved romertal <q>VII</q>; det første
+          afsnit på side 7 er overstreget i A</rdg></app></p>
+            <p n="a#44" xml:space="preserve">Hir gan an vnse tospreke vnde schuldinge to den <app><lem>steden</lem><rdg>efter <q>steden</q> læser Aa1 <q>vnde hir vp mogen wij vnse irste tosprake alsus
+            setten</q></rdg></app> ♦</p>
+            <p n="a#45" xml:space="preserve">Item effte id denne dar to wert komende dat de stede buten de Holsten sich mit vns vorliken
+      willen vnde ere saken edder to rechte edder to vruntlikheid mit vns willen setten so setten
+      wij vnse schuldinge to en alse hir na beschreuen steit ♦</p>
+            <p n="a#46" xml:space="preserve">To deme jrsten alse alle vnse saken de wi mit den steden hebben vtstande stan vppe
+      twigerleige artikle alse to dem jrsten vppe dat vorlust <app><lem>erer</lem><rdg><q>erre</q>, A</rdg></app> priuilegien vnde rechticheide bynnen vnsen <app><lem>riken</lem><rdg>herefter står overstreget <q>vnde to deme mede</q> i A</rdg></app> de wy menen dat se wedder vns na deme rechte vorbroken hebben vnde to deme anderen male
+      vppe deme broke der to sate dar ane se sik to vns vorbunden hadden vnde <app><lem>vppe den</lem><rdg><q>broke - vppe den</q> står skrevet over linjen i A</rdg></app> schaden den se vns mit vnrechte dan hebben den wi menen dat se vns van rechtes wegene
+      plichtich sint vp to richtende vnde ok vppe den broke den se dan hebben an desseme <app><lem>vpslage</lem><rdg><q>vnde ok - vpslage</q> står skrevet over linjen i A; efter <q>vpslage</q> står et
+          overstreget ulæseligt ord i A</rdg></app> so steit vns ouer to wegende effte des behoff edder ok vor vns si dat wij den artikel
+      van den priuilegien setten in vnse to sprake . wente schuldigen wy se vmme ere priuilegien dat
+      se vorbroken hebben so schuldige wy se dar vmme dat se sich suluen groten schaden vnde vns
+      groten vromen gedan hebben vnde na deme male dat dat nener schuldinge wert is so mogen wij
+      s{ue}nder vnse vorsumenisse den artikel in vnser to sprake wol na laten vnde nemen en ere
+      priuilegien vppe en recht so lange dat se vns dar vmme schuldigen vnde jo hebbe wi des bet to
+      bekomende in vnser antworde wen effte wij dar <app><lem>aff</lem><rdg><q>aff</q> står skrevet over linjen i A</rdg></app> ruerden in vnser tosprake ♦</p>
+            <p n="a#47" xml:space="preserve">Dit is denne vnse to sprake alse vmme den schaden dar wij se vmme schuldigen ♦</p>
+            <p n="a#48" xml:space="preserve">Na deme male dat se hadden vnde wisten na vtwisinge der besegelden to sate twisschen vns vnde
+      se ene <app><lem>ben{ue}emede</lem><rdg>herefter står overstreget <q>stede</q> i A</rdg></app> utgestickede veilige stede vnde tijd dar se alle jar muchten <app><lem>vnde</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>edder</q></rdg></app> scholden <app><lem>ere</lem><rdg>herover står overstreget, ulæseligt ord i A</rdg></app> vnrecht <app><lem>effte</lem><rdg>herefter står overstreget <q>en</q> i A</rdg></app> van vnser side gichteswat an se edder an de <app><lem>eren</lem><rdg>herefter står overstreget <q>broken</q> i A</rdg></app> bynnen der suluen to sate broken <app><lem>were</lem><rdg>herefter står overstreget <q>s</q> i A</rdg></app> klagen vnde vorrichtinge dar aff vntfangen alse wi mit der suluen to sate mogen
+      bewijsen vnde se nicht bewijsen mogen dat se deme also gedan vnde ere recht dar alse se
+      schuldich weren vnde <app><lem>sint</lem><rdg>herefter står overstreget <q>nicht vorg</q> i A</rdg></app> vorvolget hebben sunder <app><lem>sint</lem><rdg>herefter står overstreget <q>dar ouer</q> i A</rdg></app> vnse vnde vnser rike vnde <app><lem>vndersaten</lem><rdg><q>r</q> i <q>vndersaten</q> er tilføjet over linjen i A</rdg></app> vyende worden <app><lem>boven dat</lem><rdg><q>bouen dat - vnde to rechte</q> er tilføjet som note i margen forneden på siden i
+          A</rdg></app> wi vns beide vor vnde ok na der tijd vormiddest vnse vrunde vnde breue hebben vorboden
+      vnde vorbeden laten to like vnde to rechte vnde hebben vns dar mede to groten overhefftigen
+      schaden bracht etcetera so menen wij dat se schuldich sint van rechtes wege vns den schaden
+      mit plichtigen <app><lem>wandele</lem><rdg>herefter står overstreget <q>ok</q> i A</rdg></app> vp to richtende edder ok to danke dar aff to vorn{ue}egende vnde scheten vns des to
+      rechte ♦</p>
+            <p n="a#49" xml:space="preserve"><supplied>Tillægsblad (mellem side 7 og 8), forside</supplied></p>
+            <p n="a#50" xml:space="preserve"><app><lem>Vnse</lem><rdg>til venstre herfor er et afsnitsmarkerende tegn med form som et spejlvendt
+          <q>E</q></rdg></app> jrste schuldinge vnde tosprake to den steden ♦</p>
+            <p n="a#51" xml:space="preserve">Vnde hir vp mogen wij vnse jrste tosprake alsus setten ♦</p>
+            <p n="a#52" xml:space="preserve">Alse dat affscheident dat to <placeName>Horsnesse</placeName> dedinget vnde sloten wart
+      vtwyset dat de vnsen vnde vnser rike jnwonres bynnen der tijd des <app><lem>vpslages</lem><rdg>herefter står overstreget <q>dar dat vorbenomede aff scheident vp ghink</q> i A</rdg></app> segelen scholden to den steden vnde in ere hauenen vnde gebede <app><lem>geleidet vnde velich</lem><rdg>tilføjet over linjen i A; herunder står et overstreget, ulæseligt ord</rdg></app> vppe ere olde wonheit s{uo}nder arch so hebben sik de vnsen dar vp <app><lem>getrostet</lem><rdg>herefter står overstrege <q>gewesen vnde alse se sint</q> i A</rdg></app> vnde <app><lem>vorlaten</lem><rdg>herefter står et overstreget, ulæseligt ord i A</rdg></app> vnde alse se van st{uo}nden an / alse de vpslach vorkundiget was dar vp to den
+      vorgescreuen steden qwemen vnde menden <app><lem>to</lem><rdg>mangler i A</rdg></app> br{uo}ken erer olden <app><lem>wonheit</lem><rdg>herefter står overstreget <q>so</q> i A</rdg></app> alse dat gededinget vnde sloten vnde vorkundiget was so wurden se <app><lem>beswaret</lem><rdg>herefter står overstreget <q>vnde beschediget vor</q> i A</rdg></app> jegen ere olde wonheit vormiddelst de vplegginge der vnplichteliken cijse de de <app><lem>stede</lem><rdg>herefter står overstreget <q>se</q> i A</rdg></app> nv <app><lem>vnlanges</lem><rdg>herefter står overstreget <q>alse bynnen der tijd dat se vnse vyende worden sint</q> i
+          A</rdg></app>
+      <app><lem>vnde</lem><rdg><q>vnde - jaren</q> er tilføjet over linjen i A</rdg></app> binnen korten jaren hebben vpgelecht alse wij dat ok vor desser tijd bijspraket vnde
+      vns des beklaget hebben vnde menen dat se dar <app><lem>mede</lem><rdg>tilføjet over linjen i A; herunder står et overstreget, ulæseligt ord</rdg></app> den vorgescreuen vpslach edder vrede / edder wo man dat anders schal n{uo}emen an vns
+      gebroken hebben . vnde des van rechtes wegene plichtich sint to entgeldende alse ener sake <app><lem>de</lem><rdg>herefter står overstreget <q>se</q> i A</rdg></app>
+      <app><lem>jegen</lem><rdg>herefter står overstreget <q>sodanen vrede dan</q> i A</rdg></app> sodanen vpslach edder <app><lem>vrede</lem><rdg>herefter står oversteget <q>scheen</q> i A</rdg></app> began <app><lem>is</lem><rdg>herefter står overstreget <q>hebben</q> i A</rdg></app> . vnde willen dat setten mit en jn dat recht ♦</p>
+            <p n="a#53" xml:space="preserve"><supplied>Tillægsblad, bagside</supplied></p>
+            <p n="a#54" xml:space="preserve"><app><lem>Item</lem><rdg>herudfor står i venstre margen <q>nota</q> i A</rdg></app> beholden wij vns dat wij alse vmme vnse <app><lem>tosprake</lem><rdg>herefter står et overstreget <q>to</q> i A</rdg></app>
+      <app><lem>vnde antworde to</lem><rdg>tilføjet over linjen i A</rdg></app> verklarende vnde to richtigende dar an <app><lem>spreken</lem><rdg>herefter står overstreget <q>vnde jn</q> i A</rdg></app> edder in schriffte ouer geuen mogen <app><lem>so</lem><rdg>tilføjet over linjen i A</rdg></app> wes vnde so vakene vns des behoff wert sunder vorsumenisse vnses rechtes ♦</p>
+            <p n="a#55" xml:space="preserve"><app><lem>Item</lem><rdg>herudfor står i venstre margen <q>nota</q> i A</rdg></app> nicht is to vormodende dat hir nv to desseme dage ginich recht werde affgesecht
+      s{uo}nder de scheideslude mogen ramen enes anderen dages dat recht aff to seggende . alse se
+      des na vtwisinge des affscheides mechtich sint / vnde dar vmme kan hir nv tor tijd nen recht
+      edder vt sproke schulden werden ♦</p>
+            <p n="a#56" xml:space="preserve">Sunder dunket vns dat id vor vns sij / alse wij ok lange dar na synt bestan gewesen dat vnse
+      sake mit den steden in dat recht kome vnde mit rechte vorscheiden werde so is vns behoiff dat
+      desse dach so beleidet vnde sleten warde dat de scheideslude to enen anderen dach alse vmme
+      dat recht aff to seggende vtsticken vnde n{ue}emen / vnde dat man sedder hir to der stede vnde
+      nicht eer de dach vtgesticket vnde nuemet sij / dat so denne van den suluen scheidesluden vnde
+      ok van vns an beiden sijden vorwissen vnde vorwilkoren laten alse des behoff wert <app><lem>dat</lem><rdg>herefter står overstreget <q>dat recht to</q> i A</rdg></app> dat recht io denne schal affgesproken werden wente is id so dat dat recht vor vns geit
+      so is vnse sake des to beter gheit id auer jegen vns so moge wij dat scheden vnde scheten dat
+      vor den keyser etcetera ♦</p>
+            <p n="a#57" xml:space="preserve"><app><lem><supplied>Side 8</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>VIII</q></rdg></app></p>
+            <p n="a#58" xml:space="preserve"><app><lem>Item</lem><rdg>til venstre herfor er et afsnitsmarkerende tegn med form som et spejlvendt <q>D</q> i
+          A; herefter står overstreget <q>schuldigen wij se</q></rdg></app> effte se hir to wedder also antworden alse se lichte donde warden vnde ok lichte in ere
+      tosprake settende werden na deme male dat se nene legeliker stede <app><lem>edder tijd</lem><rdg>tilføjet over linjen i A</rdg></app> hebben muchten wen dar se vnsen egenen persone vnde ere weddersaken jegenwordich hadden
+      vmme er vnrecht alse den eren van den unsen gescheen was to klagende vnde ere sake to
+      vorvolgende alse se deden ouer <persName>Erik Jeenssen van Auelsberge</persName> de enen
+      burger van <placeName>Lubeke</placeName> in sinen eigenen geleide sine ossen vnde sijn gud nam
+      vnde behelt dar en nen recht aff muchte weddervaren wo wol se dat vor vns suluen klageden unde
+      bewiseden ♦</p>
+            <p n="a#59" xml:space="preserve">Hir to hebben wij also to antworden . de sulue sake alse se vor vns geklaget was so wijsede
+      wij na vnser wonheid den anklager mit sinen weddersake vor vnsen rad alse vmme de sake <app><lem>edder</lem><rdg>tilføjet over linjen i A</rdg></app> mit vruntlikheid edder mit deme rechte to vorscheidende alse wij bewysen mogen vnde na
+      deme male wij anders nicht weten id ne were also gescheen vmme des willen dat dar nene klage
+      edder vorvolginge vor vns aff gescheen is dat deme vorbenomeden anklagere rechtes edder
+      wandels gebroken hebbe so menen wij dat se mit rechte vns dar vmme nicht hebben to
+      schuldigende vnde scheten vns des to rechte ♦</p>
+            <p n="a#60" xml:space="preserve"><app><lem>Item</lem><rdg>til venstre herfor står som en note i margen <q>vnse drudde tospreke</q> i A</rdg></app> schuldegen wij se dat se vns hebben van der hant gebracht vnse stad Sleswijk de se vppe
+      louen vnde to truwer hant van vns hadden annamet vnde vns de nicht hebben wedder antwordet
+      alse se schuldich weren so menen wij dat se schuldich sint van rechtes wegene vns <app><lem>de sulue</lem><rdg><q>de sulue - antworden vnde</q> er tilføjet over linjen i A</rdg></app> vnse stad noch wedder to antworden vnde vp to richtende al den schaden <app><lem>den</lem><rdg><q>de</q>, A</rdg></app> wij dar ouer nomen hebben vnde scheten vns des to rechte edder etcetera ♦</p>
+            <p n="a#61" xml:space="preserve"><app><lem>Item</lem><rdg>til venstre herfor står som en note i margen <q>vnse verde</q> i A</rdg></app> schuldegen wij se dat se jegen vns geteisset vnde angeherdet hebben de vnkristenen <app><lem>russen</lem><rdg>herefter står overstreget <q>de se</q> i A</rdg></app> dat se vnse vyende warden scholden alse wij mit bekantnisse der suluen russen vnde erer
+      sendeboden betugen mogen <app><lem>etcetera</lem><rdg>herefter følger som en note <q>hir aff was en jnstrumentum alse ik mene</q> i A</rdg></app> ♦</p>
+            <p n="a#62" xml:space="preserve"><app><lem>Item</lem><rdg>til venstre herfor står som en note i margen <q>vnse veffte</q> i A</rdg></app> schuldegen wij se dat se vor desser veide to ener tijd qwemen <app><lem>in den <placeName>Oerssund</placeName></lem><rdg>tilføjet over linjen i A</rdg></app> dar her <persName>Dethmar van Th{ue}ne</persName> houetman aff was vnde <app><lem>vorderueden</lem><rdg>herefter står overstreget <q>vns edd</q> i A</rdg></app> vnde nemen vns vnse schepe vor <placeName>der Landeskrone</placeName> vnvntsecht vnde
+      vnvorwardt etcetera ♦</p>
+            <p n="a#63" xml:space="preserve"><app><lem>Item</lem><rdg>til venstre herfor står som en note i margen <q>vnse seste</q> i A</rdg></app> schuldigen wij se alse vmme vnsen hoff to Bergen ♦</p>
+            <p n="a#64" xml:space="preserve"><app><lem>Item</lem><rdg>til venstre herfor står som en note i margen <q>vnse seuende</q> i A</rdg></app> schuldigen wij se vmme vnse <app><lem>slote</lem><rdg>herefter står overstreget <q>Slesw</q> i A</rdg></app>
+      <placeName>Flensborch</placeName> vnde <app><lem><placeName>Nigehusz</placeName></lem><rdg>herunder står en overstreget note <q>hir na an der andern sijden vnder desseme
+            tekene</q>, hvorefter der er tegnet et H-lignende kors med to vertikale tværstreger i
+          A</rdg></app> ♦</p>
+            <p n="a#65" xml:space="preserve"><app><lem><supplied>Side 9</supplied></lem><rdg>sidetallet er angivet øverst til venstre ved romertal <q>IX</q>; det nederste afsnit på
+          side 9 er overstreget i A</rdg></app></p>
+            <p n="a#66" xml:space="preserve">Dit sint ens deles de artikle des schaden dar wij de stede sammentlike vor schuldegen
+      ♦</p>
+            <p n="a#67" xml:space="preserve"><app><lem>To deme jrsten</lem><rdg>til venstre herfor er et afsnitsmarkerende tegn med form som to sammenkædede
+          ringe</rdg></app> alse vmme den schaden den wij nemen alse wij mosten vpbreken vt vnseme legere alse wij
+        <placeName>Gottorp</placeName> bestallet hadden vnde se vnse vyende wurden de wij schatten <app><lem>vppe</lem><rdg>afsnittet ender her; det pågældende beløb mangler</rdg></app> ♦</p>
+            <p n="a#68" xml:space="preserve">Item vmme den schaden den wij nemen alse se <placeName>Fflensborch</placeName> bestallet
+      hadden <app><lem>vnde wunnen</lem><rdg>tilføjet over linjen i A</rdg></app> den wij schatten <app><lem>vppe</lem><rdg>afsnittet ender her; det pågældende beløb mangler</rdg></app> ♦</p>
+            <p n="a#69" xml:space="preserve">Item vmme den schaden de wij vnde de vnsen van en vnde van den eren genomen hebben van der
+      tijd dat se ijrst vnse vyende <app><lem>wurden</lem><rdg>herefter står overstreget <q>byn</q> i A</rdg></app> an roue an brande an dotslage <app><lem>vnde</lem><rdg>tilføjet over linjen i A</rdg></app> an beschattinge vnser vndersaten bynnen <app><lem><placeName>Dennemarken</placeName></lem><rdg>herefter står et overstreget <q>d</q> i A</rdg></app>
+      <app><lem>to den</lem><rdg>herefter er det tilsyneladende meningen, at navnene på de enkelte personer og byer skal
+          tilføjes i en senere version af denne tekst, idet der ikke er levnet plads til det på
+          dette sted i A</rdg></app> to den vnde to den steden ♦ bynnen <placeName>Sweden</placeName> to den to den
+      vnde to den steden ♦ vnde bynnen <placeName>Norwegen</placeName> to den to den vnde to
+      den steden den wij schatten <app><lem>bouen</lem><rdg>afsnittet ender her; det pågældende beløb mangler</rdg></app> ♦</p>
+            <p n="a#70" xml:space="preserve">Item vmme den schaden den wij vnde de vnsen genomen hebben vormiddest koste vnde teringe dar
+      wij vnde de vnsen vormiddest desseme krige to nodiget sint den wij <app><lem>schatten</lem><rdg>afsnittet ender her; det pågældende beløb mangler</rdg></app> ♦</p>
+            <p n="a#71" xml:space="preserve">Item vmme den schaden den de vnsen genomen hebben vnde noch dagelikes nemen vormiddest dat se
+      noch to watere noch to lande dor desses kriges <app><lem>wille</lem><rdg>herefter står overstreget <q>eee</q> i A</rdg></app> ere <app><lem>neringe</lem><rdg><q>berginge</q>, A</rdg></app> hebben mogen s{ue}eken vnde neringelosz hebben m{ue}eten sitten den wij <app><lem>schatten</lem><rdg>afsnittet ender her; det pågældende beløb mangler</rdg></app> ♦</p>
+            <p n="a#72" xml:space="preserve"><app><lem>Item</lem><rdg>til venstre herfor er et afsnitsmarkerende tegn med form som et H-lignende kors med to
+          vertikale tværstreger i A</rdg></app> alse dat affscheident was to <placeName>Horsnesse</placeName> an deme jare xiiij<hi rend="sup">c</hi> vnde xxxij dat vnse vnde vnser rike vndersaten in den steden vnde eren
+      gebeden gebruken vnde neten scholden <app><lem>older</lem><rdg>herefter står overstreget <q>vryheide</q> i A</rdg></app>
+      <app><lem>wonheide</lem><rdg>herefter står overstreget <q>vnde priuilegia vnde de stede burgere vnde jnwonere des
+            geliken in vnsen riken</q> i A</rdg></app> etcetera so schuldige wij de vorgescreuen <app><lem>stede</lem><rdg>herefter står overstreget <q>dat</q> i A</rdg></app> vmme dat vnrecht dat se an de vnsen <app><lem>jegen</lem><rdg>herefter står overstreget <q>vns</q> i A</rdg></app> vns <app><lem>vnde</lem><rdg>herefter står overstreget og derfor utydeligt <q>dat se</q> eller lignende i A</rdg></app> dat vorgescreuen affscheident began hebben vnde dagelikes noch began vormiddelst de
+      vplegginge der cijse de se hebben gemaket vnde holden . dar de vnsen ane <app><lem>beschediget</lem><rdg>herefter står overstreget <q>wurden</q> i A</rdg></app> sint vnde werden alle dage jegen de <app><lem>olden</lem><rdg>herefter står overstreget <q>wonheide rechticheide</q> i A</rdg></app>
+      <app><lem>wonheide</lem><rdg>herefter står overstreget <q>vnde privilegia</q> i A</rdg></app> vnde seggen dat se dar ane broken hebben vnde breken noch dat vorgescreuen affscheident
+      vnde wes se vns dar ane louet vnde vorbreuet hebben vnde esschen dar vor van en wes vns van
+      rechtes wegene dar vor mach van en geboren ♦</p>
+            <p n="a#73" xml:space="preserve"><app><lem><supplied>Side 10</supplied></lem><rdg>sidetallet er angivet øverst til venstre ved romertal <q>X</q>; kun afsnittet på midten
+          af side 10 begyndende med <q>Item alse dat affscheident</q> er overstreget i A</rdg></app></p>
+            <p n="a#74" xml:space="preserve">Dit sint vnse schuldinge to den van <placeName>Lubeke</placeName> bi sunder ♦</p>
+            <p n="a#75" xml:space="preserve"><app><lem>To deme jrsten</lem><rdg>til venstre herfor er et afsnitsmarkerende tegn med form som et kors</rdg></app> schuldegen wij se vmme xx<hi rend="sup">m</hi> nobelen de se vns gelouet hebben vnde
+      schuldich sint vor vnse koste vnde teringe de wi deden vmme eren willen etcetera ♦</p>
+            <p n="a#76" xml:space="preserve">Item bynnen der <app><lem>vruntliken</lem><rdg><q>vruntlike</q>, A</rdg></app> tosate dar wij mit en vnde se mit vns ane sitten scholden vnde de vnsen <app><lem>erer</lem><rdg><q>erre</q>, A</rdg></app> veilich scholden wesen so angrepen se vnse vnde vnser burgere knechte vnde wurpen se in
+      ere torne vnde nemen en ere gud sunder ginigerleige reddelike sake dar se de mit rechte vmme
+      hadden to schuldigende ♦</p>
+            <p n="a#77" xml:space="preserve">Item schuldigen wij her <persName>Hinrich Rapesuluer</persName> vnde her <persName>Dethmar
+        van Th{ue}ne</persName> vmme ene loffte de se vns deden vor g{ue}d dat wij en to borge deden
+      van twen schepen dede bleuen weren ♦</p>
+            <p n="a#78" xml:space="preserve">Item alse dat affscheident was to <placeName>Horssenesse</placeName> an deme jare xxxij dat
+      vnser rike vnde also ok der stede kopman scholde bruken gevellik in des andern lande vnde <app><lem>gebede</lem><rdg>herefter står et overstreget <q>so</q> i A</rdg></app> older priuilegien vnde rechticheide etcetera so schuldigen wij de vorscreuen stede vmme
+      dat vnrecht dat se an de vnsen began hebben verandlelst (?) ♦</p>
+            <p n="a#79" xml:space="preserve">Vnse schuldinge to den Sundeschen ♦</p>
+            <p n="a#80" xml:space="preserve">Item na deme male wij der S{ue}ndeschen erffborne here sint vnde de sammende hant ouer se <app><lem>hebben</lem><rdg>herefter står et par overstregede ulæselige bogstaver i A</rdg></app> vnde se vnse vyende alse vorgescreuen is geworden sint vnde vns vnde vnse rike vnde
+      vndersaten beschediget hebben so hebben wij to beseende effte wij gicht vurder vppe se wes
+      winnen mogen wen vppe de andern stede ♦</p>
+            <p n="a#81" xml:space="preserve">Dit sint de artikle dar ane de stede de tosate broken hebben ♦</p>
+            <p n="a#82" xml:space="preserve"><app><lem>To deme jrsten</lem><rdg>til venstre herfor er et afsnitsmarkerende tegn med form som et omvendt T; endvidere er
+          de følgende afsnit på denne side markeret med et tegn med form som et kors med et
+          cirkulært hoved. På side 16 henvises der tilbage til disse afsnit med passussen <q>Item de
+            artikle dar ane de stede de tosate broken hebben stan hir vor ger{ue}ert to deme
+            teikene</q> samt det pågældende korstegn med cirkulært hoved</rdg></app> dat se vns <app><lem>vnde vnseme rechte</lem><rdg>tilføjet over linjen i A</rdg></app> nicht hebben bi gelegen na vnser esschinge vnde tosate alse se schuldich weren
+      ♦</p>
+            <p n="a#83" xml:space="preserve">Item dat se den dach to <app><lem><placeName>Kopenhauen</placeName></lem><rdg>herefter står et overstreget <q>alse</q> i A</rdg></app> nicht jarlikes alse vnse tosate vtwiset nicht gesecht <app><lem>edder</lem><rdg>herefter står et overstreget <q>ge</q> i A</rdg></app> besant hebben ♦</p>
+            <p n="a#84" xml:space="preserve">Item dat se vnse vnde vnser burgere knechte bynnen der tosate vnde guder veilicheit vengen
+      vnde in ere torne wurpen vnde en ere gud nemen etcetera ♦</p>
+            <p n="a#85" xml:space="preserve">Item dat se de Gripeswoldeschen vmme dat se wedder God vnde recht vnde ere egene <app><lem>breue</lem><rdg>herefter står et overstreget <q>v</q> i A</rdg></app> nicht wolden vnse vyende warden vt der Hense vnde vt des kopmans rechticheide wijseden
+      ♦</p>
+            <p n="a#86" xml:space="preserve"><app><lem><supplied>Side 11</supplied></lem><rdg>sidetallet er angivet øverst til venstre ved romertal <q>XI</q></rdg></app></p>
+            <p n="a#87" xml:space="preserve">Dit sint der stede schuldinge jegen vns vnde vnse antworde dar en jegen ♦</p>
+            <p n="a#88" xml:space="preserve"><app><lem>Item</lem><rdg>tilføjet i venstre margen i A; umiddelbart efter <q>Item</q> står overstreget <q>To
+            deme jrsten</q> i A; umiddelbart over <q>Item</q> er et afsnitsmarkerende tegn med form
+          som kors</rdg></app> schuldegen se vns dat wij vnde vnse ammmetlude en vnde eren burgeren ere priuilegien
+      vnde rechticheide in vnsen <app><lem>riken</lem><rdg><q>reken</q>, A</rdg></app> de vnse eldern vor vnde wij na vorbreuet hebben wedder recht vaken gebroken hebben vnde
+      wo wol se doch vaken dat vor vns vorklaget hebben so hebben se des like wol nicht mogen
+      geneten . vnde hebben dar vnvorwynliken schaden ouer nomen den se menen dat wij en van rechtes
+      wegene schuldich sint vp to richtende ♦</p>
+            <p n="a#89" xml:space="preserve">Hir vp hebben wij so to antworden . vns is vnwitlik dat wij en edder eren burgern ginige
+      priuilegien broken hebben de wij en schuldich sint gewesen to holdende doch wan se vns <app><lem>dat</lem><rdg>tilføjet over linjen i A</rdg></app> bewijsen vnde nabringen alse en van rechtes wegene geboert vnde wij vns des mit rechte
+      nicht geweren kunnen so sint wij de gene . de willich sint vns beseggen to latende vnde dar bi
+      to donde alse vns geboert / sunder dat se schuldigen vnse ammetlude etcetera dar seggen wij so
+      to . wij stan nymande to van vnsen ammetluden dat se gimande scholen verunrechtigen an
+      priuilegien de em mit rechte boert to genetende vnde na deme male dat se dar vppe vnse
+      ammetlude vor vns nicht vorvolget hebben alse se van rechtes wegene schuldich weren edder ok
+      en bi vnsen schulden nenes rechtes gebroken hefft so menen wij dat se vns dar vor nicht hebben
+      to schuldigende vnde scheten vns des to rechte ♦</p>
+            <p n="a#90" xml:space="preserve">Item schuldegen se vns dat wij bynnen vnser tosate vnde jegen ere priuilegien <app><lem>etliken</lem><rdg>tilføjet over linjen i A</rdg></app> vnsen steden hebben priuilegien geuen dar mede se vnde ere burgere sere verkurtet vnde
+      verunrechtiget sint vnde groten schaden dar ouer nomen hebben den se menen dat wij schuldich
+      sint en vp to <app><lem>richtende</lem><rdg>umiddelbart herunder følger i A begyndelsen på et nyt afsnit, som dog er blevet streget
+          over: <q>Hir to seggen wij so</q></rdg></app> ♦</p>
+            <p n="a#91" xml:space="preserve">Item schuldegen se vns dat bynnen vnser tosate ere burgere vnde jnwonere van den vnsen <app><lem>vnde</lem><rdg>tilføjet over linjen i A</rdg></app> bynnen vnsen riken vnde ok bynnen den vryen schonschen market vnde der swornen m{ue}ete
+      swarliken vnde to velen tiden beschediget sint vnde en dat <app><lem>ere</lem><rdg>herefter står overstreget <q>ge</q> i A</rdg></app> mit welde genomen is vnde se in torne <app><lem>vnde</lem><rdg>herefter står overstreget <q>vor</q> i A</rdg></app> stocke worpen sint ♦</p>
+            <p n="a#92" xml:space="preserve"><app><lem><supplied>Side 12</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>XII</q>; mellem side 11 og 12 er
+          et beskrevet ark blevet klippet bort, hvilket imidlertid ikke har haft betydning for
+          pagineringen. Man kan forneden i venstre margen på side 12 ane enkelte bogstaver fra dette
+          nu tabte ark</rdg></app></p>
+            <p n="a#93" xml:space="preserve"><app><lem>To deme jrsten</lem><rdg>til venstre herfor er et afsnitsmarkerende tegn med form som et kors i A</rdg></app> effte vns de stede schuldigen alse vmme sake dar <app><lem>ane</lem><rdg>tilføjet over linjen i A</rdg></app> se menen dat van vnser wegene <app><lem>de</lem><rdg>tilføjet over linjen i A</rdg></app> vrede an se edder an den eren gebroken <app><lem>sij</lem><rdg>tilføjet over linjen i A</rdg></app> vnde menen edder esschen dar vmme dat man de suluen saken schuldich sij van rechtes
+      wegene vor an aff to richtende eer wen <app><lem>se</lem><rdg>herefter står overstreget <q>vns</q> i A</rdg></app> plichtich sint vns vppe ginige to sprake to antworden ♦</p>
+            <p n="a#94" xml:space="preserve">Hir vp mogen wij alsus antworden . wij weren vns edder vppe de vnsen nicht schuldich an
+      ginigerleige saken dar ane van vnser <app><lem>wegene</lem><rdg><q/></rdg></app> edder van den vnsen vppe see na deme rechte ginich vrede vorbroken sij / vnde menen ok
+      dat se nenen vredebreke des wij billike an deme rechte entgelden scholen vppe vns edder de
+      vnsen nabringende werden alse en dat van rechtes wegene na to bringende geboert wente wij
+      nymande van den vnsen giniger sake to stan de man na deme affscheide dat to
+        <placeName>Horssnesse</placeName> dedinget wart van rechtes wegene alse wij menen vor
+      vredebreke schuldich sij to deilende na deme male vns unwittelik is dat se edder gimand van
+      den eren . sodane sake edder tosprake vor vns mit rechte gevurdert vnde vorvolget <app><lem>hefft edder</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>hebben hefft</q></rdg></app> hebben dem edder den wij ouer ere weddersaken / rechtes geweigert hebben vnde hir vmme
+      na <app><lem>deme</lem><rdg><q>den</q>, A</rdg></app> male de vorgescreuen stede van anbeginne desses kriges jn vnser klage stan hebben vnde
+      stan noch hute des <app><lem>dages</lem><rdg>herefter står et overstreget <q>vnde</q> i A</rdg></app> dar wij vakene vmme mit en to dage sint gewesen / vnde noch to desser jegenwordigen
+      stede vmme to dage komen sint alse vmme den broke enes ewigen <app><lem>vnvorbrekeliken</lem><rdg>tilføjet over linjen i A</rdg></app> vredes vorbundes vnde tosate dar ane se sik to vns to ewigen tiden bij eren truwen
+      gelouet vnde vnder eren hangenden jngesegelen vorbreuet hebben . vnde nicht allene vmme dessen
+      vorgescreuen broke sunder <app><lem>ok</lem><rdg>herefter står overstreget <q>vmme</q> i A</rdg></app> vmme den broke desses vorbenomeden vpslages edder vredes den <app><lem>se</lem><rdg>herefter står overstreget <q>je</q> i A</rdg></app> an vns vnde an de vnsen began <app><lem>hebben</lem><rdg>herefter står overstreget <q>vnde noch dagelikes began</q> i A</rdg></app> van anbeginne des suluen vpslages alse de vnsen allerirst to en segelden vormiddelst de
+      vplegginge <app><lem>erer</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>der</q></rdg></app> vnplichtliken cijse . alse wij dat in vnser irsten tosprake hebben vorluden laten .
+      vnde na deme male wij vnde <app><lem>de</lem><rdg><q>de</q> mangler i A</rdg></app> vnsen de genen sint dar de broke desses vorgescreuen vpslages edder vredes irst ane
+      vorbroken <app><lem>is</lem><rdg>tilføjet over linjen i A</rdg></app> van den steden <app><lem>vorgescreuen</lem><rdg>herefter står et overstreget <q>vnde</q> i A</rdg></app></p>
+            <p n="a#95" xml:space="preserve"><app><lem><supplied>Side 13</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>XIII</q></rdg></app></p>
+            <p n="a#96" xml:space="preserve"><app><lem>alse</lem><rdg>her foran står et overstreget <q>wij</q> i A</rdg></app> wij dat in vnser jrsten tosprake vppe se vurderen vnde vorgescreuen is <app><lem>so</lem><rdg>herefter står overstreget <q>men</q> i A</rdg></app> menen wij vnde seggen dat man schuldich sij van rechtes wegene <app><lem>desse</lem><rdg>herefter står overstreget <q>vorgescreuen</q> i A</rdg></app>
+      <app><lem>vnde andere vorgescreuen</lem><rdg>tilføjet over linjen i A</rdg></app> vnse sake vnde <app><lem>tosprake</lem><rdg>herefter står overstreget <q>aff to richtende / eer w</q> i A</rdg></app> dar vpp wij dessen dach beleuet vnde <app><lem>tolaten</lem><rdg>herefter står overstreget <q>hebben</q> i A</rdg></app> vnde socht hebben aff to richtende / eer <app><lem>wen</lem><rdg>herefter står overstreget <q>wij schuldich sint en</q> i A</rdg></app> ginige andere sake / effte se welke to vns hebben . wente se beide vor vnde na sik erst
+      jegen vns vorbroken hebben vnde <app><lem>irst</lem><rdg>tilføjet over linjen i A</rdg></app> in vnser anklage stan hebben vnde stan / vnde willen dit mit en setten in dat recht
+      ♦</p>
+            <p n="a#97" xml:space="preserve">Item effte se vns schuldigen vmme den tollen to <placeName>deme Kroke</placeName> bynnen
+      desser tosate etcetera so mogen wij dar alsus to seggen <app><lem>dat</lem><rdg>herefter står et overstreget <q>d</q> i A</rdg></app> wij dessen vorgescreuen vpslach tolaten hebben in sodaner mate dat giwelike sijde schal
+      segelen varen vnde komen alse dat de vorgescreuen dedinge vtwiset doch giwelikem dele an
+      sineme rechte vnvorsumet / . vnde na deme male wij mit deme suluen rechte dar andere koninge <app><lem>vnde fursten</lem><rdg>tilføjet over linjen i A</rdg></app> in eren riken / costumen vnde plichte mede setten vnde maken to bestande erer rike <app><lem>edder lande</lem><rdg>tilføjet over linjen i A</rdg></app> ok dat sulue vnde des <app><lem>gelikes</lem><rdg>herefter står et overstreget <q>alse</q> i A</rdg></app> mogen don so menen wij wes dar ane scheen <app><lem>is</lem><rdg>tilføjet over linjen i A; herunder står et overstreget <q>ouch</q></rdg></app>
+      <app><lem>dat</lem><rdg>herefter står et overstreget <q>wij</q> i A</rdg></app> de vorgescreuen vpslach van vnser wegene dar mede nicht sij gebroken . sunder dat id
+      sij gheschen vnder der beholdelikheit vnses rechtes vorgescreuen ♦</p>
+            <p n="a#98" xml:space="preserve"><app><lem>Item</lem><rdg>i margen til venstre herfor står <q>nota</q></rdg></app> schud dat to desseme dage dat vnse wedderpartyge scheideslude sik nenes anderen dages
+      alse dat recht aff to seggende mechtigen edder vorwilkoren willen . vnde se to scheideslude
+      koren hebben edder kesende warden vnse vigende . so mogen wij vppe see nabringen dat <app><lem>se</lem><rdg>tilføjet over linjen i A</rdg></app> desseme dage nicht hebben vol dan alse se louet hebben / wente wij mogen seggen vnde
+      bewijsen dat se sodane scheideslude koren hebben de vnse richtere mit rechte nicht mogen wesen
+      alse de genen de sik <app><lem>mit</lem><rdg>herefter står et overstreget, ulæseligt bogstav i A</rdg></app> en jegen vns beveidet hebben ♦</p>
+            <p n="a#99" xml:space="preserve"><app><lem><supplied>Side 14</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>XIIII</q></rdg></app></p>
+            <p n="a#100" xml:space="preserve">Item schuldegen se vns dat ere schepe vnde burgere vnde ere gud bynnen der to sate in vnsen
+      riken bekummert vnde rosteret sint gewesen dar se groten schaden ouer nomen hebben den se
+      menen dat wij schuldich sint en vp to richtende ♦</p>
+            <p n="a#101" xml:space="preserve">Item schuldegen <app><lem>se</lem><rdg>herefter står overstreget <q>vns</q> i A</rdg></app>
+      <persName>Erik Jenssen van Awelszberg</persName> vmme de ossen de he nam in sinen egenen
+      geleide deme burgere van <placeName>Lubeke</placeName> dar hir vor aff geruert is vnde vort an
+      vor den schaden den he dar ouer nam ♦</p>
+            <p n="a#102" xml:space="preserve">Item schuldegen se her <persName>Axel Peterssen</persName> alse vmme de schepe de he nam dede
+      van <placeName>Bergen</placeName> qwemen etcetera ♦</p>
+            <p n="a#103" xml:space="preserve">To dessen vorgescreuen vijff artiklen vnde vurder to allen artiklen dede scheen sint bynnen
+      der to saten vnde vor der veide antworden wij also . na den male dat se wisten vnde hadden
+      enen ben{ue}emeden vtgestickeden <app><lem>veiligen</lem><rdg>herefter står overstreget <q>tid</q> i A</rdg></app> dach vnde stede dar se na lude vnser to sate ere vnrecht effte en wes van vnser side
+      gescheen were edder <app><lem>schege</lem><rdg>herefter står overstreget <q>klagen alle</q> i A</rdg></app> jarlikes klagen vnde vorrichtinge dar aff vntfangen scholden vnde den dach vnde stede
+      also nicht besocht vnde ere klage vnde recht dar nicht voruolget hebben alse se schuldich
+      weren vnde sint so menen wij dat se vns dar <app><lem>aff</lem><rdg>herefter står overstreget <q>mit</q> i A</rdg></app> van rechtes wegene nene schuldinge hebben to to leggende vnde willen vns des an rechte
+      beseggen laten doch alse en wol witlik is so hebben <app><lem>wij</lem><rdg>herefter står overstreget <q>vns to ande</q> i A</rdg></app> wan se to andern tiden vnde steden <app><lem>sik beklageden</lem><rdg>mangler i A</rdg></app> dar wij na vnser to sate en <app><lem>nicht</lem><rdg>tilføjet over linjen i A</rdg></app> plichtich weren to antwordende vns alle wege so bewijset an eren saken vnde klagen alse
+      wij vterlikest mochten vnde hebben se dar ane gevueget mit alleme vlite so dat wi menen dat se
+      vns billike dar ane mit rechte nicht to beklagende hebben . alse to deme jrsten an des
+      b{ue}rgers sake van <placeName>Lubeke</placeName> mit den ossen liker wijs alse hir vor dar
+      aff ger{ue}ert is ♦</p>
+            <p n="a#104" xml:space="preserve">Item mit der besettinge <app><lem>erer</lem><rdg><q>erre</q>, A</rdg></app> schepe vnde des vor bodes des se sich beklagen dat doch nicht en schach en to vnwillen
+      edder to wreuele s{uo}nder dor anvalles <app><lem>wille</lem><rdg>herefter står overstreget <q>der wed</q> i A</rdg></app> vnser twedracht mit den <app><lem>Holsten</lem><rdg>umiddelbart herunder begynder i A et nyt afsnit <q>Item schuldegen se vns</q>, som
+          imidlertid er blevet streget over</rdg></app> ♦</p>
+            <p n="a#105" xml:space="preserve"><app><lem><supplied>Side 15</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>XV</q></rdg></app></p>
+            <p n="a#106" xml:space="preserve"><app><lem>Item</lem><rdg>herudfor står i venstre margen <q>nota</q> i A</rdg></app> schuldegen se vns dat ere kopman <app><lem>to</lem><rdg>tilføjet over linjen i A; herunder står et overstreget <q>van</q></rdg></app>
+      <placeName>Bergen</placeName> bouen dat wij em gelouet vnde vorsegelt scholden hebben dat he <app><lem>vor</lem><rdg>tilføjet over linjen i A</rdg></app>
+      <app><lem>vns</lem><rdg><q>vnser</q>, A</rdg></app> vnde vor <app><lem>den</lem><rdg><q>de</q>, A</rdg></app> vnsen velich scholde wesen . en halff jar na der tijd dat wij eme wurden <app><lem>to</lem><rdg>tilføjet over linjen i A; herunder står et overstreget, ulæseligt ord i A</rdg></app> schriuende bynnen sodaner veilicheid vnde vnvorwart beschediget wart welken schaden <app><lem>se</lem><rdg>herefter står to overstregede, ulæselige ord i A</rdg></app> menen dat wij em schuldich sint van rechtes wegene vp to richtende etcetera ♦</p>
+            <p n="a#107" xml:space="preserve">Hir to mogen wij so <app><lem>antworden</lem><rdg>afsnittet ender således; herefter er der en tom plads i A, hvor der kunne have stået,
+          hvorledes kong Eriks folk skulle have svaret</rdg></app> . ♦</p>
+            <p n="a#108" xml:space="preserve">Item sch{ue}ldegen se vns dat wij wedder alle rechte vnde jegen ere priuilegien vpgelecht
+      hebben to <placeName>deme Kroke</placeName> enen vnplichtigen nygen tollen vppe enen vrigen
+      openen strom den mit rechte nymand macht hefft to beswarende edder to vntfrigende mit
+      ginigerleige tollen edder vngelde dar se menen dat se vnde ere kopman sere ane verunrechtiget
+      vnde vorweldiget werden vnde menen dar vmme dat wij schuldich sint den aff to leggende
+      etcetera ♦</p>
+            <p n="a#109" xml:space="preserve">Hir to antworde wij also . wes andere koninge edder mynre <app><lem>fursten</lem><rdg>herefter står overstreget <q>edder ok menhede</q> i A</rdg></app> vormogen dor eres erer rike <app><lem>lande</lem><rdg>herefter står overstreget <q>edder stede edder gebiede</q> i A</rdg></app> vromen orbars edder bestandes wille bynnen eren gebieden vp to settende dat vormoge wij
+      io so wol binnen vnsen riken vnde gebieden vnde menen dar vmme dat <app><lem>se</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>van</q></rdg></app> vns dat io so vnbillike <app><lem>hebben</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>hefft</q></rdg></app> to werende edder to vorkerende alse se dat vorkeren edder weren anderen koningen heren
+      vnde fursten in eren <app><lem>gebieden</lem><rdg>herefter står overstreget <q>vnde alse wi en weren to settende ere cijse tollen vnde
+            andere vngelt</q> i A</rdg></app> dat se vpleggen <app><lem>vnde vpgelecht hebben</lem><rdg>tilføjet over linjen i A</rdg></app> vppe allesweme . doch wan se dat vormogen kunnen mit andern koningen heren vnde fursten
+      dat se ere tollen vnde cost{ue}men in eren landen <app><lem>affleggen</lem><rdg>overstreget i A; herefter står endvidere overstreget <q>vnde se suluen in eren steden
+            ere tolle cijse vnde andere gemene vngelt affleggen</q></rdg></app> so willen wij vns ok gerne also dar ane bewijsen dat de klage nicht allene vp vns schal
+      bestande bliuen ♦</p>
+            <p n="a#110" xml:space="preserve"><app><lem><supplied>Side 16</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>XVI</q></rdg></app></p>
+            <p n="a#111" xml:space="preserve">Effte se denne seggen den tollen den wij hebben vpgelecht to <placeName>deme
+        Kroke</placeName> den hebben wij vpgelecht jegen ere priuilegien <app><lem>de</lem><rdg>herefter står overstreget <q>wij vnde</q> i A</rdg></app> vnse <app><lem>elderen</lem><rdg><q>eldere</q>, A</rdg></app> vor vnde wij na <app><lem>en</lem><rdg>tilføjet over linjen i A</rdg></app> vorsegelt vnde vorbreuet hebben vnde menen dar vmme dat wij mit nynerleige rechte edder
+      hulperede den tollen dar vpleggen mogen s{uo}nder schuldich sint den wedder aff to leggende
+      etcetera ♦</p>
+            <p n="a#112" xml:space="preserve">Hir to mogen wij so antworden de priuilegien de se erworuen by vnses ouergrotevaders koning
+      Woldemars tiden . wo en de vorsegelt vnde geuen <app><lem>worden</lem><rdg>herefter står overstreget <q>dat is noch wol bewijslik</q></rdg></app> vnde wo wij en ok van rechtes wegene de schuldich sint gewesen to holdende dat steit
+      noch wol to erkennende doch wo deme sij / hebben se van vnsen <app><lem>eldern</lem><rdg>tilføjet over linjen i A</rdg></app> edder van <app><lem>vns</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>vnsen eldern</q></rdg></app> ginige priuilegien edder rechticheide gehad so menen wij doch na deme male dat se vns
+      nicht geholden s{uo}nder in velen stucken gebroken hebben de to sate de se vns bi eren
+      tr{ue}wen gelouet hadden ewichlike to holden alse wij dat bewijsen mogen vnde dar ouer vnse
+      vyende worden sint vnde <app><lem>wedder God vnde recht</lem><rdg>tilføjet over linjen i A</rdg></app> mit roue vnde brande vns vnde vnse rike socht vnde ouervallen hebben dat <app><lem>se</lem><rdg>tilføjet over linjen i A; herefter står overstreget <q>wij nicht schuldich
+          sint</q></rdg></app> na <app><lem>vnseme</lem><rdg>herefter står overstreget <q>edder na ginigeme rechte</q> i A</rdg></app> vnde na alleme rechte . sodane priuilegien vnde rechticheide de <app><lem>en</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>se</q></rdg></app> edder van vnsen eldern edder van vns edder van gimand <app><lem>anders</lem><rdg>herefter står overstreget <q>erworuen hebben</q> i A</rdg></app> vorlenet edder geuen sint gewesen <app><lem>vorbroken</lem><rdg>herefter står overstreget <q>hebben vnde v</q> i A</rdg></app> vnde nummer dar vp to sakende hebben vnde scheten vns des to rechte . etcetera
+      ♦</p>
+            <p n="a#113" xml:space="preserve"><app><lem>Item</lem><rdg><q>Item - teikene</q>, dette afsnit er i A sat i en rød parentes</rdg></app> de artikle dar ane de stede de tosate broken hebben stan hir vor ger{uo}ert to <app><lem>deme teikene</lem><rdg>det pågældende tegn er et kors på en cirkel; der henvises her til afsnittet om
+          hansestædernes aftalebrud på side 10</rdg></app> ♦</p>
+            <p n="a#114" xml:space="preserve">Item effte se denne seggen alse van der andern Hensestede wegene dat en vnbillik dünket dat
+      de andern Hensestede des vngelden scholden dar wij allene <app><lem>de</lem><rdg>tilføjet over linjen i A</rdg></app> vire vmme schuldigen ♦</p>
+            <p n="a#115" xml:space="preserve">Hir to mogen wij also antworden dat de suluen vire stede vmme des gemenen kopmans wille van
+      der Hense vnse vyende worden sint alse dat bewijslik is dat se de ganssen Hense gerne mit vns
+      to <app><lem>openen</lem><rdg>tilføjet over linjen i A</rdg></app> krige brengen wolden vnde alse dat ok openbar is / wes desse vorgescreuen vir stede don
+      vnde laten van der Hense wegene dat des de andern volgen m{ue}eten alse doch de Sundeschen
+      schriuen dat de gemenen Hensestede <app><lem>mit vnd an</lem><rdg>tilføjet over linjen i A</rdg></app>
+      <app><lem>dessen</lem><rdg>herefter står overstreget <q>krig hebben</q> i A</rdg></app> krige stan so is ok mogelik wes desse vire hir ane vorlesen dat des de anderen mede
+      vntgelden ♦</p>
+            <p n="a#116" xml:space="preserve"><app><lem><supplied>Side 17</supplied></lem><rdg>sidetallet er angivet øverst til venstre ved romertal <q>XVII</q>; hele det nederste
+          afsnit på side 17 er overstreget</rdg></app></p>
+            <p n="a#117" xml:space="preserve">Dit is ene antworde dar mede wij alle <app><lem>tosprake</lem><rdg>herefter står overstreget <q>der stede</q> i A</rdg></app> dar de stede vns mede schuldigen mogen van <app><lem>saken</lem><rdg>herefter står overstreget <q>de vor</q> i A</rdg></app> dar vmme se vnse vyende worden sint / mede dempen vnde losen mogen ♦</p>
+            <p n="a#118" xml:space="preserve">Na deme male dat de <app><lem>stede</lem><rdg>herefter står overstreget <q>hebben</q> i A</rdg></app> hadden vnde wisten ene belegene <app><lem>ben{ue}emede</lem><rdg>herefter står overstreget <q>vnde</q> i A</rdg></app> veilige stede vnde dach dar se alle jare ere vnrecht effte en van vnser side lichte wes
+      gescheen were klagen vnde ere recht sueken scholden alse wij bewijsen mogen . vnde se nicht
+      bewijsen kunnen dat se dat also geholden vnde gedan hebben sunder hebben affgeslagen vnde
+      vorsmat lijk vnde recht vns to donde vnde van vns to nemende alse wij bewijsen mogen dat wij
+      en beide vor vnde ok bynnen deme krige vaken hebben geboden vnde beden laten vnde hebben sich
+      suluen mit vnrechte an vns gerichtet so menen wij dat se an allen den saken dar vmme se vnse
+      vyende worden sint van ereme rechte effte se lichte noch wes to vns edder to den vnsen hadden
+      vorvallen sint vnde wij van rechtes <app><lem>wegene</lem><rdg>herefter står overstreget <q>effte</q> i A</rdg></app> nicht schuldich sint en dar v{ue}rder vp to antworden vnde scheten vns des to rechte
+      ♦</p>
+            <p n="a#119" xml:space="preserve">Effte dat nv gevalt dat wij vns mit den <app><lem>steden</lem><rdg>herefter står overstreget <q>nicht</q> i A</rdg></app> edder mit deme rechte edder mit vr{uo}ntlikheid to eneme ende nicht vergan kunnen vnde
+      se vns ansynnende werden dat wij mit en maken enen vpslach to sekern jaren etcetera vnde se
+      hir en bynnen m{ue}chten varen vnde komen vppe ere olden priuilegien so steit vns ouer to
+      wegende wo wij en ene limpelike antworde hir vppe geuen de so reddelike l{ue}de wen man se
+      hoert alse se sich lichte dunken laten dat id reddelike ludet dat se vns hir vpp ansynnende
+      sint . wente scholen se de anderen Hensestede <app><lem>mit</lem><rdg>herefter står overstreget <q>se</q> i A</rdg></app> en iegen vns to krige reissen so schinet dit de artikel wesen dar se dat mede van stede
+      mogen bringen vnde hir vmme wan se vns angesynnende werden dat <app><lem>wij</lem><rdg>herefter står overstreget <q>ene</q> i A</rdg></app> den vpslach alse vorschreuen is mit en maken willen so mogen wij en so antworden vppe
+      dat de sake desses gemenen swaren vorderues bi vns nicht gev{ue}nden . warde vnde wij der
+      gemenen cristenheid alse er des nv behoff is vromen don vnde willen bewisen mogen so willen wy
+      gerne vnse saken de wij mit en vnde se mit vns vtstande hebben setten to scheidesheren de wij
+      an beiden siden dar to kesende werden de vns edder mit deme</p>
+            <p n="a#120" xml:space="preserve"><app><lem><supplied>Side 18</supplied></lem><rdg>sidetallet er angivet øverst til venstre ved romertal <q>XVIII</q>; hele side 18 er
+          overstreget i A</rdg></app></p>
+            <p n="a#121" xml:space="preserve">rechte edder mit vrundschap na vnser beider dele <app><lem>wille</lem><rdg>herefter står overstreget <q>bynnen</q> i A</rdg></app> vorscheiden vnde willen dar vp mit <app><lem>en</lem><rdg>tilføjet over linjen i A</rdg></app> van stunden angan ene stede vaste s{ue}ene doch so dat en giwelik deel des <app><lem>anders</lem><rdg>herefter står overstreget <q>gebei</q> i A</rdg></app> lande edder gebede nicht s{ue}cke so lange dat wij alse vorgescreuen is volkomelike
+      sint vorscheiden . wente enen vpslach to makende vpp sekere jare dat is vns nicht so beqweme
+      na deme male dat <app><lem>wij</lem><rdg>herefter står overstreget <q>vnde</q> i A</rdg></app> mit den vnsen vns nv to krige vnde to deme alse vns dar to behoff is gichte swar
+      gesatet vnde <app><lem>gerichtet</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>bereidet</q></rdg></app> hebben dar wij bynnen der tijd des vpslages sachte muchten wedder vt komen dat vns
+      denne hir na effte id wedder to krige qweme to groten schaden muchte komen alse en giwelik
+      mach erkennen doch <app><lem>effte</lem><rdg><q>effte - willen angan</q> er tilføjet som note i venstre margen</rdg></app> se io nene stede s{ue}ene mit vns willen angan vppe dat man denne nicht vppe vns to
+      seggende hebbe dat wij meer anseen vnde wegen vnsen egenen wen den gemenen vromen vnde <app><lem>schaden</lem><rdg>herefter står overstreget <q>vnde se nene stede stede s{ue}ene mit vns willen
+          angan</q></rdg></app> . so wille <app><lem>wij</lem><rdg>herefter står overstreget <q>noch</q> i A</rdg></app> den vpslach nicht affseggen sunder willen <app><lem>den</lem><rdg>herefter står overstreget <q>gans</q> i A</rdg></app> noch to laten doch so dat de ene sijde de andere nicht sueke alse vorschreuen is .
+      edder ok <app><lem>dat</lem><rdg>herefter står overstreget <q>se sich</q> i A</rdg></app> se <app><lem>sich</lem><rdg>herefter står overstreget <q>se</q> i A</rdg></app> vnderlanges s{uo}eken <app><lem>vppe</lem><rdg>herefter står overstreget <q>gnade</q> i A</rdg></app> gnade vnde tolatinge alse wij gunnet hebben edder gunnen <app><lem>vnsen vr{ue}nden</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>de genen</q></rdg></app> de vnse rike bynnen desseme krige socht vnde ere henteringe dar hadt hebben <app><lem>doch</lem><rdg><q>doch - velich si</q> er tilføjet i en note i venstre margen i A</rdg></app> so dat giwelik side der <app><lem>andern</lem><rdg>herefter står tre overstregede, ulæselige ord i A</rdg></app> liues vnde g{ue}des velich si wente vppe ginigerleige priuilegien se varen vnde komen
+      to latende vor der tijd dat wij dar ouer mit en vorscheiden <app><lem>sint</lem><rdg>tilføjet over linjen i A; herunder står et overstreget <q>sint</q></rdg></app> dat steit vns nicht to donde an ginigerleige <app><lem>wijs</lem><rdg>herefter står overstreget <q>s{ue}nder groten vorvang vnses rechten vnde der vryheid
+            vnser krone</q></rdg></app> alse dat to erkennende steit an velen st{ue}cken vnde bijsunder dar ane wente wij menen
+      dat se de priuilegie de se in vnsen riken hadt hebben na deme rechte wedder vns vorbroken
+      hebben vnde holden dat vor een der swarsten articulen de de twisschen vns vnde <app><lem>en</lem><rdg><q>se</q>, A</rdg></app> hangen ♦</p>
+            <p n="a#122" xml:space="preserve">Item vppe dat vns de stede lichte schuldigende werden vmme stucke de de scheen mogen wesen
+      bynnen desseme vpslage etcetera dar to moge wij so antworden hebben de vnsen gichte swar began <app><lem>dar</lem><rdg>herover står et overstreget <q>dar</q> i A</rdg></app> de stede menen dat van vnser wegene <app><lem>desse</lem><rdg>herefter står overstreget <q>tos</q> i A</rdg></app> vpslach mede schal gebreken wesen dar wij vns doch nicht an schuldich weren so vorste
+      wij vns dat lichte etlike dat mogen gedan hebben <app><lem>vppe</lem><rdg>herefter står overstreget <q>dat lateste afscheident</q> i A</rdg></app> de vorklaringe <app><lem>de</lem><rdg>tilføjet over linjen i A</rdg></app> wij deden to <placeName>Horsnesse</placeName> vppe dat affscheident dat vnse reden mit
+      den steden dar suluest gemaket hadden dar wij vns also ane vorwarden vnde spreken dar <app><lem>ouer lut</lem><rdg>tilføjet over linjen i A; herunder står et overstreget <q>openbar</q></rdg></app>
+      <app><lem>vor</lem><rdg>herefter står et overstreget, ulæseligt ord i A</rdg></app> openbare schriuen vnde tuge weret so <app><lem>dat</lem><rdg>herefter står overstreget <q>se</q> i A</rdg></app> vns de stede nicht holden wes dar sloten was so scholden se weten dat wij wolden
+      vnvorbijnden wesen en gichteswat to holdende vnde alle deme dat dar dedinget was ♦</p>
+            <p n="a#123" xml:space="preserve"><app><lem><supplied>Side 19</supplied></lem><rdg>sidetallet er angivet øverst til venstre ved romertal <q>XIX</q></rdg></app></p>
+            <p n="a#124" xml:space="preserve">Dit wert vnse vorhandelinge mit den Holsten ♦</p>
+            <p n="a#125" xml:space="preserve">Na deme male dat wij de Holsten mede to dage stedet hebben so werden wij mit en to worden
+      komende . js id denne so dat wij also anheuen vnde laten se bidden dat se noch <app><lem>vol</lem><rdg><q>wol</q>, A</rdg></app>don dor des gemenen besten wille der hilgen cristenheid vnde maniges vnschuldigen
+      menschen wille vnde vorlaten vns vnde sich suluen vngemakes . vnde geuen vns <app><lem>ouer</lem><rdg>tilføjet over linjen i A</rdg></app> vnse slot <placeName>Gottorp</placeName> mit andern <app><lem>vnsen</lem><rdg>tilføjet over linjen i A</rdg></app> steden vnde <app><lem>sloten</lem><rdg>herefter står overstreget <q>de se</q> i A</rdg></app> in <placeName>S{ue}nder J{ue}tland</placeName> de se vns mit vnrechte vor vntholden
+      alse de Romesche koning vns <app><lem>dat</lem><rdg>herefter står overstreget <q>hefft to vnde en</q> i A</rdg></app> mit deme rechte to vnde en affgewijset hefft ♦</p>
+            <p n="a#126" xml:space="preserve">Hir to werden se lichte so antworden . se <app><lem>menen</lem><rdg>herefter står et overstreget, ulæseligt ord i A</rdg></app> dat vns sodane recht nicht si to edder en affgewijset des se mit rechte schuldich sint
+      to vntgeldende edder de vorbenomeden slote vnde stede vns <app><lem>dar vp</lem><rdg>tilføjet over linjen i A</rdg></app> ouer to geuende vnde willen dat <app><lem>mit vns</lem><rdg>tilføjet over linjen i A</rdg></app> setten alse se sich vortides ok dar to erboden hebben to erkenninge liker scheideslude
+      de wij an beiden siden dar to kesende werden ♦</p>
+            <p n="a#127" xml:space="preserve">Hir to mogen wij so antworden wij hebben de sake eens mit en gesat in dat recht to erkenninge
+      des Romeschen koninges vnde hebben vns mit en belouet to eme alse to eneme ouersten richtere
+      wij bi vnsen koningliker warheit vnde se bij eren furstliken truwen . wes vns de vorbenomede
+      Romesche <app><lem>koning</lem><rdg>tilføjet over linjen i A</rdg></app> vor recht <app><lem>w{uo}rde</lem><rdg>herefter står overstreget <q>affsegeg</q> i A</rdg></app> aff edder to seggende <app><lem>in der sake</lem><rdg>tilføjet over linjen i A</rdg></app> dat wij vns dar ane scholde gen{ue}egen laten an beiden sijden vnde dat vnvorbrekelike
+      s{ue}nder alle wedder rede vnde vptoge holden alse dat bewijslik is . vnde alse wij nv
+      bewijsen mogen dat de vorgescreuen <app><lem>sake</lem><rdg>tilføjet over linjen i A</rdg></app> vns is to vnde en affgedeilet . so is pr{ue}euende dat vnser nene van beiden delen mit
+      giniger reddelikheit macht hefft se vurder to tende to gimandes erkenninge vmme twigerleige
+      sake wille . ♦ De erste is vmme vnser egenen beloffte wille <app><lem>alse</lem><rdg>herefter står overstreget <q>vorgescreuen</q> i A</rdg></app> vorgeruert is wente wij sunder straffinge vnser koningliken warheid vnde de Holsten <app><lem>erer</lem><rdg><q>erre</q>, A</rdg></app> furstliken truwen nene wedderrede edder vptoge dar an hebben mogen ♦ De andere
+      sake is . <app><lem>wente</lem><rdg>herefter står overstreget <q>se sint</q> i A</rdg></app> sodane scheideslude edder richtere de mit rechte edder mit reddelikheid de <app><lem>vorgescreuen</lem><rdg>herefter står overstreget <q>sake</q> i A</rdg></app> affgerichtede sake erkennen muchten de stan nicht to bekomende / ok vmme twiger leige
+      sake wille ♦ De erste is wente nenes richters affgesprokene ordel hefft gimand <app><lem>to</lem><rdg>herefter står overstreget <q>straffende</q> i A</rdg></app> erkennende edder</p>
+            <p n="a#128" xml:space="preserve"><app><lem><supplied>Side 20</supplied></lem><rdg>sidetallet er angivet øverst til venstre ved romertal <q>XX</q></rdg></app></p>
+            <p n="a#129" xml:space="preserve"><app><lem>nedder</lem><rdg>foran <q>nedder</q> står et overstreget <q>to</q> i A</rdg></app> to slande wen sin hogere richter <app><lem>dar</lem><rdg><q>dar - is</q> er tilføjet over linjen i A</rdg></app> he vnder schicket is in der suluen achte vnde alse nv desse vorgescreuen sake gansse
+      werltlik is vnde in der suluen achte de Romesche koning nenen hogeren richter bouen sich hefft
+      wente to em <app><lem>sich</lem><rdg>herefter står overstreget <q>leng</q> i A</rdg></app> endet de leste vtgank alles werltliken rechtes <app><lem>so</lem><rdg>herefter står overstreget <q>hefft mit</q> i A</rdg></app> is ok nymand to welkes erkenninge man desse vorgescreuen sake mit rechte edder mit <app><lem>reddelikheit</lem><rdg>herefter står overstreget <q>setten moge</q> i A</rdg></app> sunder merkelike misbedinge der Romeschen <app><lem>koningliken</lem><rdg>herefter står overstreget <q>werdicheid</q> i A</rdg></app> werdicheid setten moge ♦ De andere sake is wente al were dat so dat man des
+      Romeschen keisers edder koninges affgesprokene ordel an werltliken saken schelden muchte so
+      m{uo}chte man dat doch mit rechte to nemande schelden wen <app><lem>to</lem><rdg>herefter står overstreget <q>meme</q> i A</rdg></app> deme negesten anstanden gemenen concilium der hilgen kerke <app><lem>wente</lem><rdg><q>wente - endet</q> er tilføjet som en note i venstre margen</rdg></app> dar alle recht van rechtes wegene sich endet welke scheldinge doch scheen m{uo}ste
+      binnen x dagen na <app><lem>deme</lem><rdg>herefter står overstreget <q>ordel</q> i A </rdg></app> alse dat ordel dat man schelden wolde affgesproken were dat doch de Holsten nicht
+      bewijsen kunnen dat se <app><lem>edder</lem><rdg>herefter står et overstreget, ulæseligt ord i A</rdg></app> de eren also gedan hebben vnde dat se noch bewijsen m{ue}chten dat se dat gedan hadden
+      so were dat doch machtelosz . wente wan se sich dar to beropen hadden dat hadden <app><lem>se</lem><rdg>tilføjet over linjen i A</rdg></app> gedan alse to eneme hogeren gerichte . n{ue} mogen wij bewijsen mit vnser beider
+      beloffte vnde wilkoer dat wij vnse vorgescreuen sake gesatt hebben to deme Romeschen koninge
+      alse <app><lem>to</lem><rdg>herefter står overstreget <q>eneme</q> i A</rdg></app> eneme ouersten richtere dar mede vtgesloten sint beide de pawes vnde dat conicilium /
+      wente bouen deme ouersten nemand <app><lem>hoger</lem><rdg>herefter står overstreget <q>we</q> i A</rdg></app> kan wesen vnde vmme <app><lem>desser</lem><rdg>herefter står overstreget <q>twiger</q> i A</rdg></app> vorbenomeden saken wille <app><lem>so</lem><rdg>herefter står overstreget <q>steit vns bij desseme</q> (rettet over linjen til
+            <q>desser</q>) <q>vorgescreuen sake</q> i A</rdg></app> ansynnen vns de Holsten vnbillike dat wij to gimandes <app><lem>erkenninge</lem><rdg>herefter står overstreget <q>w</q> i A</rdg></app> vnse gewunnene recht vurder setten scholden sunder wij begeren vnde bidden alse vor
+      vnde ermanen se bi eren furstliken truwen dat se vns holden dat se vns gelouet vnde vorbreuet
+      vnde vorborget hebben vnde dat vnser beider wilkorde richter vns hefft to gewiset vnde
+      gev{ue}nden wente se mit rechte dar nicht hebben wedder to sprekende vnde scheten vns des to
+      vnser beider besegelden breuen vnde beloffte ♦</p>
+            <p n="a#130" xml:space="preserve"><app><lem><supplied>Side 21</supplied></lem><rdg>sidetallet er angivet øverst midtfor ved romertal <q>XXI</q></rdg></app></p>
+            <p n="a#131" xml:space="preserve">Item effte vns denne de Holsten vor leggen dessen wech vnde bidden dat wij se begnaden willen
+      mit Sunderj{ue}tland to desser twiger bruedere line vnde belenent se dar mede so lange vnde
+      nicht <app><lem>lenger</lem><rdg>herefter står overstreget <q>vnde geue</q> i A</rdg></app> se willen vns <app><lem>dar</lem><rdg><q>dar - vnde</q> er tilføjet som note i venstre margen i A</rdg></app> van denen etcetera vnde vorwaringe dar vor don mit eren eden vnde breuen dat jd wedder
+      na <app><lem>erer</lem><rdg><q>erre</q>, A</rdg></app> beider dot schal vry komen to der krone <app><lem>id</lem><rdg><q>id - beholden muchten</q> er tilføjet som note i venstre margen i A</rdg></app> ne gevellt dat ere eruen dat mit der suluen gnade na en beholden muchten vnde dat <app><lem>wij</lem><rdg>herefter står overstreget <q>en l</q> i A</rdg></app> wedder to leggen to <placeName>Sunderj{ue}tlande</placeName> vor
+        <placeName>Haderssleff</placeName> vnde <placeName>Flensborch</placeName> A vnde B etcetera
+      / vnde willen vns vorborgen vnde vorwaringe don mit den <app><lem>steden</lem><rdg>herefter står overstreget <q>weret</q> i A</rdg></app> effte dat jummermeer schege dat der rike ginich edder ere vndersaten van den Holsten
+      edder van gimand anders bynnen deme lande to <placeName>Holsten</placeName> edder dar vth <app><lem>so</lem><rdg><q>so - seten</q> er tilføjet over linjen i A</rdg></app> lange se an der beleninge seten beschediget wurden wedder recht dat bewijslik were dat
+      se den schaden scholen vprichten bynnen ses weken dar <app><lem>na</lem><rdg>herefter står overstreget <q>alse se van vns edder van vnsen nakomelingen</q> i A</rdg></app> wij deme rade to Lubeke dat mit vnsen breuen edder bodeschap verk{ue}ndiget hebben vnde
+      wo dat nicht en <app><lem>schege</lem><rdg>herefter står overstreget <q>edder effte ok</q> i A</rdg></app> so scholde na deme dage de beleninge dot <app><lem>wesen</lem><rdg>herefter står overstreget <q>vnde de stede scholden vns helpen vppe</q> i A</rdg></app> vnde de Holsten scholden vns <app><lem>ouergeuen</lem><rdg>herefter står overstreget <q>vnse slot</q> i A</rdg></app>
+      <placeName>Sunder Jutland</placeName> vnde wes se dar bynnen hadden van der crone to
+        <placeName>Dennemarken</placeName> vnde wo se dat denne nicht en deden edder ok effte ere
+      eruen na <app><lem>erer</lem><rdg><q>erre</q>, A</rdg></app> beider dode vns dat nicht wolden volgen laten sunder vns mit wreuele vor vntholden dat <app><lem>denne</lem><rdg>herefter står overstreget <q>de gan</q> i A</rdg></app> alle de <app><lem>Hensestede</lem><rdg>herefter står overstreget <q>vns help</q> i A</rdg></app> bynnen dren manten dar na alse wij deme rade van <placeName>Lubeke</placeName> dat
+      vork{ue}ndiget hebben <app><lem>vns</lem><rdg>herefter står overstreget <q>h</q> i A</rdg></app> helpen vnde to denste komen scholen <app><lem>vppe se</lem><rdg>tilføjet over linjen i A</rdg></app> mit eneme getalle van <app><lem>iij<hi rend="sup">m</hi></lem><rdg>herefter står overstreget <q>werafftigen</q> i A</rdg></app> wol vtgerichtede vnde verdige werhafftigen in sulker wijse vnde alse dat in der tosate <app><lem>dar</lem><rdg>tilføjet over linjen i A; herunder står overstreget <q>de</q></rdg></app> wij met en vnde se mit vns ane stan klarliker begrepen is / edder scholen vns alle jare
+      so lange <app><lem>wij</lem><rdg>herefter står overstreget <q>denne</q> i A</rdg></app> edder vnse nakomelinge met den Holsten vmme de vorgescreuen sake krigende wurden geuen
+      vor den denst den se vns don <app><lem>scholden</lem><rdg>herefter står en overstreget ulæselig passus i A, hvor der antagelig har været angivet
+          et beløb, som siden er blevet slettet</rdg></app> lodige mark suluers kolnescher wichte vnde de kore dar aff scholde stan to vns edder to
+      vnsen nakomelingen ♦</p>
+            <p n="a#132" xml:space="preserve">Hir to mogen <app><lem>wij</lem><rdg>mangler i A</rdg></app> also antworden etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

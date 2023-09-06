@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">135</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14390613001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Kungliga biblioteket</repository>
+                        <collection>Cod. Holm. A 54, 25r</collection>
+                        <idno>SDHK nr. 23217</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. *5229</bibl>
+               <bibl>Scriptores rer. Suecicarum I 224-5</bibl>
+               <bibl>Geete, Fsv. Bibl. nr. 714</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1439-06-13"
+                  notBefore="1439-06-13"
+                  notAfter="1439-06-13"
+                  cert="high">1439. 13. juni</date>
+            <placeName cert="high">Vadstena</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gsv">Hovedsprog: gammelsvensk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Abbedissen og konventet i Vadstena kloster udsteder pas for Anders Pedersen, dekan, som har
+      modtaget undervisning i Vadstena by, og som vil besøge sine slægtninger i Danmark og hente
+      sine bøger. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-12" who="#pbh">Filen etableret af #pbh 2013-12-12. </change>
+         <change when="2020-08-24" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-08-24. </change>
+         <change when="2020-09-17" who="#smb">2. korrektur af #smb 2020-09-17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gsv">
+            <p n="a#1" xml:space="preserve">Alla th<ex>e</ex>m th<ex>et</ex>ta bref høra ælla se helsom wii systir
+        <persName>Benedicta</persName> oc conventit ij klost<ex>re</ex>no
+        <placeName>Wazsteno<ex>m</ex></placeName> æwerdhe<ex>lika</ex> m<ex>eth</ex> waro<ex>m</ex>
+      h<ex>er</ex>ra ♦ Æpt<ex>er</ex> th<ex>et</ex> ath th<ex>e</ex>nne vnge fatike diækne<ex>n</ex>
+      <persName>A<ex>n</ex>dirs Pætars<ex>øn</ex></persName> hafuir hær j warom fatika byy
+        <placeName>Wazsteno<ex>m</ex></placeName> warit widh scola som hono<ex>m</ex> høfuir / oc
+      menar som han sigh<ex>e</ex>r sina frændhir søkia j <placeName>Da<ex>n</ex>mark</placeName> .
+      ok sina bøkir hænta ♦</p>
+            <p n="a#2" xml:space="preserve">Thy bidhio<ex>m</ex> wi kærlika alla the for <app><lem>guz</lem><rdg wit="#Aa">slettet eller forskrevet tegn mellem <q>u</q> og <q>z</q>, Aa</rdg></app> scul oc wara bøn vilia gøra ælla lata ath the han fordhin oc fræm<ex>m</ex>e j
+      sino<ex>m</ex> rætto ærindom / <app><lem>hwa[rt]</lem><rdg wit="#Aa">usikker læsning, Aa</rdg></app> han koma kan oc hwarghin æptrin <app><lem>ælla</lem><rdg wit="#A"><q>hinrd</q> herefter slettet, A</rdg></app> hindhra lathin th<ex>et</ex> allom hans fordharo<ex>m</ex> gudh m<ex>eth</ex> sinne
+      nadh oc miscu<ex>n</ex>d løne æw<ex>er</ex>dhe<ex>lika</ex> ♦</p>
+            <p n="a#3" xml:space="preserve">Scriptum Wazsten<ex>ensis</ex> anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxxix
+      sabbato post octavam corporis christi nostro sub secreto presentibus ultra festum sancti Petri
+      ad vincula in proximo futurum minime valituris \ ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

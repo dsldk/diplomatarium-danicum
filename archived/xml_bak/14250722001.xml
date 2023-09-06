@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">115</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250722001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Uppsala</settlement>
+                        <repository>Universitetsbibliotek</repository>
+                        <collection>empty</collection>
+                        <idno>Pergamentsbrev av den 22 juli 1425</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>i Hallandh om Skededaall ok fler<ex>e</ex> godz</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jens (eller Niels) Assersen Båds segl i mørkt voks i perg.rem, <ref>AS C xlix 10 (s' nicolai asserson)</ref></ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Bomærke i mørkt voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6201</bibl>
+               <bibl>Meddelanden från svenska Riksarkivet 1939 s. 147</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 80</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Gammeldanske Diplomer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-07-22"
+                  notBefore="1425-07-22"
+                  notAfter="1425-07-22"
+                  cert="high">1425. 22. juli</date>
+            <placeName cert="high">Halmstad</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder og Poul Torbjørnsen stadfæster deres faders salg af al hans ejendom i Skedala til hans hustru Ingerd.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-01" who="#pbh">Filen etableret af #pbh 2014-07-01. </change>
+         <change when="2018-05-16" who="#jon">1. korrektur af #jon 2018-05-16. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle the gothæ men th<ex>et</ex>tæ br<ex>e</ex>ff høræ ell<ex>e</ex>r se / hilsæ wy
+        <persName>P<ex>er</ex> Thørbørnæs<ex>øn</ex></persName> ok <persName>Paul
+        Thørbørnass<ex>øn</ex></persName> kerligæ m<ex>eth</ex> gwdh / ♦</p>
+            <p n="a#2" xml:space="preserve">Co<ex>n</ex>gøræ wy allæ <app><lem>dandæ</lem><rdg resp="#jon">Herefter formodentligt glemt <q>men</q></rdg></app> swawel komæskulande som the nw ære / th<ex>et</ex> wy for<hi rend="sup">de</hi> erom swa ow<ex>er</ex> eno <app><lem>wordnææ</lem><rdg resp="#jon">Herefter formodentligt glemt <q>ok</q></rdg></app> m<ex>eth</ex> iææ ok godh wiliæ <app><lem>stadfestu<ex>m </ex><persName>Broth<ex>e</ex>r By</persName></lem><rdg wit="#A"><q>stadfestu<ex>m</ex> Bro</q> på rasur, A</rdg></app> allan the<ex>n</ex> rettygheth som <persName>Thørbørn</persName> war fadar saldæ
+      hwst<ex>r</ex>w <persName>Ingerdh</persName> sa mykit som ha<ex>n</ex> atthe i
+        <placeName>Skedhædal</placeName> / m<ex>eth</ex>
+      <app><lem>alt</lem><rdg wit="#A"><q>t</q> rettet fra <q>ʒ</q>, A</rdg></app> th<ex>et</ex> th<ex>e</ex>r til hører m<ex>eth</ex> retthe i alla matha / ♦</p>
+            <p n="a#3" xml:space="preserve">Til mer<ex>e</ex> wissæ ok bætre forvaringh thæ bedis wy hederligæ ma<ex>n</ex>na inscigle
+      som ær <app><lem><persName>Ies Asscers<ex>øn</ex></persName></lem><rdg wit="#A">På seglet: <q>s Nicolai Assersun</q>, A</rdg></app> lanzdomar<ex>e</ex> i <placeName>Søndra Halland</placeName>
+      <persName>Clau<ex>us</ex> Yw<ex>er</ex>s<ex>øn</ex></persName> i <app><lem><placeName>Claustorp</placeName></lem><rdg wit="#A"><q>p</q> rettet fra <q>d</q>, eller skal læses <q>tordp</q>, A</rdg></app>
+      <persName>Aruid Vnas<ex>øn</ex></persName> radman i <placeName>Halmstadæ</placeName>
+      hengend<ex>is</ex> for th<ex>et</ex>tæ breff til vitnisbird for thy ath wy haua ey selue
+      incigle ♦</p>
+            <p n="a#4" xml:space="preserve">Scriptum <placeName>Halmstadis</placeName> anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xxv<hi rend="sup">o</hi> die beate Marie Magdalene <app><lem>et martiris</lem><rdg resp="#jon">Formodentligt en senere tilføjelse</rdg></app> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1683</num>, paragraphs: <num n="paragraphs">43</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14360701001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>receshåndskrift 2</collection>
+                        <idno>p. 637-648</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Hæfte med tre dobbeltblade</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Forsynet med overskriften: <q>In Kopenhaven 36</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. II:1, nr. 603, p. 535-538</bibl>
+               <bibl>Reg. *5144</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Hanserec. l. l., hvorfra også de arkivalske oplysninger
+                  stammer. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-07-01"
+                  notBefore="1436-07-01"
+                  notAfter="1436-08-23"
+                  cert="high">1436.
+               1. juli - 23. august</date>
+            <placeName cert="low">[Kalmar]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Indberetning fra de hanseatiske udsendinge vedrørende forhandlingerne med kong Erik
+               7. af Pommern i København, hvor også herren af Barth og herren af Pommern deltog
+               sammen med deres råd, og vedrørende forhandlingerne mellem kong Erik og svenskerne i
+               Kalmar.</ab>
+            <ab>Det meddeles, at udsendingene sejlede ud af Trave 1. juli, og at de ankom til
+               København 3. juli, hvor de blev venligt modtaget af kong Erik. Efter tre uger i
+               København, hvor udsendingene forhandlede med kong Erik om fredsbrud og om Rostock,
+               sejlede de videre mod Kalmar, hvortil de ankom 24. juli. I Kalmar blev de modtaget af
+               kong Erik, svenskerne og de andre herrer. De hanseatiske udsendinge var imidlertid
+               kun interesserede i at optræde som voldgiftsmænd i sagen mellem kong Erik og
+               svenskerne, såfremt kong Erik ville overholde de løfter vedrørende tolden ved Krogen
+               (dvs. Øresundstolden) og Rostock, som han havde givet hansestæderne, hvortil kong Erik
+               højtideligt erklærede, at han ville holde alt, hvad han havde lovet
+               hansestæderne.</ab>
+            <ab>Endvidere meddeles det, at svenskerne bad kong Erik om, at han måtte tage dem til
+               nåde, og at de erklærede, at de ville have kong Erik som konge, og at de ikke ønskede
+               en retssag med kongen, hvorpå kongen svarede, at svenskerne skulle bestemme,
+               hvorledes deres venskabelige aftale med ham skulle se ud. Derefter udfærdigede
+               svenskerne en skrivelse om, at riget Sverige var blevet påført stor skade grundet
+               dårlig regeringsførelse, og at de derfor ønskede, at kong Erik lod det svenske rige
+               være ved sin lovbog, sine skriftlige rettigheder, sine privilegier og sine gode,
+               gamle sædvaner, sådan som kongen havde lovet dem. Hertil svarede kong Erik både
+               mundtligt og skriftligt, at han aldrig havde gjort svenskerne uret eller fortræd
+               eller påført dem vold, men at han derimod havde vist dem ære, godhed og velvilje. Det
+               meddeles i den forbindelse, at der således gik megen tid med den slags skrivelser og
+               taler, som dog ikke førte til noget frugtbart. Derfor sagde hr. Erik Krummedige på
+               vegne af voldgiftsmændene til kong Erik og svenskerne, at de nu havde udfærdiget
+               skriftlige klager og skriftlige modsvar, men at de endnu ikke havde udfærdiget en
+               tekst, som kunne bruges som aftale imellem dem, og derfor ville voldgiftsmændene
+               skriftligt udfærdige en venskabelig aftale, som kunne være begge parter til behag, og
+               ligeledes skulle hver part inden for en bestemt periode udfærdige sine klager mod den
+               anden part, eftersom voldgiftsmændene efter klager og svar ville udsige, hvad der var
+               ret, såfremt parterne alligevel ikke kunne finde behag i den af voldgiftsmændene
+               udfærdigede venskabelige aftale, eftersom den nuværende situation var til skade for
+               alle. Derpå gav begge parter deres skriftlige klager til voldgiftsmændene, men
+               svenskerne sagde, at de ikke havde forventet en retssag, og at de heller ikke havde
+               forstået det sådan ved mødet i Vadstena, hvorfor de på nuværende tidspunkt ikke kunne
+               nævne alle de nødvendige artikler, fordi de ikke havde fået dem med til mødet i
+               Kalmar. Derpå gik voldgiftsmændene op på slottet til kong Erik for at bevæge ham til
+               at modtage svenskernes venskab, for de kunne alle fornemme, at en retssag imellem
+               kong Erik og svenskerne hverken ville føre til venskab, enighed eller fred imellem
+               dem. Derefter svarede kong Erik på det, som svenskerne havde skrevet om, at han
+               skulle besætte landet og slottene med svenske folk og ikke med udenlandske folk, at
+               han ikke ville have den evige skam hængende over sig, at alle skulle sige om ham, at
+               han havde accepteret, at danskere, tyskere og nordmænd, som svenskerne altså anså for
+               at være udlændinge, skulle fordrives fra riget, eftersom han ikke havde modtaget
+               riget fra Margrethe på den måde, og derfor skulle man fratage ham det med ret. Derpå
+               havde kong Erik, Erik Krummedige og Heinrich Rapesülver en længere diskussion, og til
+               sidst sagde Heinrich Rapesülver, at hvis kongen kun ville følge sit eget hoved, og
+               det så kom til en krig mellem kongen og svenskerne, og kongen så alligevel ikke kunne
+               få sin vilje, så ville kongen være evigt forbandet, men hvis kongen ville følge sit
+               råds råd, og hvis rådet så gav ham et dårligt råd, så ville rådet og ikke kongen være
+               forbandet. Derfor lod kong Erik alle de danske folk kalde op på slottet for at høre,
+               om de ville råde ham til at acceptere svenskernes krav, og derefter blev også
+               svenskerne og hansestædernes udsendinge kaldt op på slottet. Her takkede svenskerne
+               kong Eriks råd og hansestæderne for alt, hvad de havde opnået, og formanede rigsrådet
+               om, at de alle måtte blive sammen som brødre, og at de hver især ville respektere
+               hinandens rettigheder, privilegier og gode, gamle sædvaner. Dertil svarede Heinrich
+               Rapesülver med det samme, at det var hansestædernes ønske, at de, eftersom de havde
+               hjulpet til med at få en aftale i stand mellem kong Erik og svenskerne, gerne ville
+               betragtes som søstre, således at hansestædernes privilegier og gode, gamle sædvaner
+               også ville blive overholdt. Dertil svarede Erik Krummedige, at alt, hvad man havde
+               lovet hansestæderne, ville blive overholdt.</ab>
+            <ab>Derefter blev det den 23. august aftalt, at man skulle bringe kong Erik og
+               svenskerne sammen, således at svenskerne kunne falde på knæ for kongen og bede om at
+               blive taget til nåde. Derfor lod kongen samme dag alle folk samle på markedet, idet
+               han lod alle klokkerne ringe. Derefter gik kong Erik sammen med herren fra Pommern og
+               voldgiftsmændene, således at de stod i en kreds, og deromkring stod alle folk.
+               Derefter kom svenskerne og faldt på knæ for kongen og bad om, at han måtte tage dem
+               til nåde. Da ville kongen rejse dem op med sine hænder, men de ville ikke stille sig
+               op. Derfor satte kongen sig selv ned på knæ og rejste dem op på den måde. På grund af
+               denne ydmyge handling begyndte mange af de omkringstående at græde. Derefter bad kong
+               Erik svenskerne om, at de for Guds skyld måtte tilgive ham, såfremt han havde handlet
+               ilde mod dem, og derefter gik kongen sammen med sit råd og svenskerne op til rådhuset
+               for at fuldbyrde venskabet.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-15" who="#pbh">Filen etableret af #pbh 2013-11-15. </change>
+         <change when="2017-04-04" who="#smb">1. korrektur af #smb 2017-04-04. </change>
+         <change when="2017-10-30" who="#smb">2. korrektur af #smb 2017-10-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">
+               <supplied>1</supplied> Int jar unsirs Heren dusent verhundert darna in deme ses unde
+               drittichghesten jare seghelde wi ut <placeName>der Travene</placeName>
+               <app>
+                  <lem>an unser vrowen avende der vanding</lem>
+                  <rdg>dvs. 1. juli</rdg>
+               </app>, unde quemen des dinxtedaghes <app>
+                  <lem>darna</lem>
+                  <rdg>
+                     <q>dar</q>, Aa</rdg>
+                  <rdg>dvs. 3. juli</rdg>
+               </app> van Gades gnaden mit beholdener have to <placeName>Kopenhaven</placeName>, dar
+               wi vunden den heren koning mit sinem rade, <persName>den heren van Bart</persName>,
+                  <persName>den heren van Pomeren</persName> mit eren rederen, unde ok de redere ut
+               ichteswelken eren steden, alzo by namen de van <placeName>Stargharde</placeName> unde
+               van <placeName>Trepetow</placeName>.</p>
+            <p n="a#2">Unde de here koning bat uns alle willekome, gutliken entfanghende.</p>
+            <p n="a#3">Wes dar, leven heren, vurder vorhandelt wart mit dem heren koninghe unde
+               sinem rade, is jwer erzamicheid van der schrift weghen<ref target="drb1"/>, de jw van dar van des weghen ghesant wart, alzo wi vormoden, wol <app>
+                  <lem>vordacht</lem>
+                  <rdg>
+                     <q>vordracht wart</q>, Aa</rdg>
+               </app>, darumme is n{ee}n behuff, dat men dat aver vorhale.</p>
+            <p n="a#4">
+               <supplied>2</supplied> Darna seghelde wi, leven heren, do wi to
+                  <placeName>Kopenhaven</placeName> bi dren weken gheleghen hadden, unde mannighe
+               sprake umme de vredebrake unde de van <placeName>Rostoke</placeName> mit dem heren
+               koninghe unde sinem rade gheholden hadden, mit demesulven heren koninghe unde sinem
+               rade, mit <persName>dem heren van Bart</persName>, mit <persName>dem heren van
+                  Pameren</persName> unde eren rederen, na <placeName>Kalmeren</placeName>, alzo dat
+               wi van Gades gnaden mit beholdener have doch mit ichteswelkeme waters vordrete to
+                  <placeName>Kalmeren</placeName> quemen in de havene unde vor de brugghe <app>
+                  <lem>an sunte Jacobes avende</lem>
+                  <rdg>dvs. 24. juli</rdg>
+               </app>, wo de here koning, de Sweden unde de anderen heren uns untfinghen, unde wo wi
+               mit deme heren koninghe unde sinem rade unde mit den Sweden tosamende quemen uppe dat
+               hus, dat <placeName>de Cristoffer</placeName> hed.</p>
+            <p n="a#5">Dar de here koning unde de Sweden <persName>den r{ae}d van
+                  Dennemarken</persName> unde der stede sendebaden beden, dat wi se in alzodaner
+               scheling unde twedracht, de b{ee}t <app>
+                  <lem>herto</lem>
+                  <rdg>
+                     <q>to her to</q>, Aa</rdg>
+               </app> twischen en gheweset were, wolden in vruntscop ofte rechte vorscheden.</p>
+            <p n="a#6">Dar na berade her Erik Krummedik van des Denschen rades weghen, dat also
+               annamende, ja to sede.</p>
+            <p n="a#7">Van der sendebaden weghen aver der stede sede <persName>her Hinrik
+                  Rapesulver</persName> na berade, wi sint jwen gnaden to willen unde to denste
+               gherne ghevolghet ersten to <placeName>Kopenhaven</placeName> unde nu hir to
+                  <placeName>Kalmeren</placeName>, unde denen to jwer gnaden besten gherne na unsem
+               vormoghe, doch dat jwe gnade uns ghelovet unde besegheld unde gheswaren hefft, dat en
+               wart uns nicht gheholden, nameliken also alze van dem tolne <placeName>tom
+                  Kruk</placeName> unde den van <placeName>Rostocke</placeName>; scholde wi jwe
+               gnade in dat hus unde to vreden deghedinghen unde uns sulven buten deme huse unde
+               deme vrede besluten, dat en wolde vor uns nicht wesen.</p>
+            <p n="a#8">Dar sede de koning apemb{ae}r unde sw{oe}r, wes he den steden ghesecht unde
+               ghelavet hadde, dat wolde he en vul unde al holden in guden truwen.</p>
+            <p n="a#9">Alzo annamede wi do ok de schedinghe van unser weghen.</p>
+            <p n="a#10">
+               <supplied>3</supplied> Wes <app>
+                  <lem>nu</lem>
+                  <rdg>
+                     <q>uns</q>, Aa</rdg>
+               </app> dar furder mer unde <app>
+                  <lem>int</lem>
+                  <rdg>
+                     <q>mit</q>, Aa</rdg>
+               </app> erste vorhandelt wart twischen den heren koninghe unde den Sweden, is jwer
+               ersamicheit in schriften wol benaled.</p>
+            <p n="a#11">Des worden na velen spraken unde handelinghen de here koningh unde <app>
+                  <lem>
+                     <supplied>de</supplied>
+                  </lem>
+                  <rdg>
+                     <q>de</q> mangler i Aa</rdg>
+               </app> Sweden, alzo <app>
+                  <lem>by</lem>
+                  <rdg>
+                     <q>by by</q>, Aa</rdg>
+               </app> namen: de erwerdighen in Gade vedere unde heren, <persName>biscop Thomas van
+                  Strengnisse</persName>, <persName>biscop Magnus to Abow</persName>, unde de
+               strenghen, <persName>her Cristier Nigelsson</persName>, droste, <persName>her Nighels
+                  Eringisselsson</persName>, rittere, <persName>Nigels Jonsson</persName>,
+                  <persName>Knud Karlsson</persName>, <app>
+                  <lem>
+                     <persName>Karle Bunde Tordzsson</persName>
+                  </lem>
+                  <rdg>
+                     <q>Bunde Torlss Tordzsson</q>
+                  </rdg>
+               </app>, <persName>Gregors Magnusson</persName>, <persName>Magnus Gregen</persName>,
+                  <persName>Bend Udinsson</persName>, <persName>Gregor Trulle</persName> unde
+                  <persName>Bend Ludensson</persName>, knapen, tosamende bracht in jeghenwardicheit
+                  <persName>der heren van Bart unde van Pameren</persName> unde erer redere unde der
+               schedesheren, also bi namen van des koninghes weghen: de erwerdighe in Gade vader
+               unde here, <persName>her Olrik, biscop to Arhusen</persName>, unde de strenghe
+                  <persName>her Erik Krummedik</persName>, <persName>her Trut Hasse</persName>,
+                  <persName>her Anders Nighelsson</persName>, <persName>her Eseke Brok</persName>,
+                  <persName>her Luder Kabel</persName>, <persName>her Jons Grym</persName>, rittere,
+                  <persName>Hans Cropelin</persName>, <persName>Otto Nigelsson</persName>,
+                  <persName>Hermen van deme Haghene</persName>, <persName>Oleff Axelsson</persName>,
+                  <persName>Albert Budelsbak</persName> unde <app>
+                  <lem>
+                     <persName>Aghe Lunghe</persName>
+                  </lem>
+                  <rdg>
+                     <q>Aghel Unghe</q>, Aa</rdg>
+               </app>, knapen; van der stede weghen: <persName>her Hinrik Rapesulver</persName>,
+               borghermester, <persName>her Tymme Hadewerk</persName>, radman to Lubeke;
+                  <persName>her Clawes Meyer</persName>, radman, <persName>her Hermen
+                  Langhe</persName> to Hamborch; <persName>her Peter Wilde</persName>, borghemester,
+                  <persName>her Johan Stenbeke</persName>, radman, tor Wismer; <persName>her Johan
+                  Sprinkintgud</persName>, <persName>her Hartwich Schomaker</persName>, radman to
+               Lunenborch.</p>
+            <p n="a#12">
+               <supplied>4</supplied> Also dat de Sweden deme heren koninghe otmodighen to vote
+               villen, biddende umme Gades willen, dat he se to gnaden neme, se wolden ene vor enen
+               mechtighen konink holden unde hebben, unde synen gnaden vruntliken enjeghen gan,
+               wente <app>
+                  <lem>rechtghank</lem>
+                  <rdg>
+                     <q>rechghank</q>
+                  </rdg>
+               </app> were en mit sinen gnaden nicht wol bequeme.</p>
+            <p n="a#13">Dar de here konink to antwarde, de Sweden scholden utstikket de vruntscop,
+               dar se em mede wolden entjeghen ghan.</p>
+            <p n="a#14">
+               <supplied>5</supplied> Darup nemen se ere berad unde vorrameden ene schrift,
+               inneholdende mank anderen worden, wo <placeName>dat rike to Sweden</placeName> van
+               quades regimentes weghen to groten vorderfliken schaden were kamen, darumme begherden
+               se, dat sin gnade se unde dat rike wolde laten bi erem lachboke, beschrevenen rechte,
+               privilegien unde alder guder wanheit, welke he en bestedeghet unde darup gheswaren
+               hedde, biddende de schedesheren, dat se syne gnade underwiseden, dat he dat van en
+               alzo wolde annamen unde bewisede en gnade, gunst unde leve, zo wolden se syne gnade
+               mit alles rikes inwaneren hebben unde holden vor enen vulmechtighen koning, de wile
+               he levede, unde wolden em bewiset horsam, truwe unde wilghen denst.</p>
+            <p n="a#15">Hiirto antwardede de here koning, beide schriftliken unde muntliken, tomale
+               sere sik entschuldeghende, dat he den Sweden niworlde unrecht, walt noch jenych
+               vordret ghedan hedde men ere, gud unde vordernisse.</p>
+            <p n="a#16">Mit alzodanen schriften unde reden ward vele tid toghebracht, dar doch nicht
+               profites wes noch endelkes van en quam.</p>
+            <p n="a#17">
+               <supplied>6</supplied> Darumme sede <persName>her Erik Crummedik</persName> na berade
+               van aller schedesheren weghen deme heren koninghe unde den Sweden, dat se geven
+               scrifte over unde jeghenscrifte, doch so were noch nen scrift ghegheven, dar men wat
+               enkedes mede ramen mochte, ofte dat men to ichteswelkem ende mede kamen konde,
+               darumme wolden de schedesheren ramen ener vruntscop in ener schrift up erer beider
+               behach, unde dat eyn eslik binnen der tiid sine tosprake, de he mende to deme anderen
+               to hebbende, rede makede, wente wolde de vruntscop sik nicht vinden edder en nicht
+               behaghen, so wolden se na claghe unde antwarde recht affsegghen unde utspreken, wente
+               idermanne vordrote, alzo to ligghende.</p>
+            <p n="a#18">Alzo gheven se deme heren koninghe de enen unde <app>
+                  <lem>den</lem>
+                  <rdg>
+                     <q>de</q>, Aa</rdg>
+               </app> Sweden de anderen scrift, all ens van worde to worde ludende: Dit is dat
+               vorrament, als uns dunket (etc. = <ref target="14360724001" type="link">DD 1436. [24. jul. - 23.
+                  aug.], nr. 14360724001</ref>)</p>
+            <p n="a#19">
+               <supplied>7</supplied> Darup nemen se ere berad.</p>
+            <p n="a#20">Welke vruntscop na berade noch dem heren koninghe noch den Sweden behaghede,
+               alzo gheven beide partien over den schedesheren ere tosprake<ref target="drb2"/>.</p>
+            <p n="a#21">Unde de Sweden seden, se hadden sik rechtghanghes nicht vormodet, wi hadden
+               dat ok alzo nicht vorstan to <placeName>Wastene</placeName>, dar de dach begrepen
+               wart, darumme konden se alle artikule, der en wol nod were, nu tor tiid nicht
+               schriven, wente se <app>
+                  <lem>hedden</lem>
+                  <rdg>
+                     <q>hedde</q>, Aa</rdg>
+               </app> vele to hus, des se <app>
+                  <lem>jeghenwardich</lem>
+                  <rdg>
+                     <q>jeghewardich</q>, Aa</rdg>
+               </app> nicht en hedden.</p>
+            <p n="a#22">
+               <supplied>8</supplied> Alzo ghinghen de schedesheren to deme heren koninghe uppe dat
+               slot, sine gnade to underwisende, dat he vruntscop van den Sweden neme, wente se
+               konden alle merken, dat rechtgank twischen en beiden noch vruntscop noch endracht
+               noch vrede maken konde.</p>
+            <p n="a#23">Dar sede de here koning alzo to, alzo de Sweden screven, dat he dat lant
+               unde de slote scholde besetten mit inlendeschen, unde nicht mit utlendeschen, dat he
+               den ewighen vluk nicht over sik behalden wolde, dat alle man <app>
+                  <lem>scholde</lem>
+                  <rdg>
+                     <q>scholde scholde</q>, Aa</rdg>
+               </app> segghen, dat he hedde overgheven, dat Densch Dudesch Norman, de de Sweden vor
+               utlendesche lude holden, scholden ut deme rike to Sweden vordreven unde utghewiset
+               wesen na dem male, dat he dat rike van <persName>vrowe Margreten saligher
+                  dechtnisse</persName> also nicht entfanghen hedde, darumme scholde me em dat mit
+               rechte affsegghen.</p>
+            <p n="a#24">Dar dem heren koninghe <persName>her Erik Crummedik</persName> unde
+                  <persName>her Hinrik Rapesulver</persName> mannigherhande wort enjeghen seden unde
+               he wedder jeghen se.</p>
+            <p n="a#25">Des sede int leste <persName>her Hinrik</persName> erghenomet: gnedighe
+               here, oft jwe gnade jwem rade nicht en volghet men jwen eghenen hovede unde
+               guddunkende, unde den van den jwen unde den Sweden dusent edder twe vormorden sin
+               unde jwen willen denne alleke wol nicht beholden kont, des mot jwe gnade vorwit
+               ewighen vl{ue}k unde vorsprekent liden, men do gii na jwes rades rade unde <app>
+                  <lem>raden</lem>
+                  <rdg>
+                     <q>rades</q>, Aa</rdg>
+               </app> se jw ovele, des moten se vorwit hebben unde gii nicht; it sint de jwen, de jw
+               vor eren heren unde enen weldighen gherne hebben unde holden wilt, darumme rade wi jw
+               neghest, dat gii se in vruntscop to gnaden nemen.</p>
+            <p n="a#26">Dar sprak ok do mede an <persName>de here van Pameren</persName> unde sin
+               rad, de dar do jeghenwardich weren.</p>
+            <p n="a#27">Alzo bevol de here konink sinem rade, dat se to sik vorbadeden alle de
+               Denschen manscop, de dar jeghenwardich were, unde leten en dat vorstan, <app>
+                  <lem>
+                     <supplied>ofte id</supplied>
+                  </lem>
+                  <rdg>
+                     <q>ofte id</q> mangler i Aa</rdg>
+               </app> mit erer alre vulbort, rade unde willen were, <app>
+                  <lem>dat</lem>
+                  <rdg>
+                     <q>oft</q>, Aa</rdg>
+               </app> he dat overgheven scholde, also vorghescreven is.</p>
+            <p n="a#28">
+               <supplied>9</supplied> Des vorbadeden se de manscop, de Sweden unde der stede
+               sendebaden uppe <placeName>den Cristoffor</placeName>.</p>
+            <p n="a#29">Er de mene manscop dar upgheeschet wart, dankeden de Sweden des koninghes
+               rade unde den steden, dat se id dar mit arbeide unde vlite to ghebracht hadden,
+               vormanende vort des rikes rade, wo se siik tosamende vorbunden, vorseghelt unde
+               ghelavet hadden, alse brodere bi enander to blivende, unde en jewelik den anderen bi
+               sinem rechte, privilegien unde guden olden wanheiden to beholdende, unde hapeden, dat
+               scholde vast bliven to ewighen tiiden; unde dankeden en, dat se dat also wol
+               gheholden unde truwelken sik darane bewiset hadden.</p>
+            <p n="a#30">Dar sprak do van stunt in <persName>her Hinrik Rapesulver</persName>: leven
+               heren unde vrunde, also gii segghen, dat gii willen tosamende bliven alzo brodere,
+               dar wi to ghehulpen unde ghedent hebben unde vordan gherne d{oe}n, so weset ok <app>
+                  <lem>vordacht</lem>
+                  <rdg>
+                     <q>vordach</q>, Aa</rdg>
+               </app>, wat gii uns ghelavet unde ghesecht hebben, unde latet uns suster mede wesen,
+               also dat uns unse privilegia unde guden olden wanheide ok gheholden werden.</p>
+            <p n="a#31">Dar antwarde to <persName>her Erik Crummedik</persName> segghende, it were
+               al war, wes den steden ghesecht were, dat scholde vull unde all gheholden werden.</p>
+            <p n="a#32">
+               <supplied>10</supplied> Do vorbadeden se de menen manscop unde gheven en to kennende
+               des heren koninghes meninghe in jeghenwardicheit der Sweden unde der stede
+               sendebaden. Also ghinghen do aff de Sweden unde de sendebaden der stede <app>
+                  <lem>unde leten</lem>
+                  <rdg>
+                     <q>unde leten unde leten</q>, Aa</rdg>
+               </app> de Denen tosamende; dar ward ene scrift up gheramed van worde to worde ludende
+               aldus: Wetet gnedighe here, alzo wi ghisterne (etc. = <ref target="14360724004" type="link">DD
+                  1436. [24. jul. - 23. aug.], nr. 14360724004</ref>).</p>
+            <p n="a#33">
+               <supplied>11</supplied> Also quemen de schedesheren unde de Sweden uppe
+                  <placeName>den Cristoffer</placeName>
+               <app>
+                  <lem>an sunte Bartholomeus avende</lem>
+                  <rdg>dvs. 23. august</rdg>
+               </app> vor der maltid.</p>
+            <p n="a#34">Dar ward gheramed, dat men den heren koning unde de Sweden scholde tosamende
+               bringhen, dat se sinen gnaden to vote villen unde kneval deden, biddende umme sine
+               gnade.</p>
+            <p n="a#35">Unde dat brachten des heren koninghes rad bi den koning.</p>
+            <p n="a#36">
+               <supplied>12</supplied> Dessulven daghes na der maltid leet de here koning alle heren
+               unde guden lude unde menliken alle volk vorgadderen also tor bursprake, unde leet de
+               klocken slan als to storme, also vorsammelde sik alle volk up dem markede.</p>
+            <p n="a#37">Do quam de here koning mit <persName>deme heren van Pameren</persName>, unde
+               de schedesheren unde alle manscop, de dar do weren, ghinghen st{ae}n in enen kreis,
+               dar stunt alle volk ummeheer.</p>
+            <p n="a#38">Dar quemen de Sweden unde deden <app>
+                  <lem>otmodighen</lem>
+                  <rdg>
+                     <q>otmoghen</q>, Aa</rdg>
+               </app> knival, den heren koningh biddende, dat he se to gnaden neme unde alle
+               unwillen, den he to en hedde, umme Gades willen overseghe.</p>
+            <p n="a#39">Do wolde he se upteen bii den henden unde <app>
+                  <lem>wolden</lem>
+                  <rdg>
+                     <q>wolde</q>, Aa</rdg>
+               </app> node upstan, do sette sik de here konink sulven in de kne unde <app>
+                  <lem>nam</lem>
+                  <rdg>
+                     <q>nem</q>, Aa</rdg>
+               </app> se also up.</p>
+            <p n="a#40">Dar villen mennighen de tranen ut den oghen van sodanen otmodighen
+               gheschefte.</p>
+            <p n="a#41">Do beden ok <persName>de heren van Pameren</persName>, des rikes rad unde de
+               schedesheren vor de Sweden.</p>
+            <p n="a#42">Do bad ok de here koningk de Sweden, oft he en jerne to kort ane daen hadde,
+               dat se em dat umme Gades willen vorgheven.</p>
+            <p n="a#43">Als nam de here koningh sinen rad unde de Sweden, unde ghink darmede uppe
+               dat radhus, alsodane vruntscap vullenkomen to makende.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden 1. januar 2017 til 30. juni 2021 vil redaktionen udelukkende
+               udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

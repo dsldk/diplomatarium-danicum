@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">457</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14141201001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2550-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 26.5 × 40.8 (plica: 2.3). <ab>Notarunderskriften er skrevet med Anders Jakobsens hånd, mens resten af brevet er skrevet med en anden hånd</ab>
+                        <ab>På bagsiden påskriften <q>Super inpigneracionem castri
+      Nyehus</q>
+                        </ab>1. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Afskriften har som overskrift originalens bagsidepåskrift <q>Super
+        inpigneratione castri Nyehus</q> og tilføjer til sidst <q>abest
+      sigillum</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Under datoen 1409. 9. oktober</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5488</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>A</ref>. Det vidimerede brev er udgivet i <ref target="14091009001">DD 1409. 9. okt., nr. 14091009001</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-12-01"
+                  notBefore="1414-12-01"
+                  notAfter="1414-12-01"
+                  cert="high">1414. 1. december</date>
+            <placeName cert="high">Bispegården i Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder (Jensen (Lodehat)), biskop i Roskilde og det danske riges kansler, vidimerer sammen
+      med fem riddere grev Heinrich af Holstens og hertuginde Elisabeth af Slesvigs pantsættelse af
+      Flensborg by og borgen Nyhus til kong Erik 7. af Pommern og dronning Margrete fra den 9.
+      oktober 1409. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-25" who="#pbh">Filen etableret af #pbh 2014-02-25. </change>
+         <change when="2019-09-27" who="#alk">1. korrektur af #alk 2019-09-27. </change>
+         <change when="2019-10-21" who="#alk">2. korrektur af #alk 2019-10-21. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In nomine domini amen ♦</p>
+            <p n="a#2" xml:space="preserve">Anno nativitatis ejusdem millesimoquadringentesimo xiiii indiccione septima prima die mensis
+      decembris hora vesperorum vel quasi in <placeName>curia episcopali Roskildensi</placeName>
+      pontificatus sanctissimi in Christo patris ac domini nostri domini
+        <persName>Johannis</persName> divina providencia pape xxiii anno ejus quarto constitutus
+      serenissimus princeps et dominus dominus <persName>Ericus</persName> regnorum
+        <placeName>Dacie</placeName>
+      <placeName>Suecie</placeName>
+      <placeName>Norwegie</placeName>
+      <placeName>Sclavorum</placeName>
+      <placeName>Gothorumque</placeName> rex et dux <placeName>Pomeranie</placeName> parte ex una
+      necnon reverendus in Christo pater et dominus dominus <persName>Petrus</persName>
+      <placeName>episcopus Roskildensis</placeName> dicti <placeName>regni Dacie
+        cancelarius</placeName> parte ex altera coram me notario publico infrascripto tamquam
+      authentica persona dictus dominus rex quasdam litteras in pergameno conscriptas manu sua
+      dextera tenebat eamque dicto domino episcopo et cancellario regni sui Dacie exhibuit et
+      presentavit ad audiendum et ad perlegendum examinandum et per decreti sui interposicionem
+      transumendum et transumptum in publicam formam redegi faciendum peciit et postulavit
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Cujus quidem littere tenor sequitur et est talis . ♦</p>
+            <p n="a#4" xml:space="preserve">Witlik vnd openbar sy alle den gennen de dessen breff zeen edder horen leesen (etc. =
+      <ref target="14091009001">DD 1409. 9. okt., nr. 14091009001</ref>)</p>
+            <p n="a#5" xml:space="preserve">Primum vero sigillum dicte littere erat rotunde figure et concavum extra de cera glauca intus
+      de cera rubea in cujus medio instar ymaginis episcopi infulati et ex una latere clipeus in se
+      continens folium urtice in secundo latere clipeus cum figura rote . in circumferencia erant
+      sculpta hec verba ♦</p>
+            <p n="a#6" xml:space="preserve">Sigillum <persName>Hinrici</persName>
+      <placeName>electi Osnaburgensis</placeName> ♦</p>
+            <p n="a#7" xml:space="preserve">Secundum sigillum erat concavum et rotundum extra de cera glauca intus de cera rubea in cujus
+      medio erant quatuor clipei circulis circumdati in superiore ymago duorum leopardorum secundus
+      habet folium instar urtice in <app><lem>tercia</lem><rdg wit="#A"><q>t</q> synes rettet fra <q>f</q>, A</rdg></app> instar leonis in quarta . erant quinque strate et transversaliter quasi unum sertum in
+      circumferencia vero erant sculpta hec verba . ♦</p>
+            <p n="a#8" xml:space="preserve">Sigillum <persName>Elizabeth</persName>
+      <placeName>ducisse Sleswicensis</placeName>
+      <placeName>comitisse Holtzacie</placeName> etcetera ♦</p>
+            <p n="a#9" xml:space="preserve">Dicta vero littera per nos episcopum Roskildensem et cancellarium predictum sic audita lecta
+      et transumpta intellecta et examinata et cum notario infrascripto fida collacione prehabita .
+      cum originali ipsaque littera reperta sana et integra non rasa non viciata non abolita sed
+      omni suspicione carente . sigillisque dictis examinatis et descriptis per decreti nostri
+      interposicionem transumptum fieri et in hanc publicam formam redegi mandavimus et sigilli
+      nostri appensione ex certa sciencia cum notarii publici infrascripti subscripcione et signo
+      solitis suo fecimus communiri ♦</p>
+            <p n="a#10" xml:space="preserve">Acta sunt hec anno indiccione mense die hora loco pontificatu quibus supra presentibus extunc
+      nobilibus viris et strennuis militibus et dominis <persName>Johanne de Podebusch</persName>
+      <persName>Johanne Důue</persName>
+      <persName>Erico Nicolai</persName>
+      <persName>Hemmingo Koni<ex>n</ex>xm<ex>a</ex>rk</persName>
+      <persName>Laurencio Fynnonis</persName> aliisque quampluribus fidedignis clericis et laycis ad
+      premissa vocatis specialiter et rogatis ♦</p>
+            <p n="a#11" xml:space="preserve"><figure><figDesc>Til venstre herfor Anders Jakobsens notarmærke</figDesc></figure> Et ego
+        <persName>Andreas Jacobi</persName> clericus Sleswicensis diocesis publicus imperiali
+      auctoritate notarius quia predicte littere exhibicioni presentacioni examinacioni
+      auschultacioni et collacioni premissisque omnibus aliis et singulis dum sic ut premittitur
+      coram dicto domino episcopo et cancellario agerentur et fierent una cum prenominatis testibus
+      presens interfui eaque sic fieri vidi et audivi ideoque presens publicum instrumentum per
+      alium me aliis occupato negociis fideliter scriptum exinde confeci publicavi et in hanc
+      publicam formam redegi quam nomine et signo meis solitis et consuetis una
+        <supplied>cum</supplied> supradicti domini episcopi et cancellarii secreti appensione
+      signavi requisitus in fidem et testimonium omnium premissorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

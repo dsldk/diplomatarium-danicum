@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Diplomatarium Danicum</title>
+                <editor>
+                    <name xml:id="pbh">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Bruun Hansen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num
+                    n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>,
+                paragraphs: <num n="paragraphs">1</num>
+            </extent>
+            <publicationStmt>
+                <publisher>Danske Sprog- og Litteraturselskab</publisher>
+                <pubPlace>København</pubPlace>
+                <date>2016</date>
+                <idno type="dd">14310303001</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>empty</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc material="empty">
+                                        <support>
+                                            <ab>empty</ab>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab>empty</ab>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab>empty</ab>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote>
+                                        <ab>empty</ab>
+                                    </handNote>
+                                </handDesc>
+                                <additions>
+                                    <ab>empty</ab>
+                                </additions>
+                                <sealDesc>
+                                    <seal n="0" type="empty">
+                                        <ab>empty</ab>
+                                    </seal>
+                                </sealDesc>
+                            </physDesc>
+                            <history>
+                                <ab>Tabt, refereret i København, RA, Gejstlige arkiver, Lunds
+                                    domkapitel, Lund domkirkes registrant f. 47r (1480'erne, efter
+                                    ældre registrant ført fra 1425), under overskriften
+                                        <q>Indulgencie sancte Lundensis ecclesie</q></ab>
+                            </history>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>Reg. Dan. *5081</bibl>
+                    <bibl>Rep. s. 801 (efter U430)</bibl>
+                    <bibl>SRD VIII s. 456</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <ab>Tekst efter registrant.</ab>
+            </samplingDecl>
+            <projectDesc>
+                <ab>DD-5</ab>
+            </projectDesc>
+            <appInfo>
+                <application xml:id="app_nil" type="nil" subtype="nil" ident="nil"
+                    version="99999999">
+                    <desc>nil</desc>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1431-03-03" notBefore="1433-02-07" notAfter="1447-02-23" cert="low"
+                    >[1431. 3. marts - 1447. 23. februar]<note>I Rep. bemærkes det, at der ikke er
+                        tale om et brev, men "et Referat af alle Lunde Domkirkes Afladsbreve."
+                        Imidlertid må forlægget for dette referat have været et eller flere
+                        afladsbreve udstedt af Eugenius 4. (evt. i form af stadfæstelser af
+                        tidligere pavers afladsbreve), som ikke ellers kendes; for at forlægget
+                        skulle have været de(t) originale afladsbrev(e) taler også det faktum, at
+                        nærværende notits i håndskriftet følges af et andet afladsbrev af Eugenius
+                        4., <ref target="14330207002">DD 1433.7. feb., nr. 14330207002</ref>; idet
+                        brevet eller brevene ikke lader sig nøjere datere, er datoen afgrænset af
+                        Eugenius 4.s pontifikat</note></date>
+                <placeName cert="low">empty</placeName>
+            </creation>
+            <abstract>
+                <ab>Pave Eugenius 4. tilstår 4 års og 160 dages aflad til alle, der besøger Lund
+                    domkirke og rækker en hjælpende hånd til kirkens bygningsfond på følgende
+                    helligdage: Skt. Laurentius' dag, Skt. Knuds dag, juledag, Kristi
+                    omskærelsesdag, helligtrekongersdag, langfredag, påskedag, Kristi
+                    himmelfartsdag, pinsedag, trinitatis, Kristi legemsfest, Mariæ undfangelsesdag,
+                    Mariæ føldselsdag, Mariæ bebudelse, Mariæ besøgelse, Mariæ renselse, Mariæ
+                    himmelfart, det hellige kors' opdagelses- og ophøjelsesdage, dagen for
+                    tornekronen, sankt Hans dag, hver af de tolv apostles dage, hver af de fire
+                    evangelisters dage, hver af de fire hellige kirkelæreres dage, Maria Magdalene
+                    dag, Elisabeth dag, den hellige Birgittas dag, allehelgensdag, alle sjæles
+                    ihukommelsesdag, relikviernes fremviselse, Skt. Nikolaj dag, Mortensdag, Skt.
+                    Marinus' dag, Katarinas dag og Eufrosyne og Florentias dag. Desuden tilstår han
+                    200 dages aflad på alle disse dages ottendedage.</ab>
+            </abstract>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>empty</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-11-10" who="#pbh">Fil oprettet</change>
+            <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+            <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+            <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="nil"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="la">
+                <p n="a#1">Dominus <persName>Eugenius</persName> papa quartus . dat omnibus
+                    christifidelibus vere contritis et confessis . Lundensem ecclesiam devote
+                    visitantibus et ad ejus conservacionem / manus porrigentibus adjutrices in
+                    festis beatorum Laurencii et Kanuti regis . martirum quatuor annos
+                    indulgenciarum et totidem quadragenarum necnon in festis . nativitatis Christi
+                    cirumcisionis . epiphanie . passionis resurrectionis ascensionis . pentecostes .
+                    trinitatis . corporis Christi . concepcionis beate Marie virginis nativitatis
+                    anunciacionis . visitationis . purificacionis et assumpcionis ejusdem . ac eciam
+                    in festis invencionis et exaltacionis sancte crucis et spinee corone Christi .
+                    sed et in festis beatorum . Johannis baptiste . duodecim apostolorum quatuor
+                    ewangelistarum quatuor sanctorum doctorum sanctarumque . Marie Magdalene .
+                    Elizabeth et Birgitte . omnium sanctorum . commemoracionis animarum et
+                    ostensionis reliquiarum &#9830; Eciamque in festis sanctorum Nicolai . Martini .
+                    Marini . <app>
+                        <lem>L</lem>
+                        <rdg>Antagelig fejl for <q>B</q> (<q>= beate</q> eller <q>beatarum</q>)</rdg>
+                    </app> . Katerine <app>
+                        <lem>Eufrosine <supplied>et</supplied> Florencie</lem>
+                        <rdg>Fordi disse to fejres fælles 18. jul. synes det nødvendigt at tilføje
+                                <q>et</q></rdg>
+                    </app> virginum et singulis diebus infradictorum sanctorum octavas ducentos dies
+                    indulgenciarum . perpetuis temporibus</p>
+            </div>
+            <div xml:lang="da">
+                <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende
+                        udarbejde tekster.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

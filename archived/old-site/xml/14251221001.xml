@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">158</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14251221001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Ikke forefundet 2021</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. 3461</bibl>
+               <bibl>SRD VIII, p. 225</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>SRD l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-12-21"
+                  notBefore="1425-12-21"
+                  notAfter="1425-12-21"
+                  cert="high">1425. 21. december</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Væbneren Johan (Gerhardsen) Skelle erklærer, at det gods i Høm i Seem sogn, som hans
+      oldemoders søster fru Gunner i sin tid gav til Løgum kloster, udelukkende tilhører Løgum
+      kloster. Så længe Johan Skelle lever, skal han have det pågældende gods i sin varetægt, men
+      når han er død, skal han eller hans arvinger ikke længere have nogen rettighed til det
+      pågældende gods. Desuden forbyder Johan Skelle andre at tage det pågældende gods i besiddelse
+      uden abbedens tilladelse efter Johan Skelles død.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-03" who="#pbh">Filen etableret af #pbh 2014-07-03. </change>
+         <change when="2021-07-05" who="#smb">1. korrektur af #smb 2021-07-05. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mend thette breff seer eller höre lesse helser ieg <persName>Johan Schelle</persName>
+      webener, oc kundgiör thett alle mend saa wel nerwerende som komme schuldene, ath thet godtz
+      ther ligger y Höm y Seem sogen, thed fru <persName>Gunner</persName> myn oldemothers syster
+      gaff til Lyom closter, thet hörer med alle retthe til forneffnde closter.</p>
+            <p n="a#2" xml:space="preserve">Oc thet schal ieg haffue y mine wære saa lenge som ieg leffuer, oc sithen först ieg er dödt,
+      schal thet godtz ligge oc höre til forneffnde Lugum closter med alle sine tilligelse inthet
+      wndertaget.</p>
+            <p n="a#3" xml:space="preserve">Och forbuder ieg wnder bannd noger mand <app><lem>ath</lem><rdg><q>ad</q>, SRD l.l</rdg></app> beware seg med forsagde godtz, sythen ieg er död, wden abbethens wylie, helst fordy ieg
+      kiendis meg alle myne arffuinge ingen rettighedt <app><lem>ath</lem><rdg><q>ad</q>, SRD l.l</rdg></app> haffue y forneffnde godtz lenger end ieg leffuer.</p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigillum meuem vna cum sigillis honorabilium et discretorum virorum,
+      videlicet dominorum <persName>Andree Brock</persName>, et Andree Falster canonicorum
+      Ripensium, nec non <persName>Joseph Johannis</persName> proconsulis et <persName>Lydechyni
+        Hartleffen</persName> consulis ibidem, presentibus est appensum.</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini MCDXXV, in die Sancti Thomæ.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

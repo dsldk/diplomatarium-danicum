@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14191102002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Reg. Lat. 202 fol. 38r-v</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Antonius. L. 2. non. nov. anno 2. de Ponto</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD VII 243 nr. 5703</bibl>
+               <bibl>Repertorium Germanicum IV nr. 13143</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-11-02"
+                  notBefore="1419-11-02"
+                  notAfter="1419-11-02"
+                  cert="high">1419. 2.
+            november<note>Jf. supplik, <ref target="14190418001">DD 1419. 18. apr., nr.
+              14190418001</ref> og næsten enslydende supplik 31. juli s.å. under samme nummer i Rep.
+            Germ. (2671)</note>
+            </date>
+            <placeName cert="high">Firenze</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. pålægger Johannes (Jean de Brogny), biskop i Ostia og pavelig
+          vicekansler, at foretage ombytningen af Engelbertus Vredelands og Sanderus Bonows
+          sognekirker, således at Engelbertus får sognekirken i Pasewalk i Cammin stift, Sanderus
+          sognekirken i Altenkirchen på Rügen i Roskilde stift, skønt de begge har flere andre
+          embeder i forvejen, Sanderus bl.a. et evigt vikariat i Vilmnitz på Rügen. Ombytningen er
+          betinget af de lægfolks godkendelse, som har patronatsretten til sognekirken i
+          Altenkirchen. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-16" who="#pbh">Filen etableret af #pbh 2014-04-16. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-08-29" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">.. <persName>Johanni</persName> episcopo <placeName>Ostiensi</placeName> s.
+          Romane ecclesie vicecancellario. </p>
+            <p>Apostolice sedis etc. </p>
+            <p>Cum itaque .. <persName>Engelbertus Vredeland</persName> in
+            <placeName>Oldenkerken</placeName> in terra <placeName>Rugie</placeName> et
+            <persName>Sanderus Bonow</persName> opidi <placeName>Pozuwalkensis</placeName>
+               <placeName>Roskildensis</placeName> et <placeName>Caminensis</placeName> diocesium
+          parrochiales ecclesias, quas obtinent, desiderent, sicut asserunt, ex certis
+          rationabilibus causis invicem permutare, nos .. fraternitati tue .. per apostolica scripta
+          mandamus, quatinus .... ecclesiarum predictarum resignationes, si eas sponte facere
+          voluerint, auctoritate nostra hac vice dumtaxat admittas eisque per te admissis in
+          Oldenkerken, que de jure patronatus laicorum existit [fructus 20 mr. arg. puri], si ad id
+          ipsorum patronorum accedat assensus, Sandero, et opidi <app>
+                  <lem>
+                     <supplied>Pozuwalcensis</supplied>
+                  </lem>
+                  <rdg>tilføjet i APD</rdg>
+               </app> [fructus etiam 20 mr. arg. puri] ecclesias antedictas, cum per hujusmodi
+          resignationes vacaverint, etiamsi dispositioni apostolice specialiter reservate existant
+          .., Engelberto prefatis eadem auctoritate conferas ..... non obstantibus, quod Sanderus in
+          s. Nicolai opidi <placeName>Sundensis</placeName> unam et in de
+            <placeName>Vilmenycze</placeName> aliam [fructus 6 mr. arg.] ac Engelbertus predicti, ut
+          asserunt, in dicta s. Nicolai unam necnon in s. Nicolai opidi
+            <placeName>Tanglym</placeName> aliam et in de <placeName>Locze</placeName> aliam ac in
+          de <placeName>Nypercze</placeName>
+               <placeName>Zwerinensis</placeName> et dictarum Roskildensis et Caminensis diocesium
+          parrochialibus ecclesiis aliam [quarum fructus 10 mr. arg.] perpetuas vicarias sine cura
+          noscuntur obtinere. </p>
+            <p>Nostre autem intentionis existit, quod Sandero <app>
+                  <lem>in</lem>
+                  <rdg>herefter gentaget i Aa</rdg>
+               </app> Oldenkerken et Engelberto predictis in opidi Pozuwalcensis ecclesiis prefatis per
+          te illis conferendis, ut prefertur, ex collationibus tuis hujusmodi nullum jus
+          quomodolibet acquiratur, nisi Engelbertus <app>
+                  <lem>in</lem>
+                  <rdg>herefter gentaget i Aa</rdg>
+               </app> Oldenkerken et Sanderus prefati in opidi Pozuwalcensis ecclesiis predictis jus
+          habuerint tempore, quo illas duxerint resignandas. </p>
+            <p>Attente quoque provideas, ne in resignationibus hujusmodi, si fiat ex parte Sanderi vel
+          Engelberti predictorum, aliqua pravitas interveniat seu etiam corruptela. </p>
+            <p>Nos enim exnunc irritum decernimus et inane, si secus super hiis a quoquam quavis
+          auctoritate scienter vel ignoranter contigerit attemptari. </p>
+            <p>Datum <placeName>Florentie</placeName> 4. non. nov. anno 2.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

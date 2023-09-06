@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">313</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14350519001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3198</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10.1 (plica: 1.6)</height>
+                                    <width>23.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>udslidt segl i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Verner Boles segl af lyst voks i perg.rem, <ref>AS F xlix 2</ref></ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>udslidt segl m. skjold i perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>bomærke i perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>segl (forsiden mangler) i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tidligere på Det Svenske Rigsarkiv: Pergamentsbref rörande Danmark: 1.
+      Karton. Afleveret til RA 1929</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>Brocman</collection>
+                        <idno>Misc. 46:20</idno>
+                        <msName>eftermiddelalderlig afskrift</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6762</bibl>
+               <bibl>SDHK nr. 22368</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 170-71</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435-05-19"
+                  notBefore="1435-05-19"
+                  notAfter="1435-05-19"
+                  cert="high">1435. 19. maj</date>
+            <placeName cert="high">Stevns herred</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Niels Jensen i Havnelev får et vidnesbyrd af Stevns herredsting om arveadkomst, som med
+      urette var blevet ham forhindret. Tolv dannemænd vidnede, at Bothild, Niels Jensens hustru, og
+      Kirstine Randels, hendes søster i Odense, er ægte og rette søskende gennem deres moder, og
+      hver af dem havde en dannemand til fader i ægteskab. Disse førnævnte søstre er de rette
+      arvinger efter Bente, som døde i Odense og var deres moster.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-07" who="#pbh">Filen etableret af #pbh 2013-11-07. </change>
+         <change when="2017-06-12" who="#jon">1. korrektur af #jon 2017-06-12. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Alle men th<ex>ett</ex>e b<ex>re</ex>ff see elle hø<ex>r</ex>e helser jech <persName>Jep
+        Beyenss<ex>øn</ex>
+               </persName> ffogh<ex>et</ex> j
+        <placeName>Stewensh<ex>e</ex>r<ex>et</ex>
+               </placeName> j <placeName>Syelend</placeName>
+               <persName>Jep Anderss<ex>øn</ex>
+               </persName> foghet po <placeName>Høghstorp</placeName>
+               <persName>W<ex>er</ex>ner Bole</persName> j <placeName>Skirppinge</placeName>
+               <persName>Anders Swe<ex>n</ex>s<ex>øn</ex>
+               </persName> j
+        <placeName>Hawe<ex>n</ex>løwe</placeName> aff waben <persName>Swen
+        Clawes<ex>øn</ex>
+               </persName>
+               <persName>Jes Peth<ex>e</ex>rs<ex>øn</ex>
+               </persName> rathmen j
+        <placeName>Heddi<ex>n</ex>ge</placeName> och <persName>Ascer
+        Abra<ex>m</ex>s<ex>øn</ex>
+               </persName> j <placeName>Skirppinge</placeName>
+      ewi<ex>n</ex>neligh qwethye m<ex>eth</ex> guth / ♦</p>
+            <p n="a#2">Kungø<ex>r</ex>e wi alle men nerwe<ex>re</ex>nd<ex>es</ex> och
+      ko<ex>m</ex>meskule<ex>n</ex>d<ex>es</ex> ath vnder wors here føthelse aar m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xxx<hi rend="sup">o</hi>v<hi rend="sup">o</hi> then
+      thingdagh nest effter fyerthe søndagh nest effter poske dagh / tha wor skykk<ex>et</ex> foor
+      oos och for<ex>e</ex> fle<ex>re</ex> gothe men som then dagh thing søkte beskethen man
+        <persName>Niels Je<ex>n</ex>ss<ex>øn</ex>
+               </persName> j
+        <placeName>Hawe<ex>n</ex>løwe</placeName> / och beddis it stokkewi<ex>n</ex>ne om en arff so
+      hanu<ex>m</ex> hindrithis fo<ex>r</ex>e m<ex>eth</ex> vrette po ha<ex>n</ex>s husfrwe weyne
+        <persName>Bothild</persName> / ♦</p>
+            <p n="a#3">Tha vtmeltis xij dandemen som her effter stander skreffne / ♦</p>
+            <p n="a#4">
+               <app>
+                  <lem>Først </lem>
+                  <rdg wit="#A">
+                     <q>fførst</q>, A</rdg>
+               </app>
+               <persName>Knwt
+        Boss<ex>øn</ex>
+               </persName> j <placeName>Hawe<ex>n</ex>løwe</placeName>
+               <persName>Sta<ex>m</ex>me Moo<ex>n</ex>s</persName>
+               <persName>Jens Pileman</persName>
+               <persName>Jep Anderss<ex>øn</ex>
+               </persName> boondis j sa<ex>m</ex>me st<ex>eth</ex>
+               <persName>Jryes</persName> j <placeName>Leghestoffte</placeName>
+               <persName>Jens Inguarss<ex>øn</ex>
+               </persName> j <placeName>Lith<ex>e</ex>rsløff</placeName>
+               <persName>Jens Ascerss<ex>øn</ex>
+               </persName> j <placeName>Skirppinge</placeName>
+               <persName>Peth<ex>e</ex>r Smeth</persName> j <placeName>Thorstorp</placeName>
+               <persName>P<ex>er</ex> Bre<ex>m</ex>s</persName> j sa<ex>m</ex>me st<ex>eth</ex>
+               <persName>Knwt Peth<ex>e</ex>rss<ex>øn</ex>
+               </persName> som kall<ex>es</ex>
+               <persName>Wrong</persName> j <placeName>Arnwe</placeName>
+               <persName>Boo Ostrithss<ex>øn</ex>
+               </persName> i sa<ex>m</ex>me st<ex>eth</ex> och
+        <persName>Oleff Je<ex>n</ex>ss<ex>øn</ex>
+               </persName> aff <placeName>Lund</placeName> /
+      ♦</p>
+            <p n="a#5">Thesse for<hi rend="sup">d<ex>e</ex>
+               </hi> beskethne men the jnnen fire thingstokke j gen <app>
+                  <lem>ko<ex>m</ex>me</lem>
+                  <rdg wit="#A">tilføjet over linjen, A</rdg>
+               </app> och stothe och sathe och wi<ex>n</ex>nethe po ther<ex>es</ex> rette troo och
+      se<ex>n</ex>ne<ex>n</ex>de ath for<hi rend="sup">d<ex>e</ex>
+               </hi>
+               <persName>Niels Je<ex>n</ex>ss<ex>øns</ex>
+               </persName> husfruwe och <persName>Kyrstine
+        Randels</persName> j <placeName>Othens</placeName> j <placeName>Fyn</placeName> the ere ekte
+      och rette søsky<ex>n</ex>ne po ther<ex>es</ex> møth<ex>e</ex>rne och hwer ther<ex>e</ex> hathe
+      en da<ex>n</ex>dema<ex>n</ex> til fath<ex>e</ex>r j ekte skap och the for<hi rend="sup">d<ex>e</ex>
+               </hi> søster the er<ex>e</ex> m<ex>eth</ex> rette <persName>Beyenti</persName>s
+      arwi<ex>n</ex>ge hwilken som døthe j <placeName>Othe<ex>n</ex>s</placeName> j
+        <placeName>Fyn</placeName> och wor begg<ex>es</ex> ther<ex>es</ex> moth<ex>e</ex>r
+      søst<ex>er</ex> arui<ex>n</ex>e hwes syele gvth nathe ♦ </p>
+            <p n="a#6">Item ho som for<hi rend="sup">d<ex>e</ex>
+               </hi>
+               <persName>Bothild Nielse</persName> tillegger och straffer he<ex>n</ex>ne aff birth eller aff
+      ekteskap swo ath hun motte ey erwe eller j arff goo m<ex>eth</ex> sin for<hi rend="sup">d<ex>e</ex>
+               </hi> søster / tha hau<ex>er</ex> ha<ex>n</ex> he<ex>n</ex>ne th<ex>et</ex>
+      ou<ex>er</ex> sawt som engen dandeman och hau<ex>er</ex> he<ex>n</ex>ne th<ex>et</ex> til lawt
+      som en retter skak j hoo som ha<ex>n</ex> er / som by och bigd wel bewise mwe / ♦</p>
+            <p n="a#7">Th<ex>ett</ex>e som wi hawe hørt och seet jnnen fire thingstokke th<ex>et</ex> stathfeste wi
+      m<ex>eth</ex> wo<ex>r</ex>e jnseghle / ♦</p>
+            <p n="a#8">Giuet aar och dagh som fo<ex>r</ex>e skrew<ex>et</ex> stander etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

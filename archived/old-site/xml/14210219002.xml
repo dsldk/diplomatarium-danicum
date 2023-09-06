@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">217</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14210219002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2741-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Adresse: <q>Dem allerd{oe}rchluchtixten h{oe}chgeboren v{oe}rsten unde
+        gr{oe}tmechtigen heren, heren Erik to Denemarken, to Sweden unde to Norwegen koninghe unde
+        hertogen to Pomeren etcetera</q>. Desuden bagsidepåskrift: <q>Biscopens breff af Rovel um
+        mesteren aff Liffland orsaghen fore her Johan van Dolens d{oe}t</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Biskop Heinrichs segl, i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret Kalundborgske reg. (1476), trykt ÆA. I 71</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Akten u. Rezesse der Livländischen Ständetage, bd. I, nr. 278, p. 241 (udtog)</bibl>
+               <bibl>Rep. nr. 5895 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Akten und Rezesse l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-02-19"
+                  notBefore="1421-02-19"
+                  notAfter="1421-02-19"
+                  cert="high">1421. 19. februar <note>Udgivet efter Akten u. Rezesse l.l., da A ikke har været tilgængelig for
+    udgiveren i marts 2021. I nærværende brev gentages mutatis mutandis ærkebiskop Johannes Ambundi
+    og biskop Dietrich Reslers brev til kong Erik, <ref target="14210219001">DD 1421. 19. feb.,
+    14210219001</ref>
+               </note>
+            </date>
+            <placeName cert="high">Walk i Livland</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrivelse fra Heinrich (Üxküll), biskop i Reval, til kong Erik 7. af Pommern.</ab>
+            <ab>Heri meddeler han, at den livlandske ordensmester Siegfried Lander v. Spanheim har beklaget
+      sig til alle Livlands stænder over, at han ved kong Eriks hof bliver beskyldt for at have talt
+      fornærmende om kong Erik i forbindelse med sagen om den afdøde hr. Johannes v. Dolen.</ab>
+            <ab>I forlængelse heraf bevidner biskop Heinrich, at den livlandske ordensmester over for ham
+      har bevist, at han er fuldkommen uskyldig. Det står således uden for enhver tvivl, at
+      beskyldningerne imod den livlandske ordensmester er falske.</ab>
+            <ab>Endelig beder biskop Heinrich kong Erik om ikke at tillægge beskyldningerne imod den
+      livlandske ordensmester nogen betydning, eftersom den livlandske ordensmester altid kun har
+      villet det bedste for kong Erik og hans riger.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-06" who="#pbh">Filen etableret af #pbh 2014-05-06. </change>
+         <change when="2021-03-23" who="#smb">1. korrektur af #smb 2021-03-23. </change>
+         <change when="2021-05-11" who="#smb">2. korrektur af #smb 2021-05-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><persName>Hinricus</persName>, van Godes unde des Romeschen st{uo}les gnaden bysschop to
+        <placeName>Revel</placeName> [.....]</p>
+            <p n="a#2" xml:space="preserve">Juwer konninghliker lutersamycheit beghere wy to wetene unde d{oe}n k{uo}nt yn desser
+      scryfft, w{oe} dat d{ye} achbare hochwerdighe here, here <persName>Syfert Lander van
+        Spanh{ee}ym</persName> [.....] yn vorghaderinge unde yeginwordicheit der erwerdighen yn Gode
+      vaderen unde heren, her <persName>Johans</persName> ertzebysschopes to der
+        <placeName>R{ye}ge</placeName>, her <persName>Dyderikes</persName> bysschopes to
+        <placeName>D{ae}rpte</placeName>, erer capyttele, rytterschop unde raden, unser, unses
+      capyttels, rytterschop unde stede desses ghemeynen landes up ghevynge desses breves umme
+      gescheffte unde n{ue}ttes wyllen des sulven landes myt uns tosamende gew{ee}st syn (<q>etc.,
+        mutatis mutandis = <ref target="14210219001">DD 1421. 19. feb., nr.
+      14210219001</ref></q>).</p>
+            <p n="a#3" xml:space="preserve">Myt sodaner beludynghe hefft syk d{ye} sulve erwerdige here meister besunderliken hoch
+      bekummert unde vor allen den erwerdigen vorgenanten unde vor uns, unsem capyttel, rytterschop
+      unde steden van <placeName>Haryen</placeName> unde <placeName>W{ye}rlande</placeName> unde
+      velen guden anderen luden, geistlik unde wertlik, streyngheliken syne unschult [.....]
+      vorantwordet [....], dat sodane worde [.....] yn yenigen steden nye ut synem munde ghegh{ae}n
+      syn [.....].</p>
+            <p n="a#4" xml:space="preserve">Tho eyner {oe}rk{uo}nde unde warheit desser vorgescreven p{uo}ntte hebbe wy
+        <persName>Hinricus</persName> bysschop vorgenant unse secretum heten hangen {ae}n dessen
+      breff.</p>
+            <p n="a#5" xml:space="preserve">Gegeven to <placeName>dem Walke</placeName> n{ae} der gebort Christi v{ee}rt{ee}ynhundert
+      yaer darn{ae} yn deme eyn unde tw{ye}ntigesten yare up den negesten mytweken vor dem
+      s{uo}ndaghe yn der vasten, als men synghet to deme anebeghynne der mysse Oculi mei
+      etcetera.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

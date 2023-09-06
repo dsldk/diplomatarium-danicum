@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14321003002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 316 fol. 207v-209v, gentaget 209v-211v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>An. XXVIII. 5. non. aprilis anno 3. de Adria</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD VII 326 nr. 5812</bibl>
+               <bibl>Repertorium Germanicum V nr. 6381</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-10-03"
+                  notBefore="1432-10-03"
+                  notAfter="1432-10-03"
+                  cert="high">1432. 3.
+            oktober<note>Supplik af samme dato om samme embede (<ref target="14321003001">DD 1432.
+              3. okt., nr. 14321003001</ref>) svarer ikke i indhold til denne bulle, men til supplik
+            af 16. jan. 1433, <ref target="14330116001">DD nr. 14330116001</ref>
+               </note>
+            </date>
+            <placeName cert="high">Rom</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Eugenius 4. pålægger biskoppen i Teramo at træffe afgørelse i processen mellem
+          Mathias Sveni, præst, og Angelus de Ferentino, apostolsk skriver, om evigt vikariat ved
+          Skt. Katharinas alter i Mariekirken i Lübeck, ledigt enten ved Otto Stuctorps død eller
+          ved biskop i Slesvig Nicolaus (Wulfs) frivillige resignation, og at overdrage Ludolphus
+          Rotermunt al Angelus' rettighed til vikariatet samt besiddelsen af det. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-10" who="#pbh">Filen etableret af #pbh 2013-10-10. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2018-04-23" who="#pbh">Regest og udtog</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <persName>Pave Eugenius 4. </persName>pålægger <persName>biskoppen i
+            Teramo</persName> at træffe afgørelse i processen mellem <persName>Mathias
+            Sveni</persName>, præst, og <persName>Angelus de Ferentino</persName>, apostolsk
+          skriver, om evigt vikariat ved <placeName>Skt. Katharinas alter i Mariekirken i
+            Lübeck</placeName>, ledigt enten ved Otto Stuctorps død eller <q>per liberam
+            resignationem .. <persName>Nicolai episcopi Slesvicensis</persName> per eum de illa,
+            quam tunc in minoribus constitutus obtinebat, in manibus .. <persName>Martini pape
+              V</persName> .. sponte factam et per eundem predecessorem admissam</q>, og at
+          overdrage Ludolphus Rotermunt al Angelus' rettighed til vikariatet samt besiddelsen af
+          det.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

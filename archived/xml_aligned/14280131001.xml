@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">143</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14280131001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Urkunden, Externa, Danica</collection>
+                        <idno>nr. 192</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>1. Kong Erik 7. af Pommerns lille segl, DKS. 61. </physDesc>
+                     <history>
+                        <ab>Kong Eriks lejdebrev for de vendiske hansestæders udsendinge. Tilbageleveret fra
+      Sovjetunionen i 1990</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3022-b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 45 × 48.5. </physDesc>
+                     <history>
+                        <ab>Afskrift. Optaget i notarialinstrument med notarpåtegning af Paulus Gumprecht,
+        <ref target="14280417001">DD 1428. 17. apr., nr. 14280417001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3025-a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 60 × 84. </physDesc>
+                     <history>
+                        <ab>Højtyskpræget afskrift. Optaget i notarialinstrument med notarpåtegning af
+      Paulus Gumprecht og Tue Pedersen, <ref target="14280524001">DD 1428. 24. maj, nr.
+        14280524001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ac">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3026-a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 58 × 81. </physDesc>
+                     <history>
+                        <ab>Højtyskpræget afskrift. Optaget i notarialinstrument med notarpåtegning af
+      Johannes Kyndigh, <ref target="14280524001">DD 1428. 24. maj, nr.
+      14280524001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Urkunden, Externa, Danica</collection>
+                        <idno>nr. 191</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>1. Kong Erik 7. af Pommerns lille segl i rødt voks, DKS. 61. </physDesc>
+                     <history>
+                        <ab>Kong Eriks lejdebrev for de holstenske herrers udsendinge dateret 28. januar
+      1428, <ref target="14280128001">DD 1428. 28. jan, nr. 14280128001</ref>. Tilbageleveret fra
+      Sovjetunionen i 1990</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="C">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Kong Eriks lejdebrev for magister Nicolaus Stok. Ikke forefundet
+      2019</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ca">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Urkunden, Externa, Danica</collection>
+                        <idno>nr. 193</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskrift. Optaget i et på foranledning af Johann v. Trempe, biskop i Ratzeburg,
+      udført notarialinstrument. Tilbageleveret fra Sovjetunionen i 1990</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. 102, p. 88-89 (tryk efter B)</bibl>
+               <bibl>UBStL 7, nr. 103, p. 89-90 (tryk efter A)</bibl>
+               <bibl>Hanserec. VIII, nr. 347, p. 235 (udtog efter B)</bibl>
+               <bibl>Hanserecesse VIII, nr. 348, p. 235-236 (tryk efter Ab)</bibl>
+               <bibl>Reg. Dan. nr. *4826 (med forkert datering til 2. februar 1428)</bibl>
+               <bibl>Rep. nr. 6344</bibl>
+               <bibl>Hvitfeld IV 434, Fol. 739 (dansk oversættelse)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-01-31"
+                  notBefore="1428-01-31"
+                  notAfter="1428-01-31"
+                  cert="high">1428. 31. januar</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommerns lejdebrev for de vendiske hansestæders udsendinge til det møde, som
+      skal holdes i Nykøbing på Falster eller i Falsterbo i Skåne mellem på den ene side kong Erik
+      og på den anden side de holstenske herrer og de vendiske hansestæder. </ab>
+            <ab>I lejdebrevet befuldmægtiger kong Erik endvidere den romerske konges udsending Nicolaus Stok
+      til at udsætte mødet, hvis det bliver nødvendigt på grund af vejr og vind. Alle, der er i
+      Nicolaus Stoks selskab eller kommer i hans ærinde, skal være omfattet af lejdet. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-24" who="#pbh">Filen etableret af #pbh 2014-07-24. </change>
+         <change when="2019-01-04" who="#smb">1. korrektur af #smb 2019-01-04. </change>
+         <change when="2019-10-24" who="#smb">2. korrektur af #smb 2019-10-24. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><app><lem>Wy</lem><rdg><q>wy</q>, A, Aa og Ab; <q>wir</q>, Ac</rdg></app>
+      <app><lem>Erik</lem><rdg><q>Erik</q>, A, Aa og Ab; <q>Erich</q>, Ac</rdg></app>
+      <app><lem>van</lem><rdg>ændret efter A; <q>von</q>, Aa, Ab og Ac</rdg></app> Godes gnaden <app><lem>der</lem><rdg>ændret efter A og Ac; <q>de</q>, Aa og Ab</rdg></app>
+      <app><lem>ryke</lem><rdg><q>rike</q>, A og Ab; <q>riche</q>, Ac</rdg></app> Denmarken <app><lem>Zueden</lem><rdg><q>Zueden</q>, Aa og Ab; <q>Sweden</q>, A og Ac</rdg></app>
+      <app><lem>Norweghen</lem><rdg><q>Norweghen</q>, Aa og Ab; <q>Norwegen</q>, A og Ac</rdg></app> der <app><lem>Wende</lem><rdg><q>Wende</q>, A og Aa; <q>Wenden</q>, Ab og Ac</rdg></app>
+      <app><lem>vnde</lem><rdg>ændret efter A og Ab; <q>vnd</q>, Aa og Ac</rdg></app>
+      <app><lem>Gothen</lem><rdg><q>Goten</q>, A, Ab og Ac</rdg></app>
+      <app><lem>koningh</lem><rdg><q>koningh</q>, Aa og Ab; <q>koning</q>, A og Ac</rdg></app>
+      <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>hertogh</lem><rdg><q>hertuch</q>, A; <q>herthoge</q>, Ab; <q>hertzuge</q>, Ac</rdg></app>
+      <app><lem>to</lem><rdg><q>to</q>, A og Aa; <q>zu</q>, Ab; <q>czu</q>, Ac</rdg></app>
+      <app><lem>Pomeren</lem><rdg><q>Pomeren</q>, A og Aa; <q>Pomern</q>, Ab og Ac</rdg></app> etcetera <app><lem>don</lem><rdg>ændret efter A; <q>tun</q>, Aa og Ab; <q>thun</q>, Ac</rdg></app> kunt <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app> bekennen an dessem <app><lem>breue</lem><rdg><q>breue</q>, A, Aa og Ab; <q>briffe</q>, Ac</rdg></app> vor alsweme als de <app><lem>erwerdighe</lem><rdg><q>erwerdighe</q>, A og Ac; <q>erwirdighe</q>, Ab; <q>erwirdghe</q>, Aa</rdg></app>
+      <app><lem>mester</lem><rdg><q>mester</q>, A, Aa og Ab; <q>meister</q>, Ac</rdg></app>
+      <app><lem>Nicolaus</lem><rdg><q>Nicolaus</q>, Aa og Ab; <q>Niclaus</q>, A; <q>Nicholaus</q>, Ac</rdg></app> Stok lerer <app><lem>gestlyker</lem><rdg><q>geistliker</q>, A, Ab og Ac</rdg></app> rechte <app><lem>sendebode</lem><rdg><q>sendebode</q>, A, Aa og Ab; <q>sendebote</q>, Ac</rdg></app> des <app><lem>allerdurchluchtigisten</lem><rdg><q>allerdurchluchtigisten</q>, Aa og Ab; <q>allerdurchluchtigesten</q>, A og Ac</rdg></app>
+      <app><lem>hochgeboren</lem><rdg><q>hochgebornen</q>, A; mangler i Ab og Ac</rdg></app>
+      <app><lem>vorsten</lem><rdg><q>fursten</q>, A, Ab og Ac</rdg></app> hern Sigmundes romischen <app><lem>konighes</lem><rdg><q>koniges</q>, A, Ab og Ac</rdg></app>
+      <app><lem>vnses</lem><rdg><q>vnses</q>, A og Aa; <q>vnsers</q>, Ab og Ac</rdg></app> leuen herren <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app> ohemes mit <app><lem>synen</lem><rdg><q>sinen</q>, A; <q>seinen</q>, Ab; <q>seynen</q>, Ac</rdg></app> breuen <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app> weruen <app><lem>von</lem><rdg>ændret efter A; <q>von</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>syner</lem><rdg><q>siner</q>, A og Ab; <q>seyner</q>, Ac</rdg></app>
+      <app><lem>durchluchtykeyt</lem><rdg><q>durchlucheit</q>, A; <q>durchluchtikeyt</q>, Ab; <q>durchluchticheit</q>, Ac</rdg></app> an vns gesant <app><lem>is</lem><rdg><q>is</q>, A og Aa; <q>es</q>, Ab og Ac</rdg></app> vmme <app><lem>richthunghe</lem><rdg><q>richtunge</q>, A, Ab og Ac</rdg></app>
+      <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app> frede to <app><lem>sprekende</lem><rdg><q>sprekende</q>, A, Aa og Ac; <q>spreckende</q>, Ab</rdg></app>
+      <app><lem>tuschen</lem><rdg><q>tuschen</q>, A, Aa og Ab; <q>czwischen</q>, Ac</rdg></app> vns <app><lem>vnsen</lem><rdg><q>vnsen</q>, A og Aa; <q>vnsern</q>, Ab og Ac</rdg></app>
+      <app><lem>ryken</lem><rdg><q>riken</q>, A; <q>richen</q>, Ab og Ac</rdg></app> landen <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app>
+      <app><lem>lüdhen</lem><rdg><q>lüdhen</q>, Aa; <q>luden</q>, A; <q>luten</q>, Ab; <q>leuten</q>, Ac</rdg></app>
+      <app><lem>van</lem><rdg>ændret efter A; <q>von</q>, Aa, Ab og Ac</rdg></app> der <app><lem>eynen</lem><rdg><q>enen</q>, A; <q>eynen</q>, Aa, Ab og Ac</rdg></app> . <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Ab og Ac</rdg></app> den <app><lem>holzeden</lem><rdg><q>holzeden</q>, A, Aa og Ab; <q>holsten</q>, Ac</rdg></app> heren <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app> den <app><lem>see steden</lem><rdg><q>zeesteden</q>, A; <q>zesteten</q>, Ab og Ac</rdg></app>
+      <app><lem>Lubek</lem><rdg><q>Lubek</q>, Aa og Ac; <q>Lubeke</q>, A; <q>Lubecke</q>, Ab</rdg></app>
+      <app><lem>Hamburg</lem><rdg><q>Hamburg</q>, Aa og Ab; <q>Hamborch</q>, A; <q>Hamburgh</q>, Ac</rdg></app> mit <app><lem>erer</lem><rdg>ændret efter A; <q>jr</q>, Ab; <q>jrer</q>, Aa og Ac</rdg></app>
+      <app><lem>partye</lem><rdg>ændret efter A; <q>partei</q>, Aa og Ab; <q>parteie</q>, Ac</rdg></app>
+      <app><lem>van</lem><rdg>ændret efter A; <q>von</q>, Aa, Ab og Ac</rdg></app> der anderen <app><lem>wegen</lem><rdg><q>wegen</q>, A, Aa og Ab; <q>weghen</q>, Ac</rdg></app>
+      <app><lem>also</lem><rdg><q>also</q>, A, Aa og Ab; <q>alzo</q>, Ac</rdg></app>
+      <app><lem>heft</lem><rdg><q>heft</q>, Aa og Ab; <q>hefft</q>, A og Ac; </rdg></app> de <app><lem>sulue</lem><rdg><q>sulue</q>, A og Ab; <q>zulue</q>, Ac</rdg></app> mester <app><lem>Nicolaus</lem><rdg><q>Nicolaus</q>, Aa; <q>Niclas</q>, A og Ab; <q>Nicholaus</q>, Ac</rdg></app>
+      <app><lem>nw</lem><rdg><q>nw</q>, A og Ac; <q>nu</q>, Ab</rdg></app>
+      <app><lem>enes daghes</lem><rdg><q>enes daghes</q>, A, Aa og Ab; <q>eyns tages</q>, Ac</rdg></app>
+      <app><lem>tuschen</lem><rdg><q>tuschen</q>, A, Aa og Ab; <q>twischen</q>, Ac</rdg></app> vns <app><lem>beyden</lem><rdg><q>beyden</q>, A, Aa og Ab; <q>beiten</q>, Ac</rdg></app>
+      <app><lem>delen</lem><rdg>ændret efter A; <q>teylen</q>, Aa og Ab; <q>teilen</q>, Ac</rdg></app> vorramet <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>vpp genomen</lem><rdg><q>vpp genomen</q>, Aa og Ab; <q>vppgenomen</q>, A; <q>vpgenomen</q>, Ac</rdg></app> to <app><lem>holdende</lem><rdg><q>holdende</q>, A, Aa og Ab; <q>holende</q>, Ac</rdg></app>
+      <app><lem>vpp</lem><rdg><q>vpp</q>, Aa; <q>vppe</q>, A; <q>auff</q>, Ab og Ac</rdg></app> den <app><lem>sondagh</lem><rdg><q>sondagh</q>, Aa; <q>sondach</q>, A; <q>sontag</q>, Ab; <q>zontage</q>, Ac</rdg></app> letare <app><lem>to</lem><rdg><q>to</q>, A og Aa; <q>zu</q>, Ab og Ac</rdg></app>
+      <app><lem>metefasten</lem><rdg><q>metefasten</q>, Aa; <q>midfasten</q>, A; <q>metefaste</q>, Ab; <q>metfaste</q>,
+          Ac</rdg></app>
+      <app><lem>neghst</lem><rdg><q>neghst</q>, Aa; <q>negst</q>, Ab og Ac; <q>negest</q>, A</rdg></app> komende <app><lem>to</lem><rdg>ændret efter A; <q>zu</q>, Ab; <q>czu</q>, Ac</rdg></app>
+      <app><lem>Nucopungk</lem><rdg><q>Nucopungk</q>, Aa; <q>N{uo}copunghe</q>, A; <q>Nucopugk</q>, Ab; <q>Nicopinge</q>,
+          Ac</rdg></app>
+      <app><lem>in</lem><rdg><q>in</q>, A, Aa og Ab; <q>czu</q>, Ac</rdg></app>
+      <placeName>Ffalster</placeName>
+      <app><lem>edder</lem><rdg><q>edder</q>, A, Aa og Ab; <q>adir</q>, Ac</rdg></app> to Ffalsterbode in <app><lem>Schone</lem><rdg><q>Schone</q>, A, Aa og Ac; <q>Schon</q>, Ab</rdg></app> . <app><lem>to</lem><rdg><q>to</q>, A, Aa og Ab; <q>czu</q>, Ac</rdg></app>
+      <app><lem>vorsukende</lem><rdg><q>vorsukende</q>, A, Aa og Ab; <q>vorsuchende</q>, Ac</rdg></app> vfft he <app><lem>alsulken</lem><rdg><q>alsulken</q>, Aa og Ab; <q>alsulke</q>, A; <q>alzulche</q>, Ac</rdg></app> frede <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app> richtunge <app><lem>gedeghedinghen</lem><rdg><q>gedeghedinghen</q>, Aa; <q>gededingen</q>, A og Ab; <q>gededinge</q>, Ac</rdg></app>
+      <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app> machen kone / als <app><lem>he</lem><rdg><q>he</q>, A og Ac; <q>her</q>, Ab</rdg></app>
+      <app><lem>dorumme</lem><rdg><q>dorumme</q>, Aa og Ab; <q>darumme</q>, A; <q>dar vmme</q>, Ac</rdg></app>
+      <app><lem>vt gesant</lem><rdg><q>vt gesant</q>, A, Aa og Ab; <q>ausz gesant</q>, Ac</rdg></app>
+      <app><lem>is</lem><rdg><q>is</q>, A og Aa; <q>es</q>, Ab og Ac</rdg></app> . / ♦</p>
+            <p n="a#2" xml:space="preserve">Were <app><lem>ok</lem><rdg><q>ok</q>, A, Aa og Ab; <q>auch</q>, Ac</rdg></app>
+      <app><lem>dat</lem><rdg><q>dat</q>, A, Aa og Ab; <q>dacz</q>, Ac</rdg></app>
+      <app><lem>sik</lem><rdg><q>sik</q>, A, Aa og Ab; <q>zyk</q>, Ac</rdg></app>
+      <app><lem>de</lem><rdg><q>de</q>, A og Aa; <q>dy</q>, Ab og Ac</rdg></app>
+      <app><lem>vorramede</lem><rdg><q>vorramede</q>, A, Aa og Ab; <q>vorramete</q>, Ac</rdg></app>
+      <app><lem>tijd</lem><rdg><q>tijd</q>, A, Aa og Ab; <q>czit</q>, Ac</rdg></app>
+      <app><lem>des daghes</lem><rdg><q>des daghes</q>, A og Aa; <q>des tages</q>, Ab og Ac</rdg></app>
+      <app><lem>van</lem><rdg>ændret efter A; <q>von</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>wedderes</lem><rdg><q>wedderes</q>, Aa og Ab; <q>wedders</q>, A og Ac</rdg></app>
+      <app><lem>not</lem><rdg><q>not</q>, A, Aa og Ab; <q>noet</q>, Ac</rdg></app>
+      <app><lem>vffte</lem><rdg><q>vffte</q>, Aa og Ab; <q>offte</q>, A og Ac</rdg></app>
+      <app><lem>van</lem><rdg>ændret efter A; <q>von</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>anderen notsaken</lem><rdg><q>anderen notsaken</q>, Aa; <q>anderen notsacken</q>, Ab; <q>anderen noetzachen</q>,
+          Ac; <q>anderer notsake</q>, A</rdg></app>
+      <app><lem>wegen</lem><rdg><q>wegen</q>, A, Aa og Ab; <q>wegen</q>, Ac</rdg></app> vortogherde <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app>
+      <app><lem>mester</lem><rdg><q>mester</q>, A, Aa og Ab; <q>meister</q>, Ac</rdg></app>
+      <app><lem>Niclas</lem><rdg><q>Niclas</q>, A, Aa og Ab; <q>Niclaus</q>, Ac</rdg></app> vorbenomed <app><lem>enes</lem><rdg><q>enes</q>, A, Aa og Ab; <q>eynes</q>, Ac</rdg></app> anderen <app><lem>moghelyken</lem><rdg><q>moghelyken</q>, Aa; <q>mogeliken</q>, A og Ab; <q>mogelichen</q>, Ac</rdg></app>
+      <app><lem>daghes</lem><rdg><q>daghes</q>, A, Aa og Ab; <q>tages</q>, Ac</rdg></app> . <app><lem>als</lem><rdg><q>als</q>, A, Aa og Ab; <q>alse</q>, Ac</rdg></app>
+      <app><lem>vpp</lem><rdg><q>vpp</q>, Aa og Ab; <q>vppe</q>, A; <q>auff</q>, Ac</rdg></app>
+      <app><lem>vierczhehen</lem><rdg><q>vierczhehen</q>, Aa; <q>vierczehen</q>, Ab; <q>xiiij</q>, A og Ac</rdg></app>
+      <app><lem>daghe</lem><rdg><q>daghe</q>, A og Aa; <q>taghe</q>, Ab; <q>tage</q>, Ac</rdg></app>
+      <app><lem>edder</lem><rdg><q>edder</q>, A og Aa; <q>ader</q>, Ab; <q>adir</q>, Ac</rdg></app>
+      <app><lem>drei</lem><rdg><q>drei</q>, Aa og Ab; <q>iij</q>, A og Ac</rdg></app>
+      <app><lem>wekene</lem><rdg><q>wekene</q>, Aa; <q>weken</q>, A; <q>wecken</q>, Ab; <q>wochen</q>, Ac</rdg></app>
+      <app><lem>edder</lem><rdg><q>edder</q>, A og Aa; <q>ader</q>, Ab; <q>adir</q>, Ac</rdg></app>
+      <app><lem>vier</lem><rdg><q>vier</q>, Aa og Ab; <q>iiij</q>, A og Aa</rdg></app>
+      <app><lem>na</lem><rdg><q>na</q>, A og Aa; <q>nach</q>, Ab og Ac</rdg></app>
+      <app><lem>paschken</lem><rdg><q>paschken</q>, Aa og Ab; <q>paschen</q>, A; <q>ostern</q>, Ac</rdg></app>
+      <app><lem>neghst</lem><rdg><q>neghst</q>, Aa; <q>negest</q>, A; <q>negst</q>, Ab og Ac</rdg></app> komende vort vorramede / des <app><lem>schol</lem><rdg><q>schol</q>, Aa og Ab; <q>scul</q>, A; <q>zal</q>, Ac</rdg></app> he <app><lem>van</lem><rdg>ændret efter A; <q>von</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>vnsen</lem><rdg><q>vnsen</q>, Aa; <q>vnser</q>, A; <q>vnsern</q>, Ab og Ac</rdg></app> wegen <app><lem>wol mechtig</lem><rdg><q>wol mechtig</q>, Aa og Ab; <q>wulmechtich</q>, A; <q>wol mechtigh</q>, Ac</rdg></app>
+      <app><lem>sin</lem><rdg><q>sin</q>, A og Aa; <q>sein</q>, Ab og Ac</rdg></app> ♦</p>
+            <p n="a#3" xml:space="preserve"><app><lem>Vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app> de <app><lem>heren</lem><rdg><q>heren</q>, A, Aa og Ac; <q>herren</q>, Ab</rdg></app>
+      <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>stede</lem><rdg><q>stede</q>, A, Aa og Ab; <q>stete</q>, Ac</rdg></app> vorgenannt mit <app><lem>alle</lem><rdg><q>alle</q>, A, Aa og Ab; <q>allen</q>, Ac</rdg></app> den <app><lem>eren</lem><rdg>ændret efter A; <q>jren</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app>
+      <app><lem>alle</lem><rdg><q>alle</q>, A, Aa og Ab; <q>allen</q>, Ac</rdg></app> den <app><lem>jenen</lem><rdg><q>jenen</q>, Aa og Ab; <q>yennen</q>, A; <q>ghenen</q>, Ac</rdg></app> de se <app><lem>vpp</lem><rdg><q>vpp</q>, A, Aa og Ac; <q>vp</q>, Ab</rdg></app>
+      <app><lem>alsulken</lem><rdg><q>alsulken</q>, A, Aa og Ab; <q>sulchen</q>, Ac</rdg></app>
+      <app><lem>dagh</lem><rdg><q>dagh</q>, Aa, Ab og Ac; <q>dach</q>, A</rdg></app> mit <app><lem>sik</lem><rdg><q>sik</q>, A, Aa og Ab; <q>sich</q>, Ac</rdg></app> bringende werden <app><lem>scolet</lem><rdg><q>scholet</q>, Aa; <q>scolet</q>, A og Ab; <q>zolet</q>, Ac</rdg></app> in <app><lem>sekerem</lem><rdg><q>sekerem</q>, A, Aa og Ab; <q>sechrem</q>, Ac</rdg></app>
+      <app><lem>leyde</lem><rdg><q>leyde</q>, A, Aa og Ab; <q>leide</q>, Ac</rdg></app>
+      <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app>
+      <app><lem>velicheyt</lem><rdg><q>velicheyt</q>, Aa og Ab; <q>velicheit</q>, A og Ac; </rdg></app> vor waret <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>geleydet</lem><rdg><q>geleydet</q>, A, Aa og Ab; <q>geleidet</q>, Ac</rdg></app> sin to <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app>
+      <app><lem>aff</lem><rdg><q>aff</q>, A, Aa og Ac; <q>haff</q>, Ab</rdg></app> in <app><lem>ere</lem><rdg>ændret efter A; <q>jre</q>, Aa og Ab; <q>jr</q>, Ac</rdg></app> beholt vor vns vnse <app><lem>ryke</lem><rdg><q>ryke</q>, Aa; <q>rike</q>, A og Ab; <q>riche</q>, Ac</rdg></app>
+      <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app> alle de <app><lem>vnsen</lem><rdg><q>vnsen</q>, A og Aa; <q>vnser</q>, Ab og Ac</rdg></app> de vmme <app><lem>vnsen</lem><rdg><q>vnsen</q>, A, Aa og Ab; <q>vnser</q>, Ac</rdg></app> willen <app><lem>don</lem><rdg>ændret efter A og Ac; <q>tun</q>, Aa og Ab</rdg></app>
+      <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app> laten <app><lem>schollen</lem><rdg><q>schollen</q>, Aa; <q>scolen</q>, A; <q>sollen</q>, Ab; <q>zullen</q>, Ac</rdg></app>
+      <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>willen</lem><rdg>ændret efter A og Ac; <q>wellen</q>, Aa og Ab</rdg></app> sunder <app><lem>argh</lem><rdg><q>argh</q>, Aa; <q>arch</q>, A og Ac; <q>arg</q>, Ab</rdg></app> / ♦</p>
+            <p n="a#4" xml:space="preserve">Wurde <app><lem>ouer</lem><rdg><q>ouer</q>, A og Aa; <q>auer</q>, Ab; <q>ower</q>, Ac</rdg></app>
+      <app><lem>sake</lem><rdg><q>sake</q>, A og Aa; <q>sacke</q>, Ab; <q>zache</q>, Ac</rdg></app>
+      <app><lem>dat</lem><rdg><q>dat</q>, A og Aa; <q>das</q>, Ab; <q>dacz</q>, Ac</rdg></app>
+      <app><lem>mester</lem><rdg><q>mester</q>, A, Aa og Ab; <q>meister</q>, Ac; <q>mester</q>, A og Ab</rdg></app>
+      <app><lem>Niclas</lem><rdg><q>Niclas</q>, Aa og Ab; <q>Niclaus</q>, A og Ac</rdg></app> vorbenomet <app><lem>van</lem><rdg>ændret efter A; <q>von</q>, Aa, Ab og Ac</rdg></app> des <app><lem>hillighen</lem><rdg><q>hillighen</q>, Aa; <q>hilligen</q>, A; <q>heyligen</q>, Ab; <q>heiligen</q>,
+          Ac</rdg></app>
+      <app><lem>rykes</lem><rdg><q>rykes</q>, Aa; <q>rikes</q>, A; <q>richs</q>, Ab og Ac</rdg></app>
+      <app><lem>weghen</lem><rdg><q>weghen</q>, Aa; <q>wegen</q>, A, Ab og Ac</rdg></app>
+      <app><lem>vffte</lem><rdg><q>vffte</q>, A og Aa; <q>vfte</q>, Ab; <q>offte</q>, Ac</rdg></app>
+      <app><lem>siner</lem><rdg><q>siner</q>, Aa; <q>syner</q>, A og Ac; <q>seiner</q>, Ab</rdg></app> egenen mit <app><lem>yemande</lem><rdg><q>yemande</q>, Aa; <q>iemande</q>, A og Ab; <q>gemande</q>, Ac</rdg></app>
+      <app><lem>vormochte</lem><rdg><q>vormochte</q>, Aa, Ab og Ac; <q>vormuchte</q>, A</rdg></app> . de <app><lem>hijr</lem><rdg>ændret efter A; <q>he</q>, Aa, Ab og Ac</rdg></app> mit <app><lem>em</lem><rdg>ændret efter A; <q>jm</q>, Aa, Ab og Ac</rdg></app> ouer vore edder <app><lem>vmme</lem><rdg><q>vmme</q>, A, Aa og Ab; <q>vm</q>, Ac</rdg></app>
+      <app><lem>sinen</lem><rdg><q>sinen</q>, Aa; <q>synen</q>, A og Ab; <q>seinen</q>, Ac</rdg></app> willen anders . <app><lem>her</lem><rdg><q>her</q>, Aa, Ab og Ac<q>here</q>, A</rdg></app> queme <app><lem>van</lem><rdg>ændret efter A; <q>von</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>wanne</lem><rdg><q>wanne</q>, Aa og Ab;<q>wenne</q>, A; mangler i Ac<q/></rdg></app>
+      <app><lem>id</lem><rdg><q>id</q>, Aa, Ab og Ac; <q>yt</q>, A</rdg></app> were de <app><lem>em</lem><rdg>ændret efter A; <q>jm</q>, Aa, Ab og Ac</rdg></app> hulpe <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab; <q>vnd vnd</q>, Ac</rdg></app>
+      <app><lem>rat</lem><rdg><q>rat</q>, Aa, Ab og Ac; <q>rad</q>, A</rdg></app> to <app><lem>desser</lem><rdg><q>desser</q>, A, Aa og Ab; <q>disser</q>, Ac</rdg></app>
+      <app><lem>richtunghe</lem><rdg><q>richtunghe</q>, A, Aa og Ab; <q>richtunge</q>, Ac</rdg></app> mede <app><lem>deylen</lem><rdg><q>deylen</q>, Aa og Ab; <q>delen</q>, A; <q>deilen</q>, Ac</rdg></app> wolde <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app> dede / de <app><lem>schollet</lem><rdg><q>schollet</q>, Aa; <q>scolet</q>, A, Ab og Ac</rdg></app> des <app><lem>glykes</lem><rdg><q>glykes</q>, Aa; <q>gelikes</q>, A; <q>glikes</q>, Ab; <q>geliches</q>, Ac</rdg></app>
+      <app><lem>ok</lem><rdg><q>ok</q>, A, Aa og Ab; <q>ouch</q>, Ac</rdg></app> geuelighet <app><lem>vnde</lem><rdg>ændret efter A; <q>vnd</q>, Aa, Ab og Ac</rdg></app>
+      <app><lem>gheleydet</lem><rdg><q>gheleydet</q>, Aa; <q>geleydet</q>, A og Ab; <q>geleidet</q>, Ac</rdg></app>
+      <app><lem>sin</lem><rdg><q>sin</q>, A og Aa; <q>sein</q>, Ab; <q>syn</q>, Ac</rdg></app> vor vns <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app> alle de vnsen . de vmme <app><lem>vnsen</lem><rdg><q>vnsen</q>, A, Aa og Ab; <q>vnse</q>, Ac</rdg></app> willen <app><lem>don</lem><rdg>ændret efter A og Ac; <q>dun</q>, Ab; <q>tun</q>, Aa</rdg></app>
+      <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app> laten <app><lem>schollen</lem><rdg><q>schollen</q>, Aa og Ab; <q>scolen</q>, A og Ac</rdg></app>
+      <app><lem>vnde</lem><rdg><q>vnde</q>, A og Aa; <q>vnd</q>, Ab og Ac</rdg></app>
+      <app><lem>willen</lem><rdg>ændret efter A og Ac; <q>wellen</q>, Ab; <q>welden</q>, Aa</rdg></app> sunder <app><lem>arg</lem><rdg><q>arg</q>, A, Aa og Ab; <q>arch</q>, Ac</rdg></app> ♦</p>
+            <p n="a#5" xml:space="preserve"><app><lem>Schreuen</lem><rdg><q>schreuen</q>, Aa og Ab; <q>screuen</q>, A og Ac</rdg></app> to <app><lem>Coppenhafen</lem><rdg><q>Coppenhafen</q>, Aa og Ab; <q>Kopenhauen</q>, A og Ac</rdg></app> na Godes <app><lem>bord</lem><rdg><q>bord</q>, A, Aa og Ab; <q>bort</q>, Ac</rdg></app>
+      <app><lem>m cccc xxviij</lem><rdg><q>m cccc xxviij</q>, Aa; <q>m cd xxviij</q>, A; <q>m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xxviij</q>, Ac; <q>m<hi rend="sup">o</hi> cccc<hi rend="sup">o</hi> xxviij</q>, Ab</rdg></app> des <app><lem>sonavendes</lem><rdg><q>sonavendes</q>, Aa og Ab; <q>sonnauendes</q>, A; <q>sonauendes</q>, Ac</rdg></app> vor Vnser <app><lem>Leuen</lem><rdg><q>Leuen</q>, A, Aa og Ac; <q>Liben</q>, Ab</rdg></app>
+      <app><lem>Frawen</lem><rdg><q>Frawen</q>, Aa og Ab; <q>Vrowen</q>, A og Ac</rdg></app>
+      <app><lem>dagh</lem><rdg><q>dagh</q>, Aa, Ab og Ac; <q>daghe</q>, A</rdg></app> to <app><lem>lichtmisse</lem><rdg><q>lichtmisse</q>, Aa og Ac; <q>lichtmissen</q>, A; <q>lichtmesse</q>, Ab; </rdg></app> vnder <app><lem>vnsem</lem><rdg><q>vnsem</q>, A, Aa og Ac; <q>vnsen</q>, Ab</rdg></app> secrete ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

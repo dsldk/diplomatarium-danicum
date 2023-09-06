@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">160</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14390824001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Slesvig</settlement>
+                        <repository>Landesarchiv Schleswig-Holstein</repository>
+                        <collection>Urk.-Abt. 1</collection>
+                        <idno>Nr. 77 (tidligere arkivsign. Gemeinsch. Archiv Cap. VIII Nr. 1)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Den romerske konge Albrechts påtrykte segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Stemann, Geschichte d. öffentlichen u. Privat-Rechts d. Herzogthums Schleswig III, nr. 41,
+      p. 61-62</bibl>
+               <bibl>Reg. Dan. nr. *5236</bibl>
+               <bibl>Regesta Imperii XII. Albrecht II. (1438-1439), nr. 1135, p. 263</bibl>
+               <bibl>UBStL 7, nr. DCCCVII, p. 818-819</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter UBStL l.l. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1439-08-24"
+                  notBefore="1439-08-24"
+                  notAfter="1439-08-24"
+                  cert="high">1439. 24. august</date>
+            <placeName cert="high">Feltlejren ved floden Theiss</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Den romerske konge Albrecht optager Adolf 8., hertug af Slesvig, i Lindormeordnen og sender
+      ham det dertil hørende kors.</ab>
+            <ab>Endvidere giver Albrecht Adolf bemyndigelse til at optage forskellige af hans riddere samt
+      borgmestrene og en rådmand i Lübeck i Lindeormeordenen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-17" who="#pbh">Filen etableret af #pbh 2013-12-17. </change>
+         <change when="2020-08-03" who="#smb">1. korrektur af #smb 2020-08-03. </change>
+         <change when="2020-10-16" who="#smb">2. korrektur af #smb 2020-10-16. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Wir <persName>Albrecht</persName>, von Gots gnaden Romischer kunig, zu allen zeiten merer des
+      reichs, vnd zu <placeName>Hungern</placeName>, zu <placeName>Behem</placeName>,
+        <placeName>Dalmacien</placeName>, <placeName>Croacien</placeName> etcetera kunig vnd herczog
+      zu <placeName>Osterreich</placeName>, embieten dem hochgebornen <persName>Adolffen</persName>,
+      herczogen zu <placeName>Slesewick</placeName>, vnserm lieben oheim vnd fursten, vnser gnad vnd
+      alles gut.</p>
+            <p n="a#2" xml:space="preserve">Hochgeborner lieber oheim vnd furste.</p>
+            <p n="a#3" xml:space="preserve">Soliche erbietung vnd tr{uo}e, so vns dine liebe durch den erwirdigen
+        <persName>Johan</persName>, bischof zu <placeName>Lubecke</placeName>, vnsern rat vnd lieben
+      andechtigen, hat emboten vnd erczellen lassen, haben wir von im gutlich vfgenomen vnd auch wol
+      verstanden, daruff wir diner liebe widerumb zumal fleissiclich dancken, vnd wollen auch eins
+      solichen in gute nymer vergessen, sunder gnediclich erkennen.</p>
+            <p n="a#4" xml:space="preserve">Vnd zu einem zeichen vnsers g{uo}tigen willens, den wir zu dir tragen, so schicken wir dir by
+      dem obgenanten bischoffe vnser geselschaft mit namen den Lintworm [.....]</p>
+            <p n="a#5" xml:space="preserve">[.....]</p>
+            <p n="a#6" xml:space="preserve">Geben im felde an der <placeName>Teysz</placeName>, versigelt mit vnserm kuniglichen
+      vfgedrucktem insigel nach Cristi geburt viertzehenhundert jar vnd darnach im
+      newnundreissigisten jare, an sant Bartholomes tag des heiligen zwelfboten, vnser reiche im
+      andern jar.</p>
+            <p n="a#7" xml:space="preserve">Ad mandatum domini Regis <persName>Hermannus Hecht</persName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

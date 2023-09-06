@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">3753</num>, paragraphs: <num n="paragraphs">26</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14280912001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>TKUA: Afskrifter af akter og dokumenter vedrørende det politiske forhold til Hansestæderne (1369-1507)</collection>
+                        <idno>Hansestæderne A II: Fremstilling af striden med hansestæderne, som kong Erik af Pommern lod oplæse i Nykøbing, 1428 (tidligere RA. Hansestæderne 44a)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Bagsidepåskrift: <q>The articule som myn herre lot forkundighe j Nik{oe}pink
+        for hertug Wilhelm æmot stætherne anno viij infra octavam nativit. b.
+      virginis</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Papirsrulle, sammensat af 7 sammensyede stykker</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>TKUA: Afskrifter af akter og dokumenter vedrørende det politiske forhold til Hansestæderne (1369-1507)</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. </physDesc>
+                     <history>
+                        <ab>Højtysk udgave med latinske indholdsangivelser i margen, se <ref target="14280912002">DD 1428. 12.-18. sep., nr. 14280912002</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. U450</bibl>
+               <bibl>Hanserec. VIII, nr. 517, p. 338-345</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-09-12"
+                  notBefore="1428-09-12"
+                  notAfter="1428-09-12"
+                  cert="low">1428. 12. september</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommerns anklage mod hansestæderne Lübeck, Rostock, Stralsund, Wismar og
+      Lüneburg forelagt for hertug Wilhelm af Braunschweig ved fredsmødet i Nykøbing i 1428.
+      Erklæringen indeholder følgende 17 punkter: </ab>
+            <ab>1) Da der i året 1423 ved Heinrich Rumpoldts mægling var kommet forhandlinger i stand mellem
+      kong Erik og holstenerne i Flensborg, sendte hansestæderne deres udsendinge til kong Erik for
+      at meddele ham, at hansestæderne ønskede at indgå en evig fredsaftale med ham. Imidlertid
+      afslog kong Erik i første omgang dette, da det på daværende tidspunkt forekom ham ubelejligt.
+      Da hansestædernes udsendinge på ny havde været hos kong Erik for at læse et udkast til en
+      sådan evig fredsaftale højt for kongen, aftaltes det, at begge parter skulle beholde en udgave
+      af dette skrift, og at man skulle drøfte aftalen på et møde til sankthans samme år i
+      København. Da hansestædernes udsendinge ankom til København, meddelte de kong Erik, at de
+      stadig ønskede at indgå en evig fredsaftale med kong Erik. Kong Erik indvilgede heri, idet han
+      gav hansestæderne sit åbne brev indeholdende aftalen. Endvidere blev det i den forbindelse
+      aftalt, at begge parter skulle yde hinanden bistand, såfremt den ene part blev forulempet af
+      en tredjepart, f.eks. en fyrste eller en herre. </ab>
+            <ab>2) Den førnævnte aftale blev indgået, efter kong Erik både ved hjælp af den romerske konges
+      åbne breve og mundtligt havde bedt hansestæderne om den hjælp imod de holstenske herrer, som
+      hansestæderne over for kong Erik havde forpligtet sig til at yde. </ab>
+            <ab>3) Endvidere kan hansestæderne ikke bevise, at de var taget til mødet i København for at
+      aflevere deres klager mod kong Erik, således som aftalen ellers foreskriver. Derimod klagede
+      hansestædernes udsendinge over, at kong Erik har indkaldt dem for at skade dem, da de sidst
+      var i Vordingborg. Dette skete altså inden fejden. Til denne klage svarede kong Erik, at han
+      ikke havde gjort det for at skade dem. Alt, hvad kong Erik havde gjort, var gjort i nødværge,
+      men for at hans folk skulle kunne få varer inden for kort tid, tillod han hansestæderne at
+      rejse til alle kongens lande med deres varer. Desuden gav kong Erik sine folk besked om, at
+      ingen måtte hindre eller skade hansekøbmændene. </ab>
+            <ab>4) Derefter gik kong Erik ud fra, at han ville få hjælp af hansestæderne i sagen om
+      Sønderjylland, men efter det tidspunkt, hvor kong Erik bad om hansestædernes hjælp samt
+      henstillede til, at de var ham mægtige til ret, sendte de deres folk hen til de holstenske
+      herrer for at spørge dem, om de holstenske herrer ville være hansestæderne mægtige til ret.
+      Herefter kunne hverken kong Erik eller hans råd få at vide af hansestæderne, om de ville være
+      kong Erik eller de holstenske herrer mægtige til ret, men på vegne af kong Erik sagde kongens
+      råd til hansestædernes udsendinge, at kong Erik ville indstille krigen med det samme, hvis
+      hansestæderne forpligtede sig til at være de holstenske herrer mægtige til ret. Hertil svarede
+      hansestædernes udsendinge imidlertid, at de ikke havde fået det i opdrag, men at de ønskede at
+      drøfte sagen med kong Erik. Herefter rejste hansestædernes udsendinge til Flensborg, men da de
+      mødtes med kong Erik, nævnte de ikke sagen med et ord. Derimod bad de på vegne af alle
+      hansestæderne kong Erik om at lade de holstenske herrer få Sønderjylland. Hertil svarede kong
+      Erik, at det ikke var belejligt for ham, og endvidere henstillede han til, at hansestæderne
+      gjorde, hvad de havde forpligtet sig til over for kongen. Hertil svarede hansestædernes
+      udsendinge imidlertid, at de nu ville ride hen til de holstenske herrer for at høre, hvordan
+      de ville forholde sig, og endelig ville de konsultere hansestæderne. Først herefter ville de
+      kunne give kong Erik et ordentligt svar. Dette svar kom imidlertid aldrig, for hansestæderne
+      sendte umiddelbart herefter deres fejdebreve til kong Erik, hvorved de blev kongens
+      fjender. </ab>
+            <ab>5) Da hansestæderne var blevet kong Eriks fjender, sendte kong Erik sine udsendinge til sine
+      slægtninge, hertugerne af Pommern, og derefter til højmesteren for Den Tyske Orden for at
+      spørge, om de ville prøve at formå hansestæderne til at gøre den skade, som de havde påført
+      kong Erik ved at føre krig mod ham, god igen. Således mødtes hertugerne af Pommern med
+      hansestæderne i Øresund, men hansestæderne afslog at gøre skaden god igen, eftersom de mente,
+      at kong Erik først skulle kompensere dem for den skade, som kongens fogeder og embedsmænd
+      havde påført dem. </ab>
+            <ab>6) Endvidere opfordrede højmesteren for Den Tyske Orden på kong Eriks vegne hansestædernes
+      udsendinge til at være kong Erik mægtige til ret, men hansestædernes udsendinge nægtede dette,
+      da det ikke var blevet givet dem i opdrag af deres respektive stæder at træffe sådanne
+      beslutninger. De ville imidlertid gerne overbringe oplysningen til deres respektive stæder.
+      Endelig meddelte de, at højmesteren selv måtte sende udsendinge til hansestæderne, såfremt han
+      ønskede at drøfte sagen yderligere med hansestæderne. Herpå sendte højmesteren sin marskal
+      samt andre hæderlige folk fra Den Tyske Orden og fra Den Tyske Ordens byer. Højmesterens folk
+      fik derefter arrangeret det således med hansestæderne, at der skulle holdes et møde, og at
+      hansestæderne ville lade højmesteren afgøre sagen, hvilket kong Erik i højmesterens nærværelse
+      indvilgede i. Da højmesteren var rejst fra kong Erik, fik kongen et brev fra højmesteren,
+      hvori han skrev, at hansestæderne nu alligevel ikke ville holde et møde om sagen med kong
+      Erik, såfremt kongen ikke ville lade de holstenske herrer få Gottorp og Sønderjylland. </ab>
+            <ab>7) Endvidere har kong Erik ved hjælp af en udsending forsøgt at overbringe hansestæderne den
+      meddelelse, at han stadig var parat til at lade sagen afgøre ved retten, men hansestæderne gav
+      ham kun hånlige svar herpå. </ab>
+            <ab>8) Herefter sendte den romerske konge sin mægler Nicolaus Stok til hansestæderne for at få
+      en aftale i stand mellem kong Erik på den ene side og hansestæderne og de holstenske herrer på
+      den anden side. Det blev nu aftalt, at der skulle holdes et fredsmøde i Falsterbo i påsken,
+      men da kong Erik bad hansestæderne om at komme til mødet, sendte de i stedet deres krigsflåde
+      afsted. </ab>
+            <ab>9) Til de klager vedrørende kong Eriks påståede privilegiebrud, som hansestæderne i 1428
+      afleverede til biskop Johann af Ratzeburg, svarer kong Erik, at han ikke kender noget til
+      disse privilegiebrud, og at han heller ikke kender til, at der er blevet klaget over sådanne,
+      inden krigen med hansestæderne brød ud. Endvidere fremgår det ikke af hansestædernes
+      krigserklæringer, at kong Erik personligt skulle have gjort sig skyldig i privilegiebrud. </ab>
+            <ab>10) Til de påstande om, at hansestæderne havde sendt deres udsendinge til højmesteren for
+      Den Tyske Orden for at forhandle om fred, svarer kong Erik, at hansestæderne på intet
+      tidspunkt havde i sinde at forhandle om fred. Havde de haft det, havde det nemlig ikke været
+      nødvendigt for højmesteren at sende sin marskal samt flere andre af højmesterens udsendinge
+      til hansestæderne. Endvidere var marskalen nødt til at blive hos hansestæderne i tre uger,
+      inden han kunne få deres holdning til sagen at vide. Da han derefter rejste fra hansestæderne
+      til Vordingborg for at overbringe kong Erik det svar, som hansestæderne havde givet ham,
+      sendte de hele deres hærstyrke til København, som nåede frem, inden marskalen nåede til
+      Vordingborg. </ab>
+            <ab>11) Endvidere siger kong Erik, at hansestæderne har forbrudt sig mod den romerske konges
+      befaling, idet hansestæderne kom til Øresund med deres hærstyrke, selvom den romerske konge
+      havde befalet dem at holde fred med kong Erik. </ab>
+            <ab>12) Kong Erik håber nu, at hertug Wilhelm kan formå hansestæderne til at genoptage
+      fredsforhandlingerne, hvilket de har pligt til, således at man efter klage og svar kan finde
+      en løsning på konflikten. </ab>
+            <ab>13) Såfremt det ikke er muligt for hertug Wilhelm at få hansestæderne til at genoptage
+      fredsforhandlingerne, håber kong Erik, at hertug Wilhelm vil erklære kong Erik for uskyldig,
+      samt at hertugen vil viderebringe denne uskyldserklæring til andre fyrster og herrer, i
+      særdeleshed til kurfyrsterne, såfremt det blev nødvendigt for kong Erik. </ab>
+            <ab>14) Til hansestædernes påstand om, at de grundet vind og vejr ikke kunne deltage i det
+      forhandlingsmøde i Falsterbo, som Nicolaus Stok havde organiseret, svarer kong Erik, at denne
+      påstand ikke er sand. Det forholdt sig nemlig sådan, at mødet skulle holdes på et tidspunkt
+      mellem påske og fire uger derefter, og eftersom hansestæderne godt kunne sejle til Øresund med
+      hele deres hærstyrke i påskeugen, ville de også kunne være rejst til mødet i Falsterbo. </ab>
+            <ab>15) Til hansestædernes påstand om, at det ikke er muligt for den romerske konge at dømme i
+      sagen mellem hansestæderne og kong Erik, idet den romerske konge er beslægtet med kong Erik,
+      svarer kong Erik, at det netop er den romerske konges opgave som rigets herre og hoved at
+      dømme i sådanne sager, og at denne opgave ikke er betinget af familiære forhold. Endvidere
+      anser kong Erik hansestædernes påstand for en grov fornærmelse mod den romerske konge, men da
+      det drejer sig om et forhold mellem hansestæderne og den romerske konge, vil kong Erik lade
+      det være op til den romerske konge at træffe en afgørelse desangående. </ab>
+            <ab>16) Endvidere erklærer kong Erik, at det netop berettede er sandt, og at det er foregået,
+      således som man nu har fortalt det til hertug Wilhelm. </ab>
+            <ab>17) Endelig meddeler kong Erik, at konflikten allerede opstod, inden hansestæderne erklærede
+      krig mod ham, idet de inden krigen tog kongens udsendinge og undersåtter til fange i Lübeck
+      samt frarøvede dem deres gods. Begrundelsen herfor var alene, at de tilfangetagne havde været
+      i Novgorod. Endvidere tog folkene i Rostock et lastet skib fra kong Eriks møntmester. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-14" who="#pbh">Filen etableret af #pbh 2014-08-14. </change>
+         <change when="2019-05-14" who="#smb">1. korrektur af #smb 2019-05-14. </change>
+         <change when="2019-11-11" who="#smb">2. korrektur af #smb 2019-11-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><app><lem>Dit is</lem><rdg><q>Dit is - nodiget sin</q>, overstreget i A</rdg></app> de warheit des vorlopes twisschen vns <persName>Erike</persName> van Godes gnaden to
+        <placeName>Denmarken</placeName> to <placeName>Sweden</placeName> to
+        <placeName>Norwegen</placeName> der Wende vnde der Goten <app><lem>konige</lem><rdg><q>konigen</q>, A</rdg></app> vnde hertogen to <placeName>Pomeren</placeName> an de ene vnde den <app><lem>steden</lem><rdg><q>stede</q>, A</rdg></app>
+      <placeName>Lubeke</placeName>
+      <placeName>Rostok</placeName>
+      <placeName>Stralessund</placeName>
+      <placeName>Wismer</placeName> vnde <placeName>Luneborch</placeName> an de anderen side van der
+      tijd dat se vns ansynnende weren to <placeName>Fflensborch</placeName> der to sate dar se mit
+      vns ane sitten / wilke warheit alse wij de an allen eren articulen mit enkeder witlicheit wol
+      betugen mogen wor vnde wan des behuff wert / wij dar vmme vor jw hochgeborne furste vnde
+      leueste oem hertoche <persName>Wilhilm</persName> van <placeName>Brunszwik</placeName> vnde
+      van <placeName>Luneborch</placeName> vor juwe prelaten riddere <app><lem>vnde</lem><rdg><q>vnde vnde</q>, A</rdg></app> knechte vnde vurder vor alle de anderen de hijr vor ogen sint in iegenwardicheit der
+      sendeboden der vorbenomeden stede vorluden laten vppe dat juwe leue vnde vurdermer alle de
+      anderen vorbenomed de hijr iegenwardich stan / weten vnde naseggen mogen mit wilkeme rechte
+      edder vnrechte wij vnde vnse rike to dessem vorbenomeden krige komen vnde nodiget sint
+      ♦</p>
+            <p n="a#2" xml:space="preserve"><supplied>1</supplied> An deme jare na Godes bort mcdxxiij <app><lem>etcetera</lem><rdg>umiddelbart efter <q>etcetera</q> er der et længere ubeskrevet område i A</rdg></app> alse de degedinge begrepen weren vormiddelst heren <persName>Rumpolt</persName> seliger
+      dechtnisse tuschen vns vnde <app><lem>den</lem><rdg><q>den</q> står skrevet over linjen i A; herunder står overstreget <q>vnsen
+          oheme</q></rdg></app> van <placeName>Holsten</placeName> to <placeName>Flensborch</placeName> / so sanden de
+      vorbenomeden vnde <app><lem>etliker</lem><rdg><q>etlike</q>, A</rdg></app> ander stede de dar do iegenwardich <app><lem>weren</lem><rdg>herefter står overstreget <q>alse vorbenomed</q> i A</rdg></app> sendeboden etlike van en to vns de vns ansynnende weren alse van der vorbenomeden stede
+      wegen / dat wij vns vnde vnse rike mit en vnde mit anderen steden de se dar to then kunden
+      vormiddelst ener vruntliken vnde <app><lem>ewighen</lem><rdg><q>ewigher</q>, A</rdg></app> tosate vorbinden wolden / dat wij vor dat erste dor sake willen / darumme vns dat to
+      der tijd vnbelegelik duchte wesen affslogen / vnde doch to deme latesten alse des anderen
+      dages dar na alse de vorbenomeden der stede sendeboden bij sik suluen vnde na ers sulues
+      guddunckende vnde ane vnse wetende hadden laten vppwerpen ere scrifft na ener wise sodaner
+      tosate / alse en de wol gevil / vnde de vor vns brachten vnde lezen leten / <app><lem>de wij</lem><rdg><q>de wij</q> står skrevet over linjen i A</rdg></app> na guddunckende vnser reder toleten / doch so dat wij der suluen scriffte ene scholden
+      holden bij vns vnde se ene mit sik to hus voren / vmme vurder mit vnsen anderen rederen an
+      beiden siden darumme to rugge to sprekende vnde so vppe sunte Johans dach dar na to midden
+      somere dar vpp wedder to hope tokomende in vnse stat <placeName>Kopenhauen</placeName> alse
+      vmme de suluen tosate mit endracht to voltheende edder ok to wedder seggende / des geschach id
+      so alse <app><lem>vmme Viti unde Modesti</lem><rdg>dvs. 15. juni</rdg></app> dar negest komende dat der vorbenomeden stede sendeboden to vns quemen to
+        <placeName>Kopenhauen</placeName> alse vorscreuen is vnde antwerden vns dar eren openen
+      besegelden breff / na so daner wise vnde lude alse de vorbenomede tosate stan vnde bliven
+      scholde <app><lem>vnde gij hir nu gehoret hebben</lem><rdg>skrevet over linjen i A med anden hånd</rdg></app> vnder hengenden ingesegelen der stede <placeName>Lubeke</placeName>
+      <placeName>Rostok</placeName>
+      <placeName>Stralessund</placeName>
+      <placeName>Wismer</placeName>
+      <placeName>Luneborch</placeName>
+      <placeName>Gripeswold</placeName> vnde <placeName>Anklam</placeName> vnde entfengen des
+      gelikes van vns vnsen openen breff vppe de suluen tosate vnder vnsem majestates vnde vnser
+      rike reder ingesegelen vnde vppe de tijd alse dit geschach vnde sloten wart so wart vns noch
+      van en noch van eren wegen nicht to kennende geuen van ieniger tosprake de se to vns edder to
+      den vnsen van eren edder des gemenen kopmans wegen hadden an ienigerleye wijs / sunder dar
+      wart also gededinget vorsegelt vnde in gantzen truwen gelouet / weret dat ienich vorste here
+      ridder knechte stede menheide lande edder lude vnser ienigen an beiden siden / vorweldigen
+      vorvnrechten edder wedder stal don wolde edder dede / so scholden wij malk anderen an beiden
+      siden bij stan vnde helpen mit sodaner macht alse dar sulues inder tosate vtgedrucket steit <app><lem>id ne were</lem><rdg><q>id ne were - vnderhorich maken</q>, tilføjet i margen i A</rdg></app> so dat man des genen dar de hulpe vp gan scholde to rechte mechtich were vnde den
+      scholde man denne bynnen sesse manten deme <app><lem>rechte</lem><rdg><q>rechtich</q>, A</rdg></app> vnderhorich maken vnde weret sake dat dat geville in tokomenden tiden dat wij edder de
+      vnsen an beiden siden ergenomed <app><lem><supplied>jergen</supplied></lem><rdg>mangler i A</rdg></app> ane vnder enanderen schelafftich worden dat scholde men alle jar na klaghe vnde
+      antworde vppe vnser vrowen dage erer gebort to <placeName>Kopenhauen</placeName> vorrichten
+      liker wijs alse dat in der vorbenomeden tosate dar wij vns to scheten clarliker is begrepen
+      vnde nene veyde vurder dar vmme to donde ♦</p>
+            <p n="a#3" xml:space="preserve"><supplied>2</supplied> Des is geschen na der tijd dat wij de vorbenomeden stede beide mit des
+      allerdurchluchtigesten fursten vnses leuesten ohemes . vnde bruders des romischen koninges
+      openen breuen ok muntliken an vnser egenen personen vnde sedder mit vnsen breuen hebben
+      vormant vnde geesschet vormanen vnde esschen laten / dat se vns an vnsem rechte wedder <app><lem>de</lem><rdg><q>de</q> står skrevet over linjen; herunder står overstreget <q>vnse oheme</q></rdg></app> van <placeName>Holsten</placeName> bij stendich vnde na erer plicht alse se vns
+      vorsegelt / hebben behulpelik wesen wolden des <app><lem>se</lem><rdg><q>se</q> står skrevet over linjen i A</rdg></app> vns doch alse <app><lem>dat</lem><rdg><q>dat</q> står skrevet over linjen i A</rdg></app> witlik is nicht geholden hebben ♦</p>
+            <p n="a#4" xml:space="preserve"><supplied>3</supplied> Item so konen se nicht bewisen dat se den benomeden dach vppe vnser
+      leuen vrouwen dach erer bort to <placeName>Kopenhauen</placeName> also gesocht edder gheholden
+      hebben / edder ere tosprake vffte <app><lem>se</lem><rdg>herefter står et overstreget <q>vns</q> i A</rdg></app> wilke <app><lem>to vns</lem><rdg><q>to vns</q> står skrevet over linjen i A</rdg></app> edder to den vnsen gehad hadden dar sulues alse en van rechtes wegen gebort hadde / na
+      inholde des vorbundes gevordert hebben // doch geschach / do der stede bodescop aller latest <app><lem>vor der veide</lem><rdg><q>vor der veide</q> står skrevet over linjen i A</rdg></app>
+      <app><lem>bij</lem><rdg>herefter står et overstreget <q>w</q> i A</rdg></app> vns was to <placeName>Wordingborch</placeName> dat se sik beclageden des vorbodes / dat
+      wij hadden don laten in vnsen riken dat wij en dat to uoruange scholden gedan hebben / dar wij
+      to antwerden alse dat in der warheit was dat wij ene dat nicht to uorvange gedan hadden / vnde
+      vorboden vns dar to dat to vorrichtende mit hundert ridderen vnde knechten to den hilgen dat
+      wij en dat to nenem vorvange gedan hadden / wes dar ane geschen were dat hadde wij vmme vnser
+      not willen gedan / men darumme dat wij to kope mochten hebben vitalien to vnser behuff to ener
+      korten tiid vnde geuen van stunden an ouer de rosteringe nach eren begeren / vnde <app><lem>vorkundigeden</lem><rdg><q>vorkundigen</q>, A</rdg></app> ouer alle vnse land / dat se mochten varen vnde kopen / vnde <app><lem>se</lem><rdg><q>se</q> står skrevet over linjen i A</rdg></app> dar nicht ane to hinderende vnde se alle man to vorderende mit deme besten / do sulues
+      beclageden se sik ok / dat se scholden beschediget wesen mit nemende van den vnsen dar wij do
+      to antwerden / allene dat men dat to richtende hadde vppe vnser vrouwen dach so bede wij doch
+      dar ouer dat se vns dat bescreuen geuen vnde benomeden weme dat scholde scheen wezen vnde we
+      dat scholde gedan hebben / wij wolden en van stunden an richten dar wart vns ne <app><lem>wedder</lem><rdg>herefter står overstreget <q>edder</q> i A</rdg></app> antwort edder scrifft aff / doch dar bouen beuole wij dat deme erssen biscope van
+        <placeName>Lunden</placeName> vnde dem biscope van <placeName>Roskilde</placeName> dat se
+      scholden dar ouer gerichtet hebben in vnseme affwesende / vffte dar <app><lem>clegere</lem><rdg>herefter står overstreget <q>vff</q> i A</rdg></app> edder scriffte gekomen hadden van den steden dar doch nicht van en quam ♦</p>
+            <p n="a#5" xml:space="preserve"><supplied>4</supplied> Dar na alse wij vns vormodeden van den steden hulpe vnde bistandes to
+      vnsem rechte dar wij se to geeschet vnde vormant hadden laten in deme quemen do ere sendeboden
+      in de negede bij <placeName>Gottorppe</placeName> vnde vorboden vnsen rat tegen sik to
+        <placeName>Haddebo</placeName> kerken vnde leten en vorstan alse vns vnse rat berichtet
+      hefft wo se na der tijd alse wij se to vnser hulpe eschet hadden de <app><lem>van</lem><rdg><q>van</q> står skrevet over linjen i A</rdg></app>
+      <placeName>Holsten</placeName> vorsocht hadden / vnde hadden <app><lem>en</lem><rdg><q>em</q>, A</rdg></app> gevraget na deme male dat wij se to vnseme denste vppe vnse tosate gemant hadden vffte
+      se sik erer to rechte mechtigen mochten vnde mechtich wesen scholden / dar en de
+        <placeName>Holsten</placeName> to antwerdet hadden / dat se erer to rechte mechtich wesen
+      scholden alse se seden / so weren se darumme vte gesant / to vorhorende van vns vfft se ok
+      vnser mechtich mochten wesen to rechte / dar en vnse rat vpp vragede wffte se der
+        <placeName>Holsten</placeName> mechtich wesen wolden na vtwisinge vnser tosate / dar se do
+      to antwerden dat were en nicht mede geuen / dar sede vnse rat wedder vpp wolden se sik der
+      holsten in sodaner wise mechtigen / so wolde wij van stunden an den krich affdun dar se wedder
+      vpp antwerden se en hadden des nen beuel / do begherden se hochliken van vnsem rade dat se vns
+      suluen to worden mochten komen alse se deden vnde quemen to vns to
+        <placeName>Flensborg</placeName> do se do bij vns quemen / do leten se nicht luden / noch
+      van enem rechte edder van dem anderen alse se vor vnsem rade luden leten dar <app><lem>se</lem><rdg>herefter står et overstreget <q>mach</q> i A</rdg></app> mechtich to wesen wolden / vnde dat se do an vns woruen / dat was dat se vns beden van
+      aller stede wegen dat wij den holsten wolden geuen <placeName>Sunder J{uv}tland</placeName> /
+      dar wij en to antwerden wes wij mit reddelicheit vnde limplicheit en entwiden mochten des
+      entwede wij en altijd gerne sunder dit were vns nicht also belegen / dat wij dit mit
+      reddelicheit edder mit limplicheit in sodaner wise dun mochten / vnde beden se dat se sik an
+      vns bewisen wolden / alse se sik an vns vorsegelt vnde vorbreuet hadden / dar se vns vpp
+      antworden se wolden riden to den holsten vnde vorhoren an se wes se bij de stede setten wolden
+      / vnde wolden so vurder vorhoren an de stede wes se dar vpp to sik nemen wolden vnde wolden
+      vns dat so wedder benalen / des se doch nichten deden sunder de erste bodeschopp de vns van en
+      wart dat weren ere vntseggebreue dar mede se vnse viende wurden alse gij hir horen mogen <app><lem>an</lem><rdg>herefter står et overstreget, ulæseligt ord i A</rdg></app> den suluen eren <app><lem>vntseggebreuen</lem><rdg>herefter står et overstreget <q>de</q> i A</rdg></app> ♦</p>
+            <p n="a#6" xml:space="preserve"><app><lem>Denne</lem><rdg>afsnittet <q>Denne - lesen</q> indledes i A af et originalt paragraftegn, jf. Capelli,
+          p. 412</rdg></app> schal man de wijsen vnde lesen ♦</p>
+            <p n="a#7" xml:space="preserve"><app><lem>Vnde</lem><rdg>afsnittet <q>Vnde - lesen</q> indledes i A af et originalt paragraftegn, jf. Capelli,
+          p. 412</rdg></app> wan de lesen sint so schal man denne dit vort an lesen ♦</p>
+            <p n="a#8" xml:space="preserve"><supplied>5</supplied> Item hijr na alse se vnse viende geworden weren vnde wij de sake des
+      anstanden gemenen vorderues alse wij dat wol irkennen kunden ungerne bii uns hadden laten
+      vinden so schickede wij vnse sendeboden to vnsen vedderen van <placeName>Stetin</placeName>
+      van <placeName>Wolgaste</placeName>
+      <app><lem>vnde van</lem><rdg>i A findes der en overstregning mellem <q>vnde</q> og <q>van</q></rdg></app>
+      <placeName>Barte</placeName> vnde sodder an den homeister van <placeName>Pruszen</placeName> /
+      biddende / dat se vorsoken wolden mit den steden unsen vienden vffte se dat mit en kunden
+      vormogen dat se vns vor dat vnrecht dat se uns gedan hadden / recht vnde wandel wolden don
+      vnde vffte se vpp vns icht to seggende hadden / des gelikes van vns wolden nemen / dat se sik
+      denne vnser dat to nemende vnde to geuende mechtigen wolden / wilke vorsokinge vnse
+      vorbenomeden vedderen mit den steden vorscreuen deden to <placeName>deme Sunde</placeName> dar
+      de suluen stede mit en dar vpp to dage komen weren / dat se doch do aff slogen / vnde segeden
+      wolde wij en den schaden den vnse vogede vnde ammetlude <app><lem><supplied>en gedan hadden</supplied></lem><rdg>mangler i A</rdg></app> vnde dat se in vnsen riken to langen tiden vorloren hadden to erer nuge vpprichten dat
+      wolden se gerne nemen vnde <app><lem>wan</lem><rdg>ændret fra <q>wat</q> til <q>wan</q> i A</rdg></app> dat geschen were hadde wij denne wes to en to seggende dat mochte wij vppe se vorderen
+      wan wij wolden / weret denne dat se vns rechtes wolden vntgan so mochte wij id naseggen dat
+      dit aldus geschach dat moge wij bewisen mit openbaren instrumenten de wij dar vpp hebben .
+      vnde hir jegenwordich sint ♦</p>
+            <p n="a#9" xml:space="preserve"><app><lem>Denne</lem><rdg>afsnittet <q>Denne - wart</q> indledes i A af et originalt paragraftegn, jf. Capelli,
+          p. 412</rdg></app> schal man wijsen dat instrument dat to <placeName>deme Sunde</placeName> maket wart
+      ♦</p>
+            <p n="a#10" xml:space="preserve"><app><lem>Vnde</lem><rdg>afsnittet <q>Vnde - lesen</q> indledes i A af et original paragraftegn, jf. Capelli, p.
+          412</rdg></app> wan dat gewijset is so schal man denne dit vort an lesen ♦</p>
+            <p n="a#11" xml:space="preserve"><supplied>6</supplied> Item do dit sulue an se vorderde van vnser wegen de homeistere van
+        <placeName>Pruszen</placeName> vnde sik vnser dar tho mechtigede vor middelst syner egenen
+      personen / do slogen se dat aff alse he vns v{oe}r mit vnses sulues sendeboden vnde na mit
+      synes ordens ouersten marscalke weten leet / vnde seden se weren so daner sake nicht /
+      gemechtiget / van eren rederen vtgesant / sunder se wolden dat gerne tho rugge bringen an ere
+      redere vnde wolde <app><lem>de meister</lem><rdg>ændret fra <q>he</q> til <q>de homeister</q> i A</rdg></app> denne dar wes vurder ane bearbeyden tho den steden so mochte he dar vmme senden syne
+      bodescop / eren willen s{ue}luen van en tho horende / vnde dat vurder tho <app><lem>bearbeydende</lem><rdg><q>be</q> i <q>bearbeydende</q> er skrevet over linjen i A</rdg></app>
+      <app><lem>dar</lem><rdg>umiddelbart herefter står overstreget <q>dar denne</q> i A</rdg></app> dess <app><lem>denne</lem><rdg><q>denne</q> er skrevet over linjen i A</rdg></app> behuff wurde / des sande de homeister den vorbenomeden sinen marskalk mit anderen
+      erbaren luden sines ordens vnde syner stede an de vorbenomeden stede vnse vyande / de tho vns
+      van erer wegen warff / dat se wolden alle ere sake de wy mit en edder se mit vns vtstande
+      hadden / setten by <app><lem>den</lem><rdg><q>den</q> står skrevet over linjen i A</rdg></app> homeister vorscreuen / dat wy do sulues <app><lem>annameden</lem><rdg><q>anameden</q>, A</rdg></app> vnde alse <app><lem>he</lem><rdg><q>he</q> står skrevet over linjen i A</rdg></app> wedder van vns gescheden was / vnde mit sik vnse geleydes breue tho der vorbenomeden
+      stede behoff <app><lem>brachte</lem><rdg><q>brachte</q> står skrevet over linjen i A</rdg></app> / alse <app><lem>de</lem><rdg>ændret fra <q>se</q> til <q>de</q> i A</rdg></app> mit vns tho dagen to bringende so screff he vns wedder tho alse wy dat mit synen breuen
+      beuisen mogen / dat de stede nenerleye daghe mit vns holden wolden jd en were so / dat <app><lem>wy</lem><rdg>umiddelbart efter <q>wy</q> står overstreget <q>vnsen</q> samt et andet ulæseligt ord
+        </rdg></app>
+      <app><lem>den</lem><rdg><q>den</q> står skrevet over linjen i A</rdg></app> van <placeName>Holsten</placeName>
+      <app><lem>to voren</lem><rdg><q>to</q> står skrevet over linjen i A</rdg></app> an <placeName>Gottorp</placeName> vnde <placeName>Sunder Jutland</placeName> laten <app><lem>volgen</lem><rdg><q>wolden</q>, A</rdg></app> ♦</p>
+            <p n="a#12" xml:space="preserve"><app><lem>Denne</lem><rdg>afsnittet <q>Denne - lesen</q> står skrevet i margen i A</rdg></app> schal man lesen des marschalkes breff / vnde wan de lesen is so schal man denne dit
+      vort an lesen ♦</p>
+            <p n="a#13" xml:space="preserve"><supplied>7</supplied> Ok so hebbe wy tho anderen tiiden vnse bodeschop by en had alse her
+        <persName>Gert van Diwetz</persName> tho <placeName>dem Sunde</placeName> vnde vnse breue
+      tho den anderen steden tho den menheiden <app><lem>gehat</lem><rdg><q>gehat</q> står skrevet over linjen i A</rdg></app> vnde leten en vorkundigen wo de stede vnse vyende weren bouen dat wy alle wege bereit
+      hadden gewest vnde weren lik vnde recht to nemende vnde to geuende dar vns men smelike
+      antwerde wedder vpp wart alse wy mit eren breuen mogen beuisen de wij doch dor beqwemicheit <app><lem>nicht willen</lem><rdg><q>willen nicht willen</q>, A</rdg></app> vorluden laten ♦</p>
+            <p n="a#14" xml:space="preserve"><supplied>8</supplied> Item hiir na so <app><lem>sande</lem><rdg>herefter står et overstreget <q>wy</q> i A</rdg></app> tho <app><lem>en vnse</lem><rdg><q>en vnse</q> står skrevet over linjen, herunder står et overstreget <q>vnse</q></rdg></app> leueste bruder vnde ohem de romische koning synen rad vnde sendeboden meister
+        <persName>Niclaus Stok</persName> de vppe syne breue vnde gebod mit den suluen steden vnde
+      ok mit <app><lem>den</lem><rdg><q>den</q> står skrevet over linjen i A, herunder står overstreget <q>vnsen
+          ohemen</q></rdg></app> van <placeName>Holsten</placeName> alse <app><lem>he</lem><rdg><q>he</q> står skrevet over linjen i A</rdg></app> vns vorstan leet enes dages was ens gewurden / den se mit vns geholden scholden hebben
+      to <placeName>Valsterbode</placeName> alse bynnen den achte daghen to paschen na wise alse <app><lem>em</lem><rdg><q>em</q> står skrevet over linjen i A, herunder står et overstreget <q>wy</q></rdg></app> de romische koning hadde screuen dar vpp se / vnse leydes breue van <app><lem>em</lem><rdg><q>em</q> står skrevet over linjen i A, herunder står et overstreget <q>eren</q></rdg></app> entfangen hadden / vnde alse wy erer <app><lem>tokumpst</lem><rdg><q>to</q> i <q>tokumpst</q> står skrevet over linjen i A</rdg></app> dar sulues tho deme vorscreuen daghe vmme paschen beydende weren so qwemen se mit erer
+      macht / <app><lem>des</lem><rdg>den følgende passus <q>des - gescheden was</q> står skrevet over linjen i A</rdg></app> wy vns nicht vormodet hadden nach deme alse de vorscreuen meister
+        <persName>Niclaus</persName> van vns gescheden was vnde begerden sik vor <placeName><app><lem>Kopenhauen</lem><rdg>umiddelbart herefter står overstreget <q>vnde beschedigeden vnse lant vnde lude alse
+              se meste mochten</q> i A</rdg></app></placeName> jn sodaner wijse <app><lem>alse</lem><rdg>den følgende passus <q>alse - willen</q> står skrevet over linjen i A</rdg></app> dat witlik vnde openbar is dar wij vns doch nu vurder nicht aff beklagen willen vnde
+      alse de vorbenomede meister <persName>Niclaus Stok</persName> de <app><lem>en</lem><rdg><q>em</q>, A</rdg></app> vppe den vorbenomeden daghe to <placeName>Valsterbode</placeName> beiegent scholde
+      hebben / qwam to <placeName>Kopenhauen</placeName> vnde <app><lem>se</lem><rdg><q>se</q> står skrevet over linjen i A</rdg></app> jn so daner mate vor sich vant jn <placeName>deme Oressunde</placeName> / vnde se em
+      nicht tho stunden van jenigem daghe de em van den steden tosecht <app><lem>were</lem><rdg><q>were</q> står skrevet over linjen i A, herunder står et overstreget
+          <q>ware</q></rdg></app> to <placeName>Valsterbode</placeName>
+      <app><lem>tho holdende</lem><rdg>umiddelbart herefter står der et overstreget <q>tho holdende</q> i A</rdg></app> so antwerde he <app><lem>en</lem><rdg>ændret i A fra <q>em</q> til <q>en</q> ved overstregning af den sidste streg i
+          <q>m</q></rdg></app> na anderen velen degedingen des romischen koninges open breff dar ane he <app><lem>en</lem><rdg>ændret i A fra <q>em</q> til <q>en</q> ved overstregning af den sidste streg i
+          <q>m</q></rdg></app> gebot bij sinen vnde dess romischen rikes hulden dat se sulke twedracht vnde krighe
+      alse se mit vns angehauen hadden van stunden an solden aff dün vnde nedder leggen vnde
+      scholden sik an deme rechte dat wy <app><lem>en</lem><rdg>ændret i A fra <q>em</q> til <q>en</q> ved overstregning af den sidste streg i
+          <q>m</q></rdg></app> hadden geboden genoghen laten / edder wo se dat nichten deden so schulden se komen
+      dorch eres <app><lem>vnhorsames</lem><rdg><q>vn</q> i <q>vnhorsames</q> står skrevet over linjen i A</rdg></app> willen <app><lem>vor des</lem><rdg><q>vor des</q> står skrevet over linjen i A</rdg></app> romischen rikes houerechte bynnen deme hundersten dage na deme alse se den vorscreuen
+      breff entffengen vnde dat dit aldus js geschen dat moge wy beuisen mit openbaren jnstrumenten
+      de dar vp gemaket sint ♦</p>
+            <p n="a#15" xml:space="preserve"><app><lem>Denne</lem><rdg>afsnittet <q>Denne - werue</q> indledes i A af et originalt paragraftegn, jf. Capelli,
+          p. 412</rdg></app> schal <app><lem>man</lem><rdg>umiddelbart herefter står et overstreget <q>vor</q></rdg></app> wijsen dat jnstrumentvm dat dar vp gemaket wart vnde dat gansse registrum siner werue
+      ♦</p>
+            <p n="a#16" xml:space="preserve"><app><lem>Vnde</lem><rdg>afsnittet <q>Vnde - lesen</q> indledes i A af et originalt paragraftegn, jf. Capelli,
+          p. 412</rdg></app> wan de gewijset sint so schal man <app><lem>denne</lem><rdg>umiddelbart herefter står et overstreget <q>vor</q> i A</rdg></app> dit vort lesen ♦</p>
+            <p n="a#17" xml:space="preserve"><supplied>9</supplied> Item alse de vorscreven stede <app><lem>an</lem><rdg><q>an</q> står skrevet over linjen i A</rdg></app> erer protestacien de se deden an <app><lem>deme</lem><rdg><q>deme</q> står skrevet over linjen i A; herunder står overstreget
+          <q>desseme</q></rdg></app> jare xiiij<hi rend="sup">c</hi> vnde xxviij an deme vridaghe vor deme sondaghe alse men
+      sinkt vocem jocunditatis vor biscop <persName>Johan</persName> van
+        <placeName>Rasseborch</placeName>
+      <app><lem>de</lem><rdg>den følgende passus <q>de - Orssund</q> står skrevet i margen i A</rdg></app> se vns schickeden vnder <app><lem>sinen</lem><rdg>umiddelbart herefter står overstreget <q>vnde anderen</q> i A</rdg></app> hangenden jngesegelen in der anderen reyse <supplied>de se dat</supplied> jar deden in
+        <placeName>den <app><lem>Orssund</lem><rdg>umiddelbart herefter står overstreget <q>ma</q> i A</rdg></app></placeName> protesteret vnde betuget hebben mank anderen articulen wo dat se vnse
+        <supplied>viende</supplied> worden sint dor bescherminge willen erer vnde eres meinen
+      kopmans priuilegia vnde guder de wij en <app><lem>in vortiden</lem><rdg><q>in vortiden</q> står skrevet over linjen i A</rdg></app> mannichuoldichliken angeverdighet gehindert vnde broken scholden hebben vnde noch alle
+      daghe anverdigen hinderen vnde breken scholden dar jegen se nener beclaginge de se ouer vns to
+      velen tiden breffliken vnde mit muntliker bodeschopp an heren vorsten landen vnde luden alse
+      se screuen <app><lem>vnde</lem><rdg><q>vnde</q> står skrevet over linjen i A</rdg></app> gedan hebben geneten hebben mogen etcetera / dar segge wij so to <app><lem>alse</lem><rdg>den følgende passus <q>alse - hebben</q> står skrevet over linjen i A</rdg></app> wij vortides dar to secht hebben dat vns vnwitlik js vnde hebben ok nee <app><lem>gehort</lem><rdg>umiddelbart herefter står overstreget <q>vnde menen dat se dat mit nener warheit
+            bewisen konen</q></rdg></app> dat se vns <app><lem>ye</lem><rdg><q>ye</q> står skrevet over linjen; herunder står et overstreget <q>gee</q></rdg></app> werlde vor iemende in sodaner wise vnde dor so daner sake willen vorclaget hebben vor
+      der tijd dat se suluen vnse viende geworden <app><lem>sint</lem><rdg>umiddelbart herefter står overstreget <q>ok moge wij bewisen mit eren entsegge breuen
+            dat se vnse personen dor sodaner sake willen dar se vnse viende vmme wurden / nicht
+            geschuldiget hebben</q></rdg></app> / ok moge wij bewisen mit deme instrumente dat to <placeName>deme Sunde</placeName>
+      gemaket wart / ouer de sake de dar gehandelt wart van vnser wegen twisschen vnsen vedderen
+      vnde den steden vorscreuen <app><lem>dat</lem><rdg><q>dat - is</q> står skrevet over linjen i A</rdg></app> hir nv gewijset is dar se openbar bekanden vnde segeden dat se vnse personen nergen ane
+      to schuldigende hadden sunder weren vns plichtich m{eer} denstes wan ienigem vorsten den se
+      wisten dor vele gude willen de wij <app><lem>en</lem><rdg><q>en</q> står skrevet over linjen i A</rdg></app> vnde den eren bewiset hadden vnde hijr ane steit tomerkende / <app><lem>hebben</lem><rdg><q>ben</q> i <q>hebben</q> står skrevet over linjen i A</rdg></app> se vns also vorclaget alse <app><lem>se</lem><rdg><q>se</q> står skrevet over linjen i A</rdg></app> protesteren <app><lem>wo</lem><rdg><q>wo</q> står skrevet over linjen i A; herunder står et overstreget <q>dat</q></rdg></app> se <app><lem>vns</lem><rdg>umiddelbart herefter står et overstreget <q>vmme</q> i A</rdg></app>
+      <app><lem>dat gedan</lem><rdg>over <q>dat gedan</q> står et ulæseligt overstreget ord i A</rdg></app>
+      <app><lem>hebben</lem><rdg>herefter står overstreget <q>wedder God vnde alle recht</q> i A</rdg></app> dar wij doch vurder nv nicht aff seggen willen ♦</p>
+            <p n="a#18" xml:space="preserve"><supplied>10</supplied> Item alse se protesteret <app><lem>hebben</lem><rdg><q>hebben</q> står skrevet over linjen i A</rdg></app> do wij vnse sendeboden hadden in <placeName>Prussen</placeName> vnde vns vor den
+      homeistere to rechte vorb{oe}den leten dat se dat sulue do vnde dar sulues mit eren sendeboden
+      de se dar do iegenwardich hadden van erer vnde erer menheit wegen ok don leten dar segge wij
+      so to dat wij bewisen mogen like alse hijr bouen vore geroret is dat se des do nicht don en
+      wolden / sunder se schoten sik to rugge to eren redern vnde legeden dat dar mede aff to der
+      tijd vnde dat dit der warheit bett liket dat schint dar ane wente wan se dar to weren
+      ouerbodich gewest vor dem homeistere alse se protesteren so were nen behuff gewest dat de
+      vorbenomede homeistere sinen marschalk mit anderen sinen sendeboden to den vorbenomeden steden
+      alse eren willen to vorhoren vppe grote kost vnde teringe gesant hadde de doch wol bij iij
+      weken bij en was er he eren willen vnde berat alse he vns sede enkede aff vragen konde / vnde
+      in deme alse he van en schedede mit deme antwerde dat se em gesecht hadden vnde sik vnser
+      benalde vnde was gekomen bett to <placeName>Worthingborch</placeName> in deme quemen de stede <app><lem>vor</lem><rdg>herefter står et overstreget ulæseligt bogstav i A</rdg></app>
+      <placeName>Kopenhauen</placeName> mit erer macht er he to vns quam / hijr ane is wol to
+      merkende wer de <app><lem>homeistere</lem><rdg><q>ho</q> i <q>homeistere</q> står skrevet over linjen i A</rdg></app> erer to rechte mechtich wesen scholde alse se <app><lem>protesteren</lem><rdg>herefter står et overstreget <q>nicht</q> i A</rdg></app> edder nicht / vnde do de marschalk bij vns quam do let <app><lem>he</lem><rdg><q>he</q> står skrevet over linjen i A</rdg></app> vns dar nicht van vorstan dat de homeistere erer to rechte mechtich scholde wesen vnde
+      hadde des ok nen beuel van em alse he vns segede ♦</p>
+            <p n="a#19" xml:space="preserve"><supplied>11</supplied> Item alse se protesteret <app><lem>hebben</lem><rdg><q>hebben</q> står skrevet over linjen i A</rdg></app> dat se <app><lem>so danigen</lem><rdg><q>so dannige</q>, A</rdg></app> boden alse vnse leueste broder vnde ohem de romische koninge vormiddelst scrifften / de
+      / de erlike mester <persName>Nicholaus Stok</persName> siner werdicheit sendebode en in
+        <placeName>deme Orssunde</placeName> in der ersten reise antwerde / gedan hefft gerne
+      horsamich wesen wolden so verne alse wij mit en vormiddelst vnser <app><lem>volmechtigen</lem><rdg><q>volmechtige</q>, A</rdg></app> bodeschopp to ener legeliken stede komen edder en vnde den eren noghafftige leydes
+      breue in Denmarkes side to komende geuen wolden etcetera jn wilken vorbenomeden scrifften de
+      de vorbenomede vnse leue bruder vnde ohem en geb{oe}t alse bewislik is vnde se suluen bekennen
+      van romischer konichliker macht vnde bij des romischen rikes hulden vnde bij sulken penen /
+      alse in deme keyserliken rechte bescreuen stan dat se <app><lem>alle</lem><rdg><q>alle</q> står skrevet over linjen i A; herunder står et overstreget
+          <q>sulke</q></rdg></app> twedracht <app><lem>vnde</lem><rdg>herefter står et overstreget <q>krge</q> i A</rdg></app> krige dar se mit vns ane seten van stunden an gantz scholden aff . dun vnde vns edder
+      vnse rike / nicht mer bekrigen edder beschedigen scholden sunder scholden sik genogen laten an
+      deme rechte dat wij em hadden geboden vnde beden laten etcetera / dar segge wij so to dat se
+      der protestacien an deme articlen nicht n{oe}ch sunder recht en iegen dan hebben wente na der
+      tijd alse se den vorbenomeden horsam na des romischen koninges vorscreuen gebode protesteret
+      vnde van sik gesecht hadden so quemen se to der anderen reyse mit macht in <placeName>den
+        Orssund</placeName> . dar se <app><lem>sich</lem><rdg><q>sich</q> står skrevet over linjen i A; herunder står et overstreget <q>vns</q></rdg></app> do <app><lem>bewijseden</lem><rdg>den følgende passus <q>bewijseden - beklagen</q> står skrevet over linjen i A; herunder
+          står følgende overstregede passus <q>affbrande vnse stat Landeskrone dar se dor de sulue
+            protestacie vnder des vorbenomeden biscoppes vnde den anderen jngesegelen vorsegelt /
+            leten / vnde vns van dar to der hant schickeden</q></rdg></app> alse dat wol witlik is dar wij doch nv nicht vurder vns aff beklagen ♦</p>
+            <p n="a#20" xml:space="preserve"><supplied>12</supplied>
+      <app><lem>Doch</lem><rdg>det følgende afsnit <q>Doch - werde</q> er overstreget i A</rdg></app> hijr enbouen leue ohem na deme male dat de vorbenomeden stede mit juwer leue to desser
+      stede vnde to dessem velighen dage vmme sik mit vns touorrichtende komen sint so <app><lem>anname</lem><rdg><q>aname</q>, A</rdg></app> wij gerne <app><lem>van desser tijd an</lem><rdg>skrevet over linjen i A</rdg></app> de vorbenomede protestacien de se vppe den vorbenomeden horsam gedan vnde alse vor
+      screuen <app><lem>is</lem><rdg><q>is</q> står skrevet i margen i A</rdg></app> van sik gesecht <app><lem>hebben</lem><rdg>herefter står overstreget <q>so</q></rdg></app> vnde bidden juwe leue <app><lem>om</lem><rdg><q>om</q> står skrevet over linjen i A</rdg></app> dat <app><lem>gy</lem><rdg><q>gy</q> står skrevet over linjen i A; herunder står et overstreget <q>ye</q></rdg></app> mit en dat vormogen dat se vns don bij jw vnde bij anderen heren vnde fursten sodane
+      wandel alse <app><lem>se</lem><rdg><q>se</q> står skrevet over linjen i A</rdg></app> vns van rechtes <app><lem>wegen</lem><rdg>herefter står et overstreget <q>plichtich</q> i A</rdg></app> na klage vnde antwerde <app><lem>alse</lem><rdg><q>alse - vorbringen</q> står skrevet over linjen i A</rdg></app> man denne wert vorbringen plichtich sint vnde des gelikes wedder van vns nemen vppe dat
+      alse vorscreuen is de sake desses swaren gemenen vorderues an vns bij vnsen schulden nicht
+      gevunden werde ♦</p>
+            <p n="a#21" xml:space="preserve"><supplied>13</supplied>
+      <app><lem>Jsset</lem><rdg>det følgende afsnit <q>Jsset - edder nicht</q> er overstreget i A</rdg></app> ouer so <app><lem>leue ohem</lem><rdg><q>leue ohem</q> står skrevet over linjen i A</rdg></app> dat juwe leue mit en des nicht en vormach so bidde wij jw mit juwen prelaten ridderen
+      vnde knechten vnde alle de anderen de hijr iegenwardich sint dat <app><lem>gij</lem><rdg>herefter står et overstreget <q>jw</q></rdg></app> desser vnser vorbedinge de wij hijr vor jw gedan hebben vnde dun vordacht willen wezen
+      vnde vns vnde vnse rike na desser tijd vnschuldich vnde <app><lem><supplied>ane</supplied></lem><rdg>mangler i A</rdg></app> orsake an desseme gemenen <app><lem>vorderue</lem><rdg>herefter står et overstreget <q>wil</q></rdg></app> holden vnde vordermer vor anderen heren vnde fursten dar vns des behuff wert <app><lem>vnde</lem><rdg>den følgende passus <q>vnde - korfursten</q> står skrevet over linjen i A</rdg></app> sunderge van den korfursten getruwelich vnschuldigen willen dat is wol bewislik wes des
+      so is edder nicht ♦</p>
+            <p n="a#22" xml:space="preserve"><supplied>14</supplied> Item alse <app><lem>se</lem><rdg><q>se</q> står skrevet over linjen i A</rdg></app> protesteren vnde bekennen dat mester <persName>Nicholaus Stok</persName> mit en was ens
+      geworden enes dages mit vns to holdende to <placeName>Falsterbode</placeName> wilken <app><lem>dach</lem><rdg>herefter står overstreget <q>alse se</q> i A</rdg></app> to besokende en benam alse se protesteren weder vnde wint etcetera dar segge wij so to <app><lem>dat</lem><rdg>den følgende passus <q>dat wij - de warheit</q> er overstreget i A</rdg></app> wij en bewisen mogen dat se dat gesecht hebben iegen de warheit wente na deme male dat
+      de vorbenomede dach vtgesticket was binnen den viij daghen van paschen toholdende <app><lem>edder</lem><rdg>den følgende passus <q>edder - dar na</q> er overstreget i A</rdg></app> bynnen iiij weken dar na . vnde se mit erer macht binnen den vorbenomeden viij dagen
+      van paschen quemen in <placeName>den Orssund</placeName> vor <placeName>Kopenhauen</placeName>
+      so hadden se ok mit deme suluen weder vnde winde den vorbenomeden dach to
+        <placeName>Falsterbode</placeName> wol besoken vnde holden mogen <app><lem>alse</lem><rdg>den følgende passus <q>alse - kennen</q> står skrevet over linjen i A</rdg></app> wol witlik is den de de beide stede kennen des doch ere houetlude de do tor tijd dar
+      weren nicht bekennen edder van sik seggen <app><lem>wolden</lem><rdg>rettet fra <q>enwolden</q> ved overstregnign af <q>en</q> I a</rdg></app> sunder segeden dat en vnwitlik were dat ynighes daghes to
+        <placeName>Falsterbode</placeName> to holdende mit den steden geramet were \ ♦</p>
+            <p n="a#23" xml:space="preserve"><app><lem>Hir na</lem><rdg>afsnittet <q>Hir na - teikene</q> indledes i A af et originalt paragraftegn, jf.
+          Capelli, p. 412</rdg></app> schal man vortan lesen de andere schrifft de vor wart angehauen vnde schal beginnen to
+      lesende to <app><lem>desseme</lem><rdg>herefter står i A et tegn forestillende et kors på en cirkel med en prik ved hvert
+          hjørne</rdg></app> teikene ♦</p>
+            <p n="a#24" xml:space="preserve"><supplied>15</supplied>
+      <app><lem>Item</lem><rdg>det følgende afsnit <q>Item - helpen mach</q> er overstreget i A</rdg></app> alse se protesteren weret so dat vnse leue ohem vnde bruder <app><lem>de romesche koning</lem><rdg><q>de romesche koning</q> står skrevet over linjen i A</rdg></app> se edder de eren bouen desse vorbenomede vorbedinge eres <app><lem>horsams</lem><rdg>herefter står overstreget <q>jn recht</q></rdg></app> in jenich recht teen wolde dat denne sin konnichlike persona in dessen stucken vnde
+      articlen twisschen vns vnde en hangende nen gedelich richter wezen moge vmme des willen wente
+      wij suster vnde bruder kindere geboren sint etcetera dar segge wij so to na deme male dat an
+      sine persone <app><lem>alse</lem><rdg><q>alse - koninge</q> står skrevet over linjen i A</rdg></app> an enem romischen koninge hanget vnde besloten is de schat <app><lem>aller</lem><rdg>herefter står overstreget <q>noch</q> i A</rdg></app> keyserliker vnde werliker rechte vnde he dar mede erer aller here vnde hovet is vnde
+      dar umme <app><lem>se</lem><rdg><q>se</q> mangler i A</rdg></app>
+      <app><lem>to siner</lem><rdg><q>to siner - dat se</q> står skrevet over linjen i A</rdg></app> hochwerdicheit billich des to getruwen scholen dat se jn geliken saken en dor des
+      suluen bandes wille gewegener wesen schole wen vns dor <app><lem>angebornen</lem><rdg><q>angeborne</q>, A</rdg></app> bludes willen so duncket vns dat se <app><lem>siner</lem><rdg>herefter står overstreget <q>konichliken</q> i A</rdg></app> romischen konichliken werdicheit dar ane sere misbeden <app><lem>dat</lem><rdg><q>dat se - to leggen</q> står skrevet over linjen i A</rdg></app> se em sodanen vnlouen to leggen doch wes des nw sij edder nichten sij / wente vns dat
+      nicht anroret so late wij dat bestan an sinem wesende vnde sint ouer bodich bouen alle <app><lem>vorschriuent</lem><rdg>herefter står overstreget <q>bereyt</q> i A</rdg></app> lik vnde recht to nemende vnde to geuende bij allesweme de vns des helpen mach
+      ♦</p>
+            <p n="a#25" xml:space="preserve"><supplied>16</supplied>
+      <app><lem>Alsus</lem><rdg>det følgende afsnit <q>Alsus - vnderrichtet</q> er overstreget i A</rdg></app> alse gij hir nv gehoert hebben so hebben sich alle stucke in der warheid vorlopen dat
+      wij <app><lem>nicht</lem><rdg><q>nicht</q> står skrevet over linjen i A</rdg></app> vorluden laten <app><lem>jv</lem><rdg><q>jv</q> står skrevet over linjen i A; herunder står et overstreget <q>den</q></rdg></app> vorbenomeden steden vnsen vyenden edder gimand anders to gingen vorvange vorwijte edder
+      vorklaginge sunder to euer notdurftiger witlikheid der warheid wo sich desse ding van
+      anbeginne vorlopen hebben vppe dat se mede witlik werden den genen de hir nv mede to desseme
+      dage komen sint vnde vor hir nicht sint gewesen <app><lem>vnde</lem><rdg>den følgende passus <q>vnde - wolle</q> er overstreget i A</rdg></app> bidden dar vmme dat man vns dat nicht vorkeren wolle dat se vnde alleswe de des
+      underrichtet ♦</p>
+            <p n="a#26" xml:space="preserve"><supplied>17</supplied>
+      <app><lem>Ok</lem><rdg>det følgende afsnit <q>Ok - bewislik is</q> står skrevet på bagsiden af A og er
+          ligeledes overstreget</rdg></app> do wij jw to wetende wat se vns vnde den vnsen deden er se vns vntseden to dem ersten
+      so worpen se to <placeName>Lubeke</placeName> in ere torne vnse dener vnde vnse vndersaten
+      vnde nemen en ere gud vnde wisten <app><lem>en</lem><rdg><q>em</q>, A</rdg></app> anders <app><lem>nene</lem><rdg><q>nene de</q>, A</rdg></app> schult to geuende wen dat se to <placeName>Nougarden</placeName> gesegelt weren ok so
+      nemen de van <placeName>Rostok</placeName> vnsem muntemester en laden schip mit gude lange vor
+      der tijd er se vnse viende wurden alse wol bewislik is ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

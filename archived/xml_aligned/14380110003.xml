@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14380110003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Suppl. 343 fol. 84r-v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD VII 343 nr. 5833</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-01-10"
+                  notBefore="1438-01-10"
+                  notAfter="1438-01-10"
+                  cert="high">1438. 10.
+          januar</date>
+            <placeName cert="high">Bologna</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Eugenius 4. bevilger en supplik af prioren og kapitlet i Odense om pavelig
+          bekræftelse på, at tidligere ærkebiskop i Lund Mogens (Nielsen) tog Odense domkirke og
+          dens personer under sin beskyttelse, bekræftede alle kirkens hidtidige privilegier og
+          forbød enhver at krænke kirkens rettigheder under trussel om bandlysning. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-03" who="#pbh">Filen etableret af #pbh 2013-12-03. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-06-15" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">.. Alias bone memorie <persName>Magnus</persName> archiepiscopus
+            <placeName>Lundensis</placeName> Svecie primas et apostolice sedis legatus provide
+          intendens et ex relatione et querela prioris et capituli ecclesie
+            <placeName>Ottoniensis</placeName> informatus, quod nonnulli satellites sacre religionis
+          emuli priorem et canonicos dicte ecclesie in suis juribus et libertatibus impedire ac per
+          diversa dampna, incommoda et disturbia minus juste vexare et asidue gravare non verebant,
+          ecclesiam, priorem et canonicos predictos cum suis juribus et pertinentiis universis sub
+          sua ac sedis metropolitane protectione ac munimine specialiter recepit defendendos
+          auctoritate metropolitica necnon apostolica, qua jure legationis fungebatur, necnon omnes
+          litteras ac privilegia super quibuscunque gratiis, libertatibus et jurisdictionibus tam a
+          predecessoribus suis archiepiscopis Lundensibus quam episcopis Ottoniensibus necnon aliis
+          prelatis et principibus spiritualibus et temporalibus dictis priori et canonicis concessa
+          et indulta ratificavit et ex certa scientia confirmavit, ac inhibuit firmiter sub pena
+          excommunicationis late sententie, ne quis, cujuscunque status, gradus, conditionis vel
+          preeminentie existat, etiam si pontificali prefulgeret dignitate, priorem et canonicos
+          predictos in suis juribus et libertatibus vel possessionibus auderet impedire vel
+          quomodolibet molestare, prout in <cit>
+                  <quote>auctenticis litteris</quote>
+                  <bibl>kendes ikke</bibl>
+               </cit> desuper confectis latius continetur.</p>
+            <p>Ut igitur receptio, ratificatio, confirmatio et inhibitio predicte necnon alia in eisdem
+          litteris contenta potioris firmitatis robore solidentur, supplicant e. s. prior et
+          canonici predicti, quatinus receptionem, ratificationem, confirmationem et contenta
+          hujusmodi necnon quecunque inde secuta rata habentes et grata ea omnia apostolica
+          auctoritate et ex certa scientia cum suppletione defectuum etiam confirmare dignemini
+          ....</p>
+            <p>Concessum et exhibeantur in presentia pape. <persName>C. Ariminensis</persName>.</p>
+            <p>Datum <placeName>Bononie</placeName> 4. id. jan. anno 7.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

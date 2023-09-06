@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">521</num>, paragraphs: <num n="paragraphs">10</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14370615001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3258</idno>
+                        <msName>tidl. Cod. Esrom. 281</msName>
+                     </msIdentifier>
+                     <physDesc>33.5 × 13.5 (plica: 1.5). <ab>På bagsiden: 1) <q>th<ex>et</ex> ær br<ex>e</ex>ff aff Esrom</q>, 2)
+        <q>h<ex>er</ex> And<ex>er</ex>s Niels<ex>øn</ex>
+                           </q>
+                        </ab>1. Abbed Svends segl i mørkt voks i perg.rem, DGS 484*
+                              . 2. Esrum klosters segl i mørkt voks i perg.rem, DGS 483
+                              . </physDesc>
+                     <history>
+                        <ab>Afleveret fra Svenska Riksarkivet 1929</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6883</bibl>
+               <bibl>Nielsen, Codex Esrom. 281-283 nr. 261</bibl>
+               <bibl>Vejledende arkivreg. XVII 278 nr. 3</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-06-15"
+                  notBefore="1437-06-15"
+                  notAfter="1437-06-15"
+                  cert="high">1437. 15. juni</date>
+            <placeName cert="unknown">Esrum</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Abbed Svend og konventet i Esrum kloster udlejer gods i Uggeløse, Uvelse, Lindholm, Mørdrup,
+      Vassingerød og Nørre Hyllinge til hr. Anders Nielsen (Jernskæg) af Dronningholm, ridder, og
+      hans hustru Margrete (Hennekesdatter (Bekman)) for deres levetid, dog kun såfremt hans enke i
+      givet fald forbliver ugift. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-26" who="#pbh">Filen etableret af #pbh 2013-11-26. </change>
+         <change when="2020-05-25" who="#jon">1. korrektur af #jon 2020-05-25. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle the th<ex>et</ex>te breff see ell<ex>e</ex>r høre helse wi broth<ex>e</ex>r
+        <persName>Suen</persName> abbet j <placeName>Esrom</placeName> oc alt conue<ex>n</ex>t j
+      samme stæt kerlege m<ex>eth</ex> guth ♦</p>
+            <p n="a#2" xml:space="preserve">Oc gør<ex>e</ex> witerlecht at wi haffue ladet m<ex>eth</ex> got samthycke wælburdegh man
+      h<ex>e</ex>r <persName>Anders Nielss<ex>øn</ex></persName> aff
+        <placeName>Dronni<ex>n</ex>gholm</placeName> riddere sua lenge han leuer / oc wælburdegh
+      qui<ex>n</ex>ne frw <persName>Margretæ</persName> hans husfrw sua lenge som hun vgifftet ær
+      efft<ex>er</ex> hans døth vm hun hanu<ex>m</ex> ouer leuer wore gots j leye
+        <placeName>Vggeløse</placeName> oc <placeName>Uwelse</placeName>
+      <placeName>Lindholm</placeName> oc to garthe j <placeName><app><lem>Myrdorp</lem><rdg wit="#A"><q>Myrdrp</q>, A</rdg></app></placeName> een garth j <placeName>Watzingeruth</placeName>
+      ligge<ex>n</ex>d<ex>is</ex> j <placeName>Lyungeh<ex>er</ex>r<ex>et</ex></placeName> oc een
+      garth j <placeName>Nørrehuilui<ex>n</ex>ge</placeName> ligge<ex>n</ex>d<ex>is</ex> j
+        <placeName>Walburgsh<ex>er</ex>r<ex>et</ex></placeName> m<ex>eth</ex> all
+      th<ex>e</ex>rr<ex>es</ex> tilhørelse / enckte vndentaget for<ex>e</ex> sodan aarlege landgæld
+      som ær otte mark korn halfft byug oc halfft rw oc otte lødum<ex>a</ex>rk rethe
+      pe<ex>n</ex>ninge geue oc genge h<ex>e</ex>r j <placeName>Siela<ex>n</ex>d</placeName> the som
+      køpman kan gør<ex>e</ex> a<ex>n</ex>nen fult m<ex>eth</ex> / m<ex>eth</ex> sua skæl at
+      the<ex>n</ex>ne sa<ex>m</ex>me la<ex>n</ex>dgæld scal <app><lem>ydes</lem><rdg wit="#A"><q>y</q> betegnes som et gennemstrukket <q>v</q>, A</rdg></app> j for<hi rend="sup">de</hi> wort closter <placeName>Esrom</placeName> / oc
+      wær<ex>e</ex> gulden oc fullelege betalen kornet pa s<ex>an</ex>c<ex>t</ex>i Lucij dagh j
+      faste oc pe<ex>n</ex>ningene pa wor frowe dagh j høst nativitatis ♦</p>
+            <p n="a#3" xml:space="preserve">Brystær noghet h<ex>e</ex>rj at th<ex>e</ex>nne landgæld wordher ey betalen som nw saght ær /
+      tha scal th<ex>et</ex>te breff genesten wær<ex>e</ex> døt oc haffue engen macht oc the for<hi rend="sup">de</hi> gots frij oc vhindrete strax til wort closter igen vten al genseghn oc
+      vten alle hielperæde ♦</p>
+            <p n="a#4" xml:space="preserve">Item scule for<hi rend="sup">de</hi> h<ex>er</ex>
+      <persName>Anders Nielss<ex>øn</ex></persName> oc frw <persName>Margretæ</persName> nyde oc
+      brughe the gots m<ex>eth</ex>
+      <app><lem>alle</lem><rdg resp="#jon">Muligvis fejl for <q>all therre tilhørelse</q></rdg></app> til th<ex>e</ex>rre nøtte oc gaffn sua lenge som for<ex>e</ex>scr<ex>effuit</ex>
+      stander / doch sua at the ey lade scowene forhugges ell<ex>e</ex>r fiskewatnen forfiskes til
+      vplichtæ oc fare sua m<ex>eth</ex> wartnedene at the bliffue with lige oc sua at the ey
+      affhende <app><lem>the sa<ex>m</ex>me</lem><rdg wit="#A"><q>thesa<ex>m</ex>me</q>, A</rdg></app> gots nogherlu<ex>n</ex>d framdeles bort nogh<ex>e</ex>r j noghr<ex>e</ex> made
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Item wordhe the gots øthelaghde aff roof ell<ex>e</ex>r eldebrand som landet
+      paco<ex>m</ex>mer aff rikens fiende tha scule tilcalles fire dandemen pa closters weghne oc
+      fire pa th<ex>e</ex>rr<ex>e</ex> weghne oc huat som the otte dandemen sighe oss j
+      mell<ex>e</ex>m th<ex>e</ex>r scule wi lade oss lige m<ex>eth</ex> pa bodhe sidh<ex>e</ex>r
+      ♦</p>
+            <p n="a#6" xml:space="preserve">Item th<ex>e</ex>n for<hi rend="sup">de</hi> garth j <placeName>Watzingeruth</placeName>
+      scule wi haffue frij for<ex>e</ex> alle for<hi rend="sup">de</hi> h<ex>er</ex>
+      <persName>Andersses</persName> oc frw <persName>Margretes</persName> tiltale ell<ex>e</ex>r
+      buth oc the hanu<ex>m</ex> forsuare lige som the andre ♦</p>
+            <p n="a#7" xml:space="preserve">Item th<ex>e</ex>n garth som nw j dele stander j <placeName>Vggeløse</placeName> som
+        <persName>Jens Olæfsson</persName>
+      <app><lem>iboer</lem><rdg resp="#jon">Muligvis <q>iboor</q></rdg></app> ku<ex>n</ex>ne wi frij th<ex>e</ex>m hanu<ex>m</ex> tha scule the nyde hanu<ex>m</ex> j
+      for<ex>e</ex>scr<ex>effne</ex> landgæld ku<ex>n</ex>ne wi oc icke tha scule wi wær<ex>e</ex>
+      vfortalete aff th<ex>e</ex>m th<ex>e</ex>rfor<ex>e</ex> / oc forsaghde la<ex>n</ex>dgæld oss
+      vforsømet for<ex>e</ex> ♦</p>
+            <p n="a#8" xml:space="preserve">Item naar guth weel at the affdø / eller at for<hi rend="sup">de</hi> frw
+        <persName>Margretæ</persName> ma<ex>n</ex>nes efft<ex>er</ex> hans døth ell<ex>e</ex>r oc at
+      noghet forsømes j thesse for<ex>e</ex>scr<ex>effne</ex> article tha scule the for<hi rend="sup">de</hi> wor gots frij oc vhindrete vten alle th<ex>e</ex>rre oc th<ex>e</ex>rre
+      arwinges gensighelse strax til wort closter igenco<ex>m</ex>me m<ex>eth</ex> all schuld frucht
+      skat oc la<ex>n</ex>dgæld oc m<ex>eth</ex> all bæthrelse j alle made som the tha ære
+      ♦</p>
+            <p n="a#9" xml:space="preserve">Til thæs witnesburdh haffue wi heyngt wor<ex>e</ex> jncigle for<ex>e</ex> th<ex>et</ex>te
+      breff ♦</p>
+            <p n="a#10" xml:space="preserve">Giffuet j for<hi rend="sup">de</hi> wort closter aar efft<ex>er</ex> guts burdh . m ccc
+      cxxxvii pa sancti Viti dagh etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14390527001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection/>
+                        <idno>NKR c-3311; tidl. L 54-5</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 26,5 × 32,7. <ab>Brudstykke; pergamentet er skåret til, således at hele brevets begyndelse,
+                        ca. 2/3 af tekstens højre side og bunden mangler</ab>99999999. . </physDesc>
+                     <history>
+                        <ab>Måske registreret i Maribo klosters reg. (1624), ÆA III 254 (således Vejl.
+                  Arkivreg.), men sandsynligvis kom brevet allerede til Mariager før reformationen,
+                  i hvilket fald det måske er omtalt i Mariager klosters reg. (1584-1602), ÆA V 758,
+                  hvor der nævnes privilegier, stadfæstelser o.a., som man ikke fandt det nødvendigt
+                  at registrere. Det bevarede brudstykke har været brugt som omslag om Mariager
+                  klosters jordebog (1660-1) og blev iflg. en påskrift på bagsiden fundet 22. jun.
+                  1880</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Afskrift af William Christensen</ab>99999999. . </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 7009</bibl>
+               <bibl>Vejledende Arkivregistraturer XVIII 87 nr. 5</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter A. En del af den manglende tekst har kunnet suppleres fra <ref target="14380905001">DD 1438. 5. sep., nr. 14380905001</ref>, som i store træk bliver
+          gentaget her; ellers udgør hver lakune omtrent 2/3 af linjen.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1439-05-27"
+                  notBefore="1439-05-27"
+                  notAfter="1439-05-27"
+                  cert="high">1439. 27.
+            maj<note>Angående udsteder: Brevets udsteder kan ikke bestemmes med sikkerhed. Jexlev
+            antager i Vejledende Arkivregistraturer, at det er biskoppen i Odense, hvilket må anses
+            for sandsynligt, fordi den tidligere bulle om stadfæstelse af klostrets grundlæggelse
+              (<ref target="14180409003">DD 1418. 7. apr., nr. 14180407003</ref>) var adresseret til
+            biskoppen i Odense, fordi Maribo kloster ligger i Odense stift, og fordi notaren er fra
+            samme stift. Höjer (Studier i Vadstena klosters och Birgittinordens historia intill
+            midten af 1400-talet s. 263) antager imidlertid, at der er tale om biskoppen i Århus,
+            nok fordi det ene vidne er ærkedegn i Århus, men herfor taler næppe andet. Angående
+            udstedelsessted: Den bevarede del af stedbetegnelsen, <q>locutorio fratrum predicti
+              ordinis</q>, afgør, at udstedelsesstedet er et kloster; går man ud fra, at udstederen
+            er biskoppen i Odense, må det antages, at der enten er tale om Skt. Knuds kloster
+            (Gråbrødrekloster) i Odense, dvs. domkapitlet, eller selve Maribo kloster. Det taler for
+            en datering på Lolland, at det andet vidne, Niels Hennikesen, er en af biskoppens
+            lokalofficialer på øerne, og at notaren Hans Feringberg optræder i to andre breve på
+            Lolland (kapellan i Sakskøbing: <ref target="14440327001">DD 1444. 27. mar., nr.
+              14440327001</ref>, notar i Maribo: <ref>8. okt. 1445, Rep. nr. 7557</ref>). Disse
+            betragtninger synes tilsammen at pege på, at udstedelsesstedet er Maribo
+          kloster</note>
+            </date>
+            <placeName cert="low">Lokutoriet i [Maribo kloster]</placeName>
+         </creation>
+         <abstract>
+            <ab>Notarialinstrument, at en dansk biskop i henhold til pave Eugenius 4.s befaling af 1438.
+          5. sep. (<ref target="14380905001">DD nr. 14380905001</ref>) og på opfordring af Niels
+          (Jakobsen, generalkonfessor i Maribo kloster?) stadfæster kong Eriks grundlæggelse af
+          Maribo kloster, dets forening med sognekirken i Skimminge, dets besiddelser og dets
+          privilegier. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-12" who="#pbh">Filen etableret af #pbh 2013-12-12. </change>
+         <change when="2017-06-21" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="nil">
+            <p n="a#1">
+               <damage>... ex</damage>posita fuerint (<q>etc. = <ref target="14380905001">DD
+              1438. 5. sep., nr. 14380905001</ref>
+               </q>)</p>
+            <p>
+               <damage>...</damage>
+               <persName>Nicolaum</persName> cum instancia requisiti ut ad execucionem dictarum
+          litterarum apostolicarum et contentorum in eisdem procedere dignaremur
+              jux<damage>
+                  <supplied>ta</supplied> ...</damage> et dominus <persName>Ericus</persName>
+          rex exponi fecit in hec seu consimilia verba sicut de hoc in predictarum litterarum
+          apostolicarum serie cuilibet clare <damage>...</damage> informacione exposita fuerint loco
+          quorum narrari debuisset quod olim prelibatus rex zelo fidei et devocionis accensus
+            c<damage>upiens ...</damage>
+               <placeName>Lincopensis</placeName> dyocesis sub regula sancti Augustini a sede predicta
+          approbatum magis augmentari et prehonorari in emunitate ecclesie <placeName>Ske<ex>m</ex>m<damage>
+                     <app>
+                        <lem>inge</lem>
+                        <rdg>tilf. i Aa</rdg>
+                     </app> ...</damage>
+               </placeName> episcopi et dicte ecclesie rectoris licencia et
+          consensu pro sua et clare memorie Margarete dictorum regnorum regine ac aliorum
+            <damage>s... includendis</damage> in uno . et in alio locis omnino ab invicem distinctis
+          et separatim firmissime munitis videlicet in una magna curia pro u<damage>... officia pro
+            tempore celebraturis ac certis conversis</damage> eciam includendis et in dicto ordine
+          Sanctisalvatoris juxta instituta morem et regulam monasterii in
+            <placeName>Wazsteno</placeName> hujusmodi conventualiter et s<damage>... <app>
+                     <lem>
+                        <damage>se</damage>
+                     </lem>
+                     <rdg>tilf. i Aa</rdg>
+                  </app>parata et munita edificia necessaria cum nova ecclesia cimiterio
+            campanili</damage> campana ortis ortaliciis et aliis necessariis officinis que ipse rex
+          monasterium et conventum in Mariebo nominaverit <damage>... cum parochiali ecclesia
+            hujusmodi ac certa possessiones loca et bona quamplurima tunc expressa predicta</damage>
+          porcione pro dicto rectore modo premisso reservata . eisdem monasterio in
+            <placeName>Mariebo</placeName> abbatisse monialibus confessori fratribus et conventui
+            <damage>...</damage> predictus dominus noster papa nobis per apostolica scripta commisit
+          et mandavit quod si premissa omnia et singula ita esse
+              inve<damage>
+                  <supplied>niremus</supplied> ...</damage> attendentes predicti fratris
+          Nicolai requisicionem fore justam et consonam racioni ac volentes commissionem apostolicam
+          nobis <damage>...</damage> mittitur exposita ac in dicta nobis facta commissione contenta
+          . clare ac lucide reperimus fore vera . dei nomine invoca<damage>
+                  <app>
+                     <lem>to</lem>
+                     <rdg>tilf. i Aa</rdg>
+                  </app> ...</damage> ratas habentes et gratas ipsasque et omnia inde secuta auctoritate
+          apostolica et ex certa nostra sciencia ac melioribus <damage>...</damage> communimus .
+          defectus omnes et singulos subortos pro nostro modulo supplentes et si qui fortasse
+          intervenerint <damage>... <supplied>pre</supplied>
+               </damage>missa ut dictum monasterium ac
+          persone in Mariebo privilegiis libertatibus exempcionibus graciis indulgenciis
+            <damage>...</damage> plene et libere in omnibus et per omnia integre gaudeant et utantur
+          ♦</p>
+            <p>Prohibemus insuper ac sub attest<damage>
+                  <supplied>acione</supplied> ...</damage>
+          condicionis seu preeminencie fuerit ne monasterio seu personis hujusmodi contra
+          approbacionem vel confirmacionem <damage>...</damage> ♦</p>
+            <p>Siquis autem hoc attemptare presumpserit ultra excommunicacionis sentenciam quam in ipsum
+          per presentes ferimus <damage>...</damage> premissorum presentes litteras seu publicum
+          instrumentum fieri per notarium publicum infrascriptum subscribi et
+              publi<damage>
+                  <supplied>cari</supplied> ...</damage> ♦</p>
+            <p>
+               <damage>...</damage> locutorio fratrum predicti ordinis anno domini mcdxxxix indiccione
+          secunda mensis maii die xxvii<hi rend="sup">a</hi> hora x vel quasi p<damage>...</damage>
+          extunc honorabilibus viris dominis <persName>Erico Laurencii</persName> archidyacono
+          Arusiensi <persName>Nicolao Hennichini</persName> officiali domini episcopi Ottoniensis
+            <damage>...</damage> aliisque quampluribus honestis viris clericis et laicis testibus ad
+          premissa vocatis specialiter et rog<damage>
+                  <app>
+                     <lem>atis</lem>
+                     <rdg>tilf. i Aa</rdg>
+                  </app> ...</damage> ♦</p>
+            <p>
+               <figure>
+                  <figDesc>Til venstre herfor Hans Feringbergs notarmærke</figDesc>
+               </figure> Et ego <persName>Johannes Feringb<ex>er</ex>gh</persName> clericus
+                <placeName>O<damage>
+                     <supplied>ttoniensis</supplied> ...</damage>
+               </placeName>
+          recepcionem requisicionem approbacionem a<damage>...</damage> dominum episcopum et
+          commissarium fierent et <damage>...</damage> fideliter conscript<damage>...</damage>
+            </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">nil</p>
+         </div>
+      </body>
+   </text>
+</TEI>

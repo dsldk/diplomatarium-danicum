@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">200</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14340000002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3188-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>13.5</height>
+                                    <width>24</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6744</bibl>
+               <bibl>Sveriges Medeltidsregester, nr. 2</bibl>
+               <bibl>SDHK-nr. 22064</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434" notBefore="1434" notAfter="1434" cert="low">1434.</date>
+            <placeName cert="high">Hammershus</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skipper Hans Sume, som har lidt skibbrud ud for Bornholm, skænker Åge Nielsen (Sparre),
+      høvedsmand på Bornholm, halvdelen af det gods, som Åge Nielsens folk er i stand til at bjerge
+      fra skibet.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-31" who="#pbh">Filen etableret af #pbh 2013-10-31. </change>
+         <change when="2020-02-18" who="#smb">1. korrektur af #smb 2020-02-18. </change>
+         <change when="2020-03-09" who="#smb">2. korrektur af #smb 2020-03-09. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Vytlicth zyeth alle jene de dessen breff zen effthe horen lesen dat jk <persName>Hans
+        Sume</persName> bekenne vnde betywghe myth dissen jeyen werdighe myn oppen breue dat jk
+      vornomde <persName>Hans Zwme</persName> myth myneme skepe in der se schorede vnde brach dar
+      ganz in tywey dat vy vnzeme lyff nich berghen konden / den queme des eruerdigen manzs denere
+      vnde undhersate <persName>Ake Nielsons</persName> / berghede vnde <app><lem>reddede</lem><rdg><q>reddee</q>, A</rdg></app> vnsme lyff vnde got van alle deme gode in deme schepe vesende iiij laste melzs v tunnen
+      berzs i tunne honeges vnde nicth mer van alle deme gode / ♦</p>
+            <p n="a#2" xml:space="preserve">Dar oppe hebbe jk vornomde <persName>Hans Sume</persName> my vormectiget van des kopmanzs
+      vegne vnde hebbe en endracth vnde sone makyt mith deme eruerdyghe man Ake Nielsone houitman
+      oppe <placeName>Borneholmen</placeName> dat jk vorbenomde <persName>Hans Sume</persName>
+      villichlike vnbedywnghen vornomde <persName>Ake Nielsone</persName> gwnt hebben des helffthe
+      des bergeden godes / vnde tho bynde jk my vornomde <persName>Hans Sume</persName> / deme
+      erzebischop van <placeName>Lunden</placeName>
+      <persName>Ake Nielsone</persName> vnde eren denere vry vnde notlos holden vil vor al to sproke
+      schade edder namaning de dar aff komen kan / ♦</p>
+            <p n="a#3" xml:space="preserve">To mere visse vnde grottere voruaryngh dat disse vorescrefne stukke al dyws to gan zynt zo
+      hebbe ik vornomde <persName>Hans Sume</persName> myn inghesegle henget benedden an dissen
+      breue mit ville vnde mit vitschap ♦</p>
+            <p n="a#4" xml:space="preserve">Gyeuen vnde schreuen oppe <placeName>Hamers Hws</placeName> na Godes bord m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> in deme xxxiiij<hi rend="sup">o</hi> jar ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

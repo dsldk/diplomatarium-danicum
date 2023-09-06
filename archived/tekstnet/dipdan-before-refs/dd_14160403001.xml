@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">158</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14160403001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>fol. 11b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift dateret 5. april 1416</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL V, nr. DLXVII, p. 608-609</bibl>
+               <bibl>Reg. Dan. nr. *4356</bibl>
+               <bibl>Hanserec. I:6, nr. 245, p. 174</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-04-03"
+                  notBefore="1416-04-03"
+                  notAfter="1416-04-03"
+                  cert="high">1416. 3. april</date>
+            <placeName cert="high">Kalundborg slot</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern genbekræfter over for de stralsundske rådsudsendinge Simon v. Urden,
+      Johann Burow og Arnd Brandenborch det frie lejde, som han tidligere har givet udsendingene fra
+      det nye råd i Lübeck, eftersom disse udsendinge grundet vind og vejr endnu ikke har haft
+      mulighed for at sejle ud.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-13" who="#pbh">Filen etableret af #pbh 2014-03-13. </change>
+         <change when="2020-11-06" who="#smb">1. korrektur af #smb 2020-11-06. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Ericus, Dei gracia regnorum Dacie, Swecie, Norwegie, Slavorum Ghottorumque rex et dux
+      Pomeranie.</p>
+            <p n="a#2" xml:space="preserve">Vnsen gunstigen gr{uo}t touoren.</p>
+            <p n="a#3" xml:space="preserve">Wetet, leuen getruwen, dat wy <app><lem>juwen breff</lem><rdg>dvs. de stralsundske rådsudsendinges brev til kong Erik, <ref target="14160401003">DD
+            1416. 1. apr., nr. 14160401003</ref></rdg></app> wol vornomen hebben, den gy vns nv toscreuen, dat de van <placeName>Lubeke</placeName>
+      nicht k{oe}men sint, dat wynt vnde weder en des benomen heft.</p>
+            <p n="a#4" xml:space="preserve">Vnde vorder, alze gy begherende sint, dat wy zee nv to desser tijd lijden willen, dessen dach
+      to holdene, vnde dat dat van vnser wegen sunder arch wesen scholde, des wetet, leuen getruwen,
+      dat wy juw dar wol eer vp gescreuen hebben.</p>
+            <p n="a#5" xml:space="preserve">So is vnse wille noch, dat wy se gerne to dessem daghe dorch God vnde dorch juwer vnde dorch
+      der gemeynen stede beste vnde bestantnisse willen gerne lijden willen vnde scholen van vns
+      vnde vnser wegen sunder arch wesen.</p>
+            <p n="a#6" xml:space="preserve">Hirmede sterke juw God to langen saligen tijden.</p>
+            <p n="a#7" xml:space="preserve">Screuen vp vnsem slote to <placeName>Kallingborch</placeName>, des negesten vrydages na
+      Letare, vnder vnsem secrete.</p>
+            <p n="a#8" xml:space="preserve">Den vorsichtigen luden, her <persName>Symon van Vrden</persName>, <persName>Johan
+        Burowen</persName> vnde <persName>Arnd Brandenborch</persName>, vnsen leuen getruwen.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

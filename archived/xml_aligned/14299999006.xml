@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1327</num>, paragraphs: <num n="paragraphs">35</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14290000006</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Nationalmuseet (tidl. Oldnordisk Museum)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 12.5 × 132. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Danske Magazin 3.rk. I, nr. V, p. 47-52</bibl>
+               <bibl>Københavns Dipl. II, nr. 37, p. 52-55</bibl>
+               <bibl>Reg. Dan. nr. *4865</bibl>
+               <bibl>Nyrop, Danmarks Gilde- og Lavsskraaer, bd. 2, nr. 15, p. 65-70</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Nyrop l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429" notBefore="1429" notAfter="1429" cert="low">1429. <note>Udgivet efter Nyrop l.l., da A ikke har været tilgængelig for udgiveren i
+    februar 2021</note>
+            </date>
+            <placeName cert="low">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrå for guldsmedelavet i København, også kaldet Sankt Eligius' Gilde, givet med kong Erik
+      7. af Pommerns og dronning Filippas tilladelse samt med samtykke fra hr. Esge (Jensen) Brok
+      (til Essendrup), høvedsmand på Københavns slot, og Københavns byråd. </ab>
+            <ab>Skråen indeholder følgende punkter: </ab>
+            <ab>1) Enhver guldsmed i København skal arbejde med lødigt sølv og godt guld. Første gang man
+      forbryder sig mod denne regel, skal man betale en lødig mark i bøde til lavet. Anden gang man
+      forbryder sig mod denne regel, skal man betale to lødige mark i bøde til lavet. Tredje gang
+      man forbryder sig mod denne regel, skal man betale tre lødige mark i bøde. De tre mark skal
+      lavet dele i tre dele: kongens foged skal have én mark, rådmændene i København skal have én
+      mark, og endelig skal guldsmedelavet have én mark. Derefter skal den pågældende guldsmed
+      forlade København. </ab>
+            <ab>2) Guldsmedene i København skal vælge en eller to oldermænd, som skal lede lavet. Den, som
+      modsætter sig dette, skal betale en halv mark sølv i bøde til lavet. </ab>
+            <ab>3) Den, som vil etablere sig som selvstændig guldsmed, skal have fem mark lødigt sølv og
+      værktøj til en værdi af en mark lødigt sølv. Endvidere skal han sværge ved to ærlige mænds
+      navn. Endelig skal han give lavet en tønde øl og en mark voks samt lys og bægre. </ab>
+            <ab>4) Kun ægtefødte drenge må komme i lære hos en guldsmed. Den guldsmed, som forbryder sig mod
+      denne regel, skal betale en mark lødigt sølv i bøde til lavet. Endvidere skal den dreng, som
+      ikke er ægtefødt, fjernes fra lærepladsen. </ab>
+            <ab>5) Den guldsmed, som får sig en lærling, skal give en tønde øl til lavet. </ab>
+            <ab>6) Ingen svend må fremstille sine egne sølv- eller guldgenstande uden sin herres samtykke.
+      Såfremt det bliver opdaget, at en svend gemmer de sølv- eller guldgenstande, som han selv har
+      fremstillet, for sin herre, skal guldsmeden betale en halv mark lødigt sølv og svenden en
+      tønde øl i bøde til lavet. </ab>
+            <ab>7) Ingen svend må udføre stykarbejde. Ej heller må en svend optjene ugeløn. Den, som gør
+      dette, skal betale fire mark voks i bøde til lavet. Såfremt han har gjort det med sin herres
+      samtykke, skal han betale en tønde øl i bøde til lavet. Såfremt de pågældende
+      håndværksgenstande bliver fundet hos svenden, skal man lægge dem i guldsmedelavets bøsse. </ab>
+            <ab>8) Den svend, som stikker af med sin herres løn og ikke kommer tilbage, skal holdes for en
+      uforbederlig svend. Således skal ingen medlemmer af lavet tage denne svend til sig. Den, som
+      alligevel gør det, skal betale en lødig mark i bøde til lavet. </ab>
+            <ab>9) Såfremt en svend efter at have tjent hos sin herre et stykke tid ønsker at rejse bort, og
+      såfremt svendens herre ikke vil betale løn til svenden, skal herren betale et livlandsk pund
+      voks i bøde til lavet, såfremt svenden indberetter sagen til oldermændene. Desuden skal herren
+      udbetale lønnen til svenden. </ab>
+            <ab>10) Såfremt en svend er til skade for sin herres virksomhed, skal oldermændene udpege to
+      selvstændige guldsmede. Disse to skal træffe en afgørelse, som er til behag for både svenden
+      og herren. Den, for hvem denne afgørelse ikke er til behag, skal udtræde af lavet. </ab>
+            <ab>11) Ingen selvstændig guldsmed må drikke med andre medlemmer af lavet på beværtninger eller
+      ved øludskænkningssteder. Den, som gør det, skal betale en kvart lødig mark i bøde til lavet.
+      Oldermændene har dog mulighed for at tilgive denne forseelse. </ab>
+            <ab>12) Såfremt en selvstændig guldsmed kalder en anden for ludersøn, skal han betale en kvart
+      lødig mark i bøde til lavet. I dette tilfælde har oldermændene ingen mulighed for at tilgive
+      forseelsen. </ab>
+            <ab>13) Slår og sårer en selvstændig guldsmed en anden, skal han betale en halv lødig mark i
+      bøde til lavet. I dette tilfælde har oldermændene ingen mulighed for at tilgive forseelsen.
+      Slår en herre en svend, skal herren betale en kvart lødig mark i bøde til lavet. Slår en svend
+      en herre, skal svenden betale en halv lødig mark i bøde til lavet samt sværge på, at han ikke
+      vil gøre det igen. </ab>
+            <ab>14) Såfremt et medlem af lavet trækker en kniv mod et andet medlem af lavet, skal han,
+      uanset hvor forseelsen sker, betale en lødig mark i bøde til lavet. Såfremt en svend trækker
+      en kniv mod sin herre, skal svenden, uanset hvor forseelsen sker, betale en lødig mark i bøde
+      til lavet. I dette tilfælde har oldermændene ingen mulighed for at tilgive forseelsen.
+      Endvidere skal svenden sværge på, at han ikke vil gøre det igen. </ab>
+            <ab>15) Såfremt en mester arbejder på sankt Eligius' dag, skal han betale en tønde øl i bøde til
+      lavet. Såfremt en svend arbejder på sankt Eligius' dag, skal han betale en halv tønde øl i
+      bøde til lavet. Såfremt guldsmeden har en dreng, som arbejder på sankt Eligius' dag, skal
+      drengen betale en mark voks i bøde til lavet. </ab>
+            <ab>16) Såfremt en guldsmed tager en dreng til sig og har hos sig i 12 uger uden at skrive
+      drengen på lavets medlemsliste, skal han betale fem mark voks i bøde til lavet. Derudover skal
+      han yde kompensation til lavet for drengen. </ab>
+            <ab>17) Såfremt en svend, som har ydet trofast tjeneste, dør, skal man yde ham samme ret som en
+      selvstændig guldsmed. Såfremt et lavsmedlem ikke gør det, skal vedkommende betale en øre i
+      bøde til lavet. </ab>
+            <ab>18) Såfremt en selvstændig guldsmed eller en selvstændig guldsmeds hustru dør, skal man
+      følge vedkommende til graven, således som det sig hør og bør for medlemmerne af lavet. Den,
+      som ikke gør dette, skal betale en øre i bøde til lavet. </ab>
+            <ab>19) Såfremt en enke efter en guldsmed dør, skal man yde hende samme ret som enhver
+      selvstændig guldsmed. Den, som ikke gør dette, skal betale en øre i bøde til lavet. </ab>
+            <ab>20) Ingen svend må etablere sig som selvstændig guldsmed, medmindre han har tjent i et helt
+      år hos en guldsmed i København. </ab>
+            <ab>21) På sankt Andreas' dag skal alle medlemmer af lavet drikke sammen. Den følgende dag skal
+      lavet holde en sjælemesse. Både kvinder og mænd skal donere til denne sjælemesse. Den, som
+      ikke gør det, skal betale en øre i bøde til lavet. </ab>
+            <ab>22) Såfremt en guldsmed snupper stadepladsen fra en anden guldsmed på markedet, skal
+      vedkommende betale en tønde øl i bøde til lavet. Kommer det i den forbindelse til onde ord
+      imellem parterne, skal den, som beviseligt har begået forseelsen, betale to tønder øl i bøde
+      til lavet. </ab>
+            <ab>23) Såfremt et medlem af lavet har gæld, som skal betales ud, og såfremt vedkommende ikke
+      gør det på det fastsatte tidspunkt, skal vedkommende betale tre øre i bøde til lavet. </ab>
+            <ab>24) Såfremt et lavsmedlem inviterer et andet lavsmedlem op på rådhuset uden oldermændenes
+      tilladelse, skal vedkommende betale tre mark voks i bøde til lavet. </ab>
+            <ab>25) Ingen selvstændig guldsmed må overtage en svend fra en anden guldsmed uden den anden
+      guldsmeds samtykke. Den, som gør det uden den anden guldsmeds samtykke, skal betale et halvt
+      livlandsk pund voks i bøde til lavet. Endvidere skal svenden betale en tønde øl i bøde til
+      lavet. </ab>
+            <ab>26) Såfremt en svend vil være sin egen herre, skal han ikke stoppe med at tjene hos sin
+      herre, førend han har opfyldt alle sine forpligtigelser over for lavet. </ab>
+            <ab>27) Såfremt et lavsmedlem hælder et bæger øl ud over hovedet på et andet lavsmedlem, skal
+      vedkommende betale en kvart lødig mark i bøde til lavet. Såfremt et lavsmedlem hælder et bæger
+      øl i skødet på et andet lavsmedlem, skal vedkommende betale fire mark voks i bøde til
+      lavet. </ab>
+            <ab>28) Det lavsmedlem, som gemmer et andet lavsmedlems værktøj, skal betale en tønde øl i bøde
+      til lavet. </ab>
+            <ab>29) Det lavsmedlem, som lokker et andet lavsmedlems svend eller dreng til uden deres herres
+      samtykke at bortgive eller sælge nogle af de ting, som er i deres herres bod, skal betale et
+      halvt pund voks i bøde til lavet. Endvidere skal man holde vedkommende for en uforbederlig
+      mand. </ab>
+            <ab>30) Den, som ikke deltager i lavsmøderne, skal betale en øre i bøde til lavet. Den, som går
+      fra lavsmøderne i vrede, skal betale en tønde øl i bøde til lavet. </ab>
+            <ab>31) Ingen guldsmed må arbejde med andet guld end godt guld. </ab>
+            <ab>32) Ingen guldsmed må arbejde med andet sølv end godt sølv. </ab>
+            <ab>33) Det har fra gammel tid været sædvane i lavet, at man giver den halve vægt af en halv
+      lødig mark, såfremt man vil have udført en sølvgenstand uden forgyldning. Hvis mesteren
+      forgylder en sølvgenstand med sit eget guld, skal han have hele vægten. </ab>
+            <ab>34) Endvidere har det fra gammel tid været sædvane i lavet, at hvis en mester kommer i
+      besiddelse af guld- eller sølvgenstande, som ikke lever op til lavets standarder, skal
+      vedkommende holde disse genstande tilbage, indtil de lever op til lavets standarder. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-05" who="#pbh">Filen etableret af #pbh 2014-08-05. </change>
+         <change when="2021-02-22" who="#smb">1. korrektur af #smb 2021-02-22. </change>
+         <change when="2021-04-09" who="#smb">2. korrektur af #smb 2021-04-09. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Allen lyden zy witlik, dat na Godes gebort, do men schreff verteynhundert vnde in deme
+      negentwintegesten jare, de irluchtigeste hochgeborne furste vnde here, here
+        <persName>Erik</persName>, van Godes gnaden koningh der rike
+        <placeName>Denemarken</placeName>, <placeName>Sweden</placeName> vnde
+        <placeName>Norwegen</placeName> ok hertog to <placeName>Pomeren</placeName>, vnde de
+      irluchtigeste, hochgeborne furstynne vnde vruwe, vruw <persName>Philippa</persName>, koningyne
+      der seluen gnaden, hebben gheghunt vnde toghelaten ene rechticheit vnde statute, alse hyr na
+      schreuen steit, vnde dat is ok gheschen mit witschop her <persName>Esge Brok</persName>,
+      ridder, houetman des slotes to <placeName>Kopenhauen</placeName>, vnde vor dem gantzen rade
+      der stad <placeName>Kopenhauen</placeName>, so ys dyt ghemaket vnde gedichtet in Godes vnde in
+      alle Godes hilgen ere, vnde in sunte Loygen ere vnde van den beschedenen luden vp ghenomen, de
+      hir vormals to <placeName>Kopenhauen</placeName> goltsmede weren. Alse by <persName>Euerd
+        Lunynghes</persName> tiden, <persName>Olaff</persName> goltsmedes,
+        <persName>Werner</persName> goltsmedes, mester Johans, Andreas Regenstens, Marqwardes, in de
+      ere vnde dorch den vromen aller goltsmede.</p>
+            <p n="a#2" xml:space="preserve"><supplied>1</supplied> Dat jewelik goltsmyt to <placeName>Kopenhauen</placeName> schal werken
+      lodich suluer vnde gut golt; we des nichten doyt, de bote to dem ersten der kumpanie ene mark
+      lodich, doyt he dat to dem anderen male, zo bote he twe mark lodich, doyt he dat tho dem
+      derden male, so botet he dre mark lodich. De dre mark schal men delen an dren, ene mark schal
+      hebben des koninghes voghet, de anderen de raetlude, de derden mark den goltsmeden to
+        <placeName>Kopenhauen</placeName>; darna schal de selue de stad rumen.</p>
+            <p n="a#3" xml:space="preserve"><supplied>2</supplied> Vortmer de goltsmede to <placeName>Kopenhauen</placeName> scholen
+      kesen enen olderman eder twe, de der kumpanie van sunte Loyen ghilde scholen vore zeen; so we
+      dar jegen sprekt, wan yd eme boden wert, de bote ene halue mark syluers.</p>
+            <p n="a#4" xml:space="preserve"><supplied>3</supplied> Vortmer we eghen werk werken wil, de schal hebben vyff mark lodiges
+      syluers vnde touwe, dat werdich sy ene lodige mark sylvers, vnde dat sweren twe erlike mannes
+      namen vort, so schal he der kumpanie gheuen ene tunne bers vnde ene mark wasses vnde licht
+      vnde bekere, de men dar antworden schal.</p>
+            <p n="a#5" xml:space="preserve"><supplied>4</supplied> Vortmer so en schal nyn goltsmyt to sik nemen jenigen knecht tho
+      lerende, he en sy van echten luden vth gekomen; we dar en jeghen doyt, de betere ene lodige
+      mark syluers, vnde de knecht schal vngelert bliuen.</p>
+            <p n="a#6" xml:space="preserve"><supplied>5</supplied> Vortmer so we enen knecht nymt to lerende, de schal der kumpanie
+      gheuen ene tunne bers <app><lem>vnde</lem><rdg><q>vnde - was</q>, tilføjet i margen i A</rdg></app> sunte Loyen iij marck was.</p>
+            <p n="a#7" xml:space="preserve"><supplied>6</supplied> Vortmer schal nyn knecht maken eghen werk edder stucke werk ane synes
+      heren witschap; vnde vorhelet dat de here, zo betere de here ene halue lodighe mark vnde de
+      knecht ene tunne bers, vnde den knecht schal men vor knecht, de beter nicht, holden.</p>
+            <p n="a#8" xml:space="preserve"><supplied>7</supplied> Vortmer nyn knecht schal maken stucke werk edder wekeloen vordenen; so
+      we yn sodanighen stucken ghevunden wert, <app><lem>so</lem><rdg><q>so - deyt</q>, tilføjet i margen i A</rdg></app> vakene alze he dat deyt, de betere veer mark wasses, deyt he dat myt des heeren wille,
+      so betere he ene tunne bers <app><lem>vnde</lem><rdg><q>vnde - bers</q>, tilføjet i margen i A</rdg></app> de meister ok eyne tunne bers; wert dat werk ghevunden myt deme kechte, dat schal men
+      doen in sunte Loygen bussen.</p>
+            <p n="a#9" xml:space="preserve"><supplied>8</supplied> Vortmer so welk knecht myt synes heren lone enwech vore vnde dar
+      namals wedder qweme, den zolde men vor knecht, des de beter nicht, holden, vnde neman scholde
+      den knecht tho sik nemen van vnser kumpanye; so we dat brekt, de beter ene mark lodich.</p>
+            <p n="a#10" xml:space="preserve"><supplied>9</supplied> Vortmer denet en knecht syneme heren vp ene beschedene tiid, vnde wil
+      de knecht enwech varen, vnde toghert de here deme knechte syn loen vore, vnde klaghet dat de
+      knecht vor den oldermannen, so betere de here eyn lyspund wasses, dar tho so gheue he deme
+      knechte syn loen.</p>
+            <p n="a#11" xml:space="preserve"><supplied>10</supplied> Dyt recht hebbe wy vp ghenomen vor den ghemenen ratluden tho
+      Kopenhauen. Vorsumet en knecht synes heren werk, de oldermanes kesen twe selues heren; wat se
+      dar doet dat schal deme heren vnd deme knechte wol behaghen, so weme dat nicht behaghet, de
+      gha vte der kompanye.</p>
+            <p n="a#12" xml:space="preserve"><supplied>11</supplied> Vortmer nyn sulues here sal myt den anderen drinken van vnser
+      kumpanye in tauernen edder yn birbenken; so we dat deyt, de betere enen lodighe verdynk vp
+      gnade.</p>
+            <p n="a#13" xml:space="preserve"><supplied>12</supplied> Vortmer het en sulues here den anderen horensone, de betere enen
+      lodigen verdink sunder gnade.</p>
+            <p n="a#14" xml:space="preserve"><supplied>13</supplied> Vortmer sleyt en sulues here den anderen enen pust, he betere ene
+      halue lodighe mark sunder gnade; sleyt en here enen knecht, he betere enen lodighen verdink;
+      sleyt en knecht enen heren, he betere ene halue lodighe mark vnde sette enen borghen vor den
+      broke.</p>
+            <p n="a#15" xml:space="preserve"><supplied>14</supplied> Vortmer we eyn mest vp den anderen thuet van vnser kumpanye, dat sy
+      war yd sy, he betere ene mark lodich; thuet eyn knecht en mest vp den heren, dat sy wor id sy,
+      he betere ene mark lodich sunder gnade vnde sette borghen vor den broke.</p>
+            <p n="a#16" xml:space="preserve"><supplied>15</supplied> Vortmer welk meister arbeidet vp <app><lem>sunte Loygen dach</lem><rdg>sankt Eligius' dag, dvs. 1. december</rdg></app>, zyn broke is ene tunne bers, vnde welk knecht arbeidet in den seluen daghe, zyn broke
+      is ene halue tunne bers, vnde des junghen broke ene mark wasses.</p>
+            <p n="a#17" xml:space="preserve"><supplied>16</supplied> Vortmer so worden se des to rade myt der ghemenen kumpanie, we enen
+      junghen to sik neme vnde helde ene twelf vulle wekene vnde lete ene dar enbynnen nicht in der
+      kumpanie rullen schriuen, de heft ghebroken vyff mark wasses, nochtan schal he der kumpanie
+      vul doen vor den junghen.</p>
+            <p n="a#18" xml:space="preserve"><supplied>17</supplied> Vortmer steruet eyn knecht, de suuerliken ghedenet heft, deme schal
+      men doen alle dat recht, dat men eyneme sulues heren doen schal; welk here des nichten doyt,
+      de betere en ore.</p>
+            <p n="a#19" xml:space="preserve"><supplied>18</supplied> Vortmer steruet eyn selues here edder syn husurouwe, den schal men
+      volghen to der graft, alse der kumpanie rechts is; we des nichten doyt, de betere eyn ore.</p>
+            <p n="a#20" xml:space="preserve"><supplied>19</supplied> Vortmer steruet ene wedewe vth vnser kompanie, der schal men doen
+      alle dat recht, dat men enem selues heren don schal; we des nichten doyt, de betere eyn
+      øre.</p>
+            <p n="a#21" xml:space="preserve"><supplied>20</supplied>
+      <app><lem>Vortmer</lem><rdg>i margen ud for denne paragraf står i A ordene <q>scriff nicht</q></rdg></app> so en schal nyn goltsmede knecht syn eghen man werden, he enhebbe en jar yn deme
+      goltsmede werke to <placeName>Kopenhauen</placeName> ghedenet.</p>
+            <p n="a#22" xml:space="preserve"><supplied>21</supplied> Vortmer to <app><lem>sunte Andreas daghe</lem><rdg>dvs. 30. november</rdg></app> so schal de kumpanie tho hope drinken, dar schal sik eyn jewelik to der kumpanie to
+      bereden; des anderen daghes scholen se ok eyne selemissen hebben, dar scholen to offeren beide
+      vrouwen vnde man; so we des nichten doyt, de betere eyn øre.</p>
+            <p n="a#23" xml:space="preserve"><supplied>22</supplied> Vortmer de deme anderen to dem markede syne stede benympt, de betere
+      ene tunne bers; komet dar jenighe qwade wort en tusschen, de dar brekt, wert he ouer tughet,
+      de betere twe tunne bers.</p>
+            <p n="a#24" xml:space="preserve"><supplied>23</supplied> Vortmer so we in vnser kumpanie vor schult vorklaghet wert, ghift he
+      eme dat nicht vp de seluen tiid, de eme ghezat is, de betere dre øre.</p>
+            <p n="a#25" xml:space="preserve"><supplied>24</supplied> Vortmer so we den anderen van vnser kumpanie vp dat raethws buth
+      sunder der olderlude orloff, de betere dre mark wasses.</p>
+            <p n="a#26" xml:space="preserve"><supplied>25</supplied> Vortmer schal nyn selues here deme anderen synen knecht entwynnen ane
+      syne willen; we dat doyt, de betere eyn half liispund wasses vnde de knecht ene tunne
+      bers.</p>
+            <p n="a#27" xml:space="preserve"><supplied>26</supplied> Vortmer so we syn eghene here werden will, de en schal syn bret nicht
+      vort leggen, er he der kumpanie heft vul ghedan.</p>
+            <p n="a#28" xml:space="preserve"><supplied>27</supplied> Vortmer we deme anderen enen beker bers vp dat houet ghut, de betere
+      enen lodighen verdink; so we deme anderen enen beker bers in den schoet ghut, de betere veer
+      mark wasses.</p>
+            <p n="a#29" xml:space="preserve"><supplied>28</supplied> Vortmer so we <app><lem>vorhelet</lem><rdg><q>vorholet</q>, Københavns Dipl. l.l</rdg></app> enes anderen touwe, de betere ene tunne bers.</p>
+            <p n="a#30" xml:space="preserve"><supplied>29</supplied> Vortmer so we des anderen knecht edder junghen locket to gheuende
+      edder to vorkopende vte der boden van den dinghen, de in der boden zynt, ane des heren orleff,
+      de betere eyn halff pund wasses vnde wese en man, de beter nicht.</p>
+            <p n="a#31" xml:space="preserve"><supplied>30</supplied> Vortmer we to der steuene nichten kumpt, de betere en øre; so we
+      ernstes modes vte der steuene gheit, der betere en tunne bers.</p>
+            <p n="a#32" xml:space="preserve"><supplied>31</supplied>
+      <app><lem>Vortmer</lem><rdg>i margen ud for denne paragraf står i A ordene <q>scriff nicht</q></rdg></app> zo en mach efte en schal nyn goltsmyt kranker golt arbeiden dan gut werk gholt, also
+      gud he dat vntfanget.</p>
+            <p n="a#33" xml:space="preserve"><supplied>32</supplied>
+      <app><lem>Vortmer</lem><rdg>i margen ud for denne paragraf står i A ordene <q>De ok uth</q></rdg></app> zo en mach nyn goltsmyt nyn zuluer arbeiden, id en sy gud werck suluer.</p>
+            <p n="a#34" xml:space="preserve"><supplied>33</supplied> Ok is dat hiir en recht ghewesen van oldinghes her, dat men ghift van
+      ener mark lodich de halue wycht, de dat wil wol ghemaket hebben vnuorghuldet, vnde vorguldet
+      dat de mester mit synem eghenen golde, zo schal he hebben de ghantze wicht.</p>
+            <p n="a#35" xml:space="preserve"><supplied>34</supplied> Ok is hiir en zede vnde en recht ghewesen van oldinghes, kumpt hiir
+      vor jenighen meister goltsmede werk, dat nicht rechtuerdich en is, dat schal he vp holden
+      wente tho rechte.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

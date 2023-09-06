@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">129</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14240414002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Gejstlige arkiver</collection>
+                        <idno>Ribe kapitel</idno>
+                        <msName>Ribe Oldemoder f. 8r spalte 1</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. *4689</bibl>
+               <bibl>Nielsen, Ribe Oldemoder 43</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Nielsen, Ribe Oldemoder anf. st</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-04-14"
+                  notBefore="1424-04-14"
+                  notAfter="1424-04-14"
+                  cert="high">1424. 14. april <note>Udgivet efter Nielsen, Ribe Oldemoder anf. st., da A ikke har været
+    tilgængelig for udgiveren i februar 2021</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Statutter for Ribe kapitel om bekendtgørelse af årtider og om kannikkernes pligt til at
+      deltage i gudstjenester. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-12" who="#pbh">Filen etableret af #pbh 2014-06-12. </change>
+         <change when="2020-05-05" who="#pbh">1. korrektur af #pbh 2020-05-05. </change>
+         <change when="2021-02-17" who="#alk">2. korrektur af #alk 2021-02-17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Anno mcdxxiiii die beatorum Tiburcii et Valeriani in <placeName>capitulo generali</placeName>
+      ita ordinatum et statutum, quod qualibet sexta feria in <placeName>capitulo</placeName>
+      intimentur anniversaria sequentis ebdomade et dominica sequenti de
+        <placeName>ambone</placeName> populo intimentur. ♦</p>
+            <p n="a#2" xml:space="preserve"><app><lem>Item quilibet <placeName>canonicus residens</placeName> in
+            <placeName>civitate</placeName> existens pro qualibet horarum sive misse matutinorum et
+          vesperarum, si se absentaverat, solvat i solidum Lubicensem pro pena in summis
+          festis</lem><rdg wit="#A">Overstreget i A</rdg></app>. ♦</p>
+            <p n="a#3" xml:space="preserve">Item quilibet canonicus residens in civitate existens, si absens fuerit in summis festis,
+      missis, vesperis et matutinis, pro qualibet istarum horarum solvat i solidum Lubicensem
+      usualis monete pro pena, quem si infra octo dies, postquam requisitus fuerit, non solverit, <app><lem>careat</lem><rdg wit="#A">Herefter overstreget <q>usum</q>; i marginen en pegende hånd, A</rdg></app> distribucione, donec solvat. ♦</p>
+            <p n="a#4" xml:space="preserve">Similiter et qui absens fuerit a processionibus in summis festis et dominicis diebus inter
+      pascha et festum corporis Christi, solvat solidum Lubicensem pro pena eadem.</p>
+            <p n="a#5" xml:space="preserve">Item quilibet canonicus residens extra civitatem Ripensem existens in summis festis, solvat
+        iiii<hi rend="sup">or</hi> solidos Lubicenses in pena pro quolibet festo ut supra, nisi <app><lem>petita</lem><rdg wit="#A">Herforinden overstreget <q>petita</q>, A</rdg></app> licencia a cantore vel duobus senioribus canonicis et optenta.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

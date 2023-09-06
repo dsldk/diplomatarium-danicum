@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">459</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14230602002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Iflg. Aa var brevet beseglet med Københavns kapitels segl</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>Byarkiver, København</collection>
+                        <idno>Papirsdokumenter vedr. Københavns gårde og huse; tidl. sign. Kbhvns gårde og huse 289</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>32.6</height>
+                                    <width>32.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden med senere hånd <q>Breff paa ii garde y Budinge oc ii garde i
+        Mørckøffue tiill sancti Olavi oc Gertrudis alter<ex>e</ex>
+                              </q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Københavns segl i grønt voks påtrykt nederst, <ref>Grandjean, Danske Købstæders Segl indtil 1660 28, VI</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Vidisse af 30. juli 1481 ved Københavns borgmester og råd, 1785 af greve F.L.
+      Moltke foræret til Gehejmearkivet. Tillige er vidimeret 1448. 23. dec. (Rep. nr. 7834), trykt
+      Københavns Dipl. IV 41-42 nr. 51</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6024</bibl>
+               <bibl>Reg. *4655</bibl>
+               <bibl>Københavns Dipl. IV 26-27 nr. 36</bibl>
+               <bibl>Rørdam, Kbhvns. Kirker og Klostere, Till. s. 31-32 nr. 27</bibl>
+               <bibl>Vejledende Arkivreg. XVII 213 nr. 103</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 221-223</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-06-02"
+                  notBefore="1423-06-02"
+                  notAfter="1423-06-02"
+                  cert="high">1423. 2. juni</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Klementsen, dekan, og kapitlet i København erklærer at have modtaget to gårde i
+      Buddinge og to gårde i Mørkhøj med en samlet årlig ydelse på 13 pund korn af Lars Nielsen
+      Vinnere, der nyligt har stiftet et alter for sankt Oluf og sankt Gertrud i Vor Frue
+      Kirke.</ab>
+            <ab>Den til enhver tid siddende dekan i København skal forlene alteret til en person, som vil
+      tage ophold i København og forrette kortjeneste med de andre klerke. Præster af Lars Nielsen
+      Vinneres slægt skal have forret til alteret.</ab>
+            <ab>Altervikaren skal holde fire messer om ugen og hvert år holde årtid for Lars Nielsen Vinnere
+      og hans hustru i højkoret i Vor Frue Kirke med uddeling af to skilling grot.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-27" who="#pbh">Filen etableret af #pbh 2014-05-27. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-11-21" who="#alk">2. korrektur af #alk 2017-11-21. </change>
+         <change when="2018-03-05" who="#alk">3. korrektur af #alk 2018-03-05. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men som th<ex>ette</ex> b<ex>re</ex>ff see ell<ex>e</ex>r høre helse wij
+        <persName>Je<ex>n</ex>s Cleme<ex>n</ex>ts<ex>øn</ex></persName> . <placeName>decan i
+        Køpma<ex>n</ex>hauen</placeName> oc <placeName>alt capitel i same sted</placeName>
+      ewi<ex>n</ex>nelig met wor h<ex>e</ex>rre oc kungøre wij th<ex>et</ex> alle so wel the som nw
+      ær<ex>e</ex> oc kome schule at wij weth<ex>e</ex>rke<ex>n</ex>ne oss met th<ex>ette</ex> wort
+      opne b<ex>re</ex>ff at haue a<ex>n</ex>namet gotz aff een hed<ex>e</ex>rlige man
+        <persName>Laur<ex>e</ex>ns Nielsen th<ex>e</ex>r kalles Wi<ex>n</ex>ner<ex>e</ex></persName>
+      . <placeName>byman i Køpma<ex>n</ex>haue<ex>n</ex></placeName> so som ær i
+        <placeName>Budinge</placeName> i <placeName>Støffns hæret</placeName> i <placeName>Gladsaxe
+        sogn</placeName> two garde . een nw bygd<ex>e</ex>r . til hwilken ligg<ex>e</ex>r thwo
+      fierdi<ex>n</ex>g joord aff hwilken schal giffue aarlige fire pu<ex>n</ex>d korn . oc then
+      a<ex>n</ex>nen nw øthe . til hwilken ligg<ex>e</ex>r thre fierdi<ex>n</ex>g jord aff hwilken
+      schal giffues sex pu<ex>n</ex>d byg . ♦</p>
+            <p n="a#2" xml:space="preserve">Item i <placeName>Mørkøwe</placeName> i th<ex>e</ex>n for<hi rend="sup">ne</hi> sogn . two
+      garde een nw bygd<ex>e</ex>r som tilligg<ex>e</ex>r een fierdi<ex>n</ex>g jord aff
+      hwilk<ex>e</ex>n tw pu<ex>n</ex>d korn schal giffues . oc then a<ex>n</ex>nen nw ødhe til
+      hwilken ligg<ex>e</ex>r een ati<ex>n</ex>g jord aff hwilk<ex>e</ex>n scal giffues eth
+      pu<ex>n</ex>d korn . met alle the gotzes tilliggilse engte vnd<ex>e</ex>ntaget pa et altaris
+      wegne i <placeName>wor Fru kirke i Køpma<ex>n</ex>haffn</placeName> som for<hi rend="sup">ne</hi> Laur<ex>ens</ex> Wi<ex>n</ex>ner<ex>e</ex> hau<ex>e</ex>r funderet oc nylige vpbygd
+      . met raad oc wilie hed<ex>e</ex>rlig fath<ex>e</ex>rs met Crist oc h<ex>e</ex>rres
+      h<ex>e</ex>r biscop <persName>Jensses</persName> met gutz nade i
+        <placeName>Rosk<ex>ilde</ex></placeName> oc ha<ex>n</ex>s sons <persName>Michel
+        Laur<ex>e</ex>nsens</persName> oc hans husfrues
+        <persName>Kad<damage>r</damage>ine</persName> samthykke raad oc wilie . so som ær
+        <placeName>sancti Olaffs altare oc sancte Gertruds i wor Frukirke</placeName> for<hi rend="sup">ne</hi> met s<damage>o</damage>dan wilkor som sc<ex>re</ex>ffne sta i
+      th<ex>ette</ex> b<ex>re</ex>ff . som for<hi rend="sup">ne</hi> Laur<ex>ens</ex>
+      Wi<ex>n</ex>ner<ex>e</ex> hau<ex>e</ex>r oss the for<hi rend="sup">ne</hi> gotz met antwordet
+      pa giffuet rettigheet oc dominium vpladet . j sodane made at ho som decan æ<damage>r</damage>
+      i Køp<ex>manhaue</ex>n met capitels raad i same sted samthykke oc wilie . schal forlæ for<hi rend="sup">ne</hi> sancti Olaffs oc sancte Gerthruds altare . th<ex>e</ex>n p<ex>er</ex>sone
+      som bo wil i <placeName>Køp<ex>manhaue</ex>n</placeName> hoos th<ex>et</ex> altare oc
+        <placeName>choor</placeName> schal søge met andr<ex>e</ex> clerke oc th<ex>e</ex>n
+      p<ex>er</ex>son ell<ex>e</ex>r <placeName>vicarius</placeName> som so til word<ex>e</ex>r
+      skikket aff degan i Køp<ex>manhaue</ex>n oc capitel i same sted . schal sighe ell<ex>e</ex>r
+      lade sighe fire messer i hwar vge oc gøre for<hi rend="sup">ne</hi> Laur<ex>ens</ex>
+      Wi<ex>n</ex>ner<ex>e</ex> oc ha<ex>n</ex>s husfru arlige aartijd met two s<ex>killing</ex>
+      g<ex>rot</ex> i <placeName>høwe koor</placeName> i wor Frukirke i Køp<ex>manhaue</ex>n .
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Item hau<ex>e</ex>r for<hi rend="sup">ne</hi> Laur<ex>e</ex>ns Wi<ex>n</ex>ner<ex>e</ex>
+      nog<ex>e</ex>r frende eller neste . tha scal han war<ex>e</ex> nest at haue th<ex>et</ex>
+        for<hi rend="sup">ne</hi> altare for alle andre . ♦</p>
+            <p n="a#4" xml:space="preserve">Item tilbinde wij oss met th<ex>ette</ex> wort opne b<ex>re</ex>ff alle thesse for<hi rend="sup">ne</hi> støkke at holde vd<ex>e</ex>n so skeer at the for<hi rend="sup">ne</hi>
+      gotz word<ex>e</ex>r oss degan oc capitel i Køpmahauen (!) aff delde met lands low for hemle
+      ell<ex>e</ex>r frijelse schuld ♦</p>
+            <p n="a#5" xml:space="preserve">Til hwes thi<ex>n</ex>gs withnesburd wort capitels insigle ær hengt fore th<ex>ette</ex>
+      b<ex>re</ex>ff ♦</p>
+            <p n="a#6" xml:space="preserve">Giffuet effth<ex>e</ex>r wors h<ex>er</ex>r<ex>es</ex> aar thusende firehu<ex>n</ex>drede oc
+      tywe pa th<ex>et</ex> thridie gutz ligame affth<ex>e</ex>n ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

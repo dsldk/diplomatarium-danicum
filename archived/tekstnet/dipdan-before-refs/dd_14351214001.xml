@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">276</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">13</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14351214001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3214; tidl. signatur: Roskilde 73</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>13.4 (plica: 2)</height>
+                                    <width>22.4</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift på bagsiden: <q>vpa en gardh j Roskild</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Henrik Jensens beskadigede segl af mørkt voks i perg.rem, <ref>F xxix 3</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>bomærke i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>bomærke i perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>bomærke i perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>bomærke i perg.rem</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>bomærke i perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>bomærke i skjold i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6795</bibl>
+               <bibl>ÆA IV 7</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 200-01</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435-12-14"
+                  notBefore="1435-12-14"
+                  notAfter="1435-12-14"
+                  cert="high">1435. 14. december</date>
+            <placeName cert="high">Roskilde byting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne af Roskilde byting om, at Morten Tuesen skøder en gård i Roskilde til Asger
+      Nielsen, foged på Haraldsborg. Gården, hvori afdøde Jens Mikkelsen Steger boede, hedder
+      Nørregård og ligger i Skt. Ib sogn, Roskilde.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-08" who="#pbh">Filen etableret af #pbh 2013-11-08. </change>
+         <change when="2017-06-12" who="#jon">1. korrektur af #jon 2017-06-12. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Alle me<ex>n</ex> th<ex>et</ex>tæ br<ex>e</ex>ff see ell<ex>e</ex>r hør<ex>e</ex> læsis .
+      helss<ex>e</ex> wj <persName>Henrik Jenss<ex>øn</ex>
+               </persName> byfoghit j
+        <placeName>Rosk<ex>ilde</ex>
+               </placeName>
+               <persName>Jngwer Karlss<ex>øn</ex>
+               </persName> oc <persName>Anders Aghess<ex>øn</ex>
+               </persName>
+      borghemest<ex>er</ex>e . <persName>Jens Mattiss<ex>øn</ex>
+               </persName> . <persName>Jens
+        Kremer<ex>e</ex>
+               </persName>
+               <persName>Thomas Thrughelss<ex>øn</ex>
+               </persName> oc <persName>Jens
+        Nielss<ex>øn</ex>
+               </persName> radhme<ex>n</ex> j th<ex>e</ex>n sa<ex>m</ex>me stadh
+      ewinnæleghe m<ex>eth</ex> guth ♦</p>
+            <p n="a#2">Oc kungør<ex>e</ex> wj th<ex>et</ex> alle me<ex>n</ex> n<ex>erweren</ex>d<ex>es</ex> oc
+      ko<ex>m</ex>mesculend<ex>es</ex> at efft<ex>er</ex> guths <app>
+                  <lem>føthilsss</lem>
+                  <rdg wit="#A">
+                     <q>føthilsß</q>, A</rdg>
+               </app> aar mcdxxx<hi rend="sup">o</hi> pa th<ex>et</ex> fæmte aar th<ex>e</ex>n othensdagh
+      næst efft<ex>er</ex> worfrwe dagh concepcionis tha wor skicket for<ex>e</ex> oss . oc
+      for<ex>e</ex> mo<ex>n</ex>ge and<ex>r</ex>e flere gothe me<ex>n</ex> vpa wort bything j
+        <placeName>Rosk<ex>ilde</ex>
+               </placeName> een welbore<ex>n</ex> ma<ex>n</ex>
+               <persName>
+                  <app>
+                     <lem>Morten</lem>
+                     <rdg resp="#jon">muligvis <q>Morton</q>, A</rdg>
+                  </app> Tuwess<ex>øn</ex>
+               </persName> awapn ♦</p>
+            <p n="a#3">Huilkin som m<ex>eth</ex> sin gothe wilghe . skøtte oc wplodh till ewinnæleghe eyæ
+      besketh<ex>e</ex>n ma<ex>n</ex> th<ex>e</ex>nne breffør<ex>e</ex>r <persName>Ascer
+        Nielss<ex>øn</ex>
+               </persName> foghit vpa <placeName>Haraldzborgh</placeName> een sin garth
+      som kalles <placeName>Nørregarth</placeName> m<ex>eth</ex> alle sine tillighelsse enkte
+      vte<ex>n</ex> taghit liggend<ex>es</ex> hooss oss j <placeName>Rosk<ex>ilde</ex>
+               </placeName>
+      vti <placeName>sancti Jacobi sogn</placeName> oc northest vti
+        <placeName>Windebothe</placeName> j huilkin garth som vtibothe <persName>Jens
+        Mickelss<ex>øn</ex> Stegher<ex>e</ex>
+               </persName> hwes siæll guth hawe ♦</p>
+            <p n="a#4">Bekend<ex>es</ex> sic th<ex>et</ex> th<ex>e</ex>n for<hi rend="sup">de</hi>
+               <persName>Morten Tuwess<ex>øn</ex>
+               </persName> fulle wærdh oc pæni<ex>n</ex>ge j goth betaling
+      efft<ex>er</ex> sin nøye rethelighe athawe wpborit aff th<ex>e</ex>n for<hi rend="sup">de</hi>
+               <persName>Ascer Nielss<ex>øn</ex>
+               </persName> for<ex>e</ex> th<ex>e</ex>n for<hi rend="sup">de</hi> garth m<ex>eth</ex> sine tillighelsse ♦</p>
+            <p n="a#5">Fremdel<ex>es</ex> tha tilbandt sic th<ex>e</ex>n for<hi rend="sup">de</hi>
+               <persName>Morten Tuwess<ex>øn</ex>
+               </persName> oc sine arffui<ex>n</ex>ge . atfry hemle oc
+      loghlighe tilatstande th<ex>e</ex>n for<hi rend="sup">de</hi>
+               <persName>Ascer Nielss<ex>øn</ex>
+               </persName> oc hans arffui<ex>n</ex>ge th<ex>e</ex>n for<hi rend="sup">de</hi> garth m<ex>eth</ex> sine tillighelsse fry oc wmbeuoren till ewinnæleghe
+      eyæ for<ex>e</ex> alle menss gensighelsse oc hinder efft<ex>er</ex> landzlogh ♦</p>
+            <p n="a#6">Huilkit for<hi rend="sup">de</hi>
+               <app>
+                  <lem>skøde</lem>
+                  <rdg wit="#A">muligvis <q>skode</q>, A</rdg>
+               </app> som swo gangit oc farit er wpenbare fore oss . oc for<ex>e</ex> mo<ex>n</ex>ge
+      and<ex>r</ex>e flere gothe me<ex>n</ex> vpa th<ex>et</ex> for<hi rend="sup">de</hi> wort
+      bything j <placeName>Rosk<ex>ilde</ex>
+               </placeName> som nw foresc<ex>r</ex>euit stander
+      ♦</p>
+            <p n="a#7">Th<ex>et</ex>tæ withne wj oc beuise m<ex>eth</ex> th<ex>et</ex>tæ wort opnebr<ex>e</ex>ff oc
+      wore jncigle tilhengde ♦</p>
+            <p n="a#8">Huilkit br<ex>e</ex>ff som giuet oc screuit er aar dagh oc stadh som forsc<ex>r</ex>euit
+      stander ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem 2017 til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

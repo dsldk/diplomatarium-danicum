@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">195</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14330616001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Arnamagnæanske Samling</repository>
+                        <collection>AM</collection>
+                        <idno>LXI 12</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 24.9 × 15 (plica: 15). 1. Seglsnit. 2. Seglsnit. 3. Perg.rem. 4. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Arnamagnæanske Institut</repository>
+                        <collection>AM</collection>
+                        <idno>LXI 13</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. 21.5 × 28.8. </physDesc>
+                     <history>
+                        <ab>Kopi: <q>Auscultata et collationata est prius copia per me Johannem Luche
+        clericum Ottoniensis dyocesis publicum sacris apostolica et imperiali auctoritatibus
+        notarium que concordat cum suo vero originali de verbo ad verbum quod
+          protestor manu mea propria</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6628</bibl>
+               <bibl>Vejledende Arkivreg. XVII nr. 293</bibl>
+               <bibl>Weibull, Dipl. Dioec. Lund. III 128-29 nr. 133</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1433-06-16"
+                  notBefore="1433-06-16"
+                  notAfter="1433-06-16"
+                  cert="high">1433. 16. juni</date>
+            <placeName cert="high">Malmø</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder Bentsen, borger i Malmø, skænker en gård vest i byen til Skt. Clara
+      kloster i Roskilde. Han giver sin datter Karen ind i klostret sammen med godset. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-15" who="#pbh">Filen etableret af #pbh 2013-10-15. </change>
+         <change when="2019-09-24" who="#jon">1. korrektur af #jon 2019-09-24. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men som thette breff see eller høre lese hilser jac <persName>Peth<ex>e</ex>r
+        Beyntss<ex>øn</ex></persName> byman jnne<ex>n</ex> Malmøie ewinnelike m<ex>et</ex> gwth
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Th<ex>et</ex> skwle alle men with<ex>e</ex>rlikt ware so wel ko<ex>m</ex>me skwlende som nw
+      nerwere<ex>n</ex>des ere th<ex>et</ex> jac with<ex>e</ex>rke<ex>n</ex>nes mik m<ex>et</ex>
+      thette mit opne breff m<ex>et</ex> myn fry wilie oc witskapp wnt oc giwet oc aff hent hawer en
+      myn gaarth jnne<ex>n</ex>
+      <placeName>Malmøie</placeName> weste<ex>r</ex> jnne<ex>n</ex> byen lyghende wessten nest
+        <persName>Bransswik</persName>s gaarth oc holder jnne<ex>n</ex> lenghen fraa
+      alme<ex>n</ex>nings gaden oc nyth<ex>e</ex>r til <app><lem>stranden</lem><rdg wit="#A">Muligvis <q>stronden</q>, A; bemærk <q>stranden</q>, Aa</rdg></app> lx alne oc jnne<ex>n</ex> brethen xvii alen til <placeName>Klare klosster</placeName> jnne<ex>n</ex>
+      <placeName>Rosskilde</placeName> in m<ex>et</ex> myn doter <persName>Karyne Peth<ex>e</ex>rs
+        dotter</persName> till ewerdelike eye m<ex>et</ex> hws grwnd jor oc m<ex>et</ex> al then
+      forneffndde gaars til lighelsse ♦</p>
+            <p n="a#3" xml:space="preserve">Item binder jac mik til m<ex>et</ex> mine arwinghe at fry oc he<ex>m</ex>le oc tylsto
+      th<ex>et</ex> forneffndde <placeName>Klare klosste<ex>r</ex></placeName> jnnen
+        <placeName>Rosskilde</placeName> then forneffndde gaar for hors mans tiltal til eweddelike
+      eye ♦</p>
+            <p n="a#4" xml:space="preserve">Til wth<ex>e</ex>rmer wissen oc forwaryngh tha haue<ex>r</ex> jac forneffndde <app><lem><persName>Per Beyntss<ex>øn</ex></persName></lem><rdg wit="#A"><q>perbeyntss<ex>øn</ex></q>, A, Aa</rdg></app> mit jnseyle m<ex>et</ex> flere gothe mens inseyle so swm er <persName>Jepp
+        Moenss<ex>øn</ex></persName> rathman jnne<ex>n</ex>
+      <placeName>Malmøie</placeName> oc <persName>Jes Thrwuess<ex>øn</ex></persName> oc
+        <persName>Mates Peth<ex>e</ex>rss<ex>øn</ex></persName> byme<ex>n</ex> jnne<ex>n</ex>
+      sa<ex>m</ex>me stath heyngt for thette breff som giwet oc skrywet er aar effter gutz byrth
+      thwsende fyre hwndrethe paa th<ex>et</ex> thrytye til thretywuæ sancte Bodels afften
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

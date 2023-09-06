@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">55</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14380525001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret to steder i København. Rigsarkivet. De ældste
+                           arkivregistraturer: a) Registratur A over Viborg stifts breve
+                           (1540'erne), upag., i afsnittet <q>Arssherrith primo</q>; b) Registratur
+                           B over Viborg stifts breve (1574), f. 41v, i afsnittet
+                              <q>Aarssherritt</q>. Den aktuelle indførsel er endvidere registreret i
+                           København. Det Kgl. Bibliotek. NKS 1567, fol. Gamle Fortegnelser paa
+                           Retsdokumenter angaaende Aars-, Fleskum- og Hellumherred i 15de og 16de
+                           Aarh. (fragment, tidligst fra 1550, af en registratur over breve angående
+                           Fjends, Års, Fleskum og Hellum herreder), f. 8r, hvis ordlyd er næsten
+                           identisk med B-reg</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 263 nr. H. 26 (a)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-05-25"
+                  notBefore="1438-05-25"
+                  notAfter="1488-05-18"
+                  cert="high">[1438.
+               25. maj eller 1488. 18. maj]<note>De to registraturer angiver brevet som henholdsvis
+                  et tingsvidne og et sognevidne. Da brevet var udstedt på en søndag, må den
+                  sidstnævnte mulighed være den rigtige, da denne ugedag ikke var tingdag nogetsteds
+                  i Danmark. Det kan ikke afgøres med sikkerhed, hvilket af de to årstal, der er det
+                  rigtige, og dateringen bliver derfor [1438. 25. maj eller 1488. 18.
+               maj]</note>
+            </date>
+            <placeName cert="low">Års kirke</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Et sognevidne om, at der ikke betales skat eller leding af den gård i Års, hvor
+               Kristian Brun bor. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-05" who="#pbh">Filen etableret af #pbh 2013-12-05. </change>
+         <change when="2021-04-26" who="#alk">1. korrektur af #alk 2021-04-26. </change>
+         <change when="2021-05-09" who="#alk">2. korrektur af #alk 2021-05-09. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">a):</p>
+            <p n="a#2" xml:space="preserve">Item eth tingsui<ex>n</ex>tne atth<ex>e</ex>n g<ex>ar</ex>d y
+                                <placeName>Arss</placeName> som <persName>Cr<ex>e</ex>sth<ex>e</ex>n
+                                Brwn</persName> ibor er icke gade skat ell<ex>e</ex>r leydingh aff
+                        ♦</p>
+            <p n="a#3" xml:space="preserve">Datum mcdlxxxviii søndag for pintz dag ♦</p>
+            <p n="a#4" xml:space="preserve">b):</p>
+            <p n="a#5" xml:space="preserve">Sogne wittne giffuit j Aarss kircke att th<ex>er</ex> aldrig war giffuen schatt
+                        ell<ex>er</ex> leding aff thend gaard j Aarss Chresten Brune j boer
+                        ♦</p>
+            <p n="a#6" xml:space="preserve"><app><lem>Datum</lem><rdg wit="#A">Således NKS 1567 fol., mangler B-reg</rdg></app> 1438 ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

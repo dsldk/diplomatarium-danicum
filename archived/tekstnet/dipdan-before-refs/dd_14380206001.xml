@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">257</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14380206001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3274; tidl. sign. Københavns Kapitel; Københavns gårde 26</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>15.7 (plica: 2)</height>
+                                    <width>21.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften <q>Litere Marine Widers super curia ad altare trium
+        <ex>(tilf. o. lin. m. henvisn.tegn:</ex> regum<ex>)</ex> in platea sancti
+      Petri</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rest af perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit. Seglet nævnt i Langebeks Dipl.</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Bomærke i lyst voks i perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Bomærke i lyst voks i perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Om afskriften bemærkes, at den er foretaget <q>Ex autographo membranaceo</q>,
+      om hvis besegling der står <q>Sigilla 3. 4. et 6. appendent</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6925</bibl>
+               <bibl>Reg. *5185</bibl>
+               <bibl>Københavns Dipl. II 66 nr. 53</bibl>
+               <bibl>Vejledende Arkivreg. XVII 204 nr. 43</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-02-06"
+                  notBefore="1438-02-06"
+                  notAfter="1438-02-06"
+                  cert="high">1438. 6. februar</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Marina Widers, enke efter Jens Wider, giver Helligtrekongers alter i Vor Frue Kirke i
+      København et stykke jord ved Skt. Pedersstræde, mod at der i kirkens højkor skal holdes årlige
+      sjælemesser over hendes afdøde mand og hende selv.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-03" who="#pbh">Filen etableret af #pbh 2013-12-03. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-12-05" who="#alk">2. korrektur af #alk 2017-12-05. </change>
+         <change when="2018-03-15" who="#alk">3. korrektur af #alk 2018-03-15. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn th<ex>et</ex>te br<ex>e</ex>ff see ell<ex>e</ex>r høre les<ex>es</ex>
+      hels<ex>er</ex> jek <persName>Marine Widers</persName>
+      <persName>Jesse Widers</persName> effth<ex>e</ex>rlewigh ewynneligh meth gudh ♦</p>
+            <p n="a#2" xml:space="preserve">Kun<ex/>gør jek alle men swa wel nærwerend<ex>es</ex> som ko<ex>m</ex>meskulend<ex>es</ex>
+      ath jek meth myn fry willie beradh<ex>e</ex>n hugh ok j myn wallust for my<ex>n</ex>
+      hosbu<ex>n</ex>d<ex>es</ex> syels Jesse Widers for<hi rend="sup">d<ex>e</ex></hi> gudh hans
+      syell haffue ok for myns syels nytte skyld hauer vnt ok giffuet ok fra megh antwordeth til
+        <placeName>the hellghe thre konynghe altare j wor Fruwe kirke j Køpnehafn</placeName> / een
+      my<ex>n</ex> jordh meth alle hennes till liggelse j bredh ok j lenghe til ewynnelighe æye
+      liggend<ex>es</ex> j <placeName>Køpnehafn j sancti Peth<ex>e</ex>rs sogn</placeName> synnen
+      widh <placeName>sancti Peth<ex>e</ex>rs stredhæ</placeName> mello<ex>m</ex> h<ex>e</ex>r
+        <persName>Clawes Lybertss<ex>øns</ex></persName>
+      <persName>cantors</persName> jordh ok <persName>Ewert Gultsmydhs</persName> jordh / som han nw
+      j boor meth swa dane wilkoor / ath hwilken prest th<ex>et</ex> for<hi rend="sup">d<ex>e</ex></hi> altar æyer ok perpetuus vicarius ær / han skal haue full macht ath brwghe
+      th<ex>e</ex>n for<hi rend="sup">de</hi> jordh till syn nytte ok skall hw<ex>er</ex>t aar
+      giffue heth<ex>e</ex>rlighe kanike j Køpnehaffn the som ære in missa ok vigiliis two
+      schillinghe groth for begges ware begengelse aarlege at holdess j <placeName>høye koor i wor
+        fruwe kirke</placeName> forsc<ex>re</ex>ffne circa festum divisionis apostolorum ♦</p>
+            <p n="a#3" xml:space="preserve">Item byndh<ex>e</ex>r jek megh til meth myne arwinghe ath fry th<ex>e</ex>n sa<ex>m</ex>me
+      jordh til th<ex>et</ex> for<hi rend="sup">de</hi> altare for hwers manz till talen til
+      ewynnelighe æye som forsc<ex>re</ex>ffuet stander ♦</p>
+            <p n="a#4" xml:space="preserve">Til thes yth<ex>e</ex>rmere forwaringhe ok statfestelse / tha haffuer jek for<hi rend="sup">de</hi> Marine Widers meth willie ok witschap hengdt myt jncigle fore th<ex>et</ex>te
+      br<ex>e</ex>ff meth een welboren ma<ex>n</ex>s incigle <persName>Mawens Gøyes</persName> af
+        <placeName>Krenckrop</placeName> ok meth flere gothe menz jncigle swoso<ex>m</ex> ær
+        <persName>Anders Laure<ex>n</ex>tss<ex>øn</ex></persName>
+      <persName>Arendt Krwse</persName>
+      <placeName>burghemeste<ex>re</ex> i Køpnehaffn</placeName>
+      <persName>Bertild Qwats</persName>
+      <persName>Ha<ex>n</ex>s Wath</persName> ok <persName>Jesse Jwde</persName>
+      <placeName>radmen j th<ex>e</ex>n sa<ex>m</ex>me stad</placeName> ♦</p>
+            <p n="a#5" xml:space="preserve">Datum <placeName>Haffnis</placeName> anno domini millesimo quadringentesimo tricesimo octavo
+      ipso die beate Dorothee virginis et martiris gloriose ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

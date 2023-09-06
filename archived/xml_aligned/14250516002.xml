@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">266</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14250516002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarkiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Med adresse på bagsiden: <q>Den erboren vorsichtighen heren, borghermestere
+        unde ratmanne der stat Revel, unsen besundergen vrunden, detur</q>
+                        </ab>1. Rester af det brevlukkende segl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hildebrand, Liv-, Esth- u. Curländ. Urkundenb. 7, nr. 281, p. 201-202</bibl>
+               <bibl>Hanserec. VII., nr. 813, p. 577-578 (tryk efter Hildebrand)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hildebrand l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-05-16"
+                  notBefore="1425-05-16"
+                  notAfter="1425-05-16"
+                  cert="high">1425. 16. maj</date>
+            <placeName cert="high">Oxelösund havn</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Vadstena klosters konvent meddeler rådet i Reval, at konventet har drøftet sagen om det
+      strandede gods på Gotland med dronning Philippa. </ab>
+            <ab>Dronning Philippa har meddelt konventet, at hun allerede har skrevet og nu igen vil skrive
+      til hr. Trued Hase, høvedsmand på Gotland, at hverken hun eller hendes herre, kong Erik 7. af
+      Pommern, vil have noget af det strandede gods. Derimod har hun instrueret Trued Hase i at
+      levere godset tilbage til dets retmæssige ejere, idet hun dog har erklæret, at hun ikke kan
+      gøre noget ved den del af godset, som ifølge de gamle privilegier tilfalder landet og de folk,
+      som har hjulpet til med at bjerge godset. Dronning Philippa har imidlertid indkaldt
+      borgmestrene fra Gotland, og når de mødes med dronningen, eller når kong Erik er kommet hjem,
+      hvilket han efter konventets forhåbning meget snart vil gøre, vil konventet gøre alt, hvad det
+      kan for at finde en løsning på sagen. </ab>
+            <ab>Endelig takker konventet rådet i Reval for alt det gode, som rådet har gjort og stadig gør
+      mod birgitinerklostret Mariendal ved Reval. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-01-10" who="#smb">Filen etableret af #smb 2018-01-10. </change>
+         <change when="2018-01-10" who="#smb">1. korrektur af #smb 2018-01-10. </change>
+         <change when="2018-01-25" who="#smb">2. korrektur af #smb 2018-01-25. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Wnsen vruntliken grut vnde wes wy gudes vormoghen to allen tiden.</p>
+            <p n="a#2">Weten scole gy, leven besunderghen vrunde, dat wi juen breff wol vornomen hebben, alse uns oc
+      broder <persName>Henric Swabbard</persName> trueliken unde muntliken berichtet hefft, alse wm
+      dat gut, dat to <placeName>Gotlande</placeName> ghebleven is.</p>
+            <p n="a#3">So hebbe wy unser gnedighen vrouwen, der koninginnen, darwm spraken. Do antwardede se uns
+      also, dat se <persName>here Truwet Has</persName> er ghescreven hefft unde oc nw scrifft, dat
+      see edder er here, de koning, wil van deme gude nycht hebben, den he scal dat wedder antwarden
+      denghenen, den dat hort; den vm dat ene part van deme gude, dat deme lande unde denghenen, de
+      dat gut hulpen berghen, gheboret, alse ere olde privilegien wtvisen, dar kan se nycht to don
+      edder antwarden.</p>
+            <p n="a#4">Den <app>
+                  <lem>wan</lem>
+                  <rdg>
+                     <q>van</q>, A</rdg>
+               </app> de borghermeystere van <placeName>Gotlande</placeName> komen to unser vrouwen, der <app>
+                  <lem>koninginnen</lem>
+                  <rdg>
+                     <q>koningnen</q>, A</rdg>
+               </app>, na welken se nw ghescreven het, so wille wi gherne dat beste darby don, edder wan unse
+      gnedighe here, de koning, to hus kymt, alse wy hopen, dat he jo drade komen scal, so wille wy
+      darwm arbeyden, alse wi allerbest konen.</p>
+            <p n="a#5">Item hebben uns berichtet unse broder, de nw by uns gheveset sint, dat gy <placeName>sunte
+        Birgitten closter</placeName> dar by juer stat vele gudes ghedan hebben unde noch don, des
+      jw de almechtighe Got lonen mote; unde wy danken jw darvore vlitliken unde lefliken van allem
+      herte unde willen dat teghen jw vordenen myt alleme gude, <app>
+                  <lem>wor</lem>
+                  <rdg>
+                     <q>vor</q>, A</rdg>
+               </app> wy moghen unde konen.</p>
+            <p n="a#6">Unde bedet ower wns vnde scrivet wns juen willen to; dat wille wy to allen tiden gerne
+      don.</p>
+            <p n="a#7">Hirmede sit Gode bevolen to ewighen tiden.</p>
+            <p n="a#8">Scriptum in portu <placeName>Oxlosund</placeName> in vigilia ascensionis Domini, nostro sub
+      secreto, anno Domini etc. 25.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

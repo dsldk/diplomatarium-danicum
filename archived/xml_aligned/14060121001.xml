@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="th">
+                  <persName>
+                     <forename type="first">Thomas</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>. Translation, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2010</date>
+            <idno type="dd">14060121001</idno>
+            <idno type="isbn">nil</idno>
+            <idno type="dd-4">06-006-2</idno>
+            <idno type="dd-4-lbnr">267</idno>
+            <idno type="dd-4-kartotek">6,2</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2011, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>London</settlement>
+                        <repository>Public Record Office</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>E 403/585</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+                  <!-- London. Public Record Office. E 403/585. Ifølge en overskrift i
+                  Issue Rolls er udbetalingen sket 1406 21. januar. Chaplais, English Medieval
+                  Diplomatic Practice II 714 note 112 - J.H. Wylie, History of England under Henry
+                  the Fourth, IV 441. -->
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl> Chaplais, English Medieval Diplomatic Practice II 714 note 112 -
+                              J.H. Wylie, History of England under Henry the Fourth, IV 441</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A: </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-4</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date cert="high" notBefore="1406-01-21" notAfter="1406-01-21"> 1406. 21. januar</date>
+            <placeName cert="high">empty</placeName>
+         </creation>
+         <abstract>
+            <ab>Udbetaling af 66s 8d, dvs. 5 mark, til Henry Warre for dennes
+                           arbejde med at udfærdige visse juridiske dokumenter om Filippas giftermål
+                           med kongen af Danmark. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-02-02T14:21:12.553+01:00" who="#th"> Filen etableret af #th
+            2011-02-02T14:21:12.553+01:00</change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p> Magister Henricus Warr<ex>e</ex> Magistro Henrico Warr<ex>e</ex> doctori in legibus
+               in denariis sibi liberatis per assignacionem factam isto die in persolucionem v.
+               marcarum quas dominus rex de assensu consilii sui sibi liberate mandauit de regardo
+               pro laboribus quos habuit componendo de mandato domini regis certa instrumenta
+               publica. super facto et contractu maritagii nuper habenti inter potentem principem
+               regem de <app>
+                  <lem>Den&lt;m&gt;ark<ex>e</ex>
+                  </lem>
+                  <rdg>
+                     <q>Dennearke</q> A</rdg>
+               </app> ex una parte et dominam Philippam filiam regis ex altera parte per breue de
+               priuato sigillo inter mandata de hoc termino lxvi solidi viii denarii. </p>
+         </div>
+         <div xml:lang="da">
+            <p> Til magister Henry Warre, doktor i verdslig ret, i penge udbetalt til ham, ved en
+               anvisning foretaget denne dag, til fuld betaling af 5 mark, som hr. kongen med sit
+               råds samtykke, ved befalingsbrev under the Privy Seal<!--1)-->, (som findes) blandt
+               mandaterne fra denne termin, har befalet at give ham som belønning for det arbejde,
+               som han har haft med, på kongens vegne, at udfærdige visse juridiske dokumenter
+               angående ægteskabskontrakten og indgåelsen af det ægteskab, som nylig blev indgået
+               mellem den mægtige fyrste, kongen af Danmark på den ene side og lady Filippa, kongens
+               datter, på den anden side: 66 skilling og 8 denarer.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14180407003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Reg. Lat. 195 fol. 259v</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Franciscus. L. de Agello</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 262 nr. 1249</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-04-07"
+                  notBefore="1418-04-07"
+                  notAfter="1418-04-07"
+                  cert="high">1418. 7.
+          april</date>
+            <placeName cert="high">Konstanz</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. pålægger, efter supplik af kong Erik 7. af Pommern, biskoppen i Odense at
+          stadfæste grundlæggelsen af klostrene i Maribo, som er blevet grundlagt af kongen med
+          samtykke af biskoppen i Odense og Hans Kesing, sognepræst i Skimminge, idet kongen inddrog
+          sognekirken i Skimminge og lod bygge klosterbygninger og gav klostrene patronatsret,
+          kirken og forskellige besiddelser. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-01" who="#pbh">Filen etableret af #pbh 2014-04-01. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-06-09" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Episcopo <placeName>Ottoniensi</placeName>.</p>
+            <p>Solicitudinis pastoralis officium, (quod super omnes orbis ecclesias et monasteria
+          dispositione divina licet immeriti gerimus, pulsat et excitat mentem nostram, ut illa pia
+          devolorum desideria, per que regularium personarum, presertim novelle plantationis, que
+          mundanis religatis illecebris sub arctioris vite observantia se perpetuo divinis obsequiis
+          manciparunt, paci et quieti consulitur, animarum salus, divini cultus et religionis
+          augmentum procurantur, per que etiam Christi fideles ad fundationes et edificationes
+          ecclesiarum et monasteriorum aliorumque piorum locorum ferventius animantur, grato
+          confoveamus assensu et apostolici favoris presidio benignius prosequamur).</p>
+            <p>Exhibita siquidem nobis nuper pro parte <persName>Erici</persName> Svecie Dacie Norvegie
+          Sclavorum et Gothorum regis petitio continebat, quod ipse olim zelo fidei et devotionis
+          accensus cupiens ordinem s. Augustini s. Salvatoris nuncupatum, dudum auctoritate <cit>
+                  <quote>litterarum <persName>Urbani V</persName>
+                  </quote>
+                  <bibl>SDHK nr. 9751</bibl>
+               </cit> et <cit>
+                  <quote>
+                     <persName>Gregorii XI</persName>
+                  </quote>
+                  <bibl>SDHK nr. 11355; ang. udstederen, jf. T. Höjer, Studier i Vadstena klosters och
+              Birgittinordens historia intill midten af 1400-talet, Uppsala 1905, s. 65-67</bibl>
+               </cit> approbatum, in regno suo <placeName>Dacie</placeName> vigere ac utriusque sexus
+          personas, que sub regulari habitu et observantia dicti ordinis virtutum domino exhiberent
+          perpetuo famulatum, in eodem regno collocare, parrochialem ecclesiam in
+            <placeName>Skemmynge</placeName> Ottoniensis diocesis, que de jure patronatus ipsius
+          regis et in loco ad hoc abili et idoneo situata existit, de tuo et <persName>Johannis de
+            Kesynck</persName> rectoris ejusdem ecclesie consensu pro novella plantatione dicti
+          ordinis, in duo, unum videlicet monialium et aliud monachorum, jam in eis receptorum et
+          inibi laudabiliter in divinis servientium, monasteria et conventus erexit ac nonnulla
+          edificia mansiones domus dormitoria et cellulas cum aliis officinis necessariis de bonis
+          sibi a deo collatis fundavit et construxit ac inibi abbatissam, per quam in temporalibus,
+          et confessorem generalem, per quem in spiritualibus monasteria hujusmodi gubernari voluit,
+          instituit necnon jus patronatus et ecclesiam hujusmodi cum nonnullis ipsius ecclesie
+          possessionibus curtibus agris ortis pratis piscaturis colonis et censibus ac fructibus,
+          reservata tamen de illis pro dicto rectore et ejus successoribus .. congrua portione, unde
+          commode sustentari, episcopalia jura solvere et alia sibi incumbentia onera supportare
+          valeant, monasteriis et personis predictis pro dote donavit ac alias etiam monasteria ipsa
+          de propriis bonis sibi a deo collatis sufficienter dotavit, ipsaque monasteria et eorum
+          locum hujusmodi in <placeName>Marienbo</placeName> vulgariter extunc perpetuis futuris
+          temporibus ob specialis devotionis affectum nominari voluit et nominavit.</p>
+            <p>Quare pro parte dicti regis nobis fuit supplicatum, quatinus erectioni fundationi
+          donationi et nominationi ac aliis premissis robur apostolice confirmationis adjicere
+          necnon, ut eadem monasteria in Marienbo privilegiis quibuscunque aliis monasteriis dicti
+          ordinis a sede apostolica quomodolibet concessis gaudere valerent, concedere
+          dignaremur.</p>
+            <p>Nos igitur, cupientes, ut dicta monasteria in Marienbo eo salubriora, quo potioribus
+          fuerint apostolicis confota favoribus, in eisdem spiritualibus et temporalibus suscipiant
+          incrementa .., fraternitati tue mandamus, quatinus, si est ita, erectionem fundationem
+          donationem nominationem ac alia premissa et quecunque inde secuta auctoritate nostra
+          confirmes.</p>
+            <p>Nos enim ... tenore presentium decernimus, quod prefata monasteria in Marienbo necnon
+          abbatissa et confessor ac moniales et monachi omnesque alie utriusque sexus persone
+          pronunc in eis degentes et eorum posteri exnunc perpetuis futuris temporibus omnibus
+          privilegiis aliis monasteriis et locis ac personis dicti ordinis .. a dicta sede concessis
+          plene .. valeant .. gaudere, sicut monasteria loca et persone hujusmodi, quibus ea
+          concessa sunt, illis gaudere noscuntur.</p>
+            <p>Datum <placeName>Constantie</placeName> 7. id. aprilis anno 1.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

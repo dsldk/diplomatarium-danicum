@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">21</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14241120002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste
+                           arkivregistraturer. Silkeborgske reg. A (1558), s. 147, X. 22, med
+                           overskriften <q>Essenbeck closters breffue paa gotzs vdj Støffringherrit
+                              findis vdj sa<ex>m</ex>me skufflade som X stander paa :</q> Endvidere
+                           registreret i Silkeborgske reg. B (1558). Der er i dette tilfælde ingen
+                           betydningsmæssig varians mellem A-reg. og B-reg</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 104 nr. X. 22</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-11-20"
+                  notBefore="1424-11-20"
+                  notAfter="1424-11-20"
+                  cert="low">[1424].
+               20. november<note>Registraturen angiver dateringen som 1494 (<q>mcdxciiii</q>), men
+                  dette må være forkert, da Erik 7. af Pommern var konge af Danmark 1396-1439. ÆA
+                  foreslår at læse 1424 (<q>mcdxxiiii</q>), se også <ref target="14241122001">DD
+                     1424. 22. nov., nr. 14241122001</ref>
+               </note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern tildømmer på det kongelige retterting Essenbæk kloster noget
+               gods i Støvring herred, nemlig Gimming, Vestrup og Urtebæks Mølle. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-26" who="#pbh">Filen etableret af #pbh 2014-06-26. </change>
+         <change when="2021-05-19" who="#alk">1. korrektur af #alk 2021-05-19. </change>
+         <change when="2021-06-01" who="#alk">2. korrektur af #alk 2021-06-01. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Item et <persName>koning Erickis</persName> dom paa noget godz vdj
+        <placeName>Gim<ex>m</ex>ing</placeName> / <placeName>Vesterup</placeName> / och
+        <placeName>Vrthebecks mølle</placeName> til <placeName>Essendbeck closter</placeName> /
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Datum mcdxciiii (!) feria 2<hi rend="sup">a</hi> proxima ante diem beati Clementis martyris :
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">98</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14161125001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 2609-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>6.4 (plica: 1)</height>
+                                    <width>22.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg. rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 176</bibl>
+               <bibl>Rep. III nr. 5625 (i udtog) (jf. 1423. 24. mar.)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-11-25"
+                  notBefore="1416-11-25"
+                  notAfter="1416-11-25"
+                  cert="high">1416. 25. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Landsdommer Jens Gyrstinge overdrager en gård i Atterup (Bavelse sogn, Tybjerg herred) til hr. Anders Jakobsen Lunge, for hvilken han fik 20 mark sølv i
+    pant af hr. Evert Moltke.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-18" who="#pbh">Filen etableret af #pbh 2014-03-18. </change>
+         <change when="2017-06-15" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-06-15. </change>
+         <change when="2017-09-05" who="#jon">2. korrektur af #jon 2017-09-05. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Jæch <persName>Jæns Gørstingæ landzdomæræ</persName> jnnæ<ex>n</ex> Siælænd
+      kænnæs th<ex>æt</ex>tæ mæth mit opnæ breff en wælboræn ma<ex>n</ex> oc
+      skællich thæ<ex>n</ex>næ breffør<ex>ær</ex> hær <persName>Andærs
+        Jeipss<ex>øn</ex> Lungæ riddær<ex>æ</ex>
+               </persName> en garth
+      northæst innæ<ex>n</ex>
+               <placeName>Attæ<ex>ro</ex>p</placeName> ligg<ex>ær</ex> hos siøæn . oc
+      <persName>Æsbærn</persName> jnnæ<ex>n</ex> bor oc iæch for<ex>æ</ex>
+      tiwæ m<ex>ar</ex>ch sølff j pant fek aff hær <persName>Æwært
+        Møltikæ</persName> forthæ<ex>m</ex> riddæ<ex>ræ</ex> m<ex>æth</ex>
+      all ræt och opæn breff som ha<ex>n</ex> ær mich pa ko<ex>m</ex>m<ex>æt</ex>
+      at hauæ vp ladæt . ♦</p>
+            <p n="a#2">In cujus rei testimonium sigillum meum una cum sigillis virorum discretorum
+      videlicet domini <persName>Mathei Boss<ex>øn</ex>
+               </persName> curatus
+      ecclesie <placeName>Glu<ex>m</ex>siø</placeName> et <persName>Johannes
+        Brøøn</persName> p[resen]tibus est appensum ♦</p>
+            <p n="a#3">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>sextodecimo ipso
+      die beate Katerine virginis ac martiris gloriose ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

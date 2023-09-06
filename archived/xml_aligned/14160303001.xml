@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">159</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14160303001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lüneburg</settlement>
+                        <repository>Stadtarchiv Lüneburg</repository>
+                        <collection>1. Urkunden, UA (Urkunden-Abteilung)</collection>
+                        <idno>c-2035 (tidl. arkivsign. "c: 1416 März 3")</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. </physDesc>
+                     <history>
+                        <ab>Samtidig attesteret afskrift</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL V, nr. DLXII, p. 604</bibl>
+               <bibl>Reg. Dan. nr. *4354</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-03-03"
+                  notBefore="1416-03-03"
+                  notAfter="1416-03-03"
+                  cert="high">1416. 3. marts</date>
+            <placeName cert="high">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Lübeck underkaster sig i stridighederne med kong Erik 7. af Pommern en voldgift ved
+      borgmestrene og rådmændene i hansestæderne Hamburg, Rostock, Stralsund, Lüneburg, Wismar,
+      Stettin og Greifswald. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-13" who="#pbh">Filen etableret af #pbh 2014-03-13. </change>
+         <change when="2020-11-05" who="#smb">1. korrektur af #smb 2020-11-05. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wy borgermestere vnde radmanne der stad <placeName>Lubeke</placeName> bekennen vnde betugen
+      openbar in dessem breue, dat wij mit witscoppe vnde willen alle vnser medeborgere, mit
+      wolbedachten mode vnde vrien willen van vnser vnde der gantzen menheid wegen to
+        <placeName>Lubeke</placeName> vmme de schelinge vnde ansprake, de de irluchtigeste furste
+      vnde here koning to <placeName>Dennemarken</placeName> menet to vns vnde vnser stad to
+      hebbende, vnsen lonen gesat hebben bi de ersamen heren borgermestere vnde radmanne der stede
+        <placeName>Hamborch</placeName>, <placeName>Rozstoc</placeName>,
+        <placeName>Stralessund</placeName>, <placeName>Luneborch</placeName>,
+        <placeName>Wismer</placeName>, <placeName>Stetin</placeName> vnde
+        <placeName>Gripeswold</placeName>, alzo dat se vnser in allen vnsen saken na clage des
+      vorscreuenen heren koninges vnde vnser antworde, vnde na vnser clage vnde des suluen heren
+      koninges antworde, welker sik an dem rechten boret voretoghande, gentzliken to ere vnde to
+      rechte scolen mechtich syn, vnde wes se mit rechte darane scheden, dat wille wij gentzliken
+      vnde to ende holden.</p>
+            <p n="a#2" xml:space="preserve">Vnde des to merer bekantnisse is vnser stad ingeseghel gehenghet vor dessen breff.</p>
+            <p n="a#3" xml:space="preserve">Gegeuen vnde screuen na der bord Godes dusent veerhundert s{oe}steyn jare, des dinxedages to
+      Vastelauende.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

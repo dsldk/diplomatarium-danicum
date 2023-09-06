@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">134</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14151119001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2575-c (tidl. RA. Meklenburg, Access. 12b)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 23.1 × 13 (plica: 1.7). <ab>Bagsidepåskrift: <q>Quitancia ducis Johannis de Mekelborgh pro M marcis sundensibus
+        de ii annis pro servitiis</q>
+                        </ab>1. Hertug Johanns påtrykte papirsegl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5558</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-11-19"
+                  notBefore="1415-11-19"
+                  notAfter="1415-11-19"
+                  cert="high">1415. 19. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Johann 2., hertug af Mecklenburg, erklærer, at kong Erik 7. af Pommern har betalt ham 1000
+      stralsundske mark over to år, dvs. 500 mark i 1414 og 500 mark i 1415. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-04" who="#pbh">Filen etableret af #pbh 2014-03-04. </change>
+         <change when="2020-11-05" who="#smb">1. korrektur af #smb 2020-11-05. </change>
+         <change when="2020-12-10" who="#smb">2. korrektur af #smb 2020-12-10. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wy <persName>Johan</persName> van Godes gnaden hertoghe to
+        <placeName>Mekelenborgh</placeName> greue to <placeName>Zverin</placeName> to
+        <placeName>Stargarde</placeName> vnd to <placeName>Rostocke</placeName> here bekennen vnd
+      betughen in desseme openen breue dat de alder dorchluchtigheste høcheborne ffurste vnde here
+      her <persName>Erik</persName> van Godis gnaden der rike <placeName>Dennemarken</placeName>
+      <placeName>Zveden</placeName>
+      <placeName>Norweghen</placeName> konynge vnde hertoghe to <placeName>Pomeren</placeName>
+      etcetera vns to danke vnde tor noghe heft bered vnde wol to danke gheuen dusent sundesche mark
+      van twen jaren alse vifhundert sundesche mark van desseme vorghanden jare vnde vifhundert
+      sundesche mark van desseme jare . ♦</p>
+            <p n="a#2" xml:space="preserve">Des wy vorscreuen hertoghe <persName>Johan</persName> van <placeName>Mekelenborgh</placeName>
+      etcetera vnseme vorscreuen vnseme leuen heren vnd ome laten quid leddich vnde los ♦</p>
+            <p n="a#3" xml:space="preserve">Vnd hebben desses to tughe vnde to witlicheid vnse jnghesegele myd willen nedden vp dessen
+      breff drucket laten de gheuen vnd screuen is na Godis bord verteynhundert jare dar na in dem
+      vefteynden jare in sunte Elisabeth daghe der hilghen vrowen ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">172</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270326004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2989-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. 21.5 × 18.8. <ab>Senere påskrift på bagsiden: <q>Hanouer</q>
+                        </ab>1. Byen Hannovers påtrykte segl i grønt voks. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Sudendorf, Urkundenb. z. Gesch. d. Herzöge v. Braunschweig u. Lüneb. IX, p. 9</bibl>
+               <bibl>Hanserec. VIII, nr. 159.10, p. 106 (regest)</bibl>
+               <bibl>Rep. nr. 6297</bibl>
+               <bibl>Reg. Dan. nr. 3472</bibl>
+               <bibl>Jf. Hvitfeld IV 405, Fol. 727 (under 1426)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-03-26"
+                  notBefore="1427-03-26"
+                  notAfter="1427-03-26"
+                  cert="high">1427. 26. marts</date>
+            <placeName cert="low">Hannover</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Byen Hannovers fejdebrev til kong Erik 7. af Pommern. </ab>
+            <ab>I fejdebrevet erklærer borgmestre, råd, borgere og indbyggere i byen Hannover krig mod kong
+      Erik af to årsager: </ab>
+            <ab>For det første erklærer Hannover krig for hansestæderne Lübeck, Hamburg, Rostock, Stralsund,
+      Lüneburg og Wismars skyld. </ab>
+            <ab>For det andet erklærer Hannover krig, fordi kong Erik har beskadiget og forurettet
+      hansekøbmanden, og fordi han befaler og byder sine folk at gøre dette i strid med de
+      privilegier, som er blevet givet hansestæderne af kong Eriks forgængere, og som kong Erik selv
+      har bekræftet. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-17" who="#pbh">Filen etableret af #pbh 2014-07-17. </change>
+         <change when="2018-12-04" who="#smb">1. korrektur af #smb 2018-12-04. </change>
+         <change when="2019-03-07" who="#smb">2. korrektur af #smb 2019-03-07. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wetet jrluchtede hochgeborne vorste <persName>her Eryk</persName> der ryke
+        <placeName>Denemarken</placeName>
+      <placeName>Sweden</placeName>
+      <placeName>Norwegen</placeName> der Wenden / vnde Gotten konnyngh . vnde hertoge to
+        <placeName>P{oe}meren</placeName> dat wij borgermestere rad vnde borgere gemenliken vnde
+      jnwonere der stad <placeName>Hono{uv}ere</placeName> myd vnsen hulperen wyllen juwe juwer ryke
+      vndersaten vnde jnwonere wo men de benomen mach vigende wesen vmme der ersamen heren vnde
+      vnsir vrunde der rede vnde borgere der stede willen <placeName>Lubeke</placeName>
+      <placeName>Hamborch</placeName>
+      <placeName>Rosteke</placeName>
+      <placeName>Straless{uv}nd</placeName> . <placeName>Luneborch</placeName> vnde
+        <placeName>Wysmer</placeName> etcetera vnde dar vmme dat gij den copman der dudesschen hense
+      dar wij mede to horen swarliken beschediget vnde vorvnrechtiget hebbet . vnde de juwe
+      beschedigen vnde vor vnrechtigen laten jn juwen ryken vnde gebeden jegen priuilegia vnde
+      wonheyde de van juwen vorvarn ghegheuen vnde besegelt vnde van j{uv} suluen gestediget sin .
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Vnde wij willen des alle vnde vnser juwelk bis{uv}nderen mid vnsen hulperen vnse <app><lem>ere</lem><rdg>umiddelbart herefter står i A et understreget <q>vnd</q></rdg></app> an j{uv} vnde den juwen to guden tiden wol bewaret hebben . ♦</p>
+            <p n="a#3" xml:space="preserve">Desses to bekantnisse is vnser stad jngesegel ghedr{uv}kket nedene vppe dessen breff .
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Geuen na der bord Cristi verteynhundert jar dar <app><lem>na</lem><rdg>mangler i A</rdg></app> jndeme seuenvndetwintigesten jare des mydwekens na oculi mei indervasten etcetera
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

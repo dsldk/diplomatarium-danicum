@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14230706001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Suppl. 162 fol. 56v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 348 nr. 1420</bibl>
+               <bibl>Dipl. dioc. Lund. III 21 nr. 24</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Dipl. dioc. Lund. l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-07-06"
+                  notBefore="1423-07-06"
+                  notAfter="1423-07-06"
+                  cert="high">1423. 6.
+          juli</date>
+            <placeName cert="high">Rom, Santa Maria Maggiore</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. bevilger en supplik af Peder Axelsen (Thott), kannik i Lund, om at få
+          fornyet provision på provstiet i Lund, skønt han i forvejen har kanonikat og præbende
+          sammesteds og ventebrev. </ab>
+            <ab>Peder var blevet valgt til provst af kapitlet efter den tidligere indehaver Folkvin
+          (Deinersens) død, og valget var blevet stadfæstet af ærkebiskoppen; fordi han er kommet i
+          besiddelse af provstiet, har han opgivet dekanatet i Linköping, men beder om at kunne
+          vende tilbage til det, såfremt han ikke kan opnå provstiet i Lund. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-27" who="#pbh">Filen etableret af #pbh 2014-05-27. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-10-17" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p>Beatissime pater. </p>
+            <p>Dudum prepositura ecclesie <placeName>Lundensis</placeName>, que inibi dignitas major
+          post pontificalem existit, per obitum quondam <persName>Folquini</persName> ultimi ipsius
+          ecclesie prepositi, extra Romanam curiam defuncti, vacante, devoti vestri capitulum ipsius
+          ecclesie, ad electionem futuri prepositi ipsius ecclesie precedentes, devotum vestrum
+            <persName>Petrum Absolonis</persName>, ipsius ecclesie canonicum, in illius prepositum
+          concorditer elegerunt. </p>
+            <p>Supplicat igitur sanctitati vestre dictus Petrus, qui ex utroque parente de militari
+          genere procreatus existit, quatenus sibi de prepositura predicta, que eciam curata existit
+          et cujus fructus etc. viginti marcharum argenti puri communi extimacione valorem annuum
+          non excedunt, eciam si ipsa electio, ut prefertur, facta auctoritate ordinaria confirmata,
+          ipseque per electionis et confirmacionis hujusmodi vigore[m] ipsam preposituram assecutus
+          fuerit ac teneat de presenti, prout in cancellaria ejusdem sanctitatis plenius exprimetur,
+          sive ut premittitur sive alias quovis modo aut ex alterius cujuscunque persona, seu per
+          liberam alicujus per eum de illa in dicta curia vel extra eam eciam coram notariis et
+          testibus sponte factam resignacionem, quam, si certa est, per presentes admittere sive
+          ratam et gratam habere dignemini, aut per assecucionem alterius beneficii ecclesiastici
+          quavis auctoritate collati, sive per constitutionem Execrabilis vacet, etiam si ex eo,
+          quod major post pontificalem est, generaliter vel specialiter disposicioni apostolice
+          reservata existat vel devoluta, et [super ea lis, cujus statum] presentibus habere
+          dignemini pro expresso, pendeat seu remanserit indecisa, eidem Petro eciam eleccionem
+          prefatam, quatenus nondum, ut prefertur, confirmata existat, auctoritate apostolica
+          confirmando providere dignemini de novo gratiose, non obstantibus, quod canonicatum et
+          prebendam dicte ecclesie, quorum fructus etc. sex marcharum similium secundum eandem
+          extimacionem valorem annuum non excedunt, obtineat et possessione decanatus, qui curatus
+          et dignitas non tamen major post pontificalem est ecclesie
+            <placeName>Lincopensis</placeName>, in qua tempore electionis prefate extitit et ad
+          quam, si ipsam preposituram non assequatur, exposcit regressum, in illis partibus
+          denudatus fuit, ac gracia expectativa etiam ampliore, si quas habeat in cancellaria
+          ejusdem sanctitatis exprimendas, cum ceteris non obstantibus et omnibus clausulis
+          oportunis, signantes gratiose per fiat, ut petitur. </p>
+            <p>Fiat. Fiat, ut petitur, O. Fiat. </p>
+            <p>Datum <placeName>Rome apud sanctam Mariam majorem</placeName> pridie nonas julii anno
+          sexto. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

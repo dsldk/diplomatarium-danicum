@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="th">
+                  <persName>
+                     <forename type="first">Thomas</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14130915002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Reg. Lat. 169 fol. 247r-v</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Franciscus XVIII. de Agello</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD VII 221 nr. 5675</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-09-15"
+                  notBefore="1413-09-15"
+                  notAfter="1413-09-15"
+                  cert="high">1413. 15.
+          september</date>
+            <placeName cert="high">Firenze</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Johannes 23. pålægger provsten i Tofte i Odense stift, dekanen ved Skt.
+          Peter i Aitour(?) i Liège stift og kantoren i Ribe at overdrage sognekirken i Egen i
+          Odense stift, ledig ved den tidligere indehaver Jakob Troelsens død, til Jens Nielsen
+          Sommer, klerk fra Odense stift, hvis ikke nogen anden i forvejen har gjort krav på
+          den. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-11" who="#pbh">Filen etableret af #pbh 2014-02-11. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-06-09" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">.. Preposito <placeName>Toftensi</placeName> et decano s. Petri
+            <placeName>Ayturiensis</placeName>
+               <placeName>Ottoniensis</placeName> et <placeName>Leodiensis</placeName> diocesium ac
+          cantori <placeName>Ripensis</placeName> ecclesiarum.</p>
+            <p>Vite ac morum honestas <app>
+                  <lem>(aliaque laudabilia probitatis et virtutum merita super quibus apud nos dilectus
+              filius [Johannes Nicolai dictus Samer clericus Ottoniensis diocesis] fidedigno
+              commendatur testimonio nos inducunt ut sibi reddamur ad graciam liberales)</lem>
+                  <rdg>tilføjet efter <ref target="14010226001">DD 1401. 26. feb., nr.
+              14010226001</ref>
+                  </rdg>
+               </app>.</p>
+            <p>Cum itaque .. parrochialis ecclesia opidi <placeName>Eghens</placeName> dicte diocesis,
+          quam .. <persName>Jacobus Trugilli</persName> obtinebat, per ejusdem Jacobi obitum ..
+          vacaverit et vacet ad presens, nos volentes .. <persName>Johanni Nicolai dicto
+            Samer</persName> clerico Ottoniensis diocesis .. gratiam facere specialem discretioni
+          vestre per apostolica scripta mandamus, quatinus vos vel duo aut unus vestrum ...
+          ecclesiam predictam [fructus 2 mr. arg.] ..., dummodo tempore date presentium non sit in
+          ea alicui specialiter jus quesitum, ... prefato Johanni auctoritate nostra conferre
+          curetis ..........</p>
+            <p>Datum apud <placeName>s. Antonium extra muros Florentinos</placeName> 17. kal. oct. anno
+          4.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">296</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14371025004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>AM</repository>
+                        <collection>empty</collection>
+                        <idno>XXXVII 29</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>1. Bomærke. 2. Bomærke. 3. Bomærke. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>afskrift i DSL's arkiv (Gammeldanske Diplomer 3. ser. II
+      74-76)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6905</bibl>
+               <bibl>Gammeldanske Diplomer 3. ser. II 74-76</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-10-25"
+                  notBefore="1437-10-25"
+                  notAfter="1437-10-25"
+                  cert="high">1437. 25. oktober <note>Udgivet efter Aa, da A ikke har været tilgængelig for udgiveren i maj
+    2021</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kristine Nielsdatter, enke efter Henneke Mule, har fået Jonstrupgård i Osted sogn, Volborg
+      herred, til låns i seks år af Niels Esbernsen Bille i Hallelev. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-28" who="#pbh">Filen etableret af #pbh 2013-11-28. </change>
+         <change when="2020-06-04" who="#jon">1. korrektur af #jon 2020-06-04. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men thættæ b<ex>re</ex>ff see all<ex>er</ex> høre hels<ex>er</ex> iech
+        <persName>C<ex>ri</ex>stine Nyelsædath<ex>e</ex>r</persName>
+      <persName>He<ex>n</ex>neke Mwle</persName>s efterleue ewy<ex>n</ex>nelech m<ex>eth</ex> guth
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Och gør iech th<ex>et</ex> alle men wytherlecht m<ex>eth</ex> thættæ neruære<ex>n</ex>des
+      b<ex>re</ex>ff ath iech weth<ex>e</ex>rke<ex>n</ex>ner mych aff en welbaren ma<ex>n</ex>
+      <persName>Nyels Esb<ex>er</ex>ns<ex>øn</ex></persName> som ma<ex>n</ex> kall<ex>er</ex>
+      <persName>Bylle</persName> i <placeName>Haldeløff</placeName> tel lans ath haue en gardh
+      so<ex>m</ex> heth<ex>e</ex>r <placeName>Ionst<ex>r</ex>op</placeName> m<ex>eth</ex> all
+      thelhørelsæ ænctæ w<ex>n</ex>nenthaget i sex ar sa<ex>m</ex>felde nw nest
+      ko<ex>m</ex>me<ex>n</ex>de ♦</p>
+            <p n="a#3" xml:space="preserve">Hwylke<ex>n</ex> gardh <placeName>Io<ex>n</ex>st<ex>r</ex>op</placeName> so<ex>m</ex>
+      lygg<ex>er</ex> i <placeName>Ostede sagn</placeName> i
+        <placeName>Walb<ex>ur</ex>ffh<ex>er</ex>r<ex>et</ex></placeName> och er the<ex>n</ex> same
+      gardh <placeName>Io<ex>n</ex>st<ex>r</ex>op</placeName> m<ex>eth</ex> all telhørelsæ
+        <persName>Nyels Esb<ex>er</ex>ns<ex>øn</ex> Bylle</persName> pa ko<ex>m</ex>me<ex>n</ex>
+      m<ex>eth</ex> ræth arff efth<ex>e</ex>r <persName>He<ex>n</ex>neke Mwles</persName> døth hues
+      syel guth haue ♦</p>
+            <p n="a#4" xml:space="preserve">Item iech <persName>C<ex>ri</ex>stine Nyelsædat<ex>er</ex></persName> skal haue the<ex>n</ex>
+      same gard <placeName>Io<ex>n</ex>st<ex>r</ex>op</placeName> m<ex>eth</ex> all tellygelsæ i
+      my<ex>n</ex> egen haue<ex>n</ex>de wære i for<hi rend="sup">de</hi> sex ar och opbær<ex>e</ex>
+      aff ha<ex>nu</ex>m landgylde och huat th<ex>er</ex> aff ha<ex>nu</ex> skal gyues / ♦</p>
+            <p n="a#5" xml:space="preserve">Och iec <persName>C<ex>ri</ex>stine Nyelsædat<ex>er</ex></persName> skal
+      æ<ex>n</ex>ge<ex>n</ex> a<ex>n</ex>ne<ex>n</ex>
+      <placeName>Ionst<ex>r</ex>op</placeName> fa all<ex>er</ex> naget aff th<ex>et</ex> tel
+        <placeName>Ionst<ex>r</ex>op</placeName> hører i haue<ex>n</ex>de wær<ex>e</ex> fa i pant
+      aller kiøb all<ex>er</ex> i nagræ a<ex>n</ex>dre mathe
+        <placeName>Io<ex>n</ex>st<ex>r</ex>op</placeName> æy afhe<ex>n</ex>de och æy naget aff
+      th<ex>et</ex> tel <placeName>Ionst<ex>r</ex>op</placeName> hører ♦</p>
+            <p n="a#6" xml:space="preserve">Item nar same sex ar ær<ex>e</ex> ende all<ex>er</ex> om iech <persName>C<ex>ri</ex>stine
+        Nyelsædath<ex>e</ex>r</persName> i<ex>n</ex>nen the same sex ar dør / tha skal
+        <placeName>Ionst<ex>r</ex>op</placeName> m<ex>eth</ex> all telhørelsæ æ<ex>n</ex>ctæ
+      w<ex>n</ex>nenthageth strax pastæden ko<ex>m</ex>me tel <placeName>sanctæ Karyne
+        alt<ex>er</ex>æ</placeName> tel ewy<ex>n</ex>nelech æye ♦ Hwylket <placeName>sanctæ
+        Karyne alt<ex>er</ex>æ</placeName>
+      <persName>Nyels Esb<ex>er</ex>ns<ex>øn</ex></persName> ma<ex>n</ex> kall<ex>er</ex>
+      <persName>Bylle</persName> i <placeName>Haldeløff</placeName> byght hauer lathet aff ny i
+        <placeName>s<ex>anc</ex>ti Lucii kirke</placeName> i <placeName>Roskylde</placeName>
+      ♦</p>
+            <p n="a#7" xml:space="preserve">Item om iech <persName>C<ex>ri</ex>stine Nyelsædat<ex>er</ex></persName> alle for<hi rend="sup">de</hi> wylkar æy halder all<ex>er</ex> om iech nager aff thøm bryth<ex>e</ex>r
+      tha pastæden skal <placeName>Ionst<ex>r</ex>op</placeName> m<ex>eth</ex> all telhørelsæ
+      ko<ex>m</ex>me tel for<hi rend="sup">de</hi>
+      <placeName>sanctæ Karine alt<ex>er</ex>æ</placeName> tel ewy<ex>n</ex>nelech æye wten
+      my<ex>n</ex> all<ex>er</ex> myne arwy<ex>n</ex>ges all<ex>er</ex> nag<ex>er</ex>
+      a<ex>n</ex>ders ma<ex>n</ex>s gensyelsæ all<ex>er</ex> hynder ♦</p>
+            <p n="a#8" xml:space="preserve">In cujus rei testimonium sigilla virorum disretorum videlicet <persName>Jacobi
+        Johannis</persName> proconsulis <placeName>Roskildensis</placeName>
+      <persName>Inguari Karuli</persName> et <persName>Johannis Mathei</persName> consulum ibidem
+      presentibus sunt appensa ♦</p>
+            <p n="a#9" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxx<hi rend="sup">o</hi>vii<hi rend="sup">o</hi> die Crispini et Crispiniani martirum beatorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

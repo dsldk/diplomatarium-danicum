@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">116</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14201116001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i B 29 (Skånebrevsfortegnelsen) fol. 13v n. 98</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 19575</collection>
+                        <idno>empty</idno>
+                        <msName>Lundebogen s. 187</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Med overskriften: <q>Littera quarta</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 120</bibl>
+               <bibl>Rep. nr. 5868</bibl>
+               <bibl>Svenskt Dipl. III 618 nr. 2837 (= SDHK nr. 19575)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-11-16"
+                  notBefore="1420-11-16"
+                  notAfter="1420-11-16"
+                  cert="high">1420. 16. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ivan Henriksen m.fl. bekræfter fru Ingefred (Palnesdatter (Urup)) af Fjärlöv og hendes datters arveret til fru Katrine (Nielsdatter) af
+      Kyses gods i Gärds herred. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-02" who="#pbh">Filen etableret af #pbh 2014-05-02. </change>
+         <change when="2018-07-09" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-07-09. </change>
+         <change when="2018-11-13" who="#alk">2. korrektur af #alk 2018-11-13. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle me<ex>n</ex> th<ex>ette</ex> b<ex>re</ex>ff see ell<ex>e</ex>r høre læses . heelse wii
+        <persName>Iwen He<ex>n</ex>rikss<ex>øn</ex></persName> . <persName>Oleff
+        Ingema<ex>n</ex>ss<ex>øn</ex> prest</persName> i <placeName>Walinxweth</placeName> .
+        <persName>Peth<ex>e</ex>r Grubbe</persName> . <persName>Erik Daa</persName> .
+        <persName>Michel Nielss<ex>øn</ex></persName> . <persName>Peth<ex>e</ex>r
+        Jenss<ex>øn</ex></persName> . eewi<ex>n</ex>nelich heelse m<ex>eth</ex> guth . ♦</p>
+            <p n="a#2" xml:space="preserve">Ku<ex>n</ex>tgøre wii th<ex>et</ex> alle . swo wæl nær<hi rend="sup">d<ex>es</ex></hi>
+      so<ex>m</ex> ko<ex>m</ex>meskulle<ex>n</ex>d<ex>es</ex> . ath enghen ær nærmær
+      arffwi<ex>n</ex>gh ath ærffwe th<ex>et</ex> goots . som frw Kat<ex>er</ex>ine ottæ . aff <app><lem>Kiuze</lem><rdg wit="#Aa"><q>Kinze</q>, Svenskt Dipl</rdg></app>. æn frwe Ingefreedh aff <placeName>Fiærdhæløøff</placeName> och he<ex>n</ex>ne
+      doth<ex>e</ex>r . Hwilketh goots he<ex>n</ex>ne tilfiøld aff rætt arff efft<ex>er</ex>
+      <app><lem>frwe Karines død aff Kiuze</lem><rdg wit="#Aa">Jf. DD 1403. 7. jan., nr. 14030107001</rdg></app> . hwes siel <app><lem>guth</lem><rdg wit="#A"><q>nathe</q> herefter slettet, Aa</rdg></app> haffwe . Hwilketh goots so<ex>m</ex> ligg<ex>er</ex> i Skane i
+      Gærsh<ex>er</ex>r<ex>et</ex> . hwilketh so<ex>m</ex> heedh<ex>e</ex>r Skip<ex>er</ex>sløff och
+      Isgra<ex>n</ex>nethorp . Biernholt . <app><lem>i <placeName>Manzdal</placeName></lem><rdg wit="#Aa">Skrevet i et ord, Aa; <q>i</q> er noget forskrevet, hvilket formentlig er
+          grunden til at Gammeldanske Diplomer læser det som et <q>y</q>, dvs. <q>Ymanzdal</q>.
+            <q>Manzdal</q> synes dog at være det stednavn det hentydes til, jf. f.eks. DD 4.
+          rk. V nrr. 330 og 465</rdg></app> . och i <placeName>Lidhe</placeName> och i <placeName>Wæstr<ex>e</ex> Wram</placeName>
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Th<ex>ette</ex> withne wii m<ex>eth</ex> th<ex>ette</ex> opne b<ex>re</ex>ff . och
+      wor<ex>e</ex> inceigle fore hængde . ♦</p>
+            <p n="a#4" xml:space="preserve">Datum anno domini mcd vicesimo crastino die Felicis martiris ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

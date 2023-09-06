@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">106</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14130927001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>Svendborg Bys Arkiv</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Danske Kancelli</collection>
+                        <idno>empty</idno>
+                        <msName>Kopi indsendt i henhold til kgl. missive af 29. juli 1648</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5295</bibl>
+               <bibl>Resens Atlas VI 423 (efter Aa)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Rep</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-09-27"
+                  notBefore="1413-09-27"
+                  notAfter="1413-09-27"
+                  cert="high">1413. 27. september <note>Udgivet efter Rep. nr. 5295, da Aa ikke har været tilgængeligt for udgiveren
+    i maj 2021</note>
+            </date>
+            <placeName cert="high">Flensborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern udsteder regler om salget af lærred, reb, klæde, humle, salt og stål
+      i Svendborg og om udsejling og eksport af varer. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-11" who="#pbh">Filen etableret af #pbh 2014-02-11. </change>
+         <change when="2020-06-24" who="#jon">1. korrektur af #jon 2020-06-24. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Vi <persName>Erick</persName> konge hilser alle i <placeName>Suenborg</placeName> og vil, at
+      ingen gæst skal sælge lærred i <placeName>Swenburgh</placeName> uden ved hele stykker og ved
+      reb, og klæde ved hele stykker og halve og humle ved thremmet<note>Gda. <q>trimet</q>, et mål
+        (for humle)</note> og salt ved tønder og ved pund og staal ved hele fad og ikke anderledes,
+      og <app><lem>forbyder</lem><rdg wit="#Aa"><q>forkynde</q>, Aa</rdg></app> vi hver mand noget udføre eller udsejle af nogen havn uden udaf lage<note>Jf. gda. <q>laghe-</q>, lovlig (f.eks. <q>laghealder</q>)</note> havne, og at de tolder da for det, de udfører, paa det sted og som dem
+      bør, og at de ikke udfører af det, som forbudt er ud at føre af landet.</p>
+            <p n="a#2" xml:space="preserve">Thi forbyder vi osv. </p>
+            <p n="a#3" xml:space="preserve">Datum <placeName>Flensborg</placeName> 4. feria ante festum <app><lem>Michaelis</lem><rdg><q>Michaeli</q>, Aa</rdg></app> nostro sub secreto impresso</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

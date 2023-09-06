@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">285</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14211014001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>Wijksamlingen (RA 0107.24)</collection>
+                        <idno>SDHK-nr. 19727</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Bomærke i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Bomærke i perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Bomærke i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5941</bibl>
+               <bibl>Reg. *4591</bibl>
+               <bibl>Historiska Handlingar IV 376 nr. 8</bibl>
+               <bibl>Saml. t. Skånes Hist. 1873 s. 102-03</bibl>
+               <bibl>Weibull, Dipl. Dioec. Lund. III 8 nr. 11</bibl>
+               <bibl>SDHK-nr. 19727</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Dipl. Dioec. Lund. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-10-14"
+                  notBefore="1421-10-14"
+                  notAfter="1421-10-14"
+                  cert="high">1421. 14. oktober</date>
+            <placeName cert="low">[Landskrona]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Borkvard van Halle, borger i Landskrona, erklærer, at han skylder Jakob Nielsen, sognepræst
+      sammesteds, tre lødige mark. Som sikkerhed pantsætter Borkvard van Halle sit hus i Landskrona
+      med al tilligende jord til Jakob Nielsen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-09" who="#pbh">Filen etableret af #pbh 2014-05-09. </change>
+         <change when="2019-09-24" who="#jon">1. korrektur af #jon 2019-09-24. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn thætte breff see æller høre helser iak <persName>Borquard wan Halle</persName>,
+      byman ii <placeName>Landzkrone</placeName>, ewinnelighe m<ex>et</ex> gwdh . </p>
+            <p n="a#2" xml:space="preserve">Th<ex>et</ex> skal allom witerligt ware, at iak bekænner mik skyldugh at ware hær
+        <persName>Jacob Nielss<ex>øn</ex></persName> sogneprest ii <placeName>Landzkrone</placeName>
+      thre løthughe mark rethe pæ<ex>n</ex>ninghe, swo dane som gille oc gefue ære, betale skulendes
+      for jnnæn sancti Michels dagh nw næst komandes ær, for hwilke pænninge iak til pant sætter
+      hanu<ex>m</ex> meth hws, som iak nw ii boor, m<ex>et</ex> all iordman, som iak th<ex>er</ex>
+      til hafuer, liggendes sønnen næst <placeName>sancti Ioha<ex>n</ex>nisse kirkegard</placeName>
+      til th<ex>et</ex> wæstre strædhe ii th<ex>et</ex> for<hi rend="sup">de</hi>
+      <placeName>Landzkrone</placeName>, m<ex>et</ex> swo dant wilkor at then for<hi rend="sup">de</hi> h<ex>e</ex>r <persName>Jacob</persName> skal foll makt hafue th<ex>et</ex> for<hi rend="sup">ne</hi> hws oc iord til legghe at lathe hwem han wil oc landgilde th<ex>er</ex>
+      aff op at bære, oc hwat som han th<ex>er</ex> aff for landgilde opp bæær th<ex>et</ex> skal
+      enkte regnæs ii howetpæninganæ, swo længe til th<ex>et</ex> hws oc iord wardhe loglighe igen
+      løsde m<ex>et</ex> mik eller mine arfwinge aff hanu<ex>m</ex> eller hans arfwinge pa sancti
+      Michels dagh, hwilken dagh alltidh skal ware løsninge ti<ex>m</ex>man oc engin a<ex>n</ex>ner
+      thidh pa areth . </p>
+            <p n="a#3" xml:space="preserve">Item skal th<ex>e</ex>n for<hi rend="sup">de</hi> h<ex>e</ex>r <persName>Iacob</persName>
+      foll makt hafue thet for<hi rend="sup">ne</hi> hws oc iord til pant at sætiæ hwem han wil for
+      swo mange pænninge, som iak hanu<ex>m</ex> skyldugh ær, naar han th<ex>et</ex>
+      weth<ex>er</ex>thorff, om iak th<ex>et</ex> ey tha siælff løse kan eller nagher pa mine weyne
+      . </p>
+            <p n="a#4" xml:space="preserve">Item binder iak mik oc mine arfwinge til at frii oc frelsse th<ex>e</ex>n for<hi rend="sup">de</hi> hær <persName>Iacob</persName> oc hans arfwinge th<ex>et</ex> for<hi rend="sup">ne</hi> hws oc iord for hwar manz tiltal, hinder oc gensigelse . </p>
+            <p n="a#5" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis aliorum discretorum videlicet
+        <persName>Mathie</persName> et <persName>Nicholai Laurencii</persName> civium in
+        <placeName>Landzkrone</placeName> presentibus est appensum . </p>
+            <p n="a#6" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxi<hi rend="sup">o</hi> die
+      beati Kalixti pape et martiris gloriosi . </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

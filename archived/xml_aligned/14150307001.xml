@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">166</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14150307001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. LX, 36</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 23.5 × 9.8 (plica: 2.1). <ab>Bagsidepåskrift: <q>I Ostr<supplied>o</supplied>p</q>
+                        </ab>1. seglsnit. 2. Kannik i Roskilde og prævisor for Sankt Clara kloster Niels Bosens segl i grønt voks (beskadiget), DGS 264. 3. seglsnit. </physDesc>
+                     <history>
+                        <ab>Registreret i København, Den Arnamagnæanske Samling, AM 1050 4<hi rend="sup">o</hi> nr. IX, Registratur over Breve i Universitetets
+                           Arkiv, hovedsagelig fra Roskilde Clare Klosters Arkiv (1586 og senere),
+                           trykt i ÆA V s. 575, D 35: <q>Scotatio Johannis Andreæ super bonis in
+                              Ostrop in Miersløsz herrit 1415</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5505</bibl>
+               <bibl>Vejledende Arkivreg. XVII 331 nr. 285</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-03-07"
+                  notBefore="1415-03-07"
+                  notAfter="1415-03-07"
+                  cert="high">1415.
+               7. marts</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Andersen (Basse) i Bildsø, væbner, skøder sit gods i Udstrup (Merløse herred)
+               til Clara kloster i Roskilde; til gengæld skal abbedissen og søstrene hvert år
+               torsdag før søndag Lætare lade holde en sjælemesse for Jens og hans forfædre med
+               vigilier og en messe ved daggry; ved Jens' død skal de tillige lade holde ligfærd for
+               ham med ti messer. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-27" who="#pbh">Filen etableret af #pbh 2014-02-27. </change>
+         <change when="2019-04-16" who="#pbh">1. korrektur af #pbh 2019-04-16. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus . <persName>Johannes Andree</persName> armiger habitans
+      in <placeName>Bilzæ</placeName> salutem in domino sempiternam . ♦</p>
+            <p n="a#2" xml:space="preserve">Noverint universi presentes et futuri me ex mera deliberacione et benivola voluntate omne jus
+      quod in bonis in <placeName>Ostorp</placeName> in
+        <placeName>Mierløsæh<ex>e</ex>r<ex>et</ex></placeName> sitis que prounc in habitant
+        <persName>Mathias</persName> et <persName>Nicholaus Jul</persName> habeo cum omnibus suis
+      pertinenciis <placeName>claustro sancte Clare Roskildensi</placeName> confero pro salute
+      animarum parentum meorum et mee scoto libere et resigno pure propter deum tali condicione quod
+      abbatissa et sorores predicti claustri que pro tempore fuerint omni anno v<hi rend="sup">a</hi> feria ante dominicam qua cantatur letare anniversarium cum vigiliis in vesperis et
+      una missa cantata de mane pro salute animarum parentum meorum et mee omni anno habeant
+      celebrare hoc eciam adjecto quod me viam universe carnis aggresso statim exequias ut eis
+      nunciatum fuerit cum vigiliis et . x . missis sollempniter habeant semel celebrare <app><lem>.</lem><rdg>herover et tegn der ligner et u eller a; det kan ikke afgøres, hvorvidt det er en del
+          af det efterfølgende I eller et overskrevet bogstav</rdg></app> ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium sigillum <app><lem>meum</lem><rdg wit="#A">rettet i marginen fra <q>nostri conventus</q> A</rdg></app> una cum sigillis honorabilium virorum videlicet domini <persName>Nicholai
+        Boecii</persName> canonici Roskildensis <app><lem>et</lem><rdg>herefter gentaget <q>et</q> (efter linjeskift) A</rdg></app> previsoris claustri sancte Clare et <persName>Petri Martæns<ex>øn</ex></persName>
+      armigeri et previsoris <placeName>claustri beate virginis Roskildensis</placeName> presentibus
+      est appensum . ♦</p>
+            <p n="a#4" xml:space="preserve">Datum <placeName>Roskildis</placeName> anno domini . m<hi rend="sup">o</hi> . cd<hi rend="sup">o</hi> . xv<hi rend="sup">o</hi> . v<hi rend="sup">a</hi> feria ante dominicam
+      qua cantatur letare Jerusalem . \ ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

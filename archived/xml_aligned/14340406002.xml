@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">765</num>, paragraphs: <num n="paragraphs">10</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14340406002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>Bille, Bent Torbernsen og 2. hustru Ernegård Eggertsdatter Frille (1453-1503). Pergamentsbreve. 55</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. </physDesc>
+                     <history>
+                        <ab>Vidisse af kong Hans 1491. 9. jul</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 130-34</bibl>
+               <bibl>Rep. nr. 6687</bibl>
+               <bibl>Reg. Dan. nr. 3548 = *5033</bibl>
+               <bibl>Mag. t. d. danske Adelshist. I 36</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-04-06"
+                  notBefore="1434-04-06"
+                  notAfter="1434-04-06"
+                  cert="high">1434. 6. april</date>
+            <placeName cert="high">Åhus</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Bent (Jonsen) Bille skifter sammen med sine tre sønner gods efter Torben Pedersen (Galen),
+      ridder, i Ljungby (Trolle-Ljungby sogn) med sin afdøde svoger Jakob Billes tre sønner. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-23" who="#pbh">Filen etableret af #pbh 2013-10-23. </change>
+         <change when="2019-10-28" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-10-28. </change>
+         <change when="2020-03-13" who="#pbh">2. korrektur af #pbh 2020-03-13. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men th<ex>ette</ex> br<ex>e</ex>ff hør<ex>e</ex> ell<ex>e</ex>r see helse wii <persName><app><lem>Ped<ex>e</ex>r</lem><rdg wit="#Aa">understregning begynder ved <q>d</q>, Aa</rdg></app> Bille</persName>
+      <persName>Torbern Bille</persName> oc <persName>Erich <app><lem>Bille</lem><rdg wit="#Aa">understregning slutter ved <q>B</q>, Aa</rdg></app></persName> som <app><lem>sambrødr<ex>e</ex></lem><rdg wit="#Aa">her begynder understregning, Aa</rdg></app> ære <persName>Iens Ieipsøn</persName> landz domer<ex>e</ex> i
+        <placeName>Schonæ</placeName> oc <persName>Kiell <app><lem>Axels<ex>øn</ex></lem><rdg wit="#Aa">her slutter understregning, Aa</rdg></app></persName> som for<hi rend="sup">de</hi> sambrødr<ex>e</ex>s søsth<ex>e</ex>r haffue
+      kerlige meth gud oc kungiør<ex>e</ex> meth th<ex>ette</ex> vart opne breff at aar
+      effth<ex>e</ex>r gudz bird <app><lem>mcdxxxquarto</lem><rdg wit="#Aa">understreget, Aa</rdg></app> pa then neste tiisdagh <app><lem>[effth<ex>e</ex>r]</lem><rdg wit="#Aa">utydeligt, Aa</rdg></app> dominicam quasi modo geniti wor<ex>e</ex> wii i <app><lem><placeName>Aoss</placeName></lem><rdg wit="#Aa">evt. Aass, Aa</rdg></app> meth velbirdige men <persName><app><lem>Bent</lem><rdg wit="#Aa">her begynder understregning, Aa</rdg></app> Billes</persName> vener oc hans ker<ex>e</ex> husfruæ fru <persName>Ingerd</persName>
+        h<persName>e</persName>r <persName>Torb<ex>er</ex>n <app><lem>Ped<ex>e</ex>rss<ex>øns</ex></lem><rdg wit="#Aa">her slutter understregning, Aa</rdg></app></persName> dott<ex>er</ex> oc begg<ex>es</ex> th<ex>er</ex>r<ex>es</ex>
+      sø<ex>n</ex>ner som <app><lem>er</lem><rdg wit="#Aa">understregning begynder ved <q>r</q>, Aa</rdg></app> Erich Bille Torbern Bille oc Peth<ex>e</ex>r Bille <app><lem>sambrødr<ex>e</ex></lem><rdg wit="#Aa">understregning slutter ved s, Aa</rdg></app>
+      <app><lem>t[il s]a<ex>m</ex>men</lem><rdg wit="#Aa">en revne i brevet, Aa</rdg></app> om skiffte i gotz effth<ex>e</ex>r <app><lem>velbirdigh</lem><rdg wit="#Aa">her begynder understregning, Aa</rdg></app> man som er h<ex>e</ex>r <persName>Torbern <app><lem>Ped<ex>e</ex>rss<ex>øn</ex></lem><rdg wit="#Aa">her slutter understregning, Aa</rdg></app></persName> som ridd<ex>e</ex>r vor som bode i <placeName>Lywngby</placeName> hwes
+      siell gud nade ♦</p>
+            <p n="a#2" xml:space="preserve">Tha i gudz naffn ær<ex>e</ex> wij swo alle sa<ex>m</ex>men pa bode sidh<ex>e</ex>r offuer ens
+      vordne <app><lem>at</lem><rdg wit="#Aa">understregning begynder ved <q>t</q>, Aa</rdg></app> thet <app><lem>skiff[te]</lem><rdg wit="#Aa">revne i brevet, Aa</rdg></app> som Bent Bille oc vor fader for<hi rend="sup">de</hi> h<ex>e</ex>r Ieip Bille mellom
+      oss haude thucket tiil <app><lem>thenne</lem><rdg wit="#Aa">understregning slutter ved <q>h</q>, Aa</rdg></app> dagh thet foldrage oc folborthe wij nw pa bode sid<ex>e</ex>r i alle mode <app><lem>stathu[cht]</lem><rdg wit="#Aa"><q>c</q> usikker læsning, Aa; <q>ht</q> suppleret</rdg></app> at bliwæ i swoda<ex>n</ex>ne mode at <app><lem>for<hi rend="sup">de</hi></lem><rdg wit="#Aa">understregning begynder ved <q>r</q>, Aa</rdg></app>
+      <persName>Bent Bille</persName> oc hans kær<ex>e</ex>
+      <app><lem>h<damage>us</damage>fr[u]æ</lem><rdg wit="#Aa">hul i brevet, Aa; <q>us</q> suppleret; <q>u</q>
+          usikker læsning, Aa</rdg></app> fruæ <persName>Ingerdh</persName> oc begg<ex>es</ex> ther<ex>es</ex> sø<ex>n</ex>ner <app><lem>som</lem><rdg wit="#Aa">understregning slutter ved <q>s</q>, Aa</rdg></app> er <persName><app><lem>Erich</lem><rdg wit="#Aa">her begynder understregning, Aa</rdg></app> Bille</persName>
+      <persName>Torb<ex>er</ex>n Bille</persName> oc <persName>Pedh<ex>e</ex>r <app><lem>Bille</lem><rdg wit="#Aa">understregning slutter ved <q>i</q>, Aa</rdg></app></persName> schullæ tesse effth<ex>e</ex>r<hi rend="sup">ne</hi> gotz tiil ewerdeligh eye
+      haffue oc beholle som <app><lem><damage>er</damage></lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app> først en <app><lem>gard</lem><rdg wit="#Aa">understregning begynder ved <q>a</q>, Aa</rdg></app> i <app><lem><placeName>Abbetwedh</placeName></lem><rdg wit="#Aa">understregning slutter ved <q>d</q>, Aa</rdg></app> som skild<ex>e</ex>r tw pund korn i <placeName>Sagby sogn</placeName>
+      liggend<ex>es</ex> ♦ Item en gard i <placeName>Geffninge</placeName> som
+      skild<ex>e</ex>r tw pund korn i <placeName>Walburgh<ex>e</ex>r<ex>et</ex></placeName> i
+      Sieland ♦ Item two garde i <placeName>Vestr<ex>e</ex> Lywngby</placeName> then første
+      skild<ex>e</ex>r fir<ex>e</ex>
+      <app><lem><damage>pund</damage></lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app> korn huilken <persName>Ieipp Longh</persName> i bode oc then a<ex>n</ex>nen
+      skild<ex>e</ex>r tw pund korn som And<ex>e</ex>rs pa bor ♦ Item en gard i
+        <placeName>Østre Lywngby</placeName> som skild<ex>e</ex>r nytthen g<ex>rot</ex> oc pa bor
+        <persName>Trweth</persName> ♦ Item tre garde i
+        <placeName>Vatneb<ex>er</ex>ge</placeName> en skild<ex>e</ex>r en ør<ex>æ</ex> korn oc <app><lem><damage>...</damage></lem><rdg wit="#Aa">hul i brevet, Aa</rdg></app>
+      <persName>Torstens<ex>øn</ex></persName> pa bor then a<ex>n</ex>nen skilder en øræ korn som
+        <persName>Iens Henekes<ex>øn</ex></persName> i bode oc then tredie skild<ex>e</ex>r fempten
+      sk<ex>illing</ex> korn oc eth sk<ex>illing</ex> smør som <persName>And<ex>ers</ex>
+        Ienss<ex>øn</ex></persName> pa bor ♦ Item fir<ex>e</ex> garde i
+        <placeName>Gudeløwe</placeName> then første giffuer fir<ex>e</ex> pund <app><lem>[korn]</lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app> pa huilken en bor <persName>Iens <app><lem>Ma[u]gh</lem><rdg wit="#Aa">usikker læsning, Aa</rdg></app></persName> then annen skild<ex>e</ex>r fem <app><lem><damage>ø</damage>rtugh</lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app> korn huilken <persName>Lasse Gudfasth</persName> pa bor then tredie en øræ korn huilken
+        <persName>Torn</persName> i bode then fierde giffuer eth pund korn huilken Henrich <app><lem>Swd[here pa]</lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app> bor ♦ Item en gord i <placeName>Raby</placeName> oc giffuer en øræ korn huilken <persName><app><lem><damage>Es</damage>ge</lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app> Morthenss<ex>øn</ex></persName> i bor ♦ Item <placeName>Rabytorpp</placeName>
+      som skildh<ex>e</ex>r sexsten g<ex>rot</ex> som <persName>And<ex>ers</ex>
+        Øtbiørns<ex>øn</ex></persName> pa bor ♦ Item tre garde i
+        <placeName>Ietneryth</placeName> then første giffu<ex>er</ex> en ør<ex>æ</ex> korn som <app><lem><damage>...</damage></lem><rdg wit="#Aa">hul i brevet, Aa</rdg></app> pa bor ♦ Item then annen som <persName>Øthbiørn</persName> pa bode
+      skild<ex>e</ex>r <app><lem>en</lem><rdg wit="#Aa">utydeligt, Aa</rdg></app>
+      <app><lem>[øræ kor]n</lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app>
+      <app><lem>[then tredie som]</lem><rdg wit="#Aa">utydeligt, Aa</rdg></app>
+      <persName>Iens Iøsepss<ex>øn</ex></persName> pa bor giffu<ex>er</ex> eth pund korn i
+        <placeName>Ywetoffte sogn</placeName> ♦ Item eth torpp som kalles <app><lem><placeName>All[o]rp</placeName></lem><rdg wit="#Aa">usikker læsning, Aa</rdg></app> meth alle sin tiillig<ex>else</ex> som skild<ex>e</ex>r <app><lem><damage>...</damage></lem><rdg wit="#Aa">hul i brevet, Aa</rdg></app> skeling<ex>e</ex> ♦ Item <placeName>Lydhingerydh</placeName> meth all sin <app><lem>tilli<damage>g<ex>else</ex> som sk...</damage></lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app>
+      <persName>Erland</persName> pa bor i <placeName>Ywetoffte sogn</placeName> ♦ Item two
+      garde i <placeName>Asildorp</placeName> then første giffu<ex>er</ex> halfierde
+      skeling<ex>e</ex> oc Naffne pa bor <app><lem>the<damage>n</damage></lem><rdg wit="#Aa">suppleret</rdg></app>
+      <app><lem><damage>...</damage></lem><rdg wit="#Aa">hul i brevet, Aa</rdg></app> en halff lød<ex>e</ex>marck som Erich <app><lem>R<damage>...</damage></lem><rdg wit="#Aa">hul i brevet, Aa</rdg></app> en lød<ex>e</ex>march som <persName>Magh<ex>e</ex>ns Kroch</persName> pa bor i Gemsiø
+      sogn ♦ Item en gord i <placeName>Nyme</placeName> som giffu<ex>er</ex> try pund <app><lem>kor[n]</lem><rdg wit="#Aa">utydeligt, Aa</rdg></app>
+      <app><lem><damage>...</damage></lem><rdg wit="#Aa">hul i brevet, Aa</rdg></app> ♦ Item en gard i <placeName>Viby</placeName> meth en feste i <app><lem><placeName>Haas<damage>løf ...</damage></placeName></lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app> som <persName>Knud</persName> pa bor meth alle tesse for<hi rend="sup">ne</hi> gotz
+      tiillig<ex>else</ex> som er agh<ex>e</ex>r engh skoff fyskewand voth oc tyurth enthæ <app><lem>wndentag<damage>eth meth</damage></lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app> hwad naffn thet helst neffnes kan ♦</p>
+            <p n="a#3" xml:space="preserve">Item <app><lem>kienn<damage>es wii for<hi rend="sup">ne</hi> ...</damage></lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app>
+      <persName><app><lem><damage>Torb<ex>er</ex></damage>n</lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app> Bille</persName> oc <persName>Erich Bille</persName> at Lywngby gard oc møllen
+      stand<ex>e</ex>r oss pa bode sid<ex>e</ex>r nw wskifft i mellom ♦</p>
+            <p n="a#4" xml:space="preserve"><app><lem>Item</lem><rdg wit="#Aa">understregning begynder ved <q>t</q>, Aa</rdg></app> kiennes wii oss <app><lem>engen</lem><rdg wit="#Aa">her slutter understregning, Aa</rdg></app> reth <app><lem>athaff<damage>ue</damage></lem><rdg wit="#Aa">suppleret</rdg></app>
+      <damage>...</damage>
+      <placeName>Halseghe</placeName> ell<ex>e</ex>r i <placeName>Nør<ex>re</ex> skoff</placeName> wthen tiil
+      skelligh <app><lem>big<damage>nin</damage>gh</lem><rdg wit="#Aa">suppleret, hul i brevet</rdg></app> te<damage>...</damage>
+      <app><lem>[Lywn]gby</lem><rdg wit="#Aa"><q>Lyw</q> suppleret; <q>n</q> usikker læsning,
+          Aa</rdg></app> gard oc møllen som th<ex>e</ex>r tiilligg<ex>e</ex>r som the oss wnth haffue for kerlighed
+      skild ♦</p>
+            <p n="a#5" xml:space="preserve">Och <placeName>Eenøen</placeName> som wii aff them haffue for <app><lem>ker<damage>li</damage>gh[e]d</lem><rdg wit="#Aa"><q>li</q> og <q>e</q> suppleret; <q>h</q> usikker
+          læsning, Aa</rdg></app> ey a<ex>n</ex>ner stadz at legg<ex>es</ex> tiil wthen ved <placeName>Lwngby
+        gard</placeName> at <app><lem>bl<damage>i</damage>ffue</lem><rdg wit="#Aa">suppleret</rdg></app> ♦ <app><lem>O[ch]</lem><rdg wit="#Aa">kan ikke ses i sin helhed, Aa</rdg></app>
+      <app><lem>[o]ld[en]</lem><rdg wit="#Aa">usikker læsning, Aa</rdg></app> i the for<hi rend="sup">ne</hi> two skoge tiil then mandz egne swin som i Lwngby gard
+      bor som han selff vpp haffu<ex>er</ex> føth ♦</p>
+            <p n="a#6" xml:space="preserve">Item <app><lem>skeer</lem><rdg wit="#Aa">her begynder understregning, Aa</rdg></app> thet <app><lem>sw[o]</lem><rdg wit="#Aa">utydeligt; understregning kan ikke ses efter <q>w</q>, Aa</rdg></app>
+      <app><lem>[a]t</lem><rdg wit="#Aa">usikker læsning, Aa</rdg></app> nog<ex>e</ex>r <app><lem>gotz</lem><rdg wit="#Aa">understregning begynder ved <q>o</q>, Aa</rdg></app> h<ex>er</ex> effth<ex>e</ex>r fynnes <app><lem>som</lem><rdg wit="#Aa">understregning slutter ved <q>s</q>, Aa</rdg></app> ey nw h<ex>er</ex> tiil skiffte ær<ex>e</ex> kompnæ <app><lem>[s]om</lem><rdg wit="#Aa">revne i brevet; suppleret</rdg></app> mellom oss pa bode sid<ex>e</ex>r bør at skifft<ex>es</ex>
+      <app><lem>schulle</lem><rdg wit="#Aa">understregning begynder ved <q>l</q>(2), Aa</rdg></app> tiil reth søskenes skiffte <app><lem>ko<ex>m</ex>me</lem><rdg wit="#Aa">her slutter understregning, Aa</rdg></app> som reth oc skell er ♦</p>
+            <p n="a#7" xml:space="preserve">Och <app><lem>fynnes</lem><rdg wit="#Aa">understregning begynder ved <q>n</q>(1), Aa</rdg></app> thet at <placeName>Abbetwed</placeName> oc <app><lem><placeName>Geffninge</placeName></lem><rdg wit="#Aa">understregning slutter ved <q>f</q>(2), Aa</rdg></app> wor<ex>e</ex> icke <app><lem>før<ex>e</ex></lem><rdg wit="#Aa">understregning begynder ved <q>ø</q>, Aa</rdg></app> mellom for<hi rend="sup">de</hi>
+      <app><lem>Bent</lem><rdg wit="#Aa">her slutter understregning, Aa</rdg></app> Bille oc wor fad<ex>e</ex>r h<ex>e</ex>r Ieip Bille thocket tha schulle the tiil reth
+      søskene skiffte ko<ex>m</ex>me som for<hi rend="sup">uit</hi> star ♦</p>
+            <p n="a#8" xml:space="preserve">Item tiilbynde vij oss oc wor<ex>e</ex> arffui<ex>n</ex>ge th<ex>ette</ex> skiffte i alle
+      mode som for<hi rend="sup">uit</hi> star at hallæ fulko<ex>m</ex>melige vthen alt genkald
+      ♦</p>
+            <p n="a#9" xml:space="preserve">Och skeer thet <app><lem>s<damage>w</damage>o</lem><rdg wit="#Aa">suppleret, revne i brevet, Aa</rdg></app>
+      <app><lem>th<damage>e</damage>t</lem><rdg wit="#Aa">et lille hul i brevet</rdg></app> gud forbywde at nog<ex>e</ex>r aff tesse for<hi rend="sup">de</hi> gotz vorder them
+      eller ther<ex>es</ex> arffuinge i nog<ex>e</ex>r mode entigh meth kirkes ell<ex>e</ex>r meth
+      wæreldz reth aff vondne tha tiilbynde wii oss oc wor<ex>e</ex> arffuinge them oc <app><lem>the<damage>r<ex>es</ex></damage></lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app>
+      <app><lem>[ar]ffuinge</lem><rdg wit="#Aa">utydeligt, Aa</rdg></app> vor andell igen at giffue oc frij som oss aff rette bør ♦</p>
+            <p n="a#10" xml:space="preserve">Thiil vidnesbird oc bett<ex>re</ex> forwaringh haffue wij meth god velige endrectelige bethet
+      velbirdigh fad<ex>e</ex>r Ped<ex>e</ex>r meth gudz nade <app><lem>erch[e]bis<damage>cop</damage></lem><rdg wit="#Aa"><q>e</q> usikker læsning, Aa; <q>cop</q> suppleret</rdg></app> i Lund etcetera oc <persName>Ped<ex>e</ex>r Nielss<ex>øn</ex></persName> aff
+        <placeName>Arwitzløff</placeName> begg<ex>es</ex> wor<ex>e</ex> frend<ex>e</ex>r er oc bode
+      wdower th<ex>ette</ex> skiffte ner<hi rend="sup">des</hi> haffue wær<ex>e</ex>t henge
+      ther<ex>es</ex> secreth oc intzeglæ meth alles wor<ex>es</ex> for<hi rend="sup">nes</hi>
+      intzeglæ for<ex>e</ex> th<ex>ette</ex> breff som <app><lem>giff<damage>uit oc</damage></lem><rdg wit="#Aa">suppleret, hul i brevet, Aa</rdg></app>
+      <app><lem>s[c]<ex>re</ex>ff<damage>uit er</damage></lem><rdg wit="#Aa"><q>c</q> usikker læsning, Aa; <q>uit er</q> suppleret efter Gammeldanske
+          Diplomer</rdg></app> aar dagh oc sted som forsc<ex>re</ex>ffuit star ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

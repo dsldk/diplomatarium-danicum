@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">363</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14151113001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 18637</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Skrevet med samme hånd som DD 1415. 14. nov., nr. 14151114001</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Gesie</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jens Lauridsens segl af lyst voks med en oprejst spids, med omskriften: S.
+        IOH .... LAVR...., i perg. rem; , <ref>AS L xxxiv 1 (Gere)</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Bomærke(?) i perg. rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg. rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 130-31</bibl>
+               <bibl>Rep. III nr. 5556 (i udtog)</bibl>
+               <bibl>Svenskt Dipl. III 85 nr. 2154</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-11-13"
+                  notBefore="1415-11-13"
+                  notAfter="1415-11-13"
+                  cert="high">1415. 13. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Lauridsen væbner af Sjörup pantsætter sit gods i Oxie herred, som han havde fået af
+      sin hustru, til ridder Niels Svendsen (Sparre) af Ellinge for seks lødig mark.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-04" who="#pbh">Filen etableret af #pbh 2014-03-04. </change>
+         <change when="2017-07-04" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-07-04. </change>
+         <change when="2017-09-05" who="#jon">2. korrektur af #jon 2017-09-05. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Alle men th<ex>et</ex>te bref see elle hør<ex>e</ex> helser jac <persName>
+                  <app>
+                     <lem>Jenis Laurenss<ex>øn</ex>
+                     </lem>
+                     <rdg wit="#A">
+                        <q>is Laurenss<ex>øn</ex>
+                        </q> understreget, A</rdg>
+                  </app>
+               </persName> j <placeName>Syothorp</placeName> awapn kerlighe m<ex>eth</ex> worwm
+      herr<ex>e</ex> ♦ Th<ex>et</ex> schal allom widerlicht war<ex>e</ex> nerwarende oc
+      ko<ex>m</ex>meskwlende at jac weth<ex>e</ex>rke<ex>n</ex>ner mich m<ex>eth</ex>
+      th<ex>et</ex>te myt opne breff en welboræn man h<ex>er</ex>
+               <persName>
+                  <app>
+                     <lem>Niels</lem>
+                     <rdg wit="#A">Her begynder understregning, A</rdg>
+                  </app> Sue<ex>n</ex>ss<ex>øn</ex>
+               </persName> j <app>
+                  <lem>
+                     <placeName>Ellinge</placeName>
+                  </lem>
+                  <rdg wit="#A">Her slutter understregning, A</rdg>
+               </app> ridder<ex>e</ex> th<ex>e</ex>nne breff<ex>ø</ex>r<ex>er</ex> hano<ex>m</ex> rettelighe
+      giældschwldw atwar<ex>e</ex> j sex løthigh mark rethe pæni<ex>n</ex>ge som gewe oc genge
+      ær<ex>e</ex> j <placeName>Scone</placeName> oc jnktte annyt werth Nw wppa
+      s<ex>an</ex>c<ex>t</ex>e Andre<ex>us</ex> dagh nw nest tilko<ex>m</ex>me<ex>n</ex>de ær
+      hano<ex>m</ex> rethelighe jgen at betaschwlende ♦</p>
+            <p n="a#2">For hwilke sex løthic marc jac hano<ex>m</ex> til <app>
+                  <lem>pant sætter</lem>
+                  <rdg wit="#A">Understreget, A</rdg>
+               </app> myt gozt j <app>
+                  <lem>
+                     <placeName>Gessyæ</placeName>
+                  </lem>
+                  <rdg wit="#A">Understreget, A</rdg>
+               </app> j <placeName>Oxye h<ex>e</ex>r<ex>et</ex>
+               </placeName> lyggende hwilket jac fyk
+      m<ex>eth</ex> my<ex>n</ex> hwsfr<ex>v</ex> . swa som ær en gardh N<persName>is
+        Jenss<ex>øn</ex>
+               </persName> nw j boor oc en øthe festæ gyw<ex>er</ex> bathe sex skeling grot
+      til landgylde hwart aar m<ex>eth</ex> alt th<ex>et</ex>te gozt tilliggilse agh<ex>e</ex>r ægn
+      mark wat ok thywrt oc jnkte wnden taghit e hwat som helst kan nepfnæs . ♦</p>
+            <p n="a#3">M<ex>eth</ex> swa dan skel at ær th<ex>et</ex> swa at mich wanskes naghit elle myne arwinge
+      at jac th<ex>et</ex>te for<hi rend="sup">de</hi> gozt ey jgen løser pa for<hi rend="sup">de</hi> s<ex>an</ex>c<ex>t</ex>e Andre<ex>us</ex> dagh . ♦ Tha scal for<hi rend="sup">de</hi> h<ex>er</ex>
+               <persName>Niels Sue<ex>n</ex>ss<ex>øn</ex>
+               </persName> wpbær<ex>e</ex> landgy[l]de thienyste oc
+      theyær oc alt hwat th<ex>et</ex> gozit skylde kan oc jnkte af at regnes j howit
+      pen[i<ex>n</ex>]genæ swa længe th<ex>et</ex>te for<hi rend="sup">de</hi> gozt wordh<ex>e</ex>r
+      hano<ex>m</ex> laghlyghe af løst elle hans arwinge ♦</p>
+            <p n="a#4">Oc schal engen annen løsni<ex>n</ex>ge dagh war<ex>e</ex> en s<ex>an</ex>c<ex>t</ex>e
+      Andre<ex>us</ex> dagh so<ex>m</ex> til fore<ex>n</ex> ær sc<ex>re</ex>wet ♦ Oc huilkyt
+      aar th[<ex>et</ex>te] gozt jgen worth<ex>e</ex>r løst tha schal th<ex>et</ex> sa<ex>m</ex>me
+      aars landgylde følghe howith pe<ex>n</ex>ni<ex>n</ex>gene ♦</p>
+            <p n="a#5">Item tilbind[<ex>er</ex>] jac mich oc myne arwinge th<ex>e</ex>nne for<hi rend="sup">de</hi> h<ex>er</ex>
+               <persName>Niels Sue<ex>n</ex>ss<ex>øn</ex>
+               </persName> oc hans arwinge th<ex>et</ex>te for<hi rend="sup">de</hi> gozt frii oc frelse [hemlle] oc tilsta for et pant for hwars mans tiltaal
+      swa længe th<ex>et</ex> worth<ex>e</ex>r hano<ex>m</ex> laghlyghe af [løst] ell[er
+      ha<ex>n</ex>s] arwinge som til fore<ex>n</ex> ær screw<ex>et</ex> ♦</p>
+            <p n="a#6">Til mer<ex>e</ex> wissen oc bethr<ex>e</ex> forwaring tha ær myt j[ngzil]e m<ex>eth</ex>
+      gothe mæns jngzile for<ex>e</ex> hænght th<ex>et</ex>te breff swa som ær <persName>Aghe
+        Bothelss<ex>øn</ex>
+               </persName> oc <persName>Lasse Fle[my<ex>n</ex>g
+        wæp]ner<ex>e</ex>
+               </persName> ♦</p>
+            <p n="a#7">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xv<hi rend="sup">o</hi> die
+      beati Brictii episcopi et confessoris ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

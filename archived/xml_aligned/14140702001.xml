@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">109</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14140702001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR 2547</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>1. Spor af ærkebiskop Peders segl på
+                                bagsiden. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Svenskt Dipl. II 828</bibl>
+               <bibl>Rep. nr. 5476</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-07-02"
+                  notBefore="1414-07-02"
+                  notAfter="1414-07-02"
+                  cert="high">1414. 2. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ærkebiskop Peder af Lund giver tilladelse til Svend Nielsen, diakon i Lunde
+                        stift, til at blive præsteviet af en ærkebiskop eller biskop. Ligeledes får
+                        den, som samme Svend måtte udpege til dette, tilladelse til at foretage
+                        præstevielsen, dog således, at Peder kan kalde Svend tilbage til Lunde stift efter præstevielsen. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Petrus dei gratia archiepiscopus Lundensis Svecie primas et apostolice sedis
+                        legatus dilecto filio Svenoni Nicholai . nostre Lundensis dyocesis dyachono
+                        salutem [et sinceram] in domino caritatem ♦ </p>
+            <p n="a#2" xml:space="preserve">Ut a quocumque archiepiscopo vel episcopo sacrosancte Romane ecclesie <app><lem>con[junctim vel divisi]m</lem><rdg resp="#mh">Usikker læsning som følge af lakune i A.</rdg></app> ad
+                        sacrum presbyteratus ordinem qui tibi deficit rite et canonice promoveri
+                        valeas tibi tenore presentium licentiam impartimur ipsique fratri nostro
+                        quem super hoc requirendum duxeris tibi eundem prebyteratus ordinem rite et
+                        canonice conferendi per presentes tribuimus facultatem nobis tamen post
+                        dicti ordinis recepcionem te ad nostram Lundensem dyocesim revocandi
+                        auctoritate specialiter reservata ♦</p>
+            <p n="a#3" xml:space="preserve">Datum Haffnis anno domini
+                                m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xiiii<hi rend="sup">mo</hi> die visitacionis beate Marie virginis gloriose nostro sub
+                        secreto ad dorsum presentibus impresso etcetera.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

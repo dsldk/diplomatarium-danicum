@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">440</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14240520001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 1. Olof Thomassons segl i grønt voks, i perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Urkunden, Externa</collection>
+                        <idno>Ruthenica 30a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>1. Komturen i Revals segl. </physDesc>
+                     <history>
+                        <ab>Vidisse udfærdiget 10. marts 1549 af rådet i Reval på foranledning af Remmert v.
+      Scharenberg, Den Tyske Ordens komtur i Reval</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4693</bibl>
+               <bibl>Styffe, Bidrag till Skandinaviens historia II, nr. 87, p. 218-220 (tryk efter Aa)</bibl>
+               <bibl>Hansisch. Urkundenb. 6, nr. 550, p. 306-307 (tryk efter A)</bibl>
+               <bibl>SDHK-nr. 20278</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Styffe l.l.; de arkivalske oplysninger stammer fra hhv. Styffe l.l., Hansisch.
+      Urkundenb. l.l. og SDHK l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-05-20"
+                  notBefore="1424-05-20"
+                  notAfter="1424-05-20"
+                  cert="high">1424. 20. maj</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Olof Thomasson, foged på Gotland, erklærer, at han på Gotlands vegne af rådet i Reval har
+      modtaget 10 års leje for Gotenhof i Novgorod. </ab>
+            <ab>Endvidere udlejer Olof Thomasson på landet Gotlands vegne atter Gotenhof til hanseforbundet
+      for en tyveårig periode. Lejen beløber sig til fem rhinske gylden pr. år. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-20" who="#pbh">Filen etableret af #pbh 2014-06-20. </change>
+         <change when="2020-12-16" who="#smb">1. korrektur af #smb 2020-12-16. </change>
+         <change when="2021-01-15" who="#smb">2. korrektur af #smb 2021-01-15. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Witlik vnd apenbar sij allen luden, de dussen breff sehen, horen oder lesen, datt ick
+        <persName>Oleff Thomassone</persName> bekenne vnde betuge in dussem apen breue, datt ick tho
+      fuller noge entfangen vnnd vpgeborett hebbe, van den ersamen heren, dem rade tho
+        <placeName>Reual</placeName>, den versutenen tijns van <placeName>der Goethen
+        hauv</placeName> wegen tho <placeName>Nowgarden</placeName>, van teyn jaren, dat de kopman
+      des haues gebruckett, vnd beseten hadde, na der <app><lem>eendracht</lem><rdg><q>eedracht</q>, Aa</rdg></app>, als ick mit den erbaren heren dem rade vorgeschreuen auer teyn jaren geleden,
+      ouerendroch, fulmechtich van des gantzen landes wegen tho <placeName>Gotlande</placeName>, de
+      my dusser sake fulmechtich gemakett hebben, also, dat nene namaninge, noch furder ansprake van
+      dusses geldes wegen schehen, noch volgen soll tho ewigen thokamenden tiden.</p>
+            <p n="a#2" xml:space="preserve">Forthmer, alse my die Gothen, vnd dat gantze lant van des haues wegen tho
+        <placeName>Nowgarden</placeName> aller saken fulmechtich gemakett hebben alle dinck darby
+      tho doende, vnd tho latende, na vthwisinge ohres breues, so hebben de ersamen vorbenomede
+      heren, de radt tho <placeName>Reual</placeName> mit my auereingedregen, vnd ick mit ehn van
+      des gemeynen Dudtschen kopmans wegen van der hense, also, dat de kopman vorschreuen, dessuluen
+      haues vorthan brucken sall tho theintich jaren, nha gifte dusses breues, vnd daruan jewelickes
+      jares thogeuende viff Rinische guldenn vnd bynnen dussen tidtt tho allen viff jaren tho
+      betalende vif vnd theintich Rinsche gulden, deme den de erbarn lude van deme lande tho
+        <placeName>Gotlande</placeName> mit orem breue darna sendende werden.</p>
+            <p n="a#3" xml:space="preserve">Item, wan de vorgeschreuen thwintich jaer geleden sijn, so sall <placeName>der Gothen
+        hoff</placeName> vorschreuen, deme dutschen copman van der hense erst tho bade staen, vmme
+      redelicken tijns, alse se des denne eyns werden, vnd van beiden sijden ouereindregen
+      kunnen.</p>
+            <p n="a#4" xml:space="preserve">Item dat gebuwete des haues, dat horet sanct Peter tho, vnd dem kopmanne, vnd de sollen vortt
+      dat gebuwete versorgen vnd staende holden, by des kopmans euentur.</p>
+            <p n="a#5" xml:space="preserve">Item, wan de thwintich jaer vorgeschreuen geleden sijn, willen dan die Gotten den
+      vorgeschreuen hoff suluen besitten, so sollen de Gothen darto nemen thwe Dudtschen, vnd thwe
+      Russen, vnd de kopman desgelick thwe Dudtschen, vnd thwe Russen, de sollen dat gebuwete des
+      haues schatten, vnd vorup dat den de achte dat gebuwete schatten, dar solent de Gothen deme
+      kopmanne vorschreuen dat vor betalen.</p>
+            <p n="a#6" xml:space="preserve">Weret ock sake, datt bynnen den vorschreuen thwintich jaren, jenige Gotesche koplude van dem
+      lande tho Gotlande, tho Nowgarden komen, vnd des betuchenisse bringen vnder des landes
+      ingesegell, de sollen ohre frije staent hebben vp <placeName>der Goethen houe</placeName> tho
+        <placeName>Nowgarden</placeName>.</p>
+            <p n="a#7" xml:space="preserve">Dusser vorgeschreuen sake tho merer beuestinge vnnd sekkerheitt, so hebbe ick <persName>Oleff
+        Thomasson</persName> vorgenomett, mijn ingesegell vor my, vnd myne eruen, vnd van den Gothen
+      wegen, vnd van des gantzen landes vorgenomett vullemacht, witlicken ahn dussen breff doen
+      hangen, gegeuen vnd geschreuen nha Gades gebortt vnsers leuen Herenn dusent jaer, verhundertt,
+      im vier vnd thwintigsten jare, ahn dem negesten sonnauende vor sant Vrbanus dage.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

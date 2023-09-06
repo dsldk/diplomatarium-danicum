@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">276</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14360715001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rostock</settlement>
+                        <repository>Archiv der Hansestadt Rostock</repository>
+                        <collection>empty</collection>
+                        <idno>AHR 1.1.3.10. Nr. 104</idno>
+                        <msName>"Hanseatica Korrespondenzen, 1423-1465"</msName>
+                     </msIdentifier>
+                     <physDesc>29.5 × 14.5. </physDesc>
+                     <history>
+                        <ab>Afskriften har været ledsaget af et følgebrev, som imidlertid er
+      tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. *5146</bibl>
+               <bibl>Udt. i Hanserec. II:1 nr. 602 p. 535</bibl>
+               <bibl>SDHK nr. 22609</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-07-15"
+                  notBefore="1436-07-15"
+                  notAfter="1436-07-15"
+                  cert="high">1436. 15. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern giver frit lejde til de rådsudsendinge, som de fire hansestæder
+      Lübeck, Hamburg, Lüneburg og Wismar vil sende med til Kalmar. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-15" who="#pbh">Filen etableret af #pbh 2013-11-15. </change>
+         <change when="2017-05-11" who="#smb">1. korrektur af #smb 2017-05-11. </change>
+         <change when="2017-10-30" who="#smb">2. korrektur af #smb 2017-10-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Wy <persName>Erik . van godes gnaden der rike Denemarken Sweden . Norwegen der Wende vnde
+        Gothen koningk vnde herteghe to Pomeren</persName> . bekennen vnde betůgen openbare in
+      vnde mit desseme vnseme openen breue vor alsweme dat wi ghegheuen hebben . vnde gheuen in
+      guden truwen in craft desses breues den erliken sendeboden der stede .
+        <placeName>Lubeke</placeName>
+               <placeName>Hamborg</placeName>
+               <placeName>Lunenborg</placeName> vnde <placeName>Wismer</placeName> . de de suluen stede vmme
+      vnser bede unde leue willen mede senden to deme daghe to <placeName>Calmeren</placeName> in
+      vnse erbenomede rike to Sweden een seker vnde geleyde to watere vnde to lande . ♦</p>
+            <p n="a#2">Also dat se vnde alle de yenen de se mit sik bringen to deme vorscreuenen dage mit eren
+      schepe \ haue vnde guden seker vnde velich wesen scholen \ vt wert to deme vorscreuenen daghe
+      vppe deme <damage>suluen</damage> daghe vnde wedder van dar \ bette in ere beholt . vor vns .
+      vnde alle de yenen . de vmme vnsen willen don vnde laten scholen vnde willen sunder arch .
+      ♦</p>
+            <p n="a#3">Vnde hir vmme bede wi strengeliken . alle den vnsen vnde alle den <damage>der</damage> wi
+      mechtich sin . ghestliken vnde werliken samentliken vnde eneme yeweliken besunderen . dat se
+      teghen dit vorscreuene vnse koninglike geleyde nenewys endon . bi vnser koningliken hulde vnde
+      bi vormydinge vnser koningliken wrake sunder dat se de vorscreuenen sendeboden vnde de eren
+      eren vnde vorderen to watere vnde to lande mit dem beste . wor se moghen . ♦</p>
+            <p n="a#4">Weret ok . dat de vorscreuene sendeboden mit den eren anderswor . in vnsen riken to quemen in
+      desser vtreyse unde wedder reyse . dar scholen se in vorscreuener wijse ok geleydet sin to
+      watere vnde to lande \ ♦</p>
+            <p n="a#5">Vnde desses to merer tuchnisse der warheit hebbe wi <persName>koningh Erik</persName> .
+      erbenomet vnse secrete jngezegel . willichliken henget heten vor dessen bref . de gegeuen is
+      na der bord . Christi . vnses heren verteynhundert jare . vnde dar na an deme
+      sosvndedruttegesten jare vppe den dach divisionis apostolorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

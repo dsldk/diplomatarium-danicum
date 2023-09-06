@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">321</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14170728001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK nr. 18975</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Skrevet med samme hånd som DD 1417. 10. jun., nr. 14170610001 og DD 1421. 25. nov., nr. 14211125001</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Gøø ♦ Gøø ♦</q> og m. sen. hd.: <q>desse bref ære oc
+        h<ex>er</ex> Niels Klavs<ex>øns</ex> b<ex>re</ex>f</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg. rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg. rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg. rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Jens Truedsens segl af lyst voks i perg. rem, AS D xvii 3 (Due)
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Jf. DD 1417. 6. jun., nr. 14170610001 og nr. 14170610003</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 212-13</bibl>
+               <bibl>Rep. nr. 5668 (i udtog)</bibl>
+               <bibl>Svenskt Dipl. III 266 nr. 2398</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-07-28"
+                  notBefore="1417-07-28"
+                  notAfter="1417-07-28"
+                  cert="high">1417. 28. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jon Hjerne, ridder, tillader hr. Niels Svendsen, ridder, at indløse de
+      pantsatte gårde på Gö (Listerby sogn, Medelstads herred), der var pantsatte til Kyle, i Kulla,
+      i Sandbäck og Kylinge i Gammalstorps sogn og i Rösjö og Gränum i Jämshögs sogn (Listers herred),
+      der var pantsatte til fru Katarine, enke efter Aksel Kettilsen, samt i Klagstorp og Västanå
+      (Näsums sogn, Villands herred), der var pantsatte til Svend Høg.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2017-09-01" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-09-01. </change>
+         <change when="2017-10-17" who="#mh">2. korrektur af #mh 2017-10-17. </change>
+         <change when="2017-11-07" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Alla mæn thætta breff se æll<ex>e</ex>r høra helsar iac <persName>Joon Hyærne
+        riddare</persName> ewi<ex>n</ex>nerliga m<ex>eth</ex> gwd ♦ Th<ex>æt</ex> scal alla mæn
+      viderlict wara nærwærande ok ko<ex>m</ex>ma scula<ex>n</ex>de th<ex>æt</ex> iak hawer vnt
+        <persName>h<ex>æ</ex>r Niclas Swenss<ex>øn</ex> riddare</persName> thær min dotter hawer jn
+      atløsa the gootz swaso<ex>m</ex> ær apa <placeName>Gø</placeName> j
+        <placeName>Sibbathorp</placeName> fæm gartha j <placeName>Sonathorp</placeName> iiij gartha
+      j Wætlø j gard hwilke gotz Kyla til pant stotho for tolff oc tywgho lødhugmark ♦</p>
+            <p n="a#2">Item j <placeName>Gamalstorpa sogn</placeName> j <placeName>Kulla</placeName> ij gartha
+      ♦ Item j <placeName>Sandbech</placeName> j gard m<ex>eth</ex> myllone oc myllogarthin / fæm gartha j <placeName>Kyllinge</placeName> m<ex>eth</ex> ene festo / j <placeName>Gæmsø
+        sogn</placeName> j Ryssia iij gartha / j Grænniu<ex>m</ex> j gard hwilke gotz <persName>frw
+        Kat<ex>er</ex>ine Axel Kætilss<ex>øn</ex> æfft<ex>er</ex>løwa</persName> til pant stotho for
+      tolff oc tywgho lødugm<ex>a</ex>rk ♦ Item j <placeName>Wæstana</placeName> ij gartha j
+        <placeName>Claustorp</placeName> j gard hwilke gotz <persName>Swen Høgha</persName> til pant
+      stotho for viij lødugmark</p>
+            <p n="a#3">Item sæt<ex>er</ex> iak forsagtha <persName>h<ex>æ</ex>r Nicles
+        Sve<ex>n</ex>ss<ex>øn</ex>
+               </persName> the forsagthe gotz m<ex>eth</ex> alla the gotz til
+      liggilse fra<ex>m</ex>lethes til pant for forsc<ex>re</ex>ffna pænnia sum swoso<ex>m</ex> ær
+      twa oc halfyærthæ sintywgho lødugm<ex>a</ex>rk gælda sculande pa sancto Olaffs <app>
+                  <lem>dagh</lem>
+                  <rdg wit="#A">tilføjet sidst på linien, et X markerer hvor i brevteksten ordet skal indføjes,
+          A</rdg>
+               </app> nw næst ko<ex>m</ex>ber hano<ex>m</ex> ell<ex>e</ex>r hans arwa m<ex>eth</ex> mic oc
+      mina arwa ♦</p>
+            <p n="a#4">Item wartha the gotz æy tha løst <app>
+                  <lem>apa</lem>
+                  <rdg wit="#A">
+                     <q>sancto</q> herefter slettet, A</rdg>
+               </app> forsagtha sancto Olaffs dagh / tha stande framlethes til en a<ex>n</ex>nar sancto
+      Olaffs dagh / oc løsni<ex>n</ex>gadagh scal altiidh wara sancto Olaffs dagh ♦</p>
+            <p n="a#5">Item skal forne<ex>m</ex>de <persName>h<ex>æ</ex>r Niclis Suenss<ex>øn</ex>
+               </persName> ful
+      makt hawa warnathæ j the forne<ex>m</ex>de gotz jn atsætæ oc vtatsæte æft<ex>er</ex> sin eghin
+      wilyæ oc skal opbære fruct oc langilde oc alt th<ex>æt</ex> the gotz ku<ex>n</ex>na skyldæ oc
+      engte aff sla j howitpæ<ex>n</ex>nian ♦</p>
+            <p n="a#6">Item binder iak mic til ok mina arwa forne<ex>m</ex>de <persName>h<ex>æ</ex>r Niclæs
+        Sue<ex>n</ex>ss<ex>øn</ex>
+               </persName> oc hans arwa the forsagthe gotz at frij for eet pant
+      for huars mantz til tal til thæs dags the wortha hano<ex>m</ex> laglegha aff løsda pa
+      th<ex>e</ex>n dagh so<ex>m</ex> for<ex>e</ex> star screwen ♦</p>
+            <p n="a#7">In cujus rei testimonium sigillum meum una cum sigillis virorum nobilium videlicet
+        <persName>dominorum Thrugoti Haas</persName> / <persName>Achonis
+        Nicless<ex>øn</ex>
+               </persName> et <persName>Johannis Thrwetss<ex>øn</ex> militum</persName>
+      presentibus est appensum ♦</p>
+            <p n="a#8">Datum anno domini millesimo quad[r]ingentesimo decimo septimo profesto beati Olaui regis et
+      martiris ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

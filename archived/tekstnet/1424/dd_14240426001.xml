@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">223</num>, paragraphs: <num n="paragraphs">10</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14240426001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>NKR c-2851 (tidl. Tandrup)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10.1 (plica: 1.6)</height>
+                                    <width>22.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå (senere hånd): <q>Iet skodhebr<ex>e</ex>ff mello<ex>m</ex> Bo Høg oc
+        And<ex>er</ex>s Frost</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afleveret fra Oldnordisk Museum</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6098</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 20</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-04-26"
+                  notBefore="1424-04-26"
+                  notAfter="1424-04-26"
+                  cert="high">1424. 26. april</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Bo (Kristiansen) Høg og Anders Frøst (Høg) erklærer, at de har foretaget et skifte med deres broder Lave
+      Rød (Høg) efter deres far Kristian Høg, således at Lave Rød får flg. gods: gården Tandrup, en
+      fæstegård i Bedsted, hvor Jes Degn bor, en øde fæstegård i Spangsbjerg og et gods i Hørdum,
+      hvor Anders Nielsen bor.</ab>
+            <ab>Bo Høg og Anders Frøst får til gengæld det gods, som deres åbne breve udviser, og de tre
+      brødre lader hinanden kvit.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-17" who="#pbh">Filen etableret af #pbh 2014-06-17. </change>
+         <change when="99999999" who="#jon">1. korrektur af #jon 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn th<ex>et</ex>tæ breeff see æll<ex>e</ex>r høræ sændæ wi <persName>Boo
+        Høgh</persName>
+      <app><lem>et</lem><rdg wit="#A">Her står den tironiske note, der betegner det latinske <q>et</q> (= og),
+          A</rdg></app>
+      <persName>Andærs Frøst</persName> ewi<ex>n</ex>næligh hielsæn m<ex>eth</ex> waræ
+      h<ex>e</ex>rræ ♦</p>
+            <p n="a#2" xml:space="preserve">Oc kungiørindæ allæ mænd at vndær wars hærr<ex>æ</ex> aar m cd xxiiij apo thæn wothæns dagh j
+      paaschæ wgæ thæ sadæ wj øwær eth winligh scyft m<ex>eth</ex> th<ex>e</ex>nnæ nærwærindæ
+      breffør <persName>Lawæ Røth</persName> war kær<ex>e</ex> broth<ex>e</ex>r om goæz wos apa
+      komæn ær æftær wars fathærs døth <persName>Kræstiærn Høgh</persName> til arwf hwæs siæl gwth
+      hawæ ♦</p>
+            <p n="a#3" xml:space="preserve">J swodan madæ at for<hi rend="sup">de</hi>
+      <persName>Lawæ Røth</persName> scal hawæ <placeName>Ta<ex>n</ex>drop gaard</placeName>
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Item eth lanbo sædæ j <placeName>Bilzst<ex>et</ex></placeName> j hwilkæ <persName>Jæssæ
+        Diækæn</persName> nv j boær ♦</p>
+            <p n="a#5" xml:space="preserve">Item eth ødhæ lanbo sædæ j <placeName><app><lem>Spangbiærgh</lem><rdg wit="#A"><q>r</q> tilføjet over linjen, A</rdg></app></placeName> ♦</p>
+            <p n="a#6" xml:space="preserve">Item j <placeName>Hyrdhom</placeName> eth goæs <persName>A<ex>n</ex>dærs
+        Niælss<ex>øn</ex></persName> apo boær ♦</p>
+            <p n="a#7" xml:space="preserve">M<ex>eth</ex> alt th<ex>et</ex> foærnæfndæ gaard oc goæzsæs til lythæls agær oc ængh woæth oc
+      thyrth jntæ vndæn tagæn scal for<hi rend="sup">dæ</hi>
+      <persName>Lawæ Røth</persName> hawæ j sin deld til ewi<ex>n</ex>næligh eyæls j mod goæz
+      thær<ex>e</ex> for<hi rend="sup">de</hi>
+      <persName>Boo Høgh</persName> oc <persName>And<ex>e</ex>rs Frøst</persName> fingæ til
+      thær<ex>e</ex> deld hwær thær<ex>e</ex> j sind stæt som thær<ex>e</ex> opæn brewæ vdwisær thæ
+      thæræ ær giørdhæ aponæ ♦ </p>
+            <p n="a#8" xml:space="preserve">Item ladæ wj hwær a<ex>n</ex>næn quith oc aldelæs aarsagæ for<ex>e</ex> alt th<ex>et</ex>
+      goæs oc scyft wj j mællom wos hawæ ællær hawæ haft t<ex>i</ex>l thænnæ dagh ♦</p>
+            <p n="a#9" xml:space="preserve">Til hwes wi<ex>n</ex>næsbyrd wj wart jngcelgh m<ex>eth</ex> a<ex>n</ex>dræ gothæ mænz jngcegl
+      som ær h<ex>er</ex>ræ <persName>Pæth<ex>e</ex>r</persName> af <placeName>Wisby</placeName>
+      præst oc <persName>Jæssæ Nist</persName> wæbnær thær<ex>e</ex> for<ex>e</ex> th<ex>et</ex>tæ
+      breff ær hænd ♦</p>
+            <p n="a#10" xml:space="preserve">Giw<ex>et</ex> aar <app><lem>dagh</lem><rdg wit="#A">Herefter slettet <q>oc</q>, A</rdg></app> som for<ex>e</ex> ær scræwan ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

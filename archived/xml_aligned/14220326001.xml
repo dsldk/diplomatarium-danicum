@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">238</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14220326001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>or. perg. RA 0101, SDHK-nr. 19833</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. <ab>Vandskadet. Højre hjørne foroven er afrevet med tab af tekst til følge. Tekst suppleret efter Aa</ab>
+                        <ab>På bagsiden: <q>Anniversarium Petri Swortekop cum
+                        uxore</q>
+                        </ab>1. seglsnit. 2. seglsnit. 3. seglsnit. 4. perg.rem. 5. seglsnit. 6. seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Registrum ecclesie Lundensis, Lundebogen s. 101</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Overskrift: <q>Super una taberna Lundis in parrhochia beate
+                                virginis minoris pro anniversario Petri Swartekop et uxoris
+                        sue</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Individuelle samlinger af blandet indhold</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium 25: XIV A 25 </msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Overskrift: <q>Super una taberna Lundis, in parochia beate virginis
+                                minoris, pro anniversario Petri Swartekoop et uxoris sue</q>. I
+                        marg.: <q>Ex registro memb. Eccl. Lund litt. J p. 101</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. III 5965</bibl>
+               <bibl>SDHK nr. 19833</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-03-26"
+                  notBefore="1422-03-26"
+                  notAfter="1422-03-26"
+                  cert="high">1422. 26. marts</date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder Guldsmed kaldet Svartekop, borger i Lund, skænker med sin hustru Inges
+                        samtykke en grund med bygning nær Boleboda mod nord i Lille sankt Marie sogn
+                        i Lund til domkapitet i Lund, mod at hans og hans hustrus årtid holdes med
+                        messer og vigilier i domkirken. Giverne bevarer dispositionsretten over
+                        ejendommen til deres død og forpligter sig til at vedligeholde den. I
+                        tilfælde af den enes død skal den overlevende betale tre skånske mark i
+                        afgift af den. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
+         <change when="2018-11-09" who="#pz">1. korrektur af #pz 2018-11-09. </change>
+         <change when="2018-12-18" who="#mh">2. korrektur af #mh 2018-12-18. </change>
+         <change when="2019-02-26" who="#pz">3. korrektur af #pz 2019-02-26. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus . <persName>Petrus aurifaber dictus Swortekopp
+                                civis Lundensis</persName> . salutem <damage>in domino sempiternam
+                                .</damage> ♦</p>
+            <p n="a#2" xml:space="preserve"><damage>Notum facio universis</damage>
+                        presentibus et futuris me ex matura <app><lem>deliberacione</lem><rdg>A: <q>voluntate</q> Aa</rdg></app> . accedentibus ad hoc <damage>volunta</damage>te et consensu
+                                <persName>Inghye</persName> . dilecte <damage>consortis mee quendam
+                                fundum in <app><lem>parrochia</lem><rdg>Aa Aa1</rdg></app></damage>
+                        habitacionis mee prope <placeName>Bolæbode</placeName> . ad aquilonem in
+                                <placeName>parrochia ecclesie beate virginis minoris</placeName><placeName><app><lem>Lundis</lem><rdg>mgl. Aa</rdg></app></placeName> situm . tredecim uln<damage>as in longitudine et
+                                decem ulnas in</damage> latitudine habentem . unacum erecta in eo
+                                <damage>d</damage>omo dicta gadehwss . in remedium animarum mee <app><lem>ac</lem><rdg>A: <q>et</q> Aa Aa1</rdg></app> ejusdem uxoris <damage>mee ad venerabile capitulum ecclesie</damage>
+                        Lundensis . in placito et communi audiencia civium Lundensium donasse ac
+                        scotasse <app><lem>perpetuo</lem><rdg>A: <q>perpetue</q> Aa Aa1</rdg></app> possidendum sub condicionibus infrascript<damage>is ut
+                                anniver</damage>s<damage>arium</damage> me<damage>um</damage><app><lem>ac</lem><rdg>A: <q>et</q> Aa</rdg></app> uxoris mee predicte semel singulis annis in summo choro ejusdem
+                        Lundensis ecclesie cum missa . et vigiliis teneatur pro pensione
+                                ex<damage>in</damage>de <damage>pro</damage>veniente taliter
+                        dividenda ♦</p>
+            <p n="a#3" xml:space="preserve">Primo canonici qui presentes fuerint medietatem habebunt ♦ <app><lem>Altera</lem><rdg>A: <q>Al</q> (overstreget) <q>Altera</q> Aa; <q>Ac altera</q>
+                                        Aa1</rdg></app> medietas in tres partes equaliter dividatur quarum primam habebunt
+                        vicarii in choro tunc presentes aliam missas inferius celebrantes tercia
+                        vero Christi pauperibus erogetur de quibus omnibus una ora pro pulsantibus
+                        deducatur ♦</p>
+            <p n="a#4" xml:space="preserve">Unde obligo me et heredes meos predicto capitulo Lundensi
+                        ad dictum fundum appropriandum liberandum ac disbrigandam ab alloqucionibus
+                        et impeticionibus quorumcumque ♦</p>
+            <p n="a#5" xml:space="preserve">Insuper ego et uxor mea predicta
+                        memoratum fundum ad dies nostros sub ordinacione nostra tenebimus in
+                        structuris competentibus <damage>nostr</damage>is propriis sumptibus
+                        conservandum ♦</p>
+            <p n="a#6" xml:space="preserve">Altero vero nostrum decedente superstes dabit exinde
+                        tres marchas Scanienses singulis annis loco pensionis ♦</p>
+            <p n="a#7" xml:space="preserve">Nobis autem
+                        ambobus de medio sublatis prefatus fundus cum edificiis prout tunc inventus
+                        fuerit ad ordinacionem dicti venerabilis capituli libere cedat sub
+                        condicionibus <app><lem>suprascriptis</lem><rdg>A: <q>infrascriptis</q> Aa Aa1</rdg></app> ♦</p>
+            <p n="a#8" xml:space="preserve">In quorum evidenciam sigillum meum <app><lem>unacum</lem><rdg>A: <q>cum</q> Aa Aa1</rdg></app> sigillis discretorum virorum videlicet <persName>Magni Baad prefecti
+                                Lundensis</persName> . <persName>Johannis Belekow</persName> .
+                                <persName>Laurencii Nielss<ex>øn</ex></persName>, proconsulum
+                                <persName>Twonis Petherss<ex>øn</ex></persName> et
+                                <persName>Benedicti Jenss<ex>øn</ex></persName> consulum <app><lem>Lundensium</lem><rdg>mgl. Aa</rdg></app> presentibus est appensum ♦</p>
+            <p n="a#9" xml:space="preserve">Datum et actum Lundis anno domini
+                        mcdxx secundo feria quinta post dominicam letare.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

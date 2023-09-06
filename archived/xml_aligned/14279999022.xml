@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="fgj">
+                  <persName>
+                     <forename>Finn Gredal</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270000022</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Det Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret to steder i København. Rigsarkivet. De ældste arkivregistraturer: a) Åkærske reg. A (1591),  upag., nr. 376 (senere nummerering), med overskriften <q>Disse effter<hi rend="sup">ne</hi> breffue findis vdj ett langtt schrind bechend</q> (!) <q>capsa tertia, T</q>, fulgt af overskriften <q>Hattz herritt</q>; b) Åkærske reg. B (1611), upag., med overskriften <q>Effter<hi rend="sup">ne</hi> breffue findes i ett lanngt schrin, noterit Hadtzherrit inden becken, capsa tertia T</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 146 nr. B. 289 (b)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter reg.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427" notBefore="1427" notAfter="1439" cert="low">1427 el. 1439<note>I dette tilfælde er variansen mellem de to versioner af Åkærske reg. så betydelig, at ordlyden fra begge udgives in extenso. Dateringerne i de to versioner er indbyrdes modstridende, og det kan ikke afgøres, hvilket år der er det rigtige</note>
+            </date>
+            <placeName cert="high">Hads herredsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Et tingsvidne af Hads herredsting om, at Natved og Natved mark upåtalt og ukæret i 60 år har hørt til Århus stift. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-24" who="#pbh">Filen etableret af #pbh 2014-07-24. </change>
+         <change when="2019-04-04" who="#fgj">Kladde: 1. korrektur #fgj 2019-04-04. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve"><hi rend="italic">a):</hi></p>
+            <p n="a#2" xml:space="preserve">Ett pergamenthes thingsuinnde aff <placeName>Hattzh<ex>er</ex>rittz thing</placeName>, att <placeName>Natued</placeName> och <placeName>Natuedt march</placeName> haff<ex>u</ex>e verritt thill <placeName>Aarhus</placeName> stig vlast och vkierdt y 60 aar ♦</p>
+            <p n="a#3" xml:space="preserve"> Anno 1439. ♦</p>
+            <p n="a#4" xml:space="preserve"><hi rend="italic">b):</hi></p>
+            <p n="a#5" xml:space="preserve">Et pergamendztingsuinde aff <placeName>Hadtzherritztingh</placeName> at <placeName>Natuid</placeName> och <placeName>Natuid marck</placeName> haffuer weret till <placeName>Aarhus</placeName> stigt ♦</p>
+            <p n="a#6" xml:space="preserve">1427. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

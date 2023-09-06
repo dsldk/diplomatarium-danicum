@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">738</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14150424001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Registrum ecclesie Lundensis, Lundebogen s. 202</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>overskrift: Fundacio et dotacio altaris corporis Christi per dominum Folquinum prepositum Lundensem</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. III 5513 (jf. 5199, 1423 Juli 19)</bibl>
+               <bibl>Svenskt Dipl. III 23</bibl>
+               <bibl>Udtog af M. Matthiæ, Episc. Lund. 176</bibl>
+               <bibl>Hvitfeld, Bispekrøn. Bl. Xiij, Fol. 82</bibl>
+               <bibl>SDHK nr. 18520</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-04-24"
+                  notBefore="1415-04-24"
+                  notAfter="1415-04-24"
+                  cert="high">1415. 24. april</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Folkvin, provst i Lund, skænker gårde i Håstenslöv, Virke, Nöbbelöv, Arlöv, Lund og Malmø, samt boder i Falsterbo, Skanør og Lund til det af ham indstiftede Kristi legemes alter i domkirken i Lund mod afholdelse af en række årlige messer. Som forstander for alteret udpeges Vinold Jensen Brokman. Efter dennes død ligger retten til at udpege forstandere hos domkapitlet, dog skal medlemmer af Folkvins slægt have forrang. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-03" who="#pbh">Filen etableret af #pbh 2014-03-03. </change>
+         <change when="2018-08-21" who="#pz">1. korrektur af #pz 2018-08-21. </change>
+         <change when="2018-09-11" who="#mh">2. korrektur af #mh 2018-09-11. </change>
+         <change when="2018-10-24" who="#pz">3. korrektur af #pz 2018-10-24. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In nomine sancte et individue trinitatis amen . ♦</p>
+            <p n="a#2" xml:space="preserve">Notum sit omnibus quod ego <persName>Folquinus presbiter . Dei servorum minister Lundensis ecclesie prepositus</persName> licet indignus . mente et corpore sanus . benedictus Deus . ne repentina et improvisa mortis amaritudine intellectum meum impediat et obscuret . quod absit . et quod jam me fecisse delector . amplius cum suspiriis defleam non fecisse . altare quoddam in gradibus medii et summi chori ejusdem Lundensis ecclesie ad aquilonem . matura mecum deliberacione prehabita et requisito consensu reverendi in Christo patris ac domini . domini <persName>Jacobi Dei gracia archiepiscopi Lundensis</persName> Svecie primatis et apostolice sedis legati . de bonis mihi a Deo collatis in laudem et gloriam corporis Christi . gloriose virginis Marie . sancti Thome apostoli sanctarum viduarum Birgitte et Elisabeth lantgravie et omnium sanctorum Dei . construi et erigi per me feceram dotandum et ad dies meos . in missis . ornamentis ac aliis necessariis providendum ♦</p>
+            <p n="a#3" xml:space="preserve">In primis igitur do . et confero seu per presentes scoto ad altare prenotatum . quandam curiam meam in <placeName>Hostasloff</placeName> in qua quondam <persName>Magnus Jacobi</persName> resedit nunc vero quedam <persName>Yngyærd</persName> relicta ejus que dat pro pensione tria pund ordei cum viginti modiis <app><lem>avene</lem><rdg>herefter slettet: <q>item unam curiam principalem in Arsløff de qua dabatur marcha annone</q></rdg></app> item in <placeName>Wirkye</placeName> unam curiam in qua quidam <persName>Martinus</persName> pronunc residet que dat pro pensione duo pund ordei cum decem modiis avene item unam curiam principalem in <placeName>Nybøle</placeName> prope <placeName>Lundis</placeName> <app><lem>in</lem><rdg>herefter slettet: <q>Thornehust</q></rdg></app> <placeName>Thornæheret</placeName> de qua dabuntur sex solidi annone cum xix modiis avene item unam curiam principalem in <placeName>Arløff</placeName> de qua dabatur marcha annone . nunc quatuor pund cum xx modiis avene . item duas tabernas institorum in <placeName>Falsterbothe</placeName> . que dant pro pensione quatuor marchas argenti . item unam tabernam institutorum in <placeName>Skanør</placeName> <app><lem>in</lem><rdg>herefter slettet lodret streg</rdg></app> <placeName>Transtrædhe</placeName> . de qua dabantur quatuor <app><lem>marche</lem><rdg>delvis ulæseligt pga. hul i pergamentet</rdg></app> argenti . item tres tabernas Lundis in parrochia ecclesie minoris beate virginis . ad austrum situatas . item curiam cujusdam <persName>Hinze Plaatz</persName> in parrochia beati Clementis sitam . cujus curie partem pro promta pecunia ab ipso <app><lem>Hinze</lem><rdg>herefter slettet: <q>B</q></rdg></app> Plaatz emi tali condicione . quod illis viventibus . cedat dicta curia pro eorum commodis et utilitatibus . libere ordinanda . dictis vero <persName>Hinzechino</persName> et <persName>Geese</persName> consorte sua de medio sublatis . in remedium animarum suarum . cedat tota curia predicta altari corporis Christi antedicto . prout in scotacione ipsius curie . <app><lem>facta</lem><rdg>før <q>facta</q> fejlskrevet: <q>fetam</q></rdg></app> in presencia reverendissimi patris ac domini domini <persName>Petri archielecti protunc . nunc vero Lundensis archiepiscopi</persName> . plenius et lucidius continetur . item quandam curiam in parrochia sancti Martini Lundis cum domo lapidea . pomerio . et ceteris aliis ejusdem adjacenciis curie pro residencia persone altaris supradicti . ♦ Item do et confero ad idem altare . curiam meam in <placeName>Malmøø</placeName> domui fratrum minorum contiguam . ad occidentem . cum domo lapidea et omnibus aliis ejusdem curie pertinenciis . sub modo et condicionibus infrascriptis . videlicet quod quolibet festo anni . de ipso festo . missa in dicto altare celebretur que vero festa non sunt de infrascriptis sanctis missa vel saltem memoria habeatur scilicet . die dominica de sancta trinitate vel de ipsa dominica . die lune . alternatim de angelis et pro defunctis . die martis . vicissim de sancto spiritu et de sancto Thoma apostolo . die Mercurii . vicissim de sancto Nicolao et de sancta Birgitta . <app><lem>die</lem><rdg>før <q>die</q> slettet: <q>dei</q></rdg></app> Jovis de corpore Christi sollempniter cum nota die veneris vicissim de sancta cruce et de sancta Elisabeth lantgravia . die saturni . de domina vicissim et de omnibus sanctis . interposita semper penultima collecta pro defunctis pro anima mea et parentum meorum . in perpetuum celebrentur . usufructu tamen et libera ordinacione omnium bonorum supradictorum cum jure presentandi personas ydoneas ad dictum altare . unam post aliam si necesse fuerit . quoad vixero mihi omnimode reservatis . hoc proviso . quod sacerdotem dictum altare officiantem . scolaresque cantantes et administrantes ipsi misse corporis Christi et antiphone Melchisedech . omni die Jovis sollempniter et tonaliter celebrande et cantande . pro suis laboribus remunerare me obligo per presentes . ♦</p>
+            <p n="a#4" xml:space="preserve">Personam vero ad dictum altare corporis Christi obtinendum . pro nunc instituo et presento . personam ydoneam . dominum <persName>Winoldum Johannis dictum Brochman</persName> . cognatum meum dilectum quem ut spero . sciencia vita et moribus . faciat Deus dignum . post mortem vero meam et ipsius domini Winoldi . venerabiles domini . prelati Lundensis capituli quicunque pro tempore fuerint . jus presentandi personam ydoneam ad dictum altare . et tuicionem ipsius altaris libere habeant . hac addita condicione . quod quamdiu ex liberis fratris mei dilecti . <persName>Gynteri Bukhorn</persName> . <app><lem>aut</lem><rdg>Aa: <q>ac</q> Svenskt Diplomatarium</rdg></app> ex liberis <persName>Ernasti Budde</persName> jam genitis et nepta mea <persName>Cecilia Ienis dather</persName> pie memorie procreatis . dignus et habilis clericus inventus fuerit . aut aliquis alius ex paterna vel materna consanguinitatis linea mihi propinquus . dummodo habilis ut prefertur . in exsequcione et collacione hujus beneficii et altaris . sit omnibus aliis preferendus . ita tamen . quod ipsa persona altaris sive vicarius . habeat potestatem levandi de bonis ipsi altari attinentibus . fructus . redditus . pensiones . ceterasque obvenciones . pro suis usibus libere ordinandos ita tamen . quod de bonis immobilibus . edificiis seu estimacionibus . absque domini  <app><lem>archiepiscopi</lem><rdg>herefter slettet lodret streg</rdg></app> Lundensis et suorum successorum auctoritate . nichil alienet penitus . nec commutet ♦</p>
+            <p n="a#5" xml:space="preserve">In cujus rei testimonium . sigillum meum una cum sigillis venerabilium dominorum et virorum . videlicet . domini <persName>Jacobi abbatis monasterii omnium sanctorum prope Lundis</persName> . domini <persName>Johannis Trugoti militis de Swensthorp</persName> . fratris <persName>Hartwici prioris claustri predicatorum Lundis</persName> <persName>Ernasti Budde consulis et prioris monialium sancti Petri</persName> ibidem . <persName>Jone Anderssøn</persName> <app><lem>provisoris</lem><rdg>Svenskt Diplomatarium: <q>provisore</q> Aa</rdg></app> domus sancti spiritus . <persName>Johannis Belkow consulis Lundensis</persName> . in majorem cautelam presentibus est appensum . ♦</p>
+            <p n="a#6" xml:space="preserve">Datum anno Domini mcdxv . crastinus Georgii martiris
+    </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

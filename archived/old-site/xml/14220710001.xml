@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">898</num>, paragraphs: <num n="paragraphs">10</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14220710001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2784-b (Skotland 9)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>21.3 (plica: 3.2)</height>
+                                    <width>30.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskrift m. sen. hd.: <q>Item bisc<ex>op</ex> Thomes aff Orknøy
+        br<ex>e</ex>ff vm Kirkwaw slot j Orknøy oc vm landet oc gr<ex>e</ex>ueschapet th<ex>e</ex>r
+        sa<ex>m</ex>mestads</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af rødt i ufarvet voks i perg.rem tilhørende Nicholas de
+        Tulloch</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Segl af rødt i ufarvet voks i perg.rem tilhørende Thomas de Tulloch, biskop på
+        Orkneyøerne</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl af rødt i ufarvet voks i perg.rem tilhørende John
+        Folerton</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 194-97</bibl>
+               <bibl>Reg. 3370*</bibl>
+               <bibl>Hvitfeld IV 311, fol. 686</bibl>
+               <bibl>Dipl. Norv. II 498-500 nr. 670</bibl>
+               <bibl>Brudst. i Barthold, Geschichte v. Rügen u. Pommern IV 1. s. 51</bibl>
+               <bibl>Smlgn. Hvitfeld IV 159, fol. 908-09</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-07-10"
+                  notBefore="1422-07-10"
+                  notAfter="1422-07-10"
+                  cert="high">1422. 10. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Thomas de Tulloch, biskop på Orkneyøerne, har af kong Erik 7. af Pommern modtaget Kirkevåg
+      slot på Orkneyøerne og grevskabet samme sted til len, hvilke han på kongens forlangende skal give tilbage
+      til denne. I tilfælde af kongens død skal slot og grevskab overlades til dronning Filippa
+      eller hertug Bugislav af Pommern. Såfremt disse er døde, og kongen ikke efterlader nogen
+      mandlig arving, skal Thomas de Tulloch på vegne af Norges krone overdrage disse til kongens
+      nærmeste fædrene frænde, som bliver kåret til konge i de tre riger.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
+         <change when="2018-11-07" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-11-07. </change>
+         <change when="2020-05-10" who="#smb">2. korrektur af #smb 2020-05-10. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wy Thomas de Tolach / meth guthts nathe biscop j <placeName>Orknøy</placeName> / gøre
+      witerlicht oc kennes m<ex>eth</ex> th<ex>et</ex>te wort opne b<ex>re</ex>ff / for alle the nw
+      ær<ex>e</ex> oc komme<ex>n</ex>de worthe at wi aff høyghbore<ex>n</ex> herre oc første /
+      h<ex>er</ex> Eric m<ex>eth</ex> guths nathe / Danmarcs / Swerig<ex>es</ex> Norghes Wendes oc
+      Gotes konu<ex>n</ex>g / oc h<ex>er</ex>tuch j Pomere<ex>n</ex> wor nathighe
+      h<ex>er</ex>r<ex>e</ex> / j tro anamet oc vntfangit haue / th<ex>et</ex> slot oc fæste
+        <placeName>Kirkqwaw</placeName> . liggende j <placeName>Orknøy</placeName> j
+        <placeName>Norghe</placeName> meth landet Orknøy oc greuescapit th<ex>e</ex>r same stadhs /
+      eke for pant eller skyld ell<ex>e</ex>r scadhegeld / oc j enge andre made wten pa ræt godh tro
+      oc slotloue<ex>n</ex> som en tro man bør at aname slot oc fæste . land ok lææn aff sin rætte
+      herr<ex>e</ex> meth swo dane schiell oc wilkor / at wy . scule thet same slot oc fæste j alle
+      made bygge oc bæthre / oc holde th<ex>e</ex>m som j th<ex>et</ex> forscriffne land / bygge ok
+      bo with lagh oc ræt fridh oc schiell efft<ex>er</ex> wor yderste macht / oc th<ex>e</ex>m j
+      enge made vforrætte swo som wy wele wær<ex>e</ex> bekend fore gudh / ok swo fore for<hi rend="sup">de</hi> wor . nathighe h<ex>er</ex>re . konu<ex>n</ex>g Erik ♦</p>
+            <p n="a#2" xml:space="preserve">Ok wele wi ok scule the for<hi rend="sup">de</hi> slot oc fæste / oc land frij oc vbeworne
+      ige<ex>n</ex> antworthe for<hi rend="sup">de</hi> wor nathighe herre konu<ex>n</ex>g Eric . ee
+      naar han thøm aff oss kræuer ok ige<ex>n</ex> haue wil ♦</p>
+            <p n="a#3" xml:space="preserve">Jtem schedhe thet ok swo huilkit gudh forbiudhe at for<hi rend="sup">de</hi> wor nathighe
+      h<ex>er</ex>re konu<ex>n</ex>g Eric affginge ok døthe før æn han thet for<hi rend="sup">de</hi> slot oc fæste oc land aff oss ige<ex>n</ex> kræuer anamer / tha wele wi ok scule
+      thet for<hi rend="sup">de</hi> slot oc fæste oc land antworthe wor nathighe fruwe
+        <persName>drotning Philippe</persName> so<ex>m</ex> nw er drotni<ex>n</ex>g j
+      Da<ex>n</ex>m<ex>a</ex>rc Swerighe oc Norghe etcetera til tro hand vppa for<hi rend="sup">de</hi> wor nathighe h<ex>er</ex>res konung Eriks fath<ex>e</ex>rbrotherssøns
+        <persName>h<ex>er</ex>tuch Buggislaffs</persName> aff Pomere<ex>n</ex> weyne wte<ex>n</ex>
+      alt hinder ell<ex>e</ex>r nogher lengre tøffring ee naar hwn th<ex>e</ex>m aff . oss . tha
+      kræuer ok ige<ex>n</ex> haue will / ♦</p>
+            <p n="a#4" xml:space="preserve">Jtem schedhe th<ex>et</ex> swo th<ex>et</ex> gudh forbiudhe / at for<hi rend="sup">de</hi>
+      wor nathighe herre ok fruwe / koning Eric oc drotni<ex>n</ex>g Philippa bothe affginge oc
+      døthe før æn nogher there th<ex>et</ex> same slot oc fæste ok land/ aff oss kraffdhe / ok
+      ige<ex>n</ex> anamedhe tha wele wi ok scule th<ex>et</ex> for<hi rend="sup">de</hi> slot oc
+      fæste . Kirkqwaw ./ oc landit Orknøy igen fange / oc til godhe r<ex>e</ex>the antworthe
+      forneffnde wor nathighe herres konu<ex>n</ex>g Eriks fath<ex>e</ex>rbrothers søn for<hi rend="sup">de</hi> h<ex>er</ex>tuch Buggislaff aff Pomere<ex>n</ex> ee naar han
+      th<ex>e</ex>m aff oss kræuer oc haffue will wte<ex>n</ex> alt hinder ell<ex>e</ex>r nogher
+      lengre tøffring ♦</p>
+            <p n="a#5" xml:space="preserve">Jtem schedhe th<ex>et</ex> swo th<ex>et</ex> gudh forbiudhe at for<hi rend="sup">de</hi> wor
+      nathighe herre oc fruwe konu<ex>n</ex>g Eric oc drotni<ex>n</ex>g Philippa oc for<hi rend="sup">de</hi> wor nathighe herres konu<ex>n</ex>g Erics
+      fath<ex>e</ex>rbroth<ex>e</ex>rssøn for<hi rend="sup">de</hi> h<ex>er</ex>tuch Buggislaff aff
+      Pome<ex>re</ex>n affginge oc døthe før æn nogher there th<ex>et</ex> same slot oc fæste ok
+      land ige<ex>n</ex> aff oss kræuer oc anamer som for<ex>e</ex>scr<ex>e</ex>uit staar / tha wele
+      wi ok scule / for<hi rend="sup">de</hi> slot oc fæste oc land frij ok vbeworne antwordhe vppa
+      rikens oc kronene oc konu<ex>n</ex>gedømens weyne j Norghe / th<ex>e</ex>n aff for<hi rend="sup">de</hi> myn nathighe herres konu<ex>n</ex>g Erics fæthernes frender aff the som
+      gripen føre / huilkin som effter there døth rettelighe ok eendrachtelighe kore<ex>n</ex> oc
+      vtwalder worther til konu<ex>n</ex>g ok / herre ouer thisse forneffnde thry rike
+      Danm<ex>a</ex>rk Swerighe oc Norghe aff mestedelen aff thisse for<hi rend="sup">de</hi> thry
+      rikes radh ee naar han th<ex>et</ex> aff mik kræuer eller haue wil wte<ex>n</ex> nokit hinder
+      eller nogher lengre tøffring / ♦</p>
+            <p n="a#6" xml:space="preserve">Men scheer th<ex>et</ex> swo th<ex>et</ex> wor herre vnne / ok gyffue at for<hi rend="sup">de</hi> wor nathighe herr<ex>e</ex> konu<ex>n</ex>g Erik echte søn effter sik leuende lader
+      / hano<ex>m</ex> wele wi ok scule / th<ex>et</ex> same slot ok fæste ok land til ha<ex>n</ex>d
+      holde oc hano<ex>m</ex> th<ex>et</ex> friit oc vbeworet antworthe genist effter for<hi rend="sup">de</hi> wor nathighe h<ex>er</ex>res konu<ex>n</ex>g Eriks døth ee naar han
+      th<ex>et</ex> kræuer oc ige<ex>n</ex> haffue will wte<ex>n</ex> noket hinder ell<ex>e</ex>r
+      lengre tøfring ell<ex>e</ex>r hielperædhe . ♦</p>
+            <p n="a#7" xml:space="preserve">Jtem naar for<hi rend="sup">de</hi> slot oc fæste / oc land ige<ex>n</ex> scule antworthes /
+      tha scule the ige<ex>n</ex> antworthes frij oc vbeworne / oc wte<ex>n</ex> all skyld
+      ell<ex>e</ex>r scadhegeld / oc wte<ex>n</ex> alt hinder eller lengre tøffring / oc
+      wte<ex>n</ex> all hielperædhe entich meth kirkeræt ell<ex>e</ex>r wærilds ræt oc wte<ex>n</ex>
+      alt archt . ♦</p>
+            <p n="a#8" xml:space="preserve">Thisse forscriffne stucke ok artikle / alle oc hwer serdel<ex>es</ex> with sik stadhughe
+      faste ok vbrøthelike at holde j alle made som for<ex>e</ex>scr<ex>e</ex>uit staar loue wi
+      forneffnde biscop Thomas / ok wi Nicolaus de Tolach oc Johannes de Folerton awapn alle
+      tilsamme<ex>n</ex> meth een sampnith hand with<ex>e</ex>r wor gothe tro ok sanne<ex>n</ex>de /
+      ok wte<ex>n</ex> all skyld ell<ex>e</ex>r scadhegeld oc wte<ex>n</ex> alt hinder
+      ell<ex>e</ex>r lengre tøffring ok wte<ex>n</ex> alt archt for<hi rend="sup">de</hi> wor
+      nathighe herre ok fruwe konu<ex>n</ex>g Erik ok drotni<ex>n</ex>g Philippe / oc there echte
+      søn vm gudh will at the nokin fange / ok leuende effter sik lade ok forneffnde
+      h<ex>er</ex>tuch Buggislaff aff Pomere<ex>n</ex> ell<ex>e</ex>r aff for<hi rend="sup">de</hi>
+      wor nathighe herris fæth<ex>e</ex>rnes frender som rettelighe oc endrachtelighe kore<ex>n</ex>
+      oc vtwalder worther til konu<ex>n</ex>g oc h<ex>er</ex>re ouer Da<ex>n</ex>m<ex>a</ex>rc ok
+      Swe<ex>r</ex>ighe ok Norghe aff mestedelen aff rikenes radh aff thisse for<hi rend="sup">de</hi> thry rike . ♦</p>
+            <p n="a#9" xml:space="preserve">Ok til høyere bewaring oc wissen h<ex>er</ex> vm / tha haue wi fornefnde <persName>biscop
+        Thomas de Tolach</persName>
+      <persName>Nicolaus de Tolach</persName> oc <persName>Johannes de Folerton</persName> awapn
+      meth wilie oc witscap ladit wore incigle / hengis fore thette breff ♦</p>
+            <p n="a#10" xml:space="preserve">Datum anno domini millesimocdxxsecundo mensis Julii die decima \ ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">172</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14351009001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>Additamenta</collection>
+                        <idno>51, fol., f. 61r-61v</idno>
+                        <msName>Æbelholtbogen</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Afskrift fra o. 1460</ab>
+                        <ab>Afskriften har overskriften <q>Littera super curiam nostram in
+      Haffnis</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>Additamenta</collection>
+                        <idno>51, fol., f. 75r-75v</idno>
+                        <msName>Æbelholtbogen</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Afskrift fra o. 1520</ab>
+                        <ab>Afskriften har overskriften <q>Littera super curiam nostram in
+      Haffnia</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. 3576*</bibl>
+               <bibl>SRD VI 178</bibl>
+               <bibl>Københavns Dipl. II 64 nr. 50</bibl>
+               <bibl>Æbelholt Klosters Brevbog 320-322 nr. 86 (Aa) og 376-378 nr. 105 (Ab)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435-10-09"
+                  notBefore="1435-10-09"
+                  notAfter="1435-10-09"
+                  cert="high">1435. 9. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Klementsen, dekan i København, bekræfter et mageskifte mellem Æbelholt Kloster og Vor
+      Frue kirke i København. Kapitlet i København får af Æbelholt Kloster en gård i St. Peders sogn
+      nord for byens rende og syd for hr. Peder Gammels gård, mod at Æbelholt Kloster får en gård i
+      Buddinge, der årligt yder to pund korn i afgift. Denne gård skal Vor Frue kirke dog have
+      tilbage i evig besiddelse. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-08" who="#pbh">Filen etableret af #pbh 2013-11-08. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-08-18" who="#alk">2. korrektur af #alk 2017-08-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Johannes Clementis</persName>
+               <placeName>decanus Haffnensis</placeName>
+               <placeName>totumque capitulum ibidem</placeName> salutem in domino ♦</p>
+            <p n="a#2">Constare volumus universis presentibus et futuris nos ex unamini consensu cum honorabilibus
+      viris domino <persName>Johanne Andree</persName>
+               <placeName>abbate totoque conventu monasterii sancti Willelmi de Paraclito in <app>
+                     <lem>Ebbleholt</lem>
+                     <rdg wit="#Ab">
+                        <q>Ebbelholt</q>, Ab</rdg>
+                  </app>
+               </placeName> quandam permutationem bonorum certis suadentibus causis amicabiliter
+      fecisse tali modo quod predicti conventus et monasterium de <placeName>ecclesia beate virginis
+        Haffnensi</placeName> unam curiam in <placeName>parochia sancti Petri</placeName> apud
+        <placeName>commune cannale(!) ville</placeName> borealiter et ad curiam domini
+        <persName>Petri Ga<ex>m</ex>mel</persName> ibidem australiter sitam habeant jure perpetuo
+      possidendam in recompensam pro quadam curia de una quarta terre in <app>
+                  <lem>
+                     <placeName>Bwdinghe</placeName>
+                  </lem>
+                  <rdg wit="#Ab">
+                     <q>Buthingge</q>, Ab</rdg>
+               </app> in <placeName>parochia <app>
+                     <lem>Glasxaxe</lem>
+                     <rdg wit="#Ab">
+                        <q>Glasaxe</q>, Ab</rdg>
+                  </app>
+               </placeName> in <app>
+                  <lem>
+                     <placeName>Stewnshæreth</placeName>
+                  </lem>
+                  <rdg wit="#Ab">
+                     <q>Støwenshæreth</q>, Ab</rdg>
+               </app> sita cum omnibus suis pertinenciis videlicet agris pratis pascuis silvis humidis et
+      siccis infra quatuor limites terre nullis demptis in qua quidam <persName>Johannes
+        Nielss<ex>øn</ex>
+               </persName> pronunc inhabitat et dat duo p<ex>un</ex>d annone ordei et
+      siliginis cum aliis obvencionibus pro annua pensione quam quidem curiam ipsa ecclesia beate
+      virginis a predictis conventu et monasterio rehabeat jure perpetuo possidendam ♦</p>
+            <p n="a#3">Unde obligamus nos et successores nostros ad appropriandum et disbrigandum antedictis
+      conventui et monasterio in <app>
+                  <lem>Ebbleholt</lem>
+                  <rdg wit="#Ab">
+                     <q>Ebbelholt</q>, Ab</rdg>
+               </app> antedictam curiam secundum leges terre ab impeticione et alloqucione quorumcumque
+      ♦</p>
+            <p n="a#4">In horum omnium confirmacionem sigillum nostri capituli presentibus est appensum ♦</p>
+            <p n="a#5">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxxquinto . die sanctorum
+      Dyonisii et sociorum ejus ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

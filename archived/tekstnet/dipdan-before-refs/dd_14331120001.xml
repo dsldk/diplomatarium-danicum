@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatarium Danicum</title>
+        <editor>
+          <name xml:id="pbh">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
+      <publicationStmt>
+        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <pubPlace>København</pubPlace>
+        <date>2016</date>
+        <idno type="dd">14331120001</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository>empty</repository>
+                <collection>empty</collection>
+                <idno>empty</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Tabt</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Aa">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom</settlement>
+                <repository>Archivio Segreto Vaticano</repository>
+                <idno>Oblig. 74 fol. 5v</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>Påskrift: <q>fl. 3 gr. 3</q></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>APD III 62 nr. 1714</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+      </samplingDecl>
+      <projectDesc>
+        <ab>DD-5</ab>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+          <desc>nil</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1433-11-20" notBefore="1433-11-20" notAfter="1433-11-20" cert="high">1433. 20.
+          november<note>Jf. <ref target="14331209001">DD 1433. 9. dec., nr. 14331209001</ref></note></date>
+        <placeName cert="high">Rom</placeName>
+      </creation>
+      <abstract>
+        <ab>Lucidus (de Comitibus, kardinaldiakon af Santa Maria in Cosmedin og kardinalkollegiets
+          skatmester) kvitterer Jens (Pedersen (Jernskæg)), biskop i Roskilde, for at have betalt 171
+          guldfloriner som del af sine servispenge til kardinalkollegiet, betalt gennem Cosimo og
+          Lorenzo de' Medici.</ab>
+        <ab>Samtidig udsætter han fristen for betaling af resten til otte måneder efter den
+          næstfølgende 25. januar.</ab>
+      </abstract>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>empty</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-10-18" who="#pbh">Filen etableret af #pbh 2013-10-18. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-07-17" who="#pbh">Korrektur af scan osv.</change>
+      <change when="2018-04-03" who="#pbh">korrektur fra #fgj indføjet</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="nil"/>
+  </facsimile>
+  <text>
+    <body>
+      <div xml:lang="la">
+        <p n="a#1"><persName>Lucidus</persName> etc., quod <persName>Johannes</persName> episcopus
+            <placeName>Roskildensis</placeName> pro parte suorum communis et minuti servitiorum, in
+          quibus etc., ac termino nondum elapso fl. auri de camera 171 nobis etc. per manus
+          honorabilium virorum <persName>Cosme</persName> et <persName>Laurentii de
+            Medicis</persName> et sociorum suorum mercatorum <placeName>Florentinorum</placeName>
+          die date presentium solvi fecit realiter et cum effectu.</p>
+        <p>De quibus etc.</p>
+        <p>Verum intellecta mole gravaminum etc. a die 25. mensis jan. proxime venturi usque ad octo
+          menses extunc immediate secuturos terminum sibi duximus prorogandum etc. Ita tamen
+          etc.</p>
+        <p>In quorum etc.</p>
+        <p>Datum <placeName>Rome</placeName> die 20. mensis nov. 1433 pontificatus anno 3.</p>
+      </div>
+      <div xml:lang="da">
+         <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
+      </div>
+    </body>
+  </text>
+</TEI>

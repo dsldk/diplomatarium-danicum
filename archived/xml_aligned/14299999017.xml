@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">16</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14290000017</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer.
+      Registratur over Antvorskov klosters breve (1607), upag., <q>Fyen c, 15</q> i afsnittet
+        <q>Claskow</q>. Efter registraturen henvisningen <q>her om wiidre vide infra R, 20,</q> ↄ:
+        <ref target="14269999022">DD 1426, nr. 14269999022</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA IV 185 nr. C. 15</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429" notBefore="1429" notAfter="1429" cert="high">1429.<note>Selvom registraturen ikke nævner, fra hvilket landsting tingsvidnet stammer,
+    kan der næppe være tvivl om, at det er Fyns landsting, da alt det omhandlede gods ligger på
+    Fyn</note>
+            </date>
+            <placeName cert="high">[Fyns] landsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne af Fyns landsting om, at hr. Sten (Tygesen (Basse)) hvert år havde tilbudt hr.
+      Bjørn Olufsen (Bjørn) indløsning af det gods, som denne havde i pant af hr. Aksel Andersen
+      (Mule (af Kjærstrup)), men som hr. Aksel havde givet hr. Sten fuldmagt til at indløse. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-05" who="#pbh">Filen etableret af #pbh 2014-08-05. </change>
+         <change when="2020-01-15" who="#alk">1. korrektur af #alk 2020-01-15. </change>
+         <change when="2020-01-30" who="#alk">2. korrektur af #alk 2020-01-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve"><placeName>Lanndz tings</placeName> widne att her <persName>Steen</persName> huert aar
+      tilbødt her <persName>Biørn</persName> løsenn paa alt thet goedz <cit><quote>som hand haffde i panndt aff her <persName>Axell</persName></quote><bibl><ref target="14219999022">DD 1421, nr. 14219999022</ref></bibl></cit> och <cit><quote>hand haffde vndt her Steen løssenn paa,</quote><bibl><ref target="14239999019">DD 1423, nr. 14239999019</ref></bibl></cit> ♦</p>
+            <p n="a#2" xml:space="preserve">1429 ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

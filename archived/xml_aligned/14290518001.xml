@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">184</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14290518001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3044</idno>
+                        <msName>gl. signatur: Køge 3</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 27.3 × 11 (plica: 4.1). <ab>Påskrift på bagsiden (samme hd. som på DD 1429. 28. jul.):
+                                 <q>køpebreff vppa th<ex>e</ex>n gardh j Køghe by</q>. Bemærk:
+                                 <q>by</q> er muligvis en senere tilføjelse; <q>j Køghe by</q> er
+                              understreget m. sort</ab>1. Kirsten Pedersdatters segl af mørkt voks m. omskriften S.
+                                    KIRSTINE PEDERSDOTER i perg.rem, AS L xlv 1. 2. Seglsnit. 3. Konrad Massows segl af mørkt voks i perg.rem, AS L vii
+                                    20. 4. Jens Olsens segl af mørkt voks i perg.rem, AS A xi 2
+                                    (Halvegge). 5. Biskop Jens' segl af mørkt voks i perg.rem, G 171. 6. Bomærke i perg.rem. 7. Bomærke i perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Langebeks Diplomatarium</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Brevet er beskadiget af fugt og svært læseligt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6393 (jf. 6416)</bibl>
+               <bibl>ÆA I 55 = IV 8</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 167</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-05-18"
+                  notBefore="1429-05-18"
+                  notAfter="1429-05-18"
+                  cert="high">1429.
+               18. maj</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kirsten (Pedersdatter), Ove Stegs enke, og Peder (Ovesen) Steg, kannik i Roskilde,
+               samt Konrad Massow og Jens Olufsen skøder på deres koners vegne deres gård i Køge med
+               al dens tilliggende til kong Erik. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-31" who="#pbh">Filen etableret af #pbh 2014-07-31. </change>
+         <change when="2017-05-19" who="#jon">1. korrektur af #jon 2017-05-19. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Alle mæn som thette b<ex>re</ex>ff see ell<ex>e</ex>r hør<ex>e</ex> helse wy
+                  <persName>Kirstine</persName>
+               <persName>Awe Steeghs</persName> efft<ex>er</ex>lewe <persName>Pæth<ex>e</ex>r
+                  Steegh</persName> canik j <placeName>Rosk<ex>ilde</ex>
+               </placeName>
+               <persName>Cort Massow</persName> pa myn husfrwes weghne oc <persName>Jes
+                     Olss<ex>øn</ex>
+               </persName> pa myn husfrwes weghne ewy<ex>n</ex>nelighe meth wor herr<ex>e</ex> ♦</p>
+            <p n="a#2">Ok ku<ex>n</ex>gør<ex>e</ex> thet alle men nærwe<ex>re</ex>nd<ex>is</ex> oc
+                  ko<ex>m</ex>meschule<ex>n</ex>d<ex>is</ex> at wy weth<ex>e</ex>rke<ex>n</ex>nes
+               oss meth thette wort opne b<ex>re</ex>ff athaue salt schøt oc affhænt <app>
+                  <lem>jrluchtigh</lem>
+                  <rdg resp="#jon">Hapax legomenon; jf. K. Schiller og A. Lübben (red.),
+                     Mittelniederdeutsches Wörterbuch, 1875-81, II, 391: <q>mit deme irluftigen
+                        vorsten hertogen W. van B.</q> (dvs. den oplyste fyrste)</rdg>
+               </app> første oc methtich herr<ex>e</ex> her <persName>Erik</persName> meth guths
+               nathe Da<ex>n</ex>m<ex>a</ex>rks Swe<ex>r</ex>ig<ex>es</ex> Norg<ex>es</ex>
+                  Wend<ex>es</ex> oc God<ex>es</ex> koni<ex>n</ex>g oc h<ex>er</ex>tugh j
+                  Po<ex>m</ex>me<ex>re</ex>n wor nathighe herr<ex>e</ex> wor garth i
+                  <placeName>Køghæ</placeName> meth booth<ex>e</ex>r och bygni<ex>n</ex>g oc meth
+               all syn tilliggelse till ewy<ex>n</ex>nelighe æye ♦</p>
+            <p n="a#3">Oc tilbinde wy oss oc wor<ex>e</ex> ærwinge atfrii oc hemble h<damage>ans
+                  n</damage>athe th<damage>e</damage>
+               <ex>n</ex>
+               <damage>for<hi rend="sup">de</hi>
+               </damage> garth till ewy<ex>n</ex>neligh æye for hwers mantz tilltall so<ex>m</ex>
+                  th<ex>er</ex> vppa tale kan meth rætte efft<ex>er</ex> lantz low ♦</p>
+            <p n="a#4">
+               <damage>Ti</damage>ll hwes things witnisbyrth och yderme<ex>re</ex> bewaring tha haue
+               wy alle for<ex>e</ex>sc<ex>re</ex>ffne wor<ex>e</ex> jncigle meth heth<ex>e</ex>rlich
+                  fath<ex>er</ex>s biscop <persName>Jens</persName> j <placeName>Rosk<ex>ilde</ex>
+               </placeName> jncigle oc <persName>Jes Olss<ex>øn</ex>
+               </persName> oc <persName>Jes Pæth<ex>e</ex>rss<ex>øn</ex>
+               </persName> borghemeste<ex>re</ex> j <placeName>Køghe</placeName> jncigle hængt for
+               thette b<ex>re</ex>ff ♦</p>
+            <p n="a#5">Datum <placeName>Haffnis</placeName> anno domini mcdxxix<hi rend="sup">o</hi>
+               quarta feria penthecostes ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+               tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

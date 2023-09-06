@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">150</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">158</num>, paragraphs: <num n="paragraphs">4</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14370920001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <idno>NKR c-3267; gl. sign. Basse, Sten; Voldborg H. 111</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary>Kong Erik 7. af Pommern vidimerer på rettertinget Peder Ludvigsen af Tybjergs brev af 1374. 26. marts.</summary>
+                        <msItemStruct>
+                           <filiation>
+                              <ab>empty</ab>
+                           </filiation>
+                        </msItemStruct>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>17.5 (plica: 2.8)</height>
+                                    <width>24</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>Riixxiins cantzelers breff liud<ex>endes</ex>(?) j
+                                paa en gardt ij Engelorp oc en mølle som kalles Strandmølle
+                                mccclxxiiij</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Det kongelige rettertingssegl i ufarvet voks i
+                                perg.rem, <ref>DKS 63</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>Rep. nr. 6897</bibl>
+                           <bibl>Reg. Dan. nr. 3602</bibl>
+                           <bibl>Suhm XIII 873-875</bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>A</ref>. Det vidimerede brev er trykt Dipl. Dan. 3.IX.359.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-09-20"
+                  notBefore="1437-09-20"
+                  notAfter="1437-09-20"
+                  cert="high">1437. 20. september</date>
+            <placeName cert="high">Ålstrup</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-11-07" who="#alk">Filen etableret af #alk 2014-11-07. </change>
+         <change when="2015-10-09" who="#alk">1. korrektur af #alk 2015-10-09. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wy <persName>Erik</persName> m<ex>eth</ex> gudz nathæ
+                                <placeName>Danm<ex>ar</ex>ks</placeName>
+               <placeName>Swerig<ex>es</ex>
+               </placeName>
+               <placeName>Norg<ex>es</ex>
+               </placeName>
+               <placeName>Wend<ex>es</ex>
+               </placeName> och
+                                <placeName>Godd<ex>es</ex>
+               </placeName> konwngh och h<ex>e</ex>rtugh
+                        j <placeName>Po<ex>m</ex>mern</placeName> helssæ allæ som th<ex>et</ex>tæ
+                        b<ex>re</ex>ff see ell<ex>e</ex>r høræ kierleghæ m<ex>eth</ex> gudh
+                        ♦</p>
+            <p n="a#2">Och kwnghøræ wy allæ men ath aar efftæ gudz byrdh m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxx<hi rend="sup">o</hi> septimo sancti Mathei
+                        apostoli affth<ex>e</ex>n wor skykketh en hederlegh man och welbyrdigh her
+                                <persName>Steen Bassæ</persName> rydhær<ex>e</ex> for<ex>e</ex>
+                        worth retthæræ thyngh j <placeName>Olstorpp</placeName> j hed<ex>e</ex>rlegæ
+                        och welbyrdyghæ mens a n<ex>er</ex>werelssæ som æræ broth<ex>e</ex>r
+                                <persName>Pædh<ex>e</ex>r Lauriss<ex>øn</ex>
+               </persName>
+                        p<ex>ri</ex>or j <placeName>sworthæ brøthræ</placeName> j
+                                <placeName>Roskillæ</placeName>
+               <persName>Ottæ Ffoos</persName> j <placeName>Hawbølæ</placeName> her
+                                <persName>Jens Nielss<ex>øn</ex>
+               </persName> kapælan oppa
+                                <placeName>Oræcrogh</placeName> och her
+                                <persName>Pæth<ex>e</ex>r</persName> sognæp<ex>re</ex>sth j
+                                <placeName>Swndby</placeName> j <placeName>Vennæsyslæ</placeName>
+                        och lodh læsæ eth obeth b<ex>re</ex>ff m<ex>eth</ex> iiii helæ henghendæ
+                        ynsiglæ helth och holdeth vscrabeth vstungeth och vsmytteth i
+                        nogh<ex>e</ex>r mathæ och ludend<ex>es</ex> ordh fran ordh j allæ modhæ som
+                        h<ex>e</ex>r efftæsc<ex>re</ex>feth stand<ex>e</ex>r / ♦</p>
+            <p n="a#3">Jek <persName>Pæth<ex>e</ex>r Lodwikss<ex>øn</ex>
+               </persName> rydær<ex>e</ex> j
+                                <placeName>Thythæb<ex>er</ex>gh</placeName> (etc. = Dipl. Dan.
+                        3.IX.359) ♦</p>
+            <p n="a#4">In cujus rei testimonium sigillum nostrum ad causas presentibus est appensum
+                        teste <persName>Ywano Ffos</persName> justiciario nostro ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Vi Erik, af Guds nåde Danmarks, Sveriges, Norges, de Venders og Goters konge og
+                        hertug i Pommern, hilser alle, som ser eller hører dette brev kærligt med
+                        Gud.</p>
+            <p n="b#2">Og vi kundgør for alle mænd, at i år 1437 efter Guds fødsel, på apostlen sankt
+                        Matthæus' aften, fremstod en hæderværdig og velbyrdig mand, hr. Sten Basse,
+                        ridder, for vort retterting i Ålstrup i nærværelse af de hæderværdige og
+                        velbyrdige mænd, nemlig broder Peder Lauridsen, prior i Sortebrødre kloster
+                        i Roskilde, Otto Fos i Havbølle, hr. Jens Nielsen, kapellan på
+                                Ørekrog,<note>Gammelt navn for Krogen, Erik af Pommerns borg i
+                                Helsingør.</note> og hr. Peder, sognepræst i Sundby i Vendsyssel, og
+                        lod læse et et åbent brev med 4 hele hængende segl, helt og uskadt,
+                        uskrabet, ikke gennemskåret, fejlfrit på enhver måde, som ord for ord lyder
+                        således som herefter står:</p>
+            <p n="b#3">Jeg Peder Ludvigsen, ridder, i Tybjerg (osv. = DRB III.9.359).</p>
+            <p n="b#4">Til vidnesbyrd om dette er vort rettertingssegl hængt ved dette brev med Ivan
+                        Fos, vor justitiar, som vidne.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

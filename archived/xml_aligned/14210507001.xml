@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">235</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14210507001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>Reg. Lat.</collection>
+                        <idno>219 fol. 219</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Franciscus XXIIII. de Agello</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement/>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <msName/>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Transsumpt af ærkebiskop Henning Scharpenberg af Riga, <ref target="14260116001">DD 1426 16. jan., nr. 14260116001</ref>, tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>TKUA. Livland: Akter og dokumenter vedrørende det politiske forhold til Livland</collection>
+                        <idno>A I. Breve til danske konger 1. 1533-65. No. 1.i. s. 14-15</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Kopi fra midten af det 16. årh., bekræftet af notaren Jacob
+      Rohlant</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 318 nr. 1365</bibl>
+               <bibl>Reg. Dan. *4573</bibl>
+               <bibl>Bunge, LECUB V 753-754 nr. 2557, a</bibl>
+               <bibl>Joh. Ernst v. Siebert i Bunge, Archiv für die Geschichte Liv.-, Esth-. und Curlands VI
+      117-118 (tysk overs.)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Ab1</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-05-07"
+                  notBefore="1421-05-07"
+                  notAfter="1421-05-07"
+                  cert="high">1421. 7. maj</date>
+            <placeName cert="high">Rom, San Pietro</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Pave Martin 5. pålægger ærkebiskoppen i Riga at undersøge sagsforholdet i en supplik af
+      dekanen og kapitlet i Reval, hvoraf det fremgår, at kong Erik (6. Menved) forbød Revals
+      borgere at benytte nogen anden skole end katedralskolen under trussel om bødestraf; hvis
+      ærkebiskoppen finder, at det passer, skal han med pavelig myndighed stadfæste
+      bestemmelsen. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-06" who="#pbh">Filen etableret af #pbh 2014-05-06. </change>
+         <change when="2019-02-06" who="#pbh">1. korrektur af #pbh 2019-02-06. </change>
+         <change when="2021-02-22" who="#alk">2. korrektur af #alk 2021-02-22. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve"><persName>Martinus</persName>
+      <app><lem>episcopus</lem><rdg wit="#Ab1">Tilføjet over linjen, Ab1</rdg></app> servus servorum Dei, venerabili fratri, <placeName>archiepiscopo Rigensi</placeName>,
+      salutem et apostolicam benedictionem ♦</p>
+            <p n="a#2" xml:space="preserve">Ex debito pastoralis officii, quo ecclesiarum omnium regimini præsidemus, ad ea, per quæ
+      ipsarum ac etiam nobis et apostolicæ sedi devotarum personarum, quarumlibet statui, et
+      indemnitatibus consulitur, libenter intendimus, illaque favoribus persequimur opportunis.
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Sane petitio pro parte dilectorum filiorum, <placeName>decani</placeName> et
+        <placeName>capituli Revaliensis ecclesiæ</placeName> nobis nuper exhibita, continebat, quod
+      olim claræ memoriæ <persName>Ericus</persName>
+      <placeName>Daciæ</placeName> rex illustris, ad ipsam ecclesiam specialem gerens devotionis
+      affectum, et ut illa in divinis debite frequentaretur, statuit ac etiam ordinavit, quod nullus
+        <placeName>civium Revaliensium</placeName> natos suos, vel etiam extraneos <app><lem>scholares</lem><rdg wit="#Ab1">Oprindelig <q>scolares</q>, rettet af skriveren, Ab1</rdg></app>, secum existentes, scholas in dicta civitate frequentare permitterent, præterquam apud
+      ecclesiam memoratam, sub certa poena pecuniaria, tunc expressa, quam contrafacientes incurrere
+      voluit eo ipso, prout in <cit><quote>litteris</quote><bibl>1319. 3. januar, DD 2.VIII.83</bibl></cit> authenticis, inde confectis, ipsius regis sigillo munitis, dicitur plenius contineri.
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Quare pro parte dictorum decani et capituli nobis fuit humiliter supplicatum, ut statuto et
+      ordinationi, ac litteris præfatis, pro eorum subsistentia firmiori, robur apostolicæ
+      confirmationis adjicere, de benignitate apostolica dignaremur. ♦</p>
+            <p n="a#5" xml:space="preserve">Nos igitur de præmissis certam notitiam non habentes, hujusmodi supplicationibus inclinati,
+      fraternitati tuæ per apostolica scripta mandamus, quatenus de præmissis authoritate nostra, te
+      diligenter informes et si per informationem hujusmodi, statutum et ordinationem, ac alia in
+      eisdem litteris contenta, in utilitatem dictæ ecclesiæ vergere inveneris, super quo, tuam
+      conscientiam oneramus, statutum ac omnia inde secuta, eadem authoritate nostra approbes,
+      pariter et confirmes, non obstantibus constitutionibus et ordinationibus apostolicis et <app><lem>aliis</lem><rdg wit="#Ab1">Tilføjet over linjen, Ab1</rdg></app> contrariis quibuscunque. ♦</p>
+            <p n="a#6" xml:space="preserve">Datum <placeName>Romæ</placeName>, apud <placeName>sanctum Petrum</placeName>, nonis maii,
+      pontificatus nostri anno 4<hi rend="sup">to</hi> ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

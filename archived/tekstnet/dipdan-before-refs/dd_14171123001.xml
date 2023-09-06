@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">303</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14171123001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2643; tidl. Roskilde Bisp; Mageskifter 1; L - 3-58</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>17.5 (plica: 2.5)</height>
+                                    <width>28.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften <q>Scotacio cujusdam curie in Lyungby videlicet
+        Møllethorp dicte et super molendino dicto Nymøllæ
+      Støff<damage>nesherrit(?)</damage>
+                              </q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Københavns kapitels segl af grønt voks i perg.rem, <ref>DGS 336</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5682</bibl>
+               <bibl>Reg. 3322</bibl>
+               <bibl>Vejledende Arkivreg. XVII 94 nr. 262</bibl>
+               <bibl>Københavns Dipl. IV 21-22 nr. 31</bibl>
+               <bibl>Danske Mag. V 292-3</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-11-23"
+                  notBefore="1417-11-23"
+                  notAfter="1417-11-23"
+                  cert="high">1417. 23. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Dekan Jens Klementsen og kollegiatkapitlet i København mageskifter med biskop Jens Andersen
+      Lodehat af Roskilde, således at biskoppen får gården Mølletorp ved Lyngby kirke samt Nymølle
+      af kapitlet, der til gengæld får to gårde i Brøndbyøster.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-05-29" who="#alk">2. korrektur af #alk 2017-05-29. </change>
+         <change when="2017-06-19" who="#alk">3. korrektur af #alk 2017-06-19. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis ad quorum noticiam deductum fuerit presens scriptum <persName>Johannes
+        Clementis</persName>
+               <placeName>decanus Hafnensis</placeName>
+               <placeName>totumque capitulum ibidem</placeName> salutem in vero omnium salvatore ♦</p>
+            <p n="a#2">Constare volumus presentibus et posteros non latere nos ex deliberato animo et unanimi
+      consensu quendam permutacionis bonorum contractum certis causis suadentibus et precipue
+      propter situm bonorum utrique parti pertinencium maxime convenientem utilem et acceptum cum
+      reverendo in Christo patre ac domino domino <persName>Johanne</persName> dei gracia
+        <placeName>episcopo Roskildensi</placeName> domino nostro gracioso in dei nomine iniisse in
+      hunc modum ita videlicet quod predictus dominus noster episcopus et successores sui
+      infrascripta bona nostra capitularia videlicet <placeName>unam curiam vulgariter dictam
+        Møllethorp</placeName> juxta <placeName>ecclesiam Lyungby</placeName> dantem sex recia
+      Skaniensia annuatim item quendam <placeName>locum molendini dictum Nymøllæ</placeName> cum
+      piscatura ibidem et captura anguillarum dicta vulgariter aalefang una cum omnibus et singulis
+      eorundem bonorum locorumque pertinenciis videlicet agris pratis silvis pascuis piscaturis
+      humidis et siccis nullis penitus exceptis quibuscumque nominibus censeantur habeat et habeant
+      jure perpetuo possidenda pro infrascriptis bonis videlicet duabus curiis in <placeName>Brunby
+        øster</placeName> ad mensam episcopalem spectantibus duas marcas argenti pro annua pensione
+      dantibus cum omnibus et singulis dictorum bonorum pertinenciis videlicet agris pratis pascuis
+      humidis et siccis nullis penitus exceptis quibuscumque nominibus censeantur necnon cum decimis
+      episcopalibus nobis et successoribus nostris per dictum dominum nostrum episcopum in
+      recompensam assignatis jure perpetuo libere possidendis ♦</p>
+            <p n="a#3">Et ut premissa omnia et singula inviolabiliter observentur obligamus nos et successores
+      nostros ad scotandum appropriandum et disbrigandum supradicto domino nostro episcopo Johanni
+      et successoribus suis prefata bona ab impeticione quorumcumque ♦</p>
+            <p n="a#4">Ceterim si predicta bona vel aliquod illorum propter defectum nostre appropriacionis secundum
+      leges terre a dicto domino nostro Johanne seu successoribus suis evicta fuerint extunc
+      obligamus nos et successores nostros ad refundendum et restituendum dicto domino nostro vel
+      successoribus suis predicta bona in Brunby øster vel equivalencia secundum sufficientem et
+      congruam recompensam ♦</p>
+            <p n="a#5">In quorum omnium et singulorum evidens testimonium et firmitatem majorem sigillum nostrum
+      capitulare presentibus est appensum ♦</p>
+            <p n="a#6">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xvii<hi rend="sup">o</hi> die
+      beati Clementis martiris gloriosi ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

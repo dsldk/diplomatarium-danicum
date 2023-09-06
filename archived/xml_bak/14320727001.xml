@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">211</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14320727001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3117-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>14.2 (plica: 2)</height>
+                                    <width>18.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift: <q>Orueide Jesse Petersson</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jens Pedersens bomærke, i brunt voks, i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6574</bibl>
+               <bibl>Reg. Dan. nr. *4969</bibl>
+               <bibl>Sejdelin, Diplomatarium Flensborgense, bd. I, nr. 218, p. 733-734</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-07-27"
+                  notBefore="1432-07-27"
+                  notAfter="1432-07-27"
+                  cert="high">1432. 27. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jes Petersens orfejdebrev til de slesvigske hertuger Adolf og Gerhard.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-08" who="#pbh">Filen etableret af #pbh 2013-10-08. </change>
+         <change when="2020-01-17" who="#smb">1. korrektur af #smb 2020-01-17. </change>
+         <change when="2020-05-11" who="#smb">2. korrektur af #smb 2020-05-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Witlik sij alle den ghennen de dessen breff seen edder horen lezen / dat ik <persName>Jesse
+        Peterssone</persName> bekenne vnde betuge openbar vor alsweme dat ik mynen gnedigen heren .
+      hertogh <persName>Alue</persName> vnde hertogh <persName>Gherde</persName> . hertogen to
+        <placeName>Sleswijck</placeName> greuen to <placeName>Holsten</placeName> to
+        <placeName>Stormeren</placeName> vnde to <placeName>Schowenborgh</placeName> . hebbe gelouet
+      gesworen vnde vororveydet . dat ik en vnde eren rechten eruen wil truwe vnde holt wesen alle
+      de tijd vth mynes leuendes vnde wil den erbenomeden mynen gnedighen heren . eren rechten eruen
+      . eren landen vnde luden vnde al den ghennen de se mid rechte mogen vorbidden nummer vnder
+      ogen denen ofte wesen ofte beschedigen mid rade edder mid d{ae}th ♦</p>
+            <p n="a#2" xml:space="preserve">Ok so hebbe ik <persName>Jesse</persName> vorbenomed sodane orueyde vorscreuen mynen
+      gnedighen heren erbenomed vnde eren rechten eruen vorborghet mid twel{uv}en myner vrunde .
+      alze dar de ersamen borghermestere vnde ratmanne der stad <placeName>Fflensborgh</placeName>
+      ere witlicheit an ereme besegelden breue vp hebben gegheuen ♦</p>
+            <p n="a#3" xml:space="preserve">Vnde dat ik desse vorbenomede orueyde aldus hebbe ged{ae}n dar hebben an vnde ouer gewesen de
+      strenge ritter her <persName>Hinrik Rixstorp</persName> vnde de ersamen lude <persName>Peter
+        Jonsone</persName>
+      <persName>Minrik Menkel</persName> borghermestere . <persName>Clawes Smiter</persName> .
+        <persName>Peter Lasse</persName> vnde <persName>Hinrik Vegeborde</persName> ratmanne to
+        <placeName>Sleswijck</placeName> vnde meer louenwerdige lude . ♦</p>
+            <p n="a#4" xml:space="preserve">Des to tuge so hebbe ik <persName>Jesse Peterssone</persName> erbenomed myn jngesegel
+      witliken gehenget to dessem breue . na Godes bort verteinhundert iar dar na in deme twe
+      vndedrittigesten iare des negesten sondages na sunte Jacobi dage des hilgen apostels \ \
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

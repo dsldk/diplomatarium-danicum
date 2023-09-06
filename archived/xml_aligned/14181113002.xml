@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14181113002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Suppl. 113 fol. 112v</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Suppl. 118 fol. 282</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 275 nr. 1267</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-11-13"
+                  notBefore="1418-11-13"
+                  notAfter="1418-11-26"
+                  cert="high">1418. 13.
+          og 26. november<note>Der er to enslydende supplikker med hhv. datoen 13. (Aa) og 26. (Ab)
+            november; én af disse datoer har været brugt som dato for eksekutionsbrevet, men da
+            dette ikke er bevaret, kan det ikke afgøres, hvilken dato der har været den juridisk
+            gyldige</note>
+            </date>
+            <placeName cert="high">Mantua</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. bevilger en supplik af Tyge Jensen, klerk fra Roskilde stift, om at få
+          provision på kanonikat og præbende i Roskilde, skønt han i forvejen har provision på
+          kanonikat og præbende i Skt. Johannes i Haug ved Würzburg. Kanonikat og præbende ventes at
+          blive ledige ved, at den tidligere indehaver Jens Gerekesen (Lodehat) har opnået andet
+          kanonikat og præbende sammesteds. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-08" who="#pbh">Filen etableret af #pbh 2014-04-08. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-07-31" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Cum canonicatus et prebenda ecclesie <placeName>Roskildensis</placeName>, quos
+            <persName>Johannes Gerichini</persName> obtinet, per assecutionem aliorum canonicatus et
+          prebende ejusdem ecclesie vacare sperantur, supplicat <persName>Thuco Johannis</persName>
+          clericus Roskildensis diocesis, quatenus sibi de dictis canonicatu et prebenda, cum ipsos,
+          ut prefertur, vel alio modo preterquam per mortem ejusdem vacare contingat [fructus 12
+          mr.], dignemini providere, non obstantibus canonicatu et prebenda ecclesie s. Johannis in
+            <placeName>Haug</placeName> extra muros <placeName>Herbipolenses</placeName>, de quibus
+          sibi auctoritate apostolica sit provisum [fructus 12 mr.] ...</p>
+            <p>Fiat. O.</p>
+            <p>Datum <placeName>Mantue</placeName>
+               <app>
+                  <lem>id. nov. anno 1</lem>
+                  <rdg>
+                     <q>6. kal. dec. anno 2</q> Ab</rdg>
+               </app>.</p>
+         </div>
+         <div xml:lang="da">
+            <p>
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

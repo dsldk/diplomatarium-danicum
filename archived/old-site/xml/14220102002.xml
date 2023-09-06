@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">106</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14220102002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsarchiv Königsberg (nu Berlin, Geheimes Staatsarchiv Preußischer Kulturbesitz)</repository>
+                        <collection>XX. HA, Ordensbriefarchiv (OBA)</collection>
+                        <idno>nr. 03640 (tidl. VIII 52. - OBA 3, 1)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Napiersky, Index corporis historico-diplomatici Livoniae, Esthoniae, Curoniae, nr. 1005,
+      p. 226 (regest)</bibl>
+               <bibl>Bunge, Liv.-, Est.- u. Curländ. Urkundenb. V, nr. MMDLXXVI, sp. 789-791 (Reg. nr.
+      3040)</bibl>
+               <bibl>Reg. Dan. nr. *4603</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Bunge l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-01-02"
+                  notBefore="1422-01-02"
+                  notAfter="1422-01-02"
+                  cert="high">1422. 2. januar</date>
+            <placeName cert="high">Dünaburg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrivelse fra komturen af Dünaburg til den livlandske ordensmester Siegfried Lander v.
+      Spanheim, hvori han bl.a. meddeler, at (Albertas) Manvydas (høvedsmand i Vilnius) har sagt til
+      komturens udsending, at kong Erik 7. af Pommern har dannet et forbund med hertug Witold af
+      Litauen og nu vil have Reval tilbage.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
+         <change when="2021-03-30" who="#smb">1. korrektur af #smb 2021-03-30. </change>
+         <change when="2021-05-11" who="#smb">2. korrektur af #smb 2021-05-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Minen wilgen steden horsam alwege tovorn.</p>
+            <p n="a#2" xml:space="preserve">Ersame, leve her meister.</p>
+            <p n="a#3" xml:space="preserve">Ik bidde juwer erwerdicheit to weten, dat ik hadde einen diener gesant to
+        <placeName>Littowen</placeName> bodewiis an <persName>Mannewide</persName>. Desulve deinre
+      is weder gekomen, und he hadde <persName>Mannewide</persName> gevunden to
+        <placeName>Trakken</placeName>.</p>
+            <p n="a#4" xml:space="preserve">[.....]</p>
+            <p n="a#5" xml:space="preserve">Do hadde <persName>Mannewid</persName> vort an gevroget, wu et stunde tuschen dem koninge van
+        <placeName>Sweden</placeName> und uns; do antwert unse deinre over, dat id wol stunde. Do
+      sede <persName>Mannewid</persName>, dat wuste he wol, wu et stunde, und sede vort, wu de
+      konink van <placeName>Sweden</placeName> und <persName>Wytovt</persName> sik to hope
+      vorscreven hedden, eer ein den andern to hulpen, und de konink van <persName>Sweden</persName>
+      wolde jo <placeName>Revel</placeName> wederhebben.</p>
+            <p n="a#6" xml:space="preserve">[.....]</p>
+            <p n="a#7" xml:space="preserve">Gescreven to <placeName>Duneburch</placeName>, des vridages na nien jaer, in deme XXII.
+      jare.</p>
+            <p n="a#8" xml:space="preserve">Cumthur to <placeName>Duneburch</placeName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

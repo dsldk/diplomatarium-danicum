@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">41</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14280106001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit/>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4823</bibl>
+               <bibl>Westphalen, Monumenta II 403 nr. 338</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter Westphalen l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-01-06"
+                  notBefore="1428-01-06"
+                  notAfter="1428-01-06"
+                  cert="high">1428. 6. januar<ref target="drb1"/>
+            </date>
+            <placeName cert="high">Delmenhorst</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ærkebiskop Nicolaus af Bremen meddeler biskopperne i Ratzeburg, Slesvig og Lübeck samt
+      kirken i Hamburg en kopi af et brev af Henricus, kardinalpresbyter af Sankt Eusebius, kaldet
+      Kardinalen af England, hvori han opfordrer ærkebiskoppen af Bremen og hans suffraganer til at
+      deltage i kampen mod husitterne i Böhmen og lover aflad for dette.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-24" who="#pbh">Filen etableret af #pbh 2014-07-24. </change>
+         <change when="2019-10-30" who="#pbh">1. korrektur af #pbh 2019-10-30. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Ærkebiskop <persName>Nicolaus</persName> af <placeName>Bremen </placeName>meddeler <q>reverendis
+      in Christo patribus et dominis, dominis <placeName>Ratzeburgensis</placeName>,
+        <placeName>Slesvicensis</placeName>, et <placeName>Lubicensis </placeName>ecclesiarum
+      episcopis</q> samt kirken i <placeName>Hamburg </placeName>en kopi af et brev af
+        <persName>Henricus</persName>, kardinalpresbyter af Sankt Eusebius, kaldet Kardinalen af
+      England, hvori han opfordrer ærkebiskoppen af Bremen og hans suffraganer til at deltage i
+      kampen mod husitterne i <placeName>Böhmen</placeName> og lover aflad for dette.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

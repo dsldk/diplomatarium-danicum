@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">129</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14140501008</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2495-c, Nørrejylland 135b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.6 (plica: 1.4)</height>
+                                    <width>24.6</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>Transscriptum aff Stygh And</q>e<q>rss</q>øn<q>s oc Pauel Styghss</q>øn<q>s breff vm th</q>e<q>n
+                biærk Wællinge j Mythæsumh</q>e<q>r</q>et <q>j Nørreiutla</q>n<q>d m</q>eth
+                <q>mølle som the er ladet i ther</q>e <q>lifdae at th</q>et <q>skal genist æft</q>er <q>there døth alt friit j gen
+                ko</q>m<q>me til konu</q>n<q>gedømet</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Klaus Grubendals segl i lyst voks i perg.
+                                rem, <ref>DAS 1138</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Moleke van der Lankens segl i lyst voks i perg.
+                                rem, <ref>AS E viii 7</ref></ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Gert van der Lankens segl i lyst voks i perg.
+                                rem, <ref>AS C xxxix 1</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5423</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-05-01"
+                  notBefore="1414-05-01"
+                  notAfter="1414-05-01"
+                  cert="high">1414. 1. maj</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Klaus Grubendal, ridder, og Moleke og Gert van der Lanken, væbnere, udsteder vidisse på et brev fra 30. april 1407,
+                hvorved Stig Andersen og hans søn Povl Stigsen bekender at have fået Vellinge birk i 
+                Middelsom herred på livstid af kong Erik og dronning Margrete.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wy <persName>Clawes Grupendale ridde<ex>re</ex>
+               </persName>
+               <persName>Møleke</persName> oc <persName>Gerith van der Lanke<ex>n</ex>
+                                awapn</persName> gøre wit<ex>er</ex>licht oc openbar alle the som th<ex>e</ex>nne
+                        sc<ex>ri</ex>fft høre ell<ex>e</ex>r see oss æft<ex>er</ex> war h<ex>er</ex>ris føthelses aar
+                        thusendefirehundrethæ vpæ th<ex>et</ex> fiortende aar vpa beatorum Philippi et Jacobi apostolorum dagh
+                        hafue seet oc skoet oc hørt grangiffleghe fore oss ow<ex>er</ex>læset eet opet pærkmæ<ex>n</ex>s
+                        breff w raget oc w skrapet ok j alle made w falsket oc w
+                        misthe<ex>n</ex>kelicht m<ex>eth</ex> sa<ex>n</ex>ne oc wisse hengende jncigle jnciglet helt oc
+                        holdet oc allsti<ex>n</ex>gs wæl bewaret huilket breff lud<ex>er</ex> ordh fra<ex>n</ex> ordh æft<ex>er</ex> thy
+                        som h<ex>er</ex> æft<ex>er</ex> følgh<ex>e</ex>r ♦</p>
+            <p n="a#2"> Wj Stigh And<ex>er</ex>sson 
+                                (etc. =  <ref target="14070430001">DD 1407. 30. apr., nr. 14070430001</ref>) ♦</p>
+            <p n="a#3"> Oc til mer<ex>e</ex>
+                        wit<ex>er</ex>licheet h<ex>er</ex> vm hafue wj ladet ware jncigle
+                                henges fore the<ex>n</ex>ne sc<ex>ri</ex>fft ♦</p>
+            <p n="a#4"> Datum anno et die
+                        supradictis. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

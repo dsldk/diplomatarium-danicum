@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">662</num>, paragraphs: <num n="paragraphs">15</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14251126001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Korsør Rådstue</collection>
+                        <idno>Løbenr. 4-28</idno>
+                        <msName>Erik af Pommerns privilegier til Korsør (1425-1425)</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Vidisse 1441 20. juli</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Korsør bys papirsbreve</collection>
+                        <idno>Privilegiehefte 4to, nr. 1</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>c.1650</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ac">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Korsør bys papirbreve 1445-1731</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskr. fra 17. årh. i Afskriftsamlingen</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6222</bibl>
+               <bibl>L. F. la Cour, Korsør 48</bibl>
+               <bibl>Danmarks gl. Købst.lovgivn. III 271-72 (nr. 1)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-11-26"
+                  notBefore="1425-11-26"
+                  notAfter="1425-11-26"
+                  cert="high">1425. 26. november</date>
+            <placeName cert="high">Korsør</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern giver borgerne i Korsør samme stadsret og privilegier som borgerne i
+      Roskilde og Kalundborg. Han tillader dem at have græsning m.m. i Klarskov og Halskov samt på
+      Sprogø og tilstår dem en række andre rettigheder samt tager dem under sin beskyttelse. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-03" who="#pbh">Filen etableret af #pbh 2014-07-03. </change>
+         <change when="2020-01-28" who="#jon">1. korrektur af #jon 2020-01-28. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wy <persName>Eric</persName> m<ex>eth</ex> guthz nathe Da<ex>n</ex>marks Swer<ex>ri</ex>ghis
+      / Norghes / We<ex>n</ex>des och God<ex>es</ex> koni<ex>n</ex>g / och h<ex>er</ex>tugh j
+      Pomere<ex>n</ex> / gør<ex>e</ex> wid<ex>er</ex>licht alle <app><lem>the</lem><rdg><q>them</q>, Ab</rdg></app> th<ex>ett</ex>e breff see æll<ex>e</ex>r hør<ex>e</ex> at wy <app><lem>for</lem><rdg><q>aff</q>, Ab, Ac</rdg></app> wor serdeles nathe / <app><lem>giue och vnne</lem><rdg><q>vnne och giffue</q>, Ab, Ac</rdg></app> wore <app><lem>elskelighe</lem><rdg><q>l</q>[1] tilføjet over linjen, Aa</rdg></app> bymæ<ex>n</ex> i <placeName>Korssør</placeName> so<ex>m</ex> th<ex>e</ex>r alle rethe
+      bygge och boo och <app><lem>the</lem><rdg><q>der</q>, Ac</rdg></app> h<ex>er</ex> eft<ex>er</ex>
+      <app><lem>æn</lem><rdg><q>der vdi</q>, Ac</rdg></app> boende worthe swa dane p<ex>re</ex>uilegie / friihet / bysræt / och nathe so<ex>m</ex>
+      h<ex>er</ex> eft<ex>er</ex> følgh<ex>e</ex>r ♦</p>
+            <p n="a#2" xml:space="preserve">Først benathe wy th<ex>e</ex>m och vnnæ swa dan sthathz ræt / bylogh p<ex>re</ex>uilegie /
+      och friihet / so<ex>m</ex> wor<ex>e</ex> b<ex>ur</ex>ghe<ex>re</ex> och bymæ<ex>n</ex> j
+        <placeName>Roskille</placeName> och j <placeName>Calu<ex>n</ex>burgh</placeName> haue / och
+      nyde ♦</p>
+            <p n="a#3" xml:space="preserve">Item tel eldebrand och fægang / och bys fortaa / vnne wy th<ex>e</ex>m th<ex>et</ex> rwm
+      so<ex>m</ex> heder <placeName><app><lem>Klaskow</lem><rdg><q>Klarschouff</q>, Ac</rdg></app></placeName> fra kyrkegorth<ex>e</ex>n och <app><lem>in</lem><rdg>Mangler, Ab</rdg></app> tel <placeName>Steengordh</placeName>s <app><lem>leth</lem><rdg><q>lidh</q>, Ab</rdg></app> j th<ex>e</ex>n syndre strand ♦</p>
+            <p n="a#4" xml:space="preserve">Item at lade ther<ex>es</ex> heste och <app><lem>swa dant</lem><rdg><q>anden</q>, Ac</rdg></app> sma <app><lem>fæ</lem><rdg><q>och halffue</q> tilføjet; <q>h</q> i <q>halffue</q> muligvis fejl for <q>k</q>, dvs.
+            <q>fæ och kalffue</q>, Ac</rdg></app> gaa vpa <placeName>Sprowe</placeName> swo som andre wor<ex>e</ex> foghedes heste och fæ
+      swa och at the mwæ lade ther<ex>e</ex> heste fæ och kalwæ ga vpa <placeName><app><lem>Halseskow</lem><rdg><q>Halsse skouue</q>, Ab</rdg></app></placeName> vndentagh<ex>et</ex> / at the jkæ hugge skowen æll<ex>e</ex>r trææn
+      neth<ex>e</ex>r / och wele the lade ther<ex>es</ex> swiin th<ex>e</ex>r <app><lem>vp</lem><rdg><q>paa</q>, Ac</rdg></app> / th<ex>et</ex> vnne wy och thogh swa at giue th<ex>e</ex>r olden giald aff
+      so<ex>m</ex> andre ♦</p>
+            <p n="a#5" xml:space="preserve">Fre<ex>m</ex>deles vnne wy th<ex>e</ex>m aff <app><lem>wor</lem><rdg>Mangler, Ac</rdg></app> serdeles nathe / och kierlighet <app><lem>røør</lem><rdg>Med senere hånd er ovenpå ordet skrevet <q>Rør</q>, Aa</rdg></app> thagh vpa <placeName><app><lem>Halseskow</lem><rdg><q>Halsse skouue</q>, Ab</rdg></app></placeName> eft<ex>er</ex>
+      <app><lem>thy</lem><rdg>Mangler, Ac</rdg></app> so<ex>m</ex> the behøue tel ther<ex>e</ex> hwss och bygni<ex>n</ex>gh j th<ex>e</ex>n
+        for<hi rend="sup">de</hi> by <placeName>Korssør</placeName> ♦</p>
+            <p n="a#6" xml:space="preserve">Item at the torff och <app><lem>market</lem><rdg><q>marchnedt</q>, Ab</rdg></app> hau<ex>e</ex> so<ex>m</ex> andre køpstæth<ex>e</ex>r / och th<ex>e</ex>r scal almwæn
+      aff <placeName>Thornburghs soghn</placeName> / <placeName><app><lem>Wemerleff</lem><rdg><q>Wemmerløue</q>, Ab</rdg></app> sokn</placeName> / och <placeName><app><lem>Hy<ex>m</ex>mershøye</lem><rdg><q>Hymmersleye</q>, Ab; <q>Hemmeszee</q>, Ac</rdg></app><ex/><app><lem>sokn</lem><rdg><q>søge</q> tilføjet, Ac</rdg></app></placeName> tel køpsth<ex>eth</ex> och torgh søke / och ikæ anderstaths och
+      th<ex>et</ex> biwthe wy almwæn aff thesse for<hi rend="sup">de</hi> thre soknæ swo at gøre och
+      holde ♦</p>
+            <p n="a#7" xml:space="preserve">Item at the mughe fare och wand<ex>re</ex> och køpsla j wor<ex>e</ex> righe och land
+      m<ex>eth</ex> swa dan friihet so<ex>m</ex> wor<ex>e</ex> b<ex>ur</ex>ghe<ex>re</ex> j
+        <placeName>Roskilde</placeName> och j <placeName>Calu<ex>n</ex>burgh</placeName>
+      gør<ex>e</ex> ♦</p>
+            <p n="a#8" xml:space="preserve">Item vnne wy <app><lem>at hwo</lem><rdg><q>och dem</q>, Ac</rdg></app> so<ex>m</ex> tel th<ex>e</ex>m infar<ex>e</ex> wel at bygge och bo m<ex>eth</ex>
+      th<ex>e</ex>m æll<ex>e</ex>r och ellers at the far<ex>e</ex>
+      <app><lem>th<ex>e</ex>r</lem><rdg>Mangler, Ac</rdg></app> in och vt frij och vhindrethe <app><lem>aff</lem><rdg><q>och</q>, Ac</rdg></app> wor<ex>e</ex> foghede / och embitzmæ<ex>n</ex> / och aff hwer ma<ex>n</ex> the
+      so<ex>m</ex> sigh skellighe / och ærlighe berghe wele och sigh m<ex>eth</ex> ær<ex>e</ex>
+      forsware wele och kw<ex>n</ex>ne ♦</p>
+            <p n="a#9" xml:space="preserve">Item vpa th<ex>et</ex> at byæn <app><lem>ma thes</lem><rdg><q>maatthe</q>, Ab</rdg></app> bethre bygges / och <app><lem>bethres</lem><rdg><q>forbedris</q>, Ac</rdg></app> tha vnne wy och giue <app><lem>alle</lem><rdg>Mangler, Ac</rdg></app> the so<ex>m</ex> th<ex>e</ex>r bygge och boo alle rethe och the h<ex>er</ex>
+      eft<ex>er</ex> th<ex>e</ex>r boende worthe frij for skat och swa dan thu<ex>n</ex>ge
+      so<ex>m</ex> th<ex>e</ex>m aff wor<ex>e</ex> / och wor<ex>e</ex>
+      eft<ex>er</ex>ko<ex>m</ex>meres foghede / och embitzmen / tel matte legg<ex>es</ex> tel ewich
+      tiidh vden th<ex>et</ex> war<ex>e</ex> swa at nogh<ex>e</ex>r ma<ex>n</ex> vtlensk
+      æll<ex>e</ex>r jnle<ex>n</ex>skh twedracht æll<ex>e</ex>r <app><lem>vmagh</lem><rdg><q>trætthe</q>, Ab; <q>vænighet</q>, Ac</rdg></app>
+      <app><lem>inførthe</lem><rdg><q>i sehr</q>, Ac</rdg></app>
+      <app><lem>giorthe</lem><rdg>Herefter <q>eller</q>, Ab, Ac</rdg></app> / ellers vp stothe j wor<ex>e</ex> land <app><lem>æll<ex>e</ex>r</lem><rdg><q>och</q>, Ab, Ac</rdg></app> rike / oss æy nærwære<ex>n</ex>de / at the th<ex>e</ex>r wor<ex>e</ex> foghede och embithzmæ<ex>n</ex>
+      <app><lem>fullelighe</lem><rdg><q>friwillige</q>, Ac</rdg></app> tel følghe at hielpe th<ex>et</ex> at styre / och aff at we<ex>n</ex>de m<ex>eth</ex>
+      troscap eft<ex>er</ex> thy th<ex>et</ex> tha behoff gørs / ♦</p>
+            <p n="a#10" xml:space="preserve"><app><lem>H<ex>e</ex>r</lem><rdg><q>ther</q>, Ab, Ac</rdg></app> m<ex>eth</ex> taghe wy th<ex>e</ex>m och vntfa m<ex>eth</ex> ther<ex>e</ex> folk och
+      gothz och hion vtj wor koni<ex>n</ex>glich freth wern och <app><lem>beskermni<ex>n</ex>g</lem><rdg><q>beskermelse</q>, Ab, Ac</rdg></app>
+      <app><lem>nathelighe</lem><rdg><q>besynderlike</q>, Ab</rdg></app> at <app><lem>fordethinge</lem><rdg><q>fordeythinghe</q>, Ab; <q>fordagtinge</q>, Ac</rdg></app> beskerme och forswar<ex>e</ex> tel rætte / och forbiwthe <app><lem>wy</lem><rdg>Mangler, Ab</rdg></app> alle mæ<ex>n</ex> her <app><lem>amod</lem><rdg><q>omodh</q>, Ab</rdg></app> at gør<ex>e</ex> vnder wor koni<ex>n</ex>glike heffnd och wrethe vden th<ex>et</ex> swa
+      kw<ex>n</ex>ne ske th<ex>et</ex> wy ell<ex>e</ex>r wor<ex>e</ex>
+      eft<ex>er</ex>ko<ex>m</ex>mer<ex>e</ex> ko<ex>n</ex>ni<ex>n</ex>ge æll<ex>e</ex>r <app><lem>h<ex>er</ex>re</lem><rdg><q>herrer</q>, Ab, Ac; <q>her</q> tilføjet, Ac</rdg></app> j <placeName>Da<ex>n</ex>mark</placeName> nogh<ex>et</ex> serdelis aff th<ex>e</ex>m
+      haue wilde / och anseende <app><lem>worthe</lem><rdg><q>them tha</q>, Ab</rdg></app> for swo dan nytighet skyld <app><lem>th<ex>e</ex>r</lem><rdg><q>thienne</q>, Ac</rdg></app> oss och righ<ex>et</ex> macht vpa laghe at the th<ex>e</ex>r tha wellighe tel war<ex>e</ex>
+      <app><lem>eft<ex>er</ex> th<ex>et</ex></lem><rdg><q>efftherthy</q>, Ab, Ac</rdg></app> oss tha behoff gørs th<ex>e</ex>m tel at <app><lem>sighe</lem><rdg><q>lighe</q>, Ab</rdg></app> ♦</p>
+            <p n="a#11" xml:space="preserve">Item <app><lem>hwat</lem><rdg><q>hues</q>, Ab</rdg></app> th<ex>e</ex>r faller <app><lem>for brøde æll<ex>e</ex>r</lem><rdg>Mangler, Ab</rdg></app> aff brøde pe<ex>n</ex>ni<ex>n</ex>ge at the th<ex>e</ex>r bethre ther<ex>e</ex> by meth
+      ♦</p>
+            <p n="a#12" xml:space="preserve"><app><lem>Item</lem><rdg>Utydeligt, derefter rasur, Aa</rdg><rdg><q>Item</q>, Ab</rdg><rdg><q>saa</q>, Ac</rdg></app> b<ex>ur</ex>ghemeste<ex>re</ex> och byfogh<ex>et</ex>
+      <app><lem>at</lem><rdg><q>och</q>, Ac</rdg></app> the th<ex>e</ex>m welghe aff sigh selffue / <app><lem>och p<ex>re</ex>sentere th<ex>e</ex>m swo</lem><rdg><q>forbettre. Item wi</q>, Ac</rdg></app> och sende tel oss och wor<ex>e</ex> eft<ex>er</ex>ko<ex>m</ex>me<ex>re</ex> /
+      th<ex>e</ex>m at stathfeste om oss th<ex>e</ex>m thycker <app><lem>th<ex>e</ex>r</lem><rdg><q>derrisz</q>, Ac</rdg></app> nytte / och <app><lem>felde tel wær<ex>e</ex></lem><rdg><q>och sielffuer thill bedste</q>, Ac; <q>wære</q>] <q>wore</q>, Ab</rdg></app> ♦</p>
+            <p n="a#13" xml:space="preserve">Alle thesse for<hi rend="sup">de</hi> artikele p<ex>re</ex>uilegiæ friihet och nathe och <app><lem>hwert</lem><rdg><q>huadt</q>, Ac</rdg></app> ther<ex>e</ex> serdelis wit sigh / vnne wy och stadhfeste wor<ex>e</ex> bymæ<ex>n</ex>
+      j <placeName>Korssør</placeName> at haue / brughe och nyde j alle made so<ex>m</ex>
+      h<ex>e</ex>r foresc<ex>re</ex>ffu<ex>et</ex> staar ♦</p>
+            <p n="a#14" xml:space="preserve">Och thes tel mer<ex>e</ex> widerlichet och stadhfestelse haue wy <app><lem>wor secret</lem><rdg><q>secretet</q>, Ac</rdg></app>
+      <app><lem>widerlikæ</lem><rdg><q>sønderlig</q>, Ac</rdg></app> befalet och butheth at he<ex>n</ex>ges for th<ex>ett</ex>e breff ♦</p>
+            <p n="a#15" xml:space="preserve">Datum in <placeName>castro nostro Korssør</placeName> anno <app><lem>Domini</lem><rdg><q>die</q>, Ac</rdg></app> millesimo <app><lem>quadri<supplied>n</supplied>gentesimo</lem><rdg><q>quadrigentesimo</q>, Aa</rdg><rdg><q>quadragesimo</q>, Ac</rdg></app>
+      <app><lem>vicesimo</lem><rdg><q>millesimo ... quadri<supplied>n</supplied>gentesimo</q>, Aa = <q>m. cd xx
+          qvinto</q>, Ab</rdg></app>
+      <app><lem>crastino beate Katherine virginis gloriose</lem><rdg>Mangler, Ac; <q>gloriose</q>] Mangler, Ab</rdg></app> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

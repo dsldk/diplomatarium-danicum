@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14261027001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection/>
+                        <idno>NKR a-2973 (tidl. sign. Lybeck og Hansestæderne, Skab 27, nr.
+                           32)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>64,5</height>
+                                    <width>38,5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Venstre margen af notarunderskriften er indrykket for at give
+                                 plads til notarmærket</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Samtidig påskrift på bagsiden: <q>Instrumentum confederacionis inter
+                                 dominum regem et civitates</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="99999999" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="99999999" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6276</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter A.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-10-27"
+                  notBefore="1426-10-27"
+                  notAfter="1426-10-27"
+                  cert="high">1426.
+               27. oktober</date>
+            <placeName cert="high">Kalundborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Notarialinstrument af Jacobus Blodow, offentlig notar og klerk fra Ermland stift,
+               hvorved han efter anmodning af dronning Filippa vidimerer den traktat, der blev
+               sluttet mellem kong Erik 7. af Pommern og hansestæderne Lübeck, Rostock, Stralsund,
+               Wismar, Lüneburg, Greifswald og Anklam 15. juni 1423.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-15" who="#pbh">Filen etableret af #pbh 2014-07-15. </change>
+         <change when="2018-05-03" who="#pbh">Tekst indskrevet, arkivalske oplysninger,
+            regest</change>
+         <change when="2018-05-04" who="#pbh">Korrektur af mh</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In nomine domini amen ♦</p>
+            <p>Anno a nativitate ejusdem millesimo quadrin<supplied>gen</supplied>tesimo
+               vicesimosexto indiccione quarta die vero mensis octobris vicesimaseptima hora nona
+               vel quasi pontificatus sanctissimi in Christo patris et domini nostri domini Martini
+               divina providencia pape quinti anno nono <placeName>in camera regia castri
+                  Callingenborchg</placeName> Roskildensis dyocesis in mei notarii publici
+               testiumque infrascriptorum ad hoc specialiter vocatorum et rogatorum presencia
+               personaliter constituta serenissima princeps et domina mea graciosa domina
+                  <persName>Philippa dei gracia Dacie <app>
+                     <lem>Svecie</lem>
+                     <rdg>svært læsbart ord, måske <q>Svacie</q> A</rdg>
+                  </app> Norwegie Sclavorum Gottorumque regina ac ducissa Pomeranie</persName>
+               habens et tenens in manibus suis quandam patentem litteram in pergameno scriptam
+               infrascriptorum serenissimi principis et <persName>domini regis</persName> suorumque
+               consiliariorum ex una / ac civitatum maritimarum similiter infra nominatorum ex
+               altera partibus veris et indubitatis sigillis ut prima facie apparebat in armis
+               signis / et circumferencialibus litteris impendentibus sigillatam non rasam non
+               abolitam non cancellatam nec in aliqua sui parte videlicet pergameno litteris vel
+               sigillis suspectam sed omni prorsus vicio et suspicione carentem quam michi notario
+               porrexit / et tradidit meque cum instancia debita monuit et requisivit / ut eandem
+               sub manu mea publica fideliter exemplarem et in publicam redigerem formam quam et
+               recepi vidi palpavi et diligenter respexi necnon et alta intelligibili voce coram
+               astantibus legi et publicavi ♦ </p>
+            <p>Cujus tenor in theutunico de verbo ad verbum sequitur et est talis ♦ </p>
+            <p>In deme namen der hilgen dreuoldichett amen <q>(etc. = <ref target="14230615001" type="link">DD
+                     1423. 15. jun., nr. 14230615001</ref>)</q> ♦ </p>
+            <p>Super quibus omnibus et singulis prenominata illustrissima domina domina Philippa dei
+               gracia Dacie Suecie Norwegie Sclavorum Gothorumque regina et ducissa Pomeranie me
+               notarium publicum infrascriptum debita cum instancia requisivit ut sibi super hiis
+               unum vel plura vel quotquot essent necessaria conficerem instrumentum vel instrumenta
+               ♦ </p>
+            <p>Acta sunt hec anno die hora loco pontificatu et aliis quibus supra presentibus ibidem
+               venerabilibus et nobilibus viris dominis domino <persName>Johanni dei gracia episcopo
+                  Roschildensis</persName> ecclesie <persName>Hemmingho de Usden militi</persName>
+               Roschildensis diocesis <persName>Petro Munk</persName> beati Martini in Randerhus et
+                  <persName>Laurencio Svenonis</persName> beate Gerdrudis in Grindu ecclesiarum
+               rectoribus Arusiensis diocesis testibus una mecum ad premissa vocatis specialiter et
+               rogatis ♦ </p>
+            <figure>
+               <figDesc>Til venstre herfor Jacobus Blodows notarmærke</figDesc>
+            </figure>
+            <p>Et ego <persName>Jacobus Blodow</persName> clericus Warmiensis diocesis publicus
+               imperiali auctoritate notarius quia hujusmodi porreccioni et exemplacioni ac omnibus
+               aliis premissis dum sic ut premittitur fierent et agerentur unacum prenominatis
+               testibus presens interfui omnia et singula sic fieri vidi et audivi ideoque hoc
+               presens publicum instrumentum propria manu mea scriptum exinde confeci auctenticavi
+               publicavi et in publicam formam redegi signoque et nomine meis solitis et consuetis
+               signavi rogatus et requisitus in fidem et testimonium omnium et singulorum
+               premissorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

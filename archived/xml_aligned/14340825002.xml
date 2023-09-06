@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">112</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14340825002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>Tabt</repository>
+                        <collection>registreret Stockholm. Riksarkviet, SDHK 22221: a) B 29 (Skånebrevsfortegnelsen) Acta privata, f. 386v nr. 257. I margin <ex>vidisse</ex>;
+                        b) E 102a (Peringskiölds Diplomatarium, udkast til B 29) f.1 23r nr. 12. I margin: <ex>Witnesskriftt</ex> og c) E 102a (Peringskiölds Diplomatarium, udkast til B 29) f. 274v nr. 281</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6725</bibl>
+               <bibl>SMR nr. 132</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>registraturerne</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-08-25"
+                  notBefore="1434-08-25"
+                  notAfter="1434-08-25"
+                  cert="high">1434. 25. august<note>Det er umuligt at afgøre, hvilket beløb, 2100 eller 121 nobler, der er det rigtige</note>
+            </date>
+            <placeName cert="unknown">Gärdslöv</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Vidisse af et brev af kong Erik 7. af Pommern hvorved biskoppen af Trondheim kvitteres for 121 eller 2100 nobler. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">a) <persName>Petrus archieepiscop</persName> i <placeName>Lund</placeName>, <persName>Severinus piscop</persName> i <placeName>Färöy</placeName>, <persName>Johannes Laxman diäken</persName>, 
+               och <persName>Jacob af Högby archiediäkn</persName> attestere sig hafwa sedt och läsit <persName>konung Erichz</persName> bref gifwet <placeName>piscopen i Nidros</placeName> <persName>Aslak</persName>, hwar utjn<ex>n</ex>an
+                        honom efttegafs 2100 nobler, hans fader <persName>archiepiscop Eskil</persName> cronan skyldig war. Datum <placeName>Geritzlöf</placeName> feria proxima post festum beati Bartolomei, som är 
+               <app><lem>dhen 1 september</lem><rdg resp="#mh">Åbenlyst forkert datering. Bartholomæusdag falder 24. august</rdg></app> 1434.</p>
+            <p n="a#2" xml:space="preserve">b) Archiebiscop Petri vidisse af konunghz Erickz uthgifne till <persName>Aslack bisp </persName>af <placeName>Trunhiem</placeName> quittantia på dhe 121 nobler som hans 
+               forfader <persName>erchiebiscop Eschill</persName> skyldig war. Datum 1434.</p>
+            <p n="a#3" xml:space="preserve">c) Vidisse af kong Erichz breef som han quitterade biscopen af <placeName>Trunhem</placeName> for någon gield bestående af 121 nobler som hanss antecessor skyldig war. Datum 1434.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

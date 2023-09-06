@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">339</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14220226001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Suppl. 154 fol. 81</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 333 nr. 1398</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-02-26"
+                  notBefore="1422-02-26"
+                  notAfter="1422-02-26"
+                  cert="high">1422. 26.
+          februar</date>
+            <placeName cert="high">Rom</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. bevilger tre supplikker. Den første af provsten, kannikerne og kapitlet i
+          Børglum om at få bekræftelse på deres privilegier. Den anden af de samme om at få
+          tilladelse til at fortsætte med at bære hvid korkåbe og pelskrave med hætte under
+          gudstjenesten, ligesom andre domkapitlers kanniker, og om at hver enkelt kannik fortsat må
+          beholde de ting, som han modtager på en hvilken som helst lovlig måde. Den tredje af Jens
+          Nielsen, provst i Børglum, om at få tilladelse til at vælge en skriftefader, som én gang i
+          hans liv og i hans dødsstund kan meddele ham fuld syndsforladelse. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-03-20" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Supplicatur pro parte prepositi canonicorum et capituli ecclesie
+            <placeName>Burglanensis</placeName>
+               <placeName>regni Dacie</placeName> provincie <placeName>Lundensis</placeName> regularem
+          vitam professorum, quatenus, ipsos et ecclesiam suam Burglanensem sub s. Petri atque
+          vestra protectione suscipientes, <supplied>ut</supplied> omnia privilegia a
+          predecessoribus vestris ipsis et eidem ecclesie concessa <supplied>et</supplied> quecunque
+          bona dicta ecclesia impresentiarum juste et canonice possidet concessione pontificum,
+          largitione regum seu militum, oblatione fidelium seu aliis justis modis aut in futurum
+          prestante domino poterit adipisci, firma eis et suis successoribus et ecclesie prefate
+          illibata permaneant, <supplied>concedere</supplied> necnon libertates et exemptiones
+          secularium exactionum a regibus vel principibus vel aliis fidelibus ipsis indultas
+          confirmare <app>
+                  <lem>dignemini <supplied>ac</supplied> communire</lem>
+                  <rdg>Gertz</rdg>
+                  <rdg>
+                     <q>dignemini communiri</q>, Aa</rdg>
+               </app> ... </p>
+            <p>Fiat. O.</p>
+            <p>Item <supplied>quatenus</supplied> prefatis preposito canonicis et capitulo dicte
+          ecclesie Burglanensis, ut licite portare valeant superpellicium et almucium, quemadmodum
+          alii canonici ecclesiarum cathedralium ejusdem ordinis et observantie existentium tempore
+          divinorum portant et portare sunt consueti, ac etiam, ut prefati canonici singulariter
+          singuli, quicquid eis a suis superioribus vel aliis Christi fidelibus sive in
+          possessionibus sive in decimis sive aliis piis largitionibus et oblationibus ad victum et
+          amictum devote distribuitur et pie largitum fuerit, <app>
+                  <lem>sicud</lem>
+                  <rdg>
+                     <q>= sicut</q>
+                  </rdg>
+               </app> hactenus usi sunt, licite recipere et libere retinere et uti valeant, indulgere
+          dignemini.</p>
+            <p>Fiat, si sine scandalo. O.</p>
+            <p>Item supplicatur pro parte <persName>Johannis Nicolai</persName> prepositi ecclesie
+          Burglanensis, quatenus sibi, ut aliquem idoneum et discretum presbiterum in suum possit
+          eligere confessorem, qui confessionibus suis diligenter auditis pro commissis, etiam si
+          talia fuerint, propter que sedes apostolica sit merito consulenda, debitam absolutionem
+          impendat et injungat penitentiam salutarem eumque nichilominus ab omnibus
+          excommunicationis suspensionis et interdicti sententiis, si quas a jure vel ab homine
+          promulgatas hactenus forsan incurrit, etiam si absolutio Romano pontifici dumtaxat
+          reservata fuerit, aliisque excessibus et delictis absolvat in forma ecclesie consueta ac
+          secum super irregularitate, si quam hujusmodi sententiis ligatus celebrando divina vel
+          immiscendo se illis, non tamen in contemptum clavium, incurrit, dispenset omnemque
+          inhabilitatis et infamie maculam per eum premissorum occasione contractam aboleat necnon
+          sibi plenariam remissionem omnium peccatorum suorum semel in vita ac semel in articulo
+          mortis impendere valeat, indulgere dignemini.</p>
+            <p>Fiat. O.</p>
+            <p>Datum <placeName>Rome</placeName> 4. kal. martii anno 5. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

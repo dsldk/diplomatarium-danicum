@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">786</num>, paragraphs: <num n="paragraphs">13</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250314001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>b-2911</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 59 × 30.7 (plica: 8.6). <ab>På bagsiden kancellipåskrift: <q>R(egistrata) \ Henricus Fije</q>
+                              samt eftermiddelalderlig påskrift: <q>Sigismundi Breff at maa gøre
+                                 notarios och protonotarios och gøre Bastert ecte</q>
+                        </ab>1. Kong Sigismunds majestætssegl i sort/hvidt snoet garn. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>Österreichisches Staatsarchiv</repository>
+                        <collection>Haus-, Hof- und Staatsarchiv. Reichsarchive. Reichskanzlei.
+                           Reichsregisterbücher</collection>
+                        <idno>AT-OeStA/HHStA RK Reichsregister H</idno>
+                        <msName>Hauskanzleiregistraturbuch 1423-1428, f. 78r</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Overskrift: <q>Potestas regi Dacie creandi notarios et legittimandi
+                                 spurios</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Kancellipåskriften i A antyder, at dette dannede forlæg for denne
+                           registratur, men flere for indholdet uvæsentlige tekstafvigelser tyder
+                           på, at forlægget var en koncept; en væsentlig variant er datoen, som her
+                           er 12. marts</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium 26: XIV A 26 </msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Overskrift: <q>Sigismundi imperatoris concessio Erico regi facta
+                                 tabelliones et notarios creandi, et spurios et bastardos
+                                 legittimandi</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6183</bibl>
+               <bibl>Regesta Imperii XI,2 nr. 6186</bibl>
+               <bibl>Dansk udtog med år 1423: Hvitfeld IV 339, Fol. 697</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-03-14"
+                  notBefore="1425-03-14"
+                  notAfter="1425-03-14"
+                  cert="high">1425.
+               14. marts</date>
+            <placeName cert="high">Tata</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Sigismund giver kong Erik 7. af Pommern ret til at udnævne notarer på den
+               betingelse, at disse sværger troskab til kejseren og kejserdømmet og aldrig virker
+               til skade for kejseren. Notarerne skal skrive og læse såvel offentlige som private
+               breve, testamenter og andre retsgyldige dokumenter korrekt og uvildigt, og
+               affattelsen skal ske på pergament, ikke på papir. Ligeledes skal de arbejde til gavn
+               for hospitaler og udsatte mennesker samt offentlige broer og veje. Vidneudsagn skal
+               de holde fortrolige, indtil de er blevet offentliggjort. Endelig vil notarerne kunne
+               udfærdige dokumenter hvor som helst, og disse skal respekteres hvorsomhelst. Videre
+               giver kejseren kong Erik ret til at gøre uægte børn legitime, så de bliver fuldt
+               arveberettigede. Dette kan ske, hvad enten forældrene er i live eller ej. Undtaget er
+               dog børn af markgrever, grever og baroner. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-26" who="#pbh">Filen etableret af #pbh 2014-06-26. </change>
+         <change when="2018-12-05" who="#pz">1. korrektur af #pz 2018-12-05. </change>
+         <change when="2018-12-19" who="#mh">2. korrektur af #mh 2018-12-19. </change>
+         <change when="2019-02-26" who="#pz">3. korrektur af #pz 2019-02-26. </change>
+         <change when="2019-11-13" who="pbh">PBH tilf. henvisning til kilden i Wien
+            2019-11-13</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Sigismundus dei gracia Romanorum rex semper Augustus ac Hungarie Boemie Dalmacie
+                        Croacie etcetera rex serenissimo principi domino Erico Dacie Swecie Norwegie
+                        Sclavorum et Gottorum regi et duci Pomeranie awnculo et fratri nostro
+                        carissimo salutem et fraterni amoris continuum incrementum
+                        ♦</p>
+            <p n="a#2" xml:space="preserve">Serenissime princeps frater carissime . Quamvis regalem
+                        magnificenciam quasi cum sole cottidie deceat in donis concedendis largiflue
+                        relucere . et jugiter aliquid agere / quo regalis nominis gloria possit
+                        attolli . illud tamen thezauris ejus singulariter apponitur per quod
+                        personis regali dignitate suffultis honor impenditur / per quem aliis
+                        poterunt prodesse . et singularibus graciis officium benediccionis impendere
+                        ex quo crescit respublica et honor imperii votiva suscipit incrementa .
+                        ♦</p>
+            <p n="a#3" xml:space="preserve">Sane de vestre legalitatis et circumspeccionis industria magis quam
+                        de mutui sa<supplied>n</supplied>gvinis unione gerentes fiduciam singularem
+                        non per errorem aut improvide sed animo deliberato sanoque principum et
+                        fidelium nostrorum accedente consilio ex certa nostra sciencia . et de
+                        plenitudine Romane regie auctoritatis vobis duximus hanc graciam facere
+                        specialem / dantes et concedentes vobis auctoritatem et plenariam potestatem
+                        ubicumque fueritis constituti tabelliones et notarios publicos faciendi et
+                                cr<damage>ean</damage>di et ipsis hujusmodi tabellionatus et
+                        notariatus officium concedendi et largiendi et quemlibet eorum auctoritate
+                        imperiali per pennam et calamarium prout moris est de hujusmodi officio
+                        investiendi / dum tamen ad <damage>exe</damage>cucionem dicti officii
+                        habiles eos et quemlibet ipsorum inveneritis super quo vestram conscienciam
+                        oneramus ita tamen quod ab ipsis tabellionibus seu notariis publicis per vos
+                        creandis et fiendis ut premittitur ac eorum quolibet vice ac nomine sacri
+                        Romani imperii et <damage>pro</damage> ipso Romano imperio debite
+                        fidelitatis recipiatis corporalia juramenta quod videlicet erunt nobis et
+                        successoribus nostris Romanorum imperatoribus et regibus canonice
+                        intrantibus . et sacro Romano imperio fideles . nec umquam erunt in
+                                consili<damage>is</damage> ubi nostrum tractetur periculum bonum
+                        nostrum et salutem promovebunt pro viribus suis / et dampna nostra pro sua
+                        possibilitate avertent fideliter . ♦</p>
+            <p n="a#4" xml:space="preserve">Instrumenta eciam tam publica
+                        quam privata ultimas voluntates . codicillos . seu testamenta quecumque / et
+                        quecunque judiciorum acta et omnia alia / que ipsis ex debito dicti officii
+                        fienda et scribenda occurrerint . juste . pure . et fideliter . sine dolo
+                        falsitate . et simulacione scribent . legent et facient non attendendo odium
+                        . munera vel favores . ♦</p>
+            <p n="a#5" xml:space="preserve">Scripturas vero per ipsos in formam publicam
+                        redigendas in membranis et non in carthis abrasis nec in papiro conscribent
+                        ♦</p>
+            <p n="a#6" xml:space="preserve">Causas hospitalium et miserabilium personarum . necnon pontes et
+                        stratas publicas pro viribus promovebunt ♦</p>
+            <p n="a#7" xml:space="preserve">Sentencias autem et dicta
+                        testium donec fuerint publicata secrete et fideliter retinebunt . et omnia
+                        et singula recte et fideliter facient . que ad ipsorum officia pertinebunt /
+                        ♦</p>
+            <p n="a#8" xml:space="preserve">Qui quidem tabelliones seu notarii per vos creandi . possint
+                        poteruntque ubicunque locorum facere publicare / auctorizare et conscribere
+                        quoscunque contractus instrumenta judicia / testamenta codicillos . et
+                        ultimas voluntates et cetera omnia exercere et facere . que ad dictum
+                        tabellionatus seu notariatus officium pertinere noscuntur ♦</p>
+            <p n="a#9" xml:space="preserve">Et
+                        decernimus quod instrumentis et scripturis ut premittitur per hujusmodi
+                        tabelliones seu notarios publicos fiendis plena fides ubilibet adhibeatur .
+                        ♦</p>
+            <p n="a#10" xml:space="preserve">Insuper de plenitudine nostre <damage>Ro</damage>mane regie
+                        potestatis . damus et concedimus vobis omnimodam facultatem et auctoritatem
+                        . quod omnes et singulos spurios . et spurias bastardos et bastardas . <cit><quote>manseros</quote><bibl>usædvanlig stavemåde for <q>manzeres</q> (uægte børn, børn af
+                                        en prostitueret)</bibl></cit> . nothos et nothas . et quoscunque quovismodo illegitime et
+                                <damage>ex</damage> damnato coitu natos et natas tam absentes quam
+                        presentes illustrium marchionum comitum et baronum natis dumtaxat exceptis
+                        ubicunque locorum viventibus eorum parentibus seu eciam mortuis et ipsis
+                        presentibus <damage>se</damage>u absentibus volentibus
+                                <damage>et n</damage>o<damage>l</damage>entibus legittimare et ad
+                        legittima jura <app><lem>producere</lem><rdg><q>reducere</q> Aa, måske korrekt</rdg></app> et eis super defectu natalium dispensacionis
+                        beneficium impendere . omnemque infamiam seu maculam geniture abstergere
+                        valeatis . citatis et non citatis / quorum interesse possit vel intersit .
+                        ita quod tales legittimati seu legittimandi . et ad legittima jura reducti
+                        seu reducendi . per vos / ad omnes et singulos honores jura et dignitates
+                        admitti et in bonis . juribus . rebus mobilibus et immobilibus paternis et
+                        maternis agnatorum cognatorum nec<damage>no</damage>n feodalibus
+                        allodialibus et aliis quibuscunque ex testamento seu ab intestato succedere
+                        valeant et ad quoslibet alios actus legittimos admitti debeant et debebunt
+                        ac si legittime et de legittimo essent thoro nati dummodo legittimaciones
+                        per vos <damage>fi</damage>ende ut premittitur . legittimis heredibus non
+                        prejudicent quovismodo . quantum ad successionem hujusmodi bonorum non
+                        obstantibus quibuscunque legibus imperialibus seu municipalibus communibus
+                        vel privatis . statutis / consve<damage>tu</damage>dinibus
+                                de<damage>cretis</damage> provisionibus ordinamentis usantiis et
+                        faccionibus quibuscunque editis et edendis . eciam si tales vel talia forent
+                        de quibus expressam de verbo ad verbum in presentibus necesse esset fieri
+                        mentionem ♦</p>
+            <p n="a#11" xml:space="preserve">Quibus omnibus si et in quantum pre<damage>senti
+                                nostre</damage> concessioni gracie seu in aliquibus in ea contentis
+                        in aliquo vel aliquibus quovismodo . quavis de causa directe vel indirecte
+                        contrariari seu obviare possent et viderentur ex certa nostra sciencia ac de
+                        Romane regie potestatis plenitudine de<damage>ro</damage>gamus . et esse
+                        decernimus derogatum . presentibus ad vestre vite duntaxat tempora duraturis
+                        ♦</p>
+            <p n="a#12" xml:space="preserve">Presencium sub nostre majestatis sigillo testimonio literarum .
+                        datum in oppido Tata Vesprimiensis dyocesis anno domini millesimo
+                        quadringentesimo vigesimoquinto . <app><lem>die quartadecima mensis martii</lem><rdg><q>xii . die marcii</q> Aa</rdg></app> . regnorum
+                        nostrorum anno Hungarie etcetera tricesimooctavo Romanorum quintodecimo et
+                        Boemie quinto ♦</p>
+            <p n="a#13" xml:space="preserve">Ad mandatum domini regis Johannes episcopus
+                        Zagrabiensis . cancellarius♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatarium Danicum</title>
+        <editor>
+          <name xml:id="pbh">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
+      <publicationStmt>
+        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <pubPlace>København</pubPlace>
+        <date>2017</date>
+        <idno type="dd">14240527002</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository>empty</repository>
+                <collection>empty</collection>
+                <idno>empty</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Tabt</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Aa">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom</settlement>
+                <repository>Archivio Segreto Vaticano</repository>
+                <idno>Reg. Lat. 244 fol. 206v</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>Påskrift: <q>Franciscus XXX. 4. id. junii anno 7. de Agello</q></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>APD II 357 nr. 1439</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+      </samplingDecl>
+      <projectDesc>
+        <ab>DD-5</ab>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+          <desc>nil</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1424-05-27" notBefore="1424-05-27" notAfter="1424-05-27" cert="high">1424. 27.
+          maj</date>
+        <placeName cert="high">Rom, Santi Apostoli</placeName>
+      </creation>
+      <abstract>
+        <ab> Pave Martin 5. pålægger biskoppen i Århus at overdrage provstiet i Vestervig kloster,
+          der er ledigt ved den tidligere indehaver Jens (Pedersens) død, til Hagen Friis, kong
+          Eriks kapellan og præst i Roskilde stift, når denne er indtrådt i klostret, hvis han
+          finder ham egnet til dette embede.</ab>
+      </abstract>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>empty</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2014-06-20" who="#pbh">Filen etableret af #pbh 2014-06-20. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="nil"/>
+  </facsimile>
+  <text>
+    <body>
+      <div xml:lang="la">
+        <p n="a#1">Episcopo <placeName>Arusiensi</placeName>.</p>
+        <p>Dignum (arbitramur et congruum ut illis se reddat sedes apostolica graciosam quibus ad id
+          propria virtutum merita laudabiliter suffragantur).</p>
+        <p>Hodie siquidem per nos accepto, quod <persName>Haquinus Friis</persName> presbiter
+            <placeName>Roskildensis</placeName> cuperet in monasterio in
+            <placeName>Westerwich</placeName> ordinis s. Augustini
+            <placeName>Burglanensis</placeName> diocesis una cum conventu ejusdem monasterii sub
+          regulari habitu virtutum domino famulari, nos tibi aliis nostris litteris dedimus in
+          mandatis, quatinus eundem Haquinum <app>
+            <lem><supplied>si alias esset idoneus et aliud canonicum non obsisteret, auctoritate
+                nostra in prefato monasterio, si in eo certus esset canonicorum numerus, et aliquis
+                de hujusmodi numero deesset ad presens, extunc, alioquin, quamprimum defuisset, vel
+                si in monasterio ipso dictus numerus non existeret, dummodo per hoc hujusmodi
+                monasterium nimium non gravaretur</supplied></lem>
+            <rdg>udeladt i APD, mutatis mutandis tilføjet efter <ref target="14240527001">DD 1424.
+                27. maj, nr. 14240527001</ref></rdg>
+          </app> reciperes in canonicum <app>
+            <lem><supplied>et in fratrem sibique juxta ipsius monasterii consuetudinem regularem
+                habitum exhiberi ac de communibus ejusdem monasterii proventibus sicuti uni ex aliis
+                canonicis integre provideri ipsumque ibidem sincera in domino caritate tractari
+                  <supplied>faceres</supplied>, et nichilominus regularem professionem per canonicos
+                monasterii predicti emitti consuetam ab ipso Haquino, si eam in tuis manibus
+                emittere voluisset, auctoritate nostra reciperes.</supplied></lem>
+            <rdg>udeladt i APD, mutatis mutandis tilføjet efter <ref target="14240527001">DD 1424.
+                27. maj, nr. 14240527001</ref></rdg>
+          </app></p>
+        <p>Cum itaque prepositura dicti monasterii, que dignitas conventualis existit, et quam
+            <persName>Johannes</persName> obtinebat, per ejusdem Johannis obitum vacet, nullusque de
+          illa preter nos hac vice disponere possit pro eo, quod nos dudum antea omnes dignitates
+          conventuales . . dispositioni nostre reserva[vimus], nos, volentes dictum Haquinum . . .
+          consideratione <persName>Erici</persName> regis <placeName>Dacie</placeName>, pro ipso
+          Haquino dilecto suo capellano nobis super hoc supplicantis, favore prosequi gratioso,
+          fraternitati tue mandamus, quatenus, si per diligentem examinationem dictum Haquinum,
+          postquam ipse, exhibito sibi hujusmodi habitu, in canonicum dicti monasterii receptus
+          fuerit eandemque professionem emiserit, ad hoc idoneum esse reppereris, preposituram
+          predictam [fructus 20 mr.] eidem Haquino auctoritate predicta conferas.</p>
+        <p>Datum <placeName>Rome apud ss. Apostolos</placeName> 6. kal. junii anno 7.</p>
+      </div>
+      <div xml:lang="da">
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

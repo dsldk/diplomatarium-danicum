@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">2376</num>, paragraphs: <num
+               n="paragraphs">49</num>. Translation, number of words: <num n="words">2763</num>,
+            paragraphs: <num n="paragraphs">49</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14170825001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>fol. 114-119</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tre dobbeltblade</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med overskriften: <q>In nomine Domini, amen</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. I:6 nr. 479 p. 459-464</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l. l., hvorfra også de arkivalske oplysninger
+                  stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-08-25" notBefore="1417-08-25" notAfter="1417-08-25" cert="high">1417.
+               25. august</date>
+            <placeName cert="high">Rendsburg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Reces omhandlende forhandlingerne mellem de vendiske hansestæder, holstenerne og
+               kong Erik 7. af Pommern.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-16" who="#smb">Filen etableret af #smb 2017-06-16. </change>
+         <change when="2017-06-16" who="#smb">1. korrektur af #smb 2017-06-16. </change>
+         <change when="2017-10-26" who="#smb">2. korrektur af #smb 2017-10-26. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Na Godes bort 1400 in deme 17. jare <app>
+                  <lem>des midwekens vor sunte Johans dage decollacionis</lem>
+                  <rdg>dvs. 25. august 1417</rdg>
+               </app> weren tosamende vorgaddert to <placeName>Rendesborch</placeName> tor dachvart
+               de heren radessendeboden der stede hir na gescreven: van
+                  <placeName>Lubeke</placeName> her <persName>Cord Brekewolt</persName>, her
+                  <persName>Tideman Steen</persName>; van <placeName>Rostok</placeName> her
+                  <persName>Ulrik Grulle</persName>; van deme <placeName>Stralessunde</placeName>
+               her <persName>Symon van Urden</persName>, her <persName>Johan Golnisse</persName>
+               unde van der <placeName>Wismer</placeName> her <persName>Gherd Belouwe</persName>;
+               welke dachvart geramet was up <app>
+                  <lem>unser vrouwen dach assumpcionis negest vorleden</lem>
+                  <rdg>dvs. Mariæ Himmelfartsdag, 15. august 1417</rdg>
+               </app>.</p>
+            <p n="a#2">
+               <supplied>1</supplied> Int erste spreken de van <placeName>Lubeke</placeName>, alse
+               se to <placeName>Rendesborch</placeName> gekomen weren, mit <persName>hertoghen
+                  Bernde van Brunswiik</persName> unde den Holstenheren, unde gheven en to kennende,
+               wo dat se dar umme des gemenen besten willen gekomen weren, alse de dach vorramet
+               were up unser vrouwen daghe assumpcionis vorscreven; konden se nu wes gudes dar to
+               don unde dar in arbeiden, dat wolden se mit allem willen gerne don etc.; ok so
+               hopeden se, dat lichte mer stede dar komende worden, wente en gescreven were, dat
+               desse vorscreven andere stede komende worden, unde beden, dat se bestellen wolden
+               umme dat geleide to Plone etc.</p>
+            <p n="a#3">
+               <supplied>2</supplied> Hir to antworden de Holstenheren unde danckeden den steden,
+               dat se dar gekomen weren etc., unde seden, wo dat se deme daghe, alse de geramet
+               were, vul gedan hadden, wente se ere schedeslude dar bii siik <app>
+                  <lem>hadden</lem>
+                  <rdg>mangler i Aa</rdg>
+               </app>, de dar wol achte daghe up geleghen unde gewardet hadden.</p>
+            <p n="a#4">
+               <supplied>3</supplied> Hir up mit velen worden unde umme begheringe der vorscreven
+               heren <app>
+                  <lem>de van Lubeke</lem>
+                  <rdg>mangler i Aa</rdg>
+               </app> worden eens, dat se riiden wolden to deme heren koninge to
+                  <placeName>Sleswiik</placeName>; watan <persName>hertoghe Bernd van
+                  Brunswiik</persName> mende to hus to riden, na deme dat sine ome, de Holstenheren,
+               deme daghe vul ghedan hadden, alse se menden. Aver dat so beden ene de heren, dat he
+               sik dre efte 4 daghe nicht dar ane schelen lete, wente de van
+                  <placeName>Lubeke</placeName> irvaren scholden, eft de here koning sine
+               schedeslude ok tosamende hadde, unde eft ok sine gnade jenighe deghedinge liden
+               wolde.</p>
+            <p n="a#5">
+               <supplied>4</supplied> Aldus so reden de vorscreven van <placeName>Lubeke</placeName>
+               to twen tiden to deme heren koninge, unde gheven sinen gnaden to kennende, wo dat se
+               umme siner gnaden leve unde umme des gemenen besten willen dar gekomen weren etc.,
+               unde wo de Holstenheren ere schedeslude tosamende <app>
+                  <lem>hadden</lem>
+                  <rdg>
+                     <q>hadde</q>, Aa</rdg>
+               </app> ghehat wol achte daghe unde lengk etc.</p>
+            <p n="a#6">
+               <supplied>5</supplied>
+               <app>
+                  <lem>Dar to</lem>
+                  <rdg>
+                     <q>Dar</q>, Aa</rdg>
+               </app> de here koning sede, dat he ok sine schedeslude tosamende hadde, de ok dar up
+               ghewardet hadden; unde hopede, he hadde vuller gedan deme dage, wen de Holsten, na
+               deme dat he der stede negher mit sinen schedesluden ghewest were, alse Gottorpe, dar
+               dat vorramet was van der stede wegen.</p>
+            <p n="a#7">
+               <supplied>6</supplied> Doch mit manigerleie insaghe underreden dit de vorscreven van
+                  <placeName>Lubeke</placeName>, unde arbeideden umme velicheit unde geleide in
+               beiden siden, dat de heren mit eren schedesluden mochten tosamende komen.</p>
+            <p n="a#8">
+               <supplied>7</supplied> Hir up brochten de stede vorscreven <cit>
+                  <quote>des heren koninges breff up dat gheleide unde velicheit</quote>
+                  <bibl>
+                     <ref target="14170824001">DD 1417. 24. aug., nr. 14170824001</ref>
+                  </bibl>
+               </cit>; welken breff de stede <persName>dem heren hertoghen van Brunswiik</persName>
+               antworden.</p>
+            <p n="a#9">
+               <supplied>8</supplied> Hir up so reden de vorscreven heren, alse <persName>hertoghe
+                  Bernd</persName>, <persName>hertoch Hinrik</persName> unde <persName>greve Hinrik
+                  to Holsten</persName> mit den steden to <placeName>Gottorpe</placeName>.</p>
+            <p n="a#10">
+               <supplied>9</supplied> Unde alse se dar gekomen weren, ratvragheden de stede mit
+                  <persName>den heren van Holsten</persName> unde <persName>hertoche
+                  Bernde</persName> unde eren raden, wo en duchte, dat men best desse zake handelen
+               mochte, wente se gerne dar to arbeiden wolden unde des sik nicht vordreten laten, dat
+               id to vreden unde to guder zate komen mochte etc.</p>
+            <p n="a#11">
+               <supplied>10</supplied> Dar to de Holstenheren antworden, dat se dat setteden bii de
+               stede, dat se dar des besten ane rameden, alse se wol wisten, dat se gerne deden;
+               unde beden de stede, dat se den heren koningh bidden wolden, dat sine gnade se to
+               gnaden unde to denste neme.</p>
+            <p n="a#12">
+               <supplied>11</supplied> Aldus so reden de stede to deme heren koninge unde leten
+               sinen gnaden vorstan, wo dat <persName>hertoghe Bernd</persName> vorscreven unde de
+               Holstenheren weren to <placeName>Gottorpe</placeName>. Unde spreken mit dem heren
+               koninge, dat en nutte duchte, wolde God almechtich sine gnade gheven, dat id to
+               vreden komen scholde, so mosten se tosamende komen.</p>
+            <p n="a#13">
+               <supplied>12</supplied> Unde worden overens mit dem heren koninge, dat sine gnade
+               sande hern <persName>
+                  <app>
+                     <lem>Pribbenev</lem>
+                     <rdg>
+                        <q>Pribben</q>, Aa</rdg>
+                  </app> van Potbusch</persName>, hern <persName>Algud Magnusson</persName>, hern
+                  <persName>Iwen Brusken</persName>, hern <persName>Swen Sturen</persName>, hern
+                  <persName>Axel Peterson</persName> unde <persName>Vicken van Vitzen</persName> up
+               den <placeName>Hesteberch</placeName>, de beleghen is twisschen
+                  <placeName>Gottorpe</placeName> unde <placeName>Sleswiik</placeName>. Dar teghen
+               de Holstenheren ghevoghet hadden hern <persName>Hartung van Frenken</persName>,
+                  <persName>Frederik Schulten</persName>, <persName>Borcharde van
+               Crammen</persName>, hern <persName>Johan Luneborghe</persName> borgermestere van
+                  <placeName>Hamborg</placeName>, <persName>Otten Rantzouwen</persName> unde
+                  <persName>Otten Krusendorpe</persName> borgermestere vamme
+                  <placeName>Kyle</placeName>. De 12 under sik in jeghenwardicheit der vorscreven
+               stede den loven der velicheit seden van beider herschop weghene.</p>
+            <p n="a#14">
+               <supplied>13</supplied> Also de love aldus gemaket was, worden se ens, dat de here
+               koning mit siner gnaden rade wesen wolde up der <placeName>Jurgiensborch</placeName>;
+               dar de heren <persName>hertoghe Bernd van Brunswiik</persName> unde
+                  <persName>hertoghe Hinrik van Sleswiik</persName> ok mit den eren komen
+               scholden.</p>
+            <p n="a#15">
+               <supplied>14</supplied> Aldus so voren de stede <app>
+                  <lem>des sonnavendes vor sunte Johans daghe decollacionis</lem>
+                  <rdg>dvs. 28. august 1417</rdg>
+               </app> na den vorscreven heren van Holsten; dar de here koning quam mit den sinen up
+               den holm der <placeName>Jurgiesborch</placeName> etc. Dar alle sake vortellet worden,
+               wo unde in wat wise de dach upghenomen unde vorramet were.</p>
+            <p n="a#16">
+               <supplied>15</supplied> Doch mit menigerleie reden na rade der stede ghingen de
+               vorscreven heren, <persName>hertoche Bernd</persName> unde <persName>hertoghe Hinrik
+                  van Sleswiik</persName>, odmodichliken to deme heren koninge; dar de hocheborne
+               furste, <persName>hertoghe Bernd van Brunswiik</persName>, mit odmodichliken beden
+               anvel unde bat den heren koningh umme Godes unde siner leven moder willen, dat he
+               sinen om, <persName>hertoch Hinrike</persName>, unde sine brodere neme to gnaden unde
+               to denste, unde vorlende eme <placeName>dat hertochdom to Sleswiik</placeName>, dat
+               doch sines vader erve were; dar vor wolde he sinen gnaden to denste unde to willen
+               wesen. Geliik alse vor screven is, bat ok <persName>hertoche Hinrik van
+                  Sleszwiik</persName> den heren koningh.</p>
+            <p n="a#17">
+               <supplied>16</supplied> Dar to umberaden de here koningh antworde unde bat, dat men
+               eme antworde, dar he recht to hadde, alse <placeName>dat hertochdom to
+                  Sleszwiik</placeName>, dat siner moder erve were; unde en konde ok nicht vorlenen
+               noch vorgheven, er he wiste, wat sin were; wes he dan vorgheve edder vorlende, dar
+               van mochte he danck hebben; anders en stunde eme vor der hant nicht to donde.</p>
+            <p n="a#18">
+               <supplied>17</supplied> Boven dit so antworden <persName>de heren van
+                  Holsten</persName> unde seden, wo dat se dar gekomen weren mit eren heren unde
+               schedesluden, alse de dach begrepen were, unde wolden dar des rechtes unde der
+               schedinge warden, unde hopeden, dat se deme daghe mit eren heren unde steden vul
+               ghedan hadden.</p>
+            <p n="a#19">
+               <supplied>18</supplied> Dar to de here koningh antworde, wo dat he ok dar hadde sine
+               heren prelaten unde schedesluden, de sines rechtes mechtich wesen scholden, unde
+               hopede, dat he ok deme daghe vul gedan hadde.</p>
+            <p n="a#20">
+               <supplied>19</supplied> Ok so vraghede de here koning den steden vorscreven, we de
+               heren unde stede weren, de de Holstenheren dar tor schedinge hadden. Dar up em
+               gheantwordet wart, dat ze gerne de heren dar umme vraghen wolden. Unde vragheden den
+               Holstenheren, wene se dar vor ere heren unde stede der schedinge hadden.</p>
+            <p n="a#21">
+               <supplied>20</supplied> Hir to <persName>de heren van Holsten</persName> antworden,
+               dat se dar hadden <persName>hertoghe Bernde van Brunswiik</persName>,
+                  <persName>greven Hinrik van Holsten</persName>, de doch to
+                  <placeName>Gottorpe</placeName> were; unde were des behoeff, so wolden se ene dar
+               bii halen laten; ok so hadden se dar de van <placeName>Hamborch</placeName>,
+                  <placeName>Kyl</placeName>, <placeName>
+                  <app>
+                     <lem>Rendesborg</lem>
+                     <rdg>
+                        <q>Rendensborg</q>, Aa</rdg>
+                  </app>
+               </placeName> unde de van <placeName>Itzeho</placeName> etc.</p>
+            <p n="a#22">
+               <supplied>21</supplied> Dit brochten de stede wedder to deme koninge. Dar to de here
+               antworde, dat he <persName>greven Hinrike</persName> nicht en helde vor enen fursten
+               der schedinge, alse de dach begrepen were, na deme dat he mede beveidet were; unde
+               sede vorder, wo he dar hadde <persName>biscop Boo</persName> unde <placeName>den
+                  ertzebiscop van Lunden</placeName> unde den van <placeName> Plawe</placeName> unde
+               de van deme <placeName>Holme</placeName>, <placeName>Kalmeren</placeName>,
+                  <placeName>Sudekopingen</placeName> unde <placeName>Wisbu</placeName> etc., mit
+               mer worden.</p>
+            <p n="a#23">
+               <supplied>22</supplied> Also nu de stede aldus beider vorbedinge unde schedeslude
+               ghehort unde gheseen hadden, woghen se wol over, dat id to nenem ende slan wolde;
+               unde vorarbeideden in beiden siden, dat men dat up vrede unde up enen andern dach
+               bringen mochte; unde brochten dat an den heren koningh.</p>
+            <p n="a#24">
+               <supplied>23</supplied> Dar to de here koning den steden antworde, dat sine gnade des
+               morghens 6 ud sinem rade dar to voghen wolde, de mit en de sake vorder handelen
+               scholden. Dar mede schededen de heren van deme koninge.</p>
+            <p n="a#25">
+               <supplied>24</supplied> Aldus so hadde de here koningh ghevoghet <persName>biscop
+                  Boo</persName>, <persName>hern Erike Krummedike</persName>, <persName>hern Algud
+                  Magnusson</persName>, <persName>hern Zwen Sturen</persName>, <persName>hern Iwen
+                  Brusken</persName> unde <persName>Vicken van Vitzen</persName>; de mit den steden
+               rameden, alse hir na gescreven steit:</p>
+            <p n="a#26">
+               <supplied>A</supplied> Int erste, dat alle unwille unde veide in gude stan scholde
+               van nu <app>
+                  <lem>unser leven vrouwen daghe nativitatis an negest to komende</lem>
+                  <rdg>dvs. 8. september 1417</rdg>
+               </app> vort over eyn jar, sunder arch; unde den vrede scholden se vorwissen in beiden
+               siden mit heren, mannen unde steden, vormiddels beseghelden breven; unde hadde
+               jennich vredebrake geschen in der tiit des vredes in landen edder an sloten, so
+               scholden de stede dar to ghehulpen hebben van stunden an mit rade unde mit dade, dat
+               de vredebrake hadde vorbot worden deme ghennen, deme dat gheschen were; hadde ok
+               jenich vredebrake geschen in anderen dingen, dat scholde stan up den rechtdach der
+               enschedinge, dat scholde men tovoren africhten.</p>
+            <p n="a#27">
+               <supplied>B</supplied> Hir under was gheramet <app>
+                  <lem>enes daghes up pinxsten</lem>
+                  <rdg>I 1418 begyndte pinseugen med pinsedag 15. maj</rdg>
+               </app>, dar de vorbenomeden heren in beiden siden mit eren schedesluden komen
+               scholden; unde eyn islik scholde mit sik gebrocht hebben up deme daghe twe gheborne
+               heren unde 4 stede ud der hense; de sulven scholden eres rechtes mechtich wesen, to
+               ende to vorschedende na beider dele breven unde bewisingen; konden aver de vorscreven
+               schedeslude nicht eens geworden hebben, so scholde dat gestan hebben to twen
+               overmannen, alse <persName>hertoghen Bernde van Brunswiik</persName> unde
+                  <persName>hertoghen Bukslave to Pomeren</persName>.</p>
+            <p n="a#28">
+               <supplied>C</supplied> Hir up so wolde de here koning den steden antworden
+                  <placeName>Sleszwiik</placeName>
+               <app>
+                  <lem>beth</lem>
+                  <rdg>
+                     <q>betht</q>, Aa</rdg>
+               </app> to deme rechtdaghe, unde danne scholden se eme dat so gud wedder antworden;
+               anders en wolde de here koning dar nicht ane don. Ok scholden de viff herde, de to
+                  <placeName>Gottorpe</placeName> geleghen hadden unde to
+                  <placeName>Tunderen</placeName>, up sik bestande bliven. Vorder ok scholden de
+               vangene dach hebben de tiit des vredes; aver de buer scholden borgen setten.</p>
+            <p n="a#29">
+               <supplied>25</supplied> Dit brochten de stede an <persName>de heren van
+                  Holsten</persName>, unde seden en, wo de here koning den vrede liden wolde etc.,
+               alse vor screven is.</p>
+            <p n="a#30">
+               <supplied>26</supplied> Dar se na besprake to antworden, dat en duchte, dat en al to
+               na were, unde stunde en nicht totolatende; mit velem insecgende menden se wol, dat id
+               dan so vele were, alse nu is; unde wolden dat also nicht tolaten, unde beden de
+               vorscreven stede, dat se wolden horen lesen enen breff, wo en dat hertochdom vorlent
+               were etc. Welke udscrifft des breves dar ghelesen wart.</p>
+            <p n="a#31">
+               <supplied>27</supplied> Dit beden se de stede natosecgende unde ok, dat se dar weren
+               unde ghewest hadden mit eren schedesluden, alse de dach begrepen were, unde dat an en
+               nen ghebrek gheworden were; unde beden, dat de stede bii erem rechten bliven unde dat
+               also nasecgen wolden.</p>
+            <p n="a#32">
+               <supplied>28</supplied> Dar to de stede seden, dat se gerne des andechtich wesen
+               unde, wes se dar ghesen unde ghehort hadden, eyn islik an eren rad bringen
+               wolden.</p>
+            <p n="a#33">
+               <supplied>29</supplied> Dar vor se hochliken den steden dankeden; unde dat se sik
+               leffliken unde wol in desser zake bewiset hadden, dat wolden se teghen de stede
+               vordenen.</p>
+            <p n="a#34">
+               <supplied>30</supplied> Aldus reden de stede to deme heren koninge, unde leten sinen
+               gnaden vorstan, wes en weddervaren was, unde de Holstenheren dat, alse vor screven
+               is, nicht tolaten wolden etc.; dar mede seden se wes se in dessen saken ghedan
+               hadden, dat hadden se umme des gemenen besten willen gedan etc.; unde seden sinen
+               gnaden, dat se mit <persName>hertoghen Bernde</persName> riden mosten, wente wanner
+               dat he affkerede ud dessem lande, so en stunde en nicht wol lengk to blivende, wente
+               he to hus riden wolde. <app>
+                  <lem>Dar to</lem>
+                  <rdg>mangler i Aa</rdg>
+               </app> sede de here koning, dat se reden in Godes namen.</p>
+            <p n="a#35">
+               <supplied>31</supplied> Jodoch so spreken de stede mit <persName>biscop
+                  Boo</persName> unde <persName>hern Erik Krummedike</persName>, dat se dat beste
+               dar to deden unde dar to arbeiden wolden, dat men ene andere wise dar to vinden
+               mochte, unde spreken dar umme mit deme heren koninge, wente se arbeit unde koste dar
+               nicht ane sparen wolden, dat men noch wes baten konde.</p>
+            <p n="a#36">
+               <supplied>32</supplied> Aldus gingen se to deme heren koninge, unde brochten wedder
+               to den steden, dat de here koning toghelaten hadde alle vorscreven articule, so dat
+               id in gude stan scholde van nu <app>
+                  <lem>sunte Michaelis daghe negest komende</lem>
+                  <rdg>dvs. 29. september 1417</rdg>
+               </app> vort over eyn jar; unde dar under enen rechtdach to holdende <app>
+                  <lem>up sunte Johans baptisten daghe</lem>
+                  <rdg>dvs. sankthansdag, 24. juni 1418</rdg>
+               </app>; unde eyn islik dar to bringende twe fursten unde 4 stede, alse vor screven
+               is; unde <placeName>Sleswiik</placeName> den steden to <app>
+                  <lem>antwordende</lem>
+                  <rdg>
+                     <q>antworde</q>, Aa</rdg>
+               </app> unde se dar ynne to hebbende de tiit des vredes, doch so scholden se em dat
+               wedder antworden, unde hir enboven we dat recht nicht en helde, dar scholden de stede
+               enteghen vallen etc.; jodoch wolde he <placeName>Sleswiik</placeName> nicht van sik
+               don up dat recht, he en wolde, dat se ok wat van sik antworden scholden, alse
+                  <placeName>Gottorpe</placeName> unde <placeName>Tunderen</placeName>, up dat
+               recht. Dat wart doch affghelecht.</p>
+            <p n="a#37">
+               <supplied>33</supplied> Ok so wolde he de viff herde mede den steden antworden, unde
+               dat scholde vort an en stan, wat se dar mede de tiit deden edder leten; doch scholde
+               men eme de ok mede wedder mit <placeName>Sleswiik</placeName> antworden; unde hir
+               enboven, wes en islik bekrefftighet unde ghebuwet hadde, scholde <app>
+                  <lem>he</lem>
+                  <rdg>mangler i Aa</rdg>
+               </app> beholden beth to deme rechtdaghe.</p>
+            <p n="a#38">
+               <supplied>34</supplied> Hir umme ret <persName>hertoghe Hinrik van
+                  Sleswiik</persName> to <placeName>Rendesborch</placeName>, unde wolde spreken mit
+               sinen mannen unde dit vorscreven en to kennende gheven.</p>
+            <p n="a#39">
+               <supplied>35</supplied> Hir under spreken de stede mit <persName>hertoghen
+                  Bernde</persName> unde <persName>hertoghen Hinrikes</persName> rade, unde woghen
+               over umme der korte willen, dat se voghen wolden 6 ud erem rade, de to
+                  <placeName>Sleswiik</placeName> to en inquemen, unde dat de mit en rameden vorder
+               de scriffte to settende; se wolden deme koninge dat so inbringen, unde ok dat de
+               sulven, de dar to ghevoghet worden, velich dar komen scholden. Dit brochten de stede
+               aldus wedder to <persName>hern Erike</persName> unde <persName>biscope
+               Boo</persName>. De sulven seden dit deme heren koninge, unde seden den steden, dat id
+               deme heren koninge leff were, unde dat ok de 6 scholden dar velich wesen.</p>
+            <p n="a#40">
+               <supplied>36</supplied> Hir up ret <persName>her Tideman Sten</persName> unde
+                  <persName>her Johan Goldenitze</persName> van der stede weghen unde brochten
+                  <persName>hern Boldewin van Wenden prior to sunte Michaele to Luneborg</persName>,
+                  <persName>hern Laurencius Heste</persName>, <persName>hern Schacken
+                  Rantzouwen</persName>, <persName>Frederik Schulten</persName>, <persName>Hinrik
+                  Broktorpe</persName> unde <persName>her Erik van Tzeven</persName> van
+                  <placeName>Hamborg</placeName>, umme de scriffte to ramende etc.</p>
+            <p n="a#41">
+               <supplied>37</supplied> Also desse tosamende ghekomen weren, vellet sik in den saken
+               mit manigerleie worden, dat se des nicht {ee}ns werden konden, unde seden, dat se dat
+               wolden to rucge bringen unde vorder dar umme spreken. Alse sande <persName>hertoche
+                  Bernd</persName> na sinen perden unde wolde van dar riden.</p>
+            <p n="a#42">
+               <supplied>38</supplied> Also reden de stede umme des besten willen samentliken to
+                  <placeName>Gottorpe</placeName>, unde hadden gerne ghes{ee}n, dat men dessen
+               vorscreven deghedingen also ghevolghet hadde.</p>
+            <p n="a#43">
+               <supplied>39</supplied> Hir up seden des heren rat van <placeName>Holsten</placeName>
+               den steden, unde beden se, dat an den heren koning to bringende, dat en billiken
+               duchte, dat de viff herde vorscreven bii <placeName>Gottorpe</placeName> bleven unde
+               de voghedie bii <placeName>Tunderen</placeName>; unde ok dat de heren unde stede der
+               schedinge vorder nicht scheden drofften noch vorplichtet wesen scholden, danne van
+               deme hertochdome unde dar se umme to veiden gekomen weren.</p>
+            <p n="a#44">
+               <supplied>40</supplied> Dit brochten de stede an den heren koning. Doch ghaff he dar
+               nen antwarde up; men he was begherende unde bat, dat se eme alle desse deghedinge, wo
+               he sik vorboden hadde, in scrifften avergheven wolden under eren ingheseghelen; dat
+               doch de stede vorleden.</p>
+            <p n="a#45">
+               <supplied>41</supplied> Ok bat he de stede, dat se eme secgen wolden, efft se bii
+               sinen rechten unde siner hulpe bliven wolden, alse em doch wol ere ghesecht were.</p>
+            <p n="a#46">
+               <supplied>42</supplied> Dar to gheantwerdet wart, dat se dat gerne to sik nemen unde,
+               wes se dar ghes{ee}n unde ghehort hadden, eyn islik in eren rat bringen wolden
+               etc.</p>
+            <p n="a#47">
+               <supplied>43</supplied> Hir van bat he, des en antwerde em wedder to enbedende; welk
+               de stede seden sinen gnaden to sendende. Hir mede schededen se van deme heren
+               koninge.</p>
+            <p n="a#48">
+               <supplied>44</supplied> Aldus reden de stede vorscreven to
+                  <placeName>Rendesborg</placeName>, unde brochten dit vor de Holstenheren, wo <app>
+                  <lem>se</lem>
+                  <rdg>mangler i Aa</rdg>
+               </app> dat, alse se udgesat hadden, alse vor screven is, nicht hebben konden van deme
+               heren koninge; men se seden, mochten se eren gnaden anderswor ane to willen wesen,
+               dat id to vrede komen mochte, dar wolden se alle weghe gudwillich to wesen.</p>
+            <p n="a#49">
+               <supplied>45</supplied> Hir umme danckeden de heren vorscreven den steden hochliken
+               vor eren guden willen, dar se sik leffliken an bewiset hadden; dar vor wolden se den
+               steden to denste wesen, war an se konden unde mochten etc.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Efter Guds fødsel 1400 i det 17. år om onsdagen før dagen for Johannes Døberens
+               halshugning var de herrer rådsudsendinge fra de stæder, som står skrevet
+               herefter, nemlig fra Lübeck hr. Konrad Brekewoldt og hr. Tideman Steen; fra Rostock
+               hr. Ulrich Grulle; fra Stralsund hr. Simon v. Urden og hr. Johann Göldenitz samt fra
+               Wismar hr. Gerold Below, forsamlet i Rendsborg til et møde. Dette møde var berammet
+               til den senest forgangne Vor Frues Himmelfarts dag.</p>
+            <p n="b#2">
+               <supplied>1</supplied> Til at starte med talte folkene fra Lübeck, da de var kommet
+               til Rendsborg, med hertug Bernd af Braunschweig og de holstenske herrer, og de
+               meddelte dem, at de for det fælles bedstes skyld var kommet til det møde, som var
+               berammet til Vor Frues Himmelfarts dag, som det står skrevet tidligere. Hvis de nu
+               kunne gøre eller arbejde henimod noget godt dér, så ville de gerne gøre det med al
+               flid osv. Desuden håbede de på, at der måske ville komme flere stæder, thi det var
+               blevet skrevet til dem, at de andre førskrevne stæder ville komme derhen, og de bad
+               om, at de ville sørge for frit lejde til Plön osv.</p>
+            <p n="b#3">
+               <supplied>2</supplied> Herpå tog de holstenske herrer ordet og takkede stæderne for,
+               at de var kommet derhen osv., og de sagde, at de havde overholdt mødet, sådan som det
+               var aftalt, thi hos sig havde de deres voldgiftsmænd, som havde ligget og ventet dér
+               i snart otte dage.</p>
+            <p n="b#4">
+               <supplied>3</supplied> Herpå under mange ord og på grund af de førskrevne herrers
+               ønsker blev folkene fra Lübeck enige om, at de ville ride hen til hr. kongen i
+               Slesvig. Af den årsag ville hertug Bernd af Braunschweig ride hjem, eftersom hans
+               frænder, de holstenske herrer, ifølge dem selv havde overholdt mødet. Men så bad
+               herrerne ham om at vente 3 eller 4 dage med at tage afsted, idet folkene fra Lübeck
+               først skulle finde ud af, om hr. kongen også havde samlet sine voldgiftsmænd, og om
+               hans nåde også ville tillade nogle forhandlinger.</p>
+            <p n="b#5">
+               <supplied>4</supplied> Derefter red de førskrevne folk fra Lübeck på to tidspunkter
+               til hr. kongen og meddelte hans nåde, at de var kommet derhen for hans nådes
+               kærligheds og det fælles bedstes skyld osv., og at de holstenske herrer havde haft
+               deres voldgiftsmænd samlet i antagelig otte dage eller mere osv.</p>
+            <p n="b#6">
+               <supplied>5</supplied> Dertil sagde hr. kongen, at han også havde samlet sine
+               voldgiftsmænd, som også havde ventet, og han ytrede det lønlige håb, at han i højere
+               grad end de holstenske herrer havde overholdt mødet, eftersom han havde haft sine
+               voldgiftsmænd tættere på stæderne, nemlig i Gottorp, hvortil mødet var blevet
+               berammet af hensyn til stæderne.</p>
+            <p n="b#7">
+               <supplied>6</supplied> Men under mange indsigelser drøftede de førskrevne folk fra
+               Lübeck dette og arbejdede på sikkerhed og frit lejde på begge sider, således at
+               herrerne sammen med deres voldgiftsmænd kunne mødes.</p>
+            <p n="b#8">
+               <supplied>7</supplied> Herpå bragte de førskrevne stæder hr. kongens brev vedrørende
+               sikkerhed og frit lejde videre til hr. hertugen af Braunschweig.</p>
+            <p n="b#9">
+               <supplied>8</supplied> Herpå red de førskrevne herrer, nemlig hertug Bernd, hertug
+               Heinrich og grev Heinrich af Holsten med stæderne til Gottorp.</p>
+            <p n="b#10">
+               <supplied>9</supplied> Og da de var kommet derhen, rådførte stæderne sig med de
+               holstenske herrer og hertug Bernd og deres råd om, hvordan man efter deres mening
+               bedst kunne forhandle om denne sag, for de ville gerne yde deres bedste i denne sag
+               og ikke lade sig slå ud af noget, for at det kunne komme til fred og til en god
+               aftale osv.</p>
+            <p n="b#11">
+               <supplied>10</supplied> Derpå svarede de holstenske herrer, at de ville overlade det
+               til stæderne, således at de her måtte stræbe efter det bedste, thi de vidste
+               udmærket, at de gerne ville gøre det, og de bad stæderne om at bede hr. kongen om at
+               tage dem til nåde og tjeneste.</p>
+            <p n="b#12">
+               <supplied>11</supplied> Derpå red stæderne hen til hr. kongen og lod hans nåde
+               forstå, at den førskrevne hertug Bernd og de holstenske herrer var i Gottorp. Og de
+               fortalte hr. kongen, at det forekom dem nyttigt, om de mødtes, såfremt Gud, den
+               Almægtige, skulle skænke dem sin nåde, så det kunne komme til fred. </p>
+            <p n="b#13">
+               <supplied>12</supplied> Og de blev enige med hr. kongen om, at hans nåde skulle sende
+               hr. Predbjørn v. Podebusk, hr. Algot Magnusson, hr. Ivan Bryske, hr. Svend Sture, hr.
+               Aksel Pedersen og Fikke v. Vitzen til Hestebjerg, som er beliggende mellem Gottorp og
+               Slesvig. Derhen havde de holstenske herrer sendt hr. Hartung v. Frenken, Friedrich
+               Schulten, Burchard v. Cramm og hr. Johann Lüneborg, borgmestre i Hamburg samt Otto
+               Rantzau og Otto Krusendorp, borgmestre i Kiel. Disse 12, som var forsamlet, afgav i
+               de førskrevne stæders nærværelse løftet om sikkerhed på vegne af begge herskaber.</p>
+            <p n="b#14">
+               <supplied>13</supplied> Efter at det højtidelige løfte således var blevet afgivet,
+               blev de enige om, at hr. kongen med sit råd skulle være på Sankt Jørgensborg, og
+               herrerne, nemlig hertug Bernd af Braunschweig og hertug Heinrich af Slesvig, skulle
+               også komme derhen med deres folk.</p>
+            <p n="b#15">
+               <supplied>14</supplied> Således drog stæderne om lørdagen før dagen for Johannes Døberens
+               halshugning afsted efter de førskrevne holstenske herrer, og hr. kongen kom
+               sammen med sine mænd hen til Sankt Jørgensborgs ø osv. Dér blev alle sager fremlagt,
+               nemlig hvorledes og på hvilken måde mødet var blevet besluttet og berammet.</p>
+            <p n="b#16">
+               <supplied>15</supplied> Men under megen diskussion og efter stædernes råd gik de
+               førskrevne herrer, hertug Bernd og hertug Heinrich af Slesvig, ydmygt hen til hr.
+               kongen. Dér begyndte den højbårne fyrste hertug Bernd af Braunschweig med venlige,
+               ydmyge bønner at bede hr. kongen for Guds og Guds kære moders skyld om at tage hans
+               frænde, hertug Heinrich, og dennes brødre til nåde og tjeneste og forlene ham med
+               hertugdømmet Slesvig, som jo var hans fædrene arv. På den baggrund ville han være
+               hans nåde til tjeneste og velvilje. Og på samme måde, som det er skrevet tidligere,
+               bad også hertug Heinrich af Slesvig hr. kongen derom.</p>
+            <p n="b#17">
+               <supplied>16</supplied> Derpå tog hr. kongen uden rådslagning ordet og bad om at få
+               svar på, om han havde ret til hertugdømmet Slesvig, som var hans mødrene arv, og han
+               kunne hverken forlene eller forære noget væk, førend han vidste, hvad der var hans.
+               Og for det, som han så ville forlene eller forære væk, skulle han have tak. Andet var
+               ikke muligt for ham at gøre på nuværende tidspunkt.</p>
+            <p n="b#18">
+               <supplied>17</supplied> Herpå tog herrerne fra Holsten ordet og sagde, at de var
+               kommet derhen med deres herrer og voldgiftsmænd på den dag, som mødet var berammet
+               til, og de ville dér afvente retten og forliget, og de ytrede det lønlige håb, at de
+               med deres herrer og stæder havde overholdt mødet.</p>
+            <p n="b#19">
+               <supplied>18</supplied> Dertil svarede hr. kongen, at han ligeledes havde sine
+               herrer, prælater og voldgiftsmænd dér, som skulle være ham mægtige til ret, og han
+               ytrede også det lønlige håb, at han havde overholdt mødet.</p>
+            <p n="b#20">
+               <supplied>19</supplied> Ligeså spurgte hr. kongen de førskrevne stæder om, hvem de
+               herrer og stæder var, som de holstenske herrer havde med til forhandlingen. Derpå
+               svarede de ham, at de gerne ville spørge herrerne derom, og så spurgte de de
+               holstenske herrer, hvilke herrer og stæder de dér havde med som deres
+               voldgiftsmænd.</p>
+            <p n="b#21">
+               <supplied>20</supplied> Herpå svarede herrerne af Holsten, at de dér havde hertug
+               Bernd af Braunschweig og grev Heinrich af Holsten, som dog var i Gottorp, men skulle
+               det blive nødvendigt, så ville de lade ham hente derhen. Ligeså havde de også folk
+               fra Hamburg, Kiel, Rendsburg og folk fra Itzehoe osv.</p>
+            <p n="b#22">
+               <supplied>21</supplied> Dette bragte stæderne videre til kongen. Derpå svarede
+               herren, at han ikke holdt grev Heinrich for at være en fyrste, som var værdig til at
+               forhandle, sådan som aftalen om mødet lød, eftersom han også var med i fejden, og han
+               sagde blandt andet yderligere, at han dér havde biskop Bo og ærkebiskoppen af Lund og
+               folk fra Plau og folk fra Stockholm, Kalmar, Söderköping og Visby osv.</p>
+            <p n="b#23">
+               <supplied>22</supplied> Da stæderne således nu havde hørt og set begge parters krav
+               og voldgiftsmænd, overvejede de sagen nøje og erkendte, at det dér ikke ville kunne
+               komme til en afslutning. Derfor arbejdede de på begge sider på, om man ikke kunne
+               bringe det til fred og til et andet møde. Og dette bragte de videre til hr.
+               kongen.</p>
+            <p n="b#24">
+               <supplied>23</supplied> Derpå svarede hr. kongen stæderne, at hans nåde om morgenen
+               ville sende seks mænd fra sit råd derhen, som skulle fortsætte forhandlingerne
+               vedrørende sagen med dem. Således tog herrerne afsked med hr. kongen.</p>
+            <p n="b#25">
+               <supplied>24</supplied> Derpå udvalgte hr. kongen biskop Bo, hr. Erik Krummedige, hr.
+               Algot Magnusson, hr. Svend Sture, hr. Ivan Bryske og Fikke v. Vitzen. De aftalte med
+               stæderne, hvad der herefter står skrevet:</p>
+            <p n="b#26">
+               <supplied>A</supplied> For det første, at al uvilje og fejde nu skulle ophøre fra den
+               næstkommende Vor kære Frues Fødselsdag og et år frem uden svig, og de skulle sikre
+               freden på begge sider med herrer, mænd og stæder ved hjælp af beseglede breve. Skulle
+               der endvidere ske brud på freden i fredstid i lande eller på slotte, så skulle
+               stæderne straks hjælpe med råd og dåd, så de, som det var sket imod, kunne få
+               godtgørelse for fredsbruddet. Hvis der ligeledes var sket brud på freden i andre
+               sager, så skulle det overlades til det afgørende retsmøde, således at man kunne
+               afgøre den sag som det første.</p>
+            <p n="b#27">
+               <supplied>B</supplied> Desuden blev der fastsat en dag i pinsen, hvor de førnævnte
+               herrer på begge sider skulle komme med deres voldgiftsmænd, og enhver skulle have to
+               mænd af ædel byrd og fire stæder fra hanseforbundet med til dette møde. Disse mænd og
+               stæder skulle være dem mægtige til ret til at afslutte striden efter fremlæggelse af
+               begge parters breve og skriftlige bevismateriale, men skulle de førnævnte
+               voldgiftsmænd ikke kunne komme overens, så skulle det overlades til to opmænd, nemlig
+               hertug Bernd af Braunschweig og hertug Bugislav af Pommern.</p>
+            <p n="b#28">
+               <supplied>C</supplied> Herpå ville hr. kongen overlade Slesvig by til stæderne indtil
+               retsmødet, og derefter skulle de give ham den tilbage på samme måde. Andet ville hr.
+               kongen ikke gøre i den forbindelse. Ligeledes skulle de fem herreder, som havde
+               ligget til Gottorp og Tønder, fortsætte med at bestå. Ligeså skulle fangerne løslades
+               under fredsperioden, men bønderne skulle stille garantier.</p>
+            <p n="b#29">
+               <supplied>25</supplied> Dette bragte stæderne videre til de holstenske herrer, og de
+               sagde til dem, at hr. kongen gerne ville underkaste sig freden osv., sådan som det er
+               skrevet tidligere.</p>
+            <p n="b#30">
+               <supplied>26</supplied> Derpå svarede de efter rådslagning, at det forekom dem, at
+               det ville gå dem alt for nært, og at de ikke kunne tillade det. Med mange indsigelser
+               mente de, at det så skulle være, som det er nu, og de ville altså ikke tillade det,
+               og de bad de førskrevne stæder om at høre et brev blive læst højt om, hvorledes de
+               var blevet forlenet med hertugdømmet osv. Afskriften af dette brev blev da læst
+               højt.</p>
+            <p n="b#31">
+               <supplied>27</supplied> Derpå bad de stæderne om at sige dette videre og ligeledes,
+               at de var dér og havde været dér med deres voldgiftsmænd, sådan som aftalen om mødet
+               lød, og at der ikke var sket dem nogen fortrædelighed, og de bad om at få lov til at
+               underkaste sig stædernes dom, og om at stæderne således ville sige dette videre.</p>
+            <p n="b#32">
+               <supplied>28</supplied> Dertil sagde stæderne, at de gerne ville være opmærksomme
+               derpå, og de ville hver især bringe alt det, som de dér havde set og hørt, videre til
+               deres råd.</p>
+            <p n="b#33">
+               <supplied>29</supplied> Herfor takkede de stæderne højligt, og fordi de havde vist så
+               megen venlighed og så meget godt i denne sag, ville de gerne tjene dem til
+               gengæld.</p>
+            <p n="b#34">
+               <supplied>30</supplied> Derpå red stæderne hen til hr. kongen og lod hans nåde
+               forstå, hvad der var sket dem, og at de holstenske herrer, sådan som det er skrevet
+               tidligere, ikke ville tillade det osv. Ligeledes sagde de, at alt, hvad de havde
+               gjort i denne sag, havde de gjort for det fælles bedstes skyld osv., og de sagde til
+               hans nåde, at de måtte ride afsted sammen med hertug Bernd, for når han drog ud af
+               dette land, så var det ikke muligt for dem at blive længere, for han ville ride hjem.
+               Dertil svarede hr. kongen, at de kunne ride i Guds navn.</p>
+            <p n="b#35">
+               <supplied>31</supplied> Imidlertid talte stæderne også med biskop Bo og hr. Erik
+               Krummedige om, at de ville gøre deres bedste i denne sag og arbejde henimod, at man
+               kunne finde en anden løsning, og de talte derom med hr. kongen, for at man kunne opnå
+               noget mere, for de ville hverken spare på arbejdet eller omkostningerne i denne
+               sag.</p>
+            <p n="b#36">
+               <supplied>32</supplied> Derpå gik de hen til
+               hr. kongen, og derefter bragte de det videre til stæderne, at hr. kongen havde
+               accepteret alle førskrevne artikler, således at der nu skulle være fred fra den
+               næstkommende mikkelsdag og et år frem, og derudover, at der skulle holdes et retsmøde
+               på sankthansdag, og at enhver skulle bringe to fyrster og fire stæder med derhen, sådan
+               som det er skrevet tidligere, og at Slesvig by skulle overdrages til stæderne, og at
+               den skulle være i deres varetægt i fredsperioden, og at de på samme måde skulle give
+               ham den tilbage. Til gengæld skulle stæderne retsforfølge enhver, som ikke overholdt
+               loven ovs. Dog ville han ikke overdrage Slesvig til retten, medmindre de også
+               overdrog noget af deres til retten, nemlig Gottorp og Tønder. Det blev dog
+               afvist.</p>
+            <p n="b#37">
+               <supplied>33</supplied> Ligeså ville han overdrage de fem herreder til stæderne, og
+               det skulle fremover være op til dem, hvad de ville gøre eller lade gøre dermed i den
+               tid. Dog skulle man også igen overdrage ham dem sammen med Slesvig. Derudover skulle
+               enhver beholde, hvad han havde beskyttet og befæstet, indtil retsmødet.</p>
+            <p n="b#38">
+               <supplied>34</supplied> Derfor red hertug Heinrich af Slesvig til Rendsburg for at
+               tale med sine mænd og meddele dem det førskrevne.</p>
+            <p n="b#39">
+               <supplied>35</supplied> Imens talte stæderne med hertug Bernd og hertug Heinrichs
+               råd, og på grund af tidens knaphed besluttede de efter at have drøftet sagen, at de
+               ville sende seks mænd fra deres råd, som kom hen til dem i Slesvig, og at de med dem
+               skulle stræbe efter at udfærdige dokumentet. De ville bringe det sådan til kongen, og
+               ligeledes ville de udvirke hos kongen, at de folk, som var blevet udvalgt dertil,
+               kunne komme sikkert derhen. Dette bragte stæderne således videre til hr. Erik og
+               biskop Bo, og de sagde det videre til hr. kongen, og derefter sagde de til stæderne,
+               at det var hr. kongen kært, og at også de seks mænd skulle være sikre dér.</p>
+            <p n="b#40">
+               <supplied>36</supplied> Herpå red hr. Tideman Steen og hr. Johann Göldenitz på vegne
+               af stæderne afsted og meddelte hr. Baldwin v. Wenden, prior i Sankt Michaelis i
+               Lüneburg, hr. Lorenz Heesten, hr. Schack Rantzau, Friedrich Schulten, Heinrich
+               Brockdorff og hr. Erich v. Tzeven fra Hamburg, at de skulle udfærdige dokumentet
+               osv.</p>
+            <p n="b#41">
+               <supplied>37</supplied> Da de så var kommet sammen, var resultatet i sagerne efter
+               megen diskussion sådan, at de ikke kunne blive enige, og de sagde, at de ville bringe
+               det med tilbage og tale mere om det dér. Således sendte hertug Bernd bud efter sine
+               heste og ville ride derfra.</p>
+            <p n="b#42">
+               <supplied>38</supplied> Derpå red stæderne for det fælles bedstes skyld i samlet flok
+               til Gottorp, og sagde dér, at de gerne havde set, at man havde fulgt den førskrevne
+               forhandling.</p>
+            <p n="b#43">
+               <supplied>39</supplied> Herpå svarede herren af Holstens råd stæderne og bad dem om
+               at meddele hr. kongen, at det forekom dem rimeligt, at de fem førskrevne herreder
+               skulle blive ved Gottorp, og at fogderiet skulle blive ved Tønder, og ligeledes, at
+               herrerne og stæderne, som skulle tjene som voldgiftsmænd, fremover hverken måtte være
+               forpligtede på eller træffe beslutninger om andet end hertugdømmet og det, som de var
+               kommet i strid om.</p>
+            <p n="b#44">
+               <supplied>40</supplied> Dette bragte stæderne videre til hr. kongen. Dog gav han dem
+               intet svar derpå. Derimod var det hans ønske og bøn til dem, at de måtte give ham
+               alle disse forhandlinger, hvortil han havde tilbudt sig, på skrift under deres segl.
+               Dette accepterede stæderne dog ikke.</p>
+            <p n="b#45">
+               <supplied>41</supplied> Ligeså bad han stæderne om at sige, om de ville blive ved
+               hans ret og hjælp, sådan som det var blevet sagt til ham tidligere.</p>
+            <p n="b#46">
+               <supplied>42</supplied> Derpå blev der svaret, at de gerne ville tage det til sig, og
+               at hver især ville bringe det, som de dér havde set og hørt, videre til deres råd
+               osv.</p>
+            <p n="b#47">
+               <supplied>43</supplied> Herpå bad han dem om at sende et svar derpå tilbage til ham.
+               Derpå sagde stæderne, at det ville de sende ham. Hermed tog de afsked med hr.
+               kongen.</p>
+            <p n="b#48">
+               <supplied>44</supplied> Derpå red de førskrevne stæder til Rendsburg, og de bragte
+               det videre til de holstenske herrer, at de ikke kunne få det af hr. kongen, som de
+               havde håbet på, sådan som det er skrevet tidligere, men de sagde, at om de kunne være
+               hans nåde til tjeneste på en anden måde, så det kunne komme til fred, så ville de
+               alle vegne være villige dertil.</p>
+            <p n="b#49">
+               <supplied>45</supplied> Således takkede de førskrevne herrer stæderne højligt for
+               deres gode vilje, eftersom de havde vist sig venlige i denne sag, og for dette ville
+               de være stæderne til tjeneste, hvor end de kunne osv.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

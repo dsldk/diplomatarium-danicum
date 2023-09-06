@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">349</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14130903001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2377-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 27.3 × 36.6 (plica: 1.7). <ab>Notarunderskriften er skrevet med Erik Dosenrodes hånd, mens resten af brevet er skrevet med en anden hånd</ab>
+                        <ab>På bagsiden påskriften <q>tractatus domini Wartslaui de libearacione</q> (!)
+        <q>captivorum et dieta invenienda Kata<ex>r</ex>ine</q>
+                        </ab>1. Slesvigbiskoppen Johan Skondelevs segl af mørkt voks i
+        perg.rem, DGS 972. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5283</bibl>
+               <bibl>Reg. nr. *4270</bibl>
+               <bibl>Diplomatarium Flensborgense I 222-224 nr. 67</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>A</ref>. Det vidimerede brev er udgivet i DD 1413. 14. aug., nr. 14130814001.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-09-03"
+                  notBefore="1413-09-03"
+                  notAfter="1413-09-03"
+                  cert="high">1413. 3. september</date>
+            <placeName cert="high">Marienberg ved Flensborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Den offentlige notar Erik Dosenrode, fra Odense stift, vidimerer efter anmodning af hr.
+      Anders Jakobsen (Lunge), hofmester for kong Erik 7. af Pommern, den af hertug Vartislav af
+      Pommern-Stettin mæglede overenskomst mellem kongen og hertug Heinrich af Braunschweig-Lüneburg
+      fra den 14. august 1413. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-11" who="#pbh">Filen etableret af #pbh 2014-02-11. </change>
+         <change when="2019-09-10" who="#alk">1. korrektur af #alk 2019-09-10. </change>
+         <change when="2019-11-12" who="#alk">2. korrektur af #alk 2019-11-12. </change>
+         <change when="2019-11-28" who="#alk">3. korrektur af #alk 2019-11-28. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In nomine domini amen ♦</p>
+            <p n="a#2" xml:space="preserve">Anno nativitatis ejusdem millesimo quadringentesimo tredecimo indictione sexta tercia die
+      mensis septembris hora completorii vel quasi . in <placeName>domo habitacionis</placeName>
+      strennui militis domini <persName>Andree Jacobi</persName> . magistri curie illustrissimi
+      principis ac domini domini <persName>Erici</persName> Danorum Swecorum Noricorum regis et
+      ducis Pomeranie . in <placeName>monte Marie circa Flensborg</placeName> .
+        <placeName>Sleswicensis diocesis</placeName> . apud mensam dicti militis . pontificatus
+      sanctissimi in Christo patris ac domini nostri domini Johannis divina providencia pape xxiii
+      anno ejus quarto . presente reverendo in Christo patre domino <persName>Johanne</persName>
+      <placeName>episcopo Sleswicensi</placeName> . in mei notarii publici . et testium
+      infrascriptorum presencia personaliter constitutus dictus dominus Andreas miles et magister
+      curie antedicte . quamdam literam papiream sub impresso sigillo illustris principis domini
+        <persName>Wartislai</persName>
+      <placeName>Stetinensis</placeName> et <placeName>Pomeranie</placeName> ducis . et ab alia
+      litera dicte litere consonante decisam ut apparuit produxit . et per me notarium infrascriptum
+      publice legi fecit in hec verba . ♦</p>
+            <p n="a#3" xml:space="preserve">Jn godes name<ex>n</ex> amen . ♦ Wy Wartslaff (etc. =
+      <ref target="14130814001">DD 1413. 14. aug., nr. 14130814001</ref>) ♦</p>
+            <p n="a#4" xml:space="preserve">Sigillum vero dicte litere impressum erat rotunde figure de cera rubea papiro coopertum in
+      cujus medio fuit clipeus in quo apparuit ymago grifonis . cum crista super quam apparuit
+      Sarracenicus pilleus cum perizomate de pennis pavonum in cujus circuferencia apparuerunt hec
+      verba . ♦</p>
+            <p n="a#5" xml:space="preserve">Sigillum Wartislai ducis Stetinensis et Pomeranie . ♦</p>
+            <p n="a#6" xml:space="preserve">Post cujus quidem litere lectionem dictus dominus Andreas miles et magister curie antedicte .
+      me notarium publicum infrascriptum requisivit ut dictam literam in formam publicam per
+      interposicionem decreti dicti reverendi patris domini Johannis episcopi Sleswicensis redigerem
+      . et sibi unum vel plura tociens quociens fuerit oportunum conficerem instrumentum seu
+      instrumenta . ♦</p>
+            <p n="a#7" xml:space="preserve">Acta sunt hec anno . indictione mense . die hora loco et pontificatu quibus supra .
+      presentibus honorabilibus et discretis viris . domino <persName>Martino Beronis</persName> .
+        <placeName>officiali generali curie Sleswicensis</placeName> necnon validis famulis .
+        <persName>Nicolao Da</persName> . et <persName>Laurencio Cristerni</persName> armigeris .
+      Sleswicensis Ottoniensisque diocesium . et aliis quampluribus fidedignis testibus ad premissa
+      vocatis specialiter et rogatis ♦</p>
+            <p n="a#8" xml:space="preserve"><figure><figDesc>Til venstre herfor Erik Dosenrodes notarmærke</figDesc></figure> Et ego
+        <persName>Ericus Dozenrode</persName> clericus <placeName>Ottoniensis dyocesis</placeName>
+      publicus imperiali auctoritate notarius quia hujusmodi requisicioni dicte litere lectioni ac
+      sigilli auschultacioni dum sic agerentur et fierent ut premittitur . una cum prenominatis
+      testibus presens interfui eaque sic fieri vidi et audivi ideoque hoc presens publicum
+      instrumentum per alium fideliter conscriptum de mandato dicti reverendi patris domini episcopi
+      Sleswicensis per interposicionem sui decreti et sigilli sui appensione in hanc publicam formam
+      redegi signo et nomine meis solitis et conswetis signavi rogatus et requisitus in fidem et
+      testimonium omnium premissorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

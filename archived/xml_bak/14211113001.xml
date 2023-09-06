@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">397</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14211113001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2772-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>17.7 (plica: 1.5)</height>
+                                    <width>29.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Henning Podebusks segl af lyst voks i perg.rem, <ref>AS D xxx 1</ref></ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl af lyst voks i perg.rem tilhørende Oluf Stigsen
+        (Krognos), <ref>AS D xxxvii 2</ref></ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Fikke van Vitzens segl af lyst voks i perg.rem, <ref>AS C li 25</ref></ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Succows segl af lyst voks i perg.rem, <ref>AS C lxii 1</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Brevet er registreret i København. Rigsarkivet. Arkivregistraturer. Reg. over
+      private breve. Reg. over brevene på Vallø (1541), trykt i Thiset, Adelige Brevkister 129</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 167-68</bibl>
+               <bibl>Rep. nr. 5944</bibl>
+               <bibl>De skriftlige kilder til Danmarks middelalderlige møntvæsen III 10 nr. 647</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-11-13"
+                  notBefore="1421-11-13"
+                  notAfter="1421-11-13"
+                  cert="high">1421. 13. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Henning (Hansen) Podebusk af Skjern og hans hustru Kristine Jensdatter (Falk) skifter med
+      hr. Aksel Pedersen (Thott) i Härlöv, ridder, på vegne af hans søn Oluf Akselsen (Thott), Vallø
+      gård med forbygning, ladegård og frugthave i to dele, således at Aksel Pedersen har taget den
+      østre del og Henning Podebusk og hans hustru den vestre. Henning Podebusk og hans hustru skal
+      give Oluf Akselsen 25 lødige mark for hans halvdel af det tegltækkede hus, som står på deres
+      del.</ab>
+            <ab>Henning Podebusk eller hans hustru skal desuden skifte alt det gods, som Jens (Eskilsen)
+      Falk ejede på Sjælland, Møn og Falster samt Bidstrup gård med alt det gods på Fyn og i
+      Jylland, som Henning Podebusk var kommet i besiddelse af med Bidstrup gård, i to dele. Aksel
+      Pedersen eller hans søn må vælge, hvilken del de helst vil have, ligegyldigt om Henning
+      Podebusk eller hans hustru vil skifte hver gård for sig i to dele eller en hel gård i hver
+      del. Dette skal Henning Podebusk eller hans hustru gøre senest et halvt år før, de indløser
+      deres del af Vallø gård, som de havde pantsat til Aksel Pedersen for 800 gamle engelske
+      nobler. Aksel Pedersen skal være fri for alle krav på de indtægter, som han havde oppebåret af Vallø
+      gård og Henning Pudebusk ligeledes for alle de indtægter, som han havde oppebåret af
+      Bidstrup gård.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-13" who="#pbh">Filen etableret af #pbh 2014-05-13. </change>
+         <change when="2018-10-01" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-10-01. </change>
+         <change when="2019-02-07" who="#alk">2. korrektur af #alk 2019-02-07. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Jæch <persName>He<ex>n</ex>ni<ex>n</ex>gh <app><lem>Putbusch</lem><rdg wit="#A">understreget, A</rdg></app></persName> aff <placeName>Skærnæ</placeName> ridder<ex>æ</ex>
+      <app><lem>oc</lem><rdg wit="#A">her begynder understregning, A</rdg></app> jæc <persName>Cristinæ Je<ex>n</ex>ssædoth<ex>e</ex>r</persName> for<hi rend="sup">de</hi> hær He<ex>n</ex>ni<ex>n</ex>gs <app><lem>husfrw</lem><rdg wit="#A">understregning slutter ved <q>u</q>, A</rdg></app> ke<ex>n</ex>næs ope<ex>n</ex>baræ m<ex>eth</ex> th<ex>et</ex>tæ wort opnæ breff oss
+      athawæ skifft m<ex>eth</ex> een wælbor<ex>e</ex>n ma<ex>n</ex> h<ex>ær</ex>
+      <persName><app><lem>Axel</lem><rdg wit="#A">understregning begynder ved <q>l</q>, A</rdg></app> Pæth<ex>e</ex>rss<ex>øn</ex> ridderæ</persName> j <placeName>Hærdeløff</placeName> pa
+      hans søns wæghnæ / <persName>Olaff Axelss<ex>øn</ex></persName> Walløffs <app><lem>gard</lem><rdg wit="#A">understregning slutter ved <q>g</q>, A</rdg></app> .j. tw . oc forburghe<ex>n</ex> lathegarde<ex>n</ex> oc abelgarde<ex>n</ex> . swo at
+      h<ex>ær</ex> Axel Pæth<ex>e</ex>rss<ex>øn</ex> haw<ex>er</ex> taget / the<ex>n</ex> østræ deel
+      aff thessæ for<hi rend="sup">de</hi> gard oc gotz oc the<ex>n</ex> wæstræ deel ær oss
+      tilfallæn ♦</p>
+            <p n="a#2" xml:space="preserve">Oc sculæ wy æll<ex>e</ex>r wor<ex>e</ex> arwing<ex>æ</ex> giwæ <persName>Olaff
+        Axelss<ex>øn</ex></persName> æll<ex>e</ex>r hans arwing<ex>æ</ex> xxv lød<ex>ig</ex>
+      m<ex>a</ex>rk j gængæ pæ<ex>n</ex>ni<ex>n</ex>gæ oc gewæ for<ex>æ</ex> ther<ex>es</ex>
+      halffdele<ex>n</ex> aff th<ex>et</ex> hws so<ex>m</ex> pa wor deel stander och ær thacht
+      m<ex>eth</ex> theghl ♦</p>
+            <p n="a#3" xml:space="preserve">Item scal jæc for<hi rend="sup">de</hi> He<ex>n</ex>ning oc wil æll<ex>e</ex>r for<hi rend="sup">de</hi> my<ex>n</ex> husfrwæ Cristi<ex>n</ex>næ æll<ex>e</ex>r <app><lem>woræ</lem><rdg wit="#A">her begynder understregning, A</rdg></app> arwing<ex>æ</ex> / skifftæ scowæ markæ <app><lem>fisskæwan</lem><rdg wit="#A">understregning slutter ved <q>æ</q>, A</rdg></app> woth oc thiwrt oc wanmøller j two delæ / oc allæ <app><lem>andræ</lem><rdg wit="#A">her begynder understregning, A</rdg></app> gotz . som <persName>hær Jens Falk</persName> aatæ j Siælandh
+        <placeName>Møen</placeName> oc <placeName>Falster</placeName> oc Bistorp <app><lem>gardh</lem><rdg wit="#A">understregning slutter ved <q>a</q>, A</rdg></app> .j tw m<ex>eth</ex> allæ the gotz som jæc anamæde / m<ex>eth</ex> for<hi rend="sup">de</hi> Bistorp . so<ex>m</ex> æræ j <placeName>Fiøn</placeName> oc j
+        <placeName>Jwland</placeName> / ♦</p>
+            <p n="a#4" xml:space="preserve">Oc th<ex>e</ex>r scal for<hi rend="sup">de</hi>
+      <persName>h<ex>ær</ex> Axel Pæth<ex>e</ex>rss<ex>øn</ex></persName> æll<ex>e</ex>r hans søn
+      hawæ kor atkesæ / hwelken deel . the . hælst hawæ wilæ / j hwat hæll<ex>e</ex>r jæc wil
+      skifftæ hwar gard m<ex>eth</ex> allæ sinæ tilligelsæ wit sich j tw . æll<ex>e</ex>r oc helæ
+      gardhæ m<ex>eth</ex> sinæ tilligelsæ j hwar deel . ♦ Och th<ex>et</ex> scal jæc
+      æll<ex>e</ex>r for<hi rend="sup">de</hi> my<ex>n</ex> husfrw Cristinæ æll<ex>e</ex>r
+      wor<ex>e</ex> arwing<ex>æ</ex> giøræ oc stadelikæ wilæ / jo eet halfft aar til for<ex>e</ex>n
+      oc jckæ sidermeræ / om th<ex>et</ex> jckæ før skeer æn wy opløsæ wor deel . so<ex>m</ex> wy
+        for<hi rend="sup">de</hi> h<ex>ær</ex> Axel j pant hawæ sath . for<ex>æ</ex> aathæhwndræde
+      gamlæ ængilskæ nobælæ æpt<ex>er</ex> thi so<ex>m</ex> the <cit><quote>b<ex>r</ex>eff</quote><bibl><ref target="14211113002">DD 1419, 29. okt., nr. 14191029001</ref> og </bibl><bibl><ref target="14211113002">DD 1421, 13. nov., nr. 14211113002</ref></bibl></cit> lude so<ex>m</ex> th<ex>e</ex>r æræ / vppæ giffnæ ♦</p>
+            <p n="a#5" xml:space="preserve">Item scal for<hi rend="sup">de</hi> h<ex>ær</ex> Axel æll<ex>e</ex>r hans arwingæ
+      wær<ex>e</ex> qwit oc aldeles orsaghæ / for<ex>æ</ex> all jnthæcht / oc vpbørelsæ so<ex>m</ex>
+      han haw<ex>er</ex> jntaghit / oc opbarit / aff for<hi rend="sup">de</hi> Walløffs gardh oc
+      allæ the gotz so<ex>m</ex> th<ex>e</ex>r tilligh<ex>e</ex>r ♦ Oc scal jæc oc mynæ
+      arwing<ex>æ</ex> wær<ex>e</ex> qwit oc aldeles orsaghæ / foræ all jntæcht oc opbørælsæ
+      so<ex>m</ex> jæc haw<ex>er</ex> jntaghit oc opbarit aff for<hi rend="sup">de</hi> Bistorp
+      gardh oc the gotz so<ex>m</ex> th<ex>e</ex>r tilliggæ / ♦</p>
+            <p n="a#6" xml:space="preserve">Til hwes things withnæsbywrd wore jngsilæ m<ex>eth</ex> andræ gode ments jngsilæ so<ex>m</ex>
+      æræ / h<ex>ær</ex>
+      <persName>Olaff Stigss<ex>øn</ex> ridder<ex>æ</ex></persName> / <persName>Vickæ van
+        Vizen</persName> . <persName>Erich Jepss<ex>øn</ex></persName> . aff
+        <placeName>Spo<ex>n</ex>ghagræ</placeName>
+      <persName>Jens Olafs<ex>øn</ex></persName> aff <placeName>Hæslæ</placeName> / Cerlins / oc
+      Succows / ær hængt for<ex>æ</ex> th<ex>et</ex>tæ wort opne breff ♦</p>
+            <p n="a#7" xml:space="preserve">Giwit vnd<ex>er</ex> wors h<ex>ær</ex>ræ aar twsen firæhwndræt thiwæ pa th<ex>et</ex> førstæ
+      s<ex>anc</ex>ti Briccii dagh so<ex>m</ex> biscop ær oc martir ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

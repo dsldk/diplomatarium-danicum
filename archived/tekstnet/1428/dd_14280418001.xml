@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">4011</num>, paragraphs: <num n="paragraphs">20</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14280418001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3025-a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>84</height>
+                                    <width>60</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift. Optaget i notarialinstrument med notarpåtegning af Paulus Gumprecht og
+      Tue Pedersen, <ref target="14280524001" type="link">DD 1428. 24. maj, nr.
+      14280524001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3026-a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>81</height>
+                                    <width>58</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift. Optaget i notarialinstrument med notarpåtegning af Johannes Kyndigh,
+        <ref target="14280524001" type="link">DD 1428. 24. maj, nr. 14280524001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. VIII, nr. 417, p. 267-274</bibl>
+               <bibl>Rep. nr. 6356</bibl>
+               <bibl>Reg. Dan. nr. *4832</bibl>
+               <bibl>Hvitfeld IV 428-34, Fol. 737-39 (dansk oversættelse)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Aa. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-04-18"
+                  notBefore="1428-04-18"
+                  notAfter="1428-04-18"
+                  cert="high">1428. 18. april</date>
+            <placeName cert="low">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Nicolaus Stoks beretning om sine forsøg på at mægle i striden mellem kong Erik 7. af Pommern
+      på den ene side og de holstenske grever og hansestæderne på den anden side.</ab>
+            <ab>Beretningen indeholder følgende punkter:</ab>
+            <ab>1) Nicolaus Stok blev 4. juli 1427 i Kronstadt i Würzland af den romerske konge Sigismund
+      udnævnt til mægler i striden mellem kong Erik på den ene side og de holstenske grever
+      Heinrich, Adolf og Gerhard samt hansestæderne Lübeck, Hamburg, Stralsund, Rostock, Wismar og
+      Lüneburg på den anden side. Den romerske konge gav således Nicolaus Stok i opdrag at forsøge
+      at forlige de stridende parter. Derfor rejste Nicolaus Stok afsted mod Lübeck, hvortil han
+      ankom 7. oktober 1427. Derefter lod Nicolaus Stok indkalde de andre hansestæder til Lübeck,
+      således at de kunne høre og forholde sig til det, som han havde fået i opdrag af den romerske
+      konge.</ab>
+            <ab>2) Da de andre hansestæder var kommet til Lübeck, holdt Nicolaus Stok 20. oktober 1427 et
+      møde med dem på rådhuset i Lübeck. På dette møde forklarede han dem, at den romerske konge
+      havde sendt ham afsted for at forlige de stridende parter af flere årsager. For det første
+      fordi det gjorde den romerske konge ondt, at der var krig mellem hans kære broder kong Erik på
+      den ene side og holstenerne og de førnævnte stæder i Det Hellige Romerske Rige på den anden
+      side, samt at det gjorde ham ondt, at kristne menneskers blod blev udgydt på grund af denne
+      krig. For det andet fordi krigen både svækkede den kristne tro og udgjorde en hån mod Gud,
+      Jomfru Maria og hele den himmelske hærskare. For det tredje fordi krigen styrkede og glædede
+      alle Guds og Det Hellige Romerske Riges fjender, nemlig husitterne i Bøhmen, tyrkerne,
+      taterne, russerne og hedningene. For det fjerde fordi sørøverne i Østersøen skadede hele det
+      kristne samfund. Således fortalte Nicolaus Stok hansestæderne, at den romerske konge var
+      forbløffet over, at hansestæderne ville føre krig mod hans kære broder kong Erik og dennes
+      riger og undersåtter, idet det var i strid med det fredsforbund, som hansestæderne havde
+      indgået med kong Erik, og idet krigen var i strid med al ret, alle kejserlige love og hele den
+      kristne orden, som foreskriver, at ingen må være dommer i egne sager. Endvidere meddelte
+      Nicolaus Stok, at den romerske konge var forbløffet over, at hansestæderne ønskede at hjælpe
+      de holstenske herrer, som ellers optrådte ulydigt over for Gud og Det Hellige Romerske Rige,
+      idet de handlede imod den guddommelige befaling, som var udgået fra den romerske konge, og som
+      de holstenske herrer selv havde forpligtet sig til at følge. Da nu kong Erik havde bedt
+      kristenhedens to hoveder, nemlig paven og den romerske konge om, at retten måtte ske fyldest,
+      erklærede den romerske konge, at han ville være kong Erik mægtig til ret, forlig og fred.
+      Derfor havde den romerske konge nu meddelt dette til paven, kurfyrsterne og de andre fyrster i
+      Det Hellige Romerske Rige, rigets gejstlige og verdslige herrer, rigsstæderne, ridderne samt
+      væbnerne. Endvidere meddelte Nicolaus Stok på den romerske konges befaling hansestæderne samme
+      konges beslutning om, at der skulle holdes fred med kong Erik i seks år fra nu af, samt at den
+      romerske konge ville gøre alt, hvad han kunne, for at forlige kong Erik og hansestæderne, når
+      blot freden etableredes. Endvidere beordrede Nicolaus Stok på den romerske konges befaling
+      hansestæderne til inden for fem uger at hjemkalde alle de krigsfolk, som de måtte have til
+      lands eller til vands i krigen mod kong Erik, samt til helt og holdent at afstå fra nogen
+      former for krigshandlinger mod kong Erik. Endvidere beordrede Nicolaus Stok, at begge parters
+      krigsfanger skulle gives fri i løbet af freden uden krav om løsepenge. Endvidere beordrede
+      Nicolaus Stok, at begge parter skulle forblive ved deres gamle privilegier og sædvaner, og at
+      begge parter skulle have et venskabeligt forhold under hele fredsperioden. Endelig indskærpede
+      Nicolaus Stok over for hansestæderne, at de skulle efterkomme den romerske konges befaling,
+      idet de skriftligt havde aflagt løfte om at være tro og lydige mod den romerske konge og Det
+      Hellige Romerske Rige. Til større vidnesbyrd om disse meddelelser gav Nicolaus Stok
+      hansestæderne den romerske konges skriftlige beseglede befaling om at holde fred. Endvidere
+      meddelte Nicolaus Stok hansestæderne, at han havde fået i opdrag af den romerske konge at
+      offentliggøre den romerske konges beslutning for kong Erik og de holstenske herrer. Såfremt
+      den ene part blev erklæret ulydig, ville den romerske konge få paven samt kurfyrsterne, alle
+      de andre fyrster, byerne, ridderne, væbnerne og alle undersåtter i Det Hellige Romerske Rige
+      til at hjælpe den lydige part imod den ulydige part. Endvidere ville den romerske konge lyse
+      den ulydige part i band samt offentligt erklære, at den ulydige part havde hjulpet og styrket
+      kætterne. I den forbindelse berettede Nicolaus Stok, at der gik meget lang tid, førend
+      hansestæderne svarede på det, som han havde meddelt dem.</ab>
+            <ab>3) Derefter rejste Nicolaus Stok til de holstenske herrer, hvor han 28. oktober 1427 i
+      Reinfeld kloster meddelte dem den romerske konges beslutning, således som han havde gjort det
+      over for hansestæderne. Den 13. november 1427 uden for Lübeck gav de holstenske herrer
+      Nicolaus Stok det svar, at de ikke kunne holde fred med kong Erik eller komme til noget møde
+      med ham, såfremt han ikke gav dem deres fædrene arv samt hansekøbmændene det gods tilbage, som
+      han med urette havde frarøvet dem. De holstenske herrers udtalelse ville Nicolaus Stok
+      imidlertid ikke acceptere som et svar af forskellige årsager, som han forklarede dem, hvorfor
+      han gentagne gange krævede et nyt svar fra de holstenske herrer.</ab>
+            <ab>4) Den 30. november 1427 svarede de holstenske herrer i nærværelse af Lübecks biskop samt
+      flere borgmestre og rådsmedlemmer fra Lübeck og Hamburg, at de ville være lydige mod den
+      romerske konge. Endvidere sagde de, at Nicolaus Stok skulle rejse til kong Erik for at høre,
+      om kong Erik også ville være lydig mod den romerske konge. Når Nicolaus Stok kom tilbage,
+      ville de holstenske herrer og hansestæderne give ham et fælles svar, som ville behage den
+      romerske konge. Men derefter fik Nicolaus Stok aldrig noget andet svar fra de holstenske
+      herrer.</ab>
+            <ab>5) Nytårsdag 1428, da der således var gået 13 uger, siden Nicolaus Stok ankom til Lübeck,
+      fik han et fælles svar fra hansestæderne på rådhuset i Lübeck. De erklærede, at de ville være
+      lydige mod den hellige kirkes og den romerske konges beslutning samt den romerske konges
+      befaling om at holde fred med kong Erik i seks år. Endvidere erklærede de, at de ville frigive
+      krigsfangerne i denne periode, samt at alle parter skulle forblive ved deres gamle
+      privilegier, samt at man skulle have lov til at besøge kong Eriks riger i hele fredsperioden.
+      Derfor ønskede hansestæderne, at Nicolaus Stok rejste til kong Erik for at forhøre sig hos
+      ham, om han også ville følge det, som den romerske konge havde besluttet og befalet.
+      Endvidere ønskede de, at Nicolaus Stok skulle bringe kong Eriks svar på denne forespørgsel
+      samt kongens lejdebreve tilbage til dem. Endvidere ønskede hansestæderne, at Nicolaus Stok
+      snarest skulle arrangere et møde med kong Erik i Flensborg for dér at besegle freden. Endelig
+      meddelte hansestæderne, at de endnu ikke kunne kalde deres krigsfolk hjem, samt at det for
+      øvrigt heller ikke var sædvane dér i landet at gøre det, førend de havde sikkerhed for, at
+      kong Erik ville holde fred med dem. Herpå ønskede Nicolaus Stok, at hansestæderne skulle
+      udfærdige breve indeholdende dette deres svar til ham, således at han kunne vise den romerske
+      konge og kong Erik hansestædernes svar. Hertil svarede hansestæderne imidlertid, at de ikke
+      havde for vane at nedfælde deres svar på skrift, og at det heller aldrig havde været sådan, at
+      hansestæderne ikke havde holdt, hvad de lovede.</ab>
+            <ab>6) Derefter red Nicolaus Stok 6. januar 1428 fra Lübeck til kong Erik. Han fortalte nu kong
+      Erik, hvorfor han var blevet udsendt af den romerske konge, og han meddelte kong Erik den
+      romerske konges beslutning og befaling om at holde fred. Endelig meddelte Nicolaus Stok kong
+      Erik de svar, som de holstenske herrer og hansestæderne havde givet ham. Dette skete 24.
+      januar 1428. Den 25. januar 1428 gav kong Erik Nicolaus Stok det svar, at han intet havde imod
+      at gøre det for hele kristenhedens og den romerske konges skyld, hvorfor han ville følge den
+      romerske konges beslutning og befaling. Derpå bad kong Erik Nicolaus Stok om at tage de
+      holstenske herrer og hansestæderne med til et fredsmøde på et belejligt sted. På dette møde
+      ville Nicolaus Stok så kunne høre, hvem der var lydig mod den romerske konges beslutning, og
+      endvidere ville han kunne nedfælde på skrift, hvad der blev besluttet. Derpå fastlagde kong
+      Erik og Nicolaus Stok mødet til 14. marts 1428. I forlængelse heraf gav kong Erik Nicolaus
+      Stok lejdebreve til både de holstenske herrer og hansestæderne. Endvidere fik Nicolaus Stok af
+      kong Erik bemyndigelse til at udskyde mødet to, tre eller fire uger. Endvidere erklærede kong
+      Erik over for Nicolaus Stok, at han helt og holdent ville holde op med at bekrige sine
+      modstandere, således som den romerske konge ønskede, således at alle parter kunne deltage i
+      fredsmødet. Endelig ønskede kong Erik, at Nicolaus Stok skulle bringe denne besked videre til
+      de holstenske herrer og hansestæderne. Derpå skulle Nicolaus Stok give kong Erik besked om det
+      svar, som kong Eriks modstandere måtte give Nicolaus Stok, således at kong Erik kunne rette
+      sig efter det.</ab>
+            <ab>7) Derpå red Nicolaus Stok til Slesvig (by), hvor han 15. februar 1428 holdt møde med de
+      holstenske herrer. Her fortalte Nicolaus Stok de holstenske herrer, at kong Erik havde
+      erklæret, at han ville følge den romerske konges beslutning og befaling om at holde fred, samt
+      at kong Erik sammen med Nicolaus Stok selv ville deltage i et fredsmøde på et belejligt sted.
+      Til dette fredsmøde ville kong Erik medbringe sine frænder, som skulle forhandle for ham, og
+      kong Erik ønskede, at de holstenske herrer ville gøre det samme. Såfremt man ikke ville kunne
+      nå frem til en løsning på mødet, ville kong Erik lade det være op til begge parters frænder at
+      aftale, hvorledes freden kunne blive etableret, således at man ville kunne se, at kong Erik
+      ikke havde forbrudt sig mod den romerske konges beslutning og befaling. Hertil svarede den
+      ældste af de holstenske herrer, at den romerske konge ikke havde bemyndigelse til at udsende
+      Nicolaus Stok i dette anliggende. Nicolaus Stok nævnte nu over for ham, at dette var bedrag,
+      men det endte med, at han erklærede over for Nicolaus Stok, at han nu havde i sinde at
+      tilbageerobre sin fædrene arv med sværdet.</ab>
+            <ab>8) Derefter fortalte Nicolaus Stok den førnævnte holstenske herre, at hansestæderne havde
+      indvilget i at holde fred. Desuden fortalte Nicolaus Stok hansestæderne, at kong Erik helt og
+      holdent ville følge den romerske konges befaling om at holde fred, samt at kong Erik ville
+      holde et møde med dem på et belejligt sted, hvortil kong Erik ville medbringe sine frænder som
+      forhandlere, hvorfor han håbede, at hansestæderne også ville gøre det samme. Hvad enten man
+      under disse forhandlinger kunne komme til et resultat eller ej, skulle freden ifølge kong Erik
+      alligevel bestå i hele den føromtalte fredsperiode på seks år. Endvidere sagde Nicolaus Stok
+      til hansestæderne, at kong Erik havde bemyndiget ham til at indkalde hansestæderne og de
+      holstenske herrer til mødet, såfremt de ville indstille krigen. Derfor gav de holstenske
+      herrer og hansestæderne 4. marts 1428 Nicolaus Stok tilsagn om, at de ville holde et fredsmøde
+      sammen med kong Erik i Falsterbo, samt at de ville lade deres krigsfolk blive hjemme, og at de
+      ville rejse til Falsterbo sammen med Nicolaus Stok.</ab>
+            <ab>9) Den 14. marts 1428, da man skulle til at sejle mod Falsterbo, gav de holstenske herrer og
+      hansestæderne imidlertid Nicolaus Stok et helt andet svar. Nu fortalte de Nicolaus Stok, at
+      deres handelsfolk var på havet, og at disse ville være udsat for overgreb fra kong Eriks side,
+      mens de holstenske herrer og hansestæderne deltog i fredsmødet. Endvidere mente de holstenske
+      herrer og hansestæderne, at de ikke ville kunne nå at deltage i mødet, da mødet var blevet
+      berammet til midfaste. Endvidere erklærede de, at de ikke havde tiltro til kong Eriks
+      erklæring om, at han ønskede at holde fred med dem. Endelig erklærede de, at de ikke kunne
+      lade deres krigsfolk blive hjemme. Hertil svarede Nicolaus Stok følgende: For det første havde
+      de opholdt ham uforholdsmæssigt længe. For det andet havde han skaffet præcis de svar og
+      lejdebreve fra kong Erik, som de havde udbedt sig. For det tredje kunne han have skaffet dem
+      kong Eriks svar på skrift, hvis blot de havde været villige til at afgive deres svar
+      skriftligt. For det fjerde var det ikke godt at forhandle under banneret og sværdet. For det
+      femte spillede det ingen rolle, til hvilket tidspunkt mødet var blevet berammet, for han havde
+      jo netop fået bemyndigelse af kong Erik til at udskyde mødet til umiddelbart efter påske eller
+      helt op til fire uger efter påske, hvis det skulle være nødvendigt. Endelig meddelte Nicolaus
+      Stok de holstenske herrer og hansestæderne, at såfremt de ikke deltog i et fredsmøde med kong
+      Erik på et belejligt sted, kunne han ikke forstå det på anden måde, end at deres første svar
+      til ham så stadig måtte være gældende, nemlig at de ville forhandle med kong Erik i
+      Flensborg.</ab>
+            <ab>10) Den 18. marts gav hansestæderne Nicolaus Stok på rådhuset i Lübeck det svar, at de
+      sammen med de holstenske herrer ønskede at holde et fredsmøde med kong Erik i Falsterbo otte
+      dage efter påske, dvs. 11. april 1428. Derfor ville de sejle afsted 8. april 1428, såfremt
+      vejr og vind tillod dem det. Dette lod Nicolaus Stok nedfælde på skrift i et brev, som de
+      ønskede at få af ham, og som han også beseglede. En afskrift af dette brev blev endda udført
+      af byen Lübecks egen skriver. Derudover udbad de sig kong Eriks lejdebreve, som Nicolaus Stok
+      gav dem. Til gengæld fik Nicolaus Stok tilsagn fra hansestæderne om, at de ville deltage i
+      mødet, og endvidere gav de ham deres lejdebreve og de holstenske herrers lejdebreve.</ab>
+            <ab>11) Derefter red Nicolaus Stok 20. marts 1428 for anden gang afsted fra Lübeck mod Danmark.
+      På vejen igennem Holsten blev han i Rendsborg opholdt af den ældste af de holstenske herrer
+      indtil 31. marts 1428. Årsagen hertil var, at den holstenske herre, som han sagde, ønskede at
+      beskytte sig selv og Nicolaus Stok med lejdet.</ab>
+            <ab>12) Den 9. april 1428 kom Nicolaus Stok til Roskilde, hvor kong Erik befandt sig. Her
+      fortalte han kong Erik om det aftalte fredsmøde. Hertil svarede kong Erik, at han ganske
+      rigtigt havde bedt dem om at komme til et fredsmøde, men at de (dvs. holstenerne og
+      hanseaterne) var sejlet til Danmark med hele deres styrke, og at de nu lå ud for København,
+      samt at de på vejen dertil havde forvoldt brande, taget krigsfanger samt slået nogle af kong
+      Eriks folk ihjel. Hertil svarede Nicolaus Stok, at de holstenske herrer og hansestæderne ikke
+      havde fortalt ham noget om, at de ville gøre sådant, samt at det gjorde ham ondt at høre det.
+      Nu svarede kong Erik, at han ville drøfte sagen med sit råd. Da dette var sket, svarede kong
+      Erik, at han ville respektere Guds og den romerske konges ønske, og at han således ville se
+      igennem fingre med hansestædernes vold og bedrag. Derfor ville kong Erik alligevel tage til
+      det aftalte fredsmøde, hvorefter han bad Nicolaus Stok om at skaffe lejdebreve til ham selv og
+      hans folk fra hans modstandere, som nu lå ud for København med hele deres styrke. Dette gjorde
+      Nicolaus Stok.</ab>
+            <ab>13) Da Nicolaus Stok 16. april kom til København, fandt han den yngste af de holstenske
+      herrer og hansestæderne ud for København med hele deres styrke, således som kong Erik havde
+      fortalt ham. Nicolaus Stok bad dem nu om at give ham det førnævnte lejde samt om at deltage i
+      fredsmødet. Hertil svarede de holstenske herrers rådsmedlemmer samt hansestæderne, at de ikke
+      kendte til noget møde, og at deres folk ikke havde fortalt dem om noget sådant. Endvidere var
+      de af den overbevisning, at ingen fra holstensk side eller fra hansestæderne ville deltage i
+      et fredsmøde med kong Erik. Endvidere meddelte de, at det var blevet befalet dem, at de skulle
+      sende ethvert nyt lejdebrev, som de måtte få fra kong Erik, direkte videre til hansestæderne.
+      Derpå viste Nicolaus Stok dem to breve, nemlig den afskrift, som byen Lübecks egen skriver
+      havde udfærdiget, af det brev, som han havde givet til hansestæderne, fordi de havde krævet
+      det af ham, samt kong Eriks lejdebrev, som Nicolaus Stok havde videregivet til hansestæderne.
+      Derpå belærte Nicolaus Stok dem om, hvordan han sammen med hansestæderne og deres folk havde
+      aftalt at holde et fredsmøde med kong Erik, og han fortalte dem, at kong Erik havde indvilget
+      i at følge den romerske konges befaling om at holde fred. Derpå svarede de, at hansestæderne
+      havde sagt til Nicolaus Stok, at de til trods for kong Eriks lejdebrev og det brev, som
+      Nicolaus Stok havde givet dem, stadig ikke ønskede at deltage i et fredsmøde med kong Erik.
+      Derpå svarede Nicolaus Stok, at hansestæderne selv havde bedt ham om at skaffe dem brevene, og
+      da de modtag kong Eriks lejdebrev samt Nicolaus Stoks brev, havde de ikke gjort nogen
+      indsigelser. Derefter svarede de, at de også ville følge den romerske konges befaling. Derpå
+      spurgte Nicolaus Stok dem, hvorledes de mente, at de kunne følge den romerske konges befaling,
+      når nu Nicolaus Stok havde bedt dem om at lade deres krigsfolk blive hjemme samt helt og
+      holdent at afstå fra at føre krig, og når nu de lå ud for København med hele deres styrke. Da
+      intet af dette hjalp, hidkaldte Nicolaus Stok en offentlig notar, som i hansestædernes
+      nærværelse på Nicolaus Stoks befaling nedfældede på skrift, hvad Nicolaus Stok havde foretaget
+      sig i sagen, samt hvad han havde drøftet og aftalt med de holstenske herrer og hansestæderne
+      vedrørende sagen. Nicolaus Stok erklærede nu, at han mente, at hansestæderne havde sat sig op
+      imod den romerske konges beslutning, og derfor gav Nicolaus Stok dem en stævning fra den
+      romerske konge. Denne stævning overrakte han 17. april 1428 nærmere bestemt til hr. Johann
+      Bere, rådmand i Lübeck, et stykke ude i Øresund ud for København. Overrækkelsen af stævningen
+      lod Nicolaus Stok dokumentere i et andet notarialinstrument.</ab>
+            <ab>14) Den 18. april 1428 sendte Nicolaus Stok efter kong Eriks ønske alle disse førnævnte
+      oplysninger om sagen afsted til den romerske konge i et brev udfærdiget af Nicolaus Stoks
+      skriver Paul Gumprecht.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-25" who="#pbh">Filen etableret af #pbh 2014-07-25. </change>
+         <change when="2019-02-07" who="#smb">1. korrektur af #smb 2019-02-07. </change>
+         <change when="2019-08-30" who="#smb">2. korrektur af #smb 2019-08-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve"><supplied>1</supplied> Do ist offenbar czu mercken . als der allerdurchluchtigiste furste vnd
+      herre <persName>her Sigmund</persName> romischer vnd czu <placeName>Hungern</placeName>
+      <placeName>Behem</placeName>
+      <placeName>Dalmacien</placeName>
+      <placeName>Croacien</placeName> etcetera konig mein allergenedigister liber herre / mich
+      Nicolaum Stok . lerer geystlicher rechte vnd meyster der siben konsten seinen diner rat vnd
+      sendeboten zur <placeName>Cron</placeName> in <placeName>Wurczland</placeName> an sunte
+      Vlrichs tage des virden tages julij . anno Domini mille<hi rend="sup">o</hi> quadringen<hi rend="sup">o</hi> vicesimoseptimo jn seiner gnaden vnd des heyligen romischen richs
+      treflichen vnd grossen sachen / an mancherley ende vnd nemlichen czu dem durchluchtigisten
+      fursten vnd herren <persName>hern Erik</persName> czu <placeName>Denmarken</placeName>
+      <placeName>Sweden</placeName>
+      <placeName>Norweyen</placeName> etcetera konig an eyner vnd dy hochgeboren
+        <persName>Hynrichen</persName>
+      <persName>Adolphen</persName> vnd <persName>Gerharten</persName> grafen czu
+        <placeName>Holsten</placeName>
+      <placeName>Stormeren</placeName> etcetera vnd den ersamen steten
+        <placeName>Lubecke</placeName>
+      <placeName>Hamburg</placeName>
+      <placeName>Stralessund</placeName>
+      <placeName>Rostok</placeName>
+      <placeName>Wismer</placeName>
+      <placeName>Lunenburg</placeName> / vnd jren helffern an der andern partei auszgeschickt hat /
+      als das der geleyczbriff dy credentzien vnd andere briffe den selben beyden teylen geantwort
+      der abschrift hyr vndene begriffen ist klerlichen inhalden denselben partein vnsers heyligen
+      vaters des babst <app><lem>Martini</lem><rdg><q>Martino</q>, Aa</rdg></app> / durch seinen cardinal vnd des allerdurchluchtigisten fursten vnd herren des romischen
+      koninges vorgenant durch des heyligen romischen richs kurfursten vnd fursten auch besunder
+      durch . seinen vnd des romischen richs kanczler mit seime koniglichen vnd . des richs jnsigel
+      eyntrechliche vnd ernste beslissunge czu Normberg vnd czu Franckenfort beschehen . vnd ouch
+      anders als hernach geschriben stet mit briffen vnd worten czu offenbarn <app><lem>czu</lem><rdg>mangler i Aa</rdg></app> antworten vnd czu werben / auch czu vorsuchen ob jch soliche partei dy do swere stosse
+      spen czwitracht krige vnd orlewge leyder vnderenander haben czu fruntlicher eyntracht ader
+      richtunge bringen mochte / alse bin jch <persName>Nicolaus Stok</persName> czum ersten komen
+      gen <placeName>Lubecke</placeName> in des romischen richs stat <app><lem>am negsten dinstage noch Ffrancisci</lem><rdg>dvs. 7. oktober 1427</rdg></app> vnd habe dy anderen stete vorbenant mit jrer partei doselbs hin gen
+        <placeName>Lubeke</placeName> czu komen beschicket . soliche vorberurte botschaft mir
+      beuolen czu werben antworten auffzunemen vnd zuhoren / ♦</p>
+            <p n="a#2" xml:space="preserve"><supplied>2</supplied> Vnd als nw dy selben stete gen <placeName>Lubecke</placeName> quemen /
+      do warb jch do selbs auff dem rathause dy botschaft <app><lem>am montage</lem><rdg><q>am montage - juncfrawen tag</q>, dvs. 20. oktober 1427</rdg></app> negst vor der heyligen xj tusent juncfrawen tag / vnd sprach das mich der
+      allerdurchluchtigiste furste der romische konig vorgenant czu jn vnd auch anderswo hin
+      geschickt hette . als das . dy credentzie vnd andre briffe dy jch jn do selbs gab auszweisten
+      / vnd sine gnade lisse jn sagen / wy das alle czwitracht spen stosse krige vnd orlewge / auch
+      aller kristen leute blut vorgissen sein koniglich hertze grosz vnd swerlich betrübte vnd
+      nemlichen der krig der yczunt leyder were czwischen dem durchluchtigisten . fursten vnd herren
+        <persName>hern Erik</persName> czu <placeName>Denmarken</placeName> etcetera konig . seinem
+      liben bruder vnd ohem an eynem vnd den holsten herren vnd den steten vorbenant an dem andern
+      teyl / auch das soliche krige vnd orlewge nicht alleyne den heyligen kristenglawben swechten
+      sunder Got mit seiner werden muter vnd allem hemelischen here lesterten / auch dy hussen czu
+        <placeName>Behem</placeName> . dy türkin tatther rewsen heyden vnd alle Gotes vnd des
+      heyligen romischen richs vinde in jr boszheyt vnd unglawben groblichen vnd mercklichen
+      sterckten vnd irfrewten . / auch so beschehen in solchen krigen mord brand blut vorgissen vnd
+      manche vnkristenliche sachen, dy nymandes geschreiben noch auszgesprechen mochte / auch das dy
+      stete vitalier auff <placeName>dy Oster See</placeName> der gemeynen kristenheyt czu schaden .
+      luden vnd furten auch were zubesorgen vnd zuforchten das manche kristene mensche in jren tod
+      sunden vorgingen der selen leyder nymmer Gotes antlitz ansehen wy sy das vor Gote an dem
+      strengen gerichte wolden vorantworten / auch woste der romische konig wol das sy jn erkenten
+      vnd hilden vor jren herren vnd er sich allczeit gnediglichen gegen jn gehalden hette / doch so
+      wonderte seine gnade wy das sy also torstig weren vnd eynen krig vnd orlewge mit seinem liben
+      bruder vorgenant dem konige von <placeName>Denmarken</placeName> seinen richen vnd vndertan
+      wider den bünt<ref target="drb1"/> . den sy mit seinen gnaden vnd richen . czu ewigen czeiten mit briffen vnd globden
+      getan \ angehaben hetten . ane erforderung vnd besuchunge mit clage ader mit sage . wissen
+      ader willen seiner romischen koniglichen gnaden der jr rechter vnd ordenlicher herre were
+      wider alle recht keyserliche gesecze vnd kristenliche ordnung dy das lawter auszweisen / auch
+      das nymandes in seinen eygen sachen richter sein noch hewpt krige ader orlewge ane der hewpt
+      der kristenheyt erlewbunge anheben solde / es were dann . das jm nicht recht widerfaren mochte
+      . ader das das widerpart dem rechten <app><lem>jn gehorsam</lem><rdg><q>vngehorsam</q>, Aa</rdg></app> nicht gestehen ader freuelichen do wider sein wolde etcetera das der durchluchtigiste
+      konig von <placeName>Denmarken</placeName> hewte bej tage bewt vnd das recht ny geflogen nocht
+      geschewt hette / auch wundert seine romische konigliche gnade . das sy beilegen vnd holffen
+      den holsten herren . dy doch vngehorsam weren Got vnd dem heiligen romischen riche vnd wider
+      den gotlichen sproch den seine romische konigliche gnade auszgesprochen hette / den dy selben
+      holsten herren mit gütem rate wol bedachtem müte vnd <app><lem>vnbeczwungen</lem><rdg><q>vnbeqwungen</q>, Aa</rdg></app> bei jren trewen vnd eren stete vnd veste czu halden vnd nymmer do wider czu sprechen
+      noch hinder rede czuhaben voranlast vorborget vnd vorbrifft hetten / auch jn gesaget wy das
+      mein herre der romische konig jn czuwissen thu / es das dy holsten herren ader dy stete yndert
+      eynen sproch meynen czu dem durchluchtigisten fursten . dem konige von
+        <placeName>Denmarken</placeName> etcetera czu haben so bitte der selbe konig von
+        <placeName>Denmarken</placeName> recht vor dy czwe hewpter der kristenheyt geystlich vnd
+      wertlich als vor vnsern heyligen vater den babist / <app><lem>vnd vor</lem><rdg>mangler i Aa</rdg></app> seine gnade als vor eynen romischen konig vor andere kristene fursten herren vnd
+      gemeynden / vor den man doch billich . noch Gotes der heyligen kirchen vnd des heyligen
+      romischen richs recht . gesecze vnd ordenunge recht geben vnd nemen sol / vnd seine romische
+      königliche gnade rate jn das mit ganczem fleisse vnd trewen auffczunemen wanne sy das vor Got
+      vnd der werlde mit keynem rechten noch glympfen vorwerffen noch vorslahen mogen / vnd seine
+      konigliche gnade sei des durchluchtigisten fursten . des koniges von
+        <placeName>Denmarken</placeName> mechtig ane czweifel czu solchem rechte glich vnd frede .
+      als vor vnd hernach in seinem fredbot den selben steten von mir geantwort begriffen ist / vnd
+      seine gnade habe das geschreben vnserm heyligen vater dem babist den kurfursten vnd andern des
+      richs fursten geystlichen vnd wertlichen herren richsteten rittern vnd knechten etcetera
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Auch habe jch <persName>Nicolaus Stock</persName> den vorbenanten steten geoffenbart dy
+      beschlissunge vor vnd hernach berürt vnd dorauff von befelnussz meines allergnedigisten herren
+      des romischen koniges auff seinen fredbriff sechs jar frede czu halden geboten bei des
+      romischen richs acht vnd banne mit dem durchluchtigisten fursten dem konige von
+        <placeName>Denmarken</placeName> seinen richen vnd vndertan / vnd jn gesaget das seine gnade
+      in solichem frede des negste das er kan ader mag sich in dy sachen mit ganczem fleisse vnd
+      trewen legen wil vnd hoffe dy zu eynem guten ende vnd ausztrage czubringen ♦</p>
+            <p n="a#4" xml:space="preserve">Auch so habe jch <persName>Nicolaus Stock</persName> von befelnuss vnd bei penn vor vnd her
+      nach berürt solchem lobelichen gebote gehorsam czu sein den steten geboten ab sy yndert czu
+      lande ader czuwasser soldener wider den konig von <placeName>Denmarken</placeName> seine riche
+      ader vnderton hetten das sy dy jn fumpf wochen wider heym ruffen vnd fordern vnd solichen krig
+      vnd czwitracht gancz vnd gar ablegen noch keyne vnfruntliche noch vintliche sachen mit dem
+      konige seinen richen vnd vndertan czu schaffen haben solden / auch geboten vnd geoffenbart /
+      das dy gefangen an beyden teylen den vorbenanten frede ausz ader als lange bas dy sache .
+      dorumme sich der krig erhaben hette mit fruntschaft ader mit eym rechten czu ausztrage queme
+      tag solden haben vnd nicht dorunder gefordert noch geschaczt werden ♦</p>
+            <p n="a#5" xml:space="preserve">Auch das yder teyl bei guter gewonheyt alden herkomen vnd priuilegien bleiben auch
+      fruntlichen eyn teyl mit dem andern den frede ausz czu schaffen haben solde / solche
+      beslissunge vnd fredbot auffczunemen noch czukommen gehorsam czu sein stete veste vnd
+      vnczubrochen czuhalden habe jch dy vorgenanten stete vormanet an jre briffe globde vnd eyde so
+      sy dem romischen konige vnd dem heyligen romischen riche geben vnd getan haben / das sy seinen
+      gnaden vnd dem heiligen romischen riche gefollig vnd gehorsam sein wolden ♦</p>
+            <p n="a#6" xml:space="preserve">Czu grosser bestetunge vnd glewbnuss habe jch Nicolaus Stock den vorbenanten steten meines
+      allergnedigisten herren des romischen koniges vorgenant besigelt fredbot geantwort des
+      abeschrift . hyr vndene auch geschreben stet / ♦</p>
+            <p n="a#7" xml:space="preserve">Auch so sagete jch den steten wy das mir von dem romischen konige auch beuolhen were dy
+      beslissunge vnd fredbot czu offenbarn <app><lem>czu</lem><rdg>mangler i Aa</rdg></app> gebitten vnd zu antworten dem durchluchtigisten fursten vnd herren dem konige von
+        <placeName>Denmarken</placeName> . auch den holsten herren ♦ Vnd ab yndert eyn teyl
+      vngehorsam worde funden so wolde der romische konig vnsern heyligen vater den babist
+      kurfursten vnd andern fursten herren stete ritter knechte vnd vnderton des richs auch das
+      gehorsam teyl czuholffe nemen wider das vngehorsam vnd dorczu thun als eym romischen konige
+      czuthun gebört vnd das vngehorsam teyl in den ban vnd acht also troster vnd sterker der keczer
+      lassen vorkunden ♦</p>
+            <p n="a#8" xml:space="preserve">Item auff soliche fredbot wort vnd gewerbe mochte mir <persName>Nicolao Stok</persName> keyne
+      eyntrechtige antwort in langer czeit von den vorbenanten steten werden / ♦</p>
+            <p n="a#9" xml:space="preserve"><supplied>3</supplied> Also czog jch furbas czu den holsten herren vnd offenbarte jn auch in
+      aller masse als den steten in dem kloster <placeName>Reynefelt</placeName>
+      <app><lem>am dinstage</lem><rdg><q>am dinstage - aller heyligen tage</q>, dvs. 28 oktober 1427</rdg></app> negst vor aller heyligen tage dy vorbenante beslissunge der heyligen kirchen vnd des
+      heyligen romischen richs / auch des romischen koniges briffe vnd fredbot / dy goben mir
+      antwort <app><lem>am dornstage</lem><rdg><q>am dornstage - Marttens tage</q>, dvs. 13. november 1427</rdg></app> negst noch sante Marttens tage vor der stat <placeName>Lubecke</placeName> sy kunden
+      keynen frede mit dem konige von <placeName>Denmarken</placeName> aufgenemen noch gehalden auch
+      nicht czu tagen mit seinen koniglichen gnaden komen seine gnade gebe jn denne jr v{ae}terlich
+      erbe . das er jn mit vnrechte entwert hette / vnd den steten vorbenant auch dem gemeynen
+      kauffmanne jre genomene gutter weder / ♦ Solche wort wolde jch nicht auffnemen vor eyne
+      antwort vmme mancher sachen dy jch jn do erczelte / vnd was offte eyner andern antwort
+      begerende ♦</p>
+            <p n="a#10" xml:space="preserve"><supplied>4</supplied> Dor nach <app><lem>an sante Andreas tage</lem><rdg>dvs. 30. november 1427</rdg></app> wart mir van jn . in gegenwortikeyt des bischoffes von <placeName>Lubeke</placeName>
+      vnd ettlicher burgermeystern vnd ratlewte von <placeName>Lubeke</placeName> vnd
+        <placeName>Hamburg</placeName> antwort sy wolden gehorsam sein / ♦ Das jch czoge czu
+      dem konige von <placeName>Denmarken</placeName> vnd hörte ab seine gnade auch gehorsam sein
+      wolde vnd dornach wenne jch widerumme czu jn queme so wolden sy mir noch jrr landschaft vnd
+      der vorbenanten stete rat eyne gehorsam antwort geben dy dem romischen konige nicht solde
+      misseuallen / dornach kunde jch von den holsten herren keyne andre antwort haben / ♦</p>
+            <p n="a#11" xml:space="preserve"><supplied>5</supplied> Dornach an dem newen jars tage anno etcetera vicesimooctavo in der
+      dreiczenden wochen noch deme als jch gen <placeName>Lubeke</placeName> quam goben mir dy
+      vorgenanten stete eyntrechtilich aüsz eynem munde czu <placeName>Lubeke</placeName> auff dem
+      rathawse antwort vnd sprochen sy wolden der heyligen kirchen vnd des heyligen romischen richs
+      beslissunge auch des allerdurchluchtigisten fursten vnd jrs herren . des romischen koniges
+      fredbot gehorsam sein vnd nemen das gehorsamlich auff auff sechs jar also das dy gefangen .
+      tag mochten haben den frede aüsz vnd das sy mochten bleiben bei jren priuilegien vnd auch
+      fredlich dy riche . des koniges von <placeName>Denmarken</placeName> den frede ausz besüchen /
+      vnd begerten das jch wolde czu dem konige von <placeName>Denmarken</placeName> czihen vnd
+      irfaren ab seine gnade auch wolde dy beslissunge vnd fredbot vorgenant auffnemen vnd wolde
+      seine gnade das auffnemen das jch jn desselben eyne antwort vnd geleyczbriffe brechte vnd tage
+      mit dem konige von <placeName>Denmarken</placeName> vorramete vnd von jren wegen uffneme / das
+      korczte als jch kunde gen <placeName>Fflensburg</placeName> czu vnd abe fredlichen czukomen do
+      den frede czubeslissen verbriffen vnd vorgewissen vnd sageten auch wy das sy jr soldner nicht
+      mochten czuhawse geraffen vnd wer auch nicht des landes gewonheyt / es were denne das sy
+      w{oe}sten das der konig von <placeName>Denmarken</placeName> den frede auffnemen wolde dorauff
+      tage vorramet vnd auffgenomen weren ♦ Solcher antwort begert jch czu hant briffe von den
+      steten das ich dy geweisen mochte des romischen koniges vnd des koniges von
+        <placeName>Denmarken</placeName> gnaden / do sprochen sy . es wer nicht jr gewonheyt jr
+      antwort in geschriften czu geben / auch so wers ny gehort . das dy <app><lem>stete</lem><rdg>Aa læser blot <q>ste</q></rdg></app> jre wort nicht gehalden hetten . ader czu r{oe}cke getreten weren / ♦</p>
+            <p n="a#12" xml:space="preserve"><supplied>6</supplied> Auff soliche antwort reyt jch <persName>Nicolaus Stok</persName> . <app><lem>an der heyligen dreien konigen tag</lem><rdg>dvs. 6. januar 1428</rdg></app> ausz <placeName>Lubecke</placeName> czu dem durchluchtigisten fursten dem konige von
+        <placeName>Denmarken</placeName> vnd irczelte seinen koniglichen gnaden / von weme wy vnd in
+      welcher masse jch auszgeschickt were auch offenbarte jch seinen gnaden dy beslissunge vnd
+      fredbot vorgenant vnd sagete seinen gnaden der holsten herren vnd der stete antwort vnd
+      meynunge mir czugesaget / vnd das beschach <app><lem>an sante Pauls obent</lem><rdg>dvs. 24. januar 1428</rdg></app> / ♦ Vnd noch solchem gewerbe vnder andern worten <app><lem>an sante Pauls tag</lem><rdg><q>dvs. 25. januar 1428</q></rdg></app> gab mir seine konigliche gnade antwort vnd sprach was er gethun mochte mit glich eren
+      vnd rechte vmme der ganczen kristenheyt vnd nemlichen vmme seines liben herren vnd ohemes des
+      romischen koniges willen das solde seinen gnaden nicht czu swer sein / vnd er neme auch dy
+      beslissunge vnd fredbot vorgenant gerne auff . als das geboten were / vnd begerte das jch
+      seine gnade vnd dy holsten herren vnd dy stete an gelegene stete solicher beslissunge vnd
+      fredbot noch czukomen czu tagen brechte vnd benante czwu stete in seinen geleyczbriffen
+      geschreben vnd an der selben stete eyne . wanne sy czu hawffe quemen meine botschaft worbe /
+      do worde jch wol horen wer gehorsam halden worde ader nicht vnd doselbs schrift der
+      abscheydunge von beyden partein neme in welcher masse dy sache gehandelt worde / ♦
+      Dorauff vorramete seine gnade mit mir eynes tages auff <app><lem>den sontag letare</lem><rdg><q>den sontag letare - vorgangen</q>, dvs. 14. marts 1428</rdg></app> czu metefasten negst vorgangen vnd seine gnade gab mir czwene geleyczbriffe vor dy
+      holsten herren vnd dy stete mit sampt macht den tag noch ostern ab das not were czwu drei ader <app><lem>vier wochen</lem><rdg>dvs. indtil 2. maj 1428</rdg></app> czuuorlengeren vnd beful mir seine gnade wolden seine widersachern den krig gancz
+      niderlegen vnd abthun als das dy beslissunge vnd fredbot auszweisen das man fredlichen czu
+      tagen czu vnd abe komen mochte / so solde jch des macht haben von seinen gnaden das jn auch
+      czu sagen / vnd beful mir seine konigliche gnade was mir czu antwort von seinen widersachern
+      worde / das jch das seine gnade czu vorausz czeitlichen lisse wissen / das sich seine gnade
+      dornach woste czurichten ♦</p>
+            <p n="a#13" xml:space="preserve"><supplied>7</supplied> Als jch solche vnd andere botschaft brochte an dy holsten herren <app><lem>am sontage esto michi</lem><rdg>dvs. 15. februar 1428</rdg></app> gen <placeName>Sleszwig</placeName> vnd warb / wy das der konig von
+        <placeName>Denmarken</placeName> auch dy beslissunge vnd fredbot vorgenant auffgenomen hette
+      vnd wolde mit jn czu tagen komen an gelegene stete in geleyczbriffen begriffen jn czugeschickt
+      / do hin wolde der konig seine frunde bringen / auch wolde er in den sachen nicht sein eygen
+      sein . das sy desgleichen teten vnd sich lassen solche frunde gutlichen vorrichten / mochte es
+      ader io nicht czu richtunge komen / so wolde seine gnade aber noch beyder frunde erkentnussz
+      wy vnd in welcher masse der frede stehen solde auff denselben tag mit jn eynig werden das man
+      io sehen solde . das an jm nicht broch haben solde / sprach der eldiste holsten herre / der
+      romische konig hette mich nicht dorumme dorfft auszschicken / er were eynes solchen lange wol
+      bekomen / do redet jch mit demselben herren von hindergengen / antwort wart mir von jm / es
+      were nw also gelegen das er sein v{ae}terlich erbe wolde mit dem swerte wider gewinnen /
+      ♦</p>
+            <p n="a#14" xml:space="preserve"><supplied>8</supplied> Dornach bei korcz erczelte jch dem selben herren von
+        <placeName>Holsten</placeName> noch der stete begerunge in jrer gegenwortikeyt auff dem
+      rathawse czu <placeName>Lubecke</placeName> aber dy vorberurte botschaft / vnd sagete auch den
+      steten doselbs / wy das der konig von <placeName>Denmarken</placeName> dy beslissunge vnd
+      fredbot vorgenant in allen seinen st{oe}cken auch auffgenomen hette / vnd wolde mit jn an
+      gelegene stete in seinen geleyczbriffen genant czu tagen komen da hin seine frunde bringen vnd
+      nicht sein eygen sein das sy desgleichen auch teten / vnd sich mit jn lassen solche frunde
+      gutlichen verrichten / ♦ Mochte ader das nicht gesein so wolde er sich mit jn eynes
+      rechtens eynen / mochte das alles nicht beschehen so solde doch der frede als er geboten were
+      dy sechs jar auszstehen / auch sagete jch jn / wolden sy den krig gancz niderlegen vnd abthun
+      als dy beslissunge vnd fredbot auszweisten das man fredlichen czu tagen czu vnd abe komen
+      mochte / so hette mir des koniges gnade van <placeName>Denmarken</placeName> des auch macht
+      gegeben jn das czu czusagen / vnd do jch doselbs dy holsten herren vnd stete mit grosser mw
+      vnderweiste / do sageten sy mir czu <app><lem>am dornstage</lem><rdg><q>am dornstage - fasten</q>, dvs. 4. marts 1428</rdg></app> vor oculi in der fasten / sy wolden eynen fredlichen tag czu Ffalsterbode in Schon mit
+      des koniges von <placeName>Denmarken</placeName> gnaden halden / vnd jr were czu hawse lassen
+      / vnd mit mir doselbs . hin segeln das was ich gancz fr{oe} / ♦</p>
+            <p n="a#15" xml:space="preserve"><supplied>9</supplied> Dornach <app><lem>am sontage letare czu metefasten</lem><rdg>dvs. 14. marts 1428</rdg></app> als man czu schiffe geen solde goben mir dy holsten herren vnd stete eyne andere
+      antwort vnd sprochen jr vitalier weren in der see an mancherley ende dy sy selben nicht wosten
+      vnd dy mochten des koniges gnaden von <placeName>Denmarken</placeName> ader seinen richen dy
+      weile dy holsten herren vnd stede mit seinen gnaden czu tagen weren schaden czu czihen do mete
+      mochte der konig sprechen das geleyte wer gebrochen vnd solche fahen dy czum tage komen weren
+      ♦ Auch sprochen sy dy vorramete czeit metefaste wer also hewte vnd vorginge / das sy
+      nicht kunden czu solchem vorrameten tage komen / auch so mochten sy nicht gancz jr trawen
+      seczen auff solche wort vnd botschaft dy jch jn von dem konige von
+        <placeName>Denmarken</placeName> brocht hette ♦ Auch kunden sy jre were nicht czu
+      hawse lassen / vnd es wer auch mer anderszwo geschehen / das yderteyl seines besten gewart
+      hette / vnd dannach hette man sich dorunder vorsucht vnd gedediget ♦ Dorauff antwort jch
+      jn sy hetten mich vormals bas in dy dreiczende wochen auffgehalden, worumme sy des gegen mir
+      vor nicht gedocht hetten / doch so hette jchs nicht vor des koniges von
+        <placeName>Denmarken</placeName> gnaden vorgessen / der hette dorauff geantwort wan es
+      ungeuerlich czu ginge so solden sy des nicht enkelden / ♦ Czu dem andern artikel antwort
+      jch also jch hette jn doch antwort vnd geleyczbriff bracht noch all jr begerunge vnd willen /
+      ane das des koniges gnade nicht mochte gen <placeName>Fflensburg</placeName> soliche sache
+      czubeslissen vmme mancherley sache willen komen dy jch jn irczelt hette ♦ Auch hetten sy
+      mir jr begerunge in schrift gegeben als jch von jn begerte so hette jch jn widerumme von des
+      koniges von <placeName>Denmarken</placeName> gnaden antwort in schrift brocht / ♦ Auch
+      sprach jch czu jn / es wer nicht gut vndrem baner vnd swert dedighen / vnd wen es dor czu
+      queme so worden sy der jrer nicht mogen mechtig gesein vnd sagete jn mer sachen dorauff / auch
+      das der konig von <placeName>Denmarken</placeName> . dy beslissunge vnd fredbot auffgenomen
+      hette vnd deme gehorsam sein wolde <app><lem>wer</lem><rdg>mangler i Aa</rdg></app> nicht umme ir forcht willen getan sunder gehorsam czu sein als eynem kristen konig czu
+      gebort / vnd das yderman sehe . das der frede an jm nicht gebrechen solde / auch das dy keczer
+      mit solchem krige nicht gesterkt worden / auch angesehen das blutvergissen das vormals in
+      solchem krige beschehen were vnd worde es nicht vnderstanden grossers beschehen mochte / auch
+      angesehen seines liben herren vnd ohemes des romischen koniges botschaft vnd bete auch dorumme
+      das der romische konig yczunt mit den turcken vnd andern Gotes vnd des heyligen romischen
+      reichs vinden czu schaffen hette vnd ander vil sachen / ♦ Auch sprach jch furbas nw dy
+      vorramete czeit des tages also hewte vorginge so hette jch doch des koniges von
+        <placeName>Denmarken</placeName> gewalt den tag bas czu paschken vnd auch vier wochen
+      dornach czulengern vnd dorauff seinen andern geleyczbriff vor dy holsten herren vnd sy den jch
+      czu stunden jn czeygte vnd lisse den lesen vnd sprach jn mancherley hertlichen als . mir
+      bevolhen was mit der worheyt czu / ♦ Vnd vnder andern Worten sprach jch czu jn wolt jr
+      nicht fredliche tage an gelegen steten mit dem konige von <placeName>Denmarken</placeName>
+      suchen so kan ich nicht anders vorsteen wan das jr mir dy erste ewir botschaft geuerlichen
+      bevolhen habet also das jr wolt mit dem konige von <placeName>Denmarken</placeName> czu
+        <placeName>Fflenszburg</placeName> thedigen vnd dy weile auff der see vor
+        <placeName>Coppenhafen</placeName> ader anderswohin in seine rich gesegelt vnd do ewir
+      bestes getan haben / ♦</p>
+            <p n="a#16" xml:space="preserve"><supplied>10</supplied> Dornach <app><lem>am dornstage</lem><rdg><q>am dornstage - letare</q>, dvs. 18. marts 1428</rdg></app> negst noch letare goben mir dy stete alle vorgenant auff dem rathawse zu
+        <placeName>Lubeke</placeName> alleyne vor dy holsten herren vnd vor sich selbs antwort / vnd
+      sageten / dy holsten herren vnd sy wolden eynen tag <app><lem>acht tage noch ostern</lem><rdg>dvs. 11. april 1428</rdg></app> czu Ffalsterbode in Schon mit dem konige von <placeName>Denmarken</placeName> halden
+      vnd auszsegeln <app><lem>am negsten dornstage noch ostern</lem><rdg>dvs. 8. april 1428</rdg></app> also verre sy das an wettere vnd winde gehaben mochten etcetera als das lawter
+      begriffen ist an dem briffe des abschrift hernach stet den dy stete von mir begerten vnd den
+      jch besegelte vnd des abschrift jch habe mit jres eygen schreibers hant der stat
+        <placeName>Lubeke</placeName> vnd den sy selber tichten / vnd doruber begerten sy des
+      koniges von <placeName>Denmarken</placeName> geleyczbriffe dy jch jn auch doselbs antworte des
+      eynen abschrift auch hernach begriffen ist / vnd solchen worten noch czukomen vnd tage
+      czusuchen erworben mir dy stede geleyte von den holste herren vnd goben mir auch jren eygen
+      geleyczbriffe / </p>
+            <p n="a#17" xml:space="preserve"><supplied>11</supplied> Vnd also reyt jch <app><lem>am sonobende</lem><rdg><q>am sonobende - vorgangen</q>, dvs. 20. marts 1428</rdg></app> vor judica in der vasten negst vorgangen von <placeName>Lubecke</placeName> gen
+        <placeName>Denmarken</placeName> das andermal vnd auff dem wege in der holsten herren land
+      wart jch zu Renszburg auffgehalden von dem eldisten herren von Holsten <app><lem>bas an den czwelften tag</lem><rdg>dvs. indtil 31. marts 1428</rdg></app> dy sache was als er sprach das er sich selbs vnd auch mich mit dem geleyte welde
+      bewaren ♦</p>
+            <p n="a#18" xml:space="preserve"><supplied>12</supplied> Item <app><lem>am freitage</lem><rdg><q>am freitage - ostern</q>, dvs. 9. april 1428</rdg></app> negst noch ostern quam jch czu des koniges von <placeName>Denmarken</placeName> gnade
+      czu <placeName>Roszkilde</placeName> vnd offenbarte seinen gnaden den berurten vorrameten tag
+      / do sprach seine gnade zuhant / wy haben sy euch czugesaget czu fredlichem tage czukomen / sy
+      sind in vnserm riche <placeName>Denmarken</placeName> vor <placeName>Coppenhafen</placeName>
+      <app><lem>am mitwochen negst vorgangen</lem><rdg>dvs. 10. april 1428</rdg></app> mit ganczer macht komen vnd legen noch aldo / vnd haben dy vnsern gebrant gefangen vnd
+      irslagen / do antwort jch seinen gnaden sy hetten mir nicht gesaget das sy das thun wolden vnd
+      wer mir leyt / vnd bat vnder andern worten seine konigliche gnaden / das seine gnade nicht
+      welde solchs ansehen wan jch vor wore meynte sy weren von jren gemeynden dor zu gedrungen vnd <app><lem>wolde</lem><rdg>mangler i Aa</rdg></app> den vorbenanten tag suchen / den jch von gewalt seiner koniglichen gnaden mit den
+      steten vorramet hette / do beschickte seine gnade seine rete vnd gab mir eyne antwort / er
+      welde Got ansehen vnd nemlichen seines liben herren vnd ohemes des romischen koniges botschaft
+      vnd nicht der stete hoffart vnd gewalt / vnd wolde den vorrameten tag mit jn suchen / vnd
+      beful mir seine gnade / das jch welde von den dy mit gewalt in der see legen geleyte vor dy
+      seinen dy den vorrameten tag von seinen wegen suchen wolden begeren / das tete jch
+      ♦</p>
+            <p n="a#19" xml:space="preserve"><supplied>13</supplied> Vnd do jch gen Coppenhafen <app><lem>des andern tages dornach</lem><rdg>16. april 1428</rdg></app> quam / do vant jch . den jungsten herren von Holsten vnd dy stete doruor mit jrer macht
+      vnd were legen als mir des koniges gnade vorgesaget hette / vnd begerte von jn das vorberürte
+      geleyte vnd auch vor mich den vorrameten tag zusuchen / sprochen der holsten herren rete vnd
+      dy stete noch etlichen tagen sy wosten von keynem vorrameten tage jn wer auch von den jren
+      nichst davon gesaget sunder jch wer allczeit jrenthalben wol fridlich sy wosten ader wol das
+      nymandes den tag von der holsten herren vnd der stete wegen suchen worde ♦ Auch wer jn
+      beuolhen wen jn eyn newir geleyczbriff von dem konige von <placeName>Denmarken</placeName>
+      worde den solden sy auffnemen vnd den fort an dy stete schicken / do czeygte jch jn vnd
+      nemlichen zween ausz dem rate von <placeName>Lubeke</placeName> jrs eygen schreibers hant vnd
+      abeschrift des briffes den jch den steten von jrer begerunge wegen geben hatte den sy sohen
+      vnd losen vnd den dy stete selber geticht hatten vnd auch dy abschrift des koniges von
+        <placeName>Denmarken</placeName> geleyezbriffes dy sy alle von mir in <app><lem>den</lem><rdg>mangler i Aa</rdg></app> steten genomen hatten vnd underweiste sy wy vnd in welcher masse jch mit jn vnd den
+      jren in <app><lem>den</lem><rdg>mangler i Aa</rdg></app> steten eynes tages vorramet vnd eynig worden wer / vnd sagte jn aber wy das der konig
+      von <placeName>Denmarken</placeName> der beslissunge vnd fredbot gehorsam sein wolde vnd deme
+      nach kommen in aller masse als jch auch das den holsten herren vnd den steten czu
+        <placeName>Lubeke</placeName> czugesaget hette / do sprachen czy dy stete hetten mir gesaget
+      / das sy auff des koniges von <placeName>Denmarken</placeName> geleyczbriff auch auff meinem
+      briff den jch jn gegeben hette nicht wolden mit des koniges gnaden zu tagen komen antwort jch
+      jn sy hetten den breff von mir begert vnd selbs geticht / vnd als sy des koniges von
+        <placeName>Denmarken</placeName> geleyczbriff vnd meinen briff von mir genommen hetten
+      dornach hetten dy stete keyn wort wider durch sich selbs wider durch jre botschaft mit mir
+      geredet etcetera / ♦ Dornach sprochen sy sy wolden auch gehorsam sein antwort jch jn wy
+      seit jr gehorsam jch habe euch doch geboten jr sollent ewyr soldner czu hawsse ruffen vnd den
+      krig gancz niderlegen nw seit jr mit macht auszgesegelt / vnd da das alles nicht halff do
+      beczeugte jch vor eynem offenbarn schreibern vnd jn jr gegenwortikeyt den fleisz den jch in
+      der sachen getan hette / vnd alles das jch mit den holsten herren vnd den steten vnd mit den
+      in den schiffen geredt vnd gehandelt hatte ♦ Vnd do jch sy in vngehorsam mit der tat
+      vant / do antworte jch jn eynen ladebriff des romischen koniges vnd gab den nemlichen eynem
+      rotmanne von <placeName>Lubecke</placeName>
+      <persName>her Johan Ber</persName> genant <app><lem>an dem sonobende</lem><rdg><q>an dem sonobende - tag</q>, dvs. 17. april 1428</rdg></app> vor sante Jorgen tag auff der see vor <placeName>Coppenhafen</placeName> in seine hant
+      / als das lawter in eym andern jnstrument<ref target="drb2"/> begriffen ist das jch von dem offenbarn schreiber bat vnd mit fleisse begerte
+      ♦</p>
+            <p n="a#20" xml:space="preserve"><supplied>14</supplied> Also habe jch <persName>Nicolaus Stok</persName> noch begerunge des
+      durchluchtigisten fursten . vnd herren <persName>heren Erick</persName> konig czu
+        <placeName>Denmarken</placeName> etcetera <app><lem>am sontage</lem><rdg><q>am sontage - tag</q>, dvs. 18. april 1428</rdg></app> negst vor sante Jorgen tag dy vorgenante sache vnd wy jch sy geschehen gehandelt vnd
+      gelassen habe seinen koniglichen gnaden mit meins schreibers Pauls Gumprecht hant geschreben
+      geben ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

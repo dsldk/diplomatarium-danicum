@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">150</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14260226001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Tabt; tidl. Flensborg</settlement>
+                        <repository>Helligåndshusets arkiv</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Ifølge Dipl. Flensborgense (1865): <q>Segĺet, som har hængt under Brevet,
+          mangler nu</q>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Ifølge note i Rep. blev brevet <q>ikke fundet i
+      1891</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6241</bibl>
+               <bibl>Reg. *4761</bibl>
+               <bibl>Dipl. Flensborgense I 377-78, nr. 93</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Dipl. Flensborgense. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-02-26"
+                  notBefore="1426-02-26"
+                  notAfter="1426-02-26"
+                  cert="high">1426. 26. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Thormod Lund i Tøstrupgård, formentlig i Tøstrup sogn (nu ty. Toestorf), Slies herred, sælger sit
+      gods i Lille Solt (nu ty. Kleinsolt), Ugle herred, til Johan Snelling, forstanderen for
+      Helligåndshuset i Flensborg.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-10" who="#pbh">Filen etableret af #pbh 2014-07-10. </change>
+         <change when="2019-09-24" who="#jon">1. korrektur af #jon 2019-09-24. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men, ther thette breff see eller høre læse, helser jægh <persName>Thørmith
+        Lwnd</persName> j <placeName>Thystrup garth</placeName> ewinneligh met guth, oc
+      kungør met thet mynt open breff, migh haff saald een beschethen man <persName>Jahan
+        Snellink</persName> forstander j <placeName>hellichandes garth</placeName> jnnen
+        <placeName>Flensburgh</placeName> mynt gotss, ther ligger j Lille Solte, met alle syne
+      tilhøringh, agger, eng oc skwff, hwad thet helst ær, enkte vndertaghet; </p>
+            <p n="a#2" xml:space="preserve">Oc tilbinder jægh migh oc myne ræte ervinge forscr<ex>efne</ex>
+      <persName>Jahan Snelling</persName> oc hanss efterkomme aff <placeName>then
+        hællichandes</placeName> weghen thet for<hi rend="sup">de</hi> gots fry oc vbekummerth at
+      skøte oc antworde til ewinneligh æghe vden nogher geensiels, patale eller hielperæthæ,
+      oc haff <persName>Jahan Snellingh</persName> forscr<ex>efne</ex> aff then <app><lem>hællic</lem><rdg resp="#jon">Vist fejl for <q>hællichandes</q></rdg></app> weghen migh winligh betald oc fornyghet, thet jægh hannom thakker. </p>
+            <p n="a#3" xml:space="preserve">Til en større forwaringh oc mere bewisingh thesse forscr<ex>efne</ex> stukke haffer jægh
+        for<hi rend="sup">de</hi>
+      <persName>Thørmith Lwnd</persName> met berad hwgh oc gothe wilie læt mynt jngesegel henghe
+      næthen for thette breff, thet giuen oc scriuet ær efter wors herre aar m cccc pa thet
+      xxvj, then tiisdagh nest efter sente Mathie dagh hællich apostil. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

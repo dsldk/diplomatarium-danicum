@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14390100001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Vat. 367 (hos Raynaldus kaldet liber 12) fol. 67</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 120 nr. 1825</bibl>
+               <bibl>Reg. Dan. nr. 3616</bibl>
+               <bibl>Repertorium Germanicum V nr. 1753</bibl>
+               <bibl>O. Raynaldus, Annales Ecclesiastici ..., tomus IX (1752) s. 286-287</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Raynaldus l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1439-01"
+                  notBefore="1439-01"
+                  notAfter="1439-01"
+                  cert="high">1439. januar<note>I
+            Raynaldus' udgave med årstallet 1438, men udgivet under år 1439; herefter dateret 1438 i
+            Reg. Dan.; det kan ikke afgøres, hvorfra fejlen stammer i Raynaldus' udgave, men
+            eftersom konciliet flyttede til Firenze i januar 1439, må dette være den nøjagtigste
+            datering</note>
+            </date>
+            <placeName cert="high">Firenze</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Eugenius 4. meddeler kong Erik 7. af Pommern, at han på grund af en pestepidemi i
+          Ferrara har flyttet det økumeniske koncil til Firenze, hvor han håber, at bestræbelserne
+          på at forene den østlige og den vestlige kirke vil bære frugt, og han opfordrer kong Erik
+          til at sende sine gesandter dertil. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-10" who="#pbh">Filen etableret af #pbh 2013-12-10. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Charissimo in Christo filio <persName>Erico regi Daciæ</persName> illustri
+          salutem. ♦</p>
+            <p>Cum variæ nobis multiplicesque semper hactenus incubuerint solicitudines, ad commissum
+          desuper officium pastoralis curæ gregis dominici debite exequendum magna et omni ex parte
+          laudabilis solicitudo est visa circa rem unionis orientalis ecclesiæ cum occidentali
+          ecclesia, quæ pro dei miseratione, nostris temporibus est oblata, ad quam tractandam, ut
+          dudum jam feliciter coepimus, unionem, ac ipso domino et deo nostro propitio, obtinendam
+          totis animi et corporis viribus properamus. ♦</p>
+            <p>Et licet multos hactenus in ea re perpessi fuerimus labores, pluribus tamen ante actis
+          mensibus mixta laboribus ipsis multa, ob supervenientem de <placeName>civitate
+            Ferrariensi</placeName> pestem, subiicimus etiam mortis pericula, quam vigentem, ac
+          continuo invalescentem multis ac pene omnibus, in eo loco pro oecumenico concilio
+          existentibus, in locum alium propter hoc desiderantibus ea ratione declinare, supersedimus
+          ut si forte per hyemis adventum, ut verisimile erat, ea cessaret pestis,
+            in<supplied>c</supplied>hoatam hujusmodi unionem orientalis ecclesiæ in loco, ut coepta
+          fuerat, ad optatum finem perduceremus. ♦</p>
+            <p>Cum vero ea pestis, per ipsam hyemem, ut antea perseveraret, nullique amodo dubium
+          videretur, quin per ver et æstatem continuo invalesceret, ne tantum et diebus nostris
+          incomparabile bonum, ex hujusmodi morbo pestis intercipi, aut <app>
+                  <lem>aliquo</lem>
+                  <rdg>måske fejl for <q>alio</q>
+                  </rdg>
+               </app> modo turbari posset, <app>
+                  <lem>
+                     <supplied>et ut impetrari posset facultatem plenam</supplied>
+                  </lem>
+                  <rdg>Der synes at være blevet sprunget en kortere passage over i Raynaldus' udgave;
+              meningen synes at fordre noget lignende det tilføjede</rdg>
+               </app> et liberam esse omnibus pro dei gloria in hoc oecumenico concilio, in vinea domini
+          sabaoth collaborandi nobiscum, utriusque occidentalis et orientalis ecclesiæ accedente
+          consensu, dictum sacrum oecumenicum concilium, prout ex copia translationis, quam hic
+          mittimus interclusam, videre poteris, transtulimus ad civitatem Florentinam, locum quidem
+          ad id idoneum et semper alias, quoties de ipso futuro concilio tractatum fuit, nominatum
+          tanquam omnibus nationibus et populis, ut audiebamus, valde gratum: ♦</p>
+            <p>Ea autem translatione facta, et cedulis de nostro et Romanæ curiæ discessu ex more,
+          publico in loco affixis, iter ingressi tandem, duce domino, ipsam Florentinam civitatem,
+          præsenti die applicuimus, ubi magna cum cleri et populi alacritate suscepti fuimus; quod
+          tuæ celsitudini ad gaudium facimus notum, eamdem in domino exhortantes, ut postquam
+          coeptum pridem pro dicta unione orientalis ecclesiæ, aliisque maximis in dei ecclesia
+          bonis operibus concilium oecumenicum, auctore deo, est in loco salubri, tuto, libero, et
+          omnibus populis, nationibusque grato, tuos oratores ad id mittere, ac prælatos in tuis
+          dominiis constitutos, ut veniant hortari velit, ne per tuam excellentiam aliqualiter
+          desit, quin utriusque ecclesiæ unio cum cæteris sanctis operibus inchoatis feliciter
+          perficiantur. </p>
+            <p>Dat. <placeName>Florentiæ</placeName> anno incarnationis dominicæ MCCCCXXXVIII.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

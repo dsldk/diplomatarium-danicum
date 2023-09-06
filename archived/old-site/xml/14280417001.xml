@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1204</num>, paragraphs: <num
+               n="paragraphs">28</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14280417001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR 3022-b</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>48.5</height>
+                                    <width>45.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab><ex>Instrumentum super insinuacione citacionis facte civitatibus per
+                                 nuncium regis Romanorum et magistrum Nicolaum Stok ante
+                                 Ko[p]enhaff[nen]</ex></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. I:8 nr. 419 p. 277 ff.</bibl>
+               <bibl>Rep. nr. 6355</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A.</ref></ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-04-17" notBefore="1428-04-17" notAfter="1428-04-17" cert="high">1428.
+               17. april</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Notarialinstrument om Nicolaus Stocks overrækkelse af den romerske konges stævning
+               til de krigsførende stæder.</ab>
+            <ab>Nicolaus Stock red ud 200 skridt i Øresund nær København i nærheden af 11
+               orlogsskibe under ledelse af de holstenske høvedsmænd Ditlev Alefeld, Hartwig Split
+               og Joachim Breyde samt Herman Westfal og Johann Bere fra Lübeck, Heinrich Quekel fra
+               Stralsund, Johann Buro fra Rostock og øvrige råder fra Wismar, Lüneburg og Hamburg.
+               Han anmoder om frit lejde for sig selv og for kong Erik 7. af Pommerns forhandlere
+               til et møde i Falsterbo, som han hævder, man på rådhuset i Lübeck den 18. marts havde
+               lovet ham, således at borgmestre og rådmænd ville indfinde sig i de holstenske
+               grevers navn og på egne vegne. Mødet skulle finde sted 11. april eller, hvis man blev
+               forhindret af vind og vejr, 18. april. Mødet, hævdede Stock, var fastsat i henhold
+               til et brev om forhandlinger imellem kong Erik på den ene side og de krigsførende
+               stæder og holstenerne på den anden. Det brev havde Stok overrakt stæderne, hvilket
+               notaren (dvs. Paulus Gumprecht) selv bevidnede, havde fundet sted.</ab>
+            <ab>Ditlev Alefeld svarede ham, at hverken holstenske grever eller de førnævnte byer
+               vidste noget om et møde, ej heller havde borgmestre og råd i byerne givet dem besked om et
+               sådant møde, men Stock ville altid have frit lejde.</ab>
+            <ab>Og Ditlev og Johann Ber tilføjede, at de i sandhed vidste, at ingen kom til møde i Falsterbo på vegne af holstenerne eller byerne.
+               Derimod var de givet i opdrag af førnævnte byers borgmestre og rådmænd at modtage et nyt
+               lejdebrev fra kongen af Danmark, når et sådant blev fremlagt, og at befordre dette
+               videre til de nævnte byer.</ab>
+            <ab>Da overrakte Stock en kopi af førnævnte beseglede brev til rådsudsendingene fra
+               Lübeck. Han hævdede, at det var skrevet med Lübecks byskrivers egen hånd, og at det
+               endda var byerne selv, der havde dikteret det.</ab>
+            <ab>De svarede ikke noget hertil, og han forlangte brevet tilbage for at kunne bevise
+               sin anklage, når det blev nødvendigt, som han sagde, og tilføjede, at han ikke havde
+               forladt Lübeck uden holstenernes og byernes beseglede breve om mødet, hvis han havde
+               vidst, at de ikke ville overholde, hvad de sagde, og han havde ikke stillet sig
+               tilfreds med ord alene.</ab>
+            <ab>Ordlyden af brevet på tysk gengives herefter.</ab>
+            <ab>Stock læste nu ordlyden af kongen af Danmarks
+               beseglede lejdeskrivelse, som han hævdede at have overdraget førnævnte rådsudsendinge og rådmænd i Lübeck.</ab>
+            <ab>Ordlyden af brevet gengives herefter.</ab>
+            <ab>Overdragelsen og oplæsningen af disse breve står ganske fast for notaren (dvs.
+               Paulus Gumprecht).</ab>
+            <ab>Stock tilføjede, hvorledes stæderne selv var blevet enige med ham om tid og sted for
+               mødet, hvilket udtrykkeligt fremgik af ordlyden af den første skrivelse.</ab>
+            <ab>Atter tilføjede Stock over for råderne og rådsudsendingene, at kongen af Danmark var
+               rede til at adlyde den romerske konges beseglede breve med befaling om at indgå fred
+               i overensstemmelse med det, han selv (dvs. Stock) havde sagt til greverne og stæderne
+               på rådhuset i Lübeck.</ab>
+            <ab>Ditlev svarede ham i førnævnte byers navn, at byerne selv ville adlyde, men de havde
+               dog sagt til hr. doktoren, at de hverken ville forhandle om lejde til kongen eller til doktoren selv.</ab>
+            <ab>Stock spurgte, hvordan byerne kunne sige, at de ville adlyde, når han selv i
+               romernes konges navn såvel mundtligt som skriftligt havde befalet de holstenske
+               grever og nævnte byer under rigens band og andre straffe, at de skulle trække deres
+               soldater til lands og til vands tilbage og fuldstændigt afholde sig fra at strides og kæmpe med
+               kongen af Danmark og hans undersåtter og stille sig tilfreds med retten; men Stock
+               havde set det stik modsatte, nemlig at holstenerne og byerne var draget imod Danmarks
+               rige med hele deres krigsmagt, havde forårsaget brand, tilfangetagelse og drab på
+               kongen af Danmarks undersåtter og fremdeles gjorde dette.</ab>
+            <ab>Stock tilføjede, at ingen af byerne havde nævnt noget yderligere i denne sag til
+               ham, efter de havde modtaget nævnte breve, hvorefter han straks havde forladt Lübeck.</ab>
+            <ab>Efter ordvekslingen erklærede Stock dem for ulydige og fremrakte romernes konges
+               stævning til byerne repræsenteret ved rådmanden Johann Bere fra Lübeck, som, da han
+               så det kongelige segl, straks ville give den tilbage til Stock, som imidlertid
+               insisterede på, at han skulle beholde den.</ab>
+            <ab>Derpå sagde Ditlev Alefeld til nævnte Johann Bere, at han skulle smide stævningen i
+               vandet; de omkringstående råbte, at den skulle placeres på ankertovet.</ab>
+            <ab>På Stocks gentagne opfordring til at læse stævningen nægtede de og forsøgte at få ham til at tage den tilbage.</ab>
+            <ab>Derpå forkyndte Stock stævningen mundtligt. Han sagde, at den romerske konge
+               stævnede byerne til at komme til sit hof hundrede dage, efter at de havde modtaget
+               stævningen, for at forsvare, hvorfor de ikke adlød hans befaling.</ab>
+            <ab>Derpå spurgte Hermann Westfal og Johannes Ber, hvorfor Stock ikke havde præsenteret
+               stæderne for stævningen i Lübeck.</ab>
+            <ab>Stock svarede: Fordi stæderne ved den lejlighed havde sagt at de ville adlyde den
+               romerske konges befaling; men nu havde han erfaret det stik modsatte, hvorfor han gav
+               dem stævningen nu.</ab>
+            <ab>Derpå erklærede Stock, at han havde opfyldt sin mission og drog bort fra
+               skibene.</ab>
+            <ab>Ordlyden af stævningen på tysk følger herefter.</ab>
+            <ab>Stock anmodede om at få udfærdiget et instrument om begivenhederne.</ab>
+            <ab>Datoformel.</ab>
+            <ab>Notarerklæring af Paulus Gumprecht.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="2019-02-27" who="#nil">2. korrektur #pbh 2019-02-27. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In nomine domini amen ♦</p>
+            <p n="a#2" xml:space="preserve">Anno nativitatis ejusdem millesimo
+                        quadringentesimo vicesimooctavo indiccione sexta decimaseptima die mensis
+                        aprilis hora vesperorum vel quasi pontificatus vero sanctissimi in Christo
+                        patris et domini nostri domini <persName>Martini divina providencia pape quinti</persName> anno
+                        undecimo venerabilis et egregius vir <persName>Nicolaus Stok decretorum doctor</persName> ac
+                        arcium liberalium magister serenissimi et invictissimi principis et domini
+                        domini <persName>Sigismundi dei gracia Romanorum ac Hungarie Boemie Dalmacie atque
+                        Croacie etcetera regis</persName> consiliarius ac ambasiator personaliter constitutus
+                        super equo griseo in regno<placeName> Dacie</placeName> ante opidum <placeName>Haffnense</placeName> per ducentos passus
+                        modicum citra vel ultra in mari <placeName>Ursunt</placeName> coram undecim navibus in quibus
+                        fuerunt cum pluribus ceteris armigeris <persName>Dittlevus de Anefelt miles</persName> <persName>Hartwicus
+                        Split</persName> <persName>Joachym Breyt</persName> nobiles . generosorum dominorum <persName>Adolphi</persName> et<persName> Gherhardi</persName>
+                        comitum Holsacie armigeri et consiliarii / ac prudentes viri <persName>Hermannus Westfal .</persName>
+                        <persName>Johannes Ber</persName> de <placeName>Lubecke</placeName> <persName>Heynricus Queckel</persName> de<placeName> 
+                           Stralessund</placeName> <persName>Johannes Buro</persName> de
+                        <placeName>Rostock</placeName> ac alii de <placeName>Hamburg</placeName> <placeName>Wismaria</placeName> et <placeName>Lunenburg</placeName> civitatum plures
+                        consiliarii / a quibus manifeste et instanter dictus dominus doctor peciit
+                        salvum conductum pro se suis familiaribus ac eciam pro familiaribus /
+                        illustrissimi principis et domini domini <persName>Erici dei gracia Dacie Swecie
+                        Norweygie Gotthorum et Schlavorum regis atque Pomeranie ducis</persName> . ad opidum
+                        <placeName>Ffalsterbode</placeName> in <placeName>Schanea</placeName> navigandi ad diem placiti quem asseruit sibi feria
+                        quinta proxima ante dominicam Judica proxime preterita in <placeName>pretorio Lubicensi</placeName>
+                        promisisse et expresse dixisse civitatum predictarum proconsules et consules
+                        nomine dictorum comitum Holsacie et pro civitatibus dictis ex una cum
+                        illustrissimo principe et domino . domino Erico rege Dacie etcetera prefato ex
+                        alia parte in dicto opido Ffalsterbode in Schanea in dominica qua cantatur
+                        Quasimodogeniti proxime preteritam et si impedirentur a vento vel aliis
+                        causis racionabilibus ad octo dies post dictam dominicam velle servare juxta
+                        tenorem littere quam asseruit tradidisse civitatibus proprio sigillo suo
+                        appendente sigillatam / de cujus tradicione michi notario constat ad
+                        tractandum inter easdem partes de concordia et treugis gwerrarum inter
+                        dictas partes prochdolor exortarum ♦</p>
+            <p n="a#3" xml:space="preserve">Cui dictus miles Dittlevus
+                        de Anefelt respondit / quod comitibus Holsacie et consulibus dictarum
+                        civitatum non constaret de aliqua die placiti servanda nec proconsules et
+                        consules dictarum civitatum aliquid de tali die ipsis notificassent sed
+                        ipse dominus doctor prefatus esset omni tempore securus ab eis et ab omnibus
+                        eis adherentibus ♦ </p>
+            <p n="a#4" xml:space="preserve">Et subjunxerunt miles et
+                        Johannes predicti quod revera scirent quod nullus nomine comitum Holsacie
+                        predictorum aut nomine civitatum predictarum veniret ad diem et locum
+                        Ffalsterbode ad aliquid placitandum sed eis esset commissum a proconsulibus
+                        et consulibus dictarum civitatum cum aliqua littera nova salvi conductus eis
+                        a rege Dacie presentaretur istam deberent acceptare et eam civitatibus
+                        dictis dirigere ♦ </p>
+            <p n="a#5" xml:space="preserve">Tunc ad inducendum eosdem et ad informandum
+                        animos ipsorum dictus dominus doctor tradidit dictis duobus consulibus de
+                        Lubeke . videlicet Hermanno Westfal et Johanni Ber copiam littere . quam
+                        asseruit tradidisse ipsis civitatibus predictis sigillo suo sigillatam ad videndum
+                        et legendum et quam asseruit manu propria scriptoris civitatis Lubicensis esse scriptam atque
+                        ipsas civitates met eandem dictasse ♦ </p>
+            <p n="a#6" xml:space="preserve">Ea visa et lecta et cum
+                        penitus nichil super ea responderunt repeciit eandem ad intentum suum cum
+                        necessitas immineret ut asseruit probandum addens si scivisset quod verbis
+                        ipsorum noluissent satisfacere . ipse certe a civitate Lubicensi non
+                        recessisset nisi litteras dominorum Holsacie et civitatum sigillatas super
+                        die et loco placiti de quibus supra servanda habuisset nec nudis verbis
+                        ipsorum fuisset contentus ♦ </p>
+
+            <p n="a#7" xml:space="preserve">Tenor littere de qua supra in
+                        Almanico est iste ♦ </p>
+            <p>Ik Nicolaus Stok (<ex>etc. = <ref target="14280319001">DD 1428. 19. mar., nr.
+                     14280319001</ref></ex>) ♦ </p>
+            <p n="a#8" xml:space="preserve">Rursum dictus
+                        dominus doctor legit predictis consiliariis et consulibus copiam littere
+                        salvi conductus domini regis Dacie prefati ejus regali secreto sigillatam
+                        quam asseruit se tradidisse dictis civitatibus in civitate Lubicensi cujus
+                        tenor in wlgari sequitur et est talis ♦ </p>
+            <p n="a#9" xml:space="preserve">Wy Erik (<ex>etc. =
+                           <ref target="14280131001">DD 1428. 31. jan., nr. 14280131001</ref></ex>) 
+                        ♦ </p>
+            <p n="a#10" xml:space="preserve">De quarum litterarum tradicione et dictatura michi notario
+                        constat evidenter ♦ </p>
+            <p n="a#11" xml:space="preserve">Insuper dictis copiis litterarum lectis
+                        dominus doctor informavit animos ipsorum consiliariorum et consulum verbo
+                        qualiter et quomodo ipsi civitatenses concordassent cum eo de die et loco
+                        placiti expressis juxta tenorem copie littere prime ♦ </p>
+            <p n="a#12" xml:space="preserve">Et iterum
+                        subjunxit dictus dominus doctor dictis consiliariis et consulibus omnibus
+                        dicendo qualiter ipse dominus rex Dacie in omnibus vellet hodie obedire
+                        litteris sigillatis regis Romanorum mandatum treugarum continentibus
+                        secundum quod ipse dominis comitibus Holsacie et ipsis civitatibus
+                        supradictis oretenus in pretorio Lubicensi dixisset ♦ </p>
+            <p n="a#13" xml:space="preserve">Cui
+                        dictus miles respondit nomine civitatum prefatarum / quod ipse civitates
+                        vellent eciam esse obedientes sed tamen dixissent domino doctori quod
+                        <app><lem>nollent</lem><rdg rendition="#mh"><q>nullent</q>, A</rdg></app> super talibus litteris salvi conductus regis Dacie nec super littera
+                        domini doctoris cum rege Dacie aliquid placitare ♦ </p>
+            <p n="a#14" xml:space="preserve">Replicando
+                        dixit dominus doctor quomodo ipse civitates essent obedientes / cum ipse
+                        nomine serenissimi regis Romanorum prefati cum litteris regalibus sigillatis
+                        et verbis sibi per eundem dominum regem Romanorum commissis mandasset
+                        comitibus Holsacie et dictis civitatibus sub banno imperiali et aliis penis
+                        in jure expressis quod ipsi suos armigeros et soldatos sive essent in terris
+                        sive in aquis revocarent ad domos suas et totaliter a lite et gwerris cum
+                        domino rege Dacie prefato regnis suis atque subditis desisterent et juris
+                        ordine essent contenti modo facto videret oppositum quia
+                        venissent Holsati et civitates cum potenciis et armigeris ipsorum ad regna
+                        domini regis Dacie et potencias ipsorum in cremando captivando et
+                        interficiendo subditos dicti domini regis expost extendissent et hodie
+                        quantum in eis esset extenderent ♦ </p>
+            <p n="a#16" xml:space="preserve">Et iterum subjunxit idem
+                        dominus doctor quod post recepcionem dictarum litterarum nullus nomine
+                        civitatum amplius de hac materia sibi verbum fecisset cum immediate a dicta
+                        civitate Lubicensi recessisset ♦ </p>
+            <p n="a#17" xml:space="preserve">Et post talia verba prolata .
+                        asseruit eos inobedientes porrigendo citacionem domini regis Romanorum ipsis
+                        civitatensibus supradictis et signanter uni consuli de Lubek nomine Johannes
+                        Ber qui videns sigillum regale mox voluit dictam citacionem dicto domino
+                        doctori restituere sed idem rennuit eam rehabere / ♦ </p>
+            <p n="a#18" xml:space="preserve">Immediate
+                        dixit et dictus miles Dittlevus de Anefeld dicto Johanni Ber quod proiceret
+                        eam ad aquam ceteri multi idem clamantes reliqui vero ut deberet poni super
+                        valanga ad aquam / ♦ </p>
+            <p n="a#19" xml:space="preserve">Demum subjungendo dixit idem dominus doctor
+                        legatis citacionem et ea lecta habeo vobis aliqua nomine domini regis
+                        Romanorum referre ♦ </p>
+            <p n="a#20" xml:space="preserve">Ipsi vero nolentes eam legere sed petentes
+                        quatinus dictus doctor citacionem econtra ab eis recipere vellet / ♦
+                        </p>
+            <p n="a#21" xml:space="preserve">Tunc dixit idem dominus doctor ♦ Ego dicam vobis tenorem predicte
+                        citacionis breviter / dominus meus graciosissimus rex Romanorum citat
+                        vos civitates supranominatas ut debeatis comparere in curia sua regali
+                        centesima die a presentacione hujus citacionis ad dicendum causam quare non
+                        sitis obedientes ♦ </p>
+            <p n="a#22" xml:space="preserve">Insuper Hermannus Westfal et Johannes Ber
+                        consules Lubicenses predicti . a domino doctore prefato causam quesierunt
+                        quare citacionem prefatam civitatibus predictis in Lubeke non presentasset /
+                        ♦ </p>
+            <p n="a#23" xml:space="preserve">Respondit idem dominus doctor quia civitates predicte semper
+                        verbo dixissent in Lubeke se velle obedire mandato domini regis Romanorum
+                        sed quod modo facto oppositum videret ideoque eam loco et tempore ut supra
+                        eis presentasset ♦ </p>
+            <p n="a#24" xml:space="preserve">Demum protestatus fuit prefatus dominus
+                        doctor de diligencia sue legacionis in hac causa gwerrarum ut supra per eum
+                        facta et de presentacione litterarum et verborum hinc inde factorum et
+                        tandem a navibus recessit ♦ </p>
+            <p n="a#25" xml:space="preserve"> Tenor citacionis de qua supra in
+                        Almanico est iste / ♦ </p>
+            <p n="a#26" xml:space="preserve">Wir Sigmund (<ex>etc. =
+                           <ref target="14270707001">DD 1427. 7. jul., nr. 14270707001</ref></ex>) ♦ </p>
+            <p n="a#27" xml:space="preserve">Super
+                        quibus omnibus et singulis supradictis venerabilis et egregius vir Nicolaus
+                        Stok decretorum doctor ac arcium liberalium magister me notarium publicum
+                        infrascriptum debita cum instancia requisivit ut sibi super hec unum vel
+                        plura conficerem instrumentum vel instrumenta ♦ </p>
+            <p n="a#28" xml:space="preserve">Acta sunt hec
+                        anno die loco pontificatu et aliis quibus supra presentibus ibidem strenuo
+                        et provido viro Andrea Negelshem milite Vicke de Vitzen Roskildensis
+                        Alberto Detenburg Swerinensies nobilibus et Theodorico Raw Coloniensis Petro
+                        de Allstein Heylspergensis diocesium laicis cum pluribus aliis fidedignis
+                        astantibus testibus una mecum ad premissa vocatis specialiter et
+                        rogatis.</p>
+            <p>(<ex>Til venstre notarmærke tilhørende Paulus Gumprecht</ex>) Et ego <persName>Paulus Gumprecht
+                  de Nyssa clericus Wratislaviensis diocesis . apostolica ac imperiali auctoritate
+                  publicus notarius</persName> . quia omnibus et singulis supradictis dum sic ut
+               premittitur fierent et agerentur una cum testibus prenotatis presens interfui eaque
+               omnia et singula sic fieri vidi et audivi ideoque hoc presens publicum instrumentum
+               manu propria exinde confeci et ad hanc publicam formam conscriptam redegi signoque et
+               nomine mei solitis et consvetis signavi rogatus et requisitus in fidem et testimonium
+               premissorum.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

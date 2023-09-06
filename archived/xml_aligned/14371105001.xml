@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14371105001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Suppl. 335 fol. 184v (iflg. Rep.Germ.: Suppl. 342 fol. 186v)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 107 nr. 1800</bibl>
+               <bibl>Repertorium Germanicum V 769</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-11-05"
+                  notBefore="1437-11-05"
+                  notAfter="1437-11-05"
+                  cert="high">1437. 5.
+          november</date>
+            <placeName cert="high">Bologna</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Eugenius 4. bevilger en supplik af magister Bernardus de Zutvelde, klerk fra
+          Schwerin stift, om provision på provstiet samt kanonikat og præbende i Strängnäs, ledige
+          ved den tidligere indehaver Birgers død, skønt han i forvejen har dekanatet samt kanonikat
+          og præbende i Lund og præbende i Roskilde. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-28" who="#pbh">Filen etableret af #pbh 2013-11-28. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-12-11" who="#pbh">Korrektur af scan osv. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Supplicat <persName>Bernardus de Zutvelde</persName> clericus
+            <placeName>Zwerinensis</placeName> diocesis, magister in artibus ac studens in vestra
+          civitate <placeName>Bononiensi</placeName> in jure canonico, quatenus sibi de canonicatu
+          et prebenda ac prepositura, que dignitas major ac curata et electiva existit, ecclesie
+            <placeName>Strengenensis</placeName> [fructus canonicatus et prebende 4 mr. ac
+          prepositure 7 mr.] per obitum <persName>Brigeri</persName> [vacantibus] ... dignemini
+          providere, non obstantibus canonicatu et prebenda ac decanatu ecclesie
+            <placeName>Lundensis</placeName> necnon prebenda <placeName>Roskildensi</placeName>, si
+          que actu habeat [fructus omnium 26 mr.] ...</p>
+            <p>Concessum in presentia pape. <persName>C. Ariminensis</persName>.</p>
+            <p>Datum <placeName>Bononie</placeName> non. nov. anno 7.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

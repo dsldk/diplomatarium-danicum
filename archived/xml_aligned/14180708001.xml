@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">285</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14180708001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>fol. 9b-10</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>fol. 162-162b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ac">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Danzig</settlement>
+                        <repository>Stadtarchiv zu Danzig (nu Gdansk, Archiwum Panstwowe w Gdansku)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ad">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt Köln</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>bd. 1</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. I:6 nr. 564 p. 563 (efter Aa)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l. l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-07-08"
+                  notBefore="1418-07-08"
+                  notAfter="1418-07-08"
+                  cert="high">[1418]. 8. juli</date>
+            <placeName cert="high">Pinneberg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Grev Adolf af Schauenburg skriver til hansestædernes rådsudsendinge med ønske om, at de skal
+      bistå hertug Heinrich af Slesvig og grev Heinrich af Holsten, som har overholdt mødet i
+      Slesvig 24. juni 1418, i sagen mod kong Erik 7. af Pommern, som ifølge grev Adolf ikke har
+      overholdt mødet i Slesvig, for at kong Erik ikke skal fortsætte med at øve uret og vold mod
+      dem. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-21" who="#smb">Filen etableret af #smb 2017-06-21. </change>
+         <change when="2017-06-21" who="#smb">1. korrektur af #smb 2017-06-21. </change>
+         <change when="2017-10-27" who="#smb">2. korrektur af #smb 2017-10-27. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Post salutacionem.</p>
+            <p n="a#2">Erliken, wisen lude, guden vrunde.</p>
+            <p n="a#3">Alze jw menliken wol vordenken mach umme den rechtdach, den unse leven vedderen,
+        <persName>hertoghe Hinrik to Sleswik</persName> und <persName>greve Hinrik to
+        Holsten</persName>, mit <persName>deme koninge van Dennemarken</persName> to <app>
+                  <lem>sunte Johannis baptisten dage to middensomere</lem>
+                  <rdg>dvs. sankthansdag, 24. juni 1418</rdg>
+               </app>, alze nu was, scolden holden hebben; deme se doch so gerne dan hadden, dar se ere heren
+      und vrunde, alzo se hebben scolden, bii hadden, und des lange noch wardende weren; dar wii des
+      geliik up getogert hebben, uppe dat an den erbenomeden unsen leven vedderen des rechtdages nen
+      gebrek were; des de koning doch alzo nicht besocht hefft, also he sulven na lude siner
+      bezegelden breve und na sineme secgende und willekore scholde dan hebben, alzo gii alle wol
+      vorvaren hebben.</p>
+            <p n="a#4">Und na deme etlike stede van der menen henzestede wegene deme koninge und unsem vedderen
+      erbenomed by sunte Mertens dage, de dat twisschen en beden gesecht hebben, welk erer were, de
+      koning edder unse vedderen erbenomed, de deme rechtdage unde rechtgange nicht vul en dede, dat
+      se und de menen henzestede denne dem jennen, de dem rechtdage und deme rechtgange vul dede,
+      mit gantzer macht behulplik und sinem rechte wolden biistendich wesen, dat unsen leven
+      vedderen erbenomed geliik deme koninge van den steden alzo annamed ward.</p>
+            <p n="a#5">Des bidde wii jw alle, leven vrunde, mit andachtem vliite, dat gii unsen leven vedderen
+      erbenomed to eren rechten behulpen und bistendich wesen willen, uppe dat de erbenomede koning
+      wedder God und wedder recht alzo nicht vorunrechte und vorungnade und mit groter gewalt alzo
+      van eren vederliken erven und van lande und luden mit walt alzo nicht vordrive, alse he aldus
+      lange gedan hefft.</p>
+            <p n="a#6">Dat wille wii mit unsen erbenomeden vedderen umme jw vruntliken vorschulden, wor wii
+      mogen.</p>
+            <p n="a#7">Biddende des juwe gutlik antword by dessem boden.</p>
+            <p n="a#8">Geven to Pynnenberge an sunte Kiliani dage etc.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

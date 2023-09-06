@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatarium Danicum</title>
+        <editor>
+          <name xml:id="mh">
+            <persName>
+              <forename type="first">Markus</forename>
+              <surname>Hedemann</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <extent>Base text, number of words: <num n="words">35</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">45</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+      <publicationStmt>
+        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <pubPlace>København</pubPlace>
+        <date>2015</date>
+        <idno type="dd">14150000025</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository/>
+                <idno>empty</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Tabt, registreret i Næstved Skt. Peder klosters registratur 1528.
+                           RA, Herlufsholms stiftelses arkiv. I. Arkivfortegnelser. Liber donationum
+                           monasterii beati Petri Nestvediensis et Skovkloster p. 198. Indførelsen er nr. 6 under hovedrubrikken S med deloverskrift
+                              <q>Stubberop</q></ab>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>SRD IV s. 384</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <ab>Tekst efter <ref>reg</ref>. </ab>
+      </samplingDecl>
+      <projectDesc>
+        <ab>DD-5</ab>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+          <desc>nil</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1415-01-01" notBefore="1415-01-01" notAfter="1415-12-31" cert="low">1415</date>
+        <placeName cert="unknown">empty</placeName>
+      </creation>
+      <abstract>
+        <ab>Peder Torstensen Bæger skænker gods i Stubberup til Næstved Skt. Peders
+                           kloster.</ab>
+      </abstract>
+      <langUsage>
+        <language ident="la">Hovedsprog: latin. </language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2014-02-11" who="#pbh">Filen etableret af #pbh 2014-02-11. </change>
+      <change when="99999999" who="#nil">Kladde: 1. korrektur alk 2015-11-15. </change>
+      <change when="99999999" who="#nil">Kladde: 2. korrektur mh 2016-02-16. </change>
+      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="nil"/>
+  </facsimile>
+  <text>
+    <body>
+      <div xml:lang="la">
+        <p n="a#1"><persName>Petrus Thorsta<ex>n</ex>ss<ex>en</ex> Bæyære</persName> donavit et scotavit nobis bona sua in
+                  <placeName>Stubberop</placeName> videlicet tres curias prima dat ii pund secunda i
+               pund tertia i pund et rehabuit bona nostra ad dies suos in
+                  <placeName>Toxswærde</placeName> sine omni solutione pensionis ♦ Mcdxv ♦</p>
+      </div>
+      <div xml:lang="da">
+        <p n="b#1">Peder Torstensen Bæger skænkede og skødede sit gods i Stubberup til os,
+               nemlig tre gårde. Den første giver 2 pund, den anden 1 pund og den tredje 1 pund.
+               Herfor fik han vores gods i Toksværd til sin død uden nogen form for afgift.
+               1415.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

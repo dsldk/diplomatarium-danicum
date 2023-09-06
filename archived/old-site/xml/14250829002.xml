@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">121</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14250829002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2931b-c (tidl. RA. Roskilde Bisps Arkiv)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift: <q>Paa Hørby</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglet mangler</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglet mangler</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglet mangler</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Seglet mangler</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Segl mangler</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Seglet mangler</ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>Seglet mangler</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>afskrift i DSL's arkiv (Gammeldanske Diplomer 3. rk. V, uden sidetal)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. U 464 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-08-29"
+                  notBefore="1425-08-29"
+                  notAfter="1431-08-29"
+                  cert="low">[1425 eller 1431]. 29. august <note>Udgivet efter Rep. l.l., da A ikke har været tilgængelig for udgiveren i
+    april 2021; brevet mangler angivelse af udstedelsesåret, men RA angiver udstedelsesåret til
+    1425. Da datoen er dagen for Johannes Døberens halshugning, og da denne nødvendigvis må falde på
+    en onsdag, idet landstingsdagen altid var en onsdag, kan udstedelsesåret imidlertid også være
+    1431. Dette skyldes, at dagen for Johannes Døberens halshugning også i 1431 faldt på en onsdag,
+    jf. Rep. l.l. samt <ref target="14100508001">DD 1410. 8. maj, nr. 14100508001</ref>. Såfremt
+    brevet er udstedt 29. august 1425, er den i brevet nævnte biskop Jens af Roskilde identisk med
+    Jens (Andersen (Lodehat)). Såfremt brevet er udstedt 29. august 1431, er biskop Jens af Roskilde
+    identisk med Jens (Pedersen (Jernskæg))</note>
+            </date>
+            <placeName cert="high">Sjællands landsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Sjællands landsting vidimerer to breve fra hhv. 1410 og 1411, som biskop Jens af Roskilde
+      har ladet læse højt på landstinget. Disse breve er følgende:</ab>
+            <ab>1) Et brev ved hvilket brødrene Fikke og Radike Kerkendorp sælger det gods i Danmark, som de
+      har arvet efter deres broder Zabel Kerkendorp, til Peder (Jensen (Lodehat)), biskop i
+      Roskilde.</ab>
+            <ab>2) Et brev ved hvilket hr. Tage Henriksen skøder og oplader al rettighed og arv i Hørby i
+      Tuse herred, som han fik med sin hustru Elisabeth, og som denne havde fået efter hr. Zabel
+      Kerkendorp, til Peder (Jensen (Lodehat)), biskop i Roskilde.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-15" who="#pbh">Filen etableret af #pbh 2014-08-15. </change>
+         <change when="2021-04-23" who="#smb">1. korrektur af #smb 2021-04-23. </change>
+         <change when="2021-06-04" who="#smb">2. korrektur af #smb 2021-06-04. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men th<ex>et</ex>te b<ex>re</ex>ff see ell<ex>e</ex>r hør<ex>e</ex> helse wy
+        <persName>Herlow Niels<ex>søn</ex></persName> ridde<ex>re</ex> landzdomme<ex>re</ex> i
+        <placeName>Sielend</placeName>
+      <persName>Cristi<ex>er</ex>n</persName> m<ex>eth</ex> guths / nathe bisc<ex>op</ex> i
+        <placeName>Ribæ</placeName>
+      <persName>Laurentz</persName> deghen i <placeName>Rosk<ex>ilde</ex></placeName>
+      <persName>Vicke van Vitzen</persName> aff <placeName>Wæmetoffte</placeName>
+      <persName>Pær Taa</persName>
+      <persName>Anders / Iens<ex>søn</ex> aff Aas</persName>
+      <persName>Pawell Byllæ</persName>
+      <persName>Otte Fos</persName>
+      <persName>He<ex>n</ex>neke Botzendale</persName>
+      <persName>Iep Iens<ex>søn</ex> i Søthorp</persName>
+      <persName>Iep Sc<ex>ri</ex>ue<ex>re</ex></persName> oc <persName>Ge<ex>re</ex>ke
+        Dyækn</persName> / ewy<ex>n</ex>nelighe meth wor herre ♦</p>
+            <p n="a#2" xml:space="preserve">Oc ku<ex>n</ex>gør<ex>e</ex> at for oss wor<ex>e</ex> schickethe pa
+        <placeName>Siælentzfar<ex>e</ex> lantzthingh</placeName> / sancte Iohannis baptiste dag
+      decollacionis heth<ex>e</ex>rlich fath<ex>e</ex>r meth guth bisc<ex>op</ex>
+      <persName>Iens</persName> i <placeName>Rosk<ex>ilde</ex></placeName> oc lood læse
+      th<ex>e</ex>r / tw b<ex>re</ex>ff meth hele oc holdne incigle wskrapethe oc wserghethe i alle
+      made orth fra orht lude<ex>n</ex>de / so<ex>m</ex> h<ex>er</ex> efft<ex>er</ex>
+      sc<ex>re</ex>uet star ♦</p>
+            <p n="a#3" xml:space="preserve">Alle mæn thettæ breff see æller høræ (<q>etc. = <ref target="14100508001">DD 1410. 8. maj,
+          nr. 14100508001</ref></q>)</p>
+            <p n="a#4" xml:space="preserve">Iec Taghæ Hinrics<ex>øn</ex> ridder (<q>etc. = <ref target="14110425001">DD 1411. 25. apr.,
+          nr. 14110425001</ref></q>)</p>
+            <p n="a#5" xml:space="preserve">Thette hørthe wy och sowe oc thrycke wor<ex>e</ex> incigle for th<ex>et</ex>te /
+      b<ex>re</ex>ff so<ex>m</ex> giwet ær aar dagh oc stæth so<ex>m</ex>
+      for<ex>e</ex>sc<ex>re</ex>uet staar ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

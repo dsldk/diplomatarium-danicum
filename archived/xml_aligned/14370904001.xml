@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14370904001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Oblig. 69 fol. 3v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 107 nr. 1799</bibl>
+               <bibl>Weibull, Dipl. dioc. Lund. III 188 nr. 193</bibl>
+               <bibl>Acta Pont. Svec. 1.II 331 nr. 1176</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter Dipl. dioc. Lund. l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-09"
+                  notBefore="1437-09"
+                  notAfter="1437-09"
+                  cert="high">1437. [4.-18.]
+            september<note>Angående dateringen: Optegnelsen er i A gjort mellem optegnelser af hvv.
+            4. og 18. september, hvorfor dateringen må falde mellem de to datoer</note>
+            </date>
+            <placeName cert="high">Bologna</placeName>
+         </creation>
+         <abstract>
+            <ab>Det pavelige kancellis optegnelse om at Hans (Laxmand), ærkebiskop i Lund, har betalt
+          100 guldfloriner af sine servispenge til kardinalkollegiet; pengene skal fordeles mellem
+          11 kardinaler, således at hver modtager 9 fl., mens der til kammerklerkene går 1 fl. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-28" who="#pbh">Filen etableret af #pbh 2013-11-28. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-12-11" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <placeName>Bononie</placeName> [anno a nativitate domini millesimo
+          quadringentesimo tricesimo septimo] die <app>
+                  <lem>...</lem>
+                  <rdg>angivelse af dagen mangler i A</rdg>
+               </app> mensis septembris dominus <persName>Johannes</persName>, episcopus
+            <placeName>Lundensis</placeName>, solvit florenos C. Fuit promotus Bononie xii<hi rend="sup">mo</hi> kal. junii pontificatus domini Eugenii pape iiii<hi rend="sup">ti</hi> [anno vii<hi rend="sup">mo</hi>]. Fuerunt in ejus promocione cardinales xi
+          videlicet ...</p>
+            <p>Capiunt clerici collegii florenum i.</p>
+            <p>Restant floreni lxxxxix.</p>
+            <p>Capit quilibet dominorum florenos viiii.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

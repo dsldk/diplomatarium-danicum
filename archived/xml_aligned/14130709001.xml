@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14130709001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection/>
+                        <idno>NKR c-2371 (tidl. signatur Reg. 69, fasc. 3, 6)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 21,6 × 9,1 (plica: 1,8). <ab>Fugtskadet og restaureret med mindre teksttab og fuldstændig
+                                    udviskning af evt. bagsidepåskrifter til følge; det tabte kan
+                                    suppleres fra Aa</ab>1. seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5267</bibl>
+               <bibl>Reg. Dan. *4266</bibl>
+               <bibl>Udt. i Vidensk. Selsk. Skr. IX 658</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-07-09"
+                  notBefore="1413-07-09"
+                  notAfter="1413-07-09"
+                  cert="high">1413.
+               9. juli</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: Latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Lodovico di Baglioni, apostolsk nuntius i rigerne Danmark, Sverige og Norge, kvitterer Niels
+               (Jonsen) Bille, ærkedegn i Roskilde og kommissær i Jylland for den apostolske nuntius
+               Jens (Hennekesen) Rynkeby, for at have indbetalt 2400 mark lybsk i dansk mønt, som
+               han har indsamlet i Jylland for syndsforladelser, til det apostolske kammer. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-10" who="#pbh">Filen etableret af #pbh 2014-02-10. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p>Coram un<damage>iver</damage>sis ad quos presentes littere
+                  <damage>perve</damage>ner<damage>in</damage>t ego <persName>Lodowicus de
+                  Balionibus</persName> nuncius sedis apostolice <damage>per</damage> regna Dacie
+                  <placeName>Svecie</placeName> Norwegie et <damage>nonn</damage>ullas alia<damage>s
+                  parte</damage>s protestor per p<damage>resent</damage>es me a venerabili viro
+               domino <persName>Nicolao Bille</persName> archidyacono
+                  <placeName>Roskildensi</placeName> duo <damage>milia</damage> et quadringenta
+               marcarum Lubicensium in pecunia Da<damage>nica</damage> sublevasse quam pecuniam idem
+               dominus Nicolaus existens per <placeName>Juciam</placeName> commissarius domini
+                  <persName>Johannis <damage>R</damage>ynkeby</persName> nuncii sedis apostolice pro
+               indulgenciis per regna <placeName>Dacie</placeName> Svecie et
+                  <placeName>Norwegie</placeName> promulgandis in eisdem partibus Jucie collegit
+               ♦</p>
+            <p>Pro quibus quidem duobus milibus et quadringentis ma<damage>rcis</damage>
+               Lubicensibus ego Lodowicus antedictus et heredes mei predictum dominum Nicolaum et
+               heredes suos quitos et <damage>liber</damage>os dimitto ex parte camere per presentes
+               .</p>
+            <p>In cujus quitacionis testimonium sigillum nostrum presentibus est
+                  ap<damage>ensu</damage>m ♦ </p>
+            <p>Datum Roskildis anno domini millesimoquadringentesimotredecimo in octava visitacionis
+                  beat<damage>e vi</damage>irginis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

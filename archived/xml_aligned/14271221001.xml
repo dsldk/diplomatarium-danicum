@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">153</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14271221001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3018</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 24.1 × 11.2 (plica: 2.1). 1. Brudstykke af Knud Jensens segl i mørkt voks i perg.rem, AS L xxiii 97. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6337</bibl>
+               <bibl>Reg. Dan. *4810</bibl>
+               <bibl>Hübertz, Aarhus I 11 (nr. 15)</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 138</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-12-21"
+                  notBefore="1427-12-21"
+                  notAfter="1427-12-21"
+                  cert="high">1427. 21. december</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Knud Jensen, væbner, erklærer, at han på kongens vegne har modtaget den årlige skat på 100 mark lybsk fra Århus by. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-24" who="#pbh">Filen etableret af #pbh 2014-07-24. </change>
+         <change when="2019-09-11" who="#jon">1. korrektur af #jon 2019-09-11. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ me<ex>n</ex>
+      <app><lem>th<ex>e</ex>ttæ</lem><rdg wit="#A"><q>th<ex>et</ex>ttæ</q>, A</rdg></app> b<ex>re</ex>ff see æll<ex>e</ex>r høræ læsæ helsner jæch <persName>Knwt
+        Jens<ex>øn</ex></persName> th<ex>e</ex>r wabn ær helsen m<ex>eth</ex> gudh ♦ </p>
+            <p n="a#2" xml:space="preserve">Th<ex>et</ex> scule allæ me<ex>n</ex> withærlicht wæræ the nw æræ æll<ex>e</ex>r
+      ko<ex>m</ex>mæ sculæ th<ex>et</ex> jæch weth<ex>er</ex>kendnes mæch m<ex>eth</ex>
+      <app><lem>th<ex>e</ex>ttæ</lem><rdg wit="#A"><q>th<ex>et</ex>ttæ</q>, A</rdg></app> myt obbe<ex>n</ex> b<ex>re</ex>ff op at hawe booræth aff the godhe me<ex>n</ex> saa som
+      æræ borghemestæræ och radme<ex>n</ex> och ald almwuæ<ex>n</ex> i<ex>n</ex>næ<ex>n</ex>
+      <placeName>Arws</placeName> paa my<ex>n</ex> nodheghe h<ex>er</ex>ræ koni<ex>n</ex>ghens
+      weghenæ c lub<ex>iske</ex> m<ex>ar</ex>c aff there oorlighe scat th<ex>e</ex>r the sculde nw j
+      oor wt giwæ at s<ex>an</ex>c<ex>t</ex>æ Martæ<ex>n</ex>s dagh . ♦ </p>
+            <p n="a#3" xml:space="preserve">Och jæch lat<ex>er</ex> th<ex>e</ex>m qwit och orsaghe for the for<hi rend="sup">de</hi>
+      pe<ex>n</ex>ni<ex>n</ex>ge paa my<ex>n</ex> nadhe h<ex>er</ex>ræ koni<ex>n</ex>ges weghenæ och
+      thakk<ex>er</ex> th<ex>e</ex>m for godh betali<ex>n</ex>ge ♦</p>
+            <p n="a#4" xml:space="preserve">Til widnes bwrth och forwari<ex>n</ex>ge saa hæng<ex>er</ex> jæch for<hi rend="sup">de</hi>
+      <persName>Knwt Jens<ex>øn</ex></persName> mit inghesighel for <app><lem>th<ex>e</ex>ttæ</lem><rdg wit="#A"><q>th<ex>et</ex>ttæ</q>, A</rdg></app> b<ex>re</ex>ff ♦ </p>
+            <p n="a#5" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xxvii<hi rend="sup">o</hi>
+      die sancti Thome apostoli ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

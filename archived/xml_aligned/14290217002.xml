@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14290217002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Suppl. 230 fol. 6r-v</idno>
+                        <msName>(Kilden angives i APD som Reg. Lar. 230, men det kan ikke være rigtigt, da
+                  dette er en supplik; Rep. Germ. angiver kilden som Suppl. 230)</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD VII 312 nr. 5793</bibl>
+               <bibl>Repertorium Germanicum IV nr. 8654</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-02-17"
+                  notBefore="1429-02-17"
+                  notAfter="1429-02-17"
+                  cert="high">1429. 17.
+          februar</date>
+            <placeName cert="high">Rom, Santi Apostoli</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. bevilger en supplik af franciskanermunken Jens Ottesen Dykker, på den ene
+          side om at pålægge franciskanerklostret i Osnabrück at lade ham forblive i dér, at
+          behandle ham som enhver anden munk, og på den anden side om den gunst, at kun
+          franciskanerordenens generalminister kan fjerne ham fra klostret. </ab>
+            <ab>Efter at være indtrådt i ordenen og have opholdt sig i klostret i Ystad er Jens blevet
+          forflyttet til klostret i Osnabrück af ordenens generalminister, hvor guardianen og
+          brødrene imidlertid ikke vil optage ham i deres konvent, fordi han er uægte født. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-31" who="#pbh">Filen etableret af #pbh 2014-07-31. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-12-21" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">.. Exponitur s. v. pro parte .. <persName>Johannis Ottonis, alias
+            Duker</persName>, ordinis fratrum minorum professoris, quod, licet ipse, qui dudum in
+          provincia <placeName>Dacie</placeName> sub custodia Lundensi secundum morem dicti ordinis
+          domum <placeName>conventus Ystadensis</placeName> ingressus fuit et in illa professionem
+          per fratres ejusdem ordinis emitti solitam emisit regularem et, postquam in eodem ordine
+          in dicta provincia per novem annos conversatus extiterit, per generalem dicti ordinis
+          ministrum ad <placeName>domum et conventum Osnaburgenses</placeName> ejusdem ordinis
+            <placeName>provincie Coloniensis</placeName> secundum morem predictum translatus et in
+          eadem domo conventuatus fuerat, nichilominus guardianus et fratres ejusdem domus
+          Osnaburgensis ex statutis et consuetudinibus domus Osnaburgensis predicte ad ipsius
+          Johannis receptionem pro eo, quod idem Johannes defectum natalium patitur, minime teneri
+          et ad id compelli non posse asserentes ipsum ad eorum conventum et ut conventualem inibi
+          recipere denegant in hiis minime obtemperantes mandatis ministri antedicti. </p>
+            <p>Cum autem .. inter fratres predictos, quorum quisquis se utique alteri debet minorem
+          exhibere, etiam merito ex quavis preeminaentia quis attolli aut ex simili defectu evitari
+          non debeat, supplicat s. v. idem Johannes, quatinus ipsum in domo et conventu
+          Osnaburgensibus predictis recipi et ibidem ut alium fratrem conventualem pertractari
+          mandare sibique, ne per guardianum et fratres predictos odio vel rancore ab eadem domo pro
+          eorum nutu ammoveatur, quod etiam sine dicti ministri consensu a domo ipsa per illius
+          superiores transferri seu ammoveri nequeat, indulgere dignemini gratiose defectu predicto
+          et contrariis quibuscunque non obstantibus. </p>
+            <p>Fiat. O. </p>
+            <p>Datum <placeName>Rome apud ss. Apostolos</placeName> 13. kal. martii anno 12.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">14</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">21</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14350000041</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt, registreret i Næstved Skt. Peder klosters registratur 1528.
+                           RA, Herlufsholms stiftelses arkiv. I. Arkivfortegnelser. Liber donationum
+                           monasterii beati Petri Nestvediensis et Skovkloster p. 257. Indførelsen er nr. 11 under hovedrubrikken <q>K</q> med deloverskrift
+                              <q>Kalkerop</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>SRD IV s.398</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435-01-01"
+                  notBefore="1435-01-01"
+                  notAfter="1435-12-31"
+                  cert="low">1435</date>
+            <placeName cert="unknown">[Sjællands landsting]</placeName>
+         </creation>
+         <abstract>
+            <ab>Sjællands landsting vidimerer Peder Tygesens (Ravensberg) skødning
+                           og overdragelse af gods i Kalkerup og Dysted til Næstved Skt. Peder
+                           kloster. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-11" who="#pbh">Filen etableret af #pbh 2014-02-11. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur alk 2015-11-15. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mh 2016-02-16. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1"> Vidisse placiti generalis super <cit>
+                  <quote>litera prius posita k. iiii</quote>
+                  <bibl>Dipl. Dan. 1434, <ref>14349999050</ref>
+                  </bibl>
+               </cit> i huilket <persName>P<ex>er</ex> Tygess<ex>øn</ex>
+               </persName> skøtte for<ex>screfne</ex> siit gotz tiil
+                  <placeName>clost<ex>er</ex>
+               </placeName> ♦ Mcdxxxv ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1"> Vidisse af landstinget<note>Eftersom godset lå på Sjælland, må det nødvendigvis dreje sig om Sjællands landsting.</note> angående førnævnte brev under k. 4., med
+               hvilket førskrevne Per Tygesen skødede sit gods til klosteret. 1435.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

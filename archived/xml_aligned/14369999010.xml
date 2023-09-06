@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">87</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14360000010</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Rendsborg bys bog. Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Det Buchwaldske originalfragment (1426-1486)</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskrift af Rendsborg bys bog. Ikke forefundet 2018</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Zeitschr. f. Schleswig-Holstein-Lauenb. Gesch. VII, p. 71</bibl>
+               <bibl>Reg. Dan. nr. *5159</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Zeitschr. f. Schleswig-Holstein-Lauenb. Gesch. l.l., hvorfra også de arkivalske
+      oplysninger stammer</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436" notBefore="1436" notAfter="1436" cert="low">1436.</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Borgmestre og råd i Rendsborg bevidner, at kæmnerne for Vor Frues kalende har to mark
+      stående i Heinrich Oldeland Marquardsens hus, som ligger i Rendsborg. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-19" who="#pbh">Filen etableret af #pbh 2013-11-19. </change>
+         <change when="2018-11-05" who="#smb">1. korrektur af #smb 2018-11-05. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wy borghermester vnde radmanne bekennen openbare an vnsem boke dat de
+        keme<damage>rere</damage> des kalandes Vnser Leuen Vruwe hebben II mark gheldes myd Hinrik
+      Oldelande M<damage>arquard</damage> søne jn synem erue by dem markede dar he nu to tiden jnne
+      wonet ♦</p>
+            <p n="a#2" xml:space="preserve">Desse rente schal H<damage>inrik</damage> gheuen alle jar bynnen den achte daghen Sunte
+      Mertens ♦</p>
+            <p n="a#3" xml:space="preserve">Desse vorbenomede rente mach Hinrik vorbenomed vnde syne eruen vthlosen alle jar bynnen den
+      achte dagen Sunte Mertens vor XXV mark vnde de II mark rente touorn ♦</p>
+            <p n="a#4" xml:space="preserve">Anno Domini M<hi rend="sup">o</hi>CCCCXXXVJ.<hi rend="sup">o</hi> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

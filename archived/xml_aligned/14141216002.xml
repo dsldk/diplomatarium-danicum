@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">246</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14141216002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Århus</settlement>
+                        <repository>Rådhusarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Adresse: <q>Discretis viris proconsulibus et consulibus / in Aruss littera
+        detur hec</q>
+                        </ab>1. Spor efter segl tilhørende Bo (Mogensen (Lang)), biskop i
+        Århus, jf. DGS. 733
+                              . </physDesc>
+                     <history>
+                        <ab>Ikke forefundet 2021</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>afskrift i DSL's arkiv (Gammeldanske Diplomer 3. rk. V, uden sidetal)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hübertz, Et Blik paa Aarhus, p. 40-41</bibl>
+               <bibl>Hübertz, Aktst. vedk. Aarhus, bd. I, nr. 2, p. 1-2</bibl>
+               <bibl>Reg. Dan. nr. *4715 (med datering til "1424 eller tidligere")</bibl>
+               <bibl>Rep. nr. U 415 (med forkert dato: "13. dec.")</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-12-16"
+                  notBefore="1414-12-16"
+                  notAfter="1414-12-16"
+                  cert="low">[1414. 16. december] <note>Nærværende diplom mangler angivelse af udstedelsesåret. Dateringen er
+    overtaget fra Gammeldanske Diplomer l.l</note>
+            </date>
+            <placeName cert="high">Vejle</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Bo (Mogensen (Lang)), biskop i Århus, skriver til borgmestre og råd i Århus angående et
+      netop indgået forlig mellem ham og domkapitlet i Århus på den ene side og borgerne i Århus på
+      den anden side. </ab>
+            <ab>I forlængelse heraf meddeler biskop Bo, at der ikke kan holdes gudstjeneste i domkirken, da
+      de gejstlige, som skulle varetage den, er fordrevet fra domkirken og ikke kan få sikkerhed for
+      liv og gods. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-24" who="#pbh">Filen etableret af #pbh 2014-06-24. </change>
+         <change when="2021-04-22" who="#smb">1. korrektur af #smb 2021-04-22. </change>
+         <change when="2021-06-04" who="#smb">2. korrektur af #smb 2021-06-04. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Boecius dei gracia / ♦</p>
+            <p n="a#2" xml:space="preserve">Episcopus Arusiensis / ♦</p>
+            <p n="a#3" xml:space="preserve">Premissis premittendis ♦</p>
+            <p n="a#4" xml:space="preserve">With<ex>e</ex>r at wi fingæ h<ex>e</ex>r wti gaar i breff wndh<ex>e</ex>r <persName>lillæ
+        Eriks</persName> ok <persName>Thyriæs</persName> / naffn, ok insiglæ, sosom th<ex>et</ex>
+      ludh<ex>e</ex>r, tha æn for gutz, ok fredh skyld sændæ wj æn til ryggæ / the<ex>n</ex>næ
+      breffwiser<ex>e</ex>, h<ex>e</ex>r <persName>Lass Kraffsæ</persName> m<ex>eth</ex> then samæ <app><lem>makt</lem><rdg><q>maikt</q>, A</rdg></app> th<ex>e</ex>r wi sc<ex>r</ex>effwæ idh<ex>e</ex>r til th<ex>et</ex> han / ok the samæ
+        <persName>Peth<ex>e</ex>r Eriks<ex>søn</ex></persName>
+      <persName>Michel Øbæts<ex>søn</ex></persName>, ok <persName>Niss Palns<ex>søn</ex></persName>,
+      æll<ex>e</ex>r andhræ godhæ men, hwem / capittel th<ex>e</ex>r til wil haffwæ sculæ fwl <app><lem>makt</lem><rdg><q>maikt</q>, A</rdg></app> haffwæ at sighæ ok wissæ then fredh th<ex>e</ex>r / begræbæt ær melløm idh<ex>e</ex>r
+      wart capittel ok oss, so at the ok wi willæ ok sculæ hanu<ex>m</ex> holde wden arkt, wm ii
+      willæ ladhæ thøm ok oss, so hanu<ex>m</ex> i ghen sighæ ok wissæ wden / arkt, m<ex>eth</ex>
+      godhæ men aff idh<ex>er</ex>t radh ok <app><lem>by</lem><rdg><q>bi</q>, A</rdg></app> ♦</p>
+            <p n="a#5" xml:space="preserve">Ok vm th<ex>et</ex> ii sc<ex>ri</ex>ffwæ wm gutz thienestæ, tha weth th<ex>et</ex> / guth
+      th<ex>e</ex>r all thing weth, at th<ex>et</ex> ær ænghen ledhræ æn oss, at th<ex>e</ex>r scal
+      gutz thienestæ / fallæ wti war domkirkæ, th<ex>e</ex>r thes wær ey kan holdes, førstæ the
+      th<ex>e</ex>r hennæ wpholde / schulæ ær<ex>e</ex> bort dreffnæ, ok ko<ex>n</ex>næ ey fa then
+      forwaringæ, at the mwæ wær<ex>e</ex> theres / liiff ok gotz felighæ ♦ Wi haffwæ aldhræ
+      hørt ann<ex>et</ex>, æn hwr<ex>e</ex> man scal wissæ æll<ex>e</ex>r sighæ en fredh, at <app><lem>then</lem><rdg>rettet fra <q>thet</q> i A</rdg></app> scal io sighæs ok wissæ hanu<ex>m</ex> wdhen arkt, th<ex>e</ex>r ey kan oss skee / aff
+      idher ♦</p>
+            <p n="a#6" xml:space="preserve">Scriptum <placeName>Wetlæ</placeName> dominica post diem Lucie virginis nostro sub secreto
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14320329003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio di Stato</repository>
+                        <idno>Annate 1431-33 fol. 115</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 34 nr. 1648</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-03-29"
+                  notBefore="1432-03-29"
+                  notAfter="1432-03-29"
+                  cert="high">1432. 29.
+            marts<note>Jf. <ref target="14311223001">DD 1431. 23. dec., nr.
+          14311223001</ref>
+               </note>
+            </date>
+            <placeName cert="high">empty</placeName>
+         </creation>
+         <abstract>
+            <ab>Det pavelige kancellis optegnelse om at Jens Tygesen har lovet at betale annater af
+          kanonikat og præbende i Roskilde. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-04" who="#pbh">Filen etableret af #pbh 2013-10-04. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">[1432] Die 29. <app>
+                  <lem>ejusdem</lem>
+                  <rdg>
+                     <q>= mensis martii</q>
+                  </rdg>
+               </app>
+               <persName>Johannes Tuchonis</persName> principalis obligavit se camere super annata
+          canonicatus et prebende, quindecim prebendarum nuncupate, ecclesie
+            <placeName>Roskildensis</placeName> [fructus 6 mr.], vacantium per promotionem
+            <persName>Johannis Petri</persName> electi Roskildensis et munus consecrationis sibi
+          impendendum, collatorum eidem <placeName>Rome</placeName> 1431 10. kal. jan. pontificatus
+          anno 1.</p>
+         </div>
+         <div xml:lang="da">
+            <p>
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

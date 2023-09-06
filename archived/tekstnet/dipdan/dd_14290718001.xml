@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">255</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14290718001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3059</idno>
+                        <msName>gl. signatur: Ribe Stifts Breve 190</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>17.6 (plica: 1.5)</height>
+                                    <width>30.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift på bagsiden: <q>super scotacione domini Iohannis Laghonis de
+        Æm<ex>er</ex>loff super curia Kærsbøl in Riisby</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Henrik Bardewiks segl med omskriften <q>S' HINRICI BARDEWIIK</q> af mørkt
+        voks i perg.rem, AS H xlv 9
+                              </ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg.rem; ifølge Rep. og RAs Seddelregistratur over vokssegl og afstøbninger:
+        Peder Skrams segl af mørkt (bruntmalet) voks i perg.rem, AS B v 4
+                              </ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Perg.rem; ifølge Rep. og RAs Seddelregistratur over vokssegl og afstøbninger:
+        Lave Røds beskadigede segl af mørkt (bruntmalet) voks i perg.rem, AS F vi 8
+                              </ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Perg.rem.</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Bomærke i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Peder Skrams og Lave Røds affaldne segl (nr. 3 og 4) findes nu i RAs
+      seglsamling</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6415</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 190-91</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-07-18"
+                  notBefore="1429-07-18"
+                  notAfter="1429-07-18"
+                  cert="high">1429. 18. juli</date>
+            <placeName cert="unknown">Hviding herredsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne af Hviding herredsting om en sjælegave. Hr. Jens Lavesen af Højer (i påskriften: af Emmerlev), præst, skøder på Ribe kapitels vegne hr. Iver Thordsen, ærkedegn i Ribe, en gård, som hedder Søndergård, i Kærbølling i Rejsby sogn under den forudsætning, at kapitlet skal holde hans årtid med messe og vigilier og bede for hans og hans forældres sjæle.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-05" who="#pbh">Filen etableret af #pbh 2014-08-05. </change>
+         <change when="2017-05-19" who="#jon">1. korrektur af #jon 2017-05-19. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Alle men th<ex>et</ex>tæ breff see ell<ex>e</ex>r høræ helsæ wj <persName>Peth<ex>e</ex>r
+        Niss<ex>øn</ex>
+               </persName> fogh<ex>et</ex> j <placeName>Hwidinghæræth</placeName>
+               <persName>Thomas Jenss<ex>øn</ex>
+               </persName> canik j <placeName>Ribæ</placeName>
+               <persName>Peth<ex>e</ex>r Skram</persName> och <persName>Laghæ Røth</persName> awaben /
+        <persName>Ascer Nielss<ex>øn</ex>
+               </persName> och <persName>Niss Jonss<ex>øn</ex>
+               </persName>
+      som bønd<ex>e</ex>r æræ och <persName>Jess Nielss<ex>øn</ex>
+               </persName>
+               <placeName>
+                  <app>
+                     <lem>Vryd</lem>
+                     <rdg resp="#jon">jf. DD 1443. 7. dec. og DD 1473. 12. jul.: <q>præst(er?)</q> i Hviding
+            herred</rdg>
+                  </app>
+               </placeName> ewy<ex>n</ex>neligh m<ex>eth</ex> wor h<ex>er</ex>r<ex>e</ex> ♦</p>
+            <p n="a#2">Wi kwngør<ex>e</ex> th<ex>et</ex> allæ men swo wæl the nw ær<ex>e</ex> som ko<ex>m</ex>mæ
+      sculæ ath aar æfft<ex>er</ex> worss h<ex>er</ex>r<ex>e</ex> aar thwsendæ firæhwndreth / tywa
+      aar paa th<ex>et</ex> nindæ aar then mandagh næst for<ex>e</ex> s<ex>an</ex>c<ex>t</ex>e
+        <persName>Marie Magdalene</persName> dagh paa <placeName>Hwydynghærædss thingh</placeName>
+      for<ex>e</ex> oss och fleræ gothæ men som tha nærwær<ex>e</ex>ndes war<ex>e</ex> paa
+      th<ex>et</ex> same thingh war skikk<ex>et</ex> een heth<ex>e</ex>rligh man h<ex>er</ex>
+               <persName>Jwær Thordss<ex>øn</ex>
+               </persName> ærkydieghn j <placeName>Ribæ</placeName> fek och
+      framledde eet fult thyngss wydhnæ m<ex>eth</ex> ottæ schellighæ dondæ men som war <persName>
+                  <app>
+                     <lem>Iess Nielss<ex>øn</ex>
+                     </lem>
+                     <rdg resp="#jon">skrevet på rasur, A</rdg>
+                  </app>
+               </persName>
+               <app>
+                  <lem>Vryd</lem>
+                  <rdg resp="#jon">tilføjet i margenen, A</rdg>
+               </app>
+               <persName>Laghe Nielss<ex>øn</ex>
+               </persName>
+               <persName>Peth<ex>e</ex>r Therme<ex>n</ex>tss<ex>øn</ex>
+               </persName>
+               <persName>Jess Peth<ex>e</ex>rss<ex>øn</ex>
+               </persName>
+               <persName>Ebby Eskilss<ex>øn</ex>
+               </persName>
+               <persName>Swend Nielss<ex>øn</ex>
+               </persName>
+               <persName>Niss Eskilss<ex>øn</ex>
+               </persName>
+               <app>
+                  <lem>oc</lem>
+                  <rdg resp="#jon">tilføjet over linjen, A</rdg>
+               </app>
+               <persName>Jwer Kreyss<ex>øn</ex>
+               </persName> ♦</p>
+            <p n="a#3">Hwilkæ ottæ dondemen som wydneth paa ther<ex>e</ex> troo och sa<ex>n</ex>næ / ath h<ex>er</ex>
+               <persName>
+                  <app>
+                     <lem>Jenss Laghss<ex>øn</ex> aff Høther</lem>
+                     <rdg resp="#jon">ifølge påskriften: <q>Johannis Laghonis de Æm<ex>er</ex>loff</q> (dvs. Emmerlev), A</rdg>
+                  </app>
+               </persName> th<ex>e</ex>r præst war / war sielff paa <placeName>Hwydynghærædss
+        thyngh</placeName> jnnen firæ stokkæ / och skøtæ vplood och andworth<ex>et</ex> til
+      ewy<ex>n</ex>neligh atheyæ een heth<ex>e</ex>rligh man h<ex>er</ex>
+               <persName>Jwer Thorthss<ex>øn</ex>
+               </persName> ærkydieghn nw j <placeName>Ribæ</placeName> /
+      paa capitels weghnæ j <placeName>Ribæ</placeName> een garth liggend<ex>es</ex> j
+        <placeName>Kærbøll</placeName> i <placeName>Risbysoghn</placeName> som heder
+        <placeName>Synd<ex>er</ex>garth</placeName> som nw paa boor <persName>Mikel
+        Ebss<ex>øn</ex>
+               </persName> m<ex>eth</ex> all sin liggelss ag<ex>er</ex> och ængh wot och
+      thyrt rør<ex>e</ex>nd ok vrør<ex>e</ex>nd enkt vntagh<ex>et</ex> til ewy<ex>n</ex>neligh ath
+      eyæ / m<ex>eth</ex> swo dant skiæl ath fornefndæ capitell j <placeName>Ribæ</placeName> schal
+      hw<ex>er</ex>t aar holdæ hanss ortiith m<ex>eth</ex> mæssæ och vigili och bethæ for<ex>e</ex>
+      hanss och hanss forelders siælæ ♦</p>
+            <p n="a#4">Item tilbant segh fornefndæ h<ex>er</ex>
+               <persName>Jenss Laghss<ex>øn</ex>
+               </persName> och sinæ arwingæ athfry och frælsæ th<ex>et</ex>
+      fornefnd capitel j <placeName>Ribæ</placeName> then fornefnd garth meth synæ tilliggelsæ aff
+      hw<ex>er</ex> mandss tiltalæ ♦</p>
+            <p n="a#5">In cujus rei testimonium sigilla nostra presentibus duximus <app>
+                  <lem>apponendæ</lem>
+                  <rdg resp="#jon">vel fejl for <q>apponenda</q>
+                  </rdg>
+               </app> ♦</p>
+            <p n="a#6">Datum anno die et loco quibus supra ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

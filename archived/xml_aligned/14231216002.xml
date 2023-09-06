@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">221</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14231216002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>Österreichisches Staatsarchiv</repository>
+                        <collection>Haus-, Hof- und Staatsarchiv. Reichsarchive. Reichskanzlei. Reichsregisterbücher, AT-OeStA/HHStA RK Reichsregister H, Hauskanzleiregistraturbuch 1423-1428</collection>
+                        <idno>f. 18v-19r</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Regesta Imperii XI 1, nr. 5695, p. 403</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-12-16"
+                  notBefore="1423-12-16"
+                  notAfter="1423-12-16"
+                  cert="high">1423. 16. december <note>Nærværende brev står i forbindelse med kong Sigismunds stævning til kong
+    Erik vedrørende samme sag, <ref target="14231216001">DD 1423. 16. dec., nr.
+    14231216001</ref>
+               </note>
+            </date>
+            <placeName cert="high">Tata i Ungarn</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Den romerske konge Sigismund stævner Heinrich 4., Adolf 8. og Gerhard 7., hertuger af
+      Slesvig, til at indfinde sig i Ofen til afgørelse af sagen imellem dem og kong Erik 7. af
+      Pommern. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-25" who="#smb">Filen etableret af #smb 2021-03-25. </change>
+         <change when="2021-03-25" who="#smb">1. korrektur af #smb 2021-03-25. </change>
+         <change when="2021-05-11" who="#smb">2. korrektur af #smb 2021-05-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Wir <persName>Sigmund</persName> etcetera embieten den hochgebornen
+        <persName>Heinrichen</persName>
+      <persName>Adolffen</persName> / vnd <persName>Gerarten</persName> gebrudern herzogen zu
+        <placeName>Sleswig</placeName> / vnd greuen zu <placeName>Holstein</placeName> /
+        <placeName>Stormarn</placeName> / vnd <placeName>Schowemburg</placeName> / vnsern lieben
+      oheimen vnd fursten / von solicher zweytracht / vnd krieg wegen / die zwischen dem
+      durchluchtigisten fursten hern <persName>Eriken</persName> zu
+        <placeName>Dennemarck</placeName> / <placeName>Sweden</placeName> / vnd
+        <placeName>Norwegen</placeName> etcetera kunig vnserm lieben bruder an einem / vnd euch an
+      dem andern teile / langeczeit verlauffen haben / vnd noch sint / vnd jr der sache / beiderteil
+      mechticlich an vns gegangen vnd komen seyt / nach anlaszbrief auszweisung / also heischen vnd
+      verkundigen wir euch mit craft disz briefs / nach dem das jr noch die ewern mit bewislicher
+      macht / nach der verkundigunge vnde heischunge / die euch vor getan ist / nicht vor vns
+      gekomen seit / das jr / oder die ewern mit ewer voller macht / des nechsten tages vber drey
+      monet aneinander kommende / nach dem tag als diser vnser brief in ewer behusung geantwort ist /
+      zu <placeName>Ofen</placeName> gesteen sollet / recht / vnd ausspruch zuhoren / vnd aufzunemen
+      / durch vnsselber / oder die vnsern / mitnamen die wolgebornen <persName>Herman</persName>
+      grauen zu <placeName>Cili</placeName> etcetera vnd <persName>Niclasen</persName> graszgrauen
+      in <placeName>Hungern</placeName> beyden / oder jr einem / die wir volmechticlich do zu
+      gemachet / vnd geschicket haben offentlich in worden / vnd ouch mit vnsern briefen / gelich
+      vnsselber / nach vnser beuelhunge / vnde vnderwisunge / den ausspruch zufertigen vnd
+      auszusprechen / ab es vns selber / also gelegen wirt / das wir personlich nicht gegenwertig
+      weren / oder vns vor der czeit des <app><lem>aussprochs</lem><rdg>herefter står overstreget <q>vnd</q> i Aa</rdg></app> von todes wegen zu kurz wurde ♦</p>
+            <p n="a#2" xml:space="preserve">Geben zum <placeName>Tattans</placeName> am donerstag vor sant Thomas tag / ♦</p>
+            <p n="a#3" xml:space="preserve"/>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

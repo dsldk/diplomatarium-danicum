@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">28</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14370225002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. Mourids Olsen Krognos' arkiv. Eline
+      Gøyes Jordebog, Frwe Mettis mødernne gods f. 130v, i afsnittet med overskriften
+        <q>Stockebro</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Thiset, Eline Gøyes Jordebog 267</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-02-25"
+                  notBefore="1437-02-25"
+                  notAfter="1437-02-25"
+                  cert="high">1437. 25. februar<note>Registraturen nævner hverken, hvem der indførte Jens Stigsen i det nævnte
+    gods, eller hvori dette bestod. Af de efterfølgende registraturer fremgår det dog, at der var
+    tale om en sag for det kongelige retterting, og det er sandsynligt, at brevet var udstedt af de
+    fire ridemænd, der efter ordre fra justitiaren indførte den retmæssige besidder i godset. Ifølge
+    registraturen er godset nærmere beskrevet i det følgende brevreferat, men det er ikke tilfældet.
+    Da brevet blev registreret under afsnittet om Stokkebro, er det imidlertid næsten sikkert, at
+    godset bl.a. omfattede denne lokalitet. Det er muligt, at det tillige omfattede det øvrige gods,
+    der er omtalt i <ref target="14360521007">DD 1436. 21. maj, nr.
+    14360521007</ref>
+               </note>
+            </date>
+            <placeName cert="high">Stokkebro</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Jens Stigsen i Ormslev blev indført i gods i Stokkebro. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-21" who="#pbh">Filen etableret af #pbh 2013-11-21. </change>
+         <change when="2018-06-11" who="#alk">1. korrektur af #alk 2018-06-11. </change>
+         <change when="2018-06-19" who="#alk">2. korrektur af #alk 2018-06-19. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">f. Item ith breff att <persName>Jes Stigs<ex>øn</ex></persName> i
+        <placeName>Ormsløff</placeName> bleff indførdtt i th<ex>ett</ex>e gods som i thette neste
+      breff beneffnd staar / ♦</p>
+            <p n="a#2" xml:space="preserve">Datum <placeName>Stockebro</placeName> / manndagenn effter s<ex>ankt</ex> Mattis dag /
+      mcdxxxvij / ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

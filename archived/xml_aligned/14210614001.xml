@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14210614001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 237 fol. 227</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Ja. XIIII. de Cerretanis</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 318 nr. 1366</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l., de udeladte formler udfyldt efter <ref target="14040317002">DD 1404. 17. mar., nr. 14040317002</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-06-14"
+                  notBefore="1421-06-14"
+                  notAfter="1421-06-14"
+                  cert="high">1421. 14.
+          juni</date>
+            <placeName cert="high">Rom</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. giver Nicolaus de Ghancz, klerk fra Roskilde stift, lov til at vælge en
+          skriftefader, som kan meddele ham fuld syndforladelse i hans dødsstund. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-09" who="#pbh">Filen etableret af #pbh 2014-05-09. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-07-21" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p>
+               <app>
+                  <lem>Martinus (episcopus servus servorum dei)</lem>
+                  <rdg>
+                     <q>Martinus etcetera</q> Aa</rdg>
+               </app>
+               <persName>Nicolao de Ghancz</persName> clerico <placeName>Roskildensis</placeName>
+          diocesis <app>
+                  <lem>salutem (et apostolicam benedictionem)</lem>
+                  <rdg>
+                     <q>salutem etcetera</q> Aa</rdg>
+               </app> ♦</p>
+            <p>
+               <app>
+                  <lem>Provenit (ex tue devotionis / affectu / quo nos et Romanam ecclesiam revereris / ut
+              petitiones tuas illas presertim que anime tue salutem respiciunt / ad exauditionis
+              gratiam admittamus. ♦ Hinc est quod nos tuis supplicationibus inclinati / ut confessor
+              tuus quem duxeris eligendum / omnium peccatorum tuorum de quibus corde contritus et
+              ore confessus fueris / semel tamen in mortis articulo eam plenam remissionem quam
+              Romani pontifices consueverunt interdum per speciale privilegium personis aliquibus
+              impertiri / tibi quatinus claves ecclesie se extendunt / et gratum in oculis divine
+              majestatis extiterit / auctoritate apostolica concedere valeat / devotioni tue tenore
+              presentium indulgemus / sic tamen quod idem confessor de hiis de quibus fuerit alteri
+              satisfactio impendenda / eam tibi per te si supervixeris / vel per heredes tuos si
+              tunc forte transieris faciendam injungat / quam tu vel illi facere teneamini ut
+              prefertur. ♦ Et ne quod absit propter hujusmodi gratiam reddaris proclivior ad
+              illicita imposterum committenda / volumus quod si ex confidentia remissionis hujusmodi
+              aliqua forte committeres / quo ad illa predicta remissio tibi nullatenus suffragetur.
+              ♦ Nulli ergo omnino hominum liceat hanc paginam nostre concessionis et voluntatis
+              infringere vel ei ausu temerario contraire. ♦ Si quis autem hoc attemptare
+              presumpserit indignationem omnipotentis dei et beatorum Petri et Pauli apostolorum
+              ejus se noverit incursurum)</lem>
+                  <rdg>
+                     <q>Provenit etcetera</q> Aa</rdg>
+               </app> ♦ </p>
+            <p>Datum <placeName>Rome</placeName> 18. kal. julii anno 4.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

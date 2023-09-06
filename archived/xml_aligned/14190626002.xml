@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14190626002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Suppl. 123 fol. 292v</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 295 nr. 1306</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-06-26"
+                  notBefore="1419-06-26"
+                  notAfter="1419-06-26"
+                  cert="high">1419. 26.
+          juni</date>
+            <placeName cert="high">Firenze</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. bevilger to supplikker af Jens Mortensen, kannik i Ribe. </ab>
+            <ab>Den første supplik om at få provision på et evigt vikariat ved Maria Magdalenes alter i
+          Lund domkirke, skønt han i forvejen har kanonikat og præbende i Ribe; vikariatet er ledigt
+          ved at den hidtidige indehaver Jens Andersen har opnået kanonikat og præbende sammesteds,
+          hvilket ifølge Lund domkirkes statutter er uforeneligt med det evige vikariat. </ab>
+            <ab>Den anden supplik om at få provision på sognekirken Sankt Petri kirke i Malmø, ledig ved
+          at den hidtidige indehaver Jens Jakobsen har opnået dekanatet i Lund, som er en dignitet,
+          og dog uretmæssigt har beholdt sognekirken, hvorfor besættelsesretten iflg.
+          Laterankoncilets statutter tilfalder pavestolen. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-14" who="#pbh">Filen etableret af #pbh 2014-04-14. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-09-26" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Supplicat <persName>Johannes Martini</persName> canonicus
+            <placeName>Ripensis</placeName>, quatenus sibi de perpetua vicaria ad altare b. Marie
+          Magdalene situm in ecclesia <placeName>Lundensi</placeName> [fructus 8 mr.] ex eo vacante,
+          quod <persName>Johannes Andree</persName> illam obtinens canonicatum et prebendam ejusdem
+          ecclesie auctoritate ordinaria sibi collatos e[s]t pacifice assecutus, et quo[s], etiam,
+          ut dicitur, obstante antiqua consuetudine ipsius ecclesie, nequivit insimul obtinere,
+          dignemini providere, non obstantibus canonicatu et prebenda ecclesie Ripensis [fructus 4
+          mr.].</p>
+            <p>Item, quatenus eidem Johanni Martini de parrochiali ecclesia s. Petri in
+            <placeName>Malmoe</placeName> Lundensis diocesis, que de jure patronatus regis <app>
+                  <lem>[vel]</lem>
+                  <rdg>usikker læsning</rdg>
+               </app> laicorum existit, [fructus 18 mr.], ex eo vacante, quod <persName>Johannes
+            Jacobi</persName> illam obtinens decanatum ecclesie Lundensis, que dignitas est,
+          canonice sibi collatum extitit pacifice assecutus illosque simul contra canonicas
+          sanctiones a tanto tempore detinuit, prout detinet, quod ejus collatio juxta Lateranensis
+          statuta concilii ad sedem apostolicam legitime devoluta existit ...</p>
+            <p>[Fiat ... O.]</p>
+            <p>[Datum <placeName>Florentie</placeName> 6. kal. julii anno 2.]</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

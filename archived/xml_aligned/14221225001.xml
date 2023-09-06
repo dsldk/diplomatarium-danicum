@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">107</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14221225001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan. II, 16</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 17.5 × 14.2. <ab>Plica udfoldet. Skriften er meget udslidt, hvilket medfører at brevteksten enten er meget utydelig eller helt ulæselig</ab>
+                        <ab>Udvisket påskrift på bagsiden. Gammeldanske Diplomer læser: <q>Læmdørp pant [?]
+        b<ex>re</ex>ff paa S[w]enst<ex>r</ex>op</q>
+                        </ab>1. Seglsnit. 2. Seglsnit. 3. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 203-04</bibl>
+               <bibl>Rep. nr. 5991</bibl>
+               <bibl>Vejledende Arkivreg. XVIII 203 nr. 2</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-12-18"
+                  notBefore="1422-12-18"
+                  notAfter="1422-12-24"
+                  cert="low">1422. [18.-24.?] december</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kristoffer i Svenstrup erklærer at have fået en gård i Svenstrup i Malle sogn i pant for syv
+               lødige mark af abbed Henrik og hele konventet i Vitskøl kloster. Hvis Kristoffer har nogle afgrøder på den pågældende ejendom, når den skal
+      indløses, skal han beholde deres afkast. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-20" who="#pbh">Filen etableret af #pbh 2014-05-20. </change>
+         <change when="2019-05-20" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-05-20. </change>
+         <change when="2019-08-30" who="#alk">2. korrektur af #alk 2019-08-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve"><app><lem><damage>Allæ</damage></lem><rdg wit="#A"><q>A</q> usikker læsning, A; <q>llæ</q> suppleret efter Gammeldanske Diplomer</rdg></app> mæn <damage>thette</damage>
+      <app><lem><damage>b<ex>re</ex>f</damage></lem><rdg wit="#A"><q>b</q> og <q>f</q> usikker læsning, A; <q><ex>re</ex></q> suppleret efter
+          Gammeldanske Diplomer</rdg></app>
+      <app><lem>[sæ]r</lem><rdg wit="#A">usikker læsning, A</rdg></app> hell<ex>er</ex> hør<ex>æ</ex>
+      <app><lem>h[æl]s<ex>er</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem><persName>K<damage><ex>ri</ex>stoffer</damage></persName></lem><rdg wit="#A"><q><ex>ri</ex></q> og <q>er</q> suppleret efter Gammeldanske Diplomer;
+            <q>stoff</q> usikker læsning, A</rdg></app>
+      <app><lem>[ii]</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem><placeName>[Swen]strop</placeName></lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem>ewi<ex>n</ex>n[e]ligh</lem><rdg wit="#A">usikker læsning, A</rdg></app> ♦ <app><lem>T[h<ex>et</ex>]</lem><rdg wit="#A">usikker læsning, A</rdg></app> schal <app><lem><damage>allæ</damage></lem><rdg wit="#A"><q>all</q> suppleret efter Gammeldanske Diplomer; <q>æ</q> usikker læsning,
+          A</rdg></app>
+      <app><lem>wittæl[i]ct</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem>w[æ]r<ex>æ</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app> bathæ nw ær<ex>æ</ex> och <app><lem>[æ]f<damage>t<ex>er</ex></damage></lem><rdg wit="#A"><q>æ</q> og <q>t</q> usikker læsning, A; <q><ex>er</ex></q> suppleret efter
+          Gammeldanske Diplomer</rdg></app>
+      <app><lem>[kom]æ</lem><rdg wit="#A">usikker læsning, A</rdg></app> schulæ th<ex>et</ex> jegh / <app><lem>[wit]h[er]kinne[s]</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem>meg[h]</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem><damage>af</damage></lem><rdg wit="#A"><q>a</q> suppleret efter Gammeldanske Diplomer; <q>f</q> usikker læsning,
+          A</rdg></app>
+      <persName>h<ex>er</ex>r<ex>æ</ex> Henrik abb<ex>et</ex></persName> ii <app><lem>Withsch<damage>øle</damage></lem><rdg wit="#A"><q>ø</q> og <q>e</q> er suppleret efter Gammeldanske Diplomer; <q>l</q>
+          usikker læsning, A</rdg></app>
+      <app><lem>[c]lost<ex>er</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem>[oc]h</lem><rdg wit="#A">usikker læsning, A</rdg></app> alt conwent ii th<ex>et</ex>
+      <app><lem>[sam]æ</lem><rdg wit="#A">usikker læsning, A</rdg></app> st<ex>et</ex>
+      <app><lem>t[h]er<ex>æ</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem>[...]dhægardhæ</lem><rdg wit="#A"><q>bridhæ-</q>?</rdg></app> hawæ pandæ <app><lem>[f]or<ex>æ</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem>[si]w</lem><rdg wit="#A">usikker læsning, A</rdg></app> lodæmark <app><lem>re[d]hæ</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem>pen[ni]<ex>n</ex>ghæ</lem><rdg wit="#A">usikker læsning, A</rdg></app> som <app><lem>æræ</lem><rdg wit="#A">m. sen. hd., skrevet over oprindeligt <q>nw ær<ex>æ</ex></q>?</rdg></app>
+      <app><lem>landgang[st]</lem><rdg wit="#A">usikker læsning, A</rdg></app> pe<ex>n</ex>ninghæ <app><lem>h[wil]kæ[<ex>n</ex>]</lem><rdg wit="#A">usikker læsning, A</rdg></app> jordh sa som ær <app><lem>S<damage>wen?</damage>strop</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <app><lem><damage>ii Malle ?</damage></lem><rdg wit="#A"><q>ii Mall</q> usikker læsning, A; <q>e</q> suppleret Gammeldanske Diplomer</rdg></app> sogn <app><lem>l[i]ggænd<ex>is</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app> m<ex>eth</ex> allæ sinæ <app><lem>t[e]læch</lem><rdg wit="#A">usikker læsning, A</rdg></app> af aræld ♦</p>
+            <p n="a#2" xml:space="preserve">M<ex>eth</ex> sa dan wilkorth <app><lem>a[t]</lem><rdg wit="#A">usikker læsning, A</rdg></app> fyrst thessæ for<hi rend="sup">thæ</hi> pe<ex>n</ex>ninghæ <app><lem>[ær]</lem><rdg wit="#A">usikker læsning, A</rdg></app> redhæ och megh <app><lem>[ær]</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem><damage>an</damage>dw[ar]t<damage>het</damage></lem><rdg wit="#A"><q>an</q> og <q>et</q> suppleret efter Gammeldanske Diplomer; <q>ar</q> og
+            <q>h</q> usikker læsning, A</rdg></app>
+      <app><lem>[...]</lem><rdg wit="#A">plads til 7-8 tegn</rdg></app>
+      <app><lem>[thess]æ</lem><rdg wit="#A">usikker læsning, A</rdg></app> pe<ex>n</ex>ninghæ ii thet <app><lem><damage>for</damage><hi rend="sup">[t]hæ</hi></lem><rdg wit="#A"><q>f</q> og <q>t</q> usikker læsning, A; <q>or</q> suppleret efter Gammeldanske
+          Diplomer</rdg></app> clost<ex>er</ex> . <app><lem>th[æ]r<ex>æ</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app> wil jech takæ <app><lem>mi[n]æ</lem><rdg wit="#A">usikker læsning, A</rdg></app> pe<ex>n</ex>ni<ex>n</ex>ghæ och ther<ex>æ</ex>
+      <app><lem>godh[st]</lem><rdg wit="#A">usikker læsning, A</rdg></app> scal wær<ex>æ</ex> friit til th<ex>et</ex> for<hi rend="sup">sagthæ</hi>
+      clost<ex>er</ex> for<ex>æ</ex> megh och for minæ arwingh ♦</p>
+            <p n="a#3" xml:space="preserve">Item <app><lem>h[a]wæ</lem><rdg wit="#A">usikker læsning, A</rdg></app> jech nog<ex>er</ex>
+      <app><lem>[sæ]d[h]</lem><rdg wit="#A">usikker læsning, A</rdg></app> ii <app><lem><damage>th</damage>e<ex>n</ex></lem><rdg wit="#A"><q>t</q> usikker læsning, A; <q>h</q> suppleret efter Gammeldanske Diplomer</rdg></app> iordh the tith jech schal løsæn <app><lem>tag[æ]</lem><rdg wit="#A">ov. l. m. sen. hd.; usikker læsning, A</rdg></app> tha schal jech <app><lem>byhal[d]æ</lem><rdg wit="#A">usikker læsning, A</rdg></app> then <app><lem>f<damage>rwct ?</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app> ♦</p>
+            <p n="a#4" xml:space="preserve"><app><lem>T[i]l</lem><rdg wit="#A">usikker læsning, A</rdg></app> witnæsbyrth <app><lem>æ[r]</lem><rdg wit="#A">usikker læsning, A</rdg></app> mit inciil hær<ex>æ</ex> for<ex>æ</ex>
+      <app><lem>hæ[n]g<ex>et</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem><damage>m</damage><ex>eth</ex></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <app><lem>and[ræ]</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem><damage>g</damage>ot[h]æ</lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <app><lem>schell[i]gh</lem><rdg wit="#A">usikker læsning, A</rdg></app> mæn ther<ex>æ</ex> inciil <persName>Bo Tomes<ex>øn</ex></persName> af <app><lem><placeName>Bry<damage>ttor</damage>p</placeName></lem><rdg wit="#A"><q>tt</q> usikker læsning, A; <q>or</q> suppleret efter Gammeldanske
+          Diplomer</rdg></app>
+      <app><lem>.l.f</lem><rdg wit="#A">Elef? Jf. DgP I 224 og 609</rdg></app> af Ørbæk ♦</p>
+            <p n="a#5" xml:space="preserve"><app><lem>G[iw]æ<ex>n</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app> eft<ex>er</ex> war <app><lem>[h]<ex>er</ex>r<ex>æ</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app> ar m<hi rend="sup">o</hi>
+      <app><lem><damage>c</damage>d<hi rend="sup">o</hi></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <app><lem>xx[ii]</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem><damage>?</damage></lem><rdg wit="#A">ulæseligt, A</rdg></app>
+      <app><lem>th<damage>en</damage></lem><rdg wit="#A">suppleret efter Gammeldanske Diplomer</rdg></app>
+      <app><lem><damage>...</damage></lem><rdg wit="#A">ulæseligt, A</rdg></app>
+      <app><lem>[d]agh</lem><rdg wit="#A">usikker læsning, A</rdg></app> næst <app><lem>for[<ex>æ</ex>]</lem><rdg wit="#A">usikker læsning, A</rdg></app>
+      <app><lem>j[w]æl</lem><rdg wit="#A">usikker læsning, A</rdg></app> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

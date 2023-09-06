@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatarium Danicum</title>
+        <editor>
+          <name xml:id="pbh">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
+      <publicationStmt>
+        <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+        <pubPlace>København</pubPlace>
+        <date>2016</date>
+        <idno type="dd">14370521001</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository>empty</repository>
+                <collection>empty</collection>
+                <idno>empty</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Tabt</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Aa">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom</settlement>
+                <repository>Archivio Segreto Vaticano</repository>
+                <idno>Suppl. 329 fol. 163v</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>Optaget i <ref target="14370530002">DD 1437. 30. maj, nr.
+                    14370530002</ref></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Hele teksten er overstreget, og i marginen er tilføjet: <q>sic cassatum in
+                    originali</q></ab>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>APD III 100 nr. 1791</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+      </samplingDecl>
+      <projectDesc>
+        <ab>DD-5</ab>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+          <desc>nil</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1437-05-21" notBefore="1437-05-21" notAfter="1437-05-21" cert="high">[1437] 21.
+            maj<note>Årstallet er ikke medtaget i datoen, men brevet er optaget efter DD 1437. 9.
+            apr., nr. 14370409001 i 1437. 30. maj, nr. 14370530002, og eftersom indholdet i øvrigt
+            svarer til sagsforløbet i 1437, må dette være året. Brevet er sandsynligvis aldrig
+            udstedt, jf. påskrift i Aa</note></date>
+        <placeName cert="high">Basel</placeName>
+      </creation>
+      <abstract>
+        <ab>Konciliet i Basel bekræfter efter ansøgning af provsten og konventkapitlet i Viborg alle
+          privilegier, som paver, konger og andre har givet konventet i Viborg, uden hensyntagen til
+          hvad der måtte være af pavebreve, hvorved ordensreglen i konventet kunne
+          undertrykkes.</ab>
+      </abstract>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>empty</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2013-11-21" who="#pbh">Filen etableret af #pbh 2013-11-21. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-02-17" who="#pbh">Korrektur af scan osv.</change>
+      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="nil"/>
+  </facsimile>
+  <text>
+    <body>
+      <div xml:lang="la">
+        <p n="a#1">Sacrosancta generalis <placeName>synodus Basiliensis</placeName> in spiritu
+          sancto legitime congregata universalem ecclesiam representans preposito et conventui
+          monasterii <placeName>Vibergensis</placeName> ordinis canonicorum regularium s.
+          Augustini.</p>
+        <p>Cum a nobis petitur, quod justum est et honestum, tam vigor equitatis quam ordo exigit
+          rationis, ut id per sollicitudinem officii nostri ad debitum perducatur effectum.</p>
+        <p> Eapropter, vestris justis postulationibus grato occurrentes assensu, omnes libertates et
+          immunitates de Romanis pontificibus sive per privilegia seu alias indulgentias vobis ac
+          monasterio vestro concessas necnon libertates et exemptiones secularium exactionum a
+          regibus et principibus et aliis Christi fidelibus vobis et monasterio vestro predicto
+          indultas, sicut ea juste et pacifice obtinetis, vobis et per vos eidem monasterio
+          auctoritate universalis ecclesie confirmamus, non obstantibus in premissis quibuscunque
+          constitutionibus apostolicis contra privilegia et ordinationes dicti ordinis quomodolibet
+          concessis, per quas regularis observantia dicti monasterii in aliquo censeri possit
+          suppressa vel extincta.</p>
+        <p>Datum <placeName>Basilee</placeName> 12 kal. junii.</p>
+      </div>
+      <div xml:lang="da">
+        <p n="b#1">
+          <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

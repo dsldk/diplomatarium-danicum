@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">173</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14160000033</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt, registrerede i København. Rigsarkivet. Gejstlige Arkiver. Ribe
+                           kapitel 1553-1553. Registratur over Ribe Kapitels arkiv f. 393r-393v,
+                           trykt ÆA V 439-440 nr. Æ. 1-7</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. U523-30</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter reg. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416" notBefore="1416" notAfter="1416" cert="low">[o. 1416 og
+                  senere].<ref target="drb1"/>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Syv breve om Katrine Jenskones gård i Ribe.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-15" who="#pbh">Filen etableret af #pbh 2014-08-15. </change>
+         <change when="2020-06-29" who="#alk">1. korrektur af #alk 2020-06-29. </change>
+         <change when="2020-10-14" who="#alk">2. korrektur af #alk 2020-10-14. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Item eth panthebreff att <persName>Kathryn Jenskone</persName> haffuer panthesatt her
+        <persName>Jens P<ex>er</ex>s<ex>øn</ex></persName> canik he<ex>n</ex>nes gardt for xl
+      ma<ex>rck</ex> som strecker seg aff <placeName>Grønergade</placeName> och till <app><lem><placeName>Normantz gade</placeName></lem><rdg wit="#A">Understreget, reg</rdg></app> vdj syn lenghe (=
+      <ref target="14160921001" type="link">DD [før 1416. 21. september], nr. 14160921001</ref>) ♦</p>
+            <p n="a#2" xml:space="preserve">Item eth skiødebreff att for<hi rend="sup">ne</hi> Kathryne siden haffuer <app><lem>soldt</lem><rdg wit="#A"><q>d</q> rettet fra <q>t</q>, reg</rdg></app> och skiøtt for<hi rend="sup">ne</hi> her Jens P<ex>er</ex>s<ex>øn</ex> same gaardt
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Item he<ex>n</ex>nes datth<ex>e</ex>rs <persName>Alike Erlandz</persName> fuldbyrdt och
+      samtycke mett twi<ex>n</ex>ne breffue paa thet panth oc skiøde som he<ex>n</ex>nes moder hagde
+      giordt for<hi rend="sup">ne</hi> h<ex>e</ex>r Jens Pers<ex>øn</ex> (det ene af disse er vist
+      <ref target="14160921002" type="link">DD 1416. 21. sep., nr.14160921002</ref>)♦</p>
+            <p n="a#4" xml:space="preserve">Item eth breff att <persName>Pouell Tyman</persName> he<ex>n</ex>nes brod<ex>e</ex>r, oc
+        for<hi rend="sup">ne</hi> Alike Erlands haffde wntt for<hi rend="sup">ne</hi> Karen Jenskone
+      att panthe sæle och affhende same gardt hwem <app><lem><supplied>hwn</supplied></lem><rdg resp="#alk">Mangler, reg</rdg></app> wille ♦</p>
+            <p n="a#5" xml:space="preserve">Item <persName>biscop Peders</persName> breff att for<hi rend="sup">ne</hi> Karen
+      Jensk<ex>on</ex>e hagde lofflig bewyst att for<hi rend="sup">ne</hi> gardt war lofflig
+      laffboden ♦</p>
+            <p n="a#6" xml:space="preserve">Item eth papyrs breff att hwn selff fyrst oc siden he<ex>n</ex>nes broder Pouell Tideman
+      hagde lofflig laffboden for<hi rend="sup">ne</hi> gardt ♦</p>
+            <p n="a#7" xml:space="preserve">Item <persName><persName>Jahan Erlands<ex>øn</ex>s</persName></persName> skiøde paa en
+      steenhus och jordt och nyyboder som hans oldemod<ex>e</ex>r hagde tillforne skiøtt
+      h<ex>e</ex>r Jens P<ex>er</ex>s<ex>øn</ex> mett jordens lenge och brede weth bode gader
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

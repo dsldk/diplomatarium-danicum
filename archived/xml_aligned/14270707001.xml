@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">531</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270707001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 1. Kong Sigismunds påtrykte ungarske segl i rødt voks. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskrift, meddelt kong Erik sammen med <ref target="14270708001">DD 1427. 8.
+        jul., nr. 14270708001</ref>. Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3022-b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 45 × 48.5. </physDesc>
+                     <history>
+                        <ab>Afskrift. Optaget i notarialinstrument med notarpåtegning af Paulus Gumprecht,
+        <ref target="14280417001">DD 1428. 17. apr., nr. 14280417001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. 1. Kong Sigismunds påtrykte ungarske segl. </physDesc>
+                     <history>
+                        <ab>Dette brev samt de til dette brev hørende afskrifter, nemlig Ba1, Ba2 og Ba3,
+      mangler den afsluttende opfordring til at møde for kong Sigismund, som findes i
+      A</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ba">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskrift. Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ba1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3025-a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 60 × 84. </physDesc>
+                     <history>
+                        <ab>Afskrift. Optaget i notarialinstrument med notarpåtegning af Paulus Gumprecht og
+      Tue Pedersen, <ref target="14280524001">DD 1428. 24. maj, nr.
+      14280524001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ba2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3026-a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 58 × 81. </physDesc>
+                     <history>
+                        <ab>Nedertyskpræget afskrift. Optaget i notarialinstrument med notarpåtegning af
+      Johannes Kyndigh, <ref target="14280524001">DD 1428. 24. maj, nr.
+      14280524001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ba3">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>3030-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 28.5 × 33.5. </physDesc>
+                     <history>
+                        <ab>Omskrivning til nedertysk. Optaget i notarialinstrument med notarpåtegning af
+      Henricus Eybe, <ref target="14280524001">DD 1428. 29. maj, nr.
+      14280529001</ref>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. XXXV, p. 29-31 (tryk efter A og B)</bibl>
+               <bibl>Hanserec. VIII, nr. 277, p. 196 (udtog efter A)</bibl>
+               <bibl>Hanserec. VIII, nr. 278, p. 196 (udtog efter B)</bibl>
+               <bibl>Rep. nr. 6320</bibl>
+               <bibl>Reg. Dan. 3475*</bibl>
+               <bibl>Regesta Imperii XI 2, nr. 6937, p. 63</bibl>
+               <bibl>Hvitfeld IV 426, Fol. 735 (dansk oversættelse)</bibl>
+               <bibl>Holberg, Danm. Hist. I 562</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa1</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-07-07"
+                  notBefore="1427-07-07"
+                  notAfter="1427-07-07"
+                  cert="high">1427. 7. juli</date>
+            <placeName cert="high">Kronstadt i Würzland</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Den romerske konge Sigismunds brev til de nordtyske hansestæder, hvori han klager over, at
+      stæderne i 1426 har arresteret udsendingen Michael Honinger, som af den romerske konge var
+      blevet udsendt for at opfordre de nordiske folk til at deltage i krigen mod kætterne i
+      Bøhmen. </ab>
+            <ab>Ligeledes kræver den romerske konge, at hansestæderne standser den krig, som de fører mod
+      Danmark, samt at de lader sig nøje med den ret, som kong Erik 7. af Pommern tilbyder dem, med
+      mindre de vil underkaste sig den straf, som kejserretten foreskriver. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-23" who="#pbh">Filen etableret af #pbh 2014-07-23. </change>
+         <change when="2018-12-18" who="#smb">1. korrektur af #smb 2018-12-18. </change>
+         <change when="2019-05-09" who="#smb">2. korrektur af #smb 2019-05-09. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Wir <persName>Sigmund</persName> . von Gotes gnaden romischer konig <app><lem>czu</lem><rdg><q>tzu</q>, Ba2</rdg></app> allen <app><lem>czeiten</lem><rdg><q>tzeiten</q>, Ba2</rdg></app> merer des richs vnd czu <placeName><app><lem>Hungern</lem><rdg><q>Vngern</q>, Ba1</rdg></app></placeName>
+      <app><lem>czu</lem><rdg>mangler i Ba2</rdg></app>
+      <placeName>Behem</placeName>
+      <placeName>Dalmacien</placeName>
+      <placeName>Croacien</placeName> etcetera <app><lem>konig</lem><rdg><q>koning</q>, Ba2</rdg></app>
+      <app><lem>embitten</lem><rdg><q>embiten</q>, Ba1; <q>embeten</q>, Ba2</rdg></app> den ersamen <app><lem>burgermeysteren</lem><rdg><q>burgermeistern</q>, Ba2</rdg></app> reten vnd gesworen <app><lem>burgern</lem><rdg><q>burgheren</q>, Ba2</rdg></app> . <app><lem>der</lem><rdg><q>de</q>, Ba2</rdg></app> stete <placeName><app><lem>Lubek</lem><rdg><q>Lubeke</q>, Ba1; <q>Lubec</q>, Ba2</rdg></app></placeName>
+      <placeName><app><lem>Hamburg</lem><rdg><q>Hamburgh</q>, Ba2</rdg></app></placeName>
+      <placeName><app><lem>Wismer</lem><rdg><q>Wismar</q>, Ba1 og Ba2</rdg></app></placeName>, <app><lem><placeName>Stralessund</placeName></lem><rdg><q>Sund Stralessund</q>, A; <q>Stralesund</q>, Ba2</rdg></app>
+      <placeName><app><lem>Rostek</lem><rdg><q>Rostok</q>, Ba1 og Ba2</rdg></app></placeName>
+      <placeName><app><lem>Lunenburg</lem><rdg><q>Luneborgh</q>, Ba2</rdg></app></placeName> vnd aller <app><lem>ander</lem><rdg><q>andern</q>, Ba1</rdg></app> stete <app><lem>von</lem><rdg><q>van</q>, Ba2</rdg></app> der hense vnsern vnd des richs <app><lem>liben</lem><rdg><q>lieben</q>, Ba2</rdg></app>
+      <app><lem>getrawen</lem><rdg><q>getrwen</q>, Ba1; <q>getrewen</q>, Ba2</rdg></app> vnser <app><lem>gnad</lem><rdg><q>gnade</q>, Ba1</rdg></app> vnd alles gut ♦</p>
+            <p n="a#2" xml:space="preserve">Ersamen <app><lem>liben</lem><rdg><q>lieben</q>, Ba2</rdg></app>
+      <app><lem>getrawen</lem><rdg><q>getrwen</q>, Ba1; <q>getrewen</q>, Ba2</rdg></app> . ♦</p>
+            <p n="a#3" xml:space="preserve">Jr wisset wol . <app><lem>wann</lem><rdg><q>wain</q>, Ba2</rdg></app> es . <app><lem>vberal</lem><rdg><q>vbiral</q>, Ba2</rdg></app> offenbar ist / wy in dem jare <app><lem>neghst</lem><rdg><q>negst</q>, Ba1</rdg></app> vorgangen vnsers <app><lem>heyligen</lem><rdg><q>heiligen</q>, Ba2</rdg></app> vaters des babst legat nemlich der <app><lem>hochwirdige</lem><rdg><q>hoghwerdiche</q>, Ba2</rdg></app>
+      <app><lem>her</lem><rdg><q>here</q>, Ba2</rdg></app>
+      <persName>Jordan</persName> der <app><lem>heyligen</lem><rdg><q>heiligen</q>, Ba2</rdg></app> romischen kirchen <app><lem>cardinal</lem><rdg><q>cardenal</q>, Ba2</rdg></app> . <app><lem>von</lem><rdg><q>van</q>, Ba2</rdg></app>
+      <placeName><app><lem>Vrsin</lem><rdg><q>Vrsiin</q>, Ba2</rdg></app></placeName> vnd <app><lem>vnsere</lem><rdg><q>vnse</q>, Ba2</rdg></app> vnd des <app><lem>heyligen</lem><rdg><q>heiligen</q>, Ba2</rdg></app> richs <app><lem>kurfursten</lem><rdg><q>korfursten</q>, Ba2</rdg></app> . fursten vnd herren <app><lem>czu</lem><rdg><q>tzu</q>, Ba2</rdg></app>
+      <app><lem>Nurmberg</lem><rdg><q>Nurenbergh</q>, Ba2</rdg></app> eynen gemeynen <app><lem>anslag</lem><rdg><q>anslach</q>, Ba2</rdg></app>
+      <app><lem>auff</lem><rdg><q>auf</q>, Ba2</rdg></app>
+      <app><lem>meniclich</lem><rdg><q>menicklich</q>, Ba1; <q>menichlich</q>, Ba2</rdg></app>
+      <app><lem>zu</lem><rdg><q>czu</q>, Ba1; <q>tzu</q>, Ba2</rdg></app>
+      <app><lem>teglichem</lem><rdg><q>teghlichem</q>, Ba2</rdg></app>
+      <app><lem>krige</lem><rdg><q>kriege</q>, Ba1; <q>krighe</q>, Ba2</rdg></app> gemacht vnd geordent hatten . <app><lem>wider</lem><rdg><q>widdir</q>, Ba2</rdg></app>
+      <app><lem>dy</lem><rdg><q>die</q>, Ba1; <q>dey</q>, Ba2</rdg></app> verboste . ketzer <app><lem>czu</lem><rdg><q>tzu</q>, Ba2</rdg></app>
+      <placeName>Behem</placeName> dy manich grosz <app><lem>vnmenschlichkeyt</lem><rdg><q>vnmenslicheit</q>, Ba2</rdg></app>
+      <app><lem>vnd</lem><rdg>mangler i Ba2</rdg></app> vnordnung <app><lem>triben</lem><rdg><q>treiben</q>, Ba2</rdg></app>
+      <app><lem>wider</lem><rdg><q>widder</q>, Ba2</rdg></app> Got alle <app><lem>heyligen</lem><rdg><q>heilighen</q>, Ba2</rdg></app> vnd den <app><lem>heyligen</lem><rdg><q>heiligen</q>, Ba2</rdg></app>
+      <app><lem>kristenglawben</lem><rdg><q>kristeglauben</q>, Ba1; <q>kristen glowben</q>, Ba2</rdg></app> / ♦</p>
+            <p n="a#4" xml:space="preserve">Vnd als vns <app><lem>doselbest</lem><rdg><q>daselbest</q>, Ba1; <q>daselbst</q>, Ba2</rdg></app> etliche <app><lem>konigrich</lem><rdg><q>konigriche</q>, Ba1; <q>koningriche</q>, Ba2</rdg></app> vnd <app><lem>ander landt</lem><rdg><q>andere lande</q>, Ba1; <q>ander lande</q>, Ba2</rdg></app>
+      <app><lem>czugeteylt worden</lem><rdg><q>tzu geteilt wurden</q>, Ba2</rdg></app>
+      <app><lem>vnd</lem><rdg>mangler i A, B og Ba1</rdg></app>
+      <app><lem>nemlich</lem><rdg><q>nemelich</q>, Ba2</rdg></app> der durchluchtigiste furste <persName><app><lem>her</lem><rdg>Ba2 læser fejlagtigt <q>heren</q></rdg></app> Erik</persName>
+      <app><lem>konig</lem><rdg><q>koning</q>, Ba2</rdg></app>
+      <app><lem>czu</lem><rdg><q>tzu</q>, Ba2</rdg></app>
+      <placeName>Denmarken</placeName> etcetera vnser . <app><lem>liber</lem><rdg><q>lieber</q>, Ba2</rdg></app>
+      <app><lem>ohem vnd bruder</lem><rdg><q>bruder vnd oheim</q>, A; <q>oheim vnd bruder</q>, B; <q>bruder vnd ohem</q>, Ba1 og
+          Ba2</rdg></app> der orden <app><lem>von</lem><rdg><q>van</q>, Ba2</rdg></app>
+      <placeName><app><lem>Prussen</lem><rdg><q>Prüssen</q>, Ba1; <q>Prissen</q>, Ba2</rdg></app></placeName> vnd <app><lem>etliche</lem><rdg><q>etlike</q>, Ba2</rdg></app>
+      <app><lem>andere</lem><rdg><q>andre</q>, Ba2</rdg></app>
+      <app><lem>fursten</lem><rdg><q>furste</q>, Ba2</rdg></app> vnd stete dy <app><lem>wir</lem><rdg><q>wyr</q>, Ba2</rdg></app> anslahen vnd <app><lem>czu</lem><rdg><q>tzu</q>, Ba2</rdg></app>
+      <app><lem>solchem</lem><rdg><q>solichem</q>, Ba2</rdg></app>
+      <app><lem>teglichen</lem><rdg><q>teghlichem</q>, Ba2</rdg></app> krige <app><lem>erfordern</lem><rdg><q>eruordern</q>, Ba2</rdg></app>
+      <app><lem>solden</lem><rdg><q>zulden</q>, Ba2</rdg></app> vnd als wir <app><lem>das</lem><rdg><q>dacz</q>, Ba2</rdg></app> getan <app><lem>hatten</lem><rdg><q>hetten</q>, Ba2</rdg></app> vnd <app><lem>vnsere</lem><rdg><q>vnse</q>, Ba2</rdg></app>
+      <app><lem>botschaft</lem><rdg><q>botscafft</q>, Ba2</rdg></app>
+      <app><lem>vszsendeten</lem><rdg><q>auszsanten</q>, Ba2</rdg></app>
+      <app><lem>solchem</lem><rdg><q>solichem</q>, Ba2</rdg></app> anslage wider dy keczer <app><lem>nochczukomen</lem><rdg><q>nachczugeen</q>, Ba1; <q>nach tzu gen</q>, Ba2</rdg></app> / vnd <app><lem>nemlich</lem><rdg><q>nemelich</q>, Ba2</rdg></app>
+      <app><lem>dorumme</lem><rdg><q>darvmme</q>, Ba2</rdg></app>
+      <persName>Michel <app><lem>Honyngen</lem><rdg><q>Hoyningen</q>, Ba2</rdg></app></persName> vnsern <app><lem>camerer</lem><rdg><q>cammerer</q>, Ba1</rdg></app> vnd <app><lem>liben</lem><rdg><q>lieben</q>, Ba2</rdg></app>
+      <app><lem>getrewen</lem><rdg><q>getrwen</q>, Ba1</rdg></app> czu dem egenanten <app><lem>vnserm bruder</lem><rdg><q>vnserm lieben bruder</q>, A og Ba2; <q>vnserm liben bruder</q>, Ba1</rdg></app>
+      <app><lem>von</lem><rdg><q>van</q>, Ba2</rdg></app>
+      <placeName>Denmarken</placeName> mit vnsern briffen schickten <app><lem>jst</lem><rdg><q>js</q>, Ba2</rdg></app> derselbe <persName>Michel</persName>
+      <app><lem>von</lem><rdg><q>van</q>, Ba2</rdg></app> den ewern <app><lem>verspecht</lem><rdg><q>verspeht</q>, A; <q>verspecht</q>, B; <q>vorspecht</q>, Ba1 og Ba2</rdg></app> vnd <app><lem>gefangen</lem><rdg><q>geuangen</q>, Ba2</rdg></app> vnd also in <app><lem>ewir</lem><rdg><q>ewer</q>, Ba2</rdg></app>
+      <app><lem>stete</lem><rdg><q>steten</q>, Ba2</rdg></app>
+      <app><lem>gefürt worden</lem><rdg><q>gefuret worden</q>, A; <q>gefurt würden</q>, Ba1; <q>geuort worden</q>, Ba2</rdg></app> . <app><lem>da mit</lem><rdg><q>damit</q>, Ba1</rdg></app> vns vnd <app><lem>dem</lem><rdg><q>deme</q>, Ba2</rdg></app> riche <app><lem>grosse</lem><rdg><q>grosze</q>, Ba2</rdg></app>
+      <app><lem>smaheyt</lem><rdg><q>smacheyt</q>, Ba1; <q>smaheit</q>, Ba2</rdg></app>
+      <app><lem>erczeyget</lem><rdg><q>ertzeget</q>, Ba2</rdg></app> ist / <app><lem>dy</lem><rdg><q>dij</q>, Ba1</rdg></app> wir doch nicht so grosz <app><lem>wegen</lem><rdg><q>weghen</q>, Ba2</rdg></app> als dy <app><lem>hindernuss</lem><rdg><q>hindernisse</q>, Ba2</rdg></app>
+      <app><lem>da mit</lem><rdg><q>damit</q>, Ba1 og Ba2</rdg></app>
+      <app><lem>solche</lem><rdg><q>soliche</q>, Ba2</rdg></app>
+      <app><lem>hilffe</lem><rdg><q>hulffe</q>, Ba2</rdg></app> der <app><lem>heyligen</lem><rdg><q>heiligen</q>, Ba2</rdg></app>
+      <app><lem>kristenheyt</lem><rdg><q>kristenheit</q>, Ba2</rdg></app>
+      <app><lem>gen</lem><rdg><q>keghen</q>, Ba2</rdg></app> den <app><lem>keczern</lem><rdg><q>ketzern</q>, Ba2</rdg></app> erczogen ist ♦</p>
+            <p n="a#5" xml:space="preserve">So <app><lem>versteen</lem><rdg><q>vorsten</q>, Ba2</rdg></app> wir vnd vns <app><lem>kompt</lem><rdg><q>kumpt</q>, Ba2</rdg></app> auch <app><lem>teglichen</lem><rdg><q>teglich</q>, Ba1; <q>teghlich</q>, Ba2</rdg></app>
+      <app><lem>fur</lem><rdg><q>vor</q>, Ba1; <q>fore</q>, Ba2</rdg></app> / wy <app><lem>jr</lem><rdg><q>ir</q>, Ba1</rdg></app> mit dem <app><lem>durchluchtigisten</lem><rdg><q>durchluchtigesten</q>, Ba2</rdg></app> fursten hern <persName>Erik</persName> czu <placeName><app><lem>Denmarken</lem><rdg><q>Denmarken - etcetera</q>, herfor læser Ba2 blot <q>Denmarken etcetera</q></rdg></app></placeName>
+      <placeName>Sweden</placeName>
+      <placeName>Norweyen</placeName> etcetera <app><lem>konig</lem><rdg><q>koning</q>, Ba2</rdg></app>
+      <app><lem>herczogen czu <placeName>Pomern</placeName></lem><rdg>mangler i Ba2</rdg></app> vnserm <app><lem>liben</lem><rdg>mangler i Ba1 og Ba2</rdg></app> ohem vnd bruder eynen krig angefangen <app><lem>habt</lem><rdg><q>habet</q>, Ba2</rdg></app> vnd den czu <app><lem>wasser</lem><rdg><q>watzer</q>, Ba2</rdg></app> vnd <app><lem>zulande</lem><rdg><q>czu lande</q>, Ba1; <q>tzu lande</q>, Ba2</rdg></app>
+      <app><lem>swerlichen</lem><rdg><q>zwerlichen</q>, Ba2</rdg></app>
+      <app><lem>tribt</lem><rdg><q>tribet</q>, Ba1; <q>treibet</q>, Ba2</rdg></app> vns als eynen romischen <app><lem>konig</lem><rdg><q>koning</q>, Ba2</rdg></app> ewern rechten vnd <app><lem>ordenlichen</lem><rdg><q>ordenliche</q>, Ba2</rdg></app>
+      <app><lem>heren</lem><rdg><q>herren</q>, Ba1</rdg></app>
+      <app><lem>vnerfordert</lem><rdg><q>vneruordert</q>, Ba2</rdg></app> vnd <app><lem>vnbesücht</lem><rdg><q>vnbesucht</q>, A, Ba1 og Ba2</rdg></app> nicht alleyne dem egenanten vnserm bruder <app><lem>sunder</lem><rdg><q>zunder</q>, Ba2</rdg></app> der <app><lem>ganczen</lem><rdg><q>ganssen</q>, Ba2</rdg></app>
+      <app><lem>kristenheyt</lem><rdg><q>kristenheit</q>, Ba2</rdg></app>
+      <app><lem>zu</lem><rdg><q>czu</q>, Ba1</rdg></app>
+      <app><lem>schaden</lem><rdg><q>scaden</q>, Ba2</rdg></app> vnd den egenanten keczern <app><lem>zu</lem><rdg><q>czu</q>, Ba1; <q>tzu</q>, Ba2</rdg></app> sterkunge vnd <app><lem>trost</lem><rdg><q>trosst</q>, Ba2</rdg></app> / vnd <app><lem>vber</lem><rdg><q>vbir</q>, Ba2</rdg></app>
+      <app><lem>solich glich</lem><rdg>i Ba2 forvansket til <q>solichlich</q></rdg></app> vnd recht <app><lem>erbiten</lem><rdg><q>erbeten</q>, Ba2</rdg></app>
+      <app><lem>das</lem><rdg><q>dacz</q>, Ba2</rdg></app> der egenante vnser bruder <app><lem>tut</lem><rdg><q>thut</q>, Ba2</rdg></app> / <app><lem>von</lem><rdg><q>fur</q>, A; <q>vor</q>, Ba1 og Ba2</rdg></app> vnserm <app><lem>heyligen</lem><rdg><q>heilighen</q>, Ba2</rdg></app> vater den <app><lem>babst</lem><rdg><q>babist</q>, Ba2</rdg></app> / vns als <app><lem>eynen</lem><rdg><q>eynem</q>, Ba2</rdg></app> romischen <app><lem>konig</lem><rdg><q>konige</q>, Ba1; <q>koning</q>, Ba2</rdg></app> vnd andern kristenlichen fursten herren vnd gemeynden vnd <app><lem>vber</lem><rdg><q>vbir</q>, Ba2</rdg></app>
+      <app><lem>solche</lem><rdg><q>soliche</q>, Ba2</rdg></app>
+      <app><lem>verschribunge</lem><rdg><q>verschreibunge</q>, Ba1; <q>vorscribunge</q>, Ba2</rdg></app> vnd <app><lem>verbriffunge</lem><rdg><q>vorbriffunge</q>, Ba2</rdg></app> . dy czwischen euch . <app><lem>beydenthalben</lem><rdg><q>beijdenthalben</q>, Ba1</rdg></app> vor newlichen vnd <app><lem>korczen</lem><rdg><q>kurtzen</q>, Ba2</rdg></app> jaren <app><lem>geschehen</lem><rdg>Ba2 læser fejlagtigt <q>gesehen</q></rdg></app>
+      <app><lem>sind</lem><rdg><q>synt</q>, Ba2</rdg></app> . <app><lem>das</lem><rdg><q>datz</q>, Ba2</rdg></app> alles vns <app><lem>von</lem><rdg><q>van</q>, Ba2</rdg></app>
+      <app><lem>euch</lem><rdg><q>ewch</q>, Ba2</rdg></app> nicht kleyn vordrusset angesehen . <app><lem>das</lem><rdg><q>datz</q>, Ba2</rdg></app> der <app><lem>heyligen</lem><rdg><q>heiligen</q>, Ba2</rdg></app>
+      <app><lem>kristenheyt</lem><rdg><q>kristenheit</q>, Ba2</rdg></app> beyde von dem egenanten <app><lem>vnserm</lem><rdg><q>vnsern</q>, Ba2</rdg></app> bruder vnd <app><lem>von</lem><rdg><q>van</q>, Ba2</rdg></app> euch eyne treffliche <app><lem>holffe</lem><rdg><q>hilffe</q>, Ba1; <q>hulffe</q>, Ba2</rdg></app> gen den egenanten <app><lem>keczern</lem><rdg><q>ketzern</q>, Ba2</rdg></app>
+      <app><lem>abgeet</lem><rdg><q>abget</q>, Ba2</rdg></app> / vnd wir hetten euch <app><lem>getrawet</lem><rdg><q>getrewet</q>, Ba2</rdg></app> jr soldet ee <app><lem>holffe</lem><rdg><q>hilffe</q>, Ba1; <q>hulffe</q>, Ba2</rdg></app>
+      <app><lem>dann</lem><rdg><q>dain</q>, Ba2</rdg></app>
+      <app><lem>hindernuss</lem><rdg><q>hinderniss</q>, Ba2</rdg></app> czu <app><lem>solchem</lem><rdg><q>solichem</q>, Ba2</rdg></app> loblichen dinste der <app><lem>heyligen</lem><rdg><q>heiligen</q>, Ba2</rdg></app>
+      <app><lem>kristenheyt</lem><rdg><q>kristenheit</q>, Ba2</rdg></app> getan haben / ♦</p>
+            <p n="a#6" xml:space="preserve">Vnd <app><lem>wan</lem><rdg><q>wain</q>, Ba2</rdg></app> vnsere vnd des heiligen richs kurfursten vnd fursten dy <app><lem>yczunt</lem><rdg><q>ytzunt</q>, Ba2</rdg></app>
+      <app><lem>auff</lem><rdg><q>vff</q>, Ba2</rdg></app> dem <app><lem>negsten</lem><rdg><q>negesten</q>, Ba2</rdg></app> tage czu <app><lem>Ffrankfort</lem><rdg><q>Ffranckfort</q>, Ba1; <q>Frankfurt</q>, Ba2</rdg></app>
+      <app><lem>beienander</lem><rdg><q>beyenander</q>, Ba1; <q>bey eynander</q>, Ba2</rdg></app> gewesen <app><lem>sein</lem><rdg><q>sind</q>, Ba1; <q>seyn</q>, Ba2</rdg></app> . <app><lem>dor zu</lem><rdg><q>dorczu</q>, Ba1; <q>darczu</q>, Ba2</rdg></app>
+      <app><lem>wir</lem><rdg><q>wyr</q>, Ba2</rdg></app> auch vnsere <app><lem>botschaft</lem><rdg><q>botscafft</q>, Ba2</rdg></app> vnd <app><lem>jnsigel</lem><rdg><q>jngesigel</q>, Ba2</rdg></app> gesant haben <app><lem>gancz</lem><rdg>Ba2 læser herfor fejlagtigt <q>gatnz</q></rdg></app>
+      <app><lem>dorauff</lem><rdg><q>darauff</q>, Ba2</rdg></app> bleben <app><lem>sind</lem><rdg><q>seint</q>, Ba2</rdg></app> . <app><lem>das</lem><rdg><q>datz</q>, Ba2</rdg></app> alle krige <app><lem>czwischen</lem><rdg><q>zwischen</q>, Ba2</rdg></app>
+      <app><lem>weme</lem><rdg><q>wem</q>, Ba1</rdg></app> dy yndert in dem riche weren Got <app><lem>zu</lem><rdg><q>czu</q>, Ba1 og Ba2</rdg></app> lobe vnd der <app><lem>heyligen</lem><rdg><q>heiligen</q>, Ba2</rdg></app> kristenheyt <app><lem>zu</lem><rdg><q>czu</q>, Ba1 og Ba2</rdg></app> dinste gancz gestillet vnd hingeleget werden vnd in gut <app><lem>bestehen</lem><rdg><q>besteen</q>, Ba2</rdg></app>
+      <app><lem>sullen</lem><rdg><q>sollen</q>, Ba1 og Ba2</rdg></app> . <app><lem>dorumme</lem><rdg><q>dar vmme</q>, Ba2</rdg></app> so ermanen wir euch . auch so wir hochste <app><lem>mogen</lem><rdg><q>moghen</q>, Ba2</rdg></app> begerende mit <app><lem>fleisse</lem><rdg><q>fleitze</q>, Ba2</rdg></app> vnd <app><lem>gebiten</lem><rdg><q>gebeiten</q>, Ba2</rdg></app> euch auch . von romischer <app><lem>koniglicher</lem><rdg><q>koningliche</q>, Ba2</rdg></app> macht ernstlichen vnd <app><lem>vestiglichen</lem><rdg><q>vesticlich</q>, Ba1; <q>vestlichen</q>, Ba2</rdg></app> mit <app><lem>dissem</lem><rdg><q>dessem</q>, Ba2</rdg></app> briffe <app><lem>bei</lem><rdg><q>bey</q>, Ba2</rdg></app> vnsern vnd des richs <app><lem>hulden</lem><rdg><q>huldenen</q>, Ba2</rdg></app> vnd <app><lem>bei</lem><rdg><q>bey</q>, Ba2</rdg></app>
+      <app><lem>solchen</lem><rdg><q>solichem</q>, Ba2</rdg></app>
+      <app><lem>pen</lem><rdg><q>penen</q>, Ba1 og Ba2</rdg></app> . in den <app><lem>heyligen</lem><rdg><q>heiligen</q>, Ba2</rdg></app> keyserlichen rechten <app><lem>vszgeseczten</lem><rdg><q>auszgesegten</q>, Ba2</rdg></app> / <app><lem>das</lem><rdg><q>datz</q>, Ba2</rdg></app> jr <app><lem>soliche</lem><rdg><q>solche</q>, Ba1</rdg></app>
+      <app><lem>czwitracht</lem><rdg><q>zwitracht</q>, Ba2</rdg></app> vnd krige gen dem egenanten vnserm <app><lem>liben</lem><rdg><q>lieben</q>, Ba2</rdg></app> bruder . vnd <app><lem>synen</lem><rdg><q>seinen</q>, Ba1 og Ba2</rdg></app>
+      <app><lem>konigrichen</lem><rdg><q>koningrichen</q>, Ba2</rdg></app>
+      <app><lem>czustunden</lem><rdg><q>zustunden</q>, Ba2</rdg></app> vnd gancz <app><lem>abtut</lem><rdg><q>abthut</q>, Ba1</rdg></app> ader eynen gerawmen <app><lem>fride</lem><rdg><q>frede</q>, Ba1 og Ba2</rdg></app> vnd <app><lem>bestant</lem><rdg><q>bestand</q>, Ba1</rdg></app> machet vnd sy nicht <app><lem>mir</lem><rdg><q>mir</q>, Aa1 og Ba1; <q>mer</q>, A og Ba2</rdg></app>
+      <app><lem>angriffet</lem><rdg><q>angreiffet</q>, Ba1; <q>angreffet</q>, Ba2</rdg></app> noch bekriget / <app><lem>sunder</lem><rdg><q>zunder</q>, Ba2</rdg></app> euch an dem rechten <app><lem>das</lem><rdg><q>datz</q>, Ba2</rdg></app>
+      <app><lem>er</lem><rdg><q>jr</q>, Ba2</rdg></app>
+      <app><lem>beut</lem><rdg><q>bewt</q>, Ba1; <q>beyte</q>, Ba2</rdg></app> genugen lasset / <app><lem>dor czu</lem><rdg><q>dar czu</q>, Ba2</rdg></app> wir <app><lem>seiner</lem><rdg><q>sein</q>, Ba1; <q>seyn</q>, Ba2</rdg></app> auch <app><lem>mechtig</lem><rdg>mangler i Ba2</rdg></app>
+      <app><lem>sein wollen</lem><rdg><q>seyn willen</q>, Ba2</rdg></app> / ♦</p>
+            <p n="a#7" xml:space="preserve"><app><lem>Wann</lem><rdg><q>Wan - vnd recht ist</q>, herfor læser Ba1 følgende: <q>Wan tett jr des nicht vnd
+            wolt ye ewern mutwillen also treiben / das wir euch doch nicht getrawen / so mochten wir
+            vnd meniclich wol merken das ir mit solchem krige . den ketzern gerne sterkunge vnd
+            trost gebet vnd jr moget das auff ewir recht thun . dornach wisset euch czu richten</q>.
+          I lighed med Ba1 læser Ba3 herfor på nedertysk: <q>Wente dede gy des nicht vnde willet
+            juwen můtwillen also driuen / dat wy jů doch nicht getrwen so mochte wy vnde eyn
+            jewelk wol merken dat gy mit sulkeme krige den kettern gherne sterkinge vnde trost geuet
+            vnde gy moget dat up juwe recht don dar na wetet jů to richtene</q></rdg></app>
+      <app><lem>tett</lem><rdg><q>tett</q>, Aa1 og Ba1; <q>tetet</q>, A; <q>teet</q>, Ba2</rdg></app> jr <app><lem>des</lem><rdg><q>datz</q>, Ba2</rdg></app> nicht vnd meynt den egenanten vnsern bruder vnd seine konigriche ye wider solch recht
+      bitten zu hindernuss der kristenheyt czu bekriegen vnd euch gen vns vngehorsam weisten so
+      laden vnd heyschen wir euch samentlich in kraft <app><lem>diszer briffe</lem><rdg><q>diss briefs</q>, A</rdg></app> fur vns in <app><lem>vnsern</lem><rdg><q>vnserm</q>, A</rdg></app> koniglichen hoff also das jr nach dem tage als euch disser vnser briffe geantwort wirdt
+      an dem hundertsten tage fur vns gesteet ader ewir treffliche botschaft mit voller macht sendet
+      / wo wir dann auff dyselbe zeit sin werden vnd euch verantwort worumme jr vnsern geboten also
+      vngehorsam seit in solchen loblichen dinste der heyligen kristenheyt vnd des heyligen
+      romischen richs / ♦</p>
+            <p n="a#8" xml:space="preserve">Wan jr kompt ader kompt nicht so wellen wir auff denselben tag mit rate vnser fursten vnd
+      herren das recht geen lassen als billich vnd recht ist ♦</p>
+            <p n="a#9" xml:space="preserve">Geben <app><lem>czur</lem><rdg><q>czu</q>, Ba2</rdg></app>
+      <placeName><app><lem>Cron</lem><rdg><q>Crun</q>, Ba2</rdg></app></placeName> in <placeName><app><lem>Wurczland</lem><rdg><q>Wurtzlant</q>, Ba2</rdg></app></placeName>
+      <app><lem>versigelt</lem><rdg><q>vorsegelt</q>, Ba2</rdg></app> mit vnserm hungrischen <app><lem>jnsigel</lem><rdg><q>jnsegel</q>, Ba2</rdg></app> / <app><lem>wann</lem><rdg><q>wain</q>, Ba2</rdg></app> wir vnser vnd des richs <app><lem>jnsigel</lem><rdg><q>jnsegel</q>, Ba2</rdg></app>
+      <app><lem>czu</lem><rdg><q>zu</q>, Ba2</rdg></app> den <app><lem>korfursten</lem><rdg><q>kurfursten</q>, Ba2</rdg></app> gesant haben ♦</p>
+            <p n="a#10" xml:space="preserve">Noch Crists <app><lem>geburt</lem><rdg><q>gebort</q>, Ba2</rdg></app> xiiij<hi rend="sup">c</hi> jar vnd dornach in dem xxvij jare am negsten montage nach
+      Vnser <app><lem>Liben</lem><rdg><q>Lieben</q>, Ba2</rdg></app> Frawen <app><lem>tage</lem><rdg><q>tag</q>, Ba2</rdg></app> Visitacionis vnser riche des hungrischen etcetera in dem . xlj . des romischen in dem
+      xvij vnd <app><lem>des</lem><rdg><q>datz</q>, Ba2</rdg></app> behemischen im vij jaren ♦</p>
+            <p n="a#11" xml:space="preserve"><app><lem>Ad</lem><rdg><q>Ad - Sligk</q>, mangler i Aa1 og Ba2; tilføjet efter A og Ba1</rdg></app> mandatum domini regis <persName>Caspar Sligk</persName> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">222</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14371007001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3268</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>12 (plica: 1.1)</height>
+                                    <width>22</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Plica delvis bortrevet; antallet af segl er derfor ikke sikkert</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>David Arildsens segl (beskadiget) i mørkt voks i perg.rem, <ref>AS G xix 3</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Plica bortrevet</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>Plica bortrevet</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Plica bortrevet</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6898</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-10-07"
+                  notBefore="1437-10-07"
+                  notAfter="1437-10-07"
+                  cert="high">1437. 7. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lars og David Arildsen (Quitzow) har mødtes med deres moder, fru Ingeborg, og flere af deres
+      venner og med deres råd og samtykke aftalt, at hvis deres moder dør inden deres fader Arild
+      Madsen (Quitzow), væbner, så overdrager de adskilligt gods inkl. en mølle til ham, som han må
+      bruge, indtil han dør; da skal alt godset vende tilbage til sønnernes eje.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-28" who="#pbh">Filen etableret af #pbh 2013-11-28. </change>
+         <change when="2020-05-25" who="#jon">1. korrektur af #jon 2020-05-25. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wi <persName>Lafrentz Araldss<ex>øn</ex></persName> ok <persName>Dauid
+        Aralds<ex>øn</ex></persName> helse alle mæ<ex>n</ex> som th<ex>et</ex>ta breff hør<ex>e</ex>
+      ell<ex>e</ex>r se kerlege mæth wor h<ex>e</ex>rr<ex>e</ex> ♦</p>
+            <p n="a#2" xml:space="preserve">Oc kungør<ex>e</ex> wi alle gothe mæ<ex>n</ex> nerua<ex>ren</ex>d<ex>es</ex> ok
+      ko<ex>m</ex>mescu<ex>len</ex>d<ex>es</ex> m<ex>æth</ex> th<ex>et</ex>tæ wort opne breff at wi
+      hafue ofu<ex>er</ex> sidiæt m<ex>æth</ex> wor kær<ex>e</ex> moth<ex>e</ex>r fruwe
+        <persName>Jngeborgh</persName> och m<ex>æth</ex> fler<ex>e</ex> wor<ex>e</ex> wenner ok
+      m<ex>æth</ex> th<ex>e</ex>rr<ex>e</ex>s wiliæ rath ok samthykke at worth<ex>e</ex>r
+      th<ex>et</ex> swa at wor moth<ex>e</ex>r for<hi rend="sup">de</hi> før aff gaar æn wor
+      fath<ex>e</ex>r <persName>Arald Mattess<ex>øn</ex></persName> tha hafue wi vnt hanu<ex>m</ex>
+      thisse gotz j sine daghe som hær<ex>e</ex> eftesc<ex>r</ex>efuit staar . ♦</p>
+            <p n="a#3" xml:space="preserve">Fførst swa som er <placeName>Øthrop</placeName> mæth all gartsens tilliggilse ok all war
+      rættichet i <placeName>Benitzstathe</placeName> ok i <placeName>To<ex>m</ex>morp
+        Lille</placeName> thisse for<hi rend="sup">de</hi> gotz at brughe j sine daghe vden
+      nogh<ex>e</ex>r mantz gensielse / ♦ Ok th<ex>e</ex>r til hafue wi vnt hanu<ex>m</ex>
+      <placeName>Sqwatte mølle</placeName> ok i sine daghe . ♦ mæth swa da<ex>n</ex>t wilkor
+      at naar guth wil at ha<ex>n</ex> aff gaar / tha scule thisse for<hi rend="sup">de</hi> gotz
+      alle sa<ex>m</ex>men frij ok qwitte jgeen til oss ell<ex>e</ex>r wor<ex>e</ex> arwinge vden
+      alt hinder ok hw<ex>er</ex> manz gensielse / ♦</p>
+            <p n="a#4" xml:space="preserve">Til mer<ex>e</ex> witnisbyrdh henge wi wor<ex>e</ex> jncegle for<ex>e</ex> th<ex>et</ex>tæ
+      breff m<ex>æth</ex> heth<ex>e</ex>rlege mænz jncegle til witnisbyrdh swa som er<ex>e</ex>
+      <persName>Jepp Jenss<ex>øn</ex></persName> i <placeName>Deyebergh</placeName> aff vapn ok
+        <persName>And<ex>er</ex>s Jeps<ex>øn</ex></persName> borghemest<ex>er</ex>s i
+        <placeName>Ysteth</placeName> ok <persName>Niels Hagens<ex>øn</ex></persName> foghet ok
+        <persName>Peth<ex>e</ex>r Jonss<ex>øn</ex></persName> rathman i sa<ex>m</ex>me stath .
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini mcdxxxvii<hi rend="sup">o</hi> die beate Birgitte vidue ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

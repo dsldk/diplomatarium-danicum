@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">258</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14220521001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK</collection>
+                        <idno>19862</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Østræ Thorløse</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Bomærke af lyst voks i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Segl af lyst voks i perg.rem tilhørende abbeden i Allehelgenskloster ved
+        Lund, <ref>DGS 104</ref>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Bomærke af lyst voks med bogstavet S i perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Bomærke af lyst voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Hans Pedersen (Spaldener) overlader pantebrevet på den pågældende gård til Niels
+      Svendsen (Sparre) af Ellinge d. 30. apr. 1434, jf. DD 14340430001</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 190-91</bibl>
+               <bibl>Rep. nr. 5969</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-05-21"
+                  notBefore="1422-05-21"
+                  notAfter="1422-05-21"
+                  cert="high">1422. 21. maj</date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Henrik Jensen, væbner, pantsætter sin gård i Östra Torrlösa i Onsjö herred til Hans
+      (Pedersen) Spaldener, væbner, på det vilkår at Hans Spaldener skal oppebære gårdens indtægter
+      indtil gården bliver indløst. Når Henrik Jensen indløser gården, skal han umiddelbart have den
+      tilbage. Såfremt Henrik Jensen derefter vil pantsætte eller sælge gården, skal Hans Spaldener
+      have fortrinsret.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
+         <change when="2018-10-30" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2018-10-30. </change>
+         <change when="2020-05-10" who="#smb">2. korrektur af #smb 2020-05-10. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæ<ex>n</ex> th<ex>et</ex>tæ breff see æller høræ læses / helser jak <persName><app><lem>Hinryk Jenss<ex>øn</ex></lem><rdg wit="#A">delvist understreget, A</rdg></app> awapn</persName> / ewi<ex>n</ex>nælegæ m<ex>eth</ex> gwth ♦ Th<ex>et</ex> skal
+      allæ mæ<ex>n</ex> witherlict war<ex>e</ex> nærwærend<ex>es</ex> swa vel som
+      ko<ex>m</ex>mæskwlend<ex>es</ex> / ath iak til <app><lem>pant sætter</lem><rdg wit="#A">understreget, A</rdg></app> een min gaardh / een velboren ma<ex>n</ex>
+      <persName>Hanes Spoldænær awapn</persName> / hwilken gaardh som ligger j <placeName>Østhræ
+        Thorløsæ</placeName> j <placeName>Othenshær<ex>et</ex></placeName> / ok inæ<ex>n</ex> boor
+        <persName>Jenes Offæss<ex>øn</ex></persName> ffor tij lødegæ mark pe<ex>n</ex>ni<ex>n</ex>gæ
+      / ♦</p>
+            <p n="a#2" xml:space="preserve">M<ex>eth</ex> swo dant skææl / at <persName>Hanes Spoldæner</persName> skal hawæ
+      th<ex>e</ex>n gaardh m<ex>eth</ex> all th<ex>e</ex>n tilliggelsæ ther til hanu<ex>m</ex>
+      ligger som ær ager ok æyngh skow ok mark woath ok tyrwrt / hwat th<ex>et</ex> næfnæs kan ok
+      eyngtæ wndentagh<ex>et</ex> / ok aff at sætyæ ok j at setyæ hweym ha<ex>n</ex> wil / ok vp at
+      bæræ landgildæ thyænestæ ok thayær ok hwat th<ex>e</ex>r aff ganger / swo leyngæ til thes
+      the<ex>n</ex> for<hi rend="sup">dæ</hi> gaardh worther Hanes Spoldænær lofflegæ aff
+      løsth<ex>e</ex>r æller hans arffwingæ / ♦</p>
+            <p n="a#3" xml:space="preserve">Ok ingen forsawther læsningæ dagh skal waræ / mæ<ex>n</ex> naar <persName>Hinrik
+        Jenss<ex>øn</ex></persName> pe<ex>n</ex>ni<ex>n</ex>gæ rethæ worthæ ok ha<ex>n</ex>
+      haw<ex>er</ex> th<ex>et</ex> lofflegæ jgeen løst for swo danæ pe<ex>n</ex>ni<ex>n</ex>gæ som
+      tha gayngæ ok gewæ æræ j 1andh<ex>et</ex> tha skal han hawæ sit gootz jgen for wdhen al
+      thøffringh / ♦</p>
+            <p n="a#4" xml:space="preserve">Item woræ th<ex>et</ex> swo at <persName>Hinryk Jenss<ex>øn</ex></persName> skwldæ ythermeræ
+      pantsætyæ th<ex>e</ex>n for<hi rend="sup">dæ</hi> gaardh aller seliæs aller affhendes j nogræ
+      mathæ / tha skwldæ eyngen a<ex>n</ex>nær nærmer waræ een <persName>Hanes Spoldæner</persName>
+      æller hans arffwingæ ♦</p>
+            <p n="a#5" xml:space="preserve">Til <app><lem>meræ</lem><rdg wit="#A">skrevet to gange efter hinanden på linjen, A</rdg></app> witnesbyrdh ok forwaringh haw<ex>er</ex> iæk ladh<ex>et</ex> mit insiglæ m<ex>eth</ex>
+      skellegæ mææns ingsiglæ som æræ <persName>her Iacob abut</persName> j <placeName>Allæheliænæ
+        closther</placeName> / <persName>her Seyær priær</persName> j <app><lem>mø<ex>n</ex>næ</lem><rdg wit="#A"><q>m</q> for <q>n</q> efter lat. <q>monasterium monialium Lundis</q>?</rdg></app> closth<ex>e</ex>r j Lu<ex>n</ex>dh / <persName>Bæint Jenssen radma<ex>n</ex></persName>
+      j th<ex>e</ex>n sa<ex>m</ex>mæ staath hæynges ffor th<ex>et</ex>tæ b<ex>re</ex>ff ♦</p>
+            <p n="a#6" xml:space="preserve">Datum Lundis anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxij<hi rend="sup">o</hi> die assencionis domini ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

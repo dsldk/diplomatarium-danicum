@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">209</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14350824001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i Registratur over Breve i Lunde Kapitels Arkiv (1425 og senere), trykt i ÆA V 155 nr. M. 5</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>RA 0201</collection>
+                        <idno>A 11 (tidl. A 20)</idno>
+                        <msName>Lundebogen s. 129 i afsnittet M</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Commutacio bonorum in Maglorp . pro bonis in Beltoffte</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6782</bibl>
+               <bibl>Diplomatarium Dioecesis Lundensis III 165 nr. 168</bibl>
+               <bibl>SDHK nr. 22430</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435-08-24"
+                  notBefore="1435-08-24"
+                  notAfter="1435-08-24"
+                  cert="high">1435. 24. august</date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ærkebiskop Peder (Jonsen Lykke (Bille)) af Lund mageskifter to gårde i Maglarp i Skytts herred til
+      Jakob Mogensen, kannik i Lund, mod to gårde i Bulltofta.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-07" who="#pbh">Filen etableret af #pbh 2013-11-07. </change>
+         <change when="2019-09-23" who="#pbh">1. korrektur af #pbh 2019-09-23. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus . <persName>Petrus</persName> dei gracia archiepiscopus
+      Lundensis Svecie primas et apostolice sedis legatus . salutem in domino sempiternam
+      ♦</p>
+            <p n="a#2" xml:space="preserve">Notum facimus presentibus et futuris . quod nos . deliberacione matura prehabita cum consensu
+      et voluntate veneralibis capituli nostri Lundensis attento tam utilitate et commodo mense
+      nostre archiepiscopalis quam eciam mense canonicalis cujusdam . domini <persName>Jacobi
+        Magni</persName> canonici nostri Lundensis . talem cum eodem domino Jacobo Magni de
+      infrascriptis bonis sub titulo permutacionis fecerimus convencionem et contractum . videlicet
+      . quod duas curias nostras in <placeName>Maglorp</placeName> in
+        <placeName>Skøtzh<ex>e</ex>r<ex>et</ex></placeName> sitas cum omnibus et singulis earum
+      curiarum adjacenciis videlicet agris . pratis . pascuis . humidis et siccis . nullis penitus
+      exceptis quibuscumque nominibus censeantur . de <app><lem>quarum</lem><rdg>fejl for <q>quibus</q></rdg></app> una . quattuor solidos grossorum altera vero ii solidos grossorum racione pensionis
+      dant annuatim . prefato domino Jacobo Magni pro bonis suis videlicet duabus curiis in
+        <placeName>Beltoffte</placeName> . in <placeName>Oxieh<ex>e</ex>r<ex>et</ex></placeName>
+      situatis ac eorum bonorum attinenciis et adjacenciis quibuscumque . racione permutacionis
+      predicte . alienamus . committimus . et ad perpetuam possessionem tenorepresencium assignamus
+      . obligantes nos et sucessores nostros ad appropriandum . liberandum et disbrigandum dicto
+      domino Jacobo Magni et successoribus suis ad predictam mensam canonicalem prefatas duas curias
+      . cum omnibus ut premittitur pertinenciis . ab impeticione quorumcumque presencium . seu
+      imposterum futurorum ♦</p>
+            <p n="a#3" xml:space="preserve">In quorum omnium evidenciam et cautelam firmiorem . secretum nostrum una cum sigillo
+      venerabilis capituli nostri Lundensis presentibus est appensum ♦</p>
+            <p n="a#4" xml:space="preserve">Datum <placeName>Lundis</placeName> . anno domini mcdxxxv . die beati Bartholomei apostoli
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

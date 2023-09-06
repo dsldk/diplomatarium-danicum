@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">178</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14191027001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2706; tidl. Københavns gårde og huse 13</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 22.2 × 10 (plica: 1.2). 1. Seglsnit. Iflg. afbildn. hos Klevenfeldt Hans (Henriksen) von Berges segl med
+        omskriften s hans van denberge, AS L v 8. 2. Seglsnit. 3. Seglsnit. 4. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5808</bibl>
+               <bibl>Reg. *4502</bibl>
+               <bibl>Københavns Dipl. I 148-149 nr. 111</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-10-27"
+                  notBefore="1419-10-27"
+                  notAfter="1419-10-27"
+                  cert="high">1419. 27. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hans Henriksen, kaldet von Berge, pantsætter for 10 mark sølv i gangbar mønt de tre boder i
+      Ladbrostræde, som han fik med sin hustru, til sin svoger Arild Kruse, rådmand i København.
+      Indtil pantet bliver indfriet, hvilket skal ske til mikkelsdag, skal Arild Kruse hvert år
+      oppebære alle indtægter af de nævnte boder uden modregning i gældens hovedstol. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-16" who="#pbh">Filen etableret af #pbh 2014-04-16. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-05-30" who="#alk">2. korrektur af #alk 2017-05-30. </change>
+         <change when="2017-06-20" who="#alk">3. korrektur af #alk 2017-06-20. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Johannes Henrici dictus van Berghen</persName>
+      salutem in domino sempiternam ♦</p>
+            <p n="a#2">Noverint universi presentes et futuri quod recognosco me et heredes meos suagero meo dilecto
+        <persName>Arnoldo Kruse</persName>
+               <placeName>consuli Hafnis</placeName> in decem marchis argenti legalis monete et dative teneri
+      et esse veraciter obligatum pro quibus quidem decem marchis argenti eidem Arnoldo Kruse bona
+      mea matrimonialia videlicet tres tabernas meas circa mare in <placeName>plathea
+        Lathbrostrede</placeName> sitas orientaliter a molendina inpignero per presentes tali
+      condicione quod antedictus Arnoldus fructus et redditus de predictis tribus tabernis annuatim
+      sublevet et in sortem principalis debiti minime computandos donec predicta bona ut premittitur
+      cum omnibus et singulis pertinenciis suis nullis exceptis ab ipso Arnoldo vel heredibus suis
+      per me vel meos heredes pro predictis decem marchis argenti et nullo alio valore in ipso die
+      sancti Michaelis legaliter redimantur ♦</p>
+            <p n="a#3">Insuper obligo <supplied>me</supplied> et meos heredes antedicto Arnoldo Krwse et suis
+      heredibus antedictas tres tabernas cum suis pertinenciis appropriare disbrigare et secundum
+      legesterre liberare ab impeticione quorumcumque ♦</p>
+            <p n="a#4">In cujus rei testimonium sigillum meum una cum sigillis virorum discretorum videlicet
+        <persName>Laurencii Winner<ex>e</ex>
+               </persName>
+               <persName>Johannis Jacobi</persName>
+               <persName>Betoldi Quatz</persName>
+               <placeName>consulum Hafnis</placeName> presentibus est appensum ♦</p>
+            <p n="a#5">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xix<hi rend="sup">o</hi>
+      vigilia Simonis et Jude ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

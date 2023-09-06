@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">2</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14170423001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>Baroniet Guldborgland. Adkomstdokumenter m.m.
+                           1362-1701</collection>
+                        <idno>B.b-7</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 28.8 × 8.9 (plica: 1.2). 1. perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium, kopi nr. 3</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskrift af Th. Br. Bircherod (iflg. påskrift af Hans Gram)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>empty</collection>
+                        <idno>Rostg. 107 kvart s. 163-4</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskrift af Th. Br. Bircherod</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium, kopi nr. 1</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Konfereret med og rettet efter A i 1840</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ac">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium, kopi nr. 2</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Konfereret med og rettet efter A i 1918 af William
+                                 Christensen</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5655</bibl>
+               <bibl>Reg. Dan. 3314</bibl>
+               <bibl>Pontoppidan, Annales II 518 (efter en Bircherodsk afskrift)</bibl>
+               <bibl>Vejledende Arkivreg. XVIII 40 nr. 3</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-04-23"
+                  notBefore="1417-04-23"
+                  notAfter="1417-04-23"
+                  cert="high">1417.
+               23. april </date>
+            <placeName cert="high">Tårs</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Broder Severinus, viebiskop for biskop Jens (Ovesen (Jernskæg)) af Odense,
+               eftergiver alle, der besøger Tårs kirke eller rækker dens bygningsfond en hjælpende
+               hånd, 40 dage af den dem pålagte kirkebod. Brevet er bekostet af Hartvig
+               (Markvardsen) Pøiske (til Berritsgård). </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2019-06-19" who="#pbh">1. korrektur af #pbh 2019-06-19. </change>
+         <change when="2021-02-18" who="#alk">2. korrektur af #alk 2021-02-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis sancte matris ecclesie filiis ad quos presentes litere pervenerint
+               frater <persName>Severinus</persName> dei et apostolice sedis gracia episcopus
+               Tranquilliensis vicariusque in pontificalibus reverendi in Christo patris ac domini
+               domini <persName>Johannis</persName> eadem gracia episcopi
+                  <placeName>Ottoniensis</placeName> generalis salutem in domino sempiternam ♦ </p>
+            <p>Acta sollempniter delet oblivio nisi literarum stabili fulciantur firmamento ♦ </p>
+            <p>Cum igitur ad laudem dei omnipotentis et honorem sanctorum apostolarum Petri / Andree
+               et sancte Nicholai episcopi et confessoris quoddam altare in parte solari sub anno
+               domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xvii<hi rend="sup">o</hi> die
+               sancti Georgii pie ac sollempniter in ecclesia <placeName>Thornæssæ</placeName>
+               <app>
+                  <lem>celebravimus dedicando</lem>
+                  <rdg>måske fejl for <q>celebrando dedicavimus</q>
+                  </rdg>
+               </app> cupientes ergo domino populum acceptabilem facere ipsum ad pia exercicia
+               indulgenciis et peccatorum remissionibus invitamus ♦</p>
+            <p>Quia pium et gratum deo impendere credimus obsequium quociens ad pietatis opera ejus
+               fideles excitamus quocirca omnibus christifidelibus confessis et vere contritis qui
+               ecclesiam antedictam seu altaria ibidem consecrata causa devocionis visitaverint et
+               missam ibidem audierint oblaciones et testamenta pro luminaribus calicibus
+               vestimentis ac aliis necessariis ecclesie vel altarium donaverint aut structuram ejus
+               vel ornamentarum quorumcumque melioraciones in maximo vel in minimo manus adjutrices
+               cum effectu porrexerint corpus dominicum cum infirmis cum sacro oleo portatur secuti
+               fuerint sepulturis mortuorum vel aliis divinis officiis interfuerint cimiterium
+               quoque pro omnibus fidelibus defunctis exorando circuierint seu pro unione sancte
+               matris ecclesie ac pace istorum trium regnorum deum fideliter deprecati fuerint vel
+               quando serotinis temporibus pro salutacione beate virginis pulsantur ter ave Maria
+               flexis genibus dixerint quociens premissa seu aliquod ipsius consimile pietatis
+               hujusmodi in subsidium compleverint tociens de omnipotentis dei misericordia et
+               beatorum Petri et Pauli apostolorum ejus auctoritate confisi xl<hi rend="sup">a</hi>
+               dies indulgenciarum de injunctis eis penitenciis in domino misericorditer relaxamus
+               ♦ </p>
+            <p>Datum loco anno et die supradictis nostro sub sigillo pendenti ♦ </p>
+            <p>Nota ista litera est procurata a venerabili viro Hartwico P{yo}skæ in honorem sanctii
+               Andree apostoli pro salute omnium parentum suorum \ ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

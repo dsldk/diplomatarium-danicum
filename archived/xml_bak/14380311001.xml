@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">216</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">223</num>, paragraphs: <num n="paragraphs">2</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14380311001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <idno>NKR c-3279; gl. sign. Essenbæk Kl.; Hist. geneal. arkiv: Gl. Estrup nr. 53; L 66-2</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <msContents>
+                        <summary>Kong Erik 7. af Pommern tildømmer efter rådslagning med rigsrådet Essenbæk 
+                kloster alt dets gods i Hald herred.</summary>
+                        <msItemStruct>
+                           <filiation>
+                              <ab>empty</ab>
+                           </filiation>
+                        </msItemStruct>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.3 (plica: 2.2)</height>
+                                    <width>24.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Plettet, skriften stedvist afbleget</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden med senere hånd <q>Koning Ericks stadfestelse paa alt
+                                Esennbeck closter godtz etcetera huor th<ex>et</ex>
+                                find<ex>es</ex>.</q> Med samme hånd <q>j</q>, med anden hånd
+                                <q>h</q> (gennemstreget med to parallelle vandrette linjer. Med en
+                        tredje hånd <q>Hallh<ex>e</ex>r<ex>et</ex>
+                              </q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Brevet er registreret i Registratur over Essenbæk Klosters Breve
+                        (1558), trykt ÆA II 92 W 1</ab>
+                     </history>
+                     <additional>
+                        <listBibl>
+                           <bibl>Rep. nr. 6932</bibl>
+                           <bibl>Vejledende Arkivregistraturer XVIII 226 nr. 2</bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-03-11"
+                  notBefore="1438-03-11"
+                  notAfter="1438-03-11"
+                  cert="high">1438. [11. marts eller 10. juni?]<note>Brevets datering giver flere vanskeligheder: Årstallet er delvist
+                ulæseligt, men det korrekte år fremgår af registraturen over Essenbæk klosters
+                breve. Datoen angives som tirsdag efter tampersøndag, men ikke hvilken af de fire
+                tidspunkter, der kan være tale om, nemlig 11. marts, 10. juni, 23. september eller
+                23. december. Mulighederne kan dog indskrænkes noget, da det fremgår, at både kongen
+                og rådet var til stede på Nykøbing slot i forbindelse med brevets udstedelse. Da
+                Erik af Pommern sandsynligvis forlod Danmark i juni for at tage ophold på Gotland,
+                kan de to sidste muligheder formentlig udelukkes. Brevets datering bliver derfor
+                1438. [11. marts eller 10. juni?]</note>
+            </date>
+            <placeName cert="high">Nykøbing slot</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-11-12" who="#alk">Filen etableret af #alk 2014-11-12. </change>
+         <change when="2015-10-09" who="#alk">1. korrektur af #alk 2015-10-09. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wy <persName>Erik</persName> m<damage>eth gut</damage>z nathe
+                                <placeName>Danm<ex>ar</ex>ks</placeName>
+               <placeName>Swerig<ex>es</ex>
+               </placeName>
+               <placeName>Norg<ex>es</ex>
+               </placeName>
+               <placeName>Wendes</placeName> och <placeName>Godes</placeName>
+                        konu<ex>n</ex>g och h<ex>er</ex>tughe j
+                                <placeName>Pomer<ex>en</ex>
+               </placeName> gøre wytt<ex>er</ex>light
+                        m<ex>eth</ex> thætte wort nærwære<ex>n</ex>des opne breff at wy ær<ex>e</ex>
+                        worthen til rathe m<ex>eth</ex> wort raadh nw nærwærend<ex>es</ex>
+                        for<ex>e</ex> gutz sculd / oc gothe hetherlighe mænz bøn mu<ex>n</ex>kke och
+                                p<ex>re</ex>st<damage>ther</damage> er j <placeName>Æsenbeks
+                                closter</placeName> j <placeName>Nørre Jutland</placeName> at gutz
+                        thyæniste loff och æære / m<damage>aatte</damage> thes wdermer<ex>e</ex>
+                        øghes / och the syæle hwes kroppe <app>
+                  <lem>
+                     <supplied>ther</supplied>
+                  </lem>
+                  <rdg resp="#alk">
+                     <q>th<ex>e</ex>r<ex>et</ex>
+                     </q> A</rdg>
+               </app> hwyles som gotz och jngæld th<ex>e</ex>r til hau<ex>er</ex> gyffuet
+                                maatt<damage>e</damage> thes och wdermer<ex>e</ex> glæthes och
+                        hughswales alt th<ex>et</ex> gotz for<ex>e</ex>n<hi rend="sup">de</hi>
+                        closter hauer liggendes j <placeName>Halle
+                                h<ex>e</ex>r<ex>et</ex>
+               </placeName> j
+                                <placeName>Abesysel</placeName> j Nørræ Jutland m<ex>eth</ex> alle
+                        syne ræætte tilliggelsse my<ex>n</ex>næ aller meeræ som een hetherligh man
+                        och renlifflegh h<ex>e</ex>r abbet <persName>Michel</persName>
+                                for<ex>e</ex>n<hi rend="sup">de</hi> closters abbet til
+                        for<ex>e</ex>n <app>
+                  <lem>har</lem>
+                  <rdg wit="#A">Første bogstav er utydeligt, måske skal der læses
+                                                <q>sar</q>
+                  </rdg>
+               </app> bewyisde for<ex>e</ex> oss och for<ex>e</ex> fler<ex>e</ex> aff wart
+                        raadh tha nærwærendes til foren j <placeName>Kalingeborgh</placeName>
+                        scællighe m<ex>eth</ex> opne bewysinge hetherlighe mænz
+                                inc<damage>i</damage>gle forehenggende at ræætte closters gotz
+                        ær<ex>e</ex> for<ex>e</ex> wden alle hynder / och kæære m<ex>eth</ex> jaa
+                        och welyæ / for<ex>e</ex>n<hi rend="sup">de</hi> closter tilkomet saa byude
+                        wy stadhfæste och ewy<ex>n</ex>nelighe tildø<ex>m</ex>me for<ex>e</ex>n<hi rend="sup">de</hi> gotz til for<ex>e</ex>n<hi rend="sup">de</hi>
+               <damage>clo</damage>ster stadhfæstelight / at blyffu<damage>e</damage>
+                        forbyuthende alle mæn och hwar særdeles <app>
+                  <lem>her</lem>
+                  <rdg wit="#A">Andet bogstav er utydeligt, måske skal der læses
+                                                <q>hær</q>
+                  </rdg>
+               </app> æffter th<ex>e</ex>nne tiidh / oppa at delæ / kæære aller oppa <app>
+                  <lem>orsaghe</lem>
+                  <rdg wit="#A">Usikkert læst</rdg>
+               </app> wnder <damage>war</damage> konu<ex>n</ex>glighe hæffnd ♦</p>
+            <p n="a#2">Datum <placeName>castro nostro <damage>Nykø</damage>bing</placeName> feria tercia
+                        proxima post dominicam quattuor temporum anno domini
+                        <damage>mcdx</damage>xxviii nostro sub secreto etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Vi Erik, af Guds nåde, Danmarks, Sveriges, Norges, de Venders og Goters konge og
+                        hertug i Pommern, gør vitterligt med dette vort nærværende åbne brev, at vi
+                        i enighed med vort råd, som er til stede nu, for Guds skyld og efter bøn fra
+                        gode og hæderværdige mænd, munke og præster i Essenbæk kloster i
+                        Nørrejylland, og for at gudstjeneste, Guds lovprisning og ære måtte øges så
+                        meget des mere, og for at sjælene af dem, hvis kroppe hviler dér, og som har
+                        givet gods og penge dertil, måtte så meget des mere glædes og husvales,
+                        byder, bekræfter og evindelig tildømmer vi alt det gods, som førnævnte
+                        kloster har, beliggende i Hald herred i Åbosyssel i Nørrejylland, med alt
+                        dets rette tilliggende, mere eller mindre, som en hæderværdig og renlivet
+                        mand, hr. abbed Mikkel, førnævnte klosters abbed, tidligere for os og flere
+                        af vort råd, som også var nærværende dengang i Kalundborg, med åbne
+                        adkomstbreve beseglede med hæderværdige mænds segl har bevist er klostrets
+                        rette gods, der uden nogen forhindringer eller retssager er tilkommet
+                        førnævnte kloster med tilsagn og samtykke, til det førnævnte kloster, hvor
+                        det urokkeligt skal forblive, idet vi under vor kongelige hævn forbyder alle
+                        og enhver herefter at rejse sag, sagsøge eller skabe strid herom.</p>
+            <p n="b#2">Givet på Nykøbing slot, tirsdag efter tampersøndag, i det Herrens år 1438 under
+                        vort segl.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

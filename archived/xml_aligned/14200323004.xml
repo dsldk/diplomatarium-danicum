@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">476</num>, paragraphs: <num n="paragraphs">13</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14200323004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>ASA Externa, Danica 3.2.</collection>
+                        <idno>signatur 03,1</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Med adresse: <q>Den erbaren vorsichtigen borghermesteren vnde ratluden der stad
+        Lubeke, vnsen guden vrunden</q>
+                        </ab>1. Påtrykt segl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 6 nr. CLXXXII p. 224-225</bibl>
+               <bibl>Hanserec. I:7 nr. 215 p. 113-114 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l. l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-03-23"
+                  notBefore="1420-03-23"
+                  notAfter="1420-03-23"
+                  cert="high">1420. 23. marts</date>
+            <placeName cert="high">Lund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern meddeler borgmestre og råd i Lübeck, at han ikke har mulighed for at
+      deltage i et møde 24. juni. Derimod har han mulighed for at deltage i et møde 2. juni. Kong
+      Erik har fået at vide, at han ville få besked, når rådet i Lübeck havde talt med holstenerne
+      om at holde mødet 2. juni, men han har endnu intet hørt, hvorfor han ikke ved, hvorledes han
+      skal forholde sig. Desuden meddeler han, at han vil kræve byen Slesvig tilbageoverdraget, men
+      grundet vind og vejr kan han endnu ikke sige noget bestemt om, hvornår det vil ske. Endelig
+      meddeler kong Erik, at han har sendt et brev til grev Heinrich af Holsten (se
+      <ref target="14200323003">DD 1420. 23. mar., nr. 14200323003</ref>). </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-23" who="#smb">Filen etableret af #smb 2017-06-23. </change>
+         <change when="2017-06-23" who="#smb">1. korrektur af #smb 2017-06-23. </change>
+         <change when="2017-10-27" who="#smb">2. korrektur af #smb 2017-10-27. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Ericus, Dei gracia Dacie, Swecie, Norwagie, Sclauorum Gotorumque rex et dux Pomeranie.</p>
+            <p n="a#2">Vnsen vruntliken grut touoren.</p>
+            <p n="a#3">Wetet, guden vrundes, alse gy vns toscreuen vnde ok by vnseme rade entboden, dede by den
+      juwen to <placeName>Sleswik</placeName> do van der stede weghen dar weren vmme enen andern
+      dagh, den wi holden scholden myt den Holsten to <app>
+                  <lem>sunte Johannes daghe to mitsomere</lem>
+                  <rdg>dvs. sankthansdag, 24. juni</rdg>
+               </app> in aller wijs, alse de dagh vorramet was to <placeName>Sleswik</placeName>, alse dar
+      gij do weren, dar wi jw do wedder vp screuen, dat vns de dagh nicht gheddelijk en were to
+      holdende to sunte Johannes daghe vmme anderer leghenheyt willen, alse yt vns vnde vnsen rijken
+      anliggende ys, men wi wolden ene gherne holden vppe <app>
+                  <lem>der hilghen Dreualdicheit sundaghe alse achte daghe na Pingxsten negest komende</lem>
+                  <rdg>dvs. Trinitatis søndag, 2. juni</rdg>
+               </app>.</p>
+            <p n="a#4">Dar screue gij vns do wedder vp van der stede weghen, dat gij dat by den Holsten arbeyden
+      wolden, vft se den suluen dagh vp de tijd holden wolden, vnde wes gij darane bearbeideden by
+      en, dat wolde gij vns kortliken to wetende doen.</p>
+            <p n="a#5">Dar ys vns nicht aff to wetende worden, wes gij darane bearbeidet hebben, vnde aldus late gij
+      vns ane antwort, also dat wi nicht en weten van juwer weghen vns jerghen na to richtende, dar
+      gij doch langer tijd nogh to gehat hebben.</p>
+            <p n="a#6">Wolde gij vns darvan wes hebben to wetende daen, dat gij id wol mochten hebben gedaen, wo gij
+      dat menet, des en vorneme wi so enkede nicht, alse vns des lichte wol bedarff were, mer, guden
+      vrunde, vns duncket, gij willet dat werk laten, alse dat werden wil.</p>
+            <p n="a#7">Doch so hope wi jo vnde vormuden vns gentzliken an jw, dat gij dat jo also bestellen willen,
+      dat vns <placeName>vnse stad Sleswik</placeName>, de wi jw vppe louen antwordet hebben, in
+      aller wise so vrigh wedder werde, welke tijd wy des to rade synt de to annamende edder willen
+      annamen laten, vnde dat gij de land vnde lude wedder an vns wisen also vrigh, alse wi se
+      hadden vnde se jw antwordeden vnde an jw wiseden vnde wisen leten vppe louen.</p>
+            <p n="a#8">Guden vrunde, dat wi jw dyt so vterliken scriuen vmme de stad, dat do wi darvmme, dat vns
+      ouel to donde steyt, dat wy jw ene stekende tijd seggen edder toscriuen, welke tijd wi vnse
+      stad wedder annamen willen, wente gij weten wol, dat vns de noet darto drenget, dat wi se
+      mechtliken annamen moten, vnde dat magh vns wedder vnde wynt benemen, so dat wi nene stekende
+      tijd soken konen.</p>
+            <p n="a#9">Darvmme hope wi, dat gij id jo also bestellen willen, welke tijd wi komen vnde se geeschen
+      edder eschen laten, dat se vns denne jo vrigh gewerde, vnde vormoden vns des gentzliken to jw,
+      dat gij jo dar nicht na stan, dat wi jerghen ane vorsnellet werden.</p>
+            <p n="a#10">Des juwe vnvortogherde antwerde.</p>
+            <p n="a#11">In Christo valete.</p>
+            <p n="a#12">Scriptum <placeName>Lunden</placeName>, sabbato proximo ante dominicam passionis Domini,
+      nostro sub secreto, anno etc. XX.</p>
+            <p n="a#13">Item so scriue wi vnseme oeme van Holsten nw enen breff to, des wi jw <cit>
+                  <quote>ene wtscrifft</quote>
+                  <bibl>
+                     <ref target="14200323003">DD 1420. 23. mar., nr. 14200323003</ref>
+                  </bibl>
+               </cit> hirinne besloten senden.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

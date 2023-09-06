@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">611</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14171127002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2644-b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>23.5 (plica: 5.2)</height>
+                                    <width>40.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Skriften fremstår stærkt medtaget i højre halvdel af brevet</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med påskrift på bagsiden <q>Her<ex>tu</ex>gh Eriks b<ex>re</ex>ff aff
+        Sasse<ex>n</ex> vm the<ex>n</ex> frith my<ex>n</ex> h<ex>er</ex>re kunu<ex>n</ex>g Erik
+        haffthe m<ex>eth</ex> the<ex>n</ex> her<ex>tu</ex>gh <damage>Henrik</damage>
+      .....</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Hertug Erich 5. af Sachsen-Lauenburgs segl i grønt voks</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Heinrich Schacks segl i grønt voks</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Perg.rem. Seglet må have tilhørt Heyneke van Czule</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Fikke Schacks segl i grønt voks</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Otto Schacks segl i grønt voks</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Detlev von Stoves segl i grønt voks</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Fikke von Blüchers segl i grønt voks</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Detlev Scharpenbergs segl i grønt voks</ab>
+                           </seal>
+                           <seal n="9" type="missing">
+                              <ab>Perg.rem. Seglet må have tilhørt Hans von Ritzerau</ab>
+                           </seal>
+                           <seal n="10" type="pendant">
+                              <ab>Otto von Krummesses segl i grønt voks</ab>
+                           </seal>
+                           <seal n="11" type="missing">
+                              <ab>Seglsnit. Seglet må have tilhørt Lydeke Schorleken</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hvitfeld IV 280, fol. 672 (udtog på dansk med dato: <q>Sønd. efter Katrine Dag</q>)</bibl>
+               <bibl>Reg. Dan. nr. *4421</bibl>
+               <bibl>Rep. nr. 5683 (udtog)</bibl>
+               <bibl>Hanserec. I:6 nr. 507 p. 493 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-11-27"
+                  notBefore="1417-11-27"
+                  notAfter="1417-11-27"
+                  cert="high">1417. 27. november</date>
+            <placeName cert="high">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hertug Erich 5. af Sachsen-Lauenburg lover at holde den fred, som kong Erik 7. af Pommern og
+      hertug Heinrich af Slesvig har indgået, og som også hertug Erich er omfattet af.</ab>
+            <ab>Skulle det ske, at hertug Erich eller hertugens mænd forårsager et fredsbrud, har hertugen
+      og 10 af hans mænd forpligtet sig til at ride til Lübeck, hvor de vil forblive, indtil kong
+      Erik er blevet holdt skadesløs og freden genoprettet.</ab>
+            <ab>Skulle det ske, at freden bliver brudt inden for en periode fra brevets udstedelsestidspunkt
+      og frem til førstkommende mikkelsdag, og kong Erik bekendtgør dette over for hertugens
+      høvedsmand eller en anden på slottet Ratzeburg, så har hertug Erich og de førnævnte 10 af hans
+      mænd forpligtet sig til inden for 8 dage fra bekendtgørelsen af fredsbruddet at ride til
+      Lübeck, hvor de vil forblive, indtil kong Erik er blevet holdt skadesløs og freden
+      genoprettet.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
+         <change when="2017-05-29" who="#smb">1. korrektur af #smb 2017-05-29. </change>
+         <change when="2017-10-26" who="#smb">2. korrektur af #smb 2017-10-26. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Wij <persName>Erik</persName> van Godes gnaden hertoghe to <placeName>Sassen</placeName> to
+        <placeName>Engheren</placeName> vnd to <placeName>West{uv}alen</placeName> des Hilghen
+      Romischen Rijkes kurfurste vnde marschalk bekennen vnd betughen openbare jn desseme openen
+      breue vor alsweme dat de o{uv}erluchtigeste furste vnde here <persName>her Erik van Godes
+        gnaden der rijke Dennemarken Sweden . Norwegen . der Wenden vnde Goten koning vnd hertoghe
+        to Pomeren</persName> vnse gnedige here . vns heft an sinen vrede getogen vnde genomen den
+      he angeghan heft mid den heren landen vnde luden to Holsten ♦</p>
+            <p n="a#2">Vnde in allerwijse alze he vns dar an getoghen vnde genomen heft alse loue wij vor vns vnde
+      vnse brodere vnse manne vnde alle de gennen de vnse vndersaten sin vnd jnwonere vnd vmme vnsen
+      willen d{oe}n vnde laten willen vnd scholen den vorbenomeden vrede myd den heren . landen vnde
+      luden to <placeName>Holsten</placeName> vnde jnwoneren truweliken vnd vnvorbroken wol holden .
+      ♦</p>
+            <p n="a#3">Were ok dat de <app>
+                  <lem>vorbenompte</lem>
+                  <rdg>
+                     <q>vorbemompte</q>, A</rdg>
+               </app> vrede van vns vnsen broderen vnsen mannen efte van den gennen de vnse vndersaten sin
+      edder jnwonere yenigerleye wys gebroken w{uv}rde schole wij vnde willen myd teynen vnser
+      mannen de hijr nascre{uv}en stan al<damage>se</damage> mẏd Hinrike Schacken Heyneken van
+      Cz{uv}le Vicken Schacken Otten Schacken Detleue van Stoue . Vicken Blucher Detleff
+      Scharpenberghe Hans van Rytzerowe Otten van Crummesse vnde mit Ludeken Schorleken . vnde wij
+      teyne alze wij hijr vorscre{uv}en stan vorwillekoren vns myd vnseme ergenompten
+        <persName>heren van Sassen</persName> myd vnsen anhangenden jngesegelen mẏd ener samenden
+      hand denne to Lubeke in to rijdende vnd dar nicht wedder vt to schedende de schade sij
+      gensliken vnde all wedderlecht deme gennen deme de schade schen sij vnde de vredebrake sij
+      vorbod alse vredebrake recht ys vnd den ergenanten heren koninge sinen er{ue}en effte sinen
+      nakomelingen desses loftes van des vredes weghene mid den Holsten heren schadelos geholden
+      sunder arch . ♦</p>
+            <p n="a#4">Were ok sake dat desse vorscreuene vrede van vns vnsen broderen effte van den vnsen alse
+      vorscreuen <damage>ye</damage> gebroken wurde dat God vorbede tusschen n{uv} vnd sunte
+      Michaelis daghe erst tokomende vnde vnse ergenante gnedige here her koning vnseme amptmanne to
+        <placeName>Razeborch</placeName> dat verk{uv}ndigen lete edder andersweme vppe
+        <placeName>deme slote to Razeborch</placeName> wesende mit sinen
+      <damage>war</damage>afftigen boden effte breue so wille wij <persName>Erik</persName>
+      vorbenompt mẏd dessen teynen vorscre{uv}enen vnsen mannen de hijr vorscre{uv}en stan vnd wij
+      teyne mid vnseme gnedigen heren willen vnde willekoren alle denne to
+        <placeName>Lubeke</placeName> bynnen den achte daghen neest volgende na der vork{uv}ndinge
+      in rijden vnd dar eyn witlik inlegher to holdende und dar nicht wedder vt de vredebrake sij
+      vorbot vnd de schade wedderlecht in alre wijse alse vorscre{uv}en ys vnde de ergenante here
+      koning sij schadelos geholden / ♦</p>
+            <p n="a#5">Dyt loue wij <persName>Erik</persName> vorbenompt vor vns vnse brodere vnd vor vnse rechten
+      er{uv}en mit vnsen tr{uv}en mannen vnd medelo{uv}eren de hijr vorscre{uv}en stan ♦</p>
+            <p n="a#6">Vnde wij ergenompten medelo{uv}ere lo{uv}en alle mẏd vnseme ergenanten gnedigen heren mẏd
+      ener samenden hand deme vorscre{uv}en ouerluchtigesten f{uv}rsten vnde heren hern Erike
+      koninge to Dennemarken etcetera sinen er{uv}en effte nakomelingen vnd sineme siner rijke
+      tr{uv}wen rade alle desse vorscre{uv}ene st{uv}cke vnde artikele stede vnde vast wol to
+      holdende sunder yenigerleye hulperede edder argelist de vns vorbenomden hertogen Erike vnsen
+      broderen efte vnsen er{uv}en edder vns vorscre{uv}enen medeloueren efte vnsen er{uv}en mogen
+      vromen vnde <app>
+                  <lem>
+                     <supplied>de</supplied>
+                  </lem>
+                  <rdg>mangler i A</rdg>
+               </app> deme vorbenompten <persName>heren koninge to Dennemarken</persName> etcetera edder
+      sinen nakomelingen schaden mogen in yenigheme rechte . ♦</p>
+            <p n="a#7">Des to merer tuchnisse so hebbe wij <persName>Erik hertoghe</persName> vnde lo{uv}ere
+      vorbenompt vnse jngesegele mit vrẏen willen vnd gudeme beradenen mode wijtlike an desser breff
+      hengen laten ♦</p>
+            <p n="a#8">Ge{uv}en vnd gescre{uv}en to <placeName>Lubeke</placeName> nach Cristi gebort dusent
+      veerhundert so{uv}enteyne des sona{uv}endes na der hilgen j{uv}ncfrowen dage Katherinen ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

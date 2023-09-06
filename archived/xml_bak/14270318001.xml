@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">290</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270318001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Altes Senatsarchiv (ASA), Externa, Danica 3.2. Krieg Erichs von Dänemark gegen die Grafen von Holstein</collection>
+                        <idno>signatur 1013 (tidligere ASA, Externa, Reste)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med adresse: <q>Den eerbaren ende wisen des radessendeboden der gemeenre steden
+        van der Duutschen hansen, onsen bisonderen lieuen geminden vrinden</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Rester af rådet i Leidens segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. XI, p. 7-8</bibl>
+               <bibl>Hanserec. VIII, nr. 116, p. 78 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-03-18"
+                  notBefore="1427-03-18"
+                  notAfter="1427-03-18"
+                  cert="high">[1427.] 18. marts</date>
+            <placeName cert="low">[Leiden]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="nl"/>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Leiden skriver til hansestæderne Lübeck, Hamburg, Rostock, Stralsund, Wismar og
+      Lüneburg.</ab>
+            <ab>Rådet i Leiden meddeler, at det har set og forstået det åbne advarselsbrev, som de vendiske
+      hansestæders udsending har medbragt til Leiden, hvori de vendiske hansestæder meddeler, at de
+      har erklæret kong Erik 7. af Pommern krig.</ab>
+            <ab>Rådet i Leiden meddeler imidlertid, at det opfatter de vendiske hansestæders krav om, at
+      folkene fra Leiden skal undlade at rejse til kong Eriks riger, samt at de skal undlade at
+      handle med kong Eriks undersåtter, som ukærlige og fjendtlige. Eftersom byen Leiden har haft
+      fejder med landene Holland og Zeeland, ville rådet i Leiden med samme ret kunne kræve af de
+      vendiske hansestæder, at deres handelsfolk skulle undlade at handle med Leidens fjender. I
+      forlængelse heraf opfordrer rådet i Leiden de vendiske hansestæder til at behandle de folk fra
+      Leiden, som befinder sig i de vendiske hansestæder, på samme måde som byen Leiden vil behandle
+      de folk fra de vendiske hansestæder, som befinder sig i Leiden.</ab>
+            <ab>Endvidere meddeler rådet i Leiden, at det stadig er uret, hvis folk fra Leiden bliver påført
+      skade på grund af krigen mellem de vendiske hansestæder og kong Erik, idet Leiden hverken har
+      udeståender med kong Erik eller med de vendiske hansestæder.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-11-19" who="#smb">Filen etableret af #smb 2018-11-19. </change>
+         <change when="2018-11-19" who="#smb">1. korrektur af #smb 2018-11-19. </change>
+         <change when="2019-01-16" who="#smb">2. korrektur af #smb 2019-01-16. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="nl">
+            <p n="a#1" xml:space="preserve">Eerbare lieue bisondere vriende.</p>
+            <p n="a#2" xml:space="preserve">Alse bi uwen sendebode ons <cit><quote>een zekere lettre van copien</quote><bibl>det drejer sig her om en afskrift af de vendiske hansestæders brev til de nederlandske
+          stæder vedrørende afsendelsen af krigserklæringen til kong Erik 7. af Pommern, <ref target="14261119005">DD 1426. 19. nov. , nr. 14261119005</ref></bibl></cit> ghetoent is van den gemenen hansen steden, ons wairnende, dat wi in den sonden des
+      duerluchtigen heren, <persName>des connynx van Denemarcken</persName> lande ende stromen niet
+      verzoeken en souden ende oic gene goede op viander bodem scepen en souden ende oic ghene
+      hantierynge mit sinen onderzaten hebben en souden, mischiede yement bouen deser warnynge, dair
+      en woude gi ghien verrichtynge of doen, onder andere meer woirden in der seluer copien begrepen,
+      hebben wi vriendelic entfangen ende verstaen.</p>
+            <p n="a#3" xml:space="preserve">Wairof uwer eerbarheit gelieue te weten, dat ons van herten leet is totter onminne twisken
+      den connync voirscreuen ende v wesende, ende wairt dat wi tot eniger tijt yet goets duer v
+      doen mochten, om alle zaken in vreden te helpen scicken, dair weet ons altijt toe bereit.</p>
+            <p n="a#4" xml:space="preserve">Mer des rijcs stroem ende onderzaten te miden, dat wair een zake uwer onminne een pertie te
+      zijn.</p>
+            <p n="a#5" xml:space="preserve">Oic hebben wi ende de lande van <placeName>Hollant</placeName> ende van
+        <placeName>Zeelant</placeName> in veden ghestaen ende om onser veden willen so en scouden
+      uwe burgheren ende onderzaten gene hantierynge ende <app><lem>comanscap</lem><rdg><q>comanscip</q>, A</rdg></app> mit onsen vianden, so dattet ons vervreemt sulke warnynge, als ons gedaen is na inhout
+      uwer copien, begherende an v, als wi vriendelixste moghen, dat onse poerteren ende onderzaten
+      in den uwen gheschie, gelijc ghi wout, dat uwen burgheren ende onderzaten in den onsen
+      gheschiede.</p>
+            <p n="a#6" xml:space="preserve">Ende wairt dat onsen onderzaten ende poorteren hierenbouen bescadicht worden, dat docht ons
+      wesen bouen reden ende recht, want wi ghien onminne en weten wtstaende mitten conync
+      voirscreuen noch mit v, lieue vriende.</p>
+            <p n="a#7" xml:space="preserve">Wes v in gelieft te doen, dairof uwe bescreuen andwairde.</p>
+            <p n="a#8" xml:space="preserve">Lieue vriende, of ghi enighe zaken op ons begherende sijt, dair weet ons altijt toe
+      bereit.</p>
+            <p n="a#9" xml:space="preserve">Got zi met v.</p>
+            <p n="a#10" xml:space="preserve">Gescreuen XVIII dage in maert.</p>
+            <p n="a#11" xml:space="preserve">Die stede van <placeName>Leyden</placeName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

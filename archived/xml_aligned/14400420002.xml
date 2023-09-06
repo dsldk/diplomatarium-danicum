@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">248</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14400420002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="a">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3333</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. 30 × 20.5. <ab>På bagsiden med senere hånd <q>1440</q> og med Langebeks hånd
+                                 <q>Foræret af mr Harder 1752</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Koncept</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Afskrift fra o. 1900</ab>
+                        <ab>Afskriveren bemærker hertil: <q>Omtrent samtidig Afskrift paa papir
+                                 med Langebeks Haand mærket: Foræret af mr Harder 1752</q> og
+                                 <q>Danske Selskabs Papirer</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium, med året 1450</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Langebek angiver, at afskriften er foretaget efter <q>Orig. membr.
+                                 mutil. af vor frue Kirkes Archiv 1750</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 7074</bibl>
+               <bibl>Reg. *5264 (efter a)</bibl>
+               <bibl>Reg. *5698 (22. april 1450), efter Aa</bibl>
+               <bibl>Københavns Dipl. I 162 nr. 124</bibl>
+               <bibl>Københavns Dipl. II 93 nr. 88 (22. april 1450, efter Aa)</bibl>
+               <bibl>Vejledende Arkivreg. XVII 205 nr. 44</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa, lakuner udfyldt efter a</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1440-04-20"
+                  notBefore="1440-04-20"
+                  notAfter="1440-04-20"
+                  cert="high">[1440.
+               20. april]<note>Brevet er overleveret i to versioner: en samtidig på papir og en
+                  afskrift ved Langebek fra 1750. Overensstemmelsen mellem ordlyden i de to
+                  versioner godtgør, at der er tale om det samme brev, selvom det i
+                  papirsudfærdigelsen er dateret 20. april 1440 og i Langebeks afskrift 22. april
+                  1450. Papirsudfærdigelsen viser ikke tegn på nogensinde at have været beseglet og
+                  har desuden en del rettelser af teksten. En original i diplomatikkens forstand
+                  (dvs. det beseglede eksemplar, der udleveredes til modtageren) kan det derfor
+                  næppe være. Langebek angav, at afskriften blev foretaget efter "den beskadigede
+                  original på pergament i Vor Frue Kirkes arkiv." Der er ingen grund til at tvivle
+                  på Langebeks oplysninger, og selvom han ikke oplyste noget om beseglingen, må det
+                  være originalbrevet, der lå i arkivet. Spørgsmålet er, hvad papirudfærdigelsen er:
+                  en afskrift eller en koncept? Papirsudfærdigelsen kaldes i afskriften fra o. 1900
+                  i Langebeks Diplomatarium for en "omtrent samtidig afskrift", men i Repertoriet
+                  for en koncept. Begge forklaringer er principielt mulige, men udelukker gensidigt
+                  hinanden. Forskellene mellem de to versioner består mest i ortografiske varianter,
+                  men der er to betydningsfulde afvigelser. Blandt vidnerne optræder i Langebeks
+                  afskrift en Anders Grubbe, der til gengæld savnes i papirsudfærdigelsen. Desuden
+                  angives årstallet i papirsudfærdigelsen og Langebeks afskrift som henholdsvis 1440
+                  og 1450. Det rigtige år må være 1440, hvilket navnlig fremgår af to forhold. Jakob
+                  Jensen Skriver, som sad i dommersædet på landstinget, da brevet blev udstedt,
+                  nævnes sidste gang 28. april 1445 og har næppe været i live eller været aktiv i
+                  1450. Mogens Akselsen Gøye, der også nævnes blandt udstederne, benævnes blot som
+                  høvedsmand på Jungshoved, men uden indikation af ridderværdighed. Han var endnu
+                  14. marts 1442 væbner, men benævnes fra 29. december 1449 som ridder, således også
+                  24. april 1450. Det må regnes for udelukket, at han i et brev udstedt 22. april
+                  1450 ikke benævntes ridder. Året må derfor være 1440. På dette punkt er
+                  papirsudfærdigelsen mest troværdig. Selvom teksten i originalen i Frue Kirkes
+                  arkiv var vanskeligt læselig, er der dog ingen grund til at tvivle på
+                  korrektheden, når afskriften nævner en Anders Grubbe som en af udstederne. Såfremt
+                  papirsudfærdigelsen er en afskrift, er der her tale om en afskrivningsfejl.
+                  Såfremt der er tale om en koncept, kan udeladelsen af Anders Grubbe forklares med,
+                  at hans tilstedeværelse på landstinget 20. april 1440 ikke var forudset, og at det
+                  var nødvendigt at ændre ordlyden ved den endelige udfærdigelse. De to større
+                  afvigelser mellem de to versioner kan således ikke afgøre spørgsmålet om forholdet
+                  mellem papirsudfærdigelsen og den af Langebek afskrevne original. De ikke få
+                  rettelser, både på linjen og mellem linjerne, af teksten i papirsudfærdigelsen,
+                  peger dog snarere på en endnu ikke afsluttet redaktionel proces end på en sjusket
+                  afskrift (se det tekstkritiske apparat). Den sandsynligste forklaring er derfor,
+                  at der er tale om en koncept, som foreslået i Repertoriet. Hvorledes koncepten er
+                  overleveret mellem 1440, da brevet blev konciperet og udstedt, og 1752, da det
+                  blev skænket af en monsieur Harder til Det kongelige danske Selskab for
+                  Fædrelandets Historie, er ikke klart</note>
+            </date>
+            <placeName cert="high">Sjællands landsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Dom af Sjællands landsting i en sag mellem på den ene side Hans Rosenbom, kannik i
+               København, på vegne af kapitlet, og Jakob Klementsen i Brønshøj på egne vegne, og på
+               den anden side Peder Hemmingsen, bymand i København, om en jord i Skt. Petri sogn
+               sammesteds, der ligger syd for rådhuset og vest for Vor Frue kirke. Jorden tildømmes
+               Jakob Klementsen som ejendom og kapitlet som pant. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-01-07" who="#pbh">Filen etableret af #pbh 2014-01-07. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-09-19" who="#alk">2. korrektur af #alk 2017-09-19. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn thette breff see æller høre, helsæ wii <persName><damage>Jep Scr<ex>iwere</ex> j
+          Towe<ex>r</ex>op</damage></persName>, som sider i <placeName>domerens</placeName> stæth
+      pone <placeName>landthinget i Siæland</placeName>, <persName><app><lem><damage>Bæind</damage></lem><rdg wit="#Aa"><q>R</q> og lakune, Aa</rdg></app> Pætherssøn</persName>, <app><lem><persName>Anders Gruby</persName></lem><rdg wit="#Aa">Mangler, a</rdg></app>, <persName>Maghens Gøye</persName>, <placeName><damage>høw<ex>e</ex>tzma<ex>n</ex> oppa
+          Junxhow<ex>eth</ex></damage></placeName>
+      <persName>Knut Nielssøn</persName> aff <placeName>Wethfughlebergh</placeName>,
+        <persName>Olæff</persName>
+      <damage>Grubbe aff <placeName>Spongagh<ex>er</ex></placeName><persName>Griip Je<ex>n</ex>ss<ex>øn</ex></persName> aff
+          <placeName>Olesst<ex>ro</ex>p</placeName> . <persName>Thrwels
+            Thorb<ex>e</ex>nss<ex>øn</ex></persName><placeName>soghne prest j Brengst<ex>ro</ex>p</placeName> . <persName>Saxe
+            Pæth<ex>er</ex>ss<ex>øn</ex></persName> j <placeName>Fretzgordh</placeName><persName>Hemi<ex>n</ex>g Smeth</persName> . <persName>Jeip Skrede<ex>re</ex></persName><placeName>burghæmæste<ex>re</ex> j Ri<ex>n</ex>gstethe</placeName><persName>Niels Hemi<ex>n</ex>gss<ex>øn</ex></persName><placeName>rathma<ex>n</ex></placeName> . oc <persName>Oleff Daniel</persName><placeName>byma<ex>n</ex> j thæn sæ<damage><ex>m</ex>me</damage>st<ex>eth</ex></placeName>
+        kiærlighe</damage> met wor herre. ♦</p>
+            <p n="a#2" xml:space="preserve">Wii kungøre thet alle mæn <damage>n<ex>erueren</ex>d<ex>is</ex> oc
+        komme<ex>sculen</ex>d<ex>is</ex> at</damage> effter wor herris føthelsse
+        <damage>aar</damage>
+      <app><lem>m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xl<hi rend="sup">o</hi></lem><rdg resp="#alk"><q>m<hi rend="sup">o</hi>cdl<hi rend="sup">o</hi></q>, Aa, men se
+          indledningen</rdg></app> then othænsdagh næst for sancti Yriens dagh for oss pone wor
+        <placeName>landzthing</placeName>, nærwærendes <damage>ma<ex>n</ex>ge</damage> gothe
+      wælborne mæn <damage>oc beskethne</damage> som landzthinget then dagh søkte, wor <app><lem>skikkethe</lem><rdg wit="#Aa">Herefter slettet <q>for</q>, Aa</rdg></app> hetherlikæ mæn oc beskethne hr. <app><lem><persName>Han<ex>us</ex> Rosenbom</persName></lem><rdg wit="#Aa"><q>Hanes Hosenbor</q>, Aa</rdg></app>, <placeName>canik i Kopmanhafn</placeName> pone hetherlicht
+        <placeName>capitels</placeName> weghne i sammested, oc <app><lem><persName>Jeip Clæme<ex>n</ex>dss<ex>øn</ex></persName></lem><rdg wit="#Aa"><q>Jeip Clæmidssøn</q>, Aa</rdg></app> aff <placeName><app><lem><damage>Brundzhøw</damage></lem><rdg wit="#Aa"><q>thow</q> efter kort lakune, Aa</rdg></app></placeName> pone sin eghne weghne, hwelke som haffthe hafft kiiff oc thrætte meth
+      Pæther Hæmmingssøn byman i Køpenhaffn pone forneffnde landthing om en jorth innen Køpenhaffn
+      liggendis synnen næst Rathwsset oc wæsten wor Frowe kirke i sancti Pæthers sokn, oc bewiisde
+      meth ed skellicht <damage>op<ex>et</ex></damage>
+      <cit><quote>breff</quote><bibl>Kendes ikke.</bibl></cit>
+      <damage>wælborne</damage> oc ærlichæ mæns jncighlæ foræhængdæ <damage>at
+        thæ<ex>n</ex></damage> næfnd, som pone fornefnde landsthing til forn wor <damage>pone
+        fvnne<ex>n</ex> oc m<ex>eth</ex></damage> rætæ æffter landzlow forewisd at vdnæfnes skulle
+        <damage>j Kiopma<ex>n</ex>ha<ex>ff</ex>n</damage> oc <app><lem>th<ex>e</ex>r</lem><rdg wit="#Aa"><q>thre</q>, Aa</rdg></app> gonge, oc swærie hwat hælder thæn fornæfnde <app><lem>jordh</lem><rdg wit="#Aa"><q>gorth</q>, a</rdg></app> wor <persName>Oleff Jenssøns</persName> eyæ æller æy <damage>at</damage> thæn
+      forskreffne næffnd giik oc openbarlicæ pone <placeName>Køpenhaffns bything</placeName> soor oc
+      jefnsombt fuldis at, at thæn forskreffne gordh haffer wæret forskreffne Olæff Jenssøn skiøth
+      paa Kiøpenhaffns bything. ♦</p>
+            <p n="a#3" xml:space="preserve">Tha thæn samme tith pone forskreffne landthing mæltis forskreffne næffnd, ther swo ganget oc
+      sooret haffthe j Køpenhaffn, stathigh oc fast at bliffe oc wgenkallelich aff
+        <damage>nogh<ex>e</ex>r ma<ex>n</ex></damage> til ewigh tith, som hænne aff rætæ burthæ
+      æffter landzlagh, thy ther wor engen hænne straffethe æller geenmælte i nogræ mode, oc
+      forskreffne <app><lem>Jep Cleme<ex>n</ex>dss<ex>øn</ex></lem><rdg wit="#Aa"><q>Jep Clæmedssøn</q>, Aa</rdg></app> at bliffe ræt eyere til eghendomen, oc hetherlicæ capitel i Køpenhaffn theris pant
+        <damage>friileghe</damage> at nyde æffter theris brefs lud, som the ther pone haffe.</p>
+            <p n="a#4" xml:space="preserve">Quod vidimus et audivimus, <app><lem>lucide</lem><rdg wit="#Aa"><q>de</q> efter kort lakune, Aa</rdg></app> cum sigillis nostris protestamur.</p>
+            <p n="a#5" xml:space="preserve">Datum die et loco suprascriptis.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

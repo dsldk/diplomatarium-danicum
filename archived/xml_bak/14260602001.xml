@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">766</num>, paragraphs: <num n="paragraphs">14</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14260602001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Helsingør Rådstue</collection>
+                        <idno>4-16a</idno>
+                        <msName>Kong Eriks privilegier for den ny by Ørekrok (1426-1426)</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>20.5 (plica: 1.7)</height>
+                                    <width>27.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Rettelser i brevet af foretaget af kansleren</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Påskrift forneden: <q>Ad mandatum domini regis presente Benedicto Pogwisch
+        milite</q> og <q>Johannes Petri cancellarius</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Kongens segl i rødt voks i ufarvet i perg.rem, <ref>DKS 62</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Tabt</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift af byens privilegier indsendt d. 1. august 1639 til
+      kancelliet</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>GKS</collection>
+                        <idno>3161 4to, f. 48v</idno>
+                        <msName>afskrift af Jørgen Sefeld</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Konning Erickis Priuilegium Ordinantz och Skick om Embetzmend,
+        herbergere, om Køb och Sall</q>; og påskrift (f. 147v): <q>Erlig och velbiurdig mand Niels
+        Troldholm, høffuitzmand paa Kiøbinghaffns slott laante mig dem att udskriffue effter det
+        exemplar, som borgm<ex>ester</ex> och r<ex>aad</ex> indlagde vdi Cancellieth. Datum Ringsted
+        closter 16. dec. 1639</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>GKS</collection>
+                        <idno>3160 4to, f. 39v</idno>
+                        <msName>fra det 17. århundrede</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Helsingøers første priuilegium Udgiffuen aff Koning
+      Erik</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>Kall</collection>
+                        <idno>52 fol</idno>
+                        <msName>Copie af Helsingøers-Privilegier, nr. 1</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Helsingøers første Privilegium given af Kong Erich af Pomern Aar
+        1426</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ac">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Danske Kancelli</collection>
+                        <idno>B117B: Sjælland</idno>
+                        <msName>Kopier af købstædernes privilegier indsendte i henhold til kgl. missive af 1648 29. juli</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Koning Ericks preuileg<ex>ium</ex> och Ordinandtz och Skick om
+        Embidtmend, Herbergerer om Kiøb och Sall, som er giffuit Anno 1426</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6259</bibl>
+               <bibl>Reg. *4766</bibl>
+               <bibl>Aarsb. fra Geheimearch. III, Till. 5</bibl>
+               <bibl>Danmarks gl. Købst.lovgivn. III 123-25 (nr. 1)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-06-02"
+                  notBefore="1426-06-02"
+                  notAfter="1426-06-02"
+                  cert="high">1426. 2. juni</date>
+            <placeName cert="high">Vordingborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern giver den nye købstad på odden Ørekrog en række privilegier svarende
+      til Københavns privilegier af 28. oktober 1422.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-10" who="#pbh">Filen etableret af #pbh 2014-07-10. </change>
+         <change when="2020-01-28" who="#jon">1. korrektur af #jon 2020-01-28. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wy <persName>Eric</persName> m<ex>eth</ex> guths nath<ex>e</ex> Danm<ex>a</ex>rks
+      Swer<ex>iges</ex> Nor<ex>iges</ex> Wend<ex>es</ex> oc Goth<ex>es</ex> koni<ex>n</ex>g oc
+      h<ex>er</ex>tug j Pomern helse alle the so<ex>m</ex>
+      <app><lem>th<ex>ett</ex>æ b<ex>re</ex>ff</lem><rdg>Tilføjet over linjen, A</rdg></app> se ell<ex>e</ex>r hør<ex>e</ex> læses kærlighe m<ex>eth</ex> guth oc wor nath<ex>e</ex>
+      ♦ oc gør<ex>e</ex> wit<ex>er</ex>licht at for oss oc wort radh hafue waret wor<ex>e</ex>
+      elskilighe borghe<ex>re</ex> oc byme<ex>n</ex> aff <placeName>Ørekrok</placeName> oc hafue oss
+      beth<ex>et</ex> besørye oc <app><lem>betrachte</lem><rdg wit="#Ab"><q>betragte /:betencke:/</q>, Ab</rdg></app> th<ex>e</ex>m m<ex>eth</ex> ny p<ex>re</ex>uilegia oc <app><lem>friheet</lem><rdg wit="#Ab"><q>Friheder</q>, Ab</rdg><rdg><q>friheder</q>, Ac</rdg></app>
+      <app><lem>efft<ex>er</ex> th<ex>et</ex></lem><rdg wit="#Ab"><q>effterdi</q>, Ab, Ac</rdg></app> at wy wele at the th<ex>e</ex>r vpa <placeName>Krok<ex>e</ex>n</placeName> scule flutte <app><lem>at</lem><rdg wit="#Ab"><q>og</q>, Ab</rdg><rdg><q>och</q>, Ac</rdg></app> bo oc th<ex>e</ex>r en ny køpstædh bygge ♦ huilk<ex>e</ex>n bøn oc scellich
+      begering wy efft<ex>er</ex> wort radhs radh th<ex>e</ex>m g<ex>er</ex>ne weet haue / oc
+      benadhe th<ex>e</ex>m oc vnne for rikens oc stadsins oc alles the<ex>re</ex> oc ther<ex>e</ex>
+      efft<ex>er</ex>ko<ex>m</ex>er<ex>es</ex> beste oc bestand sculd sua dane
+      p<ex>re</ex>uil<ex>eg</ex>ia oc <app><lem>friheet</lem><rdg wit="#Ab"><q>Friheder</q>, Ab</rdg><rdg><q>friighed</q>, Ac</rdg></app> so<ex>m</ex> h<ex>er</ex> efft<ex>er</ex> følyæ ♦</p>
+            <p n="a#2" xml:space="preserve">Fførst at the for t<ex>r</ex>oscapp oc willich thieniste sculd <app><lem>so<ex>m</ex></lem><rdg wit="#Ab"><q>som og</q>, Ab</rdg></app> the oc the<ex>re</ex> ærui<ex>n</ex>ge oc <app><lem>efft<ex>erkome</ex>re</lem><rdg><q>effterdi</q>, Ac</rdg></app> oss oc crone<ex>n</ex> oc riket j Danm<ex>a</ex>rk oc wor<ex>e</ex>
+      efft<ex>erkome</ex>r<ex>e</ex> koni<ex>n</ex>ge willichlica oc trolica g<ex>ør</ex>æ oc beuise
+      scule <app><lem>ewi<ex>n</ex>nelica</lem><rdg wit="#Ab"><q>endeligen maae</q>, Ab</rdg></app> / haue nyde oc beholde <app><lem>maghe</lem><rdg>Tilføjet over linjen, A; mangler, Ab</rdg></app> swo dane p<ex>re</ex>uil<ex>eg</ex>ia frihede oc fordele som andr<ex>e</ex>
+      wor<ex>e</ex> b<ex>or</ex>ghe<ex>re</ex> oc køpstedhe me<ex>n</ex> vpa wor<ex>e</ex>
+      markned<ex>e</ex> oc sildeleye so su<ex>m</ex> ær<ex>e</ex>
+      <placeName>Schanør</placeName>
+      <placeName>Falst<ex>er</ex>bodhe</placeName>
+      <placeName>Malmøye</placeName> oc <placeName>Drakøer</placeName> ♦</p>
+            <p n="a#3" xml:space="preserve">Item at wor foghed oc embitzma<ex>n</ex> vpa <placeName>Kroken</placeName> oc
+      b<ex>or</ex>ghemest<ex>er</ex>e oc radhet j byen m<ex>eth</ex> hano<ex>m</ex> schicke sette oc
+      bestille til wort oc wort rads behagh alle hande <app><lem>embitte</lem><rdg><q>Embedsmend</q>, Ac</rdg></app> oc g<ex>er</ex>ningx folk vtj <app><lem>oc</lem><rdg>Mangler i Ac</rdg></app> vm kring stadhen <app><lem>efft<ex>er</ex> thy so<ex>m</ex></lem><rdg wit="#Ab"><q>efftersom det</q>, Ab</rdg></app> schellixt oc nůttest er bothe for oss oc th<ex>e</ex>m oc for almughe<ex>n</ex> oc
+      for stadhe<ex>n</ex> oc alt vm / swo at badhe th<ex>e</ex>n so<ex>m</ex> sæll oc then
+      so<ex>m</ex> køpir fange mugelich<ex>et</ex> oc like for syt . ♦</p>
+            <p n="a#4" xml:space="preserve">Item at the som h<ex>er</ex>berghe oc gesterye vpe holde scule haue falt øl oc mat oc
+      fodh<ex>e</ex>r . oc th<ex>e</ex>r til stalling til swo ma<ex>n</ex>ge heste som wor foghed oc
+      radh<ex>et</ex> thykk<ex>er</ex> ♦</p>
+            <p n="a#5" xml:space="preserve">Item wele wy at enge<ex>n</ex> scal haffue falt hø ell<ex>e</ex>r korn vde<ex>n</ex>
+      th<ex>e</ex>n so<ex>m</ex>
+      <app><lem>herberghe<ex>re</ex>rer</lem><rdg wit="#Ab"><q>Herbergerer</q>, Ab, Ac</rdg></app>
+      <app><lem>er</lem><rdg><q>eller</q>, Ac</rdg></app> oc th<ex>e</ex>n som stall rwm haffu<ex>er</ex> oc <app><lem>hugitzen</lem><rdg wit="#Ab"><q>hvilken</q>, Ab</rdg><rdg><q>husitzen</q>, Ac</rdg></app> so<ex>m</ex> swo dana stykke bør at haue ♦</p>
+            <p n="a#6" xml:space="preserve">Item at enge <app><lem>geste</lem><rdg>Gentaget med overstregning, A</rdg></app> ell<ex>e</ex>r køpme<ex>n</ex> th<ex>e</ex>r ey ære <app><lem>besidne b<ex>or</ex>gher<ex>e</ex></lem><rdg wit="#Ab"><q>boesiddende Byggere</q>, Ab</rdg><rdg><q>Bosiddende Borger</q>, Ac</rdg></app> j <placeName><app><lem>Ørekroek</lem><rdg wit="#Ab"><q>Ørekrog /:maae:/</q>, Ab</rdg></app></placeName> sælye nogh<ex>et</ex>
+      <app><lem>clædhe</lem><rdg>Rettet fra <q>clæde</q>, A</rdg></app> ell<ex>e</ex>r læriit j alne tall me<ex>n</ex> with halffue stůkke <app><lem>oc</lem><rdg wit="#Ab"><q>eller</q>, Ab</rdg></app> hele oc lærittit widh<ex>e</ex>r hu<ex>n</ex>dradh <app><lem>ell<ex>e</ex>r</lem><rdg wit="#Ab"><q>eller i</q>, Ab</rdg></app> reep heelt ell<ex>e</ex>r halfft / hoser with dosin heelt ell<ex>e</ex>r halfft oc ølit <app><lem>widh<ex>e</ex>r</lem><rdg wit="#Ab"><q>under</q>, Ab</rdg></app> tu<ex>n</ex>n<ex>e</ex>r oc eke with ka<ex>n</ex>ner ♦ item saltit widh
+      pu<ex>n</ex>d heelt ell<ex>e</ex>r halfft ell<ex>e</ex>r tu<ex>n</ex>n<ex>e</ex>r oc eke j
+      skæppe tall ♦ item hu<ex>m</ex>læ widh p<ex>un</ex>d ell<ex>e</ex>r <app><lem>tremet</lem><rdg wit="#Ab">Markeret som ulæseligt i Ab</rdg><rdg><q>tremmet</q>, Ac</rdg></app> helt ell<ex>e</ex>r <app><lem>halfft</lem><rdg wit="#A">Rettet fra <q>halff</q>, A</rdg></app> oc eke widh skæpper ♦</p>
+            <p n="a#7" xml:space="preserve"><app><lem>Item</lem><rdg>Mangler i Ac</rdg></app> at enge geste gør<ex>e</ex> landkøøp oc ey køpe noken <app><lem>køpe<ex>n</ex>scap</lem><rdg wit="#Ab"><q>Kiøbmandskab</q>, Ab, Ac</rdg></app> vt at før<ex>e</ex> wte<ex>n</ex> aff wor<ex>e</ex> borghe<ex>re</ex> men til the<ex>re</ex>
+      <app><lem>eghyt</lem><rdg>Tilføjet over linjen, A</rdg></app> bordh oc kost her at holde oc at fortær<ex>e</ex> / th<ex>et</ex>
+      <app><lem>mughe</lem><rdg wit="#Ab"><q>mange</q>, Ab</rdg></app> the køpe vpa torghet / ♦</p>
+            <p n="a#8" xml:space="preserve">Hwo h<ex>er</ex>
+      <app><lem>amot</lem><rdg><q>Andet</q>, Ac</rdg></app> gør ell<ex>e</ex>r sich <app><lem>for sůmer</lem><rdg wit="#Ab"><q>forsyner /:sc: forseer:/</q>, Ab</rdg></app> j thisse forsc<ex>re</ex>ffne made ell<ex>e</ex>r i nok<ex>e</ex>r anner stychke /
+      th<ex>e</ex>n wær<ex>e</ex> ho ha<ex>n</ex> ær tha <app><lem>bæthr<ex>e</ex></lem><rdg wit="#Ab"><q>bøde</q>, Ab</rdg></app> sich th<ex>e</ex>r før<ex>e</ex> efft<ex>er</ex> stadzins ræt ♦</p>
+            <p n="a#9" xml:space="preserve">Item at wor<ex>e</ex> b<ex>or</ex>ghe<ex>re</ex> j <placeName>Ør<ex>e</ex>krook</placeName>
+      hwor the far<ex>e</ex> th<ex>e</ex>r aff byen oc til andr<ex>e</ex> køpstædh<ex>e</ex>r til m<ex>a</ex>rkned<ex>e</ex>
+      <app><lem>vnde<ex>n</ex> takne wor fische m<ex>a</ex>rkned<ex>e</ex></lem><rdg>Mangler i Ac</rdg></app> at the wær<ex>e</ex> oc far<ex>e</ex> til oc fra toll frij so su<ex>m</ex>
+      andr<ex>e</ex> wor<ex>e</ex> borghe<ex>re</ex> j landet ♦</p>
+            <p n="a#10" xml:space="preserve">Item thenne forscr<ex>effne</ex> nathe p<ex>re</ex>uile<ex>g</ex>ia oc friheet giue wy
+      th<ex>e</ex>m oc vnne at bruke <app><lem>nyde</lem><rdg><q>Nyde och</q>, Ac</rdg></app> behalde m<ex>eth</ex> the<ex>re</ex> stadz book vtuisinge <app><lem>oc art<ex>ic</ex>le</lem><rdg wit="#Ab"><q>og andet</q>, Ab; mangler i Ac</rdg></app> so<ex>m</ex> wy th<ex>e</ex>m oc nw vnt oc giuit haffue swo lenge til <app><lem>thes at</lem><rdg wit="#Ab"><q>des</q>, Ab</rdg></app> wy m<ex>eth</ex> wort radh ell<ex>e</ex>r wor<ex>e</ex> efft<ex>erkome</ex>re <app><lem> koni<ex>n</ex>ge</lem><rdg><q>e</q> er tilføjet med andet blæk, A</rdg></app> j Dan<ex>mark</ex> noket annet <app><lem>nytte<ex>re</ex></lem><rdg wit="#Ab"><q>nyttigere</q>, Ab</rdg></app> oc bæthre prøue ell<ex>e</ex>r finne ku<ex>n</ex>ne <app><lem>th<ex>e</ex>r</lem><rdg wit="#Ab"><q>som</q>, Ab</rdg></app> wy oc cronen oc rikit <app><lem>oc the m<ex>eth</ex></lem><rdg wit="#Ab"><q>samt</q>, Ab</rdg></app> stadzins b<ex>or</ex>ghe<ex>re</ex> oc byme<ex>n</ex>
+      <app><lem>j</lem><rdg>Herfra til <q>menigheet</q> mangler i Ac</rdg></app>
+      <placeName>Ørekrok</placeName> bæth<ex>e</ex>r m<ex>eth</ex> ku<ex>n</ex>ne <app><lem>bestande<ex>n</ex></lem><rdg wit="#Ab"><q>bestandig</q>, Ab</rdg></app> bliue / ♦</p>
+            <p n="a#11" xml:space="preserve">H<ex>er</ex> m<ex>eth</ex> vnffa wy oc thage for<hi rend="sup">ne</hi> wor<ex>e</ex>
+      borgher<ex>e</ex> byme<ex>n</ex> oc menigheet so<ex>m</ex> nw <app><lem>alle r<ex>e</ex>dhe</lem><rdg wit="#Ab"><q>alle</q>, Ab</rdg></app> bygge j <placeName>Ør<ex>e</ex>krok</placeName> oc h<ex>er</ex> efft<ex>er</ex>
+      byggende og boande wordhe oc the køpme<ex>n</ex> oc geste so<ex>m</ex> th<ex>e</ex>r j godhe
+      made m<ex>eth</ex> the<ex>re</ex> gots oc <app><lem>køpenschap</lem><rdg wit="#Ab"><q>Kiøbmandskab</q>, Ab, Ac</rdg></app> til søke / vtj wor koni<ex>n</ex>glich friidh wærn <app><lem>oc</lem><rdg>Herfra til <q>oc besch<ex>e</ex>rme</q> mangler i Ac</rdg></app>
+      <app><lem>hæghe</lem><rdg wit="#Ab"><q>hegn</q>, Ab</rdg></app> s<ex>er</ex>del<ex>es</ex> oc besch<ex>e</ex>rme for the<ex>re</ex> thienist oc
+      troschapp sculd so<ex>m</ex>
+      <app><lem>the</lem><rdg><q>er</q>, Ac</rdg></app> oss oc riket oc cronen plichtoge <app><lem>ære</lem><rdg>Tilføjet over linjen, A</rdg></app> oc g<ex>ør</ex>æ scule til euich tiith ♦</p>
+            <p n="a#12" xml:space="preserve">Thy forbiwdhe wy alle oc hwer serdel<ex>es</ex> ee hoo the helzt ær<ex>e</ex> oc
+      s<ex>er</ex>del<ex>es</ex> wor<ex>e</ex> foghethe oc embetzme<ex>n</ex> vpa
+        <placeName>Krok<ex>e</ex>n</placeName> forscr<ex>eff</ex>ne wor<ex>e</ex>
+      b<ex>or</ex>ghe<ex>re</ex> byme<ex>n</ex> oc menigheet j
+        <placeName>Ør<ex>e</ex>krok</placeName> h<ex>er</ex>
+      <app><lem>amot</lem><rdg wit="#Ab"><q>imod</q>, Ab</rdg><rdg><q>imood</q>, Ac</rdg></app> at hindr<ex>e</ex> vforrætte <app><lem>mødhe</lem><rdg wit="#Ab"><q>Bemøde</q>, Ab</rdg></app> ell<ex>e</ex>r vmake j nogh<ex>e</ex>r made vnd<ex>er</ex> wor <app><lem>koni<ex>n</ex>gxlige</lem><rdg wit="#Ab"><q>Kongelig</q>, Ab</rdg></app>
+      <app><lem>hemp<ex>n</ex>d</lem><rdg wit="#Ab"><q>Hævn</q>, Ab</rdg></app> oc wredhe ♦</p>
+            <p n="a#13" xml:space="preserve">Til wit<ex>er</ex>lich<ex>et</ex> oc wysan alle thisse forscr<ex>effne</ex>
+      <app><lem>stykk<ex>e</ex>r</lem><rdg><q>stykkr<ex>es</ex></q>, A</rdg></app> haffue wy ladit wort secret m<ex>eth</ex> wilighe oc witscap heng<ex>es</ex> for
+      th<ex>et</ex>te b<ex>re</ex>ff ♦</p>
+            <p n="a#14" xml:space="preserve">Datum in castro nostro <placeName>Wordhi<ex>n</ex>gborgh</placeName> anno Domini mcdxxvi
+      dominica infra <app><lem>octavam</lem><rdg><q>octava</q>, Ac</rdg></app> corporis Christi ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

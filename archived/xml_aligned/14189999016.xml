@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="fgj">
+                  <persName>
+                     <forename>Finn Gredal</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14180000016</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Det Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer. Åkærske reg. B (1611), upag., med overskriften <q>Effter<hi rend="sup">ne</hi> breffue findes vdi en rund asch noterit paa lugett Hattingherrit, 8.</q> Endvidere registreret i Åkærske reg. A (1591), upag., nr. 282 (senere nummerering)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 141 nr. B. 241</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter B-reg.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418" notBefore="1418" notAfter="1418" cert="low">1418<note>Pantsætteren, den i A-reg. omtalte <q>hand</q>, kan ikke identificeres. Panthaveren, Knud Sten, omtales senere som <q>Knudt Steend i Løssning</q> i en indførsel i A-reg., et overdragelsesbrev fra 1426 vedrørende gods i Årup, muligvis den samme gård (ÆA II 161 nr. A. 279; jf. Registratur over breve på Stjernholm (1624) nr. 63, trykt ÆA V 114)</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>En ukendt person pantsætter to gårde og et møllested i Gesager samt en gård i Årup til Knud Sten for 24 mark sølv. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-08" who="#pbh">Filen etableret af #pbh 2014-04-08. </change>
+         <change when="2019-03-18" who="#fgj">Kladde: 1. korrektur #fgj 2019-03-18. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Et pergamendtz pantebreff paa ij gaarde vdi <placeName>Giessagger</placeName> och ett møllested ibidem och en gaard i <placeName>Attrup</placeName> for 24 ℳ sølff, <app><lem><persName>Knud Steen</persName> ehr panted</lem><rdg wit="#B">B-reg.</rdg><rdg wit="#A"><q>hand haffuer panted Knudt Steend</q> A-reg</rdg></app>, ♦</p>
+            <p n="a#3" xml:space="preserve">Anno 1418 ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

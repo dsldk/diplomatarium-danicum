@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">43</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">77</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14211008001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt, refereret i Sorø Gavebog (København, Det Kongelige Bibliotek,
+                        GkS 2485, 4to), f. 47v</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>SRD IV 523</bibl>
+               <bibl>Ranvig, Sorøkrøniken II 154 (dansk oversættelse)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Sorø Gavebog</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-10-08"
+                  notBefore="1421-10-08"
+                  notAfter="1421-10-08"
+                  cert="high">1421. 8. oktober<note>Efter dette referat følger notitsen om Margretes besiddelse af grunden
+                og byggearbejde, samt notitsen om kong Erik 6. Menveds donation fra o. 1290, <ref target="12909999001">Dipl. Dan. Omkr. 1290</ref>
+               </note>
+            </date>
+            <placeName cert="high">Roskilde byting</placeName>
+         </creation>
+         <abstract>
+            <ab>Tingsvidne af Roskilde byting om byfogden Peder Mortensens skødning 
+                af en grund i byen til Sorø kloster på vegne af kong Erik 7. af Pommern. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-09" who="#pbh">Filen etableret af #pbh 2014-05-09. </change>
+         <change when="2016-03-03" who="#alk">1. korrektur af #alk 2016-03-03. </change>
+         <change when="2016-06-11" who="#alk">2. korrektur af #alk 2016-06-11. </change>
+         <change when="2016-06-23" who="#alk">3. korrektur af #alk 2016-06-23. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Discretus vir <persName>
+                  <app>
+                     <lem>Pe<supplied>trus</supplied>
+                     </lem>
+                     <rdg resp="#alk">
+                        <q>Pe</q>, ms</rdg>
+                  </app> Martenss<ex>øn</ex>
+               </persName>
+               <placeName>advocatus in Roskildia</placeName> constitutus propter hoc in
+                                <placeName>placito civium ibidem</placeName> anno domini 1421 feria
+                        quarta ante Dyonisii scotavit et assignavit ex parte illustris
+                                <persName>Erici</persName>
+               <placeName>Dacie</placeName>
+               <placeName>Swecie</placeName>
+               <placeName>Norvegieque</placeName> regis et ducis
+                                <placeName>Pomeranie</placeName> / fundum unum
+                                <placeName>Roskild<ex>is</ex>
+               </placeName> situm in
+                                <placeName>parochia ecclesie beate virginis</placeName> ad partem
+                        orientalem prope <placeName>monasterium monialium</placeName> cum
+                        pertinenciis suis omnibus in longum et in latum <placeName>monasterio beate
+                                Marie de Sora</placeName> in possessionem perpetuam / ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Den gode mand Peder Mortensen, foged i Roskilde, fremstod i det Herrens år 1421,
+                        onsdag før Dionysius' dag, i denne anledning på borgernes ting sammesteds og
+                        skødede og anviste til evig besiddelse – på vegne af Erik, Danmarks,
+                        Sveriges og Norges berømmelige konge og hertug af Pommern – til den
+                        hellige Marias kloster i Sorø en grund beliggende i Roskilde, i den østre
+                        ende af Vor Frue kirkes sogn ved nonneklosteret med alle dens tilliggender i
+                        længden og bredden.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

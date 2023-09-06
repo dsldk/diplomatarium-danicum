@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">204</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14290716001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3058</idno>
+                        <msName>tidl. Nørvang H. 53</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 25 × 11.5 (plica: 1). <ab>Bagpå: <q>i skødebreff om ien gord ligind<ex>es</ex> i Langischog sogenn som
+        heder Øtheholms gordt</q>
+                        </ab>1. Peder Henriksens (Prip) segl i mørkt voks i perg.rem, AS I vii 17. 2. Seglsnit. 3. Seglsnit. 4. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6414</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 189</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-07-16"
+                  notBefore="1429-07-16"
+                  notAfter="1429-07-16"
+                  cert="high">1429. 16. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder Henriksen (Prip) sælger og skøder pantsat gods i Nørre herred til hr. Erik Nielsen
+      (Gyldenstjerne) af Tim på det vilkår, at skødemodtageren selv skal indfri gården fra Kristian
+      (Jensen) Ville (Skram). </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-05" who="#pbh">Filen etableret af #pbh 2014-08-05. </change>
+         <change when="2019-02-12" who="#jon">1. korrektur af #jon 2019-02-12. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn th<ex>et</ex>tæ b<ex>re</ex>ff hør<ex>e</ex> æll<ex>e</ex>r see / helsser jæc <persName>P<ex>er</ex> Hinrykss<ex>øn</ex></persName> kærleghe meth gudh ♦</p>
+            <p n="a#2" xml:space="preserve">Ok kwngør jæc th<ex>et</ex> alle mæn sa wel the nw ær<ex>e</ex> som ko<ex>m</ex>mæ skulæ at
+      jæc weth<ex>e</ex>rke<ex>n</ex>nes myk / mæth th<ex>et</ex>tæ mit opnæ b<ex>re</ex>ff / at jac
+      haw<ex>er</ex> saalt oc skøt oc oplathæt en heth<ex>e</ex>rligh ma<ex>n</ex> h<ex>er</ex>
+      <persName>Eryk Nielss<ex>øn</ex></persName> aff <placeName>Tiim</placeName> rydder<ex>e</ex>
+      en my<ex>n</ex> gardh som lygg<ex>er</ex> jnnæ<ex>n</ex>
+      <placeName>Jælingsysl</placeName> . j Nørreh<ex>er</ex>r<ex>et</ex> jnnæ<ex>n</ex>
+      <placeName>Langeschogh</placeName> sogh<ex>e</ex>n oc heder <placeName>Øthleholms
+        gardh</placeName> . mæth all then gardhs tillythelsse oc ræteghed sa som ær aagh<ex>e</ex>r
+      / æng / schogh / fyskæwatn / fægang<ex>e</ex> / møllestedh wat æll<ex>e</ex>r thywrt ænktæ
+      wndentagh<ex>et</ex> hwad th<ex>et</ex> helst ær / mæth sa dan wilkor / at for<hi rend="sup">de</hi> h<ex>er</ex>
+      <persName>Eryk Nielss<ex>øn</ex></persName> / scal selff infrii then for<hi rend="sup">de</hi>
+      gardh aff C<ex>ri</ex>stiern Willæ efft<ex>er</ex> <app><lem>som</lem><rdg wit="#A">Muligvis <q>sum</q>, A</rdg></app> th<ex>et</ex> b<ex>re</ex>ff
+      wtwys<ex>e</ex>r som ha<ex>n</ex> th<ex>e</ex>r vppæ haw<ex>er</ex> . ♦</p>
+            <p n="a#3" xml:space="preserve">Oc ke<ex>n</ex>næs jac megh . at hawe opboret aff for<hi rend="sup">de</hi> h<ex>er</ex> <persName>Eryk Nielss<ex>øn</ex></persName> for th<ex>e</ex>n for<hi rend="sup">de</hi> gardh fææ oc folt wærdh oc godh
+      betaling<ex>e</ex> efft<ex>er</ex> my<ex>n</ex> egh<ex>e</ex>n nøghæ jnnæ<ex>n</ex> allæ madæ
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Til hwes things wythendes byrdh . haw<ex>er</ex> jæc myth jnciglæ mæth andre godhe mæns
+      jnciglæ for th<ex>et</ex>tæ b<ex>re</ex>ff hænkt sa som ær <persName>Jes
+        Lawess<ex>øn</ex></persName> aff <placeName>Tyrsbek</placeName>
+      <persName>Jes Anderss<ex>øn</ex></persName> . ok <persName><app><lem>Nys</lem><rdg wit="#A"><q>Nys Nys</q>, A</rdg></app> And<ex>er</ex>ss<ex>øn</ex></persName> aff <placeName>Laghæ</placeName>
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini mcdxx nono proximo sabbato post festum beati Kanuti regis et Martiris
+      ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

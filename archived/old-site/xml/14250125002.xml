@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Diplomatarium Danicum</title>
+                <editor>
+                    <name xml:id="pbh">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Bruun Hansen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num
+                    n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>,
+                paragraphs: <num n="paragraphs">1</num>
+            </extent>
+            <publicationStmt>
+                <publisher>Danske Sprog- og Litteraturselskab</publisher>
+                <pubPlace>København</pubPlace>
+                <date>2016</date>
+                <idno type="dd">14250125002</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>empty</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc material="empty">
+                                        <support>
+                                            <ab>empty</ab>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab>empty</ab>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab>empty</ab>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote>
+                                        <ab>empty</ab>
+                                    </handNote>
+                                </handDesc>
+                                <additions>
+                                    <ab>empty</ab>
+                                </additions>
+                                <sealDesc>
+                                    <seal n="0" type="empty">
+                                        <ab>empty</ab>
+                                    </seal>
+                                </sealDesc>
+                            </physDesc>
+                            <history>
+                                <ab>Tabt</ab>
+                            </history>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="Aa">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Rom</settlement>
+                                <repository>Archivio Segreto Vaticano</repository>
+                                <idno>Reg. Lat. 256 fol. 235</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc material="empty">
+                                        <support>
+                                            <ab>empty</ab>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab>empty</ab>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab>empty</ab>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote>
+                                        <ab>empty</ab>
+                                    </handNote>
+                                </handDesc>
+                                <additions>
+                                    <ab>Påskrift: <q>Ja. XVI. de Cerretanis</q></ab>
+                                </additions>
+                                <sealDesc>
+                                    <seal n="0" type="empty">
+                                        <ab>empty</ab>
+                                    </seal>
+                                </sealDesc>
+                            </physDesc>
+                            <history>
+                                <ab>empty</ab>
+                            </history>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>APD III 44 nr. 1673</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <ab>Tekst og arkivalske oplysninger efter APD l.l.; de forkortede formler udfyldt
+                    efter <ref target="14040317002">DD 1404. 17. mar., nr. 14040317002</ref>.</ab>
+            </samplingDecl>
+            <projectDesc>
+                <ab>DD-5</ab>
+            </projectDesc>
+            <appInfo>
+                <application xml:id="app_nil" type="nil" subtype="nil" ident="nil"
+                    version="99999999">
+                    <desc>nil</desc>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1425-01-25" notBefore="1425-01-25" notAfter="1425-01-25" cert="high"
+                    >1425. 25. januar</date>
+                <placeName cert="high">Rom, Santi Apostoli</placeName>
+            </creation>
+            <abstract>
+                <ab>Pave Martin 5. tillader væbneren Hans Krøpelin fra Roskilde stift og hans hustru
+                    at vælge en skriftefader, som kan meddele dem fuld syndsforladelse i deres
+                    dødsstund.</ab>
+            </abstract>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>empty</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-10-10" who="#pbh">Filen etableret af #pbh 2013-10-10. </change>
+            <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske
+                oplysninger indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+            <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+            <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="nil"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="la">
+                <p n="a#1"><app>
+                        <lem><persName>Martinus</persName> (episcopus servus servorum dei)</lem>
+                        <rdg><q>Martinus etc.</q> Aa</rdg>
+                    </app> nobili viro <persName>Johanni Cropelin</persName> armigero Roskildensis
+                    diocesis et <persName>nobili mulieri ejus uxori</persName> impresentiarum
+                    existenti <app>
+                        <lem>salutem (et apostolicam benedictionem)</lem>
+                        <rdg><q>salutem etc.</q> Aa</rdg>
+                    </app>. &#9830;</p>
+                <p><app>
+                        <lem>Provenit (ex vestre devotionis / affectu / quo nos et Romanam ecclesiam
+                            reveremini / ut petitiones vestras illas presertim que anime vestre
+                            salutem respiciunt / ad exauditionis gratiam admittamus. ♦ Hinc est quod
+                            nos vestris supplicationibus inclinati / ut confessor vester quem
+                            duxeritis eligendum / omnium peccatorum vestrorum de quibus corde
+                            contriti et ore confessi fueritis / semel tamen in mortis articulo eam
+                            plenam remissionem quam Romani pontifices consveverunt interdum per
+                            speciale privilegium personis aliquibus impertiri / vobis quatinus
+                            claves ecclesie se extendunt / et gratum in oculis divine majestatis
+                            extiterit / auctoritate apostolica concedere valeat / devotioni vestre
+                            tenore presentium indulgemus / sic tamen quod idem confessor de hiis de
+                            quibus fuerit alteri satisfactio impendenda / eam vobis per vos si
+                            supervixeritis/ vel per heredes vestros si tunc forte transieritis
+                            faciendam injungat / quam vos vel illi facere teneamini ut prefertur. ♦
+                            Et ne quod absit propter hujusmodi gratiam reddaritis procliviores ad
+                            illicita imposterum committenda / volumus quod si ex confidentia
+                            remissionis hujusmodi aliqua forte committeretis / quo ad illa predicta
+                            remissio vobis nullatenus suffragetur. ♦ Nulli ergo omnino hominum
+                            liceat hanc paginam nostre concessionis et voluntatis infringere vel ei
+                            ausu temerario contraire. ♦ Si quis autem hoc attemptare presumpserit
+                            indignationem omnipotentis dei et beatorum Petri et Pauli apostolorum
+                            ejus se noverit incursurum)</lem>
+                        <rdg><q>Provenit etc.</q> Aa</rdg>
+                    </app>. &#9830;</p>
+                <p>Datum <placeName>Rome apud ss. Apostolos</placeName> 8. kal. febr. anno 8.</p>
+            </div>
+            <div xml:lang="da">
+                <p>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

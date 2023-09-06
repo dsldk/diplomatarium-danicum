@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">77</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14220424002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsarchiv Königsberg (nu Berlin, Geheimes Staatsarchiv Preußischer Kulturbesitz)</repository>
+                        <collection>XX. HA, Ordensbriefarchiv (OBA)</collection>
+                        <idno>nr. 03711 (tidl. Schubl. XXII, nr. 50 - OBA 3, 65)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglrester</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Scriptores rerum Silesicarum, bd. VI, nr. 29, p. 19-20</bibl>
+               <bibl>Reg. Dan. nr. *4613</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Scriptores l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-04-25"
+                  notBefore="1422-04-25"
+                  notAfter="1422-04-25"
+                  cert="low">[1422.] 25. april</date>
+            <placeName cert="high">Brieg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrivelse fra magister Seyfrid, kong Sigismunds læge og dekan i Liegnitz, til Michael
+      Küchmeister (v. Sternberg), højmester for Den Tyske Orden, hvori han omtaler, at Heinrich 7.
+      Rumpold, hertug til Groß-Glogau, og Ludwig 2., hertug af Liegnitz-Brieg, vil rejse videre til
+      Danmark, efter de har holdt et møde med højmesteren i Preussen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
+         <change when="2021-01-22" who="#smb">1. korrektur af #smb 2021-01-22. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve">Erwirdiger und gnediger liber herre.</p>
+            <p n="a#2" xml:space="preserve">[.....]</p>
+            <p n="a#3" xml:space="preserve">Item so wisset, daz ich nicht anders en weis, den daz herczog <persName>Rumpolt</persName> an
+      dem andren sontage nach ostern wirt czyen czu dem konige von <placeName>Polen</placeName> und
+      wirt da ausrichten seyne botschafth und wirt vorbas czu euch kegen
+        <placeName>Prusen</placeName> komen und wirt do bey euch beyten herczog
+        <persName>Ludwigs</persName> von <placeName>Brige</placeName>, und werden lichte alle beyde
+      czyen kegen <placeName>Denmarckt</placeName> etcetera.</p>
+            <p n="a#4" xml:space="preserve">[.....]</p>
+            <p n="a#5" xml:space="preserve">Gegeben czu dem <placeName>Brige</placeName> am sonabende noch quasimodogeniti <app><lem>XXV</lem><rdg>A har fejlagtigt <q>XXIV</q></rdg></app> aprilis cum magna festinacione.</p>
+            <p n="a#6" xml:space="preserve"><persName>Magister Seyfrid</persName>, dez romeschen etcetera konigs arczt und techant czu
+        <placeName>Lignicz</placeName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

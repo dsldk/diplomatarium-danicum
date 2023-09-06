@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="fgj">
+                  <persName>
+                     <forename>Finn Gredal</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14130000011</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Det Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer. Åkærske reg. B (1611), upag., med overskriften <q>Effter<hi rend="sup">ne</hi> breffue findes vdi en rund asch noterit paa lugett Hattingherrit, 8</q>. Endvidere registreret i Åkærske reg. A (1591), upag., nr. 286 (senere nummerering)<!--Registreret to steder i København. Rigsarkivet. De ældste arkivregistraturer: a) Åkærske reg. A (1591), upag., senere nummereret 286, med overskriften <q>Disse effter<hi rend="sup">ne</hi> breffue findis vdj rund asche paa luggitt noterit, Hatting herritt</q>; b) Åkærske reg. B (1611), upag., med overskriften <q>Effter<hi rend="sup">ne</hi> breffue findes vdi en rund asch noterit paa lugett Hattingherrit, 8</q>--></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 141 nr. B. 243</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter B-reg.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413" notBefore="1413" notAfter="1413" cert="low">1413<note>empty</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Et pantebrev på Blaksholm. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-11" who="#pbh">Filen etableret af #pbh 2014-02-11. </change>
+         <change when="2019-03-12" who="#fgj">Kladde: 1. korrektur #fgj 2019-03-12. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <!--<p><hi rend="italic">a):</hi></p>
+            <p>1 pergamentz pante breff paa <placeName>Blach holm</placeName>,</p>
+            <p>Anno 1413.</p>            
+            <p><hi rend="italic">b):</hi></p>-->
+            <p n="a#1" xml:space="preserve">Et pergamendtz pantebreff paa <placeName>Blachsholmb</placeName>, ♦</p>
+            <p n="a#2" xml:space="preserve"><app><lem>1413</lem><rdg wit="#B">B-reg.</rdg><rdg wit="#A"><q>Anno 1413</q> A-reg</rdg></app>. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

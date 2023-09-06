@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">125</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14230324002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2798-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>8.3 (plica: 1.4)</height>
+                                    <width>21</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Skriften er flere steder blevet udvisket</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Anders Jakobsen
+        Lunge, <ref>AS F xvii 5</ref></ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Oluf Andersen
+        Lunge, <ref>AS F xvii 22</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 209</bibl>
+               <bibl>Rep. nr. 6012</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-03-24"
+                  notBefore="1423-03-24"
+                  notAfter="1423-03-24"
+                  cert="high">1423. 24. marts</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hr. Anders Jakobsen Lunge, ridder, overlader hr. Erik Nielsen (Gyldenstierne) af Tim,
+      ridder, gods i Atterup, Bavelse sogn, Tybjerg herred, med alle breve, som han har derpå.
+      Godset havde han fået i pant af sin svigermoder, fru Kristine (Bosdatter (Due)) i Veksø, og
+      han havde indløst det fra Jens Gyrstinge, landsdommer på Sjælland.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-22" who="#pbh">Filen etableret af #pbh 2014-05-22. </change>
+         <change when="2019-02-11" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-02-11. </change>
+         <change when="2019-03-12" who="#alk">2. korrektur af #alk 2019-03-12. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn <app><lem>th<ex>et</ex>[<ex>te</ex>]</lem><rdg wit="#A">utydeligt, A</rdg></app> b<ex>re</ex>ff <app><lem>s[e]</lem><rdg wit="#A">utydeligt, A</rdg></app> æll<ex>e</ex>r hør<ex>e</ex> helser jach Anders <app><lem>Je[e]pss<ex>øn</ex></lem><rdg wit="#A">utydeligt, A</rdg></app> Lunge th<ex>e</ex>r ridder<ex>e</ex> ær kerlich m<ex>eth</ex> guth ♦ Och
+      ku<ex>n</ex>gør <app><lem>j[e]gh</lem><rdg wit="#A">utydeligt, A</rdg></app> allæ nerwere<ex>n</ex>de och <app><lem>ko<ex>m</ex>meskulle[<ex>n</ex>]de</lem><rdg wit="#A">utydeligt, A</rdg></app> at iegh <app><lem>w[e]th<ex>e</ex>rke<ex>n</ex>ner</lem><rdg wit="#A">utydeligt, A</rdg></app> megh m<ex>eth</ex> th<ex>ette</ex> myt apne b<ex>re</ex>ff at hafue vnt och vplat
+      welbore<ex>n</ex> man och <app><lem>ærli[c]h</lem><rdg wit="#A">utydeligt, A</rdg></app> h<ex>er</ex>
+      <persName>Erik Nielss<ex>øn</ex></persName> aff Tiim ridder<ex>e</ex> och hans arwinge th<ex>et</ex>
+      <app><lem>go[t]z</lem><rdg wit="#A">utydeligt, A</rdg></app> i Attrup som j Baghelsogn i <app><lem>Thythberghær<ex>et</ex></lem><rdg wit="#A"><q>ligger</q> herefter glemt, A</rdg></app> hwilket jegh <app><lem>[t]il [pant] f[ik]</lem><rdg wit="#A">utydeligt, A</rdg></app> aff my<ex>n</ex> hwsfrwe modh<ex>e</ex>r frwe <app><lem>[K]irstine</lem><rdg wit="#A">utydeligt, A</rdg></app> j Vixø och iegh inløsde aff <app><lem><persName>Ien[s Gyrstin]ge</persName></lem><rdg wit="#A">utydeligt, A</rdg></app> th<ex>e</ex>r <app><lem>laa[<ex>n</ex>]tz</lem><rdg wit="#A">utydeligt, A</rdg></app> domer war m<ex>eth</ex> all <cit><quote>b<ex>re</ex>ff</quote><bibl>DD 1416. 25. nov., nr. 14161125001, jf. også DD 1410. 17. nov., nr. 14101117001 og DD
+          1416. 5. maj, nr. 14160505001</bibl></cit> och rætteheet som jegh th<ex>e</ex>r pa hafuer ♦</p>
+            <p n="a#2" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis virorum nobilium videlicet domini
+        <persName>Herlaui Nielss<ex>øn</ex></persName>
+      <app><lem>[militis]</lem><rdg wit="#A">utydeligt, A</rdg></app> auditoris placiti generalis domini <persName>Jacobi Lunge</persName> militis et
+        <persName>Olaui Lunge</persName> armigeri presentibus est appensum ♦</p>
+            <p n="a#3" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xxiii feria quarta proxima
+      post festum sancti Benedicti abbatis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

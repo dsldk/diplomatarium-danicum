@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">872</num>, paragraphs: <num n="paragraphs">24</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250914001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2936</idno>
+                        <msName>tidl. Vinding H. 91</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 29 × 19.5 (plica: 2.2). <ab>Bagpå: <q>littera</q> (?) <q>Rossældæ</q>
+                        </ab>1. Seglsnit. 2. Seglsnit. 3. Seglsnit. 4. Seglsnit. 5. Seglsnit. 6. Seglsnit. </physDesc>
+                     <history>
+                        <ab>Iflg. Langebeks Dipl: <q>2 sigilla adsunt</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6215</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 90-93</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-09-14"
+                  notBefore="1425-09-14"
+                  notAfter="1425-09-14"
+                  cert="high">1425. 14. september</date>
+            <placeName cert="high">Moesgård</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skifte mellem Palle Jensen (Munk), væbner, og hr. Jørgen (Mikkelsen) Rud af Skjoldenæs
+      angående gods på Fyn i Båg herred (Akkerup, Gummerup, Høed, Højsgård, Hårby, Strandby,
+      Strærup), Lunde herred (Gyrup), Sallinge herred (Håstrup, Østrupgård, Vantinge) og Vindinge
+      herred (Rosilde, Sulkendrup, Attorp[!]). </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-03" who="#pbh">Filen etableret af #pbh 2014-07-03. </change>
+         <change when="2018-10-03" who="#jon">1. korrektur af #jon 2018-10-03. </change>
+         <change when="99999999" who="#mh">2. korrektur af #mh 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men thette b<ex>re</ex>ff see ell<ex>e</ex>r høræ leses helse wy <app><lem><persName>Jørien Rwt</persName> aff</lem><rdg wit="#A">Understreget, A</rdg></app>
+      <placeName>Schioldenæs</placeName> ridde<ex>re</ex> oc Palne Jenss<ex>øn</ex> awapn
+      ewy<ex>n</ex>nelighe m<ex>eth</ex> wor herr<ex>e</ex> ♦</p>
+            <p n="a#2" xml:space="preserve">Oc ku<ex>n</ex>gør<ex>e</ex> at thet gotz j <placeName>Fyn</placeName> ær swo schifft j
+      mello<ex>m</ex> oss efft<ex>er</ex> wor<ex>e</ex> samfrenders rath so<ex>m</ex> th<ex>e</ex>r
+      ou<ex>er</ex> wor<ex>e</ex> so<ex>m</ex> h<ex>er</ex> efft<ex>er</ex> sc<ex>re</ex>uet star
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Fførst at jech <persName>Jørien Rwt</persName> schall haue j myn dell pa myn <app><lem>husfrwes</lem><rdg wit="#A">Her begynder understregning, A</rdg></app>
+      <persName>Jngeborg</persName><ex>es</ex> her <persName>Awe Hase</persName>s dotters <app><lem>weghne</lem><rdg wit="#A"><q>weg</q>, her slutter understregning, A</rdg></app> / ♦</p>
+            <p n="a#4" xml:space="preserve">Fførst j <placeName>Roselde</placeName> ♦ <placeName>Roselde garth</placeName> som
+        <persName>Pær Hinrikss<ex>øn</ex></persName> vd<ex>i</ex> boothe oc giu<ex>er</ex> x
+      ørtugh<ex>e</ex>r korn ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stætz so<ex>m</ex>
+      <persName>Matt<ex>is</ex> Kragh</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> een halff
+      ørt<ex>ugh</ex> korn ♦ oc een garth th<ex>e</ex>r sa<ex>m</ex>me steths so<ex>m</ex>
+      <persName>Nis Smeth</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> ij pu<ex>n</ex>d korn
+      ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stætz so<ex>m</ex>
+      <persName>Nis Brwn</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> ij pu<ex>n</ex>d korn
+      ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Lang</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> j ørt<ex>ugh</ex> korn ♦
+      item j garth th<ex>e</ex>r sa<ex>m</ex>me steths oc giu<ex>er</ex> iiij pu<ex>n</ex>d korn so<ex>m</ex>
+      <persName>Matt<ex>is</ex> Ienss<ex>øn</ex></persName> vd<ex>i</ex> boor ♦</p>
+            <p n="a#5" xml:space="preserve">Item j <placeName>Solkendorp</placeName> ♦ fførst Solkendorpe mølle so<ex>m</ex>
+      giu<ex>er</ex> viii pu<ex>n</ex>d korn ♦ item j
+        <placeName>Solke<ex>n</ex>d<ex>or</ex>p</placeName> een garth so<ex>m</ex>
+      <persName>Jep Brwn</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> thry pu<ex>n</ex>d korn
+      ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Nis Hinrikss<ex>øn</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> een scheppe
+      smør ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex> Knwt
+      Nielss<ex>øn</ex> vd<ex>i</ex> boor oc giu<ex>er</ex> een scheppe smør / ♦</p>
+            <p n="a#6" xml:space="preserve">Och jech <app><lem><persName>Palne Jenss<ex>øn</ex></persName> schal</lem><rdg wit="#A">Understreget, A</rdg></app> haue j myn dell ♦ fførst j <placeName>Wantinge</placeName> een garth so<ex>m</ex>
+      <persName>Esb<ex>er</ex>n Qwether<ex>e</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> een
+      ørtugh byugh ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Jes Dung</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> eet p<ex>un</ex>d korn
+      ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Anders Ghas</persName> vd<ex>i</ex> boor giu<ex>er</ex> fæm ørtugh<ex>e</ex>r korn
+      ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Jes <app><lem>Food</lem><rdg resp="#jon">Eller <q>Foed</q> (Danmarks gl. Personnavne II 287) eller <q>Feed</q>
+            (Rep. nr. 6215 med tvivl)</rdg></app></persName> vd<ex>i</ex> boor giu<ex>er</ex> eet pu<ex>n</ex>d korn / ♦</p>
+            <p n="a#7" xml:space="preserve">Item <placeName>Østorpe</placeName> garth giu<ex>er</ex> eet pu<ex>n</ex>d korn ♦ item
+      een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>C<ex>ri</ex>st<ex>er</ex>n Peth<ex>er</ex>ss<ex>øn</ex></persName> vd<ex>i</ex> boor
+      oc giu<ex>er</ex> tw pu<ex>n</ex>d korn ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me
+      stetz so<ex>m</ex>
+      <persName>Gregori<ex>us</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> tw pu<ex>n</ex>d
+      korn ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Jes Thomess<ex>øn</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> een
+      ør<ex>e</ex> korn ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Jes Ghaas</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> een halff ør<ex>e</ex> korn
+      ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>C<ex>ri</ex>st<ex>er</ex>n Nielss<ex>øn</ex></persName> vd<ex>i</ex> boor oc
+      giu<ex>er</ex> eet pu<ex>n</ex>d korn ♦ item two øthe garthe th<ex>e</ex>r
+      sa<ex>m</ex>me stetz schylde boothe ɉ ør<ex>e</ex> korn ♦ item een garth
+      th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Tyghe <app><lem>Krølss<ex>øn</ex></lem><rdg resp="#jon">Jf. <q>Krøl</q> (Sallinge herred) under <q>Krulle</q> i Danmarks gl.
+            Personnavne I 804</rdg></app></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> tw pu<ex>n</ex>d korn ♦</p>
+            <p n="a#8" xml:space="preserve">Item een garth j <placeName>Host<ex>or</ex>p</placeName> so<ex>m</ex>
+      <persName>A<ex>n</ex>ne</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> een ørt<ex>ugh</ex>
+      korn ♦ item een garth th<damage><ex>e</ex>r</damage> sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Sweb</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> tw pu<ex>n</ex>d korn
+      ♦</p>
+            <p n="a#9" xml:space="preserve">Item j <placeName>Solkendorp</placeName> een garth so<ex>m</ex>
+      <persName>Hans Clawess<ex>øn</ex></persName> vd<ex>i</ex> boor oc <app><lem>giu<ex>er</ex></lem><rdg wit="#A">Herefter sletter <q>halff</q>, A</rdg></app> halff fæmte pu<ex>n</ex>d korn ♦</p>
+            <p n="a#10" xml:space="preserve">Item j <placeName>Gu<ex>m</ex>me<ex>n</ex>dorp</placeName> een garth so<ex>m</ex>
+      <persName>And<ex>er</ex>s Tuess<ex>øn</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex>
+      three schilli<ex>n</ex>g grot ♦</p>
+            <p n="a#11" xml:space="preserve">Item j <placeName>Aarby</placeName> een garth so<ex>m</ex>
+      <persName>And<ex>er</ex>s Nielss<ex>øn</ex></persName> vd<ex>i</ex> boor scal giffue een
+      scheppe smør ♦</p>
+            <p n="a#12" xml:space="preserve">Item j <placeName>Strandby</placeName> een garth so<ex>m</ex>
+      <persName>Vng<ex>er</ex> Biergh</persName> vd<ex>i</ex> boor scall giffue een scheppe smør
+      ♦ item een garth j <placeName>Strandby</placeName> so<ex>m</ex>
+      <persName>Swen Nielss<ex>øn</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> ij
+      pu<ex>n</ex>d korn ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Jes Beyer<ex>e</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> j ørt<ex>ugh</ex>
+      korn ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Nis Jenss<ex>øn</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> eet
+      pu<ex>n</ex>d korn ♦ item een garth heder <placeName>Ryngs feste</placeName>
+      th<ex>e</ex>r sa<ex>m</ex>me stetz giu<ex>er</ex> j ørt<ex>ugh</ex> korn ♦ item een
+      garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Elseff Ølkone</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> j ørt<ex>ugh</ex> korn
+      ♦ item <placeName>Høgs garth</placeName> so<ex>m</ex>
+      <persName>Lasse So<ex>m</ex>m<ex>er</ex></persName> vd<ex>i</ex> boor giu<ex>er</ex> fæm
+      ørt<ex>ugher</ex> korn ♦</p>
+            <p n="a#13" xml:space="preserve">Item j <placeName>Lu<ex>n</ex>deh<ex>er</ex>r<ex>et</ex></placeName> een garth j
+        <placeName>Gyth<ex>or</ex>p</placeName> giu<ex>er</ex> vij ørtugh<ex>e</ex>r korn
+      ♦</p>
+            <p n="a#14" xml:space="preserve">Item een garth j <placeName>Stræth<ex>or</ex>p</placeName> so<ex>m</ex>
+      <persName>Matt<ex>is</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> thry pu<ex>n</ex>d
+      korn ♦</p>
+            <p n="a#15" xml:space="preserve">Item j <placeName>Høtwith</placeName> een garth so<ex>m</ex>
+      <persName>Lasse Storm</persName> vd<ex>i</ex> boor giu<ex>er</ex> fæm ørt<ex>ugher</ex> korn
+      ♦</p>
+            <p n="a#16" xml:space="preserve">Item <persName>Anders Nielss<ex>øn</ex></persName> j <placeName>Attorp</placeName>
+      giu<ex>er</ex> tw pu<ex>n</ex>d korn aff een garth ♦</p>
+            <p n="a#17" xml:space="preserve">Item een øthe myllesteth with <placeName>Høgs garth</placeName> giu<ex>er</ex> een
+      ør<ex>e</ex> korn ♦</p>
+            <p n="a#18" xml:space="preserve">Item een garth j <placeName>Strandby</placeName> so<ex>m</ex>
+      <persName>Mawens Jeipss<ex>øn</ex></persName> vd<ex>i</ex> boor oc giu<ex>er</ex> ij solidos
+      grossorum ♦</p>
+            <p n="a#19" xml:space="preserve">Item een garth j <placeName>Ackendorp</placeName> giu<ex>er</ex> iiij solidos grossorum
+      ♦ thesse vj solidi grossorum schule stande for ij pu<ex>n</ex>d korn
+      ♦</p>
+            <p n="a#20" xml:space="preserve">Item j Harby een garth so<ex>m</ex>
+      <persName>Jes Smeth</persName> vd<ex>i</ex> boor oc giuer thre schilli<ex>n</ex>g grot for eet
+      pu<ex>n</ex>d korn ♦ item een garth th<ex>e</ex>r sa<ex>m</ex>me stetz so<ex>m</ex>
+      <persName>Jes Anderss<ex>øn</ex></persName> vd<ex>i</ex> boor giu<ex>er</ex> vij
+      schilli<ex>n</ex>ge ængilsche ♦ item een garth j <placeName>Har<ex>e</ex>by</placeName> so<ex>m</ex>
+      <persName>Jep Mall</persName> vd<ex>i</ex> boor oc giu<ex>er</ex> two lub<ex>ische</ex>
+      m<ex>a</ex>rch the schule boothe stande for ij pu<ex>n</ex>d korn ♦</p>
+            <p n="a#21" xml:space="preserve">Item een garth j <placeName>Strandby</placeName> so<ex>m</ex>
+      <persName>Hornbo</persName> vd<ex>i</ex> boor scall giffue iij solidos grossorum ♦</p>
+            <p n="a#22" xml:space="preserve">H<ex>er</ex> meth tilbinde wy oss boothe vm th<ex>et</ex> swo schethe at nog<ex>er</ex>
+      wor<ex>e</ex> nog<ex>e</ex>t affginge meth lantzlaw aff th<ex>et</ex>te for<hi rend="sup">ne</hi> gotz at th<ex>e</ex>n a<ex>n</ex>n<ex>e</ex>r scal weth<ex>er</ex>legge
+      hano<ex>m</ex> swo meg<ex>e</ex>t gotz ige<ex>n</ex> so<ex>m</ex> hano<ex>m</ex>
+      with<ex>e</ex>rbør / ♦</p>
+            <p n="a#23" xml:space="preserve">Till hwes things witnesbyrth oc mer<ex>e</ex> forwaring haue wy boothe ladit henge
+      wor<ex>e</ex> jncigle for thette b<ex>re</ex>ff oc haue bethet heth<ex>e</ex>rlighe men oc
+      welbyrthighe soso<ex>m</ex> ær heth<ex>e</ex>rlich fath<ex>e</ex>r meth guth bisc<ex>op</ex>
+      <persName>Jens</persName> j <placeName>Rosk<ex>ilde</ex></placeName>
+      <persName>H<ex>er</ex>me<ex>n</ex> van Ørtze<ex>n</ex></persName>
+      <app><lem><persName>Wilhelm Rwt</persName></lem><rdg wit="#A">Understreget, A</rdg></app> oc <persName>Clawes Hinrikss<ex>øn</ex></persName> henge ther<ex>es</ex> jncigle meth
+      wor<ex>e</ex> for thette b<ex>re</ex>ff ♦</p>
+            <p n="a#24" xml:space="preserve">Datum Mosegarth anno domini mcdxx quinto die exaltacionis sancte crucis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

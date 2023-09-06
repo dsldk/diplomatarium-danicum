@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">221</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14180829001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Slesvig</settlement>
+                        <repository>Landesarchiv Schleswig-Holstein</repository>
+                        <collection>Urk.-Abt. 210</collection>
+                        <idno>Nr. 240</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Hertug Heinrichs segl, i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Den af hertug Heinrich udstedte version af forbundsaftalen</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Slesvig</settlement>
+                        <repository>Landesarchiv Schleswig-Holstein</repository>
+                        <collection>Urk.-Abt. 1</collection>
+                        <idno>Nr. 108 (tidl. Gemeinsch. Archiv Cap. IX Nr. 59)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Hertug Erichs segl i grønt voks, i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Den af hertug Erich udstedte version af forbundsaftalen</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Scheidt, Hist. u. dipl. Nachr. von dem Adel in Teutschl., nr. LXXIV.b, p. 372-373 (tryk
+      efter A)</bibl>
+               <bibl>Reg. Dan. nr. *4452 (regest vedr. A)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Scheidt l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-08-29"
+                  notBefore="1418-08-29"
+                  notAfter="1418-08-29"
+                  cert="high">1418. 29. august</date>
+            <placeName cert="high">Reinfeld kloster</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Heinrich 4., hertug af Slesvig, og Erich 5., hertug af Sachsen-Lauenburg, indgår et 10-årigt
+      forbund til opretholdelse af landefreden.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-03" who="#pbh">Filen etableret af #pbh 2014-04-03. </change>
+         <change when="2020-11-27" who="#smb">1. korrektur af #smb 2020-11-27. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Van Gades gnaden wy <persName>Hinrick</persName> hertoge tho <placeName>Sleswig</placeName>,
+      greue tho <placeName>Holsten</placeName>, tho <placeName>Stormeren</placeName> vnde tho
+        <placeName>Schowenborch</placeName> bekennen apenbare vor allesweme, dat wy vns frundtlichen
+      vorenet vnde vordragen hebben mit deme hochgebornen fursten vnde herren, herrn
+        <persName>Ericke</persName>, hertogen tho <placeName>Sassen</placeName>, tho
+        <placeName>Engern</placeName> vnd tho <placeName>Westualen</placeName>, vnde korforste vnd
+      marschalck des Hilligen Rickes, sinen broderen vnd sinen eruen, vnsen leuen ohemen, eren
+      landen vnd inwonern, vmme allen vnwillen vnde schelingen, de twischen vns, vnsen landen vnd
+      inwonern gewest hefft, dar wy vmme tho der veide kamen weren, also, dat alle veide vnd
+      vorscreuene schelinge, vnde allerley schade, dat sy in roue, effte in brande, vnd wo men dit
+      menliken benomen mach, de in der vorbenomeden veide, vor edder na, geschehen syn, genslicken
+      nedder gelecht syn, tho einer gantzen vasten sone vnde frede, vp beseggend vnser beider rede
+      an recht, effte an frundtschop, dar wy des an beyden syden tho ghan sin, vnde gentzliken by en
+      gebleuen sin.</p>
+            <p n="a#2" xml:space="preserve">[.....]</p>
+            <p n="a#3" xml:space="preserve">Vnde desse vereninge vnde vorbundt schal anstan van stunden an na giffte desses breues, vnd
+      vorth waren teyn vmmeghande iar, de nu erst volgende sint.</p>
+            <p n="a#4" xml:space="preserve">[.....]</p>
+            <p n="a#5" xml:space="preserve">Des tho groter wittlicheit hebbe wy hertog <persName>Hinrich</persName> vorbenomet vnse
+      ingesegell mit wittschop vnde wolberademe mode an dessen breff gehenget laten, de gegeuen vnd
+      schreuen is an vnsem kloster tho <placeName>Reinefelde</placeName>, na Gades bort
+      verteinhundert iar, darna an dem achteinden iare, an dem dage sunte Iohannis, also em dat
+      houet affgeschlagen wardt.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

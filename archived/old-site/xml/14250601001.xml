@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">107</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250601001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>empty</collection>
+                        <idno>E donatione Variorum, 53, 2°</idno>
+                        <msName>Århusbogen (Liber Capituli Arhusiensis), f. 77v</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Blækket er blegnet</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift (understreget m. rødt): <q>Fruæ Sophiæ h<ex>er</ex> Claws
+        Kru<ex>m</ex>pæ<ex>n</ex>s husfrwæ gifw<ex>er</ex> sin af <damage>talæ</damage> af <damage>i
+          iord</damage> som ligg<ex>er</ex> pa Fullæn m<ex>a</ex>rk</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *3453</bibl>
+               <bibl>SRD VI 480</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 75</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-06-01"
+                  notBefore="1425-06-01"
+                  notAfter="1425-06-01"
+                  cert="high">1425. 1. juni</date>
+            <placeName cert="low">[Århus]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Sofie (Olufsdatter), enke efter hr. Klaus Krumpen, afstår sine rettigheder til noget jord på
+      Fulden mark, hvorom hendes mand havde haft tvist med Niels Butze, kannik i Århus.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-01" who="#pbh">Filen etableret af #pbh 2014-07-01. </change>
+         <change when="2018-05-16" who="#jon">1. korrektur af #jon 2018-05-16. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve"><app><lem>Allæ</lem><rdg wit="#A"><q>A</q> fremhævet m. rødt, A</rdg></app> mæn so<ex>m</ex> thettæ breff se æll<ex>e</ex>r høræ helser jak
+        <persName>Sophiæ</persName> een wælborn manz h<ex>er</ex>
+      <persName>Claws Kru<ex>m</ex>pen</persName>s æft<ex>er</ex>lefwæ hwes siæl guth hafwæ
+      ewi<ex>n</ex>nelik m<ex>eth</ex> guth ♦</p>
+            <p n="a#2" xml:space="preserve">Ok ku<ex>n</ex>gør jak m<ex>eth</ex> thettæ mit oben breff ath jak vplader ok gifw<ex>er</ex>
+      jak min af tale af then jord ligge<ex>n</ex>des vppa <placeName>Fullen
+        m<ex>a</ex>rk</placeName> som min kære hosbondæ h<ex>er</ex>
+      <persName>Claw<ex>us</ex> Kru<ex>m</ex>pen</persName> ok h<ex>er</ex>
+      <persName>Niels Buze</persName> canik j <placeName>Arws</placeName> thrættæ længi wm
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Ok ke<ex>n</ex>nes jak mik engen ret ydermeræ ath hafwæ j then for<hi rend="sup">de</hi> jord
+      ell<ex>e</ex>r minæ arfwinge ♦</p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis honorabilium dominorum videlicet
+        <persName>Olavi prepositi</persName> et <persName>Johannis Lyungh cantoris</persName>
+      presentibus est appensum ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini mcdxxv feria sexta pentecostes /. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

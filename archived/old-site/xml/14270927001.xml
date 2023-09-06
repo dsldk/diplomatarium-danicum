@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">144</num>, paragraphs: <num
+               n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270927001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>NKR 3014-c (tidl. Quitzow, Arild Madsen, tidl. Danske Selskabs
+                           Membraner)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9 (plica: 2.1)</height>
+                                    <width>23.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>perg.rem; seglet er nævnt hos Langebek</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Skænket til Danske Selskab af Rostgaard i 1745</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+              
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6331</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-09-27" notBefore="1427-09-27" notAfter="1427-09-27" cert="high">1427.
+               27. september<note>Arild Madsens hustru Ingeborg identificeres af Thiset i DAA 1896
+                  s. 166 forsigtigt som datter af Niels Davidsen Hak, mens Erik Ulsig i Danske
+                  adelsgodser i middelalderen (1968) identificerer hende som datter af Niels Esgesen
+                  Brok, som også tilgodeses i nærværende brev</note></date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Konradsen, prior i karmeliterklostret i Landskrona, giver Arild Madsen
+               (Quitzow) til Häckeberga og hans hustru Ingeborg (Nielsdatter (Hak eller Brok)) del i
+               klostrets fromme gerninger og lover dem at holde de samme gudstjenester ved deres død
+               som ved en af munkenes død. Samtidig optager han Niels (Esgesen) Broks sjæl i alle
+               klostrets velgerninger.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-24" who="#pbh">Filen etableret af #pbh 2014-07-24. </change>
+         <change when="2019-12-03" who="#pbh">1. korrektur af #pbh 2019-12-03. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In Christo Ihesu sibi dilectis strennuo viro <persName>Arnoldo Mathie</persName> in insula
+        <placeName>Hikkebergh</placeName>
+      <app><lem>cum</lem><rdg>Fejl for <q>et</q> el.lign.; alternativt er i det flg. <q>sue predilecte</q> fejl for
+            <q>sua predilecta</q>, hvilket dog synes mindre sandsynligt</rdg></app> conthorali sue predilecte <persName>Ingeborgh</persName> . frater <persName>Johannes
+        Conradi</persName> humilis prior fratrum ordinis beate Marie dei genitricis de monte Carmeli
+      in conventu <placeName>Landeskron</placeName> salutem in domino sempiternam . ♦</p>
+            <p n="a#2" xml:space="preserve">Exigente vestre devocionis affectu quem pia fratrum relacione ad nostrum ordinem intelleximus
+      vos habere . igitur omnium missarum oracionum predicacionum . jejuniorum . abstinenciarum
+      ceterorumque bonorum operum omnium que per nos et fratres nobis commissos operari dignabitur
+      divina clemencia salvatoris . participes vos facimus in vita pariter et post mortem .
+      adicientes nichilominus et de gracia speciali concedentes . ut cum obitus vestri memoria in
+      nostro capitulo fuerit recitata idem pro vobis fiat quod pro nostris ddefunctis fratribus
+      ibidem communiter fieri est conswetum . ♦ Et animam domini <persName>Nicholai
+        Brok</persName> militis ad quevis beneficia conventus recipio . ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium . sigillum mei prioratus officii presentibus est appensum .
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xxvii<hi rend="sup">o</hi>
+      sabbato ante festum beati Michael archangeli ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

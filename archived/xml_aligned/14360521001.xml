@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">190</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14360521001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3228-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 21 × 11.6 (plica: 2.2). 1. Seglsnit. 2. Seglsnit. 3. Fragment af perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>I Langebeks Diplomatarium nævnes biskoppens og konventets segl som bevarede</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>afskrift i DSL's arkiv (Gammeldanske Diplomer 3. rk. II 17-18)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6827</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-05-21"
+                  notBefore="1436-05-21"
+                  notAfter="1436-05-21"
+                  cert="high">1436. 21. maj</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Priorinden og hele konventet i sankt Agnete kloster i Roskilde har med samtykke fra Jens (Pedersen
+      (Jernskæg)), biskop i Roskilde, valgt Anders Jensen af Store Havelse som forstander
+      til deres kloster og gods, med det vilkår, at han årligt skal yde dem den rente, som de hidtil
+      har fået af deres embedsmænd. Han skal endvidere holde deres gods bebygget og beboet og tage
+      det under sin beskyttelse. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-14" who="#pbh">Filen etableret af #pbh 2013-11-14. </change>
+         <change when="2020-07-20" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-07-20. </change>
+         <change when="2021-05-31" who="#jon">2. korrektur af #jon 2021-05-31. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle mæn som thette b<ex>re</ex>ff see ell<ex>e</ex>r hør<ex>e</ex> helse wy priorisse oc alt
+      co<ex>n</ex>uent j sancte Agnes clost<ex>er</ex> j <placeName>Rosk<ex>ilde</ex></placeName>
+      ewy<ex>n</ex>nelighe meth wor herr<ex>e</ex> oc ku<ex>n</ex>gør<ex>e</ex> meth thette wort
+      opne b<ex>re</ex>ff at wy alle meth berathit rath oc wiliæ efft<ex>er</ex> heth<ex>e</ex>rlich
+      fath<ex>er</ex>s meth guth biscop <persName>Jenses</persName> j
+      <placeName>Rosk<ex>ilde</ex></placeName> samthycke oc fulburth / haue keest oc
+      vntfong<ex>et</ex> the<ex>n</ex>ne b<ex>re</ex>ffuise<ex>re</ex>
+      <persName>Anders Jenss<ex>øn</ex></persName> aff <placeName>Hawelse</placeName> till wor
+      forstander<ex>e</ex> till wort clost<ex>er</ex> oc till wort gotz swo le<ex>n</ex>ge han
+      lew<ex>er</ex> / meth swodant schæll at han scall <app><lem>[sk]ibe</lem><rdg wit="#A">udvisket, A</rdg></app> oss arlighe oc till gothe reethe alle the stycke so<ex>m</ex> oss bør athaue jn j
+      clost<ex>er</ex>et aff wor rænte so<ex>m</ex> wy h<ex>er</ex> till haue fong<ex>et</ex> aff
+      wo<ex>re</ex> æmbitzme<ex>n</ex> ♦</p>
+            <p n="a#2" xml:space="preserve">Item scall han holde wort gotz bygd oc besæt j gothe made oc forswar<ex>e</ex> th<ex>et</ex>
+      till rætte efft<ex>er</ex> syn yderste macht swa le<ex>n</ex>ge han leu<ex>er</ex> /
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Till hwes things witnesbyrth haue wy wor p<ex>ri</ex>erisses oc wor
+      <ex>con</ex>ue<ex>n</ex>ts jncigle meth for<hi rend="sup">ne</hi> heth<ex>e</ex>rlich
+      fath<ex>e</ex>rs biscop <persName>Jenses</persName> j Rosk<ex>ilde</ex> jncigle meth wilie oc
+      witscap ladit henge for thette b<ex>re</ex>ff ♦</p>
+            <p n="a#4" xml:space="preserve">Datum <placeName>Roskildis</placeName> anno domini mcdxxx sexto secunda feria infra
+      octavam ascensionis domini \ ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

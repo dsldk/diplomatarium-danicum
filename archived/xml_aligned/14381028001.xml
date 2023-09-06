@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">256</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14381028001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3299-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 26 × 12.3 (plica: 1.1). 1. Segl af ufarvet voks i perg.rem tilhørende Oluf, prior i dominikanerklostret i Århus, DGS 66-67
+                              . 2. Segl af ufarvet voks i perg.rem tilhørende konventet i dominikanerklostret i Århus, DGS 66-67
+                              . </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>afskrift i DSL's arkiv (Gammeldanske Diplomer 3. rk. II 140-41)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6974</bibl>
+               <bibl>Reg. *5206</bibl>
+               <bibl>Hübertz, Århus I 13</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-10-28"
+                  notBefore="1438-10-28"
+                  notAfter="1438-10-28"
+                  cert="high">1438. 28. oktober</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Broder Oluf, prior i dominikanerklosteret i Århus, og konventet sammesteds fritager foged, borgmestre,
+      rådmænd og almue i Århus for al den trætte, som har været mellem dem, fordi de havde fået Hans
+      Guldsmed af nævnte kloster. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-09" who="#pbh">Filen etableret af #pbh 2013-12-09. </change>
+         <change when="2020-10-22" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-10-22. </change>
+         <change when="2021-05-21" who="#smb">2. korrektur af #smb 2021-05-21. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men th<ex>et</ex>te b<ex>re</ex>ff see ell<ex>e</ex>r hør<ex>e</ex> læset helsær jech
+      broth<ex>e</ex>r <persName>Oluff</persName> p<ex>ri</ex>or j <placeName>Arus</placeName>
+      clost<ex>er</ex> p<ex>re</ex>dikæbrøth<ex>e</ex>r ordens och alt co<ex>n</ex>uent j same stæth
+      ewynnelich m<ex>eth</ex> guth ♦</p>
+            <p n="a#2" xml:space="preserve">Ok kungør<ex>e</ex> wij alle mæn m<ex>eth</ex> th<ex>et</ex>te wort obne b<ex>re</ex>ff
+      athaffue qwyt orsaghe lethigh oc løøs lad<ex>et</ex> oc lader vppa for<hi rend="sup">d<ex>e</ex></hi> closters weghne thesse b<ex>re</ex>ffuiser<ex>e</ex> fowet
+      borghemæst<ex>er</ex> raathmen oc all almogh<ex>e</ex>n j Arus for all sculdinge deelæ oc
+      thrætte so<ex>m</ex> for<hi rend="sup">d<ex>e</ex></hi> fow<ex>et</ex> borghemæst<ex>er</ex>
+      raathmen oc all almoghe mich p<ex>ri</ex>or Oluff oc <ex>con</ex>ue<ex>n</ex>t for<hi rend="sup">d<ex>e</ex></hi> mellom war for the<ex>n</ex> sach och skuldinge at the finge
+        <persName>Hans Gulsmyt</persName> aff for<hi rend="sup">de</hi> closter ♦</p>
+            <p n="a#3" xml:space="preserve">Ok kennes jech mich oc gantze co<ex>n</ex>uent for<hi rend="sup">d<ex>e</ex></hi>
+      eeng<ex>e</ex>n sach skulding ell<ex>e</ex>r rætt i nogh<ex>e</ex>rmaade at haffue til for<hi rend="sup">d<ex>e</ex></hi> fowet borghemæst<ex>er</ex> raathme<ex>n</ex> ell<ex>e</ex>r
+      almoghe ell<ex>e</ex>r nogh<ex>e</ex>r wor<ex>e</ex> æfft<ex>e</ex>rko<ex>m</ex>mer<ex>e</ex>
+      for th<ex>e</ex>nne sach for<hi rend="sup">d<ex>e</ex></hi> / ♦</p>
+            <p n="a#4" xml:space="preserve">Oc thack<ex>er</ex> jegh p<ex>ri</ex>or Oluff oc alt <ex>con</ex>ue<ex>n</ex>t for<hi rend="sup">d<ex>e</ex></hi> fowet borghemæst<ex>er</ex> raathmen oc allmogh<ex>e</ex>n j
+      Arus ♦</p>
+            <p n="a#5" xml:space="preserve">Item skeer th<ex>et</ex> swo at nogh<ex>e</ex>r man will them stæffne banne
+      ell<ex>e</ex>r wforrætte h<ex>er</ex> amoot tha scall jech p<ex>ri</ex>or Oluff sielff følghe
+      æll<ex>e</ex>r sc<ex>ri</ex>ffue m<ex>eth</ex> them hwilk<ex>et</ex> them bæst behooff gørs at
+      forswar<ex>e</ex> them for wrætte for th<ex>e</ex>nne for<hi rend="sup">d<ex>e</ex></hi> sach
+      oc skulding ♦</p>
+            <p n="a#6" xml:space="preserve">Til thesse forschr<ex>ef</ex>ne artikæll stadfastelich och wbrodelich at haalde tha
+      hæng<ex>e</ex>r jegh p<ex>ri</ex>or Oluff myt æmbitz jncighle m<ex>eth</ex> co<ex>n</ex>uentz
+      til wydnesburth <app><lem>for th<ex>et</ex>te breeff</lem><rdg wit="#A">tilføjet under linjen, A</rdg></app> ♦</p>
+            <p n="a#7" xml:space="preserve">Datum anno domini mcdxxxviii die beatorum Symonis et Jude apostolorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

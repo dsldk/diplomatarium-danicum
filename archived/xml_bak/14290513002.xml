@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">220</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14290513002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>London</settlement>
+                        <repository>National Archives</repository>
+                        <collection>empty</collection>
+                        <idno>Close Rolls 7 Henry VI, membr. 8 d</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab/>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rymer <ref>Foedera</ref>, ed. Holmes IV 143-144</bibl>
+               <bibl>Dipl. Norv. bd. 20, s. 50, nr. 776</bibl>
+               <bibl>
+                  <ref>Calendar of the Close Rolls preserved in the Public Record Office, Henry VI</ref>, vol. 1, 464</bibl>
+               <bibl>Reg. Dan. 3489</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter Rymer.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-05-13"
+                  notBefore="1429-05-13"
+                  notAfter="1429-05-13"
+                  cert="high">1429. 13. maj</date>
+            <placeName cert="unknown">Westminster</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Henry 6. af England meddeler sine sheriffer kong Erik 7. af Pommerns ordre om, at ingen
+      englændere må sejle til Finmarken eller andetsteds i kongens riger for at købe fisk, men kun
+      til Bergen, hvor kong Erik har oprettet en stabelplads. Kong Henry befaler, at dette påbud skal overholdes.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-12-08" who="#pz">Filen etableret af #pz 2020-12-08. </change>
+         <change when="2020-12-08" who="#pz">1. korrektur af #pz 2020-12-08. </change>
+         <change when="2021-09-30" who="#mh">2. korrektur af #mh 2021-09-30. </change>
+         <change when="2021-09-30" who="#pz">3. korrektur af #pz 2021-09-30. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve"><ex>Henry VI af England skriver til sheriffen i York:</ex></p>
+            <p n="a#2" xml:space="preserve">... Cum, carissimus Consanguineus noster, Rex Daciæ, ut accepimus, nuper Ordinaverit, et in
+      Regno <placeName>Daciæ</placeName>, ac aliis Territoriis, Dominiis, et Jurisdictionibus suis, certis de causis, ipsum
+      Consanguineum nostrum moventibus, fecerit proclamari, Quod omnes et singuli Anglici, Ligei
+      nostri, volentes ad Partes illas accedere, pro Excercitio aliquarum Mercandisarum, sive pro
+      Piscibus optinendis, applicent et veniant ad <persName>Villam de Norbarn</persName>, et nullatenus apud <placeName>Fynmark</placeName>,
+      nec alibi infra Regnum, Territoria, Dominia, et Jurisdictiones sua prædicta, nisi ad dictam
+      <persName>Villam de Norbarn</persName>, ubi idem Consanguineus noster Stapulam suam, pro Excercitio hujusmodi
+      Mercandisarum, cum Ligeis nostris prædictis ordinavit specialiter et fecit stabiliri, Nos
+      igitur, Volentes Præmissa ad notitiam eorumdem Ligeorum nostrorum deduci, ne ipsi (quod absit)
+      in contrarium hujusmodi Ordinationis et Proclamationum dicti Consanguinei nostri, praesertim
+      cum idem Consanguineus noster de Amicitia nostra dictique Regni nostri existat, aliqualiter
+      præsumant aut attemptent, Tibi Præcipimus, districtius quo possumus, firmiter injungentes,
+      quod in singulis Portibus et Locis intra Ballivam tuam, ubi magis expediens videris et
+      necesse, publice ex parte nostra proclamari facias, Ne quis Ligeorum nostrorum, sub
+      Forisfactura omnium quæ nobis forisfacere poterit, ad Partes prædictas, aut ad earum aliquam,
+      seu Locum aliquem in eisdem, pro Excercitio aliquarum Mercandisarum hujusmodi habendo, sive
+      Piscibus optinendis, se divertat, nisi dumtaxat ad dictam <persName>Villam de Norbarn</persName>, ubi Stapula
+      prædicta, ex causa prædicta, ut præmittitur, habita est et stabilita; Et hoc nullatenus
+      omittas. ...</p>
+            <p n="a#3" xml:space="preserve"><ex>Breve af samme indhold er sendt til 13 andre sheriffer.</ex></p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

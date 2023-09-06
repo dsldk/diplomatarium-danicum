@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">144</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14260503001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2956; tidl. Fyn 2c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>4.9 (plica: 0.8)</height>
+                                    <width>28.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Samme hånd som <ref target="14290526001" type="link">DD 1429. 26. maj, nr. 14290526001</ref>
+                              </ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>skøde b<ex>re</ex>ff om Wouet</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Jens Andersens (Mylting) segl i lyst voks i perg.rem, AS C lxiv 41
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Lasse Båds segl (beskadiget) i lyst voks i perg.rem, AS H xvi 1
+                              </ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Jens Olsens (Mylting) segl (beskadiget) i lyst voks i
+        perg.rem, AS C lxiv 42
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Mads Jensens segl (beskadiget) i lyst voks i perg.rem, AS C li 8
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6249</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 107</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1426-05-03"
+                  notBefore="1426-05-03"
+                  notAfter="1426-05-03"
+                  cert="high">1426. 3. maj</date>
+            <placeName cert="high">Langeland</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jes Andersen (Mylting) i Egeløkke har solgt og skødet al sin ret i Voved til hr. Esger
+      Jensen (Brok) i Assendrup. Han erkender at have fået fuld betaling til sin tilfredshed.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-10" who="#pbh">Filen etableret af #pbh 2014-07-10. </change>
+         <change when="2018-10-02" who="#jon">1. korrektur af #jon 2018-10-02. </change>
+         <change when="99999999" who="#mh">2. korrektur af #mh 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn som th<ex>et</ex>tæ breff see æll<ex>e</ex>r oc høræ lessæ jæc <persName>Jes
+        And<ex>er</ex>ss<ex>øn</ex></persName> j <placeName>Egælyckæ</placeName> helsser ewinælig
+      m<ex>eth</ex> guth ♦</p>
+            <p n="a#2" xml:space="preserve">Oc kongør jæc th<ex>et</ex> allæ mæ<ex>n</ex> nær<hi rend="sup">d<ex>es</ex></hi> oc
+      kome<ex>n</ex>d<ex>es</ex> th<ex>et</ex> jæc weth<ex>e</ex>rkenner mec oc mynæ
+      arwing<ex>æ</ex> en heth<ex>e</ex>rlig ma<ex>n</ex> oc welbyrdig her <persName>Esgy
+        Jenss<ex>øn</ex></persName> jnne<ex>n</ex>
+      <placeName>Æsendørp</placeName> th<ex>e</ex>nnæ nær<hi rend="sup">d<ex>es</ex></hi> brefføre
+      at hauæ saldh oc skøth all myn rætigheth jnnen <placeName>Woueth</placeName> ligend<ex>es</ex>
+      han<ex>u</ex>m oc hans sannæ arwing<ex>æ</ex> tiil ewinælig eghæsculend<ex>es</ex> ♦</p>
+            <p n="a#3" xml:space="preserve">Oc kennes mec fææ oc fwlth wærdh wpp at hauæ boret effth<ex>e</ex>r mynæ nøghæ ♦</p>
+            <p n="a#4" xml:space="preserve">Oc kennes mec ængen rætighet effth<ex>e</ex>r th<ex>e</ex>nnæ dag jnne<ex>n</ex>
+      th<ex>et</ex>tæ for<hi rend="sup">de</hi>
+      <placeName>Wouet</placeName> at hauæ ♦</p>
+            <p n="a#5" xml:space="preserve">Tiil hwes widnesbyrdh myt inciglæ ær hengith foræ th<ex>et</ex>tæ b<ex>re</ex>ff
+      m<ex>eth</ex> and<ex>r</ex>e gothæ mæns jnciglæ som ær <persName>Nes
+        Jæipss<ex>øn</ex></persName> j <placeName>Næth<ex>e</ex>rgardh</placeName>
+      <persName>Lassæ Booth</persName> j <placeName>Ertelyckæ</placeName>
+      <persName>Jes Olss<ex>øn</ex></persName> j <placeName>Kasebølæ</placeName>
+      <persName>Mathes Jenss<ex>øn</ex></persName> th<ex>e</ex>r aff wapn ær<ex>e</ex> ♦</p>
+            <p n="a#6" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi>c<hi rend="sup">o</hi>d<hi rend="sup">o</hi>xxvi ipso
+      die invencionis sancte crucis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

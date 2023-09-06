@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">297</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14370811001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Oslo</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tidl. Universitetsbiblioteket. Vidisse 1440 18. maj</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6891</bibl>
+               <bibl>Rep. nr. 7078 (vidisse)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa (efter transskription i DSLs arkiv)</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1437-08-11"
+                  notBefore="1437-08-11"
+                  notAfter="1437-08-11"
+                  cert="high">1437. 11. august</date>
+            <placeName cert="high">Vemmetofte</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kristian Bryning, væbner, sælger hr. Aksel Pedersen (Thott) i Härlöv, ridder, en tredjedel af
+      gården i Ordrup og sine rettighed i Vester Såby, Nyrup og møllen, som han har arvet efter fru Elene
+      Pallesdatter (Tå) og Jens Knudsen (Tå), sin morbroder, som var kannik i Århus. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-28" who="#pbh">Filen etableret af #pbh 2013-11-28. </change>
+         <change when="2020-05-25" who="#jon">1. korrektur af #jon 2020-05-25. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn th<ex>et</ex>tæ b<ex>re</ex>ff zee . æll<ex>e</ex>r høræ helsær iæk
+        <persName>Kristern Bryning</persName> aff wapn ewinnælig m<ex>eth</ex> guth ♦</p>
+            <p n="a#2" xml:space="preserve">Kungøræ iæk allæ mæn nærwærind<ex>es</ex> oc ko<ex>m</ex>mæscu<ex>len</ex>d<ex>es</ex> at iæk
+      with<ex>e</ex>rkæ<ex>n</ex>nær mek oc minæ arffingæ at haffuæ solt oc affhændh <app><lem>wælbyrdugæ</lem><rdg wit="#A"><q>wælbymdugæ</q>, A</rdg></app> ma<ex>n</ex> h<ex>e</ex>r<ex>re</ex>
+      <persName>Axel Pæth<ex>e</ex>rss<ex>øn</ex></persName> ridd<ex>e</ex>r i
+        <placeName>Hærloff</placeName> .i. <placeName>Skonæ</placeName> en thrithiæ deel i
+      how<ex>et</ex> gardh<ex>e</ex>n i <placeName>Orthorp</placeName> oc i byn min rætticheth i
+        <placeName>Sawæ by</placeName> i <placeName>Nyrop</placeName> oc i mollæn m<ex>eth</ex> allæ
+      therres tilligelsæ som ær ager oc æng skow oc mark woth oc thyurth rørendhæs oc
+      wrørend<ex>hæs</ex> ænktæ vndh<ex>e</ex>n takæt ee hwat so<ex>m</ex> th<ex>et</ex> hælst ær
+      æll<ex>e</ex>r næffnes kan ♦</p>
+            <p n="a#3" xml:space="preserve">Huilk<ex>et</ex> som mech ær m<ex>eth</ex> rættæ til falleth i arff æfft<ex>er</ex> frwæ
+        <persName>Elnæ Pallens dott<ex>e</ex>r</persName> oc h<ex>e</ex>r <persName>Iens
+        Knutss<ex>øn</ex></persName> min moth<ex>e</ex>r broth<ex>e</ex>r som canek war i
+        <placeName>Aars</placeName> for<hi rend="sup">de</hi> h<ex>e</ex>r <persName>Axel</persName>
+      oc hans arffing til ewinnælig æyæ æyskulænd<ex>es</ex> for wtæn th<ex>e</ex>n deel som
+      h<ex>e</ex>r <persName>Axel</persName> til forn th<ex>e</ex>r wti haffthæ ♦</p>
+            <p n="a#4" xml:space="preserve">Oc kæ<ex>n</ex>næs iæk mek oc minæ arffuingæ fult fææ oc werth vp haffuæ bar<ex>et</ex>
+      for<ex>e</ex> th<ex>et</ex> for<hi rend="sup">de</hi> gothz swa at mek aldelæs wel nøyæs
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Oc til bind<ex>e</ex>r iæk mek oc minæ arffingæ for<hi rend="sup">de</hi> h<ex>e</ex>r
+        <persName>Axel</persName> oc hans arffingæ th<ex>et</ex> forsawdæ gotz at fri oc til sta til
+      ewerdelik æyæ ♦</p>
+            <p n="a#6" xml:space="preserve">Oc wor th<ex>et</ex> swo at th<ex>et</ex> worth<ex>e</ex>r hanu<ex>m</ex> aff wu<ex>n</ex>næt
+      æll<ex>e</ex>r ha<ex>n</ex>s arffingæ m<ex>eth</ex> landz low æll<ex>e</ex>r m<ex>eth</ex>
+      nok<ex>e</ex>r ræt tha tilbind<ex>e</ex>r iæk mech oc minæ arffingæ for<hi rend="sup">de</hi>
+      h<ex>e</ex>r <persName>Axel</persName> æll<ex>e</ex>r hans arwingæ th<ex>et</ex> igen atfri
+      vth<ex>e</ex>n allæ hind<ex>e</ex>r æll<ex>e</ex>r hiælpærædhæ æll<ex>e</ex>r yt<ex>er</ex>mer
+      ræt gangh ♦</p>
+            <p n="a#7" xml:space="preserve">In cujus rei testimonium sigillium meum una cum sigillis nobilium virorum videlicet
+        <persName>Petri Grubbes</persName> de <placeName>Alssleff</placeName>
+      <persName>Krumpen</persName> de <placeName>Gamelkøghæ</placeName>
+      <persName>Werneri Bole</persName> de <placeName>Schyrpinge</placeName>
+      <persName>Kanuti Iacobi</persName> de <placeName>Walby</placeName>
+      <persName>Andree Swenonis</persName> de <placeName>Hawenlowæ</placeName> et <persName>Iohannis
+        Tiderici</persName> rectoris ecclesie <placeName>Spielthorp</placeName> sunt appensa ♦ </p>
+            <p n="a#8" xml:space="preserve">Datum Wæmetoffte anno domini mcdxxx septimo dominica proxima post festum sancti Laurencii
+      martiris ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

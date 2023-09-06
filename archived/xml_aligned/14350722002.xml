@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">214</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14350722002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. XXXVI, 18</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 23.5 × 12.8 (plica: 2.1). <ab>Påskrift på bagsiden: <q>Confirmacio fundacionis altaris
+                                 Bartholomei</q>
+                        </ab>1. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6773</bibl>
+               <bibl>Vejledende Arkivreg. XVII 100 nr. 301</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1435-07-22"
+                  notBefore="1435-07-22"
+                  notAfter="1435-07-22"
+                  cert="high">1435.
+               22. juli</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens (Pedersen (Jernskæg)), biskop i Roskilde, stadfæster afdøde kannik i Roskilde
+               Peder (Ovesen) Steegs oprettelse af et vikarie i Vor Frue kapel i Roskilde domkirke og
+               bestemmer, at vikaren skal præsenteres for domkapitlet. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-07" who="#pbh">Filen etableret af #pbh 2013-11-07. </change>
+         <change when="2019-09-30" who="#pbh">1. korrektur af #pbh 2019-09-30. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Universis christifidelibus ad quorum noticiam pervenerit presens scriptum
+        <persName>Johannes</persName> dei gracia episcopus Roskildensis salutem in domino
+      sempiternam ♦</p>
+            <p n="a#2" xml:space="preserve">Racioni congruit ut ea que discrecione previa / et racionabiliter ordinata sunt et maxime que
+      divinum cultum et animarum salutem respiciunt / observacione inviolabili perseverent / hinc
+      est quod dilectus in Christo filius <persName>Petrus Stegh</persName> pie memorie quondam
+      ecclesie Roskildensis canonicus / prout coram nobis personaliter constitutus asseruit terrena
+      pro eternis commutare desiderans vicariam quandam perpetuam in <placeName>capella beate
+        virginis in ecclesia nostra Roskildensi</placeName> de quibusdam bonis suis cum omnibus et
+      singulis ipsorum bonorum pertinenciis / et adjacenciis quibuscumque / in anime sue et parentum
+      suorum remedium fundandam decrevit et dotandam / prout in <cit><quote>littera fundacionis</quote><bibl>= <ref target="14310717001">DD 1431. 17. jul., nr. 14310717001</ref></bibl></cit> super hoc confecta plenius continetur petens humiliter et devote hujusmodi vicarie /
+      fundacioni et dotacioni bonorumque ac reddituum donacioni et dimissioni / nostre
+      confirmacionis auctoritatem sibi misericorditer adhiberi ♦</p>
+            <p n="a#3" xml:space="preserve">Nos igitur affectum suum laudabilem piumque desiderium quod ad divinum cultum augendum habuit
+      in hac parte plurimum commendabile considerantes / dicte vicarie fundacionem et dotacionem
+      bonorumque prescriptorum donacionem et assignacionem ratificamus approbamus atque auctoritate
+      dei patris omnipotentis / nostraque auctoritate ordinaria confirmamus perpetuis temporibus
+      duraturas hoc proviso quod vicarius qui processu temporis ad ipsam vicariam per patronos
+      presentandus fuerit venerabili cappitulo (!) nostro Roskildensi pro institucione et collacione
+      canonica habenda perpetuis temporibus presentetur ♦</p>
+            <p n="a#4" xml:space="preserve">In quarum collacionis et ratificacionis testimonium secretum nostrum presentibus est appensum
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Datum <placeName>Roskildis</placeName> anno domini mcdxxxquinto die beate Marie Magdalene \
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

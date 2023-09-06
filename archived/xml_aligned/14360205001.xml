@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14360205001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 333 fol. 267v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>An. gratis pro deo. Adria</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 82 nr. 1758</bibl>
+               <bibl>Repertorium Germanicum V nr. 7307</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-02-05"
+                  notBefore="1436-02-05"
+                  notAfter="1436-02-05"
+                  cert="high">1436. 5.
+          februar</date>
+            <placeName cert="high">Firenze</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Eugenius 4. pålægger efter supplik af Niels Timmesen, en fattig forældreløs fra
+          Roskilde stift, officialen i Schwerin at indskærpe den bandlysning af fru Eline
+          (Evertsdatter (Moltke) til Egede), (enke) efter Anders Jakobsen (Lunge), og Thyra, enke
+          efter lægmanden Jens Jansen, som Johannes Meynesti, ærkedegn i Rostock, for et år siden
+          idømte dem, og hvis de vægrer sig i endnu en måned, skal de på de steder, som officialen
+          finder tjenlige, hver søn- og helligdag atter erklæres bandlyste.  </ab>
+            <ab>De to kvinder havde berøvet Niels Timmesen en del gods og nogle pengesummer, og Niels
+          Timmesen fik udstedt et pavebrev, ifølge hvilket de skulle tilbagegive ham gods og penge,
+          og fordi han frygtede for sin sikkerhed i Roskilde by og stift, blev det stilet til
+          ærkedegnen i Rostock. Da denne stævnede dem for retten, mødte de ikke op, og han lod dem
+          derfor offentligt bandlyse. Fordi de nu har ringeagtet bandlysningen i et år, er der på
+          Niels Timmesens vegne blevet anmodet om, at paven vil tage vare på sagen. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-12" who="#pbh">Filen etableret af #pbh 2013-11-12. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-07-25" who="#pbh">Korrektur af scan osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Officiali <placeName>Zwerinensi</placeName>.</p>
+            <p>Humilibus supplicum votis (libenter annuimus illaque favoribus prosequimur
+          oportunis).</p>
+            <p>Exhibita siquidem nobis nuper pro parte <persName>Nicolai Thimesson</persName> pauperis
+          orphani <placeName>Roskildensis</placeName> diocesis petitio continebat, quod olim ipse
+          contra nobilem mulierem <persName>Helenam</persName>
+               <app>
+                  <lem>
+                     <persName>Andree Jacobi</persName>
+                  </lem>
+                  <rdg>På dette sted savnes, eller er der bortfaldet, en angivelse af hendes enkestand,
+              fx <q>relictam</q>
+                  </rdg>
+               </app> domicellam et <persName>Thiram</persName>
+               <persName>Johannis Janson</persName> laici relictam viduam in dicta diocesi commorantes,
+          que super quibusdam bonis ac pecuniarum summis injuriantur eidem, apostolicas super hiis,
+          cum ipsarum domicelle et vidue potentiam merito perhorrescens eas infra civitatem
+          Roskildensem seu dictam diocesim nequiret convenire secure, ad archidiaconum
+            <placeName>Rostoccensem</placeName> in ecclesia Zwerinensi, ejus proprio nomine non
+          expresso, in communi forma litteras impetravit ac dictas domicellam et viduam, que tempore
+          impetrationis litterarum earundem et etiam tunc nonnulla in dicta diocesi consistentia
+          immobilia communiter detinebant indebite occupata sibique quedam mobilia bona, pecuniarum
+          summas et res alias tunc expressa ex causis tunc expressis dare et solvere legitime
+          tenebantur, ipsas super hoc petendo immobilia sibi adjudicari et super illis domicelle et
+          vidue prefatis perpetuum silentium imponi easque ab occupatione et detentione dictorum
+          bonorum immobilium amoveri seque in illorum possessionem induci necnon dictas domicellam
+          et viduam condemnari et compelli ad solvendum pecuniarum summas et dandum sibi res alias
+          hujusmodi, coram <persName>Johanne Meynesti</persName> archidiacono Rostockcensi in dicta
+          ecclesia ipsarum vigore litterarum fecit ad justitiam evocari, et deinde prefatus
+          archidiaconus domicellam et viduam predictas pro eo, quod in certo peremptorio, quem ipsis
+          ad id prefixerat, competenti termino coram ipso contumaciter non comparuerunt, reputans
+          eas, prout erant, exigente justitia merito contumaces, propter contumaciam hujusmodi
+          excommunicationis <app>
+                  <lem>sententia</lem>
+                  <rdg>rettet af Gertz</rdg>
+                  <rdg>
+                     <q>sententiam</q> Aa</rdg>
+               </app> innodavit et fecit excommunicatas publice denuntiari.</p>
+            <p>Cum autem, sicut eadem petitio subjungebat, domicella et vidua prefate excommunicationis
+          sententiam hujusmodi damnabiliter vilipendentes eam per annum et amplius sustinuerint et
+          adhuc <app>
+                  <lem>sustine<supplied>a</supplied>nt</lem>
+                  <rdg>således rettet i APD</rdg>
+               </app> animis induratis, redire non curantes ad ecclesie unitatem, in animarum suarum
+          periculum dictique orphani prejudicium et scandalum plurimorum, pro parte orphani prefati
+          nobis fuit supplicatum, ut ei super hiis providere dignaremur.</p>
+            <p>Nos itaque discretioni tue mandamus, quatinus, si domicella et vidua predicte eandem
+          excommunicationis sententiam, postquam, ut desuper juri pareant, a te monite fuerint, per
+          mensem pertinaciter toleraverint, ipsas extunc, donec super hiis condigne satisfecerint,
+          singulis diebus dominicis et festivis, campanis pulsatis et candelis accensis pariter et
+          extinctis, excommunicatas publice nunties et facias ab aliis in locis, quibus expedire
+          videris, nuntiari necnon ab omnibus arctius evitari ...</p>
+            <p>Datum <placeName>Florentie</placeName> non. febr. anno 5.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

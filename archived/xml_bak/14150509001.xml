@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">246</num>, paragraphs: <num
+               n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14150509001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR 2560-c</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>14.5 (plica: 2)</height>
+                                    <width>24.6</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden med yngre hånd: <q>Bernt Hoppers quittanz paa xxiiij
+                                 lodige marcharum</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Hermann Langes segl i perg.rem</ab>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                           <seal n="0" type="empty">
+                              <ab/>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Svenskt Diplomatarium III 36 nr. 2079 (SDHK nr. 18533)</bibl>
+               <bibl>Rep. nr. 5518</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-05-09" notBefore="1415-05-09" notAfter="1415-05-09" cert="high">1415.
+               9. maj</date>
+            <placeName cert="unknown">Helsingborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Bernt Hopper, Hermann Lange og Johann Russenberg kvitterer på vegne af Den tyske
+               Købmand høvedsmanden på Varberg, hr. Aksel Pedersen (Thott), for 24 lødige mark for det bjergede
+               gods, som skipperen Claus v. Klene mistede ud for Halland forgangne vinter. Pengene
+               vil blive udbetalt næstkommende sanktmikkelsdag (29. september) sammen med skibets
+               takkelage og et fad lærred til Claus v. Klene eller hans efterkommere.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Allen den jenen de dessen breff zen eddir horen lezen don wy Bernd Hopper Herman
+                        Lange vnde Johan Russenberch witlik vnd openbar yn dessem opene vnsem breue
+                        dat her Axel Petersson en houetman vnde voget van Wardberch heft vns
+                        vornoget to betalende edder syne rechten eruen ver vnde twintich lodige marc
+                        van deme gude dat geberget is yn deme wintere negest geleden vd vnde van
+                        deme schepe dat dar bleff vnder Halland syde dar de schipher aff geheten is
+                        Claus van Klene vnde heft vns gesecht wedder to geuende en vat mit lowende
+                        vnd all dat takel des vorscreuen scheppes dat geberget is vnde eem edder den
+                        synen dar van geworden is in deme herueste vor sunte Michels dach negest
+                        tokomende myt betalinge der vorbenomeden xxiiij lodige marc vns edder vnsen
+                        wissen boden an jenegeleie togeringe ♦</p>
+            <p n="a#2" xml:space="preserve">Dar wi Bernd Herman vnd Johan vorbenomet vul mechtich van des Dutschen kopmans
+                        wegen her Axel Petersson erscreuen vnde syne eruen quijd vnd leddich vnde
+                        los laten vnde willen gut wesen vor aller ansprake vnde maninge des
+                        vorscreuen gudes de em edder syne rechten eruen yn tokomen tiden dar van
+                        schen mach mit rechte vnde danken em vor alle gut vnde gunst ♦</p>
+            <p n="a#3" xml:space="preserve">Jn merer bewaringe desser vorscreuene stucke so hebbe wi Bernd Herman vnde Johan
+                        Herman Langen jngesegel des wi alle bruken to desser tijt vor dessen bref
+                        hengen laten ♦</p>
+            <p n="a#4" xml:space="preserve">Gescreuen to Helsingborch na godes bort verthien hundert jar da na in deme
+                        viiftienden jare vp vnses heren hemelvart dach.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

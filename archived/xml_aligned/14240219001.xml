@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">206</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14240219001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>NKR c-2842</idno>
+                        <msName>tidl. Gjerlev H. 23</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 20.6 × 11.1 (plica: 1.6). <ab>Samme hånd som <ref target="14240212001">DD 1424. 12. feb., nr. 14240212001</ref>
+                        </ab>
+                        <ab> Bagpå: <q>en gard i Vtbyned<ex>ræ</ex>
+                           </q>
+                        </ab>1. Perg.rem. 2. Perg.rem. 3. Perg.rem. 4. Perg.rem. </physDesc>
+                     <history>
+                        <ab>Fra arkivet på Trudsholm</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6080</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 13</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-02-19"
+                  notBefore="1424-02-19"
+                  notAfter="1424-02-19"
+                  cert="high">1424. 19. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lille Åge Pedersen, væbner, skøder en gård i Udbyneder (Gjerlev Herred) til hr. Erik Nielsen
+      (Gyldenstjerne) af Tim til evig besiddelse som skattefrit gods. Han erklærer at have modtaget
+      fuld betaling derfor og forpligter sig selv og sine arvinger til at holde Erik og hans
+      arvinger fri for tiltale. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-12" who="#pbh">Filen etableret af #pbh 2014-06-12. </change>
+         <change when="2018-01-23" who="#jon">1. korrektur af #jon 2018-01-23. </change>
+         <change when="2018-02-23" who="#mh">2. korrektur af #mh 2018-02-23. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn th<ex>et</ex>tæ breeffh see ellær høræ . helsnær jegh <persName>Awæ
+        Peth<ex>er</ex>s<ex>øn</ex></persName> th<ex>er</ex> mæ<ex>n</ex> kallæ lillæ Awæ wapn
+      ewindæligh helsæn m<ex>eth</ex> gwth . ♦</p>
+            <p n="a#2" xml:space="preserve">Och kungørær jegh th<ex>et</ex> nw m<ex>eth</ex> th<ex>et</ex>tæ mit opnæ breeffh ath jegh
+      weth<ex>er</ex>ke<ex>n</ex>næs megh m<ex>eth</ex> beradh hwgh jnnæn my<ex>n</ex> wellysth een
+      ærligh ma<ex>n</ex> h<ex>er</ex>
+      <persName>Eric Niels<ex>øn</ex></persName> affh <placeName>Tiim</placeName> riddær mit gootz
+      sosum ær een gaardh . liggændæs jnnæn <placeName>Vdbynædhræ</placeName> j
+        <placeName>Wdbynædhræ sogn</placeName> m<ex>eth</ex> allæ och hwær besønn<ex>er</ex>ligæ
+      thæn for<hi rend="sup">dæ</hi> gaardhs tilliggælsæ . sosom ær aghær och ængh skoffh och
+      fiskæwatn rørændæ och vrørændæ æntæ vnnæn tag<ex>et</ex> ath hawæ aaffh hænd<ex>et</ex> ath
+      hawæ skøøt och ath hawæ op lad<ex>et</ex> til ewindeligh eyæ frælsæligh hawæ skulændæs ♦ </p>
+            <p n="a#3" xml:space="preserve">Och weth<ex>er</ex>ke<ex>n</ex>næs jegh megh ath hawæ op bor<ex>et</ex> fult wæærdh affh
+        for<hi rend="sup">dæ</hi> h<ex>er</ex>
+      <persName>Eric</persName> for<ex>e</ex> th<ex>et</ex> for<hi rend="sup">dæ</hi> gootz och
+      gotzæs tilliggælsæ til allæ mynæ nøwæ . ♦ </p>
+            <p n="a#4" xml:space="preserve">Och tilbindær jegh megh och mynæ arwingæ thæn for<hi rend="sup">dæ</hi> h<ex>er</ex>
+      <persName>Eric</persName> och hans arwingæ th<ex>et</ex> forsaudhæ gootz och gootzæs
+      tilliggælsæ ath fry och ath frælsæ for<ex>e</ex> hwær manz til talæ m<ex>eth</ex> rætæ
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Til thes bæthræ forwar<ex>æ</ex>lsæ och withni<ex>n</ex>gs byyrdh tha hængær jegh mit jnsigel
+      for<ex>e</ex> th<ex>et</ex>tæ breeffh m<ex>eth</ex> andræ godhæ mænz jnsigel sosum ær h<ex>er</ex>
+      <persName>Niels Raaffn</persName> abb<ex>et</ex> j <placeName>Nørklostær</placeName> .
+        <persName>Lowænkiær</persName> . och <persName>Jesse Powels<ex>øn</ex></persName> affh
+        <placeName>Hwoornu<ex>m</ex></placeName> ♦ </p>
+            <p n="a#6" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> vicesimo quarto sabbato
+      proximo post festum Valentini martiris ♦ </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

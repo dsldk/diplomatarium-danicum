@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">179</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14150722001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Århus</settlement>
+                        <repository>Rådhusarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Adresse: <q>Discretis viris ac honestis proconsulibus et consulibus
+        arusiensibus litteras præsentes has</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Ridder Jens Dues påtrykte segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Ikke forefundet 2021</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4345 (med usikker datering til 22. juli 1415</bibl>
+               <bibl>Hübertz, Aktstykker vedk. Aarhus, bd. I, nr. 7, p. 5-6 (med usikker datering til
+      1415)</bibl>
+               <bibl>Molbech og Petersen, Danske Diplomer, p. 399-400</bibl>
+               <bibl>Rep. nr. U 553 (med usikker datering til 22. juli 1417)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hübertz l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-07-22"
+                  notBefore="1415-07-22"
+                  notAfter="1417-07-22"
+                  cert="low">[1415 eller 1417]. 22. juli <note>Da nærværende brev mangler angivelse af udstedelsesåret, kan det ikke med
+    sikkerhed afgøres, om brevet er udstedt 22. juli 1415 eller 22. juli 1417. For en datering til
+    1417 taler det forhold, at kong Eriks nye fæstningsværk Konningsborg - i lighed med Marienborg i
+    Flensborg - efter alt at dømme først står færdig i 1416. For en datering til 1415 taler det
+    forhold, at der tilsyneladende endnu ikke har fundet kamphandlinger sted, hvorfor afsendelsen af
+    krigsfolk fra Århus til Konningsborg kan tolkes som en optakt til den senere konflikt. Endvidere
+    er det muligt, at ridder Jens Due har befundet sig ved borgen Konningsborg under dens opførelse i
+    1415</note>
+            </date>
+            <placeName cert="high">Konningsborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrivelse fra hr. Jens (Bondesen) Due (Glob), ridder, til borgmestre og råd i Århus, hvori
+      han meddeler, at Jesse Brun og de andre folk fra Århus, som har gjort tjeneste i kong Erik 7.
+      af Pommerns hær, har opført sig som dannemænd. Da disse nu har fået orlov, beder Jens Due
+      borgmestre og råd i Århus om at sende andre folk med rustning og forplejning.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-04" who="#pbh">Filen etableret af #pbh 2014-03-04. </change>
+         <change when="2021-04-09" who="#smb">1. korrektur af #smb 2021-04-09. </change>
+         <change when="2021-05-11" who="#smb">2. korrektur af #smb 2021-05-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Salute amicali in Domino præmissa.</p>
+            <p n="a#2" xml:space="preserve">Wider thet borghmæstere ogh raathmen i <placeName>Aars</placeName> ath Jessæ Bruwæn ogh the
+      dandemen som hæræ ære mett hannem aff ethers by hawæ wæræt hære i myn heræs wdbuth som
+      dandemen swa ath jægh ogh allæ the höwetsmen hæære æræ thakkæ thöm pa myn heræs weghne.</p>
+            <p n="a#3" xml:space="preserve">Ogh skwl i widæ ath the kwnnæ ecky wæræ hæræ lengher en til syndagh.</p>
+            <p n="a#4" xml:space="preserve">Fore thy bether jægh ether pa myn heræ konnynghens weghnæ ogh raather ether höwligh ath i
+      faarlöst wdgöræ annæt folk aff ethers by mett haarnysk och spisæ ogh ladær thöm jo faarlöst
+      kommæ hiid i the dandemenzs stæd som hæræ hawæ wæræt aff ethers by swa framt i welæ nogher
+      thac forthyenæ aff myn heræ ogh i welæ noghet göræ thet hannom ære lyöfft, helzst fore thy ath
+      thessæ dandemen hawe hyemloff, ogh hawæ forthyent thach hæræ fore thy flyer thet swa i bewisæ
+      ether hæræ i som ether stoore makt pa ligger ogh uthen myn heræ worther ey forsömd i hans
+      orloff.</p>
+            <p n="a#5" xml:space="preserve">In Christo valete.</p>
+            <p n="a#6" xml:space="preserve">Scriptum <placeName>Konnynghensburgh</placeName> ipso die sancte Marie Magdalene meo sub
+      sigillo.</p>
+            <p n="a#7" xml:space="preserve"><persName>Johannes Duwæ</persName> miles.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

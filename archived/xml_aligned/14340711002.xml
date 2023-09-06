@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">277</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14340711002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Trondheim</settlement>
+                        <repository>NTNU Universitetsbiblioteket, Gunnerusbiblioteket</repository>
+                        <collection>Diplomsamlingen</collection>
+                        <idno>Qv_011 (170025627)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 27 × 10 (plica: 1). <ab>Påskrift på bagsiden med samme hånd som bagsidepåskriften på <ref target="14340801001">DD 1434. 1. aug., nr. 14340801001</ref>: <q>In
+                                 6 et in dominicis per anni circulum</q>
+                        </ab>1. perg.rem. 2. perg.rem. 3. perg.rem, iflg. Rep. var et brudstykke bevaret. 4. perg.rem, iflg. Rep. var et brudstykke bevaret. 5. perg.rem, iflg. Rep. var et brudstykke bevaret. 6. perg.rem. 7. perg.rem. 8. perg.rem. 9. Brudstykke af segl tilhørerende biskop Pardamus (von der
+                                 Knesenbeck) af Ratzeburg. 10. perg.rem. 11. perg.rem. 12. perg.rem. 13. perg.rem. 14. perg.rem. </physDesc>
+                     <history>
+                        <ab>Sandsynligvis foræret til Det Kongelig Norske Videnskabers Selskab i
+                           1760'erne af enten Gerhard Schøning eller Peter Frederik Suhm</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6712</bibl>
+               <bibl>Reg. Dan. nr. *5053</bibl>
+               <bibl>Diplomatarium Norvegicum VI 485 nr. 456</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-07-11"
+                  notBefore="1434-07-11"
+                  notAfter="1434-07-11"
+                  cert="high">1434.
+               11. juli<note>Den sjette udsteders navn er udraderet, ligesom den sjette seglrem
+                  ikke bærer præg af at være blevet brugt. Det synes derfor sandsynligt, at denne
+                  påtænkte udsteder af en eller anden årsag ikke var i stand til eller ikke var
+                  villig til at besegle brevet, hvorfor hans navn blev fjernet. Ud fra rasurens
+                  størrelse og sammenlignet med udstederne af andre afladsbreve fra
+                  Vordingborgmødet, må det anses for mest sandsynligt, at det udraderede navn enten
+                  var <q>Johannes Asloensis</q> eller <q>Olavus Bergensis</q>, altså biskop Jens
+                  Jakobsen af Oslo eller Olav Nilsson af Bergen, der begge er medudstedere af et
+                  tilsvarende brev til samme kapel tre uger senere, d. 1. august (<ref target="14340801001">DD nr. 14340801001</ref>); dette brev har også biskop
+                  Thomas af Orkneyøerne som udsteder, men det synes palæografisk usandsynligt, at
+                  dette navn skulle være det udraderede</note>
+            </date>
+            <placeName cert="high">Vordingborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder (Jonsen) Lykke (Bille), ærkebiskop af Lund, Aslak (Harniktsson (Bolt)),
+               ærkebiskop af Nidaros, og 11 biskopper eftergiver hver især alle, der på en række
+               helligdage og hver fredag og søndag besøger Sankt Gertruds kapel i Køge og deltager i
+               gudstjenester eller støtter dets bygningsfond og udstyr, 40 dage af den dem pålagte
+               kirkebod. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-24" who="#pbh">Filen etableret af #pbh 2013-10-24. </change>
+         <change when="2019-10-28" who="#pbh">1. korrektur af #pbh 2019-10-28. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Universis christifidelibus ad quorum noticiam presentes littere pervenerint <persName>Petrus
+        Lucke</persName>
+      <placeName>Lundensis</placeName> Swecie primas <persName>Aslacus</persName>
+      <placeName>Nidrosiensis</placeName> dei gracia ecclesiarum archiepiscopi necnon sacrosancte
+      sedis apostolice legati <persName>Naffno </persName><placeName>Ottoniensis
+        </placeName><persName>Johannes </persName><placeName>Roskildensis
+        </placeName><persName>Siggo </persName><placeName>Scarensis</placeName>
+      <app><lem><gap reason="illegible"><desc>..... ......</desc></gap></lem><rdg>To ord, ca. 10-12 bogstaver, udraderet</rdg></app>
+      <persName>Audoenus </persName><placeName>Stawangrensis </placeName><persName>Thomas
+        </persName><placeName>Strengenensis </placeName><persName>Hermannus
+        </persName><placeName>Viburgensis </placeName><persName>Johannes
+        </persName><placeName>Verdensis</placeName>
+      <persName>Pardamus </persName><placeName>Ratzeburgensis </placeName><persName>Petrus
+        </persName><placeName>Hammarensis </placeName><persName>Gerardus
+        </persName><placeName>Burglanensis </placeName>et <persName>Severinus
+        </persName><placeName>Farensis </placeName>eadem gracia ecclesiarum episcopi salutem in
+      domino sempiternam ♦ </p>
+            <p n="a#2" xml:space="preserve">Pium et gratum obsequium deo impendere credimus quociens ejus fideles ad pietatis opera
+      excitamus ♦ </p>
+            <p n="a#3" xml:space="preserve">Cupiens igitur ut <placeName>ecclesia beate Gertrudis virginis</placeName> in
+        <placeName>Køghe</placeName> Roskildensis dyocesis congruis honoribus veneretur et a
+      christifidelibus eo devocius frequentetur omnibus vere penitentibus et confessis qui ad dictam
+      ecclesiam in solempnitatibus infrascriptis videlicet nativitatis domini circumcisionis et
+      epiphanie resurreccionis ascensionis et pentecostes trinitatis corporis Christi in utroque
+      festo sancte crucis . sancti Johannis baptiste beatorum apostolorum Petri et Pauli et omnium
+      aliorum apostolorum et ewangelistarum in utroque festo sancti Olavi regis et martiris sancti
+      Laurencii sancte Stephani Vincencii et Blasii martirum in omnibus festivitatibus beate Marie
+      virginis in solempnitate omnium sanctorum et in die dedicacionis ipsius ecclesie in festo
+      sancti Nicholai Martini Gregorii confessorum sanctarum <app><lem>Katerine</lem><rdg>Tilsyneladende <q>Katerina</q> forsøgt rettet til <q>Katerine</q></rdg></app>
+      Margarete virginum sancte Byrgitte sancte Anne et sancte Marie Magdalene necnon in omnibus
+      sextis feriis et dominicis diebus per anni circulum causa devocionis oracionis seu
+      peregrinacionis accesserint seu missas et alia divina officia ibidem audierint vel qui
+      cimiterium ecclesie pro animabus fidelium defunctorum pie exorando circuierint seu qui ad
+      fabricam antedicte ecclesie aut ad luminaria vel ejus ornamenta melioranda manus porrexerint
+      adjutrices quociens premissa vel aliquod premissorum devote ac venerabiliter adimpleverint
+      tociens de omnipotentis dei misericordia et beatorum Petri et Pauli apostolorum ejus
+      auctoritate confisi singuli nostrum de injunctis sibi penitenciis xl<hi rend="sup">a</hi>
+      dierum indulgencias in domino misericorditer relaxamus consensu videlicet ad hoc dyocesani
+      specialiter accedente ♦ </p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigilla nostra presentibus sunt appensa ♦</p>
+            <p n="a#5" xml:space="preserve">Datum in <placeName>Wordhingburgh</placeName> ipso die translacionis beati Benedicti abbatis
+      anno domini mcdxxxquarto ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

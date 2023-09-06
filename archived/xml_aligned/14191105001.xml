@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">255</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14191105001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>1. Tekstens angivelse af besegling bekræftes i overskriften til Aa
+                                 som DGS 26. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Uppsala</settlement>
+                        <repository>UB</repository>
+                        <collection>de la Gardie</collection>
+                        <idno>39</idno>
+                        <msName>Odensebogen s. 44 (f. 25v)</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Øvre margen er slidt med teksttab i overskriften til følge</ab>
+                        <ab>Overskrift: <q>
+                              <damage>.....</damage> sancti Laurencii infra
+                                    <damage>.....</damage> ymago episcopi geniculati infulati et
+                                 pontificalibus induti . et ab ejus tergo <damage>.....</damage>
+                                 trabes schulptus apparuit depictus cum hac scriptura
+                                 circumferenciali Secretum Petri Ly<damage>kke dei gracia</damage>
+                                 archiepiscopi Lundensis tenore subsequente //</q>; efter teksten:
+                                 <q>Inferius etcetera ut prima</q>; herunder: <q>Sequitur altera
+                                 littera . A vi<hi rend="sup">to</hi> ♦ Quere infra ffol xxviii<hi rend="sup">o</hi>
+                           </q>, og herefter: <q>Inferius in plica de eadem manu scriptum fuit
+                                 Johannes Matthie</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret af Hamsfort i Chronologia secunda, tabt, men forinden
+                           afskrevet af Stephanius i hans Systema, Uppsala Univ. Bibl., de la Gardie
+                           25-29, trykt SRD I 323</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5812</bibl>
+               <bibl>Reg. Dan. nr. 3343</bibl>
+               <bibl>Pontoppidan Annales II 527</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Aa.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-11-05"
+                  notBefore="1419-11-05"
+                  notAfter="1419-11-05"
+                  cert="high">1419.
+               5. november</date>
+            <placeName cert="high">Odense</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: Latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Peder Lykke (Bille), ærkebiskop i Lund, pålægger efter anmodning af brødrene i Knuds
+               kloster i Odense alle at overholde og respektere Knuds klosters rettigheder og
+               privilegier under trussel om bandlysning. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-16" who="#pbh">Filen etableret af #pbh 2014-04-16. </change>
+         <change when="2019-10-04" who="#pbh">1. korrektur af #pbh 2019-10-04. </change>
+         <change when="2021-02-10" who="#alk">2. korrektur af #alk 2021-02-10. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis et singulis ad quos presentes littere pervenerint <persName>Petrus
+                  Lucke</persName> dei gracia archiepiscopus <placeName>Lundensis</placeName> Svecie
+               primas et apostolice sedis legatus sinceram caritatem in domino et salutem ♦</p>
+            <p n="a#2">Quoniam religionis locis cum eorum juribus et privilegiis ac personis in eis
+               domino servicio mancipatis consiliis et auxiliis libenter assistimus et precipue per
+                  <placeName>provinciam nostram Datie</placeName> constitutis salutaribus dirigendo
+               / necnon injurias molestias et inquietudines <app>
+                  <lem>quibus</lem>
+                  <rdg>Herefter slettet <q>injuste</q> Aa</rdg>
+               </app> injuste premuntur quarum possimus amovendo / ♦</p>
+            <p>Hinc est quod religiosi fratres ac domini <placeName>monasterii sancti Kanuti
+                  Ottoniensis</placeName> nuper coram nobis personaliter constituti non sine mentis
+               amaritudine proponebant quomodo nonnulli deo et sa<damage>cre</damage>
+               <app>
+                  <lem>religioni</lem>
+                  <rdg>
+                     <q>regligioni</q> (!) Aa</rdg>
+               </app> cui militant prochdolor emuli ipsis et locis eorum contra privilegia jura et
+               indulta diversimode concessa / angustias tribulaciones et jacturas quamplurimas
+               inferunt subnixe propter deum et justiciam sibi per nos hujusmodi molestacionibus
+               consolacionem inpendi et suffragium exorantes / ♦</p>
+            <p>Nos autem hujuscemodi nefariorum dampnabiles excessus ulterius tolerare et surda
+               transire aure nequaquam volentes omnibus et singulis quibus imperare possumus stricte
+               precipiendo sub excommunicacionis pena mandamus quatenus decetero a dicti prioris
+               fratrum et monasterii dampnorum et injuriarum illacionibus abstineant / ipsosque et
+               loca sua que sub nostra et metropolitane nostre sedis proteccione suscipimus
+               specialiter defendenda / abstineant et in pace gaudere permittant / jura et
+               privilegia eorum exempciones et indulta que eis concessa sunt ratificantes ex certa
+               sciencia confirmamus inviolabiliter conservent ac ea nullatenus infringant deo ad
+               laudem beatis <app>
+                  <lem>Kanuto</lem>
+                  <rdg>tils. rettet fra <q>Canuto</q> Aa</rdg>
+               </app> et Benedicto ad gloriam et honorem ac premissa facientibus ad vitam perpetuam
+               promerendam ♦</p>
+            <p n="a#3">Datum <placeName>Ottonie</placeName> anno domini millesimo quadringentesimo
+               decimo nono / dominica prima mensis novembris nostro sub secreto ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

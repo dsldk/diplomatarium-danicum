@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">6</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250212001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>Österreichisches Staatsarchiv</repository>
+                        <collection>Haus-, Hof- und Staatsarchiv. Reichsarchive. Reichskanzlei.
+      Reichsregisterbücher</collection>
+                        <idno>AT-OeStA/HHStA RK Reichsregister H</idno>
+                        <msName>Hauskanzleiregistraturbuch 1423-1428, f. 70r</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Regesta Imperii XI,2 nr. 6151</bibl>
+               <bibl>LECUB VII 172 nr. 245</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Aa</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-02-12"
+                  notBefore="1425-02-12"
+                  notAfter="1425-02-12"
+                  cert="high">1425. 12. februar</date>
+            <placeName cert="high">Sopron</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Sigismund udnævner blandt andre kongen af Danmark, Sverige og Norge samt hertugerne af
+      Slesvig og deres efterfølgere til værneherrer for stiftet Dorpat. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-11-13" who="#pbh">Filen etableret af #pbh 2019-11-13. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Kong <persName>Sigismund</persName> udnævner <q>serenissimos principes dominos
+          <placeName>Dacie</placeName> / <placeName>Swecie </placeName>/ <placeName>Norwegie
+        </placeName>/ et <placeName>Polonie </placeName>reges / fratres nostros carissimos / et
+        ipsorum successores in regnis predictis / necnon illustres . <placeName>Brunswicensem
+        </placeName>/ <placeName>Stetinensem </placeName>/ <placeName>Magnipolensem </placeName>/
+          <placeName>Pomeranie </placeName>/ et <placeName>Sleswicensem</placeName> duces principes
+        et consanguineos nostros carissimos ac honorabiles magistroscivium / consules et juratos
+        civitatis <placeName>Lubicensis</placeName> / nostros et imperii sacri fideles dilectos</q>
+      til værneherrer for stiftet <placeName>Dorpat</placeName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

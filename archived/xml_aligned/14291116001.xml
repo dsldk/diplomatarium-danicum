@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">179</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14291116001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3067</idno>
+                        <msName>tidl. Skads H. 71</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 32.3 × 9.5 (plica: 2). <ab>Bagpå: <q>skiøde br<ex>e</ex>ff po
+      Sponssbe<ex>ri</ex>ghgoordh</q>
+                        </ab>1. Perg.rem. 2. Perg.rem. 3. Perg.rem. 4. Perg.rem. 5. Seglsnit. 6. Perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6425</bibl>
+               <bibl>Reg. *4863</bibl>
+               <bibl>Saml. t. jydsk Hist. VI 26</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 199</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-11-16"
+                  notBefore="1429-11-16"
+                  notAfter="1429-11-16"
+                  cert="high">1429. 16. november</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lyder Esbernsen (Emmiksen) og Emmike Esbernsen (Emmiksen) skøder Spangsbjerg gård og en
+      vandmølle til Ingeborg, enke efter Jakob Jensen af Varde </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-05" who="#pbh">Filen etableret af #pbh 2014-08-05. </change>
+         <change when="2019-02-12" who="#jon">1. korrektur af #jon 2019-02-12. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ men thettæ breff see alder høræ hielsæ wi <persName>Lyder
+        Esberns<ex>øn</ex></persName> oc <persName>E<ex>m</ex>mek Esberns<ex>øn</ex></persName>
+      awabener ewndeligh m<ex>eth</ex> wor h<ex>er</ex>ræ ♦</p>
+            <p n="a#2" xml:space="preserve">Oc kundgøræ wi th<ex>et</ex> allæ men so wel the nw æræ som kommæ skulæ at wi meth
+      th<ex>et</ex>tæ worth opnæ breff skøthæ antworthæ oc upladæ tel ewndeligh atheyæ ien walboren
+      qui<ex>n</ex>næ <persName>Ingeburgh</persName>
+      <persName>Iep Iens<ex>øn</ex></persName> aff <placeName>Warde</placeName> eft<ex>er</ex>lowen
+      ien gordh som hyeder <placeName>Spongsbierigh gordh</placeName> oc <placeName>Spongsbierighss
+        møllæ</placeName><note>Se også <ref target="14270925001">DD 25. sep. 1427, nr.
+          14270925001</ref> og <ref target="14271111001">DD 11. nov. 1427, nr.
+        14271111001</ref></note> m<ex>eth</ex> dam oc damssbondh <app><lem>oc</lem><rdg wit="#A">Muligvis forsøgt bortraderet, A</rdg></app> meth all wor rethieth oc serdeles th<ex>e</ex>n for<hi rend="sup">dæ</hi> gardh oc
+      mollæ telligelss aag<ex>er</ex> oc engh woth oc thywerth røren oc wrørendh enktæ wntagen
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Item telbindæ wi os oc woræ erwingh at fry oc frelssæ th<ex>e</ex>n fornefndæ
+        <persName>Ingiburgh</persName> oc hennæ erwingh the<ex>n</ex>næ fornef<ex>n</ex>dæ gardh oc
+      mollæ meth allæ sinæ telligels meth dam oc damsbond for hwermans rættæ atalæ ther <app><lem>th<ex>et</ex>tæ</lem><rdg wit="#A"><q>th<ex>et</ex>ræ</q>, A</rdg></app> meth ræthæ kan atallæ ♦</p>
+            <p n="a#4" xml:space="preserve">Til thæssæ wdermæræ forwaringh oc windes burdh thæ ladæ wi for<hi rend="sup">dæ</hi>
+      <persName>Lider</persName> oc <persName>Emek</persName> wor jngesegel m<ex>eth</ex> wiliæ oc
+      widskab lath hengæ for th<ex>et</ex>tæ breff m<ex>eth</ex> ander gothæ mens jngesegel som ar
+        <persName>Hinrik Sturæ</persName>
+      <persName>Erik Peth<ex>e</ex>rs<ex>øn</ex></persName> aff <placeName>Hønburgh</placeName>
+      <persName>Nis Ieps<ex>øn</ex></persName> aff <placeName>Hesselballigh</placeName>
+      <app><lem>oc</lem><rdg wit="#A">Tilføjet over linjen, A</rdg></app>
+      <persName>Nis Peders<ex>øn</ex></persName> i <placeName>Staderup</placeName> ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi> xxix feria quarta postfestum
+      beati Martini confessoris ac pontificis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

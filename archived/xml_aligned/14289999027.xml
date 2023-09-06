@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">32</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14280000027</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer.
+      Registratur over Antvorskov klosters breve (1607), upag., <q>F 27. Flackeberg, </q> i et
+      afsnit med overskriften <q>Wdi itt skrinn vdi for<hi rend="sup">ne</hi>
+                           </q> (tilføjet over
+      linjen) <q>kiiste indsat, signnerit, A, B, C, D, E F G H, I, K, L, M, N, O P, R S, T U Ø,
+        finndis efftherschreffne breffue, ahnlangendiss nogit Annderschouff closters guodtz och
+        eiendomb wdj Siellanndt liggendiss ordinæ alphabetico inculcerede och
+      registerede</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA IV 168 nr. F. 51</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>reg</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428" notBefore="1428" notAfter="1428" cert="high">1428.</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Konventet i Antvorskov kloster lover at holde messe for hr. Oluf Akselsen (Thott), der har
+      skænket det en gård i Flakkebjerg. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-04-23" who="#alk">Filen etableret af #alk 2020-04-23. </change>
+         <change when="2020-08-10" who="#alk">1. korrektur af #alk 2020-08-10. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Itt breff vdgiffuit aff meenige <placeName>conuentz</placeName> brødre paa
+        <placeName>Andtuorschou closter</placeName>, att the schulle holde messe for her
+        <persName>Olluff Axellssønn</persName>, huor for hand haffuer giffuit thennem en gaardt vdj
+        <placeName>Flackeberg</placeName> som schyld<ex>er</ex> iiij pundt kornn, ♦</p>
+            <p n="a#2" xml:space="preserve">Anno 1428 ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

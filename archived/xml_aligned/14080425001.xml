@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">255</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14080425001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-2662</idno>
+                        <msName>tidl. Fjends H. 33</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 30.8 × 11 (plica: 1.3). <ab>På bagside: <q>Gosk Nyels<ex>øn</ex>
+                           </q>
+                        </ab>1. Biskop Peders segl i mørkt voks i perg.rem, DGS 618
+                              . 2. Jens Nielsens segl i mørkt voks i perg.rem, DGS 628
+                              . 3. Gejstligt segl i mørkt voks i perg.rem. 4. Niels Ågesens (Ø Kloster) segl i mørkt voks i perg.rem, DGS 658**
+                              . 5. Jon Jensens (Vrejlev Kloster) segl i mørkt voks i perg.rem, DGS 653
+                              . 6. Rundt priorsegl af Hundslund Kloster (ført af Lars) i mørkt voks i
+        perg.rem, DGS 658*
+                              . 7. Seglsnit. 8. Valdemar Albrechtsens segl i mørkt voks i perg.rem, AS C xxxi 5 (Eberstein)
+                              . 9. Mads Thorstensens segl i mørkt voks i perg.rem, AS A ix 1 (Vognsen)
+                              . 10. Thomes Thomesens segl (ført af Niels Thomesen) i mørkt voks i
+        perg.rem, AS F lvii 16
+                              . 11. Thomes Thomesens segl i mørkt voks i perg.rem, AS F lvii 16
+                              . 12. Peder Lokkesens segl (2 halvmåner i sigilfeltet) i mørkt voks i
+        perg.rem. 13. Thomas Mogensens segl i mørkt voks (beskadiget) i perg.rem, AS L lxiv 1
+                              . </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5706</bibl>
+               <bibl>Reg. *4431</bibl>
+               <bibl>Udtog i O. Nielsen, Bidrag til Oplysning om Sysselinddelingen i Danmark (1867) s.
+      33-34</bibl>
+               <bibl>Gammeldanske Diplomer 1. række IV 53b-c</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1408-04-25"
+                  notBefore="1408-04-25"
+                  notAfter="1408-04-25"
+                  cert="low">1408. 25. april <note>Henføres af Rep. til 6. april 1418 pga. det tvetydige <q>attande</q> i
+    årstallet; efter indholdet placeres brevet dog rimeligst i 1408</note>
+            </date>
+            <placeName cert="high">Vendelbo bygdeting, Hjørring</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Biskop Peder i Børglum m.fl. bevidner, at Jens Eriksen og Brune Eriksen (Banner) fik et
+      tingsvidne om, at det gods, som de kræver som arv efter deres broder Niels Gotskalksen
+      (Gyldenstjerne), ikke var forbrudt efter loven, men med vold frataget deres fader Godskalk
+      Nielsen af hr. Vendelbo. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-01" who="#pbh">Filen etableret af #pbh 2014-04-01. </change>
+         <change when="2014-04-01" who="#jon">1. korrektur af #jon 2014-04-01. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men som thette breff see held<ex>er</ex> hør<ex>e</ex> løse hielse wy
+        <persName>Pæth<ex>er</ex></persName> m<ex>eth</ex> guthz nathe biscop j
+        <placeName>Børl<ex>u</ex>m</placeName>
+      <persName>Jens Niels<ex>øn</ex></persName> p<ex>ro</ex>west j th<ex>et</ex> samested
+        <persName>Jens Algits<ex>øn</ex></persName> p<ex>ro</ex>west j
+        <placeName>Wendesysel</placeName> . <persName>Niels Owes<ex>øn</ex></persName>
+      p<ex>ri</ex>ær j <placeName>Øø</placeName>
+      <persName>Joon Jens<ex>øn</ex></persName> p<ex>ri</ex>ær j <placeName>Wregløff</placeName>
+      <persName>Laur<ex>e</ex>nz</persName> p<ex>ri</ex>ær j <placeName>Hwndzlwnd</placeName>
+      <persName>Hans Bekk<ex>er</ex></persName> aff <placeName>Salt<ex>u</ex>m</placeName>
+      th<ex>er</ex> præst<ex>er</ex> ær<ex>e</ex>
+      <persName>Woldemaar Albrets<ex>øn</ex></persName> ridd<ex>er</ex>
+      <persName>Matis Thorstens<ex>øn</ex></persName>
+      <persName>Nisse Thomes<ex>øn</ex></persName>
+      <persName>Thomas Thomes<ex>øn</ex></persName> th<ex>er</ex> wæbn<ex>er</ex> ær<ex>e</ex> /
+        <persName>Pedh<ex>er</ex> Lokkes<ex>øn</ex></persName> . oc <persName>Thomes
+        Mowens<ex>øn</ex></persName> ewi<ex>n</ex>nelich m<ex>eth</ex> guth / ♦</p>
+            <p n="a#2" xml:space="preserve">Th<ex>et</ex> scal alle men wethelicht wær<ex>e</ex> so wel the . nw ær<ex>e</ex> . som
+      ko<ex>m</ex>me sculle / os vnd<ex>er</ex> wors h<ex>er</ex>r<ex>e</ex> børdz aar thvsend
+      fir<ex>e</ex>hundærd pa th<ex>et</ex> attande . aar / pa then othensdach nest eft<ex>er</ex>
+      then syndach th<ex>er</ex> men syvnge thette offici<ex>u</ex>m quasi modo geneti pa
+        <placeName>Wendelbo bøghthething</placeName> / j <placeName>Høringe</placeName> . nærwarinde
+      och hawe wærith / seeth oc sandelich at hawe høørd / at skykk<ex>et</ex> for os oc for
+      and<ex>re</ex> fler<ex>e</ex> gothe men thesse b<ex>re</ex>ffwiser <persName>Jens
+        Erichs<ex>øn</ex></persName> oc <persName>Brwn Erik</persName> then same tidh oc
+      th<ex>et</ex> same stedh / fynge oc hauthe otte skellich mendz winde sosom ær<ex>e</ex>
+      <persName>Woghen Jeeps<ex>øn</ex></persName>
+      <persName>Nis Joons<ex>øn</ex></persName> th<ex>er</ex> webn<ex>er</ex> ær<ex>e</ex>
+      <persName>Peth<ex>er</ex> Jens<ex>øn</ex> Thusendhierte</persName>
+      <persName>Peth<ex>er</ex> Tidhichs<ex>øn</ex></persName>
+      <persName>Th<ex>or</ex>bern Smid</persName>
+      <persName>Marq<ex>ua</ex>rd Maghe</persName>
+      <persName>Nis Wigils<ex>øn</ex></persName> j <placeName>Boghested</placeName> . oc
+        <persName>Jesse Hwidh</persName> j th<ex>et</ex> samested . ♦</p>
+            <p n="a#3" xml:space="preserve">Hwilke forsawthe otte men pa then same tidh oc th<ex>et</ex> same sted swo wynde pa
+      ther<ex>e</ex> sannen at th<ex>et</ex> goz som the same <persName>Jens
+        Eriks<ex>øn</ex></persName> oc <persName>Brwn Erik</persName> kiærthe vppa oc the<ex>m</ex>
+      til arff fald<ex>er</ex> m<ex>eth</ex> rætte eft<ex>er</ex> ther<ex>e</ex> broth<ex>er</ex>
+      <persName>Nisse Gazxs<ex>øn</ex></persName> war engen mathe forbrøt m<ex>eth</ex> rætte at
+      ko<ex>m</ex>me j hærskabis wær<ex>e</ex> / men h<ex>e</ex>r <persName>Wendelbo</persName> togh
+      th<ex>et</ex> same goz m<ex>eth</ex> wælde fra <persName>Gaazx Niels<ex>øn</ex></persName>
+      then forscrewen <persName>Nisse Gazxes<ex>øns</ex></persName> fath<ex>er</ex> oc hawthe engen
+      rææth j the same goz anten pa hærskabes weyne held<ex>er</ex> oc pa sin eghen weyne / ♦ </p>
+            <p n="a#4" xml:space="preserve">Hwilk<ex>et</ex> wy hørthe oc sowe th<ex>et</ex> wynde <app><lem>w<damage>iy</damage></lem><rdg>Muligvis <q>w<damage>y</damage></q>, A</rdg></app> m<ex>eth</ex> wor<ex>e</ex> jnseghel til heingd thette nærwærinde breff / ♦</p>
+            <p n="a#5" xml:space="preserve">Thette breff ær sc<ex>re</ex>w<ex>et</ex> aar oc dach oc sted som for ær
+      sc<ex>r</ex>ew<ex>et</ex> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

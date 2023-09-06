@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">4</num>, paragraphs: <num n="paragraphs"
+               >1</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num
+               n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14160816001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet (tidl. Landsarkivet København)</repository>
+                        <collection>Køge Rådstue. Pergament</collection>
+                        <idno>pakke nr. 4-30</idno>
+                        <msName>Bisp Alexius i Bergen udsteder afladsbrev til fordel for St. Marie
+                           og St. Gertruds kirker i Køge</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>12.5 (plica: 2.8)</height>
+                                    <width>25.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Vejledende Arkivreg. XVII 255 Køge Nikolaj kirke nr. 10</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-08-16" notBefore="1416-08-16" notAfter="1416-08-16" cert="high">1416.
+               16. august<note>Den i brevet omtalte kirke kendes ikke ellers; der må være tale om
+                  Sankt Gertruds kapel (Danmarks Kirker III, 1 s. 273) og Vor Frue kapel (jf. sstds.
+                  s. 166-167), idet der kendes flere andre breve, hvor disse to kapeller bliver
+                  tilgodeset sammen (DD 4.VII.376) eller på anden vis synes at stå i
+                  forbindelse med hinanden (<ref target="14371216001">DD 1437. 16. dec., nr.
+                     14371216001</ref>)</note></date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Aslak (Bolt), biskop i Bergen, eftergiver alle, der besøger Vor Frue og sankt
+               Gertruds kirke i Køge eller rækker dens bygningsfond en hjælpende hånd, 40 dage af
+               den dem pålagte kirkebod.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-08-15" who="#pbh">Filen etableret af #pbh 2014-08-15. </change>
+         <change when="2019-06-19" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis christifidelibus presentes literas inspecturis <persName><app>
+                     <lem>Allexius</lem>
+                     <rdg>= <q>Aslacus</q> (fejl ved afskrift af koncept?)</rdg>
+                  </app></persName> dei gracia episcopus <placeName>Bergensis</placeName> salutem in
+               omnium salvatori &#9830;</p>
+            <p>Cupientes Christi fideles ad karitatis opera sacris edibus impendenda spirituali
+               munere hoc est indulgenciis et peccatorum remissionibus inv<supplied>i</supplied>tari
+               ut divine gracie reddantur apciores &#9830; Omnibus ergo vere penitentibus et
+               confessis qui <placeName>ecclesiam beate Marie virginis et beate Gertrudis
+               </placeName>in <placeName>Køke</placeName> Roskildensis dyocesis causa devocionis et
+               peregrinacionis visitaverint seu quociens ejus cimitorium pro animabus omnium
+               fidelium pie exorando circumierint aut qui sepulturis mortuorum vel aliis divinis
+               officiis ibidem interfuerint seu illis qui ad fabricam eidem ecclesie vel ad ejus
+               ornamenta melioranda per bona subsidia manus porrexerint adjutrices seu qui ad eandem
+               ecclesiam aliquid legaverint vel legari procuraverint tociens xl<hi rend="sup">a</hi>
+               dierum indulgencias de injunctis eis penitenciis quotum cum deo possumus in domino
+               relaxamus dummodo ad hoc dyocesani voluntas accesserit et consensus &#9830; </p>
+            <p>In cujus rei testimonium sigillum nostrum presentibus est appensum &#9830; </p>
+            <p>Datum <placeName>Kopenhaue<ex>n</ex></placeName> crastina assumpcionis beate Marie
+               virginis anno domini m<hi rend="sup">o</hi> cccc<hi rend="sup">o</hi> xvi<hi
+                  rend="sup">o</hi> &#9830;</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">15</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14160615001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Urkunden, Interna</collection>
+                        <idno>Nr. 438a</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Sammensyet hæfte i stort format</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Rådet i Hamburgs segl, i en grøn silkesnor</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Rådet i Rostocks segl, i en grøn silkesnor</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Rådet i Stralsunds segl, i en grøn silkesnor</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Rådet i Stettins segl, i en grøn silkesnor</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Rådet i Greifswalds segl, i en grøn silkesnor</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Ridder Heinrich Kopp v. Zedlitz, kong Sigismunds udsending, segl i en grøn
+        silkesnor</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Kannik Jost Roth, kong Sigismunds udsending, segl i samme silkesnor som segl
+        nr. 6</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Willebrand, Hansische Chronik, II. Abtheil., p. 67-78</bibl>
+               <bibl>Lünig, Teutsches Reichs-Archiv XIII. Pars spec. 9. 4. Cont. p. 1337-43</bibl>
+               <bibl>Reg. Dan. nr. 3306*</bibl>
+               <bibl>UBStL V, nr. DLXXXIII, p. 641-653</bibl>
+               <bibl>Hanserec. I:6, nr. 267-270, p. 231-240</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>UBStL l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-06-15"
+                  notBefore="1416-06-15"
+                  notAfter="1416-06-15"
+                  cert="high">1416. 15. juni</date>
+            <placeName cert="high">Lübeck</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Forlig imellem rådet og borgerskabet i Lübeck mæglet af udsendinge fra hansestæderne
+      Hamburg, Rostock, Stralsund, Lüneburg, Wismar, Stettin og Greifswald, på den romerske konge
+      Sigismunds befaling og for bl.a. kong Erik 7. af Pommerns skyld.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-13" who="#pbh">Filen etableret af #pbh 2014-03-13. </change>
+         <change when="2020-11-10" who="#smb">1. korrektur af #smb 2020-11-10. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><q>Forlig imellem rådet og borgerskabet i Lübeck mæglet af udsendinge fra hansestæderne
+        Hamburg, Rostock, Stralsund, Lüneburg, Wismar, Stettin og Greifswald, på den romerske konge
+        Sigismunds befaling og bl.a.</q> deme dorchluchtigesten fursten vnde heren, heren Erike,
+      koninge to Denemarken, to leue vnde to willen.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

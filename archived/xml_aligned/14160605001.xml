@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">65</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14160605001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Adresse: <q>Den ersamen etcetera borgermesteren unde ratmannen to Revele,
+        etcetera, sunder alle sumen, landes macht is dar an, dd</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Bunge, Liv.-, Est.- u. Curländ. Urkundenb. V, nr. MMLXX, sp. 133 (Reg. nr. 2477)
+      14)</bibl>
+               <bibl>Reg. Dan. nr. *4367</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Bunge l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-06-05"
+                  notBefore="1416-06-05"
+                  notAfter="1416-06-05"
+                  cert="high">1416. 5. juni</date>
+            <placeName cert="high">Riga</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Den livlandske ordensmester skriver til rådet i Reval. </ab>
+            <ab>I nærværende brev opfordrer han rådet i Reval til på hans vegne at forbyde rugudførsel
+      igennem Øresund. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-13" who="#pbh">Filen etableret af #pbh 2014-03-13. </change>
+         <change when="2020-11-09" who="#smb">1. korrektur af #smb 2020-11-09. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Meister to <placeName>Liffland</placeName>.</p>
+            <p n="a#2" xml:space="preserve">Unse vruntlike grute mit steder gunst tovoren.</p>
+            <p n="a#3" xml:space="preserve">Ersamen leven getruwen und besundern vrunde.</p>
+            <p n="a#4" xml:space="preserve">Alse gi uns scriven van dem udvorende des roggen und dat id duer tiid si in
+        <placeName>Prussen</placeName> etcetera, dat wete wi wol, so is unse wille wol, dat gi van
+      unser wegen dat vorbeiden, dat man ninen roggen dor <placeName>den Sund</placeName> vore,
+      sunder in <placeName>Prussen</placeName>.</p>
+            <p n="a#5" xml:space="preserve">[.....]</p>
+            <p n="a#6" xml:space="preserve">Gegeven to <placeName>Rige</placeName>, am fridage vor Pinxsten, im XVI jar.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

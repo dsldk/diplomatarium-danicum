@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="th">
+                  <persName>
+                     <forename type="first">Thomas</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14320507001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>or. perg. 0101</collection>
+                        <idno>SDHK nr. 21772</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift på plica til højre: <q>A. Schonaw</q> og herover: <q>pro
+                    Meynardo</q>; på bagsiden midtfor: <q>R(egistrata)</q>
+                        </ab>1. Pave Eugenius 4.s bulle i hampesnor. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD III 37 nr. 1656</bibl>
+               <bibl>Lindblom, Akter rörande ärkebiskopsvalet i Uppsala 1432, s. 20 nr 10 e</bibl>
+               <bibl>Reg. Dan. 3523</bibl>
+               <bibl>Skriftel. Bevis, hör. til (Spegels) biskopskrön. p. 39-41</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-05-07"
+                  notBefore="1432-05-07"
+                  notAfter="1432-05-07"
+                  cert="high">1432. 7.
+          maj</date>
+            <placeName cert="high">Rom, S. Pietro</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Eugenius 4. meddeler kong Erik 7. af Pommern, at han tidligere har reserveret sig
+          retten til at besætte ærkebispesædet i Uppsala; derfor har han kasseret Uppsala
+          domkapitels valg af magister Olavus Laurentii, provst sammesteds, til ærkebiskop, men
+          derefter udnævnt denne ved provision; han beder endvidere kongen støtte den nye ærkebiskop
+          i sin gerning. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-04" who="#pbh">Filen etableret af #pbh 2013-10-04. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2018-01-22" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <persName>Eugenius</persName> episcopus servus servorum dei . carissimo in
+          Christo filio <persName>Erico Dacie et Swecie regi</persName> illustri salutem et
+          apostolicam benedictionem . ♦ </p>
+            <p>Gracie divine premium et humane laudis preconium acquiritur si per seculares principes
+          prelatis presertim ecclesiarum cathedralium regimini presidentibus oportuni favoris
+          presidium et honor debitus impendatur ♦ </p>
+            <p>Dudum siquidem bone memorie <persName>Johanne</persName> archiepiscopo
+            <placeName>Upsalensi</placeName> regimini ecclesie Upsalensis presidente / nos cupientes
+          eidem ecclesie cum eam vacare contingeret per apostolice sedis providenciam utilem et
+          ydoneam presidere personam provisionem ejusdem ecclesie ordinacioni et disposicioni nostre
+          ea vice duximus specialiter reservandam decernentes extunc irritum et inane si secus super
+          hiis per quoscunque quavis auctoritate scienter vel ignoranter contingeret attemptari
+          ♦ </p>
+            <p>Postmodum vero predicta ecclesia per ipsius Johannis archiepiscopi obitum qui extra
+          Romanam curiam diem clausit extremum vacante dilecti filii capitulum dicte ecclesie
+          reservacionis et decreti predictorum forsan ignari dilectum filium
+            <persName>Olavum</persName> electum Upsalensem tunc ejusdem ecclesie prepositum et in
+          presbiteratus ordine constitutum in eorum archiepiscopum concorditer elegerunt licet
+          defacto ipseque electus reservacionis et decreti eorundem similiter inscius eleccionis
+          hujusmodi illius sibi presentato decreto eciam defacto consensit / ac demum reservacione
+          et decreto predictis ad ejus deductis noticiam hujusmodi eleccionis negocium in
+          consistorio proponi fecit coram nobis / ♦ </p>
+            <p>Nos igitur hujusmodi eleccionem et quecunque inde secuta utpote post et contra
+          reservacionem et decretum predicta defacto ut premittitur attemptata prout erant irrita et
+          inania reputantes et ad provisionem ipsius ecclesie celerem et felicem de qua nullus
+          preter nos ea vice se intromittere potuerat sive poterat reservacione et decreto
+          obsistentibus supradictis ne ecclesia ipsa longe vacacionis exponeretur incomodis paternis
+          et solicitis studiis intendentes post deliberacionem quam de preficiendo eidem ecclesie
+          personam utilem et eciam fructuosam cum fratribus nostris habuimus diligentem / demum ad
+          dictum electum cui de litterarum sciencia vite mundicia honestate morum spiritualium
+          providencia et temporalium circumspeccione aliisque multiplicium virtutum donis fidedigna
+          testimonia perhibentur direximus oculos nostre mentis ♦ </p>
+            <p>Quibus omnibus necnon dictorum capituli ipsum eligencium concordi voluntate debita
+          meditacione pensatis de persona ejusdem electi nobis et eidem fratribus ob dictorum suorum
+          exigenciam meritorum accepta ipsi ecclesie de eorundem fratrum consilio auctoritate
+          apostolica providimus ipsumque illi prefecimus in archiepiscopum et pastorem curam regimen
+          et administracionem ipsius ecclesie sibi in spiritualibus et temporalibus plenarie
+          committendo / in illo qui dat gracias et largitur premia confidentes quod dextera domini
+          eidem electo assistente propicia prefata ecclesia sub ejus felici regimine prospere
+          dirigetur ac grata in eidem spiritualibus et temporalibus suscipiat incrementa / ♦ </p>
+            <p>Cum itaque fili carissime sit virtutis opus dei ministros benigno favore prosequi ac eos
+          verbis et operibus pro regis eterni gloria venerari / serenitatem regiam rogamus et
+          hortamur attente quatinus eundem electum et prefatam ecclesiam sue cure pastoralis officii
+          habens pro nostri et apostolice sedis reverencia propensius commendatos ipsos benigni
+          favoris auxilio prosequaris ita quod idem electus tue celsitudinis fultus presidio in
+          commisse sibi cure pastoralis officio possit deo propicio prosperam ac tibi exinde a deo
+          perhennis vite premium et a nobis condigna perveniat accio graciarum . ♦ </p>
+            <p>Datum <placeName>Rome apud Sanctumpetrum</placeName> anno incarnacionis dominice
+          millesimoquadringentesimotricesimosecundo nonis maji pontificatus nostri anno secundo
+          ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <q>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster</q>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

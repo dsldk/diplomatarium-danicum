@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">210</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14360607001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3230-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 24.4 × 12.6 (plica: 1.2). <ab>På brevets bagside påskriften: <q>Laue Rydbekk<ex>es</ex> b<ex>re</ex>ff poo
+        Bone lykke i Laffuen</q>
+                        </ab>1. Segl af lyst voks i perg.rem tilhørende Lave Rudbek, AS L xlix 23
+                              . 2. Seglsnit. 3. Seglsnit. 4. Segl af lyst voks i perg.rem tilhørende Anders Eriksen
+        (Ulfeld), AS B xiii 10
+                              . 5. Segl af lyst voks i perg.rem tilhørende Konrad Bærind, AS F ix 1
+                              . </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>afskrift i DSL's arkiv (Gammeldanske Diplomer 3. rk. II 20-21)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6830</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-06-07"
+                  notBefore="1436-06-07"
+                  notAfter="1436-06-07"
+                  cert="high">1436. 7. juni</date>
+            <placeName cert="high">Nyborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lave (Lavesen) Rudbek, væbner, giver Sten (Thygesen) Basse (til Tybjerg), ridder, fuldmagt til at indløse dels hans gods på
+      Langeland, som hans svoger, Jens Truedsen (i Bolestad), havde pantsat til Joakim Schepelitz, og dels hans
+      gods på Fyn, som Timme (Krummedige) Hvitkop (til Sandholt) havde i pant. Når Sten Basse har indløst godset, har han lov
+      til at bruge det efter sin vilje, indtil det bliver indløst fra ham. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-14" who="#pbh">Filen etableret af #pbh 2013-11-14. </change>
+         <change when="2020-07-20" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-07-20. </change>
+         <change when="2020-12-17" who="#smb">2. korrektur af #smb 2020-12-17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Jech <persName>Lawe Rudbek</persName> aff waben gør allæ wit<ex>er</ex>likt m<ex>eth</ex>
+      th<ex>et</ex>tæ mit opne b<ex>re</ex>ff ath jech hawer wnt oc fwl makt giwet en
+      het<ex>er</ex>lich ma<ex>n</ex> oc walbyrdich h<ex>e</ex>r <persName>Steen Basse</persName>
+      riddere tel at talæ inatløse my<ex>n</ex>æ gozs i <placeName>Langlandh</placeName>
+      so<ex>m</ex> ær <placeName>Bønlikke</placeName> m<ex>eth</ex> syn tellidelsæ jntæ wnder tageth
+      hwelket som <app><lem>myn</lem><rdg wit="#A">ov. l., A</rdg></app> swauer <persName>Jesse Trwessen</persName>
+      <persName>Jachem Skæpelz</persName> jpant sattæ oc j <placeName>Fyæn</placeName>
+      <placeName>Paderst<ex>ro</ex>p</placeName> i <placeName>Osomehæreth</placeName> m<ex>eth</ex>
+      syn ræthæ telludelse jntæ th<ex>e</ex>r aff vnder tageth hwelket gozs som <persName><app><lem>Teme</lem><rdg wit="#A">ov. l., A</rdg></app>
+        Hwitkop</persName> jpant hauer ♦</p>
+            <p n="a#2" xml:space="preserve">Oc nær ha<ex>n</ex> thom jn hau<ex>er</ex> løst tha scal for<hi rend="sup">d<ex>e</ex></hi>
+      h<ex>e</ex>r <persName>Steen Basse</persName> thom j synæ fry hawinde wæræ ath hawæ oc fwl
+      makt jadsattæ oc af ath sætthæ oc efftær syn wiliæ atbrughe j allæ modæ som the opnæ
+      b<ex>re</ex>ff wtuisær th<ex>e</ex>r vpa giffne æræ m<ex>eth</ex> ord oc artikel jntæ wnder
+      tageth i allæ madæ so lenghe ath the wordæ hano<ex>m</ex> ell<ex>e</ex>r hans arwinghe aff
+      mech ell<ex>e</ex>r mynæ ærwinghe lofflighe aff løst efft<ex>er</ex> the opne b<ex>re</ex>ff
+      ludelsæ som for screwet stor ♦</p>
+            <p n="a#3" xml:space="preserve">Oc then løssen so<ex>m</ex> jech haffde vnt <persName>Jachem Schepelz</persName> vpa
+        <placeName>Paderst<ex>ro</ex>p</placeName> the<ex>n</ex> kallær jech igen m<ex>eth</ex>
+      th<ex>et</ex>tæ b<ex>re</ex>ff ♦</p>
+            <p n="a#4" xml:space="preserve">In cujus rei testimonium sigillum meum una cum sigillis discretorum virorum . videlicet
+      domini <persName>Nicholai Erici</persName> rectori ecclesie <placeName>Øræ</placeName>
+      <persName>Petri Nicholai</persName> in <placeName>Broholm</placeName>
+      <persName>Andree Erici</persName> in <placeName>Kobzbølæ</placeName> et <persName>Conradi
+        Bærindh</persName> armigeri presentibus sunt appensa ♦</p>
+            <p n="a#5" xml:space="preserve">Datum <placeName>Niborgh</placeName> in die corporis Christi anno domini mcd tresesimo sexto ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

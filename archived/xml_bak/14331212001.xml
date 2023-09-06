@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">252</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14331212001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3158; tidl. sign. Københavns Kapitel; Kbh.s gårde 24 - L 6-28</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16.5 (plica: 3)</height>
+                                    <width>26.5</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften <q>Recognicio Grete Schræders</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Perg.rem med lille stump af vokssegl</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Bomærke i skjold i mørkt voks i ufarvet på perg.rem</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Bomærke i mørkt voks i ufarvet på perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6660</bibl>
+               <bibl>Reg. *5017</bibl>
+               <bibl>Københavns Dipl. I, 160-161 nr. 122</bibl>
+               <bibl>Kilder til Danmarks møntvæsen III 24 nr. 697</bibl>
+               <bibl>Vejledende Arkivreg. XVII 204 nr. 39</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1433-12-12"
+                  notBefore="1433-12-12"
+                  notAfter="1433-12-12"
+                  cert="high">1433. 12. december</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Grete, enke efter Hans Skrædder, lejer for livstid en grund og bod vest for Højbro af
+      Københavns domkapitel.</ab>
+            <ab>Den årlige leje skal være fem Arnhem-gylden, hvoraf halvdelen skal betales før mikkelsdag og
+      halvdelen til påske. Lejer skal holde grund og bygninger i god stand og ikke afhænde
+      bygningerne til nogen uden domkapitlets samtykke. Skatter eller andre ydelser til kongen eller
+      byen, som måtte blive pålagt ejendommen, skal lejer betale uden erstatning fra domkapitlet.
+      Hvis ovennævnte betingelser ikke overholdes af lejer, skal lejebrevet være ugyldigt og ude af
+      kraft.</ab>
+            <ab>Efter lejers død skal grunden med bygninger og forbedringer vende tilbage til domkapitlet,
+      dog på det vilkår, at Hans Skrædders og Gretes fælles børn skal have grunden i leje for
+      livstid på de samme betingelser mod en årlig leje på seks Arnhem-gylden.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-18" who="#pbh">Filen etableret af #pbh 2013-10-18. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-08-18" who="#alk">2. korrektur af #alk 2017-08-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Grete</persName> relicta <persName>Hans
+        Schroders</persName> salutem in domino ♦</p>
+            <p n="a#2">Noverint universi presentes et futuri quod recognosco me habere conductive de venerabili
+        <placeName>capitulo ecclesie Haffnensis</placeName> quendam fundum cum taberna in eo
+      constructum (!) <placeName>ecclesie beate virginis</placeName> predicte pertinentem a
+        <placeName>summo ponte dicto Høwbrø</placeName>(!) occidentaliter versus mare
+        <placeName>Haffnis</placeName> situatum ad dies meos sub condicionibus et articulis
+      infrascriptis . ♦</p>
+            <p n="a#3">Primo quod quinque bonos florenos Arnenses pro pensione dicti fundi taberne vel monetam
+      currentem dictos quinque florenos valentem quolibet anno dabo medietatem pensionis scilicet
+      ante festum sancti Michaelis aliam medietatem infra festum pasche tempestive persolvendas .
+      ♦</p>
+            <p n="a#4">Item quod dictum fundum bene edificem cum tectura lapidea et edificatum in bono statu
+      conservem atque edificia sua in ipso fundo sine consensu et bona voluntate dicti capituli
+      nullomodo vendam vel quomodolibet alienem . ♦</p>
+            <p n="a#5">Item tributa et alia quevis onera si que ex mandato principum aut ville ipsi fundo fuerint
+      inposita temporibus meis solvere tenear sine ulla reconpensa ♦</p>
+            <p n="a#6">Item prescriptis articulis non servatis littere que (!) a predicto capitulo super hujusmodi
+      fundo habeo nullius sint roboris vel momenti . ♦</p>
+            <p n="a#7">Item me de medio sublata predictus fundus cum omnibus et singulis edificiis et
+      melioracionibus suis prout tunc inveniatur ad usum et ordinacionem ecclesie beate virginis
+      predicte libere revertatur ita tamen quod liberi predicti Hans Skroder et mei quos simul
+      generavimus si quos superstites habuero predictum fundum ad dies suos habeant in conductum et
+      sex bonos florenos Arnenses quolibet anno dabunt sub condicionibus et articulis omnibus jam
+      prescriptis ♦</p>
+            <p n="a#8">In cujus rei testimonium sigilla discretorum virorum videlicet <persName>Arnoldi
+        Kruse</persName>
+               <placeName>proconsulis</placeName>
+               <persName>Everhardi Lyning</persName> et <persName>Hintze Haghemest<ex>er</ex>
+               </persName>
+               <placeName>villanorum Haffnis</placeName> ex rogatu meo presentibus sunt appensa ♦</p>
+            <p n="a#9">Datum anno domini mcdxxxiii profesto Lucie virginis gloriose ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

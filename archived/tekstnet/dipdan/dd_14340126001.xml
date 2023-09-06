@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">458</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14340126001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3159-c</collection>
+                        <idno>tidl. Kongens Arkiv</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>16 (plica: 1.7)</height>
+                                    <width>30</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>Skrevet med samme hånd som 14340126002</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskrift m. sen. hd.: <q>om een gaardt i
+      Malmø</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Perg.rem med tekst: <q>h<ex>e</ex>r Ost<ex>ri</ex>th
+        Jenss<ex>øn</ex>
+                                 </q>
+                              </ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Niels (Jens) Albrektsen
+        (Rosensparre), AS F xlvii 19
+                              </ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Segl af ufarvet voks i perg.rem tilhørende Åge Mikkelsen, AS F xlviii 1
+                              </ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Perg.rem med ulæselig tekst</ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>Perg.rem med tekst: And<ex>er</ex>s</ab>
+                           </seal>
+                           <seal n="8" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i København, Rigsarkivet, De ældste arkivregistraturer,
+      Kalundborgske registratur (1476), trykt ÆA I 67</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 113-15</bibl>
+               <bibl>Rep. nr. 6672</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1434-01-26"
+                  notBefore="1434-01-26"
+                  notAfter="1434-01-26"
+                  cert="high">1434. 26. januar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jakob Pedersen, rådmand i Malmø, skøder kong Erik 7. af Pommern sin gård, som han selv bor
+      i, ved stranden i Malmø og al sin rettighed i det tårn, som står i det nordvestre hjørne ved
+      stranden i Malmø, og han erkender, at have modtaget fuld betaling derfor.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-18" who="#pbh">Filen etableret af #pbh 2013-10-18. </change>
+         <change when="2019-10-01" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-10-01. </change>
+         <change when="2020-03-13" who="#pbh">2. korrektur af #pbh 2020-03-13. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alla mæn thætta nærwærandes breff høra æll<ex>e</ex>r se helsar jek <persName>Jæyp
+        Pæth<ex>e</ex>rss<ex>øn</ex></persName> rathman j <placeName>Malmøye</placeName> kærlighe
+      m<ex>eth</ex> gwth ♦</p>
+            <p n="a#2" xml:space="preserve">Jek ku<ex>n</ex>gør th<ex>et</ex> allu<ex>m</ex> nærwæ<ex>randes</ex> oc
+      ko<ex>m</ex>masku<ex>landes</ex> at jek kæ<ex>n</ex>nes mik sa<ex>n</ex>nelighe at hawa
+      affhænt ffra mik oc myna arwinge oc solt ok skøt mæktik werthik høybor<ex>e</ex>n fførste
+      h<ex>e</ex>r Erik m<ex>eth</ex> gwthz nathe Danm<ex>a</ex>rks Swerikes Norghes Wendes ok Godes
+      koni<ex>n</ex>g ok h<ex>e</ex>rtuk j Pomer<ex>e</ex>n myn gardh jek nw sielff vdi boor
+      holdande ffra <persName>Mætta H<ex>e</ex>rmans</persName> gardh oc suo øster vt jn til
+      sanctorum Symonis et Jude kirkegardh oc ffran Athelgaden oc suo nør vt jntil bys jorth with
+      stranden j <placeName>Malmøye</placeName> liggendes m<ex>eth</ex> grw<ex>n</ex>d jorth hws
+      bygni<ex>n</ex>g oc m<ex>eth</ex> al a<ex>n</ex>nar thæs ffor<hi rend="sup">de</hi> gardhz
+      tilliwthelse ænkte vndan taghit e huat th<ex>et</ex> hælst ær bathe j brethe oc j længe til
+      ew<ex>er</ex>delik eyghe eygheskuland<ex>es</ex> / ♦</p>
+            <p n="a#3" xml:space="preserve">Ok th<ex>e</ex>r til kæ<ex>n</ex>nes jek mik sa<ex>n</ex>nelighe at hawa solt opladit oc
+      antworthat sa<ex>m</ex>me høyborne wertheghe fførste ffor<hi rend="sup">de</hi>
+      koni<ex>n</ex>g Erik m<ex>eth</ex> gwthz nathe etcetera al myn rættikhet jek haw<ex>er</ex> j
+      th<ex>et</ex> tornit som star j th<ex>et</ex> wæstra nørra hyrnit with stranden j Malmøye til
+      ew<ex>er</ex>delik eyghe ♦</p>
+            <p n="a#4" xml:space="preserve">Ok kæ<ex>n</ex>nes jek mik sa<ex>n</ex>nelighe op at hawa borit pænie oc ffolt wærdh aff
+        ffor<hi rend="sup">de</hi> w<ex>er</ex>theghe høybo<ex>re</ex>n fførste kon<ex>in</ex>g Erik
+      m<ex>eth</ex> gwthz nathe etcetera ffor al th<ex>e</ex>n forscriffna gardh oc grwnd oc ffor al
+      myn rættikhet j th<ex>et</ex> ffor<hi rend="sup">na</hi> torn suo at mik aldelis wæl
+      m<ex>eth</ex> nøyer / ♦</p>
+            <p n="a#5" xml:space="preserve">Ok thy binder jek mik stathelighe til oc myna arwinge m<ex>eth</ex> th<ex>et</ex>ta myt opna
+      b<ex>re</ex>ff for<hi rend="sup">de</hi> w<ex>er</ex>theghe høybor<ex>e</ex>n fførste myn
+      natheghe h<ex>e</ex>rre koni<ex>n</ex>g Erik m<ex>eth</ex> gwthz natha etcetera oc hans
+      arwinge æfft<ex>er</ex>ko<ex>m</ex>mar<ex>e</ex> koni<ex>n</ex>ge j Danm<ex>a</ex>rk
+      th<ex>e</ex>n ffor<hi rend="sup">na</hi> gardh oc grwnd m<ex>eth</ex> al hans tilliwthelse ok
+      al myn rættikhet j th<ex>et</ex> ffor<hi rend="sup">na</hi> torn som h<ex>e</ex>r
+      ffar<ex>e</ex> skrewit star til ew<ex>er</ex>delik eyghe vkrænkelighæ oc vigenkallelighæ at
+      ffri himla til at sta oc ffor alles hinder æll<ex>e</ex>r tiltal som pa th<ex>e</ex>n ffor<hi rend="sup">na</hi> gardh oc rættikhet m<ex>eth</ex> nagh<ex>e</ex>rhonda ræt pa tala kan
+      aldelis ordhgrant at gøra ♦</p>
+            <p n="a#6" xml:space="preserve">Til ydarmer fforwaring oc sa<ex>n</ex>nar<ex>e</ex> stathffæstelse at th<ex>et</ex>ta ffor<hi rend="sup">na</hi> køp oc skøde skal j alla mada stathikt oc ffast bliwa tha haw<ex>er</ex>
+      jek <persName>Jæyp Pæth<ex>e</ex>rss<ex>øn</ex></persName> ffar<ex>e</ex>næffnder hængt myt
+      jnsceghle mæth wilghe oc witskap ffor th<ex>et</ex>ta myt nærwærand<ex>es</ex> opna
+      b<ex>re</ex>ff ♦</p>
+            <p n="a#7" xml:space="preserve">Ok beth<ex>e</ex>r jek kærlighe thesse ærlighe mæn h<ex>e</ex>r <persName>Ostrith
+        Jenss<ex>øn</ex></persName> h<ex>e</ex>r <persName>Jens Dene</persName>
+      borghemæstar<ex>e</ex> j <placeName>Malmøye</placeName>
+      <persName>Niels Albritss<ex>øn</ex></persName>
+      <persName>Aghe Mekelss<ex>øn</ex></persName>
+      <persName>Stronge Jæypss<ex>øn</ex></persName>
+      <persName>And<ex>er</ex>s Pæth<ex>e</ex>rss<ex>øn</ex></persName> oc <persName>Powel
+        Stænkelss<ex>øn</ex></persName> rathmæn j th<ex>e</ex>n sa<ex>m</ex>me stath at the oc hængæ
+      th<ex>e</ex>rr<ex>es</ex> jnsceghle h<ex>e</ex>r m<ex>æth</ex> ffare til witnesbyrdh
+      ♦</p>
+            <p n="a#8" xml:space="preserve">Giffwit aar æfft<ex>er</ex> gwthz byrdh thusande ffirahundrathe thrætiwghe aar pa
+      th<ex>et</ex> ffiærtha tisdagh<ex>e</ex>n næst æfft<ex>er</ex> sancti Powels dag conversionis
+      \ ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14300621002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 297 (Martini V. an. 13, lib. 172) fol. 1</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 429 nr. 1585</bibl>
+               <bibl>Dipl. dioc. Lund. III 88 nr. 92</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1430-06-21"
+                  notBefore="1430-06-21"
+                  notAfter="1430-06-21"
+                  cert="high">1430. 21.
+            juni<note>Findes også som supplik; udgivet Dipl. dioc. Lund. III 86 nr. 91</note>
+            </date>
+            <placeName cert="high">Rom, Santi Apostoli</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. pålægger kantoren i Lund at give Bo Hagensen, præst fra Lund stift,
+          absolution og pålægge ham bod for det drab, han har begået på en købmand i Lund. </ab>
+            <ab>Da Bo Hagensen modvilligt var blevet ført til et drikkegilde af tre købmænd, som var
+          hans venner, blev han udfordret til drikkekamp, og da han ikke ville deltage, blev han
+          udfordret til duel; da han heller ikke ville deltage i den, blev han angrebet, og idet han
+          søgte at forsvare sig, kom han ved et uheld til at såre en af købmændene, som døde af sit
+          sår. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-20" who="#pbh">Filen etableret af #pbh 2013-09-20. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-10-27" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <persName>Martinus</persName> etc. dilecto filio cantori ecclesie
+            <placeName>Lundensis</placeName> salutem etc. </p>
+            <p>Humilibus supplicum votis libenter annuimus, eaque favoribus prosequimur oportunis. </p>
+            <p>
+               <app>
+                  <lem>Exhibita</lem>
+                  <rdg>
+                     <q>Ex debita</q> Dipl. dioc. Lund. (trykfejl?)</rdg>
+               </app> siquidem nobis pro parte dilecti filii <persName>Boecii Haquini</persName>,
+          presbiteri Lundensis diocesis, peticio continebat, quod olim dum ipse quadam die post
+          horam cene per viam publicam ad domum suum pergeret, obviaverunt sibi tres mercatores sui
+          amicabiles, petentes ab eo, ut sequeretur eos in bona societate usque ad ipsorum hospicium
+          ad faciendam collacionem cum eis, et licet idem Boecius asserens se velle ire dormitum hoc
+          recusasset graciarum actiones eis referendo, nichilominus prefati mercatores eundem
+          Boecium invitum et eciam renitentem honeste tamen inter se duxerunt ad eorum hospicium
+          supradictum <supplied>ad</supplied> potum ministrandum. </p>
+            <p>Interim unus dictorum mercatorum inebriatus ciphum plenum vino primo hausto evacuavit et
+          eundem ciphum iterum vino repletum prefato Boecio presentavit, volens, quod ipse Boecius
+          eundem ciphum uno haustu, sicut et ipse fecerat, evacuaret, dicendo ei: <app>
+                  <lem>audivit</lem>
+                  <rdg>vel fejl for <q>audivi</q>
+                  </rdg>
+               </app>, quod tu es magnus bibulus, ideo volo exercere tecum virilitatem in bibendo. </p>
+            <p>Cui Boecius predictus respondit: Adhuc invenies talem hominem, qui satisfaciat tibi in
+          bibendo eciam ultra mensuram, quam queris.</p>
+            <p>Videns quoque idem inebriatus, quod idem Boecius noluit evacuare ciphum, dixit ei: Accipe
+          tu balistam et ego accipian lanceam meam et crastina die exercebo tecum virilitatem in
+          campo. </p>
+            <p>Cui Boecius respondens ait: crastina die vadam ad ecclesiam orando et celebrando et nolo
+          pugnare tecum in campo. </p>
+            <p>Tandem idem inebriatus surrexit cultello evaginato volens eundem Boecium invadere, quod
+          Boecius ipse videns se aliter evadere non posse, arripuit gladium non animo et intencione
+          ledendi, nisi se in necessitate defendendi. </p>
+            <p>Et dum hec agerentur, alter duorum sociorum dicti mercatoris surrexit et volens esse
+          mediator inter illos dixit prefato Boecio: Domine mi tu non es potens defendere te contra
+          nos tres. </p>
+            <p>Dicto inebriato non magis cessante invadere Boecium antedictum, idemque Boecius pre
+          timore se defendendo cum acie gladii evaginati dictum mediatorem ex improviso modicum
+          ledit in pudibundis, qui unico clamore emisso spiritu expiravit. </p>
+            <p>Quare pro parte dicti Boecii nobis fuit humiliter supplicatum, ut cum ipse in premissis
+          alias quam ut premittitur culpabilis non existit, sibi et statui suo super hoc providere
+          de benignitate apostolica dignaremur. </p>
+            <p>Nos itaque volentes eundem Boecium, apud nos alias de vite ac morum honestate aliisque
+          probitatis et virtutum meritis multipliciter commendatum, horum intuitu favoribus prosequi
+          graciosis, hujusmodi supplicacionibus inclinati discrecioni tue per apostolica scripta
+          committimus et mandamus, quatenus eundem Boecium a reatu homicidii hujusmodi et a censuris
+          et penis, si quas ex premissis incurrit, auctoritate nostra absolvas, injunctis inde sibi
+          penitencia salutari et aliis, que de jure fuerint injungenda, necnon cum eodem Boecio,
+          dummodo ex hoc scandalum non suscitet, ut in susceptis ordinibus ministrare et quecunque
+          beneficia ecclesiastica, si sibi alias canonice conferantur, recipere et retinere libere
+          et licite valeat, constitucionibus apostolicis et alijs quibuscunque contrariis nequaquam
+          obstantibus, eadem auctoritate dispenses. </p>
+            <p>Datum <placeName>Rome apud sanctos apostolos</placeName> undecimo kal. julii anno tercio
+          decimo. </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

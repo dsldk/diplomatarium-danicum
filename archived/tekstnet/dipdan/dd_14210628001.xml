@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">762</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">945</num>,
+                paragraphs: <num n="paragraphs">11</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2010</date>
+            <idno type="dd">14210628001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2010, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2757</idno>
+                        <msName>Slesvig 54</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>22,6 (plica: 2,8)</height>
+                                    <width>43,2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>witnesburdh. at
+                                                Sund<ex>re</ex>iutla<ex>n</ex>d hører vnder
+                                                krone<ex>n</ex> aff D<ex>a</ex>n<ex>mark</ex>
+                              </q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Peder Lykkes (Bille) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>archibiscopi</q>), DGS 26</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Provst Folkvins segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Folquini</q>), DGS 57</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Laurens Ågesens (Qvitzow) segl af rødt voks i perg.rem
+                                            (med påskrift: <q>domini Laurens Aghess<ex>øn</ex>
+                                 </q>), DGS 60*</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Jens Nielsen segl af rødt voks i perg.rem (med påskrift:
+                                                <q>domini Johanni Nicolai</q>), DGS 60**</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Lunde domkapitels segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Capitul</q>), DGS 39</ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Åge Nielsens (Ulfeld) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Aghe Nielss<ex>øn</ex>
+                                 </q>), AS B xiii 5</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Svend Stures segl af rødt voks i perg.rem (med påskrift:
+                                                  <q>h<ex>er</ex> Swen Sture</q>)</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Jens Lavesens (Galt) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>h<ex>er</ex> Jens Lauess<ex>øn</ex>
+                                 </q>), DAS 1109</ab>
+                           </seal>
+                           <seal n="9" type="pendant">
+                              <ab>Jens Grims segl af rødt voks i perg.rem (med påskrift:
+                                                  <q>h<ex>er</ex> Jens Grimm</q>), AS L i 3</ab>
+                           </seal>
+                           <seal n="10" type="pendant">
+                              <ab>Oluf Stigsens (Krognos) segl af rødt voks i perg.rem
+                                            (med påskrift: <q>h<ex>er</ex> Oloff Stighss<ex>øn</ex>
+                                 </q>), AS D xxxvii 2</ab>
+                           </seal>
+                           <seal n="11" type="pendant">
+                              <ab>Jon Svendsens (Sparre) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>h<ex>er</ex> Jon Sw</q>), AS L lxvii 3</ab>
+                           </seal>
+                           <seal n="12" type="pendant">
+                              <ab>Henrik Gertsens (Ulfstand) segl af rødt voks i perg.rem
+                                            (med påskrift: <q>h<ex>er</ex> Henrik G</q>), AS L
+                                            xxxvii 1</ab>
+                           </seal>
+                           <seal n="13" type="pendant">
+                              <ab>Aksel Brahes segl af rødt voks i perg.rem (med påskrift:
+                                                <q>Axel Braudhe</q>), AS L ii 2</ab>
+                           </seal>
+                           <seal n="14" type="pendant">
+                              <ab>Niels Jensens (Galen) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Niels Jenss<ex>øn</ex>
+                                 </q>), AS L viii 4</ab>
+                           </seal>
+                           <seal n="15" type="pendant">
+                              <ab>Jens Stigsens (Thott) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Jens Stighss<ex>øn</ex>
+                                 </q>), AS L xviii 5</ab>
+                           </seal>
+                           <seal n="16" type="pendant">
+                              <ab>Hans (Pedersen) Spoldeners segl af rødt voks i perg.rem
+                                            (med påskrift: <q>Hans Spoldener</q>), AS H xxiv 2</ab>
+                           </seal>
+                           <seal n="17" type="pendant">
+                              <ab>Jon Jensens (Gere) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Jon Jenss<ex>øn</ex>
+                                 </q>), AS L xxxiv 3</ab>
+                           </seal>
+                           <seal n="18" type="pendant">
+                              <ab>Jon Saxtrups segl af rødt voks i perg.rem (med påskrift:
+                                                <q>Jon Saxstorp</q>), AS L xi 1</ab>
+                           </seal>
+                           <seal n="19" type="pendant">
+                              <ab>Niels (Strangesen) Gagges segl af rødt voks i perg.rem
+                                            (med påskrift: <q>Niels Gagge</q>), AS C iii 1</ab>
+                           </seal>
+                           <seal n="20" type="pendant">
+                              <ab>Lars Dues segl af rødt voks i perg.rem (med påskrift:
+                                                <q>Lasse Duwe</q>), AS D xvii 16</ab>
+                           </seal>
+                           <seal n="21" type="missing">
+                              <ab>perg.rem (med påskrift: <q>Bonde Jacobss<ex>øn</ex>
+                                 </q>)</ab>
+                           </seal>
+                           <seal n="22" type="missing">
+                              <ab>perg.rem med påskrift: <q>P. Tuwess<ex>øn</ex>
+                                 </q>
+                              </ab>
+                           </seal>
+                           <seal n="23" type="pendant">
+                              <ab>Peder Nielsens (Galen) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>.P. Nielss<ex>øn</ex>
+                                 </q>), AS L viii 3</ab>
+                           </seal>
+                           <seal n="24" type="missing">
+                              <ab>perg.rem (med påskrift: <q>Thruet
+                                                  Jac<ex>ob</ex>ss<ex>øn</ex>
+                                 </q>)</ab>
+                           </seal>
+                           <seal n="25" type="pendant">
+                              <ab>Lars Ågesens (Gagge) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Lasse Aghess<ex>øn</ex>
+                                 </q>), AS F lx 1</ab>
+                           </seal>
+                           <seal n="26" type="pendant">
+                              <ab>Anders (Ågesen) Gagges segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Anders Ga</q>), AS F lx 2</ab>
+                           </seal>
+                           <seal n="27" type="pendant">
+                              <ab>Svend Pedersens (Bing) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Swen Peth<ex>er</ex>s<ex>øn</ex>
+                                 </q>), AS I ii 1</ab>
+                           </seal>
+                           <seal n="28" type="pendant">
+                              <ab>Karl Ågesens (Skytte) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Karll Aghess<ex>øn</ex>
+                                 </q>), AS A v 2</ab>
+                           </seal>
+                           <seal n="29" type="pendant">
+                              <ab>Jens Gagges segl af rødt voks i perg.rem (med påskrift:
+                                                <q>Jens Gagge</q>), AS H xxxv 1</ab>
+                           </seal>
+                           <seal n="30" type="pendant">
+                              <ab>Eskild Ågesens (Hegle) segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Eskil Aghess<ex>øn</ex>
+                                 </q>), AS G xxvi 2</ab>
+                           </seal>
+                           <seal n="31" type="pendant">
+                              <ab>Peder Hakonsens segl af rødt voks i perg.rem (med
+                                            påskrift: <q>Peth<ex>e</ex>r Hakonss<ex>øn</ex>
+                                 </q>), AS C xxvii 1</ab>
+                           </seal>
+                           <seal n="32" type="pendant">
+                              <ab>Lunds stadssegl af rødt voks i perg.rem (med påskrift:
+                                                <q>then aff Lu<ex>n</ex>d</q>), Grandjean, Danske
+                                            Købstæders Segl 51 nr. I</ab>
+                           </seal>
+                           <seal n="33" type="pendant">
+                              <ab>Malmøs stadssegl af rødt voks i perg.rem (med påskrift:
+                                                <q>then aff</q>), Grandjean, Danske Købstæders Segl
+                                            52 nr. I</ab>
+                           </seal>
+                           <seal n="34" type="pendant">
+                              <ab>Ystads stadssegl af rødt voks i perg.rem, Grandjean,
+                                            Danske Købstæders Segl 57 nr. II</ab>
+                           </seal>
+                           <seal n="35" type="pendant">
+                              <ab>Skanørs stadssegl af rødt voks i perg.rem (med påskrift:
+                                                <q>Ska</q>), Grandjean, Danske Købstæders Segl 55
+                                            nr. II</ab>
+                           </seal>
+                           <seal n="36" type="pendant">
+                              <ab>Falsterbos stadssegl af rødt voks i perg.rem (med
+                                            påskrift: <q>Falst<ex>er</ex>bode</q>), Grandjean,
+                                            Danske Købstæders Segl 48</ab>
+                           </seal>
+                           <seal n="37" type="pendant">
+                              <ab>Trelleborgs stadssegl af rødt voks i perg.rem (med
+                                            påskrift: <q>th</q>), Grandjean, Danske Købstæders Segl
+                                            56 nr. I</ab>
+                           </seal>
+                           <seal n="38" type="pendant">
+                              <ab>Landsdommer Mogens Båds segl af rødt voks i perg.rem, AS
+                                            K iii 7</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Antislesvigholst. Fragm. XIII 110; Gammeldanske Diplomer
+                                        2. rk. II 148-156 - Huitfeld IV 302, bl. 682; Reg. Dan. nr.
+                                        *4581; Rep. nr. 5923</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date notBefore="1421-06-28" notAfter="1421-06-28" cert="high">1421. 28. juni</date>
+            <placeName>Skånes landsting </placeName>
+         </creation>
+         <abstract>
+            <ab>Tingsvidne af Skånes landsting, æsket af kong Erik, om at
+                                    Sønderjylland hører til kronen og kongedømmet, og at de
+                                    holstenske grever ikke har arvelig lensret dertil.</ab>
+         </abstract>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2012-06-22" who="#th">TH: ALK's og Bent Jørgensens korrekturer indført,
+                2012-06-22</change>
+         <change when="2010-12-02" who="#jon">Rettet efter ALKs gennemlæsning</change>
+         <change when="2010-10-27" who="#jon">Oversat</change>
+         <change when="2010-10-25" who="#jon">Rettet efter A</change>
+         <change when="2010-02-03" who="#jon">Oprettet xml fil</change>
+         <change when="2010-02-01" who="#jon">Færdig med transskriptionen</change>
+         <change when="2010-01-28" who="#jon">Begynd transskriptionen</change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Wi <persName>Peth<ex>e</ex>r</persName> meth guths nathe Erkebiscop j
+                        <placeName>Lund </placeName>
+               <persName>Folqwin</persName> prowest <persName>Laurenss Aghessøn</persName> ok
+                        <persName>Jens Nielssøn</persName> Caneke oc alt Capitel j sa<ex>m</ex>me
+                    stadh <persName>Aghe Nielssøn</persName> aff <placeName>Allethorp </placeName>
+               <persName>Swen Sture</persName>
+               <persName>Jens Lawessøn</persName>
+               <persName>Jens Griim</persName>
+               <persName>Olaff Stighssøn</persName>
+               <persName>Jon Swenssøn</persName> oc <persName>Henric Gerttssøn</persName>
+                    riddere/ <persName>Axel Braudhe</persName>
+               <persName>Niels Ienssøn</persName> aff <placeName>Ha<ex>m</ex>mer </placeName>
+               <persName>Jens Stighssøn</persName> aff <placeName>Næss </placeName>
+               <persName>Hans Spoldenær</persName>/ <persName>Jon Jenssøn</persName> aff
+                        <placeName>Gislebergh </placeName>
+               <persName>Jon Saxthorp</persName>
+               <persName>Niels Gagge</persName> aff <placeName>Winterøy </placeName>/
+                        <persName>Lasse Duwe</persName>
+               <persName>Bonde Iacobssøn</persName>
+               <persName>Peth<ex>e</ex>r Tuwessøn</persName>
+               <persName>Pether Nielssøn</persName> aff <placeName>Aluersleff </placeName>
+               <persName>Thruwet Jacobssøn</persName>
+               <persName>Lasse Aggessøn</persName>/ <persName>Anders Gagge</persName>
+               <persName>Swen Petherssøn</persName>. <persName>Karl Aghessøn</persName>
+               <persName>Jens Gagge</persName> aff <placeName>Farebek </placeName>
+               <persName>Eskil Aghessøn</persName> oc <persName>Peth<ex>e</ex>r
+                        Hakonssøn</persName> j <placeName>Sirekøping </placeName> awapn
+                        Jte<ex>m</ex>
+               <persName>Knwt Mattissøn</persName> burghemestere/ <persName>Hans
+                        Belkowe</persName> oc <persName>Lasse Nielssøn</persName> radhmen j
+                        <placeName>Lund </placeName> Jte<ex>m</ex>
+               <persName>Jens Dæne</persName> burghemestere <persName>Herman
+                        Thomessøn</persName>
+               <persName>Peth<ex>e</ex>r Diekn</persName>
+               <persName>Jacob Magnussøn</persName> oc <persName>Aghe Mickelssøn</persName>
+                    rathmen j <placeName>Malmø </placeName> Jte<ex>m</ex>
+               <persName>Anders Gagge</persName> burghemestere j <placeName>Ystadhe
+                    </placeName> Jte<ex>m</ex>
+               <persName>Clawes Strømendorp</persName> burghemestere oc
+                            <persName>Peth<ex>e</ex>r Karlss<ex>øn</ex>
+               </persName> radhma<ex>n</ex> j <placeName>Scanør </placeName> Jte<ex>m</ex>
+               <persName>Jacob Magnussøn</persName>. burghemestere oc <persName>Niels
+                            Laurenss<ex>øn</ex>
+               </persName> rathman j <placeName>Falsterbodhe </placeName>/ Ok <persName>Henric
+                        Brantshaghen</persName> burghemestere j <placeName>Threlleburgh </placeName>
+                    wi alle forscriffne helsse alle the som thette nerwærind<ex>es</ex> wort
+                        b<ex>re</ex>ff høre eller see. Ewinnelighe meth guth/ </p>
+            <p n="a#2">Ok gøre thet alle mæn nerwærind<ex>es</ex> ok
+                        ko<ex>m</ex>mesculend<ex>es</ex> wit<ex>er</ex>licht at Effter wor herres
+                    føthelsses aar Thusende ffirehundrethe oc vpa eet ok tywghende aar/ then
+                    løwerdach nest effter sancti Johannis baptiste dagh natiuitatis war
+                        høyghbore<ex>n</ex> oc mechtigh herre ok første h<ex>er</ex>
+               <persName>Eric</persName> m<ex>eth</ex> gudhs nadhe <placeName>Danmarks </placeName>
+               <placeName>Swerig<ex>es</ex>
+               </placeName>
+               <placeName>Norghes </placeName>
+               <placeName>Wendes </placeName> ok <placeName>Gotes </placeName> konu<ex>n</ex>g
+                    oc hertuch j <placeName>Pomere<ex>n</ex>
+               </placeName> vpa <placeName>Schone </placeName> landzthing j <placeName>Lund
+                    </placeName> vpa ræt thing tiidh som thinget hiolds/ oc plegher at holdes wor
+                    nathighe herre .j. siin eghen persone skickether fore oss ok manghe andre gothe
+                    mæn Swo som er prelater/ riddere/ oc swene/ køpstadhemæ<ex>n</ex> bønder oc
+                    bokarle oc gantze menicheden j <placeName>Schone </placeName>. ok kungiorthe
+                        th<ex>e</ex>r selff openbarlighe huilkelund han ær with rætte
+                        bleue<ex>n</ex>/ with høychborne første hertuch <persName>Johan</persName>
+                    aff <placeName>Mekelenburgh </placeName>. h<ex>er</ex>tuch
+                        <persName>Wartzlaff</persName> aff <placeName>Stettiin </placeName> oc Greue
+                        <persName>Albrecht</persName> aff <placeName>Nowgardh </placeName> swo
+                        so<ex>m</ex> with sine vtkorne fulmechtighe atschilghes herre/ vm all sagh
+                    oc twedracht som mello<ex>m</ex> forscriffne wor nathighe herre vpa een sidhe oc
+                    the holste herre vpa then anne<ex>n</ex> sidhe/ ære/ vm hertuchdømet j
+                            <placeName>Sundr<ex>e</ex> Jutland </placeName>/ oc ee hwar vm en theræ
+                    hauer then anne<ex>n</ex> vm til atsie/ Ok at for<hi rend="sup">ne</hi> wor
+                    nathighe herre hauer vtscreuit j siin tiltalen ok innen sit swar amot the
+                    forneffnde holsethe herre som han the forscriffne atskilghes herre antworthet
+                    hauer/ vpa then dagh som nw holden war j <placeName>Femerssund </placeName> vm
+                    pingxdaghe tiidh nw nest forlethe<ex>n</ex> at <placeName>Sundre Jutland
+                    </placeName>/ meth alle sine endesschedhe/ oc tilhørelsse hører krone<ex>n</ex>
+                    ok konu<ex>n</ex>gedømet jnne<ex>n</ex>
+               <placeName>Danmark </placeName>/ oc hano<ex>m</ex> til/ meth rette effter wor
+                    dansche ræt/ oc hører ey the holste herre til meth nogher ærffue læn ræt som the
+                    sighe/ </p>
+            <p n="a#3">ok bedis forneffnde wor nathighe herre konu<ex>n</ex>gen th<ex>e</ex>r
+                    tha aff oss. bewiisni<ex>n</ex>g tyghelsse oc witne vm thette forscriffne hwat
+                    ræt ok sanne<ex>n</ex>de er th<ex>e</ex>r vm efft<ex>er</ex> rikens ræt aff
+                        Da<ex>n</ex>mark ♦</p>
+            <p n="a#4">Tha vpstodh <persName>Magnus Baat</persName> landzdomeren aff
+                        <placeName>Schone </placeName> oc mælte wt j swo made som wor dansche lagh
+                    ok ræt vtwiser oc høgheste bewisning h<ex>er</ex> j landet er aff the elste oc
+                    the wiseste som h<ex>er</ex> j landet ære/ ate. prelater oc clerke. swo som ære
+                    abbat <persName>Jacob</persName> aff <placeName>Hærithswathcloster </placeName>.
+                    abbot <persName>Aghe</persName> aff <placeName>Øuethecloster </placeName> Prior
+                        <persName>Knwt</persName> aff <placeName>Dalbycloster </placeName>
+                        Jte<ex>m</ex> h<ex>er</ex>
+               <persName>Jacob Pæth<ex>e</ex>rssøn</persName>. h<ex>er</ex>
+               <persName>Nicles Tuwessøn</persName> oc h<ex>er</ex>
+               <persName>Mickel Thuress<ex>øn</ex>
+               </persName> Caneke j <placeName>Lund </placeName>/ h<ex>er</ex>
+               <persName>Jens Jenss<ex>øn</ex>
+               </persName> official<ex>is</ex> j <placeName>Lundegardh </placeName> oc
+                        h<ex>er</ex>
+               <persName>Sigher</persName> Prior j <placeName>fruere closterit </placeName> j
+                        <placeName>Lund </placeName> ♦</p>
+            <p n="a#5">Jtem tolff riddere oc Swene Swo som ære/ h<ex>er</ex>
+               <persName>Jacob Bille</persName>/ h<ex>er</ex>
+               <persName>Niels Swenssøn</persName>. h<ex>er</ex>
+               <persName>Byørn Swenssøn</persName> riddere/ <persName>Kyrning
+                        Kæthilssøn</persName>/ <persName>Giordh Nielssøn</persName>
+               <persName>Peth<ex>e</ex>r Nielssøn</persName> aff <placeName>Ascerthorp </placeName>
+               <persName>Jens Jacobssøn</persName> aff <placeName>Scarolte </placeName>/
+                        <persName>Aghe Bothulffssøn</persName>
+               <persName>Tule Tyghessøn</persName>/ <persName>Niels Ienssøn</persName> aff <app>
+                  <lem>
+                     <placeName>Giffwinge </placeName>
+                  </lem>
+                  <rdg resp="#jon">
+                     <q>G</q> fejl for <q>K</q>, A</rdg>
+               </app>
+               <persName>Jngwar Strangessøn</persName>/ ok <persName>Kæthil Axelssøn</persName>
+                    awapn ♦</p>
+            <p n="a#6">Jtem Tolff burghemestere ok rathmen aff Stætherne swo som ære
+                        <persName>Tuwe Petherssøn</persName> burghemestere. <persName>Jens
+                            Peth<ex>e</ex>rssøn</persName> ok <persName>Ernst Bodde</persName>
+                    radhmen j <placeName>Lund </placeName>. Jte<ex>m</ex>
+               <persName>Ostradh</persName> burghemestere. <persName>Nicles
+                        Albrichtssøn</persName> oc <persName>Anders Horn</persName> radhmen j
+                        <placeName>Malmøe </placeName> Jte<ex>m</ex>
+               <persName>Olaff Jenssøn</persName> radhma<ex>n</ex> j <placeName>Ystadh
+                    </placeName> Item <persName>Olaff Vnnessøn</persName> burghemestere oc
+                        <persName>Axel Ienssøn</persName> rathman j <placeName>Scanøør </placeName>
+                        Jte<ex>m</ex>
+               <persName>Niels Petherssøn</persName> burghemestere oc <persName>Aghe
+                        Thruwetssøn</persName> rathman j <placeName>Falsterbodhe </placeName>
+                        Jte<ex>m</ex>
+               <persName>Anders Jude</persName>. rathman j <placeName>Threlleburgh </placeName>
+                    ♦</p>
+            <p n="a#7">Ite<ex>m</ex> Tolff astadhe ok othelbønder Swo som ære <persName>Erlend
+                        Pawelssøn</persName> oc <persName>Pether Kellereswen</persName>
+               <persName>Aghe Beyntss<ex>øn</ex>
+               </persName> oc <persName>Morten Nielssøn</persName>
+               <persName>Ofradh</persName> oc <persName>Nicles Jacobssøn</persName>
+               <persName>Jon Pawelssøn</persName> ok <persName>Swen Henricss<ex>øn</ex>
+               </persName>
+               <persName>Anders Pæth<ex>e</ex>rssøn</persName> ok <persName>Jngemar
+                        Aghessøn</persName>
+               <persName>Tuwe Symonss<ex>øn</ex>
+               </persName> ok <persName>Niels Thorkilss<ex>øn</ex>
+               </persName> ♦</p>
+            <p n="a#8">Thisse forscriffne prelate oc clerke riddere oc swene. køpstathemæn oc
+                    bønder ginge wt aff landzthinget oc beradde sik til samme<ex>n</ex> oc bespurthe
+                        th<ex>e</ex>m oc belærthe th<ex>e</ex>m fulko<ex>m</ex>melighe j wor dansche
+                    ræt besynderlighe vm thisse for<hi rend="sup">ne</hi> stycke hwat som
+                        sanne<ex>n</ex>de oc ræt er vm thisse forscriffne artikele ok ærinde/ oc
+                    ginge sith<ex>e</ex>n th<ex>e</ex>r effter jn pa landzthinget jge<ex>n</ex>/ oc
+                    tyghede oc witnedhe vpa theræs siell oc sanne<ex>n</ex>de oc bewiisde
+                        th<ex>et</ex> meth wor dansche ræt at thet forsc<ex>ri</ex>ffne hertuchdøme
+                        <placeName>Sundre Jutland </placeName>. meth alle sine tilhørelsse oc
+                    endesschedhe hører oc ær meth rette krone<ex>n</ex>s oc konu<ex>n</ex>gedømens
+                    ok konu<ex>n</ex>gens j <placeName>Danmark </placeName>/ oc the holste herre
+                        th<ex>e</ex>r engte erue læn meth rette jnne<ex>n</ex>
+               <placeName>Danmark </placeName> hwerkin meth wærildlicht herscap/ ok ey meth
+                    gheystlike eller andelighe p<ex>er</ex>soner </p>
+            <p n="a#9">Till mere wissen Sanne<ex>n</ex>de oc wit<ex>er</ex>licheet h<ex>er</ex>
+                    vm at thet j alle made swo ganget oc ændt ær vm thisse forscriffne stycke swo
+                    som h<ex>er</ex> forescr<ex>e</ex>uit staar Tha lade wi for<hi rend="sup">ne</hi> Erkebiscop <persName>Peth<ex>e</ex>r</persName> Prowest
+                        <persName>Folqwiin</persName>. Caneke. oc alt Capitell j <placeName>Lund
+                    </placeName>/ ok wi forneffnde riddere ok Swene lade wore jncigle hengis fore
+                    thette b<ex>re</ex>ff ♦</p>
+            <p n="a#10">Swo ok wi for<hi rend="sup">de</hi> Burghemeste<ex>re</ex> ok radhmæn
+                    aff for<hi rend="sup">de</hi> køpstædh<ex>e</ex>rne j <placeName>Schone
+                    </placeName> lade wore byes jncigle hwer aff then by som han aff er hengis meth
+                    fore thette b<ex>re</ex>ff ♦</p>
+            <p n="a#11">Ok jek <persName>Magnus Baat</persName> landsdomere j <placeName>Schone
+                    </placeName> Som nw vpa forscriffne <placeName>Schone landzthing </placeName>
+                    hoos ok ouer hauer wærit at all thing swo laghlighe oc rettelighe gangen oc
+                    faren ære j alle made so<ex>m</ex> h<ex>er</ex> for<ex>e</ex>screfuit staar
+                    lader til mere witerlicheet h<ex>er</ex> vm mit jncigle hengis fore thette
+                        nerwære<ex>n</ex>d<ex>es</ex> b<ex>re</ex>ff Som gyffuit ok screuit er aar
+                    dagh ok stædh som for<ex>e</ex>scr<ex>e</ex>uit staar</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Vi, Peder, af Guds nåde ærkebiskop i Lund, Folkvin, provst, Laurens
+                    Ågesen og Jens Nielsen, kanniker, og hele kapitlet sammesteds, Åge Nielsen af
+                    Alnarp, Svend Sture, Jens Lavesen, Jens Grim, Oluf Stigsen, Jon Svendsen og
+                    Henrik Gertsen, riddere, Aksel Brahe, Niels Jensen af Hammar, Jens Stigsen af
+                    Näs, Hans Spoldener, Jon Jensen af Gissleberga, Jon Saxtrup, Niels Gagge af
+                    Vintrie, Lars Due, Bonde Jakobsen, Peder Tuesen, Peder Nielsen af Araslöv, Trued
+                    Jakobsen, Lars Ågesen, Anders Gagge, Svend Pedersen, Karl Ågesen, Jens Gagge af
+                    Fårabäck, Eskil Ågesen og Peder Håkonsen i Sireköpinge, riddere, fremdeles Knud
+                    Madsen, borgmester, Hans Belkow og Lars Nielsen, rådmænd i Lund, fremdeles Jens
+                    Dæne, borgmester, Herman Thomsen, Peder Degn, Jakob Mogensen og Åge Mikkelsen,
+                    rådmænd i Malmø, fremdeles Anders Gagge, borgmester i Ystad, fremdeles Klaus
+                    Stromendorp, borgmester, og Peder Karlsen, rådmand i Skanør, fremdeles Jakob
+                    Mogensen, borgmester, og Niels Larsen, rådmand i Falsterbo, og Henrik
+                    Brantshagen, borgmester i Trelleborg, vi alle førnævnte hilser evindelig med Gud
+                    alle dem, der hører eller ser dette vort nærværende brev</p>
+            <p n="b#2">Og vi gør det vitterligt for alle mænd, nulevende og kommende, at 1421 år
+                    efter Vor Herres fødselsår lørdagen næst efter Skt. Johannes døberens fødselsdag
+                    da var højbyrdig og mægtig herre og fyrste, hr. Erik, af Guds nåde konge af
+                    Danmark, Sverige, Norge, de venders og goters samt hertug i Pommern på Skånes
+                    landsting i Lund på den rette tingtid, som tinget holdes og plejer at holdes.
+                    Vor nådige herre fremstod i sin egen person for os og mange andre gode mænd, som
+                    er prælater, riddere og svende, købstadsmænd, bønder og bokarle og alle
+                    indbyggere i Skåne, og der bekendtgjorde han selv åbenbart, hvorledes han er
+                    kommet til rette i en sag med højbårne fyrster, hertug Johan af Mecklenburg,
+                    hertug Vartislav af Stettin og grev Albrecht af Naugard, som sine udvalgte
+                    fuldmægtige voldgiftsmænd, om al sag og strid, som er mellem vor ovennævnte
+                    nådige herre på den ene side og de holstenske herrer på den anden side om
+                    hertugdømmet i Sønderjylland og om hvorvidt et af partierne havde krav over for
+                    det andet. Og at vor ovennævnte nådige herre har skriftligt kundgjort i sin
+                    tiltale og i sit svar mod de ovennævnte holstenske herrer, som han har overgivet
+                    til de ovennævnte voldgiftsmænd på den forhandling, som nu var holdt i
+                    Femernsund om pinsedagen nu lige forleden, at Sønderjylland med alle sine
+                    grænseskel og tilliggende med rette tilhører Danmarks krone og rige og ham efter
+                    vor danske ret, og at det ikke tilhører de holstenske herrer med nogen
+                    arvelensret, som de påstår. </p>
+            <p n="b#3">Og vor ovennævnte herre, kongen, bad os om en afgørelse og et vidnesbyrd
+                    om dette førnævnte, hvad der er ret og sandt derom ifølge det danske riges ret. </p>
+            <p n="b#4">Da rejste Mogens Båd, landsdommeren i Skåne, sig og udnævnte på den måde,
+                    som vor danske lov og ret anviser, og som er det højeste vidnesbyrd her i
+                    landet, nogle af de ældste og viseste, som er her i landet, otte prælater og
+                    klerke, som er abbed Jakob af Herrevads kloster, abbed Åge af Øvedskloster,
+                    prior Knud af Dalby kloster, fremdeles hr. Jakob Pedersen, hr. Niels Tuesen og
+                    hr. Mikkel Turesen, kanniker i Lund, hr. Jens Jensen, officialis i Lundegård og
+                    hr. Siger, prior i Vor Frue kloster i Lund</p>
+            <p n="b#5">Fremdeles tolv riddere og svende, som er hr. Jakob Bille, hr. Niels
+                    Svendsen, hr. Bjørn Svendsen, riddere, Kyrning Keldsen, Gyrd Nielsen, Peder
+                    Nielsen af Assartorp, Jens Jakobsen af Skarhult, Åge Botulfsen, Tule Tygesen,
+                    Niels Jensen af Käinge, Ingvar Strangesen og Keld Akselsen, væbnere</p>
+            <p n="b#6">Fremdeles tolv borgmestre og rådmænd af købstæderne, som er Tue Pedersen,
+                    borgmester, Jens Pedersen og Ernst Bodde, rådmænd i Lund, fremdeles Ostrad,
+                    borgmester, Niels Albrektsen og Anders Horn, rådmænd i Malmø, fremdeles Oluf
+                    Jensen, rådmand i Ystad, fremdeles Oluf Unnesen, borgmester, og Aksel Jensen,
+                    rådmand i Skanør, fremdeles Niels Pedersen, borgmester, og Åge Truedsen, rådmand
+                    i Falsterbo, fremdeles Anders Jude, rådmand i Trelleborg</p>
+            <p n="b#7">Fremdeles tolv bosiddende adelbønder, som er Erlend Poulsen og Peder
+                    Kældersvend, Åge Bentsen og Morten Nielsen, Ofrad og Niels Jakobsen, Jon Poulsen
+                    og Svend Henriksen, Anders Pedersen og Ingemar Ågesen, Tue Simonsen og Niels
+                    Torkildsen</p>
+            <p n="b#8">Disse førnævnte prælater og klerke, riddere og svende, købstadsmænd og
+                    bønder gik ud af landstinget og rådførte sig og drøftede med hinanden og belærte
+                    hinanden fuldkommendt efter vor danske ret især om disse ovennævnte stykker,
+                    hvad som er sandt og ret om disse førnævnte punkter og ærinder. Og så gik de
+                    derefter ind på landstinget igen og vidnede på deres sjæl og sandhed og afgjorde
+                    med vor danske ret, at det ovennævnte hertugdømme, Sønderjylland med alle sine
+                    tilliggende og grænseskel, hører med rette til kronen, riget og kongen i
+                    Danmark, og at de holstenske herrer ikke besidder noget arvelen dér med rette og
+                    aldrig har gjort, da der her i Danmark ikke er nogen arvelig lensret, hverken
+                    med verdsligt herskab eller med gejstlige eller åndelige personer. </p>
+            <p n="b#9">Til større sikkerhed og bevisning og vitterlighed herom, at disse
+                    førnævnte stykker er foregået og afsluttet på alle måder, som står skrevet
+                    ovenfor, da lader vi, ovennævnte ærkebiskop Peder, provst Folkvin, kannik, og
+                    alt kapitel i Lund, og vi, ovennævnte riddere og svende, vore segl hænge under
+                    dette brev. </p>
+            <p n="b#10">Og vi, ovennævnte borgmestre og rådmænd i ovennævnte købstæder i Skåne,
+                    lader vore byers segl, hver af den by, som han er af, hænge under dette brev. </p>
+            <p n="b#11">Og jeg, Mogens Båd, landsdommer i Skåne, som nu har været tilstede og
+                    overværet ovennævnte Skånes landsting, at alting er foregået og sket så lovligt
+                    og retmæssigt på alle måder, som står skrevet her ovenfor, lader mit segl til
+                    mere vitterlighed herom hænge under dette nærværende brev, som er givet og
+                    skrevet år, dag og sted, som står skrevet ovenfor. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

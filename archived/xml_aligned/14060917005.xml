@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">160</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14060917005</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>Tabt</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2529</idno>
+                        <msName>vidisse ved Klaus Grubendal, Moleke og Gert van der Lanken 25. maj
+                           1414</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA I 13</bibl>
+               <bibl>Rep. nr. 4842</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1406-09-17"
+                  notBefore="1406-09-17"
+                  notAfter="1406-09-17"
+                  cert="high">1406.
+               17. september</date>
+            <placeName cert="unknown">Randers</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Sacheus More skøder, hvad han måtte have af gods i Vesterbølle og Torup, til
+               dronning Margrete på det kongelige retterting. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Ericus dei gratia regnorum Dacie Swecie Norwegie Sclavorum Gothorumque rex et dux Pomeranensis omnibus presens scriptum cernentibus salutem in domino ♦
+                        Noveritis quod sub anno domini mcd<hi rend="sup">o</hi> sexto sexta feria proxima post exaltationem sancte crucis Randrus in placito nostro justitiario coram nobilibus viris dominis Boetio &lt;episcopo&gt;
+                        Arusiensi Johanne Nicolai de Awendsb<ex>er</ex>gh Erico Nielss<ex>øn</ex> Jacobo Kalff Laurentio Hwas Swenone Udss<ex>øn</ex> Jacobo Laghess<ex>øn</ex> et aliis pluribus fidedignis constitutus Sacheus Myræ
+                        armiger illustrissime domine domine Margarete dei gratia regine Dacie Swecie Norwegie etcetera omne jus si quod habuit in bonis Thordhorp Thordorfpsfang bonis aliis sibi attinentibus et in Wæst<ex>er</ex>bøly
+                        cum bonis sibi adjacentibus cum omnibus et singulis dictorum bonorum adjacentiis nullis deceptis quocumque censeantur nomine scotavit et assignavit perpetuo possidendo transferens in eandem dominam nostram reginam 
+                        Margaretam heredes et successores suos omne jus proprietatem et dominium que sibi vel heredibus suis uncquam competere potuerint in premissis ♦ Datum anno die et loco supradictis nostro ad causas sub sigillo 
+                        teste Johanne Swenonis Bryms.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">Erik af Guds nåde konge af rigerne Danmark, Sverige og Norge, de Venders og de Goters og hertug af Pommern hilsen til alle, der ser nærværende. I skal vide, at væbneren Sacheus More stod frem på vort retterting i Randers
+            førstkommende fredag efter det hellige kors' ophøjelse i nærvær af de ædle mænd og herrer Bo, biskop i Århus, Jens Nielsen af Aunsbjerg, Erik Nielsen, Jakob Kalv, Lars Hvas, Sven Udsen og Jakob Lavesen og adskillige andre troværdige vidner, og her
+            skødede han al sin ret, hvis han har haft nogen, i godserne Torup og Torupfang og alt dertil liggende og i Vesterbølle med alt dertil liggende uden nogen undtagelse, hvad end disse godser kaldes, til den strålende frue fru Margrete,
+            af Guds nåde dronning af Danmark, Sverige, Norge osv., idet han overførte enhver ejendoms- og besiddelsesret, som nogensinde har kunnet tilfalde ham eller hans arvinger, til den samme vor dronning og frue, Margrete, og hendes arvinger og efterfølgere.
+            Givet år og dag som ovenfor under vort rettertingssegl med Jens Svendsen Brims som vidne.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

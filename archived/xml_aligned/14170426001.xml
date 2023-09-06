@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">86</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14170426001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2633b-c; tidl. Københavns kapitel; Kbh.s gårde og huse 11; L 6-20</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 20 × 8.5 (plica: 1.5). <ab>Beskadiget med stort teksttab til følge</ab>1. Rester af perg.rem. 2. Seglsnit. 3. Perg.rem. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Afskrift fra 18. årh</ab>
+                        <ab>Ved afskriften angives det, at <q>Tertium sigillum adest</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Renskrift af Aa fra 18. årh</ab>
+                        <ab>Om seglene oplyses det, at <q>Tertium sigillum adest</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Unøjagtig afskrift fra 18. årh. ved Thorkelin</ab>
+                        <ab>Afskriften angives at være <q>Collatum cum autographo</q>. Om seglene oplyses
+      det, at <q>Sigilla desunt</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5657</bibl>
+               <bibl>Reg. *4403</bibl>
+               <bibl>Vejledende Arkivreg. XVII 203 nr. 30</bibl>
+               <bibl>Rørdam, Kjøbenhavns Kirker og Klostre i Middelalderen, Till. 26</bibl>
+               <bibl>Københavns Dipl. IV 21 nr. 30</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A, lakuner udfyldt efter Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-04-26"
+                  notBefore="1417-04-26"
+                  notAfter="1417-04-26"
+                  cert="high">1417. 26. april</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Hemmingsen, præst på Amager, skænker skolemestrene i København en grund i
+      Klosterstræde. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-04-18" who="#alk">2. korrektur af #alk 2017-04-18. </change>
+         <change when="2017-06-20" who="#alk">3. korrektur af #alk 2017-06-20. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa1">I Aa1 emenderet <q>Omnibus presens scriptum cernentibus</q>
+                  </rdg>
+               </app>
+               <persName>
+                  <damage>Jo</damage>hannes Heminggi</persName>
+               <placeName>presbiter ecclesiarum in Amag<damage>he</damage>
+               </placeName> et <placeName>
+                  <app>
+                     <lem>perp<damage>etuus vicarius in ecclesia beate virgini</damage>s</lem>
+                     <rdg resp="#alk">Tilføjet efter Rørdam</rdg>
+                  </app> Hafnensis</placeName> / salutem in domino / ♦</p>
+            <p n="a#2">Constare volo <app>
+                  <lem>univer<damage>sis tam presentibus quam futuris me deliberato</damage>
+                  </lem>
+                  <rdg resp="#alk">Tilføjet efter Rørdam</rdg>
+               </app> animo et mature mentis consilio latoribus presencium <persName>Olavo <damage>ha
+          .....</damage>
+               </persName>
+               <persName>
+                  <damage>He</damage>mi<ex>n</ex>ggo Johannis</persName> scolaribus quendam fundum
+      meum michi <damage>ju</damage>ste empcionis tytulum <damage>advolutum .....</damage>s in vico
+        <placeName>Klossterstræde</placeName> proximo circa <placeName>fundum ecclesie beate
+        virginis</placeName> quem pronunc quidam <persName>Johannes <app>
+                     <lem>Fo<damage>s</damage>
+                     </lem>
+                     <rdg wit="#A">
+                        <q>Fo[-]</q>, A; <q>Fo...r</q>, Aa; <q>Fo.</q>, Ab; men se DgP II 286</rdg>
+                  </app>
+               </persName> inhabitat borialiter situm . quem quidem fundum inhabit<damage>a</damage>t
+      quidam <persName>Herma<ex>n</ex>nus Joha<ex>n</ex>ss<ex>øn</ex>
+               </persName> jure perpetuo
+      possidendum dedisse scotasse et / ad manus eorundem libere assignasse ♦</p>
+            <p n="a#3">In cujus rei <damage>e</damage>vi<damage>d</damage>ens testimonium sigillum meum una cum
+      sigillis honorabilium dominorum <persName>Johannis Clementis</persName> decani et
+        <persName>Johannis Conradi</persName>
+               <placeName>canonici Hafnis</placeName> presentibus est appensum ♦</p>
+            <p n="a#4">Datum Hafnis anno domini m<hi rend="sup">o</hi>cd<hi rend="sup">o</hi>xvii<hi rend="sup">o</hi> feria secunda proxima / post festum sancti Marci euwangeliste (!) ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

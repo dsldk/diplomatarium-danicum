@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">284</num>, paragraphs: <num n="paragraphs">8</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14200602002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>ASA Externa, Danica 3.2.</collection>
+                        <idno>signatur 03,1</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med adresse: <q>Den ersamen sendeboden der stede van der Dudeschen hense nů
+        tor tiid vorsammeld to Sleswic detur</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Med spor efter det påtrykte segl</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 6 nr. CCXIV p. 254</bibl>
+               <bibl>Hanserec. I:7 nr. 223 p. 116 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l. l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-06-02"
+                  notBefore="1420-06-02"
+                  notAfter="1420-06-02"
+                  cert="high">[1420]. 2. juni</date>
+            <placeName cert="high">Flensborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hr. Erik Krummedige meddeler hansestædernes rådsudsendinge, som befinder sig i Slesvig, at
+      han har aftalt med hr. Heinrich Rapesülver, borgmester i Lübeck, at Krummedige skulle sørge
+      for, at kong Erik 7. af Pommerns udsendinge, som skal deltage i mødet i Slesvig 2. juni, ville
+      være fremme i tide, samt at Rapesülver skulle sørge for lejdebrev til kong Eriks
+      udsendinge.</ab>
+            <ab>Krummedige meddeler, at kong Eriks udsendinge nu har ventet i flere dage, men at der endnu
+      ikke er kommet lejdebrev fra Rapesülver. Ej heller er der kommet noget budskab fra Krummediges
+      kapellan i Slesvig.</ab>
+            <ab>Endvidere meddeler Krummedige, at kong Eriks udsendinge nu er blevet meget vrede over
+      situationen, eftersom de har fået fuldmagt af kong Erik til at forhandle på vegne af kongen på
+      mødet i Slesvig.</ab>
+            <ab>Endelig meddeler Krummedige, at kong Eriks udsendinge nu giver alle - både hansestædernes
+      rådsudsendinge og de holstenske herrer - frit lejde til Flensborg, såfremt de hellere vil
+      holde mødet dér, eftersom kong Erik ifølge Krummedige ikke ønsker andet, end at retten sker
+      fyldest.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-29" who="#smb">Filen etableret af #smb 2017-06-29. </change>
+         <change when="2017-06-29" who="#smb">1. korrektur af #smb 2017-06-29. </change>
+         <change when="2017-10-27" who="#smb">2. korrektur af #smb 2017-10-27. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Vruntliken grůt touorn.</p>
+            <p n="a#2">Wetet, guden vrunde, alse <persName>hern Hinrik Rapesulůer</persName> wol vordencken mach,
+      dat ik van em schedede, dat ik bestellen scholde, dat de genne, de den dagh soken scholden van
+      mynes heren wegen, hijr betiid komende worden, vppe dat de dagh nicht vorsůmed en worde,
+      also hebbe ik ged{ae}n, vnde se hebben hijr gewesen, sodder nů an mytweken was, vnde
+        <persName>her Hinrik</persName> vorscreuen sede my, he wolde dat tydege noch bestellen vmme
+      de velicheyt vnde de vorwaringe in alsulker wiis, alse ik em suluen sede vnde alse ik d{ae}r
+      ok to <placeName>Lubeke</placeName> vmme gescreuen hadde.</p>
+            <p n="a#3">Vnde d{ae}r hebbe ik ok anderwarůe vmme gescreuen by mynen papen to
+        <placeName>Sleswic</placeName> vnde witlik ged{ae}n, dat mynes heren raad hijr were, vppe
+      dat dat d{ae}r io neen vorsumenisse an en queme.</p>
+            <p n="a#4">Vnde my en kumpt noch pape wedder edder ander bodeschap, vnde dar mysduncked mynes heren
+      vrunden sere ane, de hijr sin, dat en neen antwerde en kumpt, wente se seggen, se sin hijr myt
+      voller macht van mynes heren wegen, den dagh in aller wiis also to holdende, alse de begrepen
+      is, men nů en nyne velicheyt vnde vorwaringe bestellet is.</p>
+            <p n="a#5">Nů willen se here veligen alle, de d{ae}r sin van der stede wegen, vnde ok wen de hertige
+      d{ae}r mede by hebben wil, vnde willen de in velicheyd sunder arich wol vorwaren, vppe dat dat
+      men weten mach, dat men deme dage io v{oe}l d{oe}n wil, vnde myn here nicht en beghered meer
+      den recht.</p>
+            <p n="a#6">Gode almechtich sijd beůolen.</p>
+            <p n="a#7">Screuen to <placeName>Flensborg</placeName>, an deme dage der hilgen dreůaldicheyt
+      sondage, vnder mynen ingesegel.</p>
+            <p n="a#8">
+               <persName>Erik Crummedijk, ridder</persName>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

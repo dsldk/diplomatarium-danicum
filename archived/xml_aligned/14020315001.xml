@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="th">
+                  <persName>
+                     <forename type="first">Thomas</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>. Translation, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2010</date>
+            <idno type="dd">14020315001</idno>
+            <idno type="isbn">nil</idno>
+            <idno type="dd-4">02-036-2</idno>
+            <idno type="dd-4-lbnr">337</idno>
+            <idno type="dd-4-kartotek">36,2</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2011, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>London</settlement>
+                        <repository>Public Record Office</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>E 101/184/10 f. 11r</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Herudfor i margin: <q>Adhuc necessaria</q>, dermed en klamme omfatter denne og foregående indførelse i registre</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+                  <!-- London. Public Record Office. E 101/184/10 f. 11r. Herudfor i
+                  marg. Adhuc necessaria, dermed en klamme omfatter denne og foregående indførelse i
+                  registre. Kong Henrik 4. af Englands privy seal brev, hvori denne udbetaling er
+                  beordret, blev udstedt 1402. 15. marts, cf. teksten, hvorefter udbetaling fandt
+                  sted. Chaplais, English Medieval Diplomatic Practice I 321 nr. 176. -->
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl> Chaplais, English Medieval Diplomatic Practice I 321 nr. 176</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-4</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date cert="low" notBefore="1402-03-15" notAfter="1402-03-15">1402. 15. marts<note>Kong Henrik 4. af Englands
+privy seal-brev, hvori denne udbetaling er beordret, blev udstedt 1402. 15. marts, cf. teksten, hvorefter udbetaling fandt sted</note>
+            </date>
+            <placeName cert="high">empty</placeName>
+         </creation>
+         <abstract>
+            <ab>Udbetaling til Hugh Lutterel for leje af skibet "Passagere" i
+                           forbindelse med den danske ambassadør Peder Lykkes rejse fra Calais til
+                           Dover. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>regnskab</term>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-02-02T14:23:53.688+01:00" who="#th"> Filen etableret af #th
+            2011-02-02T14:23:53.688+01:00</change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p>Domino Hugoni Lutterelle pro conduccione cuiusdam nauis uocate
+               Passagere per ipsum conducte ad transducendum ambassiatorem de Denmark de Calesio
+               usque Dovorriam lxxiii solidi iiii denarii per <cit>
+                  <quote>breue</quote>
+                  <bibl>kendes ikke</bibl>
+               </cit> regis de priuato sigillo suo
+               <app>
+                  <lem>datum xv° die marcii anno tercio</lem>
+                  <rdg>tilf. o.l. A</rdg>
+               </app> dicto nuper thesaurario directum et super hunc compotum liberatum. </p>
+         </div>
+         <div xml:lang="da">
+            <p> Til hr. Hugh Lutterel for leje af et vist skiv kaldet Passagere, ført af ham selv,
+               til at overføre ambassadøren fra Danmark fra Calais til Dover: 73 solidi og 4
+               denarer. Ved kongens brev under det mindre rigssegl givet d. 15. dag i marts i hans
+               3. år for nylig rettet til den omtalte skatmester og overleveret ham angående dette
+               regnskab. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

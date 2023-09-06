@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatarium Danicum</title>
+        <editor>
+          <name xml:id="pbh">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Bruun Hansen</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
+      <publicationStmt>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
+        <pubPlace>København</pubPlace>
+        <date>2014</date>
+        <idno type="dd">14190426002</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository>empty</repository>
+                <collection>empty</collection>
+                <idno>empty</idno>
+                <msName>empty</msName>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Tabt</ab>
+              </history>
+            </msDesc>
+          </witness>
+          <witness xml:id="Aa">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom</settlement>
+                <repository>Archivio di Stato</repository>
+                <collection>empty</collection>
+                <idno>empty</idno>
+                <msName>Quietantie 1417-21 fol. 43</msName>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>Påskrift: <q>fl. 1 gr. 2</q></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>APD II 292 nr. 1300</bibl>
+          <bibl>Acta Pont. Svec. 1.II 244 nr. 1053</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+      </samplingDecl>
+      <projectDesc>
+        <ab>DD-5</ab>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+          <desc>nil</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1419-04-26" notBefore="1419-04-26" notAfter="1419-04-26" cert="high">1419. 26.
+            april<note>Jf. <ref target="14190429001">DD 1419. 29. apr., nr.
+          14190429001</ref></note></date>
+        <placeName cert="high">Firenze</placeName>
+      </creation>
+      <abstract>
+        <ab>Ludovicus (Aleman), pavelig vicekammermester, kvitterer Peder (Lykke), ærkebiskop i
+          Lund, for gennem Jens Madsen, kannik i Lund, at have betalt én af de mindre afgifter (90
+          guldfloriner).</ab>
+      </abstract>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2014-04-14" who="#pbh">Filen etableret af #pbh 2014-04-14. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="2017-09-21" who="#pbh">Korrektur af scan osv. </change>
+      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="nil"/>
+  </facsimile>
+  <text>
+    <body>
+      <div xml:lang="la">
+        <p n="a#1">Universis etc. <persName>Ludovicus</persName>
+          <app>
+            <lem>etc.</lem>
+            <rdg><q>= Alamandi custos ecclesie Lugdunensis decretorum doctor, domini
+                  <persName>Francisci</persName> archiepiscopi Narbonensis domini pape camerarii in
+                camerariatus officio locum tenens</q></rdg>
+          </app></p>
+        <p>Ad universitatis vestre notitiam deducimus per presentes, quod dominus
+            <persName>Petrus</persName> archiepiscopus <placeName>Lundensis</placeName> pro totali
+          solutione unius minuti servitii, in quo prefato domino camerario et clericis dicte camere
+          ratione provisionis de persona sua sibi per dominum nostrum papam facte sub certis penis
+          et sententiis ac termino nondum elapso tenebatur efficaciter obligatus, 90 fl. auri de
+          camera clericis predictis prefati domini camerarii et proprio eorum nomine recipientibus
+          per manus venerabilis viri domini <persName>Johannis Mathei</persName> canonici Lundensis
+          die date presentium et tempore debito solvi fecit realiter et cum effectu.</p>
+        <p>De quo quidem minuto servitio sic, ut prefertur, dato et soluto prefatum dominum
+          archiepiscopum etc. absolvimus.</p>
+        <p>In quorum etc.</p>
+        <p>Datum <placeName>Florentie</placeName> die 26. mensis aprilis 1419 indictione 12. anno
+          2.</p>
+      </div>
+      <div xml:lang="da">
+        <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</gap></p>
+      </div>
+    </body>
+  </text>
+</TEI>

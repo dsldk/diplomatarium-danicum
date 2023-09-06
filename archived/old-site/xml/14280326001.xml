@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">90</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14280326001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Langebek angiver, at afskriften er sket efter <q>Orig. membr. mutil. af vor
+        Frue Kirkes Archiv 1750</q>. Om seglene oplyser Langebek, at <q>Sigilla absunt</q>. På
+      bagsiden fandtes påskriften <q>littera domini Johannis Hemmingi de Amage super curia, in qua
+        Johannes Michelsøn</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6351</bibl>
+               <bibl>Reg. *4830</bibl>
+               <bibl>Københavns Dipl. II 50 nr. 34</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-03-26"
+                  notBefore="1428-03-26"
+                  notAfter="1428-03-26"
+                  cert="high">1428. 26. marts</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Hemmingsen, evig vikar ved Vor Frue kirke i København, stifter sammesteds en sjælemesse
+      for sig og sine slægtninge. Messen skal hvert år holdes i Vor Frue kirkes kor for to
+      skilling grot.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-25" who="#pbh">Filen etableret af #pbh 2014-07-25. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-08-17" who="#alk">2. korrektur af #alk 2017-08-17. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Johannes H<damage>emmingi perpetu</damage>us
+        vicarius</persName> in <placeName>ecclesia beate virginis Haffnis</placeName>
+               <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek har her markeret en længere lakune</rdg>
+               </app> et mature mentis consilio <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek har her markeret en længere lakune</rdg>
+               </app> possidenda. ♦</p>
+            <p n="a#2">Tali conditione, quod <placeName>predictum capitulum</placeName>
+               <app>
+                  <lem>
+                     <damage>.....</damage>
+                  </lem>
+                  <rdg wit="#Aa">Langebek har her markeret en kortere lakune</rdg>
+               </app> et missa in <placeName>choro ecclesie beate virginis</placeName> antedicte post mortem
+      meam, in remedium anime mee et parentum meorum de duobus solidis grossorum annis singulis
+      solvendis celebrabit. ♦</p>
+            <p n="a#3">Insuper obligo me et meos heredes ad appropriandum et disbrigandum prescripto capitulo
+      Hafnensi antedictam curiam cum universis suis attinentiis ab impeticione et allocutione
+      quorumcunque. ♦</p>
+            <p n="a#4">In cujus rei testimonium sigillum meum una cum sigillis virorum discretorum, videlicet domini
+        <persName>Johannis Conradi</persName>
+               <placeName>canonici,</placeName>
+               <persName>Laurencii Winnere</persName>
+               <placeName>consulis Hafnensis,</placeName>
+               <persName>Johannis Petri</persName> et <persName>Nicolai Michaelis</persName>
+               <placeName>villanorum ibidem</placeName> presentibus est appensum. ♦</p>
+            <p n="a#5">Datum <placeName>Hafnis</placeName> anno domini mcdxxoctavo, crastino annunciationis beate
+      Marie virginis. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

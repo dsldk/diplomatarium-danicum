@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2016</date>
+            <idno type="dd">14241108001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2016, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Reg. Lat. 245 fol. 299v-301r</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Ja. XXII. 3. kal. nov. anno 8. de Cerretanis</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD VII 268 nr. 5739</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-11-08"
+                  notBefore="1424-11-08"
+                  notAfter="1424-11-08"
+                  cert="high">1424. 8.
+          november</date>
+            <placeName cert="high">Rom, Santa Maria Maggiore</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. pålægger biskoppen i Adria, provsten i Lübeck og skolastikeren i Reval at
+          overdrage embedet som ærkedegn i Slesvig til Nicolaus Wulf, kannik sammesteds, idet han
+          har ventebrev på et prælatur sammesteds, og han allerede har fået overdraget embedet og nu
+          har anmodet om pavelig bekræftelse herpå, uagtet at han allerede har kanonikat og præbende
+          i Slesvig, at han har fået provision på kanonikat og præbende i Øsel, og at han har
+          ventebrev på et embede enten i Lübeck eller Hamborg; dog skal provision og ventebrev ikke
+          længere gælde for embeder med sjælesorg. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-24" who="#pbh">Filen etableret af #pbh 2014-06-24. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-05-02" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">.. Episcopo <placeName>Adriensis</placeName> et .. preposito Lubicensis ac
+          scolastico <placeName>Revaliensis</placeName> ecclesiarum.</p>
+            <p>Vite ac morum honestas (aliaque laudabilia probitatis et virtutum merita, super quibus
+          apud nos fidedigno commendaris testimonio nos inducunt ut tibi reddamur ad gratiam
+          liberales).</p>
+            <p>Exhibita siquidem nobis nuper pro parte .. <persName>Nicolai Wolff</persName> canonici
+          ecclesie <placeName>Slesvicensis</placeName> petitio continebat, quod olim archidiaconatu
+          ecclesie predicte, quem quondam <persName>Ericus Dozenrode</persName> obtinebat, per
+          obitum ipsius Erici ... vacante idem Nicolaus vigore <cit>
+                  <quote>quarundam aliarum (!) litterarum nostrarum</quote>
+                  <bibl>Dette brev (af 29. jan. 1418, jf. <ref target="14241108002">DD 1424. 8. nov., nr.
+                14241108002</ref>) kendes ikke</bibl>
+               </cit>, per quas nos dudum sibi de canonicatu cum reservatione prebende ac dignitatis,
+          personatus vel officii ecclesie predicte, etiam si ad dignitatem, personatum,
+          administrationem vel officium hujusmodi consuevisset quis per electionem assumi, eique
+          cura immineret animarum, necnon beneficii ecclesiastici cum cura vel sine cura cum
+          hujusmodi dignitate aut personatu vel officio compatibilis ad collationem ... prepositi,
+          decani, scolastici, thesaurarii, cantoris, celerarii et capituli ... ecclesie
+            <placeName>Hamburgensis</placeName> Bremensis diocesis, etiam ratione dignitatum,
+          personatuum vel officiorum, quas, quos seu que in eadem Hamburgensi ecclesia obtinent,
+          communiter vel divisim pertinentis, etiam si beneficium hujusmodi canonicatus et major vel
+          minor prebenda in dicta ecclesia Hamburgensi, in qua majores et minores sunt prebende,
+          existeret, vacantium tunc vel vacaturorum, gratiose providimus, archidiaconatum predictum,
+          qui dignitas in dicta ecclesia Slesvicensis non tamen major post pontificalem existit, sic
+          vacantem infra tempus legitimum acceptavit et de illo sibi obtinuit provideri, dictumque
+          archidiaconatum litterarum necnon acceptationis et provisionis predictarum vigore extitit
+          pacifice assecutus.</p>
+            <p>Cum autem, sicut eadem petitio subjungebat, idem Nicolaus dubitet acceptationem et
+          provisionem predictas ex certis causis viribus non subsistere, et, sicut accepimus,
+          archidiaconatus predictus adhuc, ut prefertur, vacare noscatur, nos volentes prefato
+          Nicolao ... gratiam facere specialem ipsumque in dicta ecclesia Slesvicensi, cujus
+          canonicus, ut prefertur, actu prebendatus existit, amplius honorare discretioni vestre per
+          apostolica scripta mandamus, quatinus vos vel duo aut unus vestrum ... archidiaconatum
+          predictum, cui cura imminet animarum [fructus 4 mr. arg. puri], .. dummodo tempore date
+          presentium non sit in eo alicui specialiter jus quesitum ..., eidem Nicolao auctoritate
+          nostra conferre curetis ..... non obstantibus, quod idem Nicolaus, ut asserit, canonicatum
+          et prebendam Slesvicensis predicte [fructus 5 mr. arg.] obtinet, et nos dudum sibi de
+          canonicatu et media prebenda <placeName>Osiliensis</placeName>, in qua majores, medie et
+          minores sunt prebende, ecclesiarum [fructus 8 mr. arg. similis] necnon de alio beneficio
+          cum cura vel sine cura, etiam si in <placeName>Lubicensi</placeName>, in qua majores,
+          distincte ac salinares et minores nuncupate cum majori aut distincta vel salinari, aut in
+          Hamburgensi ecclesiis predictis, in qua, ut prefertur, minores ac etiam majores prebende
+          similiter fore noscuntur, cum majori aut minori prebenda canonicatus foret, ad collationem
+          .. <app>
+                  <lem>episcoporum</lem>
+                  <rdg wit="#Aa">
+                     <q>episcopi</q> Aa</rdg>
+               </app> Lubicensis et Hamburgensis predictorum necnon .. Lubicensis ecclesiarum hujusmodi
+          prepositorum, decanorum, cantorum, custodum ac capitulorum ... communiter vel divisim
+          pertinente, vacante tunc vel vacaturo, concessimuss gratiose provideri.</p>
+            <p>Volumus autem, quod, quamprimum idem Nicolaus vigore presentium dictum archidiaconatum
+          fuerit pacifice assecutus, prefate alie nostre littere et processus habiti per easdem et
+          quecunque inde secuta quo ad dignitatem vel personatum aut officium hujusmodi necnon
+          hujusmodi concessionis gratia de dicto alio beneficio sibi facta et quecunque inde secuta
+          quo ad beneficium cum cura dumtaxat sint cassa et irrita nulliusque roboris vel
+          momenti.</p>
+            <p>Et insuper exnunc irritum decernimus et inane, si secus super hiis a quocunque quavis
+          auctoritate scienter vel ignoranter contigerit attemptari.</p>
+            <p>Datum <placeName>Rome apud s. Mariammajorem</placeName> 6. id. nov. anno 7.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

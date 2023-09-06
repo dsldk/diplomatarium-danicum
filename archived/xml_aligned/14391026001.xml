@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">236</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14391026001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 3320-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 23.9 × 13.7 (plica: 3). <ab>Påskrift på brevets bagside: <q>Skiptæbr<ex>e</ex>ff paa jeen gaard i Nørre
+        Jernlosæ ok jen i Hielmsølillæ so<ex>m</ex> her Steen Basse fick aff
+      clost<ex>er</ex>
+                           </q>
+                        </ab>1. Segl af rødt i ufarvet voks i perg.rem tilhørende Sten
+        Basse, AS C lxviii 3
+                              . 2. Perg.rem. Ifølge Rep. har dette segl tilhørt Oluf Pedersen (Godov), AS C
+        lviii 15. 3. Seglsnit. 4. Seglsnit. Ifølge Langebeks Diplomatarium har dette segl tilhørt nogen i
+        slægten Grubbe. 5. Seglsnit. </physDesc>
+                     <history>
+                        <ab>Registreret i København. Rigsarkivet. De ældste arkivregistraturer. Registratur
+      over sankt Agnete klosters breve i Roskilde, trykt i ÆA IV 286 E. 6. med år
+      1449</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>afskrift i DSL's arkiv (Gammeldanske Diplomer 3. rk. II 181-82)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 7042</bibl>
+               <bibl>Reg. *5242</bibl>
+               <bibl>Udt. i Nye Danske Magazin VI 267</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1439-10-26"
+                  notBefore="1439-10-26"
+                  notAfter="1439-10-26"
+                  cert="high">1439. 26. oktober</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Sten (Tygesen) Basse (af Tybjerg), ridder, skifter en gård med fæster i Nørre Jernløse med
+      sankt Agnete kloster i Roskilde mod klosterets gård i Hjelmsølille. Hvis gården i Nørre
+      Jernløse bliver dem lovligt afvundet, forpligter Sten Basse sig til at godtgøre dem med en
+      tilsvarende gård eller at give dem deres egen gård igen. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-17" who="#pbh">Filen etableret af #pbh 2013-12-17. </change>
+         <change when="2020-05-12" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2020-05-12. </change>
+         <change when="2021-05-28" who="#smb">2. korrektur af #smb 2021-05-28. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Jek <persName>Steen Basse</persName> ridder kæ<ex>n</ex>nes meth th<ex>et</ex>tæ mit vpnæ
+      b<ex>re</ex>ff ath hauæ skyft meth heth<ex>e</ex>rlege oc renliuede kloster io<ex>m</ex>frwær
+      i sancte Agnes closter i <persName>Roskild</persName> een gard meth gardseden som the sculæ
+      hauæ aff megh som ligger i <placeName>Nørræiærløsæ</placeName> i
+        <placeName>Mierløh<ex>e</ex>r<ex>et</ex></placeName> hwilken som
+        <persName>Seuerin</persName> nw i boor meth <app><lem>all</lem><rdg wit="#A">først skrevet <q>aall</q>; det indledende <q>a</q> er herefter blevet slettet
+          med en prik under tegnet, A</rdg></app> syn tilleggelsæ entid vndæn tageth . wot oc thiurth hwath th<ex>et</ex> helst nefnes
+      scal for een th<ex>e</ex>rres gard som jek i geen scal hauæ liggæ<ex>n</ex>d<ex>es</ex> i
+        <placeName>Hielmsølillæ</placeName> i <placeName>Thydebers sogæn</placeName> i
+        <placeName>Thydebersh<ex>e</ex>r<ex>et</ex></placeName> som fordhom <persName>Jep
+        Jenss<ex>øn</ex></persName> i bodhe meth allæ syn tilleggelsæ eyntæ vndæ<ex>n</ex> tagedh
+      hwath th<ex>et</ex> helst nefnes scal . ♦</p>
+            <p n="a#2" xml:space="preserve">Ok tilbinder iek megh for<hi rend="sup">de</hi>
+      <persName>Steen Basse</persName> ridder och minæ rætte arwingæ the same for<hi rend="sup">de</hi> hed<ex>e</ex>rlege closter <app><lem>ju<ex>m</ex>fr[w]ær</lem><rdg wit="#A">utydeligt, A</rdg></app> och th<ex>e</ex>rres
+      æftærko<ex>m</ex>mær<ex>æ</ex> ath fry oc hemlæ forsc<ex>re</ex>fnæ gard meth gardsæden i
+        <placeName>Ierløsæ</placeName> eftær lans low i swa mathæ ath gingæ th<ex>e</ex>n gard thøm
+      af æll<ex>e</ex>r th<ex>e</ex>rres æftærko<ex>m</ex>mær<ex>æ</ex> meth lans low tha scal iek
+      æll<ex>e</ex>r minæ rættæ arwingæ th<ex>ø</ex>m æll<ex>e</ex>r th<ex>e</ex>rres
+      æft<ex>ær</ex>ko<ex>m</ex>mæræ een a<ex>n</ex>næn gard i geen wedh<ex>e</ex>r leggæ saa goodh
+      aff rænte som th<ex>e</ex>n tilforn war æll<ex>e</ex>r och th<ex>e</ex>rres eyæn gard i geen
+      ath skikke hwilken som jek aff them fek . ♦</p>
+            <p n="a#3" xml:space="preserve">In cuius rei testimonium sigillum meum una cum sigillis nobilium virorum videlicet
+        <persName>Olaui Petri</persName> et <persName>Andree Petri</persName> fratrum ac eciam
+        <persName>Petri Grubbe</persName> in <placeName>Alseff</placeName> necnon <persName>Jahan
+        Biornss<ex>øn</ex></persName>
+      <app><lem>presentibus</lem><rdg wit="#A">skrevet i venstre margin, A</rdg></app> est appensum ♦</p>
+            <p n="a#4" xml:space="preserve">Datum <placeName>Roskildis</placeName> anno domini m<hi rend="sup">o</hi>cdxxx<hi rend="sup">o</hi>ix feria secunda ante festum Symonis et Iude sanctorum apostolorum ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

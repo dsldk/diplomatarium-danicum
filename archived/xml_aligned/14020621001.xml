@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="th">
+                  <persName>
+                     <forename type="first">Thomas</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>. Translation, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2010</date>
+            <idno type="dd">14020621001</idno>
+            <idno type="isbn">nil</idno>
+            <idno type="dd-4">02-088-2</idno>
+            <idno type="dd-4-lbnr">403</idno>
+            <idno type="dd-4-kartotek">88,2</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2011, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>London</settlement>
+                        <repository>Public Record Office</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>E 403/573</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>I margin til venstre: <q>Archidiaconus Roskilden<ex>sis</ex>
+                           </q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+                  <!-- London. Public Record Office. E 403/573. I marg. til venstre
+                  Archidiaconus Roskildensis. Ifølge en overskrift i Issue Rolls er udbetalingen
+                  sket 1402. 21. juni. Chaplais, English Medieval Diplomatic Practice II 828 nr. 417
+                  - J.H. Wylie, History of England under Henry the Fourth, I 258 n. 2 (med dato 20.
+                  juni). -->
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Chaplais, English Medieval Diplomatic Practice II 828 nr. 417 - J.H. Wylie, History of England under Henry the Fourth, I 258 n. 2 (med dato 20. juni)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-4</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date cert="high" notBefore="1402-06-21" notAfter="1402-06-21"> 1402. 21. juni</date>
+            <placeName cert="high">empty</placeName>
+         </creation>
+         <abstract>
+            <ab>50 mark udbetales til Peder Lykke, ærkedegn i Roskilde og ambassadør for kongen af Danmark, Sverige og Norge. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-02-02T14:23:58.583+01:00" who="#th"> Filen etableret af #th
+            2011-02-02T14:23:58.583+01:00</change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p>Petro archidiacono Roskyldensi ambassiatori regis Swecie Dacie et
+               Norwegie in denariis sibi liberatis per manus proprias <app>
+                  <lem>recepienti</lem>
+                  <rdg>= recipienti</rdg>
+               </app> denarios de uenerabili patre episcopo Bathoniensi thesaurario Anglie apud
+               manerium regis de Kenyngtona in persolucionem l marcarum quas dominus rex sibi
+	       liberare mandauit de dono regis redeunti uersus partes predictas per <cit>
+                  <quote>breue</quote>
+                  <bibl>kendes ikke</bibl>
+               </cit> de priuato
+               sigillo inter mandata de hoc termino xxxiii libre vi solidi viii denarii. </p>
+         </div>
+         <div xml:lang="da">
+            <p>Ærkedegnen i Roskilde. Til Peder, ærkedegn i Roskilde, ambassadør for kongen af
+               Sverige, Danmark og Norge i penge udbetalt til ham, idet han med egen hånd modtog
+               pengene af den ærværdige fader biskoppen af Bath, the treasurer of England, ved
+               kongens gård i Kenington til fuld betaling af 50 mark, som hr. kongen ved et
+               befalingsbrev under the Privy Seal1, (som findes) blandt mandaterne fra denne termin,
+               har befalet at give ham som en gave fra kongen, når Peder vendte tilbage til de
+               førnævnte egne: 33 pund 6 skilling og 8 denarer. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

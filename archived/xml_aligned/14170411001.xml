@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">4501</num>, paragraphs: <num n="paragraphs">82</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14170411001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>receshåndskrift</collection>
+                        <idno>fol. 69-83</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Overskrift: <q>In nomine Domini, amen</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. I:6, nr. 385, p. 344-352</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Hanserec. l. l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-04-11"
+                  notBefore="1417-04-11"
+                  notAfter="1417-04-30"
+                  cert="high">1417. 11. - 30. april</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Reces af hansestædernes møde i København. Recessen indeholder bl.a. følgende: </ab>
+            <ab>6-7) Den 15. april 1417 beder de hanseatiske rådsudsendinge kong Erik om at bekræfte
+      hansestædernes privilegier samt om frigivelse af de hanseatiske handelsskibe, som kongen har
+      tilbageholdt i sine riger. </ab>
+            <ab>8) Den 16. april 1417 svarer kong Erik, at han grundet sin forestående kampagne mod de
+      holstenske herrer foreløbigt ikke kan udlevere de pågældende skibe. </ab>
+            <ab>10-14) Derefter spørger de hanseatiske rådsudsendinge kong Erik, om han fortsat vil
+      respektere de privilegier, som hans forfædre har givet hansestæderne. Da kong Erik bekræfter
+      dette, klager de hanseatiske rådsudsendinge over en række brud på deres privilegier begået af
+      kong Eriks mænd. Derefter tilbyder kong Erik at hidkalde sine fogeder, således at de kan høre
+      samt svare på rådsudsendingenes klager. </ab>
+            <ab>15) Kong Erik derimod klager over, at de holstenske herrer på uretmæssig vis har erobret
+      Tønder fra ham, mens han forhandlede om en fred med dem. </ab>
+            <ab>17-20) Den 17. april afleverer rådsudsendingene deres fælles klageskrifter til kong Erik.
+      Endvidere afleverer Wismars udsending de klager, som de hanseatiske købmænd i Dragør har til
+      kong Eriks mænd. Derefter beder kong Erik om en afskrift af alle de privilegier, som
+      hansestæderne har i kongens riger. </ab>
+            <ab>21-24) Den 18. april afleverer rådsudsendingene afskriften af hansestædernes privilegier
+      samt et udkast til bestemmelser om frihed for strandret og bjergelønnens størrelse til kong
+      Eriks råd. Imidlertid kræver kongens råd, at hansestæderne indgår en traktat med kong
+      Erik. </ab>
+            <ab>25 og 27) Den 18. april om aftenen vender kongens råd tilbage til dette emne. Når den
+      føromtalte traktat er kommet i stand, vil alt andet kunne ordnes efter hansestædernes behag.
+      Men såfremt traktaten ikke kommer i stand, vil kong Erik ikke længere kunne respektere
+      hansestædernes privilegier. Rådsudsendingene protesterer herimod, og erklærer, at de er sikre
+      på, at kong Erik vil respektere deres privilegier. Dog håber de ikke, at kongen vil indskrænke
+      privilegierne. </ab>
+            <ab>26 og 28) Kongens råd spørger derefter om, hvilke hansestæder der skal være med i traktaten.
+      Hertil svarer rådsudsendingene, at det er hansestædernes opfattelse, at alle de hansestæder,
+      som er nævnt i privilegierne, skal være med i traktaten, såfremt disse ønsker det, og
+      endvidere skal deres privilegier ikke formindskes, såfremt de ikke ønsker at være med i
+      traktaten (§§ . </ab>
+            <ab>31) Den 19. april meddeler hr. Erik (Segebodsen) Krummedige, at kong Erik har hidkaldt alle
+      sine fogeder, således at de kan få rådsudsendingenes klager at høre. Dog er det kongens
+      opfattelse, at man skal begynde med forhandlingerne om traktaten, eftersom alt andet vil kunne
+      ordnes, når traktaten er kommet i stand. </ab>
+            <ab>32-36) Efter at man er blevet enig om, at begge parter skal fremlægge et traktatudkast,
+      lader begge parter deres udkast læse højt. Hansestædernes udkast lægger op til, at traktaten
+      er tidsbegrænset, og hertil bemærker hr. Erik Krummedige, at hansestædernes privilegier også
+      bør være tidsbegrænsede, hvis traktaten skal være det. </ab>
+            <ab>37) Den 20. april beder rådsudsendingene om allerede nu at få hansestædernes privilegier
+      bekræftet, således at de bedre kan tale for en traktat med kong Erik ved det hansemøde, som
+      skal finde sted den 20. maj 1417. </ab>
+            <ab>41) Kong Eriks råd ønsker til gengæld, at hansestæderne bliver ved det løfte om at bistå
+      kong Erik, som de har afgivet på Lollands albue. </ab>
+            <ab>42) Rådsudsendingene erklærer hertil, at de ikke er bekendt med et sådant løfte, men at de
+      meget gerne vil drøfte dette med hansestædernes råd, når de mødes den 20. maj 1417, såfremt
+      kongens råd altså måtte ønske det. </ab>
+            <ab>43-44) Derefter enes man om, at fire personer fra hver side i fællesskab skal udarbejde en
+      fælles traktattekst. Derefter gentager rådsudsendingene deres anmodning om at få frigivet de
+      hanseatiske skibe, som kong Erik har tilbageholdt. </ab>
+            <ab>45-46) Da de otte personer, som skal udarbejde den fælles traktattekst, mødes, drøftes endnu
+      engang hansestædernes privilegier samt de hanseatiske købmænds klager. Kong Eriks fire mænd
+      ønsker imidlertid, at der først opnås enighed om et udkast til traktaten og derefter om nye
+      privilegier til hansestæderne. De fire rådsudsendinge slår imidlertid på, at det særligt er af
+      hensyn til de hansestæder, som er nævnt i privilegierne, men som ikke ønsker at være med i
+      traktaten, at spørgsmålet om de nye privilegier må ordnes først. </ab>
+            <ab>47-48) Den 21. april medbringer kong Eriks fire mænd et nyt udkast til traktaten. Den 22.
+      april afleverer de fire rådsudsendinge deres modudkast. Begge udkast skal rådsudsendingene
+      aflevere til hansestædernes råd ved mødet den 20. maj 1417. </ab>
+            <ab>49)Samme dag bliver de hanseatiske købmænds klager læst højt for kong Eriks skånske fogeder,
+      og herefter svarer fogederne på disse klager. </ab>
+            <ab>50) Den 23. april udarbejdes et udkast til de nye privilegier. </ab>
+            <ab>51-53) Den 26. april gør rådsudsendingene indsigelser mod de artikler, som strider mod de
+      gamle privilegier. Endvidere benægter de skånske fogeder og toldere de misforhold, som de
+      hanseatiske købmænd har klaget over, særligt de misforhold, som de hanseatiske købmænd i Malmø
+      har klaget over. I forlængelse heraf offentliggør kong Eriks råd en liste over overgreb begået
+      af hanseatiske købmænd i kong Eriks riger. Hertil svarer rådsudsendingene, at de skånske
+      fogeder selv burde være i stand til at forsvare sig mod sådanne overgreb, som kong Eriks råd
+      nævner, men at rådsudsendingene vil drøfte denne sag med hansestædernes råd. </ab>
+            <ab>Derefter kalder kong Erik rådsudsendingene i audiens og lader her hr. Erik Krummedige
+      fortælle dem, at kongen grundet sin kærlighed til hansestæderne har ofret megen tid og energi
+      på dem, uden at han har set noget bevis på lignende kærlighed fra deres side. Ikke desto
+      mindre ønsker kong Erik stadig af kærlighed til hansestæderne at indgå en traktat med dem samt
+      komme dem i møde, hvad angår deres klager. Derefter sender kong Erik alle medlemmer af sit råd
+      - med undtagelse af hr. Erik Krummedige - bort og forhandler videre med rådsudsendingene. </ab>
+            <ab>55-57) Da de har forhandlet et stykke tid, hidkalder kong Erik atter sit råd og spørger i
+      rådets tilstedeværelse, om hansestæderne stadig ønsker at bistå kong Erik, således som de har
+      lovet ham, da de var samlet på Lollands albue. </ab>
+            <ab>58-61) Hertil svarer rådsudsendingene endnu en gang, at de ikke har nogen erindring om et
+      sådant løfte. Dog vil de drøfte denne sag med hansestædernes råd ved mødet den 20. maj
+      1417. </ab>
+            <ab>64-65) Den 27. april enes man om, at rådsudsendingene skal tage de to traktatudkast med sig
+      samt udkastet til de nye privilegier. Kong Erik ytrer i den forbindelse ønske om at sende
+      Ficke v. Vitzen med dem til hansemødet. </ab>
+            <ab>72) Den 28. april fremlægges udkastene i to eksemplarer. Det ene eksemplar modtager kong
+      Erik, det andet eksemplar modtager rådsudsendingene. </ab>
+            <ab>73) Derefter gentager rådsudsendingene deres anmodning om at få udleveret de hanseatiske
+      skibe, som kong Erik har tilbageholdt, men denne anmodning afvises atter. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2020-11-20" who="#smb">1. korrektur af #smb 2020-11-20. </change>
+         <change when="2021-01-18" who="#smb">2. korrektur af #smb 2021-01-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Anno Domini 1417 pasche domini nuncii consulares civitatum: de <placeName>Lubeke</placeName>
+      <persName>Conradus Brekewold</persName>, <persName>Johannes Crispin</persName> et
+        <persName>Tidemannus Steen</persName>; de <placeName>Rostok</placeName>
+      <persName>Olricus Grulle</persName>; de <placeName>Stralessundis</placeName>
+      <persName>Conradus Biscop</persName> et <persName>Johannes Burowe</persName>; de
+        <placeName>Luneborg</placeName>
+      <persName>Hinricus Viscule</persName>; de <placeName>Wismaria</placeName>
+      <persName>Gherardus Belowe</persName>; de <placeName>Gripeswolde</placeName>
+      <persName>Hinricus Rubenowe</persName> et <persName>Nicolaus Belowe</persName>, in
+        <placeName>Copenhaven</placeName> ad placita fuerunt congregati et infrascripta
+      pertractaverunt negocia.</p>
+            <p n="a#2" xml:space="preserve"><supplied>1</supplied> Int erste beghunden de vorscreven radessendeboden der stede mit dem
+      heren koninge to deghedingende des donredages na paschen, alse dosulves de radessendeboden mit
+      sinen gnaden ghegeten hadden, unde spreken int erste umme de summen penninge, alse 5000 mark
+      Lubesch etcetera, de de here koning wedder gelovet und gesecht hadde to ghevende dem copmanne
+      to Lubeke, alse dat de radessendeboden mit sinen gnaden ghehandelt hadden in dem somere negest
+      vorleden to dem <placeName>Lalandes Ellenbogen</placeName> in dem holke, biddende hochliken
+      sine gnade, dat he sodane summen penninge, alse de cedele van em ghegeven innehold, jo den
+      borgeren to <placeName>Lubeke</placeName> wedder keren und gheven wolde, alse de sulve sine
+      gnade den steden gesecht hadde.</p>
+            <p n="a#3" xml:space="preserve"><supplied>2</supplied> Hir up na besprake de here koning antworde, dat em nicht vordachte, de
+      summe so grot to wesende; men sinen gnaden allene to synne were de summe 2600 mark, welke he
+      hern <persName>Tidemanne Stene</persName> und hern <persName>Ditmere van Thunen</persName>
+      vorwiset hadde in dem herveste, van hern <persName>Axel Petersen</persName> uptoborende, dat
+      se doch do tor tiit stan leten, wente de summe nicht ens en droghen. Jodoch sede de here
+      koning, dat he des den steden und sinem rade gerne horen wolde bet so langhe, dat se sik
+      anders dar up vordachten, und wolde en gentzliken des nicht enthoren.</p>
+            <p n="a#4" xml:space="preserve"><supplied>3</supplied> Hir spreken an mit mannigerleye reden des heren koninges rad mit den
+      radessendeboden, doch konden se nicht ens dregen; jodoch wolden se in beydent siiden dar up
+      denken bet des andern daghes.</p>
+            <p n="a#5" xml:space="preserve"><supplied>4</supplied> Ok so hadden de radessendeboden, alse de van Lubeke und van dem
+        <placeName>Sunde</placeName>, de vorgenante cedelen, dar de degedinghe inne begrepen weren,
+      de summe geldes weddertogevende, alse vor screven is. Dar up de van
+        <placeName>Lubeke</placeName> lesen leten enen openen breff van den van
+        <placeName>Hamborg</placeName> an den heren koning ghegeven, sprekende geliik der cedelen
+      des heren koninges, dar an se ere witlicheit gescreven hadden.</p>
+            <p n="a#6" xml:space="preserve"><supplied>5</supplied> Vortmer beden de heren radessendeboden den heren koning, dat sin gnade
+      to sik neme de Bergervarer und de Engelschen, und de in erem rechten vorscheden wolde, wente
+      dat lange gestan hedde und groten schaden dem copmanne to <placeName>Bergen</placeName> dede;
+      welk de here koning vorlede bet des andern daghes.</p>
+            <p n="a#7" xml:space="preserve"><supplied>6</supplied> Ok so begerden und beden de radessendeboden den heren koning umme
+      confirmacie der privilegien des copmans in sinen riiken, welk he ok vorlede bet des andern
+      daghes.</p>
+            <p n="a#8" xml:space="preserve"><supplied>7</supplied> Ok so spreken de radessendeboden umme de rosteringhe der schepe und
+      lude, de de here koning in sinen riiken rosteret heft, dat he ok vorlede bet des andern
+      daghes.</p>
+            <p n="a#9" xml:space="preserve"><supplied>8</supplied><app><lem>Des frigdages in dem passchen</lem><rdg>dvs. 16. april</rdg></app> ghingen de vorgenanten radessendeboden to dem heren koninge. Dar de here koning anhoff
+      und sede: Leven frunde, alse gi uns gisterne wol to kennende gheven van der besate der schepe,
+      de wii in unsen riken und landen gedan hebben, begherende unde biddende van uns, dat wii de
+      rosteringhe und vorbot afdon wolden; welk uns, leven frunde, nene wiis en steit to donde, went
+      unsem rade so vele geld, alse uns; und ok alse sines dinges nu gelegen were und en islik wol
+      merken mochte, so moste he sik sterken mit perden, vitallien und korne etcetera teghen sine
+      viende; dar umme stonde eme des nicht overtogevende; jodoch wan he de reyse gedan hedde, so
+      wolde he gerne don, alse he vor ghedan hadde, und erloven ud sinen riken udtogevende, wes
+      siner gnaden manne und undersaten to den steden bringen mochten, so se er ghedan hebben.</p>
+            <p n="a#10" xml:space="preserve"><supplied>9</supplied> Vortmer so weren dar de olderlude van <placeName>Berghen</placeName>,
+      alse <persName>Hermen Oldendorp</persName>, <persName>Titeke van Stade</persName> und
+        <persName>Hermen</persName> etcetera, de dar vor dem heren koninge und den radessendeboden
+      der stede vorclarende und vorluden leten, wo dat se lange tiid schelinghe gehat hadden mit den
+      Engelschen copmannen to <placeName>Linden</placeName> wesende etcetera. Dar sulves ok
+      jegenwardich weren de Engelschen. Dar mank velem besprekende und berade de here koning de
+      radessendeboden bat, dat se eme ere anwisinge gheven und ere guddunkent seggen wolden, wo men
+      se vorscheden mochte. Dar de radessendeboden hochliken mede to spreken. Int leste de here
+      koning beyde partie fraghede, oft se vulmechtich weren van eres copmans wegene rechtes,
+      fruntscop und mynne. Dar to antwerden de Bergervarer, dat se alles mechtich weren; allene de
+      Engelschen dat vorleden und beden ere berad bet des andern daghes.</p>
+            <p n="a#11" xml:space="preserve"><supplied>10</supplied> Vortmer frageden den heren koning de radessendeboden der vorbenomeden
+      stede, oft sin gnade by macht sodane privilegie, alse siner gnaden vorvaren den steden und dem
+      ghemenen copmanne geven hadde, holden wolde.</p>
+            <p n="a#12" xml:space="preserve"><supplied>11</supplied> Dar to de here koning antwerde, dat he de privilegie so holden wolde
+      unde <app><lem>wolde</lem><rdg><q>wol</q>, Aa</rdg></app> sik dar so ane bewisen, dat de stede seen und vornemen scholden, dat he se und den
+      copman mit truwen mende.</p>
+            <p n="a#13" xml:space="preserve"><supplied>12</supplied> Dar up de radessendeboden do sine gnade berichteden, wo dat grot
+      gebrek geschen were und noch alle daghe dem copmanne in sinen riken scheghe, alse to
+        <placeName>Schone</placeName> und in andern velen sinen steden und landen, van sinen
+      vogheden und undersaten, und beden aver hochliken sine gnade, dat he dar up denken und
+      wandelen wolde.</p>
+            <p n="a#14" xml:space="preserve"><supplied>13</supplied> Dar to antwerde de here koning und bat de radessendeboden, dat men em
+      der ghebreke berichten wolde; welke gebreke de radessendeboden vor sinen gnaden und sinem rade
+      lesen leten. Alse de gelesen weren, begerede de here koning ene udscrifft der vorscreven
+      gebreke; de em ghegeven worden. Dar to he sede, dat he alle sine voghede vorboden wolde, hir
+      to komende, und den de gebreke des copmans lesen laten, und alle artikele in ere olden
+      gewonheit na inholde des <app><lem>privilegii</lem><rdg><q>privileg</q>, Aa</rdg></app> bringhen unde holden laten wolde; und sede, dat he dat ny geweten hedde, unde were eme
+      van herten let, dat de copman schaden neme.</p>
+            <p n="a#15" xml:space="preserve"><supplied>14</supplied> Aldus worden em geantwerdet de ghebreke des copmans vorscreven, welke
+      ludende sint, alse hir na gescreven steit:</p>
+            <p n="a#16" xml:space="preserve">To dem ersten so (etc. = <q><ref target="14170417001">DD 1417. 17. apr., nr.
+          14170417001</ref></q>)</p>
+            <p n="a#17" xml:space="preserve">De gebreke des copmans to dem Ellenbogen (etc. = <q><ref target="14170417002">DD. 1417. 17.
+          apr., nr. 14170417002</ref></q>)</p>
+            <p n="a#18" xml:space="preserve"><supplied>15</supplied> Vortmer so let de here koning den radessendeboden vorclaren, wo dat
+      de <placeName>hertoge van Pomeren</placeName> to den Holstenheren <persName>Otten
+        Poggewische</persName>, umme en bestant to bringende der schelinghe twisschen dem heren
+      koning und den Holsten, gesand hadde; welke de sulve Otte mit den Holsten so vere gehandelt
+      hadde, dat se eme gesecht hadden, dat se des bliven wolden by heren, alse hertogen
+        <persName>Bernde van Brunswig</persName> unde hertoge <persName>Wilhelme</persName>
+      etcetera, dem <placeName>bisschoppe van Bremen</placeName>, dem van Wenden, dem
+        <placeName>greven van Schowenborg</placeName> und dem <placeName>greven van der
+        Hoye</placeName>, und Otte dat sulven vorsoken scholde by dem heren koninge; unde dat de
+      here koning were to <placeName>Flenseborg</placeName> mit den sinen, und de Holsten to
+        <placeName>Ekelenforde</placeName> mit den <damage>eren</damage> ofte to
+        <placeName>Slezswik</placeName>, de degedinge to vatende etcetera; hir up red Otte
+      vorscreven an den heren koning und berichtede em desser sake; wor umme de here koning hern
+        <persName>Erike Krummedike</persName> und etlike andere ute sinem rade dar hen gesand hadde,
+      und hadden gement, dat vort to handelende; do missaken de Holsten der vorrede, und hadden
+      under des ene grote sammelinge, und wunnen <placeName>Tunderen</placeName>: dit clagede de
+      here koning den sendeboden, uppe dat se dat weten scholden.</p>
+            <p n="a#19" xml:space="preserve"><supplied>16</supplied> Ok bad de here koning de sendeboden, oft jenige claghebreve over sine
+      gnade in de stede qwemen uth <placeName>Flandern</placeName>, dat se sik nicht dar an keren
+      scholden, wente uthe sinen riken schepe dar besat weren; dar vor so hadde he ok en schip
+      wedder toven laten; hebbe he dat nicht mit rechte gedan, so wil he dat weddergeven.</p>
+            <p n="a#20" xml:space="preserve"><supplied>17</supplied> Des sonnavendes let de here koning vor sik vorboden de
+      radessendeboden. Do antwerden se sinen gnaden de vorscreven gebreke.</p>
+            <p n="a#21" xml:space="preserve"><supplied>18</supplied> Ok so antwerde her <persName>Gherd Below</persName>e dem heren
+      koninge de gebreke des copmans to <placeName>Drakore</placeName>.</p>
+            <p n="a#22" xml:space="preserve"><supplied>19</supplied> Do bat de here koning, dat se em wolden geven ene uthscrifft des
+      privilegii, dat se hadden; dar na mochte he seen, in wat artikelen dem copmanne to kort
+      scheghe.</p>
+            <p n="a#23" xml:space="preserve"><supplied>20</supplied> Dar to na besprake de stede antwerden, dat se eme de uthscrifft gerne
+      gheven wolden des andern dages.</p>
+            <p n="a#24" xml:space="preserve"><supplied>21</supplied> Des sondaghe morghens quasimodo geniti sande de here koning sinen rad
+      to den monneken to den radessendeboden, und beghereden to horende dat privilegium etcetera;
+      welk de stede lesen laten.</p>
+            <p n="a#25" xml:space="preserve"><supplied>22</supplied> Ok so leten de stede lesen artikele und p{uo}nte, de up des copmans
+      gud sprekende sin. Hir van beden se uthscriffte; de en gheantwordet worden. Welke artikele hir
+      na screven stan:</p>
+            <p n="a#26" xml:space="preserve">Aldusdane punte hir na volgende (etc. = <q><ref target="14170418001">DD. 1417. 18. apr., nr.
+          14170418001</ref></q>)</p>
+            <p n="a#27" xml:space="preserve">Aldus verne was <damage>dat</damage> begher<damage>en</damage>t des copmans etcetera</p>
+            <p n="a#28" xml:space="preserve"><supplied>23</supplied> Dar na spreken de vorscreven des heren koninges rad, umme de tosate
+      to makende mit dem heren koninge, dat vele gudes, nutticheit unde fromen inbringen mochte den
+      gemenen steden, mit velen andern worden; dat de stede leffliken to sik nemen, dar up to
+      sprekende.</p>
+            <p n="a#29" xml:space="preserve"><supplied>24</supplied> Hir mede brochten se dem heren koninge de uthscrifft des privilegii
+      und der artikele vorscreven und seden, dat se leffliken dar ane wolden arbeiden.</p>
+            <p n="a#30" xml:space="preserve"><supplied>25</supplied> Des sulven avendes leten des vorscreven heren koninges rad de
+      radessendeboden darsulves to den monken vorboden, unde seden, dat se leffliken dem heren
+      koninge de udscrifft geandwerdet und sinen gnaden gelesen hadden. Jodoch seden se, dat se dat
+      wolden stan laten und wolden spreken umme de sate mit dem heren koninge; wolde id sik vinden
+      mit der sate, so ginghe alle ding wol na der stede begherde. Und menden wol, wanner dat id na
+      dem rechten ghan scholde, so en konde dat privilegium nicht wol in siner macht bliven; dar se
+      doch do nicht mer van seggen wolden.</p>
+            <p n="a#31" xml:space="preserve"><supplied>26</supplied> Ok so frageden se de radessendeboden, offt men der sate vorramen und
+      eyns werden konde, wat stede se dar mede in hebben wolden.</p>
+            <p n="a#32" xml:space="preserve"><supplied>27</supplied> Hir up na besprake de radessendeboden antwerden: se hopeden, dat de
+      here koning und siner gnaden rad de privilegien vormeren und nicht vormynren wolden; ok so
+      hadden se noch sodane bewisinghe to den privilegien, dat se de wol by macht beholden wolden
+      etcetera.</p>
+            <p n="a#33" xml:space="preserve"><supplied>28</supplied> Vortmer so antwerden se to der sate: konde men der sate eyns werden
+      umme des menen copmans beste willen, so menden se wol, dat de ghemenen stede in dem privilegio
+      begrepen dar mede inne to wesende; welk doch to en stunde; we aver dar nicht inne wesen wolde,
+      dat he dat lete; men yodoch dat de sulven stede, de dar nicht mede inne weren, ere privilegie
+      und rechticheit allike wol to brukende, alse se bet her gedan hebben; unde konde men der nicht
+      eyns werden, doch so scholde alle dond uppe sik stan.</p>
+            <p n="a#34" xml:space="preserve"><supplied>29</supplied> Dar des heren koninghes rad to antwerde, dat en dar nicht an schelen
+      scholde, und de stede, de nicht mede in der sate en weren, dat de brukeden erer privilegien
+      und rechticheit, alse se aldus langhe gedan hebben.</p>
+            <p n="a#35" xml:space="preserve"><supplied>30</supplied> Hir up schededen sik de vorscreven des heren koninges rad und de
+      radessendeboden dar up, dat se in beydent siiden scholden hir hochliken up vordacht wesen bet
+      des morghens.</p>
+            <p n="a#36" xml:space="preserve"><supplied>31</supplied> Des mandages morgens na quasimodo geniti vorgadderden sik desse
+      vorscreven heren in beident siiden wedder to den monken. Dar hoff an her <persName>Erik
+        Krummedik</persName> und sede, wo dat se de privilegien und gebreke des copmans, de de heren
+      radessendeboden en gedan hadden, dem heren koninge gedan <damage>hadden</damage>, welk he
+      gelesen hadde; dar umme he alle sine voghede vorbodet hadde hir to komende, mit en to
+      sprekende umme de vorscreven des copmans breklicheit; men eme duchte wol, ghinge dat ene mit
+      der sate, so ghinghe dat andere ok wol; dar umme wolden se ersten tasten na der sate.</p>
+            <p n="a#37" xml:space="preserve"><supplied>32</supplied> Hir up na besprake de radessendeboden antwerden, dat se en vorstan
+      laten wolden ere meninghe und r{ae}m der sate, wo und in wat wiise de stan scholde; dar na
+      mochte men to enem ende mede slan.</p>
+            <p n="a#38" xml:space="preserve"><supplied>33</supplied> Dar de heren des koninges rad na besprake to antwerden, dat en nutte
+      duchte, dat men ene scrifft dar up ramede. So worden se des ens, dat se in beydent siiden ene
+      scrifft dar up ramen scholden, sunder begriip und <damage>up</damage> vorbeterent van beyden
+      partien.</p>
+            <p n="a#39" xml:space="preserve"><supplied>34</supplied> Aldus worden vorbodet des mandages de vorscreven radessendeboden
+      wedder up dat slot to komende. Dar dosulves des heren koninges rad, alse bisschop
+        <persName>Bo</persName>, de <placeName>bisschop van Ripen</placeName>, her
+        <persName>Anders</persName> unde her <persName>Erik</persName> ergenant etcetera seden, alse
+      se van en gescheden weren, so hadden se ener scrifft geramet, alse de sate toghan scholde, dat
+      se de horen wolden; welke scrifft gelesen wart etcetera.</p>
+            <p n="a#40" xml:space="preserve"><supplied>35</supplied> Do desse scrifft aldus gelesen was, antworden hir to de
+      radessendeboden na besprake, alse se dar van gescheden weren, so hadden se ok ener scrifft
+      vorramet, und beghereden, se de ok to horende.</p>
+            <p n="a#41" xml:space="preserve"><supplied>36</supplied> Hir na under velen reden sede her Erik, dat se de scrifft wol gehort
+      hedden, unde wolden de gerne to sik nemen; dat de radessendeboden de ere ok nemen, und dat se
+      wol dar up vordacht weren bet des morghens; und se horeden wol, dat de stede menden, de sate
+      to makende to jaren, und se menden se ewich; jodoch na lude mende he wol, scholde de sate stan
+      to jaren, dar na menden se ok de privilegien to makende; doch scholden de radessendeboden dar
+      up denken bette des andern daghes.</p>
+            <p n="a#42" xml:space="preserve"><supplied>37</supplied> Des dinxedages morgens des heren koninges rade und der vorscreven
+      stede radessendeboden quemen wedder to den monneken. Dar leten de radessendeboden vorluden, wo
+      dat se uppe de ergenante sate gedacht hadden; jodoch boven alle beden se, dat de here koning
+      ersten confirmeren und up dat nye ere privilegien bevestigen und dem copmanne van Lubeke de
+      summe geldes, de sin gnade en gesecht hadde weddertoghevende, keren unde richten wolde; wan
+      dat geschen were, so mochten se vorder spreken umme de sate, uppe dat de radessendeboden dar
+      sake to hebben unde desto leffliker den andern steden, de to der dachvart, de wesen schal
+      ascensionis Domini, inbringen moghen. Dit bogereden se an den heren koning to bringende; alse
+      se deden.</p>
+            <p n="a#43" xml:space="preserve"><supplied>38</supplied> Ok so weren dar de Bergervarer und de Engelsschen. Dar sik de
+      vorscreven Bergervarer vorboden, ere, rechtes, mynne und fruntscop bii dem heren koning und by
+      den radessendeboden der stede to blivende. Des doch de Engelschen weygerden, und wolden dat
+      setten uppe recht.</p>
+            <p n="a#44" xml:space="preserve"><supplied>39</supplied> Dar na quemen des heren koninges rad ergenant wedder to den
+      radessendeboden, und brochten wedder to en, dat se alle ding mit dem heren koninge overwegen
+      und sinen gnaden borichtet hedd<damage>en</damage>.</p>
+            <p n="a#45" xml:space="preserve"><supplied>40</supplied> Ok leten se wol vorluden, wo de here koning grote koste und arbeit
+      umme der stede beste willen gedan hadde, jodoch de stede sik bii eme nicht bewiiseden, alse se
+      wol scholden, mit vele mer worden; aver dat, wes de here koning den steden gesecht hedde, dat
+      wolde he en wol holden.</p>
+            <p n="a#46" xml:space="preserve"><supplied>41</supplied> Vorder seden se, wo de here koning en bevalen hadde, to den
+      radessendeboden to wervende, se biddende, dat se by sinem rechten bliven wolden, nach dem dat
+      sinen gnaden to dem Lalandes Ellenbogen gesecht were, an weme des broksam worde, des de stede
+      mechtich weren to rechte, by des hulpe wolden se bliven; des hadde de here koning vaken unde
+      vele sik vorboden, unde sines rechtes noch vorbode, bii den steden to blivende; dar umme bede
+      de here koning se, by sinem rechte to blyvende, alse eme gesecht were.</p>
+            <p n="a#47" xml:space="preserve"><supplied>42</supplied> Hir up na besprake antwerden de radessendeboden, dat en dat unwitlik
+      were, oft sinen gnaden dar van wes gesecht were; jodoch so wolden se gerne des vordacht wesen,
+      und dat bringen to dem daghe, de de wesen schal ascensionis Domini.</p>
+            <p n="a#48" xml:space="preserve"><supplied>43</supplied> Vorder mang velen reden des heren koninges rad mit den
+      radessendeboden der stede worden overen, dat se koren 4, alse van des koninges weghen bisscop
+        <persName>Boo</persName>, her <persName>Anders Jepsen</persName>, her <persName>Jesse
+        D{ue}ve</persName>, her <persName>Erike</persName> und <persName>Vicken van
+        Vitzen</persName>, und van der stede wegene hern <persName>Corde Brekewolde</persName>, hern
+        <persName>Tidemanne Sten</persName>, hern <persName>Corde Biscoppe</persName> unde hern
+        <persName>Rubenowen</persName>, welke vorramen scholden ener andern scrifft der sate, de
+      redelik were, an beydent siiden. Welk doch de stede annameden, jedoch dat alle ding open stan
+      scholde, dar umme to rugghe uppe dem vorscreven daghe mit den steden to sprekende.</p>
+            <p n="a#49" xml:space="preserve"><supplied>44</supplied> Ok beden de radessendeboden hochliken, den heren koning to biddende,
+      dat sin gnade loes gheven wolde de coplude und schepe, de dar rosteret weren, wente de copman
+      des groten schaden neme; welk se an den heren koning gerne bringen wolden.</p>
+            <p n="a#50" xml:space="preserve"><supplied>45</supplied> Aldus quemen tosamende de vorscreven des heren koninges raed unde
+      radessendeboden der stede, de dar to gekoren weren. Dar gelesen wart dat privilegium unde ok
+      de vorscreven ghebreke des copmans. Dar des heren koninges rad mank velen worden sede, dat se
+      alle ding uppe reddelicheit unde na olden privilegien setten unde holden wolden. Unde ald{uo}s
+      annameden des heren koninges raed, ener anderen scrifft der sate <damage>to</damage> ramende;
+      unde wanner men des ens geworden were, so wolden se vort spreken unde ramen nyer privilegien,
+      de de here koning geven scholde den steden, de in der zate mede wesen wolden.</p>
+            <p n="a#51" xml:space="preserve"><supplied>46</supplied> Hir up de radessendeboden vorantwerden unde beden des heren koninges
+      rad, dat se ere beste dar to deden: wolde en de here koning nye privilegie gheven, de vor se
+      unde den copman weren, dar beden se hochliken umme, jodoch de privilegien nicht to vorvange
+      den olden privilegien to wesende, und ok de jenne, de nicht mede in der sate wesen wolden, dat
+      de doch brukeden alle erer rechticheit und privilegien, de se aldus lange ghebruket
+      hebben.</p>
+            <p n="a#52" xml:space="preserve"><supplied>47</supplied> Des midwekens weren de radessendeboden up dem slote; dar des heren
+      koninges raed en lesen leten ene andere ramynge der sate. Welke raminge de radessendeboden to
+      sik nemen, dar umme to sprekende, unde ere gudd{ue}nkent unde dar to ere ramynge dar na to
+      settende dar enteghen.</p>
+            <p n="a#53" xml:space="preserve"><supplied>48</supplied> Des donrdages quemen desse vorscreven wedder tosamende; dar de
+      radessendeboden ere raminge teghen des heren koninges <damage>raed</damage> gesat hadden, unde
+      de vor en lesen leten. Welke beiden ramynge des heren koninges raed an siner gnaden
+      jeghenwardicheit brochten unde gesloten worden in desser nascreven wise, dat de
+      radessendeboden de beiden scriffte, sunder begripp in beiden siiden, bringen unde mit sik
+      nemen wolden to deme daghe, alse vor screven is, unde dar mit den anderen steden unde mit eres
+      rades kumpanen v{oe}rder dar umme to sprekende.</p>
+            <p n="a#54" xml:space="preserve"><supplied>49</supplied> Vortmer weren vorbodet alle v{oe}ghede van Schone. Dar alle des
+      copmans vorscreven ghebrek vor des riikes rade unde en ghelesen <damage>wart</damage>; dar
+      alle desse vorscreven articule unde en islik besunder clarliken vorh{oe}ret wart; dar
+      vormiddels den vorscreven vogheden mit velen reden etlike articule vorantwardet worden. Dar
+      mede in spreken des koninges rad, unde seden, dat se in deme privilegio alle ding van tolle,
+      schuten etcetera wol vorwaren wolden; doch dat nicht teghen de olden privilegien unde
+      vrigheide to wesende, woldet sik anders vinden mit der sate.</p>
+            <p n="a#55" xml:space="preserve"><supplied>50</supplied> Des vrigdaghes weren des heren koninges rad mit den heren
+      radessendeboden tosamende unde rameden des privilegii. Welke raminge se to sik nemen, de an
+      den heren koningh to bringende.</p>
+            <p n="a#56" xml:space="preserve"><supplied>51</supplied> Des mandages in sunte Marcus dage weren vorbodet de vorbenomeden
+      radessendeboden up dat slot. Dar se mit manigherleie reden spreken in dat privilegium, dat dar
+      gheramet was, unde umme sunderghe articule, de dar ynne begrepen unde jodoch teghen dat alde
+      privilegium unde alde gewonheit des copmans weren. Dar mit velen reden unde velen
+      undersprekende vorbodet weren ghemenliken de voghede unde tolner van Schone; de dar quemen vor
+      des heren koninges rad unde vor de radessendeboden. Vor welken ghelesen worden alle vorscreven
+      articule unde ghebreke, zundergen des copmans to deme <placeName>Ellenboghen</placeName>
+      wesende, de ok darsulves dar to vorbodet was. Dar antwarde de copman up islik articule, dat id
+      also gheschen were, alse en dels openbar was unde en dels mit reddelicheit nicht dar to
+      antworden konden.</p>
+            <p n="a#57" xml:space="preserve"><supplied>52</supplied> Ok sede des heren koninges rad, wo dat se hadden articule unde
+      ghebreke, welke deme heren koninge vormiddels deme copmanne nicht gheholden worden, unde beden
+      de radessendeboden, dat se de wedder horen wolden. Welke articule hir na screven stan:</p>
+            <p n="a#58" xml:space="preserve">To deme ersten male so (etc. = <q><ref target="14170426002">DD. 1417. 26. apr., nr.
+          14170426002</ref></q>).</p>
+            <p n="a#59" xml:space="preserve"><supplied>53</supplied> Uppe desse vorscreven articule vorantworden de radessendeboden mit
+      velen worden, dat dat alle wol to warende stonde, wanner dat men dat waren wolde. Jodoch schal
+      dat stan beth to der Schonreyse; under des willen de stede dar umme spreken.</p>
+            <p n="a#60" xml:space="preserve"><supplied>54</supplied> Vortmer was dar eyn copman ud <placeName>Vlanderen</placeName>, alse
+      vor screven is, unde bat de radessendeboden, dat se vor eme scriven wolden ere witlicheit,
+      also van des gudes weghen, dat de biscop van Ripen in besate hefft. Welk de stede to sik
+      nemen, vorder dar umme to sprekende.</p>
+            <p n="a#61" xml:space="preserve"><supplied>55</supplied> Hir up ghingen des heren koninges rad to deme heren koninge, mit eme
+      dar umme to sprekende. Dar na so let de here koning vor sik komen de radessendeboden unde let
+      en secgen vormiddels hern <persName>Erike Crummedyke</persName>: wo dat de here koning
+      vorgenomen hadde, mit den steden vruntschop unde ewighe leve to hebbende; unde dat he dat
+      ghedan hadde, hadde he gedan umme bestantnisse willen der stede unde ok mede siner riike; dar
+      sik sine gnade hochliken ane bewiset hadde mit groten arbeiden unde kosten; doch hadde he noch
+      nicht vornomen, dat se dem heren koninge yennighen denst yergen ane bewiset hadden, dat he
+      unde sin rad kennen konden; jodoch so hadde he vorghenomen na rade sines rades, ene vruntlike
+      sate mit en to makende umme leve willen der stede, wente de here koning sere gheneghet were to
+      den sted<damage>en</damage>, alse vor screven is; dar umme so wolde he de sate umme
+      bestantnisse willen der stede unde des copmans mit en ghemaket hebben, unde ere privilegien
+      unde ghebreke, uppe dat yo nen ghebrek an em unde nen vordreet twisschen deme copmanne
+      gheworden were, ghentzliken gheven hebben; doch lovede he wol, dat se em des nicht ansynnende
+      weren, des he mit eren nicht don mochte; doch so wolde he sine tiid wol mit den steden
+      sliten.</p>
+            <p n="a#62" xml:space="preserve"><supplied>56</supplied> Dar doch dem heren koninge vullenkomeliken up gheantwordet wart. Doch
+        <damage>na</damage>; velen reden <damage>he</damage>; bat sinen r{ae}d buten to ghande, dat
+      se em entweken; dar do <damage>de</damage> here koning mit her Erike unde mit den steden
+      allene tosamende bleven, so dat dar nicht en ynne bleff van den dren riiken. Dar de here
+      koning den steden sede manigherleie stucke unde handelinge, welke se sik wol vordenken moghen
+      etcetera.</p>
+            <p n="a#63" xml:space="preserve"><supplied>57</supplied> Dar na leth de here koning vor sinem rade den radessendeboden
+      vraghen, na deme dat se siner mechtich wesen scholden to eren unde to rechte, alse he sik
+      allenchen vorboden hadde unde noch vorbode, eft se bii sinem rechten bliven wolden, alse eme
+      doch gesecht were to deme Lalandes Ellenboghen.</p>
+            <p n="a#64" xml:space="preserve"><supplied>58</supplied> Dar up em vorantwordet wart, alse se en ere ghesecht hadden, dat en
+      dat so unwitlik were, dat sinen gnaden so ghesecht were, unde ok den sulven, de dar weren, des
+      so nicht vordachte.</p>
+            <p n="a#65" xml:space="preserve"><supplied>59</supplied> Hir to sede her Erik Krummediik, dat de ghenne, de dar weren
+      jeghenwardich, dat de seden, wes deme heren koninge gesecht were unde wes en vordachte in den
+      saken.</p>
+            <p n="a#66" xml:space="preserve"><supplied>60</supplied> Mit velen worden dat dar ghesecht wart van deme daghe to
+        <placeName>Rosteke</placeName>, dar se hopeden de ghenne to komende, de dar over wesen
+      hadden, dar se mede spreken wolden.</p>
+            <p n="a#67" xml:space="preserve"><supplied>61</supplied> Hir na <damage>na</damage> besprake der radessendeboden spreken se
+      mit dem heren koninge, biddende, dat sine gnade dar up denken wolde, se wolden ok gerne vurder
+      dar up vordacht wesen bet des anderen dages, efte men konde reddelik wise vinden to den
+      privilegien, dar des ynne broksam were. Welk he sede gerne to donde.</p>
+            <p n="a#68" xml:space="preserve"><supplied>62</supplied> Dar na beden se hochliken den heren koning umme de summe gheldes der
+      borghere van Lubeke etcetera, dat sine gnade de udgheven wolde, alse se doch vakene ghebeden
+      hadden, umme vele unghemakes to vormidende, dat dar van queme, were dat sine gnade dat nicht
+      entrichtede, dat de cedele ynne helde van sinen gnaden utegheven.</p>
+            <p n="a#69" xml:space="preserve"><supplied>63</supplied> Dar to he antworde, was he ghesecht hadde, dat en wolde he nummermer
+      nen secgen; dat se des anderen dages wedder quemen unde dat cedel<damage>k</damage>en mede
+      brochten.</p>
+            <p n="a#70" xml:space="preserve"><supplied>64</supplied> Des dinxdages weren se wedder vor deme heren koninge. Dar do gheendet
+      wart de sate unde privilegium in sodaner wise, dat de radessendeboden de scriffte mit sik
+      nemen, beide der sate unde des privilegii, des vorramet is; doch dat alle ding open stan schal
+      up en behach der stede.</p>
+            <p n="a#71" xml:space="preserve"><supplied>65</supplied> Ok sede de here koning, wo dat he wolde senden Vicken van Vitzen mit
+      den steden mede over; unde was hochliken begherende, dat de radessendeboden der stede wat
+      gudes dar to deden, dat her <persName>Nicolaus van Vitzen</persName> loes werden mochte, wente
+      he in sinen werven unde bodesschoppen gevangen were etcetera; ok dat men dem heren koninge bii
+      dem sulven Vicken wedder enbode, wes de stede hir an don wolden in den vorscreven saken.</p>
+            <p n="a#72" xml:space="preserve"><supplied>66</supplied> Vortmer spreken se aver umme der vorscreven Lubesschen ghelt, dat he
+      en wedder ghelovet hadde etcetera, unde beden dar umme hochliken sine gnade, dat he de summe
+      gheldes so entrichtede, alse dat ceddelken ynne hadde, welk he her <persName>Symon van
+        Urden</persName> dar up ghegheven hadde up deme holke.</p>
+            <p n="a#73" xml:space="preserve"><supplied>67</supplied> Welk cedelken de here koning bat dat men eme dat wisen wolde, so
+      wolde he dar umme mit sinem rade spreken. Aldus deden de radessendeboden em dat vorscreven
+      cedelken.</p>
+            <p n="a#74" xml:space="preserve"><supplied>68</supplied> Dar he na langer besprake to antworde, dat de here <persName>biscop
+        van Roschilde</persName>, de do sin canceller was, dar jeghenwardich were unde des bekande,
+      dat he dat ghescreven hadde; jodoch sede de here biscop, dat he dat so nicht gescreven in
+      sodaner meninge, als men dat voernympt; wente <persName>her Symon van Urden</persName> queme
+      to eme in deme holke unde bat ene, dat he eme den schaden to <placeName>Schone</placeName>
+      etcetera unde to <placeName>dem Elbogen</placeName> in ener ceddelken in scrifft gheven wolde,
+      dat scholde he deme heren koninge bringen; aldus so gaff he eme dat cedelken, dat he lichte
+      dem heren koninge wisede etcetera.</p>
+            <p n="a#75" xml:space="preserve"><supplied>69</supplied> Vorder seden des heren koninges rad, dat dat nen ceddele noch breff
+      en were, dar men sodanighe summen mede manen mochte; men hedde dat wol beth vorwart mit
+      scrifften.</p>
+            <p n="a#76" xml:space="preserve"><supplied>70</supplied> Boven dat sede de here koning, der summen, alse 2600 mark Lubesch, de
+      he <persName>her Tideman Stene</persName> unde <persName>her Detmer van Tunen</persName> ens
+      vorwiset hadde, stunde he wol to, unde de wolde he en gerne gheven, up dat alle dingh yo to
+      gude komen mochte unde dat id sin sch{uo}lt nicht wesen scholde.</p>
+            <p n="a#77" xml:space="preserve"><supplied>71</supplied> Hir umme spreken <persName>her Cord Brekewolt</persName> etcetera und
+      ratvragheden mit den anderen radessendeboden dar wesende, eft se de summe annemen mochten
+      edder wo en gud duchte. Dar en ghesecht wart, dat se deden, wo se wolden; men wenner dat id en
+      ghulde, so wolden se dat erste annamen, unde dat de ander summe up sik stande bleve, bet men
+      dar vorder umme spreken mochte. Also annameden se de 2600 mark Lubesch, de he en gheven wil up
+      sunte Jacobs daghe negest komende; dat ander scholde stan up <persName>her Jordan</persName>
+      unde <persName>her Symon van Urden</persName>; des <persName>Vicko van Vitzen</persName>
+      mechtich is van des heren koninges weghen, de dar komende wert etcetera.</p>
+            <p n="a#78" xml:space="preserve"><supplied>72</supplied> Des midwekens wart men ens der scriffte der sate unde privilegii,
+      alse na screven steit, welker {ee}n de koning behelt unde de stede ene; unde de ene wart
+      gesneden ute der anderen to ener dachtnisse.</p>
+            <p n="a#79" xml:space="preserve"><supplied>73</supplied> Vortmer spreken se umme de schepe, de dar rosteret sin, unde beden
+      den heren koning, dat he se loes gheven wolde, se scholden eme borghen setten de schepe
+      weddertobringende, wente de armen lude des groten schaden nemen. Dar he to antwarde, dat em
+      des up desse tiit nicht stonde to donde, also sines dinghes nu ghewant were, unde wolde des
+      nicht overgheven, er he sine reyse ghedan hadde etcetera.</p>
+            <p n="a#80" xml:space="preserve"><supplied>74</supplied> Vortmer so weren de olderlude van <placeName>Berghen</placeName> unde
+      de Engelschen vor dem heren koninge unde den radessendeboden; dar de Berghervar erer sake
+      ghebleven weren bii dem heren koninge unde bii den steden; welk de Engelsschen allenchen
+      vorleden, alse vorscreven is etcetera. Des is gesloten, dat de here koning se vorscheden schal
+      mit rechte in beiden siden nu to passchen neghest komende; unde se scholen in beiden siden ere
+      bodesschop hebben bii dem heren koninge to vastelavende; den wil he secgen, wor se bii em
+      komen scholen; wente de here koning sede, dat he se nu nicht vorscheden konde, wente he vele
+      nu to donde hadde, dar den dren riiken dig unde vorderff an leghe etcetera, mit vele mer
+      worden.</p>
+            <p n="a#81" xml:space="preserve"><supplied>75</supplied> Aldus is alle ding ghesloten unde schal wesen sunder begriip in allen
+      saken.</p>
+            <p n="a#82" xml:space="preserve">Screven to <placeName>Copenhaven</placeName> na Godes bort 1417 des vrigdages vor sunte
+      Walburges daghe.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

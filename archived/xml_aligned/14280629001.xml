@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">140</num>, paragraphs: <num n="paragraphs">7</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14280629001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>Dipl. Norv.</collection>
+                        <idno>Fasc. LXXXVIII, nr. 9</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 1. Seglsnit; seglet mangler. 2. Perg.rem; seglet mangler. 3. Perg.rem; seglet mangler. 4. Perg.rem; seglet mangler. 5. Perg.rem; seglet mangler. 6. Perg.rem; seglet mangler. 7. Seglsnit; seglet mangler. 8. Perg.rem; seglet mangler. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Diplomatarium Norvegicum, bd. 6, p. 454, nr. 429</bibl>
+               <bibl>Reg. Dan. nr. *4837</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-06-29"
+                  notBefore="1428-06-29"
+                  notAfter="1428-06-29"
+                  cert="high">1428. 29. juni</date>
+            <placeName cert="high">Ålborg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Tue Tulesen og Peder Ilfarsen, borgmestre i Ålborg, samt seks rådmænd i Ålborg
+      bevidner, at Niels Knudsen er adelkonebarn, dvs. ægtebarn, at hans forældre levede et
+      hæderligt og ærligt liv, samt at han selv har et godt rygte. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-25" who="#pbh">Filen etableret af #pbh 2014-07-25. </change>
+         <change when="2021-05-06" who="#smb">1. korrektur af #smb 2021-05-06. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ mæn th<ex>ætt</ex>æ breff see ællær høræ lessæ hælssæ wy <persName>Tue Tulson</persName>
+      och Pæthær Jlfars<ex>øn</ex> borgmæste<ex>re</ex> j <placeName>Alborgh</placeName>
+      <persName>Hans Palson</persName>
+      <persName>Totmær Hinrics<ex>øn</ex></persName>
+      <persName>K[or]th Tense</persName>
+      <persName>Pethær Laus<ex>øn</ex></persName>
+      <persName>Oluff Maltsøn</persName>
+      <persName>Hans Owesøn</persName> radmæn samest<ex>eds</ex> ewindeligh m<ex>eth</ex> Wor
+      H<ex>ær</ex>re ♦</p>
+            <p n="a#2" xml:space="preserve">Wy kungøræ allæ thæ nw ær<ex>e</ex> soom kommæ scullæ ath thænnæ <app><lem>næruærendes</lem><rdg><q>næruæredes</q>, A</rdg></app> breffwisær <persName>Niles Knudhsøn</persName> eer adelkonæ baarn ecthæ och <app><lem>reth</lem><rdg><q>rech</q>, A</rdg></app> føødh och hans fathær leuedh siith liiff skelligh och ærligh som een dondæ maæn och
+      hans mothær soom een dondæ konnæ och maa thom jnge<ex>n</ex> tylleggæ ællær poo seyæ
+      ann<ex>eth</ex> en goth m<ex>eth</ex> lighæ ællær m<ex>eth</ex> ææræ ♦</p>
+            <p n="a#3" xml:space="preserve">Item hauær och for<hi rend="sup">dæ</hi>
+      <persName>Niles Knudhs<ex>øn</ex></persName> hawdh siin wngeyngels m<ex>eth</ex> os swo ath
+      honu<ex>m</ex> stondær jnthæ ann<ex>eth</ex> rwcthæ poo een <app><lem>got</lem><rdg>tilføjet over linjen i A</rdg></app> ♦</p>
+            <p n="a#4" xml:space="preserve">Th<ex>et</ex> widnæ wy oc seyæ sannælig for allæ mææn ♦</p>
+            <p n="a#5" xml:space="preserve">Tyl ydærmær<ex>æ</ex> beuisingh och storræ forwarels eær<ex>æ</ex> wor<ex>æ</ex> jnsighel
+      hengh for th<ex>ætt</ex>æ breff \ ♦</p>
+            <p n="a#6" xml:space="preserve">Datum <placeName>Alborgh</placeName> anno
+      Domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xx viij die apostolorum Petri et Pauli
+      ♦</p>
+            <p n="a#7" xml:space="preserve">Loco ut supra ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

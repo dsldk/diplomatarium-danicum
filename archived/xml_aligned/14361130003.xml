@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">398</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14361130003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>NKR 3239-c</idno>
+                        <msName>tidl. Gottorpske membraner fasc. 17</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 26.1 × 18.2 (plica: 2.9). <ab>Fugtskadet og slidt; omkring den venstre fold er et stykke af
+                                    tekstspejlets øverste halvdel gået tabt; konserveret med
+                                    japanpapir i nyere tid, hvorved bagsidepåskrifter er blevet
+                                    ulæselige</ab>1. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6847</bibl>
+               <bibl>Vejledende Arkivreg. XVIII 392 nr. 22</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>, suppleret med rekonstruerede læsninger fra Aa og Rep.,
+               hvis intet andet nævnes.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-11-30"
+                  notBefore="1436-11-30"
+                  notAfter="1436-11-30"
+                  cert="high">1436.
+               30. november</date>
+            <placeName cert="high">Slesvig</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Johannes Nosseke, provst, Johannes Wegener, kantor, og domkapitlet i Slesvig
+               erklærer at ville holde biskop Nicolaus (Wulf) og hans efterfølgere skadesløse for al
+               udgift som følge af, at biskoppen til domkapitlets nytte købte Gammelbygård med
+               landsbyerne Gammelby og Vinderød samt fæstegårdene Satrupholm, Fladsby, Oksager,
+               Kalleby og Stenbjerg i Angel af Anders Iversen (Rosenkrantz) og hans hustru Oda
+               (Klausdatter (Krummedige)). En sjettedel af udgiften skal biskoppen og hans
+               efterfølgere selv dække. En sjettedel af godset, nemlig gården Gammelbygård med
+               tilliggende, skal tilfalde biskoppen og hans efterfølgere for de 10 mark i årlig
+               afgift af landsbyen Brodersby, som domkapitlet har fået til gengæld. </ab>
+            <ab>Domkapitlet giver sit samtykke til, at biskoppen i overensstemmelse med tidligere
+               løfter udsteder et beseglet brev, som giver hertug Adolf af Slesvig og dennes
+               efterfølgere ret til at indløse godset for værdien af bygningerne. I givet fald skal
+               de 1400 mark betales til domkapitlet, ikke til biskoppen eller hans efterfølgere,
+               eftersom de 10 marks indtægt af Brodersby da vender tilbage til bispebordet.
+               Byggeudgifter på Gammelbygård skal afholdes af biskoppen eller hans efterfølger. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-19" who="#pbh">Filen etableret af #pbh 2013-11-19. </change>
+         <change when="2021-02-24" who="#alk">1. korrektur af #alk 2021-02-24. </change>
+         <change when="2021-05-20" who="#alk">2. korrektur af #alk 2021-05-20. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Nos Johanne<damage>s <persName>Nosseke</persName> <placeName>prepositus</placeName> <persName>Johannes Weghener</persName> <placeName>canto</placeName></damage>r ac totum <placeName>capitulum
+      ecclesie Sleswicensis</placeName> capitulariter congregati concorditer et unanimi consensu <damage>fatemur quod
+        reddere</damage> volumus indempnes reverendum patrem et dominum nostrum dominum <persName>Nicolaum</persName>
+      <placeName>episcopum Sleswicensem</placeName> et ejus su<damage>ccessores ab omni onere et</damage> ulteriori
+      solucione quod et quam via juris passi fuerint et fecerint exnunc et in futurum
+        exi<damage>gentur facere ab <persName>Andrea</persName> Iw</damage>essone et ejus uxore <persName>Oden</persName> ac heredibus eorum
+      occasione videlicet ista quod idem dominus noster Nicolaus episcopu<damage>s bona
+        quedam</damage> videlicet <placeName>Ga<ex>m</ex>melbughart</placeName> cum villis <placeName>Gammelbu</placeName> <placeName>Winderath</placeName> et colonis
+      <placeName>Satorpholm</placeName> <placeName>Vlasbu</placeName> <placeName>Ouxacker</placeName> Calle<damage>bu et <placeName>Stenberghe</placeName> in An</damage>ghelen constitutis a
+      prefatis Andrea et ejus uxore Oden ad utilitatem nostram emit et consecutus est
+        spo<damage>ndentes eidem et(?)</damage> successoribus suis episcopis dicta fide refundere et restituere
+      quecumque dampna et solvenda prefata realiter et cum effectu ita tamen <damage>quod
+        dominu</damage>s Nicolaus episcopus et ejus successores sextam partam prefatorum dampnorum
+      et solvendorum sine nostra sustineant restitucione e<damage>t quod s</damage>exta pars
+      dictorum bonorum videlicet sola curia Gammelbughart cum suis limitibus juribus et attinenciis
+      citra tamen prefatas villas et colonos ad ipsum dominum Nicolaum episcopum et ejus successores
+      pro decem marcarum redditibus in villa <placeName>Brodersbu</placeName> ad distribucionem in festivitate beati
+      Bartholomei apostoli ejusdem domini Nicolai episcopi et memoria sollempni ejus progenitorum
+      et geneoloyge ac certum alium cultum divinum in <cit><quote>literis</quote><bibl><ref target="14361130001">DD 1436. 30. nov., nr. 14361130001</ref></bibl></cit> desuper confectis contentum pro
+      ducentis mar<damage>cis</damage> Lubicensibus quas idem dominus Nicolaus episcopus exsolvit
+      pertinentibus quos pro illa curia permutando refudit devenit ♦</p>
+            <p n="a#2" xml:space="preserve">Et rursum si juxta promissa que idem dominus Nicolaus episcopus illustri principi
+               domino <persName>Adolpho</persName>
+               <placeName>duci Sleswicensi</placeName> et heredibus ejus de consensu et consilio
+               nostris fecit exactus haberet tradere et sigillare literam autenticam in qua eisdem
+               domino duci et heredibus suis prefata bona in Gammelbughart villas et colonos ut
+               prefertur nomine nostri emptos pro millequadringentis marcis in civitatibus
+                  <placeName>Lubicensi</placeName> et <placeName>Hamburgensi</placeName> currentibus
+               exclusis tamen denariis concavis ac qui graves dicuntur cum edificiorum precio
+               reemendi daretur potestas hoc quia dudum consentimus eciam presentibus concorditer et
+               deliberati consentimus et quociens opus fuerit consentiemus ita tamen quod de
+               predictis millequadringentis marcis nichil penitus eidem domino nostro Nicolao
+               episcopo suisque successoribus pertineat et solvatur sed summa tota videlicet
+               millequadringente marce quia tunc decem marcarum redditus in villa Brodersbu predicta
+               ad mensam episcopalem predictam redient nobis et successoribus nostris in dicta
+               moneta pertineat et solvatur atque edificia in dicta curia Gammelbughart erigens et
+               solvens precium edificiorum vel ejus successor reportet ♦</p>
+            <p n="a#3" xml:space="preserve">In quorum omnium et singulorum fidem et testimonium premissorum presentes literas jussimus et
+      fecimus sigilli nostri capituli appe<damage>nsione</damage> communiri ♦</p>
+            <p n="a#3" xml:space="preserve">Datum <placeName>Sleswic</placeName> anno domini millesimoquadringentesimotricesimosexto die beati Andree apostoli
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+               tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

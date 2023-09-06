@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="th">
+                  <persName>
+                     <forename type="first">Thomas</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>. Translation, number of words: <num n="words">99999999</num>, paragraphs: <num n="paragraphs">99999999</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2010</date>
+            <idno type="dd">14100427001</idno>
+            <idno type="isbn">nil</idno>
+            <idno type="dd-4">10-042</idno>
+            <idno type="dd-4-lbnr">56</idno>
+            <idno type="dd-4-kartotek">42</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2011, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Preetz</settlement>
+                        <repository>Klosterarkiv</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+                  <!-- Preetz. Klosterarkiv. -->
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Afskrift af Jessien fra 19. årh.</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+                  <!-- afskrift af Jessien (19. årh.). Michelsen 275-7 nr. 87 - Reg.
+                  Dan. *4184. -->
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Michelsen 275-7 nr. 87 - Reg. Dan. *4184</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter A</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-4</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date cert="high" notBefore="1410-04-27" notAfter="1410-04-27">1410. 27. april</date>
+            <placeName cert="low">[Lübeck]</placeName>
+         </creation>
+         <abstract>
+            <ab>Notarialinstrument, at Heinrich Koneman, kannik i Lübeck, har
+                           gjort testamente, hvori han bla. testamenterer klostret Preetz 330 mark
+                           lybsk, som fru Elisabeth, hertuginde af Slesvig, skylder mig. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>testamente</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-02-02T14:17:09.89+01:00" who="#th"> Filen etableret af #th
+            2011-02-02T14:17:09.89+01:00</change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p>Notarialinstrument, at Heinrich Koneman, kannik i Lübeck, har gjort testamente, hvori
+               han bla. testamenterer klostret Preetz <q>tricentas et triginta marcas Lubicenses, in
+                  quibus mihi domina Elizabeth, duxissa Sleswicensis, tenetur obligata</q>.</p>
+         </div>
+         <div xml:lang="da">
+            <p>Notarialinstrument, at Heinrich Koneman, kannik i Lübeck, har gjort testamente, hvori
+               han bla. testamenterer klostret Preetz 330 mark lybsk, som fru Elisabeth, hertuginde
+               af Slesvig, skylder mig. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

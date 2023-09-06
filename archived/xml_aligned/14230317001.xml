@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">135</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14230317001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Tabt. Omtalt af Hamsfort i Chronologia secunda, tabt, men forinden afskrevet af Stephanius i hans Systema</settlement>
+                        <repository>Uppsala Univ. Bibl.</repository>
+                        <collection>de la Gardie 25-29 f. 75r-75v</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>SRD I 325</bibl>
+               <bibl>Rep. nr. 6009</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>registraturen</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-03-17"
+                  notBefore="1423-03-17"
+                  notAfter="1423-03-17"
+                  cert="low">1423. 17. marts</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ærkebiskop Peder Lykke (Bille), biskop Navne (Jensen (Gyrstinge)) af Odense, biskop Jens (Andersen (Lodehat)) af Roskilde og biskop Oluf (Jakobsen (Knop)) af Västerås skænker aflad til Allerup kirke. Brevet,
+                        med hvilket afladen skænkes, indledes med en passus om menneskenes sansers tilbøjelighed til det onde. Således har Gud vist flere forskellige måder, man kan få syndsforladelse på:
+                        bod; skriftemål; kirkebesøg; deltagelse i gudstjenester; bøn for de afdøde, når man går rundt om kirkegårde; deltagelse i begravelser; at følge Kristi legeme og den hellige olie, når den rækkes frem til de syge; fremsigelse af 
+                        tre gange Ave Maria, knælende ved klokkeslagning; at betænke kirker med gaver til reparationer og udsmykning; og at bede indstændigt til Gud for kristendommens stilling, for Danmarks riges styre og for de danske kirkers 
+                        stilling og forøgelse. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Anno domini mccccxxiii ..... xvi calendas aprilis Petrus Lycke pontifex Lundensis, Naffno Otthoniensis, Johannes Roschildensis et Olaus Arosiensis episcopi ecclesiæ 
+                        Aldorp <app><lem>indulgent</lem><rdg resp="#mh"><q>indulgentiales</q>, reg</rdg></app> litteras piaculares qvibus ita præfantur.
+                        Qvoniam sensus hominum ad malum semper sunt proclives, ideo ineffabilis dei misericordia vias ejus ostendit multimodas per qvas resurgere valeant a peccatis. Opera qvibus mereri possunt indulgentias hæc enumerantur: Poenitentia,
+                        confessio, templorum causa devotionis visitatio, missas et divina officia avdire, coemiteria pro defunctis orando circuire, sepulturis mortuorum interesse, corpus Christi et sacrum oleum dum ad infirmos portatur et 
+                        reportatur sequi. Serotina pulsatione campanæ flexis genibus angelicam salutationem devote dicere trina vice ad fabricas templorum et ornamenta boni aliqvid donare, legare, vel legari procurare: pro statu Christianitatis
+                        et gubernatione regni Daciæ, et incremento ecclesiarum Danicarum et statu deum pie exorare. Remissio peccatorum est in nomine dei omnnipotentis et Petri et Pauli.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

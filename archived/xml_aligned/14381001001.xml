@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>,
+                paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14381001001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>or. perg. RA 0101</collection>
+                        <idno>SDHK nr. 23069</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. <ab>Påskrift på plica (skriverunderskrift): <q>Bertoldus</q>;
+                                        bagsidepåskrift (samtidig arkivpåskrift): <q>Confirmatio
+                                            concilii Basiliensis super electione sive postulatione
+                                            episcopi Nicolai Vexionensis in archiepiscopum
+                                            Upsalensem</q>
+                        </ab>1. Hampesnor. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD VI 540 nr. 5183</bibl>
+               <bibl>SDHK nr. 23069</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1438-10-01"
+                  notBefore="1438-10-01"
+                  notAfter="1438-10-01"
+                  cert="high">1438. 1. oktober</date>
+            <placeName cert="high">Basel</placeName>
+         </creation>
+         <abstract>
+            <ab>Konciliet i Basel opfordrer adelen i Sverige, Danmark og Norge til at anerkende
+                    valget af den nye ærkebiskop i Uppsala Nils (Ragvaldsson) og til at støtte ham i
+                    hans embedsførelse. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-05-28" who="#pbh">Fil oprettet</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Sacrosancta generalis synodus Basiliensis in spiritu sancto legitime
+                    congregata universalem ecclesiam representans dilectis ecclesie filiis nobilibus
+                    marescallo et dapifero necnon universis et singulis militibus militaribus et
+                    aliis nobilibus regnorum <placeName>Swecie</placeName>
+               <placeName>Dacie</placeName> et <placeName>Norwegie</placeName> salutem et
+                    omnipotentis dei benedictionem . ♦ </p>
+            <p>Sane pridem <placeName>ecclesia Upsalensis</placeName> per obitum bone memorie
+                        <persName>Olavi archiepiscopi Upsalensis</persName> qui extra Romanam curiam
+                    diem clausit extremum pastoris solacio destituta / dilecti ecclesie filii
+                        <persName>Olavus archidiaconus</persName> et capitulum ejusdem ecclesie
+                    vocatis omnibus qui voluerunt potuerunt et debuerunt electioni futuri pastoris
+                    commode interesse ut moris est convenientes in unum / ac a jure statutis
+                    temporibus necnon forma decreti nostri in hiis observatis unanimiter
+                    deliberarunt in electionis hujusmodi negocio per viam scrutinii fore procedendum
+                    / necnon delectis ecclesie filiis archidiacono predicto ac <persName>Jacobo
+                        Nicolai</persName> et <persName>Egardo Conradi</persName> canonicis ejusdem
+                    ecclesie qui ut moris est singulorum vota inquirerent / eaque fideliter in
+                    scriptis redacta publicarent assumptis iidem archidiaconus et canonici onus
+                    assumptionis exequentes comperuerunt (!) quod tam ipsi quam alii jus eligendi
+                    habentes in venerabilem <persName>Nicolaum episcopum Wexionensem</persName>
+                    concorditer vota sua direxerunt postulantes ipsum episcopum unanimiter et
+                    concorditer in eorum ecclesie prefate archiepiscopum et pastorem ipseque
+                    episcopus presentato sibi postulacionis hujusmodi decreto / postulacionem ipsam
+                    ordinacioni nostre duxit submittendum ♦ </p>
+            <p>Nos postulacionis hujusmodi negocium nobis desuper expositum et illius decretum
+                    nobis etiam per nuncios prefati capituli presentatum dilectissimis ecclesie
+                    filiis <persName>Ludovico tituli sancte Cecilie Arelatensi</persName> / officium
+                    cancellarie nostre regenti / et <persName>Dominico tituli sanctorum Johannis et
+                        Pauli Terraconensi</persName> wlgariter nuncupatis sancte Romane ecclesie
+                    presbiteris cardinalibus / necnon <persName>Amedeo Lugdunensi</persName> et
+                        <persName>Nicolao Panormitano</persName> archiepiscopis apud nos constitutis
+                    / ad finem et effectum nobis desuper referendi comisimus examinandum diligenter
+                    ♦ </p>
+            <p>Demum nobis solerti et diligenti examinacione per dictos cardinales et
+                    archiepiscopos prehabita / ac nobis super hoc in congregatione nostra generali
+                    fideli relacione per organum prefati archiepiscopi Panormitani facta /
+                    postulacionem ipsam comperimus de persona ipsius episcopi ad dictam ecclesiam
+                    minus canonice quo ad juris positivi solemnitates fore celebratam . ♦ </p>
+            <p>Nos nichilominus advertentes quod ipsa postulacio canonice fuit jure naturali
+                    inspecto utpote unanimi consensu habencium eligere seu postulare celebrata /
+                    necnon ad ipsum episcopum qui congregacionem nostre incorporatus existit et
+                        aliqua<supplied>n</supplied>diu nobiscum in vinea domini sollicitos impendit
+                    labores consideratis grandium suarum virtutum meritis quibus personam suam
+                    dominus eorum largitor multipliciter insignivit / et de quo fidedigna testimonia
+                    nobis etiam perhibebantur et quod regimini <placeName>ecclesie
+                        Wexionensis</placeName> hactenus laudabiliter prefuit prefatam Upsalensem
+                    ecclesiam sciret et posset auctore domino salubriter regere et feliciter
+                    gubernare nostre consideracionis dirigentes intuitum ac intendentes quod de
+                    persona sua tam ipsi ecclesie Upsalensi quam gregi ejus dominico salubriter
+                    provideretur postulacionem hujusmodi / cum disposicio ecclesiarum cathedralium
+                    et aliarum propter suspensionem domini <persName>Eugenii pape iiii</persName> ab
+                    administracione papatus in spiritualibus et temporalibus ex certis et justis
+                    causis per nos factam ad nos devoluta existat / duximus admittendam atque per
+                    alias litteras nostras admisimus supplentes nichilominus omnes et singulos
+                    defectus siqui intervenerunt in eadem / ac ipsum a vinculo quo ipsi ecclesie
+                    Wexionensi preerat tenebatur auctoritate universalis ecclesie absolventes
+                    prefate ecclesie Upsalensi prefecimus in archiepiscopum et pastorum et ad eandem
+                    ipsam transtulimus et sibi transeundi licenciam tribuimus / curam et
+                    administracionem ejusdem Upsalensis ecclesie sibi in spiritualibus et
+                    temporalibus plenarie comittendo / sperantes indubie quod dirigente domino actus
+                    suos ipsa ecclesia Upsalensis per sue circumspectionis fructuosum studium
+                    regeretur utiliter et prospere dirigeretur et grata in eisdem spiritualibus et
+                    temporalibus susciperet incrementa / ♦ </p>
+            <p>Quocirca universitatem vestram ac omnes et singulos rogamus et exhortamur attente
+                    / quatinus eundem postulatum et prefatam ecclesiam Upsalensem sue cure commissam <app>
+                  <lem>habentes</lem>
+                  <rdg>vel fejl for <q>habeatis</q> (således også rettet i APD)</rdg>
+               </app> pro universalis ecclesie quam representamus reverencia accuracius
+                    recommendatos ut per vestri favoris assistenciam / in commisso sibi pastoralis
+                    cure officio possit deo auctore melius prosperari . vosque proinde eterni vite
+                    premium et ejusdem universalis ecclesie benivolenciam mereamini consequi
+                    longevam ♦ </p>
+            <p>Datum <placeName>Basilee</placeName> kalendis octobris anno a nativitate domini
+                    millesimoquadringentesimotricesimooctavo ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <q>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</q>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">127</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14241110001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Hvitfeld IV p. 372-373, fol. 712 (udtog)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hvitfeld l.l.</bibl>
+               <bibl>Rep. nr. 6145</bibl>
+               <bibl>Reg. Dan. nr. *4710</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Hvitfeld l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1424-11-10"
+                  notBefore="1424-11-10"
+                  notAfter="1424-11-10"
+                  cert="high">1424. 10. november</date>
+            <placeName cert="high">Århus</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hr. Anders (Jakobsen) Lunge (til Skafterup), hr. Erik (Segebodsen) Krummedige (til
+      Rundtoft), hr. Jens Nielsen (Løvenbalk) af Aunsbjerg, hr. Erik Nielsen (Gyldenstjerne) af Tim,
+      hr. Peder Mogensen (Due (Glob), høvedsmand på Kalø), hr. Erik (Pedersen (Gyldenstjerne)) af
+      Ågård samt justitiar Ivar Fos afgør striden imellem dronning Filippa og Ulrik (Stygge), biskop
+      i Århus, om arven og regnskabet efter Bo (Mogensen (Lang)), biskop i Århus, under henvisning
+      til en voldgift ved to biskopper. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-06-24" who="#pbh">Filen etableret af #pbh 2014-06-24. </change>
+         <change when="2021-04-21" who="#smb">1. korrektur af #smb 2021-04-21. </change>
+         <change when="2021-05-11" who="#smb">2. korrektur af #smb 2021-05-11. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Aar 1424. Profesto beati Martini, vdi Sortebrødre kloster vdi <placeName>Aarhus</placeName> /
+      handlede <persName>Anders Lunge</persName> / <persName>Erich Krummedige</persName> /
+        <persName>Jens Nielssøn af Affuendsberg</persName> / <persName>Erich</persName>
+      <app><lem>Nielssøn</lem><rdg>Hvitfeld l.l. skriver herfor fejlagtigt <q>Pederssøn</q>. Dette skyldes muligvis en
+          sammenblanding med Erik (Pedersen (Gyldenstjerne)) af Ågård, som også optræder blandt de
+          nævnte riddere</rdg></app> af Thim / <persName>Peder Mogenssøn</persName> / <persName>Erich aff Aagaard</persName>
+      riddere / oc <persName>Jffuert Voss</persName> / rigens cantzeler / dronning Philippa oc
+      biscop Vlrich aff Aarhus imellem om bisp Boes Arffue oc regenskaff / aff slaatte oc land /
+      forneffnde bisp Bo haffde hafft vdi verge af kronen / at de indgaff deris trætte paa tu
+      biscopper / huad de inden 6 vger vilde sige dennem imellem / der ved skulle det bliffue /
+      forneffnde bisper skulle forskriffuis aff dronningen / oc biscop Vlrich / oc at møde inden 6
+      vger.</p>
+            <p n="a#2" xml:space="preserve">Døde nogen af dennem dess forinden / da skal beggis deris ret vere dennem oben faare / disse
+      slaatte bispen indehaffde aff kronen / vaare hannem pantsætte / met nogen forbehold / Bygholm
+      haffde aff hannem Peder Troelssøn hans suoger / Skanderborg Palle Joenssøn / forneffnde biscop
+      Boe haffuer funderit Trinitatis altere vdi Aarhus.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

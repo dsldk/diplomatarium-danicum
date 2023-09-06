@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14200126001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <idno>Suppl. 132 A fol. 272r</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD VII 248 nr. 5709</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-01-26"
+                  notBefore="1420-01-26"
+                  notAfter="1420-01-26"
+                  cert="high">1420. 26.
+          januar</date>
+            <placeName cert="high">Firenze</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. bevilger en supplik af Jens (Andersen (Lodehat)), biskop i Roskilde, om
+          at løse ham fra og annullere de aftaler, forpligtelser og løfter, som han uforsigtigt har
+          sluttet og afgivet til skade for sin sjæl og for Roskilde kirke, blandt andet vedrørende
+          Københavns borg og by og dens tilliggender. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-07-18" who="#pbh">Tekst indskrevet osv.</change>
+         <change when="2018-04-03" who="#pbh">korrektur fra #fgj indføjet</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">.. Cum .. <persName>Johannes</persName> episcopus ecclesie
+            <placeName>Roskildensis</placeName> nonnulla pacta, tractatus, conventiones et
+          promissiones incaute fecerat, que servata in detrimentum anime sue dicteque ecclesie
+          prejudicium, dampnum et lesionem vergi dinoscuntur, supplicat igitur s. v. dictus Johannes
+          episcopus, quatinus ipsum ab omnibus pactis, tractatibus, conventionibus et promissionibus
+          hujusmodi cum quibuscumque personis ecclesiasticis vel secularibus, cujuscunque status
+          fuerint, etiam si regali vel reginali prefulgerent dignitate, initis sive factis, etiam si
+          .... juramento aut fidei vel fidejussorum datione interposita seu scripturarum publicarum
+          vel privatarum aut sigillorum quorumcumque munimine seu quacumque corroboratione alia sint
+          firmata, etiam si super castro et opido <placeName>Hafnensi</placeName> Roskildensis
+          diocesis et ipsorum castri et opidi pertinentiis et adjacentiis seu quibuscunque bonis,
+          terris, possessionibus, castris, prediis rusticis vel urbanis, censibus et proventibus ad
+          ipsam ecclesiam Roskildensem seu mensam episcopalem ejusdem qualitercunque pertinentibus
+          aut alias eorum occasione inita et facta forent, de benignitate sedis apostolice
+          misericorditer absolvere pactaque, tractatus, conventiones et promissiones juramentaque ac
+          fidei et fidejussorum dationes hujusmodi et quecumque inde secuta penitus et omnino
+          relaxare, et nichilominus eadem, quatinus de facto processerunt, annullare ac cassa, irrita
+          atque nulla ac nullius existere firmitatis dignemini declarare signante manu s. v.
+          beatissima.</p>
+            <p>Fiat et absolvimus. Fiat et committatur in curia. O.</p>
+            <p>Datum <placeName>Florentie</placeName> 7. kal. febr. anno 3.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">201</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14150729002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>Byarkiver, Kolding. Pergamentsbreve 1452-1603. c-11</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>18.1 (plica: 2.5)</height>
+                                    <width>32</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>p<ex>re</ex>ste løkken. Brewe paa fosses
+      løcke</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Stadfæstelse af kong Hans 14. okt. 1492 (Rep. 2. rk. nr. 7236)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 121</bibl>
+               <bibl>Rep. nr. 5533 (i udtog)</bibl>
+               <bibl>Reg. *4343</bibl>
+               <bibl>Fyhn, Efterretninger om Kjøbstaden Kolding 86 (jf. 79)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-07-29"
+                  notBefore="1415-07-29"
+                  notAfter="1415-07-29"
+                  cert="high">1415. 29. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hr. Jens Thomsen med flere skøder ejendom i Prædikerløkke i Harte sogn til sognepræstens bord i Kolding for deres sjæles salighed.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-04" who="#pbh">Filen etableret af #pbh 2014-03-04. </change>
+         <change when="2017-07-04" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-07-04. </change>
+         <change when="2017-09-05" who="#jon">2. korrektur af #jon 2017-09-05. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Alle men th<ex>ette</ex> breff se eller hør<ex>e</ex> læse helse wij <persName>Johan
+        Thomes<ex>øn</ex> ridder</persName>
+               <persName>Torkild Jenss<ex>øn</ex> prest</persName>
+               <persName>Nisse Laur<ex>ensøn</ex>
+               </persName> aff <placeName>Tyrsbeck</placeName>
+               <persName>Nis Atzers<ex>øn</ex>
+               </persName> aff <placeName>Megtwed</placeName>
+               <persName>Nis Pers<ex>øn</ex>
+               </persName> Porss kall<ex>et</ex> aff
+        <placeName>Smedsto<ex>r</ex>p</placeName> wepner<ex>e</ex> ewinneligh meth gud oc kundgøret
+      alle men met thette wort opne breff at wij giffue skøde oc antworde met iaa och god wiliæ tiil
+      sogne prest<ex>es</ex> bord i <placeName>Koldinge</placeName> all wor eyedom oc rettighed som
+      wij haffue inne<ex>n</ex>
+               <placeName>Prideker lycke</placeName> i <placeName>Harte sogn</placeName> ligg<ex>er</ex>
+      mellom <placeName>Spidelsklycke</placeName> oc <placeName>Koldinge bergh</placeName> swo som
+      er ager jord oc mose jord wot oc tyurt encthæ wnd<ex>e</ex>r taget for<ex>e</ex> wor<ex>e</ex>
+      sieles oc wor<ex>e</ex> weners døde oc døø skulle<ex>ndes</ex> helsen meth swo dant vilkor at
+      hwo som sogne prest er i <placeName>Koldinge</placeName> han skal hwert aar om sancti
+      Oluff<ex>s</ex> afften oss oc wor<ex>e</ex> forelder<ex>e</ex> lade begange i sogne kirken i
+        <placeName>Koldinge</placeName> met fir<ex>e</ex> vigilier oc a<ex>n</ex>nen dagen meth sex
+      messer emen kirken oc sognet warer ♦</p>
+            <p n="a#2">Thij tiilbinde wij oss hwer i sin sted oc wor<ex>e</ex> arffui<ex>n</ex>ge at frij frelsæ oc
+      tiil at staa forneffnde sogne prest i <placeName>Koldinge</placeName> ther nw er oc
+      ko<ex>m</ex>me skal th<ex>e</ex>n for<hi rend="sup">d<ex>e</ex>
+               </hi> ager jord oc mose jord
+      for hwer mantz patall ther pa tale kan meth rette ♦</p>
+            <p n="a#3">In cujus rei testimonium et evidenciam firmiorem sigilla nostra sub anno domini mcdxv<hi rend="sup">o</hi> ipso die beati Olavi regis et martiris presentibus sunt appensa
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

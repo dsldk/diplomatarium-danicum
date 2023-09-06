@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">242</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14360404002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i Antvorskov klosters reg. (1607), trykt ÆA IV 197 nr. J. 18,
+      og refereret i rettertingsdom af Kristian 1. 1477 28. juli, udgivet i Rep. 2. rk. nr. 4071 (i
+      udtog)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>NKR c-3623</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. <ab>Hullet og fugtskadet med et lille teksttab til følge</ab>
+                        <ab>På bagsiden påskriften <q>Vidisse pa koni<ex>n</ex>g Erics
+        domb<ex>re</ex>ff</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Vidisse af Fyns landsting 1447. 26. august</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6814 (A)</bibl>
+               <bibl>Rep. nr. 7717 (Aa)</bibl>
+               <bibl>Vejledende Arkivreg. XVII 385 nr. 15 (Aa)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-04-04"
+                  notBefore="1436-04-04"
+                  notAfter="1436-04-04"
+                  cert="high">1436. 4. april</date>
+            <placeName cert="high">Ålstrup</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern giver på rettertinget hr. Sten (Tygesen) Basse låsebrev på det gods
+      i Jersore, som denne købte af Klaus (Hartvigsen) Limbek, og på Ringe mølle, samt på hans
+      øvrige gods i Skam, Skovby og Lunde herreder og tillige på tre gårde i Rågelund (Åsum
+      herred). </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-14" who="#pbh">Filen etableret af #pbh 2013-11-14. </change>
+         <change when="2019-11-11" who="#alk">1. korrektur af #alk 2019-11-11. </change>
+         <change when="2019-11-28" who="#alk">2. korrektur af #alk 2019-11-28. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wi <persName>Eric</persName> m<ex>eth</ex> g<damage>utz</damage> nathe
+        <placeName>Danm<ex>a</ex>rks</placeName>
+      <placeName>Suerighes</placeName>
+      <placeName>Norghes</placeName>
+      <placeName>Wend<ex>es</ex></placeName> oc <placeName>God<ex>es</ex></placeName>
+      koni<ex>n</ex>g oc h<ex>er</ex>tugh j <placeName>Pomeren</placeName> helse alle men som boo j
+      Danm<ex>a</ex>rk ker<damage>li</damage>ghe m<ex>eth</ex> guth oc wor nathe ♦</p>
+            <p n="a#2" xml:space="preserve">Th<ex>et</ex> sculle j wide at som wi til foren loghlighe til dømd haue m<ex>eth</ex>
+      <cit><quote>wore breff</quote><bibl>Kendes ikke</bibl></cit> een heth<ex>er</ex>ligh man oc welb<damage>ur</damage>thugh the<ex>n</ex>ne
+      breffuiser<ex>e</ex> her <persName>Steen Basse</persName> ridde<ex>re</ex> oc som han er <cit><quote>aff fir<ex>e</ex> beschethne men loghlighe inførth</quote><bibl><ref target="14289999014">DD 1428, nr. 14289999014</ref></bibl></cit> j thisse æfft<ex>er</ex> sch<ex>re</ex>ffne gotz først gotz i
+        <placeName>Jerlsore</placeName>
+      <cit><quote>som h<ex>er</ex> Steen Basse køpte aff <persName>Claues Lønbek</persName></quote><bibl><ref target="14239999022">DD 1423, nrr. 14239999022</ref>, <ref target="14239999023">14239999023</ref> og <ref target="14239999024">14239999024</ref></bibl></cit> bothe i <placeName>howeth gorthen</placeName> oc j <placeName>byen</placeName>
+      <placeName>Ræthinge mølle</placeName> m<ex>eth</ex> dam o<damage>c</damage> damsbond som
+      th<ex>e</ex>r m<ex>eth</ex> rette til ligg<ex>er</ex> oc alt hans gotz j huor th<ex>et</ex>
+      ligg<ex>er</ex> j <placeName>Sca<ex>m</ex>meh<ex>e</ex>r<ex>et</ex></placeName> i
+        <placeName>Scowbyh<ex>e</ex>r<ex>et</ex></placeName> oc j
+        <placeName>Lundeh<ex>e</ex>r<ex>et</ex></placeName> oc gots j
+          <placeName>Roghelu<damage>nd</damage></placeName> tre gorthe som <persName>Jæppe
+        Brydie</persName> paa boor <persName>Nis Man</persName> oc <persName>Eric</persName> paa boo
+      m<ex>eth</ex> alle th<ex>e</ex>r<ex>is</ex> tilliggelse jhwor th<ex>et</ex> ligg<ex>er</ex> oc
+      sithen m<ex>eth</ex> al<damage>m</damage>y<ex>n</ex>nælig<ex>e</ex> stæffni<ex>n</ex>g with
+      dagh oc aar framgonge<ex>n</ex> er oc engen beuisni<ex>n</ex>g paa the for<hi rend="sup">de</hi> gots ær<ex>e</ex> j modh ko<ex>m</ex>men paa then sa<damage>gh tha t</damage>ildøme
+      wi oc nw for<hi rend="sup">de</hi> h<ex>er</ex> Steen Basse oc hans arui<ex>n</ex>ge alle
+      thisse forsch<ex>reff</ex>ne gorthe oc gotz m<ex>eth</ex> alle th<ex>e</ex>r<ex>is</ex> ræte
+        tilhørel<damage>se røre</damage>nd<ex>es</ex> oc vrørend<ex>es</ex> ængtet
+      vndentagh<ex>et</ex> til ewi<ex>n</ex>nelighe eye ♦</p>
+            <p n="a#3" xml:space="preserve">Oc forbiwthe wi nogh<ex>er</ex> man segh m<ex>eth</ex> the for<hi rend="sup">de</hi> gotz
+        atbeu<damage>are eller</damage> hind<ex>er</ex> j gøre j mod for<hi rend="sup">de</hi>
+      h<ex>er</ex> Stee<ex>n</ex>s æll<ex>e</ex>r hans arui<ex>n</ex>g<ex>es</ex> willie oc sætte wi
+      then sagh ewi<ex>n</ex>neligh thielse paa ♦</p>
+            <p n="a#4" xml:space="preserve">Datum <placeName>Olst<ex>or</ex>p</placeName> anno <damage>domini</damage> m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xxxvi<hi rend="sup">o</hi> feria quarta proxima post
+      dominicam palmarum ♦</p>
+            <p n="a#5" xml:space="preserve">In cujus rei testimonium sigillum nostrum ad causas presentibus est appensum teste
+        <damage>Iwa</damage>ro Foss justiciario nostro ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

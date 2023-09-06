@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">420</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14270205002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="a">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Altes Senatsarchiv (ASA), Externa, Danica 3.2. Krieg Erichs von Dänemark gegen die Grafen von Holstein</collection>
+                        <idno>signatur 03,1 (tidligere Dreyer, Acta Danica 1,4)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med overskrift: <q>Mercatoribus Brugis Flandrie et Lundis Anglie mutatis
+        mutandis</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Koncept</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. II, p. 1-2</bibl>
+               <bibl>Hanserec. VIII, nr. 129, p. 86 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>UBStL l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1427-02-05"
+                  notBefore="1427-02-05"
+                  notAfter="1427-02-05"
+                  cert="high">[14]27. 5. februar<note>Forhandlingerne synes ikke at være kommet i stand på daværende tidspunkt,
+    idet navnene på det i koncepten nævnte lejdebrev er blevet ændret i slutningen af
+    1427</note></date>
+            <placeName cert="low">[Lübeck]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Lübeck skriver til hansekøbmændene i Brugge.</ab>
+            <ab>Rådet i Lübeck frygter, at kong Erik 7. af Pommern vil forsøge at overtale høvedsmændene
+      Peter Johnson, Johann Bertramson, Michael Rute og Bartholomeus Vot til at gå i kongens
+      tjeneste, da der nu er krig imellem de vendiske hansestæder og kong Erik.</ab>
+            <ab>Rådet i Lübeck ønsker derfor, at hansekøbmændene i Brugge i hemmelighed skal opfordre
+      hansekøbmændene i London til at indlede forhandlinger med de nævnte høvedsmænd for at overtale
+      dem til at gå i hansestædernes tjeneste.</ab>
+            <ab>I forlængelse heraf har rådet i Lübeck vedlagt et lejdebrev til de nævnte høvedsmænd, som
+      kan træde i kraft, såfremt de pågældende høvedsmænd ønsker at gå i hansestædernes
+      tjeneste.</ab>
+            <ab>Endelig beder rådet i Lübeck hansekøbmændene i Brugge om at sende lejdebrevet retur, såfremt
+      de pågældende høvedsmænd ikke ønsker at gå i hansestædernes tjeneste. Desuden skal
+      hansekøbmændene i Brugge forsøge at forhindre, at de pågældende høvedsmænd tager parti for
+      kong Erik.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-11-09" who="#smb">Filen etableret af #smb 2018-11-09. </change>
+         <change when="2018-11-09" who="#smb">1. korrektur af #smb 2018-11-09. </change>
+         <change when="2019-01-16" who="#smb">2. korrektur af #smb 2019-01-16. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Post salutacionem.</p>
+            <p n="a#2" xml:space="preserve">Ersamen besundern leuen vrundes.</p>
+            <p n="a#3" xml:space="preserve">Alse wy ju negest verscreuen vnde gi ok van gemenem geruchte wol moghen vernomen hebben, wo
+      dat wy unde mer stede vmme vns beleghen vmme manigerleye vele gewalt, gebreklicheit vnde
+      schaden willen den steden vnde deme gemenen copmanne bescheen to veyden vnde to kryghe mit dem
+      heren koninge van Denemarken, sinen riken vnde vndersaten gekomen sin, so ys yd, leuen
+      vrundes, dat wy bevruchten, dat desulue here koning by <persName>Peter Johanssen</persName>,
+        <persName>Johanne Bertrammesson</persName>, <persName>Michel Rute</persName>,
+        <persName>Bartholomeus Vote</persName>, houetluden, vnde by erer geseltzopp vorarbeiden
+      mochte laten, dat se mit erer were vnde schepen to des vorscreuen heren koninges hulpe qwemen,
+      darvan de stede, de gemene copman vnde schipheren der Dudeschen henze an eren luden,
+      kopenscoppen vnde guderen merkliken schaden nemen mochten, also gi dat, leuen vrundes, suluen
+      wol erkennen moghen etcetera.</p>
+            <p n="a#4" xml:space="preserve">Hirvmme wy van juwer leuen zere fruntliken begerende sin vnde bidden, dat gy vmme der stede
+      vnde vnsen willen juwe hemelken bodesscop van der wegen sunder sument willent don by den
+      copmanne to <placeName>Lunden</placeName> in <placeName>Engeland</placeName>, den wy ok
+      hirvmme verscriuen, in beqwemer wyse mit den vorscreuen houetluden vnde gesellen darsulues in
+        <placeName>Engeland</placeName>, edder wer se sin, vmme to verhandelende, dat ze mit eren
+      schepen vnde were by vnse hulpe to komende vnde jo eer io leuer; men sal se leffliken enthalen
+      vnde ene gutlicheit bewisen, se scholen ok in zekerem geleide vnde velicheit vor vns steden,
+      den vnsen vnde vor alle de ghennen, der de stede vnde wy mechtich sin vnde de vmme vnsen wisen
+      willen don vnde laten scholen vnde willen, sunder argelist wol verwaret wesen na lude vnde
+      inholde des geleide breues, den wy juwer leuen hirmede senden versegelt, den gy den vorscreuen
+      houetluden vnde erer geseltzop antwerden moghen laten, offt des behoff werde.</p>
+            <p n="a#5" xml:space="preserve">Were auer dat ze der stede to hulpe nicht en wolden, so sendent vns den suluen breff wedder
+      ouer, so gi ersten moghen, vnde dat gi dar vmme vorarbeiden, dat se by des heren koninges
+      hulpe io nicht en komen; vnde wan ok vnse krich mit dem vorscreuen heren koninge gerichtet
+      worde, wolde denne der vorscreuen houetlude effte gesellen welke in den steden bliuen, de
+      wolde wy gerne lyden.</p>
+            <p n="a#6" xml:space="preserve">Vnde, leuen vrundes, den steden vnde vns willen hirane to bewisende, versculde wy vmme juwer
+      leuen alle tyt gerne, wor wy moghen.</p>
+            <p n="a#7" xml:space="preserve">Vnde dat desse zaken nicht rume gesprenget en werden, sunder se in hemelicheit io verwaret
+      bliuen, dar is den steden, jw vnde deme gemenen copmanne alle vmme macht ane liggende, vnde
+      begeren hirvan juwer vnuertogerden antwordes by dissem vnsem boden.</p>
+            <p n="a#8" xml:space="preserve">Syt Gode etcetera.</p>
+            <p n="a#9" xml:space="preserve">Screuen etcetera Agate, XXVII.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

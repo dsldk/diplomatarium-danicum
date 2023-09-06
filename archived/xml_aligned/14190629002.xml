@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">215</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14190629002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>AM</repository>
+                        <collection>empty</collection>
+                        <idno>LXI 4</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 39.7 × 18.5 (plica: 2.5). <ab>Skriften er stærkt afbleget og afslidt</ab>
+                        <ab>På bagsiden påskriften <q>xii episcopi quilibet eorum xl dies summa cccc lxxx
+        dierum</q>
+                        </ab>1. Ærkebiskop Peder Lykkes segl af mørkt voks i ufarvet; i
+        perg.rem, DGS 26. 2. Segl for Johannes Gerechini (Jens Gerekesen Lodehat), ærkebiskop af Uppsala,
+        af rødt voks i ufarvet; i perg.rem. 3. Seglsnit. 4. Viborgbiskoppen Lave Globs segl af rødt voks i ufarvet; i
+        perg.rem, DGS 677. 5. Seglsnit. 6. Perg.rem. 7. Seglsnit. 8. Seglsnit. 9. Biskoppen af Orkneyøernes segl af rødt voks i ufarvet; i
+        perg.rem. 10. Västeråsbiskoppen Navne Jensen Gyrstinges segl af mørkt voks i ufarvet; i
+        perg.rem, Jf. DGS 527. 11. Seglsnit. 12. Seglsnit. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5784</bibl>
+               <bibl>Reg. *4489</bibl>
+               <bibl>Københavns Dipl. IV 23-24 nr. 33</bibl>
+               <bibl>Rørdam, Kjøbenhavns Kirker og Klostere, tillæg s. 27-8</bibl>
+               <bibl>Vejledende Arkivreg. XVII 251</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-06-29"
+                  notBefore="1419-06-29"
+                  notAfter="1419-06-29"
+                  cert="high">1419. 29. juni</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ærkebiskop Peder Lykke af Lund, ærkebiskop Jens Gerekesen Lodehat af Uppsala og ti
+      lydbiskopper skænker hver 40 dages aflad til dem, der besøger Sankt Klemens Kirke i København
+      og bidrager til dens vedligeholdelse. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-14" who="#pbh">Filen etableret af #pbh 2014-04-14. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-05-29" who="#alk">2. korrektur af #alk 2017-05-29. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis Cristifidelibus ad quos presens scriptum pervenerit <persName>Petrus</persName>
+      divina miseracione <placeName>archiepiscopus Lundensis</placeName> .
+        <persName>Johannes</persName>
+               <placeName>Wpsaliensis</placeName> . <persName>Johannes</persName>
+               <placeName>Sleswigsensis</placeName>
+               <persName>Boecius</persName>
+               <placeName>Arusiensis</placeName> . <persName>Laoo</persName>
+               <placeName>Vibergensis</placeName> . <persName>Petrus</persName>
+               <placeName>Burglanensis</placeName>
+               <persName>Johannes</persName>
+               <placeName>Ottoniensis</placeName> . <persName>Brynolphus</persName>
+               <placeName>Scarensis</placeName>
+               <persName>Thomas</persName>
+               <placeName>Orcadensis</placeName> . <persName>Nauno</persName>
+               <placeName>Arosiensis</placeName> . <persName>Cristiernus</persName>
+               <placeName>Ripensis</placeName> . et <persName>Jacobus</persName>
+               <placeName>Gardensis</placeName> eadem gracia ecclesiarum episcopi salutem et sinceram in
+      domino caritatem ♦</p>
+            <p n="a#2">Deum omnipotentem credimus habere propicium cum ejus devotos per indulgenciarum remissiones
+      ad aliqua caritatis opera facienda incitamus ♦</p>
+            <p n="a#3">Omnibus igitur vere penitentibus et confessis / qui <placeName>ecclesiam beati Clementis
+        Hafnis</placeName>
+               <placeName>Roskildensis <app>
+                     <lem>dy<damage>oce</damage>sis</lem>
+                     <rdg wit="#A">Et lille hul i A</rdg>
+                  </app>
+               </placeName> nimia urgente paupertate miserabiliter ruinosam causa devocionis
+      oracionis seu peregrinacionis visitaverint sive ad ipsam rura domos agros . pecora
+      possessiones luminaria vestimenta aut alia caritatis subsidia in morte vel in vita donaverint
+      seu donari procuraverint vel cimiterium ibidem pro animabus fidelium ibi et in Cristo ubique
+      quiescentium pie exorando circuierint aut qui corpus dominicum vel sacrum oleum cum infirmis
+      portantur sequti fuerint . vel qui missis predicacionibus seu aliis divinis obsequiis aut
+      sepulturis mortuorum ibidem interfuerint . item qui in serotina pulsacione more Romane curie .
+      ter Pater noster cum totidem Ave Maria flexis genibus devote pro pace dixerint . vel qui pro
+      nostro . ecclesiarum nostrarum et regni Dacie presenciumque literarum impetratorum statu
+      salubri deum pie exoraverint ♦</p>
+            <p n="a#4">Quocienscunque premissa vel premissorum aliquod devote fecerint de omnipotentis dei
+      misericordia et beatorum apostolorum ejus Petri et Pauli auctoritate confisi singuli nostrum
+      quadraginta dierum indulgencias de injunctis sibi penitenciis dummodo loci dyocesanus
+      consenserit in domino misericorditer relaxamus ♦</p>
+            <p n="a#5">Datum <placeName>Hafnis</placeName> anno domini millesimo quadringentesimo decimo nono ipso
+      die beatorum apostolorum Petri et Pauli nostris sub sigillis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

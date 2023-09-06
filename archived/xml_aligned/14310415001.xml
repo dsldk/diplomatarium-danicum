@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">258</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14310415001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>3102-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 30.2 × 21.6 (plica: 1.6). 1. Seglsnit. 2. Seglsnit. 3. Seglsnit. 4. Seglsnit. 5. Seglsnit. 6. Seglsnit. 7. Seglsnit. </physDesc>
+                     <history>
+                        <ab>Vidisse af 23. jul. 1431 (= Rep. nr. 6512)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 8-9</bibl>
+               <bibl>Rep. nr. 6492</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-04-15"
+                  notBefore="1431-04-15"
+                  notAfter="1431-04-15"
+                  cert="high">1431. 15. april</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens (Andersen (Lodehat)), biskop i Roskilde, stadfæster en gave fra sin forgænger Peder
+      (Jensen (Lodehat)) til Eggert Schulte, borger i København, da gavebrevet herom var gået tabt
+      ved en brand. Gaven bestod af en gård ved stranden i København og var givet for den tjeneste,
+      som Eggert Schulte havde ydet biskop Peder og den hellige kirke. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-09-26" who="#pbh">Filen etableret af #pbh 2013-09-26. </change>
+         <change when="2019-06-19" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2019-06-19. </change>
+         <change when="2019-08-30" who="#alk">2. korrektur af #alk 2019-08-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wy <persName>Jenis</persName> m<ex>eth</ex> gudhs nathe biscop j Rosk<ex>ilde</ex> helse alle
+      the th<ex>e</ex>tt<ex>e</ex> breff se ell<ex>e</ex>r hør<ex>e</ex> læs<ex>es</ex>
+      ewi<ex>n</ex>nelig<ex>e</ex> m<ex>eth</ex> gudh oc kungør<ex>e</ex> at oss ær veth<ex>e</ex>r
+      licht at for thie<ex>n</ex>iste oc troschap so<ex>m</ex> th<ex>e</ex>nne b<ex>re</ex>ffuise<ex>re</ex>
+      <persName>Eggert Schulte</persName> burghe<ex>re</ex> j
+        <placeName>Kop<ex>e</ex>ndh<ex>af</ex>n</placeName> wor kær<ex>e</ex> forfadh<ex>e</ex>r oc
+      fadh<ex>e</ex>r broth<ex>e</ex>r biscop Peth<ex>e</ex>r hues siel gudh haue oc th<ex>e</ex>n
+      helie kirke giordhe tha gaff bisc<ex>op</ex> Peth<ex>e</ex>r oc vnte for<hi rend="sup">de</hi>
+      Eggert hans børn oc ha<ex>n</ex>s arwing<ex>e</ex> til ewi<ex>n</ex>nelig<ex>e</ex> eye oc
+      erwe en gardh ligg<ex>e</ex>nd<ex>es</ex> i Kop<ex>e</ex>ndh<ex>af</ex>n w<ex>et</ex>
+      strande<ex>n</ex> hues længe so<ex>m</ex> war<ex>e</ex>r fra<ex>n</ex> strande<ex>n</ex> oc
+      til Lædherstredit oc bredhe<ex>n</ex> xiiɉ <app><lem>s[ie]lensc<ex>e</ex></lem><rdg wit="#A">usikker læsning, A</rdg></app> alne øste<ex>n</ex> nest th<ex>e</ex>n <app><lem>grw[n]d</lem><rdg wit="#A">usikker læsning, A</rdg></app> th<ex>e</ex>r <persName>Hinric Kibow</persName> tha vpa bodhe j
+        <placeName>s<ex>anc</ex>ti Nicolaus soghn</placeName> huilke<ex>n</ex> gardh so<ex>m</ex>
+        for<hi rend="sup">de</hi> bisc<ex>op</ex> Peth<ex>e</ex>r war vpako<ex>m</ex>men aff ret
+      vedh<ex>e</ex>r licht køp so<ex>m</ex> v<ex>e</ex>l beuislicht ær / ♦</p>
+            <p n="a#2" xml:space="preserve">Oc nw haue wy visselighe sport oc <app><lem>h[ø]rt</lem><rdg wit="#A">usikker læsning, A</rdg></app> at th<ex>et</ex> <cit><quote>b<ex>re</ex>ff</quote><bibl>kendes ikke</bibl></cit> so<ex>m</ex> for<hi rend="sup">de</hi> Eggert haffthe aff bisc<ex>op</ex>
+      Peth<ex>e</ex>r vpa th<ex>e</ex>n sa<ex>m</ex>me gardh bleff han<ex>um</ex> aff brænt
+      m<ex>eth</ex> mere <app><lem>[ha]ns</lem><rdg wit="#A">usikker læsning, A</rdg></app> goths thes werr<ex>e</ex> ♦</p>
+            <p n="a#3" xml:space="preserve">Thy stadhfeste wy nw m<ex>eth</ex> th<ex>et</ex><ex>te</ex> wort vpne b<ex>re</ex>ff
+      th<ex>e</ex>n for<hi rend="sup">de</hi> gaue oc fra<ex>m</ex>del<ex>es</ex> vnte for<hi rend="sup">de</hi> Eggert hans børn oc arwing<ex>e</ex> til ewicht eye oc erwe th<ex>e</ex>n
+      forscr<ex>efne</ex> gardh m<ex>eth</ex> all fardel oc nathe so<ex>m</ex> bisc<ex>op</ex>
+      Peth<ex>e</ex>r han<ex>um</ex> oc th<ex>e</ex>m gaff oc wnte j sit leuende liff / oc forbydhe
+      alle at wforrætte han<ex>um</ex> th<ex>e</ex>r ower j noghre made ♦</p>
+            <p n="a#4" xml:space="preserve">Datum Haffnis anno domini m<hi rend="sup">o</hi>cdxxxprimo dominica qua cantatur misericordia
+      domini nostro sub sigillo presentibus appenso ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

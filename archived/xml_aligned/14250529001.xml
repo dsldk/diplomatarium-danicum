@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">85</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14250529001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                  Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Königsberg</settlement>
+                        <repository>Königliche Bibliothek</repository>
+                        <collection>empty</collection>
+                        <idno>Handschrift Nr. 1555</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Overskrift: <q>Legacio ex parte Marchionis Brandenburgensis ad regem
+                              Polonie</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>
+                  <ref/>
+               </bibl>
+               <bibl>Reg. Dan. nr. *4734</bibl>
+               <bibl>A.F. Riedel, <ref>Novus Codex diplomaticus Brandenburgensis, Supplementband</ref>, 1865,
+                  57-60</bibl>
+               <bibl>Höfler, <ref>Urkunden zur Beleuchtung der Geschichte Böhmens und des deutschen Reiches im
+                  15. Jahrhunderte</ref>, 1865, 12.</bibl>
+               <bibl>
+                  <ref>Archiv für Österreichische Geschichte</ref> 45, 1871, 437-442. Også udgivet separat som
+                  <ref>liber cancellariae Stanislai Ciołek. Ein Formelbuch der polnischen Königskanzlei aus
+                     der Zeit der husitischen Bewegung.</ref> Hrg. J. Caro, Wien 1871</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Arkivalske oplysninger og tekst efter <ref>Archiv für Österreichische Geschichte l.l.</ref>
+            </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-05-29"
+                  notBefore="1425-05-29"
+                  notAfter="1425-05-29"
+                  cert="low">1425. 29. maj <note>If. <q>Archiv für Österreichische Geschichte</q> l.l. findes der i München
+                  to koncepter til teksten på hhv. latin og tysk, af hvilke førstnævte et dateret <q>fer. III
+                     festi pentecost.</q> uden år. Året fremgår dog af referencen til Erik af Pommerns ophold i Ungarn, idet andre oplysninger i teksten udelukker 1426. </note>
+            </date>
+            <placeName cert="low">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Referat af et gesandtskab fra markgreven (Friedrich 1.) af Brandenburg til kongen af Polen (Vladislav 2.),
+               hvori markgrevens udsendinge bl.a. afviser et forlydende om at markgreven skal have sendt en
+               slægtning til Erik 7. af Pommern i Ungarn for at advare ham mod at passere Polen på hjemvejen fra
+               Det Hellige Land.  </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-10-06" who="#pz">Filen etableret af #pz 2020-10-06. </change>
+         <change when="2020-10-09" who="#pz">1. korrektur af #pz 2020-10-09. </change>
+         <change when="2020-10-30" who="#mh">2. korrektur af #mh 2020-10-30. </change>
+         <change when="2020-11-30" who="#pz">3. korrektur af #pz 2020-11-30 . </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">... Item dixerunt, qualiter marchio intellexisset, quomodo fuisset s. v. suggestum, qualiter
+      ipse nepotem suum in <placeName>Hungariam</placeName> direxisset dominum ducem <persName>Janussium</persName>, quando rex <placeName>Dacie</placeName> etc. de
+      terra sancta expletis votis peregrinacionis per <placeName>Hungariam</placeName> transivit, ad avizandum ipsum, ne
+      per regnum <placeName>Polonie</placeName> se transferret, quia ibi per regem deberet captivari vel ipsius regnicolas,
+      aut saltim aliqua pericula sustinere, et subjunxerunt: En rex gloriosissime, attendite istam
+      maliciam et oblucucionem, qualiter marchio deberet inimicum et hostem suum, qui quottidie suam
+      cum aliis emulis suis destruccionem meditatur, a periculis premuniri. ...</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

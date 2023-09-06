@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">239</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">1</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14390206001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>NKR 3305-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 33.3 × 19.9. <ab>Højre side af skriftspejlet fugtskadet med mindre teksttab til
+                                    følge</ab>
+                        <ab>Nederst på forsiden: <q>Ffrank</q>. Udskrift på bagsiden:
+                                 <q>Serenissimo principi Erico dei gracia . Dacie . Swecie . et
+                                 Norwegie . Slavorum . Gothorumque regi . etcetera . fratri nostro
+                                 carissimo</q>; herunder har den tidligere ejer Thomas Astle i 18.
+                              årh. tilføjet oplysninger på engelsk om brevets indhold og om kong
+                              Erik</ab>1. Trods tekstens oplysning herom er der ikke spor efter
+                                 forsegling. </physDesc>
+                     <history>
+                        <ab>De senere engelske påtegninger sammen med den manglende besegling får
+                           Erslev i Rep. til at antage at der er tale om en ikke afsendt, kasseret
+                           original.
+                           Erslev foreslår, at det kan have været Thorkelin, der omkring 1800
+                           erhvervede dokumentet til Gehejmearkivet</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>London</settlement>
+                        <repository>British Library</repository>
+                        <collection>Stowe</collection>
+                        <idno>MS 178, fol. 53</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Iflg. katalogen <q>"Litera Henrici sexti Regis Angliæ Erico Decimo Daciæ
+                              Regi"; 1439. "Ex Autographo in Bibliotheca Thomæ Astlei,
+                           Arm."</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskrift vist nok af Thorkelin</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6992</bibl>
+               <bibl>Reg. Dan. nr. 3620</bibl>
+               <bibl>Udtog: Macray, I report 4</bibl>
+               <bibl>Rymer, Foedera X 717 (1. udg.), V,1 58 (3. udg.)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>; tabt tekst suppleret efter Rymer l.l., hvis teksts ophav
+               ikke er angivet, men som dels medtager de i A tilføjede rettelser, dels næppe kan
+               være efter A, idet bl.a. begyndelsesordet er et andet.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1439-02-06"
+                  notBefore="1439-02-06"
+                  notAfter="1439-02-06"
+                  cert="high">1439.
+               6. februar</date>
+            <placeName cert="high">Westminster</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Henrik 6. af England beder kong Erik 7. af Pommern om tilladelse for købmanden
+               Robert Chapman fra York til at købe rug og hvede i Danmark, idet sidste års høst slog
+               fejl på grund af uvejr og nedbør. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-12-10" who="#pbh">Filen etableret af #pbh 2013-12-10. </change>
+         <change when="2019-09-10" who="#pbh">1. korrektur af #pbh 2019-09-10. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <app>
+                  <lem>Serenissimo</lem>
+                  <rdg>
+                     <q>Excellentissimo</q>, Rymer</rdg>
+               </app> principi Erico dei gracia Dacie Swecie Norwegie Slavorum Gothorumque regi
+               etcetera . <app>
+                  <lem>fratri nostro</lem>
+                  <rdg>rettet til <q>avunculo nostro</q>
+                  </rdg>
+               </app> carissimo Henricus eadem gracia rex Anglie et Francie et dominus Hibernie
+               salutem et <app>
+                  <lem>fraterne</lem>
+                  <rdg>rettet til <q>sincere</q>
+                  </rdg>
+               </app> dileccionis continuum incrementum . ♦ </p>
+            <p n="a#2">Serenissime princeps <app>
+                  <lem>frater</lem>
+                  <rdg>over linjen tilf. <q>et avuncule</q>
+                  </rdg>
+               </app> noster carissime . Licet ex ipsius affluenti bonitate qui semen dat serenti et
+               panem comedenti terra nostra Anglie communibus annis pro majori . quasi ejusdem parte
+               frugum copiam germinet et producat in plerisque tamen ipsius terre locis . hoc anno
+               propter exuberantem aquarum inundanciam ac varias aeris intemperies plus solito
+               ingruentes / frugum copia deficit . et presertim siliginis et frumenti . ♦ </p>
+            <p n="a#3">Cumque sicut audivimus . in regno dominiis et territoriis vestris fruges
+               hujusmodi inpresenciarum vigeant <supplied>et</supplied> habundant <app>
+                  <lem>fraternitatem</lem>
+                  <rdg>rettet til <q>serenitatem</q>
+                  </rdg>
+               </app> vestram affectuose rogamus quatinus dilectum nobis <persName>Robertum
+                  Chapman</persName> civitatis nostre <placeName>Eboraci</placeName> mercatorem .
+               qui pro granorum uberiori plenitudine h<damage>abenda</damage> pro eadem nostra
+               civitate ac patria eidem adjacente . in presenciarum personaliter ad regnum dominia
+               et territoria vestra predicta se divertit . ♦ </p>
+            <p n="a#4">Velit eadem vestra serenitas habere specialiter recommissum . singularem
+               revera in hoc nobis complacenciam ostensura qui eciam vice reciproca cum apud nos
+               tritici habu<damage>ndancia</damage> recreverit pro vestro vestrorumque subsidio casu
+               parili fortassis iminente . licenciam consimilem . animo benevolenti tribuemus . ♦ </p>
+            <p n="a#5">Serenissime princeps frat<damage>er et avuncule noster carissim</damage>e <app>
+                  <lem>serenitatem</lem>
+                  <rdg>rettet til <q>precellenciam</q>
+                  </rdg>
+               </app> vestram diu in prosperis conservare dignetur altissimus tempora per longeva .
+               ♦ </p>
+            <p n="a#6">Datum sub privato sigillo nostro apud palacium nostrum Westm<damage>onasterii
+                  sexto d</damage>ie mensis ffebruarii anno regni nostri decimo septimo . ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">153</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14220913001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift (iflg. Aa): <q>Jens Persøns skøde paa to boer i Skoboerne
+        1422</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglbeskrivelse iflg. Aa: Jens Pedersen af Emdrups segl, i skjoldet en væbnet
+        arm holdende et ombundet sværd (i Rep. identificeret som slægten Væbners våben, men muligvis
+        slægten Halvegges våben, se DAA 2009-11 487-508), med omskriften <q>S' Johannis
+        Petri</q></ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglbeskrivelse iflg. Aa: gejstligt segl</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglbeskrivelse iflg. Aa: skjold med bomærke</ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>Seglbeskrivelse og -tegning iflg. Aa: Jakob van Mølnes segl. Skjold: lodret
+        delt, dekster vandret delt: 1. felt hvidt, 2. felt krydsskraveret eller rudet; sinister: i
+        hvidt felt et halvt møllehjul. Omskrift: <q>S. Jacob. van. der. Molen</q></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Iflg. Langebek var afskriften foretaget efter <q>Orig. membran. af vor Frue
+        Kirkes Archiv 1750</q>. Om seglene oplyses det, at <q>Seiglene ere alle
+      hele</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5979</bibl>
+               <bibl>Reg. *4622</bibl>
+               <bibl>Københavns Dipl. II 44-45 nr. 28</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1422-09-13"
+                  notBefore="1422-09-13"
+                  notAfter="1422-09-13"
+                  cert="high">1422. 13. september</date>
+            <placeName cert="high">København</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jens Pedersen af Emdrup, væbner, erklærer at have modtaget 30 mark sølv i gangbare hvide
+      lybske hulpenninge af Niels Hanins børn og sande arvinger. For disse penge overdrager han dem
+      en gård med toft og bygninger, nemlig to boder på den vestre side af Tyskemannegade
+      (Skoboderne), som Jens Gadensteen tidligere havde pantsat ham for 30 mark sølv i gangbar
+      mønt.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-15" who="#pbh">Filen etableret af #pbh 2014-05-15. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-05-30" who="#alk">2. korrektur af #alk 2017-05-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Johannes Petri</persName> de
+        <placeName>Ymmerthorp</placeName>, armiger, salutem in domino ♦</p>
+            <p n="a#2">Noverint universi presentes et futuri, quod recognosco me a veris heredibus liberis cujusdam
+        <persName>Nicolai dicti Hannyn</persName>, quondam <placeName>villani Hafnensis</placeName>,
+      pie memorie, triginta marchas argenti in alba et concava pecunia Lubicensi bone monete et
+      dative integraliter percepisse, pro quibus triginta marcis argenti predictis ipsius Nicolai
+      Hanyn liberis unam curiam cum fundo et edificiis, videlicet duas tabernas in vico et angulo in
+      occidentali parte a communi platea dicta Thytheskemannegade sitas et mihi prius per quendam
+      Johannem Geddensten dudum villanum Hafnensem felicis memorie pro predictis triginta marcis
+      argenti etiam currentis monete et dative rite impigneratas, una cum omni jure meo et <cit>
+                  <quote>apertis litteris</quote>
+                  <bibl>
+                     <ref target="14170929002">DD 1417. 29. sept., nr. 14170929002</ref>
+                  </bibl>
+               </cit>, conditionibus et articulis mihi super hoc confectis dimitto et resigno totaliter per
+      presentes. ♦</p>
+            <p n="a#3">In cujus rei testimonium sigillum meum una cum sigillis honorabilium virorum scilicet domini
+        <persName>Henrici Krøyer</persName>, domini <persName>Nicolai Jacobi</persName> de
+        <placeName>Glathsaxe</placeName>, presbiterorum et <placeName>perpetuorum vicariorum in
+        ecclesia Hafnensi</placeName>, et <persName>Jacobi wan Møllen</persName>
+               <placeName>villani ibidem</placeName> presentibus est appensum. ♦</p>
+            <p n="a#4">Datum Hafnis anno domini mcdxxii. profesto exaltationis sancte crucis domini nostri Jhesu
+      Christi ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">602</num>, paragraphs: <num n="paragraphs">13</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14230602001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2803-c; tidl. sign. Folioreg. 30, 2. afd., fasc. I, art. 1, nr. 5 - L 6-21</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>28.5</height>
+                                    <width>21</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Papirark foldet til to blade med tre beskrevne sider</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift (eller oversættelse fra latin) fra omkring 1500, der foruden dette brev
+      også rummer pave Alexander 6.s brev af 1492 u.d. (Rep. 2. rk. nr. 7334) og biskop i Roskilde
+      Oluf Mortensens brev af 12. november 1481 (Rep. 2. rk. nr. 4929)</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6023</bibl>
+               <bibl>Reg. *4654</bibl>
+               <bibl>Rørdam, Kbhvns. Kirker og Klostere, Till. 29-30 nr. 26</bibl>
+               <bibl>Københavns Dipl. IV 24-25 nr. 35</bibl>
+               <bibl>Vejledende Arkivreg. XVII 203 nr. 32</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 218-220</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-06-02"
+                  notBefore="1423-06-02"
+                  notAfter="1423-06-02"
+                  cert="high">1423. 2. juni</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Lars Nielsen Vinnere, rådmand i København, skænker to gårde i Buddinge og to gårde i Mørkhøj
+      med en samlet årlig ydelse på 13 pund korn til det af ham nyligt stiftede alter for sankt Oluf
+      og sankt Gertrud i Vor Frue Kirke i København.</ab>
+            <ab>Lars Nielsen Vinnere og hans søn Mikkel Larsen skal have forleningsretten til alteret, så
+      længe de lever. Derefter skal forleningsretten overgå til den til enhver tid siddende dekan i
+      København.</ab>
+            <ab>Præster af Lars Nielsen Vinneres slægt skal have forret til alteret, men kun præsteviede,
+      der vil tage ophold i København, kan komme i betragtning. Overtrædes opholdspligten, skal
+      dekanen afsætte altervikaren, medmindre denne er fraværende pga. studier og med biskoppens
+      tilladelse. I så fald skal altervikaren have en kapellan til at vikariere for sig.</ab>
+            <ab>Altervikaren skal holde fire messer om ugen og hvert år holde årtid for Lars Nielsen Vinnere
+      i højkoret i Vor Frue Kirke med uddeling af to skilling grot. Altervikaren skal forrette
+      kortjeneste med de andre klerke efter samme sædvane som de evige vikarer i Roskilde.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-27" who="#pbh">Filen etableret af #pbh 2014-05-27. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-11-21" who="#alk">2. korrektur af #alk 2017-11-21. </change>
+         <change when="2018-03-05" who="#alk">3. korrektur af #alk 2018-03-05. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle me<ex>n</ex> th<ex>ett</ex>e b<ex>re</ex>ff see hør<ex>e</ex> ell<ex>e</ex>r læse
+      hiels<ex>er</ex> iek <persName>Laur<ex>ens</ex> Niels<ex>øn</ex> ma<ex>n</ex> kall<ex>er</ex>
+        Vi<ex>n</ex>ner<ex>e</ex></persName>
+      <placeName>radma<ex>n</ex> j Kop<ex>e</ex>nhaff<ex>n</ex></placeName> /
+      evi<ex>n</ex>ne<ex>li</ex>ge m<ex>eth</ex> vor h<ex>er</ex>r<ex>e</ex> ♦</p>
+            <p n="a#2" xml:space="preserve">Th<ex>et</ex> vil iek alle me<ex>n</ex> vith<ex>er</ex>lict wær<ex>e</ex>
+      nær<ex>uæren</ex>d<ex>e</ex> oc tilko<ex>men</ex>de at so<ex>m</ex> sanctus Paulus apostolus
+      ha<ex>n</ex> syer <cit><quote>vij sculle alle sta<ex>n</ex>de for gudz do<ex>m</ex>stoll løn
+            tagh<ex>e</ex>n<ex>de</ex> pa vor siel so<ex>m</ex> vi fortiene j vort legeme</quote><bibl>II Cor 5, 10: <q>omnes enim nos manifestari oportet ante tribunal Christi ut referat
+            unusquisque propria corporis prout gessit sive bonum sive malum</q>, cf. Rm 14,10: <q>tu
+            autem quid iudicas fratrem tuum aut tu quare spernis fratrem tuum omnes enim stabimus
+            ante tribunal Dei</q>.</bibl></cit> / oc Jhesus Cristus sier selff in ewangelio <cit><quote>Gør<ex>e</ex>r edh<ex>e</ex>r ve<ex>n</ex>ne aff thesse forge<ex>n</ex>glige
+            rigdo<ex>m</ex>me at th<ex>e</ex>n tiid the sleppe edh<ex>e</ex>r j mwe vorde
+            i<ex>n</ex>tagne i<ex>n</ex> th<ex>et</ex><supplied>evige</supplied> rige</quote><bibl>Lc 16, 9: <q>et ego vobis dico facite vobis amicos de mamona iniquitatis ut cum
+            defeceritis recipiant vos in aeterna tabernacula</q>.</bibl></cit> ♦</p>
+            <p n="a#3" xml:space="preserve">Thy vdj j naffn fadh<ex>e</ex>r<ex>s</ex> søns oc <app><lem>he<ex>li</ex>g<ex>a</ex>nsz</lem><rdg wit="#Aa">Herefter slettet <q>naffn</q>, Aa</rdg></app> giffu<ex>er</ex> iek oc skødh<ex>e</ex>r oc oplad<ex>er</ex> m<ex>eth</ex>
+      th<ex>ett</ex>e mit opne b<ex>re</ex>ff alt myt godz j
+        <placeName>Buthi<ex>n</ex>ge</placeName> vti <placeName>Gladsaxe sogn</placeName> j
+        <placeName>Sielen</placeName> sa so<ex>m</ex> ær too gord<ex>e</ex> een nw bygdh<ex>e</ex>r
+      til huilken ligg<ex>er</ex> iij fierdi<ex>n</ex>ge jord aff huilke<ex>n</ex> scal
+      giff<ex>es</ex> arlige iiij p<ex>un</ex>d korn oc th<ex>e</ex>n a<ex>n</ex>ne<ex>n</ex> nw øde
+      til huilke<ex>n</ex> ligg<ex>er</ex> iij fierdi<ex>n</ex>ge jord aff huilke<ex>n</ex> skal
+      giff<ex>es</ex> vj p<ex>un</ex>d korn ♦</p>
+            <p n="a#4" xml:space="preserve">Item j <placeName>Mørkøe</placeName> j for<hi rend="sup">de</hi> sogn ii gorde / en nw
+      bygd<ex>er</ex> so<ex>m</ex> tillig<ex>er</ex> een fierdi<ex>n</ex>g
+      †tordi<ex>n</ex>g† jord aff huilke<ex>n</ex> tu p<ex>un</ex>d korn skal
+      giff<ex>es</ex> oc th<ex>e</ex>n a<ex>n</ex>ne<ex>n</ex> nw øde till huilke<ex>n</ex>
+      ligg<ex>er</ex> en atti<ex>n</ex>g iord aff huilke<ex>n</ex> scal giff<ex>es</ex> eet
+      p<ex>un</ex>d korn m<ex>eth</ex> the for<hi rend="sup">de</hi> gard<ex>es</ex> tilligelsze
+      so<ex>m</ex> ær ager eng scou oc fiscæuan oc jnth<ex>et</ex> wndh<ex>e</ex>rtag<ex>e</ex>t til
+      eet <placeName>altare</placeName> j <placeName>wor F<ex>ru</ex>e kirke j
+        Køp<ex>e</ex>nhaffn</placeName> so<ex>m</ex> iek hau<ex>er</ex> fu<ex>n</ex>der<ex>e</ex>t
+      oc nylege obbygd m<ex>eth</ex> rad oc vilie hed<ex>er</ex>lige fadh<ex>e</ex>rs m<ex>eth</ex>
+      Crist oc h<ex>er</ex>re h<ex>er</ex>
+      <persName>Ie<ex>n</ex>s</persName> m<ex>eth</ex> gudz nade <placeName>biscop j
+        Rosk<ex>il</ex>d<ex>e</ex></placeName> oc ha<ex>n</ex>s kær<ex>e</ex>
+      <placeName>capitels j for<hi rend="sup">de</hi> Køp<ex>e</ex>nhaffn</placeName> gudh til
+      hedh<ex>e</ex>r h<ex>er</ex>re sancto Olavo jo<ex>m</ex>f<ex>ru</ex> sancte
+      G<ex>er</ex>t<ex>ru</ex>d til lise oc salighed my<ex>n</ex> siel oc my<ex>n</ex>ne
+      kær<ex>e</ex> huf<ex>r</ex>uers (!) <persName>Marg<ex>re</ex>t<ex>es</ex></persName>
+      <persName>Lucies</persName> oc <persName>Ka<ex>ri</ex>nes</persName> oc alle c<ex>ri</ex>sne
+      sieles help oc t<ex>r</ex>øst j my<ex>n</ex> helbredighed oc m<ex>eth</ex> my<ex>n</ex> gode
+      vilie oc my<ex>n</ex> kær<ex>e</ex> husf<ex>ru</ex>es Ka<ex>ri</ex>ness oc m<ex>eth</ex>
+      my<ex>n</ex> kær<ex>e</ex> søns <persName>Michell Laur<ex>en</ex>ss<ex>øn</ex>ns</persName>
+      gode vilie oc sa<ex>m</ex>tycke a<ex>n</ex>nworde<ex>r</ex> oc oplade<ex>r</ex> iek all
+      my<ex>n</ex> r<ex>æ</ex>ttighed oc all r<ex>æ</ex>ttighed myne arui<ex>n</ex>ge
+      nog<ex>e</ex>tsy<ex>n</ex>ne ku<ex>n</ex>ne haffue j th<ex>et</ex> for<hi rend="sup">de</hi>
+      godz til for<hi rend="sup">de</hi> altare oc for<hi rend="sup">de</hi> altaris eye<ex>re</ex>
+      ewi<ex>n</ex>n<ex>eli</ex>ge m<ex>eth</ex> soda<ex>n</ex>ne mode oc wilkor so<ex>m</ex>
+      efft<ex>er</ex> sc<ex>re</ex>ffne sta<ex>n</ex>de ♦</p>
+            <p n="a#5" xml:space="preserve">Th<ex>e</ex>n første at <placeName>th<ex>e</ex>n so<ex>m</ex> degen ær j<ex>n</ex>
+        Køphaffn</placeName> (!) scal haffue ewerlige mact th<ex>et</ex> for<hi rend="sup">de</hi>
+      altare bort giffe m<ex>eth</ex> siit capils (!) radh oc vilie ♦</p>
+            <p n="a#6" xml:space="preserve">Jek oc my<ex>n</ex> søn for<hi rend="sup">d<ex>e</ex></hi> Michel
+      Laur<ex>en</ex>ss<ex>øn</ex> sculle haffue mact sale<ex>n</ex>ge wj leffue for<hi rend="sup">de</hi> altæ<ex>re</ex> folene th<ex>e</ex>n p<ex>er</ex>sone os thyckess ♦</p>
+            <p n="a#7" xml:space="preserve">Item for<hi rend="sup">d<ex>e</ex></hi> degen <supplied>oc</supplied> capitel sculle jngen
+      giffue for<hi rend="sup">d<ex>e</ex></hi> altæ<ex>re</ex> vth<ex>e</ex>n so<ex>m</ex>
+      p<ex>re</ex>st ær oc alle tide ville boo i <placeName>Haffn</placeName> ♦</p>
+            <p n="a#8" xml:space="preserve">Item wll (!) <app><lem>th<ex>e</ex>n</lem><rdg wit="#Aa">Herefter slettet <q>vil</q> og <q>th</q>, Aa</rdg></app>
+      <placeName>vicarius</placeName> icke bo som forsc<ex>re</ex>ff<ex>e</ex>t ær tha scall for<hi rend="sup">de</hi> deg<ex>e</ex>n ful mact <supplied>haffue</supplied> ath
+      p<ex>ri</ex>ue<ex>re</ex> ha<ex>nu</ex>m af for<hi rend="sup">de</hi> altæ<ex>re</ex>
+      vth<ex>e</ex>n ha<ex>n</ex> ær <supplied>til</supplied> scole m<ex>eth</ex> sy<ex>n</ex>
+      biscops loff oc for<hi rend="sup">de</hi> capitellis oc tha scal ha<ex>n</ex> haffe een
+        <placeName>cap<ex>e</ex>llan</placeName> so<ex>m</ex> ful tyenste scal gør<ex>e</ex> til
+        for<hi rend="sup">de</hi> alte<ex>re</ex> ♦</p>
+            <p n="a#9" xml:space="preserve">Item for<hi rend="sup">de</hi> vicarius scal sie ell<ex>e</ex>r lade sye fir<ex>e</ex>
+      mess<ex>er</ex> huer vge oc scal ha<ex>n</ex> lade my<ex>n</ex> artiid gør<ex>e</ex>ss arlige
+      m<ex>eth</ex> ij s<ex>killing</ex> g<ex>rot</ex> j <placeName>houe kor j for<hi rend="sup">de</hi> wor F<ex>ru</ex>e kirke</placeName> ♦</p>
+            <p n="a#10" xml:space="preserve"> Item scal for<hi rend="sup">d<ex>e</ex></hi> vicarius søge kor m<ex>eth</ex> and<ex>re</ex>
+      clerke i vor F<ex>ru</ex>e kirke sa so<ex>m</ex>
+      <placeName>perpetui vicarii j Rosk<ex>il</ex>d<ex>e</ex></placeName> haffue sedwe<ex>n</ex>nie
+      ♦</p>
+            <p n="a#11" xml:space="preserve">Item ær nogh<ex>e</ex>n p<ex>re</ex>st j my<ex>n</ex> slegt th<ex>et</ex> for<hi rend="sup">de</hi> altæ<ex>re</ex> vil haffe nar th<ex>et</ex> ær løst tha scal ha<ex>n</ex> for<hi rend="sup">d<ex>e</ex></hi> altæ<ex>re</ex> haffue for alle and<ex>re</ex> ♦</p>
+            <p n="a#12" xml:space="preserve">Til alle thesse for<hi rend="sup">de</hi> stycke oc article me<ex>re</ex> forvari<ex>n</ex>g
+      oc stadfestilse he<ex>n</ex>gh<ex>e</ex>r iek my<ex>n</ex>t jncegle for th<ex>ett</ex>e
+      b<ex>re</ex>f m<ex>eth</ex> a<ex>n</ex>d<ex>re</ex> hed<ex>er</ex>lige mentz oc
+      welb<ex>ur</ex>dige i<ex>n</ex>cygle so so<ex>m</ex> er hedh<ex>e</ex>r<ex>lig</ex>
+      fadh<ex>e</ex>rs m<ex>eth</ex> Crist for<hi rend="sup">d<ex>e</ex></hi> biscop
+        <persName>Je<ex>n</ex>s</persName> aff gudz nade biscop vdi Rosk<ex>il</ex>d<ex>e</ex> h<ex>er</ex>
+      <persName>And<ex>er</ex>s Nielss<ex>øn</ex></persName> ridde<ex>re</ex> oc
+        <placeName>høuidzma<ex>n</ex> pa Køp<ex>e</ex>nhaffn</placeName> hus <persName>Michel
+        Laur<ex>en</ex>ss<ex>øn</ex></persName> my<ex>n</ex> søn / <persName>Peter
+        Michilss<ex>øn</ex></persName> oc <persName>Arel Kruse</persName>
+      <placeName>radme<ex>n</ex> j Kop<ex>en</ex>haf<ex>n</ex></placeName> ♦</p>
+            <p n="a#13" xml:space="preserve">Giffu<ex>e</ex>t eft<ex>er</ex> vor h<ex>er</ex>r<ex>es</ex> fødilses ar mcdxxtercio gudz
+      legeme afft<ex>e</ex>n ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

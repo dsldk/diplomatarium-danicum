@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">243</num>, paragraphs: <num n="paragraphs">10</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14160118001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Berlin</settlement>
+                        <repository>Staatsarchiv Königsberg (nu Berlin, Geheimes Staatsarchiv Preußischer Kulturbesitz)</repository>
+                        <collection>XX. HA, Ordensbriefarchiv (OBA)</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. </physDesc>
+                     <history>
+                        <ab>Ikke forefundet 2020</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Napiersky, Index corporis historico-diplomatici Livoniae, Esthoniae, Curoniae, nr. 723, p.
+      174 (regest)</bibl>
+               <bibl>Kotzebue, Preußens ältere Geschichte, Bd. III, p. 424-425 (udtog)</bibl>
+               <bibl>Bunge, Liv.-, Est.- u. Curländ. Urkundenb. V, nr. MML, sp. 110-111 (Reg. nr. 2452)</bibl>
+               <bibl>Reg. Dan. nr. *4349</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Bunge l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1416-01-18"
+                  notBefore="1416-01-18"
+                  notAfter="1416-01-18"
+                  cert="high">1416. 18. januar</date>
+            <placeName cert="high">Danzig</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Michael Küchmeister (v. Sternberg), højmester for Den Tyske Orden, skriver til sine
+      udsendinge ved koncilet i Konstanz vedrørende truslen fra kong Erik 7. af Pommern. </ab>
+            <ab>Højmesteren meddeler, at kong Erik 7. af Pommern har indledt en krig mod Lübeck, indgået et
+      forbund med kong Vladislav 2. af Polen og hertug Witold af Litauen og nu truer Den Tyske
+      Orden. Derfor anmoder højmesteren sine udsendinge om at opfordre den romerske konge Sigismund
+      til - som om af sig selv - at tilskynde kong Erik til at være venligtsindet mod Den Tyske
+      Orden. Opfordingen til kong Sigismund skal ifølge højmesteren fremsættes af udsendingene på en
+      venlig måde og ikke i form af en klage over kong Erik. I det hele taget må kong Erik ikke få
+      fornemmelse af, at højmesteren står bag dette forehavende. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-06" who="#pbh">Filen etableret af #pbh 2014-03-06. </change>
+         <change when="2020-11-03" who="#smb">1. korrektur af #smb 2020-11-03. </change>
+         <change when="2020-12-10" who="#smb">2. korrektur af #smb 2020-12-10. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Allirerwirdigster vater und sunderlicher lieber herre, und ersamen lieben, her compthur und
+      her procurator etcetera.</p>
+            <p n="a#2" xml:space="preserve">Wir geben euch zu vorstehen, das der koning von <placeName>Dennemark</placeName> sich
+      etlicher mosse wundirlich ken uns stellet, das wir aus etlichen beizeichen wol haben
+      gemerket.</p>
+            <p n="a#3" xml:space="preserve">Nu hat her einen krieg angefangen mit den van <placeName>Lubike</placeName>.</p>
+            <p n="a#4" xml:space="preserve">Wir vorsehen uns, das her sich dor uf leichte vorlest, das es deme von
+        <placeName>Engelandt</placeName> noch willen hat irgangen. Dovon ouch sicher ist zu
+      vormuten, das villeichte die segelatie eine weile dirnedir werde legin.</p>
+            <p n="a#5" xml:space="preserve">Wann wir willen haben, ab wir ichtes wurden vornemen, das sich zum ergisten welde keren, das
+      wir den unsern wellen vorbieten, das sie nicht segiln sullen, bis als lange, das sie
+      gewisselich irfaren, wohin sich dese ding keren willen, und sicher segeln mogen.</p>
+            <p n="a#6" xml:space="preserve">So hat sich ouch der von <placeName>Dennemark</placeName> mit deme von
+        <placeName>Polen</placeName> und herzoge <persName>Wytauden</persName> vorbunden, als ir
+      ouch vor wol habet vornomen.</p>
+            <p n="a#7" xml:space="preserve">Hirum so bitten wir euch mit fleissiger begerunge, das ir diis in einer bequemen weise, nicht
+      in einer klage, brenget an unsern herren, den Romischen koning, in demuticlichen bittende, das
+      als von in seibin dem konige zu <placeName>Dennemark</placeName>, in bittende, das unsern
+      orden im wellen lassen sein empfolen, und unser gnediger herr sein und bleiben.</p>
+            <p n="a#8" xml:space="preserve">Und fuget dis also, das wir dor inne nicht gemerket werden, sunder das unser herre, der
+      Romische koning, als von eigener bewegunge schreibe, und sendet uns desselbigen brivis eine
+      abeschrift.</p>
+            <p n="a#9" xml:space="preserve">Darane tut ir uns sunderlich zu danke.</p>
+            <p n="a#10" xml:space="preserve">Gegeben zu <placeName>Danczk</placeName>, am tage Priscae virginis, anno etcetera XVI<hi rend="sup">to</hi>.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">152</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14150118001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 2555-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>11.9</height>
+                                    <width>21</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Kristian Willes segl trykt på bagsiden med rødt voks, <ref>AS B v 26</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 112</bibl>
+               <bibl>Rep. III nr. 5501 (i udtog)</bibl>
+               <bibl>Reg. *4311</bibl>
+               <bibl>Hübertz, Aarhus I, 3-4, nr. 5</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-01-18"
+                  notBefore="1415-01-18"
+                  notAfter="1415-01-18"
+                  cert="empty">1415. 18. januar</date>
+            <placeName cert="high">Århus</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kristian Wille, væbner, kvitterer borgmester, råd og almue i Århus på Kong Eriks vegne for 100 mark lybsk af deres skat, som var
+      forfalden sidste Skt. Mortens dag.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-27" who="#pbh">Filen etableret af #pbh 2014-02-27. </change>
+         <change when="2017-07-04" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-07-04. </change>
+         <change when="2017-09-05" who="#jon">2. korrektur af #jon 2017-09-05. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Allæ thæ th<ex>et</ex>tæ bref se æll<ex>e</ex>r høræ hæilsner jæch <persName>Kristern
+      Willæ</persName> th<ex>e</ex>r wæbner <app>
+                  <lem>ær</lem>
+                  <rdg wit="#A">
+                     <q>he</q> herefter slettet, A</rdg>
+               </app> quæti m<ex>eth</ex> gwdh ♦ Th<ex>et</ex> skulæ allæ with<ex>e</ex>rlicht we<ex>ræ</ex> thæ nw ær<ex>e</ex> all<ex>e</ex>r
+      ko<ex>m</ex>mæ <app>
+                  <lem>
+                     <placeName>skulæ</placeName>
+                  </lem>
+                  <rdg wit="#A">skrevet ov. l., A</rdg>
+               </app> ath jæch with<ex>e</ex>rke<ex>n</ex>nes mæch ath hawæ
+      vpboræth af thæ godhæ mæn af Arws af borwgmest<ex>e</ex>r ogh radmæn ogh almowen hwndærth
+      lyb<ex>ske</ex> mark po myn nodhighæ herræ konyngh Eriks wæghænæ hwælkæ hans nodhæ mæch
+      skyldich <app>
+                  <lem>war</lem>
+                  <rdg wit="#A">
+                     <q>af thæræs skat</q> herefter slettet, A</rdg>
+               </app> af thæres skat th<ex>e</ex>r thæ skulæ vt giwæ ath sancte Mortens dach nw war /
+      ♦</p>
+            <p n="a#2">Ogh lath<ex>e</ex>r jæch ogh mynæ arwinghæ thæm ogh thæræ arwinghæ quit ogh orsach for hwær
+      manz tiltalæ ♦</p>
+            <p n="a#3">Til thæs bæth<ex>e</ex>r things for warælsæ so haw<ex>e</ex>r jæch fornæwændæ
+        <persName>Kristern Willæ</persName> myt jngsigæl thrykt po th<ex>et</ex>tæ bref
+      th<ex>et</ex> skræw<ex>et</ex> ær j Arws æft<ex>e</ex>r wors herræ føthælsæ aar thwsændh firæ
+      hwndærth po th<ex>et</ex> xv<hi rend="sup">o</hi> aar thæn frædach næst for sancte Fabianus
+      ogh sancte Cebastianus dach etcetera ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

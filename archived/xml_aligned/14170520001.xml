@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">101</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14170520001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Adresse: <q>Den ersamen etcetera bm. u. rm. to Revele
+      etcetera</q>
+                        </ab>1. Rådet i Dorpats segl. </physDesc>
+                     <history>
+                        <ab>Kopi i skrivelse fra rådet i Dorpat til rådet i Reval af 31. maj
+      1417</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Bunge, Liv.-, Est.- u. Curländ. Urkundenb. V, nr. MMCXLI, sp. 231-232 (Reg. nr.
+      2669)</bibl>
+               <bibl>Reg. Dan. nr. *4406</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Bunge l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-05-20"
+                  notBefore="1417-05-20"
+                  notAfter="1417-05-20"
+                  cert="high">[1417.] 20. maj</date>
+            <placeName cert="high">Riga</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Skrivelse fra rådet i Riga til rådet i Dorpat, hvori det meddeler, at det har givet de
+      skippere, som befinder sig i Riga, og som ønsker at sejle igennem Øresund, lov til at sejle
+      til Øresund, hvor de skal vente på de andre hanseatiske skibe, inden de sejler videre. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-25" who="#pbh">Filen etableret af #pbh 2014-03-25. </change>
+         <change when="2021-01-08" who="#smb">1. korrektur af #smb 2021-01-08. </change>
+         <change when="2021-02-18" who="#smb">2. korrektur af #smb 2021-02-18. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Na der grote etcetera.</p>
+            <p n="a#2" xml:space="preserve">Ersamen etcetera.</p>
+            <p n="a#3" xml:space="preserve">Willet weten, dat wi den schipheren, de hiir sin und dor <placeName>den Sunt</placeName>
+      segelen willen, orlof gegeven hebben to segelende bet in <placeName>den Öörs-sunt</placeName>,
+      und wi hebben en geboden bi des kopmans rechte, dat se in <placeName>deme Sunde</placeName>
+      der anderen schepe beiden scholen, bet se dar ok komen, und dan vort to samende segelen in den
+      namen Godes in einer vlote.</p>
+            <p n="a#4" xml:space="preserve">Hiir umme doet wol und scrivet dat den heren van <placeName>Revele</placeName>, so gi erste
+      mogen, up dat id en ok witlik si.</p>
+            <p n="a#5" xml:space="preserve">God almechtige beware ju gesunt to langen tiden.</p>
+            <p n="a#6" xml:space="preserve">Gescreven under des rades to <placeName>Rige</placeName> secrete, in unses Heren hemmelvart
+      dage.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

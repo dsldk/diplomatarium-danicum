@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14180130003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Reg. Lat. 190 fol. 205</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Franciscus XXIIII die 1. martii 1418. de Agello</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 257 nr. 1239</bibl>
+               <bibl>Repertorium Germanicum IV nr. 14707</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-01-30"
+                  notBefore="1418-01-30"
+                  notAfter="1418-01-30"
+                  cert="high">1418. 30.
+            januar<note>Tilsvarende supplik (<q>Datum Florentie 3. non. aprilis anno 2</q> = 3.
+            april 1419) i Arch. Segr. Vat. Suppl. 119 fol. 161</note>
+            </date>
+            <placeName cert="high">Konstanz</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Martin 5. pålægger Angelus (Barbadicus), kardinalpresbyter af sankt Petrus og
+          Marcellinus, at overdrage stillingen som præceptor i antoniterklostret i Tempzin i
+          Schwerin stift til Guillermus Chachipolli, kannik i antoniterklostret i Vienne; når denne
+          har opnået stillingen, skal han opgive sin stilling som præceptor i Mårkær kloster i
+          Slesvig stift. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-27" who="#pbh">Filen etableret af #pbh 2014-03-27. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">
+               <persName>Angelo tiluli ss. Petri et Marcellini presbitero
+          cardinali</persName>.</p>
+            <p>Religionis zelus vite ac morum honestas (etc.).</p>
+            <p>Exhibita siquidem nobis nuper pro parte <persName>Guillermi Chathipolli</persName>
+          canonici <placeName>monasterii s. Antonii Viennensis</placeName> ordinis s. Augustini
+          petitio continebat, quod, orta dudum inter ipsum et <persName>Dronetum de
+            Bergnis</persName> canonicum monasterii predicti super preceptoria <placeName>domus s.
+            Antonii in Tempczin dicti ordinis Zwerinensis diocesis</placeName>, de qua tunc per
+          obitum <persName>Petri Berlonis</persName> vacante Guillermus sibi auctoritate ordinaria
+          provisum fuisse canonice dictumque Dronetum provisioni hujusmodi se contra justitiam
+          opposuisse necnon fecisse, quominus provisio predicta debitum sortiretur effectum,
+          Dronetus vero predicti eandem preceptoriam ad se de jure spectare asserebant, prout
+          asserunt, materia questionis, generalis synodus Constantiensis tunc apostolica sede
+          vacante causam hujusmodi tibi ad instantiam ejusdem Guillermi, non obstante quod causa
+          ipsa de sui natura ad <app>
+                  <lem>
+                     <supplied>Romanam</supplied>
+                  </lem>
+                  <rdg>suppleret i APD</rdg>
+               </app> curiam legitime devoluta et apud eam tractanda et finienda non esset, audiendam
+          commisit et fine debito terminandam, tuque in causa hujusmodi ad nonnullos actus citra
+          tamen conclusionem inter partes ipsas diceris processisse.</p>
+            <p>Cum autem a nonnullis asseratur neutri eorundem Guillermi et Droneti in dicta preceptoria
+          jus competere, et dicta preceptoria adhuc, ut prefertur, vacare noscatur, nos .., volentes
+          dicto Guillermo, qui ordinem ipsum expresse professus existit, gratiam facere specialem,
+          circumspectioni tue mandamus, quatenus, si tibi per eventum litis hujusmodi constiterit
+          neutrum dictorum Guillermi et Droneti in dicta preceptoria jus habere, preceptoriam
+          eandem, cui cura imminet animarum, et que per canonicos monasterii predicti, cujus idem
+          Guillermus canonicus ordinem ipsum expresse professus existit, gubernari consuevit, queque
+          conventualis aut dignitas vel personatus non est, et ad quam quis per electionem non
+          assumitur [fructus 50 mr.] ...., prefato Guillermo auctoritate nostra conferas, non
+          obstante .. quod prefatus Guillermus preceptoriam <placeName>domus in Morker predicti
+            ordinis Slesvicensis diocesis</placeName> noscitur obtinere.</p>
+            <p>Volumus autem, quod dictus Guillermus, quamprimum vigore presentium preceptoriam in
+          Tempczin predictam fuerit pacifice assecutus, eandem preceptoriam in Morker, quam obtinet
+          et quam extunc vacare decernimus, omnino, prout ad id etiam sponte se obtulit, dimittere
+          teneatur ...</p>
+            <p>Datum <placeName>Constantie</placeName> 3. kal. febr. anno 1.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

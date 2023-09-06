@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">535</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2021</date>
+            <idno type="dd">14200309001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2021, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>SDHK</collection>
+                        <idno>nr. 19450</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra første halvdel af 1500-tallet</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Saml. t. d. norske Folks Spr. og Hist. I, nr. 3, p. 39-42</bibl>
+               <bibl>Reg. Dan. nr. 3344</bibl>
+               <bibl>Svenskt Diplomatarium, nr. 2744</bibl>
+               <bibl>Diplomatarium Norvegicum XIV, nr. 36</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Svenskt Diplomatarium l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1420-03-09"
+                  notBefore="1420-03-09"
+                  notAfter="1420-03-09"
+                  cert="high">1420. 9. marts</date>
+            <placeName cert="high">Kalmar</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern udsteder en forordning for Jämtland angående kongens ødemarker,
+      skindskat, handel og privilegier.</ab>
+            <ab>I forlængelse heraf udnævner kong Erik Hakon Laurensson til lagman i Jämtland og
+      Härjedalen.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-23" who="#pbh">Filen etableret af #pbh 2014-04-23. </change>
+         <change when="2021-04-12" who="#smb">1. korrektur af #smb 2021-04-12. </change>
+         <change when="2021-06-03" who="#smb">2. korrektur af #smb 2021-06-03. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wi <persName>Erik</persName> meth Gudz nade <placeName>Danmarks</placeName>,
+        <placeName>Sverikis</placeName>, <placeName>Norgis</placeName>, Vendis ok Gotis konningh ok
+      hertugh i <placeName>Pomerin</placeName> helse idher war elskelighe almwe, som byggia ok boo i
+        <placeName>Jempteland</placeName>, kerlika meth Gud ok war nadhe.</p>
+            <p n="a#2" xml:space="preserve">Ok kungøre idher ath wi haffwe hørth idher torff ok ærendhe, som war lagman ok idarth budh
+      oss nw her oppa iderhra(!) vegna beretthe; tha haffwe wi nw thalat vith war embitisman
+        <persName>Jøsse Erikson</persName> vm alla articula, som wi forstode aff them oppa landzsens
+      vegna, ok haffwe wi sakt honom hwru ther wm wara skal, først vm sakerøre, landzskyl, tengille
+      ok affrath, swa ath thet aff idher taghas skal i werdhøre, som thet aff aller warit haffwer,
+      swa lenghe ath wi skriffwe idher nakot anneth thil ther wm, ok war rettbe skat skulu I giffwe
+      i kloffwarn ok i retthe peninghe.</p>
+            <p n="a#3" xml:space="preserve">Item haffwa the hereth oss, ath när foghotin skal tingha meth idher, tha føre I førsth en
+      gengerdh i gardhin ok ther fortæris hon, ok sidhan gøre I en annen a mothe foghotin, när han
+      ridher i lænith, ok then forthærer foghothin; thet wilie wi ok ey ath swa wara skal, wthan
+      swadana gengerdh, som I aff aller giorth haffwa, then gører framdelis, ok idher skinskat skal
+      swa gaa for gilth, som idher lagmand sigher meth sin eedh, ath han aff aller gangit
+      haffwer.</p>
+            <p n="a#4" xml:space="preserve">Ok wilie wi ath <persName>Hakon Laffrenson</persName> skal wara idher lagman ther i landhith,
+      swa ok i <placeName>Herdal</placeName>, ok sighie idher lagh ok reth i millom effther then
+      gamble lagbok, ther wi nw haffwa idher wnth, swa lenghe wi biwdhe idher nakat annet thil ther
+      wm.</p>
+            <p n="a#5" xml:space="preserve">Ok beretthe the oss wm ødhemarker ther oss thil hører ok hwarke duger saa eller sla, swa ath
+      när idherth fææ komber ther oppa, tha wardhe I ther fore hindradhe, ok skule I bøtha ther
+      peningha fore; thet skal ok ey swa ware wthan boo, som wil i hegn haffwe, han hegne thet som
+      thet bør meth retthe, vthan er thet swa dana jordh ther oss thil hører, som dugher saa eller
+      slaa, then skal man faa legie effther møgieligheth then som hon er besth belægielgien(!). En
+      komber nakon then, som ther er reth erffwinge thil eller odalssman, the skulu wara nesth ath
+      legie swa dana jordh eller haffwa for retthen skat ok ther oppa byggia ok boo.</p>
+            <p n="a#6" xml:space="preserve">Ok beretthe the oss, ath ther ma inghin fara thil idher ok køpslagha meth idher for fogothin;
+      ther wm haffwe wi swa sakth honum effther thy ath thet komber oss ey thil skade ok(!) han
+      inghin hindre ther vthi, som thil idher vil fara, ok haffwa her nw warith for oss mangh breff
+      ther aff landhith, som er gamble priuilegiar ok andre breff, æ hwilke the helstz haffwa varith
+      for oss ok hwar idher i sin stadh halle them meth hwar annen effter thy som lagmannin ok andre
+      godhe men meth honum thykker lagh ok reth vm wara.</p>
+            <p n="a#7" xml:space="preserve">Ok forbiwdhe wi alle ware foghote ok embitismen ok alla andra, æ hoo the helstz æra, i nakro
+      mattho her amoth gøra effther thy som forskriffuat star ok swa lenghe thil thes ath thetta
+      breff igen kalles, vndher wara konungsligha hemffd ok vredhe.</p>
+            <p n="a#8" xml:space="preserve">Ther meth beffelle wi idher Gudh.</p>
+            <p n="a#9" xml:space="preserve">Scriptum <placeName>Calmarnie</placeName>, anno Domini mcd vicecimo(!), sabato ante
+      dominicam, qua cantatur oculi mei etcetera, nostro sub secreto presentibus appenso.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

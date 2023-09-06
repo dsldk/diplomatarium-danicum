@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">977</num>, paragraphs: <num n="paragraphs">22</num>. Translation, number of words: <num n="words">1195</num>, paragraphs: <num n="paragraphs">22</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14210804001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>2763-b</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>20.5 (plica: 3.2)</height>
+                                    <width>42.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med påskrift på bagsiden: <q>En beuiss oc windesbyrdt aff biscope prelati
+        ritermend mendt oc aff steder vtj Synderjutlandt och Nørejutlandt att Synderjutlandt aff
+        rette hører till Danmarkis krone och thet slott Gottorp</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Johan Skondelev, biskop i Slesvig, segl i rødt voks, i
+        perg.rem., <ref>DGS. 972</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Christiern Hemmingsen, biskop i Ribe, segl i rødt voks, i
+        perg.rem., <ref>DGS. 815</ref></ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Bo Mogensen (Lang), biskop i Århus, segl i rødt voks, i
+        perg.rem., <ref>DGS. 733</ref></ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Lage Glob, biskop i Viborg, segl i rødt voks, i perg.rem., <ref>DGS. 676</ref></ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Peder Laurenssen Friis, biskop i Børglum, segl i rødt voks, i
+        perg.rem., <ref>DGS. 618</ref></ab>
+                           </seal>
+                           <seal n="6" type="pendant">
+                              <ab>Ribe kapitel, segl i rødt voks, i perg.rem., <ref>DGS. 836</ref></ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Århus kapitel, segl i rødt voks, i perg.rem., <ref>DGS. 745</ref></ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>Viborg kapitel, segl i rødt voks, i perg.rem., <ref>DGS. 687</ref></ab>
+                           </seal>
+                           <seal n="9" type="pendant">
+                              <ab>Børglum kapitel, segl i rødt voks, i perg.rem., <ref>DGS. 627</ref></ab>
+                           </seal>
+                           <seal n="10" type="pendant">
+                              <ab>Oluf, abbed i Ryd kloster, segl i rødt voks, i perg.rem., <ref>DGS. 1012</ref></ab>
+                           </seal>
+                           <seal n="11" type="pendant">
+                              <ab>Segl tilhørende Troels, abbed i Løgum kloster, ført af Lars, abbed i Løgum
+        kloster, segl i rødt voks, i perg.rem., <ref>DGS. 960</ref></ab>
+                           </seal>
+                           <seal n="12" type="pendant">
+                              <ab>Lars, abbed i Tvis kloster, segl i rødt voks, i perg.rem., <ref>DGS. 956</ref></ab>
+                           </seal>
+                           <seal n="13" type="pendant">
+                              <ab>Jens, abbed i Øm kloster, segl i rødt voks, i perg.rem., <ref>DGS. 787</ref></ab>
+                           </seal>
+                           <seal n="14" type="pendant">
+                              <ab>Peder, abbed i Voer kloster, segl i rødt voks, i perg.rem., <ref>DGS. 792</ref></ab>
+                           </seal>
+                           <seal n="15" type="pendant">
+                              <ab>Mikkel, abbed i Essenbæk kloster, segl i rødt voks, i
+        perg.rem., <ref>DGS. 785</ref></ab>
+                           </seal>
+                           <seal n="16" type="pendant">
+                              <ab>Niels Ravn, abbed i Nørre kloster, segl i rødt voks, i
+        perg.rem., <ref>DGS. 784</ref></ab>
+                           </seal>
+                           <seal n="17" type="pendant">
+                              <ab>Henrik, abbed i Vitskøl kloster, segl i rødt voks, i
+        perg.rem., <ref>DGS. 721</ref></ab>
+                           </seal>
+                           <seal n="18" type="pendant">
+                              <ab>Jens Nielsen (Panter), provst i Børglum, segl i rødt voks, i
+        perg.rem., <ref>DGS. 628</ref></ab>
+                           </seal>
+                           <seal n="19" type="pendant">
+                              <ab>Peder Pedersen, provst i Vestervig, segl i rødt voks, i
+        perg.rem., <ref>DGS. 633</ref></ab>
+                           </seal>
+                           <seal n="20" type="missing">
+                              <ab>Seglsnit. Det nu tabte segl må være blevet benyttet af Niels Mikkelsen,
+        provst i Thy, <ref>sml. DGS. 642</ref></ab>
+                           </seal>
+                           <seal n="21" type="pendant">
+                              <ab>Jens (Bagge), provst i Vendsyssel, segl i rødt voks, i
+        perg.rem., <ref>DGS. 629</ref></ab>
+                           </seal>
+                           <seal n="22" type="pendant">
+                              <ab>Erik Krummedige, ridder, segl i rødt voks, i perg.rem., <ref>AS. F xxxi 4</ref></ab>
+                           </seal>
+                           <seal n="23" type="pendant">
+                              <ab>Jens Nielsen (Løvenbalk) (til Aunsbjerg), ridder, segl i rødt voks, i
+        perg.rem., <ref>AS. C xxxiv 2</ref></ab>
+                           </seal>
+                           <seal n="24" type="pendant">
+                              <ab>Erik Nielsen (Gyldenstierne) (til Tim), ridder, segl i rødt voks, i
+        perg.rem., <ref>AS. G xvi 8</ref></ab>
+                           </seal>
+                           <seal n="25" type="pendant">
+                              <ab>Morten Jensen (Gyrsting), ridder, segl i rødt voks, i
+        perg.rem., <ref>AS. H xv 7</ref></ab>
+                           </seal>
+                           <seal n="26" type="pendant">
+                              <ab>Otto van deme Knope, ridder, segl i rødt voks, i perg.rem., <ref>AS. C li 15</ref></ab>
+                           </seal>
+                           <seal n="27" type="missing">
+                              <ab>Seglsnit. Det nu tabte segl må være blevet benyttet af Tønne Rønnow,
+        ridder, <ref>sml. AS. L i 57-58</ref></ab>
+                           </seal>
+                           <seal n="28" type="pendant">
+                              <ab>Henrik Knudsen (Gyldenstierne), ridder, segl i rødt voks, i
+        perg.rem., <ref>AS. G xvi 11</ref></ab>
+                           </seal>
+                           <seal n="29" type="pendant">
+                              <ab>Ejler Rønnow (til Ejsbøl), ridder, segl i rødt voks, i
+        perg.rem., <ref>AS. L i 59</ref></ab>
+                           </seal>
+                           <seal n="30" type="pendant">
+                              <ab>Niels Strangesen (Bild) (til Norringtoft), ridder, segl i rødt voks, i
+        perg.rem., <ref>AS. L iv 4</ref></ab>
+                           </seal>
+                           <seal n="31" type="pendant">
+                              <ab>Jon Jonsen Lille (Skram), ridder, segl i rødt voks, i
+        perg.rem., <ref>AS. B v 2</ref></ab>
+                           </seal>
+                           <seal n="32" type="pendant">
+                              <ab>Peder Mogensen Glob (Due), ridder, segl i rødt voks, i
+        perg.rem., <ref>AS. D xvii 4</ref></ab>
+                           </seal>
+                           <seal n="33" type="pendant">
+                              <ab>Valdemar Albrechtsen (Eberstein), ridder, segl i rødt voks, i
+        perg.rem., <ref>AS. C xxxi 5</ref></ab>
+                           </seal>
+                           <seal n="34" type="pendant">
+                              <ab>Lars Hvas, ridder, segl i rødt voks, i perg.rem., <ref>AS. L lxvii 16</ref></ab>
+                           </seal>
+                           <seal n="35" type="pendant">
+                              <ab>Jens Skram, ridder, segl i rødt voks, i perg.rem., <ref>AS. B v 1</ref></ab>
+                           </seal>
+                           <seal n="36" type="pendant">
+                              <ab>Niels Krabbe, ridder, segl i rødt voks, i perg.rem., <ref>AS. L v 63</ref></ab>
+                           </seal>
+                           <seal n="37" type="pendant">
+                              <ab>Stig Munk, ridder, segl i rødt voks, i perg.rem., <ref>AS. L v 11</ref></ab>
+                           </seal>
+                           <seal n="38" type="pendant">
+                              <ab>Palle Kirt, ridder, segl i rødt voks, i perg.rem., <ref>AS. L v 82</ref></ab>
+                           </seal>
+                           <seal n="39" type="pendant">
+                              <ab>Brune Erik Eriksen (Banner) (til Vinstrup), væbner, segl. i rødt voks, i
+        perg.rem., <ref>AS. L xxii 6</ref></ab>
+                           </seal>
+                           <seal n="40" type="pendant">
+                              <ab>Peder Eriksen Lykke (Munk), væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. L v 38</ref></ab>
+                           </seal>
+                           <seal n="41" type="pendant">
+                              <ab>Claus Jonsen (Lange), væbner, segl i rødt voks, i perg.rem., <ref>AS. F xliii 15 </ref></ab>
+                           </seal>
+                           <seal n="42" type="pendant">
+                              <ab>Herman Sletzen, væbner, segl i rødt voks, i perg.rem., <ref>AS. E viii 8</ref></ab>
+                           </seal>
+                           <seal n="43" type="pendant">
+                              <ab>Væbner Christiern Daas segl, ført af dennes far Claus Daa, væbner, segl i
+        rødt voks, i perg.rem., <ref>AS. L xlix 27</ref></ab>
+                           </seal>
+                           <seal n="44" type="pendant">
+                              <ab>Henrik Rantzau, væbner, segl i rødt voks, i perg.rem., <ref>AS. L i 41</ref></ab>
+                           </seal>
+                           <seal n="45" type="pendant">
+                              <ab>Claus Bondesen (Friis), væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. C xi 3</ref></ab>
+                           </seal>
+                           <seal n="46" type="pendant">
+                              <ab>Jens Lagesen (Dyre) (til Tirsbæk), væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. C lxiv 8</ref></ab>
+                           </seal>
+                           <seal n="47" type="pendant">
+                              <ab>Jakob Villesen (Ferke) (til Kjeldkær), væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. L lx 1</ref></ab>
+                           </seal>
+                           <seal n="48" type="pendant">
+                              <ab>Mads Eggertsen Gjordsen, væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. L ii 17</ref></ab>
+                           </seal>
+                           <seal n="49" type="pendant">
+                              <ab>Otto Mød, væbner, segl i rødt voks, i perg.rem., <ref>AS. H xxvi 1</ref></ab>
+                           </seal>
+                           <seal n="50" type="pendant">
+                              <ab>Peder Pors til Vrandrup, væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. G xvi 69</ref></ab>
+                           </seal>
+                           <seal n="51" type="missing">
+                              <ab>Seglsnit. Det nu tabte segl er antagelig blevet benyttet af Johan Skelle,
+        væbner, <ref>sml. AS. D xlv 22</ref></ab>
+                           </seal>
+                           <seal n="52" type="pendant">
+                              <ab>Peder Smalsted, væbner, segl i rødt voks, i perg.rem., <ref>AS. C i 5</ref></ab>
+                           </seal>
+                           <seal n="53" type="pendant">
+                              <ab>Erik Pedersen (Rosenkrantz) (til Skodborg), væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. L xxiii 27</ref></ab>
+                           </seal>
+                           <seal n="54" type="missing">
+                              <ab>Seglsnit. Det nu tabte segl må være blevet benyttet af Claus van der Wisch,
+        væbner</ab>
+                           </seal>
+                           <seal n="55" type="pendant">
+                              <ab>Ivar Jul (af Sønderjylland), væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. L xxii 44</ref></ab>
+                           </seal>
+                           <seal n="56" type="missing">
+                              <ab>Seglsnit. Det nu tabte segl må være blevet benyttet af Henrik Sture,
+        væbner, <ref>sml. AS. E viii 9</ref></ab>
+                           </seal>
+                           <seal n="57" type="pendant">
+                              <ab>Didrik Thomsen (Lindenov), væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. F xxxii 2</ref></ab>
+                           </seal>
+                           <seal n="58" type="pendant">
+                              <ab>Ivar Stabel, væbner, segl i rødt voks, i perg.rem., <ref>AS. G xxvi 8</ref></ab>
+                           </seal>
+                           <seal n="59" type="pendant">
+                              <ab>Erik Nielsen (Rotfeld), væbner, segl i rødt voks, i
+        perg.rem., <ref>AS. E xviii 1</ref></ab>
+                           </seal>
+                           <seal n="60" type="pendant">
+                              <ab>Væbner Erik Nielsens segl, ført af dennes bror Jakob Nielsen, væbner, segl i
+        rødt voks, i perg.rem., <ref>AS. L xlvii 3</ref></ab>
+                           </seal>
+                           <seal n="61" type="missing">
+                              <ab>Seglsnit. Det nu tabte segl må være blevet benyttet af Gotskalk Larsen,
+        væbner</ab>
+                           </seal>
+                           <seal n="62" type="pendant">
+                              <ab>Byen Ribe, segl i rødt voks, i perg.rem., <ref>Grandjean, Danske Købstæders Segl, Ribe III., p. 36</ref></ab>
+                           </seal>
+                           <seal n="63" type="pendant">
+                              <ab>Byen Flensborg, segl i rødt voks, i perg.rem., <ref>Grandjean, Slesvigske Købstæder og Herreders Segl, Flensborg II., p. 14</ref></ab>
+                           </seal>
+                           <seal n="64" type="pendant">
+                              <ab>Byen Haderslev, segl i rødt voks, i perg.rem., <ref>Grandjean, Slesvigske Købstæder og Herreders Segl, Haderslev I., p. 15</ref></ab>
+                           </seal>
+                           <seal n="65" type="pendant">
+                              <ab>Byen Åbenrå, segl i rødt voks, i perg.rem., <ref>Grandjean, Slesvigske Købstæder og Herreders Segl, Aabenraa I., p. 13</ref></ab>
+                           </seal>
+                           <seal n="66" type="pendant">
+                              <ab>Byen Viborg, segl i rødt voks, i perg.rem., <ref>Grandjean, Danske Købstæders Segl, Viborg I., p. 44</ref></ab>
+                           </seal>
+                           <seal n="67" type="pendant">
+                              <ab>Byen Århus, segl i rødt voks, i perg.rem., <ref>Grandjean, Danske Købstæders Segl, Aarhus I., p. 20</ref></ab>
+                           </seal>
+                           <seal n="68" type="pendant">
+                              <ab>Byen Ålborg, segl i rødt voks, i perg.rem., <ref>Grandjean, Danske Købstæders Segl, Aalborg I., p. 19</ref></ab>
+                           </seal>
+                           <seal n="69" type="pendant">
+                              <ab>Byen Randers, segl i rødt voks, i perg.rem., <ref>Grandjean, Danske Købstæders Segl, Randers I., p. 35</ref></ab>
+                           </seal>
+                           <seal n="70" type="pendant">
+                              <ab>Byen Horsens, segl i rødt voks, i perg.rem., <ref>Grandjean, Danske Købstæders Segl, Horsens II., p. 25</ref></ab>
+                           </seal>
+                           <seal n="71" type="pendant">
+                              <ab>Byen Vejle, segl i rødt voks, i perg.rem., <ref>Grandjean, Danske Købstæders Segl, Vejle I., p. 44</ref></ab>
+                           </seal>
+                           <seal n="72" type="pendant">
+                              <ab>Byen Kolding, segl i rødt voks, i perg.rem., <ref>Grandjean, Danske Købstæders Segl, Kolding II., p. 27</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>D1. Slesvig 85 (vedlagt NKR, 2763-b)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>2 dobbeltark</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med påskrift på bagsiden: <q>Tuchenisse der biscope, prelaten, riddere, ebbete
+        vnnd stedenn inh Sunder Jutlandt vnd Norder Jutlandt, dat de suluen alse Sunder Jutlandt vnd
+        Norder Judtlandt mit dem slate Gottorp tho der krone Dennemarken gehoren
+      /</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>Langebeks Diplomatarium</collection>
+                        <idno>XIV A 25 Danmark 1415-1424</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>2 blade</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Med påskrift efter afskriften: <q>Sigilla 66 integra
+      adpendent</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5932</bibl>
+               <bibl>Reg. Dan. nr. *4584</bibl>
+               <bibl>Antislesvigh. Fragm. XIII., p. 118-122</bibl>
+               <bibl>Hvitfeld IV. 302, Fol. 682 (udtog på dansk)</bibl>
+               <bibl>Vidensk. Selsk. Skrifter X., p. 130-131 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Antislesvigh. Fragm., konfereret med A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-08-04"
+                  notBefore="1421-08-04"
+                  notAfter="1421-08-04"
+                  cert="high">1421. 4. august</date>
+            <placeName cert="high">Ribe</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jydernes vidnesbyrd om, at hele Jylland, dvs. både Sønderjylland og Nørrejylland, tilhører
+      den danske krone og riget Danmark.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-09" who="#pbh">Filen etableret af #pbh 2014-05-09. </change>
+         <change when="2017-11-27" who="#smb">1. korrektur af #smb 2017-11-27. </change>
+         <change when="2017-12-18" who="#smb">2. korrektur af #smb 2017-12-18. </change>
+         <change when="2018-01-26" who="#smb">3. korrektur af #smb 2018-01-26. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">Wi <persName>Johan van godes gnaden vnde des Romeschen stoles bischop to Sleswiik</persName>
+               <persName>Cristern</persName> to <placeName>Rijpe</placeName>
+               <persName>Boecius</persName> to <placeName>Arhusen</placeName> / <persName>Lagho</persName> to
+        <placeName>Wiborgh</placeName> / vnde <persName>Peter</persName> to
+        <placeName>Burglum</placeName> bischope ♦</p>
+            <p n="a#2">Vnde wi capitele dar sulues / alse to <placeName>Rijpe</placeName> to
+        <placeName>Arhusen</placeName> to <placeName>Wiborch</placeName> vnde to
+        <placeName>Burglum</placeName> ♦</p>
+            <p n="a#3">Item <persName>Olaff</persName> to <placeName>Rudecloster</placeName> /
+        <persName>Laurencius</persName> to <placeName>Lyůmecloster</placeName> /
+        <persName>Laurencius</persName> to <placeName>Twiis closter</placeName>
+               <persName>Johan</persName> to <placeName>Øemecloster</placeName> / <persName>Peter</persName>
+      to <placeName>Orecloster</placeName> / <persName>Michel</persName> to
+        <placeName>Esenbek</placeName> / <persName>Niclawes</persName> to
+        <placeName>Norrecloster</placeName> / <persName>Hinric</persName> to
+        <placeName>Withscofflecloster</placeName> / ebbete ♦</p>
+            <p n="a#4">Item <persName>Johan</persName> to <placeName>Burglum</placeName>
+               <persName>Petrus</persName> to <placeName>Westerwiik</placeName>
+               <persName>Niclawes</persName> to <placeName>Tywdh</placeName>
+               <persName>Johan</persName> to <placeName>Wendes{ue}sell</placeName> proueste ♦</p>
+            <p n="a#5">Item <persName>Eric Krummedijk</persName>
+               <persName>Johannes Nighelss{oe}n van Awentzbergh</persName>
+               <persName>Erik Nighelss{oe}n</persName> / <persName>Merten Jenss{oe}n</persName> /
+        <persName>Otto vame Knope</persName>
+               <persName>
+                  <app>
+                     <lem>Timme Runnowe</lem>
+                     <rdg>dvs. Tønne Rønnow</rdg>
+                  </app>
+               </persName> / <persName>Hinric Knutss{oe}n</persName>
+               <persName>Eylert Runnowe</persName> . <persName>Nicles Strangess{oe}n</persName> /
+        <persName>Jon Lille</persName> . <persName>Peter Magnuss{oe}n</persName> /
+        <persName>Woldemar Albrechtsson</persName>
+               <persName>Laurents Hwas</persName> . <persName>Johannes Schram</persName> / <persName>Nicles
+        Krabbe</persName>
+               <persName>Stigh Munk</persName> / <persName>Pally Kirt</persName> riddere / ♦</p>
+            <p n="a#6">
+               <persName>Erik Eriksson</persName>
+               <persName>Peter Lucke</persName> / <persName>Clawes Ionsson</persName> / <persName>Hermen
+        Sletzen</persName> / <persName>Clawes Daa</persName> / <persName>Hinric Rantzow</persName> /
+        <persName>Clawes Bundesson</persName>
+               <persName>Jens Laghesson van Tirsbek</persName> / <persName>Jacob Willesson</persName>
+               <persName>Mathias Gortze</persName>
+               <persName>Otto M{oe}dh</persName> / <persName>Pors van Randorp</persName> / <app>
+                  <lem>
+                     <persName>Scheel</persName>
+                  </lem>
+                  <rdg>væbneren <q>Scheel</q> er antagelig identisk med væbneren Johan Skelle, som var Jon
+          Jonsen Lilles frænde ("oom"), jf. f.eks. <ref target="14240823001">DD 1424. 23. aug., nr.
+            14240823001</ref>
+                  </rdg>
+               </app> / <persName>Peter Smalstede</persName>
+               <persName>Erik Petersson</persName>
+               <persName>Clawes van der Wisch</persName> / <persName>Ywer Jwl</persName> / <persName>Hinric
+        Stwre</persName> / <persName>Diderik Thomesson</persName> / <persName>Ywer Stapel</persName>
+      / <persName>Erik Nighelsson</persName>
+               <persName>Jacob Nighelsson</persName> / vnde <persName>Gotzik Laurentssson</persName> knapen
+      ♦</p>
+            <p n="a#7">Item borghermestere vnde radmanne desser naschreuenen koepstede alse
+        <placeName>Riipe</placeName>
+               <placeName>Fflensburgh</placeName> / <placeName>Hadersleff</placeName>
+               <placeName>Openraa</placeName> / <placeName>Wiburgh</placeName> /
+        <placeName>Arhusen</placeName> / <placeName>Aleborgh</placeName>
+               <placeName>Randerhusen</placeName> / <placeName>Horsness</placeName> /
+        <placeName>Wedele</placeName> vnde <placeName>Koldinge</placeName> / ♦</p>
+            <p n="a#8">Wij alle vorschreuen biscope prelaten / capitele / riddere knechte / vnde stede beseten vnde
+      wonafftich jn <placeName>Jutlande</placeName> in deme rijke to
+        <placeName>Dennemarken</placeName> welk Jutland men benomet twyerleye / alse
+        <placeName>Sunder Jutland</placeName> vnde <placeName>Nort Jutland</placeName> / vmme des
+      lenge brede vnde ghr{oe}te willen wo doch dat jt alle men een land vnde ene sprake ys doen
+      witlik alle den yennen de desse schrift seen edder horen lesen vnde betughen vor allesweme in
+      desser jeghenwardighen schrifft ♦</p>
+            <p n="a#9">Alse de jrluchtigiste vorste vnde here <persName>her Eric van godes gnaden der rijke
+        Dennemarken Sweden Norweghen der Wende vnde der Gothen koningh vnde hertoghe to
+        Pomeren</persName> sik beromet vnde screuen heft jn syner tosprake de he to den holsten
+      heren ghedan heft / wo <placeName>dat slot Gottorp</placeName> vnde dat deell van deme suluen
+      lande dat man benomet <placeName>Sunder . Jutland</placeName> / dar
+        <placeName>Gottorpp</placeName> jnne beleghen ys / schole Gode vnde der kronen to
+        <placeName>Dennemarken</placeName> vnde em horen vnde schole to langer ewigher tiid to der
+      vorscreuen kronen to <placeName>Dennemarken</placeName> ghehort hebben vnde noch van rechtes
+      weghen h{oe}ren ♦</p>
+            <p n="a#10">Vnde alse he scrift wo de holsten heren synen voruaren vnde em dat vorbenomede slot vnde land
+      wes se dar inne hebben weldichliken v{oe}re entholden hebben bette to her vnde noch doen /
+      ♦</p>
+            <p n="a#11">Dat ys in der warheyt also / beyde dat de here koningh recht heft to deme vorbenomeden slote
+      vnde lande van der kronen weghen vnde oc van erues weghen wen jt myt rechte van bort weghen to
+      erue ghan scholde / des jt doch nicht en deyt / wente dat rike to
+        <placeName>Dennemarken</placeName> ys en k{oe}re rike / ok hebbent <damage>e</damage>m de
+      holsten heren weldichliken vnde myt vnrechte vore entholden vnde noch vore holden ♦</p>
+            <p n="a#12">Vft hiir jemand wes jeghen seggen wolde also dat id nicht recht wesen scholde alse vorscreuen
+      ys so ys dar wol v{ue}rdere bewisinge to / alse dat alle man wol to merkende heft dat dyt vorscreue<app>
+                  <lem>ne</lem>
+                  <rdg>skrevet over linjen i A</rdg>
+               </app> war ys so dat dat vorbenomede slot vnde land myt rechte to der kronen horet /
+      ♦</p>
+            <p n="a#13">To deme eersten so heft dyt vorscreue<app>
+                  <lem>ne</lem>
+                  <rdg>skrevet over linjen i A</rdg>
+               </app>
+               <placeName>Sunderjutland</placeName> vnde de jnwonere des suluen landes alse wol als to
+        <placeName>Nort Jutlande</placeName> densch recht vnde hebben dat ye ghehat soddar der tiid
+      dat dat densche recht ersten ghesettet wart / ♦</p>
+            <p n="a#14">Dat andere dat alle olde priuilegia vnde vrigheyde de de godes husere / hebben . edder we se
+      heft alse tom ersten de d{oe}me to <placeName>Sleswiik</placeName> to
+        <placeName>Ripe</placeName> vnde to <placeName>Hadersleff</placeName> vnde alle clostere
+      vnde alle stede in deme suluen lande beleghen dar se to deme ersten mede bevrighet vnde
+      bestedighet synt / de hebben alle / koninghe des vorscreuenen rikes wtghegheuen vnde beseghelt
+      ♦</p>
+            <p n="a#15">Item dat drudde so wet man de schede wol tusschen <placeName>deme lande to
+        Holsten</placeName> vnde deme suluen vorscreuenen lande / vnde de sulue schede schedet
+        <placeName>dat rike to Dennemarken</placeName> vnde <placeName>dat land to
+        Holsten</placeName> / ♦</p>
+            <p n="a#16">Item dat veerde so ys de ghemeneste sprake noch huden jmme daghe Densch jn deme vorscreuenen
+      Sunderjutlande also wol alse jn <placeName>Nortiutlande</placeName> / ♦</p>
+            <p n="a#17">Ok mach alle man vorwar louen dat dyt vorscreuene Sunderjutland mach nemand besitten edder
+      hebben myt rechte / he en m{oe}te dat hebben van der kronen vnde myt willen des koninghes to
+      Dennemarken vnde des rikes jnwoneren deme rike horsam vnde vnderdanich dar aff to wesende /
+      ♦</p>
+            <p n="a#18">Item vft men nicht louen wolde vmme de weldichlike besittinge dar de here koningh voor
+      scrifft dar ys oc wol openbare schiin to dat id so ys / wente <persName>koningh
+        Woldemar</persName> seligher dechtnisse de krighede myt den holsten heren dar vmme de wile
+      he leuede / ♦</p>
+            <p n="a#19">Ok h{oe}ff id <persName>koningynne Margrete</persName> siin dochter an der sele got hebbe /
+      vnde leng wen <persName>koningh Woldemars</persName> tijden hebben de Holsten heren nicht in
+      den weren hat van dessen vorscreuenen lande ♦ Men in der tiid alse <persName>koningh
+        Woldemar</persName> doet bleff do hedde he dat vorscreuene land altomale in synen weren
+      sunder twe slote alse <placeName>Gottorppe</placeName> vnde dat <placeName>Nyehuss</placeName>
+      myt erer tobehoringe alse de do was de hadden de holsten heren / vnde enthelden se doch
+      weldichliken vnde wedder recht / vnde dar na alse <persName>koningh Woldemar</persName> doet
+      was / do breken sik de holsten heren v{ue}rder in dat sulue vorscreuene land / alse se ok wol
+      vůrder jn dat rike deden myt macht vnde welde vnde wo se konden alse wol bewislik ys so dat
+      se meer jn de were kreghen wen se hadden / de wile dat <placeName>dat rijke to
+        Dennemarken</placeName> do herel{oe}ss was / vnde in der twiuelinge stund vnde eer
+        <persName>konynghynne Margrete</persName> tolaten wart vormundersche eres s{oe}nes also dat
+      se mechtich wart <placeName>des rikes to Dennemarken</placeName> vnde in der suluen wise
+      hebben de holsten heren dat beseten vnde hat bette to heer weldichliken wedder recht vnde noch
+      besitten dat se dar aff noch in eren weren hebben ♦</p>
+            <p n="a#20">Item vft jemand secht hadde edder seggen wolde dat dyt vorscreuene land to lene b{oe}rde to
+      ghande na phane lene na deme alse de vorstendome to lene ghan in deme keyser rechte / des en
+      ys nicht / wente in <placeName>deme riike to Dennemarken</placeName> neen erueleen gheyt edder
+      ys van heren edder van prelaten alse biscopen edder ebbeten edder van jemande vnde en ys noch
+      wonlik vfte recht dat jemand sulke lene to vorlenende heft / edder jemand entphan darff / na
+      deme alse dat jn deme keyser rechte edder in deme sasseschen rechte sedelik vnde recht ys /
+      ♦</p>
+            <p n="a#21">Men wol mach en koningh wes vorlenen syne tiid vnde des yennen deme he wat vorlenet vnde
+      nicht leng vnde we dat vorbenomede leng hebben will de mot dat myt des yennen willen hebben de
+      dar na koningh wert vft weme sulkes wes vorleent were / ♦</p>
+            <p n="a#22">To merer witlicheyt vnde tughnisse alle desser vorscreuen stucke vnde enes jewelken by sik so
+      hebbe wy bischope capitele ebbete proueste riddere knapen vnde borghermestere vnde ratmanne
+      alle vorscreuen vnse jngheseghele myt willen vnde wolberadenem m{oe}de an dessen
+      jeghenwardigen breff laten hengen de gegheuen vnde schreuen ys to <placeName>Riipe</placeName>
+      na Godes bort dusent jaar veerhundert iar dar na in deme eenvndetwintighesten <app>
+                  <lem>jare</lem>
+                  <rdg>
+                     <q>na Godes bort - jare</q>, dvs. året 1421</rdg>
+               </app> / des neghesten mandaghes vor sunte Laurencius daghe des hilghen mertelers ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Vi Johan af Guds og Den Romerske Stols nåde biskop i Slesvig, Christiern i Ribe, Bo i Århus,
+      Lage i Viborg og Peder i Børglum, biskopper.</p>
+            <p n="b#2">Og vi kapitler sammesteds, nemlig i Ribe, i Århus, i Viborg og i Børglum.</p>
+            <p n="b#3">Derudover vi Oluf i Ryd kloster, Lars i Løgum kloster, Lars i Tvis kloster, Jens i Øm
+      kloster, Peder i Voer kloster, Mikkel i Essenbæk kloster, Niels i Nørre kloster og Henrik i
+      Vitskøl kloster, abbeder.</p>
+            <p n="b#4">Derudover vi Jens i Børglum, Peder i Vestervig, Niels i Thy og Jens i Vendsyssel,
+      provster.</p>
+            <p n="b#5">Derudover vi Erik Krummedige, Jens Nielsen til Aunsbjerg, Erik Nielsen, Morten Jensen, Otto
+      van deme Knope, Tønne Rønnow, Henrik Knudsen, Ejler Rønnow, Niels Strangesen, Jon Lille, Peder
+      Mogensen, Valdemar Albrechtsen, Lars Hvas, Jens Skram, Niels Krabbe, Stig Munk og Palle Kirt,
+      riddere.</p>
+            <p n="b#6">Derudover vi Erik Eriksen, Peder Lykke, Claus Jonsen, Herman Sletzen, Claus Daa, Henrik
+      Rantzau, Claus Bondesen, Jens Lagesen til Tirsbæk, Jakob Villesen, Mads Gjordsen, Otto Mød,
+      Peder Pors til Vrandrup, Johan Skelle, Peder Smalsted, Erik Pedersen, Claus van der Wisch,
+      Ivar Jul, Henrik Sture, Didrik Thomsen, Ivar Stabel, Erik Nielsen, Jakob Nielsen og Gotskalk
+      Larsen, væbnere.</p>
+            <p n="b#7">Derudover vi borgmestre og rådmænd fra disse nedenfor anførte købstæder, nemlig Ribe,
+      Flensborg, Haderslev, Åbenrå, Viborg, Århus, Ålborg, Randers, Horsens, Vejle og Kolding.</p>
+            <p n="b#8">Vi alle førnævnte biskopper, prælater, kapitler, riddere, væbnere og købstæder, beliggende og
+      bosiddende i Jylland i riget Danmark, som man benævner på to måder, nemlig Sønderjylland og
+      Nørrejylland på grund af dets længde, bredde og størrelse, selvom det alt sammen kun er ét
+      land og ét sprog, gør vitterligt for alle dem, der ser dette skrift eller hører det læse, og
+      bevidner for alle og enhver i dette nærværende skrift følgende:</p>
+            <p n="b#9">Den allerhøjeste fyrste og herre, hr. Erik af Guds nåde rigerne Danmark, Sverige og Norges og
+      de Venders og Goters konge og hertug af Pommern, erklærer og har skrevet i sit klageskrift,
+      som han har givet de holstenske herrer, at slottet Gottorp og den del af det samme land, som
+      man kalder Sønderjylland, hvor Gottorp er beliggende, skulle tilhøre Gud og Danmarks krone og
+      ham, og at det skulle tilhøre den førnævnte danske krone til evig tid, samt at det tilhører
+      den danske krone endnu på grund af retten.</p>
+            <p n="b#10">Derudover skriver han, at de holstenske herrer indtil nu med vold og magt har forholdt hans
+      forfædre og ham det førnævnte slot og land, og hvad de har deri, og de gør det endnu.</p>
+            <p n="b#11">Det er i sandhed sådan, at hr. kongen har ret til det førnævnte slot og land både på grund af
+      kronen og på grund af arv, såfremt det juridisk set skulle gå i arv på grund af fødsel, hvad
+      det imidlertid slet ikke gør, thi riget Danmark er et valgkongedømme. Endvidere har de
+      holstenske herrer med vold og magt og med urette forholdt ham det, og de gør det stadig.</p>
+            <p n="b#12">Hvis nogen ville sige noget herimod, nemlig at det, som står skrevet ovenfor, ikke skulle
+      være ret, så er der i sandhed yderligere beviser herpå, således at alle og enhver i sandhed må
+      mærke sig, at dette førskrevne er sandt, hvorfor det førnævnte slot og land med rette tilhører
+      kronen.</p>
+            <p n="b#13">For det første så har det førnævnte Sønderjylland og indbyggerne i det samme land - ganske
+      som i Nørrejylland - dansk ret, og de har altid haft det, lige siden den tid hvor den danske
+      ret blev sat.</p>
+            <p n="b#14">For det andet: Alle de gamle privilegier og friheder, som gudshusene har, eller hvem der end
+      har dem, nemlig først og fremmest domkirkerne i Slesvig, i Ribe og i Haderslev, og alle de
+      klostre og alle de købstæder, der ligger i dette land, som er blevet udstyret med sådanne
+      privilegier og friheder, og som har fået deres privilegier og friheder bekræftet, alle disse
+      privilegier og friheder har konger i det førnævnte rige udstedt og beseglet.</p>
+            <p n="b#15">Derudover for det tredje så kender man udmærket skellet mellem landet Holsten og det
+      førnævnte land, og det samme skel skiller riget Danmark og landet Holsten.</p>
+            <p n="b#16">Derudover for det fjerde så er det almindeligste sprog i det førnævnte Sønderjylland endnu
+      den dag i dag dansk - ganske som i Nørrejylland.</p>
+            <p n="b#17">Endvidere kan alle og enhver i sandhed stå inde for, at ingen retmæssigt kan besidde eller
+      have det førnævnte Sønderjylland, medmindre han har det fra kronen, og medmindre han med
+      kongens og rigets indbyggeres tilladelse er kronen og riget lydig og underdanig.</p>
+            <p n="b#18">Derudover hvis man ikke ville tro på den voldelige besiddelse, som hr. kongen skriver om
+      tidligere, så er der i sandhed også klare beviser på, at det er således, thi kong Valdemar, i
+      salig ihukommelse, førte krig mod de holstenske herrer herom, mens han levede.</p>
+            <p n="b#19">Ligeledes tog hans datter dronning Margrete, hvis sjæl er hos Gud, sagen op, og de holstenske
+      herrer har ikke haft disse førnævnte lande i deres varetægt i længere tid end fra kong
+      Valdemars tider. Men på den tid da kong Valdemar døde, da havde han det førnævnte land
+      fuldstændig i sin varetægt med undtagelse af to slotte, nemlig Gottorp og Nyhus med deres
+      tilliggende, sådan som det var dengang. Dem havde de holstenske herrer, og de fastholdt dem
+      med vold og magt og imod retten. Og derefter da kong Valdemar var død, da trængte de
+      holstenske herrer længere ind i det førnævnte land med magt og vold, ganske som de også gjorde
+      i riget, og hvor de ellers kunne, hvilket tydeligt kan bevises, således at de fik mere i deres
+      varetægt, end de havde, eftersom riget Danmark dengang var herreløst og befandt sig i en
+      fortvivlet situation, og dette skete, inden dronning Margrete blev gjort til formynder for sin
+      søn, hvorved hun fik herredømmet over riget Danmark. På samme måde har de holstenske herrer
+      haft det i deres besiddelse indtil nu med vold og magt og imod retten, og det, som de har i
+      deres varetægt, besidder de endnu.</p>
+            <p n="b#20">Derudover hvis nogen havde sagt eller ville sige, at dette førnævnte land burde gå som
+      fanelen, ganske som fyrstendømmer går som len efter kejserretten, så forholder det sig slet
+      ikke sådan, thi i riget Danmark er der ingen arvelen, hverken fra herrer eller fra prælater
+      såsom biskopper eller abbeder, eller fra nogen anden, og det er hverken sædvanligt eller ret,
+      at nogen kan give sådanne len, eller at nogen må modtage sådanne len, sådan som det ellers er
+      sædvane og ret i kejserretten og i den saksiske ret.</p>
+            <p n="b#21">Men en konge har i sandhed lov til at forlene nogen med noget, så længe han lever, og så
+      længe den person, som han forlener med noget, lever, men så heller ikke længere. Og den, der
+      vil have det førnævnte i længere tid, han må nødvendigvis have den efterfølgende konges
+      tilladelse dertil, såfremt nogen overhovedet skulle blive forlenet med noget af det.</p>
+            <p n="b#22">Til yderligere vitterlighed og vidnesbyrd om alle disse førskrevne stykker og ethvert af dem
+      for sig så har alle vi førnævnte biskopper, kapitler, abbeder, provster, riddere, væbnere og
+      borgmestre og rådmænd med vilje og velberåd hu ladet vore segl hænge på dette nærværende brev,
+      som er givet og skrevet i Ribe efter Guds fødsel i året 1400 og derefter i det 21. år om
+      mandagen før sankt Laurentius den hellige martyrs dag.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

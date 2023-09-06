@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">199</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14170329001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR 2632-c</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>14.2 (plica: 2)</height>
+                                    <width>34.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Pante b<ex>re</ex>ff paa Swinebergh Niels
+        Jenss<ex>øns</ex> q<ex>ui</ex>tte b<ex>re</ex>ff aff Ham<ex>er</ex> so<ex>m</ex>
+        ha<ex>n</ex> gaff h<ex>er</ex> Ax[e]l B<ex>ra</ex>de paa l lød<ex>ig</ex> [m]<ex>ar</ex>k
+        so<ex>m</ex> Swinebierg stod i pa<ex>n</ex>t for<ex>e</ex>
+                              </q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Segl af mørkt voks, med omskriften: S' FRATRIS SWENONIS .., i perg. rem;
+        gejstlig</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Segl af mørkt voks, med et bogstav, P, med omskriften: S' PETRI ...., i perg.
+        rem</ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Bomærke med sortindfarvet forside, med omskriften: S' JO..NNIS PRESBI, i
+        perg. rem</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. I 201-02</bibl>
+               <bibl>Rep. nr. 5654 (i udtog)</bibl>
+               <bibl>SDHK nr. 18901</bibl>
+               <bibl>Svenskt Dipl. III 225 nr. 2343</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1417-03-29"
+                  notBefore="1417-03-29"
+                  notAfter="1417-03-29"
+                  cert="high">1417. 29. marts</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Niels Jensen af Hammar bekendtgør at have modtaget 50 lødige mark af Aksel Pedersen Brahe for
+      godser i Svinaberga, Hammenhög, Borrby og Katslösa, som han havde haft i pant.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-03-20" who="#pbh">Filen etableret af #pbh 2014-03-20. </change>
+         <change when="2017-09-01" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-09-01. </change>
+         <change when="2017-10-17" who="#mh">2. korrektur af #mh 2017-10-17. </change>
+         <change when="2017-11-07" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Alle men thættæ breff høræ ællis se hilsser jach <persName>Nis Jenss<ex>øn</ex>
+               </persName>
+      aff <placeName>Hamar</placeName> ewinn<ex>er</ex>like mæth guth . ♦ Thæt schal allæ men
+      widerlicht waræ swa wel ko<ex>m</ex>ma schulendis som nw nerwarindis æræ thæt jach
+      with<ex>e</ex>rkænnis mik m<ex>æth</ex> thættæ mit opna breff at hawa opbarit aff
+      hith<ex>e</ex>rlik man och ærlik <app>
+                  <lem>
+                     <persName>Axil</persName>
+                  </lem>
+                  <rdg wit="#A">Her begynder understregning, A</rdg>
+               </app>
+               <persName>Pæth<ex>e</ex>rss<ex>øn</ex>
+               </persName> som
+      kallis Brawthe <app>
+                  <lem>thænnæ</lem>
+                  <rdg wit="#A">Efter <q>th</q> slutter understregning, A</rdg>
+               </app> brefførare halffthrediesintiwgho lødughmarch j hwide pænniæ far goz j
+        <placeName>Swinebærghe</placeName> j Homundahøy j <placeName>Borby</placeName> och j
+        <placeName>Kastløsæ</placeName> hwilkit goz som jach j pant hawthe far the farnewfndæ
+      halffthrediesintiwgho lødughmarch ♦</p>
+            <p n="a#2">The sa<ex>m</ex>ma goz och the samma breff m<ex>æth</ex> som jach hawthe pa the fornewfnde
+      goz m<ex>æth</ex> alla artichula som the sa<ex>m</ex>ma breff vt wisæ ladir jach fornewfndæ
+        <persName>Axil Brawthe</persName> och hans arwinge opp til løøsn for the fornewfnde
+      halffthrediesintiwgho lødhughmarch . hwilkit goz som <persName>hær Stij
+        Akass<ex>øn</ex>
+               </persName> atte guth hans siæl hawe ♦</p>
+            <p n="a#3">Thær til at thæsse forschreffne støkke schulæ stadhugh . fasta . och v oppbrødelich ware tha
+      ladir jach hængæ mit jnsighle for thættæ mit opna breff m<ex>æth</ex> gothan willie och
+      vitschaph til witnesbiwrth m<ex>æth</ex> gotha mæns jnsighle som æræ min kære broth<ex>e</ex>r
+        <persName>P<ex>er</ex> Nielss<ex>øn</ex>
+               </persName> j <placeName>Arwasløff</placeName> . hær
+        <persName>Swen Thorn præst</persName> j <placeName>Wæ</placeName> . <persName>hær
+        Pæth<ex>e</ex>r p<ex>re</ex>st</persName> j <placeName>Æwærthe</placeName> . <persName>hær
+        Jenis Fatherss<ex>øn</ex> prest</persName> j <placeName>Withskøffle</placeName> och
+        <persName>Jepp Swalis</persName> j <placeName>Wæ</placeName> . ♦</p>
+            <p n="a#4">Gewit æffter guz biwrth thusande aar fire hundrathe ar pa thæt søttande arit och oppa thæn
+      næste mandagh næst fare palmesøndagh ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

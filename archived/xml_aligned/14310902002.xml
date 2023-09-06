@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">153</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14310902002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Altes Senatsarchiv (ASA), Externa, Danica</collection>
+                        <idno>signatur 03,2 (tidligere Dreyer, Acta Danica 1,4)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Pergament. 1. Rester af Lübecks påtrykte segl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4925</bibl>
+               <bibl>UBStL 7, nr. CDLXXII, p. 451-452</bibl>
+               <bibl>Hanserec. 2:I, nr. 65, p. 40</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l.l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-09-02"
+                  notBefore="1431-09-02"
+                  notAfter="1431-09-02"
+                  cert="high">1431. 2. september</date>
+            <placeName cert="low">[Lübeck]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Borgmestre og rådmænd i Lübeck udsteder et lejdebrev for Lübecks udsendinge til fredsmødet i
+      Nykøbing Falster. Heri pålægges alle hæderlige folk, såvel danske som tyske, at understøtte og
+      hjælpe Lübecks udsendinge for fredens skyld. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-01" who="#pbh">Filen etableret af #pbh 2013-10-01. </change>
+         <change when="2019-12-10" who="#smb">1. korrektur af #smb 2019-12-10. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Wii borgermeystere unde radmanne der stad <placeName>Lubeke</placeName> bekennen unde betugen
+      opembare mit desseme breve vor alleszweme, dat wii wysere desses breves umme zake willen, dede
+      anroren vr{ee}de, eyndracht unde dat gemeyne beste alle mannes, gesand hebben to dem
+      erwerdigen heren, dem heren cumpthure van <placeName>Dantzike</placeName>, nu in
+        <placeName>Dennemarken</placeName> to <placeName>Nikopinge</placeName>
+      <app><lem>to dage</lem><rdg>senere tilføjet i A</rdg></app> wesende.</p>
+            <p n="a#2" xml:space="preserve">Unde bidden alle bedderve lude, D{ee}nen unde Dudessche, <app><lem>dar</lem><rdg><q>dar - tokomen</q>; rettet i A fra <q>dar wiiser - tokumpt</q> ved overstregning
+        </rdg></app> wiisere desses breves tokomen, dat se <app><lem>se</lem><rdg>rettet i A fra <q>ene</q></rdg></app> umme des gem{ee}nen <app><lem>vredes unde</lem><rdg>senere tilføjet i A</rdg></app> besten willen <app><lem>vorderen</lem><rdg>rettet i A fra <q>vorderlik</q></rdg></app> unde behulplik sin, wor <app><lem>en</lem><rdg><q>eme</q>, A</rdg></app> des n{oe}d werd, unde nicht en steden, <app><lem>dat</lem><rdg>rettet i A fra <q>he</q></rdg></app> se <app><lem>mit ereme schepe</lem><rdg>rettet i A fra <q>mit sinen cumpanen unde sinem schepe</q></rdg></app> unde have jenige wiis beschediged edder gemoyed en werden, dat l{oe}n darv{oe}re
+      nemende van dem almechtigen Gode, de de overste vrede is.</p>
+            <p n="a#3" xml:space="preserve">Unde des to merer tuchnisse is unser stad secretum rucgelinges gedrucked uppe dessen breff,
+      de ghegheven is na Godes bord verteynhundert jar, unde dar na in deme eyn unde druttigestem
+      jare, uppe den sondach na sunte Egidii dage des hilgen abbetes.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

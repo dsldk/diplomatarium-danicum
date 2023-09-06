@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">14</num>, paragraphs: <num n="paragraphs">2</num>. Translation, number of words: <num n="words">16</num>, paragraphs: <num n="paragraphs">2</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2015</date>
+            <idno type="dd">14409999075</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2015, Danske Sprog- og
+								Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste
+                        arkivregistraturer. Vrejlev klosters Registratur (1556) og Registratur over
+                        brevene på Aalborghus (1573), Vrejlev klosters arkiv</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA III 43 H 176, efter reg. (1556)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter reg. (1556)</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1440-01-01"
+                  notBefore="1440-01-01"
+                  notAfter="1440-12-31"
+                  cert="high">1440<note>Registraturen angiver brevet som et tingsvidne, men uden at nævne
+                hvorfra. Det kan ikke afgøres med sikkerhed, om det stammer fra Børglum herredsting,
+                Vendsyssels ting eller Viborg landsting.</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <abstract>
+            <ab>Et tingsvidne om, at engen ved Jerslev bro tilhører Vrejlev kloster og ligger til 
+                Sindholt. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>empty</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-07" who="#pbh">Filen etableret af #pbh 2014-02-07. </change>
+         <change when="2015-10-01" who="#alk">1. korrektur af #alk 2015-10-01. </change>
+         <change when="2015-10-19" who="#alk">2. korrektur af #alk 2015-10-19. </change>
+         <change when="2015-10-20" who="#alk">3. korrektur af #alk 2015-10-20. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1">Eth tings wiidnne att thenn enng ved <app>
+                  <lem>Iiersleff bro</lem>
+                  <rdg wit="#Aa">
+                     <q>Jerslo bro</q> reg. (1573)</rdg>
+               </app> er <app>
+                  <lem>Wreeluff cloesteers</lem>
+                  <rdg wit="#Aa">
+                     <q>closters</q> reg. (1573)</rdg>
+               </app> oc liigger tiill <app>
+                  <lem>Synnholltt</lem>
+                  <rdg wit="#Aa">
+                     <q>Synnholltt</q> reg. (1573), med <q>y</q>
+                                                rettet fra <q>ii</q>
+                  </rdg>
+               </app> ♦</p>
+            <p n="a#2">Mcdxl ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Et tingsvidne om, at engen ved Jerslev bro er Vrejlev klosters og ligger til
+                        Sindholt.</p>
+            <p n="b#2">1440.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

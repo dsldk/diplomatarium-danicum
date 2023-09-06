@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+               >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+               n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14130814002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. LX, 32</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10.5 (plica: 2.2)</height>
+                                    <width>26.7</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Lidt senere påskrift på bagsiden: <q>Paa en gord i Roskild som soster
+                                 Kjerstin 
+                                    arrestt
+                                    </q>(læsning usikker; i reg. gengivet med <q>arvede</q>)<q>
+                                 till closteret 1413</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Clara klosters segl i mørkt (grønt?) voks i perg.rem, <ref>DGS
+                                    425</ref></ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Embedssegl for abbeddissen i Sankt Clara kloster i mørkt (grønt?) voks i
+                                 perg.rem, <ref>DGS 426</ref></ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Fragment (o. halvdelen) af Niels Bosens segl i mørkt (grønt?) voks i
+                                 ufarvet i perg.rem, <ref>DGS 264</ref></ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Jens Jakobsens segl i mørkt (grønt?) voks i perg.rem, <ref>DGS
+                                    259</ref></ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Registreret i København, Den
+                           Arnamagnæanske Samling, AM 1050 4<hi rend="sup">o</hi> nr. IX,
+                           Registratur over Breve i Universitetets Arkiv, hovedsagelig fra Roskilde
+                           Clare Klosters Arkiv (1586 og senere), trykt i ÆA V s. 583, F 53: <q>Paa en gaard i Roskild, som søster
+                              Kirsten arvede til closteret</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5280</bibl>
+               <bibl>Vejledende Arkivreg. XVII 331 nr. 284</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1413-08-14" notBefore="1413-08-14" notAfter="1413-08-14" cert="high">1413.
+               14. august</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: Latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Cecilie Skydebjergsdatter, nonne i Sankt Clara kloster i Roskilde, overlader en gård
+               i Dionysii sogn i Roskilde, beliggende vest for kirken og nord for gaden, samt alle
+               dens tilliggender, som hun har i fædrenearv, til sin broderdatter Kristine
+               Skydebjergsdatter, nonne, på livstid. Når Kristine er død, overgår gården frit til
+               klostret.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-10" who="#pbh">Filen etableret af #pbh 2014-02-10. </change>
+         <change when="2019-03-19" who="#pbh">tekst, regest, ark.opl. osv PBH 2019-03-19</change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="nil">
+            <p n="a#1">Omnibus presens scriptum cernentibus soror <persName>Cecilia Skythebiærgs
+                     dot<ex>er</ex></persName> monialis ordinis et <placeName>claustri sancte
+                  Clare</placeName>
+               <placeName>Roskildensis</placeName> . salutem in domino sempiternam . &#9830;</p>
+            <p>Noverint universi presentes et futuri quod sana et incolumis mente sensibus et
+               corpore ex matura deliberacione dilecte fratrueli mee sorori <persName>Cristine
+                  Skythebiærgs dot<ex>er</ex></persName> curiam meam in occidentali parte ab
+                  <placeName>ecclesia beati Dionisii</placeName> et aquilonari parte platee sitam
+               michi titulo juste hereditatis post mortem dilecti parentis mei antequam ordinem
+               intravi advolutam cum omnibus suis pertinenciis confero pure propter deum et resigno
+               ad dies suos libere possidendam &#9830; Ipsa vero soror Cristina de medio sublata
+               predicta curia cum omnibus suis pertinenciis predicto claustro attinebit perpetuo
+               jure possidenda sine reclamacione et impeticione cujuscumque . &#9830;</p>
+            <p>In cujus rei testimonium sigillum nostri conventus et sigillum officii
+                  <persName>matris nostre abbate</persName> una cum sigillis honorabilium virorum
+               videlicet domini <persName>Nicholai Boecii</persName> canonici Roskildensis et
+               previsoris claustri sancte Clare et domini <persName>Johannis Jacobi</persName>
+               previsoris <placeName>claustri sancte Agnetis</placeName> presentibus est appensum .
+               &#9830;</p>
+            <p>Datum Roskildis anno domini . m<hi rend="sup">o</hi> . cd<hi rend="sup">o</hi> .
+                  xiii<hi rend="sup">o</hi> . vigilia assumpcionis beate virginis . </p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

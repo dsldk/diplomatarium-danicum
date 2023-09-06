@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">199</num>, paragraphs: <num
+               n="paragraphs">17</num>. Translation, number of words: <num n="words">0</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14140321002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>NKR c-2451 (tidl. Privatarkiver, Bjæverskov herred nr. 2)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>9.6 (plica: 1.3)</height>
+                                    <width>17.2</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Ca. 1/4 af brevets højre side er revet af med tilsvarende
+                                    teksttab til følge samt tab af det fjerde seglsnit; især teksten
+                                    langs højre kant er fugtskadet med yderligere tab af tekst til
+                                    følge; ved restaurering er plica blevet slået ud, målene er her
+                                    opgivet som hvis plica var ombukket</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr 5375</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-03-21" notBefore="1414-03-21" notAfter="1414-03-21" cert="high">1414.
+                  <note>Brevet synes ikke at have haft flere end fire segl, skønt man efter ordlyden
+                  at dømme ville vente fem: Brevets to udstedere betegner sig som "vi" og nævner i
+                  corroboratio "vore segl", hvortil kommer de tre vidners segl</note> 21.
+               marts</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Aftale mellem på den ene side Bjørn Svendsen og Jens og på den anden side fru Elene,
+               enke efter Henrik Jakobsen, og hendes børn om hovedgården Ingelstorp (Ingelstads
+               herred) og dens tilliggende og om en sum på 60 mark sølv</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-18" who="#pbh">Filen etableret af #pbh 2014-02-18. </change>
+         <change when="2021-01-29" who="#alk">1. korrektur af #alk 2021-01-29. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus vel audientibus <persName>Bero Swens<ex>søn</ex></persName> et <persName>Johann<damage>es .....</damage></persName> &#9830;</p>
+            <p n="a#2" xml:space="preserve"><damage>Constare</damage> volumus universis presentibus et futuris nos quendam contractum fecisse <damage>inter</damage> <app><lem>nobile<damage>m dominam <persName>Elnæ</persName> relictam</damage></lem><rdg resp="alk">Indsat af Rep</rdg></app> cujusdam <persName>Henrici Jeips<ex>søn</ex></persName> pie memorie cum liberis suis ex una et hwstrw <app><lem><damage>Helinam</damage></lem><rdg resp="#A">Indsat af Rep</rdg></app> s<damage>.....</damage> ex altera quarum modo curam gerimus et tutelam aliq<damage>.....</damage> bona <app><lem>divi<damage>.....</damage></lem><rdg wit="#A">Eller <q>dum<damage>.....</damage></q>, A</rdg></app> predicte Helinæ post mortem parentum ipsius quam frater ejus prefatus <persName>Henricus</persName> J<damage>.....</damage> usque ad obitum apud se indivisam detinebat quem contractum ad earum instanciam <damage>.....</damage> sic quod prefata Helina <placeName>curiam principalem Ingilstorp</placeName> cum omnibus ipsius adjacencii<damage><app><lem>s nullis demptis quibuscumque</lem><rdg resp="alk">Indsat af udgiveren, til dels efter Rep</rdg></app></damage> nominibus censeantur et omnes alias curias ibidem et colonias ad eandem curiam <app><lem>princ<damage>ipalem spectantes cum</damage></lem><rdg resp="alk">Indsat af Rep</rdg></app> ipsarum adjacenciis perpetue possidebit et predicta Ælnæ omnia alia bona post mort<damage>em .....</damage> reservabit &#9830;</p>
+            <p n="a#3" xml:space="preserve">Sed in recumpensam auri et argenti que dicta Helina a predicto frat<damage>re .....</damage> extenditur dabit dicte Elnæ vel liberis ejus sexaginta marchas argenti vel aliq<damage>.....</damage> bona in Ingilstorp apud se et suos liberos retinebit donec summam receperit cap<damage>italem .....</damage> tercia parte de curia principali et quinque coloniis cum omnibus earum adjacenciis qu<damage>..... sine</damage> contradictione quorumcumque libere et pacifice perfruatur &#9830;</p>
+            <p n="a#4" xml:space="preserve">Et in hiis ut premittitur per om<damage>nia .....</damage> &#9830;</p>
+            <p n="a#5" xml:space="preserve"><damage><app><lem>In quorum omnium et</lem><rdg resp="alk">Indsat af udgiveren</rdg></app></damage> singulorum testimonium et evidenciam firmiorem sigilla nostra unacum sigillis nobilium <damage>virorum ....</damage> Jone Swens<ex>søn</ex> militis Ditleffui Ditricks<ex>søn</ex> armigeri et domini Trwgilli Nicholai presbiteri ecclesie <damage>.....</damage> &#9830;</p>
+            <p n="a#6" xml:space="preserve"><damage><app><lem>Datum anno domini</lem><rdg resp="alk">Indsat af udgiveren, til dels efter Rep</rdg></app></damage> mcdquartodecimo die sancti Benedicti abbatis &#9830;</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

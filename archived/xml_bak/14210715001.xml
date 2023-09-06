@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <forename type="middle">Bruun</forename>
+                     <surname>Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">376</num>, paragraphs: <num n="paragraphs">20</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14210715001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Den Arnamagnæanske Samling</repository>
+                        <collection>AM Dipl. Dan.</collection>
+                        <idno>Fasc. XXXVI, 15</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>18.1 (plica: 2.5)</height>
+                                    <width>25.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagsidepåskrift: <q>Testamentum domini Petri Stegh</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Kannik i Roskilde Peder (Ovesen) Steegs segl i mørkt voks i ufarvet i
+        perg.rem, <ref>DGS 260</ref>
+                              </ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Kirsten Pedersdatters segl i mørkt voks i ufarvet i
+        perg.rem, <ref>AS L xlv 1</ref>
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5930</bibl>
+               <bibl>Erslev, Testamenter 193 nr. 83</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1421-07-15"
+                  notBefore="1421-07-15"
+                  notAfter="1421-07-15"
+                  cert="high">1421. 15. juli</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder (Ovesen) Steeg, kannik i Roskilde, opretter testamente til fordel for gejstlige
+      institutioner og navngivne enkeltpersoner. Herunder modtager det af ham selv og hans moder
+      grundlagte alter for sankt Bartholomæus i det store Vor Frue Kapel i Roskilde domkirke hans
+      gods i Gammelby i Fakse herred og i Uglestrup i Volborg herred.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-09" who="#pbh">Filen etableret af #pbh 2014-05-09. </change>
+         <change when="2020-03-27" who="#pbh">1. korrektur af #pbh 2020-03-27. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">In nomine domini amen ♦</p>
+            <p n="a#2" xml:space="preserve">Cum nichil morte cercius et hora mortis nil incercius quisque pro modulo suo ex bonis sibi a
+      deo in hac vita concessis anime sue previdere diligenciam sollicitam habeat atque curam
+      ♦</p>
+            <p n="a#3" xml:space="preserve">Hinc est quod ego <persName>Petrus Steeg</persName> canonicus Roskildensis licet corpore
+      debilis mente tamen sanus testamentum et ultimam voluntatem meam condo et ordino in hunc modum
+      ♦</p>
+            <p n="a#4" xml:space="preserve">Primo videlicet ad quoddam altare in majori capella beate Marie virginis ecclesie
+      Roskildensis quod ego una cum dilecta genetrice mea <persName>Cristina Awonis</persName>
+      fundavimus in honorem beati Bartholomei apostoli dedicandum ubi meam ac dilecta genetrix mea
+      eligimus sepulturam / do <app><lem>et</lem><rdg>Tilf. over linjen, A</rdg></app> in perpetuam possessionem assigno omnia bona mea in <placeName>Gambleby</placeName>
+      provincie <placeName>Faxeh<ex>e</ex>r<ex>et</ex></placeName> ac omnia bona mea in
+        <placeName>Wglestorp</placeName> provincie
+        <placeName>Walb<ex>ur</ex>gsh<ex>e</ex>r<ex>et</ex></placeName> sita cum omnibus et singulis
+      dictorum bonorum pertinenciis humidis et siccis nullis penitus exceptis prout in <cit><quote>literis fundacionis dicti altaris</quote><bibl>Kendes ikke, men jf. det senere grundlæggelsesbrev <ref target="14310717001">DD 1431.
+            17. juli, nr. 14310717001</ref></bibl></cit> super hoc confectis plenius continetur ♦</p>
+            <p n="a#5" xml:space="preserve">Item <placeName>monasterio beate Marie virginis</placeName> Roskildis centum panes i lagenam
+      cerevisie et i pernam lardi ♦</p>
+            <p n="a#6" xml:space="preserve">Item <placeName>claustro sancte Agnetis</placeName> ibidem c panes i lagenam cerevisie et i
+      pernam lardi ♦</p>
+            <p n="a#7" xml:space="preserve">Item <placeName>claustro sancte Clare</placeName> ibidem c panes i lagenam cerevisie et i
+      pernam lardi ♦</p>
+            <p n="a#8" xml:space="preserve">Item <placeName>claustro predicatorum</placeName> ibidem c panes i lagenam cerevisie et i
+      pernam lardi ♦</p>
+            <p n="a#9" xml:space="preserve">Item <placeName>claustro minorum</placeName> ibidem c panes i lagenam cerevisie
+        <supplied>et</supplied> i pernam lardi ♦</p>
+            <p n="a#10" xml:space="preserve">Item <placeName>domui leprosorum in monte</placeName> ibidem c panes i lagenam cerevisie et i
+      pernam lardi ♦</p>
+            <p n="a#11" xml:space="preserve">Item dilecte genetrici mee Cristine supradicte duo vasa argentea dicta sølffscale /
+      ♦</p>
+            <p n="a#12" xml:space="preserve">Item dilecto swag<ex>er</ex>o meo <persName>Conrado Massow</persName> unum coclear argenteum
+      ♦</p>
+            <p n="a#13" xml:space="preserve">Item dilecte sorori mee <persName>Mætte</persName> unum annulum aureum et unum coclear
+      argenteum ♦</p>
+            <p n="a#14" xml:space="preserve">Item dilecte sorori mee <persName>Helene</persName> togam meam nigram ♦</p>
+            <p n="a#15" xml:space="preserve">Item domino <persName>Effrardo</persName> canonico Roskildensi unum coclear argenteum
+      ♦</p>
+            <p n="a#16" xml:space="preserve">Item fratri meo <persName>Petro Awonis</persName> tunicam meam griseam cum foderatura
+      ♦</p>
+            <p n="a#17" xml:space="preserve">Item <persName>Andree Wilhelmi</persName> unum polidrum rubeum ♦</p>
+            <p n="a#18" xml:space="preserve">Item <persName>Johanni Michaelis</persName> equm meum bruneum ♦</p>
+            <p n="a#19" xml:space="preserve">Exequtores hujus testamenti ac ultime voluntatis mee constituo et ordino dilectam matrem meam
+      Cristinam predictam ac nobiles viros dominum <persName>Effrardum Jacobi</persName> canonicum
+      Roskildensis et Conradum Massow swagerum meum supradictos ipsos in domino requirendo quatinus
+      in omnibus et contra omnia et singula premisa effectualiter exequenda fideliter se exhibeant
+      prout in ipsis fiduciam repono specialem et coram summo judice voluerint respondere
+      ♦</p>
+            <p n="a#20" xml:space="preserve">Datum <placeName>Roskildis</placeName> anno domini millesimo quadringentesimo vicesimo primo
+      tercia feria proxima ante festum beate Margarete virginis et martiris meo ac dilecte matris
+      mee sepedicte sub sigillis presentibus honorabilibus viris dominis <persName>Suenone
+        Tuonis</persName> canonico Roskildensi magistro <persName>Petro Boecii</persName> perpetuo
+      vicario ibidem et <persName>Jacobo Hemmingi</persName> rectore ecclesie
+        <persName>Biergby</persName> testibus ad premissa vocatis specialiter et rogatis ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

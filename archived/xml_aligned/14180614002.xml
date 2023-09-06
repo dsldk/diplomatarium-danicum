@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">246</num>, paragraphs: <num n="paragraphs">11</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14180614002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Reval</settlement>
+                        <repository>Rathsarchiv zu Reval (nu Tallinn, Tallinna Linnaarhiiv)</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Med adresse på bagsiden: <q>Den vorsichtigen etc. borgermeisteren und
+        raedmannen der stat Revele, unsen leven vrunden</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Bunge, Liv.- Esth.- u. Curländisches Urkundenb. V, nr. MMCCXLVIII (reg. 2685), sp.
+      383-384</bibl>
+               <bibl>Svenskt Diplomatarium, nr. 2489 (tryk efter Bunge, Liv.- Esth.- u. Curländisches
+      Urkundenb. l.l.)</bibl>
+               <bibl>Finlands Medeltidsurkunder, nr. 1538 (tryk efter Bunge, Liv.- Esth.- u. Curländisches
+      Urkundenb. l.l.)</bibl>
+               <bibl>SDHK-nr. 19102 (tryk efter Svenskt Diplomatarium l.l.)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Bunge, Liv.- Esth.- u. Curländisches Urkundenb. l.l., hvorfra også de arkivalske
+      oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-06-14"
+                  notBefore="1418-06-14"
+                  notAfter="1418-06-14"
+                  cert="high">1418. 14. juni</date>
+            <placeName cert="high">Riga</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Ordensmesteren i Livland skriver til rådet i Reval. </ab>
+            <ab>Ordensmesteren meddeler, at han har modtaget et brev fra kong Erik 7. af Pommern
+      (<ref target="14180404001">DD 1418. 4. apr., nr. 14180404001</ref>), hvori kongen klager over,
+      at folkene i Reval har skadet, forulempet og forurettet hans undersåtter. Ordensmesteren
+      meddeler i den forbindelse, at han har vedlagt en afskrift af kong Eriks brev. </ab>
+            <ab>Endvidere meddeler ordensmesteren, at han ikke tidligere har hørt om forulempelsen af kong
+      Eriks undersåtter. Dels undrer det ham, dels er han ked af, at rådet i Reval ikke tidligere
+      har skrevet til ham angående denne sag, for nu ved han ikke, hvad han skal skrive til kong
+      Erik. </ab>
+            <ab>Ordensmesteren meddeler imidlertid, at han har skrevet til kong Erik, at han vil tale med
+      rådet i Reval for at høre, hvad sagen drejer sig om. </ab>
+            <ab>Endvidere henstiller ordensmesteren til, at rådet i Reval yder kong Eriks undersåtter
+      retfærdighed, såfremt det er rigtigt, at folkene i Reval har påført kong Eriks undersåtter
+      skade. Dette skal rådet gøre for at forhindre, at folkene i Reval eller andre købmænd i
+      Livland vil blive påført skade eller hindringer på grund af sagen. </ab>
+            <ab>Endvidere meddeler ordensmesteren, at han har hørt, at kong Eriks undersåtters salt og andre
+      handelsvarer har måttet ligge under åben himmel i Reval, og at kong Eriks undersåtter hverken
+      har fået lov til selv at tage varerne eller give dem videre til andre. Dette lyder ifølge
+      ordensmesteren som en stor uretfærdighed, idet en del af kong Eriks undersåtter ikke er
+      medlemmer af hanseforbundet. </ab>
+            <ab>Endelig henstiller ordensmesteren til, at rådet i Reval kommer overens med kong Eriks
+      undersåtter, så de ikke behøver at udfærdige flere klager over folkene i Reval. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-03-19" who="#smb">Filen etableret af #smb 2018-03-19. </change>
+         <change when="2018-03-19" who="#smb">1. korrektur af #smb 2018-03-19. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve"><persName>Meister Dutschs ordens to Lifflande</persName>.</p>
+            <p n="a#2" xml:space="preserve">Unse vruntlike grute und wes wi gudes vormogen tovoren.</p>
+            <p n="a#3" xml:space="preserve">Ersamen leven vrunde!</p>
+            <p n="a#4" xml:space="preserve"><persName>De here koning van Denemarken</persName> heft uns <cit><quote>sinen bref</quote><bibl>kong Erik 7. af Pommerns brev til ordensmesteren i Livland, <ref target="14180404001">DD 1418. 4. apr., nr. 14180404001</ref></bibl></cit> und boden gesant, und scrivet, dat sine undersaten van den van <placeName>Revele</placeName>
+      beschediget, vorweldiget und vorunrechtet sin, als gi sulven wal werden vinden in der
+      ingesloten afschrifft sines breves, de enes luden van worden to worde.</p>
+            <p n="a#5" xml:space="preserve">Und van der beschedicheit siner undersaten hadde wi nicht ere geweten noch gehort, und is uns
+      wunderlich, dat gi uns van den saken nicht witlich gedan hebben, und dunket uns unredlich
+      wesen, wente wir nicht en weten, wo adir wat wi dem koninge dar enkedes weder up scriven adir
+      enbeden sullen.</p>
+            <p n="a#6" xml:space="preserve">Doch hebbe wi eme gescreven, wi willen mit ju darum spreken, und horen, wo de sake sin.</p>
+            <p n="a#7" xml:space="preserve">Hebbe gi sinen undersaten jenigen scaden unmogeliken gedaen, dot en weder redelicheit darvor,
+      up dat gi und ander lude, de ut dessem lande vorkeringe hebben, dar nicht weder umme to scaden
+      und to hindernisse komen.</p>
+            <p n="a#8" xml:space="preserve">Wi hebben wol vornomen, dat se ere solt und kopenschap to <placeName>Revell</placeName>
+      mosten liggen laten uppe der straten und noch weder nemen, noch vor ere schult weder geven,
+      dat to male unredeliken ludet, na deme dat en deels des koninges lude nicht in der hense en
+      sin, und der stede hense nicht en bruken.</p>
+            <p n="a#9" xml:space="preserve">Hirum, leve vrunde, so willet ju gutliken mit en vorliken, dat se nene klage mer darum
+      behoven to donde, dar bewise gi uns sunderlix guden willen ane.</p>
+            <p n="a#10" xml:space="preserve">In deme Almechtigen blivet gesunt.</p>
+            <p n="a#11" xml:space="preserve">Gegeven to <placeName>Rige</placeName>, am avende Viti et Modesti, anno XVIII.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

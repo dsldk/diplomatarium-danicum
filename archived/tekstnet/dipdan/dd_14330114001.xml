@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">322</num>, paragraphs: <num n="paragraphs">10</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14330114001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3131</idno>
+                        <msName>gl. signatur: Vinding Herred 3</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>10.2 (plica: 1.2)</height>
+                                    <width>22.1</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Pergamentet er svært beskadiget, hvorved en fjerdedel af teksten er tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Rikman van der Lankens segl af mørkt voks i perg.rem, AS C xxxix 2
+                              </ab>
+                           </seal>
+                           <seal n="3" type="pendant">
+                              <ab>Jep Basses segl af mørkt voks i perg.rem, AS C lxviii 5
+                              </ab>
+                           </seal>
+                           <seal n="4" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="5" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="7" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                           <seal n="8" type="pendant">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="9" type="missing">
+                              <ab>seglrester i perg.rem</ab>
+                           </seal>
+                           <seal n="10" type="missing">
+                              <ab>seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6597</bibl>
+               <bibl>Reg. 3533</bibl>
+               <bibl>Nye danske Mag. VI 269</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. IV 70-72</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1433-01-14"
+                  notBefore="1433-01-14"
+                  notAfter="1433-01-14"
+                  cert="high">1433. 14. januar</date>
+            <placeName cert="high">Vindinge herred</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Dom af Vindinge herredsting i en sag mod Hans Frost. Otte hæderlige mænd (dannemænd)
+      vidnede, at han havde gjort sådanne ugerninger mod sin herre, at han efter landets lov enten
+      burde dømmes til hængning eller til stejlen. Da ingen ville komme Hans Frost til forsvar, blev han dømt til at
+      sættes på stejle som en forræder.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-11" who="#pbh">Filen etableret af #pbh 2013-10-11. </change>
+         <change when="2017-06-12" who="#jon">1. korrektur af #jon 2017-06-12. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Allæ mæn th<ex>et</ex>tæ breff se ell<ex>e</ex>r høræ <app>
+                  <lem>
+                     <damage>... aff</damage>
+                  </lem>
+                  <rdg wit="#A">teksten, der optræder i skarp parentes,  her og i det flg. er suppleret efter Gammeldanske Diplomer</rdg>
+               </app>
+               <placeName>Kwldorp</placeName> hæritsfoghet j
+        <placeName>Wy<ex>n</ex>ningeh<ex>e</ex>r<ex>et</ex>
+               </placeName>
+               <persName>Ri<damage>c</damage>man van Lancken</persName> / <persName>Jæip Bassæ</persName>
+               <persName>Jæip</persName>
+               <persName>
+                  <damage>...</damage> Pæth<ex>e</ex>rss<ex>øn</ex>
+               </persName> aff
+        <placeName>Eygsmosæ</placeName> / <persName>Hans Foghet</persName> awapn
+        <persName>Ønd<ex>er</ex> Tuchess<ex>øn</ex>
+               </persName> borgmester j
+        <placeName>Nyborgh</placeName> / <persName>Jess</persName>
+               <damage>... rad</damage>hmæn j sa<ex>m</ex>mæ stadh / kerligæ oc ewy<ex>n</ex>nelighe
+      m<ex>eth</ex> wor h<ex>er</ex>ræ / ♦</p>
+            <p n="a#2">Oc kungøræ oss efft<ex>er</ex> gudz b<damage>yrth fir</damage>æhundrethæ thræthywæ pa
+      th<ex>et</ex> trethiæ th<ex>e</ex>n n<damage>æstæ</damage> othensdagh effter otendagh effter
+      tolfftæ d<damage>agh ...</damage> thing nærwarend<ex>es</ex> hawæ waret oc seet oc
+        h<damage>ørt</damage> ath vppa th<ex>et</ex> sa<ex>m</ex>mæ thing th<ex>e</ex>n
+      sa<ex>m</ex>mæ dagh woræ <damage>...</damage>æ schælligæ dondæ mæn / athwitnæ oc athseyæ wm
+        <persName>Hans Frost</persName> hwat han affrætæ <damage>haf</damage>fdæ forbru<damage>den
+        ... thess</damage>e schyldingæ oc kæræ / som th<ex>e</ex>r ower hanu<ex>m</ex> tha kærdhes /
+      swosom waræ / <persName>Pær Haw</persName> aff <placeName>Gudhbergh</placeName>
+               <damage>... a</damage>ff <placeName>Gislæ</placeName> / <persName>Michil Remp</persName> aff
+        <placeName>Nyborgh</placeName> / <persName>Niels Pæth<ex>e</ex>rss<ex>øn</ex>
+               </persName> aff
+        <placeName>Korpedorpp</placeName> / <persName>Pær Jac<ex>o</ex>pss<ex>øn</ex>
+               </persName> aff
+        <placeName>Wluersløff</placeName> / <app>
+                  <lem>Winther</lem>
+                  <rdg wit="#A">læsningen usikker, A</rdg>
+               </app>
+               <damage>...</damage>
+               <placeName>Færisløff</placeName> / <persName>Ness Tuchess<ex>øn</ex>
+               </persName> aff
+        <placeName>Koxbølæ</placeName> / oc <persName>Pær Kølwæ</persName> aff
+        <placeName>Thorpæ</placeName> / ♦</p>
+            <p n="a#3">Huilkæ godhæ mæn allæ wæl beraddæ samdræcteligæ witnedhæ / ath <persName>Hans
+        Frost</persName> ath han ær een ræt forræth<ex>e</ex>r / oc hawer giort swo danæ
+        wger<damage>ni<ex>n</ex>g</damage>æ j modh sit rætæ brødh oc j sit rætæ brødh / ath
+      hanu<ex>m</ex> th<ex>e</ex>r foræ affrætæ bør effter wor landslough ey<damage>ntenæ</damage>
+      athenges . ell<ex>e</ex>r athstæygless / ♦</p>
+            <p n="a#4">Tha th<ex>et</ex>tæ witnæ swo ganget oc witnet wor / tha vpstodh een
+        wælby<damage>rdi</damage>ch man h<ex>e</ex>r <persName>Steen Bassæ</persName> ridderæ / oc
+      tilbødh ophenbaræ oc saghdæ swo / ♦</p>
+            <p n="a#5">Ær nw nogh<ex>e</ex>r th<ex>e</ex>r for <persName>Hans Frost</persName> wil swaræ eyntenæ
+      lough for hanu<ex>m</ex> athbyudhæ/ ell<ex>e</ex>r j nokræ andræ madhæ / tha schal han gernæ
+      høres oc hanu<ex>m</ex> scal stædhes alt th<ex>et</ex> th<ex>e</ex>r ræt ær / ♦</p>
+            <p n="a#6">Tha th<ex>e</ex>r engen wor th<ex>e</ex>r for hanu<ex>m</ex> swaræ wildæ j nokræ madæ / tha
+      wurdhæ th<ex>e</ex>r vpneffndæ / ottæ godæ dondæ mæn / aff allæ firæ <app>
+                  <lem>thingbænkæ</lem>
+                  <rdg wit="#A">
+                     <q>thing|bænkæ</q>, A</rdg>
+               </app> / athdømæ hanu<ex>m</ex> effter hans gerningæ ♦</p>
+            <p n="a#7">Oc the sa<ex>m</ex>mæ ottæ godhæ mæn the dømdæ hanu<ex>m</ex> allæ sa<ex>m</ex>men til ath
+      hanu<ex>m</ex> bwrdhæ / som een forrætheræ athstæygless ♦</p>
+            <p n="a#8">Alt th<ex>et</ex>tæ forescr<ex>ewnæ</ex> som h<ex>e</ex>r<ex>e</ex> nw forescr<ex>ewet</ex>
+      staar / th<ex>e</ex>r hosswaræ wi oc saghæ oc hørdhæ / ath th<ex>et</ex> j allæ madhæ swo gik
+      oc <damage>f</damage>oor / ♦</p>
+            <p n="a#9">Oc thes til witningsbyrdh / tha hawæ wi alles woræ jnciglæ hæyngdt for th<ex>et</ex>tæ breff
+      ♦</p>
+            <p n="a#10">Th<ex>et</ex> ær giwet aar oc dagh som foræscr<ex>ewet</ex> stander /. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

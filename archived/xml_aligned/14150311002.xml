@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2014</date>
+            <idno type="dd">14150311002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Rom</settlement>
+                        <repository>Archivio Segreto Vaticano</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Reg. Lat. 161 fol. 294v</msName>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Påskrift: <q>Franciscus. XX. de Agello</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>APD II 245 nr. 1215</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst og arkivalske oplysninger efter APD l.l.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1415-03-11"
+                  notBefore="1415-03-11"
+                  notAfter="1415-03-11"
+                  cert="high">1415. 11.
+          marts</date>
+            <placeName cert="high">Konstanz</placeName>
+         </creation>
+         <abstract>
+            <ab>Pave Johannes 23. giver Flora, enke efter væbneren Mogens Båd, tilladelse til at vælge
+          en skriftefader, der kan meddele hende fuld syndsforladelse én gang i hendes liv foruden i
+          hendes dødsøjeblik. </ab>
+         </abstract>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-27" who="#pbh">Filen etableret af #pbh 2014-02-27. </change>
+         <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+         <change when="2017-03-31" who="#pbh">Korrektur af scan osv</change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p>
+               <app>
+                  <lem>Johannes (episcopus servus servorum dei)</lem>
+                  <rdg>
+                     <q>Johannes etcetera</q> Aa</rdg>
+               </app> nobili mulieri <persName>Floore</persName> relicte nobilis viri <persName>Magni
+            Bootes</persName> armigeri <persName>Slesvicensis</persName> diocesis <app>
+                  <lem>salutem (et apostolicam benedictionem)</lem>
+                  <rdg>
+                     <q>salutem etcetera</q> Aa</rdg>
+               </app>. ♦ <app>
+                  <lem>Provenit (ex tue devotionis/ affectu/ quo nos et Romanam ecclesiam revereris/ ut
+              petitiones tuas illas presertim que anime tue salutem respiciunt/ ad exauditionis
+              gratiam admittamus. ♦ Hinc est quod nos tuis supplicationibus inclinati/ ut confessor
+              tuus quem duxeris eligendum/ omnium peccatorum tuorum de quibus corde contritus et ore
+              confessus fueris/ semel tamen in mortis articulo eam plenam remissionem quam Romani
+              pontifices consueverunt interdum per speciale privilegium personis aliquibus
+              impertiri/ tibi quatinus claves ecclesie se extendunt/ et gratum in oculis divine
+              maiestatis extiterit/ auctoritate apostolica concedere ualeat/ devotioni tue tenore
+              presentium indulgemus/ sic tamen quod idem confessor de hiis de quibus fuerit alteri
+              satisfactio impendenda/ eam tibi per te si supervixeris/ vel per heredes tuos si tunc
+              forte transieris faciendam injungat/ quam tu vel illi facere teneamini ut prefertur. ♦
+              Et ne quod absit propter hujusmodi gratiam reddaris proclivior ad illicita imposterum
+              committenda/ volumus quod si ex confidentia remissionis hujusmodi aliqua forte
+              committeres/ quo ad illa predicta remissio tibi nullatenus suffragetur. ♦ Nulli ergo
+              omnino hominum liceat hanc paginam nostre concessionis et voluntatis infringere vel ei
+              ausu temerario contraire. ♦ Si quis autem hoc attemptare presumpserit indignationem
+              omnipotentis dei et beatorum Petri et Pauli apostolorum ejus se noverit
+              incursurum)</lem>
+                  <rdg>Provenit etcetera Aa</rdg>
+               </app> ♦</p>
+            <p>Datum <placeName>Constantie</placeName> 5. id. martii anno 5.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">
+               <gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+            tekster.</gap>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

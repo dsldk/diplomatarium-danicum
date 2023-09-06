@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">85</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14331111001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>or. perg. RA 0101, SDHK-nr. 21684</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>uforståelig bagsidepåskrift</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>"S ... Boecii ..." af mørkt voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6656</bibl>
+               <bibl>SDHK nr. 21684</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1433-11-11"
+                  notBefore="1433-11-11"
+                  notAfter="1433-11-11"
+                  cert="high">1433. 11. november<note>I SDHK dateres diplomet imod dokumentets ordlyd til 1431, dog med noten: "1433?"</note></date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Peder Bosen, kannik i Roskilde, kvitterer som tidligere indehaver af Sankt Jørgens alter i Roskilde hr. Anders Nielsen (Jernskæg) til Dronningholm for afgiften af alterets gods i Kregme.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-18" who="#pbh">Filen etableret af #pbh 2013-10-18. </change>
+         <change when="2018-10-03" who="#pz">1. korrektur af #pz 2018-10-03. </change>
+         <change when="2018-10-22" who="#alk">2. korrektur af #alk 2018-10-22. </change>
+         <change when="2018-12-18" who="#pz">3. korrektur af #pz 2018-12-18. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Omnibus presens scriptum cernentibus vel audientibus <persName>Petrus Boecii canonicus ecclesie Roskildensis</persName> quondam possessor altaris sancti Georgii in eadem salutem in domino ♦</p>
+            <p n="a#2" xml:space="preserve">Universis presentibus et futuris notifico per presentes me a nobili viro domino <persName>Andrea Nicolai milite de Drothni<ex>n</ex>gholm</persName> plenam et integram pensionem de bonis antedicti altaris in <placeName>Kræge<ex>m</ex>mæ</placeName> usque in hunc diem plenarie sublevasse ♦ Quare ipsum et suos heredes pro dicta p[en]sione quittos et liberos dimitto totaliter per presentes ♦</p>
+            <p n="a#3" xml:space="preserve">In cujus rei testimonium sigillum meum presentibus est appensum ♦</p>
+            <p n="a#4" xml:space="preserve">Datum <placeName>Roskildis</placeName> anno domini m quadragentesimo trecesimotertio die sancti Martini episcopi et confessoris.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

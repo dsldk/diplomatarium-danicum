@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">205</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14140201002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt, men refereret i Halmstad stadsarkiv. Pap. nr. 1 (1. halvd. af 15. årh.)</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Halmstad</settlement>
+                        <repository>Halmstads stadsakiv</repository>
+                        <collection>empty</collection>
+                        <idno>Perg. nr. 4</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra slutningen af det 15. århundrede</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lund</settlement>
+                        <repository>Landsarkivet</repository>
+                        <collection>Skånska generalguv. kans. arkiv</collection>
+                        <idno>Halmstads privil. attest. 1662 17/12, f. 7v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa2">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>Städers akter</collection>
+                        <idno>Halmstads privil. attest. 1662 17/12, f. 7v</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Genpart af <q>Aa1</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa3">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Halmstad</settlement>
+                        <repository>Halmstads stadsakiv</repository>
+                        <collection>empty</collection>
+                        <idno>Privilegiebok 34 (1664)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa3b">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>Kommerskoll. arkiv</collection>
+                        <idno>Halmstads privil. attest. 1695 13/12, f. 7r</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Richardson, Hallandia I 129 (efter Aa3)</bibl>
+               <bibl>Svenskt dipl. II 769 = SDHK nr. 18226</bibl>
+               <bibl>Herlitz, Privil. f. Sveriges städer I 317</bibl>
+               <bibl>Reg. 3280</bibl>
+               <bibl>Rep. nr. 5326</bibl>
+               <bibl>Danmarks gl. Købst.lovgivn. IV 272 (nr. 8)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Danmarks gl. Købst.lovgivn. (efter Aa)</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-02-01"
+                  notBefore="1414-02-01"
+                  notAfter="1414-02-01"
+                  cert="high">1414. 1. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Kong Erik 7. af Pommern tager borgere og bymænd i Halmstad under sin beskyttelse og
+      stadfæster de privilegier, som hans forfædre har givet dem, dog således, at borgerne og
+      bymændene i Halmstad skal betale told af deres gods på Skånemarkedet ligesom andre borgere, der
+      søger det.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-18" who="#pbh">Filen etableret af #pbh 2014-02-18. </change>
+         <change when="2020-02-25" who="#jon">1. korrektur af #jon 2020-02-25. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Wii Erick m<ex>eth</ex> gudz naade Danmarcks Swerig<ex>es</ex> Norg<ex>es</ex> oc Godes
+      ko<ex>n</ex>ningh oc hertugh i Pome<ex>re</ex>n hilsse alle mend th<ex>ett</ex>e
+      b<ex>re</ex>ff seer ell<ex>e</ex>r høre læsis kerlige m<ex>eth</ex> gud oc wor naade ♦
+      </p>
+            <p n="a#2" xml:space="preserve">Ock kwngøre <app><lem>at wii</lem><rdg wit="#Aa"><q>at wii at wii</q>, Aa</rdg></app> aff synd<ex>er</ex>ligh naade oc gy<ex>n</ex>stighed tage tesse
+      b<ex>re</ex>ffuisere oss elskelige borgemeste<ex>re</ex> raadmend oc all almwgen som bygge oc
+      bo i <placeName>Halmsted</placeName> oc alle ther<ex>es</ex> hioen oc tiæne<ex>re</ex> wnder
+      wor frid oc wern serdelis at beskerme oc werne i alle maade ♦</p>
+            <p n="a#3" xml:space="preserve">Oc wnne wii oc stadfeste th<ex>e</ex>m alle ther<ex>es</ex> priuilegia oc naader som
+      wo<ex>re</ex> forfædhre ko<ex>n</ex>ninge och herre th<ex>e</ex>m wnt oc giffwit haffwe effter
+      som tesse ther<ex>is</ex> breeff vtwise som wii haffwe ladit festæ tiill th<ex>ett</ex>e wort
+      b<ex>re</ex>ff doch saa at the for<hi rend="sup">ne</hi> borge<ex>re</ex> oc bymend aff
+        <placeName>Halmsted</placeName> skulle tolde for ther<ex>es</ex> goodz paa <placeName>Skaane
+        marckith</placeName> effth<ex>e</ex>r som andre borge<ex>re</ex> gøre hwilke som søge for<hi rend="sup">ne</hi>
+      <placeName>Skane marckit</placeName> ♦</p>
+            <p n="a#4" xml:space="preserve">Oc forbywde wii alle fogede oc embitzmend oc alle andre hwo the helst ær<ex>e</ex> for<hi rend="sup">ne</hi> borge<ex>re</ex> oc bymend at hindre eller wforrette i nogh<ex>e</ex>r
+      maadhe i mood tesse wor syndherlige naade oc wilie wndher wor wrede oc kongeligh heffnd
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Datum anno domini millesimo quadringentesimo quartodecimo in profesto purificacionis nostro
+      sub secreto presentibus appenso ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

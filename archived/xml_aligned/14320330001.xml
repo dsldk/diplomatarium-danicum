@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">3</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14320330001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Danzig</settlement>
+                        <repository>Stadtarchiv zu Danzig (nu Gdansk, Archiwum Panstwowe w Gdansku)</repository>
+                        <collection>skuffe XIII</collection>
+                        <idno>nr. 36</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. </physDesc>
+                     <history>
+                        <ab>Samtidig afskrift</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4949</bibl>
+               <bibl>Hanserec. 2:I, nr. 107, p. 73 (udtog)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Udtog efter <ref>Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-03-30"
+                  notBefore="1432-03-30"
+                  notAfter="1432-03-30"
+                  cert="high">1432. 30. marts</date>
+            <placeName cert="high">Marienburg</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gmh">Hovedsprog: middelhøjtysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Paul v. Rusdorf, højmester for Den Tyske Orden, meddeler kong Erik 7. af Pommern, at det
+      siges, at kong Erik er i færd med at opruste til trods for den indgåede våbenhvile. Af denne
+      årsag ønsker højmesteren at vide, om hans undersåtter kan sejle sikkert igennem Øresund. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-04" who="#pbh">Filen etableret af #pbh 2013-10-04. </change>
+         <change when="2020-01-08" who="#smb">1. korrektur af #smb 2020-01-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gmh">
+            <p n="a#1" xml:space="preserve"><q>Der Hochmeister Paul von Rusdorf an König Erich von Dänemark: hat vernommen, dass trotz
+        des durch seine Gesandten vermittelten fünfjährigen Waffenstillstandes zwischen dem Könige
+        und dessen Feinden, die königlichen Hauptleute sich rüsteten, um in der See auszuliegen,
+        einzelne Schiffe auch schon genommen worden seien; fragt an, ob seine Unterthanen in
+        Preussen und Livland, welche sich zur Eröffnung der Schiffahrt nach Ostern anschicken,
+        unbehelligt von dem Könige segeln könnten; will seinerseits dafür sorgen, dass dieselben
+        kein Gut mit sich führten, wodurch die Feinde des Königs gestärkt werden möchten. -
+        [Marienburg, 14]32</q> (am sontage letare) <q>Mrz. 30.</q></p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

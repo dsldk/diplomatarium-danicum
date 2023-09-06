@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">141</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14500328003</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Registreret i København. Det Kongelige Bibliotek. Thott 750,
+                        Folio. "Gamle breve angaaende Thiele gods i Nørlyngherred" i tredje gruppe:
+                                <q>Tingsvidne at Vestergaard i Bigum er en frie sædegaard. Anno
+                                1450</q></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection/>
+                        <idno>Thott 750, Folio</idno>
+                        <msName>"Optægnelse paa de gamle documenter, som findes paa Thiele fra 1413
+                        til hen i 17de seculo"</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Efter afskriften har Søren Abildgaard tegnet Palle Kallesens segl
+                        (et stående dyr (løve?) i et skjold) og bemærker, at <q>Pally
+                                Kallyss<ex>øns</ex> sigil vor beskadiget og ale ander
+                        borte</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1450-03-28"
+                  notBefore="1450-03-28"
+                  notAfter="1450-03-28"
+                  cert="high">1450. 28. marts</date>
+            <placeName cert="high">Nørlyng herredsting</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Tingsvidne af Nørlyng Herredsting om, at Kristian Pedersen af Vestergård har
+                        fået tingets bekræftelse – et såkaldt stokkenævn – af, at
+                        Vestergård var Mogens Kruses fri sædegård og efter ham Jakob Mogensens.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-03-08" who="#alk">Filen etableret af #alk 2018-03-08. </change>
+         <change when="2018-04-03" who="#alk">1. korrektur af #alk 2018-04-03. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Allæ me<ex>n</ex> th<ex>ett</ex>e b<ex>re</ex>ff seer eller hør les<ex>e</ex>
+                        hyls<ex>e</ex> wi <persName>Pally Kalyss<ex>øn</ex></persName> th<ex>e</ex>r
+                        wapn er, <persName>Nis Ieypss<ex>øn</ex></persName>
+                        <placeName>fogh<ex>et</ex> apa Nørlyngh<ex>e</ex>r<ex>et</ex>
+                                tingh</placeName>, <persName>Las Skadeland</persName> aff vapn
+                                <persName>Symen</persName> i <placeName>Lyndom</placeName>
+                        <persName>Jes<ex>se</ex> Ieypss<ex>øn</ex></persName> i
+                                <placeName>Rødyngh</placeName>
+                        <persName>Jæp And<ex>er</ex>ss<ex>øn</ex></persName> i
+                                <placeName>Hwydingh</placeName>,
+                                <persName>Seu<ex>er</ex>en</persName> i
+                                <placeName>Søryngh</placeName> ewy<ex>n</ex>delich m<ex>eth</ex>
+                        gudh. ♦</p>
+            <p n="a#2" xml:space="preserve">Ok ku<ex>n</ex>gør<ex>e</ex> wy m<ex>eth</ex> th<ex>ett</ex>e wart opne bref ar
+                        efth<ex>e</ex>r gudz byrd mcdl palmæ lou<ex>er</ex>dagh apa for<hi rend="sup">ne</hi> tingh war skikk<ex>et</ex> for oss ok
+                        for<ex>e</ex> fler<ex>e</ex> dande me<ex>n</ex>, tha tingh søctæ
+                        th<ex>en</ex>ne ner<hi rend="sup">d<ex>e</ex></hi> b<ex>ref</ex>uis<ex>er</ex>
+                        <persName>C<ex>ri</ex>stiern Ped<ex>er</ex>ss<ex>øn</ex></persName> i
+                                <placeName>West<ex>er</ex>gard</placeName> i <app><lem><placeName>Bygom</placeName></lem><rdg wit="#Aa">Med en, som det synes, overflødig forkortelsesstreg
+                                        over sidste stavelse, Aa</rdg></app> esk<ex>et</ex> fech ok fra<ex>m</ex>leddæ eth fulkomelig stokneffnt
+                        aff xii beskedh<ex>e</ex>n dande me<ex>n</ex> som war Las Skadeland aff
+                        vapn, <persName>Pouel Ie<ex>n</ex>s<ex>øn</ex></persName> i
+                                <placeName>Hornu<ex>m</ex></placeName>
+                        <persName>Nis Nielss<ex>øn</ex></persName> i <placeName>Bygom</placeName>
+                        <persName>Seuen And<ex>er</ex>ss<ex>øn</ex></persName> i
+                                <placeName>Søryngh</placeName>
+                        <persName>Moue<ex>n</ex>s And<ex>er</ex>ss<ex>øn</ex></persName> i
+                                <placeName>Holm</placeName>
+                        <persName>C<ex>ri</ex>stiern <app><lem>Styg<ex>søn</ex></lem><rdg wit="#Aa">Patronymet er usikkert læst, Aa</rdg></app></persName> i <app><lem><placeName>Holmgard</placeName></lem><rdg wit="#Aa">Herefter slettet <q>Andhz</q>, Aa</rdg></app>
+                        <persName>And<ex>r</ex>ez Tamess<ex>øn</ex></persName> i
+                                <placeName>Erst<ex>ro</ex>pp</placeName>
+                        <persName>P<ex>er</ex> Kory</persName>, <persName>Ieb
+                                Ieypss<ex>øn</ex></persName> i
+                                <placeName>Rødy<ex>n</ex>g</placeName>, <persName>Jes
+                                T<ex>ro</ex>uelss<ex>øn</ex></persName> i
+                                <placeName>Ynst<ex>ro</ex>p</placeName>, <persName>Moue<ex>n</ex>s
+                                Niels<ex>øn</ex></persName> ok <persName>Nis
+                                P<ex>er</ex>ss<ex>øn</ex></persName> i
+                                <placeName>Vornygh</placeName>, huilke xii for<hi rend="sup">ne</hi>
+                        me<ex>n</ex> wytnet apa ther<ex>es</ex> tro ach sa<ex>n</ex>ne ath for<hi rend="sup">ne</hi> West<ex>er</ex>gard war
+                                <persName>M{ov}e<ex>n</ex>s Krus<ex>es</ex></persName> frii
+                        sædægard, ok er <persName>Iap Moue<ex>n</ex>ss<ex>øns</ex></persName> frii
+                        sædægard effth<ex>e</ex>r ha<ex>nnu</ex>m. ♦</p>
+            <p n="a#3" xml:space="preserve"><app><lem>Quod</lem><rdg wit="#Aa">Tilføjet i marginen som rettelse for et slettet ord,
+                                        hvoraf kun det sidste bogstav <q>d</q> kan læses, Aa</rdg></app> vidimus et audivimus protestamur cum sigillis nostris presentibus
+                        appensis. ♦</p>
+            <p n="a#4" xml:space="preserve">Datum anno die loco suprascriptis. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                                tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

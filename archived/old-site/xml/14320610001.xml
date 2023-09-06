@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pbh">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Bruun Hansen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+               >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+               n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14320610001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>empty</collection>
+                        <idno>E don. var. 53 folio f. 102v-103r (ældre foliering: xcxiiij-xcxv)</idno>
+                        <msName>Århusbogen</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Overskrift: <q>Item sequitur tenor litterarum permutacionis domini
+                                 Ulrici episcopi super quibusdam bonis dicti altaris in Todberg et
+                                 Sandby etcetera</q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. 3525</bibl>
+               <bibl>SRD VI 518</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-06-10" notBefore="1432-06-10" notAfter="1432-06-10" cert="high">1432.
+               10. juni</date>
+            <placeName cert="high">Århus</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: Latin</language>
+         </langUsage>
+         <abstract>
+            <ab>Ulrik (Stygge), biskop i Århus, erkender at have foretaget et mageskifte med det af biskop Bo
+               (Mogensen (Lang)) stiftede alter i Århus domkirke, hvorved biskop Ulrik får tre gårde
+               i Vivild i Sønderhald herred med alle rettigheder, og alteret til gengæld får gods i
+               Øster Lisbjerg herred og Sabro herred.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-08" who="#pbh">Filen etableret af #pbh 2013-10-08. </change>
+         <change when="99999999" who="#nil">Kladde: 1. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="nil">
+            <p n="a#1">Universis et singulis intuentibus presens scriptum
+                  <persName>Ulricus</persName> dei et apostolice sedis gracia episcopus
+                  <placeName>Arusiensis</placeName> salutem in domino . &#9830;</p>
+            <p>Quoniam facta temporis ne labente tempore pereant litterarum indigeant munimento .
+               proinde notum sit universis tam presentibus quam futuris quod nos ex unanimi consensu
+               et consilio nostri dilecti capituli . dilecto nobis domino <persName>Olavo
+                  Johannis</persName> nostre Arusiensis ecclesie perpetuo vicario et altariste
+               capelle seu vicarie donum <persName>Boecii</persName> condam Arusiensis episcopi pie
+               memorie predecessoris nostri et suis capella seu vicaria successoribus quedam bona
+               nostra nobis emptionis titulo advoluta et apropriata unam videlicet curiam in
+                  <placeName>Todberg</placeName> quam <persName>Nicholaus Jons<ex>øn</ex></persName>
+               dans ii øre annone . aliam vero ibidem quam <persName>Benedictus Bossøn</persName>
+               dans i ore annone cum una colonia ibidem in provincia
+                  <placeName>Lijsbergherrit</placeName> regii navigii dicti
+                     <placeName>Koni<ex>n</ex>gskibelse</placeName> . unam curiam in
+                  <placeName>Sandby</placeName> in parrochia <placeName>Hallom</placeName> . quam
+                  <persName>Petrus Nicholai</persName> dans iii ør annone . et unam curiam in
+                  <placeName>Viuild</placeName> in parrochia <placeName>Halstiern</placeName> in
+                  <placeName>Saubroherrit</placeName> inhabitant situatas . cum omnibus et singulis
+               ipsorum bonorum pertinentiis nullis exceptis una cum omnibus litteris et documentis
+               nobis de et super dictis bonis et eorum pertinentiis ut premittitur confectis . in
+               concambium et recompensam quorundam bonorum dictarum capelle et vicarie per trium
+               curiarum in <placeName>Wiwild</placeName> in <placeName>Halleherrit</placeName>
+               quarum primam <persName>Petrus Nicholai</persName> dans ii pund annone / secundam
+                  <persName>Nicholaus Palneszøn</persName> dans ii p<ex>u</ex>nd annone . terciam
+               vero <persName>Aslug</persName> dans ii p<ex>u</ex>nd annone inhabitant cum omni
+               jure quod dictus altarista ipsarum capelle et vicarie habet vel habuerat in
+                  <placeName>Melstrop Mark </placeName><placeName>Bastrop Mark</placeName> et
+                     <placeName>Wodek<ex>er</ex>mark</placeName> in parrochia Wiwild in
+               Halleherrit situatorum una cum dictorum bonorum omnibus et singulis pertinentiis
+               nullis exceptis scotamus appropriamus et tenorepresentium assignamus inperpetuum
+               possidenda . recognoscentes nos et successores nostros nullius juris temporalis
+               possessionem vel proprietatem ulterius amplius vel inposterum habere . in ipsis bonis
+               in provinciis Liisbergherrit et Saubroherrit ut prefertur situatis aut in aliqua
+               pertinentiarum eorundem . &#9830;</p>
+            <p>In cujus rei testimonium secretum nostrum una cum sigillo dilecti capituli nostri
+               presentibus est appensum &#9830;</p>
+            <p>Datum <placeName>Arusie</placeName> anno domini
+                  millesimoquadringentesimotrigesimo2<hi rend="sup">o</hi> . tercia die pentecostes
+               &#9830;</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1"><gap>I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                  tekster.</gap></p>
+         </div>
+      </body>
+   </text>
+</TEI>

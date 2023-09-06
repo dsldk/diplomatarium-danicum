@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="mh">
+                  <persName>
+                     <forename type="first">Markus</forename>
+                     <surname>Hedemann</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">46</num>, paragraphs: <num n="paragraphs">3</num>. Translation, number of words: <num n="words">12</num>,
+            paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14140226001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>Tabt</repository>
+                        <collection>registreret i Stockholm. Riksarkivet, SDHK 18262: a) B 29
+                           (Skånebrevsfortegnelsen) Acta privata, f. 379v nr. 198. I margin:
+                              <ex>Faste</ex>; b) E 102a (Peringskiölds Diplomatarium, udkast til B 29), f. 63v nr.
+                           249. I margin: <ex>Privat</ex> og c) E 102a (Peringskiölds
+                           Diplomatarium, udkast til B 29) f. 3v nr. 198</collection>
+                        <idno/>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5363</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>registraturerne</ref>.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-02-26"
+                  notBefore="1414-02-26"
+                  notAfter="1414-02-26"
+                  cert="high">1414.
+               26. februar</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Magistraten i Malmø stadfæster Johan Svartes salg af en gård i Søndergade til Jens
+               Madsen. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-06-08" who="#mh">Filen etableret af #mh 2017-06-08. </change>
+         <change when="2017-06-08" who="#mh">1. korrektur af #mh 2017-06-08. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">a) <placeName>Magistratens i Malmöe</placeName> gifne fastebref <app><lem>på</lem><rdg resp="#mh">o. l., reg</rdg></app> ofwanstående gård. <app><lem>Datum feria 2<hi rend="sup">da</hi> carnisprivii
+                        som är 3 martii</lem><rdg resp="#mh">Datering åbenlyst forkert. Carnisprivii søndag faldt i 1414 18. februar. 
+                           Det forhold, at skriveren daterer teksten 
+                        helt frem til 3. marts, peger i retning af dagen efter Carnisprivium vetus, som faldt 26. februar</rdg></app> 1414.</p>
+            <p n="a#2" xml:space="preserve">b) Ähn för<hi rend="sup">de</hi> mäns bewiis eller sanningzskrifft innehållende
+                        dhet <persName>Johannes <app><lem>Swa&lt;r&gt;te</lem><rdg resp="#mh"><q>Swante</q>, reg</rdg></app></persName> bortskiötte åth <persName>Jahan Matzon</persName> een sin gårdh liggiandes i <placeName>Malmöe på
+                        Sönnergaata</placeName>. Datum 1414</p>
+            <p n="a#3" xml:space="preserve">c) <placeName>Magistraten i Malmö</placeName>. 1419 (!).</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+                        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

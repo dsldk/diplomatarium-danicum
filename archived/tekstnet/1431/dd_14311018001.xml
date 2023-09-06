@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">286</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14311018001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Iflg. Jens Rosenkrantz Elisabeths Jensdatter Rosenkrantz'
+        segl, jfr. AS L xxiii 31
+                              </ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Iflg. Jens Rosenkrantz et segl tilhørende Stygge Nielsen Rosenkrantz til
+        Hevringholm, jfr. AS L xxiii 35
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Registreret (med årstallet 1430) i København. Rigsarkivet. De ældste
+      arkivregistraturer. Registratur over Maribo klosters breve (1624), s. 5, øverst på siden
+      overskriften <q>Papiers breffue</q>, trykt ÆA III 258 nr. A. 38</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>NKS</collection>
+                        <idno>634 kvart, s. 3-5</idno>
+                        <msName>Afskrift samt segltegninger og -beskrivelser ved Jens Rosenkrantz</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Iflg. Jens Rosenkrantz var brevet velbevaret, på papir og bar bagsidepåskriften
+        <q>Jon Jensen iche ret</q>. De to sidste ord er formentlig Rosenkrantz' egen tilføjelse,
+      ligesom oplysningen <q>H<ex>er</ex> Thymmæ er aff de Bannerer</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>I overskriften til brevet daterer Jens Rosenkrantz det til <q>1430. S. Lucas
+        Evangelista</q>
+                        </ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ab">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Iflg. Barner l.c. havde udgaven en afskrift i en papirbog i Geheimearchivet 
+      som forlæg. En sådan findes ikke længere, og der foreligger meget muligt en fejl fra 
+      Barners side, således at hans forlæg var det under Aa anførte papirshåndskrift</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>nil</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty, nil
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6524</bibl>
+               <bibl>Reg. *4933</bibl>
+               <bibl>Barner, Rosenkrantz I, Dipl. 62-63 nr. 64</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter Aa. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1431-10-18"
+                  notBefore="1431-10-18"
+                  notAfter="1431-10-18"
+                  cert="high">1431. 18. oktober</date>
+            <placeName cert="high">Nørholm</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Fru Elisabeth (Jensdatter (Rosenkrantz)), enke efter hr. Jon Jakobsen (Lange med tre roser),
+      skænker sit arvegods efter sin moster fru Kirstine (Timmesdatter (Krummedige)) af Sandholt til
+      Maribo kloster, med undtagelse af det gods, som hun tidligere har givet Rikman van der Lanken
+      og stadig tillader ham at have. Fru Elisabeth opfordrer alle til at hjælpe klostret med at
+      opnå besiddelse af godset, der forholdes det med magt. Hendes søn hr. Timme Jonsen (Lange med
+      tre roser) havde tidligere pantsat det nævnte gods til hendes broder Erik Jensen (Rosenkrantz)
+      for 100 mark sølv i kongens engelske sterlinge, men hr. Timme har meddelt hende, at han
+      allerede har befalet Mads Andersen at indløse pantet. Fru Elisabeth afviser rygterne om sin
+      død og beder fru Lucie (af Vedtofte) lade klostret nyde godsgaven i fred, da den også er givet
+      for dennes ægtemands sjæl, ligesom for fru Elisabeths og hendes forfædres sjæle.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-01" who="#pbh">Filen etableret af #pbh 2013-10-01. </change>
+         <change when="2019-04-11" who="#alk">1. korrektur af #alk 2019-04-11. </change>
+         <change when="2019-05-20" who="#alk">2. korrektur af #alk 2019-05-20. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Hilser jech <persName>Ælsoube</persName> her <persName>Jon Jepsens</persName> æffterlyuer
+      evingelich med gudh oc kunnegør jech for alle the nu ære oc kumme skulæ ad jegh haffuer gyvet
+      myt gotz huylch som jech feck till arff æffter myn mother syster fru
+        <persName>Kyrsten</persName> aff <placeName>Sannolt</placeName> till
+        <placeName>S<ex>ankte</ex> Byrytes (!) closter y Marjbo</placeName> i
+        <placeName>Lolandh</placeName> hvilch gothz oc som jech hauer <persName>Rykman van der
+        Lanken</persName> befalæth mæth mith obæn breff so stor jech hannem till nw so val sum tha
+      for thi bether jech allæ gothæ men so sum ær rydder oc swænne och bunder oc bokarlle at hielpe
+      closter saa møget sum ræt ær helst for thy ad thet holæs thæm for mæth welder ♦</p>
+            <p n="a#2" xml:space="preserve">Item so bar min søn her <persName>Tymmæ Jons<ex>øn</ex></persName> up hundærdh mark hvydæ
+      kungens engels aff <persName>Erich Jens<ex>øn</ex></persName> myn brother for thyt for skreune
+      gothz mæth sodant underschetz furst thysse forscrevnæ hunderdh mark waræ rethæ til ad byuthæ
+      tha skullæ thyttæ forscreune godthz wæræ rethæ uden allæ hyelpræthæ oc schreff myn søn hær
+      Thymmæ mæch till dheth han hauthæ beffalæth <persName>Mattes Anders<ex>øn</ex></persName> at
+      han skulæ hauæ løst thyttæ forscr<ex>eune</ex> godthz for thysse forscr<ex>eune</ex> c
+      m<ex>a</ex>r<ex>c</ex> till fornæ. ♦</p>
+            <p n="a#3" xml:space="preserve">Item so ær mæch tilkynnæ vurthen adh the sathæ ad jech war døth nv bevyser jech thet i thyt
+      myt oben breff ad jech ær lyvend<ex>es</ex> oc karsk oc have mit helbreth so længe som guthz
+      vyly er oc bythær jech jthær <app><lem>fru</lem><rdg wit="#Aa">Herefter slettet <q>Luthhz</q>, a</rdg></app>
+      <persName>Luthzsæ</persName> ad i val gøør och ladæ closter nøde thet sum jech ther till given
+      hauæ helst forthi thet ær so val for ither hosbundh seel ock alle myne foreller selæ sum thet
+      er for min skuld ♦</p>
+            <p n="a#4" xml:space="preserve">Thyt till æn større vynnæsbørth so haffuer jeg Elsovs Jons forschreffne mit incele lade
+      thruke næthen for thyttæ bref mæth <persName>Styggy Nyelsens</persName> incele min brothersøn
+      ♦</p>
+            <p n="a#5" xml:space="preserve">Screven <app><lem>po</lem><rdg wit="#Aa">Rettet fra <q>pe</q>, Aa</rdg></app>. <placeName>Nørholm</placeName>
+      <app><lem>æffter</lem><rdg wit="#Aa">Herefter slettet <q>gud</q>, Aa</rdg></app> vors hær fothæ thyde mcccc po dhet thediwuæ (!) oc j sancti Lucis (!) dage evangelista.
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

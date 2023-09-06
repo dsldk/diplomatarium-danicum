@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1170</num>, paragraphs: <num n="paragraphs">20</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14360603002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Det svenske rigsråds eksemplar</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Kong Erik 7. af Pommerns eksemplar</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="C">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt. Stædernes eksemplar</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Riksarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>B 7 fol. 60v RA 0202</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="empty">
+                              <support>
+                                 <ab>empty</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>empty</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Ca">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>ASA Externa, Suecica</collection>
+                        <idno>Nr. 0337</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>
+                                 <ab>Papir</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>0</height>
+                                    <width>0</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>empty</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>Skrevet på to ark</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Nedertysk oversættelse sandsynligvis udført på baggrund af C (jf. <ref target="14360603001">DD 1436. 3. jun., nr. 14360603001</ref>)</ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="0" type="empty">
+                              <ab>empty</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Hanserec. II:1 nr. 592 p. 525-528</bibl>
+               <bibl>Reg. *5139</bibl>
+               <bibl>Sverges Traktater III nr. 474</bibl>
+               <bibl>Hadorphs Rijm-Crönikor II p. 106-109</bibl>
+               <bibl>Svenska Medeltidsregester nr. 414</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l. l</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1436-06-03"
+                  notBefore="1436-06-03"
+                  notAfter="1436-06-03"
+                  cert="high">1436. 3. juni<note>Mødet i Vadstena 3. juni 1436 er desuden behandlet i Karlskrøniken (se
+    Klemming (udg.), 1866, Svenska Medeltidens Rim-Krönikor II, v. 3010 -
+    3073)</note></date>
+            <placeName cert="high">Vadstena</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Reces fra mødet i Vadstena 3. juni 1436, hvor udsendingene fra de fire hansestæder Lübeck,
+      Hamburg, Wismar og Lüneburg, nemlig Timme Hadewerk, rådmand i Lübeck, og Peter Wilde,
+      borgmester i Wismar, mægler et forlig mellem kong Erik 7. af Pommerns sendebud hr. Morten
+      Jensen (Gyrsting), ridder, og Hans Krøpelin, væbner, på vegne af kongen på den ene side og det
+      svenske rigsråd på den anden side. I forliget aftales en fred mellem kong Erik og det svenske
+      rigsråd, som skal vare 14 dage fra brevets udstedelsestidspunkt.</ab>
+            <ab>Endvidere fastsættes et nyt møde med voldgift, som skal afholdes i Kalmar 15. juli 1436. I
+      den forbindelse aftales det, at fire af kong Eriks mænd og fire svenske rigsråder under alle
+      omstændigheder skal komme til Kalmar til det aftalte møde med beføjelse til at udskyde mødet,
+      såfremt enten kong Erik eller det svenske rigsråd er lovligt forhindret i at komme til
+      mødet.</ab>
+            <ab>Endvidere aftales det, at de folk, som befinder sig på kong Eriks slotte skal forsynes med
+      frisk mad og alt, hvad de ellers måtte have behov for til livets opretholdelse.</ab>
+            <ab>Endvidere aftales det, at der fra brevets udstedelsestidspunkt og frem hverken må bygges
+      mere foran slottene eller på slottene.</ab>
+            <ab>Endelig aftales det, at hhv. kong Eriks sendebud og det svenske rigsråd skal gøre alt, hvad
+      de kan, for at de tilfangetagne på begge sider kan få midlertidig løsladelse indtil det
+      aftalte møde i Kalmar.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-14" who="#pbh">Filen etableret af #pbh 2013-11-14. </change>
+         <change when="2017-03-30" who="#smb">1. korrektur af #smb 2017-03-30. </change>
+         <change when="2017-10-27" who="#smb">2. korrektur af #smb 2017-10-27. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1">In nomine Domini amen.</p>
+            <p n="a#2">In deme jare na Godes bord dusend v{ee}rhunderd ses unde dortich uppe der hilligen
+      drevaldicheyd sondach do weren hir to Waczsten hochgeboren vorstes unde heren, hern Erikes von
+      Godes gnade Danmarks, Sweden, Norwegen, Wendes unde Gotes konynges unde hertoge in Pomeren
+      sendeboden, alse her Merten Jonisson, riddar, unde Hans Kropelin, van wapen, unde de erlike
+      stede sendeboden van Lubeke, Hamborch, Wiismer unde Luneborch, her Tymme Hadewerk, radman to
+      Lubeke, unde her Peter Wilde, borgermester tor Wismer, van vorbenomeden ver stede wegen, to
+      des riikes rade van Sweden umme de twedracht, alse upgestan is tuschen erbenomeden hochgeboren
+      vorsten, hern koning Erik, uppe de ene siide unde des riikes rad, man unde inwoneren in Sweden
+      uppe de anderen siide.</p>
+            <p n="a#3">Do boden vorbenomede hochgeborens vorsten, hern koning Eriks, sendeboden den hochgeboren
+      heren unde vorste, vorbenomede here koning Erik, vor des riikes rade unde man in Sweden, alse
+      hir nw tosamende weren, unde vor vorbenomede stede sendeboden to rechte, ere unde alle
+      redelicheyd to komen up eyne legelike stede unde up eynen vrundliken dach vor erwerdige unde
+      wolgeborne man, vorbenomed heren koning Eriks riikes rad van Denemarken unde Norwegen unde vor
+      de erlike stede sendeboden.</p>
+            <p n="a#4">Unde do werveden erlike sendebode van vorbenomeder stede wegen to des riikes rad van Sweden,
+      dat se hadden gewest by vorbenomeden koning Erike, dat he hadde gebleven al sin recht by des
+      riikes rade van Denemarken unde Norwegen unde by de ver stede, <app>
+                  <lem>so</lem>
+                  <rdg>
+                     <q>so so</q>, Ca</rdg>
+               </app> dat se vorbenomede here koning Erik vulmechtich sin to ere, recht unde all
+      redelicheyd.</p>
+            <p n="a#5">Vor welk des riikes rad in Sweden vorbenomede stede vele dankeden, dat se siik mit den werven
+      bekummeren wolden, unde antwerden de dar so to, dat des riikes rad van Denemarken unde
+      Norwegen unde de vorbenomede v{ee}r stede scholden desgelikes erer ok vulmechtich wesen to
+      ere, rechte unde alle redelicheyd.</p>
+            <p n="a#6">Unde darup is eyn vrede begrepen, geloved unde vorwissed tuschen vorbenomeden hochgeboren
+      vorsten, hern koning Erike, unde sine denere, man unde medehelpere uppe de eyne siide unde
+      tuschen des riikes rad, man unde inwoneren in Zweden unde ere medehelpere uppe de andere
+      siide, welk vrede nw scal anghan v{ee}rteyn dage negest na dat desse breff is gegeven, unde
+      schal stede unde vast bliven to <app>
+                  <lem>sunte Olafs daghe</lem>
+                  <rdg>dvs. 29. juli</rdg>
+               </app> negest tokomende sunder all argh, so dat eyn jewelk mach varen to unde aff hir in den
+      riiken, so lange desse vrede ward, sunder de utgenomen sin in degedingen, alse hirna werd
+      gerored.</p>
+            <p n="a#7">Unde in dessen vrede is begrepen unde vorramed eyn vrundlik dach, alse wesen schal to Calmarn
+      uppe <app>
+                  <lem>alle apostelle dach, alse men hyt divisionis apostolorum</lem>
+                  <rdg>dvs. 15. juli</rdg>
+               </app>, negest komende.</p>
+            <p n="a#8">Doch so wered sake, dat beyde deele, alse is forbenomede hochgeboren vorste, hern koninges
+      Erik, unde des riikes rad van Sweden, edder erer eyn, dorch rechtelikes vorvalles wille, uppe
+      den vorbenomeden dach divisionis apostolorum nicht <app>
+                  <lem>komen konnen</lem>
+                  <rdg>
+                     <q>komen komen</q>, Ca</rdg>
+                  <rdg>
+                     <q>komma kunne</q>, Hadorph</rdg>
+               </app>, dat se bynnen verteyn dagen negest navolgende unvorsumed bliven uppe beyden siiden,
+      doch so dat vere van vorbenomeden hochgeboren vorsten heren koning Eriks rad unde man unde
+      vere van des riikes rade in Sweden scolen jo wesen dar uppe den vorbenomeden aposteldach to
+      Calmarn sunder hinder.</p>
+            <p n="a#9">Unde de vorbenomeden achte scholen vulmechtich wesen vordermer vorwaringe to makende, den
+      vrede unde dach to vorlengen, alse nutte unde behoff deyt uppe dat, dat alle vorbenomede werve
+      unvorsumed bliven.</p>
+            <p n="a#10">Ok alle, de den vorbenomeden dach soken uppe beyden siiden, scholen wesen velich dar to unde
+      aff, velich ere werve dar to wervende unde eyn jewelk velich in sin behold, sunder all
+      argh.</p>
+            <p n="a#11">Unde so scholen de slote stan, dat de dar uppe sint, dar uppe bliven scholen so lange, dat de
+      dach is gesleten, doch in sodaner mate, dat dat blive sunder all argh van veyde wegen unde dar
+      nicht affghan edder varen sunder mit erem love, de dar sin hovedlude buten v{oe}r.</p>
+            <p n="a#12">Ok schal men dat so maken tuschen dyt unde <app>
+                  <lem>sondage over achte dage</lem>
+                  <rdg>dvs. 17. juni</rdg>
+               </app>, dat de alz uppe unseme gnedigen heren koninge Eriks slote sint, de nu bestalled sint,
+      dat dar scholen werden geschicked twe ingeborne man to islikeme slote, unde schicken en uppe
+      de slote versche spiise unde anders, wad en gebrecht to erer vodinge, umme ere geld unde
+      anders nicht, to der tiid dat de dach is gesloten to Calmarn.</p>
+            <p n="a#13">Unde dat dat so schal schen, hebben des riikes rad unde man in Sweden, de hir nu sint,
+      geloved to bewesende sik dat uterste se konen to den anderen, de nicht nu by sint, ok hebben
+      dat alle tolaten, also vele to en steyt, de hir nu sint.</p>
+            <p n="a#14">Unde nemand schal buwen vor de slote mer den nw gebuwed is, unde de alz uppe den sloten sin,
+      scholen nicht mer buwen.</p>
+            <p n="a#15">Ock schal vorbenomede her Merten Jonisson unde Hans Kropelin bewesen sick darane, dat beste
+      se konen, dat alle vangen scholen dach hebben <app>
+                  <lem>bet</lem>
+                  <rdg>
+                     <q>bett</q>, Ca</rdg>
+               </app> dat de vorbenomede dagh gesleten werd, alz gegrepen sin in der vorbenomeden twedracht
+      van den vorbenomeden unses gnedigen heren koning Eriks denre, <app>
+                  <lem>seder gedegedinged was to Stocholme</lem>
+                  <rdg>dvs. 15. november 1434, se <ref target="14341115001">DD 1434. 15. nov., nr.
+            14341115001</ref>
+                  </rdg>
+               </app>; unde des riikes rad in Sweden scholen bewisen sik dar in dat beste, dat se konen, dat
+      de gegrepen sin uppe de andere siide, dat de scholen ok dach hebben to der vorbenomeden
+      tiid.</p>
+            <p n="a#16">Desse vorbenomede vrede unde dach to <app>
+                  <lem>holdende</lem>
+                  <rdg>
+                     <q>hollende</q>, Ca</rdg>
+                  <rdg>
+                     <q>at holla</q>, Hadorph</rdg>
+               </app> in aller mate sunder all argh, alse vorgescreven steyt, hebben geloved uppe hochgeboren
+      vorsten unde hern koning Erikes unde sine man, denre unde medehelpere wegen uppe de ene siide
+      vorbenomede her Merten Jonisson, ridder, unde Hans Kropelin, van wapen, unde uppe des riikes
+      rades, man unde inwoneren in Sweden unde ere medehelpere wegen uppe de andere siide hebben
+      geloved erwerdige vedere in Gode, alse is biscop Swen van Schare, biscop Thomas van
+      Strengenes, unde wolgeborne man Karll Knwtzsson, van wapen, des riikes marsk, her Niclis
+      Erengizslasson, ridder unde laghman in Sudermannelande, Knut Joansson in Westergotlande,
+      Arffvid Swan, lagman in Smalande, Erengizsel Niclisson, Boo Knutzsson, Otte <app>
+                  <lem>Wlfson</lem>
+                  <rdg>
+                     <q>Ulff</q>, Hadorph</rdg>
+               </app> unde Magnus Green, van wapen.</p>
+            <p n="a#17">Dyt vorgescreven hebben desse vorbenomede hochgeboren vorsten, heren koning Eriks, sendeboden
+      her Merten Jonisson, Hans Kropelin unde vorbenomede erwerdige vedre <app>
+                  <lem>in</lem>
+                  <rdg>
+                     <q>inz</q>, Ca</rdg>
+                  <rdg>
+                     <q>med</q>, Hadorph</rdg>
+               </app> Gode unde wolgeborne man, riddere unde knechte, alse vorbenomed sin, geloved uppe
+      beyden siiden, unbrekelik to <app>
+                  <lem>holdende</lem>
+                  <rdg>
+                     <q>hollene</q>, Ca</rdg>
+                  <rdg>
+                     <q>at holda</q>, Hadorph</rdg>
+               </app> sunder all argh, in jegenwardicheyd desser wolgeborne manne, alse hirna benomed sin,
+      Benct Udzson, Birger Trulle eldre, Birger Trulle <app>
+                  <lem>junge</lem>
+                  <rdg>
+                     <q>vryge</q>, Ca</rdg>
+                  <rdg>
+                     <q>unge</q>, Hadorph</rdg>
+               </app>, Philippus Bonde, Harald Stensson, Torbern Kerlyngh, Holmsten Joansson, Niclis
+      Benctson, Knut Stensson, Erik Stensson, Ragwald Puke, <app>
+                  <lem>Helge</lem>
+                  <rdg>
+                     <q>Sjelge</q>, Ca</rdg>
+                  <rdg>
+                     <q>H{ae}lge</q>, Hadorph</rdg>
+               </app> Sixtensson, Magnus Jonisson, Andres Knutzson unde Merten Swan, van wapen, unde mennige
+      andere gude mans bywesende, de hir nicht benomed sint.</p>
+            <p n="a#18">Welk vorgescreven l{oe}fte hebben se to truwer hand segd, loved unde vorwillekored
+      vorbenomede her Tymme Hadewerke, radman to Lubeke, unde her Peter Wilde, borgermeyster tor
+      Wismer, van der stede wegen, dat se dat stedeliken, vaste unde umbrekelik sunder alle
+      argheliste edder ennyge hulperede uppe beyden siiden holden willen.</p>
+            <p n="a#19">To merer tuchnisse unde beter vorwaringe so sin desse breve dre, twe uppe permynt gescreven,
+      unde erer en <app>
+                  <lem>beholden</lem>
+                  <rdg>
+                     <q>behollen</q>, Ca</rdg>
+                  <rdg>
+                     <q>behollar</q>, Hadorph</rdg>
+               </app> vorbenomede hochgeboren vorsten, heren koning, Eriks, sendeboden, her Merten Jonisson,
+      ridder unde Hans Kropelin, van wapen, unde den anderen des riikes rad van Sweden, unde den
+      dorden uppe pappir, unde den beholden vorbenomede stede sendeboden, her Tymme unde her Peter,
+      ens ludende word van worde, under vorbenomede l{oe}vers ingesegelle.</p>
+            <p n="a#20">Datum anno, die et loco supradictis.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden 1. januar 2017 til 30. juni 2021 vil redaktionen udelukkende udarbejde
+        tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

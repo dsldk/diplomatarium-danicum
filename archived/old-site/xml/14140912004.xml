@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatarium Danicum</title>
+        <editor>
+          <name xml:id="th">
+            <persName>
+              <forename type="first">Thomas</forename>
+              <surname>Hansen</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs"
+          >1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num
+          n="paragraphs">1</num>
+      </extent>
+      <publicationStmt>
+        <publisher>Danske Sprog- og Litteraturselskab</publisher>
+        <pubPlace>København</pubPlace>
+        <date>2014</date>
+        <idno type="dd">14140912004</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>empty</settlement>
+                <repository>empty</repository>
+                <collection>empty</collection>
+                <idno>empty</idno>
+                <msName>empty</msName>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>empty</ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>Tabt</ab>
+              </history>
+              <additional>
+                <listBibl>
+                  <bibl>APD II 238 nr. 1205</bibl>
+                </listBibl>
+              </additional>
+            </msDesc>
+          </witness>
+          <witness xml:id="Aa">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Rom</settlement>
+                <repository>Archivio Segreto Vaticano</repository>
+                <collection>empty</collection>
+                <idno>empty</idno>
+                <msName>Reg. Lat. 178 fol. 69v</msName>
+                <msName>empty</msName>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc material="empty">
+                    <support>
+                      <ab>empty</ab>
+                    </support>
+                    <extent>
+                      <dimensions unit="cm">
+                        <height>0</height>
+                        <width>0</width>
+                      </dimensions>
+                    </extent>
+                    <condition>
+                      <ab>empty</ab>
+                    </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                    <ab>empty</ab>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote>
+                    <ab>empty</ab>
+                  </handNote>
+                </handDesc>
+                <additions>
+                  <ab>Med skrivers egenhændige bemærkning <q>Franciscus XXIIII. de Agello</q></ab>
+                </additions>
+                <sealDesc>
+                  <seal n="0" type="empty">
+                    <ab>empty</ab>
+                  </seal>
+                </sealDesc>
+              </physDesc>
+              <history>
+                <ab>empty</ab>
+              </history>
+              <additional> </additional>
+            </msDesc>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>APD II 238 nr. 1205</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <ab>Arkivalske oplysninger og tekst efter APD l.l.</ab>
+      </samplingDecl>
+      <projectDesc>
+        <ab>DD-5</ab>
+      </projectDesc>
+      <appInfo>
+        <application xml:id="app_nil" type="nil" subtype="nil" ident="nil" version="99999999">
+          <desc>nil</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1414-09-12" notBefore="1414-09-12" notAfter="1414-09-12" cert="high">1414. 12.
+          september.</date>
+        <placeName cert="high">Bologna</placeName>
+      </creation>
+      <abstract>
+        <ab>Paven befaler ærkedegnen i Roskilde at reservere kanonikat og præbende i Lund for Jens
+          Jakobsen, skønt denne forud har kanonikat og præbende i Roskilde og sognekirken i
+          Kalundborg. Kanonikatet og præbendet har den udvalgte biskop Navne (Jensen (Gyrsting)) 
+          af Västerås haft inde, men 
+        den biskoppelige byrde må forventes at medføre disses vakance.</ab>
+      </abstract>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2014-02-25" who="#pbh">Filen etableret af #pbh 2014-02-25. </change>
+      <change when="2016-10-31" who="#th">Tekst (Google Books-skan af APD) og arkivalske oplysninger
+        indsat af th@dsl.dk 2016-11-31 vha. script add-text-to-file</change>
+      <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+      <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="nil"/>
+  </facsimile>
+  <text>
+    <body>
+      <div xml:lang="la">
+        <p n="a#1">Archidiacono Roskildensi. Dignum ctc. Cum itaque canonicatus et prebenda ecclesie
+          Lundensis, quos Nawno electus Arosiensis tempore promotionis per nos facte de ipso ad
+          ecclesiam Arosiensem . . obtinebat, prout adhuc obtinet, per hujusmodi promotionem et
+          munus consecrationis impendendum eidem electo vacare sperentur, nos, volentes Johannem
+          Jacobi canonicum ecclesie Roskildensis . . favore prosequi gratioso, discretioni tue . .
+          mandamus, quatenus, si post diligentem examinationem eundem Johannem ad hoc idoneum esse
+          reppereris . ., canonicatum et prebendam predictos [fructus 3 mr.], cum illos . . quovis
+          modo preterquam per ipsius electi obitum vacare contigerit, conferendos eidem Johanni . .
+          donationi tue auctoritate nostra reserves, non obstante . . . quod idem Johannes
+          canonicatum et prebendam dicte ecclesie Roskildensis necnon parrochialem ecclesiam in
+          Kalingburg Roskildensis diocesis [omnium fructus 10 mr.] noscitur obtinere. Datum Bononie
+          2. id. sept. anno 5.</p>
+      </div>
+      <div xml:lang="da">
+        <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+          tekster.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

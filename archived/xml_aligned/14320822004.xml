@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">189</num>, paragraphs: <num n="paragraphs">9</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2020</date>
+            <idno type="dd">14320822004</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2020, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Wismar</settlement>
+                        <repository>Archiv der Hansestadt Wismar</repository>
+                        <collection>Ratsakten 10.5 Hanseatica</collection>
+                        <idno>nr. 1749 (tidligere signatur X.5.88.18)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Adresse: <q>Den ersamen unde wiisen mannen, heren borgermeysteren unde
+        radmannen der stad Wismer, mynen besunderen leven vrunden, dandum</q>
+                        </ab>1. Rester af Peter Wildes brevlukkende segl. </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Reg. Dan. nr. *4972</bibl>
+               <bibl>Hanserec. 2:1, nr. 143, p. 96 (med forkert datering til 23. august 1432)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Hanserec. l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1432-08-22"
+                  notBefore="1432-08-22"
+                  notAfter="1432-08-22"
+                  cert="high">1432. 22. august</date>
+            <placeName cert="low">[Horsens]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Wismars rådsudsending Peter Wilde meddeler rådet i Wismar, at der netop i dag er blevet
+      indgået en fredsaftale mellem hansestæderne og kong Erik 7. af Pommern. </ab>
+            <ab>Derfor beder Peter Wilde rådet i Wismar om for nuværende at forhindre de udliggere, som nu
+      befinder sig i Wismar, og de udliggere, som fremover vil komme tilbage, i at sejle ud igen, da
+      de ellers ville kunne blive påført skade af den ene eller anden part i sagen. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-10-08" who="#pbh">Filen etableret af #pbh 2013-10-08. </change>
+         <change when="2020-01-20" who="#smb">1. korrektur af #smb 2020-01-20. </change>
+         <change when="2020-05-05" who="#smb">2. korrektur af #smb 2020-05-05. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Minen willigen denst unde wes ik gudes vormach tovoren.</p>
+            <p n="a#2" xml:space="preserve">Ersamen besunderen leven vrunde.</p>
+            <p n="a#3" xml:space="preserve">Ik begere juwen ersamheyden weten, wo dat wii stede, mit der hulpe des almechtigen Godes,
+      hebben mit dem heren koninge to <placeName>Dennemarken</placeName> etcetera unde synen riiken
+      eynen guden vrede unde vrundliken upslach, so ik juwen ersamheyden des uterliken wol berichten
+      wil, wanne ik by jw kommende werde, unde de sulve vrede is vultoghen hute an desseme dage.</p>
+            <p n="a#4" xml:space="preserve">Worumme, leven vrunde, ik jw mit gantzer andacht vrundliken bidde, dat gi wol don unde
+      bestellen id, so dat <app><lem>gi</lem><rdg>mangler i A</rdg></app> de utlecgers, de nu in unser havene unde stad sin, nicht wedder utsegelen en laten,
+      unde ok alle de yenne, de hirna in tokomenden tiiden to hus komende werden van den
+      vorbenomeden unsen utlecgers, uppe dat uns an beyden delen vorscreven dar nyn schade van
+      komende werde.</p>
+            <p n="a#5" xml:space="preserve"><app><lem>Unde</lem><rdg><q>Unde - jare</q>, hele dette afsnit er overstreget i A</rdg></app> de sulve vrede schal stan van nu an wente to sunte Michaelis dage vort over viiff
+      jare.</p>
+            <p n="a#6" xml:space="preserve">Unde ik dencke, eft God wil, morghene van hir to ridende, samentliken mit den steden.</p>
+            <p n="a#7" xml:space="preserve">Siit Gode bevolen to langen saligen tiiden.</p>
+            <p n="a#8" xml:space="preserve">Screven des vriidages vor sunte Bartolomei dage, anno etc. 32, under mynem ingesegel.</p>
+            <p n="a#9" xml:space="preserve">Peter Wilde.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

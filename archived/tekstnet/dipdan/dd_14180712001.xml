@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="maria.arvidsson">
+                  <persName>
+                     <forename type="first">Maria</forename>
+                     <surname>Arvidsson</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">133</num>, paragraphs: <num n="paragraphs">4</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14180712001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>NKR</collection>
+                        <idno>2672-c</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>8.4 (plica: 1.4)</height>
+                                    <width>22.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Brevets øvre højre hjørne mangler, hvorved slutningen på nogle linjer i brevteksten er gået tabt</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden påskriften: <q>Thielæ</q>, og m. sen. hd.: <q>Eskel Jeps<ex>øn</ex>
+        mcdxviij</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Fragment af perg. rem der er blevet repareret i senere tid</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Gammeldanske Diplomer 2. rk. II 17</bibl>
+               <bibl>Rep. nr. 5724</bibl>
+               <bibl>Dipl. Viberg. 23</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1418-07-12"
+                  notBefore="1418-07-12"
+                  notAfter="1418-07-12"
+                  cert="empty">1418. 12. juli</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Eskil Jepsen forpligter sig til hvert år at give Jens Gunnesen en øre korn for det gods der
+      ligger i Tjele, og som han har fået af ham, på det vilkår at samme gods tilfalder Skt. Marias
+      Kloster i Viborg efter den sidstnævntes død.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-03" who="#pbh">Filen etableret af #pbh 2014-04-03. </change>
+         <change when="2017-10-11" who="#maria.arvidsson">1. korrektur af #maria.arvidsson 2017-10-11. </change>
+         <change when="2017-11-21" who="#mh">2. korrektur af #mh 2017-11-21. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1">Allæ meen th<ex>et</ex>ta breff seer ell<ex>er</ex> høør hels<ex>er</ex>
+               <persName>Eskil Jeips<ex>øn</ex>
+               </persName> ewindelik hels<ex>er</ex> m<ex>eth</ex> guth
+      ♦ Th<ex>et</ex> scal allæ men wythalit varæ th<ex>er</ex> nw ær oc komæ scal at <app>
+                  <lem>æk</lem>
+                  <rdg wit="#A">skrevet ov. l., A</rdg>
+               </app> tilbind<ex>er</ex> myk ath gyuæ hw[<ex>er</ex>t] aar en byskedelik man <persName>Jens
+        Gu<ex>n</ex>næs<ex>øn</ex>
+               </persName> te<ex>n</ex>næ breffør<ex>er</ex> een øør korn at wth
+      j Wyborg[h] fora eeth gozs th<ex>er</ex> ligg<ex>er</ex> j Thælæ hwilkæ so<ex>m</ex> æk
+      hau<ex>er</ex> af then foræneftn <persName>Jens Gu<ex>n</ex>næs<ex>øn</ex>
+               </persName>
+      ♦</p>
+            <p n="a#2">M<ex>eth</ex> soda<ex>n</ex> vilkvordh ath næær han afgaar tha scal th<ex>et</ex> samæ gozs
+      liggæ til <app>
+                  <lem>Mari[æ]</lem>
+                  <rdg wit="#A">usikker læsning af <q>æ</q>, A</rdg>
+               </app> klost<ex>er</ex> j Wyborg oc <app>
+                  <lem>wth[æ]</lem>
+                  <rdg wit="#A">usikker læsning af <q>æ</q>, A</rdg>
+               </app> themmæ th<ex>et</ex> m<ex>eth</ex> een øghæ oc een øøræ korn oc gozs so<ex>m</ex> tha
+      vord[<ex>er</ex>] foræfwndin ♦</p>
+            <p n="a#3">Datum anno domini m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi> xvjjj<hi rend="sup">o</hi>
+      crastino beati Ketilli confessoris ♦</p>
+            <p n="a#4">In cujus rei testimonium sigillum meum una cum sigillis discretorum virorum videlicet Petri
+      Nicholai auditoris <app>
+                  <lem>placidi</lem>
+                  <rdg wit="#A">= placiti</rdg>
+               </app> generalis Wybergensis et fratris Nicholai frater ordinis predicatorum Wibergensium
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

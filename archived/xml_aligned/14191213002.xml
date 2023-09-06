@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">155</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2017</date>
+            <idno type="dd">14191213002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2017, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Bagsidepåskrift (iflg. Aa): <q>Paa jord y Pilestrede</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Rigsarkivet</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Iflg. Langebek var afskriften foretaget efter <q>Orig. membran. ex archivis
+        templi s. Nicolai Hafn</q>. Om seglene oplyses det, at <q>1. 3. 6. 7. Sigilla adsunt, sed
+        non nobilium; reliqua desunt</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5818</bibl>
+               <bibl>Reg. *4506</bibl>
+               <bibl>Københavns Dipl. II 43-44 nr. 26</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1419-12-13"
+                  notBefore="1419-12-13"
+                  notAfter="1419-12-13"
+                  cert="high">1419. 13. december</date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Jakob Klementsen, dekan i København, erklærer, at han på Københavns byting har skødet sin
+      medborger Jens Nielsen sin grund i Skt. Nikolai sogn, der ligger syd for Pilegård på hjørnet
+      af Povlstræde. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-04-22" who="#pbh">Filen etableret af #pbh 2014-04-22. </change>
+         <change when="2015-05-02" who="#th">1. korrektur af #th 2015-05-02. </change>
+         <change when="2017-05-30" who="#alk">2. korrektur af #alk 2017-05-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Omnibus presens scriptum cernentibus <persName>Jacobus Clementis</persName>
+               <placeName>decanus Hafnensis</placeName> salutem in domino. ♦</p>
+            <p n="a#2">Noverint universi presentes et futuri, quod recognosco me viro discreto <persName>Johanni
+        Nielson</persName> meo concivi quendam fundum meum in <placeName>parochia sancti Nicholai
+        Hafnis</placeName> australiter a <placeName>Pilegarth</placeName> situm, cum omnibus et
+      singulis pertinentiis suis, nullis exceptis in latitudine versus <placeName>communem
+        plateam</placeName> xix. ulnas Selendenses, in longitudine vero versus
+        <placeName>Pauelstræde</placeName> liii ulnas Selendenses cum omni jure vendidisse,
+      scotasse, et ad manus in placito nostro civili veraciter assignasse perpetuo jure possidendum.
+      ♦</p>
+            <p n="a#3">Insuper recognosco me plenum et sufficiens precium pro predicto fundo cum pertinentiis suis,
+      nullis exceptis, a predicto Johanne Nielson et heredibus suis secundum proprium velle plenarie
+      sublevasse. ♦</p>
+            <p n="a#4">Hoc adjecto, quod obligo me et heredes meos predicto Johanni Nielson et heredibus suis
+      predictum fundum cum pertinentiis suis, nullis demptis, appropriare, disbrigare, et secundum
+      leges terre liberare ab impetitione quorumcunque. ♦</p>
+            <p n="a#5">In cujus rei testimonium sigillum meum una cum sigillis virorum discretorum, videlicet
+        <persName>Boecii Clementis</persName> fratris mei, <persName>Henekini Jacobi</persName>,
+        <persName>Thorkilli Smith</persName>, <persName>Thrugoti Pæthersøn</persName>,
+        <persName>Johannis Pribe</persName>, et <persName>Johannis Henekesøn</persName>, presentibus
+      est appensum. ♦</p>
+            <p n="a#6">Datum anno domini mcdxix die sancte Lucie virginis gloriose. ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde
+      tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

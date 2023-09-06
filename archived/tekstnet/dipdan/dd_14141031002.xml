@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="alk">
+                  <persName>
+                     <forename type="first">Anders</forename>
+                     <forename type="middle">Leegaard</forename>
+                     <surname>Knudsen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">174</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">215</num>, paragraphs: <num n="paragraphs">5</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2023</date>
+            <idno type="dd">14141031002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2023, Danske Sprog- og Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>empty</repository>
+                        <idno>AM. Dipl. Dan. LX, 34</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>11.5 (plica: 2.2)</height>
+                                    <width>29.3</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Lidt fugtskjoldet</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>På bagsiden <q>Super decimis ecclesie Snesør</q> og <q>q</q>
+                           </ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="missing">
+                              <ab>perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="pendant">
+                              <ab>Roskilde domkapitels segl i mørkt voks i ufarvet, DGS. 192
+                              </ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 5485</bibl>
+               <bibl>Vejledende Arkivreg. XVII 90 nr. 241</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter A. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1414-10-31"
+                  notBefore="1414-10-31"
+                  notAfter="1414-10-31"
+                  cert="high">1414. 31.
+            oktober<ref target="drb1"/>
+            </date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <abstract>
+            <ab>Biskop Peder Jensen (Lodehat) af Roskilde kompenserer provstens præbende for det gods,
+          der er indgået i mageskiftet mellem Roskilde domkirke og Sorø kloster 31. oktober
+          1414.</ab>
+         </abstract>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-02-25" who="#pbh">Filen etableret af #pbh 2014-02-25. </change>
+         <change when="2016-02-18" who="#alk">1. korrektur af #alk 2016-02-18. </change>
+         <change when="2016-06-11" who="#alk">2. korrektur af #alk 2016-06-11. </change>
+         <change when="2016-06-23" who="#alk">3. korrektur af #alk 2016-06-23. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1">Universis presentes litteras inspecturis <persName>Petrus</persName>
+               <app>
+                  <lem>
+                     <damage>dei</damage>
+                  </lem>
+                  <rdg wit="#A">lakune pga. fugtskjold, A</rdg>
+               </app> gracia <placeName>episcopus Roskildensis</placeName> / salutem in domino
+          sempiternam ♦</p>
+            <p n="a#2">Noverint universis nos nuper a religiosis viris dominis <placeName>abbate / et
+            conventu monasterii in Sora</placeName> aliqua sua bona nobis et mense nostre episcopali
+          propter situm utilia per modum permutacionis<ref target="drb1"/> de consensu et consilio venerabilis <placeName>capituli nostri
+            Roskildensis</placeName> pro aliis bonis nostris ecclesiis jurisdictionibus et juribus
+          tam nostris quam nostrorum prelatorum ipsis dominis abbati et conventui in recompensam per
+          nos et nostrum capitulum prefatum / assignatis et traditis habuisse / ♦</p>
+            <p n="a#3">Quapropter nos honorabili viro domino <persName>Cristierno</persName>
+               <placeName>preposito nostro Roskildensi</placeName> et suis successoribus in illa
+            <placeName>prepositura</placeName> decimas nostras episcopales in <placeName>parochia
+            Snesøøræ</placeName> in recompensam sue jurisdiccionis et jurium que super villicis et
+          colonis dictorum domini abbatis et conventus in provinciis prepositure habuit / et ad
+          instanciam nostram nostreque mense episcopalis comodum ad manus nostras de consensu dicti
+          capituli resignavit / et dimisit annuimus et assignavimus donec a nobis vel successore
+          nostro idem prepositus vel successor suus secundum moderacionem et determinacionem
+          capituli nostri predicti pro prefatis jurisdictione et jure sufficientem optinuerit
+          recompensam ♦</p>
+            <p n="a#4">In cujus rei testimonium secretum nostrum unacum sigillo dicti capituli
+          presentibus est appensum ♦</p>
+            <p n="a#5">Datum <placeName>Roskildis</placeName> sub anno domini millesimo cd<hi rend="sup">o</hi> xiiii<hi rend="sup">o</hi> vigilia omnium sanctorum <app>
+                  <lem>etcetera</lem>
+                  <rdg wit="#A">resten af linjen udfyldt med <q>etc.</q>-tegn, A</rdg>
+               </app> ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1">Peder, af Guds nåde biskop i Roskilde, til alle, der ser dette brev, evindelig
+          hilsen i Herren.</p>
+            <p n="b#2">Alle skal vide, at vi nylig ved mageskifte med samtykke fra og efter råd af vort
+          ærværdige domkapitel i Roskilde af de regelbundne mænd og herrer, abbed og menige konvent
+          i klosteret i Sorø, har fået noget af deres gods til gengæld for andet af vort og vore
+          prælaters gods, kirker, jurisdiktioner og rettigheder, som af os og vort førnævnte
+          domkapitel var anvist og overdraget til disse herrer, abbed og menige konvent.</p>
+            <p n="b#3">Derfor har vi bevilget og anvist den hæderværdige mand, hr. Christian, vor provst
+          i Roskilde, og hans efterfølgere i dette provsteembede, vore bispetiender af Snesere sogn
+          til erstatning for hans jurisdiktioner og rettigheder, som han havde over nævnte abbed og
+          menige konvents bryder og landboer i provstedømmets herreder,<ref target="drb2"/> og som han på vor indtrængende anmodning og til vort bispebords gavn med
+          samtykke af nævnte domkapitel oplod og overlod til vor hånd, indtil samme provst eller
+          hans efterfølger af os eller vor efterfølger kan opnå fyldestgørende erstatning for
+          føromtalte jurisdiktion og ret efter vort førnævnte domkapitels bestemmelse og
+          afgørelse.</p>
+            <p n="b#4">Til vidnesbyrd om dette er vort sekret hængt ved dette brev sammen med nævnte
+          domkapitels segl.</p>
+            <p n="b#5">Givet i Roskilde i det Herrens år 1414, dagen før Allehelgensdag osv.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

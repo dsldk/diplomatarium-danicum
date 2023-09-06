@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="pz">
+                  <persName>
+                     <forename type="first">Peter</forename>
+                     <surname>Zeeberg</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">174</num>, paragraphs: <num n="paragraphs">5</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2018</date>
+            <idno type="dd">14230727001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2018, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Tabt</ab>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>Det Kongelige Bibliotek</repository>
+                        <collection>E don. var.</collection>
+                        <idno>1 folio, Tomus F</idno>
+                        <msName>Bartholins Collectanea F VI, s. 115</msName>
+                     </msIdentifier>
+                     <physDesc>Papir. <ab>Overskrift: <q>Litera confirmationis privilegiorum et libertatum canonicorum, per Johannem Andreæ episcopum</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra det 17. årh</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa1">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>Langebeks Diplomatarium</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <ab>Overskrift: <q>Litera confirmationis privilegiorum et libertatum canonicorum, per Johannem Andreæ episcopum</q>
+                        </ab>
+                     </physDesc>
+                     <history>
+                        <ab>Afskrift fra det 18. årh. formodentlig efter Aa</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. 6040</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Aa</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1423-07-27"
+                  notBefore="1423-07-27"
+                  notAfter="1423-07-27"
+                  cert="high">1423. 27. juli</date>
+            <placeName cert="high">Roskilde</placeName>
+         </creation>
+         <langUsage>
+            <language ident="la">Hovedsprog: latin. </language>
+         </langUsage>
+         <abstract>
+            <ab>Biskop Jens (Andersen (Lodehat)) af Roskilde bekræfter alle de privilegier, immuniteter og friheder som tidligere biskopper har tilstået kirkens præster, kanniker og bygningsfond og indskærper, at ingen af hans fogeder eller embedsmænd må forulempe kannikerne i strid med denne bekræftelse. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-05-27" who="#pbh">Filen etableret af #pbh 2014-05-27. </change>
+         <change when="2018-07-12" who="#pz">1. korrektur af #pz 2018-07-12. </change>
+         <change when="2018-09-11" who="#mh">2. korrektur af #mh 2018-09-11. </change>
+         <change when="2018-10-24" who="#pz">3. korrektur af #pz 2018-10-24. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="la">
+            <p n="a#1" xml:space="preserve">Universis Christi fidelibus presentes litteras audituris seu visuris <persName>Johannes Dei gratia episcopus Roskildensis</persName>, eternam in Domino salutem. ♦</p>
+            <p n="a#2" xml:space="preserve">Dilectorum in Christo filiorum prelatorum et canonicorum ecclesie nostre Roskildensis, ut ex cura pastoralis officii tenemur, precibus inclinati, eorumque utilitati providere cupientes et quieti, omnia privilegia emunitates libertates et gratias, que et quas venerabiles patres felicis recordationis episcopi Roskildenses predecessores nostri dictis dominis prelatis et canonicis ac fabrice ecclesie ejusdem dederunt ac benigniter annuerunt, ipsis dominis et fabrice prenominatis ex mera dilectione, certa scientia et gratia nostra speciali concedimus, favorabiliter annuentes: ipsasque et ipsa libertates et emunitates, gratias et privilegia, necnon consvetudines dicti capituli antiquas et approbatas tenore presentium confirmamus. ♦</p>
+            <p n="a#3" xml:space="preserve">Quare districtius inhibemus, ne quis advocatorum nostrorum aut officialium seu quivis alius cujuscunque conditionis aut status existat, ipsos dominos canonicos aut aliquem ipsorum contra hanc nostram confirmationem et gratiam ipsis factam presumat aliqualiter molestare. ♦</p>
+            <p n="a#4" xml:space="preserve">Ut autem predicta nostra confirmatio firma et inconcussa permaneat, presentes litteras nostri secreti appensione fecimus roborari. ♦</p>
+            <p n="a#5" xml:space="preserve">Actum et datum Roskildis anno Domini millesimo quadringentesimo vicesimo tertio, feria tertia proxima post festum beati Jacobi apostoli.</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

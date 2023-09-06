@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="jon">
+                  <persName>
+                     <forename type="first">Jonathan</forename>
+                     <surname>Adams</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">182</num>, paragraphs: <num n="paragraphs">6</num>. Translation, number of words: <num n="words">12</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14290605001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>København</settlement>
+                        <repository>RA</repository>
+                        <collection>NKR</collection>
+                        <idno>c-3047</idno>
+                        <msName>tidl. Bornholm 13</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <objectDesc>
+                           <supportDesc material="parch">
+                              <support>
+                                 <ab>Pergament</ab>
+                              </support>
+                              <extent>
+                                 <dimensions unit="cm">
+                                    <height>12.5 (plica: 1.6)</height>
+                                    <width>24.8</width>
+                                 </dimensions>
+                              </extent>
+                              <condition>
+                                 <ab>Der er et stort hul i perg. med tab af tekst i alle linjerne</ab>
+                              </condition>
+                           </supportDesc>
+                           <layoutDesc>
+                              <ab>empty</ab>
+                           </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                           <handNote>
+                              <ab>empty</ab>
+                           </handNote>
+                        </handDesc>
+                        <additions>
+                           <ab>Bagpå: <q>Pa en gard i s<ex>anc</ex>te Iacobs sogh<ex>e</ex>
+                                 <damage>..</damage> kaless Stengorden som Hans <damage>..</damage> ok Bo
+        Peth<ex>er</ex>s<ex>øn</ex> solde Age
+      Nie<damage>ls<ex>øn</ex>
+                                 </damage>
+                              </q></ab>
+                        </additions>
+                        <sealDesc>
+                           <seal n="1" type="pendant">
+                              <ab>Bomærke i lyst voks i perg.rem</ab>
+                           </seal>
+                           <seal n="2" type="missing">
+                              <ab>Seglsnit</ab>
+                           </seal>
+                           <seal n="3" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="4" type="pendant">
+                              <ab>Per Bosens segl i lyst voks i perg.rem, <ref>AS L xv 10</ref></ab>
+                           </seal>
+                           <seal n="5" type="pendant">
+                              <ab>Nis (el. Jes) Bings segl i lyst voks i perg.rem, <ref>AS I ii 4 (s nicolai bingh)</ref></ab>
+                           </seal>
+                           <seal n="6" type="missing">
+                              <ab>Perg.rem</ab>
+                           </seal>
+                           <seal n="7" type="pendant">
+                              <ab>Bomærke i lyst voks i perg.rem</ab>
+                           </seal>
+                        </sealDesc>
+                     </physDesc>
+                     <history>
+                        <ab>empty</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>Rep. nr. 6400</bibl>
+               <bibl>Reg. *4850</bibl>
+               <bibl>Hübertz, Bornholm 15</bibl>
+               <bibl>Gammeldanske Diplomer 2. rk. III 174</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>A</ref>. Brevets lakuner er udfyldt med støtte i det nært beslægtede brev af <ref target="14290713001">DD 1429. 13.-20. jul., nr. 14290713001</ref>. Jf. også Gammeldanske Diplomer 2. rk. III 174.</ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1429-06-05"
+                  notBefore="1429-06-05"
+                  notAfter="1429-06-05"
+                  cert="high">1429. 5. juni</date>
+            <placeName cert="low">[Bornholm]</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gda">Hovedsprog: gammeldansk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Hans Bentsen i Bodilsker sogn og Bo Petersen i Pedersker sogn, væbnere,
+      skøder en gård kaldet Stengården (nu: Stensgård) i Ibsker sogn nord for Nexø til Åge Nielsen (Sparre), landsfoged
+      på Bornholm.</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-31" who="#pbh">Filen etableret af #pbh 2014-07-31. </change>
+         <change when="2018-01-28" who="#jon">1. korrektur af #jon 2018-01-28. </change>
+         <change when="99999999" who="#alk">2. korrektur af #alk 99999999. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gda">
+            <p n="a#1" xml:space="preserve">Alle men th<ex>et</ex>te b<ex>re</ex>f<damage>f see eller høre læs</damage>e helse wy
+        <persName>Hans Bents<ex>øn</ex></persName> j <placeName>sancti Botulfs k<ex>ir</ex>ke
+        sogn</placeName> / <persName>Bo Pet<ex>er</ex>s<ex>øn</ex></persName> j <placeName>sancti
+        Pet<ex>er</ex>s k<ex>ir</ex>k<ex>e</ex> sokn</placeName> wæpner<ex>e</ex> pa
+        Bornd<damage>eholm ewinnelighe</damage> m<ex>eth</ex> wor h<ex>er</ex>re / ♦</p>
+            <p n="a#2" xml:space="preserve">Kungøre wj alle men m<ex>eth</ex> th<ex>et</ex>te nar<hi rend="sup">de</hi> wort vpnæ
+      b<ex>re</ex>ff th<ex>et</ex> wj weth<ex>e</ex>r ke<ex>n</ex>nes os at hafw<damage>e saald en
+        ærligh</damage> ma<ex>n</ex> oc welburdug <persName>Aghe Niels<ex>øn</ex></persName> lantz
+      fogh<ex>et</ex> pa <placeName>Borndeholm</placeName> en wor gard liggend<ex>es</ex> jnne<ex>n</ex>
+      <placeName>sancti Jac<damage>obs k<ex>ir</ex>ke sogn o</damage>wen Nexø</placeName>
+      so<ex>m</ex> kalles <placeName>Stengarden</placeName> m<ex>eth</ex> alle tiilliggelse oc
+      egendom vden gærde oc jnne<ex>n</ex> gærde / enth<damage>e vndertaghet</damage> oc fulnet tiil
+      wore nøghe aff for<hi rend="sup">de</hi>
+      <persName>Oghe Niels<ex>øn</ex></persName> at hafwe vp bor<ex>et</ex> for th<ex>et</ex> for<hi rend="sup">de</hi> gotz / ♦</p>
+            <p n="a#3" xml:space="preserve">Och k<damage>ennes wi os for<hi rend="sup">de</hi> H</damage><persName>ans
+        Bents<ex>øn</ex></persName> oc <persName>Bo Peth<ex>e</ex>rs<ex>øn /</ex></persName> at hafwe
+      skøt for<hi rend="sup">de</hi>
+      <persName>Oge Niels<ex>øn</ex></persName> th<ex>et</ex> for<hi rend="sup">de</hi> gotz fra os
+      oc wore arfwi<ex>n</ex>g<damage>e hanu<ex>m</ex> oc</damage> hans arfwi<ex>n</ex>ge tiil
+      ewy<ex>n</ex>nelige eye / ♦</p>
+            <p n="a#4" xml:space="preserve">Och tiil binde wj for<hi rend="sup">de</hi>
+      <persName>Hans Bents<ex>øn</ex></persName> / oc <persName>Bo
+        Pet<ex>er</ex>s<ex>øn</ex></persName> oc wore arf<damage>winge os at frii o</damage>c
+      tiilsta for<hi rend="sup">de</hi>
+      <persName>Oge Niels<ex>øn</ex></persName> oc hans arfwinge th<ex>et</ex> for<hi rend="sup">de</hi> gotz for hwors mantz tiil thale eller hind<damage>er</damage> ♦</p>
+            <p n="a#5" xml:space="preserve"><damage>Tiil mer<ex>e</ex></damage> wisse oc witnæsbørd henge wj for<hi rend="sup">de</hi>
+      <persName>Hans Bents<ex>øn</ex></persName> oc <persName>Bo
+        Pet<ex>er</ex>s<ex>øn</ex></persName> wor jnsegle m<ex>eth</ex> wilie oc witsca<damage>p
+        for</damage> th<ex>et</ex>te b<ex>re</ex>ff m<ex>eth</ex> flere gode me<ex>n</ex>nis jnsigle
+      som h<ex>er</ex>
+      <persName>And<ex>e</ex>r<ex>s</ex> Mychels<ex>øn</ex></persName> soknæ p<ex>re</ex>st at
+        <placeName>sancti Jacobs k<ex>ir</ex>k<ex>e</ex></placeName> pa
+          <placeName><damage>Bor</damage>ndeholm</placeName> / <persName>Pæth<ex>e</ex>r
+        Booss<ex>øn</ex></persName> land<ex>s</ex> domer<ex>e</ex> / <persName>Nis <app><lem>Byngh</lem><rdg resp="#jon">Eller <q>Byugh</q></rdg></app></persName> / <persName>Nis Pet<ex>er</ex>s<ex>øn</ex> Hwithow<ex>et</ex></persName> /
+        <persName>Ryngh Asc<ex>er</ex>s<ex>øn</ex></persName> / wæpner<ex>e</ex> pa fo<damage>r<hi rend="sup">de</hi> Bo</damage>rndeholm / ♦</p>
+            <p n="a#6" xml:space="preserve">Gifw<ex>et</ex> aar æpt<ex>er</ex> gutz børd m<hi rend="sup">o</hi> cd<hi rend="sup">o</hi>
+        xxix<hi rend="sup">o</hi> sancti Bonefacii dag biscop oc martir ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

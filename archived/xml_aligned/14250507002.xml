@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="fgj">
+                  <persName>
+                     <forename>Finn Gredal</forename>
+                     <surname>Jensen</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>. Translation, number of words: <num n="words">1</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14250507002</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Det Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection/>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt. Registreret i København. Rigsarkivet. De ældste arkivregistraturer. Silkeborgske reg. A (1558), s. 123, T. 7, med overskriften <q>Then skufflade som T stander paa / findis breffue paa thet gotzs vdi Hoffuelbiergherrit liggendis tiil Drotningborg slot som effter følger</q>. Endvidere registreret i Silkeborgske reg. B (1558)<!--. Der er i dette tilfælde ingen betydningsmæssig varians mellem A-reg. og B-reg--></ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>ÆA II 86 nr. T. 7</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter
+               <ref>A-reg.</ref>
+            </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1425-05-07"
+                  notBefore="1425-05-07"
+                  notAfter="1425-05-07"
+                  cert="high">1425. 7. maj<note>Det fremgår ikke af Silkeborgske reg., hvem der skødes til, men det er sandsynligvis hr. Thomas Jensen, der senere samme måned skøder det samme gods til en ukendt modtager (<ref target="14250224002">DD 1425. 24. maj, nr. 14250524002</ref>). De to skøder er indført under samme nummer i registraturen sammen med et ældre pantebrev fra 1407 på Hesselbjerggård, Houlbjerg herred, udstedt af hr. Klaus Esbernsen Krumpen (<ref target="14071118001">DD 1407. 18. nov., nr. 14071118001</ref>)</note>
+            </date>
+            <placeName cert="unknown">empty</placeName>
+         </creation>
+         <langUsage>
+            <language ident="xda"/>
+         </langUsage>
+         <abstract>
+            <ab>Fru Sofie Olufsdatter, hr. Klaus (Esbernsen) Krumpens enke, skøder Hesselbjerg, Hesselbjerg fang, Mikkelstrup og Mikkelstrup fang (Houlbjerg herred) til en ukendt modtager. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-01" who="#pbh">Filen etableret af #pbh 2014-07-01. </change>
+         <change when="2019-01-28" who="#fgj">Kladde: 1. korrektur #fgj 2019-01-28. </change>
+         <change when="99999999" who="#nil">Kladde: 2. korrektur mangler. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="xda">
+            <p n="a#1" xml:space="preserve">Item <app><lem>end</lem><rdg>mgl. i B-reg</rdg></app> et gamelt skrøbeligt skøde breff aff frue <persName>Sophie Olluffs datt<ex>er</ex></persName> her <persName>Claus Krompens</persName> eftherleffuerske paa <placeName>Hesselbierg</placeName> och <placeName>Hesselbierg</placeName> fang / <placeName>Michelsstrup</placeName> oc <placeName>Michelstrop fang</placeName> / ♦</p>
+            <p n="a#2" xml:space="preserve">Datum mcdxxv in crastino beati Johanis ante portam latinam : ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

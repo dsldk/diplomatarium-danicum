@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diplomatarium Danicum</title>
+            <editor>
+               <name xml:id="smb">
+                  <persName>
+                     <forename type="first">Sebastian</forename>
+                     <forename type="middle">Møller</forename>
+                     <surname>Bak</surname>
+                  </persName>
+               </name>
+            </editor>
+            <funder>Carlsbergfondet</funder>
+         </titleStmt>
+         <extent>Base text, number of words: <num n="words">365</num>, paragraphs: <num n="paragraphs">12</num>. Translation, number of words: <num n="words">0</num>, paragraphs: <num n="paragraphs">1</num>
+         </extent>
+         <publicationStmt>
+            <publisher>Danske Sprog- og Litteraturselskab</publisher>
+            <pubPlace>København</pubPlace>
+            <date>2019</date>
+            <idno type="dd">14280819001</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab>Copyright © 2019, Danske Sprog- og
+                                Litteraturselskab</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
+                        <collection>empty</collection>
+                        <idno>empty</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Tabt</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+               <witness xml:id="Aa">
+                  <msDesc>
+                     <msIdentifier>
+                        <settlement>Lübeck</settlement>
+                        <repository>Archiv der Hansestadt Lübeck</repository>
+                        <collection>Altes Senatsarchiv (ASA), Externa, Danica</collection>
+                        <idno>signatur 03,2 (tidligere Dreyer, Acta Danica 1,4)</idno>
+                        <msName>empty</msName>
+                     </msIdentifier>
+                     <physDesc/>
+                     <history>
+                        <ab>Afskrift vedlagt hansestædernes rådsudsendinges brev af 22. august 1428 til
+      rådet i Lübeck</ab>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl>UBStL 7, nr. CCXIV, p. 199-200</bibl>
+               <bibl>Styffe, Bidrag till Skandinaviens historia II, p. 234-35</bibl>
+               <bibl>Hanserec. VIII, nr. 500, p. 323 (udtog)</bibl>
+               <bibl>Reg. Dan. nr. *4841</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <ab>Tekst efter <ref>Styffe l.l., hvorfra også de arkivalske oplysninger stammer</ref>. </ab>
+         </samplingDecl>
+         <projectDesc>
+            <ab>DD-5</ab>
+         </projectDesc>
+         <appInfo>
+            <application xml:id="app_nil"
+                         type="nil"
+                         subtype="nil"
+                         ident="nil"
+                         version="99999999">
+               <desc>nil</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="1428-08-19"
+                  notBefore="1428-08-19"
+                  notAfter="1428-08-19"
+                  cert="high">1428. 19. august<note>Brevmodtageren fremgår ikke af Aa. UBStL l.l. antager, at modtageren er
+    rådet i Wismar. Derimod antager Styffe l.l., at modtageren af brevet er rådet i Lübeck. Mest
+    sandsynligt er det dog, at brevmodtageren var de i Wismar forsamlede rådsudsendinge fra
+    hansestæderne, således som Hanserec. l.l. antager det, idet afskriften af såvel brevet som den
+    vedlagte seddel blev sendt fra hansestædernes rådsudsendinge i Wismar til rådet i Lübeck den 22.
+    august 1428, jf. UBStL 7, nr. CCXVI, p. 201, samt Hanserec. VIII, nr. 501, p.
+    323</note>
+            </date>
+            <placeName cert="low">Stralsund</placeName>
+         </creation>
+         <langUsage>
+            <language ident="gml">Hovedsprog: middelnedertysk. </language>
+         </langUsage>
+         <abstract>
+            <ab>Rådet i Stralsund skriver til hansestædernes rådsudsendinge, som er forsamlet i Wismar. </ab>
+            <ab>Rådet i Stralsund meddeler, at det af otte personer, som netop er returneret fra København,
+      har fået oplysninger om den i Øresund liggende svenske flådes dårlige tilstand. Stralsund
+      meddeler, at svenskerne på rejsen til Øresund har lidt stor nød, hvad angår både mad og
+      drikke, hvorfor de f.eks. har været nødsaget til at drikke vand på rejsen. </ab>
+            <ab>Endvidere meddeler rådet i Stralsund, at 80 skibe under hr. Aksel Pedersen (Thotts) kommando
+      nu er sejlet fra København til Grønsund eller Gedser for dér at opbringe hansestædernes skibe.
+      Disse skibe er dog mestendels snekker. </ab>
+            <ab>Endvidere meddeler rådet i Stralsund, at det i mellemtiden har fået nærmere oplysningerne om
+      den svenske flåde i Øresund. Den svenske flåde tæller således omtrent 2000 mand, men kun 400
+      af disse er fuldt udrustede til kamp. Resten er bønder og løse folk. Svenskerne ligger stadig
+      i Øresund, men de vil først stævne ind, når kong Erik 7. af Pommern giver dem proviant, for de
+      har ingen proviant ombord. </ab>
+            <ab>Endvidere meddeles det, at de 80 tidligere omtalte skibe under hr. Aksel Pedersens kommando
+      kun er små snekker, samt at de er bemandet af udygtige søfolk. </ab>
+            <ab>Endelig meddeles det, at kong Eriks skibe kun kan bruges i Øresund, idet de er dårligt
+      tiltaklede, og idet de ikke er bemandede af søfolk. </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-07-29" who="#pbh">Filen etableret af #pbh 2014-07-29. </change>
+         <change when="2019-05-08" who="#smb">1. korrektur af #smb 2019-05-08. </change>
+         <change when="2019-08-30" who="#smb">2. korrektur af #smb 2019-08-30. </change>
+         <change when="99999999" who="#nil">Kladde: 3. korrektur mangler. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="nil"/>
+   </facsimile>
+   <text>
+      <body>
+         <div xml:lang="gml">
+            <p n="a#1" xml:space="preserve">Post salutationem ♦</p>
+            <p n="a#2" xml:space="preserve">Ersamen heren leuen vrunde ♦</p>
+            <p n="a#3" xml:space="preserve">Vns sint enckede warafftige tidinge to wetende worden van achte vromen luden de van
+        <placeName>Kopenhauen</placeName> sint segelende komen vnde dar yn <app><lem>dinxtedage auende negest vorleden</lem><rdg>dvs. 17. august 1428</rdg></app> noch weren wo de zweden yn <placeName>deme Sunde</placeName> syn vnde sint allentelken
+      yn komen zegelende by eneme twen dren schepen men se hebben grote noed geleden an <app><lem>etenden</lem><rdg>UBStL l.l. læser <q>etende</q></rdg></app> vnde an <app><lem>drinckenden</lem><rdg>UBStL l.l. læser <q>drinckende</q></rdg></app> so dat se water drincken mosten vnde se hebben vns vorbaet berichtet wo dat wol lxxx
+      segele vth <placeName>deme Sunde</placeName> weren gesegeld der se sik anders nergen
+      vormudende weren men yn <placeName>deme Gronessunde</placeName> offte <placeName><app><lem>Gheiszor</lem><rdg>UBStL l.l. læser <q>Gheissor</q></rdg></app></placeName> vthliggende wardende vp de schepe de myd <app><lem>gudern</lem><rdg>UBStL l.l. læser <q>guderen</q></rdg></app> geladen tusschen den steden zegelen wente se de tidinge dar to
+        <placeName>Kopenhauen</placeName> hadden des drudden dages darna alse de zegelacie van den
+      steden geopend was vnde men kan nyn dingk handelen yn vnsen steden se weten dat dar yo yn den
+      drudden dach dat Gode geclaget mote syn ♦</p>
+            <p n="a#4" xml:space="preserve">Leuen vrunde dat gi hir vp vordacht syn yn dat beste wente so se vns gesecht hebben so sint
+      dat meeste deel de snycken de se den <app><lem>vthlegghers</lem><rdg>UBStL l.l. læser <q>vthliggers</q></rdg></app> genomen hebben vnde her <persName>Axel <app><lem>Pedersson</lem><rdg>UBStL l.l. læser <q>Pederssone</q></rdg></app></persName> sy dar vor houetman mede ♦</p>
+            <p n="a#5" xml:space="preserve">Gode almechtich sijd beuolen to langen <app><lem>saligen</lem><rdg>UBStL l.l. læser <q>zaligen</q></rdg></app> tijden ♦</p>
+            <p n="a#6" xml:space="preserve">Screuen vnder vnser <app><lem>secret</lem><rdg>UBStL l.l. læser <q>secrete</q></rdg></app> des dunredags na assumptionis Marie ♦</p>
+            <p n="a#7" xml:space="preserve">Radmanne to <placeName>deme Stralessunde</placeName> ♦</p>
+            <p n="a#8" xml:space="preserve"><app><lem>Leuen vrunde</lem><rdg>Afsnittet <q>Leuen vrunde - dar vp en hebben</q> var skrevet på en separat, nu tabt
+          seddel, som var vedlagt A. Afsnittet har i Aa følgende overskrift: <q>Copia
+          ceddule</q></rdg></app> ♦</p>
+            <p n="a#9" xml:space="preserve">Sodder der gift desses breues so sind by vns gekomen etlike warafftige lude van
+        <placeName>Kopenhauen</placeName> den wol to louende steyt vns berichtende de suluen tidinge
+      so wi iw vorscreuen hebben, yodoch vterliker wen vns beuoren berichtet is ♦</p>
+            <p n="a#10" xml:space="preserve">Se seighen vns der zweden sint ouer al by twen dusent, vnde dat mesten deel sint man bunden
+      vnde loze lude vnde hebben nicht veerhundert werafftige to vullen harnsche vnde ligghen noch
+      alle buten vnde willen nicht yn legghen ane her koningk spise se myd vitallie wente se nene
+      vitallie hebben so wij iw gescreuen hebben, kan en dat nicht bescheen so willen se wedder to
+      huis zegelen ♦</p>
+            <p n="a#11" xml:space="preserve">Van den lxxx zegelen dar wi iw van screuen dat sind altomale clene snycken dar ys nyn dreplik
+      offte <app><lem>warafftich</lem><rdg>UBStL l.l. læser <q>werafftich</q></rdg></app> volk vppe hir vmme so ramet des besten ♦</p>
+            <p n="a#12" xml:space="preserve">De koninges schepe liggen alle bynnen, weren se ok buten gelecht so konden se ok vurder nicht
+      denen wen bynnen Sundes wente se ouele betakelt syn vnde nynerleye schiplude dar vp en hebben
+      ♦</p>
+         </div>
+         <div xml:lang="da">
+            <p n="b#1" xml:space="preserve">
+      I perioden frem til 30. juni 2021 vil redaktionen udelukkende udarbejde tekster.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
