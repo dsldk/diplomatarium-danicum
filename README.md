@@ -11,4 +11,4 @@ Repositoriet er således struktureret:
 - archived: materiale fra gammelt site
 
 
-Kontakt: <mailto:smb@dsl.dk>
+Kontakt: <smb@dsl.dk>
