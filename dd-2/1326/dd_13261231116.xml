@@ -19,9 +19,10 @@
             <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
             <pubPlace>København</pubPlace>
             <date>2014-09-01</date>
-            <idno type="dd">13260725001</idno>
+            <idno type="dd">13269999001</idno>
             <idno type="isbn">nil</idno>
-            <idno type="dd-2-supp">1326-07-25</idno>
+            <idno type="dd-2-supp">1326a-00-00a</idno>
+            <idno type="dd_serialno">351S1</idno>
             <availability status="restricted">
                <ab>Copyright © 2014, Danske Sprog- og Litteraturselskab</ab>
             </availability>
@@ -31,11 +32,11 @@
                <witness xml:id="A">
                   <msDesc>
                      <msIdentifier>
-                        <settlement>Lübeck</settlement>
-                        <repository>Stadtarchiv</repository>
+                        <settlement>empty</settlement>
+                        <repository>empty</repository>
                         <collection>empty</collection>
                         <idno>empty</idno>
-                        <msName>Niederstadtbuch, Urschriften 1312-1362, p. 116</msName>
+                        
                         
                      </msIdentifier>
                      <physDesc>
@@ -70,13 +71,15 @@
                         </sealDesc>
                      </physDesc>
                      <history>
-                        <ab>empty</ab>
+                        <ab>Tabt. Omtalt i Bartholin K p. 67 efter et tabt håndskrift hos Jens
+                        Rosenkrands, der igen var en afskrift af et arbejde af Stephanius:
+                        Animadversiones ad Seriem Abbatum Soranorum</ab>
                      </history>
                   </msDesc>
                </witness>
             </listWit>
             <listBibl>
-               <bibl></bibl>
+               <bibl>SRD. IV 556</bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -99,16 +102,15 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <date when="1326-07-25"
-                  notBefore="1326-07-25"
-                  notAfter="1326-07-25"
-                  cert="low">[1326. 25. juli]<ref target="drb1"/>
-            </date>
-            <placeName>Lübeck</placeName>
+            <date when="1326-01-01"
+                  notBefore="1326-01-01"
+                  notAfter="1326-01-01"
+                  cert="high">1326</date>
+            <placeName>empty</placeName>
          </creation>
          <abstract>
-            <ab>Indførsel i Niederstadtbuch: Johan van Berckentin skylder Thideman
-                        Rind fra Randers 54 mark penge.</ab>
+            <ab>Kong Kristoffer 2. skriver til Sorø kloster om udsendelse af et
+                        brødresamfund til Knardrup kloster.</ab>
          </abstract>
          <langUsage>
             <language ident="la"/>
@@ -126,12 +128,18 @@
    <text>
       <body>
          <div xml:lang="la">
-            <p>Iohannes de Parkentin tenetur Thidemanno Rind de Randerhusen uel Thidemanno filio
-                  suo in . liii . marcis . denariorum ♦ Iacobi.</p>
+            <p> annum 1326. Frater Rythbertus abbas de Sora expresse nominatur in quodam
+                  priuilegio Christophori regis, qui quidem rex scribitur eodem anno monachos
+                  ordinis Cisterciensis sancti Bernhardi e Sora transtulisse in monasterium Knardrup <app>
+                  <lem>.....</lem>
+                  <rdg>lakune i Bartholin K</rdg>
+               </app> a se fundatum.</p>
          </div>
          <div xml:lang="da">
-            <p>Johan van Barckentin skylder Thideman Rind fra Randers eller hans søn Thideman 54
-                  mark penge. At betales næste Jacobi.</p>
+            <p> Til år 1326: broder Robert, abbed af Sorø, omtales udtrykkeligt i et af kong
+                  Kristoffers privilegier; netop denne konge beskrives at have overført munke af
+                  Sankt Bernhards cistercienserorden fra Sorø til et af ham selv grundlagt kloster i
+                  Knardrup. </p>
          </div>
       </body>
    </text>
